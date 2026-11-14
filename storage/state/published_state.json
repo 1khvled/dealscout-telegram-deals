@@ -1512,7 +1512,7 @@
     "1005007038022940": 1794146648.256951,
     "1005007981362777": 1794146655.1062205,
     "1005007097302001": 1794146830.4272797,
-    "1005013361453762": 1794650941.0547981,
+    "1005013361453762": 1794666184.5986936,
     "1005013240296031": 1794216974.0881407,
     "1005012670472055": 1794164675.8426867,
     "1005013476568095": 1794169846.8168333,
@@ -1575,7 +1575,7 @@
     "1005012650636759": 1794606633.373106,
     "1005011936109841": 1794475842.5666552,
     "1005012333024137": 1794649534.468107,
-    "1005007822635375": 1794501299.95393,
+    "1005007822635375": 1794666179.4152045,
     "1005001849536579": 1794575748.1745248,
     "1005006967391791": 1794476797.164376,
     "1005013288890301": 1794477157.5349603,
@@ -3381,7 +3381,7 @@
     "Oppo Find X8s+": 1793613942.3770478,
     "Xiaoxin Pad Pro 13 (8/128)": 1794654766.3431966,
     "Lenovo Legion Y900 11 Tablet CN Version MediaTek Dimensity 9500S CPU 11.1\" 4K 144Hz LCD Display 1100": 1793613951.963987,
-    "Honor Pad V9 (8/256)": 1794474343.7781756,
+    "Honor Pad V9 (8/256)": 1794666184.5986936,
     "HONOR Pad X8b (LTE 6/128GB)": 1794136369.073103,
     "[Clearance] realme 14T 5G Smartphone NFC Dimensity 6300 5G Processor": 1793613966.8608465,
     "RYZEN 5 9600X": 1793613978.6202738,
@@ -3655,7 +3655,7 @@
     "H96 MAX RK3518 2/8GB": 1794475838.0735118,
     "Lenovo Legion Y700 12/256GB": 1794475842.5666552,
     "S80 USB 3.2 Flash Drive 128GB": 1794475849.927629,
-    "FANTECH SHOOTER III": 1794475884.0444102,
+    "FANTECH SHOOTER III": 1794666179.4152045,
     "MAONO PM360TR Condenser Microphone": 1794515176.9450598,
     "Machenike G5 Pro Gaming Controller": 1794476797.164376,
     "Webcam EMEET C100 1080P": 1794477157.5349603,
@@ -3710,8 +3710,6 @@
     "DELUX M400 GAMING MOUSE": 1794666009.2783742
   },
   "published_post_keys": [
-    "aniscoupons:33060",
-    "test_channel:1793542236",
     "aniscoupons:33271",
     "aniscoupons:32782",
     "megaphonna:8590",
@@ -4709,11 +4707,13 @@
     "lodydeals:46494",
     "aniscoupons:34891",
     "ecksdeal:6062",
-    "aniscoupons:34893"
+    "aniscoupons:34893",
+    "zedstoreonline:40154",
+    "aniscoupons:34894"
   ],
   "last_disclaimer_time": 1794524540.9476151,
   "last_calendar_time": 1794572799.8939624,
-  "last_run_time": 1794666009.2783742,
+  "last_run_time": 1794666184.5986936,
   "monitored_channels": {
     "ecksdeal": {
       "last_message_id": 6063,
@@ -4740,12 +4740,12 @@
       "last_check_time": 1793599663.3444748
     },
     "zedstoreonline": {
-      "last_message_id": 40153,
-      "last_check_time": 1794664115.1980512
+      "last_message_id": 40154,
+      "last_check_time": 1794666181.4603264
     },
     "aniscoupons": {
-      "last_message_id": 34893,
-      "last_check_time": 1794666011.3548746
+      "last_message_id": 34894,
+      "last_check_time": 1794666186.648021
     },
     "bnddeals": {
       "last_message_id": 51301,
@@ -4914,7 +4914,7 @@
     "1005006996130042": 1.0,
     "1005013052800596": 1.45,
     "1005007331316456": 17.6,
-    "1005007822635375": 20.3,
+    "1005007822635375": 20.9,
     "1005013096683979": 54.68,
     "1005006838055260": 1.81,
     "1005006923518929": 0.84,
@@ -5349,7 +5349,7 @@
     "1005007038022940": 5.49,
     "1005007981362777": 5.69,
     "1005007097302001": 4.69,
-    "1005013361453762": 276.3,
+    "1005013361453762": 277.36,
     "1005013240296031": 68.98,
     "1005012670472055": 112.11,
     "1005013476568095": 370.8,
@@ -24258,6 +24258,26 @@
       "price": 14.4,
       "timestamp": 1794666009.2783742,
       "status": "ACTIVE"
+    },
+    "zedstoreonline:40154": {
+      "channel_msg_id": 2706,
+      "product_id": "1005007822635375",
+      "title": "FANTECH SHOOTER III",
+      "channel": "zedstoreonline",
+      "source_msg_id": 40154,
+      "price": 20.9,
+      "timestamp": 1794666179.4152045,
+      "status": "ACTIVE"
+    },
+    "aniscoupons:34894": {
+      "channel_msg_id": 2707,
+      "product_id": "1005013361453762",
+      "title": "Honor Pad V9 (8/256)",
+      "channel": "aniscoupons",
+      "source_msg_id": 34894,
+      "price": 277.36,
+      "timestamp": 1794666184.5986936,
+      "status": "ACTIVE"
     }
   },
   "schedule_config": {
@@ -24266,17 +24286,17 @@
     "current_interval_minutes": 5,
     "is_paused": false,
     "night_mode_enabled": true,
-    "last_deal_post_time": 1794666012.4193635,
+    "last_deal_post_time": 1794666187.1442518,
     "night_start_hour_dz": 0,
     "night_end_hour_dz": 8,
     "night_pause_enabled": true,
-    "last_sweep_time": 1794666015.4843976,
+    "last_sweep_time": 1794666189.5434074,
     "last_sweep_times": {
-      "algeria": 1794666012.3916984,
-      "france": 1794666015.4843976
+      "algeria": 1794666187.1256948,
+      "france": 1794666189.5434074
     },
     "last_deal_post_times": {
-      "algeria": 1794666012.4193635
+      "algeria": 1794666187.1442518
     }
   },
   "last_coin_reminder_time": 1794533888.682542,
@@ -24458,7 +24478,7 @@
     "1005007331316456": "zedstoreonline",
     "1005008852027824": "zedstoreonline",
     "1005012312990781": "lodydeals",
-    "1005007822635375": "lodydeals",
+    "1005007822635375": "zedstoreonline",
     "1005013096683979": "ecksdeal",
     "1005006838055260": "couponsglobal",
     "1005006923518929": "couponsglobal",
@@ -24990,7 +25010,7 @@
     "1005007038022940": "lodydeals",
     "1005007981362777": "lodydeals",
     "1005007097302001": "lodydeals",
-    "1005013361453762": "zedstoreonline",
+    "1005013361453762": "aniscoupons",
     "1005013240296031": "lodydeals",
     "1005012670472055": "lodydeals",
     "1005010062128237": "lodydeals",
@@ -28859,6 +28879,11 @@
         "channel": "zedstoreonline",
         "ts": 1794650939.0160332,
         "price": 276.3
+      },
+      {
+        "channel": "aniscoupons",
+        "ts": 1794666182.9310994,
+        "price": 277.36
       }
     ],
     "1005011779814585": [
@@ -29162,6 +29187,13 @@
         "channel": "aniscoupons",
         "ts": 1794666007.6102984,
         "price": 14.4
+      }
+    ],
+    "1005007822635375": [
+      {
+        "channel": "zedstoreonline",
+        "ts": 1794666177.3389366,
+        "price": 20.9
       }
     ]
   },
