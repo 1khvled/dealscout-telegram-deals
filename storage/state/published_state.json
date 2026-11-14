@@ -810,7 +810,9 @@
     "1005006727752164",
     "1005010444603559",
     "1005012781081420",
-    "1005009806804463"
+    "1005009806804463",
+    "1005007096763939",
+    "1005008341428946"
   ],
   "published_product_timestamps": {
     "1005012973772517": 1794500732.7845657,
@@ -1636,7 +1638,9 @@
     "1005006727752164": 1794674313.8272793,
     "1005010444603559": 1794675044.3030443,
     "1005012781081420": 1794675219.0916212,
-    "1005009806804463": 1794675767.8515701
+    "1005009806804463": 1794675767.8515701,
+    "1005007096763939": 1794676331.0514421,
+    "1005008341428946": 1794676338.751973
   },
   "published_titles": [
     "Wireless WiFi Repeater 300Mbps WiFi Extender Amplifier Booster Router",
@@ -2694,7 +2698,9 @@
     "ساعة YNOKE الإلكترونية الرياضية للرجال",
     "Vention Elf E07",
     "مكبر صوت Awei المغناطيسي اللاسلكي",
-    "HONGTOP P30 PRO Smart Projector"
+    "HONGTOP P30 PRO Smart Projector",
+    "H20PRO TV Box 2/16GB",
+    "DOOV R77 4G Touch (3/32GB)"
   ],
   "published_title_timestamps": {
     "Xiaomi Redmi Note 17 5G Global Version": 1790857823.0117362,
@@ -3757,11 +3763,11 @@
     "ساعة YNOKE الإلكترونية الرياضية للرجال": 1794674313.8272793,
     "Vention Elf E07": 1794675044.3030443,
     "مكبر صوت Awei المغناطيسي اللاسلكي": 1794675219.0916212,
-    "HONGTOP P30 PRO Smart Projector": 1794675767.8515701
+    "HONGTOP P30 PRO Smart Projector": 1794675767.8515701,
+    "H20PRO TV Box 2/16GB": 1794676331.0514421,
+    "DOOV R77 4G Touch (3/32GB)": 1794676338.751973
   },
   "published_post_keys": [
-    "aniscoupons:33043",
-    "aniscoupons:33042",
     "lodydeals:45888",
     "aniscoupons:32860",
     "megaphonna:8621",
@@ -4759,11 +4765,13 @@
     "aniscoupons:34911",
     "zedstoreonline:40172",
     "zedstoreonline:40174",
-    "aniscoupons:34913"
+    "aniscoupons:34913",
+    "zedstoreonline:40175",
+    "aniscoupons:34914"
   ],
   "last_disclaimer_time": 1794524540.9476151,
   "last_calendar_time": 1794572799.8939624,
-  "last_run_time": 1794675967.2054362,
+  "last_run_time": 1794676338.751973,
   "monitored_channels": {
     "ecksdeal": {
       "last_message_id": 6063,
@@ -4790,12 +4798,12 @@
       "last_check_time": 1793599663.3444748
     },
     "zedstoreonline": {
-      "last_message_id": 40174,
-      "last_check_time": 1794675769.9394064
+      "last_message_id": 40175,
+      "last_check_time": 1794676333.173388
     },
     "aniscoupons": {
-      "last_message_id": 34913,
-      "last_check_time": 1794675969.269066
+      "last_message_id": 34914,
+      "last_check_time": 1794676340.8290744
     },
     "bnddeals": {
       "last_message_id": 51301,
@@ -5505,7 +5513,9 @@
     "1005006727752164": 2.7,
     "1005010444603559": 7.53,
     "1005012781081420": 11.3,
-    "1005009806804463": 42.7
+    "1005009806804463": 42.7,
+    "1005007096763939": 19.7,
+    "1005008341428946": 63.47
   },
   "channel_published_deals": {
     "aniscoupons:32590": {
@@ -24570,6 +24580,26 @@
       "price": 22.6,
       "timestamp": 1794675967.2054362,
       "status": "ACTIVE"
+    },
+    "zedstoreonline:40175": {
+      "channel_msg_id": 2732,
+      "product_id": "1005007096763939",
+      "title": "H20PRO TV Box 2/16GB",
+      "channel": "zedstoreonline",
+      "source_msg_id": 40175,
+      "price": 19.7,
+      "timestamp": 1794676331.0514421,
+      "status": "ACTIVE"
+    },
+    "aniscoupons:34914": {
+      "channel_msg_id": 2733,
+      "product_id": "1005008341428946",
+      "title": "DOOV R77 4G Touch (3/32GB)",
+      "channel": "aniscoupons",
+      "source_msg_id": 34914,
+      "price": 63.47,
+      "timestamp": 1794676338.751973,
+      "status": "ACTIVE"
     }
   },
   "schedule_config": {
@@ -24578,17 +24608,17 @@
     "current_interval_minutes": 5,
     "is_paused": false,
     "night_mode_enabled": true,
-    "last_deal_post_time": 1794675970.1639342,
+    "last_deal_post_time": 1794676341.829871,
     "night_start_hour_dz": 0,
     "night_end_hour_dz": 8,
     "night_pause_enabled": true,
-    "last_sweep_time": 1794676138.837495,
+    "last_sweep_time": 1794676344.769362,
     "last_sweep_times": {
-      "algeria": 1794676136.5340705,
-      "france": 1794676138.837495
+      "algeria": 1794676341.7962782,
+      "france": 1794676344.769362
     },
     "last_deal_post_times": {
-      "algeria": 1794675970.1639342
+      "algeria": 1794676341.829871
     }
   },
   "last_coin_reminder_time": 1794533888.682542,
@@ -25412,7 +25442,9 @@
     "1005006727752164": "zedstoreonline",
     "1005010444603559": "aniscoupons",
     "1005012781081420": "zedstoreonline",
-    "1005009806804463": "zedstoreonline"
+    "1005009806804463": "zedstoreonline",
+    "1005007096763939": "zedstoreonline",
+    "1005008341428946": "aniscoupons"
   },
   "published_title_channels": {
     "Test Wrench Set": "test_channel",
@@ -26477,7 +26509,9 @@
     "ساعة YNOKE الإلكترونية الرياضية للرجال": "zedstoreonline",
     "Vention Elf E07": "aniscoupons",
     "مكبر صوت Awei المغناطيسي اللاسلكي": "zedstoreonline",
-    "HONGTOP P30 PRO Smart Projector": "zedstoreonline"
+    "HONGTOP P30 PRO Smart Projector": "zedstoreonline",
+    "H20PRO TV Box 2/16GB": "zedstoreonline",
+    "DOOV R77 4G Touch (3/32GB)": "aniscoupons"
   },
   "religious_reminders_history": {
     "mock_rem": "2026-10-02",
