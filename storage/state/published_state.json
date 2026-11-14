@@ -1467,7 +1467,7 @@
     "1005013028124905": 1793971934.3600886,
     "1005012691642623": 1794074230.5173922,
     "1005010266233059": 1793977272.9654846,
-    "1005007469003552": 1794130707.0577464,
+    "1005007469003552": 1794664656.5838907,
     "1005010041181003": 1794651747.5170398,
     "1005010265542567": 1794131426.95932,
     "1005003156756854": 1794649343.9097252,
@@ -2652,7 +2652,8 @@
     "SOYO AMD B550M Gaming",
     "Delux M400 PAW3311 24000DPI 1Khz 500mAh Wireless",
     "Delux M800mini Wireless Gaming Mouse",
-    "ASROCK X570M PRO4 Motherboard"
+    "ASROCK X570M PRO4 Motherboard",
+    "Ulanzi A100 Wireless Lavalier Mic"
   ],
   "published_title_timestamps": {
     "Xiaomi Redmi Note 17 5G Global Version": 1790857823.0117362,
@@ -3699,10 +3700,10 @@
     "SOYO AMD B550M Gaming": 1794643078.050233,
     "Delux M400 PAW3311 24000DPI 1Khz 500mAh Wireless": 1794649518.026784,
     "Delux M800mini Wireless Gaming Mouse": 1794653739.643998,
-    "ASROCK X570M PRO4 Motherboard": 1794660431.126332
+    "ASROCK X570M PRO4 Motherboard": 1794660431.126332,
+    "Ulanzi A100 Wireless Lavalier Mic": 1794664656.5838907
   },
   "published_post_keys": [
-    "ecksdeal:5940",
     "lodydeals:45690",
     "aniscoupons:33206",
     "aniscoupons:32713",
@@ -4701,19 +4702,20 @@
     "aniscoupons:34887",
     "zedstoreonline:40152",
     "aniscoupons:34888",
-    "lodydeals:46492"
+    "lodydeals:46492",
+    "lodydeals:46494"
   ],
   "last_disclaimer_time": 1794524540.9476151,
   "last_calendar_time": 1794572799.8939624,
-  "last_run_time": 1794664109.9908633,
+  "last_run_time": 1794664656.5838907,
   "monitored_channels": {
     "ecksdeal": {
       "last_message_id": 6061,
       "last_check_time": 1794591384.7155294
     },
     "lodydeals": {
-      "last_message_id": 46493,
-      "last_check_time": 1794664470.2617738
+      "last_message_id": 46494,
+      "last_check_time": 1794664658.6647599
     },
     "test_channel": {
       "last_message_id": 1793967703,
@@ -5304,7 +5306,7 @@
     "1005013028124905": 438.6,
     "1005012691642623": 37.1,
     "1005010266233059": 17.1,
-    "1005007469003552": 17.39,
+    "1005007469003552": 17.93,
     "1005010041181003": 167.8,
     "1005010265542567": 24.89,
     "1005003156756854": 11.2,
@@ -24209,6 +24211,16 @@
       "price": 153.04,
       "timestamp": 1794664109.9908633,
       "status": "ACTIVE"
+    },
+    "lodydeals:46494": {
+      "channel_msg_id": 2702,
+      "product_id": "1005007469003552",
+      "title": "Ulanzi A100 Wireless Lavalier Mic",
+      "channel": "lodydeals",
+      "source_msg_id": 46494,
+      "price": 17.93,
+      "timestamp": 1794664656.5838907,
+      "status": "ACTIVE"
     }
   },
   "schedule_config": {
@@ -24217,17 +24229,17 @@
     "current_interval_minutes": 5,
     "is_paused": false,
     "night_mode_enabled": true,
-    "last_deal_post_time": 1794664116.4769971,
+    "last_deal_post_time": 1794664661.2914207,
     "night_start_hour_dz": 0,
     "night_end_hour_dz": 8,
     "night_pause_enabled": true,
-    "last_sweep_time": 1794664478.003321,
+    "last_sweep_time": 1794664663.7330618,
     "last_sweep_times": {
-      "algeria": 1794664475.9095664,
-      "france": 1794664478.003321
+      "algeria": 1794664661.2566671,
+      "france": 1794664663.7330618
     },
     "last_deal_post_times": {
-      "algeria": 1794664116.4769971
+      "algeria": 1794664661.2914207
     }
   },
   "last_coin_reminder_time": 1794533888.682542,
@@ -24897,7 +24909,7 @@
     "1005013028124905": "zedstoreonline",
     "1005012691642623": "zedstoreonline",
     "1005010266233059": "zedstoreonline",
-    "1005007469003552": "aniscoupons",
+    "1005007469003552": "lodydeals",
     "1005010041181003": "aniscoupons",
     "1005010265542567": "aniscoupons",
     "1005003156756854": "zedstoreonline",
@@ -26087,7 +26099,8 @@
     "SOYO AMD B550M Gaming": "aniscoupons",
     "Delux M400 PAW3311 24000DPI 1Khz 500mAh Wireless": "lodydeals",
     "Delux M800mini Wireless Gaming Mouse": "aniscoupons",
-    "ASROCK X570M PRO4 Motherboard": "zedstoreonline"
+    "ASROCK X570M PRO4 Motherboard": "zedstoreonline",
+    "Ulanzi A100 Wireless Lavalier Mic": "lodydeals"
   },
   "religious_reminders_history": {
     "mock_rem": "2026-10-02",
@@ -29085,6 +29098,13 @@
         "channel": "lodydeals",
         "ts": 1794664107.7901466,
         "price": 153.04
+      }
+    ],
+    "1005007469003552": [
+      {
+        "channel": "lodydeals",
+        "ts": 1794664654.6086252,
+        "price": 17.93
       }
     ]
   },
