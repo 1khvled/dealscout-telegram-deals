@@ -821,7 +821,8 @@
     "1005010376374580",
     "1005010239860751",
     "1005009278862695",
-    "1005013005786079"
+    "1005013005786079",
+    "1005008627811107"
   ],
   "published_product_timestamps": {
     "1005012973772517": 1794500732.7845657,
@@ -1658,7 +1659,8 @@
     "1005010376374580": 1794679272.8106956,
     "1005010239860751": 1794689616.7178488,
     "1005009278862695": 1794687391.0146728,
-    "1005013005786079": 1794688878.915808
+    "1005013005786079": 1794688878.915808,
+    "1005008627811107": 1794694594.377669
   },
   "published_titles": [
     "Wireless WiFi Repeater 300Mbps WiFi Extender Amplifier Booster Router",
@@ -2734,7 +2736,8 @@
     "Nothing Buds 2 Neo",
     "مقبس SONOFF ذكي بقوة 16A يتيح تشغيل وإيقاف الأجهزة الكهربائية عن",
     "Anker Soundcore P30i ANC",
-    "Anker 735 GaN 3 Port 65W"
+    "Anker 735 GaN 3 Port 65W",
+    "سماعات الاذن  TANGZU WAN'ER S.G 2 IEM"
   ],
   "published_title_timestamps": {
     "Xiaomi Redmi Note 17 5G Global Version": 1790857823.0117362,
@@ -3815,10 +3818,10 @@
     "Nothing Buds 2 Neo": 1794688878.915808,
     "مقبس SONOFF ذكي بقوة 16A يتيح تشغيل وإيقاف الأجهزة الكهربائية عن": 1794689616.7178488,
     "Anker Soundcore P30i ANC": 1794689795.6476634,
-    "Anker 735 GaN 3 Port 65W": 1794689990.1332982
+    "Anker 735 GaN 3 Port 65W": 1794689990.1332982,
+    "سماعات الاذن  TANGZU WAN'ER S.G 2 IEM": 1794694594.377669
   },
   "published_post_keys": [
-    "lodydeals:45968",
     "lodydeals:45969",
     "zedstoreonline:39153",
     "zedstoreonline:39154",
@@ -4817,15 +4820,16 @@
     "lodydeals:46519",
     "aniscoupons:34935",
     "aniscoupons:34936",
-    "zedstoreonline:40192"
+    "zedstoreonline:40192",
+    "ecksdeal:6065"
   ],
   "last_disclaimer_time": 1794524540.9476151,
   "last_calendar_time": 1794572799.8939624,
-  "last_run_time": 1794693680.6924913,
+  "last_run_time": 1794694594.377669,
   "monitored_channels": {
     "ecksdeal": {
-      "last_message_id": 6064,
-      "last_check_time": 1794676876.8326535
+      "last_message_id": 6065,
+      "last_check_time": 1794694596.4618468
     },
     "lodydeals": {
       "last_message_id": 46520,
@@ -5574,7 +5578,8 @@
     "1005010376374580": 20.4,
     "1005010239860751": 4.8,
     "1005009278862695": 35.55,
-    "1005013005786079": 16.29
+    "1005013005786079": 16.29,
+    "1005008627811107": 10.5
   },
   "channel_published_deals": {
     "aniscoupons:32590": {
@@ -24969,6 +24974,16 @@
       "price": 18.7,
       "timestamp": 1794693680.6924913,
       "status": "ACTIVE"
+    },
+    "ecksdeal:6065": {
+      "channel_msg_id": 2767,
+      "product_id": "1005008627811107",
+      "title": "سماعات الاذن  TANGZU WAN'ER S.G 2 IEM",
+      "channel": "ecksdeal",
+      "source_msg_id": 6065,
+      "price": 10.5,
+      "timestamp": 1794694594.377669,
+      "status": "ACTIVE"
     }
   },
   "schedule_config": {
@@ -24977,17 +24992,17 @@
     "current_interval_minutes": 5,
     "is_paused": false,
     "night_mode_enabled": true,
-    "last_deal_post_time": 1794693684.4644637,
+    "last_deal_post_time": 1794694598.6160324,
     "night_start_hour_dz": 0,
     "night_end_hour_dz": 8,
     "night_pause_enabled": true,
-    "last_sweep_time": 1794694409.1845946,
+    "last_sweep_time": 1794694601.5716467,
     "last_sweep_times": {
-      "algeria": 1794694406.3029826,
-      "france": 1794694409.1845946
+      "algeria": 1794694598.579191,
+      "france": 1794694601.5716467
     },
     "last_deal_post_times": {
-      "algeria": 1794693684.4644637
+      "algeria": 1794694598.6160324
     }
   },
   "last_coin_reminder_time": 1794533888.682542,
@@ -25822,7 +25837,8 @@
     "1005010376374580": "zedstoreonline",
     "1005010239860751": "zedstoreonline",
     "1005009278862695": "lodydeals",
-    "1005013005786079": "aniscoupons"
+    "1005013005786079": "aniscoupons",
+    "1005008627811107": "ecksdeal"
   },
   "published_title_channels": {
     "Test Wrench Set": "test_channel",
@@ -26905,7 +26921,8 @@
     "Nothing Buds 2 Neo": "aniscoupons",
     "مقبس SONOFF ذكي بقوة 16A يتيح تشغيل وإيقاف الأجهزة الكهربائية عن": "zedstoreonline",
     "Anker Soundcore P30i ANC": "lodydeals",
-    "Anker 735 GaN 3 Port 65W": "lodydeals"
+    "Anker 735 GaN 3 Port 65W": "lodydeals",
+    "سماعات الاذن  TANGZU WAN'ER S.G 2 IEM": "ecksdeal"
   },
   "religious_reminders_history": {
     "mock_rem": "2026-10-02",
