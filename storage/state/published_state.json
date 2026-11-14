@@ -808,7 +808,8 @@
     "1005006882359473",
     "1005008744025540",
     "1005006727752164",
-    "1005010444603559"
+    "1005010444603559",
+    "1005012781081420"
   ],
   "published_product_timestamps": {
     "1005012973772517": 1794500732.7845657,
@@ -1632,7 +1633,8 @@
     "1005006882359473": 1794673572.3773744,
     "1005008744025540": 1794673935.8661852,
     "1005006727752164": 1794674313.8272793,
-    "1005010444603559": 1794675044.3030443
+    "1005010444603559": 1794675044.3030443,
+    "1005012781081420": 1794675219.0916212
   },
   "published_titles": [
     "Wireless WiFi Repeater 300Mbps WiFi Extender Amplifier Booster Router",
@@ -2688,7 +2690,8 @@
     "CHENXI Automatic Mechanical Watch",
     "MCHOSE V9 Pro Wireless Gaming Headset Surround Sound Headphones Noise",
     "ساعة YNOKE الإلكترونية الرياضية للرجال",
-    "Vention Elf E07"
+    "Vention Elf E07",
+    "مكبر صوت Awei المغناطيسي اللاسلكي"
   ],
   "published_title_timestamps": {
     "Xiaomi Redmi Note 17 5G Global Version": 1790857823.0117362,
@@ -3749,10 +3752,10 @@
     "CHENXI Automatic Mechanical Watch": 1794673572.3773744,
     "MCHOSE V9 Pro Wireless Gaming Headset Surround Sound Headphones Noise": 1794673935.8661852,
     "ساعة YNOKE الإلكترونية الرياضية للرجال": 1794674313.8272793,
-    "Vention Elf E07": 1794675044.3030443
+    "Vention Elf E07": 1794675044.3030443,
+    "مكبر صوت Awei المغناطيسي اللاسلكي": 1794675219.0916212
   },
   "published_post_keys": [
-    "zedstoreonline:38798",
     "megaphonna:8567",
     "zedstoreonline:38532",
     "aniscoupons:33043",
@@ -4751,11 +4754,12 @@
     "aniscoupons:34909",
     "zedstoreonline:40169",
     "zedstoreonline:40170",
-    "aniscoupons:34911"
+    "aniscoupons:34911",
+    "zedstoreonline:40172"
   ],
   "last_disclaimer_time": 1794524540.9476151,
   "last_calendar_time": 1794572799.8939624,
-  "last_run_time": 1794675044.3030443,
+  "last_run_time": 1794675219.0916212,
   "monitored_channels": {
     "ecksdeal": {
       "last_message_id": 6063,
@@ -4782,8 +4786,8 @@
       "last_check_time": 1793599663.3444748
     },
     "zedstoreonline": {
-      "last_message_id": 40171,
-      "last_check_time": 1794674852.4251134
+      "last_message_id": 40172,
+      "last_check_time": 1794675224.3971934
     },
     "aniscoupons": {
       "last_message_id": 34911,
@@ -5495,7 +5499,8 @@
     "1005006882359473": 18.6,
     "1005008744025540": 52.6,
     "1005006727752164": 2.7,
-    "1005010444603559": 7.53
+    "1005010444603559": 7.53,
+    "1005012781081420": 11.3
   },
   "channel_published_deals": {
     "aniscoupons:32590": {
@@ -24530,6 +24535,16 @@
       "price": 7.53,
       "timestamp": 1794675044.3030443,
       "status": "ACTIVE"
+    },
+    "zedstoreonline:40172": {
+      "channel_msg_id": 2729,
+      "product_id": "1005012781081420",
+      "title": "مكبر صوت Awei المغناطيسي اللاسلكي",
+      "channel": "zedstoreonline",
+      "source_msg_id": 40172,
+      "price": 11.3,
+      "timestamp": 1794675219.0916212,
+      "status": "ACTIVE"
     }
   },
   "schedule_config": {
@@ -24538,17 +24553,17 @@
     "current_interval_minutes": 5,
     "is_paused": false,
     "night_mode_enabled": true,
-    "last_deal_post_time": 1794675047.3265748,
+    "last_deal_post_time": 1794675225.7728903,
     "night_start_hour_dz": 0,
     "night_end_hour_dz": 8,
     "night_pause_enabled": true,
-    "last_sweep_time": 1794675050.4449446,
+    "last_sweep_time": 1794675228.375192,
     "last_sweep_times": {
-      "algeria": 1794675047.3025713,
-      "france": 1794675050.4449446
+      "algeria": 1794675225.7458417,
+      "france": 1794675228.375192
     },
     "last_deal_post_times": {
-      "algeria": 1794675047.3265748
+      "algeria": 1794675225.7728903
     }
   },
   "last_coin_reminder_time": 1794533888.682542,
@@ -25370,7 +25385,8 @@
     "1005006882359473": "zedstoreonline",
     "1005008744025540": "aniscoupons",
     "1005006727752164": "zedstoreonline",
-    "1005010444603559": "aniscoupons"
+    "1005010444603559": "aniscoupons",
+    "1005012781081420": "zedstoreonline"
   },
   "published_title_channels": {
     "Test Wrench Set": "test_channel",
@@ -26433,7 +26449,8 @@
     "CHENXI Automatic Mechanical Watch": "zedstoreonline",
     "MCHOSE V9 Pro Wireless Gaming Headset Surround Sound Headphones Noise": "aniscoupons",
     "ساعة YNOKE الإلكترونية الرياضية للرجال": "zedstoreonline",
-    "Vention Elf E07": "aniscoupons"
+    "Vention Elf E07": "aniscoupons",
+    "مكبر صوت Awei المغناطيسي اللاسلكي": "zedstoreonline"
   },
   "religious_reminders_history": {
     "mock_rem": "2026-10-02",
