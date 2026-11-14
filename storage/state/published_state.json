@@ -799,7 +799,8 @@
     "1005010519693722",
     "1005010788149535",
     "1005007857182319",
-    "1005010706574985"
+    "1005010706574985",
+    "1005006904640542"
   ],
   "published_product_timestamps": {
     "1005012973772517": 1794500732.7845657,
@@ -1614,7 +1615,8 @@
     "1005010519693722": 1794666009.2783742,
     "1005010788149535": 1794650949.6978376,
     "1005007857182319": 1794666000.5453608,
-    "1005010706574985": 1794670972.5875318
+    "1005010706574985": 1794670972.5875318,
+    "1005006904640542": 1794672105.0502174
   },
   "published_titles": [
     "Wireless WiFi Repeater 300Mbps WiFi Extender Amplifier Booster Router",
@@ -2661,7 +2663,8 @@
     "سماعات لاسلكية Binnune BW06 Wireless",
     "DELUX M400 GAMING MOUSE",
     "HyperX Cloud 2 II Wired Gaming Headset",
-    "Baseus Bass EP10 NC"
+    "Baseus Bass EP10 NC",
+    "Kemei KM-679 Professional Hair Trimmer Electric Hair Clipper"
   ],
   "published_title_timestamps": {
     "Xiaomi Redmi Note 17 5G Global Version": 1790857823.0117362,
@@ -3713,10 +3716,10 @@
     "سماعات لاسلكية Binnune BW06 Wireless": 1794666000.5453608,
     "DELUX M400 GAMING MOUSE": 1794666009.2783742,
     "HyperX Cloud 2 II Wired Gaming Headset": 1794668030.6727147,
-    "Baseus Bass EP10 NC": 1794670972.5875318
+    "Baseus Bass EP10 NC": 1794670972.5875318,
+    "Kemei KM-679 Professional Hair Trimmer Electric Hair Clipper": 1794672105.0502174
   },
   "published_post_keys": [
-    "ecksdeal:5944",
     "test_channel:1792186463",
     "couponsglobal:48812",
     "test_channel:1791626934",
@@ -4715,11 +4718,12 @@
     "aniscoupons:34898",
     "aniscoupons:34901",
     "zedstoreonline:40158",
-    "aniscoupons:34902"
+    "aniscoupons:34902",
+    "zedstoreonline:40161"
   ],
   "last_disclaimer_time": 1794524540.9476151,
   "last_calendar_time": 1794572799.8939624,
-  "last_run_time": 1794671419.696717,
+  "last_run_time": 1794672105.0502174,
   "monitored_channels": {
     "ecksdeal": {
       "last_message_id": 6063,
@@ -4746,8 +4750,8 @@
       "last_check_time": 1793599663.3444748
     },
     "zedstoreonline": {
-      "last_message_id": 40160,
-      "last_check_time": 1794671738.5031915
+      "last_message_id": 40161,
+      "last_check_time": 1794672107.11387
     },
     "aniscoupons": {
       "last_message_id": 34902,
@@ -5450,7 +5454,8 @@
     "1005010519693722": 14.4,
     "1005010788149535": 364.9,
     "1005007857182319": 23.88,
-    "1005010706574985": 11.16
+    "1005010706574985": 11.16,
+    "1005006904640542": 6.9
   },
   "channel_published_deals": {
     "aniscoupons:32590": {
@@ -24355,6 +24360,16 @@
       "price": 136.7,
       "timestamp": 1794671419.696717,
       "status": "ACTIVE"
+    },
+    "zedstoreonline:40161": {
+      "channel_msg_id": 2716,
+      "product_id": "1005006904640542",
+      "title": "Kemei KM-679 Professional Hair Trimmer Electric Hair Clipper",
+      "channel": "zedstoreonline",
+      "source_msg_id": 40161,
+      "price": 6.9,
+      "timestamp": 1794672105.0502174,
+      "status": "ACTIVE"
     }
   },
   "schedule_config": {
@@ -24363,17 +24378,17 @@
     "current_interval_minutes": 5,
     "is_paused": false,
     "night_mode_enabled": true,
-    "last_deal_post_time": 1794671422.4822543,
+    "last_deal_post_time": 1794672108.6144092,
     "night_start_hour_dz": 0,
     "night_end_hour_dz": 8,
     "night_pause_enabled": true,
-    "last_sweep_time": 1794671920.0636518,
+    "last_sweep_time": 1794672111.4582555,
     "last_sweep_times": {
-      "algeria": 1794671916.9453466,
-      "france": 1794671920.0636518
+      "algeria": 1794672108.586578,
+      "france": 1794672111.4582555
     },
     "last_deal_post_times": {
-      "algeria": 1794671422.4822543
+      "algeria": 1794672108.6144092
     }
   },
   "last_coin_reminder_time": 1794533888.682542,
@@ -25186,7 +25201,8 @@
     "1005010519693722": "aniscoupons",
     "1005010788149535": "aniscoupons",
     "1005007857182319": "ecksdeal",
-    "1005010706574985": "aniscoupons"
+    "1005010706574985": "aniscoupons",
+    "1005006904640542": "zedstoreonline"
   },
   "published_title_channels": {
     "Test Wrench Set": "test_channel",
@@ -26240,7 +26256,8 @@
     "سماعات لاسلكية Binnune BW06 Wireless": "ecksdeal",
     "DELUX M400 GAMING MOUSE": "aniscoupons",
     "HyperX Cloud 2 II Wired Gaming Headset": "aniscoupons",
-    "Baseus Bass EP10 NC": "aniscoupons"
+    "Baseus Bass EP10 NC": "aniscoupons",
+    "Kemei KM-679 Professional Hair Trimmer Electric Hair Clipper": "zedstoreonline"
   },
   "religious_reminders_history": {
     "mock_rem": "2026-10-02",
