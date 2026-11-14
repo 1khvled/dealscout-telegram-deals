@@ -1379,7 +1379,7 @@
     "1005009569642817": 1794004758.429218,
     "1005013438789813": 1793569553.2022223,
     "1005012823102793": 1793569904.419889,
-    "1005012773302941": 1794475867.3035214,
+    "1005012773302941": 1794683510.1887808,
     "1005008430147176": 1794420506.0795698,
     "1005011742851856": 1793793769.5631576,
     "1005006304425302": 1793656107.995781,
@@ -3384,7 +3384,7 @@
     "Realme Neo 8  12/256GB": 1793569553.2022223,
     "Blackview MEGA 5 AI 8/256GB": 1793569904.419889,
     "Anker Nano Smart Display 45W": 1793570287.0210865,
-    "Zeblaze Btalk 4 Pro": 1794475867.3035214,
+    "Zeblaze Btalk 4 Pro": 1794683510.1887808,
     "Anker Soundcore 2": 1793571013.3288968,
     "MACHENIKE G5Pro Max SE": 1793571550.5645735,
     "MACHENIKE G1 Gaming": 1793707072.0357203,
@@ -3800,7 +3800,6 @@
     "FIFINE Wireless Lavalier Recording Microphone": 1794682951.3022494
   },
   "published_post_keys": [
-    "lodydeals:45951",
     "lodydeals:45952",
     "lodydeals:45953",
     "lodydeals:45954",
@@ -4799,19 +4798,20 @@
     "aniscoupons:34923",
     "zedstoreonline:40183",
     "lodydeals:46508",
-    "zedstoreonline:40184"
+    "zedstoreonline:40184",
+    "lodydeals:46509"
   ],
   "last_disclaimer_time": 1794524540.9476151,
   "last_calendar_time": 1794572799.8939624,
-  "last_run_time": 1794682951.3022494,
+  "last_run_time": 1794683510.1887808,
   "monitored_channels": {
     "ecksdeal": {
       "last_message_id": 6064,
       "last_check_time": 1794676876.8326535
     },
     "lodydeals": {
-      "last_message_id": 46508,
-      "last_check_time": 1794682397.6605165
+      "last_message_id": 46509,
+      "last_check_time": 1794683512.2576768
     },
     "test_channel": {
       "last_message_id": 1793967703,
@@ -4830,8 +4830,8 @@
       "last_check_time": 1793599663.3444748
     },
     "zedstoreonline": {
-      "last_message_id": 40184,
-      "last_check_time": 1794682953.3817518
+      "last_message_id": 40185,
+      "last_check_time": 1794683515.329
     },
     "aniscoupons": {
       "last_message_id": 34923,
@@ -24798,6 +24798,16 @@
       "price": 11.7,
       "timestamp": 1794682951.3022494,
       "status": "ACTIVE"
+    },
+    "lodydeals:46509": {
+      "channel_msg_id": 2752,
+      "product_id": "1005012773302941",
+      "title": "Zeblaze Btalk 4 Pro",
+      "channel": "lodydeals",
+      "source_msg_id": 46509,
+      "price": 17.06,
+      "timestamp": 1794683510.1887808,
+      "status": "ACTIVE"
     }
   },
   "schedule_config": {
@@ -24806,17 +24816,17 @@
     "current_interval_minutes": 5,
     "is_paused": false,
     "night_mode_enabled": true,
-    "last_deal_post_time": 1794682955.0004718,
+    "last_deal_post_time": 1794683516.610118,
     "night_start_hour_dz": 0,
     "night_end_hour_dz": 8,
     "night_pause_enabled": true,
-    "last_sweep_time": 1794683316.5861595,
+    "last_sweep_time": 1794683519.513258,
     "last_sweep_times": {
-      "algeria": 1794683312.1305716,
-      "france": 1794683316.5861595
+      "algeria": 1794683516.581012,
+      "france": 1794683519.513258
     },
     "last_deal_post_times": {
-      "algeria": 1794682955.0004718
+      "algeria": 1794683516.610118
     }
   },
   "last_coin_reminder_time": 1794533888.682542,
@@ -27522,7 +27532,6 @@
   "published_deals_history": {},
   "settings": {},
   "handled_post_keys": [
-    "bnddeals:51190",
     "bnddeals:51191",
     "bnddeals:51192",
     "bnddeals:51194",
@@ -28521,7 +28530,8 @@
     "lodydeals:46506",
     "zedstoreonline:40181",
     "zedstoreonline:40182",
-    "lodydeals:46507"
+    "lodydeals:46507",
+    "zedstoreonline:40185"
   ],
   "last_france_cross_promo_time": 1794553348.8480208,
   "next_france_cross_promo_interval_seconds": 334302,
@@ -29797,6 +29807,11 @@
         "channel": "zedstoreonline",
         "ts": 1794671551.8394876,
         "price": 17.0
+      },
+      {
+        "channel": "lodydeals",
+        "ts": 1794683507.917388,
+        "price": 17.06
       }
     ],
     "1005005975560350": [
@@ -29922,6 +29937,11 @@
       {
         "channel": "aniscoupons",
         "ts": 1794675771.3947167,
+        "price": 87.0
+      },
+      {
+        "channel": "zedstoreonline",
+        "ts": 1794683514.8247216,
         "price": 87.0
       }
     ],
