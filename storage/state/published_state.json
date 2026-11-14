@@ -804,7 +804,8 @@
     "1005010155229810",
     "1005011774259648",
     "1005012479648570",
-    "1005006727799127"
+    "1005006727799127",
+    "1005006882359473"
   ],
   "published_product_timestamps": {
     "1005012973772517": 1794500732.7845657,
@@ -1603,7 +1604,7 @@
     "1005012624574517": 1794599278.9506347,
     "1005012644923854": 1794577769.242665,
     "1005005709908265": 1794577943.6825492,
-    "1005011887425776": 1794652347.6620066,
+    "1005011887425776": 1794673577.8423104,
     "1005012547730772": 1794590278.0528092,
     "1005012840419521": 1794591008.1982286,
     "1005010218815499": 1794653739.643998,
@@ -1624,7 +1625,8 @@
     "1005010155229810": 1794672468.775835,
     "1005011774259648": 1794672474.6197693,
     "1005012479648570": 1794672652.7192543,
-    "1005006727799127": 1794673385.4725633
+    "1005006727799127": 1794673385.4725633,
+    "1005006882359473": 1794673572.3773744
   },
   "published_titles": [
     "Wireless WiFi Repeater 300Mbps WiFi Extender Amplifier Booster Router",
@@ -2676,7 +2678,8 @@
     "Kemei KM-6630 6631 6632 trimmer",
     "MCHOSE G3 V2 Wireless Gaming Mouse",
     "مجموعة ENCHEN Beardo 3 للعناية الشخصية",
-    "ريموت MX3 لاسلكي 2.4GHz مع ماوس هوائي ولوحة مفاتيح صغيرة"
+    "ريموت MX3 لاسلكي 2.4GHz مع ماوس هوائي ولوحة مفاتيح صغيرة",
+    "CHENXI Automatic Mechanical Watch"
   ],
   "published_title_timestamps": {
     "Xiaomi Redmi Note 17 5G Global Version": 1790857823.0117362,
@@ -3704,7 +3707,7 @@
     "Maono Gamerwave DGM20S": 1794577943.6825492,
     "CUSU SSD CV3500 M2 1TB": 1794650121.9041455,
     "S80 Flash Drive USB 3.2 Type-A 128GB": 1794649534.468107,
-    "ATK VXE Dragonfly V3 PRO": 1794652347.6620066,
+    "ATK VXE Dragonfly V3 PRO": 1794673577.8423104,
     "Kingston DataTraveler USB 128GB": 1794589551.8961492,
     "Honor X80 Pro Max 8/128": 1794590278.0528092,
     "ماوس فخم Logitech G502 Hero": 1794591008.1982286,
@@ -3733,11 +3736,10 @@
     "Kemei KM-6630 6631 6632 trimmer": 1794672468.775835,
     "MCHOSE G3 V2 Wireless Gaming Mouse": 1794672474.6197693,
     "مجموعة ENCHEN Beardo 3 للعناية الشخصية": 1794672652.7192543,
-    "ريموت MX3 لاسلكي 2.4GHz مع ماوس هوائي ولوحة مفاتيح صغيرة": 1794673385.4725633
+    "ريموت MX3 لاسلكي 2.4GHz مع ماوس هوائي ولوحة مفاتيح صغيرة": 1794673385.4725633,
+    "CHENXI Automatic Mechanical Watch": 1794673572.3773744
   },
   "published_post_keys": [
-    "test_channel:1793280261",
-    "ecksdeal:5955",
     "lodydeals:45490",
     "lodydeals:45421",
     "ecksdeal:5943",
@@ -4735,11 +4737,13 @@
     "zedstoreonline:40164",
     "aniscoupons:34905",
     "zedstoreonline:40166",
-    "aniscoupons:34907"
+    "aniscoupons:34907",
+    "zedstoreonline:40167",
+    "aniscoupons:34908"
   ],
   "last_disclaimer_time": 1794524540.9476151,
   "last_calendar_time": 1794572799.8939624,
-  "last_run_time": 1794673392.618802,
+  "last_run_time": 1794673577.8423104,
   "monitored_channels": {
     "ecksdeal": {
       "last_message_id": 6063,
@@ -4766,12 +4770,12 @@
       "last_check_time": 1793599663.3444748
     },
     "zedstoreonline": {
-      "last_message_id": 40166,
-      "last_check_time": 1794673387.5542998
+      "last_message_id": 40167,
+      "last_check_time": 1794673574.458503
     },
     "aniscoupons": {
-      "last_message_id": 34907,
-      "last_check_time": 1794673394.6980913
+      "last_message_id": 34908,
+      "last_check_time": 1794673579.9220529
     },
     "bnddeals": {
       "last_message_id": 51301,
@@ -5475,7 +5479,8 @@
     "1005010155229810": 6.1,
     "1005011774259648": 18.88,
     "1005012479648570": 10.4,
-    "1005006727799127": 4.8
+    "1005006727799127": 4.8,
+    "1005006882359473": 18.6
   },
   "channel_published_deals": {
     "aniscoupons:32590": {
@@ -24450,6 +24455,26 @@
       "price": 82.66,
       "timestamp": 1794673392.618802,
       "status": "ACTIVE"
+    },
+    "zedstoreonline:40167": {
+      "channel_msg_id": 2723,
+      "product_id": "1005006882359473",
+      "title": "CHENXI Automatic Mechanical Watch",
+      "channel": "zedstoreonline",
+      "source_msg_id": 40167,
+      "price": 18.6,
+      "timestamp": 1794673572.3773744,
+      "status": "ACTIVE"
+    },
+    "aniscoupons:34908": {
+      "channel_msg_id": 2724,
+      "product_id": "1005011887425776",
+      "title": "ATK VXE Dragonfly V3 PRO",
+      "channel": "aniscoupons",
+      "source_msg_id": 34908,
+      "price": 20.48,
+      "timestamp": 1794673577.8423104,
+      "status": "ACTIVE"
     }
   },
   "schedule_config": {
@@ -24458,17 +24483,17 @@
     "current_interval_minutes": 5,
     "is_paused": false,
     "night_mode_enabled": true,
-    "last_deal_post_time": 1794673395.5705316,
+    "last_deal_post_time": 1794673580.82977,
     "night_start_hour_dz": 0,
     "night_end_hour_dz": 8,
     "night_pause_enabled": true,
-    "last_sweep_time": 1794673398.0977933,
+    "last_sweep_time": 1794673583.2191803,
     "last_sweep_times": {
-      "algeria": 1794673395.535779,
-      "france": 1794673398.0977933
+      "algeria": 1794673580.7959814,
+      "france": 1794673583.2191803
     },
     "last_deal_post_times": {
-      "algeria": 1794673395.5705316
+      "algeria": 1794673580.82977
     }
   },
   "last_coin_reminder_time": 1794533888.682542,
@@ -25286,7 +25311,8 @@
     "1005010155229810": "zedstoreonline",
     "1005011774259648": "aniscoupons",
     "1005012479648570": "zedstoreonline",
-    "1005006727799127": "zedstoreonline"
+    "1005006727799127": "zedstoreonline",
+    "1005006882359473": "zedstoreonline"
   },
   "published_title_channels": {
     "Test Wrench Set": "test_channel",
@@ -26345,7 +26371,8 @@
     "Kemei KM-6630 6631 6632 trimmer": "zedstoreonline",
     "MCHOSE G3 V2 Wireless Gaming Mouse": "aniscoupons",
     "مجموعة ENCHEN Beardo 3 للعناية الشخصية": "zedstoreonline",
-    "ريموت MX3 لاسلكي 2.4GHz مع ماوس هوائي ولوحة مفاتيح صغيرة": "zedstoreonline"
+    "ريموت MX3 لاسلكي 2.4GHz مع ماوس هوائي ولوحة مفاتيح صغيرة": "zedstoreonline",
+    "CHENXI Automatic Mechanical Watch": "zedstoreonline"
   },
   "religious_reminders_history": {
     "mock_rem": "2026-10-02",
@@ -29122,6 +29149,11 @@
       {
         "channel": "aniscoupons",
         "ts": 1794652345.5976043,
+        "price": 20.48
+      },
+      {
+        "channel": "aniscoupons",
+        "ts": 1794673576.2470558,
         "price": 20.48
       }
     ],
