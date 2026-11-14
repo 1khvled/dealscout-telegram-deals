@@ -28,8 +28,8 @@
       "ewma": 0.9928
     },
     "zedstoreonline": {
-      "seen": 211,
-      "published": 121,
+      "seen": 212,
+      "published": 122,
       "skipped": 0,
       "ewma": 0.9994
     },
@@ -40,7 +40,7 @@
       "ewma": 0.6705
     },
     "aniscoupons": {
-      "seen": 309,
+      "seen": 310,
       "published": 253,
       "skipped": 0,
       "ewma": 0.9994
@@ -54,8 +54,8 @@
   },
   "category_stats": {
     "other": {
-      "seen": 204,
-      "published": 169,
+      "seen": 206,
+      "published": 170,
       "skipped": 0,
       "ewma": 0.9994
     },
@@ -928,34 +928,21 @@
     ],
     "1005012781081420": [
       11.3
+    ],
+    "1005009806804463": [
+      42.7
     ]
   },
   "counters": {
-    "scored": 600,
-    "verdict_publish": 573,
+    "scored": 602,
+    "verdict_publish": 575,
     "verdict_hold": 27,
     "verdict_skip": 0,
-    "published": 436,
+    "published": 437,
     "skipped": 0
   },
-  "score_sum": 43988.43,
+  "score_sum": 44145.1,
   "recent_decisions": [
-    {
-      "ts": 1794566183,
-      "channel": "aniscoupons",
-      "category": "phones",
-      "product_id": "1005012809141747",
-      "score": 82.08,
-      "verdict": "publish"
-    },
-    {
-      "ts": 1794566558,
-      "channel": "aniscoupons",
-      "category": "audio",
-      "product_id": "1005005975560350",
-      "score": 78.23,
-      "verdict": "publish"
-    },
     {
       "ts": 1794566734,
       "channel": "aniscoupons",
@@ -2539,7 +2526,23 @@
       "product_id": "1005012333024137",
       "score": 73.97,
       "verdict": "publish"
+    },
+    {
+      "ts": 1794675765,
+      "channel": "zedstoreonline",
+      "category": "other",
+      "product_id": "1005009806804463",
+      "score": 77.81,
+      "verdict": "publish"
+    },
+    {
+      "ts": 1794675771,
+      "channel": "aniscoupons",
+      "category": "other",
+      "product_id": "1005010812635861",
+      "score": 78.86,
+      "verdict": "publish"
     }
   ],
-  "updated_at": 1794675588.3286018
+  "updated_at": 1794675771.4401429
 }
