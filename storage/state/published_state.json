@@ -815,7 +815,8 @@
     "1005008341428946",
     "1005007173814545",
     "1005008077424799",
-    "1005011551333926"
+    "1005011551333926",
+    "1005007336232520"
   ],
   "published_product_timestamps": {
     "1005012973772517": 1794500732.7845657,
@@ -1457,7 +1458,7 @@
     "1005013205365677": 1794390785.626018,
     "1005008429979494": 1793741666.9686077,
     "1005004795387201": 1793742770.1634803,
-    "1005010702983351": 1794436379.3016446,
+    "1005010702983351": 1794677799.9420233,
     "1005008366962319": 1794665030.8928545,
     "1005005058037424": 1793779907.9964287,
     "1005012946895000": 1793793714.105913,
@@ -1646,7 +1647,8 @@
     "1005008341428946": 1794676338.751973,
     "1005007173814545": 1794676695.2288063,
     "1005008077424799": 1794677244.3687112,
-    "1005011551333926": 1794677250.0438125
+    "1005011551333926": 1794677250.0438125,
+    "1005007336232520": 1794677812.6238942
   },
   "published_titles": [
     "Wireless WiFi Repeater 300Mbps WiFi Extender Amplifier Booster Router",
@@ -2710,7 +2712,8 @@
     "Picun G1 Casque Gaming Sans Fil",
     "Baseus GH02 Gaming Headphones",
     "E-YOOSO X-39 USB Wired RGB Gaming Mouse",
-    "Ajazz AHW10 Head-mounted Wired Gaming"
+    "Ajazz AHW10 Head-mounted Wired Gaming",
+    "AJAZZ AJ179 PRO PAW3395 Wireless Gaming Mouse with RGB Charging Base"
   ],
   "published_title_timestamps": {
     "Xiaomi Redmi Note 17 5G Global Version": 1790857823.0117362,
@@ -3495,7 +3498,7 @@
     "EasyThreed 3D Printer Entry": 1793741666.9686077,
     "CUSU SSD SATA 1TB": 1794658227.562077,
     "MAONO PD400X USB/XLR": 1793742770.1634803,
-    "HyperX Cloud 3 DTS": 1793779903.687306,
+    "HyperX Cloud 3 DTS": 1794677799.9420233,
     "KOOTION X15 M.2 Nvme 512GB": 1793969920.9023197,
     "HAYLOU Solar Neo 2 AMOLED": 1793793748.870438,
     "ESSAGER 45W Car Charger": 1793793769.5631576,
@@ -3779,11 +3782,10 @@
     "Picun G1 Casque Gaming Sans Fil": 1794676695.2288063,
     "Baseus GH02 Gaming Headphones": 1794676881.0478508,
     "E-YOOSO X-39 USB Wired RGB Gaming Mouse": 1794677244.3687112,
-    "Ajazz AHW10 Head-mounted Wired Gaming": 1794677250.0438125
+    "Ajazz AHW10 Head-mounted Wired Gaming": 1794677250.0438125,
+    "AJAZZ AJ179 PRO PAW3395 Wireless Gaming Mouse with RGB Charging Base": 1794677812.6238942
   },
   "published_post_keys": [
-    "test_channel:1791677705",
-    "test_channel:1791753006",
     "lodydeals:45949",
     "ecksdeal:5984",
     "lodydeals:45893",
@@ -4781,19 +4783,21 @@
     "ecksdeal:6064",
     "aniscoupons:34916",
     "zedstoreonline:40177",
-    "aniscoupons:34917"
+    "aniscoupons:34917",
+    "lodydeals:46495",
+    "aniscoupons:34918"
   ],
   "last_disclaimer_time": 1794524540.9476151,
   "last_calendar_time": 1794572799.8939624,
-  "last_run_time": 1794677250.0438125,
+  "last_run_time": 1794677812.6238942,
   "monitored_channels": {
     "ecksdeal": {
       "last_message_id": 6064,
       "last_check_time": 1794676876.8326535
     },
     "lodydeals": {
-      "last_message_id": 46497,
-      "last_check_time": 1794677607.8715208
+      "last_message_id": 46499,
+      "last_check_time": 1794677807.263565
     },
     "test_channel": {
       "last_message_id": 1793967703,
@@ -4816,8 +4820,8 @@
       "last_check_time": 1794677246.448517
     },
     "aniscoupons": {
-      "last_message_id": 34917,
-      "last_check_time": 1794677252.123221
+      "last_message_id": 34918,
+      "last_check_time": 1794677814.679566
     },
     "bnddeals": {
       "last_message_id": 51301,
@@ -5357,7 +5361,7 @@
     "1005013205365677": 883.6,
     "1005008429979494": 72.7,
     "1005004795387201": 115.5,
-    "1005010702983351": 67.6,
+    "1005010702983351": 69.6,
     "1005008366962319": 30.3,
     "1005005058037424": 34.67,
     "1005012946895000": 142.59,
@@ -5532,7 +5536,8 @@
     "1005008341428946": 63.47,
     "1005007173814545": 34.9,
     "1005008077424799": 19.5,
-    "1005011551333926": 41.26
+    "1005011551333926": 41.26,
+    "1005007336232520": 20.9
   },
   "channel_published_deals": {
     "aniscoupons:32590": {
@@ -24677,6 +24682,26 @@
       "price": 41.26,
       "timestamp": 1794677250.0438125,
       "status": "ACTIVE"
+    },
+    "lodydeals:46495": {
+      "channel_msg_id": 2740,
+      "product_id": "1005010702983351",
+      "title": "HyperX Cloud 3 DTS",
+      "channel": "lodydeals",
+      "source_msg_id": 46495,
+      "price": 69.6,
+      "timestamp": 1794677799.9420233,
+      "status": "ACTIVE"
+    },
+    "aniscoupons:34918": {
+      "channel_msg_id": 2741,
+      "product_id": "1005007336232520",
+      "title": "AJAZZ AJ179 PRO PAW3395 Wireless Gaming Mouse with RGB Charging Base",
+      "channel": "aniscoupons",
+      "source_msg_id": 34918,
+      "price": 20.9,
+      "timestamp": 1794677812.6238942,
+      "status": "ACTIVE"
     }
   },
   "schedule_config": {
@@ -24685,17 +24710,17 @@
     "current_interval_minutes": 5,
     "is_paused": false,
     "night_mode_enabled": true,
-    "last_deal_post_time": 1794677253.0229464,
+    "last_deal_post_time": 1794677815.6391392,
     "night_start_hour_dz": 0,
     "night_end_hour_dz": 8,
     "night_pause_enabled": true,
-    "last_sweep_time": 1794677613.5833247,
+    "last_sweep_time": 1794677818.6354434,
     "last_sweep_times": {
-      "algeria": 1794677610.6964352,
-      "france": 1794677613.5833247
+      "algeria": 1794677815.6151574,
+      "france": 1794677818.6354434
     },
     "last_deal_post_times": {
-      "algeria": 1794677253.0229464
+      "algeria": 1794677815.6391392
     }
   },
   "last_coin_reminder_time": 1794533888.682542,
@@ -25338,7 +25363,7 @@
     "1005013205365677": "bnddeals",
     "1005008429979494": "lodydeals",
     "1005004795387201": "lodydeals",
-    "1005010702983351": "aniscoupons",
+    "1005010702983351": "lodydeals",
     "1005008366962319": "aniscoupons",
     "1005005058037424": "lodydeals",
     "1005012946895000": "lodydeals",
@@ -25524,7 +25549,8 @@
     "1005008341428946": "aniscoupons",
     "1005007173814545": "zedstoreonline",
     "1005008077424799": "zedstoreonline",
-    "1005011551333926": "aniscoupons"
+    "1005011551333926": "aniscoupons",
+    "1005007336232520": "aniscoupons"
   },
   "published_title_channels": {
     "Test Wrench Set": "test_channel",
@@ -26595,7 +26621,8 @@
     "Picun G1 Casque Gaming Sans Fil": "zedstoreonline",
     "Baseus GH02 Gaming Headphones": "aniscoupons",
     "E-YOOSO X-39 USB Wired RGB Gaming Mouse": "zedstoreonline",
-    "Ajazz AHW10 Head-mounted Wired Gaming": "aniscoupons"
+    "Ajazz AHW10 Head-mounted Wired Gaming": "aniscoupons",
+    "AJAZZ AJ179 PRO PAW3395 Wireless Gaming Mouse with RGB Charging Base": "aniscoupons"
   },
   "religious_reminders_history": {
     "mock_rem": "2026-10-02",
@@ -27392,10 +27419,6 @@
   "published_deals_history": {},
   "settings": {},
   "handled_post_keys": [
-    "bnddeals:51170",
-    "bnddeals:51171",
-    "bnddeals:51172",
-    "bnddeals:51173",
     "bnddeals:51174",
     "bnddeals:51177",
     "bnddeals:51178",
@@ -28391,7 +28414,11 @@
     "aniscoupons:34910",
     "zedstoreonline:40171",
     "zedstoreonline:40173",
-    "aniscoupons:34912"
+    "aniscoupons:34912",
+    "lodydeals:46496",
+    "lodydeals:46497",
+    "lodydeals:46498",
+    "lodydeals:46499"
   ],
   "last_france_cross_promo_time": 1794553348.8480208,
   "next_france_cross_promo_interval_seconds": 334302,
@@ -29784,6 +29811,34 @@
         "channel": "aniscoupons",
         "ts": 1794676879.2789793,
         "price": 38.13
+      }
+    ],
+    "1005010702983351": [
+      {
+        "channel": "lodydeals",
+        "ts": 1794677797.7081084,
+        "price": 69.6
+      }
+    ],
+    "1005011774259648": [
+      {
+        "channel": "lodydeals",
+        "ts": 1794677803.4039788,
+        "price": 18.88
+      }
+    ],
+    "1005008077424799": [
+      {
+        "channel": "lodydeals",
+        "ts": 1794677805.9972851,
+        "price": 19.59
+      }
+    ],
+    "1005007096763939": [
+      {
+        "channel": "lodydeals",
+        "ts": 1794677807.151674,
+        "price": 19.61
       }
     ]
   },
