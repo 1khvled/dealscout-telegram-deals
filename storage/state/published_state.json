@@ -1471,7 +1471,7 @@
     "1005009313079431": 1794159522.2930505,
     "1005010702511858": 1794668030.6727147,
     "1005008554218453": 1793908979.1776278,
-    "1005012499433797": 1794476184.5102937,
+    "1005012499433797": 1794683885.7547128,
     "9998889309": 1793929309.3822134,
     "9998889332": 1793929332.5530465,
     "999888807": 1793930807.599727,
@@ -3547,7 +3547,7 @@
     "Realme C100D 4G 4/128GB": 1794164698.641711,
     "HAYLOU Flowbuds N50 ANC": 1794655633.5523028,
     "Honor 600 Pro 12/256": 1794131798.3098254,
-    "HONOR Pad X8a (4/64GB)": 1794476184.5102937,
+    "HONOR Pad X8a (4/64GB)": 1794683885.7547128,
     "Magcubic HY350 Max 900ANSI": 1794476813.180707,
     "Honor X9d (no charger)": 1794580548.39376,
     "MAONO Wave T1 Mini Pro Wireless Lavalier Microphone": 1794517206.1493392,
@@ -3800,7 +3800,6 @@
     "FIFINE Wireless Lavalier Recording Microphone": 1794682951.3022494
   },
   "published_post_keys": [
-    "lodydeals:45952",
     "lodydeals:45953",
     "lodydeals:45954",
     "lodydeals:45955",
@@ -4799,19 +4798,20 @@
     "zedstoreonline:40183",
     "lodydeals:46508",
     "zedstoreonline:40184",
-    "lodydeals:46509"
+    "lodydeals:46509",
+    "aniscoupons:34924"
   ],
   "last_disclaimer_time": 1794524540.9476151,
   "last_calendar_time": 1794572799.8939624,
-  "last_run_time": 1794683510.1887808,
+  "last_run_time": 1794683885.7547128,
   "monitored_channels": {
     "ecksdeal": {
       "last_message_id": 6064,
       "last_check_time": 1794676876.8326535
     },
     "lodydeals": {
-      "last_message_id": 46509,
-      "last_check_time": 1794683512.2576768
+      "last_message_id": 46510,
+      "last_check_time": 1794683879.1024077
     },
     "test_channel": {
       "last_message_id": 1793967703,
@@ -4834,8 +4834,8 @@
       "last_check_time": 1794683515.329
     },
     "aniscoupons": {
-      "last_message_id": 34923,
-      "last_check_time": 1794681667.4723504
+      "last_message_id": 34924,
+      "last_check_time": 1794683887.8203328
     },
     "bnddeals": {
       "last_message_id": 51301,
@@ -5385,7 +5385,7 @@
     "1005009313079431": 41.5,
     "1005010702511858": 59.8,
     "1005008554218453": 52.55,
-    "1005012499433797": 130.8,
+    "1005012499433797": 134.3,
     "1005008774483451": 40.1,
     "1005010635850450": 21.1,
     "1005006782986446": 6.7,
@@ -24808,6 +24808,16 @@
       "price": 17.06,
       "timestamp": 1794683510.1887808,
       "status": "ACTIVE"
+    },
+    "aniscoupons:34924": {
+      "channel_msg_id": 2753,
+      "product_id": "1005012499433797",
+      "title": "HONOR Pad X8a (4/64GB)",
+      "channel": "aniscoupons",
+      "source_msg_id": 34924,
+      "price": 134.3,
+      "timestamp": 1794683885.7547128,
+      "status": "ACTIVE"
     }
   },
   "schedule_config": {
@@ -24816,17 +24826,17 @@
     "current_interval_minutes": 5,
     "is_paused": false,
     "night_mode_enabled": true,
-    "last_deal_post_time": 1794683516.610118,
+    "last_deal_post_time": 1794683888.6772797,
     "night_start_hour_dz": 0,
     "night_end_hour_dz": 8,
     "night_pause_enabled": true,
-    "last_sweep_time": 1794683681.496588,
+    "last_sweep_time": 1794683890.94534,
     "last_sweep_times": {
-      "algeria": 1794683679.1600616,
-      "france": 1794683681.496588
+      "algeria": 1794683888.6496797,
+      "france": 1794683890.94534
     },
     "last_deal_post_times": {
-      "algeria": 1794683516.610118
+      "algeria": 1794683888.6772797
     }
   },
   "last_coin_reminder_time": 1794533888.682542,
@@ -27532,7 +27542,6 @@
   "published_deals_history": {},
   "settings": {},
   "handled_post_keys": [
-    "bnddeals:51191",
     "bnddeals:51192",
     "bnddeals:51194",
     "bnddeals:51195",
@@ -28531,7 +28540,8 @@
     "zedstoreonline:40181",
     "zedstoreonline:40182",
     "lodydeals:46507",
-    "zedstoreonline:40185"
+    "zedstoreonline:40185",
+    "lodydeals:46510"
   ],
   "last_france_cross_promo_time": 1794553348.8480208,
   "next_france_cross_promo_interval_seconds": 334302,
@@ -29145,6 +29155,11 @@
       {
         "channel": "zedstoreonline",
         "ts": 1794682038.0507267,
+        "price": 136.7
+      },
+      {
+        "channel": "lodydeals",
+        "ts": 1794683878.9641998,
         "price": 136.7
       }
     ],
@@ -29931,6 +29946,11 @@
         "channel": "zedstoreonline",
         "ts": 1794674851.773397,
         "price": 134.0
+      },
+      {
+        "channel": "aniscoupons",
+        "ts": 1794683883.9787805,
+        "price": 134.3
       }
     ],
     "1005010812635861": [
