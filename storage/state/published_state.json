@@ -806,7 +806,8 @@
     "1005012479648570",
     "1005006727799127",
     "1005006882359473",
-    "1005008744025540"
+    "1005008744025540",
+    "1005006727752164"
   ],
   "published_product_timestamps": {
     "1005012973772517": 1794500732.7845657,
@@ -1628,7 +1629,8 @@
     "1005012479648570": 1794672652.7192543,
     "1005006727799127": 1794673385.4725633,
     "1005006882359473": 1794673572.3773744,
-    "1005008744025540": 1794673935.8661852
+    "1005008744025540": 1794673935.8661852,
+    "1005006727752164": 1794674313.8272793
   },
   "published_titles": [
     "Wireless WiFi Repeater 300Mbps WiFi Extender Amplifier Booster Router",
@@ -2682,7 +2684,8 @@
     "مجموعة ENCHEN Beardo 3 للعناية الشخصية",
     "ريموت MX3 لاسلكي 2.4GHz مع ماوس هوائي ولوحة مفاتيح صغيرة",
     "CHENXI Automatic Mechanical Watch",
-    "MCHOSE V9 Pro Wireless Gaming Headset Surround Sound Headphones Noise"
+    "MCHOSE V9 Pro Wireless Gaming Headset Surround Sound Headphones Noise",
+    "ساعة YNOKE الإلكترونية الرياضية للرجال"
   ],
   "published_title_timestamps": {
     "Xiaomi Redmi Note 17 5G Global Version": 1790857823.0117362,
@@ -3741,10 +3744,10 @@
     "مجموعة ENCHEN Beardo 3 للعناية الشخصية": 1794672652.7192543,
     "ريموت MX3 لاسلكي 2.4GHz مع ماوس هوائي ولوحة مفاتيح صغيرة": 1794673385.4725633,
     "CHENXI Automatic Mechanical Watch": 1794673572.3773744,
-    "MCHOSE V9 Pro Wireless Gaming Headset Surround Sound Headphones Noise": 1794673935.8661852
+    "MCHOSE V9 Pro Wireless Gaming Headset Surround Sound Headphones Noise": 1794673935.8661852,
+    "ساعة YNOKE الإلكترونية الرياضية للرجال": 1794674313.8272793
   },
   "published_post_keys": [
-    "lodydeals:45421",
     "ecksdeal:5943",
     "aniscoupons:32791",
     "zedstoreonline:38798",
@@ -4743,11 +4746,12 @@
     "aniscoupons:34907",
     "zedstoreonline:40167",
     "aniscoupons:34908",
-    "aniscoupons:34909"
+    "aniscoupons:34909",
+    "zedstoreonline:40169"
   ],
   "last_disclaimer_time": 1794524540.9476151,
   "last_calendar_time": 1794572799.8939624,
-  "last_run_time": 1794673935.8661852,
+  "last_run_time": 1794674313.8272793,
   "monitored_channels": {
     "ecksdeal": {
       "last_message_id": 6063,
@@ -4774,8 +4778,8 @@
       "last_check_time": 1793599663.3444748
     },
     "zedstoreonline": {
-      "last_message_id": 40168,
-      "last_check_time": 1794673932.3731287
+      "last_message_id": 40169,
+      "last_check_time": 1794674315.9098842
     },
     "aniscoupons": {
       "last_message_id": 34909,
@@ -5485,7 +5489,8 @@
     "1005012479648570": 10.4,
     "1005006727799127": 4.8,
     "1005006882359473": 18.6,
-    "1005008744025540": 52.6
+    "1005008744025540": 52.6,
+    "1005006727752164": 2.7
   },
   "channel_published_deals": {
     "aniscoupons:32590": {
@@ -24490,6 +24495,16 @@
       "price": 52.6,
       "timestamp": 1794673935.8661852,
       "status": "ACTIVE"
+    },
+    "zedstoreonline:40169": {
+      "channel_msg_id": 2726,
+      "product_id": "1005006727752164",
+      "title": "ساعة YNOKE الإلكترونية الرياضية للرجال",
+      "channel": "zedstoreonline",
+      "source_msg_id": 40169,
+      "price": 2.7,
+      "timestamp": 1794674313.8272793,
+      "status": "ACTIVE"
     }
   },
   "schedule_config": {
@@ -24498,17 +24513,17 @@
     "current_interval_minutes": 5,
     "is_paused": false,
     "night_mode_enabled": true,
-    "last_deal_post_time": 1794673938.8736117,
+    "last_deal_post_time": 1794674317.5085337,
     "night_start_hour_dz": 0,
     "night_end_hour_dz": 8,
     "night_pause_enabled": true,
-    "last_sweep_time": 1794674118.984019,
+    "last_sweep_time": 1794674320.4666884,
     "last_sweep_times": {
-      "algeria": 1794674116.7583146,
-      "france": 1794674118.984019
+      "algeria": 1794674317.4751709,
+      "france": 1794674320.4666884
     },
     "last_deal_post_times": {
-      "algeria": 1794673938.8736117
+      "algeria": 1794674317.5085337
     }
   },
   "last_coin_reminder_time": 1794533888.682542,
@@ -25328,7 +25343,8 @@
     "1005012479648570": "zedstoreonline",
     "1005006727799127": "zedstoreonline",
     "1005006882359473": "zedstoreonline",
-    "1005008744025540": "aniscoupons"
+    "1005008744025540": "aniscoupons",
+    "1005006727752164": "zedstoreonline"
   },
   "published_title_channels": {
     "Test Wrench Set": "test_channel",
@@ -26389,7 +26405,8 @@
     "مجموعة ENCHEN Beardo 3 للعناية الشخصية": "zedstoreonline",
     "ريموت MX3 لاسلكي 2.4GHz مع ماوس هوائي ولوحة مفاتيح صغيرة": "zedstoreonline",
     "CHENXI Automatic Mechanical Watch": "zedstoreonline",
-    "MCHOSE V9 Pro Wireless Gaming Headset Surround Sound Headphones Noise": "aniscoupons"
+    "MCHOSE V9 Pro Wireless Gaming Headset Surround Sound Headphones Noise": "aniscoupons",
+    "ساعة YNOKE الإلكترونية الرياضية للرجال": "zedstoreonline"
   },
   "religious_reminders_history": {
     "mock_rem": "2026-10-02",
