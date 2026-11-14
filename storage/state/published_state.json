@@ -803,7 +803,8 @@
     "1005006904640542",
     "1005010155229810",
     "1005011774259648",
-    "1005012479648570"
+    "1005012479648570",
+    "1005006727799127"
   ],
   "published_product_timestamps": {
     "1005012973772517": 1794500732.7845657,
@@ -1614,7 +1615,7 @@
     "1005010788231460": 1794604060.7762444,
     "1389260212": 1794605894.0354748,
     "1005012138794873": 1794659887.3198001,
-    "1005007129557126": 1794643078.050233,
+    "1005007129557126": 1794673392.618802,
     "1005010519693722": 1794666009.2783742,
     "1005010788149535": 1794650949.6978376,
     "1005007857182319": 1794666000.5453608,
@@ -1622,7 +1623,8 @@
     "1005006904640542": 1794672105.0502174,
     "1005010155229810": 1794672468.775835,
     "1005011774259648": 1794672474.6197693,
-    "1005012479648570": 1794672652.7192543
+    "1005012479648570": 1794672652.7192543,
+    "1005006727799127": 1794673385.4725633
   },
   "published_titles": [
     "Wireless WiFi Repeater 300Mbps WiFi Extender Amplifier Booster Router",
@@ -2673,7 +2675,8 @@
     "Kemei KM-679 Professional Hair Trimmer Electric Hair Clipper",
     "Kemei KM-6630 6631 6632 trimmer",
     "MCHOSE G3 V2 Wireless Gaming Mouse",
-    "مجموعة ENCHEN Beardo 3 للعناية الشخصية"
+    "مجموعة ENCHEN Beardo 3 للعناية الشخصية",
+    "ريموت MX3 لاسلكي 2.4GHz مع ماوس هوائي ولوحة مفاتيح صغيرة"
   ],
   "published_title_timestamps": {
     "Xiaomi Redmi Note 17 5G Global Version": 1790857823.0117362,
@@ -3717,7 +3720,7 @@
     "H96 MAX RK3518 2/16GB": 1794606633.373106,
     "realme 45W SUPERVOOC Charger": 1794606651.7602222,
     "Kodak K133 USB 3.1 Flash Drive 256GB": 1794614891.9797184,
-    "SOYO AMD B550M Gaming": 1794643078.050233,
+    "SOYO AMD B550M Gaming": 1794673392.618802,
     "Delux M400 PAW3311 24000DPI 1Khz 500mAh Wireless": 1794649518.026784,
     "Delux M800mini Wireless Gaming Mouse": 1794653739.643998,
     "ASROCK X570M PRO4 Motherboard": 1794660431.126332,
@@ -3729,11 +3732,10 @@
     "Kemei KM-679 Professional Hair Trimmer Electric Hair Clipper": 1794672105.0502174,
     "Kemei KM-6630 6631 6632 trimmer": 1794672468.775835,
     "MCHOSE G3 V2 Wireless Gaming Mouse": 1794672474.6197693,
-    "مجموعة ENCHEN Beardo 3 للعناية الشخصية": 1794672652.7192543
+    "مجموعة ENCHEN Beardo 3 للعناية الشخصية": 1794672652.7192543,
+    "ريموت MX3 لاسلكي 2.4GHz مع ماوس هوائي ولوحة مفاتيح صغيرة": 1794673385.4725633
   },
   "published_post_keys": [
-    "megaphonna:8625",
-    "lodydeals:45419",
     "test_channel:1793280261",
     "ecksdeal:5955",
     "lodydeals:45490",
@@ -4731,11 +4733,13 @@
     "zedstoreonline:40162",
     "aniscoupons:34904",
     "zedstoreonline:40164",
-    "aniscoupons:34905"
+    "aniscoupons:34905",
+    "zedstoreonline:40166",
+    "aniscoupons:34907"
   ],
   "last_disclaimer_time": 1794524540.9476151,
   "last_calendar_time": 1794572799.8939624,
-  "last_run_time": 1794672658.0620825,
+  "last_run_time": 1794673392.618802,
   "monitored_channels": {
     "ecksdeal": {
       "last_message_id": 6063,
@@ -4762,12 +4766,12 @@
       "last_check_time": 1793599663.3444748
     },
     "zedstoreonline": {
-      "last_message_id": 40165,
-      "last_check_time": 1794673019.2226844
+      "last_message_id": 40166,
+      "last_check_time": 1794673387.5542998
     },
     "aniscoupons": {
-      "last_message_id": 34906,
-      "last_check_time": 1794673021.7092457
+      "last_message_id": 34907,
+      "last_check_time": 1794673394.6980913
     },
     "bnddeals": {
       "last_message_id": 51301,
@@ -5470,7 +5474,8 @@
     "1005006904640542": 6.9,
     "1005010155229810": 6.1,
     "1005011774259648": 18.88,
-    "1005012479648570": 10.4
+    "1005012479648570": 10.4,
+    "1005006727799127": 4.8
   },
   "channel_published_deals": {
     "aniscoupons:32590": {
@@ -24425,6 +24430,26 @@
       "price": 66.7,
       "timestamp": 1794672658.0620825,
       "status": "ACTIVE"
+    },
+    "zedstoreonline:40166": {
+      "channel_msg_id": 2721,
+      "product_id": "1005006727799127",
+      "title": "ريموت MX3 لاسلكي 2.4GHz مع ماوس هوائي ولوحة مفاتيح صغيرة",
+      "channel": "zedstoreonline",
+      "source_msg_id": 40166,
+      "price": 4.8,
+      "timestamp": 1794673385.4725633,
+      "status": "ACTIVE"
+    },
+    "aniscoupons:34907": {
+      "channel_msg_id": 2722,
+      "product_id": "1005007129557126",
+      "title": "SOYO AMD B550M Gaming",
+      "channel": "aniscoupons",
+      "source_msg_id": 34907,
+      "price": 82.66,
+      "timestamp": 1794673392.618802,
+      "status": "ACTIVE"
     }
   },
   "schedule_config": {
@@ -24433,17 +24458,17 @@
     "current_interval_minutes": 5,
     "is_paused": false,
     "night_mode_enabled": true,
-    "last_deal_post_time": 1794672660.8122978,
+    "last_deal_post_time": 1794673395.5705316,
     "night_start_hour_dz": 0,
     "night_end_hour_dz": 8,
     "night_pause_enabled": true,
-    "last_sweep_time": 1794673194.8875046,
+    "last_sweep_time": 1794673398.0977933,
     "last_sweep_times": {
-      "algeria": 1794673192.4514496,
-      "france": 1794673194.8875046
+      "algeria": 1794673395.535779,
+      "france": 1794673398.0977933
     },
     "last_deal_post_times": {
-      "algeria": 1794672660.8122978
+      "algeria": 1794673395.5705316
     }
   },
   "last_coin_reminder_time": 1794533888.682542,
@@ -25260,7 +25285,8 @@
     "1005006904640542": "zedstoreonline",
     "1005010155229810": "zedstoreonline",
     "1005011774259648": "aniscoupons",
-    "1005012479648570": "zedstoreonline"
+    "1005012479648570": "zedstoreonline",
+    "1005006727799127": "zedstoreonline"
   },
   "published_title_channels": {
     "Test Wrench Set": "test_channel",
@@ -26318,7 +26344,8 @@
     "Kemei KM-679 Professional Hair Trimmer Electric Hair Clipper": "zedstoreonline",
     "Kemei KM-6630 6631 6632 trimmer": "zedstoreonline",
     "MCHOSE G3 V2 Wireless Gaming Mouse": "aniscoupons",
-    "مجموعة ENCHEN Beardo 3 للعناية الشخصية": "zedstoreonline"
+    "مجموعة ENCHEN Beardo 3 للعناية الشخصية": "zedstoreonline",
+    "ريموت MX3 لاسلكي 2.4GHz مع ماوس هوائي ولوحة مفاتيح صغيرة": "zedstoreonline"
   },
   "religious_reminders_history": {
     "mock_rem": "2026-10-02",
@@ -29435,6 +29462,13 @@
         "channel": "zedstoreonline",
         "ts": 1794671187.1808007,
         "price": 240.7
+      }
+    ],
+    "1005007129557126": [
+      {
+        "channel": "aniscoupons",
+        "ts": 1794673390.8069904,
+        "price": 82.66
       }
     ]
   },
