@@ -797,7 +797,8 @@
     "1005012138794873",
     "1005007129557126",
     "1005010519693722",
-    "1005010788149535"
+    "1005010788149535",
+    "1005007857182319"
   ],
   "published_product_timestamps": {
     "1005012973772517": 1794500732.7845657,
@@ -1609,8 +1610,9 @@
     "1389260212": 1794605894.0354748,
     "1005012138794873": 1794659887.3198001,
     "1005007129557126": 1794643078.050233,
-    "1005010519693722": 1794649518.026784,
-    "1005010788149535": 1794650949.6978376
+    "1005010519693722": 1794666009.2783742,
+    "1005010788149535": 1794650949.6978376,
+    "1005007857182319": 1794666000.5453608
   },
   "published_titles": [
     "Wireless WiFi Repeater 300Mbps WiFi Extender Amplifier Booster Router",
@@ -2653,7 +2655,9 @@
     "Delux M400 PAW3311 24000DPI 1Khz 500mAh Wireless",
     "Delux M800mini Wireless Gaming Mouse",
     "ASROCK X570M PRO4 Motherboard",
-    "Ulanzi A100 Wireless Lavalier Mic"
+    "Ulanzi A100 Wireless Lavalier Mic",
+    "سماعات لاسلكية Binnune BW06 Wireless",
+    "DELUX M400 GAMING MOUSE"
   ],
   "published_title_timestamps": {
     "Xiaomi Redmi Note 17 5G Global Version": 1790857823.0117362,
@@ -3701,11 +3705,11 @@
     "Delux M400 PAW3311 24000DPI 1Khz 500mAh Wireless": 1794649518.026784,
     "Delux M800mini Wireless Gaming Mouse": 1794653739.643998,
     "ASROCK X570M PRO4 Motherboard": 1794660431.126332,
-    "Ulanzi A100 Wireless Lavalier Mic": 1794664656.5838907
+    "Ulanzi A100 Wireless Lavalier Mic": 1794664656.5838907,
+    "سماعات لاسلكية Binnune BW06 Wireless": 1794666000.5453608,
+    "DELUX M400 GAMING MOUSE": 1794666009.2783742
   },
   "published_post_keys": [
-    "aniscoupons:33206",
-    "aniscoupons:32713",
     "aniscoupons:33060",
     "test_channel:1793542236",
     "aniscoupons:33271",
@@ -4703,15 +4707,17 @@
     "aniscoupons:34888",
     "lodydeals:46492",
     "lodydeals:46494",
-    "aniscoupons:34891"
+    "aniscoupons:34891",
+    "ecksdeal:6062",
+    "aniscoupons:34893"
   ],
   "last_disclaimer_time": 1794524540.9476151,
   "last_calendar_time": 1794572799.8939624,
-  "last_run_time": 1794665030.8928545,
+  "last_run_time": 1794666009.2783742,
   "monitored_channels": {
     "ecksdeal": {
-      "last_message_id": 6061,
-      "last_check_time": 1794591384.7155294
+      "last_message_id": 6063,
+      "last_check_time": 1794666002.6371663
     },
     "lodydeals": {
       "last_message_id": 46494,
@@ -4738,8 +4744,8 @@
       "last_check_time": 1794664115.1980512
     },
     "aniscoupons": {
-      "last_message_id": 34892,
-      "last_check_time": 1794665576.266672
+      "last_message_id": 34893,
+      "last_check_time": 1794666011.3548746
     },
     "bnddeals": {
       "last_message_id": 51301,
@@ -5435,8 +5441,9 @@
     "1389260212": 14.8,
     "1005012138794873": 82.4,
     "1005007129557126": 82.66,
-    "1005010519693722": 14.42,
-    "1005010788149535": 364.9
+    "1005010519693722": 14.4,
+    "1005010788149535": 364.9,
+    "1005007857182319": 23.88
   },
   "channel_published_deals": {
     "aniscoupons:32590": {
@@ -24231,6 +24238,26 @@
       "price": 30.3,
       "timestamp": 1794665030.8928545,
       "status": "ACTIVE"
+    },
+    "ecksdeal:6062": {
+      "channel_msg_id": 2704,
+      "product_id": "1005007857182319",
+      "title": "سماعات لاسلكية Binnune BW06 Wireless",
+      "channel": "ecksdeal",
+      "source_msg_id": 6062,
+      "price": 23.88,
+      "timestamp": 1794666000.5453608,
+      "status": "ACTIVE"
+    },
+    "aniscoupons:34893": {
+      "channel_msg_id": 2705,
+      "product_id": "1005010519693722",
+      "title": "DELUX M400 GAMING MOUSE",
+      "channel": "aniscoupons",
+      "source_msg_id": 34893,
+      "price": 14.4,
+      "timestamp": 1794666009.2783742,
+      "status": "ACTIVE"
     }
   },
   "schedule_config": {
@@ -24239,17 +24266,17 @@
     "current_interval_minutes": 5,
     "is_paused": false,
     "night_mode_enabled": true,
-    "last_deal_post_time": 1794665033.9167101,
+    "last_deal_post_time": 1794666012.4193635,
     "night_start_hour_dz": 0,
     "night_end_hour_dz": 8,
     "night_pause_enabled": true,
-    "last_sweep_time": 1794665770.4719973,
+    "last_sweep_time": 1794666015.4843976,
     "last_sweep_times": {
-      "algeria": 1794665767.2737687,
-      "france": 1794665770.4719973
+      "algeria": 1794666012.3916984,
+      "france": 1794666015.4843976
     },
     "last_deal_post_times": {
-      "algeria": 1794665033.9167101
+      "algeria": 1794666012.4193635
     }
   },
   "last_coin_reminder_time": 1794533888.682542,
@@ -25059,8 +25086,9 @@
     "1389260212": "zedstoreonline",
     "1005012138794873": "zedstoreonline",
     "1005007129557126": "aniscoupons",
-    "1005010519693722": "lodydeals",
-    "1005010788149535": "aniscoupons"
+    "1005010519693722": "aniscoupons",
+    "1005010788149535": "aniscoupons",
+    "1005007857182319": "ecksdeal"
   },
   "published_title_channels": {
     "Test Wrench Set": "test_channel",
@@ -26110,7 +26138,9 @@
     "Delux M400 PAW3311 24000DPI 1Khz 500mAh Wireless": "lodydeals",
     "Delux M800mini Wireless Gaming Mouse": "aniscoupons",
     "ASROCK X570M PRO4 Motherboard": "zedstoreonline",
-    "Ulanzi A100 Wireless Lavalier Mic": "lodydeals"
+    "Ulanzi A100 Wireless Lavalier Mic": "lodydeals",
+    "سماعات لاسلكية Binnune BW06 Wireless": "ecksdeal",
+    "DELUX M400 GAMING MOUSE": "aniscoupons"
   },
   "religious_reminders_history": {
     "mock_rem": "2026-10-02",
@@ -26907,7 +26937,6 @@
   "published_deals_history": {},
   "settings": {},
   "handled_post_keys": [
-    "aniscoupons:34116",
     "aniscoupons:34117",
     "aniscoupons:34118",
     "aniscoupons:34119",
@@ -27906,7 +27935,8 @@
     "zedstoreonline:40153",
     "lodydeals:46493",
     "aniscoupons:34890",
-    "aniscoupons:34892"
+    "aniscoupons:34892",
+    "ecksdeal:6063"
   ],
   "last_france_cross_promo_time": 1794553348.8480208,
   "next_france_cross_promo_interval_seconds": 334302,
@@ -29125,6 +29155,13 @@
         "channel": "lodydeals",
         "ts": 1794664654.6086252,
         "price": 17.93
+      }
+    ],
+    "1005010519693722": [
+      {
+        "channel": "aniscoupons",
+        "ts": 1794666007.6102984,
+        "price": 14.4
       }
     ]
   },
