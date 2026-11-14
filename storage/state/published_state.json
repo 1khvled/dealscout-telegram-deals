@@ -820,7 +820,8 @@
     "1005010043969798",
     "1005010376374580",
     "1005010239860751",
-    "1005009278862695"
+    "1005009278862695",
+    "1005013005786079"
   ],
   "published_product_timestamps": {
     "1005012973772517": 1794500732.7845657,
@@ -1656,7 +1657,8 @@
     "1005010043969798": 1794679093.780596,
     "1005010376374580": 1794679272.8106956,
     "1005010239860751": 1794684619.3058665,
-    "1005009278862695": 1794687391.0146728
+    "1005009278862695": 1794687391.0146728,
+    "1005013005786079": 1794688878.915808
   },
   "published_titles": [
     "Wireless WiFi Repeater 300Mbps WiFi Extender Amplifier Booster Router",
@@ -2728,7 +2730,8 @@
     "Blackview WAVE 7C 4/64GB",
     "FIFINE Wireless Lavalier Recording Microphone",
     "MCHOSE A7 V2 Ultra Gaming Mouse",
-    "NETUM XL-P801 Thermal A4 Printer"
+    "NETUM XL-P801 Thermal A4 Printer",
+    "Nothing Buds 2 Neo"
   ],
   "published_title_timestamps": {
     "Xiaomi Redmi Note 17 5G Global Version": 1790857823.0117362,
@@ -3805,10 +3808,10 @@
     "Blackview WAVE 7C 4/64GB": 1794682395.5974634,
     "FIFINE Wireless Lavalier Recording Microphone": 1794682951.3022494,
     "MCHOSE A7 V2 Ultra Gaming Mouse": 1794684619.3058665,
-    "NETUM XL-P801 Thermal A4 Printer": 1794687391.0146728
+    "NETUM XL-P801 Thermal A4 Printer": 1794687391.0146728,
+    "Nothing Buds 2 Neo": 1794688878.915808
   },
   "published_post_keys": [
-    "lodydeals:45959",
     "lodydeals:45962",
     "lodydeals:45963",
     "lodydeals:45964",
@@ -4807,11 +4810,12 @@
     "zedstoreonline:40186",
     "lodydeals:46514",
     "lodydeals:46516",
-    "aniscoupons:34932"
+    "aniscoupons:34932",
+    "aniscoupons:34933"
   ],
   "last_disclaimer_time": 1794524540.9476151,
   "last_calendar_time": 1794572799.8939624,
-  "last_run_time": 1794688509.0528257,
+  "last_run_time": 1794688878.915808,
   "monitored_channels": {
     "ecksdeal": {
       "last_message_id": 6064,
@@ -4842,8 +4846,8 @@
       "last_check_time": 1794686094.0501804
     },
     "aniscoupons": {
-      "last_message_id": 34932,
-      "last_check_time": 1794688511.1603084
+      "last_message_id": 34933,
+      "last_check_time": 1794688880.9632392
     },
     "bnddeals": {
       "last_message_id": 51303,
@@ -5563,7 +5567,8 @@
     "1005010043969798": 2.4,
     "1005010376374580": 20.4,
     "1005010239860751": 36.9,
-    "1005009278862695": 35.55
+    "1005009278862695": 35.55,
+    "1005013005786079": 16.29
   },
   "channel_published_deals": {
     "aniscoupons:32590": {
@@ -24888,6 +24893,16 @@
       "price": 7.47,
       "timestamp": 1794688509.0528257,
       "status": "ACTIVE"
+    },
+    "aniscoupons:34933": {
+      "channel_msg_id": 2760,
+      "product_id": "1005013005786079",
+      "title": "Nothing Buds 2 Neo",
+      "channel": "aniscoupons",
+      "source_msg_id": 34933,
+      "price": 16.29,
+      "timestamp": 1794688878.915808,
+      "status": "ACTIVE"
     }
   },
   "schedule_config": {
@@ -24896,17 +24911,17 @@
     "current_interval_minutes": 5,
     "is_paused": false,
     "night_mode_enabled": true,
-    "last_deal_post_time": 1794688512.0716157,
+    "last_deal_post_time": 1794688881.7981906,
     "night_start_hour_dz": 0,
     "night_end_hour_dz": 8,
     "night_pause_enabled": true,
-    "last_sweep_time": 1794688699.215359,
+    "last_sweep_time": 1794688885.134209,
     "last_sweep_times": {
-      "algeria": 1794688695.276146,
-      "france": 1794688699.215359
+      "algeria": 1794688881.778188,
+      "france": 1794688885.134209
     },
     "last_deal_post_times": {
-      "algeria": 1794688512.0716157
+      "algeria": 1794688881.7981906
     }
   },
   "last_coin_reminder_time": 1794533888.682542,
@@ -25740,7 +25755,8 @@
     "1005010043969798": "zedstoreonline",
     "1005010376374580": "zedstoreonline",
     "1005010239860751": "zedstoreonline",
-    "1005009278862695": "lodydeals"
+    "1005009278862695": "lodydeals",
+    "1005013005786079": "aniscoupons"
   },
   "published_title_channels": {
     "Test Wrench Set": "test_channel",
@@ -26819,7 +26835,8 @@
     "Blackview WAVE 7C 4/64GB": "lodydeals",
     "FIFINE Wireless Lavalier Recording Microphone": "zedstoreonline",
     "MCHOSE A7 V2 Ultra Gaming Mouse": "zedstoreonline",
-    "NETUM XL-P801 Thermal A4 Printer": "lodydeals"
+    "NETUM XL-P801 Thermal A4 Printer": "lodydeals",
+    "Nothing Buds 2 Neo": "aniscoupons"
   },
   "religious_reminders_history": {
     "mock_rem": "2026-10-02",
