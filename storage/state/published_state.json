@@ -1348,7 +1348,7 @@
     "1005012922578845": 1793544001.8628821,
     "1005011752891197": 1793613465.8475375,
     "1005008689880751": 1793544016.7486506,
-    "1005006861815245": 1793546752.979555,
+    "1005006861815245": 1794682951.3022494,
     "1005007635109339": 1794439743.6258593,
     "1005006860968233": 1793546761.9902797,
     "1005009912743452": 1793546766.3907888,
@@ -2721,7 +2721,8 @@
     "ميزان حرارة طبي رقمي صغير لقياس درجة حرارة الجسم",
     "Tribit PocketGo Portable Bluetooth Speaker",
     "Delux M400 PAW3311 24000DPI 1Khz",
-    "Blackview WAVE 7C 4/64GB"
+    "Blackview WAVE 7C 4/64GB",
+    "FIFINE Wireless Lavalier Recording Microphone"
   ],
   "published_title_timestamps": {
     "Xiaomi Redmi Note 17 5G Global Version": 1790857823.0117362,
@@ -3795,10 +3796,10 @@
     "ميزان حرارة طبي رقمي صغير لقياس درجة حرارة الجسم": 1794679093.780596,
     "Tribit PocketGo Portable Bluetooth Speaker": 1794679272.8106956,
     "Delux M400 PAW3311 24000DPI 1Khz": 1794680859.9419408,
-    "Blackview WAVE 7C 4/64GB": 1794682395.5974634
+    "Blackview WAVE 7C 4/64GB": 1794682395.5974634,
+    "FIFINE Wireless Lavalier Recording Microphone": 1794682951.3022494
   },
   "published_post_keys": [
-    "ecksdeal:5991",
     "lodydeals:45951",
     "lodydeals:45952",
     "lodydeals:45953",
@@ -4797,11 +4798,12 @@
     "lodydeals:46505",
     "aniscoupons:34923",
     "zedstoreonline:40183",
-    "lodydeals:46508"
+    "lodydeals:46508",
+    "zedstoreonline:40184"
   ],
   "last_disclaimer_time": 1794524540.9476151,
   "last_calendar_time": 1794572799.8939624,
-  "last_run_time": 1794682395.5974634,
+  "last_run_time": 1794682951.3022494,
   "monitored_channels": {
     "ecksdeal": {
       "last_message_id": 6064,
@@ -4828,8 +4830,8 @@
       "last_check_time": 1793599663.3444748
     },
     "zedstoreonline": {
-      "last_message_id": 40183,
-      "last_check_time": 1794682042.4406965
+      "last_message_id": 40184,
+      "last_check_time": 1794682953.3817518
     },
     "aniscoupons": {
       "last_message_id": 34923,
@@ -5274,7 +5276,7 @@
     "1005005975560350": 35.9,
     "1005011752891197": 119.3,
     "1005008689880751": 76.5,
-    "1005006861815245": 9.44,
+    "1005006861815245": 11.7,
     "1005007635109339": 52.5,
     "1005006860968233": 47.75,
     "1005009912743452": 168.18,
@@ -24786,6 +24788,16 @@
       "price": 87.01,
       "timestamp": 1794682395.5974634,
       "status": "ACTIVE"
+    },
+    "zedstoreonline:40184": {
+      "channel_msg_id": 2751,
+      "product_id": "1005006861815245",
+      "title": "FIFINE Wireless Lavalier Recording Microphone",
+      "channel": "zedstoreonline",
+      "source_msg_id": 40184,
+      "price": 11.7,
+      "timestamp": 1794682951.3022494,
+      "status": "ACTIVE"
     }
   },
   "schedule_config": {
@@ -24794,17 +24806,17 @@
     "current_interval_minutes": 5,
     "is_paused": false,
     "night_mode_enabled": true,
-    "last_deal_post_time": 1794682399.8568087,
+    "last_deal_post_time": 1794682955.0004718,
     "night_start_hour_dz": 0,
     "night_end_hour_dz": 8,
     "night_pause_enabled": true,
-    "last_sweep_time": 1794682768.0310993,
+    "last_sweep_time": 1794682957.937359,
     "last_sweep_times": {
-      "algeria": 1794682765.0189905,
-      "france": 1794682768.0310993
+      "algeria": 1794682954.9671977,
+      "france": 1794682957.937359
     },
     "last_deal_post_times": {
-      "algeria": 1794682399.8568087
+      "algeria": 1794682955.0004718
     }
   },
   "last_coin_reminder_time": 1794533888.682542,
@@ -25347,7 +25359,7 @@
     "1005005975560350": "zedstoreonline",
     "1005011752891197": "zedstoreonline",
     "1005008689880751": "lodydeals",
-    "1005006861815245": "ecksdeal",
+    "1005006861815245": "zedstoreonline",
     "1005007635109339": "aniscoupons",
     "1005006860968233": "ecksdeal",
     "1005009912743452": "ecksdeal",
@@ -26712,7 +26724,8 @@
     "ميزان حرارة طبي رقمي صغير لقياس درجة حرارة الجسم": "zedstoreonline",
     "Tribit PocketGo Portable Bluetooth Speaker": "zedstoreonline",
     "Delux M400 PAW3311 24000DPI 1Khz": "lodydeals",
-    "Blackview WAVE 7C 4/64GB": "lodydeals"
+    "Blackview WAVE 7C 4/64GB": "lodydeals",
+    "FIFINE Wireless Lavalier Recording Microphone": "zedstoreonline"
   },
   "religious_reminders_history": {
     "mock_rem": "2026-10-02",
@@ -29997,6 +30010,13 @@
         "channel": "lodydeals",
         "ts": 1794682392.5542307,
         "price": 87.01
+      }
+    ],
+    "1005006861815245": [
+      {
+        "channel": "zedstoreonline",
+        "ts": 1794682949.2128475,
+        "price": 11.7
       }
     ]
   },
