@@ -798,7 +798,8 @@
     "1005007129557126",
     "1005010519693722",
     "1005010788149535",
-    "1005007857182319"
+    "1005007857182319",
+    "1005010706574985"
   ],
   "published_product_timestamps": {
     "1005012973772517": 1794500732.7845657,
@@ -1612,7 +1613,8 @@
     "1005007129557126": 1794643078.050233,
     "1005010519693722": 1794666009.2783742,
     "1005010788149535": 1794650949.6978376,
-    "1005007857182319": 1794666000.5453608
+    "1005007857182319": 1794666000.5453608,
+    "1005010706574985": 1794670972.5875318
   },
   "published_titles": [
     "Wireless WiFi Repeater 300Mbps WiFi Extender Amplifier Booster Router",
@@ -2658,7 +2660,8 @@
     "Ulanzi A100 Wireless Lavalier Mic",
     "سماعات لاسلكية Binnune BW06 Wireless",
     "DELUX M400 GAMING MOUSE",
-    "HyperX Cloud 2 II Wired Gaming Headset"
+    "HyperX Cloud 2 II Wired Gaming Headset",
+    "Baseus Bass EP10 NC"
   ],
   "published_title_timestamps": {
     "Xiaomi Redmi Note 17 5G Global Version": 1790857823.0117362,
@@ -3709,10 +3712,10 @@
     "Ulanzi A100 Wireless Lavalier Mic": 1794664656.5838907,
     "سماعات لاسلكية Binnune BW06 Wireless": 1794666000.5453608,
     "DELUX M400 GAMING MOUSE": 1794666009.2783742,
-    "HyperX Cloud 2 II Wired Gaming Headset": 1794668030.6727147
+    "HyperX Cloud 2 II Wired Gaming Headset": 1794668030.6727147,
+    "Baseus Bass EP10 NC": 1794670972.5875318
   },
   "published_post_keys": [
-    "lodydeals:45923",
     "aniscoupons:33147",
     "aniscoupons:33311",
     "ecksdeal:5944",
@@ -4711,11 +4714,12 @@
     "aniscoupons:34896",
     "aniscoupons:34897",
     "zedstoreonline:40157",
-    "aniscoupons:34898"
+    "aniscoupons:34898",
+    "aniscoupons:34901"
   ],
   "last_disclaimer_time": 1794524540.9476151,
   "last_calendar_time": 1794572799.8939624,
-  "last_run_time": 1794668759.6251216,
+  "last_run_time": 1794670972.5875318,
   "monitored_channels": {
     "ecksdeal": {
       "last_message_id": 6063,
@@ -4746,8 +4750,8 @@
       "last_check_time": 1794668576.0742633
     },
     "aniscoupons": {
-      "last_message_id": 34900,
-      "last_check_time": 1794670419.3708422
+      "last_message_id": 34901,
+      "last_check_time": 1794670974.6653466
     },
     "bnddeals": {
       "last_message_id": 51301,
@@ -5445,7 +5449,8 @@
     "1005007129557126": 82.66,
     "1005010519693722": 14.4,
     "1005010788149535": 364.9,
-    "1005007857182319": 23.88
+    "1005007857182319": 23.88,
+    "1005010706574985": 11.16
   },
   "channel_published_deals": {
     "aniscoupons:32590": {
@@ -24320,6 +24325,16 @@
       "price": 21.2,
       "timestamp": 1794668759.6251216,
       "status": "ACTIVE"
+    },
+    "aniscoupons:34901": {
+      "channel_msg_id": 2713,
+      "product_id": "1005010706574985",
+      "title": "Baseus Bass EP10 NC",
+      "channel": "aniscoupons",
+      "source_msg_id": 34901,
+      "price": 11.16,
+      "timestamp": 1794670972.5875318,
+      "status": "ACTIVE"
     }
   },
   "schedule_config": {
@@ -24328,17 +24343,17 @@
     "current_interval_minutes": 5,
     "is_paused": false,
     "night_mode_enabled": true,
-    "last_deal_post_time": 1794668762.6457524,
+    "last_deal_post_time": 1794670975.613886,
     "night_start_hour_dz": 0,
     "night_end_hour_dz": 8,
     "night_pause_enabled": true,
-    "last_sweep_time": 1794670794.5392976,
+    "last_sweep_time": 1794670978.121421,
     "last_sweep_times": {
-      "algeria": 1794670791.7981617,
-      "france": 1794670794.5392976
+      "algeria": 1794670975.5799956,
+      "france": 1794670978.121421
     },
     "last_deal_post_times": {
-      "algeria": 1794668762.6457524
+      "algeria": 1794670975.613886
     }
   },
   "last_coin_reminder_time": 1794533888.682542,
@@ -25150,7 +25165,8 @@
     "1005007129557126": "aniscoupons",
     "1005010519693722": "aniscoupons",
     "1005010788149535": "aniscoupons",
-    "1005007857182319": "ecksdeal"
+    "1005007857182319": "ecksdeal",
+    "1005010706574985": "aniscoupons"
   },
   "published_title_channels": {
     "Test Wrench Set": "test_channel",
@@ -26203,7 +26219,8 @@
     "Ulanzi A100 Wireless Lavalier Mic": "lodydeals",
     "سماعات لاسلكية Binnune BW06 Wireless": "ecksdeal",
     "DELUX M400 GAMING MOUSE": "aniscoupons",
-    "HyperX Cloud 2 II Wired Gaming Headset": "aniscoupons"
+    "HyperX Cloud 2 II Wired Gaming Headset": "aniscoupons",
+    "Baseus Bass EP10 NC": "aniscoupons"
   },
   "religious_reminders_history": {
     "mock_rem": "2026-10-02",
