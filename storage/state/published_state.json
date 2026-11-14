@@ -809,7 +809,7 @@
     "9998883350": 1790883350.933217,
     "9998883398": 1790883398.457595,
     "9998883417": 1790883417.3833034,
-    "1005007805638431": 1794480454.9508715,
+    "1005007805638431": 1794668759.6251216,
     "1005009054706827": 1794307249.1472638,
     "1005007961216287": 1791942616.1564767,
     "1005009627597591": 1793542398.3843465,
@@ -3592,7 +3592,7 @@
     "CUSU CV3500Q 2TB M.2": 1794305012.9961731,
     "MACHENIKE G5Pro Max SE With Charging Dock": 1794655651.061057,
     "Xiaoxin Pad Pro GT (8/256)": 1794660072.7294455,
-    "Attack Shark X11": 1794480454.9508715,
+    "Attack Shark X11": 1794668759.6251216,
     "Mic USB Microphone with RGB Modes Professional Condenser Mic for": 1794436007.5288515,
     "MAONO PD100W USB Wireless Dynamic": 1794432872.6767933,
     "MAONO Wave T1 Mini Pro": 1794425282.6782186,
@@ -3712,7 +3712,6 @@
     "HyperX Cloud 2 II Wired Gaming Headset": 1794668030.6727147
   },
   "published_post_keys": [
-    "bnddeals:50961",
     "lodydeals:45923",
     "aniscoupons:33147",
     "aniscoupons:33311",
@@ -4711,11 +4710,12 @@
     "aniscoupons:34894",
     "aniscoupons:34896",
     "aniscoupons:34897",
-    "zedstoreonline:40157"
+    "zedstoreonline:40157",
+    "aniscoupons:34898"
   ],
   "last_disclaimer_time": 1794524540.9476151,
   "last_calendar_time": 1794572799.8939624,
-  "last_run_time": 1794668573.9969933,
+  "last_run_time": 1794668759.6251216,
   "monitored_channels": {
     "ecksdeal": {
       "last_message_id": 6063,
@@ -4746,8 +4746,8 @@
       "last_check_time": 1794668576.0742633
     },
     "aniscoupons": {
-      "last_message_id": 34897,
-      "last_check_time": 1794668032.7310698
+      "last_message_id": 34898,
+      "last_check_time": 1794668761.6910827
     },
     "bnddeals": {
       "last_message_id": 51301,
@@ -4757,7 +4757,7 @@
   "published_product_prices": {
     "1005012973772517": 217.8,
     "1005010219205081": 57.2,
-    "1005007805638431": 21.7,
+    "1005007805638431": 21.2,
     "1005007027334636": 13.49,
     "1005009054706827": 23.1,
     "1005007961216287": 20.26,
@@ -24310,6 +24310,16 @@
       "price": 47.4,
       "timestamp": 1794668573.9969933,
       "status": "ACTIVE"
+    },
+    "aniscoupons:34898": {
+      "channel_msg_id": 2712,
+      "product_id": "1005007805638431",
+      "title": "Attack Shark X11",
+      "channel": "aniscoupons",
+      "source_msg_id": 34898,
+      "price": 21.2,
+      "timestamp": 1794668759.6251216,
+      "status": "ACTIVE"
     }
   },
   "schedule_config": {
@@ -24318,17 +24328,17 @@
     "current_interval_minutes": 5,
     "is_paused": false,
     "night_mode_enabled": true,
-    "last_deal_post_time": 1794668577.7728426,
+    "last_deal_post_time": 1794668762.6457524,
     "night_start_hour_dz": 0,
     "night_end_hour_dz": 8,
     "night_pause_enabled": true,
-    "last_sweep_time": 1794668580.7896414,
+    "last_sweep_time": 1794668765.535372,
     "last_sweep_times": {
-      "algeria": 1794668577.7397606,
-      "france": 1794668580.7896414
+      "algeria": 1794668762.6184368,
+      "france": 1794668765.535372
     },
     "last_deal_post_times": {
-      "algeria": 1794668577.7728426
+      "algeria": 1794668762.6457524
     }
   },
   "last_coin_reminder_time": 1794533888.682542,
@@ -24834,7 +24844,7 @@
     "1005009627597591": "lodydeals",
     "1005013455514231": "lodydeals",
     "1005009578274758": "lodydeals",
-    "1005007805638431": "zedstoreonline",
+    "1005007805638431": "aniscoupons",
     "1005010413332383": "aniscoupons",
     "1005011550075220": "ecksdeal",
     "1005009806856302": "aniscoupons",
@@ -26076,7 +26086,7 @@
     "CUSU CV3500Q 2TB M.2": "lodydeals",
     "MACHENIKE G5Pro Max SE With Charging Dock": "aniscoupons",
     "Xiaoxin Pad Pro GT (8/256)": "aniscoupons",
-    "Attack Shark X11": "zedstoreonline",
+    "Attack Shark X11": "aniscoupons",
     "Mic USB Microphone with RGB Modes Professional Condenser Mic for": "aniscoupons",
     "MAONO PD100W USB Wireless Dynamic": "aniscoupons",
     "MAONO Wave T1 Mini Pro": "aniscoupons",
@@ -29254,6 +29264,13 @@
         "channel": "aniscoupons",
         "ts": 1794668028.2551942,
         "price": 59.8
+      }
+    ],
+    "1005007805638431": [
+      {
+        "channel": "aniscoupons",
+        "ts": 1794668757.3051982,
+        "price": 21.2
       }
     ]
   },
