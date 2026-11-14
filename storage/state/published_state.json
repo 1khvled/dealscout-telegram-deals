@@ -819,7 +819,8 @@
     "1005007336232520",
     "1005010043969798",
     "1005010376374580",
-    "1005010239860751"
+    "1005010239860751",
+    "1005009278862695"
   ],
   "published_product_timestamps": {
     "1005012973772517": 1794500732.7845657,
@@ -1654,7 +1655,8 @@
     "1005007336232520": 1794677812.6238942,
     "1005010043969798": 1794679093.780596,
     "1005010376374580": 1794679272.8106956,
-    "1005010239860751": 1794684619.3058665
+    "1005010239860751": 1794684619.3058665,
+    "1005009278862695": 1794687391.0146728
   },
   "published_titles": [
     "Wireless WiFi Repeater 300Mbps WiFi Extender Amplifier Booster Router",
@@ -2725,7 +2727,8 @@
     "Delux M400 PAW3311 24000DPI 1Khz",
     "Blackview WAVE 7C 4/64GB",
     "FIFINE Wireless Lavalier Recording Microphone",
-    "MCHOSE A7 V2 Ultra Gaming Mouse"
+    "MCHOSE A7 V2 Ultra Gaming Mouse",
+    "NETUM XL-P801 Thermal A4 Printer"
   ],
   "published_title_timestamps": {
     "Xiaomi Redmi Note 17 5G Global Version": 1790857823.0117362,
@@ -3801,10 +3804,10 @@
     "Delux M400 PAW3311 24000DPI 1Khz": 1794680859.9419408,
     "Blackview WAVE 7C 4/64GB": 1794682395.5974634,
     "FIFINE Wireless Lavalier Recording Microphone": 1794682951.3022494,
-    "MCHOSE A7 V2 Ultra Gaming Mouse": 1794684619.3058665
+    "MCHOSE A7 V2 Ultra Gaming Mouse": 1794684619.3058665,
+    "NETUM XL-P801 Thermal A4 Printer": 1794687391.0146728
   },
   "published_post_keys": [
-    "lodydeals:45957",
     "lodydeals:45958",
     "lodydeals:45959",
     "lodydeals:45962",
@@ -4803,19 +4806,20 @@
     "aniscoupons:34925",
     "aniscoupons:34926",
     "zedstoreonline:40186",
-    "lodydeals:46514"
+    "lodydeals:46514",
+    "lodydeals:46516"
   ],
   "last_disclaimer_time": 1794524540.9476151,
   "last_calendar_time": 1794572799.8939624,
-  "last_run_time": 1794685905.8538558,
+  "last_run_time": 1794687391.0146728,
   "monitored_channels": {
     "ecksdeal": {
       "last_message_id": 6064,
       "last_check_time": 1794676876.8326535
     },
     "lodydeals": {
-      "last_message_id": 46515,
-      "last_check_time": 1794687203.9498048
+      "last_message_id": 46516,
+      "last_check_time": 1794687393.098742
     },
     "test_channel": {
       "last_message_id": 1793967703,
@@ -5558,7 +5562,8 @@
     "1005007336232520": 20.9,
     "1005010043969798": 2.4,
     "1005010376374580": 20.4,
-    "1005010239860751": 36.9
+    "1005010239860751": 36.9,
+    "1005009278862695": 35.55
   },
   "channel_published_deals": {
     "aniscoupons:32590": {
@@ -24863,6 +24868,16 @@
       "price": 11.12,
       "timestamp": 1794685905.8538558,
       "status": "ACTIVE"
+    },
+    "lodydeals:46516": {
+      "channel_msg_id": 2758,
+      "product_id": "1005009278862695",
+      "title": "NETUM XL-P801 Thermal A4 Printer",
+      "channel": "lodydeals",
+      "source_msg_id": 46516,
+      "price": 35.55,
+      "timestamp": 1794687391.0146728,
+      "status": "ACTIVE"
     }
   },
   "schedule_config": {
@@ -24871,17 +24886,17 @@
     "current_interval_minutes": 5,
     "is_paused": false,
     "night_mode_enabled": true,
-    "last_deal_post_time": 1794685909.9664805,
+    "last_deal_post_time": 1794687395.9514549,
     "night_start_hour_dz": 0,
     "night_end_hour_dz": 8,
     "night_pause_enabled": true,
-    "last_sweep_time": 1794687209.26089,
+    "last_sweep_time": 1794687398.588847,
     "last_sweep_times": {
-      "algeria": 1794687206.6348796,
-      "france": 1794687209.26089
+      "algeria": 1794687395.9158795,
+      "france": 1794687398.588847
     },
     "last_deal_post_times": {
-      "algeria": 1794685909.9664805
+      "algeria": 1794687395.9514549
     }
   },
   "last_coin_reminder_time": 1794533888.682542,
@@ -25714,7 +25729,8 @@
     "1005007336232520": "aniscoupons",
     "1005010043969798": "zedstoreonline",
     "1005010376374580": "zedstoreonline",
-    "1005010239860751": "zedstoreonline"
+    "1005010239860751": "zedstoreonline",
+    "1005009278862695": "lodydeals"
   },
   "published_title_channels": {
     "Test Wrench Set": "test_channel",
@@ -26792,7 +26808,8 @@
     "Delux M400 PAW3311 24000DPI 1Khz": "lodydeals",
     "Blackview WAVE 7C 4/64GB": "lodydeals",
     "FIFINE Wireless Lavalier Recording Microphone": "zedstoreonline",
-    "MCHOSE A7 V2 Ultra Gaming Mouse": "zedstoreonline"
+    "MCHOSE A7 V2 Ultra Gaming Mouse": "zedstoreonline",
+    "NETUM XL-P801 Thermal A4 Printer": "lodydeals"
   },
   "religious_reminders_history": {
     "mock_rem": "2026-10-02",
