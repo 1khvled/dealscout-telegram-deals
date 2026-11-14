@@ -4852,8 +4852,8 @@
       "last_check_time": 1794689618.7821689
     },
     "aniscoupons": {
-      "last_message_id": 34933,
-      "last_check_time": 1794688880.9632392
+      "last_message_id": 34934,
+      "last_check_time": 1794690533.4668806
     },
     "bnddeals": {
       "last_message_id": 51303,
@@ -24951,10 +24951,10 @@
     "night_start_hour_dz": 0,
     "night_end_hour_dz": 8,
     "night_pause_enabled": true,
-    "last_sweep_time": 1794690349.5609994,
+    "last_sweep_time": 1794690537.113007,
     "last_sweep_times": {
-      "algeria": 1794690346.7817068,
-      "france": 1794690349.5609994
+      "algeria": 1794690534.3235352,
+      "france": 1794690537.113007
     },
     "last_deal_post_times": {
       "algeria": 1794689995.0870397
@@ -27672,7 +27672,6 @@
   "published_deals_history": {},
   "settings": {},
   "handled_post_keys": [
-    "aniscoupons:34130",
     "aniscoupons:34132",
     "aniscoupons:34133",
     "aniscoupons:34135",
@@ -28671,7 +28670,8 @@
     "aniscoupons:34930",
     "aniscoupons:34931",
     "lodydeals:46515",
-    "lodydeals:46517"
+    "lodydeals:46517",
+    "aniscoupons:34934"
   ],
   "last_france_cross_promo_time": 1794553348.8480208,
   "next_france_cross_promo_interval_seconds": 334302,
@@ -29241,16 +29241,6 @@
   "competitor_product_sightings": {
     "1005010210432531": [
       {
-        "channel": "zedstoreonline",
-        "ts": 1794647066.4568923,
-        "price": 40.0
-      },
-      {
-        "channel": "aniscoupons",
-        "ts": 1794647088.6255167,
-        "price": 147.8
-      },
-      {
         "channel": "aniscoupons",
         "ts": 1794671417.9156957,
         "price": 136.7
@@ -29267,11 +29257,6 @@
       }
     ],
     "1005008708333999": [
-      {
-        "channel": "aniscoupons",
-        "ts": 1794647083.4804869,
-        "price": 136.7
-      },
       {
         "channel": "zedstoreonline",
         "ts": 1794648672.9060693,
@@ -29294,16 +29279,6 @@
       }
     ],
     "1005007916078341": [
-      {
-        "channel": "zedstoreonline",
-        "ts": 1794647044.6727767,
-        "price": 47.4
-      },
-      {
-        "channel": "aniscoupons",
-        "ts": 1794647089.3086357,
-        "price": 47.4
-      },
       {
         "channel": "zedstoreonline",
         "ts": 1794668571.7280295,
@@ -29343,11 +29318,6 @@
     ],
     "1005010369693975": [
       {
-        "channel": "aniscoupons",
-        "ts": 1794647242.3681889,
-        "price": 10.7
-      },
-      {
         "channel": "zedstoreonline",
         "ts": 1794674482.0884473,
         "price": 10.7
@@ -29363,57 +29333,14 @@
         "price": 10.71
       }
     ],
-    "1005010121513376": [
-      {
-        "channel": "zedstoreonline",
-        "ts": 1794647043.1432056,
-        "price": 289.0
-      },
-      {
-        "channel": "aniscoupons",
-        "ts": 1794647082.8092036,
-        "price": 289.5
-      }
-    ],
-    "1005011742851856": [
-      {
-        "channel": "zedstoreonline",
-        "ts": 1794647049.7275126,
-        "price": 4.1
-      }
-    ],
-    "1005013089015192": [
-      {
-        "channel": "zedstoreonline",
-        "ts": 1794647053.7324488,
-        "price": 261.9
-      }
-    ],
     "1005010041181003": [
-      {
-        "channel": "zedstoreonline",
-        "ts": 1794647058.2744257,
-        "price": 161.0
-      },
       {
         "channel": "aniscoupons",
         "ts": 1794651745.56444,
         "price": 167.8
       }
     ],
-    "1005008774483451": [
-      {
-        "channel": "zedstoreonline",
-        "ts": 1794647059.6782641,
-        "price": 40.1
-      }
-    ],
     "1005008366962319": [
-      {
-        "channel": "zedstoreonline",
-        "ts": 1794647067.835595,
-        "price": 30.0
-      },
       {
         "channel": "zedstoreonline",
         "ts": 1794664114.6295874,
@@ -29425,30 +29352,11 @@
         "price": 30.3
       }
     ],
-    "1005013438245033": [
-      {
-        "channel": "aniscoupons",
-        "ts": 1794647073.4173634,
-        "price": 409.36
-      }
-    ],
     "1005009662812027": [
-      {
-        "channel": "aniscoupons",
-        "ts": 1794647078.4088635,
-        "price": 78.4
-      },
       {
         "channel": "zedstoreonline",
         "ts": 1794651741.3632972,
         "price": 78.0
-      }
-    ],
-    "1005009278114794": [
-      {
-        "channel": "zedstoreonline",
-        "ts": 1794647233.6110482,
-        "price": 11.5
       }
     ],
     "1005006581583862": [
@@ -30236,6 +30144,11 @@
       {
         "channel": "aniscoupons",
         "ts": 1794688506.9778938,
+        "price": 7.47
+      },
+      {
+        "channel": "aniscoupons",
+        "ts": 1794690533.31876,
         "price": 7.47
       }
     ],
