@@ -4762,12 +4762,12 @@
       "last_check_time": 1793599663.3444748
     },
     "zedstoreonline": {
-      "last_message_id": 40164,
-      "last_check_time": 1794672654.8000724
+      "last_message_id": 40165,
+      "last_check_time": 1794673019.2226844
     },
     "aniscoupons": {
-      "last_message_id": 34905,
-      "last_check_time": 1794672660.1408355
+      "last_message_id": 34906,
+      "last_check_time": 1794673021.7092457
     },
     "bnddeals": {
       "last_message_id": 51301,
@@ -24437,10 +24437,10 @@
     "night_start_hour_dz": 0,
     "night_end_hour_dz": 8,
     "night_pause_enabled": true,
-    "last_sweep_time": 1794672835.013022,
+    "last_sweep_time": 1794673025.708388,
     "last_sweep_times": {
-      "algeria": 1794672832.6890495,
-      "france": 1794672835.013022
+      "algeria": 1794673022.6945198,
+      "france": 1794673025.708388
     },
     "last_deal_post_times": {
       "algeria": 1794672660.8122978
@@ -27115,8 +27115,6 @@
   "published_deals_history": {},
   "settings": {},
   "handled_post_keys": [
-    "aniscoupons:34129",
-    "aniscoupons:34131",
     "aniscoupons:34134",
     "aniscoupons:34139",
     "aniscoupons:34140",
@@ -28114,7 +28112,9 @@
     "aniscoupons:34900",
     "zedstoreonline:40159",
     "zedstoreonline:40160",
-    "aniscoupons:34903"
+    "aniscoupons:34903",
+    "zedstoreonline:40165",
+    "aniscoupons:34906"
   ],
   "last_france_cross_promo_time": 1794553348.8480208,
   "next_france_cross_promo_interval_seconds": 334302,
@@ -28936,6 +28936,11 @@
         "channel": "aniscoupons",
         "ts": 1794653124.3184237,
         "price": 16.0
+      },
+      {
+        "channel": "aniscoupons",
+        "ts": 1794673021.0752926,
+        "price": 16.0
       }
     ],
     "1005003156756854": [
@@ -29411,6 +29416,11 @@
         "channel": "aniscoupons",
         "ts": 1794668757.3051982,
         "price": 21.2
+      },
+      {
+        "channel": "zedstoreonline",
+        "ts": 1794673019.0748863,
+        "price": 22.2
       }
     ],
     "1005008248187128": [
