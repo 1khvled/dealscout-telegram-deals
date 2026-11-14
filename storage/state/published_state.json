@@ -831,7 +831,7 @@
     "9998887952": 1790887952.6119926,
     "9998887972": 1790887972.157133,
     "100500777666555": 1793956903.3513582,
-    "1005011778621042": 1794649526.1769445,
+    "1005011778621042": 1794676874.7516313,
     "9998888080": 1790888080.3099577,
     "1005009234854371": 1793543664.66204,
     "1005006533038973": 1791104468.758226,
@@ -1069,7 +1069,7 @@
     "9998883963": 1792073963.7339156,
     "1005010620269829": 1793707067.6841128,
     "9998886219": 1792086219.2668676,
-    "1005005875379717": 1792087000.9978776,
+    "1005005875379717": 1794676881.0478508,
     "9998887185": 1792087185.8637784,
     "9998888020": 1792098020.7307658,
     "9998888253": 1792098253.077623,
@@ -2703,7 +2703,8 @@
     "HONGTOP P30 PRO Smart Projector",
     "H20PRO TV Box 2/16GB",
     "DOOV R77 4G Touch (3/32GB)",
-    "Picun G1 Casque Gaming Sans Fil"
+    "Picun G1 Casque Gaming Sans Fil",
+    "Baseus GH02 Gaming Headphones"
   ],
   "published_title_timestamps": {
     "Xiaomi Redmi Note 17 5G Global Version": 1790857823.0117362,
@@ -3088,7 +3089,7 @@
     "Realme GT8": 1794647075.3250775,
     "Realme C100  6/128GB": 1793448628.3734028,
     "معالج Ryzen 5 5600XT": 1793299476.5930903,
-    "معالج Ryzen 7 5700X": 1793732353.5932157,
+    "معالج Ryzen 7 5700X": 1794676874.7516313,
     "ASRock B550 Phantom Gaming 4 Motherboard": 1793467234.8425448,
     "الوحش الأكبر من": 1793299528.9348502,
     "نسخة صينية": 1793299536.9978156,
@@ -3769,11 +3770,10 @@
     "HONGTOP P30 PRO Smart Projector": 1794675767.8515701,
     "H20PRO TV Box 2/16GB": 1794676331.0514421,
     "DOOV R77 4G Touch (3/32GB)": 1794676338.751973,
-    "Picun G1 Casque Gaming Sans Fil": 1794676695.2288063
+    "Picun G1 Casque Gaming Sans Fil": 1794676695.2288063,
+    "Baseus GH02 Gaming Headphones": 1794676881.0478508
   },
   "published_post_keys": [
-    "megaphonna:8621",
-    "aniscoupons:32928",
     "lodydeals:45890",
     "aniscoupons:33272",
     "test_channel:1791677705",
@@ -4771,15 +4771,17 @@
     "zedstoreonline:40175",
     "aniscoupons:34914",
     "zedstoreonline:40176",
-    "aniscoupons:34915"
+    "aniscoupons:34915",
+    "ecksdeal:6064",
+    "aniscoupons:34916"
   ],
   "last_disclaimer_time": 1794524540.9476151,
   "last_calendar_time": 1794572799.8939624,
-  "last_run_time": 1794676700.5824757,
+  "last_run_time": 1794676881.0478508,
   "monitored_channels": {
     "ecksdeal": {
-      "last_message_id": 6063,
-      "last_check_time": 1794666002.6371663
+      "last_message_id": 6064,
+      "last_check_time": 1794676876.8326535
     },
     "lodydeals": {
       "last_message_id": 46494,
@@ -4806,8 +4808,8 @@
       "last_check_time": 1794676697.2960725
     },
     "aniscoupons": {
-      "last_message_id": 34915,
-      "last_check_time": 1794676702.6493895
+      "last_message_id": 34916,
+      "last_check_time": 1794676883.130533
     },
     "bnddeals": {
       "last_message_id": 51301,
@@ -4828,7 +4830,7 @@
     "1005007279793099": 13.7,
     "1005008829227075": 24.76,
     "100500777666555": 20.0,
-    "1005011778621042": 118.5,
+    "1005011778621042": 118.59,
     "1005012312990781": 92.31,
     "1005009234854371": 13.3,
     "1005006533038973": 21.81,
@@ -5033,7 +5035,7 @@
     "1005011908654312": 122.6,
     "1005010620269829": 229.6,
     "1005010149868688": 191.1,
-    "1005005875379717": 42.89,
+    "1005005875379717": 38.13,
     "1005013137396211": 316.0,
     "1005012575455222": 115.0,
     "1005010210432531": 136.7,
@@ -24625,6 +24627,26 @@
       "price": 15.47,
       "timestamp": 1794676700.5824757,
       "status": "ACTIVE"
+    },
+    "ecksdeal:6064": {
+      "channel_msg_id": 2736,
+      "product_id": "1005011778621042",
+      "title": "معالج Ryzen 7 5700X",
+      "channel": "ecksdeal",
+      "source_msg_id": 6064,
+      "price": 118.59,
+      "timestamp": 1794676874.7516313,
+      "status": "ACTIVE"
+    },
+    "aniscoupons:34916": {
+      "channel_msg_id": 2737,
+      "product_id": "1005005875379717",
+      "title": "Baseus GH02 Gaming Headphones",
+      "channel": "aniscoupons",
+      "source_msg_id": 34916,
+      "price": 38.13,
+      "timestamp": 1794676881.0478508,
+      "status": "ACTIVE"
     }
   },
   "schedule_config": {
@@ -24633,17 +24655,17 @@
     "current_interval_minutes": 5,
     "is_paused": false,
     "night_mode_enabled": true,
-    "last_deal_post_time": 1794676703.2336895,
+    "last_deal_post_time": 1794676883.9933932,
     "night_start_hour_dz": 0,
     "night_end_hour_dz": 8,
     "night_pause_enabled": true,
-    "last_sweep_time": 1794676705.6242878,
+    "last_sweep_time": 1794676886.3505526,
     "last_sweep_times": {
-      "algeria": 1794676703.2051609,
-      "france": 1794676705.6242878
+      "algeria": 1794676883.9585342,
+      "france": 1794676886.3505526
     },
     "last_deal_post_times": {
-      "algeria": 1794676703.2336895
+      "algeria": 1794676883.9933932
     }
   },
   "last_coin_reminder_time": 1794533888.682542,
@@ -24796,7 +24818,7 @@
     "1005007345108759": "ecksdeal",
     "1005007394028808": "lodydeals",
     "1005007394197021": "lodydeals",
-    "1005011778621042": "zedstoreonline",
+    "1005011778621042": "ecksdeal",
     "1005012571601398": "aniscoupons",
     "1005013290515237": "aniscoupons",
     "1005012264415744": "megaphonna",
@@ -26538,7 +26560,8 @@
     "HONGTOP P30 PRO Smart Projector": "zedstoreonline",
     "H20PRO TV Box 2/16GB": "zedstoreonline",
     "DOOV R77 4G Touch (3/32GB)": "aniscoupons",
-    "Picun G1 Casque Gaming Sans Fil": "zedstoreonline"
+    "Picun G1 Casque Gaming Sans Fil": "zedstoreonline",
+    "Baseus GH02 Gaming Headphones": "aniscoupons"
   },
   "religious_reminders_history": {
     "mock_rem": "2026-10-02",
@@ -29238,6 +29261,11 @@
         "channel": "aniscoupons",
         "ts": 1794658781.9015462,
         "price": 118.5
+      },
+      {
+        "channel": "ecksdeal",
+        "ts": 1794676872.9719512,
+        "price": 118.59
       }
     ],
     "1005012333024137": [
@@ -29715,6 +29743,13 @@
         "channel": "aniscoupons",
         "ts": 1794676699.1205008,
         "price": 15.47
+      }
+    ],
+    "1005005875379717": [
+      {
+        "channel": "aniscoupons",
+        "ts": 1794676879.2789793,
+        "price": 38.13
       }
     ]
   },
