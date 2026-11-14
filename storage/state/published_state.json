@@ -1467,7 +1467,7 @@
     "1005008366962319": 1794665030.8928545,
     "1005005058037424": 1793779907.9964287,
     "1005012946895000": 1793793714.105913,
-    "1005012150344482": 1794481983.745732,
+    "1005012150344482": 1794693680.6924913,
     "1005006972551834": 1793793774.6743867,
     "1005010169268165": 1793794440.9453664,
     "1005010702038861": 1794658222.162282,
@@ -3534,7 +3534,7 @@
     "HONOR PAD X8A 4/64GB": 1793908989.4952903,
     "Magcubic HY300 Pro Projector": 1793908994.588809,
     "CUSU SSD SATA3": 1793913777.3174822,
-    "Haylou Solar NEO 2 Amoled": 1794481983.745732,
+    "Haylou Solar NEO 2 Amoled": 1794693680.6924913,
     "HAYLOU S30 Wireless Bluetooth 5.4 Headphones": 1794313321.761044,
     "HAYLOU Solar Ultra GPS": 1794647061.6222503,
     "NOTHING Watch 3 Pro": 1794668573.9969933,
@@ -3818,7 +3818,6 @@
     "Anker 735 GaN 3 Port 65W": 1794689990.1332982
   },
   "published_post_keys": [
-    "lodydeals:45967",
     "lodydeals:45968",
     "lodydeals:45969",
     "zedstoreonline:39153",
@@ -4817,11 +4816,12 @@
     "lodydeals:46518",
     "lodydeals:46519",
     "aniscoupons:34935",
-    "aniscoupons:34936"
+    "aniscoupons:34936",
+    "zedstoreonline:40192"
   ],
   "last_disclaimer_time": 1794524540.9476151,
   "last_calendar_time": 1794572799.8939624,
-  "last_run_time": 1794693315.2816987,
+  "last_run_time": 1794693680.6924913,
   "monitored_channels": {
     "ecksdeal": {
       "last_message_id": 6064,
@@ -4848,12 +4848,12 @@
       "last_check_time": 1793599663.3444748
     },
     "zedstoreonline": {
-      "last_message_id": 40191,
-      "last_check_time": 1794690899.1251802
+      "last_message_id": 40192,
+      "last_check_time": 1794693682.7743292
     },
     "aniscoupons": {
-      "last_message_id": 34936,
-      "last_check_time": 1794693317.3410866
+      "last_message_id": 34937,
+      "last_check_time": 1794693683.7469234
     },
     "bnddeals": {
       "last_message_id": 51303,
@@ -24959,6 +24959,16 @@
       "price": 12.11,
       "timestamp": 1794693315.2816987,
       "status": "ACTIVE"
+    },
+    "zedstoreonline:40192": {
+      "channel_msg_id": 2766,
+      "product_id": "1005012150344482",
+      "title": "Haylou Solar NEO 2 Amoled",
+      "channel": "zedstoreonline",
+      "source_msg_id": 40192,
+      "price": 18.7,
+      "timestamp": 1794693680.6924913,
+      "status": "ACTIVE"
     }
   },
   "schedule_config": {
@@ -24967,17 +24977,17 @@
     "current_interval_minutes": 5,
     "is_paused": false,
     "night_mode_enabled": true,
-    "last_deal_post_time": 1794693318.3065445,
+    "last_deal_post_time": 1794693684.4644637,
     "night_start_hour_dz": 0,
     "night_end_hour_dz": 8,
     "night_pause_enabled": true,
-    "last_sweep_time": 1794693496.0978851,
+    "last_sweep_time": 1794693687.550207,
     "last_sweep_times": {
-      "algeria": 1794693492.6688535,
-      "france": 1794693496.0978851
+      "algeria": 1794693684.4328527,
+      "france": 1794693687.550207
     },
     "last_deal_post_times": {
-      "algeria": 1794693318.3065445
+      "algeria": 1794693684.4644637
     }
   },
   "last_coin_reminder_time": 1794533888.682542,
@@ -27692,7 +27702,6 @@
   "published_deals_history": {},
   "settings": {},
   "handled_post_keys": [
-    "aniscoupons:34136",
     "aniscoupons:34137",
     "aniscoupons:34138",
     "bnddeals:51176",
@@ -28691,7 +28700,8 @@
     "aniscoupons:34934",
     "zedstoreonline:40190",
     "zedstoreonline:40191",
-    "lodydeals:46520"
+    "lodydeals:46520",
+    "aniscoupons:34937"
   ],
   "last_france_cross_promo_time": 1794553348.8480208,
   "next_france_cross_promo_interval_seconds": 334302,
@@ -29452,22 +29462,12 @@
     ],
     "1005007168829266": [
       {
-        "channel": "zedstoreonline",
-        "ts": 1794650118.4045904,
-        "price": 4.1
-      },
-      {
         "channel": "aniscoupons",
         "ts": 1794656876.7338405,
         "price": 4.14
       }
     ],
     "1005008518280704": [
-      {
-        "channel": "zedstoreonline",
-        "ts": 1794650120.0126364,
-        "price": 179.16
-      },
       {
         "channel": "aniscoupons",
         "ts": 1794658041.590456,
@@ -29476,22 +29476,12 @@
     ],
     "1005012931209980": [
       {
-        "channel": "aniscoupons",
-        "ts": 1794650128.3587482,
-        "price": 272.0
-      },
-      {
         "channel": "lodydeals",
         "ts": 1794678542.039233,
         "price": 272.04
       }
     ],
     "1005012377459743": [
-      {
-        "channel": "aniscoupons",
-        "ts": 1794650132.441166,
-        "price": 304.77
-      },
       {
         "channel": "zedstoreonline",
         "ts": 1794655638.6238039,
@@ -30130,6 +30120,13 @@
         "channel": "aniscoupons",
         "ts": 1794693313.0142536,
         "price": 12.11
+      }
+    ],
+    "1005012150344482": [
+      {
+        "channel": "zedstoreonline",
+        "ts": 1794693678.6198974,
+        "price": 18.7
       }
     ]
   },
