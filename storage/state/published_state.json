@@ -1449,7 +1449,7 @@
     "1005010169268165": 1793794440.9453664,
     "1005010702038861": 1794658222.162282,
     "1005009313079431": 1794159522.2930505,
-    "1005010702511858": 1793903106.9341598,
+    "1005010702511858": 1794668030.6727147,
     "1005008554218453": 1793908979.1776278,
     "1005012499433797": 1794476184.5102937,
     "9998889309": 1793929309.3822134,
@@ -2657,7 +2657,8 @@
     "ASROCK X570M PRO4 Motherboard",
     "Ulanzi A100 Wireless Lavalier Mic",
     "سماعات لاسلكية Binnune BW06 Wireless",
-    "DELUX M400 GAMING MOUSE"
+    "DELUX M400 GAMING MOUSE",
+    "HyperX Cloud 2 II Wired Gaming Headset"
   ],
   "published_title_timestamps": {
     "Xiaomi Redmi Note 17 5G Global Version": 1790857823.0117362,
@@ -3707,10 +3708,10 @@
     "ASROCK X570M PRO4 Motherboard": 1794660431.126332,
     "Ulanzi A100 Wireless Lavalier Mic": 1794664656.5838907,
     "سماعات لاسلكية Binnune BW06 Wireless": 1794666000.5453608,
-    "DELUX M400 GAMING MOUSE": 1794666009.2783742
+    "DELUX M400 GAMING MOUSE": 1794666009.2783742,
+    "HyperX Cloud 2 II Wired Gaming Headset": 1794668030.6727147
   },
   "published_post_keys": [
-    "aniscoupons:32782",
     "megaphonna:8590",
     "bnddeals:50961",
     "lodydeals:45923",
@@ -4709,11 +4710,12 @@
     "aniscoupons:34893",
     "zedstoreonline:40154",
     "aniscoupons:34894",
-    "aniscoupons:34896"
+    "aniscoupons:34896",
+    "aniscoupons:34897"
   ],
   "last_disclaimer_time": 1794524540.9476151,
   "last_calendar_time": 1794572799.8939624,
-  "last_run_time": 1794667301.7599618,
+  "last_run_time": 1794668030.6727147,
   "monitored_channels": {
     "ecksdeal": {
       "last_message_id": 6063,
@@ -4744,8 +4746,8 @@
       "last_check_time": 1794667297.784693
     },
     "aniscoupons": {
-      "last_message_id": 34896,
-      "last_check_time": 1794667303.8362508
+      "last_message_id": 34897,
+      "last_check_time": 1794668032.7310698
     },
     "bnddeals": {
       "last_message_id": 51301,
@@ -24288,6 +24290,16 @@
       "price": 11.2,
       "timestamp": 1794667301.7599618,
       "status": "ACTIVE"
+    },
+    "aniscoupons:34897": {
+      "channel_msg_id": 2710,
+      "product_id": "1005010702511858",
+      "title": "HyperX Cloud 2 II Wired Gaming Headset",
+      "channel": "aniscoupons",
+      "source_msg_id": 34897,
+      "price": 59.8,
+      "timestamp": 1794668030.6727147,
+      "status": "ACTIVE"
     }
   },
   "schedule_config": {
@@ -24296,17 +24308,17 @@
     "current_interval_minutes": 5,
     "is_paused": false,
     "night_mode_enabled": true,
-    "last_deal_post_time": 1794667304.800014,
+    "last_deal_post_time": 1794668033.7003882,
     "night_start_hour_dz": 0,
     "night_end_hour_dz": 8,
     "night_pause_enabled": true,
-    "last_sweep_time": 1794667847.493898,
+    "last_sweep_time": 1794668036.6855185,
     "last_sweep_times": {
-      "algeria": 1794667844.505073,
-      "france": 1794667847.493898
+      "algeria": 1794668033.67638,
+      "france": 1794668036.6855185
     },
     "last_deal_post_times": {
-      "algeria": 1794667304.800014
+      "algeria": 1794668033.7003882
     }
   },
   "last_coin_reminder_time": 1794533888.682542,
@@ -24957,7 +24969,7 @@
     "1005010169268165": "lodydeals",
     "1005010702038861": "zedstoreonline",
     "1005009313079431": "zedstoreonline",
-    "1005010702511858": "ecksdeal",
+    "1005010702511858": "aniscoupons",
     "1005008554218453": "lodydeals",
     "1005012499433797": "aniscoupons",
     "9998889309": "test_channel",
@@ -26170,7 +26182,8 @@
     "ASROCK X570M PRO4 Motherboard": "zedstoreonline",
     "Ulanzi A100 Wireless Lavalier Mic": "lodydeals",
     "سماعات لاسلكية Binnune BW06 Wireless": "ecksdeal",
-    "DELUX M400 GAMING MOUSE": "aniscoupons"
+    "DELUX M400 GAMING MOUSE": "aniscoupons",
+    "HyperX Cloud 2 II Wired Gaming Headset": "aniscoupons"
   },
   "religious_reminders_history": {
     "mock_rem": "2026-10-02",
@@ -29219,6 +29232,13 @@
         "channel": "aniscoupons",
         "ts": 1794666911.6424613,
         "price": 20.9
+      }
+    ],
+    "1005010702511858": [
+      {
+        "channel": "aniscoupons",
+        "ts": 1794668028.2551942,
+        "price": 59.8
       }
     ]
   },
