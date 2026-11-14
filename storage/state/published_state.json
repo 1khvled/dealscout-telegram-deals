@@ -1471,7 +1471,7 @@
     "1005007469003552": 1794664656.5838907,
     "1005010041181003": 1794651747.5170398,
     "1005010265542567": 1794131426.95932,
-    "1005003156756854": 1794649343.9097252,
+    "1005003156756854": 1794667301.7599618,
     "1005010142208108": 1794302223.66585,
     "1005008534907844": 1793987285.4130383,
     "1005009577554629": 1793987289.8200357,
@@ -3546,7 +3546,7 @@
     "Lenovo Thinkplus XT88": 1794146648.256951,
     "Rolls-Royce Phantom Model": 1794146655.1062205,
     "Lenovo LP40 Pro": 1794146830.4272797,
-    "Ulanzi ST-06S Smartphone Mount Holder": 1794146840.7057447,
+    "Ulanzi ST-06S Smartphone Mount Holder": 1794667301.7599618,
     "WAMRAM SATA SSD 480GB": 1794159522.2930505,
     "Netac M.2 1TB 7400Mbs Gen 4": 1794658038.8464694,
     "RYZEN 5 5600XT": 1794253893.3396604,
@@ -3710,7 +3710,6 @@
     "DELUX M400 GAMING MOUSE": 1794666009.2783742
   },
   "published_post_keys": [
-    "aniscoupons:33271",
     "aniscoupons:32782",
     "megaphonna:8590",
     "bnddeals:50961",
@@ -4709,11 +4708,12 @@
     "ecksdeal:6062",
     "aniscoupons:34893",
     "zedstoreonline:40154",
-    "aniscoupons:34894"
+    "aniscoupons:34894",
+    "aniscoupons:34896"
   ],
   "last_disclaimer_time": 1794524540.9476151,
   "last_calendar_time": 1794572799.8939624,
-  "last_run_time": 1794666184.5986936,
+  "last_run_time": 1794667301.7599618,
   "monitored_channels": {
     "ecksdeal": {
       "last_message_id": 6063,
@@ -4740,12 +4740,12 @@
       "last_check_time": 1793599663.3444748
     },
     "zedstoreonline": {
-      "last_message_id": 40155,
-      "last_check_time": 1794666735.8978992
+      "last_message_id": 40156,
+      "last_check_time": 1794667297.784693
     },
     "aniscoupons": {
-      "last_message_id": 34895,
-      "last_check_time": 1794666911.7861056
+      "last_message_id": 34896,
+      "last_check_time": 1794667303.8362508
     },
     "bnddeals": {
       "last_message_id": 51301,
@@ -24278,6 +24278,16 @@
       "price": 277.36,
       "timestamp": 1794666184.5986936,
       "status": "ACTIVE"
+    },
+    "aniscoupons:34896": {
+      "channel_msg_id": 2709,
+      "product_id": "1005003156756854",
+      "title": "Ulanzi ST-06S Smartphone Mount Holder",
+      "channel": "aniscoupons",
+      "source_msg_id": 34896,
+      "price": 11.2,
+      "timestamp": 1794667301.7599618,
+      "status": "ACTIVE"
     }
   },
   "schedule_config": {
@@ -24286,17 +24296,17 @@
     "current_interval_minutes": 5,
     "is_paused": false,
     "night_mode_enabled": true,
-    "last_deal_post_time": 1794666187.1442518,
+    "last_deal_post_time": 1794667304.800014,
     "night_start_hour_dz": 0,
     "night_end_hour_dz": 8,
     "night_pause_enabled": true,
-    "last_sweep_time": 1794667102.0041904,
+    "last_sweep_time": 1794667307.7035058,
     "last_sweep_times": {
-      "algeria": 1794667099.6146014,
-      "france": 1794667102.0041904
+      "algeria": 1794667304.7697368,
+      "france": 1794667307.7035058
     },
     "last_deal_post_times": {
-      "algeria": 1794666187.1442518
+      "algeria": 1794667304.800014
     }
   },
   "last_coin_reminder_time": 1794533888.682542,
@@ -24969,7 +24979,7 @@
     "1005007469003552": "lodydeals",
     "1005010041181003": "aniscoupons",
     "1005010265542567": "aniscoupons",
-    "1005003156756854": "zedstoreonline",
+    "1005003156756854": "aniscoupons",
     "1005010142208108": "lodydeals",
     "1005008534907844": "lodydeals",
     "1005009577554629": "lodydeals",
@@ -26957,7 +26967,6 @@
   "published_deals_history": {},
   "settings": {},
   "handled_post_keys": [
-    "aniscoupons:34119",
     "aniscoupons:34122",
     "aniscoupons:34123",
     "aniscoupons:34124",
@@ -27956,7 +27965,8 @@
     "aniscoupons:34892",
     "ecksdeal:6063",
     "zedstoreonline:40155",
-    "aniscoupons:34895"
+    "aniscoupons:34895",
+    "zedstoreonline:40156"
   ],
   "last_france_cross_promo_time": 1794553348.8480208,
   "next_france_cross_promo_interval_seconds": 334302,
@@ -28764,6 +28774,11 @@
       {
         "channel": "zedstoreonline",
         "ts": 1794649342.190685,
+        "price": 11.2
+      },
+      {
+        "channel": "aniscoupons",
+        "ts": 1794667299.578565,
         "price": 11.2
       }
     ],
