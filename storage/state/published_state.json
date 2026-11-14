@@ -1087,7 +1087,7 @@
     "9998882360": 1792162360.6633363,
     "9998882475": 1793282475.663889,
     "9998882568": 1792162568.078144,
-    "1005010369693975": 1794644114.5731626,
+    "1005010369693975": 1794674483.8506901,
     "1005006442452857": 1792166326.0335298,
     "9998886462": 1792166462.200491,
     "1005009948598802": 1793500786.1935658,
@@ -3000,7 +3000,7 @@
     "RYZEN 7 5700X": 1794492258.9957209,
     "Ⓜ BLACKVIEW WAVE 10C (4/32)": 1792160262.8028278,
     "Ⓜ  TCL 60 NXT PAPER 8/256📱": 1792160269.0502243,
-    "HAYLOU Mori Pro ANC": 1794644114.5731626,
+    "HAYLOU Mori Pro ANC": 1794674483.8506901,
     "HAYLOU S30 Wireless Bluetooth 5.4 Headphones 43dB Adaptive Noise": 1792166326.0335298,
     "HAYLOU Watch Faro Voice Calling Smart Watch": 1792360422.5608404,
     "Redmi Note 12 5G 4/128": 1793543770.1912897,
@@ -3748,7 +3748,6 @@
     "ساعة YNOKE الإلكترونية الرياضية للرجال": 1794674313.8272793
   },
   "published_post_keys": [
-    "ecksdeal:5943",
     "aniscoupons:32791",
     "zedstoreonline:38798",
     "megaphonna:8567",
@@ -4747,11 +4746,12 @@
     "zedstoreonline:40167",
     "aniscoupons:34908",
     "aniscoupons:34909",
-    "zedstoreonline:40169"
+    "zedstoreonline:40169",
+    "zedstoreonline:40170"
   ],
   "last_disclaimer_time": 1794524540.9476151,
   "last_calendar_time": 1794572799.8939624,
-  "last_run_time": 1794674313.8272793,
+  "last_run_time": 1794674483.8506901,
   "monitored_channels": {
     "ecksdeal": {
       "last_message_id": 6063,
@@ -4778,12 +4778,12 @@
       "last_check_time": 1793599663.3444748
     },
     "zedstoreonline": {
-      "last_message_id": 40169,
-      "last_check_time": 1794674315.9098842
+      "last_message_id": 40170,
+      "last_check_time": 1794674485.953656
     },
     "aniscoupons": {
-      "last_message_id": 34909,
-      "last_check_time": 1794673937.9458883
+      "last_message_id": 34910,
+      "last_check_time": 1794674488.7609756
     },
     "bnddeals": {
       "last_message_id": 51301,
@@ -24505,6 +24505,16 @@
       "price": 2.7,
       "timestamp": 1794674313.8272793,
       "status": "ACTIVE"
+    },
+    "zedstoreonline:40170": {
+      "channel_msg_id": 2727,
+      "product_id": "1005010369693975",
+      "title": "HAYLOU Mori Pro ANC",
+      "channel": "zedstoreonline",
+      "source_msg_id": 40170,
+      "price": 10.7,
+      "timestamp": 1794674483.8506901,
+      "status": "ACTIVE"
     }
   },
   "schedule_config": {
@@ -24513,17 +24523,17 @@
     "current_interval_minutes": 5,
     "is_paused": false,
     "night_mode_enabled": true,
-    "last_deal_post_time": 1794674317.5085337,
+    "last_deal_post_time": 1794674489.540405,
     "night_start_hour_dz": 0,
     "night_end_hour_dz": 8,
     "night_pause_enabled": true,
-    "last_sweep_time": 1794674320.4666884,
+    "last_sweep_time": 1794674491.687952,
     "last_sweep_times": {
-      "algeria": 1794674317.4751709,
-      "france": 1794674320.4666884
+      "algeria": 1794674489.5127835,
+      "france": 1794674491.687952
     },
     "last_deal_post_times": {
-      "algeria": 1794674317.5085337
+      "algeria": 1794674489.540405
     }
   },
   "last_coin_reminder_time": 1794533888.682542,
@@ -27203,7 +27213,6 @@
   "published_deals_history": {},
   "settings": {},
   "handled_post_keys": [
-    "aniscoupons:34139",
     "aniscoupons:34140",
     "aniscoupons:34141",
     "bnddeals:51175",
@@ -28202,7 +28211,8 @@
     "aniscoupons:34903",
     "zedstoreonline:40165",
     "aniscoupons:34906",
-    "zedstoreonline:40168"
+    "zedstoreonline:40168",
+    "aniscoupons:34910"
   ],
   "last_france_cross_promo_time": 1794553348.8480208,
   "next_france_cross_promo_interval_seconds": 334302,
@@ -28891,6 +28901,11 @@
         "channel": "aniscoupons",
         "ts": 1794647242.3681889,
         "price": 10.7
+      },
+      {
+        "channel": "zedstoreonline",
+        "ts": 1794674482.0884473,
+        "price": 10.7
       }
     ],
     "1005010121513376": [
@@ -29506,6 +29521,11 @@
       {
         "channel": "aniscoupons",
         "ts": 1794668028.2551942,
+        "price": 59.8
+      },
+      {
+        "channel": "aniscoupons",
+        "ts": 1794674488.6635892,
         "price": 59.8
       }
     ],
