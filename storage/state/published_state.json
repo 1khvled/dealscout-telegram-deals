@@ -817,7 +817,8 @@
     "1005008077424799",
     "1005011551333926",
     "1005007336232520",
-    "1005010043969798"
+    "1005010043969798",
+    "1005010376374580"
   ],
   "published_product_timestamps": {
     "1005012973772517": 1794500732.7845657,
@@ -1650,7 +1651,8 @@
     "1005008077424799": 1794677244.3687112,
     "1005011551333926": 1794677250.0438125,
     "1005007336232520": 1794677812.6238942,
-    "1005010043969798": 1794679093.780596
+    "1005010043969798": 1794679093.780596,
+    "1005010376374580": 1794679272.8106956
   },
   "published_titles": [
     "Wireless WiFi Repeater 300Mbps WiFi Extender Amplifier Booster Router",
@@ -2716,7 +2718,8 @@
     "E-YOOSO X-39 USB Wired RGB Gaming Mouse",
     "Ajazz AHW10 Head-mounted Wired Gaming",
     "AJAZZ AJ179 PRO PAW3395 Wireless Gaming Mouse with RGB Charging Base",
-    "ميزان حرارة طبي رقمي صغير لقياس درجة حرارة الجسم"
+    "ميزان حرارة طبي رقمي صغير لقياس درجة حرارة الجسم",
+    "Tribit PocketGo Portable Bluetooth Speaker"
   ],
   "published_title_timestamps": {
     "Xiaomi Redmi Note 17 5G Global Version": 1790857823.0117362,
@@ -3787,10 +3790,10 @@
     "E-YOOSO X-39 USB Wired RGB Gaming Mouse": 1794677244.3687112,
     "Ajazz AHW10 Head-mounted Wired Gaming": 1794677250.0438125,
     "AJAZZ AJ179 PRO PAW3395 Wireless Gaming Mouse with RGB Charging Base": 1794677812.6238942,
-    "ميزان حرارة طبي رقمي صغير لقياس درجة حرارة الجسم": 1794679093.780596
+    "ميزان حرارة طبي رقمي صغير لقياس درجة حرارة الجسم": 1794679093.780596,
+    "Tribit PocketGo Portable Bluetooth Speaker": 1794679272.8106956
   },
   "published_post_keys": [
-    "lodydeals:45893",
     "lodydeals:45895",
     "ecksdeal:5993",
     "lodydeals:45883",
@@ -4789,11 +4792,12 @@
     "lodydeals:46495",
     "aniscoupons:34918",
     "lodydeals:46500",
-    "zedstoreonline:40179"
+    "zedstoreonline:40179",
+    "zedstoreonline:40180"
   ],
   "last_disclaimer_time": 1794524540.9476151,
   "last_calendar_time": 1794572799.8939624,
-  "last_run_time": 1794679093.780596,
+  "last_run_time": 1794679272.8106956,
   "monitored_channels": {
     "ecksdeal": {
       "last_message_id": 6064,
@@ -4820,8 +4824,8 @@
       "last_check_time": 1793599663.3444748
     },
     "zedstoreonline": {
-      "last_message_id": 40179,
-      "last_check_time": 1794679095.844059
+      "last_message_id": 40180,
+      "last_check_time": 1794679274.8841581
     },
     "aniscoupons": {
       "last_message_id": 34919,
@@ -5542,7 +5546,8 @@
     "1005008077424799": 19.5,
     "1005011551333926": 41.26,
     "1005007336232520": 20.9,
-    "1005010043969798": 2.4
+    "1005010043969798": 2.4,
+    "1005010376374580": 20.4
   },
   "channel_published_deals": {
     "aniscoupons:32590": {
@@ -24727,6 +24732,16 @@
       "price": 2.4,
       "timestamp": 1794679093.780596,
       "status": "ACTIVE"
+    },
+    "zedstoreonline:40180": {
+      "channel_msg_id": 2744,
+      "product_id": "1005010376374580",
+      "title": "Tribit PocketGo Portable Bluetooth Speaker",
+      "channel": "zedstoreonline",
+      "source_msg_id": 40180,
+      "price": 20.4,
+      "timestamp": 1794679272.8106956,
+      "status": "ACTIVE"
     }
   },
   "schedule_config": {
@@ -24735,17 +24750,17 @@
     "current_interval_minutes": 5,
     "is_paused": false,
     "night_mode_enabled": true,
-    "last_deal_post_time": 1794679098.4247813,
+    "last_deal_post_time": 1794679276.2271125,
     "night_start_hour_dz": 0,
     "night_end_hour_dz": 8,
     "night_pause_enabled": true,
-    "last_sweep_time": 1794679101.016842,
+    "last_sweep_time": 1794679279.6327598,
     "last_sweep_times": {
-      "algeria": 1794679098.3981571,
-      "france": 1794679101.016842
+      "algeria": 1794679276.197081,
+      "france": 1794679279.6327598
     },
     "last_deal_post_times": {
-      "algeria": 1794679098.4247813
+      "algeria": 1794679276.2271125
     }
   },
   "last_coin_reminder_time": 1794533888.682542,
@@ -25576,7 +25591,8 @@
     "1005008077424799": "zedstoreonline",
     "1005011551333926": "aniscoupons",
     "1005007336232520": "aniscoupons",
-    "1005010043969798": "zedstoreonline"
+    "1005010043969798": "zedstoreonline",
+    "1005010376374580": "zedstoreonline"
   },
   "published_title_channels": {
     "Test Wrench Set": "test_channel",
@@ -26649,7 +26665,8 @@
     "E-YOOSO X-39 USB Wired RGB Gaming Mouse": "zedstoreonline",
     "Ajazz AHW10 Head-mounted Wired Gaming": "aniscoupons",
     "AJAZZ AJ179 PRO PAW3395 Wireless Gaming Mouse with RGB Charging Base": "aniscoupons",
-    "ميزان حرارة طبي رقمي صغير لقياس درجة حرارة الجسم": "zedstoreonline"
+    "ميزان حرارة طبي رقمي صغير لقياس درجة حرارة الجسم": "zedstoreonline",
+    "Tribit PocketGo Portable Bluetooth Speaker": "zedstoreonline"
   },
   "religious_reminders_history": {
     "mock_rem": "2026-10-02",
