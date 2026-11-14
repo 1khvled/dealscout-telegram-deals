@@ -1256,7 +1256,7 @@
     "1005010141682336": 1793399542.6698716,
     "1005006782790827": 1794660980.280811,
     "1005012938359476": 1793448722.5382965,
-    "1005012931209980": 1793566274.2309785,
+    "1005012931209980": 1794678546.0543764,
     "1005011820893973": 1793540051.7895243,
     "1005009073904302": 1794596887.3934894,
     "1005009916208760": 1793448612.7938895,
@@ -3360,7 +3360,7 @@
     "Lenovo Legion Y900 8/128GB": 1793738297.0536208,
     "HOCO ANC EQ34 PLUS": 1793566252.8097658,
     "Magcubic 900ANSI HY350 MAX": 1793898382.556843,
-    "OPPO A7 Pro Max 8/128GB": 1793566274.2309785,
+    "OPPO A7 Pro Max 8/128GB": 1794678546.0543764,
     "Realme P4 Power 5G 12/256GB": 1793566295.6489058,
     "iQOO Neo 11 Ultra 12/256": 1793566310.8398705,
     "ATTACK SHARK V6 25000DPI": 1793566315.7447746,
@@ -3786,7 +3786,6 @@
     "AJAZZ AJ179 PRO PAW3395 Wireless Gaming Mouse with RGB Charging Base": 1794677812.6238942
   },
   "published_post_keys": [
-    "lodydeals:45949",
     "ecksdeal:5984",
     "lodydeals:45893",
     "lodydeals:45895",
@@ -4785,19 +4784,20 @@
     "zedstoreonline:40177",
     "aniscoupons:34917",
     "lodydeals:46495",
-    "aniscoupons:34918"
+    "aniscoupons:34918",
+    "lodydeals:46500"
   ],
   "last_disclaimer_time": 1794524540.9476151,
   "last_calendar_time": 1794572799.8939624,
-  "last_run_time": 1794677812.6238942,
+  "last_run_time": 1794678546.0543764,
   "monitored_channels": {
     "ecksdeal": {
       "last_message_id": 6064,
       "last_check_time": 1794676876.8326535
     },
     "lodydeals": {
-      "last_message_id": 46499,
-      "last_check_time": 1794677807.263565
+      "last_message_id": 46500,
+      "last_check_time": 1794678548.1181028
     },
     "test_channel": {
       "last_message_id": 1793967703,
@@ -5178,7 +5178,7 @@
     "1005010141682336": 224.0,
     "1005006782790827": 47.5,
     "1005012938359476": 123.17,
-    "1005012931209980": 290.54,
+    "1005012931209980": 272.04,
     "1005011820893973": 690.0,
     "1005009073904302": 226.3,
     "1005009916208760": 77.0,
@@ -24702,6 +24702,16 @@
       "price": 20.9,
       "timestamp": 1794677812.6238942,
       "status": "ACTIVE"
+    },
+    "lodydeals:46500": {
+      "channel_msg_id": 2742,
+      "product_id": "1005012931209980",
+      "title": "OPPO A7 Pro Max 8/128GB",
+      "channel": "lodydeals",
+      "source_msg_id": 46500,
+      "price": 272.04,
+      "timestamp": 1794678546.0543764,
+      "status": "ACTIVE"
     }
   },
   "schedule_config": {
@@ -24710,17 +24720,17 @@
     "current_interval_minutes": 5,
     "is_paused": false,
     "night_mode_enabled": true,
-    "last_deal_post_time": 1794677815.6391392,
+    "last_deal_post_time": 1794678550.6055276,
     "night_start_hour_dz": 0,
     "night_end_hour_dz": 8,
     "night_pause_enabled": true,
-    "last_sweep_time": 1794678359.775771,
+    "last_sweep_time": 1794678553.5430229,
     "last_sweep_times": {
-      "algeria": 1794678357.5763469,
-      "france": 1794678359.775771
+      "algeria": 1794678550.5780776,
+      "france": 1794678553.5430229
     },
     "last_deal_post_times": {
-      "algeria": 1794677815.6391392
+      "algeria": 1794678550.6055276
     }
   },
   "last_coin_reminder_time": 1794533888.682542,
@@ -29370,6 +29380,11 @@
         "channel": "aniscoupons",
         "ts": 1794650128.3587482,
         "price": 272.0
+      },
+      {
+        "channel": "lodydeals",
+        "ts": 1794678542.039233,
+        "price": 272.04
       }
     ],
     "1005012377459743": [
