@@ -800,7 +800,9 @@
     "1005010788149535",
     "1005007857182319",
     "1005010706574985",
-    "1005006904640542"
+    "1005006904640542",
+    "1005010155229810",
+    "1005011774259648"
   ],
   "published_product_timestamps": {
     "1005012973772517": 1794500732.7845657,
@@ -1616,7 +1618,9 @@
     "1005010788149535": 1794650949.6978376,
     "1005007857182319": 1794666000.5453608,
     "1005010706574985": 1794670972.5875318,
-    "1005006904640542": 1794672105.0502174
+    "1005006904640542": 1794672105.0502174,
+    "1005010155229810": 1794672468.775835,
+    "1005011774259648": 1794672474.6197693
   },
   "published_titles": [
     "Wireless WiFi Repeater 300Mbps WiFi Extender Amplifier Booster Router",
@@ -2664,7 +2668,9 @@
     "DELUX M400 GAMING MOUSE",
     "HyperX Cloud 2 II Wired Gaming Headset",
     "Baseus Bass EP10 NC",
-    "Kemei KM-679 Professional Hair Trimmer Electric Hair Clipper"
+    "Kemei KM-679 Professional Hair Trimmer Electric Hair Clipper",
+    "Kemei KM-6630 6631 6632 trimmer",
+    "MCHOSE G3 V2 Wireless Gaming Mouse"
   ],
   "published_title_timestamps": {
     "Xiaomi Redmi Note 17 5G Global Version": 1790857823.0117362,
@@ -3717,11 +3723,11 @@
     "DELUX M400 GAMING MOUSE": 1794666009.2783742,
     "HyperX Cloud 2 II Wired Gaming Headset": 1794668030.6727147,
     "Baseus Bass EP10 NC": 1794670972.5875318,
-    "Kemei KM-679 Professional Hair Trimmer Electric Hair Clipper": 1794672105.0502174
+    "Kemei KM-679 Professional Hair Trimmer Electric Hair Clipper": 1794672105.0502174,
+    "Kemei KM-6630 6631 6632 trimmer": 1794672468.775835,
+    "MCHOSE G3 V2 Wireless Gaming Mouse": 1794672474.6197693
   },
   "published_post_keys": [
-    "test_channel:1792186463",
-    "couponsglobal:48812",
     "test_channel:1791626934",
     "couponsglobal:48868",
     "megaphonna:8625",
@@ -4719,11 +4725,13 @@
     "aniscoupons:34901",
     "zedstoreonline:40158",
     "aniscoupons:34902",
-    "zedstoreonline:40161"
+    "zedstoreonline:40161",
+    "zedstoreonline:40162",
+    "aniscoupons:34904"
   ],
   "last_disclaimer_time": 1794524540.9476151,
   "last_calendar_time": 1794572799.8939624,
-  "last_run_time": 1794672105.0502174,
+  "last_run_time": 1794672474.6197693,
   "monitored_channels": {
     "ecksdeal": {
       "last_message_id": 6063,
@@ -4750,12 +4758,12 @@
       "last_check_time": 1793599663.3444748
     },
     "zedstoreonline": {
-      "last_message_id": 40161,
-      "last_check_time": 1794672107.11387
+      "last_message_id": 40162,
+      "last_check_time": 1794672470.8549137
     },
     "aniscoupons": {
-      "last_message_id": 34903,
-      "last_check_time": 1794672282.5840182
+      "last_message_id": 34904,
+      "last_check_time": 1794672476.6986837
     },
     "bnddeals": {
       "last_message_id": 51301,
@@ -5455,7 +5463,9 @@
     "1005010788149535": 364.9,
     "1005007857182319": 23.88,
     "1005010706574985": 11.16,
-    "1005006904640542": 6.9
+    "1005006904640542": 6.9,
+    "1005010155229810": 6.1,
+    "1005011774259648": 18.88
   },
   "channel_published_deals": {
     "aniscoupons:32590": {
@@ -24370,6 +24380,26 @@
       "price": 6.9,
       "timestamp": 1794672105.0502174,
       "status": "ACTIVE"
+    },
+    "zedstoreonline:40162": {
+      "channel_msg_id": 2717,
+      "product_id": "1005010155229810",
+      "title": "Kemei KM-6630 6631 6632 trimmer",
+      "channel": "zedstoreonline",
+      "source_msg_id": 40162,
+      "price": 6.1,
+      "timestamp": 1794672468.775835,
+      "status": "ACTIVE"
+    },
+    "aniscoupons:34904": {
+      "channel_msg_id": 2718,
+      "product_id": "1005011774259648",
+      "title": "MCHOSE G3 V2 Wireless Gaming Mouse",
+      "channel": "aniscoupons",
+      "source_msg_id": 34904,
+      "price": 18.88,
+      "timestamp": 1794672474.6197693,
+      "status": "ACTIVE"
     }
   },
   "schedule_config": {
@@ -24378,17 +24408,17 @@
     "current_interval_minutes": 5,
     "is_paused": false,
     "night_mode_enabled": true,
-    "last_deal_post_time": 1794672108.6144092,
+    "last_deal_post_time": 1794672477.6653085,
     "night_start_hour_dz": 0,
     "night_end_hour_dz": 8,
     "night_pause_enabled": true,
-    "last_sweep_time": 1794672286.350392,
+    "last_sweep_time": 1794672480.5534365,
     "last_sweep_times": {
-      "algeria": 1794672283.4953525,
-      "france": 1794672286.350392
+      "algeria": 1794672477.6308908,
+      "france": 1794672480.5534365
     },
     "last_deal_post_times": {
-      "algeria": 1794672108.6144092
+      "algeria": 1794672477.6653085
     }
   },
   "last_coin_reminder_time": 1794533888.682542,
@@ -25202,7 +25232,9 @@
     "1005010788149535": "aniscoupons",
     "1005007857182319": "ecksdeal",
     "1005010706574985": "aniscoupons",
-    "1005006904640542": "zedstoreonline"
+    "1005006904640542": "zedstoreonline",
+    "1005010155229810": "zedstoreonline",
+    "1005011774259648": "aniscoupons"
   },
   "published_title_channels": {
     "Test Wrench Set": "test_channel",
@@ -26257,7 +26289,9 @@
     "DELUX M400 GAMING MOUSE": "aniscoupons",
     "HyperX Cloud 2 II Wired Gaming Headset": "aniscoupons",
     "Baseus Bass EP10 NC": "aniscoupons",
-    "Kemei KM-679 Professional Hair Trimmer Electric Hair Clipper": "zedstoreonline"
+    "Kemei KM-679 Professional Hair Trimmer Electric Hair Clipper": "zedstoreonline",
+    "Kemei KM-6630 6631 6632 trimmer": "zedstoreonline",
+    "MCHOSE G3 V2 Wireless Gaming Mouse": "aniscoupons"
   },
   "religious_reminders_history": {
     "mock_rem": "2026-10-02",
