@@ -1269,7 +1269,7 @@
     "1005008356663932": 1793707052.9762022,
     "1005010074161953": 1793543659.5887568,
     "1005010498953493": 1794653732.8294628,
-    "1005010535660141": 1793448772.3918815,
+    "1005010535660141": 1794689990.1332982,
     "1005010472570391": 1793571013.3288968,
     "1005012864293264": 1793570287.0210865,
     "1005010384976635": 1793448786.1863484,
@@ -2733,7 +2733,8 @@
     "NETUM XL-P801 Thermal A4 Printer",
     "Nothing Buds 2 Neo",
     "مقبس SONOFF ذكي بقوة 16A يتيح تشغيل وإيقاف الأجهزة الكهربائية عن",
-    "Anker Soundcore P30i ANC"
+    "Anker Soundcore P30i ANC",
+    "Anker 735 GaN 3 Port 65W"
   ],
   "published_title_timestamps": {
     "Xiaomi Redmi Note 17 5G Global Version": 1790857823.0117362,
@@ -3813,10 +3814,10 @@
     "NETUM XL-P801 Thermal A4 Printer": 1794687391.0146728,
     "Nothing Buds 2 Neo": 1794688878.915808,
     "مقبس SONOFF ذكي بقوة 16A يتيح تشغيل وإيقاف الأجهزة الكهربائية عن": 1794689616.7178488,
-    "Anker Soundcore P30i ANC": 1794689795.6476634
+    "Anker Soundcore P30i ANC": 1794689795.6476634,
+    "Anker 735 GaN 3 Port 65W": 1794689990.1332982
   },
   "published_post_keys": [
-    "lodydeals:45964",
     "lodydeals:45965",
     "lodydeals:45966",
     "lodydeals:45967",
@@ -4815,19 +4816,20 @@
     "aniscoupons:34932",
     "aniscoupons:34933",
     "zedstoreonline:40189",
-    "lodydeals:46518"
+    "lodydeals:46518",
+    "lodydeals:46519"
   ],
   "last_disclaimer_time": 1794524540.9476151,
   "last_calendar_time": 1794572799.8939624,
-  "last_run_time": 1794689795.6476634,
+  "last_run_time": 1794689990.1332982,
   "monitored_channels": {
     "ecksdeal": {
       "last_message_id": 6064,
       "last_check_time": 1794676876.8326535
     },
     "lodydeals": {
-      "last_message_id": 46518,
-      "last_check_time": 1794689797.7059152
+      "last_message_id": 46519,
+      "last_check_time": 1794689992.3527946
     },
     "test_channel": {
       "last_message_id": 1793967703,
@@ -5216,7 +5218,7 @@
     "1005008356663932": 355.5,
     "1005010074161953": 130.08,
     "1005010498953493": 51.15,
-    "1005010535660141": 21.15,
+    "1005010535660141": 20.89,
     "1005010472570391": 25.77,
     "1005012864293264": 28.96,
     "1005010384976635": 30.55,
@@ -24927,6 +24929,16 @@
       "price": 22.4,
       "timestamp": 1794689795.6476634,
       "status": "ACTIVE"
+    },
+    "lodydeals:46519": {
+      "channel_msg_id": 2763,
+      "product_id": "1005010535660141",
+      "title": "Anker 735 GaN 3 Port 65W",
+      "channel": "lodydeals",
+      "source_msg_id": 46519,
+      "price": 20.89,
+      "timestamp": 1794689990.1332982,
+      "status": "ACTIVE"
     }
   },
   "schedule_config": {
@@ -24935,17 +24947,17 @@
     "current_interval_minutes": 5,
     "is_paused": false,
     "night_mode_enabled": true,
-    "last_deal_post_time": 1794689800.034521,
+    "last_deal_post_time": 1794689995.0870397,
     "night_start_hour_dz": 0,
     "night_end_hour_dz": 8,
     "night_pause_enabled": true,
-    "last_sweep_time": 1794689802.9467692,
+    "last_sweep_time": 1794689999.1430385,
     "last_sweep_times": {
-      "algeria": 1794689800.0101762,
-      "france": 1794689802.9467692
+      "algeria": 1794689995.0386648,
+      "france": 1794689999.1430385
     },
     "last_deal_post_times": {
-      "algeria": 1794689800.034521
+      "algeria": 1794689995.0870397
     }
   },
   "last_coin_reminder_time": 1794533888.682542,
@@ -25405,7 +25417,7 @@
     "1005008356663932": "lodydeals",
     "1005010074161953": "lodydeals",
     "1005010498953493": "aniscoupons",
-    "1005010535660141": "bnddeals",
+    "1005010535660141": "lodydeals",
     "1005010472570391": "lodydeals",
     "1005012864293264": "lodydeals",
     "1005010384976635": "bnddeals",
@@ -26862,7 +26874,8 @@
     "NETUM XL-P801 Thermal A4 Printer": "lodydeals",
     "Nothing Buds 2 Neo": "aniscoupons",
     "مقبس SONOFF ذكي بقوة 16A يتيح تشغيل وإيقاف الأجهزة الكهربائية عن": "zedstoreonline",
-    "Anker Soundcore P30i ANC": "lodydeals"
+    "Anker Soundcore P30i ANC": "lodydeals",
+    "Anker 735 GaN 3 Port 65W": "lodydeals"
   },
   "religious_reminders_history": {
     "mock_rem": "2026-10-02",
@@ -30238,6 +30251,13 @@
         "channel": "zedstoreonline",
         "ts": 1794689614.6240048,
         "price": 4.8
+      }
+    ],
+    "1005010535660141": [
+      {
+        "channel": "lodydeals",
+        "ts": 1794689987.5139165,
+        "price": 20.89
       }
     ]
   },
