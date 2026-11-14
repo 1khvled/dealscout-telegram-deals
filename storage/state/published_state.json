@@ -1656,7 +1656,7 @@
     "1005007336232520": 1794677812.6238942,
     "1005010043969798": 1794679093.780596,
     "1005010376374580": 1794679272.8106956,
-    "1005010239860751": 1794684619.3058665,
+    "1005010239860751": 1794689616.7178488,
     "1005009278862695": 1794687391.0146728,
     "1005013005786079": 1794688878.915808
   },
@@ -2731,7 +2731,8 @@
     "FIFINE Wireless Lavalier Recording Microphone",
     "MCHOSE A7 V2 Ultra Gaming Mouse",
     "NETUM XL-P801 Thermal A4 Printer",
-    "Nothing Buds 2 Neo"
+    "Nothing Buds 2 Neo",
+    "مقبس SONOFF ذكي بقوة 16A يتيح تشغيل وإيقاف الأجهزة الكهربائية عن"
   ],
   "published_title_timestamps": {
     "Xiaomi Redmi Note 17 5G Global Version": 1790857823.0117362,
@@ -3809,10 +3810,10 @@
     "FIFINE Wireless Lavalier Recording Microphone": 1794682951.3022494,
     "MCHOSE A7 V2 Ultra Gaming Mouse": 1794684619.3058665,
     "NETUM XL-P801 Thermal A4 Printer": 1794687391.0146728,
-    "Nothing Buds 2 Neo": 1794688878.915808
+    "Nothing Buds 2 Neo": 1794688878.915808,
+    "مقبس SONOFF ذكي بقوة 16A يتيح تشغيل وإيقاف الأجهزة الكهربائية عن": 1794689616.7178488
   },
   "published_post_keys": [
-    "lodydeals:45962",
     "lodydeals:45963",
     "lodydeals:45964",
     "lodydeals:45965",
@@ -4811,19 +4812,20 @@
     "lodydeals:46514",
     "lodydeals:46516",
     "aniscoupons:34932",
-    "aniscoupons:34933"
+    "aniscoupons:34933",
+    "zedstoreonline:40189"
   ],
   "last_disclaimer_time": 1794524540.9476151,
   "last_calendar_time": 1794572799.8939624,
-  "last_run_time": 1794688878.915808,
+  "last_run_time": 1794689616.7178488,
   "monitored_channels": {
     "ecksdeal": {
       "last_message_id": 6064,
       "last_check_time": 1794676876.8326535
     },
     "lodydeals": {
-      "last_message_id": 46516,
-      "last_check_time": 1794687393.098742
+      "last_message_id": 46517,
+      "last_check_time": 1794689609.5445964
     },
     "test_channel": {
       "last_message_id": 1793967703,
@@ -4842,8 +4844,8 @@
       "last_check_time": 1793599663.3444748
     },
     "zedstoreonline": {
-      "last_message_id": 40188,
-      "last_check_time": 1794686094.0501804
+      "last_message_id": 40189,
+      "last_check_time": 1794689618.7821689
     },
     "aniscoupons": {
       "last_message_id": 34933,
@@ -5566,7 +5568,7 @@
     "1005007336232520": 20.9,
     "1005010043969798": 2.4,
     "1005010376374580": 20.4,
-    "1005010239860751": 36.9,
+    "1005010239860751": 4.8,
     "1005009278862695": 35.55,
     "1005013005786079": 16.29
   },
@@ -24903,6 +24905,16 @@
       "price": 16.29,
       "timestamp": 1794688878.915808,
       "status": "ACTIVE"
+    },
+    "zedstoreonline:40189": {
+      "channel_msg_id": 2761,
+      "product_id": "1005010239860751",
+      "title": "مقبس SONOFF ذكي بقوة 16A يتيح تشغيل وإيقاف الأجهزة الكهربائية عن",
+      "channel": "zedstoreonline",
+      "source_msg_id": 40189,
+      "price": 4.8,
+      "timestamp": 1794689616.7178488,
+      "status": "ACTIVE"
     }
   },
   "schedule_config": {
@@ -24911,17 +24923,17 @@
     "current_interval_minutes": 5,
     "is_paused": false,
     "night_mode_enabled": true,
-    "last_deal_post_time": 1794688881.7981906,
+    "last_deal_post_time": 1794689620.2669494,
     "night_start_hour_dz": 0,
     "night_end_hour_dz": 8,
     "night_pause_enabled": true,
-    "last_sweep_time": 1794689433.5414953,
+    "last_sweep_time": 1794689624.1275618,
     "last_sweep_times": {
-      "algeria": 1794689430.3829658,
-      "france": 1794689433.5414953
+      "algeria": 1794689620.2392511,
+      "france": 1794689624.1275618
     },
     "last_deal_post_times": {
-      "algeria": 1794688881.7981906
+      "algeria": 1794689620.2669494
     }
   },
   "last_coin_reminder_time": 1794533888.682542,
@@ -26836,7 +26848,8 @@
     "FIFINE Wireless Lavalier Recording Microphone": "zedstoreonline",
     "MCHOSE A7 V2 Ultra Gaming Mouse": "zedstoreonline",
     "NETUM XL-P801 Thermal A4 Printer": "lodydeals",
-    "Nothing Buds 2 Neo": "aniscoupons"
+    "Nothing Buds 2 Neo": "aniscoupons",
+    "مقبس SONOFF ذكي بقوة 16A يتيح تشغيل وإيقاف الأجهزة الكهربائية عن": "zedstoreonline"
   },
   "religious_reminders_history": {
     "mock_rem": "2026-10-02",
@@ -27633,7 +27646,6 @@
   "published_deals_history": {},
   "settings": {},
   "handled_post_keys": [
-    "aniscoupons:34128",
     "aniscoupons:34130",
     "aniscoupons:34132",
     "aniscoupons:34133",
@@ -28632,7 +28644,8 @@
     "zedstoreonline:40188",
     "aniscoupons:34930",
     "aniscoupons:34931",
-    "lodydeals:46515"
+    "lodydeals:46515",
+    "lodydeals:46517"
   ],
   "last_france_cross_promo_time": 1794553348.8480208,
   "next_france_cross_promo_interval_seconds": 334302,
@@ -30200,6 +30213,13 @@
         "channel": "lodydeals",
         "ts": 1794685903.9401062,
         "price": 11.12
+      }
+    ],
+    "1005010239860751": [
+      {
+        "channel": "zedstoreonline",
+        "ts": 1794689614.6240048,
+        "price": 4.8
       }
     ]
   },
