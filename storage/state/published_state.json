@@ -1634,7 +1634,7 @@
     "1005010519693722": 1794680859.9419408,
     "1005010788149535": 1794650949.6978376,
     "1005007857182319": 1794666000.5453608,
-    "1005010706574985": 1794670972.5875318,
+    "1005010706574985": 1794685905.8538558,
     "1005006904640542": 1794672105.0502174,
     "1005010155229810": 1794672468.775835,
     "1005011774259648": 1794672474.6197693,
@@ -3777,7 +3777,7 @@
     "سماعات لاسلكية Binnune BW06 Wireless": 1794666000.5453608,
     "DELUX M400 GAMING MOUSE": 1794666009.2783742,
     "HyperX Cloud 2 II Wired Gaming Headset": 1794668030.6727147,
-    "Baseus Bass EP10 NC": 1794670972.5875318,
+    "Baseus Bass EP10 NC": 1794685905.8538558,
     "Kemei KM-679 Professional Hair Trimmer Electric Hair Clipper": 1794672105.0502174,
     "Kemei KM-6630 6631 6632 trimmer": 1794672468.775835,
     "MCHOSE G3 V2 Wireless Gaming Mouse": 1794672474.6197693,
@@ -3804,7 +3804,6 @@
     "MCHOSE A7 V2 Ultra Gaming Mouse": 1794684619.3058665
   },
   "published_post_keys": [
-    "lodydeals:45956",
     "lodydeals:45957",
     "lodydeals:45958",
     "lodydeals:45959",
@@ -4803,19 +4802,20 @@
     "aniscoupons:34924",
     "aniscoupons:34925",
     "aniscoupons:34926",
-    "zedstoreonline:40186"
+    "zedstoreonline:40186",
+    "lodydeals:46514"
   ],
   "last_disclaimer_time": 1794524540.9476151,
   "last_calendar_time": 1794572799.8939624,
-  "last_run_time": 1794684619.3058665,
+  "last_run_time": 1794685905.8538558,
   "monitored_channels": {
     "ecksdeal": {
       "last_message_id": 6064,
       "last_check_time": 1794676876.8326535
     },
     "lodydeals": {
-      "last_message_id": 46513,
-      "last_check_time": 1794685351.0955203
+      "last_message_id": 46514,
+      "last_check_time": 1794685907.9043896
     },
     "test_channel": {
       "last_message_id": 1793967703,
@@ -5538,7 +5538,7 @@
     "1005010519693722": 13.42,
     "1005010788149535": 364.9,
     "1005007857182319": 23.88,
-    "1005010706574985": 11.16,
+    "1005010706574985": 11.12,
     "1005006904640542": 6.9,
     "1005010155229810": 6.1,
     "1005011774259648": 18.88,
@@ -24853,6 +24853,16 @@
       "price": 36.9,
       "timestamp": 1794684619.3058665,
       "status": "ACTIVE"
+    },
+    "lodydeals:46514": {
+      "channel_msg_id": 2757,
+      "product_id": "1005010706574985",
+      "title": "Baseus Bass EP10 NC",
+      "channel": "lodydeals",
+      "source_msg_id": 46514,
+      "price": 11.12,
+      "timestamp": 1794685905.8538558,
+      "status": "ACTIVE"
     }
   },
   "schedule_config": {
@@ -24861,17 +24871,17 @@
     "current_interval_minutes": 5,
     "is_paused": false,
     "night_mode_enabled": true,
-    "last_deal_post_time": 1794684623.8316927,
+    "last_deal_post_time": 1794685909.9664805,
     "night_start_hour_dz": 0,
     "night_end_hour_dz": 8,
     "night_pause_enabled": true,
-    "last_sweep_time": 1794685721.6317294,
+    "last_sweep_time": 1794685912.303487,
     "last_sweep_times": {
-      "algeria": 1794685719.428353,
-      "france": 1794685721.6317294
+      "algeria": 1794685909.9458163,
+      "france": 1794685912.303487
     },
     "last_deal_post_times": {
-      "algeria": 1794684623.8316927
+      "algeria": 1794685909.9664805
     }
   },
   "last_coin_reminder_time": 1794533888.682542,
@@ -25684,7 +25694,7 @@
     "1005010519693722": "lodydeals",
     "1005010788149535": "aniscoupons",
     "1005007857182319": "ecksdeal",
-    "1005010706574985": "aniscoupons",
+    "1005010706574985": "lodydeals",
     "1005006904640542": "zedstoreonline",
     "1005010155229810": "zedstoreonline",
     "1005011774259648": "aniscoupons",
@@ -26758,7 +26768,7 @@
     "سماعات لاسلكية Binnune BW06 Wireless": "ecksdeal",
     "DELUX M400 GAMING MOUSE": "aniscoupons",
     "HyperX Cloud 2 II Wired Gaming Headset": "aniscoupons",
-    "Baseus Bass EP10 NC": "aniscoupons",
+    "Baseus Bass EP10 NC": "lodydeals",
     "Kemei KM-679 Professional Hair Trimmer Electric Hair Clipper": "zedstoreonline",
     "Kemei KM-6630 6631 6632 trimmer": "zedstoreonline",
     "MCHOSE G3 V2 Wireless Gaming Mouse": "aniscoupons",
@@ -30143,6 +30153,13 @@
         "channel": "aniscoupons",
         "ts": 1794685353.957678,
         "price": 7.47
+      }
+    ],
+    "1005010706574985": [
+      {
+        "channel": "lodydeals",
+        "ts": 1794685903.9401062,
+        "price": 11.12
       }
     ]
   },
