@@ -1614,7 +1614,7 @@
     "1005010487219975": 1794524381.8060858,
     "1005005277901494": 1794563997.9172754,
     "1005012191587148": 1794568023.9427352,
-    "1005012624574517": 1794599278.9506347,
+    "1005012624574517": 1794681665.408675,
     "1005012644923854": 1794577769.242665,
     "1005005709908265": 1794577943.6825492,
     "1005011887425776": 1794673577.8423104,
@@ -3743,7 +3743,7 @@
     "XUNYOU-LINK 4G Modem": 1794562333.914511,
     "HOCO W40 Bluetooth 5.3 Wireless Headphone Music Headset 40mm Drivers": 1794563997.9172754,
     "HOCO E201 ENC Calling": 1794568023.9427352,
-    "MAONO Wave T1 Plus Dual": 1794575567.6709607,
+    "MAONO Wave T1 Plus Dual": 1794681665.408675,
     "Luxury Quartz Watch": 1794577769.242665,
     "Maono Gamerwave DGM20S": 1794577943.6825492,
     "CUSU SSD CV3500 M2 1TB": 1794650121.9041455,
@@ -3796,7 +3796,6 @@
     "Delux M400 PAW3311 24000DPI 1Khz": 1794680859.9419408
   },
   "published_post_keys": [
-    "ecksdeal:5993",
     "lodydeals:45883",
     "lodydeals:45950",
     "ecksdeal:5991",
@@ -4795,11 +4794,12 @@
     "lodydeals:46500",
     "zedstoreonline:40179",
     "zedstoreonline:40180",
-    "lodydeals:46505"
+    "lodydeals:46505",
+    "aniscoupons:34923"
   ],
   "last_disclaimer_time": 1794524540.9476151,
   "last_calendar_time": 1794572799.8939624,
-  "last_run_time": 1794680859.9419408,
+  "last_run_time": 1794681665.408675,
   "monitored_channels": {
     "ecksdeal": {
       "last_message_id": 6064,
@@ -4826,12 +4826,12 @@
       "last_check_time": 1793599663.3444748
     },
     "zedstoreonline": {
-      "last_message_id": 40181,
-      "last_check_time": 1794681481.197074
+      "last_message_id": 40182,
+      "last_check_time": 1794681662.251315
     },
     "aniscoupons": {
-      "last_message_id": 34922,
-      "last_check_time": 1794679641.8965144
+      "last_message_id": 34923,
+      "last_check_time": 1794681667.4723504
     },
     "bnddeals": {
       "last_message_id": 51301,
@@ -5511,7 +5511,7 @@
     "1005010487219975": 5.49,
     "1005005277901494": 13.44,
     "1005012191587148": 6.09,
-    "1005012624574517": 30.6,
+    "1005012624574517": 31.62,
     "1005012644923854": 0.95,
     "1005005709908265": 48.5,
     "1005011887425776": 20.48,
@@ -24754,6 +24754,16 @@
       "price": 13.42,
       "timestamp": 1794680859.9419408,
       "status": "ACTIVE"
+    },
+    "aniscoupons:34923": {
+      "channel_msg_id": 2748,
+      "product_id": "1005012624574517",
+      "title": "MAONO Wave T1 Plus Dual",
+      "channel": "aniscoupons",
+      "source_msg_id": 34923,
+      "price": 31.62,
+      "timestamp": 1794681665.408675,
+      "status": "ACTIVE"
     }
   },
   "schedule_config": {
@@ -24762,17 +24772,17 @@
     "current_interval_minutes": 5,
     "is_paused": false,
     "night_mode_enabled": true,
-    "last_deal_post_time": 1794680864.9157062,
+    "last_deal_post_time": 1794681668.1184666,
     "night_start_hour_dz": 0,
     "night_end_hour_dz": 8,
     "night_pause_enabled": true,
-    "last_sweep_time": 1794681484.5233665,
+    "last_sweep_time": 1794681670.601497,
     "last_sweep_times": {
-      "algeria": 1794681482.4415872,
-      "france": 1794681484.5233665
+      "algeria": 1794681668.0918543,
+      "france": 1794681670.601497
     },
     "last_deal_post_times": {
-      "algeria": 1794680864.9157062
+      "algeria": 1794681668.1184666
     }
   },
   "last_coin_reminder_time": 1794533888.682542,
@@ -25566,7 +25576,7 @@
     "1005010487219975": "lodydeals",
     "1005005277901494": "aniscoupons",
     "1005012191587148": "aniscoupons",
-    "1005012624574517": "zedstoreonline",
+    "1005012624574517": "aniscoupons",
     "1005012644923854": "lodydeals",
     "1005005709908265": "aniscoupons",
     "1005011887425776": "aniscoupons",
@@ -27476,7 +27486,6 @@
   "published_deals_history": {},
   "settings": {},
   "handled_post_keys": [
-    "bnddeals:51188",
     "bnddeals:51189",
     "bnddeals:51190",
     "bnddeals:51191",
@@ -28475,7 +28484,8 @@
     "lodydeals:46503",
     "lodydeals:46504",
     "lodydeals:46506",
-    "zedstoreonline:40181"
+    "zedstoreonline:40181",
+    "zedstoreonline:40182"
   ],
   "last_france_cross_promo_time": 1794553348.8480208,
   "next_france_cross_promo_interval_seconds": 334302,
@@ -29886,6 +29896,11 @@
         "channel": "aniscoupons",
         "ts": 1794676699.1205008,
         "price": 15.47
+      },
+      {
+        "channel": "zedstoreonline",
+        "ts": 1794681662.1401894,
+        "price": 15.4
       }
     ],
     "1005005875379717": [
@@ -29940,6 +29955,13 @@
         "channel": "zedstoreonline",
         "ts": 1794681481.0915766,
         "price": 41.2
+      }
+    ],
+    "1005012624574517": [
+      {
+        "channel": "aniscoupons",
+        "ts": 1794681663.5987892,
+        "price": 31.62
       }
     ]
   },
