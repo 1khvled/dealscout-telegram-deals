@@ -816,7 +816,8 @@
     "1005007173814545",
     "1005008077424799",
     "1005011551333926",
-    "1005007336232520"
+    "1005007336232520",
+    "1005010043969798"
   ],
   "published_product_timestamps": {
     "1005012973772517": 1794500732.7845657,
@@ -1648,7 +1649,8 @@
     "1005007173814545": 1794676695.2288063,
     "1005008077424799": 1794677244.3687112,
     "1005011551333926": 1794677250.0438125,
-    "1005007336232520": 1794677812.6238942
+    "1005007336232520": 1794677812.6238942,
+    "1005010043969798": 1794679093.780596
   },
   "published_titles": [
     "Wireless WiFi Repeater 300Mbps WiFi Extender Amplifier Booster Router",
@@ -2713,7 +2715,8 @@
     "Baseus GH02 Gaming Headphones",
     "E-YOOSO X-39 USB Wired RGB Gaming Mouse",
     "Ajazz AHW10 Head-mounted Wired Gaming",
-    "AJAZZ AJ179 PRO PAW3395 Wireless Gaming Mouse with RGB Charging Base"
+    "AJAZZ AJ179 PRO PAW3395 Wireless Gaming Mouse with RGB Charging Base",
+    "ميزان حرارة طبي رقمي صغير لقياس درجة حرارة الجسم"
   ],
   "published_title_timestamps": {
     "Xiaomi Redmi Note 17 5G Global Version": 1790857823.0117362,
@@ -3783,10 +3786,10 @@
     "Baseus GH02 Gaming Headphones": 1794676881.0478508,
     "E-YOOSO X-39 USB Wired RGB Gaming Mouse": 1794677244.3687112,
     "Ajazz AHW10 Head-mounted Wired Gaming": 1794677250.0438125,
-    "AJAZZ AJ179 PRO PAW3395 Wireless Gaming Mouse with RGB Charging Base": 1794677812.6238942
+    "AJAZZ AJ179 PRO PAW3395 Wireless Gaming Mouse with RGB Charging Base": 1794677812.6238942,
+    "ميزان حرارة طبي رقمي صغير لقياس درجة حرارة الجسم": 1794679093.780596
   },
   "published_post_keys": [
-    "ecksdeal:5984",
     "lodydeals:45893",
     "lodydeals:45895",
     "ecksdeal:5993",
@@ -4785,19 +4788,20 @@
     "aniscoupons:34917",
     "lodydeals:46495",
     "aniscoupons:34918",
-    "lodydeals:46500"
+    "lodydeals:46500",
+    "zedstoreonline:40179"
   ],
   "last_disclaimer_time": 1794524540.9476151,
   "last_calendar_time": 1794572799.8939624,
-  "last_run_time": 1794678546.0543764,
+  "last_run_time": 1794679093.780596,
   "monitored_channels": {
     "ecksdeal": {
       "last_message_id": 6064,
       "last_check_time": 1794676876.8326535
     },
     "lodydeals": {
-      "last_message_id": 46501,
-      "last_check_time": 1794678717.9811249
+      "last_message_id": 46502,
+      "last_check_time": 1794679087.381653
     },
     "test_channel": {
       "last_message_id": 1793967703,
@@ -4816,12 +4820,12 @@
       "last_check_time": 1793599663.3444748
     },
     "zedstoreonline": {
-      "last_message_id": 40178,
-      "last_check_time": 1794678356.1423788
+      "last_message_id": 40179,
+      "last_check_time": 1794679095.844059
     },
     "aniscoupons": {
-      "last_message_id": 34918,
-      "last_check_time": 1794677814.679566
+      "last_message_id": 34919,
+      "last_check_time": 1794679097.7905645
     },
     "bnddeals": {
       "last_message_id": 51301,
@@ -5537,7 +5541,8 @@
     "1005007173814545": 34.9,
     "1005008077424799": 19.5,
     "1005011551333926": 41.26,
-    "1005007336232520": 20.9
+    "1005007336232520": 20.9,
+    "1005010043969798": 2.4
   },
   "channel_published_deals": {
     "aniscoupons:32590": {
@@ -24712,6 +24717,16 @@
       "price": 272.04,
       "timestamp": 1794678546.0543764,
       "status": "ACTIVE"
+    },
+    "zedstoreonline:40179": {
+      "channel_msg_id": 2743,
+      "product_id": "1005010043969798",
+      "title": "ميزان حرارة طبي رقمي صغير لقياس درجة حرارة الجسم",
+      "channel": "zedstoreonline",
+      "source_msg_id": 40179,
+      "price": 2.4,
+      "timestamp": 1794679093.780596,
+      "status": "ACTIVE"
     }
   },
   "schedule_config": {
@@ -24720,17 +24735,17 @@
     "current_interval_minutes": 5,
     "is_paused": false,
     "night_mode_enabled": true,
-    "last_deal_post_time": 1794678550.6055276,
+    "last_deal_post_time": 1794679098.4247813,
     "night_start_hour_dz": 0,
     "night_end_hour_dz": 8,
     "night_pause_enabled": true,
-    "last_sweep_time": 1794678906.7951405,
+    "last_sweep_time": 1794679101.016842,
     "last_sweep_times": {
-      "algeria": 1794678904.7746518,
-      "france": 1794678906.7951405
+      "algeria": 1794679098.3981571,
+      "france": 1794679101.016842
     },
     "last_deal_post_times": {
-      "algeria": 1794678550.6055276
+      "algeria": 1794679098.4247813
     }
   },
   "last_coin_reminder_time": 1794533888.682542,
@@ -25560,7 +25575,8 @@
     "1005007173814545": "zedstoreonline",
     "1005008077424799": "zedstoreonline",
     "1005011551333926": "aniscoupons",
-    "1005007336232520": "aniscoupons"
+    "1005007336232520": "aniscoupons",
+    "1005010043969798": "zedstoreonline"
   },
   "published_title_channels": {
     "Test Wrench Set": "test_channel",
@@ -26632,7 +26648,8 @@
     "Baseus GH02 Gaming Headphones": "aniscoupons",
     "E-YOOSO X-39 USB Wired RGB Gaming Mouse": "zedstoreonline",
     "Ajazz AHW10 Head-mounted Wired Gaming": "aniscoupons",
-    "AJAZZ AJ179 PRO PAW3395 Wireless Gaming Mouse with RGB Charging Base": "aniscoupons"
+    "AJAZZ AJ179 PRO PAW3395 Wireless Gaming Mouse with RGB Charging Base": "aniscoupons",
+    "ميزان حرارة طبي رقمي صغير لقياس درجة حرارة الجسم": "zedstoreonline"
   },
   "religious_reminders_history": {
     "mock_rem": "2026-10-02",
@@ -27429,8 +27446,6 @@
   "published_deals_history": {},
   "settings": {},
   "handled_post_keys": [
-    "bnddeals:51178",
-    "bnddeals:51179",
     "bnddeals:51180",
     "bnddeals:51181",
     "bnddeals:51184",
@@ -28428,7 +28443,9 @@
     "lodydeals:46498",
     "lodydeals:46499",
     "zedstoreonline:40178",
-    "lodydeals:46501"
+    "lodydeals:46501",
+    "lodydeals:46502",
+    "aniscoupons:34919"
   ],
   "last_france_cross_promo_time": 1794553348.8480208,
   "next_france_cross_promo_interval_seconds": 334302,
@@ -29121,6 +29138,11 @@
       {
         "channel": "zedstoreonline",
         "ts": 1794674482.0884473,
+        "price": 10.7
+      },
+      {
+        "channel": "aniscoupons",
+        "ts": 1794679097.6948023,
         "price": 10.7
       }
     ],
