@@ -813,7 +813,9 @@
     "1005009806804463",
     "1005007096763939",
     "1005008341428946",
-    "1005007173814545"
+    "1005007173814545",
+    "1005008077424799",
+    "1005011551333926"
   ],
   "published_product_timestamps": {
     "1005012973772517": 1794500732.7845657,
@@ -1642,7 +1644,9 @@
     "1005009806804463": 1794675767.8515701,
     "1005007096763939": 1794676331.0514421,
     "1005008341428946": 1794676338.751973,
-    "1005007173814545": 1794676695.2288063
+    "1005007173814545": 1794676695.2288063,
+    "1005008077424799": 1794677244.3687112,
+    "1005011551333926": 1794677250.0438125
   },
   "published_titles": [
     "Wireless WiFi Repeater 300Mbps WiFi Extender Amplifier Booster Router",
@@ -2704,7 +2708,9 @@
     "H20PRO TV Box 2/16GB",
     "DOOV R77 4G Touch (3/32GB)",
     "Picun G1 Casque Gaming Sans Fil",
-    "Baseus GH02 Gaming Headphones"
+    "Baseus GH02 Gaming Headphones",
+    "E-YOOSO X-39 USB Wired RGB Gaming Mouse",
+    "Ajazz AHW10 Head-mounted Wired Gaming"
   ],
   "published_title_timestamps": {
     "Xiaomi Redmi Note 17 5G Global Version": 1790857823.0117362,
@@ -3771,11 +3777,11 @@
     "H20PRO TV Box 2/16GB": 1794676331.0514421,
     "DOOV R77 4G Touch (3/32GB)": 1794676338.751973,
     "Picun G1 Casque Gaming Sans Fil": 1794676695.2288063,
-    "Baseus GH02 Gaming Headphones": 1794676881.0478508
+    "Baseus GH02 Gaming Headphones": 1794676881.0478508,
+    "E-YOOSO X-39 USB Wired RGB Gaming Mouse": 1794677244.3687112,
+    "Ajazz AHW10 Head-mounted Wired Gaming": 1794677250.0438125
   },
   "published_post_keys": [
-    "lodydeals:45890",
-    "aniscoupons:33272",
     "test_channel:1791677705",
     "test_channel:1791753006",
     "lodydeals:45949",
@@ -4773,19 +4779,21 @@
     "zedstoreonline:40176",
     "aniscoupons:34915",
     "ecksdeal:6064",
-    "aniscoupons:34916"
+    "aniscoupons:34916",
+    "zedstoreonline:40177",
+    "aniscoupons:34917"
   ],
   "last_disclaimer_time": 1794524540.9476151,
   "last_calendar_time": 1794572799.8939624,
-  "last_run_time": 1794676881.0478508,
+  "last_run_time": 1794677250.0438125,
   "monitored_channels": {
     "ecksdeal": {
       "last_message_id": 6064,
       "last_check_time": 1794676876.8326535
     },
     "lodydeals": {
-      "last_message_id": 46494,
-      "last_check_time": 1794664658.6647599
+      "last_message_id": 46495,
+      "last_check_time": 1794677238.6380837
     },
     "test_channel": {
       "last_message_id": 1793967703,
@@ -4804,12 +4812,12 @@
       "last_check_time": 1793599663.3444748
     },
     "zedstoreonline": {
-      "last_message_id": 40176,
-      "last_check_time": 1794676697.2960725
+      "last_message_id": 40177,
+      "last_check_time": 1794677246.448517
     },
     "aniscoupons": {
-      "last_message_id": 34916,
-      "last_check_time": 1794676883.130533
+      "last_message_id": 34917,
+      "last_check_time": 1794677252.123221
     },
     "bnddeals": {
       "last_message_id": 51301,
@@ -5522,7 +5530,9 @@
     "1005009806804463": 42.7,
     "1005007096763939": 19.7,
     "1005008341428946": 63.47,
-    "1005007173814545": 34.9
+    "1005007173814545": 34.9,
+    "1005008077424799": 19.5,
+    "1005011551333926": 41.26
   },
   "channel_published_deals": {
     "aniscoupons:32590": {
@@ -24647,6 +24657,26 @@
       "price": 38.13,
       "timestamp": 1794676881.0478508,
       "status": "ACTIVE"
+    },
+    "zedstoreonline:40177": {
+      "channel_msg_id": 2738,
+      "product_id": "1005008077424799",
+      "title": "E-YOOSO X-39 USB Wired RGB Gaming Mouse",
+      "channel": "zedstoreonline",
+      "source_msg_id": 40177,
+      "price": 19.5,
+      "timestamp": 1794677244.3687112,
+      "status": "ACTIVE"
+    },
+    "aniscoupons:34917": {
+      "channel_msg_id": 2739,
+      "product_id": "1005011551333926",
+      "title": "Ajazz AHW10 Head-mounted Wired Gaming",
+      "channel": "aniscoupons",
+      "source_msg_id": 34917,
+      "price": 41.26,
+      "timestamp": 1794677250.0438125,
+      "status": "ACTIVE"
     }
   },
   "schedule_config": {
@@ -24655,17 +24685,17 @@
     "current_interval_minutes": 5,
     "is_paused": false,
     "night_mode_enabled": true,
-    "last_deal_post_time": 1794676883.9933932,
+    "last_deal_post_time": 1794677253.0229464,
     "night_start_hour_dz": 0,
     "night_end_hour_dz": 8,
     "night_pause_enabled": true,
-    "last_sweep_time": 1794677065.4052994,
+    "last_sweep_time": 1794677255.432044,
     "last_sweep_times": {
-      "algeria": 1794677062.0353281,
-      "france": 1794677065.4052994
+      "algeria": 1794677252.9887586,
+      "france": 1794677255.432044
     },
     "last_deal_post_times": {
-      "algeria": 1794676883.9933932
+      "algeria": 1794677253.0229464
     }
   },
   "last_coin_reminder_time": 1794533888.682542,
@@ -25492,7 +25522,9 @@
     "1005009806804463": "zedstoreonline",
     "1005007096763939": "zedstoreonline",
     "1005008341428946": "aniscoupons",
-    "1005007173814545": "zedstoreonline"
+    "1005007173814545": "zedstoreonline",
+    "1005008077424799": "zedstoreonline",
+    "1005011551333926": "aniscoupons"
   },
   "published_title_channels": {
     "Test Wrench Set": "test_channel",
@@ -26561,7 +26593,9 @@
     "H20PRO TV Box 2/16GB": "zedstoreonline",
     "DOOV R77 4G Touch (3/32GB)": "aniscoupons",
     "Picun G1 Casque Gaming Sans Fil": "zedstoreonline",
-    "Baseus GH02 Gaming Headphones": "aniscoupons"
+    "Baseus GH02 Gaming Headphones": "aniscoupons",
+    "E-YOOSO X-39 USB Wired RGB Gaming Mouse": "zedstoreonline",
+    "Ajazz AHW10 Head-mounted Wired Gaming": "aniscoupons"
   },
   "religious_reminders_history": {
     "mock_rem": "2026-10-02",
