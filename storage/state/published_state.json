@@ -1630,7 +1630,7 @@
     "1389260212": 1794605894.0354748,
     "1005012138794873": 1794659887.3198001,
     "1005007129557126": 1794673392.618802,
-    "1005010519693722": 1794666009.2783742,
+    "1005010519693722": 1794680859.9419408,
     "1005010788149535": 1794650949.6978376,
     "1005007857182319": 1794666000.5453608,
     "1005010706574985": 1794670972.5875318,
@@ -2719,7 +2719,8 @@
     "Ajazz AHW10 Head-mounted Wired Gaming",
     "AJAZZ AJ179 PRO PAW3395 Wireless Gaming Mouse with RGB Charging Base",
     "ميزان حرارة طبي رقمي صغير لقياس درجة حرارة الجسم",
-    "Tribit PocketGo Portable Bluetooth Speaker"
+    "Tribit PocketGo Portable Bluetooth Speaker",
+    "Delux M400 PAW3311 24000DPI 1Khz"
   ],
   "published_title_timestamps": {
     "Xiaomi Redmi Note 17 5G Global Version": 1790857823.0117362,
@@ -3791,10 +3792,10 @@
     "Ajazz AHW10 Head-mounted Wired Gaming": 1794677250.0438125,
     "AJAZZ AJ179 PRO PAW3395 Wireless Gaming Mouse with RGB Charging Base": 1794677812.6238942,
     "ميزان حرارة طبي رقمي صغير لقياس درجة حرارة الجسم": 1794679093.780596,
-    "Tribit PocketGo Portable Bluetooth Speaker": 1794679272.8106956
+    "Tribit PocketGo Portable Bluetooth Speaker": 1794679272.8106956,
+    "Delux M400 PAW3311 24000DPI 1Khz": 1794680859.9419408
   },
   "published_post_keys": [
-    "lodydeals:45895",
     "ecksdeal:5993",
     "lodydeals:45883",
     "lodydeals:45950",
@@ -4793,19 +4794,20 @@
     "aniscoupons:34918",
     "lodydeals:46500",
     "zedstoreonline:40179",
-    "zedstoreonline:40180"
+    "zedstoreonline:40180",
+    "lodydeals:46505"
   ],
   "last_disclaimer_time": 1794524540.9476151,
   "last_calendar_time": 1794572799.8939624,
-  "last_run_time": 1794679272.8106956,
+  "last_run_time": 1794680859.9419408,
   "monitored_channels": {
     "ecksdeal": {
       "last_message_id": 6064,
       "last_check_time": 1794676876.8326535
     },
     "lodydeals": {
-      "last_message_id": 46504,
-      "last_check_time": 1794680559.6376538
+      "last_message_id": 46505,
+      "last_check_time": 1794680862.0174725
     },
     "test_channel": {
       "last_message_id": 1793967703,
@@ -5525,7 +5527,7 @@
     "1389260212": 14.8,
     "1005012138794873": 82.4,
     "1005007129557126": 82.66,
-    "1005010519693722": 14.4,
+    "1005010519693722": 13.42,
     "1005010788149535": 364.9,
     "1005007857182319": 23.88,
     "1005010706574985": 11.16,
@@ -24742,6 +24744,16 @@
       "price": 20.4,
       "timestamp": 1794679272.8106956,
       "status": "ACTIVE"
+    },
+    "lodydeals:46505": {
+      "channel_msg_id": 2747,
+      "product_id": "1005010519693722",
+      "title": "Delux M400 PAW3311 24000DPI 1Khz",
+      "channel": "lodydeals",
+      "source_msg_id": 46505,
+      "price": 13.42,
+      "timestamp": 1794680859.9419408,
+      "status": "ACTIVE"
     }
   },
   "schedule_config": {
@@ -24750,17 +24762,17 @@
     "current_interval_minutes": 5,
     "is_paused": false,
     "night_mode_enabled": true,
-    "last_deal_post_time": 1794679276.2271125,
+    "last_deal_post_time": 1794680864.9157062,
     "night_start_hour_dz": 0,
     "night_end_hour_dz": 8,
     "night_pause_enabled": true,
-    "last_sweep_time": 1794680590.985708,
+    "last_sweep_time": 1794680867.4982836,
     "last_sweep_times": {
-      "algeria": 1794680562.5487206,
-      "france": 1794680590.985708
+      "algeria": 1794680864.884125,
+      "france": 1794680867.4982836
     },
     "last_deal_post_times": {
-      "algeria": 1794679276.2271125
+      "algeria": 1794680864.9157062
     }
   },
   "last_coin_reminder_time": 1794533888.682542,
@@ -25570,7 +25582,7 @@
     "1389260212": "zedstoreonline",
     "1005012138794873": "zedstoreonline",
     "1005007129557126": "aniscoupons",
-    "1005010519693722": "aniscoupons",
+    "1005010519693722": "lodydeals",
     "1005010788149535": "aniscoupons",
     "1005007857182319": "ecksdeal",
     "1005010706574985": "aniscoupons",
@@ -26666,7 +26678,8 @@
     "Ajazz AHW10 Head-mounted Wired Gaming": "aniscoupons",
     "AJAZZ AJ179 PRO PAW3395 Wireless Gaming Mouse with RGB Charging Base": "aniscoupons",
     "ميزان حرارة طبي رقمي صغير لقياس درجة حرارة الجسم": "zedstoreonline",
-    "Tribit PocketGo Portable Bluetooth Speaker": "zedstoreonline"
+    "Tribit PocketGo Portable Bluetooth Speaker": "zedstoreonline",
+    "Delux M400 PAW3311 24000DPI 1Khz": "lodydeals"
   },
   "religious_reminders_history": {
     "mock_rem": "2026-10-02",
@@ -29773,6 +29786,11 @@
         "channel": "aniscoupons",
         "ts": 1794666007.6102984,
         "price": 14.4
+      },
+      {
+        "channel": "lodydeals",
+        "ts": 1794680747.236186,
+        "price": 13.42
       }
     ],
     "1005007822635375": [
