@@ -818,7 +818,8 @@
     "1005011551333926",
     "1005007336232520",
     "1005010043969798",
-    "1005010376374580"
+    "1005010376374580",
+    "1005010239860751"
   ],
   "published_product_timestamps": {
     "1005012973772517": 1794500732.7845657,
@@ -1652,7 +1653,8 @@
     "1005011551333926": 1794677250.0438125,
     "1005007336232520": 1794677812.6238942,
     "1005010043969798": 1794679093.780596,
-    "1005010376374580": 1794679272.8106956
+    "1005010376374580": 1794679272.8106956,
+    "1005010239860751": 1794684619.3058665
   },
   "published_titles": [
     "Wireless WiFi Repeater 300Mbps WiFi Extender Amplifier Booster Router",
@@ -2722,7 +2724,8 @@
     "Tribit PocketGo Portable Bluetooth Speaker",
     "Delux M400 PAW3311 24000DPI 1Khz",
     "Blackview WAVE 7C 4/64GB",
-    "FIFINE Wireless Lavalier Recording Microphone"
+    "FIFINE Wireless Lavalier Recording Microphone",
+    "MCHOSE A7 V2 Ultra Gaming Mouse"
   ],
   "published_title_timestamps": {
     "Xiaomi Redmi Note 17 5G Global Version": 1790857823.0117362,
@@ -3797,10 +3800,10 @@
     "Tribit PocketGo Portable Bluetooth Speaker": 1794679272.8106956,
     "Delux M400 PAW3311 24000DPI 1Khz": 1794680859.9419408,
     "Blackview WAVE 7C 4/64GB": 1794682395.5974634,
-    "FIFINE Wireless Lavalier Recording Microphone": 1794682951.3022494
+    "FIFINE Wireless Lavalier Recording Microphone": 1794682951.3022494,
+    "MCHOSE A7 V2 Ultra Gaming Mouse": 1794684619.3058665
   },
   "published_post_keys": [
-    "lodydeals:45955",
     "lodydeals:45956",
     "lodydeals:45957",
     "lodydeals:45958",
@@ -4799,11 +4802,12 @@
     "lodydeals:46509",
     "aniscoupons:34924",
     "aniscoupons:34925",
-    "aniscoupons:34926"
+    "aniscoupons:34926",
+    "zedstoreonline:40186"
   ],
   "last_disclaimer_time": 1794524540.9476151,
   "last_calendar_time": 1794572799.8939624,
-  "last_run_time": 1794684442.348918,
+  "last_run_time": 1794684619.3058665,
   "monitored_channels": {
     "ecksdeal": {
       "last_message_id": 6064,
@@ -4830,12 +4834,12 @@
       "last_check_time": 1793599663.3444748
     },
     "zedstoreonline": {
-      "last_message_id": 40185,
-      "last_check_time": 1794683515.329
+      "last_message_id": 40186,
+      "last_check_time": 1794684621.378787
     },
     "aniscoupons": {
-      "last_message_id": 34927,
-      "last_check_time": 1794684445.528952
+      "last_message_id": 34928,
+      "last_check_time": 1794684623.2606485
     },
     "bnddeals": {
       "last_message_id": 51302,
@@ -5553,7 +5557,8 @@
     "1005011551333926": 41.26,
     "1005007336232520": 20.9,
     "1005010043969798": 2.4,
-    "1005010376374580": 20.4
+    "1005010376374580": 20.4,
+    "1005010239860751": 36.9
   },
   "channel_published_deals": {
     "aniscoupons:32590": {
@@ -24838,6 +24843,16 @@
       "price": 7.47,
       "timestamp": 1794684442.348918,
       "status": "ACTIVE"
+    },
+    "zedstoreonline:40186": {
+      "channel_msg_id": 2756,
+      "product_id": "1005010239860751",
+      "title": "MCHOSE A7 V2 Ultra Gaming Mouse",
+      "channel": "zedstoreonline",
+      "source_msg_id": 40186,
+      "price": 36.9,
+      "timestamp": 1794684619.3058665,
+      "status": "ACTIVE"
     }
   },
   "schedule_config": {
@@ -24846,17 +24861,17 @@
     "current_interval_minutes": 5,
     "is_paused": false,
     "night_mode_enabled": true,
-    "last_deal_post_time": 1794684447.7484424,
+    "last_deal_post_time": 1794684623.8316927,
     "night_start_hour_dz": 0,
     "night_end_hour_dz": 8,
     "night_pause_enabled": true,
-    "last_sweep_time": 1794684450.5806348,
+    "last_sweep_time": 1794684626.160533,
     "last_sweep_times": {
-      "algeria": 1794684447.7138822,
-      "france": 1794684450.5806348
+      "algeria": 1794684623.8041198,
+      "france": 1794684626.160533
     },
     "last_deal_post_times": {
-      "algeria": 1794684447.7484424
+      "algeria": 1794684623.8316927
     }
   },
   "last_coin_reminder_time": 1794533888.682542,
@@ -25688,7 +25703,8 @@
     "1005011551333926": "aniscoupons",
     "1005007336232520": "aniscoupons",
     "1005010043969798": "zedstoreonline",
-    "1005010376374580": "zedstoreonline"
+    "1005010376374580": "zedstoreonline",
+    "1005010239860751": "zedstoreonline"
   },
   "published_title_channels": {
     "Test Wrench Set": "test_channel",
@@ -26765,7 +26781,8 @@
     "Tribit PocketGo Portable Bluetooth Speaker": "zedstoreonline",
     "Delux M400 PAW3311 24000DPI 1Khz": "lodydeals",
     "Blackview WAVE 7C 4/64GB": "lodydeals",
-    "FIFINE Wireless Lavalier Recording Microphone": "zedstoreonline"
+    "FIFINE Wireless Lavalier Recording Microphone": "zedstoreonline",
+    "MCHOSE A7 V2 Ultra Gaming Mouse": "zedstoreonline"
   },
   "religious_reminders_history": {
     "mock_rem": "2026-10-02",
@@ -27562,7 +27579,6 @@
   "published_deals_history": {},
   "settings": {},
   "handled_post_keys": [
-    "bnddeals:51195",
     "zedstoreonline:39623",
     "zedstoreonline:39604",
     "zedstoreonline:39605",
@@ -28561,7 +28577,8 @@
     "zedstoreonline:40185",
     "lodydeals:46510",
     "aniscoupons:34927",
-    "bnddeals:51302"
+    "bnddeals:51302",
+    "aniscoupons:34928"
   ],
   "last_france_cross_promo_time": 1794553348.8480208,
   "next_france_cross_promo_interval_seconds": 334302,
@@ -30101,6 +30118,11 @@
         "channel": "bnddeals",
         "ts": 1794684447.5524347,
         "price": 7.3
+      },
+      {
+        "channel": "aniscoupons",
+        "ts": 1794684623.156266,
+        "price": 7.47
       }
     ]
   },
