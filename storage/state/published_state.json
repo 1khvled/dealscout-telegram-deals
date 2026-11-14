@@ -1200,7 +1200,7 @@
     "1005008986635164": 1793314892.9200466,
     "1005008327980403": 1794430852.2821708,
     "1005012838686691": 1793384191.3385255,
-    "1005007966795709": 1793898351.709536,
+    "1005007966795709": 1794682395.5974634,
     "1005007760080474": 1793613355.4947147,
     "1005011857340568": 1794437138.1462939,
     "1005008459823709": 1793448578.1268156,
@@ -2720,7 +2720,8 @@
     "AJAZZ AJ179 PRO PAW3395 Wireless Gaming Mouse with RGB Charging Base",
     "ميزان حرارة طبي رقمي صغير لقياس درجة حرارة الجسم",
     "Tribit PocketGo Portable Bluetooth Speaker",
-    "Delux M400 PAW3311 24000DPI 1Khz"
+    "Delux M400 PAW3311 24000DPI 1Khz",
+    "Blackview WAVE 7C 4/64GB"
   ],
   "published_title_timestamps": {
     "Xiaomi Redmi Note 17 5G Global Version": 1790857823.0117362,
@@ -3793,10 +3794,10 @@
     "AJAZZ AJ179 PRO PAW3395 Wireless Gaming Mouse with RGB Charging Base": 1794677812.6238942,
     "ميزان حرارة طبي رقمي صغير لقياس درجة حرارة الجسم": 1794679093.780596,
     "Tribit PocketGo Portable Bluetooth Speaker": 1794679272.8106956,
-    "Delux M400 PAW3311 24000DPI 1Khz": 1794680859.9419408
+    "Delux M400 PAW3311 24000DPI 1Khz": 1794680859.9419408,
+    "Blackview WAVE 7C 4/64GB": 1794682395.5974634
   },
   "published_post_keys": [
-    "lodydeals:45950",
     "ecksdeal:5991",
     "lodydeals:45951",
     "lodydeals:45952",
@@ -4795,19 +4796,20 @@
     "zedstoreonline:40180",
     "lodydeals:46505",
     "aniscoupons:34923",
-    "zedstoreonline:40183"
+    "zedstoreonline:40183",
+    "lodydeals:46508"
   ],
   "last_disclaimer_time": 1794524540.9476151,
   "last_calendar_time": 1794572799.8939624,
-  "last_run_time": 1794682040.375504,
+  "last_run_time": 1794682395.5974634,
   "monitored_channels": {
     "ecksdeal": {
       "last_message_id": 6064,
       "last_check_time": 1794676876.8326535
     },
     "lodydeals": {
-      "last_message_id": 46507,
-      "last_check_time": 1794682211.0827024
+      "last_message_id": 46508,
+      "last_check_time": 1794682397.6605165
     },
     "test_channel": {
       "last_message_id": 1793967703,
@@ -5131,7 +5133,7 @@
     "1005008986635164": 185.9,
     "1005008327980403": 83.31,
     "1005012838686691": 140.98,
-    "1005007966795709": 87.0,
+    "1005007966795709": 87.01,
     "1005011857340568": 114.63,
     "1005008459823709": 21.4,
     "1005009286078717": 15.7,
@@ -24774,6 +24776,16 @@
       "price": 136.7,
       "timestamp": 1794682040.375504,
       "status": "ACTIVE"
+    },
+    "lodydeals:46508": {
+      "channel_msg_id": 2750,
+      "product_id": "1005007966795709",
+      "title": "Blackview WAVE 7C 4/64GB",
+      "channel": "lodydeals",
+      "source_msg_id": 46508,
+      "price": 87.01,
+      "timestamp": 1794682395.5974634,
+      "status": "ACTIVE"
     }
   },
   "schedule_config": {
@@ -24782,17 +24794,17 @@
     "current_interval_minutes": 5,
     "is_paused": false,
     "night_mode_enabled": true,
-    "last_deal_post_time": 1794682043.9329422,
+    "last_deal_post_time": 1794682399.8568087,
     "night_start_hour_dz": 0,
     "night_end_hour_dz": 8,
     "night_pause_enabled": true,
-    "last_sweep_time": 1794682215.9130847,
+    "last_sweep_time": 1794682402.2721155,
     "last_sweep_times": {
-      "algeria": 1794682213.4673667,
-      "france": 1794682215.9130847
+      "algeria": 1794682399.8297725,
+      "france": 1794682402.2721155
     },
     "last_deal_post_times": {
-      "algeria": 1794682043.9329422
+      "algeria": 1794682399.8568087
     }
   },
   "last_coin_reminder_time": 1794533888.682542,
@@ -26699,7 +26711,8 @@
     "AJAZZ AJ179 PRO PAW3395 Wireless Gaming Mouse with RGB Charging Base": "aniscoupons",
     "ميزان حرارة طبي رقمي صغير لقياس درجة حرارة الجسم": "zedstoreonline",
     "Tribit PocketGo Portable Bluetooth Speaker": "zedstoreonline",
-    "Delux M400 PAW3311 24000DPI 1Khz": "lodydeals"
+    "Delux M400 PAW3311 24000DPI 1Khz": "lodydeals",
+    "Blackview WAVE 7C 4/64GB": "lodydeals"
   },
   "religious_reminders_history": {
     "mock_rem": "2026-10-02",
@@ -29977,6 +29990,13 @@
         "channel": "aniscoupons",
         "ts": 1794681663.5987892,
         "price": 31.62
+      }
+    ],
+    "1005007966795709": [
+      {
+        "channel": "lodydeals",
+        "ts": 1794682392.5542307,
+        "price": 87.01
       }
     ]
   },
