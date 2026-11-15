@@ -1442,7 +1442,7 @@
     "1005010758512904": 1793613961.7877593,
     "1005012871436251": 1793707168.1519766,
     "1005010385663278": 1793616557.8235445,
-    "1005009504965110": 1793707102.1529818,
+    "1005009504965110": 1794780287.532198,
     "1005008913425060": 1794072944.774369,
     "1005013359761139": 1793649073.112849,
     "1005012267973092": 1793649078.2559402,
@@ -2779,7 +2779,8 @@
     "INFLATABLE LAZY AIR SOFA",
     "Crucial RAM 8GB×2 DDR4 2400MHz",
     "Netac NVMe 3500MB/S 500GB",
-    "SMAILWOLF L80"
+    "SMAILWOLF L80",
+    "GIGABYTE B550M K Motherboard"
   ],
   "published_title_timestamps": {
     "Xiaomi Redmi Note 17 5G Global Version": 1790857823.0117362,
@@ -3877,10 +3878,10 @@
     "INFLATABLE LAZY AIR SOFA": 1794759633.8642445,
     "Crucial RAM 8GB×2 DDR4 2400MHz": 1794760460.6638489,
     "Netac NVMe 3500MB/S 500GB": 1794771008.638466,
-    "SMAILWOLF L80": 1794779551.17435
+    "SMAILWOLF L80": 1794779551.17435,
+    "GIGABYTE B550M K Motherboard": 1794780287.532198
   },
   "published_post_keys": [
-    "lodydeals:46040",
     "lodydeals:46042",
     "lodydeals:46044",
     "lodydeals:46046",
@@ -4879,11 +4880,12 @@
     "zedstoreonline:40267",
     "aniscoupons:35027",
     "aniscoupons:35028",
-    "aniscoupons:35029"
+    "aniscoupons:35029",
+    "aniscoupons:35030"
   ],
   "last_disclaimer_time": 1794524540.9476151,
   "last_calendar_time": 1794572799.8939624,
-  "last_run_time": 1794779736.0691626,
+  "last_run_time": 1794780287.532198,
   "monitored_channels": {
     "ecksdeal": {
       "last_message_id": 6066,
@@ -4914,8 +4916,8 @@
       "last_check_time": 1794777056.825879
     },
     "aniscoupons": {
-      "last_message_id": 35029,
-      "last_check_time": 1794779738.1518202
+      "last_message_id": 35030,
+      "last_check_time": 1794780289.617395
     },
     "bnddeals": {
       "last_message_id": 51307,
@@ -5423,7 +5425,7 @@
     "1005012648097890": 430.0,
     "1005012871436251": 200.96,
     "1005010385663278": 58.55,
-    "1005009504965110": 98.57,
+    "1005009504965110": 98.7,
     "1005008913425060": 58.11,
     "1005013359761139": 75.6,
     "1005012267973092": 58.3,
@@ -26155,6 +26157,16 @@
       "price": 16.6,
       "timestamp": 1794779736.0691626,
       "status": "ACTIVE"
+    },
+    "aniscoupons:35030": {
+      "channel_msg_id": 2880,
+      "product_id": "1005009504965110",
+      "title": "GIGABYTE B550M K Motherboard",
+      "channel": "aniscoupons",
+      "source_msg_id": 35030,
+      "price": 98.7,
+      "timestamp": 1794780287.532198,
+      "status": "ACTIVE"
     }
   },
   "schedule_config": {
@@ -26163,17 +26175,17 @@
     "current_interval_minutes": 5,
     "is_paused": false,
     "night_mode_enabled": true,
-    "last_deal_post_time": 1794779739.1811054,
+    "last_deal_post_time": 1794780290.8501527,
     "night_start_hour_dz": 0,
     "night_end_hour_dz": 8,
     "night_pause_enabled": true,
-    "last_sweep_time": 1794780103.0256786,
+    "last_sweep_time": 1794780295.3002508,
     "last_sweep_times": {
-      "algeria": 1794780099.1704202,
-      "france": 1794780103.0256786
+      "algeria": 1794780290.812374,
+      "france": 1794780295.3002508
     },
     "last_deal_post_times": {
-      "algeria": 1794779739.1811054
+      "algeria": 1794780290.8501527
     }
   },
   "last_coin_reminder_time": 1794767542.171841,
@@ -26784,7 +26796,7 @@
     "1005010706590867": "lodydeals",
     "1005012648097890": "aniscoupons",
     "1005012871436251": "lodydeals",
-    "1005009504965110": "lodydeals",
+    "1005009504965110": "aniscoupons",
     "1005008913425060": "lodydeals",
     "1005013359761139": "ecksdeal",
     "1005012267973092": "ecksdeal",
@@ -28122,7 +28134,8 @@
     "INFLATABLE LAZY AIR SOFA": "aniscoupons",
     "Crucial RAM 8GB×2 DDR4 2400MHz": "aniscoupons",
     "Netac NVMe 3500MB/S 500GB": "lodydeals",
-    "SMAILWOLF L80": "aniscoupons"
+    "SMAILWOLF L80": "aniscoupons",
+    "GIGABYTE B550M K Motherboard": "aniscoupons"
   },
   "religious_reminders_history": {
     "mock_rem": "2026-10-02",
@@ -30657,13 +30670,6 @@
         "price": 30.6
       }
     ],
-    "1005007129557126": [
-      {
-        "channel": "aniscoupons",
-        "ts": 1794736904.319205,
-        "price": 82.66
-      }
-    ],
     "1005010121513376": [
       {
         "channel": "zedstoreonline",
@@ -31205,6 +31211,13 @@
         "channel": "aniscoupons",
         "ts": 1794779733.3822737,
         "price": 16.6
+      }
+    ],
+    "1005009504965110": [
+      {
+        "channel": "aniscoupons",
+        "ts": 1794780284.4616392,
+        "price": 98.7
       }
     ]
   },
