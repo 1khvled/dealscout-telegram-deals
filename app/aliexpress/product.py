@@ -53,6 +53,29 @@ class ProductExtractor:
     def __init__(self):
         self.resolver = url_resolver
 
+    def _choose_title(self, source_title: str, api_title: Optional[str]) -> str:
+        """
+        Picks the caption title without silently upgrading the model variant.
+
+        Competitors often post a short model name ("AJAZZ AJ179") while AliExpress
+        returns a longer catalog title for the listing ("AJAZZ AJ179 PRO ...").
+        Replacing the source title there makes us advertise a variant the source
+        never posted. When the source already carries an explicit model code we
+        keep it and use the catalog title only to fill empty/generic titles.
+        """
+        if not api_title:
+            return source_title or ""
+
+        clean_api_title = self._clean_official_title(api_title)
+        if not source_title or self._is_suspicious_title(source_title):
+            return clean_api_title
+
+        has_model_code = bool(re.search(r'\b[A-Za-z]{1,8}[- ]?\d{2,5}[A-Za-z0-9-]*\b', source_title))
+        if len(source_title) < 15 and not has_model_code:
+            return clean_api_title
+
+        return source_title
+
     async def _is_coupon_bulletin(
         self,
         text: str,
@@ -257,9 +280,7 @@ class ProductExtractor:
 
         # Clean official title and update if needed
         if api_title:
-            clean_api_title = self._clean_official_title(api_title)
-            if not title or len(title) < 15 or self._is_suspicious_title(title):
-                title = clean_api_title
+            title = self._choose_title(title, api_title)
 
         coupon_code = extract_coupon(text, title=title)
         seller_coupon = extract_seller_coupon(text)

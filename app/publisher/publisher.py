@@ -4,12 +4,27 @@ from datetime import datetime, timedelta, timezone
 from pathlib import Path
 from typing import Optional, Tuple
 import httpx
+from bs4 import BeautifulSoup
 from sqlalchemy import select, and_, func
 from sqlalchemy.ext.asyncio import AsyncSession
 from app.config.settings import settings
 from app.db.models import TelegramPost, Deal
 from app.utils.logger import logger, record_system_log
 from app.utils.network import enforce_ipv4
+
+
+class _SyntheticTelegramOK:
+    """Stands in for Telegram's API response when we detect the post is already live."""
+
+    status_code = 200
+    text = ""
+
+    def __init__(self, message_id: int):
+        self._message_id = message_id
+
+    def json(self):
+        return {"ok": True, "result": {"message_id": self._message_id}}
+
 
 class TelegramPublisher:
     def __init__(
@@ -77,6 +92,47 @@ class TelegramPublisher:
             return False, f"Daily limit reached: {daily_count}/{settings.MAX_POSTS_PER_DAY}"
 
         return True, None
+
+    async def _find_recent_channel_post(self, marker: str, max_age_seconds: int = 900) -> Optional[int]:
+        """
+        Returns the id of a recent channel post containing `marker`, if any.
+
+        Telegram can accept a sendPhoto request even when our client times out
+        before reading the response. Retrying blindly then posts the same deal
+        two or three times (seen on the Delux M400 triple post). This check makes
+        sending idempotent: before sending and after an ambiguous network error,
+        look at the public channel and reuse the existing message if it is there.
+        """
+        channel = str(self.target_channel or "").lstrip("@")
+        if not channel or channel.startswith("-") or not marker:
+            return None
+
+        try:
+            async with httpx.AsyncClient(timeout=15.0, follow_redirects=True) as client:
+                resp = await client.get(f"https://t.me/s/{channel}")
+            if resp.status_code != 200:
+                return None
+
+            soup = BeautifulSoup(resp.text, "html.parser")
+            now = datetime.now(timezone.utc)
+            for block in reversed(soup.find_all("div", class_="tgme_widget_message")):
+                text_div = block.find("div", class_="tgme_widget_message_text")
+                if not text_div or marker not in text_div.get_text(" ", strip=True):
+                    continue
+                time_el = block.find("time")
+                if time_el and time_el.get("datetime"):
+                    try:
+                        posted = datetime.fromisoformat(time_el["datetime"].replace("Z", "+00:00"))
+                        if (now - posted).total_seconds() > max_age_seconds:
+                            continue
+                    except Exception:
+                        pass
+                data_post = block.get("data-post", "")
+                if "/" in data_post and data_post.rsplit("/", 1)[-1].isdigit():
+                    return int(data_post.rsplit("/", 1)[-1])
+        except Exception as err:
+            logger.debug(f"Channel idempotency check skipped: {err}")
+        return None
 
     async def publish_deal(
         self,
@@ -193,10 +249,21 @@ class TelegramPublisher:
                     if p.exists():
                         photo_bytes = p.read_bytes()
 
-            resp = None
+            # Idempotency guard: never send a deal that is already visible on the channel.
+            marker = deal.affiliate_url if (deal.affiliate_url and deal.affiliate_url in caption) else (deal.title or "")
+            existing_msg_id = await self._find_recent_channel_post(marker)
+            resp = _SyntheticTelegramOK(existing_msg_id) if existing_msg_id else None
+            if existing_msg_id:
+                logger.warning(
+                    f"Deal #{deal.id} is already live on {self.target_channel} (msg #{existing_msg_id}); "
+                    "skipping duplicate send"
+                )
+
             enforce_ipv4()
             async with httpx.AsyncClient(timeout=45.0) as client:
                 for attempt in range(1, 4):
+                    if resp is not None:
+                        break
                     try:
                         if photo_bytes:
                             files = {"photo": ("deal.jpg", photo_bytes, "image/jpeg")}
@@ -235,13 +302,20 @@ class TelegramPublisher:
                             await asyncio.sleep(2.0 * attempt)
                     except (httpx.ConnectError, httpx.TimeoutException, httpx.NetworkError) as net_err:
                         logger.warning(f"Telegram API connect error on attempt {attempt}/3: {net_err}")
-                        if attempt < 3:
-                            await asyncio.sleep(2.0 * attempt)
-                        else:
-                            raise
+                        recovered_id = await self._find_recent_channel_post(marker)
+                        if recovered_id:
+                            logger.warning(
+                                f"Telegram timed out but the deal is already live (msg #{recovered_id}); "
+                                "not resending to avoid a duplicate"
+                            )
+                            resp = _SyntheticTelegramOK(recovered_id)
+                            break
+                        # Ambiguous failure: Telegram may have accepted it. Do NOT retry;
+                        # the next scheduled run re-checks the channel before sending.
+                        return False, f"Telegram network error, delivery unconfirmed: {net_err}"
 
                 if resp is None:
-                    return False, "Failed to connect to Telegram API after 3 attempts"
+                    return False, "Failed to connect to Telegram API"
 
                 result = resp.json()
 
