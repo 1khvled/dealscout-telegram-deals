@@ -1247,7 +1247,7 @@
     "1005013245248248": 1793467100.7719579,
     "1005011790544318": 1793448745.105644,
     "1005010266614743": 1793380310.000534,
-    "1005006990064696": 1793380320.7842646,
+    "1005006990064696": 1794781066.4824102,
     "1005013254642366": 1793995361.9589899,
     "1005012725188908": 1793467076.3852122,
     "1005013224329670": 1793380335.1434295,
@@ -1279,7 +1279,7 @@
     "1005011820893973": 1793540051.7895243,
     "1005009073904302": 1794731901.208706,
     "1005009916208760": 1793448612.7938895,
-    "1005010033441204": 1794754070.4051867,
+    "1005010033441204": 1794781060.1893961,
     "1005008356663932": 1793707052.9762022,
     "1005010074161953": 1793543659.5887568,
     "1005010498953493": 1794746340.571137,
@@ -2780,7 +2780,8 @@
     "Crucial RAM 8GB×2 DDR4 2400MHz",
     "Netac NVMe 3500MB/S 500GB",
     "SMAILWOLF L80",
-    "GIGABYTE B550M K Motherboard"
+    "GIGABYTE B550M K Motherboard",
+    "UGREEN GaN 100W"
   ],
   "published_title_timestamps": {
     "Xiaomi Redmi Note 17 5G Global Version": 1790857823.0117362,
@@ -3268,7 +3269,7 @@
     "Soundcore by Anker Life Q30 Hybrid Active Noise Cancelling Headphones": 1793448587.6507976,
     "بروجكتور Magcubic HY300 max – أوتو فوكس، Android 14، إضاءة 400 ANSI": 1793448612.7938895,
     "MAONO PD100X Dynamic Microphone": 1794730332.5562615,
-    "Soundcore by Anker P20i": 1794754070.4051867,
+    "Soundcore by Anker P20i": 1794781060.1893961,
     "CUSU Memory DDR5  32GB(16GBX2) 5600MHz": 1793448632.7055113,
     "OPPO FIND X9 Pro": 1794486542.3386803,
     "OPPO A7 Pro Max CN": 1793448660.3359752,
@@ -3879,11 +3880,10 @@
     "Crucial RAM 8GB×2 DDR4 2400MHz": 1794760460.6638489,
     "Netac NVMe 3500MB/S 500GB": 1794771008.638466,
     "SMAILWOLF L80": 1794779551.17435,
-    "GIGABYTE B550M K Motherboard": 1794780287.532198
+    "GIGABYTE B550M K Motherboard": 1794780287.532198,
+    "UGREEN GaN 100W": 1794781066.4824102
   },
   "published_post_keys": [
-    "lodydeals:46042",
-    "lodydeals:46044",
     "lodydeals:46046",
     "ecksdeal:6030",
     "lodydeals:46047",
@@ -4881,19 +4881,21 @@
     "aniscoupons:35027",
     "aniscoupons:35028",
     "aniscoupons:35029",
-    "aniscoupons:35030"
+    "aniscoupons:35030",
+    "zedstoreonline:40271",
+    "aniscoupons:35031"
   ],
   "last_disclaimer_time": 1794524540.9476151,
   "last_calendar_time": 1794572799.8939624,
-  "last_run_time": 1794780287.532198,
+  "last_run_time": 1794781066.4824102,
   "monitored_channels": {
     "ecksdeal": {
       "last_message_id": 6066,
       "last_check_time": 1794742030.7923167
     },
     "lodydeals": {
-      "last_message_id": 46585,
-      "last_check_time": 1794780096.2457945
+      "last_message_id": 46589,
+      "last_check_time": 1794781053.0633795
     },
     "test_channel": {
       "last_message_id": 1793967703,
@@ -4912,12 +4914,12 @@
       "last_check_time": 1793599663.3444748
     },
     "zedstoreonline": {
-      "last_message_id": 40270,
-      "last_check_time": 1794777056.825879
+      "last_message_id": 40271,
+      "last_check_time": 1794781062.2573712
     },
     "aniscoupons": {
-      "last_message_id": 35030,
-      "last_check_time": 1794780289.617395
+      "last_message_id": 35032,
+      "last_check_time": 1794781068.579241
     },
     "bnddeals": {
       "last_message_id": 51307,
@@ -5246,7 +5248,7 @@
     "1005011790544318": 57.85,
     "1005010266614743": 57.8,
     "1005012741268303": 29.9,
-    "1005006990064696": 29.9,
+    "1005006990064696": 42.1,
     "1005013254642366": 23.5,
     "1005012725188908": 35.4,
     "1005013224329670": 21.1,
@@ -26167,6 +26169,26 @@
       "price": 98.7,
       "timestamp": 1794780287.532198,
       "status": "ACTIVE"
+    },
+    "zedstoreonline:40271": {
+      "channel_msg_id": 2881,
+      "product_id": "1005010033441204",
+      "title": "Soundcore by Anker P20i",
+      "channel": "zedstoreonline",
+      "source_msg_id": 40271,
+      "price": 14.6,
+      "timestamp": 1794781060.1893961,
+      "status": "ACTIVE"
+    },
+    "aniscoupons:35031": {
+      "channel_msg_id": 2882,
+      "product_id": "1005006990064696",
+      "title": "UGREEN GaN 100W",
+      "channel": "aniscoupons",
+      "source_msg_id": 35031,
+      "price": 42.1,
+      "timestamp": 1794781066.4824102,
+      "status": "ACTIVE"
     }
   },
   "schedule_config": {
@@ -26175,17 +26197,17 @@
     "current_interval_minutes": 5,
     "is_paused": false,
     "night_mode_enabled": true,
-    "last_deal_post_time": 1794780290.8501527,
+    "last_deal_post_time": 1794781069.536223,
     "night_start_hour_dz": 0,
     "night_end_hour_dz": 8,
     "night_pause_enabled": true,
-    "last_sweep_time": 1794780295.3002508,
+    "last_sweep_time": 1794781073.4990084,
     "last_sweep_times": {
-      "algeria": 1794780290.812374,
-      "france": 1794780295.3002508
+      "algeria": 1794781069.5075915,
+      "france": 1794781073.4990084
     },
     "last_deal_post_times": {
-      "algeria": 1794780290.8501527
+      "algeria": 1794781069.536223
     }
   },
   "last_coin_reminder_time": 1794767542.171841,
@@ -26608,7 +26630,7 @@
     "1005011790544318": "bnddeals",
     "1005010266614743": "zedstoreonline",
     "1005012741268303": "aniscoupons",
-    "1005006990064696": "zedstoreonline",
+    "1005006990064696": "aniscoupons",
     "1005013254642366": "zedstoreonline",
     "1005012725188908": "zedstoreonline",
     "1005013224329670": "zedstoreonline",
@@ -28135,7 +28157,8 @@
     "Crucial RAM 8GB×2 DDR4 2400MHz": "aniscoupons",
     "Netac NVMe 3500MB/S 500GB": "lodydeals",
     "SMAILWOLF L80": "aniscoupons",
-    "GIGABYTE B550M K Motherboard": "aniscoupons"
+    "GIGABYTE B550M K Motherboard": "aniscoupons",
+    "UGREEN GaN 100W": "aniscoupons"
   },
   "religious_reminders_history": {
     "mock_rem": "2026-10-02",
@@ -28932,7 +28955,6 @@
   "published_deals_history": {},
   "settings": {},
   "handled_post_keys": [
-    "lodydeals:46208",
     "zedstoreonline:39667",
     "bnddeals:51213",
     "lodydeals:46209",
@@ -29931,7 +29953,8 @@
     "zedstoreonline:40269",
     "aniscoupons:35024",
     "zedstoreonline:40270",
-    "aniscoupons:35026"
+    "aniscoupons:35026",
+    "aniscoupons:35032"
   ],
   "last_france_cross_promo_time": 1794553348.8480208,
   "next_france_cross_promo_interval_seconds": 334302,
@@ -30663,19 +30686,7 @@
         "price": 74.5
       }
     ],
-    "1005012624574517": [
-      {
-        "channel": "zedstoreonline",
-        "ts": 1794737272.8612797,
-        "price": 30.6
-      }
-    ],
     "1005010121513376": [
-      {
-        "channel": "zedstoreonline",
-        "ts": 1794737085.8760169,
-        "price": 289.0
-      },
       {
         "channel": "aniscoupons",
         "ts": 1794742082.342602,
@@ -30683,11 +30694,6 @@
       }
     ],
     "1005010033441204": [
-      {
-        "channel": "aniscoupons",
-        "ts": 1794737274.210465,
-        "price": 14.6
-      },
       {
         "channel": "zedstoreonline",
         "ts": 1794754067.726813,
@@ -30701,6 +30707,11 @@
       {
         "channel": "aniscoupons",
         "ts": 1794754656.8794658,
+        "price": 14.6
+      },
+      {
+        "channel": "zedstoreonline",
+        "ts": 1794781057.8322244,
         "price": 14.6
       }
     ],
@@ -31218,6 +31229,13 @@
         "channel": "aniscoupons",
         "ts": 1794780284.4616392,
         "price": 98.7
+      }
+    ],
+    "1005006990064696": [
+      {
+        "channel": "aniscoupons",
+        "ts": 1794781064.1449764,
+        "price": 42.1
       }
     ]
   },
