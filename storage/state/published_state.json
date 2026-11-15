@@ -953,7 +953,7 @@
     "1005008144734940": 1791032158.6801872,
     "1005006443158717": 1791032177.1222703,
     "1005012492244291": 1791035151.8836284,
-    "1005008522983211": 1794676700.5824757,
+    "1005008522983211": 1794735350.1277812,
     "1005011734677486": 1791038145.1521833,
     "1005008414973716": 1791125437.8944824,
     "1005010706783496": 1791043842.6639822,
@@ -1079,7 +1079,7 @@
     "9998883963": 1792073963.7339156,
     "1005010620269829": 1793707067.6841128,
     "9998886219": 1792086219.2668676,
-    "1005005875379717": 1794676881.0478508,
+    "1005005875379717": 1794735354.793842,
     "9998887185": 1792087185.8637784,
     "9998888020": 1792098020.7307658,
     "9998888253": 1792098253.077623,
@@ -2889,7 +2889,7 @@
     "Mini Laser Rangefinder 30M High Precision": 1791032177.1222703,
     "Men’s Oxford Fabric Sling Crossbody Bag": 1791033345.3970714,
     "ONEPLUS TURBO 6X 5G": 1793448884.6592717,
-    "XUNYOU-LINK 4G LTE WiFi Router WiFi 6 300Mpbs 4G Modem": 1794734793.0661755,
+    "XUNYOU-LINK 4G LTE WiFi Router WiFi 6 300Mpbs 4G Modem": 1794735350.1277812,
     "️ POCO X6 Pro (12/256)": 1791037857.3485136,
     "LENOVO LE257": 1791038145.1521833,
     "Lenovo XT53": 1791038753.5097415,
@@ -3809,7 +3809,7 @@
     "H20PRO TV Box 2/16GB": 1794676331.0514421,
     "DOOV R77 4G Touch (3/32GB)": 1794676338.751973,
     "Picun G1 Casque Gaming Sans Fil": 1794676695.2288063,
-    "Baseus GH02 Gaming Headphones": 1794676881.0478508,
+    "Baseus GH02 Gaming Headphones": 1794735354.793842,
     "E-YOOSO X-39 USB Wired RGB Gaming Mouse": 1794677244.3687112,
     "Ajazz AHW10 Head-mounted Wired Gaming": 1794677250.0438125,
     "AJAZZ AJ179 PRO PAW3395 Wireless Gaming Mouse with RGB Charging Base": 1794677812.6238942,
@@ -3830,8 +3830,6 @@
     "Backpack With Rod Holder": 1794732862.0085351
   },
   "published_post_keys": [
-    "zedstoreonline:39190",
-    "aniscoupons:33500",
     "aniscoupons:33501",
     "aniscoupons:33502",
     "aniscoupons:33503",
@@ -4829,19 +4827,21 @@
     "aniscoupons:34954",
     "aniscoupons:34955",
     "aniscoupons:34957",
-    "zedstoreonline:40214"
+    "zedstoreonline:40214",
+    "aniscoupons:34958",
+    "aniscoupons:34959"
   ],
   "last_disclaimer_time": 1794524540.9476151,
   "last_calendar_time": 1794572799.8939624,
-  "last_run_time": 1794735177.027439,
+  "last_run_time": 1794735354.793842,
   "monitored_channels": {
     "ecksdeal": {
       "last_message_id": 6065,
       "last_check_time": 1794694596.4618468
     },
     "lodydeals": {
-      "last_message_id": 46542,
-      "last_check_time": 1794735167.1413019
+      "last_message_id": 46543,
+      "last_check_time": 1794735343.4463415
     },
     "test_channel": {
       "last_message_id": 1793967703,
@@ -4860,12 +4860,12 @@
       "last_check_time": 1793599663.3444748
     },
     "zedstoreonline": {
-      "last_message_id": 40214,
-      "last_check_time": 1794735179.1142845
+      "last_message_id": 40215,
+      "last_check_time": 1794735345.8340082
     },
     "aniscoupons": {
-      "last_message_id": 34957,
-      "last_check_time": 1794734795.1467807
+      "last_message_id": 34959,
+      "last_check_time": 1794735356.8743575
     },
     "bnddeals": {
       "last_message_id": 51305,
@@ -25243,6 +25243,26 @@
       "price": 186.7,
       "timestamp": 1794735177.027439,
       "status": "ACTIVE"
+    },
+    "aniscoupons:34958": {
+      "channel_msg_id": 2793,
+      "product_id": "1005008522983211",
+      "title": "XUNYOU-LINK 4G LTE WiFi Router WiFi 6 300Mpbs 4G Modem",
+      "channel": "aniscoupons",
+      "source_msg_id": 34958,
+      "price": 15.47,
+      "timestamp": 1794735350.1277812,
+      "status": "ACTIVE"
+    },
+    "aniscoupons:34959": {
+      "channel_msg_id": 2794,
+      "product_id": "1005005875379717",
+      "title": "Baseus GH02 Gaming Headphones",
+      "channel": "aniscoupons",
+      "source_msg_id": 34959,
+      "price": 38.13,
+      "timestamp": 1794735354.793842,
+      "status": "ACTIVE"
     }
   },
   "schedule_config": {
@@ -25251,17 +25271,17 @@
     "current_interval_minutes": 5,
     "is_paused": false,
     "night_mode_enabled": true,
-    "last_deal_post_time": 1794735180.6049943,
+    "last_deal_post_time": 1794735357.7263515,
     "night_start_hour_dz": 0,
     "night_end_hour_dz": 8,
     "night_pause_enabled": true,
-    "last_sweep_time": 1794735183.7455297,
+    "last_sweep_time": 1794735360.5483093,
     "last_sweep_times": {
-      "algeria": 1794735180.5706127,
-      "france": 1794735183.7455297
+      "algeria": 1794735357.6905482,
+      "france": 1794735360.5483093
     },
     "last_deal_post_times": {
-      "algeria": 1794735180.6049943
+      "algeria": 1794735357.7263515
     }
   },
   "last_coin_reminder_time": 1794533888.682542,
@@ -27982,7 +28002,6 @@
   "published_deals_history": {},
   "settings": {},
   "handled_post_keys": [
-    "aniscoupons:34150",
     "zedstoreonline:39632",
     "zedstoreonline:39633",
     "aniscoupons:34152",
@@ -28981,7 +29000,8 @@
     "aniscoupons:34952",
     "zedstoreonline:40211",
     "zedstoreonline:40213",
-    "aniscoupons:34956"
+    "aniscoupons:34956",
+    "zedstoreonline:40215"
   ],
   "last_france_cross_promo_time": 1794553348.8480208,
   "next_france_cross_promo_interval_seconds": 334302,
@@ -29793,6 +29813,20 @@
         "channel": "zedstoreonline",
         "ts": 1794735174.6068206,
         "price": 186.7
+      }
+    ],
+    "1005008522983211": [
+      {
+        "channel": "aniscoupons",
+        "ts": 1794735347.9348226,
+        "price": 15.47
+      }
+    ],
+    "1005005875379717": [
+      {
+        "channel": "aniscoupons",
+        "ts": 1794735352.834374,
+        "price": 38.13
       }
     ]
   },
