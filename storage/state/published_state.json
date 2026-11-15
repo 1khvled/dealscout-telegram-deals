@@ -961,7 +961,7 @@
     "1005008144734940": 1791032158.6801872,
     "1005006443158717": 1791032177.1222703,
     "1005012492244291": 1791035151.8836284,
-    "1005008522983211": 1794735350.1277812,
+    "1005008522983211": 1794754455.951501,
     "1005011734677486": 1791038145.1521833,
     "1005008414973716": 1791125437.8944824,
     "1005010706783496": 1791043842.6639822,
@@ -2912,7 +2912,7 @@
     "Mini Laser Rangefinder 30M High Precision": 1791032177.1222703,
     "Men’s Oxford Fabric Sling Crossbody Bag": 1791033345.3970714,
     "ONEPLUS TURBO 6X 5G": 1793448884.6592717,
-    "XUNYOU-LINK 4G LTE WiFi Router WiFi 6 300Mpbs 4G Modem": 1794735350.1277812,
+    "XUNYOU-LINK 4G LTE WiFi Router WiFi 6 300Mpbs 4G Modem": 1794754455.951501,
     "️ POCO X6 Pro (12/256)": 1791037857.3485136,
     "LENOVO LE257": 1791038145.1521833,
     "Lenovo XT53": 1791038753.5097415,
@@ -3860,7 +3860,6 @@
     "KOOTION SSD SATA3 128GB": 1794746294.8909137
   },
   "published_post_keys": [
-    "lodydeals:46010",
     "ecksdeal:6025",
     "lodydeals:46011",
     "ecksdeal:6028",
@@ -4859,19 +4858,20 @@
     "lodydeals:46560",
     "zedstoreonline:40247",
     "zedstoreonline:40248",
-    "zedstoreonline:40250"
+    "zedstoreonline:40250",
+    "zedstoreonline:40251"
   ],
   "last_disclaimer_time": 1794524540.9476151,
   "last_calendar_time": 1794572799.8939624,
-  "last_run_time": 1794754070.4051867,
+  "last_run_time": 1794754455.951501,
   "monitored_channels": {
     "ecksdeal": {
       "last_message_id": 6066,
       "last_check_time": 1794742030.7923167
     },
     "lodydeals": {
-      "last_message_id": 46560,
-      "last_check_time": 1794753126.3538733
+      "last_message_id": 46561,
+      "last_check_time": 1794754451.475328
     },
     "test_channel": {
       "last_message_id": 1793967703,
@@ -4890,8 +4890,8 @@
       "last_check_time": 1793599663.3444748
     },
     "zedstoreonline": {
-      "last_message_id": 40250,
-      "last_check_time": 1794754072.4883626
+      "last_message_id": 40251,
+      "last_check_time": 1794754458.0201428
     },
     "aniscoupons": {
       "last_message_id": 35003,
@@ -5020,7 +5020,7 @@
     "1005008144734940": 5.23,
     "1005006443158717": 6.42,
     "1005012492244291": 230.0,
-    "1005008522983211": 15.47,
+    "1005008522983211": 15.4,
     "1005011734677486": 13.8,
     "1005008414973716": 1.0,
     "1005010706783496": 16.2,
@@ -25901,6 +25901,16 @@
       "price": 14.6,
       "timestamp": 1794754070.4051867,
       "status": "ACTIVE"
+    },
+    "zedstoreonline:40251": {
+      "channel_msg_id": 2856,
+      "product_id": "1005008522983211",
+      "title": "XUNYOU-LINK 4G LTE WiFi Router WiFi 6 300Mpbs 4G Modem",
+      "channel": "zedstoreonline",
+      "source_msg_id": 40251,
+      "price": 15.4,
+      "timestamp": 1794754455.951501,
+      "status": "ACTIVE"
     }
   },
   "schedule_config": {
@@ -25909,17 +25919,17 @@
     "current_interval_minutes": 5,
     "is_paused": false,
     "night_mode_enabled": true,
-    "last_deal_post_time": 1794754074.2345512,
+    "last_deal_post_time": 1794754459.4290645,
     "night_start_hour_dz": 0,
     "night_end_hour_dz": 8,
     "night_pause_enabled": true,
-    "last_sweep_time": 1794754077.9350288,
+    "last_sweep_time": 1794754462.4363241,
     "last_sweep_times": {
-      "algeria": 1794754074.1992216,
-      "france": 1794754077.9350288
+      "algeria": 1794754459.4014087,
+      "france": 1794754462.4363241
     },
     "last_deal_post_times": {
-      "algeria": 1794754074.2345512
+      "algeria": 1794754459.4290645
     }
   },
   "last_coin_reminder_time": 1794533888.682542,
@@ -26046,7 +26056,7 @@
     "1005008144734940": "couponsglobal",
     "1005006443158717": "couponsglobal",
     "1005012492244291": "megaphonna",
-    "1005008522983211": "aniscoupons",
+    "1005008522983211": "zedstoreonline",
     "1005011734677486": "bnddeals",
     "1005008414973716": "couponsglobal",
     "1005010706783496": "bnddeals",
@@ -26886,7 +26896,7 @@
     "Mini Laser Rangefinder 30M High Precision": "couponsglobal",
     "Men’s Oxford Fabric Sling Crossbody Bag": "aniscoupons",
     "ONEPLUS TURBO 6X 5G": "megaphonna",
-    "XUNYOU-LINK 4G LTE WiFi Router WiFi 6 300Mpbs 4G Modem": "aniscoupons",
+    "XUNYOU-LINK 4G LTE WiFi Router WiFi 6 300Mpbs 4G Modem": "zedstoreonline",
     "️ POCO X6 Pro (12/256)": "megaphonna",
     "LENOVO LE257": "bnddeals",
     "Lenovo XT53": "bnddeals",
@@ -28655,7 +28665,6 @@
   "published_deals_history": {},
   "settings": {},
   "handled_post_keys": [
-    "aniscoupons:34180",
     "aniscoupons:34181",
     "bnddeals:51203",
     "lodydeals:46205",
@@ -29654,7 +29663,8 @@
     "aniscoupons:35003",
     "lodydeals:46558",
     "lodydeals:46559",
-    "zedstoreonline:40249"
+    "zedstoreonline:40249",
+    "lodydeals:46561"
   ],
   "last_france_cross_promo_time": 1794553348.8480208,
   "next_france_cross_promo_interval_seconds": 334302,
@@ -30521,6 +30531,11 @@
         "channel": "aniscoupons",
         "ts": 1794735347.9348226,
         "price": 15.47
+      },
+      {
+        "channel": "zedstoreonline",
+        "ts": 1794754453.386273,
+        "price": 15.4
       }
     ],
     "1005005875379717": [
@@ -30605,6 +30620,11 @@
       {
         "channel": "zedstoreonline",
         "ts": 1794754067.726813,
+        "price": 14.6
+      },
+      {
+        "channel": "lodydeals",
+        "ts": 1794754451.3591597,
         "price": 14.6
       }
     ],
