@@ -1269,7 +1269,7 @@
     "1005012675968319": 1793399525.3383162,
     "1005010424638496": 1794609939.1136281,
     "1005010141682336": 1793399542.6698716,
-    "1005006782790827": 1794660980.280811,
+    "1005006782790827": 1794753503.42793,
     "1005012938359476": 1793448722.5382965,
     "1005012931209980": 1794678546.0543764,
     "1005011820893973": 1793540051.7895243,
@@ -1609,7 +1609,7 @@
     "1005011936109841": 1794475842.5666552,
     "1005012333024137": 1794649534.468107,
     "1005007822635375": 1794666179.4152045,
-    "1005001849536579": 1794575748.1745248,
+    "1005001849536579": 1794753509.2499118,
     "1005006967391791": 1794476797.164376,
     "1005013288890301": 1794477157.5349603,
     "1005013089015192": 1794647055.558841,
@@ -3238,7 +3238,7 @@
     "QCY Crossky C50i Open": 1793399525.3383162,
     "Magcubic HY350MAX": 1793399534.209787,
     "BLACKVIEW OSCAL TANK1": 1793399542.6698716,
-    "MAGCUBIC Projector HY300 PRO": 1794660980.280811,
+    "MAGCUBIC Projector HY300 PRO": 1794753503.42793,
     "Redmi 17 5G": 1793448722.5382965,
     "OPPO A7 PRO MAX  (8/128)": 1793399619.8124897,
     "وحش الأخر": 1793448843.5220337,
@@ -3764,7 +3764,7 @@
     "Lenovo Legion Y700 12/256GB": 1794475842.5666552,
     "S80 USB 3.2 Flash Drive 128GB": 1794475849.927629,
     "FANTECH SHOOTER III": 1794666179.4152045,
-    "MAONO PM360TR Condenser Microphone": 1794515176.9450598,
+    "MAONO PM360TR Condenser Microphone": 1794753509.2499118,
     "Machenike G5 Pro Gaming Controller": 1794476797.164376,
     "Webcam EMEET C100 1080P": 1794477157.5349603,
     "FIFINE 1440p Full HD PC Webcam with Microphone": 1794650936.0000904,
@@ -3860,8 +3860,6 @@
     "KOOTION SSD SATA3 128GB": 1794746294.8909137
   },
   "published_post_keys": [
-    "lodydeals:46006",
-    "lodydeals:46007",
     "lodydeals:46008",
     "lodydeals:46010",
     "ecksdeal:6025",
@@ -4859,11 +4857,13 @@
     "zedstoreonline:40243",
     "zedstoreonline:40245",
     "aniscoupons:35001",
-    "lodydeals:46560"
+    "lodydeals:46560",
+    "zedstoreonline:40247",
+    "zedstoreonline:40248"
   ],
   "last_disclaimer_time": 1794524540.9476151,
   "last_calendar_time": 1794572799.8939624,
-  "last_run_time": 1794753124.2973137,
+  "last_run_time": 1794753509.2499118,
   "monitored_channels": {
     "ecksdeal": {
       "last_message_id": 6066,
@@ -4890,8 +4890,8 @@
       "last_check_time": 1793599663.3444748
     },
     "zedstoreonline": {
-      "last_message_id": 40246,
-      "last_check_time": 1794749713.6572943
+      "last_message_id": 40248,
+      "last_check_time": 1794753511.3287323
     },
     "aniscoupons": {
       "last_message_id": 35003,
@@ -5558,7 +5558,7 @@
     "1005012650636759": 23.78,
     "1005011936109841": 457.36,
     "1005012333024137": 6.07,
-    "1005001849536579": 21.52,
+    "1005001849536579": 20.5,
     "1005006967391791": 36.2,
     "1005013288890301": 16.9,
     "1005013089015192": 261.9,
@@ -25871,6 +25871,26 @@
       "price": 37.25,
       "timestamp": 1794753124.2973137,
       "status": "ACTIVE"
+    },
+    "zedstoreonline:40247": {
+      "channel_msg_id": 2852,
+      "product_id": "1005006782790827",
+      "title": "MAGCUBIC Projector HY300 PRO",
+      "channel": "zedstoreonline",
+      "source_msg_id": 40247,
+      "price": 47.5,
+      "timestamp": 1794753503.42793,
+      "status": "ACTIVE"
+    },
+    "zedstoreonline:40248": {
+      "channel_msg_id": 2853,
+      "product_id": "1005001849536579",
+      "title": "MAONO PM360TR Condenser Microphone",
+      "channel": "zedstoreonline",
+      "source_msg_id": 40248,
+      "price": 20.5,
+      "timestamp": 1794753509.2499118,
+      "status": "ACTIVE"
     }
   },
   "schedule_config": {
@@ -25879,17 +25899,17 @@
     "current_interval_minutes": 5,
     "is_paused": false,
     "night_mode_enabled": true,
-    "last_deal_post_time": 1794753128.5471275,
+    "last_deal_post_time": 1794753513.1755714,
     "night_start_hour_dz": 0,
     "night_end_hour_dz": 8,
     "night_pause_enabled": true,
-    "last_sweep_time": 1794753131.4174836,
+    "last_sweep_time": 1794753517.0132787,
     "last_sweep_times": {
-      "algeria": 1794753128.5253325,
-      "france": 1794753131.4174836
+      "algeria": 1794753513.1398144,
+      "france": 1794753517.0132787
     },
     "last_deal_post_times": {
-      "algeria": 1794753128.5471275
+      "algeria": 1794753513.1755714
     }
   },
   "last_coin_reminder_time": 1794533888.682542,
@@ -26666,7 +26686,7 @@
     "1005012650636759": "lodydeals",
     "1005011936109841": "lodydeals",
     "1005012333024137": "aniscoupons",
-    "1005001849536579": "aniscoupons",
+    "1005001849536579": "zedstoreonline",
     "1005006967391791": "zedstoreonline",
     "1005013288890301": "zedstoreonline",
     "1005013089015192": "zedstoreonline",
@@ -30915,6 +30935,20 @@
         "channel": "lodydeals",
         "ts": 1794753121.9903152,
         "price": 37.25
+      }
+    ],
+    "1005006782790827": [
+      {
+        "channel": "zedstoreonline",
+        "ts": 1794753500.5272076,
+        "price": 47.5
+      }
+    ],
+    "1005001849536579": [
+      {
+        "channel": "zedstoreonline",
+        "ts": 1794753506.531094,
+        "price": 20.5
       }
     ]
   },
