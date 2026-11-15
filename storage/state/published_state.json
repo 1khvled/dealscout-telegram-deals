@@ -1232,7 +1232,7 @@
     "1005010529440901": 1793361918.107678,
     "1005010035309013": 1793554752.7954907,
     "1005010385472500": 1793448762.165183,
-    "1005011779814585": 1794735177.027439,
+    "1005011779814585": 1794770633.0209033,
     "1005013090910574": 1794340346.0747576,
     "1005012382148199": 1793500800.6950834,
     "1005010158485058": 1793543612.279949,
@@ -3253,7 +3253,7 @@
     "OPPO A7 PRO MAX  (8/128)": 1793399619.8124897,
     "وحش الأخر": 1793448843.5220337,
     "OnePlus ACE 6T 12/256": 1793613338.6107306,
-    "AMD Ryzen 7 9700X": 1794735177.027439,
+    "AMD Ryzen 7 9700X": 1794770633.0209033,
     "JUHOR DDR5 RAM 6000MHz 16GBx2": 1793441297.4632108,
     "KingSpec DDR5 RGB RAM 16GBX2 6000 MHz": 1793441302.3527575,
     "ViVO iQOO Neo 11 Ultra 12/256": 1793971934.3600886,
@@ -3874,7 +3874,6 @@
     "Crucial RAM 8GB×2 DDR4 2400MHz": 1794760460.6638489
   },
   "published_post_keys": [
-    "lodydeals:46031",
     "lodydeals:46032",
     "lodydeals:46034",
     "lodydeals:46035",
@@ -4873,11 +4872,12 @@
     "aniscoupons:35017",
     "zedstoreonline:40264",
     "aniscoupons:35019",
-    "aniscoupons:35020"
+    "aniscoupons:35020",
+    "zedstoreonline:40265"
   ],
   "last_disclaimer_time": 1794524540.9476151,
   "last_calendar_time": 1794572799.8939624,
-  "last_run_time": 1794769611.8032277,
+  "last_run_time": 1794770633.0209033,
   "monitored_channels": {
     "ecksdeal": {
       "last_message_id": 6066,
@@ -4904,12 +4904,12 @@
       "last_check_time": 1793599663.3444748
     },
     "zedstoreonline": {
-      "last_message_id": 40264,
-      "last_check_time": 1794768872.1941442
+      "last_message_id": 40265,
+      "last_check_time": 1794770635.1075225
     },
     "aniscoupons": {
-      "last_message_id": 35021,
-      "last_check_time": 1794770436.0609136
+      "last_message_id": 35022,
+      "last_check_time": 1794770637.8270576
     },
     "bnddeals": {
       "last_message_id": 51305,
@@ -26078,6 +26078,16 @@
       "price": 285.79,
       "timestamp": 1794769611.8032277,
       "status": "ACTIVE"
+    },
+    "zedstoreonline:40265": {
+      "channel_msg_id": 2873,
+      "product_id": "1005011779814585",
+      "title": "AMD Ryzen 7 9700X",
+      "channel": "zedstoreonline",
+      "source_msg_id": 40265,
+      "price": 186.7,
+      "timestamp": 1794770633.0209033,
+      "status": "ACTIVE"
     }
   },
   "schedule_config": {
@@ -26086,17 +26096,17 @@
     "current_interval_minutes": 5,
     "is_paused": false,
     "night_mode_enabled": true,
-    "last_deal_post_time": 1794769615.0407758,
+    "last_deal_post_time": 1794770638.6283035,
     "night_start_hour_dz": 0,
     "night_end_hour_dz": 8,
     "night_pause_enabled": true,
-    "last_sweep_time": 1794770439.756079,
+    "last_sweep_time": 1794770642.6475616,
     "last_sweep_times": {
-      "algeria": 1794770436.7232816,
-      "france": 1794770439.756079
+      "algeria": 1794770638.5909872,
+      "france": 1794770642.6475616
     },
     "last_deal_post_times": {
-      "algeria": 1794769615.0407758
+      "algeria": 1794770638.6283035
     }
   },
   "last_coin_reminder_time": 1794767542.171841,
@@ -28839,7 +28849,6 @@
   "published_deals_history": {},
   "settings": {},
   "handled_post_keys": [
-    "bnddeals:51208",
     "zedstoreonline:39664",
     "aniscoupons:34198",
     "bnddeals:51209",
@@ -29838,7 +29847,8 @@
     "aniscoupons:35016",
     "aniscoupons:35018",
     "lodydeals:46566",
-    "aniscoupons:35021"
+    "aniscoupons:35021",
+    "aniscoupons:35022"
   ],
   "last_france_cross_promo_time": 1794553348.8480208,
   "next_france_cross_promo_interval_seconds": 334302,
@@ -30748,6 +30758,11 @@
         "channel": "aniscoupons",
         "ts": 1794746319.2904484,
         "price": 186.74
+      },
+      {
+        "channel": "zedstoreonline",
+        "ts": 1794770629.6238933,
+        "price": 186.7
       }
     ],
     "1005008522983211": [
@@ -31305,6 +31320,13 @@
         "channel": "zedstoreonline",
         "ts": 1794760628.224697,
         "price": 79.5
+      }
+    ],
+    "1005005217734986": [
+      {
+        "channel": "aniscoupons",
+        "ts": 1794770637.3339806,
+        "price": 10.95
       }
     ]
   },
