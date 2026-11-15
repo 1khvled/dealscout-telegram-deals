@@ -1641,7 +1641,7 @@
     "1005007010612283": 1794599454.461018,
     "1005010788231460": 1794604060.7762444,
     "1389260212": 1794605894.0354748,
-    "1005012138794873": 1794659887.3198001,
+    "1005012138794873": 1794748034.594967,
     "1005007129557126": 1794736906.776198,
     "1005010519693722": 1794680859.9419408,
     "1005010788149535": 1794742149.198816,
@@ -3118,7 +3118,7 @@
     "أضف الآن في السلة الآن العرض يعمل يوم 1 نوفمبر 🔥": 1793270716.9132679,
     "Honor 600 5G Global 8/256GB .": 1793270732.2328634,
     "Honor 600s (8/255GB)": 1793270736.6516862,
-    "CUSU RAM DDR4 3200MHz 8GBx2": 1794608839.031857,
+    "CUSU RAM DDR4 3200MHz 8GBx2": 1794748034.594967,
     "Realme P3 (No Charger)": 1793399519.0209813,
     "Oppo Find X9 Pro 12/256": 1793540035.6702917,
     "Vivo X200S 12/256": 1793448596.0702198,
@@ -3860,7 +3860,6 @@
     "KOOTION SSD SATA3 128GB": 1794746294.8909137
   },
   "published_post_keys": [
-    "lodydeals:45997",
     "lodydeals:45998",
     "lodydeals:46001",
     "lodydeals:46002",
@@ -4859,11 +4858,12 @@
     "zedstoreonline:40238",
     "zedstoreonline:40239",
     "aniscoupons:34997",
-    "zedstoreonline:40240"
+    "zedstoreonline:40240",
+    "aniscoupons:34998"
   ],
   "last_disclaimer_time": 1794524540.9476151,
   "last_calendar_time": 1794572799.8939624,
-  "last_run_time": 1794747846.3635185,
+  "last_run_time": 1794748034.594967,
   "monitored_channels": {
     "ecksdeal": {
       "last_message_id": 6066,
@@ -4890,12 +4890,12 @@
       "last_check_time": 1793599663.3444748
     },
     "zedstoreonline": {
-      "last_message_id": 40240,
-      "last_check_time": 1794747848.4668176
+      "last_message_id": 40241,
+      "last_check_time": 1794748028.2698164
     },
     "aniscoupons": {
-      "last_message_id": 34997,
-      "last_check_time": 1794747487.9352984
+      "last_message_id": 34998,
+      "last_check_time": 1794748036.678225
     },
     "bnddeals": {
       "last_message_id": 51305,
@@ -25811,6 +25811,16 @@
       "price": 179.16,
       "timestamp": 1794747846.3635185,
       "status": "ACTIVE"
+    },
+    "aniscoupons:34998": {
+      "channel_msg_id": 2846,
+      "product_id": "1005012138794873",
+      "title": "CUSU RAM DDR4 3200MHz 8GBx2",
+      "channel": "aniscoupons",
+      "source_msg_id": 34998,
+      "price": 82.4,
+      "timestamp": 1794748034.594967,
+      "status": "ACTIVE"
     }
   },
   "schedule_config": {
@@ -25819,17 +25829,17 @@
     "current_interval_minutes": 5,
     "is_paused": false,
     "night_mode_enabled": true,
-    "last_deal_post_time": 1794747850.090515,
+    "last_deal_post_time": 1794748037.6232572,
     "night_start_hour_dz": 0,
     "night_end_hour_dz": 8,
     "night_pause_enabled": true,
-    "last_sweep_time": 1794747853.103977,
+    "last_sweep_time": 1794748040.4154327,
     "last_sweep_times": {
-      "algeria": 1794747850.0372844,
-      "france": 1794747853.103977
+      "algeria": 1794748037.5825694,
+      "france": 1794748040.4154327
     },
     "last_deal_post_times": {
-      "algeria": 1794747850.090515
+      "algeria": 1794748037.6232572
     }
   },
   "last_coin_reminder_time": 1794533888.682542,
@@ -26637,7 +26647,7 @@
     "1005007010612283": "zedstoreonline",
     "1005010788231460": "zedstoreonline",
     "1389260212": "zedstoreonline",
-    "1005012138794873": "zedstoreonline",
+    "1005012138794873": "aniscoupons",
     "1005007129557126": "aniscoupons",
     "1005010519693722": "lodydeals",
     "1005010788149535": "aniscoupons",
@@ -28565,7 +28575,6 @@
   "published_deals_history": {},
   "settings": {},
   "handled_post_keys": [
-    "aniscoupons:34175",
     "aniscoupons:34176",
     "lodydeals:46202",
     "lodydeals:46203",
@@ -29564,7 +29573,8 @@
     "aniscoupons:34994",
     "aniscoupons:34995",
     "zedstoreonline:40236",
-    "aniscoupons:34996"
+    "aniscoupons:34996",
+    "zedstoreonline:40241"
   ],
   "last_france_cross_promo_time": 1794553348.8480208,
   "next_france_cross_promo_interval_seconds": 334302,
@@ -30633,6 +30643,11 @@
         "channel": "aniscoupons",
         "ts": 1794742088.8963542,
         "price": 78.4
+      },
+      {
+        "channel": "zedstoreonline",
+        "ts": 1794748028.1153257,
+        "price": 78.0
       }
     ],
     "1005013438245033": [
@@ -30790,6 +30805,13 @@
         "channel": "zedstoreonline",
         "ts": 1794747844.1743422,
         "price": 179.16
+      }
+    ],
+    "1005012138794873": [
+      {
+        "channel": "aniscoupons",
+        "ts": 1794748032.530032,
+        "price": 82.4
       }
     ]
   },
