@@ -1530,7 +1530,7 @@
     "1005008636930795": 1794747089.3988028,
     "1005006260870758": 1794250569.5221198,
     "1005009759580502": 1794331533.1223195,
-    "1005009120888793": 1794490594.9899428,
+    "1005009120888793": 1794779551.17435,
     "1005011874310777": 1794087501.0429602,
     "1005008721853055": 1794126663.880001,
     "1005012593794312": 1794301654.5672474,
@@ -2778,7 +2778,8 @@
     "HONOR WIN RT 12/256GB",
     "INFLATABLE LAZY AIR SOFA",
     "Crucial RAM 8GB×2 DDR4 2400MHz",
-    "Netac NVMe 3500MB/S 500GB"
+    "Netac NVMe 3500MB/S 500GB",
+    "SMAILWOLF L80"
   ],
   "published_title_timestamps": {
     "Xiaomi Redmi Note 17 5G Global Version": 1790857823.0117362,
@@ -3875,10 +3876,10 @@
     "HONOR WIN RT 12/256GB": 1794759250.0371616,
     "INFLATABLE LAZY AIR SOFA": 1794759633.8642445,
     "Crucial RAM 8GB×2 DDR4 2400MHz": 1794760460.6638489,
-    "Netac NVMe 3500MB/S 500GB": 1794771008.638466
+    "Netac NVMe 3500MB/S 500GB": 1794771008.638466,
+    "SMAILWOLF L80": 1794779551.17435
   },
   "published_post_keys": [
-    "lodydeals:46038",
     "lodydeals:46039",
     "lodydeals:46040",
     "lodydeals:46042",
@@ -4877,19 +4878,20 @@
     "lodydeals:46567",
     "zedstoreonline:40266",
     "zedstoreonline:40267",
-    "aniscoupons:35027"
+    "aniscoupons:35027",
+    "aniscoupons:35028"
   ],
   "last_disclaimer_time": 1794524540.9476151,
   "last_calendar_time": 1794572799.8939624,
-  "last_run_time": 1794778969.1547828,
+  "last_run_time": 1794779551.17435,
   "monitored_channels": {
     "ecksdeal": {
       "last_message_id": 6066,
       "last_check_time": 1794742030.7923167
     },
     "lodydeals": {
-      "last_message_id": 46583,
-      "last_check_time": 1794779363.633656
+      "last_message_id": 46584,
+      "last_check_time": 1794779543.7397783
     },
     "test_channel": {
       "last_message_id": 1793967703,
@@ -4912,8 +4914,8 @@
       "last_check_time": 1794777056.825879
     },
     "aniscoupons": {
-      "last_message_id": 35027,
-      "last_check_time": 1794778971.221354
+      "last_message_id": 35028,
+      "last_check_time": 1794779553.2249813
     },
     "bnddeals": {
       "last_message_id": 51307,
@@ -26133,6 +26135,16 @@
       "price": 380.4,
       "timestamp": 1794778969.1547828,
       "status": "ACTIVE"
+    },
+    "aniscoupons:35028": {
+      "channel_msg_id": 2878,
+      "product_id": "1005009120888793",
+      "title": "SMAILWOLF L80",
+      "channel": "aniscoupons",
+      "source_msg_id": 35028,
+      "price": 22.3,
+      "timestamp": 1794779551.17435,
+      "status": "ACTIVE"
     }
   },
   "schedule_config": {
@@ -26141,17 +26153,17 @@
     "current_interval_minutes": 5,
     "is_paused": false,
     "night_mode_enabled": true,
-    "last_deal_post_time": 1794778971.9343433,
+    "last_deal_post_time": 1794779554.0671625,
     "night_start_hour_dz": 0,
     "night_end_hour_dz": 8,
     "night_pause_enabled": true,
-    "last_sweep_time": 1794779368.9336934,
+    "last_sweep_time": 1794779557.4860625,
     "last_sweep_times": {
-      "algeria": 1794779366.022679,
-      "france": 1794779368.9336934
+      "algeria": 1794779554.044656,
+      "france": 1794779557.4860625
     },
     "last_deal_post_times": {
-      "algeria": 1794778971.9343433
+      "algeria": 1794779554.0671625
     }
   },
   "last_coin_reminder_time": 1794767542.171841,
@@ -28099,7 +28111,8 @@
     "HONOR WIN RT 12/256GB": "aniscoupons",
     "INFLATABLE LAZY AIR SOFA": "aniscoupons",
     "Crucial RAM 8GB×2 DDR4 2400MHz": "aniscoupons",
-    "Netac NVMe 3500MB/S 500GB": "lodydeals"
+    "Netac NVMe 3500MB/S 500GB": "lodydeals",
+    "SMAILWOLF L80": "aniscoupons"
   },
   "religious_reminders_history": {
     "mock_rem": "2026-10-02",
@@ -30591,13 +30604,6 @@
         "price": 66.7
       }
     ],
-    "1005007336232520": [
-      {
-        "channel": "aniscoupons",
-        "ts": 1794736346.4330966,
-        "price": 20.9
-      }
-    ],
     "1005011779814585": [
       {
         "channel": "lodydeals",
@@ -30622,19 +30628,7 @@
         "price": 15.4
       }
     ],
-    "1005011742851856": [
-      {
-        "channel": "zedstoreonline",
-        "ts": 1794736338.1069255,
-        "price": 4.1
-      }
-    ],
     "1005008357913212": [
-      {
-        "channel": "zedstoreonline",
-        "ts": 1794736339.3634665,
-        "price": 40.4
-      },
       {
         "channel": "aniscoupons",
         "ts": 1794768121.218348,
@@ -31199,6 +31193,13 @@
         "channel": "aniscoupons",
         "ts": 1794774317.9761684,
         "price": 9.7
+      }
+    ],
+    "1005009120888793": [
+      {
+        "channel": "aniscoupons",
+        "ts": 1794779548.5722003,
+        "price": 22.3
       }
     ]
   },
