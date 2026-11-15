@@ -1051,7 +1051,7 @@
     "1005007345151855": 1791942667.867043,
     "1005010345227483": 1793299548.5548651,
     "1005011557896041": 1794746312.8315394,
-    "1005011754993234": 1794649336.3759046,
+    "1005011754993234": 1794760630.7438464,
     "1005011735727412": 1791943783.9162278,
     "1005007916078341": 1794732079.8854833,
     "1005006506862816": 1791947519.5815504,
@@ -1477,7 +1477,7 @@
     "1005008429979494": 1793741666.9686077,
     "1005004795387201": 1793742770.1634803,
     "1005010702983351": 1794760450.4584036,
-    "1005008366962319": 1794730325.60486,
+    "1005008366962319": 1794760636.954242,
     "1005005058037424": 1793779907.9964287,
     "1005012946895000": 1793793714.105913,
     "1005012150344482": 1794693680.6924913,
@@ -3031,7 +3031,7 @@
     "لووووووووووووز controller 🎮": 1791942667.867043,
     "جديد علامة ©️©️©️©️🆕": 1791942676.1983886,
     "AMD Ryzen 7 7800X3D": 1794746312.8315394,
-    "AMD Ryzen 5 8400F": 1794649336.3759046,
+    "AMD Ryzen 5 8400F": 1794760630.7438464,
     "Disco Duro SSD CUSU 1TB 512GB 240GB 480GB SATA 2.5'' SATA3 Disco SSD 128GB": 1791943777.8506553,
     "🔝 مانات قووووة ل جماعة mobile gaming 🎮": 1792017738.3981204,
     "Honor Choice Infowear Watch 2i Smartwatch AMOLED": 1791943825.002781,
@@ -3738,7 +3738,7 @@
     "Vivo X300  12/256GB": 1794394604.3664222,
     "CMF Buds 2a Bluetooth 5.4 Up to 31H of playback 12.4mm Driver 42dB ANC 4HD": 1794396619.5833008,
     "Electronic Body Scale": 1794400568.4819298,
-    "Kootiion X15 M.2 SSD NVMe 256GB": 1794665030.8928545,
+    "Kootiion X15 M.2 SSD NVMe 256GB": 1794760636.954242,
     "SoundPEATS C30 Hybrid ANC -52dB": 1794407013.7230165,
     "Somnambulist SSD 120GB": 1794524556.2538168,
     "Lexar ARES PRO NVMe SSD PCle5.0x4 M.2 1TB": 1794492627.75024,
@@ -3874,8 +3874,6 @@
     "Crucial RAM 8GB×2 DDR4 2400MHz": 1794760460.6638489
   },
   "published_post_keys": [
-    "lodydeals:46016",
-    "lodydeals:46018",
     "lodydeals:46019",
     "lodydeals:46022",
     "lodydeals:46024",
@@ -4873,11 +4871,13 @@
     "aniscoupons:35009",
     "aniscoupons:35010",
     "zedstoreonline:40259",
-    "aniscoupons:35011"
+    "aniscoupons:35011",
+    "zedstoreonline:40261",
+    "aniscoupons:35013"
   ],
   "last_disclaimer_time": 1794524540.9476151,
   "last_calendar_time": 1794572799.8939624,
-  "last_run_time": 1794760460.6638489,
+  "last_run_time": 1794760636.954242,
   "monitored_channels": {
     "ecksdeal": {
       "last_message_id": 6066,
@@ -4904,12 +4904,12 @@
       "last_check_time": 1793599663.3444748
     },
     "zedstoreonline": {
-      "last_message_id": 40260,
-      "last_check_time": 1794760455.993962
+      "last_message_id": 40261,
+      "last_check_time": 1794760632.8126957
     },
     "aniscoupons": {
-      "last_message_id": 35012,
-      "last_check_time": 1794760463.7913446
+      "last_message_id": 35013,
+      "last_check_time": 1794760639.0055673
     },
     "bnddeals": {
       "last_message_id": 51305,
@@ -5450,7 +5450,7 @@
     "1005008429979494": 72.7,
     "1005004795387201": 115.5,
     "1005010702983351": 69.6,
-    "1005008366962319": 30.05,
+    "1005008366962319": 30.3,
     "1005005058037424": 34.67,
     "1005012946895000": 142.59,
     "1005006972551834": 31.07,
@@ -25998,6 +25998,26 @@
       "price": 70.65,
       "timestamp": 1794760460.6638489,
       "status": "ACTIVE"
+    },
+    "zedstoreonline:40261": {
+      "channel_msg_id": 2864,
+      "product_id": "1005011754993234",
+      "title": "AMD Ryzen 5 8400F",
+      "channel": "zedstoreonline",
+      "source_msg_id": 40261,
+      "price": 79.5,
+      "timestamp": 1794760630.7438464,
+      "status": "ACTIVE"
+    },
+    "aniscoupons:35013": {
+      "channel_msg_id": 2865,
+      "product_id": "1005008366962319",
+      "title": "Kootiion X15 M.2 SSD NVMe 256GB",
+      "channel": "aniscoupons",
+      "source_msg_id": 35013,
+      "price": 30.3,
+      "timestamp": 1794760636.954242,
+      "status": "ACTIVE"
     }
   },
   "schedule_config": {
@@ -26006,17 +26026,17 @@
     "current_interval_minutes": 5,
     "is_paused": false,
     "night_mode_enabled": true,
-    "last_deal_post_time": 1794760464.851905,
+    "last_deal_post_time": 1794760639.8855686,
     "night_start_hour_dz": 0,
     "night_end_hour_dz": 8,
     "night_pause_enabled": true,
-    "last_sweep_time": 1794760468.1437767,
+    "last_sweep_time": 1794760643.0472462,
     "last_sweep_times": {
-      "algeria": 1794760464.8189814,
-      "france": 1794760468.1437767
+      "algeria": 1794760639.8616369,
+      "france": 1794760643.0472462
     },
     "last_deal_post_times": {
-      "algeria": 1794760464.851905
+      "algeria": 1794760639.8855686
     }
   },
   "last_coin_reminder_time": 1794533888.682542,
@@ -26660,7 +26680,7 @@
     "1005008429979494": "lodydeals",
     "1005004795387201": "lodydeals",
     "1005010702983351": "zedstoreonline",
-    "1005008366962319": "lodydeals",
+    "1005008366962319": "aniscoupons",
     "1005005058037424": "lodydeals",
     "1005012946895000": "lodydeals",
     "1005006972551834": "lodydeals",
@@ -30407,6 +30427,11 @@
         "channel": "zedstoreonline",
         "ts": 1794759629.5283291,
         "price": 30.0
+      },
+      {
+        "channel": "aniscoupons",
+        "ts": 1794760634.7565448,
+        "price": 30.3
       }
     ],
     "1005007869955343": [
@@ -31163,6 +31188,13 @@
         "channel": "aniscoupons",
         "ts": 1794760463.6738105,
         "price": 70.65
+      }
+    ],
+    "1005011754993234": [
+      {
+        "channel": "zedstoreonline",
+        "ts": 1794760628.224697,
+        "price": 79.5
       }
     ]
   },
