@@ -1517,7 +1517,7 @@
     "1005012925301774": 1794348808.2825344,
     "1005012959738411": 1794658966.3702009,
     "1005008357913212": 1794768123.609011,
-    "1005008703989845": 1794748608.0872164,
+    "1005008703989845": 1794769054.4354663,
     "1005007162099601": 1794524556.2538168,
     "1005007038130594": 1794393500.1320646,
     "1005008248187128": 1794057675.8729835,
@@ -3587,7 +3587,7 @@
     "Netac SSD NVME M2 250GB": 1794747089.3988028,
     "Essager 20W GaN + cable": 1794598546.8080914,
     "Redmi Note 17 Pro Max": 1793966798.7696738,
-    "CUSU SSD 512GB 1TB 2.5 Inch SATA SATA3 2TB 4TB Hard Drive SSD 240GB 256GB": 1794475632.0153844,
+    "CUSU SSD 512GB 1TB 2.5 Inch SATA SATA3 2TB 4TB Hard Drive SSD 240GB 256GB": 1794769054.4354663,
     "Fifine Gaming Headset H9W": 1794566561.968837,
     "Fifine Gaming Headset H6": 1794424534.1435025,
     "HyperX Cloud 3 III Wired Gaming Headset": 1794760450.4584036,
@@ -3874,7 +3874,6 @@
     "Crucial RAM 8GB×2 DDR4 2400MHz": 1794760460.6638489
   },
   "published_post_keys": [
-    "lodydeals:46026",
     "lodydeals:46030",
     "lodydeals:46031",
     "lodydeals:46032",
@@ -4873,11 +4872,12 @@
     "aniscoupons:35014",
     "aniscoupons:35015",
     "aniscoupons:35017",
-    "zedstoreonline:40264"
+    "zedstoreonline:40264",
+    "aniscoupons:35019"
   ],
   "last_disclaimer_time": 1794524540.9476151,
   "last_calendar_time": 1794572799.8939624,
-  "last_run_time": 1794768870.122373,
+  "last_run_time": 1794769054.4354663,
   "monitored_channels": {
     "ecksdeal": {
       "last_message_id": 6066,
@@ -4908,8 +4908,8 @@
       "last_check_time": 1794768872.1941442
     },
     "aniscoupons": {
-      "last_message_id": 35018,
-      "last_check_time": 1794768490.7203627
+      "last_message_id": 35019,
+      "last_check_time": 1794769056.4868495
     },
     "bnddeals": {
       "last_message_id": 51305,
@@ -5467,7 +5467,7 @@
     "1005009738356108": 17.2,
     "1005008636930795": 31.5,
     "1005013083645836": 304.4,
-    "1005008703989845": 74.5,
+    "1005008703989845": 44.2,
     "1005008060391372": 31.38,
     "1005012593794312": 241.5,
     "1005008357913212": 40.5,
@@ -26058,6 +26058,16 @@
       "price": 47.4,
       "timestamp": 1794768870.122373,
       "status": "ACTIVE"
+    },
+    "aniscoupons:35019": {
+      "channel_msg_id": 2871,
+      "product_id": "1005008703989845",
+      "title": "CUSU SSD 512GB 1TB 2.5 Inch SATA SATA3 2TB 4TB Hard Drive SSD 240GB 256GB",
+      "channel": "aniscoupons",
+      "source_msg_id": 35019,
+      "price": 44.2,
+      "timestamp": 1794769054.4354663,
+      "status": "ACTIVE"
     }
   },
   "schedule_config": {
@@ -26066,17 +26076,17 @@
     "current_interval_minutes": 5,
     "is_paused": false,
     "night_mode_enabled": true,
-    "last_deal_post_time": 1794768873.48793,
+    "last_deal_post_time": 1794769057.3509898,
     "night_start_hour_dz": 0,
     "night_end_hour_dz": 8,
     "night_pause_enabled": true,
-    "last_sweep_time": 1794768876.0477483,
+    "last_sweep_time": 1794769060.1664658,
     "last_sweep_times": {
-      "algeria": 1794768873.4592476,
-      "france": 1794768876.0477483
+      "algeria": 1794769057.3252172,
+      "france": 1794769060.1664658
     },
     "last_deal_post_times": {
-      "algeria": 1794768873.48793
+      "algeria": 1794769057.3509898
     }
   },
   "last_coin_reminder_time": 1794767542.171841,
@@ -31173,6 +31183,11 @@
         "channel": "aniscoupons",
         "ts": 1794748603.6317925,
         "price": 74.5
+      },
+      {
+        "channel": "aniscoupons",
+        "ts": 1794769052.2953691,
+        "price": 44.2
       }
     ],
     "1005008077424799": [
