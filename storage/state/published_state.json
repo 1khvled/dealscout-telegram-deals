@@ -1331,7 +1331,7 @@
     "1005009578274758": 1793542479.8362749,
     "1005010413332383": 1794479904.193408,
     "1005011550075220": 1793542531.6312253,
-    "1005009806856302": 1794684437.8923078,
+    "1005009806856302": 1794779736.0691626,
     "1005009980316035": 1793542552.2730343,
     "1005005905462505": 1794000865.9547298,
     "1005008248133489": 1794475825.54016,
@@ -3587,7 +3587,7 @@
     "Baseus Mouse Bluetooth Wireless Computer 1600DPI": 1793966716.198834,
     "Soundcore by Anker Q20i Hybrid Active Noise Cancelling Headphones Wireless": 1794658033.5242174,
     "Zeblaze GTS 3 Pro Voice Calling AMOLED": 1793966727.646043,
-    "GameSir X5 Lite Game Controller": 1794684437.8923078,
+    "GameSir X5 Lite Game Controller": 1794779736.0691626,
     "Netac SSD NVME M2 250GB": 1794747089.3988028,
     "Essager 20W GaN + cable": 1794598546.8080914,
     "Redmi Note 17 Pro Max": 1793966798.7696738,
@@ -3880,7 +3880,6 @@
     "SMAILWOLF L80": 1794779551.17435
   },
   "published_post_keys": [
-    "lodydeals:46039",
     "lodydeals:46040",
     "lodydeals:46042",
     "lodydeals:46044",
@@ -4879,11 +4878,12 @@
     "zedstoreonline:40266",
     "zedstoreonline:40267",
     "aniscoupons:35027",
-    "aniscoupons:35028"
+    "aniscoupons:35028",
+    "aniscoupons:35029"
   ],
   "last_disclaimer_time": 1794524540.9476151,
   "last_calendar_time": 1794572799.8939624,
-  "last_run_time": 1794779551.17435,
+  "last_run_time": 1794779736.0691626,
   "monitored_channels": {
     "ecksdeal": {
       "last_message_id": 6066,
@@ -4914,8 +4914,8 @@
       "last_check_time": 1794777056.825879
     },
     "aniscoupons": {
-      "last_message_id": 35028,
-      "last_check_time": 1794779553.2249813
+      "last_message_id": 35029,
+      "last_check_time": 1794779738.1518202
     },
     "bnddeals": {
       "last_message_id": 51307,
@@ -26145,6 +26145,16 @@
       "price": 22.3,
       "timestamp": 1794779551.17435,
       "status": "ACTIVE"
+    },
+    "aniscoupons:35029": {
+      "channel_msg_id": 2879,
+      "product_id": "1005009806856302",
+      "title": "GameSir X5 Lite Game Controller",
+      "channel": "aniscoupons",
+      "source_msg_id": 35029,
+      "price": 16.6,
+      "timestamp": 1794779736.0691626,
+      "status": "ACTIVE"
     }
   },
   "schedule_config": {
@@ -26153,17 +26163,17 @@
     "current_interval_minutes": 5,
     "is_paused": false,
     "night_mode_enabled": true,
-    "last_deal_post_time": 1794779554.0671625,
+    "last_deal_post_time": 1794779739.1811054,
     "night_start_hour_dz": 0,
     "night_end_hour_dz": 8,
     "night_pause_enabled": true,
-    "last_sweep_time": 1794779557.4860625,
+    "last_sweep_time": 1794779743.5282447,
     "last_sweep_times": {
-      "algeria": 1794779554.044656,
-      "france": 1794779557.4860625
+      "algeria": 1794779739.144914,
+      "france": 1794779743.5282447
     },
     "last_deal_post_times": {
-      "algeria": 1794779554.0671625
+      "algeria": 1794779739.1811054
     }
   },
   "last_coin_reminder_time": 1794767542.171841,
@@ -30642,21 +30652,9 @@
     ],
     "1005012624574517": [
       {
-        "channel": "aniscoupons",
-        "ts": 1794736348.6530306,
-        "price": 31.62
-      },
-      {
         "channel": "zedstoreonline",
         "ts": 1794737272.8612797,
         "price": 30.6
-      }
-    ],
-    "1005011583202464": [
-      {
-        "channel": "zedstoreonline",
-        "ts": 1794736519.0787888,
-        "price": 58.4
       }
     ],
     "1005007129557126": [
@@ -31200,6 +31198,13 @@
         "channel": "aniscoupons",
         "ts": 1794779548.5722003,
         "price": 22.3
+      }
+    ],
+    "1005009806856302": [
+      {
+        "channel": "aniscoupons",
+        "ts": 1794779733.3822737,
+        "price": 16.6
       }
     ]
   },
