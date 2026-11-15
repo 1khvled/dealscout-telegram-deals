@@ -1582,7 +1582,7 @@
     "1005006257950849": 1794420680.672656,
     "1005013391950901": 1794420685.287832,
     "1005007477084001": 1794420689.8352551,
-    "1005008774483451": 1794647061.6222503,
+    "1005008774483451": 1794735713.9376893,
     "1005012639349629": 1794579990.5893576,
     "1005010153422760": 1794487260.3295033,
     "1005012809141747": 1794661908.7439618,
@@ -1654,7 +1654,7 @@
     "1005008341428946": 1794676338.751973,
     "1005007173814545": 1794676695.2288063,
     "1005008077424799": 1794677244.3687112,
-    "1005011551333926": 1794677250.0438125,
+    "1005011551333926": 1794735719.2115917,
     "1005007336232520": 1794732848.3286283,
     "1005010043969798": 1794679093.780596,
     "1005010376374580": 1794679272.8106956,
@@ -3544,7 +3544,7 @@
     "CUSU SSD SATA3": 1793913777.3174822,
     "Haylou Solar NEO 2 Amoled": 1794693680.6924913,
     "HAYLOU S30 Wireless Bluetooth 5.4 Headphones": 1794313321.761044,
-    "HAYLOU Solar Ultra GPS": 1794647061.6222503,
+    "HAYLOU Solar Ultra GPS": 1794735713.9376893,
     "NOTHING Watch 3 Pro": 1794732079.8854833,
     "مشترك كهربائي ORICO PD25W – محطة شحن مكتبية تضم منفذي Type-C ومنفذي USB-A ومقبسين AC لشحن الأجهزة وت": 1793966711.2525856,
     "Baseus Mouse Bluetooth Wireless Computer 1600DPI": 1793966716.198834,
@@ -3811,7 +3811,7 @@
     "Picun G1 Casque Gaming Sans Fil": 1794676695.2288063,
     "Baseus GH02 Gaming Headphones": 1794735354.793842,
     "E-YOOSO X-39 USB Wired RGB Gaming Mouse": 1794677244.3687112,
-    "Ajazz AHW10 Head-mounted Wired Gaming": 1794677250.0438125,
+    "Ajazz AHW10 Head-mounted Wired Gaming": 1794735719.2115917,
     "AJAZZ AJ179 PRO PAW3395 Wireless Gaming Mouse with RGB Charging Base": 1794677812.6238942,
     "ميزان حرارة طبي رقمي صغير لقياس درجة حرارة الجسم": 1794679093.780596,
     "Tribit PocketGo Portable Bluetooth Speaker": 1794679272.8106956,
@@ -3830,8 +3830,6 @@
     "Backpack With Rod Holder": 1794732862.0085351
   },
   "published_post_keys": [
-    "aniscoupons:33501",
-    "aniscoupons:33502",
     "aniscoupons:33503",
     "aniscoupons:33506",
     "aniscoupons:33507",
@@ -4829,19 +4827,21 @@
     "aniscoupons:34957",
     "zedstoreonline:40214",
     "aniscoupons:34958",
-    "aniscoupons:34959"
+    "aniscoupons:34959",
+    "zedstoreonline:40216",
+    "aniscoupons:34960"
   ],
   "last_disclaimer_time": 1794524540.9476151,
   "last_calendar_time": 1794572799.8939624,
-  "last_run_time": 1794735354.793842,
+  "last_run_time": 1794735719.2115917,
   "monitored_channels": {
     "ecksdeal": {
       "last_message_id": 6065,
       "last_check_time": 1794694596.4618468
     },
     "lodydeals": {
-      "last_message_id": 46544,
-      "last_check_time": 1794735530.3225698
+      "last_message_id": 46545,
+      "last_check_time": 1794735707.4207332
     },
     "test_channel": {
       "last_message_id": 1793967703,
@@ -4860,12 +4860,12 @@
       "last_check_time": 1793599663.3444748
     },
     "zedstoreonline": {
-      "last_message_id": 40215,
-      "last_check_time": 1794735345.8340082
+      "last_message_id": 40216,
+      "last_check_time": 1794735716.0085056
     },
     "aniscoupons": {
-      "last_message_id": 34959,
-      "last_check_time": 1794735356.8743575
+      "last_message_id": 34960,
+      "last_check_time": 1794735721.2772481
     },
     "bnddeals": {
       "last_message_id": 51305,
@@ -25263,6 +25263,26 @@
       "price": 38.13,
       "timestamp": 1794735354.793842,
       "status": "ACTIVE"
+    },
+    "zedstoreonline:40216": {
+      "channel_msg_id": 2795,
+      "product_id": "1005008774483451",
+      "title": "HAYLOU Solar Ultra GPS",
+      "channel": "zedstoreonline",
+      "source_msg_id": 40216,
+      "price": 40.1,
+      "timestamp": 1794735713.9376893,
+      "status": "ACTIVE"
+    },
+    "aniscoupons:34960": {
+      "channel_msg_id": 2796,
+      "product_id": "1005011551333926",
+      "title": "Ajazz AHW10 Head-mounted Wired Gaming",
+      "channel": "aniscoupons",
+      "source_msg_id": 34960,
+      "price": 41.26,
+      "timestamp": 1794735719.2115917,
+      "status": "ACTIVE"
     }
   },
   "schedule_config": {
@@ -25271,17 +25291,17 @@
     "current_interval_minutes": 5,
     "is_paused": false,
     "night_mode_enabled": true,
-    "last_deal_post_time": 1794735357.7263515,
+    "last_deal_post_time": 1794735721.8639355,
     "night_start_hour_dz": 0,
     "night_end_hour_dz": 8,
     "night_pause_enabled": true,
-    "last_sweep_time": 1794735536.3682811,
+    "last_sweep_time": 1794735724.4282708,
     "last_sweep_times": {
-      "algeria": 1794735533.5475757,
-      "france": 1794735536.3682811
+      "algeria": 1794735721.8345706,
+      "france": 1794735724.4282708
     },
     "last_deal_post_times": {
-      "algeria": 1794735357.7263515
+      "algeria": 1794735721.8639355
     }
   },
   "last_coin_reminder_time": 1794533888.682542,
@@ -29827,6 +29847,20 @@
         "channel": "aniscoupons",
         "ts": 1794735352.834374,
         "price": 38.13
+      }
+    ],
+    "1005008774483451": [
+      {
+        "channel": "zedstoreonline",
+        "ts": 1794735711.8042166,
+        "price": 40.1
+      }
+    ],
+    "1005011551333926": [
+      {
+        "channel": "aniscoupons",
+        "ts": 1794735717.2966306,
+        "price": 41.26
       }
     ]
   },
