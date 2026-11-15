@@ -1111,7 +1111,7 @@
     "9998882360": 1792162360.6633363,
     "9998882475": 1793282475.663889,
     "9998882568": 1792162568.078144,
-    "1005010369693975": 1794729354.5283723,
+    "1005010369693975": 1794747479.8661685,
     "1005006442452857": 1792166326.0335298,
     "9998886462": 1792166462.200491,
     "1005009948598802": 1793500786.1935658,
@@ -1261,7 +1261,7 @@
     "1005005373032877": 1793600283.7397804,
     "1005007869955343": 1794730332.5562615,
     "1005012644570693": 1793441338.6619778,
-    "1005003949106838": 1794658038.8464694,
+    "1005003949106838": 1794747485.8676856,
     "1005012436082838": 1793733101.535615,
     "1005010716206374": 1793448715.1480892,
     "1005012864273120": 1793399494.1323898,
@@ -3080,7 +3080,7 @@
     "RYZEN 7 5700X": 1794492258.9957209,
     "Ⓜ BLACKVIEW WAVE 10C (4/32)": 1792160262.8028278,
     "Ⓜ  TCL 60 NXT PAPER 8/256📱": 1792160269.0502243,
-    "HAYLOU Mori Pro ANC": 1794674483.8506901,
+    "HAYLOU Mori Pro ANC": 1794747479.8661685,
     "HAYLOU S30 Wireless Bluetooth 5.4 Headphones 43dB Adaptive Noise": 1792166326.0335298,
     "HAYLOU Watch Faro Voice Calling Smart Watch": 1792360422.5608404,
     "Redmi Note 12 5G 4/128": 1793543770.1912897,
@@ -3656,7 +3656,7 @@
     "Lenovo LP40 Pro": 1794146830.4272797,
     "Ulanzi ST-06S Smartphone Mount Holder": 1794667301.7599618,
     "WAMRAM SATA SSD 480GB": 1794159522.2930505,
-    "Netac M.2 1TB 7400Mbs Gen 4": 1794658038.8464694,
+    "Netac M.2 1TB 7400Mbs Gen 4": 1794747485.8676856,
     "RYZEN 5 5600XT": 1794253893.3396604,
     "OnePlus Turbo 6V": 1794476009.5322104,
     "DJI Mic Mini2  2TX 1RX": 1794216974.0881407,
@@ -3860,8 +3860,6 @@
     "KOOTION SSD SATA3 128GB": 1794746294.8909137
   },
   "published_post_keys": [
-    "lodydeals:45986",
-    "lodydeals:45988",
     "lodydeals:45990",
     "lodydeals:45997",
     "lodydeals:45998",
@@ -4859,11 +4857,13 @@
     "aniscoupons:34992",
     "zedstoreonline:40235",
     "zedstoreonline:40237",
-    "zedstoreonline:40238"
+    "zedstoreonline:40238",
+    "zedstoreonline:40239",
+    "aniscoupons:34997"
   ],
   "last_disclaimer_time": 1794524540.9476151,
   "last_calendar_time": 1794572799.8939624,
-  "last_run_time": 1794747089.3988028,
+  "last_run_time": 1794747485.8676856,
   "monitored_channels": {
     "ecksdeal": {
       "last_message_id": 6066,
@@ -4890,12 +4890,12 @@
       "last_check_time": 1793599663.3444748
     },
     "zedstoreonline": {
-      "last_message_id": 40238,
-      "last_check_time": 1794747091.4670968
+      "last_message_id": 40239,
+      "last_check_time": 1794747481.9379408
     },
     "aniscoupons": {
-      "last_message_id": 34996,
-      "last_check_time": 1794747093.4728334
+      "last_message_id": 34997,
+      "last_check_time": 1794747487.9352984
     },
     "bnddeals": {
       "last_message_id": 51305,
@@ -25781,6 +25781,26 @@
       "price": 31.5,
       "timestamp": 1794747089.3988028,
       "status": "ACTIVE"
+    },
+    "zedstoreonline:40239": {
+      "channel_msg_id": 2843,
+      "product_id": "1005010369693975",
+      "title": "HAYLOU Mori Pro ANC",
+      "channel": "zedstoreonline",
+      "source_msg_id": 40239,
+      "price": 10.7,
+      "timestamp": 1794747479.8661685,
+      "status": "ACTIVE"
+    },
+    "aniscoupons:34997": {
+      "channel_msg_id": 2844,
+      "product_id": "1005003949106838",
+      "title": "Netac M.2 1TB 7400Mbs Gen 4",
+      "channel": "aniscoupons",
+      "source_msg_id": 34997,
+      "price": 114.99,
+      "timestamp": 1794747485.8676856,
+      "status": "ACTIVE"
     }
   },
   "schedule_config": {
@@ -25789,17 +25809,17 @@
     "current_interval_minutes": 5,
     "is_paused": false,
     "night_mode_enabled": true,
-    "last_deal_post_time": 1794747094.1177752,
+    "last_deal_post_time": 1794747488.8358836,
     "night_start_hour_dz": 0,
     "night_end_hour_dz": 8,
     "night_pause_enabled": true,
-    "last_sweep_time": 1794747097.079497,
+    "last_sweep_time": 1794747491.7109354,
     "last_sweep_times": {
-      "algeria": 1794747094.0938346,
-      "france": 1794747097.079497
+      "algeria": 1794747488.8052626,
+      "france": 1794747491.7109354
     },
     "last_deal_post_times": {
-      "algeria": 1794747094.1177752
+      "algeria": 1794747488.8358836
     }
   },
   "last_coin_reminder_time": 1794533888.682542,
@@ -26093,7 +26113,7 @@
     "9998882360": "test_channel",
     "9998882475": "test_channel",
     "9998882568": "test_channel",
-    "1005010369693975": "aniscoupons",
+    "1005010369693975": "zedstoreonline",
     "1005006442452857": "zedstoreonline",
     "9998886462": "test_channel",
     "1005012751475098": "couponsglobal",
@@ -30112,6 +30132,11 @@
         "channel": "zedstoreonline",
         "ts": 1794730149.0730076,
         "price": 10.7
+      },
+      {
+        "channel": "zedstoreonline",
+        "ts": 1794747476.6873522,
+        "price": 10.7
       }
     ],
     "1005012726037568": [
@@ -30741,6 +30766,13 @@
         "channel": "zedstoreonline",
         "ts": 1794747087.182579,
         "price": 31.5
+      }
+    ],
+    "1005003949106838": [
+      {
+        "channel": "aniscoupons",
+        "ts": 1794747483.8753927,
+        "price": 114.99
       }
     ]
   },
