@@ -1474,7 +1474,7 @@
     "1005010169268165": 1793794440.9453664,
     "1005010702038861": 1794658222.162282,
     "1005009313079431": 1794159522.2930505,
-    "1005010702511858": 1794668030.6727147,
+    "1005010702511858": 1794734226.1448493,
     "1005008554218453": 1793908979.1776278,
     "1005012499433797": 1794683885.7547128,
     "9998889309": 1793929309.3822134,
@@ -3793,7 +3793,7 @@
     "Ulanzi A100 Wireless Lavalier Mic": 1794664656.5838907,
     "سماعات لاسلكية Binnune BW06 Wireless": 1794666000.5453608,
     "DELUX M400 GAMING MOUSE": 1794666009.2783742,
-    "HyperX Cloud 2 II Wired Gaming Headset": 1794668030.6727147,
+    "HyperX Cloud 2 II Wired Gaming Headset": 1794734226.1448493,
     "Baseus Bass EP10 NC": 1794731908.1908314,
     "Kemei KM-679 Professional Hair Trimmer Electric Hair Clipper": 1794672105.0502174,
     "Kemei KM-6630 6631 6632 trimmer": 1794672468.775835,
@@ -3830,7 +3830,6 @@
     "Backpack With Rod Holder": 1794732862.0085351
   },
   "published_post_keys": [
-    "zedstoreonline:39186",
     "zedstoreonline:39187",
     "zedstoreonline:39188",
     "zedstoreonline:39190",
@@ -4829,19 +4828,20 @@
     "zedstoreonline:40210",
     "aniscoupons:34953",
     "zedstoreonline:40212",
-    "aniscoupons:34954"
+    "aniscoupons:34954",
+    "aniscoupons:34955"
   ],
   "last_disclaimer_time": 1794524540.9476151,
   "last_calendar_time": 1794572799.8939624,
-  "last_run_time": 1794734023.2272098,
+  "last_run_time": 1794734226.1448493,
   "monitored_channels": {
     "ecksdeal": {
       "last_message_id": 6065,
       "last_check_time": 1794694596.4618468
     },
     "lodydeals": {
-      "last_message_id": 46532,
-      "last_check_time": 1794733822.6746871
+      "last_message_id": 46534,
+      "last_check_time": 1794734218.3041098
     },
     "test_channel": {
       "last_message_id": 1793967703,
@@ -4860,12 +4860,12 @@
       "last_check_time": 1793599663.3444748
     },
     "zedstoreonline": {
-      "last_message_id": 40212,
-      "last_check_time": 1794734018.9414375
+      "last_message_id": 40213,
+      "last_check_time": 1794734221.4450123
     },
     "aniscoupons": {
-      "last_message_id": 34954,
-      "last_check_time": 1794734025.2908168
+      "last_message_id": 34955,
+      "last_check_time": 1794734228.2255292
     },
     "bnddeals": {
       "last_message_id": 51305,
@@ -25213,6 +25213,16 @@
       "price": 52.6,
       "timestamp": 1794734023.2272098,
       "status": "ACTIVE"
+    },
+    "aniscoupons:34955": {
+      "channel_msg_id": 2790,
+      "product_id": "1005010702511858",
+      "title": "HyperX Cloud 2 II Wired Gaming Headset",
+      "channel": "aniscoupons",
+      "source_msg_id": 34955,
+      "price": 59.8,
+      "timestamp": 1794734226.1448493,
+      "status": "ACTIVE"
     }
   },
   "schedule_config": {
@@ -25221,17 +25231,17 @@
     "current_interval_minutes": 5,
     "is_paused": false,
     "night_mode_enabled": true,
-    "last_deal_post_time": 1794734026.380185,
+    "last_deal_post_time": 1794734229.2465947,
     "night_start_hour_dz": 0,
     "night_end_hour_dz": 8,
     "night_pause_enabled": true,
-    "last_sweep_time": 1794734030.2259355,
+    "last_sweep_time": 1794734232.869343,
     "last_sweep_times": {
-      "algeria": 1794734026.3493376,
-      "france": 1794734030.2259355
+      "algeria": 1794734229.2113228,
+      "france": 1794734232.869343
     },
     "last_deal_post_times": {
-      "algeria": 1794734026.380185
+      "algeria": 1794734229.2465947
     }
   },
   "last_coin_reminder_time": 1794533888.682542,
@@ -27952,7 +27962,6 @@
   "published_deals_history": {},
   "settings": {},
   "handled_post_keys": [
-    "zedstoreonline:39629",
     "aniscoupons:34148",
     "aniscoupons:34150",
     "zedstoreonline:39632",
@@ -28951,7 +28960,8 @@
     "zedstoreonline:40209",
     "aniscoupons:34951",
     "aniscoupons:34952",
-    "zedstoreonline:40211"
+    "zedstoreonline:40211",
+    "zedstoreonline:40213"
   ],
   "last_france_cross_promo_time": 1794553348.8480208,
   "next_france_cross_promo_interval_seconds": 334302,
@@ -29735,6 +29745,13 @@
         "channel": "aniscoupons",
         "ts": 1794734020.783206,
         "price": 52.6
+      }
+    ],
+    "1005010702511858": [
+      {
+        "channel": "aniscoupons",
+        "ts": 1794734223.5082796,
+        "price": 59.8
       }
     ]
   },
