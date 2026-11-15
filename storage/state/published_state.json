@@ -832,7 +832,8 @@
     "1005006995973090",
     "1005006727646540",
     "1005012965284882",
-    "1005004886782975"
+    "1005004886782975",
+    "1005013168050663"
   ],
   "published_product_timestamps": {
     "1005012973772517": 1794500732.7845657,
@@ -1680,7 +1681,8 @@
     "1005006995973090": 1794741980.2334778,
     "1005006727646540": 1794741987.1669734,
     "1005012965284882": 1794742028.7342756,
-    "1005004886782975": 1794755267.1243844
+    "1005004886782975": 1794755267.1243844,
+    "1005013168050663": 1794759633.8642445
   },
   "published_titles": [
     "Wireless WiFi Repeater 300Mbps WiFi Extender Amplifier Booster Router",
@@ -2769,7 +2771,8 @@
     "FENVI WiFi Adapter 1300Mbps",
     "KOOTION SSD SATA3 128GB",
     "UnionSine External HDD 2TB",
-    "HONOR WIN RT 12/256GB"
+    "HONOR WIN RT 12/256GB",
+    "INFLATABLE LAZY AIR SOFA"
   ],
   "published_title_timestamps": {
     "Xiaomi Redmi Note 17 5G Global Version": 1790857823.0117362,
@@ -3863,10 +3866,10 @@
     "FENVI WiFi Adapter 1300Mbps": 1794741987.1669734,
     "KOOTION SSD SATA3 128GB": 1794746294.8909137,
     "UnionSine External HDD 2TB": 1794755267.1243844,
-    "HONOR WIN RT 12/256GB": 1794759250.0371616
+    "HONOR WIN RT 12/256GB": 1794759250.0371616,
+    "INFLATABLE LAZY AIR SOFA": 1794759633.8642445
   },
   "published_post_keys": [
-    "lodydeals:46013",
     "lodydeals:46014",
     "lodydeals:46015",
     "lodydeals:46016",
@@ -4865,11 +4868,12 @@
     "lodydeals:46562",
     "aniscoupons:35006",
     "zedstoreonline:40255",
-    "aniscoupons:35009"
+    "aniscoupons:35009",
+    "aniscoupons:35010"
   ],
   "last_disclaimer_time": 1794524540.9476151,
   "last_calendar_time": 1794572799.8939624,
-  "last_run_time": 1794759250.0371616,
+  "last_run_time": 1794759633.8642445,
   "monitored_channels": {
     "ecksdeal": {
       "last_message_id": 6066,
@@ -4896,12 +4900,12 @@
       "last_check_time": 1793599663.3444748
     },
     "zedstoreonline": {
-      "last_message_id": 40256,
-      "last_check_time": 1794758856.178644
+      "last_message_id": 40257,
+      "last_check_time": 1794759630.0803647
     },
     "aniscoupons": {
-      "last_message_id": 35009,
-      "last_check_time": 1794759252.120356
+      "last_message_id": 35010,
+      "last_check_time": 1794759635.9350073
     },
     "bnddeals": {
       "last_message_id": 51305,
@@ -5633,7 +5637,8 @@
     "1005006995973090": 3.09,
     "1005006727646540": 5.69,
     "1005012965284882": 18.03,
-    "1005004886782975": 64.14
+    "1005004886782975": 64.14,
+    "1005013168050663": 9.4
   },
   "channel_published_deals": {
     "aniscoupons:32590": {
@@ -25958,6 +25963,16 @@
       "price": 405.99,
       "timestamp": 1794759250.0371616,
       "status": "ACTIVE"
+    },
+    "aniscoupons:35010": {
+      "channel_msg_id": 2861,
+      "product_id": "1005013168050663",
+      "title": "INFLATABLE LAZY AIR SOFA",
+      "channel": "aniscoupons",
+      "source_msg_id": 35010,
+      "price": 9.4,
+      "timestamp": 1794759633.8642445,
+      "status": "ACTIVE"
     }
   },
   "schedule_config": {
@@ -25966,17 +25981,17 @@
     "current_interval_minutes": 5,
     "is_paused": false,
     "night_mode_enabled": true,
-    "last_deal_post_time": 1794759253.1790814,
+    "last_deal_post_time": 1794759636.8457003,
     "night_start_hour_dz": 0,
     "night_end_hour_dz": 8,
     "night_pause_enabled": true,
-    "last_sweep_time": 1794759256.5347838,
+    "last_sweep_time": 1794759639.8205733,
     "last_sweep_times": {
-      "algeria": 1794759253.1426883,
-      "france": 1794759256.5347838
+      "algeria": 1794759636.8041847,
+      "france": 1794759639.8205733
     },
     "last_deal_post_times": {
-      "algeria": 1794759253.1790814
+      "algeria": 1794759636.8457003
     }
   },
   "last_coin_reminder_time": 1794533888.682542,
@@ -26822,7 +26837,8 @@
     "1005006995973090": "lodydeals",
     "1005006727646540": "lodydeals",
     "1005012965284882": "ecksdeal",
-    "1005004886782975": "lodydeals"
+    "1005004886782975": "lodydeals",
+    "1005013168050663": "aniscoupons"
   },
   "published_title_channels": {
     "Test Wrench Set": "test_channel",
@@ -27918,7 +27934,8 @@
     "FENVI WiFi Adapter 1300Mbps": "lodydeals",
     "KOOTION SSD SATA3 128GB": "lodydeals",
     "UnionSine External HDD 2TB": "lodydeals",
-    "HONOR WIN RT 12/256GB": "aniscoupons"
+    "HONOR WIN RT 12/256GB": "aniscoupons",
+    "INFLATABLE LAZY AIR SOFA": "aniscoupons"
   },
   "religious_reminders_history": {
     "mock_rem": "2026-10-02",
@@ -28715,7 +28732,6 @@
   "published_deals_history": {},
   "settings": {},
   "handled_post_keys": [
-    "aniscoupons:34192",
     "aniscoupons:34193",
     "bnddeals:51205",
     "bnddeals:51206",
@@ -29714,7 +29730,8 @@
     "aniscoupons:35008",
     "zedstoreonline:40254",
     "lodydeals:46565",
-    "zedstoreonline:40256"
+    "zedstoreonline:40256",
+    "zedstoreonline:40257"
   ],
   "last_france_cross_promo_time": 1794553348.8480208,
   "next_france_cross_promo_interval_seconds": 334302,
@@ -30358,6 +30375,11 @@
         "channel": "lodydeals",
         "ts": 1794730323.4429939,
         "price": 30.05
+      },
+      {
+        "channel": "zedstoreonline",
+        "ts": 1794759629.5283291,
+        "price": 30.0
       }
     ],
     "1005007869955343": [
