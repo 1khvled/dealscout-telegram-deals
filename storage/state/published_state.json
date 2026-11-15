@@ -1516,7 +1516,7 @@
     "1005006411483066": 1794500381.7712336,
     "1005012925301774": 1794348808.2825344,
     "1005012959738411": 1794658966.3702009,
-    "1005008357913212": 1794736341.444561,
+    "1005008357913212": 1794768123.609011,
     "1005008703989845": 1794748608.0872164,
     "1005007162099601": 1794524556.2538168,
     "1005007038130594": 1794393500.1320646,
@@ -3591,7 +3591,7 @@
     "Fifine Gaming Headset H9W": 1794566561.968837,
     "Fifine Gaming Headset H6": 1794424534.1435025,
     "HyperX Cloud 3 III Wired Gaming Headset": 1794760450.4584036,
-    "KOOTION SSD SATA": 1794659521.4318178,
+    "KOOTION SSD SATA": 1794768123.609011,
     "ال mouse  الشهيرة رجعت🖱️": 1793966875.5755405,
     "هذون سماعات جدد من   HAYLOU⌚": 1793966887.3818936,
     "HAYLOU WATCH 3 NEW": 1793966892.2256048,
@@ -3874,7 +3874,6 @@
     "Crucial RAM 8GB×2 DDR4 2400MHz": 1794760460.6638489
   },
   "published_post_keys": [
-    "lodydeals:46024",
     "lodydeals:46025",
     "lodydeals:46026",
     "lodydeals:46030",
@@ -4873,11 +4872,12 @@
     "zedstoreonline:40261",
     "aniscoupons:35013",
     "aniscoupons:35014",
-    "aniscoupons:35015"
+    "aniscoupons:35015",
+    "aniscoupons:35017"
   ],
   "last_disclaimer_time": 1794524540.9476151,
   "last_calendar_time": 1794572799.8939624,
-  "last_run_time": 1794763355.5431085,
+  "last_run_time": 1794768123.609011,
   "monitored_channels": {
     "ecksdeal": {
       "last_message_id": 6066,
@@ -4908,8 +4908,8 @@
       "last_check_time": 1794763919.6372187
     },
     "aniscoupons": {
-      "last_message_id": 35016,
-      "last_check_time": 1794765284.246771
+      "last_message_id": 35017,
+      "last_check_time": 1794768125.6917405
     },
     "bnddeals": {
       "last_message_id": 51305,
@@ -5470,7 +5470,7 @@
     "1005008703989845": 74.5,
     "1005008060391372": 31.38,
     "1005012593794312": 241.5,
-    "1005008357913212": 40.4,
+    "1005008357913212": 40.5,
     "1005012254132930": 14.5,
     "1005008708333999": 136.7,
     "1005013028124905": 438.6,
@@ -26038,6 +26038,16 @@
       "price": 7.47,
       "timestamp": 1794763355.5431085,
       "status": "ACTIVE"
+    },
+    "aniscoupons:35017": {
+      "channel_msg_id": 2869,
+      "product_id": "1005008357913212",
+      "title": "KOOTION SSD SATA",
+      "channel": "aniscoupons",
+      "source_msg_id": 35017,
+      "price": 40.5,
+      "timestamp": 1794768123.609011,
+      "status": "ACTIVE"
     }
   },
   "schedule_config": {
@@ -26046,17 +26056,17 @@
     "current_interval_minutes": 5,
     "is_paused": false,
     "night_mode_enabled": true,
-    "last_deal_post_time": 1794763358.6328785,
+    "last_deal_post_time": 1794768126.6847847,
     "night_start_hour_dz": 0,
     "night_end_hour_dz": 8,
     "night_pause_enabled": true,
-    "last_sweep_time": 1794767940.0945976,
+    "last_sweep_time": 1794768129.8443534,
     "last_sweep_times": {
-      "algeria": 1794767937.7438388,
-      "france": 1794767940.0945976
+      "algeria": 1794768126.6481435,
+      "france": 1794768129.8443534
     },
     "last_deal_post_times": {
-      "algeria": 1794763358.6328785
+      "algeria": 1794768126.6847847
     }
   },
   "last_coin_reminder_time": 1794767542.171841,
@@ -26738,7 +26748,7 @@
     "1005006411483066": "lodydeals",
     "1005012925301774": "zedstoreonline",
     "1005012959738411": "aniscoupons",
-    "1005008357913212": "zedstoreonline",
+    "1005008357913212": "aniscoupons",
     "1005008703989845": "aniscoupons",
     "1005007162099601": "lodydeals",
     "1005007038130594": "lodydeals",
@@ -30745,6 +30755,11 @@
         "channel": "zedstoreonline",
         "ts": 1794736339.3634665,
         "price": 40.4
+      },
+      {
+        "channel": "aniscoupons",
+        "ts": 1794768121.218348,
+        "price": 40.5
       }
     ],
     "1005012624574517": [
