@@ -4890,8 +4890,8 @@
       "last_check_time": 1793599663.3444748
     },
     "zedstoreonline": {
-      "last_message_id": 40248,
-      "last_check_time": 1794753511.3287323
+      "last_message_id": 40249,
+      "last_check_time": 1794753685.1068258
     },
     "aniscoupons": {
       "last_message_id": 35003,
@@ -25903,10 +25903,10 @@
     "night_start_hour_dz": 0,
     "night_end_hour_dz": 8,
     "night_pause_enabled": true,
-    "last_sweep_time": 1794753517.0132787,
+    "last_sweep_time": 1794753689.6798685,
     "last_sweep_times": {
-      "algeria": 1794753513.1398144,
-      "france": 1794753517.0132787
+      "algeria": 1794753686.822893,
+      "france": 1794753689.6798685
     },
     "last_deal_post_times": {
       "algeria": 1794753513.1755714
@@ -28639,13 +28639,12 @@
     "LAUNCH_ALERT_11.11 Global Shopping Festival Main Sale 2026_20261111",
     "END_ALERT_Brand Day Novembre 2026_20261113"
   ],
-  "last_card_affiliate_time_dz": 1794667094.554876,
-  "card_affiliate_variant_idx_dz": 1,
+  "last_card_affiliate_time_dz": 1794753676.2786255,
+  "card_affiliate_variant_idx_dz": 2,
   "last_tajmi3at_published_time": 1793910650.2404215,
   "published_deals_history": {},
   "settings": {},
   "handled_post_keys": [
-    "bnddeals:51202",
     "aniscoupons:34180",
     "aniscoupons:34181",
     "bnddeals:51203",
@@ -29644,7 +29643,8 @@
     "aniscoupons:35002",
     "aniscoupons:35003",
     "lodydeals:46558",
-    "lodydeals:46559"
+    "lodydeals:46559",
+    "zedstoreonline:40249"
   ],
   "last_france_cross_promo_time": 1794553348.8480208,
   "next_france_cross_promo_interval_seconds": 334302,
@@ -30871,6 +30871,11 @@
       {
         "channel": "zedstoreonline",
         "ts": 1794746684.8930166,
+        "price": 18.1
+      },
+      {
+        "channel": "zedstoreonline",
+        "ts": 1794753684.9484718,
         "price": 18.1
       }
     ],
