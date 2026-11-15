@@ -1324,7 +1324,7 @@
     "1005005905462505": 1794000865.9547298,
     "1005008248133489": 1794475825.54016,
     "1005008684239370": 1794731121.904425,
-    "1005011583202464": 1794578866.6273274,
+    "1005011583202464": 1794736521.2330287,
     "1005009921069024": 1793542597.6187797,
     "1005009916209766": 1794167239.3538153,
     "1005012537594921": 1793542611.8880281,
@@ -3733,7 +3733,7 @@
     "12V CORDLESS ELECTRIC DRILL": 1794470859.4033997,
     "FORSINING MECHANICAL SKELETON WATCH": 1794471412.477501,
     "ميزان رقمي محمول لحقائب السفر": 1794472329.794574,
-    "ميكروفون لاسلكي احترافي MAONO PD100W بمدى 50 متر مع تقليل": 1794578866.6273274,
+    "ميكروفون لاسلكي احترافي MAONO PD100W بمدى 50 متر مع تقليل": 1794736521.2330287,
     "MAONO T1 Mini 2TX 1RX": 1794475809.562155,
     "FIFINE M9 Wireless Lavalier": 1794475814.3090613,
     "ADATA DDR4 16GB 2400MHz": 1794475830.5998907,
@@ -3830,7 +3830,6 @@
     "Backpack With Rod Holder": 1794732862.0085351
   },
   "published_post_keys": [
-    "aniscoupons:33507",
     "aniscoupons:33508",
     "aniscoupons:33510",
     "lodydeals:45920",
@@ -4829,11 +4828,12 @@
     "zedstoreonline:40216",
     "aniscoupons:34960",
     "zedstoreonline:40218",
-    "aniscoupons:34962"
+    "aniscoupons:34962",
+    "zedstoreonline:40219"
   ],
   "last_disclaimer_time": 1794524540.9476151,
   "last_calendar_time": 1794572799.8939624,
-  "last_run_time": 1794736350.4409838,
+  "last_run_time": 1794736521.2330287,
   "monitored_channels": {
     "ecksdeal": {
       "last_message_id": 6065,
@@ -4860,12 +4860,12 @@
       "last_check_time": 1793599663.3444748
     },
     "zedstoreonline": {
-      "last_message_id": 40218,
-      "last_check_time": 1794736343.507096
+      "last_message_id": 40219,
+      "last_check_time": 1794736523.3035693
     },
     "aniscoupons": {
-      "last_message_id": 34962,
-      "last_check_time": 1794736352.4989262
+      "last_message_id": 34963,
+      "last_check_time": 1794736524.0307608
     },
     "bnddeals": {
       "last_message_id": 51305,
@@ -25303,6 +25303,16 @@
       "price": 31.62,
       "timestamp": 1794736350.4409838,
       "status": "ACTIVE"
+    },
+    "zedstoreonline:40219": {
+      "channel_msg_id": 2799,
+      "product_id": "1005011583202464",
+      "title": "ميكروفون لاسلكي احترافي MAONO PD100W بمدى 50 متر مع تقليل",
+      "channel": "zedstoreonline",
+      "source_msg_id": 40219,
+      "price": 58.4,
+      "timestamp": 1794736521.2330287,
+      "status": "ACTIVE"
     }
   },
   "schedule_config": {
@@ -25311,17 +25321,17 @@
     "current_interval_minutes": 5,
     "is_paused": false,
     "night_mode_enabled": true,
-    "last_deal_post_time": 1794736353.279613,
+    "last_deal_post_time": 1794736524.6270046,
     "night_start_hour_dz": 0,
     "night_end_hour_dz": 8,
     "night_pause_enabled": true,
-    "last_sweep_time": 1794736355.716953,
+    "last_sweep_time": 1794736527.2767732,
     "last_sweep_times": {
-      "algeria": 1794736353.254192,
-      "france": 1794736355.716953
+      "algeria": 1794736524.5991871,
+      "france": 1794736527.2767732
     },
     "last_deal_post_times": {
-      "algeria": 1794736353.279613
+      "algeria": 1794736524.6270046
     }
   },
   "last_coin_reminder_time": 1794533888.682542,
@@ -28042,7 +28052,6 @@
   "published_deals_history": {},
   "settings": {},
   "handled_post_keys": [
-    "aniscoupons:34152",
     "aniscoupons:34153",
     "aniscoupons:34154",
     "zedstoreonline:39634",
@@ -29041,7 +29050,8 @@
     "aniscoupons:34956",
     "zedstoreonline:40215",
     "zedstoreonline:40217",
-    "aniscoupons:34961"
+    "aniscoupons:34961",
+    "aniscoupons:34963"
   ],
   "last_france_cross_promo_time": 1794553348.8480208,
   "next_france_cross_promo_interval_seconds": 334302,
@@ -29641,11 +29651,6 @@
     "1005012285327063": [
       {
         "channel": "aniscoupons",
-        "ts": 1794693313.0142536,
-        "price": 12.11
-      },
-      {
-        "channel": "aniscoupons",
         "ts": 1794730336.4288194,
         "price": 12.11
       }
@@ -29897,6 +29902,13 @@
         "channel": "aniscoupons",
         "ts": 1794736348.6530306,
         "price": 31.62
+      }
+    ],
+    "1005011583202464": [
+      {
+        "channel": "zedstoreonline",
+        "ts": 1794736519.0787888,
+        "price": 58.4
       }
     ]
   },
