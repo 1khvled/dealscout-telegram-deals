@@ -1480,7 +1480,7 @@
     "1005012150344482": 1794693680.6924913,
     "1005006972551834": 1793793774.6743867,
     "1005010169268165": 1793794440.9453664,
-    "1005010702038861": 1794658222.162282,
+    "1005010702038861": 1794746687.3818107,
     "1005009313079431": 1794159522.2930505,
     "1005010702511858": 1794734226.1448493,
     "1005008554218453": 1793908979.1776278,
@@ -3613,7 +3613,7 @@
     "Hollyland LARK M2 DUO 2-Person": 1794658966.3702009,
     "[New Launch] realme C100d 4G Smartphone 8000mAh Battery 45W Charge 50MP AI": 1794647085.3020031,
     "Zeblaze Btalk 4 Pro السعر : 17.06": 1794043557.929627,
-    "HyperX Cloud Earbuds II 2 Gaming Earphone": 1794658222.162282,
+    "HyperX Cloud Earbuds II 2 Gaming Earphone": 1794746687.3818107,
     "Essager 30W Car Charger": 1794393500.1320646,
     "KOOTION SSD SATA  240GB": 1794051434.2488248,
     "Xiaomi Redmi Note 17 Pro 5G Global Version": 1794060065.5449874,
@@ -3860,7 +3860,6 @@
     "KOOTION SSD SATA3 128GB": 1794746294.8909137
   },
   "published_post_keys": [
-    "lodydeals:45983",
     "lodydeals:45984",
     "lodydeals:45985",
     "lodydeals:45986",
@@ -4859,11 +4858,12 @@
     "aniscoupons:34989",
     "aniscoupons:34990",
     "aniscoupons:34991",
-    "aniscoupons:34992"
+    "aniscoupons:34992",
+    "zedstoreonline:40235"
   ],
   "last_disclaimer_time": 1794524540.9476151,
   "last_calendar_time": 1794572799.8939624,
-  "last_run_time": 1794746364.5298474,
+  "last_run_time": 1794746687.3818107,
   "monitored_channels": {
     "ecksdeal": {
       "last_message_id": 6066,
@@ -4890,8 +4890,8 @@
       "last_check_time": 1793599663.3444748
     },
     "zedstoreonline": {
-      "last_message_id": 40234,
-      "last_check_time": 1794746314.9115179
+      "last_message_id": 40235,
+      "last_check_time": 1794746689.4564397
     },
     "aniscoupons": {
       "last_message_id": 34995,
@@ -25751,6 +25751,16 @@
       "price": 41.77,
       "timestamp": 1794746364.5298474,
       "status": "ACTIVE"
+    },
+    "zedstoreonline:40235": {
+      "channel_msg_id": 2840,
+      "product_id": "1005010702038861",
+      "title": "HyperX Cloud Earbuds II 2 Gaming Earphone",
+      "channel": "zedstoreonline",
+      "source_msg_id": 40235,
+      "price": 18.1,
+      "timestamp": 1794746687.3818107,
+      "status": "ACTIVE"
     }
   },
   "schedule_config": {
@@ -25759,17 +25769,17 @@
     "current_interval_minutes": 5,
     "is_paused": false,
     "night_mode_enabled": true,
-    "last_deal_post_time": 1794746370.4114912,
+    "last_deal_post_time": 1794746690.8190556,
     "night_start_hour_dz": 0,
     "night_end_hour_dz": 8,
     "night_pause_enabled": true,
-    "last_sweep_time": 1794746373.6086426,
+    "last_sweep_time": 1794746694.4521954,
     "last_sweep_times": {
-      "algeria": 1794746370.3718817,
-      "france": 1794746373.6086426
+      "algeria": 1794746690.7876294,
+      "france": 1794746694.4521954
     },
     "last_deal_post_times": {
-      "algeria": 1794746370.4114912
+      "algeria": 1794746690.8190556
     }
   },
   "last_coin_reminder_time": 1794533888.682542,
@@ -30680,6 +30690,13 @@
         "channel": "aniscoupons",
         "ts": 1794746362.5869007,
         "price": 41.77
+      }
+    ],
+    "1005010702038861": [
+      {
+        "channel": "zedstoreonline",
+        "ts": 1794746684.8930166,
+        "price": 18.1
       }
     ]
   },
