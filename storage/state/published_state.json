@@ -822,7 +822,8 @@
     "1005010239860751",
     "1005009278862695",
     "1005013005786079",
-    "1005008627811107"
+    "1005008627811107",
+    "1005012892577195"
   ],
   "published_product_timestamps": {
     "1005012973772517": 1794500732.7845657,
@@ -1199,7 +1200,7 @@
     "1005010207075594": 1793299454.8390412,
     "1005013351519067": 1793448628.3734028,
     "1005012484784752": 1794660067.2240539,
-    "1005013222140851": 1793467234.8425448,
+    "1005013222140851": 1794732855.3959744,
     "1005013438245033": 1794647075.3250775,
     "1005008986635164": 1793314892.9200466,
     "1005008327980403": 1794430852.2821708,
@@ -1654,13 +1655,14 @@
     "1005007173814545": 1794676695.2288063,
     "1005008077424799": 1794677244.3687112,
     "1005011551333926": 1794677250.0438125,
-    "1005007336232520": 1794677812.6238942,
+    "1005007336232520": 1794732848.3286283,
     "1005010043969798": 1794679093.780596,
     "1005010376374580": 1794679272.8106956,
     "1005010239860751": 1794689616.7178488,
     "1005009278862695": 1794687391.0146728,
     "1005013005786079": 1794688878.915808,
-    "1005008627811107": 1794694594.377669
+    "1005008627811107": 1794694594.377669,
+    "1005012892577195": 1794732862.0085351
   },
   "published_titles": [
     "Wireless WiFi Repeater 300Mbps WiFi Extender Amplifier Booster Router",
@@ -2738,7 +2740,9 @@
     "Anker Soundcore P30i ANC",
     "Anker 735 GaN 3 Port 65W",
     "سماعات الاذن  TANGZU WAN'ER S.G 2 IEM",
-    "Kootion X15 M.2 SSD 256GB"
+    "Kootion X15 M.2 SSD 256GB",
+    "Ajazz  AJ179 V2 PAW3311",
+    "Backpack With Rod Holder"
   ],
   "published_title_timestamps": {
     "Xiaomi Redmi Note 17 5G Global Version": 1790857823.0117362,
@@ -3192,7 +3196,7 @@
     "ONEPLUS ACE6 ULTRA (12/256)": 1793448862.466345,
     "ONEPLUS ACE 6T (12/256)": 1793380546.8905725,
     "AMD Ryzen 7 7700": 1794488939.6119785,
-    "ASROCK B550 PHANTOM": 1793384181.0587313,
+    "ASROCK B550 PHANTOM": 1794732855.3959744,
     "MSI PRO B850-P WIFI": 1793543567.486626,
     "MSI X670E GAMING PLUS WIFI": 1793384191.3385255,
     "MSI PRO X870E-P WIFI AM5": 1793384195.9014845,
@@ -3821,12 +3825,11 @@
     "Anker Soundcore P30i ANC": 1794689795.6476634,
     "Anker 735 GaN 3 Port 65W": 1794689990.1332982,
     "سماعات الاذن  TANGZU WAN'ER S.G 2 IEM": 1794694594.377669,
-    "Kootion X15 M.2 SSD 256GB": 1794730325.60486
+    "Kootion X15 M.2 SSD 256GB": 1794730325.60486,
+    "Ajazz  AJ179 V2 PAW3311": 1794732848.3286283,
+    "Backpack With Rod Holder": 1794732862.0085351
   },
   "published_post_keys": [
-    "zedstoreonline:39173",
-    "zedstoreonline:39174",
-    "zedstoreonline:39176",
     "zedstoreonline:39178",
     "zedstoreonline:39179",
     "zedstoreonline:39183",
@@ -4823,11 +4826,14 @@
     "aniscoupons:34948",
     "zedstoreonline:40208",
     "aniscoupons:34949",
-    "aniscoupons:34950"
+    "aniscoupons:34950",
+    "lodydeals:46524",
+    "lodydeals:46525",
+    "lodydeals:46526"
   ],
   "last_disclaimer_time": 1794524540.9476151,
   "last_calendar_time": 1794572799.8939624,
-  "last_run_time": 1794732682.1134222,
+  "last_run_time": 1794732862.0085351,
   "monitored_channels": {
     "ecksdeal": {
       "last_message_id": 6065,
@@ -4835,7 +4841,7 @@
     },
     "lodydeals": {
       "last_message_id": 46528,
-      "last_check_time": 1794732661.8104346
+      "last_check_time": 1794732864.1552534
     },
     "test_channel": {
       "last_message_id": 1793967703,
@@ -5153,7 +5159,7 @@
     "1005010207075594": 424.0,
     "1005013351519067": 202.9,
     "1005012484784752": 98.7,
-    "1005013222140851": 71.12,
+    "1005013222140851": 74.53,
     "1005010355409000": 494.2,
     "1005013438245033": 409.36,
     "1005008986635164": 185.9,
@@ -5575,13 +5581,14 @@
     "1005007173814545": 34.9,
     "1005008077424799": 19.5,
     "1005011551333926": 41.26,
-    "1005007336232520": 20.9,
+    "1005007336232520": 20.8,
     "1005010043969798": 2.4,
     "1005010376374580": 20.4,
     "1005010239860751": 4.8,
     "1005009278862695": 35.55,
     "1005013005786079": 16.29,
-    "1005008627811107": 10.5
+    "1005008627811107": 10.5,
+    "1005012892577195": 16.27
   },
   "channel_published_deals": {
     "aniscoupons:32590": {
@@ -25136,6 +25143,36 @@
       "price": 66.7,
       "timestamp": 1794732682.1134222,
       "status": "ACTIVE"
+    },
+    "lodydeals:46524": {
+      "channel_msg_id": 2783,
+      "product_id": "1005007336232520",
+      "title": "Ajazz  AJ179 V2 PAW3311",
+      "channel": "lodydeals",
+      "source_msg_id": 46524,
+      "price": 20.8,
+      "timestamp": 1794732848.3286283,
+      "status": "ACTIVE"
+    },
+    "lodydeals:46525": {
+      "channel_msg_id": 2784,
+      "product_id": "1005013222140851",
+      "title": "ASROCK B550 PHANTOM",
+      "channel": "lodydeals",
+      "source_msg_id": 46525,
+      "price": 74.53,
+      "timestamp": 1794732855.3959744,
+      "status": "ACTIVE"
+    },
+    "lodydeals:46526": {
+      "channel_msg_id": 2785,
+      "product_id": "1005012892577195",
+      "title": "Backpack With Rod Holder",
+      "channel": "lodydeals",
+      "source_msg_id": 46526,
+      "price": 16.27,
+      "timestamp": 1794732862.0085351,
+      "status": "ACTIVE"
     }
   },
   "schedule_config": {
@@ -25144,17 +25181,17 @@
     "current_interval_minutes": 5,
     "is_paused": false,
     "night_mode_enabled": true,
-    "last_deal_post_time": 1794732685.2441618,
+    "last_deal_post_time": 1794732868.005923,
     "night_start_hour_dz": 0,
     "night_end_hour_dz": 8,
     "night_pause_enabled": true,
-    "last_sweep_time": 1794732688.7145772,
+    "last_sweep_time": 1794732871.2740936,
     "last_sweep_times": {
-      "algeria": 1794732685.2155712,
-      "france": 1794732688.7145772
+      "algeria": 1794732867.9727516,
+      "france": 1794732871.2740936
     },
     "last_deal_post_times": {
-      "algeria": 1794732685.2441618
+      "algeria": 1794732868.005923
     }
   },
   "last_coin_reminder_time": 1794533888.682542,
@@ -25542,7 +25579,7 @@
     "1005010207075594": "aniscoupons",
     "1005013351519067": "aniscoupons",
     "1005012484784752": "zedstoreonline",
-    "1005013222140851": "bnddeals",
+    "1005013222140851": "lodydeals",
     "1005010355409000": "aniscoupons",
     "1005013438245033": "aniscoupons",
     "1005008986635164": "aniscoupons",
@@ -25984,13 +26021,14 @@
     "1005007173814545": "zedstoreonline",
     "1005008077424799": "zedstoreonline",
     "1005011551333926": "aniscoupons",
-    "1005007336232520": "aniscoupons",
+    "1005007336232520": "lodydeals",
     "1005010043969798": "zedstoreonline",
     "1005010376374580": "zedstoreonline",
     "1005010239860751": "zedstoreonline",
     "1005009278862695": "lodydeals",
     "1005013005786079": "aniscoupons",
-    "1005008627811107": "ecksdeal"
+    "1005008627811107": "ecksdeal",
+    "1005012892577195": "lodydeals"
   },
   "published_title_channels": {
     "Test Wrench Set": "test_channel",
@@ -27075,7 +27113,9 @@
     "Anker Soundcore P30i ANC": "lodydeals",
     "Anker 735 GaN 3 Port 65W": "lodydeals",
     "سماعات الاذن  TANGZU WAN'ER S.G 2 IEM": "ecksdeal",
-    "Kootion X15 M.2 SSD 256GB": "lodydeals"
+    "Kootion X15 M.2 SSD 256GB": "lodydeals",
+    "Ajazz  AJ179 V2 PAW3311": "lodydeals",
+    "Backpack With Rod Holder": "lodydeals"
   },
   "religious_reminders_history": {
     "mock_rem": "2026-10-02",
@@ -27872,9 +27912,6 @@
   "published_deals_history": {},
   "settings": {},
   "handled_post_keys": [
-    "lodydeals:46189",
-    "zedstoreonline:39626",
-    "aniscoupons:34145",
     "lodydeals:46190",
     "aniscoupons:34146",
     "zedstoreonline:39628",
@@ -28871,7 +28908,10 @@
     "aniscoupons:34945",
     "aniscoupons:34947",
     "bnddeals:51305",
-    "zedstoreonline:40207"
+    "zedstoreonline:40207",
+    "lodydeals:46523",
+    "lodydeals:46527",
+    "lodydeals:46528"
   ],
   "last_france_cross_promo_time": 1794553348.8480208,
   "next_france_cross_promo_interval_seconds": 334302,
@@ -29485,13 +29525,6 @@
         "price": 7.47
       }
     ],
-    "1005010239860751": [
-      {
-        "channel": "zedstoreonline",
-        "ts": 1794689614.6240048,
-        "price": 4.8
-      }
-    ],
     "1005010535660141": [
       {
         "channel": "lodydeals",
@@ -29619,6 +29652,20 @@
         "channel": "aniscoupons",
         "ts": 1794732679.619398,
         "price": 66.7
+      }
+    ],
+    "1005007336232520": [
+      {
+        "channel": "lodydeals",
+        "ts": 1794732845.9246855,
+        "price": 20.8
+      }
+    ],
+    "1005013222140851": [
+      {
+        "channel": "lodydeals",
+        "ts": 1794732852.934238,
+        "price": 74.53
       }
     ]
   },
