@@ -1537,7 +1537,7 @@
     "1005007038022940": 1794146648.256951,
     "1005007981362777": 1794146655.1062205,
     "1005007097302001": 1794146830.4272797,
-    "1005013361453762": 1794666184.5986936,
+    "1005013361453762": 1794734016.8733163,
     "1005013240296031": 1794216974.0881407,
     "1005012670472055": 1794164675.8426867,
     "1005013476568095": 1794169846.8168333,
@@ -1645,7 +1645,7 @@
     "1005012479648570": 1794672652.7192543,
     "1005006727799127": 1794673385.4725633,
     "1005006882359473": 1794673572.3773744,
-    "1005008744025540": 1794673935.8661852,
+    "1005008744025540": 1794734023.2272098,
     "1005006727752164": 1794674313.8272793,
     "1005010444603559": 1794675044.3030443,
     "1005012781081420": 1794675219.0916212,
@@ -3282,7 +3282,7 @@
     "Realme 15T 8/256GB": 1793543739.1061752,
     "Blackview MEGA 12  12/256": 1793478769.6023057,
     "Lenovo Xiaoxin Pad Pro 2025 12.7  inch": 1793478774.2399445,
-    "HONOR Pad V9  8/256": 1794650941.0547981,
+    "HONOR Pad V9  8/256": 1794734016.8733163,
     "Blackview LINK 1 Kids": 1794599828.9735007,
     "realme Watch S5 – Stunning AMOLED Display, 20-Day Battery Life & 110 Sports Modes": 1793490079.2945042,
     "COLMI i28 Ultra AI Smartwatch – AMOLED Display,": 1793490090.28376,
@@ -3801,7 +3801,7 @@
     "مجموعة ENCHEN Beardo 3 للعناية الشخصية": 1794672652.7192543,
     "ريموت MX3 لاسلكي 2.4GHz مع ماوس هوائي ولوحة مفاتيح صغيرة": 1794673385.4725633,
     "CHENXI Automatic Mechanical Watch": 1794673572.3773744,
-    "MCHOSE V9 Pro Wireless Gaming Headset Surround Sound Headphones Noise": 1794673935.8661852,
+    "MCHOSE V9 Pro Wireless Gaming Headset Surround Sound Headphones Noise": 1794734023.2272098,
     "ساعة YNOKE الإلكترونية الرياضية للرجال": 1794674313.8272793,
     "Vention Elf E07": 1794675044.3030443,
     "مكبر صوت Awei المغناطيسي اللاسلكي": 1794675219.0916212,
@@ -3830,8 +3830,6 @@
     "Backpack With Rod Holder": 1794732862.0085351
   },
   "published_post_keys": [
-    "zedstoreonline:39183",
-    "zedstoreonline:39184",
     "zedstoreonline:39186",
     "zedstoreonline:39187",
     "zedstoreonline:39188",
@@ -4829,11 +4827,13 @@
     "lodydeals:46525",
     "lodydeals:46526",
     "zedstoreonline:40210",
-    "aniscoupons:34953"
+    "aniscoupons:34953",
+    "zedstoreonline:40212",
+    "aniscoupons:34954"
   ],
   "last_disclaimer_time": 1794524540.9476151,
   "last_calendar_time": 1794572799.8939624,
-  "last_run_time": 1794733838.2777092,
+  "last_run_time": 1794734023.2272098,
   "monitored_channels": {
     "ecksdeal": {
       "last_message_id": 6065,
@@ -4860,12 +4860,12 @@
       "last_check_time": 1793599663.3444748
     },
     "zedstoreonline": {
-      "last_message_id": 40211,
-      "last_check_time": 1794733833.6284215
+      "last_message_id": 40212,
+      "last_check_time": 1794734018.9414375
     },
     "aniscoupons": {
-      "last_message_id": 34953,
-      "last_check_time": 1794733840.334268
+      "last_message_id": 34954,
+      "last_check_time": 1794734025.2908168
     },
     "bnddeals": {
       "last_message_id": 51305,
@@ -5469,7 +5469,7 @@
     "1005007038022940": 5.49,
     "1005007981362777": 5.69,
     "1005007097302001": 4.69,
-    "1005013361453762": 277.36,
+    "1005013361453762": 276.3,
     "1005013240296031": 68.98,
     "1005012670472055": 112.11,
     "1005013476568095": 370.8,
@@ -25193,6 +25193,26 @@
       "price": 20.48,
       "timestamp": 1794733838.2777092,
       "status": "ACTIVE"
+    },
+    "zedstoreonline:40212": {
+      "channel_msg_id": 2788,
+      "product_id": "1005013361453762",
+      "title": "HONOR Pad V9  8/256",
+      "channel": "zedstoreonline",
+      "source_msg_id": 40212,
+      "price": 276.3,
+      "timestamp": 1794734016.8733163,
+      "status": "ACTIVE"
+    },
+    "aniscoupons:34954": {
+      "channel_msg_id": 2789,
+      "product_id": "1005008744025540",
+      "title": "MCHOSE V9 Pro Wireless Gaming Headset Surround Sound Headphones Noise",
+      "channel": "aniscoupons",
+      "source_msg_id": 34954,
+      "price": 52.6,
+      "timestamp": 1794734023.2272098,
+      "status": "ACTIVE"
     }
   },
   "schedule_config": {
@@ -25201,17 +25221,17 @@
     "current_interval_minutes": 5,
     "is_paused": false,
     "night_mode_enabled": true,
-    "last_deal_post_time": 1794733841.3418384,
+    "last_deal_post_time": 1794734026.380185,
     "night_start_hour_dz": 0,
     "night_end_hour_dz": 8,
     "night_pause_enabled": true,
-    "last_sweep_time": 1794733845.0600295,
+    "last_sweep_time": 1794734030.2259355,
     "last_sweep_times": {
-      "algeria": 1794733841.3169017,
-      "france": 1794733845.0600295
+      "algeria": 1794734026.3493376,
+      "france": 1794734030.2259355
     },
     "last_deal_post_times": {
-      "algeria": 1794733841.3418384
+      "algeria": 1794734026.380185
     }
   },
   "last_coin_reminder_time": 1794533888.682542,
@@ -25925,7 +25945,7 @@
     "1005007038022940": "lodydeals",
     "1005007981362777": "lodydeals",
     "1005007097302001": "lodydeals",
-    "1005013361453762": "aniscoupons",
+    "1005013361453762": "zedstoreonline",
     "1005013240296031": "lodydeals",
     "1005012670472055": "lodydeals",
     "1005010062128237": "lodydeals",
@@ -29701,6 +29721,20 @@
         "channel": "aniscoupons",
         "ts": 1794733835.579513,
         "price": 20.48
+      }
+    ],
+    "1005013361453762": [
+      {
+        "channel": "zedstoreonline",
+        "ts": 1794734014.029423,
+        "price": 276.3
+      }
+    ],
+    "1005008744025540": [
+      {
+        "channel": "aniscoupons",
+        "ts": 1794734020.783206,
+        "price": 52.6
       }
     ]
   },
