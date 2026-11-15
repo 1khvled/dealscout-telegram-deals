@@ -1267,7 +1267,7 @@
     "1005011820893973": 1793540051.7895243,
     "1005009073904302": 1794731901.208706,
     "1005009916208760": 1793448612.7938895,
-    "1005010033441204": 1794648682.4911034,
+    "1005010033441204": 1794737276.9823496,
     "1005008356663932": 1793707052.9762022,
     "1005010074161953": 1793543659.5887568,
     "1005010498953493": 1794653732.8294628,
@@ -3230,7 +3230,7 @@
     "Soundcore by Anker Life Q30 Hybrid Active Noise Cancelling Headphones": 1793448587.6507976,
     "بروجكتور Magcubic HY300 max – أوتو فوكس، Android 14، إضاءة 400 ANSI": 1793448612.7938895,
     "MAONO PD100X Dynamic Microphone": 1794730332.5562615,
-    "Soundcore by Anker P20i": 1794648682.4911034,
+    "Soundcore by Anker P20i": 1794737276.9823496,
     "CUSU Memory DDR5  32GB(16GBX2) 5600MHz": 1793448632.7055113,
     "OPPO FIND X9 Pro": 1794486542.3386803,
     "OPPO A7 Pro Max CN": 1793448660.3359752,
@@ -3830,7 +3830,6 @@
     "Backpack With Rod Holder": 1794732862.0085351
   },
   "published_post_keys": [
-    "aniscoupons:33510",
     "lodydeals:45920",
     "lodydeals:45921",
     "aniscoupons:33511",
@@ -4829,11 +4828,12 @@
     "zedstoreonline:40218",
     "aniscoupons:34962",
     "zedstoreonline:40219",
-    "aniscoupons:34964"
+    "aniscoupons:34964",
+    "aniscoupons:34965"
   ],
   "last_disclaimer_time": 1794524540.9476151,
   "last_calendar_time": 1794572799.8939624,
-  "last_run_time": 1794736906.776198,
+  "last_run_time": 1794737276.9823496,
   "monitored_channels": {
     "ecksdeal": {
       "last_message_id": 6065,
@@ -4860,12 +4860,12 @@
       "last_check_time": 1793599663.3444748
     },
     "zedstoreonline": {
-      "last_message_id": 40220,
-      "last_check_time": 1794737086.423737
+      "last_message_id": 40221,
+      "last_check_time": 1794737272.9863076
     },
     "aniscoupons": {
-      "last_message_id": 34964,
-      "last_check_time": 1794736908.8249536
+      "last_message_id": 34965,
+      "last_check_time": 1794737279.047394
     },
     "bnddeals": {
       "last_message_id": 51305,
@@ -25323,6 +25323,16 @@
       "price": 82.66,
       "timestamp": 1794736906.776198,
       "status": "ACTIVE"
+    },
+    "aniscoupons:34965": {
+      "channel_msg_id": 2801,
+      "product_id": "1005010033441204",
+      "title": "Soundcore by Anker P20i",
+      "channel": "aniscoupons",
+      "source_msg_id": 34965,
+      "price": 14.6,
+      "timestamp": 1794737276.9823496,
+      "status": "ACTIVE"
     }
   },
   "schedule_config": {
@@ -25331,17 +25341,17 @@
     "current_interval_minutes": 5,
     "is_paused": false,
     "night_mode_enabled": true,
-    "last_deal_post_time": 1794736909.5709949,
+    "last_deal_post_time": 1794737279.9357038,
     "night_start_hour_dz": 0,
     "night_end_hour_dz": 8,
     "night_pause_enabled": true,
-    "last_sweep_time": 1794737090.9798484,
+    "last_sweep_time": 1794737283.336331,
     "last_sweep_times": {
-      "algeria": 1794737087.848543,
-      "france": 1794737090.9798484
+      "algeria": 1794737279.9083908,
+      "france": 1794737283.336331
     },
     "last_deal_post_times": {
-      "algeria": 1794736909.5709949
+      "algeria": 1794737279.9357038
     }
   },
   "last_coin_reminder_time": 1794533888.682542,
@@ -28062,7 +28072,6 @@
   "published_deals_history": {},
   "settings": {},
   "handled_post_keys": [
-    "aniscoupons:34154",
     "zedstoreonline:39634",
     "zedstoreonline:39635",
     "zedstoreonline:39639",
@@ -29061,7 +29070,8 @@
     "zedstoreonline:40217",
     "aniscoupons:34961",
     "aniscoupons:34963",
-    "zedstoreonline:40220"
+    "zedstoreonline:40220",
+    "zedstoreonline:40221"
   ],
   "last_france_cross_promo_time": 1794553348.8480208,
   "next_france_cross_promo_interval_seconds": 334302,
@@ -29905,6 +29915,11 @@
         "channel": "aniscoupons",
         "ts": 1794736348.6530306,
         "price": 31.62
+      },
+      {
+        "channel": "zedstoreonline",
+        "ts": 1794737272.8612797,
+        "price": 30.6
       }
     ],
     "1005011583202464": [
@@ -29926,6 +29941,13 @@
         "channel": "zedstoreonline",
         "ts": 1794737085.8760169,
         "price": 289.0
+      }
+    ],
+    "1005010033441204": [
+      {
+        "channel": "aniscoupons",
+        "ts": 1794737274.210465,
+        "price": 14.6
       }
     ]
   },
