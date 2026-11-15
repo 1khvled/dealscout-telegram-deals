@@ -929,7 +929,7 @@
     "1005012390398338": 1791027348.2517543,
     "1005012297674623": 1791103551.065819,
     "1005007097205322": 1791014755.488723,
-    "1005010470699571": 1794659893.4382045,
+    "1005010470699571": 1794733831.5158775,
     "1005012741634118": 1793966676.2934937,
     "1005010453516983": 1792172109.913469,
     "1005008554596598": 1794165031.7231321,
@@ -1622,7 +1622,7 @@
     "1005012624574517": 1794681665.408675,
     "1005012644923854": 1794577769.242665,
     "1005005709908265": 1794577943.6825492,
-    "1005011887425776": 1794673577.8423104,
+    "1005011887425776": 1794733838.2777092,
     "1005012547730772": 1794590278.0528092,
     "1005012840419521": 1794591008.1982286,
     "1005010218815499": 1794653739.643998,
@@ -2855,7 +2855,7 @@
     "HTC NE79 TWS Bluetooth 6.0 Earbuds AI Translation 135 Languages ENC Noise": 1791014140.3360124,
     "Baseus-Bowie E5x": 1791014145.8727648,
     "Affichage tête haute GPS pour voiture – compteur de vitesse numérique km/h, police LED grande, compa": 1791014755.488723,
-    "HAYLOU Solar Lite 2": 1794659893.4382045,
+    "HAYLOU Solar Lite 2": 1794733831.5158775,
     "HAYLOU FlowLoop S33": 1794732670.6786544,
     "OPPO A6 Pro 4G Smartphone MediaTek Helio G100 Processor 7000mAh Battery": 1791015953.484505,
     "WiFi 6 USB3.0 Adapter 1800Mbps 5G/2.4GHz": 1791017145.537471,
@@ -3770,7 +3770,7 @@
     "Maono Gamerwave DGM20S": 1794577943.6825492,
     "CUSU SSD CV3500 M2 1TB": 1794650121.9041455,
     "S80 Flash Drive USB 3.2 Type-A 128GB": 1794649534.468107,
-    "ATK VXE Dragonfly V3 PRO": 1794673577.8423104,
+    "ATK VXE Dragonfly V3 PRO": 1794733838.2777092,
     "Kingston DataTraveler USB 128GB": 1794589551.8961492,
     "Honor X80 Pro Max 8/128": 1794590278.0528092,
     "ماوس فخم Logitech G502 Hero": 1794591008.1982286,
@@ -3830,8 +3830,6 @@
     "Backpack With Rod Holder": 1794732862.0085351
   },
   "published_post_keys": [
-    "zedstoreonline:39178",
-    "zedstoreonline:39179",
     "zedstoreonline:39183",
     "zedstoreonline:39184",
     "zedstoreonline:39186",
@@ -4829,19 +4827,21 @@
     "aniscoupons:34950",
     "lodydeals:46524",
     "lodydeals:46525",
-    "lodydeals:46526"
+    "lodydeals:46526",
+    "zedstoreonline:40210",
+    "aniscoupons:34953"
   ],
   "last_disclaimer_time": 1794524540.9476151,
   "last_calendar_time": 1794572799.8939624,
-  "last_run_time": 1794732862.0085351,
+  "last_run_time": 1794733838.2777092,
   "monitored_channels": {
     "ecksdeal": {
       "last_message_id": 6065,
       "last_check_time": 1794694596.4618468
     },
     "lodydeals": {
-      "last_message_id": 46529,
-      "last_check_time": 1794733022.3180656
+      "last_message_id": 46532,
+      "last_check_time": 1794733822.6746871
     },
     "test_channel": {
       "last_message_id": 1793967703,
@@ -4860,12 +4860,12 @@
       "last_check_time": 1793599663.3444748
     },
     "zedstoreonline": {
-      "last_message_id": 40209,
-      "last_check_time": 1794733025.682163
+      "last_message_id": 40211,
+      "last_check_time": 1794733833.6284215
     },
     "aniscoupons": {
-      "last_message_id": 34952,
-      "last_check_time": 1794733235.1245606
+      "last_message_id": 34953,
+      "last_check_time": 1794733840.334268
     },
     "bnddeals": {
       "last_message_id": 51305,
@@ -25173,6 +25173,26 @@
       "price": 16.27,
       "timestamp": 1794732862.0085351,
       "status": "ACTIVE"
+    },
+    "zedstoreonline:40210": {
+      "channel_msg_id": 2786,
+      "product_id": "1005010470699571",
+      "title": "HAYLOU Solar Lite 2",
+      "channel": "zedstoreonline",
+      "source_msg_id": 40210,
+      "price": 18.8,
+      "timestamp": 1794733831.5158775,
+      "status": "ACTIVE"
+    },
+    "aniscoupons:34953": {
+      "channel_msg_id": 2787,
+      "product_id": "1005011887425776",
+      "title": "ATK VXE Dragonfly V3 PRO",
+      "channel": "aniscoupons",
+      "source_msg_id": 34953,
+      "price": 20.48,
+      "timestamp": 1794733838.2777092,
+      "status": "ACTIVE"
     }
   },
   "schedule_config": {
@@ -25181,17 +25201,17 @@
     "current_interval_minutes": 5,
     "is_paused": false,
     "night_mode_enabled": true,
-    "last_deal_post_time": 1794732868.005923,
+    "last_deal_post_time": 1794733841.3418384,
     "night_start_hour_dz": 0,
     "night_end_hour_dz": 8,
     "night_pause_enabled": true,
-    "last_sweep_time": 1794733427.304742,
+    "last_sweep_time": 1794733845.0600295,
     "last_sweep_times": {
-      "algeria": 1794733423.5272038,
-      "france": 1794733427.304742
+      "algeria": 1794733841.3169017,
+      "france": 1794733845.0600295
     },
     "last_deal_post_times": {
-      "algeria": 1794732868.005923
+      "algeria": 1794733841.3418384
     }
   },
   "last_coin_reminder_time": 1794533888.682542,
@@ -27912,7 +27932,6 @@
   "published_deals_history": {},
   "settings": {},
   "handled_post_keys": [
-    "lodydeals:46191",
     "zedstoreonline:39629",
     "aniscoupons:34148",
     "aniscoupons:34150",
@@ -28911,7 +28930,8 @@
     "lodydeals:46529",
     "zedstoreonline:40209",
     "aniscoupons:34951",
-    "aniscoupons:34952"
+    "aniscoupons:34952",
+    "zedstoreonline:40211"
   ],
   "last_france_cross_promo_time": 1794553348.8480208,
   "next_france_cross_promo_interval_seconds": 334302,
@@ -29498,11 +29518,6 @@
     ],
     "1005012726037568": [
       {
-        "channel": "aniscoupons",
-        "ts": 1794690533.31876,
-        "price": 7.47
-      },
-      {
         "channel": "lodydeals",
         "ts": 1794692753.5109797,
         "price": 7.4
@@ -29672,6 +29687,20 @@
         "channel": "lodydeals",
         "ts": 1794732852.934238,
         "price": 74.53
+      }
+    ],
+    "1005010470699571": [
+      {
+        "channel": "zedstoreonline",
+        "ts": 1794733828.6779826,
+        "price": 18.8
+      }
+    ],
+    "1005011887425776": [
+      {
+        "channel": "aniscoupons",
+        "ts": 1794733835.579513,
+        "price": 20.48
       }
     ]
   },
