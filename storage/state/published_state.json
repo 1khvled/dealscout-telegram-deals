@@ -1264,7 +1264,7 @@
     "1005012938359476": 1793448722.5382965,
     "1005012931209980": 1794678546.0543764,
     "1005011820893973": 1793540051.7895243,
-    "1005009073904302": 1794596887.3934894,
+    "1005009073904302": 1794731901.208706,
     "1005009916208760": 1793448612.7938895,
     "1005010033441204": 1794648682.4911034,
     "1005008356663932": 1793707052.9762022,
@@ -1487,7 +1487,7 @@
     "9998887107": 1793967108.0014687,
     "9998887678": 1793967678.8184059,
     "9998887703": 1793967703.2348685,
-    "1005008708333999": 1794682040.375504,
+    "1005008708333999": 1794731895.9518144,
     "1005012254132930": 1794655633.5523028,
     "1005013028124905": 1793971934.3600886,
     "1005012691642623": 1794074230.5173922,
@@ -1637,7 +1637,7 @@
     "1005010519693722": 1794680859.9419408,
     "1005010788149535": 1794650949.6978376,
     "1005007857182319": 1794666000.5453608,
-    "1005010706574985": 1794685905.8538558,
+    "1005010706574985": 1794731908.1908314,
     "1005006904640542": 1794672105.0502174,
     "1005010155229810": 1794672468.775835,
     "1005011774259648": 1794672474.6197693,
@@ -2795,7 +2795,7 @@
     "Blackview Zeno 10 5G  8/128": 1790941207.5310047,
     "Honor Power 2  12/256": 1790941214.6756065,
     "Honor X70 5G 8/128": 1792077689.3824542,
-    "Blackview MEGA 5  8/256": 1794596887.3934894,
+    "Blackview MEGA 5  8/256": 1794731901.208706,
     "سماعات اذن فخمة  Moondrop Chu 3 IEM": 1793542591.509991,
     "4G LTE Wireless USB 150Mbps": 1794057675.8729835,
     "Curren 8455 Men's Quartz": 1790943640.1460688,
@@ -3580,7 +3580,7 @@
     "SOUNDPEATS C30 ANC Wireless Earphones": 1793994623.1444166,
     "UGREEN 45W GaN Smart Display Charger": 1793995361.9589899,
     "Inphic PG1 PG9 RGB Wired Gaming Mouse": 1794579412.4499428,
-    "realme C100d 4/128GB": 1794682040.375504,
+    "realme C100d 4/128GB": 1794731895.9518144,
     "Zeblaze GTS 3 Pro AMOLED": 1794500381.7712336,
     "شاحن سيارة ORICO بقوة 45W": 1794348808.2825344,
     "Hollyland LARK M2 DUO 2-Person": 1794658966.3702009,
@@ -3790,7 +3790,7 @@
     "سماعات لاسلكية Binnune BW06 Wireless": 1794666000.5453608,
     "DELUX M400 GAMING MOUSE": 1794666009.2783742,
     "HyperX Cloud 2 II Wired Gaming Headset": 1794668030.6727147,
-    "Baseus Bass EP10 NC": 1794685905.8538558,
+    "Baseus Bass EP10 NC": 1794731908.1908314,
     "Kemei KM-679 Professional Hair Trimmer Electric Hair Clipper": 1794672105.0502174,
     "Kemei KM-6630 6631 6632 trimmer": 1794672468.775835,
     "MCHOSE G3 V2 Wireless Gaming Mouse": 1794672474.6197693,
@@ -3824,9 +3824,6 @@
     "Kootion X15 M.2 SSD 256GB": 1794730325.60486
   },
   "published_post_keys": [
-    "zedstoreonline:39161",
-    "zedstoreonline:39163",
-    "zedstoreonline:39166",
     "zedstoreonline:39167",
     "zedstoreonline:39168",
     "zedstoreonline:39170",
@@ -4823,19 +4820,22 @@
     "zedstoreonline:40199",
     "aniscoupons:34943",
     "zedstoreonline:40203",
-    "aniscoupons:34944"
+    "aniscoupons:34944",
+    "zedstoreonline:40204",
+    "zedstoreonline:40205",
+    "aniscoupons:34946"
   ],
   "last_disclaimer_time": 1794524540.9476151,
   "last_calendar_time": 1794572799.8939624,
-  "last_run_time": 1794731127.7284281,
+  "last_run_time": 1794731908.1908314,
   "monitored_channels": {
     "ecksdeal": {
       "last_message_id": 6065,
       "last_check_time": 1794694596.4618468
     },
     "lodydeals": {
-      "last_message_id": 46526,
-      "last_check_time": 1794731502.3347738
+      "last_message_id": 46527,
+      "last_check_time": 1794731889.1414516
     },
     "test_channel": {
       "last_message_id": 1793967703,
@@ -4854,16 +4854,16 @@
       "last_check_time": 1793599663.3444748
     },
     "zedstoreonline": {
-      "last_message_id": 40203,
-      "last_check_time": 1794731124.0254471
+      "last_message_id": 40205,
+      "last_check_time": 1794731903.2856057
     },
     "aniscoupons": {
-      "last_message_id": 34945,
-      "last_check_time": 1794731303.5356226
+      "last_message_id": 34947,
+      "last_check_time": 1794731911.2315109
     },
     "bnddeals": {
-      "last_message_id": 51304,
-      "last_check_time": 1794699253.7718167
+      "last_message_id": 51305,
+      "last_check_time": 1794731913.84658
     }
   },
   "published_product_prices": {
@@ -5558,7 +5558,7 @@
     "1005010519693722": 13.42,
     "1005010788149535": 364.9,
     "1005007857182319": 23.88,
-    "1005010706574985": 11.12,
+    "1005010706574985": 11.16,
     "1005006904640542": 6.9,
     "1005010155229810": 6.1,
     "1005011774259648": 18.88,
@@ -25056,6 +25056,36 @@
       "price": 22.3,
       "timestamp": 1794731127.7284281,
       "status": "ACTIVE"
+    },
+    "zedstoreonline:40204": {
+      "channel_msg_id": 2775,
+      "product_id": "1005008708333999",
+      "title": "realme C100d 4/128GB",
+      "channel": "zedstoreonline",
+      "source_msg_id": 40204,
+      "price": 136.7,
+      "timestamp": 1794731895.9518144,
+      "status": "ACTIVE"
+    },
+    "zedstoreonline:40205": {
+      "channel_msg_id": 2776,
+      "product_id": "1005009073904302",
+      "title": "Blackview MEGA 5  8/256",
+      "channel": "zedstoreonline",
+      "source_msg_id": 40205,
+      "price": 226.3,
+      "timestamp": 1794731901.208706,
+      "status": "ACTIVE"
+    },
+    "aniscoupons:34946": {
+      "channel_msg_id": 2777,
+      "product_id": "1005010706574985",
+      "title": "Baseus Bass EP10 NC",
+      "channel": "aniscoupons",
+      "source_msg_id": 34946,
+      "price": 11.16,
+      "timestamp": 1794731908.1908314,
+      "status": "ACTIVE"
     }
   },
   "schedule_config": {
@@ -25064,17 +25094,17 @@
     "current_interval_minutes": 5,
     "is_paused": false,
     "night_mode_enabled": true,
-    "last_deal_post_time": 1794731130.8241434,
+    "last_deal_post_time": 1794731913.915997,
     "night_start_hour_dz": 0,
     "night_end_hour_dz": 8,
     "night_pause_enabled": true,
-    "last_sweep_time": 1794731510.1641195,
+    "last_sweep_time": 1794731917.7571454,
     "last_sweep_times": {
-      "algeria": 1794731506.8278315,
-      "france": 1794731510.1641195
+      "algeria": 1794731913.881431,
+      "france": 1794731917.7571454
     },
     "last_deal_post_times": {
-      "algeria": 1794731130.8241434
+      "algeria": 1794731913.915997
     }
   },
   "last_coin_reminder_time": 1794533888.682542,
@@ -25887,7 +25917,7 @@
     "1005010519693722": "lodydeals",
     "1005010788149535": "aniscoupons",
     "1005007857182319": "ecksdeal",
-    "1005010706574985": "lodydeals",
+    "1005010706574985": "aniscoupons",
     "1005006904640542": "zedstoreonline",
     "1005010155229810": "zedstoreonline",
     "1005011774259648": "aniscoupons",
@@ -26964,7 +26994,7 @@
     "سماعات لاسلكية Binnune BW06 Wireless": "ecksdeal",
     "DELUX M400 GAMING MOUSE": "aniscoupons",
     "HyperX Cloud 2 II Wired Gaming Headset": "aniscoupons",
-    "Baseus Bass EP10 NC": "lodydeals",
+    "Baseus Bass EP10 NC": "aniscoupons",
     "Kemei KM-679 Professional Hair Trimmer Electric Hair Clipper": "zedstoreonline",
     "Kemei KM-6630 6631 6632 trimmer": "zedstoreonline",
     "MCHOSE G3 V2 Wireless Gaming Mouse": "aniscoupons",
@@ -27792,8 +27822,6 @@
   "published_deals_history": {},
   "settings": {},
   "handled_post_keys": [
-    "lodydeals:46185",
-    "lodydeals:46186",
     "lodydeals:46188",
     "lodydeals:46189",
     "zedstoreonline:39626",
@@ -28791,7 +28819,9 @@
     "zedstoreonline:40198",
     "zedstoreonline:40200",
     "zedstoreonline:40201",
-    "aniscoupons:34945"
+    "aniscoupons:34945",
+    "aniscoupons:34947",
+    "bnddeals:51305"
   ],
   "last_france_cross_promo_time": 1794553348.8480208,
   "next_france_cross_promo_interval_seconds": 334302,
@@ -29386,11 +29416,6 @@
     "1005012726037568": [
       {
         "channel": "aniscoupons",
-        "ts": 1794688506.9778938,
-        "price": 7.47
-      },
-      {
-        "channel": "aniscoupons",
         "ts": 1794690533.31876,
         "price": 7.47
       },
@@ -29476,6 +29501,34 @@
         "channel": "aniscoupons",
         "ts": 1794731125.5452342,
         "price": 22.3
+      }
+    ],
+    "1005008708333999": [
+      {
+        "channel": "zedstoreonline",
+        "ts": 1794731893.1126063,
+        "price": 136.7
+      }
+    ],
+    "1005009073904302": [
+      {
+        "channel": "zedstoreonline",
+        "ts": 1794731898.592633,
+        "price": 226.3
+      }
+    ],
+    "1005010706574985": [
+      {
+        "channel": "aniscoupons",
+        "ts": 1794731905.3790905,
+        "price": 11.16
+      }
+    ],
+    "1005010210432531": [
+      {
+        "channel": "aniscoupons",
+        "ts": 1794731911.1175272,
+        "price": 136.7
       }
     ]
   },
