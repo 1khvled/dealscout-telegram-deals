@@ -834,7 +834,8 @@
     "1005012965284882",
     "1005004886782975",
     "1005013168050663",
-    "1005012970221631"
+    "1005012970221631",
+    "1005008637007198"
   ],
   "published_product_timestamps": {
     "1005012973772517": 1794500732.7845657,
@@ -1311,7 +1312,7 @@
     "1005008518280704": 1794747846.3635185,
     "1005010527736444": 1793478769.6023057,
     "1005013450996845": 1794475091.4412947,
-    "1005013144753309": 1794599828.9735007,
+    "1005013144753309": 1794771014.8038359,
     "1005012061152213": 1793490079.2945042,
     "1005012519569107": 1793490085.1205146,
     "1005006996991698": 1793542450.420599,
@@ -1684,7 +1685,8 @@
     "1005012965284882": 1794742028.7342756,
     "1005004886782975": 1794755267.1243844,
     "1005013168050663": 1794759633.8642445,
-    "1005012970221631": 1794760460.6638489
+    "1005012970221631": 1794760460.6638489,
+    "1005008637007198": 1794771008.638466
   },
   "published_titles": [
     "Wireless WiFi Repeater 300Mbps WiFi Extender Amplifier Booster Router",
@@ -2775,7 +2777,8 @@
     "UnionSine External HDD 2TB",
     "HONOR WIN RT 12/256GB",
     "INFLATABLE LAZY AIR SOFA",
-    "Crucial RAM 8GB×2 DDR4 2400MHz"
+    "Crucial RAM 8GB×2 DDR4 2400MHz",
+    "Netac NVMe 3500MB/S 500GB"
   ],
   "published_title_timestamps": {
     "Xiaomi Redmi Note 17 5G Global Version": 1790857823.0117362,
@@ -3316,7 +3319,7 @@
     "Blackview MEGA 12  12/256": 1793478769.6023057,
     "Lenovo Xiaoxin Pad Pro 2025 12.7  inch": 1793478774.2399445,
     "HONOR Pad V9  8/256": 1794734016.8733163,
-    "Blackview LINK 1 Kids": 1794599828.9735007,
+    "Blackview LINK 1 Kids": 1794771014.8038359,
     "realme Watch S5 – Stunning AMOLED Display, 20-Day Battery Life & 110 Sports Modes": 1793490079.2945042,
     "COLMI i28 Ultra AI Smartwatch – AMOLED Display,": 1793490090.28376,
     "POCO Pad C1 4/64": 1793490102.028307,
@@ -3871,11 +3874,10 @@
     "UnionSine External HDD 2TB": 1794755267.1243844,
     "HONOR WIN RT 12/256GB": 1794759250.0371616,
     "INFLATABLE LAZY AIR SOFA": 1794759633.8642445,
-    "Crucial RAM 8GB×2 DDR4 2400MHz": 1794760460.6638489
+    "Crucial RAM 8GB×2 DDR4 2400MHz": 1794760460.6638489,
+    "Netac NVMe 3500MB/S 500GB": 1794771008.638466
   },
   "published_post_keys": [
-    "lodydeals:46032",
-    "lodydeals:46034",
     "lodydeals:46035",
     "lodydeals:46036",
     "lodydeals:46038",
@@ -4873,19 +4875,21 @@
     "zedstoreonline:40264",
     "aniscoupons:35019",
     "aniscoupons:35020",
-    "zedstoreonline:40265"
+    "zedstoreonline:40265",
+    "lodydeals:46567",
+    "zedstoreonline:40266"
   ],
   "last_disclaimer_time": 1794524540.9476151,
   "last_calendar_time": 1794572799.8939624,
-  "last_run_time": 1794770633.0209033,
+  "last_run_time": 1794771014.8038359,
   "monitored_channels": {
     "ecksdeal": {
       "last_message_id": 6066,
       "last_check_time": 1794742030.7923167
     },
     "lodydeals": {
-      "last_message_id": 46566,
-      "last_check_time": 1794770432.566956
+      "last_message_id": 46567,
+      "last_check_time": 1794771010.7225387
     },
     "test_channel": {
       "last_message_id": 1793967703,
@@ -4904,12 +4908,12 @@
       "last_check_time": 1793599663.3444748
     },
     "zedstoreonline": {
-      "last_message_id": 40265,
-      "last_check_time": 1794770635.1075225
+      "last_message_id": 40266,
+      "last_check_time": 1794771016.8862476
     },
     "aniscoupons": {
-      "last_message_id": 35022,
-      "last_check_time": 1794770637.8270576
+      "last_message_id": 35023,
+      "last_check_time": 1794771019.3542807
     },
     "bnddeals": {
       "last_message_id": 51305,
@@ -5643,7 +5647,8 @@
     "1005012965284882": 18.03,
     "1005004886782975": 64.14,
     "1005013168050663": 9.4,
-    "1005012970221631": 70.65
+    "1005012970221631": 70.65,
+    "1005008637007198": 52.39
   },
   "channel_published_deals": {
     "aniscoupons:32590": {
@@ -26088,6 +26093,26 @@
       "price": 186.7,
       "timestamp": 1794770633.0209033,
       "status": "ACTIVE"
+    },
+    "lodydeals:46567": {
+      "channel_msg_id": 2874,
+      "product_id": "1005008637007198",
+      "title": "Netac NVMe 3500MB/S 500GB",
+      "channel": "lodydeals",
+      "source_msg_id": 46567,
+      "price": 52.39,
+      "timestamp": 1794771008.638466,
+      "status": "ACTIVE"
+    },
+    "zedstoreonline:40266": {
+      "channel_msg_id": 2875,
+      "product_id": "1005013144753309",
+      "title": "Blackview LINK 1 Kids",
+      "channel": "zedstoreonline",
+      "source_msg_id": 40266,
+      "price": 92.7,
+      "timestamp": 1794771014.8038359,
+      "status": "ACTIVE"
     }
   },
   "schedule_config": {
@@ -26096,17 +26121,17 @@
     "current_interval_minutes": 5,
     "is_paused": false,
     "night_mode_enabled": true,
-    "last_deal_post_time": 1794770638.6283035,
+    "last_deal_post_time": 1794771020.0559866,
     "night_start_hour_dz": 0,
     "night_end_hour_dz": 8,
     "night_pause_enabled": true,
-    "last_sweep_time": 1794770642.6475616,
+    "last_sweep_time": 1794771022.8491344,
     "last_sweep_times": {
-      "algeria": 1794770638.5909872,
-      "france": 1794770642.6475616
+      "algeria": 1794771020.0194955,
+      "france": 1794771022.8491344
     },
     "last_deal_post_times": {
-      "algeria": 1794770638.6283035
+      "algeria": 1794771020.0559866
     }
   },
   "last_coin_reminder_time": 1794767542.171841,
@@ -26954,7 +26979,8 @@
     "1005012965284882": "ecksdeal",
     "1005004886782975": "lodydeals",
     "1005013168050663": "aniscoupons",
-    "1005012970221631": "aniscoupons"
+    "1005012970221631": "aniscoupons",
+    "1005008637007198": "lodydeals"
   },
   "published_title_channels": {
     "Test Wrench Set": "test_channel",
@@ -28052,7 +28078,8 @@
     "UnionSine External HDD 2TB": "lodydeals",
     "HONOR WIN RT 12/256GB": "aniscoupons",
     "INFLATABLE LAZY AIR SOFA": "aniscoupons",
-    "Crucial RAM 8GB×2 DDR4 2400MHz": "aniscoupons"
+    "Crucial RAM 8GB×2 DDR4 2400MHz": "aniscoupons",
+    "Netac NVMe 3500MB/S 500GB": "lodydeals"
   },
   "religious_reminders_history": {
     "mock_rem": "2026-10-02",
@@ -28849,7 +28876,6 @@
   "published_deals_history": {},
   "settings": {},
   "handled_post_keys": [
-    "zedstoreonline:39664",
     "aniscoupons:34198",
     "bnddeals:51209",
     "zedstoreonline:39665",
@@ -29848,7 +29874,8 @@
     "aniscoupons:35018",
     "lodydeals:46566",
     "aniscoupons:35021",
-    "aniscoupons:35022"
+    "aniscoupons:35022",
+    "aniscoupons:35023"
   ],
   "last_france_cross_promo_time": 1794553348.8480208,
   "next_france_cross_promo_interval_seconds": 334302,
@@ -31327,6 +31354,18 @@
         "channel": "aniscoupons",
         "ts": 1794770637.3339806,
         "price": 10.95
+      },
+      {
+        "channel": "aniscoupons",
+        "ts": 1794771018.739406,
+        "price": 10.95
+      }
+    ],
+    "1005013144753309": [
+      {
+        "channel": "zedstoreonline",
+        "ts": 1794771012.757849,
+        "price": 92.7
       }
     ]
   },
