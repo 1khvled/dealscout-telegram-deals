@@ -985,7 +985,7 @@
     "1005011987956470": 1791126349.6683438,
     "1005012865709979": 1791135345.3136878,
     "COUPONS_be64457c7fff": 1791138647.0734267,
-    "1005007461615597": 1794675967.2054362,
+    "1005007461615597": 1794734793.0661755,
     "1005010167814251": 1791147347.3774981,
     "1005012113350943": 1791147353.0681367,
     "1005012415005884": 1793566288.5208008,
@@ -2889,7 +2889,7 @@
     "Mini Laser Rangefinder 30M High Precision": 1791032177.1222703,
     "Men’s Oxford Fabric Sling Crossbody Bag": 1791033345.3970714,
     "ONEPLUS TURBO 6X 5G": 1793448884.6592717,
-    "XUNYOU-LINK 4G LTE WiFi Router WiFi 6 300Mpbs 4G Modem": 1794676700.5824757,
+    "XUNYOU-LINK 4G LTE WiFi Router WiFi 6 300Mpbs 4G Modem": 1794734793.0661755,
     "️ POCO X6 Pro (12/256)": 1791037857.3485136,
     "LENOVO LE257": 1791038145.1521833,
     "Lenovo XT53": 1791038753.5097415,
@@ -3830,7 +3830,6 @@
     "Backpack With Rod Holder": 1794732862.0085351
   },
   "published_post_keys": [
-    "zedstoreonline:39187",
     "zedstoreonline:39188",
     "zedstoreonline:39190",
     "aniscoupons:33500",
@@ -4829,19 +4828,20 @@
     "aniscoupons:34953",
     "zedstoreonline:40212",
     "aniscoupons:34954",
-    "aniscoupons:34955"
+    "aniscoupons:34955",
+    "aniscoupons:34957"
   ],
   "last_disclaimer_time": 1794524540.9476151,
   "last_calendar_time": 1794572799.8939624,
-  "last_run_time": 1794734226.1448493,
+  "last_run_time": 1794734793.0661755,
   "monitored_channels": {
     "ecksdeal": {
       "last_message_id": 6065,
       "last_check_time": 1794694596.4618468
     },
     "lodydeals": {
-      "last_message_id": 46535,
-      "last_check_time": 1794734396.500125
+      "last_message_id": 46539,
+      "last_check_time": 1794734781.745964
     },
     "test_channel": {
       "last_message_id": 1793967703,
@@ -4864,8 +4864,8 @@
       "last_check_time": 1794734221.4450123
     },
     "aniscoupons": {
-      "last_message_id": 34955,
-      "last_check_time": 1794734228.2255292
+      "last_message_id": 34957,
+      "last_check_time": 1794734795.1467807
     },
     "bnddeals": {
       "last_message_id": 51305,
@@ -25223,6 +25223,16 @@
       "price": 59.8,
       "timestamp": 1794734226.1448493,
       "status": "ACTIVE"
+    },
+    "aniscoupons:34957": {
+      "channel_msg_id": 2791,
+      "product_id": "1005007461615597",
+      "title": "XUNYOU-LINK 4G LTE WiFi Router WiFi 6 300Mpbs 4G Modem",
+      "channel": "aniscoupons",
+      "source_msg_id": 34957,
+      "price": 22.6,
+      "timestamp": 1794734793.0661755,
+      "status": "ACTIVE"
     }
   },
   "schedule_config": {
@@ -25231,17 +25241,17 @@
     "current_interval_minutes": 5,
     "is_paused": false,
     "night_mode_enabled": true,
-    "last_deal_post_time": 1794734229.2465947,
+    "last_deal_post_time": 1794734796.0100245,
     "night_start_hour_dz": 0,
     "night_end_hour_dz": 8,
     "night_pause_enabled": true,
-    "last_sweep_time": 1794734404.780368,
+    "last_sweep_time": 1794734798.9181502,
     "last_sweep_times": {
-      "algeria": 1794734400.9840326,
-      "france": 1794734404.780368
+      "algeria": 1794734795.9755673,
+      "france": 1794734798.9181502
     },
     "last_deal_post_times": {
-      "algeria": 1794734229.2465947
+      "algeria": 1794734796.0100245
     }
   },
   "last_coin_reminder_time": 1794533888.682542,
@@ -27962,7 +27972,6 @@
   "published_deals_history": {},
   "settings": {},
   "handled_post_keys": [
-    "aniscoupons:34148",
     "aniscoupons:34150",
     "zedstoreonline:39632",
     "zedstoreonline:39633",
@@ -28961,7 +28970,8 @@
     "aniscoupons:34951",
     "aniscoupons:34952",
     "zedstoreonline:40211",
-    "zedstoreonline:40213"
+    "zedstoreonline:40213",
+    "aniscoupons:34956"
   ],
   "last_france_cross_promo_time": 1794553348.8480208,
   "next_france_cross_promo_interval_seconds": 334302,
@@ -29752,6 +29762,20 @@
         "channel": "aniscoupons",
         "ts": 1794734223.5082796,
         "price": 59.8
+      }
+    ],
+    "1005010812635861": [
+      {
+        "channel": "aniscoupons",
+        "ts": 1794734787.9111242,
+        "price": 87.0
+      }
+    ],
+    "1005007461615597": [
+      {
+        "channel": "aniscoupons",
+        "ts": 1794734791.0504997,
+        "price": 22.6
       }
     ]
   },
