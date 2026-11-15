@@ -919,7 +919,7 @@
     "1005008901941749": 1792785032.5334125,
     "1005010178295650": 1793743848.9735239,
     "1005006861002512": 1791151259.5667012,
-    "1005012285327063": 1794693315.2816987,
+    "1005012285327063": 1794730338.4203367,
     "1005006581583862": 1794647626.4665492,
     "1005012816171978": 1792157876.0860639,
     "1005006248571160": 1791012946.4110153,
@@ -1250,7 +1250,7 @@
     "1005012839355198": 1793467230.0211325,
     "1005010133081414": 1793467151.9364934,
     "1005005373032877": 1793600283.7397804,
-    "1005007869955343": 1794598909.9247847,
+    "1005007869955343": 1794730332.5562615,
     "1005012644570693": 1793441338.6619778,
     "1005003949106838": 1794658038.8464694,
     "1005012436082838": 1793733101.535615,
@@ -1465,7 +1465,7 @@
     "1005008429979494": 1793741666.9686077,
     "1005004795387201": 1793742770.1634803,
     "1005010702983351": 1794677799.9420233,
-    "1005008366962319": 1794665030.8928545,
+    "1005008366962319": 1794730325.60486,
     "1005005058037424": 1793779907.9964287,
     "1005012946895000": 1793793714.105913,
     "1005012150344482": 1794693680.6924913,
@@ -2737,7 +2737,8 @@
     "مقبس SONOFF ذكي بقوة 16A يتيح تشغيل وإيقاف الأجهزة الكهربائية عن",
     "Anker Soundcore P30i ANC",
     "Anker 735 GaN 3 Port 65W",
-    "سماعات الاذن  TANGZU WAN'ER S.G 2 IEM"
+    "سماعات الاذن  TANGZU WAN'ER S.G 2 IEM",
+    "Kootion X15 M.2 SSD 256GB"
   ],
   "published_title_timestamps": {
     "Xiaomi Redmi Note 17 5G Global Version": 1790857823.0117362,
@@ -2836,7 +2837,7 @@
     "Attack Shark X1": 1790972445.6591878,
     "KUULAA USB C Cable": 1790973051.970508,
     "Wireless WiFi Repeater 300Mbps WiFi Extender Amplifier Booster Router": 1790974856.4783835,
-    "HAYLOU Watch Faro": 1794693315.2816987,
+    "HAYLOU Watch Faro": 1794730338.4203367,
     "HAYLOU S30": 1790976351.072879,
     "Lenovo XT88 TWS Wireless Earphones Bluetooth 5.3 Dual MIC Stereo Noise": 1790976654.120254,
     "VIVO Y600 Pro 8/128GB": 1793656161.7382708,
@@ -3224,7 +3225,7 @@
     "OnePlus Turbo 6X Pro 8/128": 1793441350.359979,
     "Soundcore by Anker Life Q30 Hybrid Active Noise Cancelling Headphones": 1793448587.6507976,
     "بروجكتور Magcubic HY300 max – أوتو فوكس، Android 14، إضاءة 400 ANSI": 1793448612.7938895,
-    "MAONO PD100X Dynamic Microphone": 1794598909.9247847,
+    "MAONO PD100X Dynamic Microphone": 1794730332.5562615,
     "Soundcore by Anker P20i": 1794648682.4911034,
     "CUSU Memory DDR5  32GB(16GBX2) 5600MHz": 1793448632.7055113,
     "OPPO FIND X9 Pro": 1794486542.3386803,
@@ -3819,12 +3820,10 @@
     "مقبس SONOFF ذكي بقوة 16A يتيح تشغيل وإيقاف الأجهزة الكهربائية عن": 1794689616.7178488,
     "Anker Soundcore P30i ANC": 1794689795.6476634,
     "Anker 735 GaN 3 Port 65W": 1794689990.1332982,
-    "سماعات الاذن  TANGZU WAN'ER S.G 2 IEM": 1794694594.377669
+    "سماعات الاذن  TANGZU WAN'ER S.G 2 IEM": 1794694594.377669,
+    "Kootion X15 M.2 SSD 256GB": 1794730325.60486
   },
   "published_post_keys": [
-    "zedstoreonline:39154",
-    "zedstoreonline:39156",
-    "zedstoreonline:39157",
     "zedstoreonline:39158",
     "zedstoreonline:39159",
     "zedstoreonline:39161",
@@ -4821,19 +4820,22 @@
     "zedstoreonline:40192",
     "ecksdeal:6065",
     "aniscoupons:34941",
-    "aniscoupons:34942"
+    "aniscoupons:34942",
+    "lodydeals:46522",
+    "zedstoreonline:40199",
+    "aniscoupons:34943"
   ],
   "last_disclaimer_time": 1794524540.9476151,
   "last_calendar_time": 1794572799.8939624,
-  "last_run_time": 1794730153.6573257,
+  "last_run_time": 1794730338.4203367,
   "monitored_channels": {
     "ecksdeal": {
       "last_message_id": 6065,
       "last_check_time": 1794694596.4618468
     },
     "lodydeals": {
-      "last_message_id": 46521,
-      "last_check_time": 1794728725.547599
+      "last_message_id": 46522,
+      "last_check_time": 1794730327.6666763
     },
     "test_channel": {
       "last_message_id": 1793967703,
@@ -4852,12 +4854,12 @@
       "last_check_time": 1793599663.3444748
     },
     "zedstoreonline": {
-      "last_message_id": 40198,
-      "last_check_time": 1794730149.2305794
+      "last_message_id": 40199,
+      "last_check_time": 1794730334.616863
     },
     "aniscoupons": {
-      "last_message_id": 34942,
-      "last_check_time": 1794730155.7390563
+      "last_message_id": 34943,
+      "last_check_time": 1794730340.4846497
     },
     "bnddeals": {
       "last_message_id": 51304,
@@ -5398,7 +5400,7 @@
     "1005008429979494": 72.7,
     "1005004795387201": 115.5,
     "1005010702983351": 69.6,
-    "1005008366962319": 30.3,
+    "1005008366962319": 30.05,
     "1005005058037424": 34.67,
     "1005012946895000": 142.59,
     "1005006972551834": 31.07,
@@ -25004,6 +25006,36 @@
       "price": 7.47,
       "timestamp": 1794730153.6573257,
       "status": "ACTIVE"
+    },
+    "lodydeals:46522": {
+      "channel_msg_id": 2770,
+      "product_id": "1005008366962319",
+      "title": "Kootion X15 M.2 SSD 256GB",
+      "channel": "lodydeals",
+      "source_msg_id": 46522,
+      "price": 30.05,
+      "timestamp": 1794730325.60486,
+      "status": "ACTIVE"
+    },
+    "zedstoreonline:40199": {
+      "channel_msg_id": 2771,
+      "product_id": "1005007869955343",
+      "title": "MAONO PD100X Dynamic Microphone",
+      "channel": "zedstoreonline",
+      "source_msg_id": 40199,
+      "price": 36.5,
+      "timestamp": 1794730332.5562615,
+      "status": "ACTIVE"
+    },
+    "aniscoupons:34943": {
+      "channel_msg_id": 2772,
+      "product_id": "1005012285327063",
+      "title": "HAYLOU Watch Faro",
+      "channel": "aniscoupons",
+      "source_msg_id": 34943,
+      "price": 12.11,
+      "timestamp": 1794730338.4203367,
+      "status": "ACTIVE"
     }
   },
   "schedule_config": {
@@ -25012,17 +25044,17 @@
     "current_interval_minutes": 5,
     "is_paused": false,
     "night_mode_enabled": true,
-    "last_deal_post_time": 1794730156.818639,
+    "last_deal_post_time": 1794730341.3031454,
     "night_start_hour_dz": 0,
     "night_end_hour_dz": 8,
     "night_pause_enabled": true,
-    "last_sweep_time": 1794730161.4943278,
+    "last_sweep_time": 1794730344.0476835,
     "last_sweep_times": {
-      "algeria": 1794730156.7793531,
-      "france": 1794730161.4943278
+      "algeria": 1794730341.2739217,
+      "france": 1794730344.0476835
     },
     "last_deal_post_times": {
-      "algeria": 1794730156.818639
+      "algeria": 1794730341.3031454
     }
   },
   "last_coin_reminder_time": 1794533888.682542,
@@ -25666,7 +25698,7 @@
     "1005008429979494": "lodydeals",
     "1005004795387201": "lodydeals",
     "1005010702983351": "lodydeals",
-    "1005008366962319": "aniscoupons",
+    "1005008366962319": "lodydeals",
     "1005005058037424": "lodydeals",
     "1005012946895000": "lodydeals",
     "1005006972551834": "lodydeals",
@@ -26942,7 +26974,8 @@
     "مقبس SONOFF ذكي بقوة 16A يتيح تشغيل وإيقاف الأجهزة الكهربائية عن": "zedstoreonline",
     "Anker Soundcore P30i ANC": "lodydeals",
     "Anker 735 GaN 3 Port 65W": "lodydeals",
-    "سماعات الاذن  TANGZU WAN'ER S.G 2 IEM": "ecksdeal"
+    "سماعات الاذن  TANGZU WAN'ER S.G 2 IEM": "ecksdeal",
+    "Kootion X15 M.2 SSD 256GB": "lodydeals"
   },
   "religious_reminders_history": {
     "mock_rem": "2026-10-02",
@@ -29381,6 +29414,11 @@
         "channel": "aniscoupons",
         "ts": 1794693313.0142536,
         "price": 12.11
+      },
+      {
+        "channel": "aniscoupons",
+        "ts": 1794730336.4288194,
+        "price": 12.11
       }
     ],
     "1005012150344482": [
@@ -29388,6 +29426,20 @@
         "channel": "zedstoreonline",
         "ts": 1794693678.6198974,
         "price": 18.7
+      }
+    ],
+    "1005008366962319": [
+      {
+        "channel": "lodydeals",
+        "ts": 1794730323.4429939,
+        "price": 30.05
+      }
+    ],
+    "1005007869955343": [
+      {
+        "channel": "zedstoreonline",
+        "ts": 1794730330.5784533,
+        "price": 36.5
       }
     ]
   },
