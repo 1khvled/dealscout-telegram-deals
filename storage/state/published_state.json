@@ -833,7 +833,7 @@
     "9998883350": 1790883350.933217,
     "9998883398": 1790883398.457595,
     "9998883417": 1790883417.3833034,
-    "1005007805638431": 1794668759.6251216,
+    "1005007805638431": 1794731127.7284281,
     "1005009054706827": 1794307249.1472638,
     "1005007961216287": 1791942616.1564767,
     "1005009627597591": 1793542398.3843465,
@@ -1322,7 +1322,7 @@
     "1005009980316035": 1793542552.2730343,
     "1005005905462505": 1794000865.9547298,
     "1005008248133489": 1794475825.54016,
-    "1005008684239370": 1794517206.1493392,
+    "1005008684239370": 1794731121.904425,
     "1005011583202464": 1794578866.6273274,
     "1005009921069024": 1793542597.6187797,
     "1005009916209766": 1794167239.3538153,
@@ -3566,7 +3566,7 @@
     "HONOR Pad X8a (4/64GB)": 1794683885.7547128,
     "Magcubic HY350 Max 900ANSI": 1794476813.180707,
     "Honor X9d (no charger)": 1794580548.39376,
-    "MAONO Wave T1 Mini Pro Wireless Lavalier Microphone": 1794517206.1493392,
+    "MAONO Wave T1 Mini Pro Wireless Lavalier Microphone": 1794731121.904425,
     "ميكروفون MAONO DGM20W لاسلكي للألعاب – تقليل الضوضاء مع إضاءة RGB، مثالي للبث المباشر والتسجيل والأل": 1793976348.7503736,
     "Ulanzi A21 Wireless Lavalier Microphone": 1793977272.9654846,
     "ميكروفون Ulanzi A100 لاسلكي صغير": 1793982290.6109207,
@@ -3672,7 +3672,7 @@
     "CUSU CV3500Q 2TB M.2": 1794305012.9961731,
     "MACHENIKE G5Pro Max SE With Charging Dock": 1794655651.061057,
     "Xiaoxin Pad Pro GT (8/256)": 1794660072.7294455,
-    "Attack Shark X11": 1794668759.6251216,
+    "Attack Shark X11": 1794731127.7284281,
     "Mic USB Microphone with RGB Modes Professional Condenser Mic for": 1794436007.5288515,
     "MAONO PD100W USB Wireless Dynamic": 1794432872.6767933,
     "MAONO Wave T1 Mini Pro": 1794425282.6782186,
@@ -3824,8 +3824,6 @@
     "Kootion X15 M.2 SSD 256GB": 1794730325.60486
   },
   "published_post_keys": [
-    "zedstoreonline:39158",
-    "zedstoreonline:39159",
     "zedstoreonline:39161",
     "zedstoreonline:39163",
     "zedstoreonline:39166",
@@ -4823,19 +4821,21 @@
     "aniscoupons:34942",
     "lodydeals:46522",
     "zedstoreonline:40199",
-    "aniscoupons:34943"
+    "aniscoupons:34943",
+    "zedstoreonline:40203",
+    "aniscoupons:34944"
   ],
   "last_disclaimer_time": 1794524540.9476151,
   "last_calendar_time": 1794572799.8939624,
-  "last_run_time": 1794730338.4203367,
+  "last_run_time": 1794731127.7284281,
   "monitored_channels": {
     "ecksdeal": {
       "last_message_id": 6065,
       "last_check_time": 1794694596.4618468
     },
     "lodydeals": {
-      "last_message_id": 46524,
-      "last_check_time": 1794730709.5675325
+      "last_message_id": 46525,
+      "last_check_time": 1794731113.2164462
     },
     "test_channel": {
       "last_message_id": 1793967703,
@@ -4854,12 +4854,12 @@
       "last_check_time": 1793599663.3444748
     },
     "zedstoreonline": {
-      "last_message_id": 40200,
-      "last_check_time": 1794730712.3994956
+      "last_message_id": 40203,
+      "last_check_time": 1794731124.0254471
     },
     "aniscoupons": {
-      "last_message_id": 34943,
-      "last_check_time": 1794730340.4846497
+      "last_message_id": 34944,
+      "last_check_time": 1794731129.80643
     },
     "bnddeals": {
       "last_message_id": 51304,
@@ -4869,7 +4869,7 @@
   "published_product_prices": {
     "1005012973772517": 217.8,
     "1005010219205081": 57.2,
-    "1005007805638431": 21.2,
+    "1005007805638431": 22.3,
     "1005007027334636": 13.49,
     "1005009054706827": 23.1,
     "1005007961216287": 20.26,
@@ -25036,6 +25036,26 @@
       "price": 12.11,
       "timestamp": 1794730338.4203367,
       "status": "ACTIVE"
+    },
+    "zedstoreonline:40203": {
+      "channel_msg_id": 2773,
+      "product_id": "1005008684239370",
+      "title": "MAONO Wave T1 Mini Pro Wireless Lavalier Microphone",
+      "channel": "zedstoreonline",
+      "source_msg_id": 40203,
+      "price": 9.2,
+      "timestamp": 1794731121.904425,
+      "status": "ACTIVE"
+    },
+    "aniscoupons:34944": {
+      "channel_msg_id": 2774,
+      "product_id": "1005007805638431",
+      "title": "Attack Shark X11",
+      "channel": "aniscoupons",
+      "source_msg_id": 34944,
+      "price": 22.3,
+      "timestamp": 1794731127.7284281,
+      "status": "ACTIVE"
     }
   },
   "schedule_config": {
@@ -25044,17 +25064,17 @@
     "current_interval_minutes": 5,
     "is_paused": false,
     "night_mode_enabled": true,
-    "last_deal_post_time": 1794730341.3031454,
+    "last_deal_post_time": 1794731130.8241434,
     "night_start_hour_dz": 0,
     "night_end_hour_dz": 8,
     "night_pause_enabled": true,
-    "last_sweep_time": 1794730716.6128025,
+    "last_sweep_time": 1794731134.1480012,
     "last_sweep_times": {
-      "algeria": 1794730713.6727874,
-      "france": 1794730716.6128025
+      "algeria": 1794731130.7897496,
+      "france": 1794731134.1480012
     },
     "last_deal_post_times": {
-      "algeria": 1794730341.3031454
+      "algeria": 1794731130.8241434
     }
   },
   "last_coin_reminder_time": 1794533888.682542,
@@ -27772,7 +27792,6 @@
   "published_deals_history": {},
   "settings": {},
   "handled_post_keys": [
-    "lodydeals:46183",
     "lodydeals:46184",
     "lodydeals:46185",
     "lodydeals:46186",
@@ -28771,7 +28790,8 @@
     "lodydeals:46521",
     "zedstoreonline:40197",
     "zedstoreonline:40198",
-    "zedstoreonline:40200"
+    "zedstoreonline:40200",
+    "zedstoreonline:40201"
   ],
   "last_france_cross_promo_time": 1794553348.8480208,
   "next_france_cross_promo_interval_seconds": 334302,
@@ -29365,11 +29385,6 @@
     ],
     "1005012726037568": [
       {
-        "channel": "lodydeals",
-        "ts": 1794687203.85881,
-        "price": 7.4
-      },
-      {
         "channel": "aniscoupons",
         "ts": 1794688506.9778938,
         "price": 7.47
@@ -29440,6 +29455,27 @@
         "channel": "zedstoreonline",
         "ts": 1794730330.5784533,
         "price": 36.5
+      }
+    ],
+    "1005007805497968": [
+      {
+        "channel": "zedstoreonline",
+        "ts": 1794731117.7575493,
+        "price": 19.0
+      }
+    ],
+    "1005008684239370": [
+      {
+        "channel": "zedstoreonline",
+        "ts": 1794731119.3882515,
+        "price": 9.2
+      }
+    ],
+    "1005007805638431": [
+      {
+        "channel": "aniscoupons",
+        "ts": 1794731125.5452342,
+        "price": 22.3
       }
     ]
   },
