@@ -1523,7 +1523,7 @@
     "1005010209911111": 1794068056.674266,
     "1005008295555234": 1794073127.8664527,
     "1005008645323478": 1794742056.01748,
-    "1005008636930795": 1794500738.761835,
+    "1005008636930795": 1794747089.3988028,
     "1005006260870758": 1794250569.5221198,
     "1005009759580502": 1794331533.1223195,
     "1005009120888793": 1794490594.9899428,
@@ -1636,7 +1636,7 @@
     "1005010218815499": 1794746348.161039,
     "1005011897409757": 1794593403.339319,
     "1005013203288194": 1794595430.2306583,
-    "1005010305059795": 1794597627.451524,
+    "1005010305059795": 1794747084.4936197,
     "1005013078612320": 1794732670.6786544,
     "1005007010612283": 1794599454.461018,
     "1005010788231460": 1794604060.7762444,
@@ -3574,7 +3574,7 @@
     "Soundcore by Anker Q20i Hybrid Active Noise Cancelling Headphones Wireless": 1794658033.5242174,
     "Zeblaze GTS 3 Pro Voice Calling AMOLED": 1793966727.646043,
     "GameSir X5 Lite Game Controller": 1794684437.8923078,
-    "Netac SSD NVME M2 250GB": 1794500738.761835,
+    "Netac SSD NVME M2 250GB": 1794747089.3988028,
     "Essager 20W GaN + cable": 1794598546.8080914,
     "Redmi Note 17 Pro Max": 1793966798.7696738,
     "CUSU SSD 512GB 1TB 2.5 Inch SATA SATA3 2TB 4TB Hard Drive SSD 240GB 256GB": 1794475632.0153844,
@@ -3799,7 +3799,7 @@
     "ماوس فخم Logitech G502 Hero": 1794591008.1982286,
     "ماوس لاسلكي Delux M800 Mini Series": 1794591382.6548223,
     "Lexar V400 USB3.0 64GB": 1794593403.339319,
-    "HAYLOU S40 ANC Wireless": 1794597627.451524,
+    "HAYLOU S40 ANC Wireless": 1794747084.4936197,
     "CUSU Memory DDR5 (16GB) 6000MHz": 1794598362.0815012,
     "Realme 15 Pro (12/512GB)": 1794746335.4476793,
     "MAONO T1 Plus Dual-Capsule Wireless Lavalier Microphone Lapel Microphone": 1794599278.9506347,
@@ -3860,8 +3860,6 @@
     "KOOTION SSD SATA3 128GB": 1794746294.8909137
   },
   "published_post_keys": [
-    "lodydeals:45984",
-    "lodydeals:45985",
     "lodydeals:45986",
     "lodydeals:45988",
     "lodydeals:45990",
@@ -4859,11 +4857,13 @@
     "aniscoupons:34990",
     "aniscoupons:34991",
     "aniscoupons:34992",
-    "zedstoreonline:40235"
+    "zedstoreonline:40235",
+    "zedstoreonline:40237",
+    "zedstoreonline:40238"
   ],
   "last_disclaimer_time": 1794524540.9476151,
   "last_calendar_time": 1794572799.8939624,
-  "last_run_time": 1794746687.3818107,
+  "last_run_time": 1794747089.3988028,
   "monitored_channels": {
     "ecksdeal": {
       "last_message_id": 6066,
@@ -4890,12 +4890,12 @@
       "last_check_time": 1793599663.3444748
     },
     "zedstoreonline": {
-      "last_message_id": 40235,
-      "last_check_time": 1794746689.4564397
+      "last_message_id": 40238,
+      "last_check_time": 1794747091.4670968
     },
     "aniscoupons": {
-      "last_message_id": 34995,
-      "last_check_time": 1794746369.4099128
+      "last_message_id": 34996,
+      "last_check_time": 1794747093.4728334
     },
     "bnddeals": {
       "last_message_id": 51305,
@@ -25761,6 +25761,26 @@
       "price": 18.1,
       "timestamp": 1794746687.3818107,
       "status": "ACTIVE"
+    },
+    "zedstoreonline:40237": {
+      "channel_msg_id": 2841,
+      "product_id": "1005010305059795",
+      "title": "HAYLOU S40 ANC Wireless",
+      "channel": "zedstoreonline",
+      "source_msg_id": 40237,
+      "price": 29.3,
+      "timestamp": 1794747084.4936197,
+      "status": "ACTIVE"
+    },
+    "zedstoreonline:40238": {
+      "channel_msg_id": 2842,
+      "product_id": "1005008636930795",
+      "title": "Netac SSD NVME M2 250GB",
+      "channel": "zedstoreonline",
+      "source_msg_id": 40238,
+      "price": 31.5,
+      "timestamp": 1794747089.3988028,
+      "status": "ACTIVE"
     }
   },
   "schedule_config": {
@@ -25769,17 +25789,17 @@
     "current_interval_minutes": 5,
     "is_paused": false,
     "night_mode_enabled": true,
-    "last_deal_post_time": 1794746690.8190556,
+    "last_deal_post_time": 1794747094.1177752,
     "night_start_hour_dz": 0,
     "night_end_hour_dz": 8,
     "night_pause_enabled": true,
-    "last_sweep_time": 1794746694.4521954,
+    "last_sweep_time": 1794747097.079497,
     "last_sweep_times": {
-      "algeria": 1794746690.7876294,
-      "france": 1794746694.4521954
+      "algeria": 1794747094.0938346,
+      "france": 1794747097.079497
     },
     "last_deal_post_times": {
-      "algeria": 1794746690.8190556
+      "algeria": 1794747094.1177752
     }
   },
   "last_coin_reminder_time": 1794533888.682542,
@@ -28515,8 +28535,6 @@
   "published_deals_history": {},
   "settings": {},
   "handled_post_keys": [
-    "zedstoreonline:39652",
-    "zedstoreonline:39653",
     "aniscoupons:34175",
     "aniscoupons:34176",
     "lodydeals:46202",
@@ -29514,7 +29532,9 @@
     "aniscoupons:34986",
     "aniscoupons:34993",
     "aniscoupons:34994",
-    "aniscoupons:34995"
+    "aniscoupons:34995",
+    "zedstoreonline:40236",
+    "aniscoupons:34996"
   ],
   "last_france_cross_promo_time": 1794553348.8480208,
   "next_france_cross_promo_interval_seconds": 334302,
@@ -30119,6 +30139,11 @@
         "channel": "aniscoupons",
         "ts": 1794746369.2770045,
         "price": 7.47
+      },
+      {
+        "channel": "aniscoupons",
+        "ts": 1794747093.3887467,
+        "price": 7.47
       }
     ],
     "1005012285327063": [
@@ -30655,6 +30680,11 @@
         "channel": "aniscoupons",
         "ts": 1794746324.682156,
         "price": 167.8
+      },
+      {
+        "channel": "zedstoreonline",
+        "ts": 1794747081.049379,
+        "price": 161.0
       }
     ],
     "1005010498953493": [
@@ -30697,6 +30727,20 @@
         "channel": "zedstoreonline",
         "ts": 1794746684.8930166,
         "price": 18.1
+      }
+    ],
+    "1005010305059795": [
+      {
+        "channel": "zedstoreonline",
+        "ts": 1794747081.8251197,
+        "price": 29.3
+      }
+    ],
+    "1005008636930795": [
+      {
+        "channel": "zedstoreonline",
+        "ts": 1794747087.182579,
+        "price": 31.5
       }
     ]
   },
