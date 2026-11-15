@@ -1349,7 +1349,7 @@
     "1005010158587315": 1793543677.5915465,
     "1005012790288780": 1793656271.0286891,
     "1005012345939726": 1793656202.4239671,
-    "1005010722422210": 1793543733.1622994,
+    "1005010722422210": 1794759250.0371616,
     "1005012582348584": 1794334097.945569,
     "1005012529582418": 1793543800.9051948,
     "1005008605565544": 1793543812.9442995,
@@ -2768,7 +2768,8 @@
     "FENVI WIFI 6 USB Adapter",
     "FENVI WiFi Adapter 1300Mbps",
     "KOOTION SSD SATA3 128GB",
-    "UnionSine External HDD 2TB"
+    "UnionSine External HDD 2TB",
+    "HONOR WIN RT 12/256GB"
   ],
   "published_title_timestamps": {
     "Xiaomi Redmi Note 17 5G Global Version": 1790857823.0117362,
@@ -3861,10 +3862,10 @@
     "FENVI WIFI 6 USB Adapter": 1794741980.2334778,
     "FENVI WiFi Adapter 1300Mbps": 1794741987.1669734,
     "KOOTION SSD SATA3 128GB": 1794746294.8909137,
-    "UnionSine External HDD 2TB": 1794755267.1243844
+    "UnionSine External HDD 2TB": 1794755267.1243844,
+    "HONOR WIN RT 12/256GB": 1794759250.0371616
   },
   "published_post_keys": [
-    "lodydeals:46012",
     "lodydeals:46013",
     "lodydeals:46014",
     "lodydeals:46015",
@@ -4863,11 +4864,12 @@
     "zedstoreonline:40251",
     "lodydeals:46562",
     "aniscoupons:35006",
-    "zedstoreonline:40255"
+    "zedstoreonline:40255",
+    "aniscoupons:35009"
   ],
   "last_disclaimer_time": 1794524540.9476151,
   "last_calendar_time": 1794572799.8939624,
-  "last_run_time": 1794758305.4381998,
+  "last_run_time": 1794759250.0371616,
   "monitored_channels": {
     "ecksdeal": {
       "last_message_id": 6066,
@@ -4898,8 +4900,8 @@
       "last_check_time": 1794758856.178644
     },
     "aniscoupons": {
-      "last_message_id": 35008,
-      "last_check_time": 1794757755.759565
+      "last_message_id": 35009,
+      "last_check_time": 1794759252.120356
     },
     "bnddeals": {
       "last_message_id": 51305,
@@ -5327,7 +5329,7 @@
     "1005010158587315": 141.02,
     "1005012790288780": 26.95,
     "1005012345939726": 18.62,
-    "1005010722422210": 398.07,
+    "1005010722422210": 405.99,
     "1005012582348584": 8.3,
     "1005012529582418": 12.6,
     "1005008605565544": 58.59,
@@ -25946,6 +25948,16 @@
       "price": 20.4,
       "timestamp": 1794758305.4381998,
       "status": "ACTIVE"
+    },
+    "aniscoupons:35009": {
+      "channel_msg_id": 2860,
+      "product_id": "1005010722422210",
+      "title": "HONOR WIN RT 12/256GB",
+      "channel": "aniscoupons",
+      "source_msg_id": 35009,
+      "price": 405.99,
+      "timestamp": 1794759250.0371616,
+      "status": "ACTIVE"
     }
   },
   "schedule_config": {
@@ -25954,17 +25966,17 @@
     "current_interval_minutes": 5,
     "is_paused": false,
     "night_mode_enabled": true,
-    "last_deal_post_time": 1794758308.7447762,
+    "last_deal_post_time": 1794759253.1790814,
     "night_start_hour_dz": 0,
     "night_end_hour_dz": 8,
     "night_pause_enabled": true,
-    "last_sweep_time": 1794758860.8758667,
+    "last_sweep_time": 1794759256.5347838,
     "last_sweep_times": {
-      "algeria": 1794758857.9172373,
-      "france": 1794758860.8758667
+      "algeria": 1794759253.1426883,
+      "france": 1794759256.5347838
     },
     "last_deal_post_times": {
-      "algeria": 1794758308.7447762
+      "algeria": 1794759253.1790814
     }
   },
   "last_coin_reminder_time": 1794533888.682542,
@@ -26494,7 +26506,7 @@
     "1005010158587315": "lodydeals",
     "1005012790288780": "lodydeals",
     "1005012345939726": "lodydeals",
-    "1005010722422210": "lodydeals",
+    "1005010722422210": "aniscoupons",
     "1005012582348584": "lodydeals",
     "1005012529582418": "ecksdeal",
     "1005008605565544": "ecksdeal",
@@ -27905,7 +27917,8 @@
     "FENVI WIFI 6 USB Adapter": "lodydeals",
     "FENVI WiFi Adapter 1300Mbps": "lodydeals",
     "KOOTION SSD SATA3 128GB": "lodydeals",
-    "UnionSine External HDD 2TB": "lodydeals"
+    "UnionSine External HDD 2TB": "lodydeals",
+    "HONOR WIN RT 12/256GB": "aniscoupons"
   },
   "religious_reminders_history": {
     "mock_rem": "2026-10-02",
@@ -31075,6 +31088,13 @@
         "channel": "zedstoreonline",
         "ts": 1794758302.833766,
         "price": 20.4
+      }
+    ],
+    "1005010722422210": [
+      {
+        "channel": "aniscoupons",
+        "ts": 1794759247.2329342,
+        "price": 405.99
       }
     ]
   },
