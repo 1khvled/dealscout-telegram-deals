@@ -1041,7 +1041,7 @@
     "1005011557896041": 1794671189.0928576,
     "1005011754993234": 1794649336.3759046,
     "1005011735727412": 1791943783.9162278,
-    "1005007916078341": 1794668573.9969933,
+    "1005007916078341": 1794732079.8854833,
     "1005006506862816": 1791947519.5815504,
     "1005008072923842": 1791968144.109348,
     "1005013336240375": 1791968149.7952893,
@@ -1605,7 +1605,7 @@
     "1005013288890301": 1794477157.5349603,
     "1005013089015192": 1794647055.558841,
     "1005009278114794": 1794647237.7084959,
-    "1005010210432531": 1794671419.696717,
+    "1005010210432531": 1794732086.6315477,
     "1005013422894128": 1794487083.9711623,
     "1005010297094897": 1794657082.5305285,
     "1005009012821000": 1794502225.0175712,
@@ -3541,7 +3541,7 @@
     "Haylou Solar NEO 2 Amoled": 1794693680.6924913,
     "HAYLOU S30 Wireless Bluetooth 5.4 Headphones": 1794313321.761044,
     "HAYLOU Solar Ultra GPS": 1794647061.6222503,
-    "NOTHING Watch 3 Pro": 1794668573.9969933,
+    "NOTHING Watch 3 Pro": 1794732079.8854833,
     "مشترك كهربائي ORICO PD25W – محطة شحن مكتبية تضم منفذي Type-C ومنفذي USB-A ومقبسين AC لشحن الأجهزة وت": 1793966711.2525856,
     "Baseus Mouse Bluetooth Wireless Computer 1600DPI": 1793966716.198834,
     "Soundcore by Anker Q20i Hybrid Active Noise Cancelling Headphones Wireless": 1794658033.5242174,
@@ -3743,7 +3743,7 @@
     "FIFINE 1440p Full HD PC Webcam with Microphone": 1794650936.0000904,
     "iQOO Z11S 8/128": 1794647055.558841,
     "Inphic A9 PRO MAX Wireless Gaming Mouse": 1794647237.7084959,
-    "realme P4 Lite Smartphone NFC 6300mAh Battery": 1794671419.696717,
+    "realme P4 Lite Smartphone NFC 6300mAh Battery": 1794732086.6315477,
     "Honor Win RT2": 1794487083.9711623,
     "MCHOSE A7 V3 Pro": 1794657082.5305285,
     "سماعات Fifine Ampligame H6 7.1 RGB": 1794496851.9006197,
@@ -3824,8 +3824,6 @@
     "Kootion X15 M.2 SSD 256GB": 1794730325.60486
   },
   "published_post_keys": [
-    "zedstoreonline:39167",
-    "zedstoreonline:39168",
     "zedstoreonline:39170",
     "zedstoreonline:39171",
     "zedstoreonline:39172",
@@ -4823,11 +4821,13 @@
     "aniscoupons:34944",
     "zedstoreonline:40204",
     "zedstoreonline:40205",
-    "aniscoupons:34946"
+    "aniscoupons:34946",
+    "zedstoreonline:40206",
+    "aniscoupons:34948"
   ],
   "last_disclaimer_time": 1794524540.9476151,
   "last_calendar_time": 1794572799.8939624,
-  "last_run_time": 1794731908.1908314,
+  "last_run_time": 1794732086.6315477,
   "monitored_channels": {
     "ecksdeal": {
       "last_message_id": 6065,
@@ -4854,12 +4854,12 @@
       "last_check_time": 1793599663.3444748
     },
     "zedstoreonline": {
-      "last_message_id": 40205,
-      "last_check_time": 1794731903.2856057
+      "last_message_id": 40206,
+      "last_check_time": 1794732081.963049
     },
     "aniscoupons": {
-      "last_message_id": 34947,
-      "last_check_time": 1794731911.2315109
+      "last_message_id": 34948,
+      "last_check_time": 1794732088.6937332
     },
     "bnddeals": {
       "last_message_id": 51305,
@@ -5088,7 +5088,7 @@
     "1005005875379717": 38.13,
     "1005013137396211": 316.0,
     "1005012575455222": 115.0,
-    "1005010210432531": 136.7,
+    "1005010210432531": 147.8,
     "1005010266487244": 12.95,
     "1005011904443903": 92.0,
     "1005010112746583": 47.9,
@@ -25086,6 +25086,26 @@
       "price": 11.16,
       "timestamp": 1794731908.1908314,
       "status": "ACTIVE"
+    },
+    "zedstoreonline:40206": {
+      "channel_msg_id": 2778,
+      "product_id": "1005007916078341",
+      "title": "NOTHING Watch 3 Pro",
+      "channel": "zedstoreonline",
+      "source_msg_id": 40206,
+      "price": 47.4,
+      "timestamp": 1794732079.8854833,
+      "status": "ACTIVE"
+    },
+    "aniscoupons:34948": {
+      "channel_msg_id": 2779,
+      "product_id": "1005010210432531",
+      "title": "realme P4 Lite Smartphone NFC 6300mAh Battery",
+      "channel": "aniscoupons",
+      "source_msg_id": 34948,
+      "price": 147.8,
+      "timestamp": 1794732086.6315477,
+      "status": "ACTIVE"
     }
   },
   "schedule_config": {
@@ -25094,17 +25114,17 @@
     "current_interval_minutes": 5,
     "is_paused": false,
     "night_mode_enabled": true,
-    "last_deal_post_time": 1794731913.915997,
+    "last_deal_post_time": 1794732089.7905843,
     "night_start_hour_dz": 0,
     "night_end_hour_dz": 8,
     "night_pause_enabled": true,
-    "last_sweep_time": 1794731917.7571454,
+    "last_sweep_time": 1794732093.58108,
     "last_sweep_times": {
-      "algeria": 1794731913.881431,
-      "france": 1794731917.7571454
+      "algeria": 1794732089.7633672,
+      "france": 1794732093.58108
     },
     "last_deal_post_times": {
-      "algeria": 1794731913.915997
+      "algeria": 1794732089.7905843
     }
   },
   "last_coin_reminder_time": 1794533888.682542,
@@ -29529,6 +29549,18 @@
         "channel": "aniscoupons",
         "ts": 1794731911.1175272,
         "price": 136.7
+      },
+      {
+        "channel": "aniscoupons",
+        "ts": 1794732083.8412251,
+        "price": 147.8
+      }
+    ],
+    "1005007916078341": [
+      {
+        "channel": "zedstoreonline",
+        "ts": 1794732077.0883408,
+        "price": 47.4
       }
     ]
   },
