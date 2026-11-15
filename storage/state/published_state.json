@@ -1666,7 +1666,7 @@
     "1005011551333926": 1794735719.2115917,
     "1005007336232520": 1794732848.3286283,
     "1005010043969798": 1794679093.780596,
-    "1005010376374580": 1794679272.8106956,
+    "1005010376374580": 1794758305.4381998,
     "1005010239860751": 1794689616.7178488,
     "1005009278862695": 1794687391.0146728,
     "1005013005786079": 1794688878.915808,
@@ -3840,7 +3840,7 @@
     "Ajazz AHW10 Head-mounted Wired Gaming": 1794735719.2115917,
     "AJAZZ AJ179 PRO PAW3395 Wireless Gaming Mouse with RGB Charging Base": 1794677812.6238942,
     "ميزان حرارة طبي رقمي صغير لقياس درجة حرارة الجسم": 1794679093.780596,
-    "Tribit PocketGo Portable Bluetooth Speaker": 1794679272.8106956,
+    "Tribit PocketGo Portable Bluetooth Speaker": 1794758305.4381998,
     "Delux M400 PAW3311 24000DPI 1Khz": 1794680859.9419408,
     "Blackview WAVE 7C 4/64GB": 1794682395.5974634,
     "FIFINE Wireless Lavalier Recording Microphone": 1794682951.3022494,
@@ -3864,7 +3864,6 @@
     "UnionSine External HDD 2TB": 1794755267.1243844
   },
   "published_post_keys": [
-    "ecksdeal:6028",
     "lodydeals:46012",
     "lodydeals:46013",
     "lodydeals:46014",
@@ -4863,11 +4862,12 @@
     "zedstoreonline:40250",
     "zedstoreonline:40251",
     "lodydeals:46562",
-    "aniscoupons:35006"
+    "aniscoupons:35006",
+    "zedstoreonline:40255"
   ],
   "last_disclaimer_time": 1794524540.9476151,
   "last_calendar_time": 1794572799.8939624,
-  "last_run_time": 1794755276.818788,
+  "last_run_time": 1794758305.4381998,
   "monitored_channels": {
     "ecksdeal": {
       "last_message_id": 6066,
@@ -4894,8 +4894,8 @@
       "last_check_time": 1793599663.3444748
     },
     "zedstoreonline": {
-      "last_message_id": 40254,
-      "last_check_time": 1794758121.779715
+      "last_message_id": 40255,
+      "last_check_time": 1794758307.4919367
     },
     "aniscoupons": {
       "last_message_id": 35008,
@@ -25936,6 +25936,16 @@
       "price": 285.79,
       "timestamp": 1794755276.818788,
       "status": "ACTIVE"
+    },
+    "zedstoreonline:40255": {
+      "channel_msg_id": 2859,
+      "product_id": "1005010376374580",
+      "title": "Tribit PocketGo Portable Bluetooth Speaker",
+      "channel": "zedstoreonline",
+      "source_msg_id": 40255,
+      "price": 20.4,
+      "timestamp": 1794758305.4381998,
+      "status": "ACTIVE"
     }
   },
   "schedule_config": {
@@ -25944,17 +25954,17 @@
     "current_interval_minutes": 5,
     "is_paused": false,
     "night_mode_enabled": true,
-    "last_deal_post_time": 1794755279.858811,
+    "last_deal_post_time": 1794758308.7447762,
     "night_start_hour_dz": 0,
     "night_end_hour_dz": 8,
     "night_pause_enabled": true,
-    "last_sweep_time": 1794758126.4586616,
+    "last_sweep_time": 1794758311.6219826,
     "last_sweep_times": {
-      "algeria": 1794758123.4841292,
-      "france": 1794758126.4586616
+      "algeria": 1794758308.7221465,
+      "france": 1794758311.6219826
     },
     "last_deal_post_times": {
-      "algeria": 1794755279.858811
+      "algeria": 1794758308.7447762
     }
   },
   "last_coin_reminder_time": 1794533888.682542,
@@ -31053,6 +31063,13 @@
         "channel": "zedstoreonline",
         "ts": 1794758121.6205769,
         "price": 285.0
+      }
+    ],
+    "1005010376374580": [
+      {
+        "channel": "zedstoreonline",
+        "ts": 1794758302.833766,
+        "price": 20.4
       }
     ]
   },
