@@ -833,7 +833,8 @@
     "1005006727646540",
     "1005012965284882",
     "1005004886782975",
-    "1005013168050663"
+    "1005013168050663",
+    "1005012970221631"
   ],
   "published_product_timestamps": {
     "1005012973772517": 1794500732.7845657,
@@ -1475,7 +1476,7 @@
     "1005013205365677": 1794390785.626018,
     "1005008429979494": 1793741666.9686077,
     "1005004795387201": 1793742770.1634803,
-    "1005010702983351": 1794677799.9420233,
+    "1005010702983351": 1794760450.4584036,
     "1005008366962319": 1794730325.60486,
     "1005005058037424": 1793779907.9964287,
     "1005012946895000": 1793793714.105913,
@@ -1682,7 +1683,8 @@
     "1005006727646540": 1794741987.1669734,
     "1005012965284882": 1794742028.7342756,
     "1005004886782975": 1794755267.1243844,
-    "1005013168050663": 1794759633.8642445
+    "1005013168050663": 1794759633.8642445,
+    "1005012970221631": 1794760460.6638489
   },
   "published_titles": [
     "Wireless WiFi Repeater 300Mbps WiFi Extender Amplifier Booster Router",
@@ -2772,7 +2774,8 @@
     "KOOTION SSD SATA3 128GB",
     "UnionSine External HDD 2TB",
     "HONOR WIN RT 12/256GB",
-    "INFLATABLE LAZY AIR SOFA"
+    "INFLATABLE LAZY AIR SOFA",
+    "Crucial RAM 8GB×2 DDR4 2400MHz"
   ],
   "published_title_timestamps": {
     "Xiaomi Redmi Note 17 5G Global Version": 1790857823.0117362,
@@ -3587,7 +3590,7 @@
     "CUSU SSD 512GB 1TB 2.5 Inch SATA SATA3 2TB 4TB Hard Drive SSD 240GB 256GB": 1794475632.0153844,
     "Fifine Gaming Headset H9W": 1794566561.968837,
     "Fifine Gaming Headset H6": 1794424534.1435025,
-    "HyperX Cloud 3 III Wired Gaming Headset": 1794436379.3016446,
+    "HyperX Cloud 3 III Wired Gaming Headset": 1794760450.4584036,
     "KOOTION SSD SATA": 1794659521.4318178,
     "ال mouse  الشهيرة رجعت🖱️": 1793966875.5755405,
     "هذون سماعات جدد من   HAYLOU⌚": 1793966887.3818936,
@@ -3867,11 +3870,10 @@
     "KOOTION SSD SATA3 128GB": 1794746294.8909137,
     "UnionSine External HDD 2TB": 1794755267.1243844,
     "HONOR WIN RT 12/256GB": 1794759250.0371616,
-    "INFLATABLE LAZY AIR SOFA": 1794759633.8642445
+    "INFLATABLE LAZY AIR SOFA": 1794759633.8642445,
+    "Crucial RAM 8GB×2 DDR4 2400MHz": 1794760460.6638489
   },
   "published_post_keys": [
-    "lodydeals:46014",
-    "lodydeals:46015",
     "lodydeals:46016",
     "lodydeals:46018",
     "lodydeals:46019",
@@ -4869,11 +4871,13 @@
     "aniscoupons:35006",
     "zedstoreonline:40255",
     "aniscoupons:35009",
-    "aniscoupons:35010"
+    "aniscoupons:35010",
+    "zedstoreonline:40259",
+    "aniscoupons:35011"
   ],
   "last_disclaimer_time": 1794524540.9476151,
   "last_calendar_time": 1794572799.8939624,
-  "last_run_time": 1794759633.8642445,
+  "last_run_time": 1794760460.6638489,
   "monitored_channels": {
     "ecksdeal": {
       "last_message_id": 6066,
@@ -4900,12 +4904,12 @@
       "last_check_time": 1793599663.3444748
     },
     "zedstoreonline": {
-      "last_message_id": 40257,
-      "last_check_time": 1794759630.0803647
+      "last_message_id": 40260,
+      "last_check_time": 1794760455.993962
     },
     "aniscoupons": {
-      "last_message_id": 35010,
-      "last_check_time": 1794759635.9350073
+      "last_message_id": 35012,
+      "last_check_time": 1794760463.7913446
     },
     "bnddeals": {
       "last_message_id": 51305,
@@ -5638,7 +5642,8 @@
     "1005006727646540": 5.69,
     "1005012965284882": 18.03,
     "1005004886782975": 64.14,
-    "1005013168050663": 9.4
+    "1005013168050663": 9.4,
+    "1005012970221631": 70.65
   },
   "channel_published_deals": {
     "aniscoupons:32590": {
@@ -25973,6 +25978,26 @@
       "price": 9.4,
       "timestamp": 1794759633.8642445,
       "status": "ACTIVE"
+    },
+    "zedstoreonline:40259": {
+      "channel_msg_id": 2862,
+      "product_id": "1005010702983351",
+      "title": "HyperX Cloud 3 III Wired Gaming Headset",
+      "channel": "zedstoreonline",
+      "source_msg_id": 40259,
+      "price": 69.6,
+      "timestamp": 1794760450.4584036,
+      "status": "ACTIVE"
+    },
+    "aniscoupons:35011": {
+      "channel_msg_id": 2863,
+      "product_id": "1005012970221631",
+      "title": "Crucial RAM 8GB×2 DDR4 2400MHz",
+      "channel": "aniscoupons",
+      "source_msg_id": 35011,
+      "price": 70.65,
+      "timestamp": 1794760460.6638489,
+      "status": "ACTIVE"
     }
   },
   "schedule_config": {
@@ -25981,17 +26006,17 @@
     "current_interval_minutes": 5,
     "is_paused": false,
     "night_mode_enabled": true,
-    "last_deal_post_time": 1794759636.8457003,
+    "last_deal_post_time": 1794760464.851905,
     "night_start_hour_dz": 0,
     "night_end_hour_dz": 8,
     "night_pause_enabled": true,
-    "last_sweep_time": 1794759639.8205733,
+    "last_sweep_time": 1794760468.1437767,
     "last_sweep_times": {
-      "algeria": 1794759636.8041847,
-      "france": 1794759639.8205733
+      "algeria": 1794760464.8189814,
+      "france": 1794760468.1437767
     },
     "last_deal_post_times": {
-      "algeria": 1794759636.8457003
+      "algeria": 1794760464.851905
     }
   },
   "last_coin_reminder_time": 1794533888.682542,
@@ -26634,7 +26659,7 @@
     "1005013205365677": "bnddeals",
     "1005008429979494": "lodydeals",
     "1005004795387201": "lodydeals",
-    "1005010702983351": "lodydeals",
+    "1005010702983351": "zedstoreonline",
     "1005008366962319": "lodydeals",
     "1005005058037424": "lodydeals",
     "1005012946895000": "lodydeals",
@@ -26838,7 +26863,8 @@
     "1005006727646540": "lodydeals",
     "1005012965284882": "ecksdeal",
     "1005004886782975": "lodydeals",
-    "1005013168050663": "aniscoupons"
+    "1005013168050663": "aniscoupons",
+    "1005012970221631": "aniscoupons"
   },
   "published_title_channels": {
     "Test Wrench Set": "test_channel",
@@ -27653,7 +27679,7 @@
     "CUSU SSD 512GB 1TB 2.5 Inch SATA SATA3 2TB 4TB Hard Drive SSD 240GB 256GB": "aniscoupons",
     "Fifine Gaming Headset H9W": "aniscoupons",
     "Fifine Gaming Headset H6": "aniscoupons",
-    "HyperX Cloud 3 III Wired Gaming Headset": "aniscoupons",
+    "HyperX Cloud 3 III Wired Gaming Headset": "zedstoreonline",
     "KOOTION SSD SATA": "aniscoupons",
     "ال mouse  الشهيرة رجعت🖱️": "bnddeals",
     "هذون سماعات جدد من   HAYLOU⌚": "bnddeals",
@@ -27935,7 +27961,8 @@
     "KOOTION SSD SATA3 128GB": "lodydeals",
     "UnionSine External HDD 2TB": "lodydeals",
     "HONOR WIN RT 12/256GB": "aniscoupons",
-    "INFLATABLE LAZY AIR SOFA": "aniscoupons"
+    "INFLATABLE LAZY AIR SOFA": "aniscoupons",
+    "Crucial RAM 8GB×2 DDR4 2400MHz": "aniscoupons"
   },
   "religious_reminders_history": {
     "mock_rem": "2026-10-02",
@@ -28732,9 +28759,6 @@
   "published_deals_history": {},
   "settings": {},
   "handled_post_keys": [
-    "aniscoupons:34193",
-    "bnddeals:51205",
-    "bnddeals:51206",
     "zedstoreonline:39662",
     "aniscoupons:34194",
     "bnddeals:51207",
@@ -29731,7 +29755,10 @@
     "zedstoreonline:40254",
     "lodydeals:46565",
     "zedstoreonline:40256",
-    "zedstoreonline:40257"
+    "zedstoreonline:40257",
+    "zedstoreonline:40258",
+    "zedstoreonline:40260",
+    "aniscoupons:35012"
   ],
   "last_france_cross_promo_time": 1794553348.8480208,
   "next_france_cross_promo_interval_seconds": 334302,
@@ -30867,6 +30894,11 @@
         "channel": "aniscoupons",
         "ts": 1794742097.2822313,
         "price": 409.36
+      },
+      {
+        "channel": "zedstoreonline",
+        "ts": 1794760455.4663339,
+        "price": 409.0
       }
     ],
     "1005012947477238": [
@@ -31117,6 +31149,20 @@
         "channel": "aniscoupons",
         "ts": 1794759247.2329342,
         "price": 405.99
+      }
+    ],
+    "1005010702983351": [
+      {
+        "channel": "zedstoreonline",
+        "ts": 1794760447.722892,
+        "price": 69.6
+      }
+    ],
+    "1005012970221631": [
+      {
+        "channel": "aniscoupons",
+        "ts": 1794760463.6738105,
+        "price": 70.65
       }
     ]
   },
