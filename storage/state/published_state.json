@@ -1197,7 +1197,7 @@
     "999888261": 1793280261.0669627,
     "1005008785149427": 1793281845.5693822,
     "1005012766583284": 1793448708.2553535,
-    "1005011557016158": 1794755276.818788,
+    "1005011557016158": 1794769611.8032277,
     "1005013451224718": 1793281883.4004252,
     "1005009120899585": 1793613389.897003,
     "1005010620332784": 1793467334.18714,
@@ -3742,7 +3742,7 @@
     "SoundPEATS C30 Hybrid ANC -52dB": 1794407013.7230165,
     "Somnambulist SSD 120GB": 1794524556.2538168,
     "Lexar ARES PRO NVMe SSD PCle5.0x4 M.2 1TB": 1794492627.75024,
-    "Realme P4 Power 8/256GB": 1794755276.818788,
+    "Realme P4 Power 8/256GB": 1794769611.8032277,
     "ASROCK X570M PRO4 MOTHERBOARD": 1794562340.4789197,
     "EASYSMX X05 PRO Controller": 1794478912.5670652,
     "ONEPLUS 16 12/256GB": 1794478726.13417,
@@ -3874,7 +3874,6 @@
     "Crucial RAM 8GB×2 DDR4 2400MHz": 1794760460.6638489
   },
   "published_post_keys": [
-    "lodydeals:46030",
     "lodydeals:46031",
     "lodydeals:46032",
     "lodydeals:46034",
@@ -4873,11 +4872,12 @@
     "aniscoupons:35015",
     "aniscoupons:35017",
     "zedstoreonline:40264",
-    "aniscoupons:35019"
+    "aniscoupons:35019",
+    "aniscoupons:35020"
   ],
   "last_disclaimer_time": 1794524540.9476151,
   "last_calendar_time": 1794572799.8939624,
-  "last_run_time": 1794769054.4354663,
+  "last_run_time": 1794769611.8032277,
   "monitored_channels": {
     "ecksdeal": {
       "last_message_id": 6066,
@@ -4908,8 +4908,8 @@
       "last_check_time": 1794768872.1941442
     },
     "aniscoupons": {
-      "last_message_id": 35019,
-      "last_check_time": 1794769056.4868495
+      "last_message_id": 35020,
+      "last_check_time": 1794769613.9252434
     },
     "bnddeals": {
       "last_message_id": 51305,
@@ -26068,6 +26068,16 @@
       "price": 44.2,
       "timestamp": 1794769054.4354663,
       "status": "ACTIVE"
+    },
+    "aniscoupons:35020": {
+      "channel_msg_id": 2872,
+      "product_id": "1005011557016158",
+      "title": "Realme P4 Power 8/256GB",
+      "channel": "aniscoupons",
+      "source_msg_id": 35020,
+      "price": 285.79,
+      "timestamp": 1794769611.8032277,
+      "status": "ACTIVE"
     }
   },
   "schedule_config": {
@@ -26076,17 +26086,17 @@
     "current_interval_minutes": 5,
     "is_paused": false,
     "night_mode_enabled": true,
-    "last_deal_post_time": 1794769057.3509898,
+    "last_deal_post_time": 1794769615.0407758,
     "night_start_hour_dz": 0,
     "night_end_hour_dz": 8,
     "night_pause_enabled": true,
-    "last_sweep_time": 1794769429.388678,
+    "last_sweep_time": 1794769618.3270762,
     "last_sweep_times": {
-      "algeria": 1794769426.224183,
-      "france": 1794769429.388678
+      "algeria": 1794769614.9999876,
+      "france": 1794769618.3270762
     },
     "last_deal_post_times": {
-      "algeria": 1794769057.3509898
+      "algeria": 1794769615.0407758
     }
   },
   "last_coin_reminder_time": 1794767542.171841,
@@ -31250,6 +31260,11 @@
         "channel": "zedstoreonline",
         "ts": 1794758121.6205769,
         "price": 285.0
+      },
+      {
+        "channel": "aniscoupons",
+        "ts": 1794769609.2669694,
+        "price": 285.79
       }
     ],
     "1005010376374580": [
@@ -31290,6 +31305,7 @@
   },
   "hot_repost_timestamps": {
     "1005012726037568": 1794688509.0853386,
-    "1005008708333999": 1794613227.9043555
+    "1005008708333999": 1794613227.9043555,
+    "1005011557016158": 1794769611.840472
   }
 }
