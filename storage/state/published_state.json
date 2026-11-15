@@ -1661,7 +1661,7 @@
     "1005007096763939": 1794746302.522696,
     "1005008341428946": 1794676338.751973,
     "1005007173814545": 1794676695.2288063,
-    "1005008077424799": 1794677244.3687112,
+    "1005008077424799": 1794748963.317494,
     "1005011551333926": 1794735719.2115917,
     "1005007336232520": 1794732848.3286283,
     "1005010043969798": 1794679093.780596,
@@ -3833,7 +3833,7 @@
     "DOOV R77 4G Touch (3/32GB)": 1794676338.751973,
     "Picun G1 Casque Gaming Sans Fil": 1794676695.2288063,
     "Baseus GH02 Gaming Headphones": 1794735354.793842,
-    "E-YOOSO X-39 USB Wired RGB Gaming Mouse": 1794677244.3687112,
+    "E-YOOSO X-39 USB Wired RGB Gaming Mouse": 1794748963.317494,
     "Ajazz AHW10 Head-mounted Wired Gaming": 1794735719.2115917,
     "AJAZZ AJ179 PRO PAW3395 Wireless Gaming Mouse with RGB Charging Base": 1794677812.6238942,
     "ميزان حرارة طبي رقمي صغير لقياس درجة حرارة الجسم": 1794679093.780596,
@@ -3860,7 +3860,6 @@
     "KOOTION SSD SATA3 128GB": 1794746294.8909137
   },
   "published_post_keys": [
-    "lodydeals:46001",
     "lodydeals:46002",
     "lodydeals:46004",
     "lodydeals:46005",
@@ -4859,11 +4858,12 @@
     "aniscoupons:34997",
     "zedstoreonline:40240",
     "aniscoupons:34998",
-    "aniscoupons:35000"
+    "aniscoupons:35000",
+    "zedstoreonline:40243"
   ],
   "last_disclaimer_time": 1794524540.9476151,
   "last_calendar_time": 1794572799.8939624,
-  "last_run_time": 1794748608.0872164,
+  "last_run_time": 1794748963.317494,
   "monitored_channels": {
     "ecksdeal": {
       "last_message_id": 6066,
@@ -4890,8 +4890,8 @@
       "last_check_time": 1793599663.3444748
     },
     "zedstoreonline": {
-      "last_message_id": 40242,
-      "last_check_time": 1794748601.6290345
+      "last_message_id": 40243,
+      "last_check_time": 1794748965.4003615
     },
     "aniscoupons": {
       "last_message_id": 35000,
@@ -25831,6 +25831,16 @@
       "price": 74.5,
       "timestamp": 1794748608.0872164,
       "status": "ACTIVE"
+    },
+    "zedstoreonline:40243": {
+      "channel_msg_id": 2848,
+      "product_id": "1005008077424799",
+      "title": "E-YOOSO X-39 USB Wired RGB Gaming Mouse",
+      "channel": "zedstoreonline",
+      "source_msg_id": 40243,
+      "price": 19.5,
+      "timestamp": 1794748963.317494,
+      "status": "ACTIVE"
     }
   },
   "schedule_config": {
@@ -25839,17 +25849,17 @@
     "current_interval_minutes": 5,
     "is_paused": false,
     "night_mode_enabled": true,
-    "last_deal_post_time": 1794748611.11271,
+    "last_deal_post_time": 1794748966.9456224,
     "night_start_hour_dz": 0,
     "night_end_hour_dz": 8,
     "night_pause_enabled": true,
-    "last_sweep_time": 1794748783.6605587,
+    "last_sweep_time": 1794748969.8462706,
     "last_sweep_times": {
-      "algeria": 1794748780.1905208,
-      "france": 1794748783.6605587
+      "algeria": 1794748966.909881,
+      "france": 1794748969.8462706
     },
     "last_deal_post_times": {
-      "algeria": 1794748611.11271
+      "algeria": 1794748966.9456224
     }
   },
   "last_coin_reminder_time": 1794533888.682542,
@@ -30839,6 +30849,13 @@
         "channel": "aniscoupons",
         "ts": 1794748603.6317925,
         "price": 74.5
+      }
+    ],
+    "1005008077424799": [
+      {
+        "channel": "zedstoreonline",
+        "ts": 1794748960.8536122,
+        "price": 19.5
       }
     ]
   },
