@@ -28,7 +28,7 @@
       "ewma": 0.9994
     },
     "zedstoreonline": {
-      "seen": 270,
+      "seen": 271,
       "published": 168,
       "skipped": 0,
       "ewma": 0.9994
@@ -60,7 +60,7 @@
       "ewma": 0.9994
     },
     "pc": {
-      "seen": 133,
+      "seen": 134,
       "published": 101,
       "skipped": 0,
       "ewma": 0.9994
@@ -1148,23 +1148,15 @@
     ]
   },
   "counters": {
-    "scored": 766,
-    "verdict_publish": 734,
+    "scored": 767,
+    "verdict_publish": 735,
     "verdict_hold": 32,
     "verdict_skip": 0,
     "published": 579,
     "skipped": 0
   },
-  "score_sum": 56350.3,
+  "score_sum": 56440.75,
   "recent_decisions": [
-    {
-      "ts": 1794664114,
-      "channel": "zedstoreonline",
-      "category": "pc",
-      "product_id": "1005008366962319",
-      "score": 72.69,
-      "verdict": "publish"
-    },
     {
       "ts": 1794664654,
       "channel": "lodydeals",
@@ -2756,7 +2748,15 @@
       "product_id": "1005007027334636",
       "score": 89.91,
       "verdict": "publish"
+    },
+    {
+      "ts": 1794772932,
+      "channel": "zedstoreonline",
+      "category": "pc",
+      "product_id": "1005007162099601",
+      "score": 90.45,
+      "verdict": "publish"
     }
   ],
-  "updated_at": 1794771570.0855234
+  "updated_at": 1794772932.0712113
 }
