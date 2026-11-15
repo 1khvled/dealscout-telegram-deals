@@ -1505,7 +1505,7 @@
     "1005010041181003": 1794746326.7990875,
     "1005010265542567": 1794131426.95932,
     "1005003156756854": 1794742071.9171333,
-    "1005010142208108": 1794302223.66585,
+    "1005010142208108": 1794753124.2973137,
     "1005008534907844": 1793987285.4130383,
     "1005009577554629": 1793987289.8200357,
     "1005010656922924": 1794407013.7230165,
@@ -3600,7 +3600,7 @@
     "Lexar ARES PRO NVMe SSD PCle5.0x4 1TB": 1794746326.7990875,
     "Ulanzi A200 Mini Wireless Lavalier Microphone": 1794131426.95932,
     "حامل هاتف Ulanzi ST-06S": 1794742071.9171333,
-    "AULA MINI60 HE PRO": 1794302223.66585,
+    "AULA MINI60 HE PRO": 1794753124.2973137,
     "Maono Wave T5 Wireless Mic": 1793987285.4130383,
     "SAMSUNG DDR3 8GB 1600v": 1793987289.8200357,
     "Realme 15 Pro (12/256GB)": 1794508546.500024,
@@ -3860,7 +3860,6 @@
     "KOOTION SSD SATA3 128GB": 1794746294.8909137
   },
   "published_post_keys": [
-    "lodydeals:46005",
     "lodydeals:46006",
     "lodydeals:46007",
     "lodydeals:46008",
@@ -4859,19 +4858,20 @@
     "aniscoupons:35000",
     "zedstoreonline:40243",
     "zedstoreonline:40245",
-    "aniscoupons:35001"
+    "aniscoupons:35001",
+    "lodydeals:46560"
   ],
   "last_disclaimer_time": 1794524540.9476151,
   "last_calendar_time": 1794572799.8939624,
-  "last_run_time": 1794750083.5513136,
+  "last_run_time": 1794753124.2973137,
   "monitored_channels": {
     "ecksdeal": {
       "last_message_id": 6066,
       "last_check_time": 1794742030.7923167
     },
     "lodydeals": {
-      "last_message_id": 46559,
-      "last_check_time": 1794752938.6102157
+      "last_message_id": 46560,
+      "last_check_time": 1794753126.3538733
     },
     "test_channel": {
       "last_message_id": 1793967703,
@@ -5466,7 +5466,7 @@
     "1005010041181003": 167.8,
     "1005010265542567": 24.89,
     "1005003156756854": 11.2,
-    "1005010142208108": 40.87,
+    "1005010142208108": 37.25,
     "1005008534907844": 50.86,
     "1005009577554629": 10.55,
     "1005010656922924": 19.46,
@@ -25861,6 +25861,16 @@
       "price": 177.8,
       "timestamp": 1794750083.5513136,
       "status": "ACTIVE"
+    },
+    "lodydeals:46560": {
+      "channel_msg_id": 2851,
+      "product_id": "1005010142208108",
+      "title": "AULA MINI60 HE PRO",
+      "channel": "lodydeals",
+      "source_msg_id": 46560,
+      "price": 37.25,
+      "timestamp": 1794753124.2973137,
+      "status": "ACTIVE"
     }
   },
   "schedule_config": {
@@ -25869,17 +25879,17 @@
     "current_interval_minutes": 5,
     "is_paused": false,
     "night_mode_enabled": true,
-    "last_deal_post_time": 1794750086.6263456,
+    "last_deal_post_time": 1794753128.5471275,
     "night_start_hour_dz": 0,
     "night_end_hour_dz": 8,
     "night_pause_enabled": true,
-    "last_sweep_time": 1794752944.392032,
+    "last_sweep_time": 1794753131.4174836,
     "last_sweep_times": {
-      "algeria": 1794752941.5558252,
-      "france": 1794752944.392032
+      "algeria": 1794753128.5253325,
+      "france": 1794753131.4174836
     },
     "last_deal_post_times": {
-      "algeria": 1794750086.6263456
+      "algeria": 1794753128.5471275
     }
   },
   "last_coin_reminder_time": 1794533888.682542,
@@ -30898,6 +30908,13 @@
         "channel": "aniscoupons",
         "ts": 1794750081.180845,
         "price": 177.8
+      }
+    ],
+    "1005010142208108": [
+      {
+        "channel": "lodydeals",
+        "ts": 1794753121.9903152,
+        "price": 37.25
       }
     ]
   },
