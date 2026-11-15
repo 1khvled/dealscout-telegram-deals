@@ -1514,7 +1514,7 @@
     "1005012925301774": 1794348808.2825344,
     "1005012959738411": 1794658966.3702009,
     "1005008357913212": 1794736341.444561,
-    "1005008703989845": 1794658227.562077,
+    "1005008703989845": 1794748608.0872164,
     "1005007162099601": 1794524556.2538168,
     "1005007038130594": 1794393500.1320646,
     "1005008248187128": 1794057675.8729835,
@@ -3548,7 +3548,7 @@
     "GameSir T4 Nova Lite": 1794141669.7207782,
     "Xiaoxin Pad Pro GT 8/256GB": 1793737359.999931,
     "EasyThreed 3D Printer Entry": 1793741666.9686077,
-    "CUSU SSD SATA 1TB": 1794658227.562077,
+    "CUSU SSD SATA 1TB": 1794748608.0872164,
     "MAONO PD400X USB/XLR": 1793742770.1634803,
     "HyperX Cloud 3 DTS": 1794677799.9420233,
     "KOOTION X15 M.2 Nvme 512GB": 1793969920.9023197,
@@ -3860,7 +3860,6 @@
     "KOOTION SSD SATA3 128GB": 1794746294.8909137
   },
   "published_post_keys": [
-    "lodydeals:45998",
     "lodydeals:46001",
     "lodydeals:46002",
     "lodydeals:46004",
@@ -4859,11 +4858,12 @@
     "zedstoreonline:40239",
     "aniscoupons:34997",
     "zedstoreonline:40240",
-    "aniscoupons:34998"
+    "aniscoupons:34998",
+    "aniscoupons:35000"
   ],
   "last_disclaimer_time": 1794524540.9476151,
   "last_calendar_time": 1794572799.8939624,
-  "last_run_time": 1794748034.594967,
+  "last_run_time": 1794748608.0872164,
   "monitored_channels": {
     "ecksdeal": {
       "last_message_id": 6066,
@@ -4890,12 +4890,12 @@
       "last_check_time": 1793599663.3444748
     },
     "zedstoreonline": {
-      "last_message_id": 40241,
-      "last_check_time": 1794748028.2698164
+      "last_message_id": 40242,
+      "last_check_time": 1794748601.6290345
     },
     "aniscoupons": {
-      "last_message_id": 34999,
-      "last_check_time": 1794748412.063904
+      "last_message_id": 35000,
+      "last_check_time": 1794748610.1639173
     },
     "bnddeals": {
       "last_message_id": 51305,
@@ -25821,6 +25821,16 @@
       "price": 82.4,
       "timestamp": 1794748034.594967,
       "status": "ACTIVE"
+    },
+    "aniscoupons:35000": {
+      "channel_msg_id": 2847,
+      "product_id": "1005008703989845",
+      "title": "CUSU SSD SATA 1TB",
+      "channel": "aniscoupons",
+      "source_msg_id": 35000,
+      "price": 74.5,
+      "timestamp": 1794748608.0872164,
+      "status": "ACTIVE"
     }
   },
   "schedule_config": {
@@ -25829,17 +25839,17 @@
     "current_interval_minutes": 5,
     "is_paused": false,
     "night_mode_enabled": true,
-    "last_deal_post_time": 1794748037.6232572,
+    "last_deal_post_time": 1794748611.11271,
     "night_start_hour_dz": 0,
     "night_end_hour_dz": 8,
     "night_pause_enabled": true,
-    "last_sweep_time": 1794748415.631663,
+    "last_sweep_time": 1794748613.8817284,
     "last_sweep_times": {
-      "algeria": 1794748412.901816,
-      "france": 1794748415.631663
+      "algeria": 1794748611.0649529,
+      "france": 1794748613.8817284
     },
     "last_deal_post_times": {
-      "algeria": 1794748037.6232572
+      "algeria": 1794748611.11271
     }
   },
   "last_coin_reminder_time": 1794533888.682542,
@@ -28575,7 +28585,6 @@
   "published_deals_history": {},
   "settings": {},
   "handled_post_keys": [
-    "lodydeals:46202",
     "lodydeals:46203",
     "aniscoupons:34177",
     "aniscoupons:34178",
@@ -29574,7 +29583,8 @@
     "zedstoreonline:40236",
     "aniscoupons:34996",
     "zedstoreonline:40241",
-    "aniscoupons:34999"
+    "aniscoupons:34999",
+    "zedstoreonline:40242"
   ],
   "last_france_cross_promo_time": 1794553348.8480208,
   "next_france_cross_promo_interval_seconds": 334302,
@@ -30681,6 +30691,11 @@
         "channel": "aniscoupons",
         "ts": 1794742118.1695342,
         "price": 366.0
+      },
+      {
+        "channel": "zedstoreonline",
+        "ts": 1794748600.982561,
+        "price": 366.0
       }
     ],
     "1005010485068924": [
@@ -30817,6 +30832,13 @@
         "channel": "aniscoupons",
         "ts": 1794748032.530032,
         "price": 82.4
+      }
+    ],
+    "1005008703989845": [
+      {
+        "channel": "aniscoupons",
+        "ts": 1794748603.6317925,
+        "price": 74.5
       }
     ]
   },
