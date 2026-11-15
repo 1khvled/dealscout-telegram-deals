@@ -1305,7 +1305,7 @@
     "COUPONS_d131dda7a0e3": 1793478717.5768087,
     "COUPONS_d131dda7": 1793478717.5923967,
     "COUPONS_11.11 Global Shopping Festival Warm-Up": 1793478717.5923967,
-    "1005008518280704": 1794650121.9041455,
+    "1005008518280704": 1794747846.3635185,
     "1005010527736444": 1793478769.6023057,
     "1005013450996845": 1794475091.4412947,
     "1005013144753309": 1794599828.9735007,
@@ -3791,7 +3791,7 @@
     "MAONO Wave T1 Plus Dual": 1794736350.4409838,
     "Luxury Quartz Watch": 1794577769.242665,
     "Maono Gamerwave DGM20S": 1794577943.6825492,
-    "CUSU SSD CV3500 M2 1TB": 1794650121.9041455,
+    "CUSU SSD CV3500 M2 1TB": 1794747846.3635185,
     "S80 Flash Drive USB 3.2 Type-A 128GB": 1794649534.468107,
     "ATK VXE Dragonfly V3 PRO": 1794733838.2777092,
     "Kingston DataTraveler USB 128GB": 1794589551.8961492,
@@ -3860,7 +3860,6 @@
     "KOOTION SSD SATA3 128GB": 1794746294.8909137
   },
   "published_post_keys": [
-    "lodydeals:45990",
     "lodydeals:45997",
     "lodydeals:45998",
     "lodydeals:46001",
@@ -4859,11 +4858,12 @@
     "zedstoreonline:40237",
     "zedstoreonline:40238",
     "zedstoreonline:40239",
-    "aniscoupons:34997"
+    "aniscoupons:34997",
+    "zedstoreonline:40240"
   ],
   "last_disclaimer_time": 1794524540.9476151,
   "last_calendar_time": 1794572799.8939624,
-  "last_run_time": 1794747485.8676856,
+  "last_run_time": 1794747846.3635185,
   "monitored_channels": {
     "ecksdeal": {
       "last_message_id": 6066,
@@ -4890,8 +4890,8 @@
       "last_check_time": 1793599663.3444748
     },
     "zedstoreonline": {
-      "last_message_id": 40239,
-      "last_check_time": 1794747481.9379408
+      "last_message_id": 40240,
+      "last_check_time": 1794747848.4668176
     },
     "aniscoupons": {
       "last_message_id": 34997,
@@ -25801,6 +25801,16 @@
       "price": 114.99,
       "timestamp": 1794747485.8676856,
       "status": "ACTIVE"
+    },
+    "zedstoreonline:40240": {
+      "channel_msg_id": 2845,
+      "product_id": "1005008518280704",
+      "title": "CUSU SSD CV3500 M2 1TB",
+      "channel": "zedstoreonline",
+      "source_msg_id": 40240,
+      "price": 179.16,
+      "timestamp": 1794747846.3635185,
+      "status": "ACTIVE"
     }
   },
   "schedule_config": {
@@ -25809,17 +25819,17 @@
     "current_interval_minutes": 5,
     "is_paused": false,
     "night_mode_enabled": true,
-    "last_deal_post_time": 1794747488.8358836,
+    "last_deal_post_time": 1794747850.090515,
     "night_start_hour_dz": 0,
     "night_end_hour_dz": 8,
     "night_pause_enabled": true,
-    "last_sweep_time": 1794747657.9166014,
+    "last_sweep_time": 1794747853.103977,
     "last_sweep_times": {
-      "algeria": 1794747655.269267,
-      "france": 1794747657.9166014
+      "algeria": 1794747850.0372844,
+      "france": 1794747853.103977
     },
     "last_deal_post_times": {
-      "algeria": 1794747488.8358836
+      "algeria": 1794747850.090515
     }
   },
   "last_coin_reminder_time": 1794533888.682542,
@@ -30773,6 +30783,13 @@
         "channel": "aniscoupons",
         "ts": 1794747483.8753927,
         "price": 114.99
+      }
+    ],
+    "1005008518280704": [
+      {
+        "channel": "zedstoreonline",
+        "ts": 1794747844.1743422,
+        "price": 179.16
       }
     ]
   },
