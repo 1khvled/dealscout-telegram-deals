@@ -846,7 +846,7 @@
     "9998883350": 1790883350.933217,
     "9998883398": 1790883398.457595,
     "9998883417": 1790883417.3833034,
-    "1005007805638431": 1794731127.7284281,
+    "1005007805638431": 1794781656.5939317,
     "1005009054706827": 1794307249.1472638,
     "1005007961216287": 1791942616.1564767,
     "1005009627597591": 1793542398.3843465,
@@ -1583,7 +1583,7 @@
     "1005007495712340": 1794475814.3090613,
     "1005009104334975": 1794421043.2176414,
     "1005012474727998": 1794320674.833981,
-    "1005006807619368": 1794589551.8961492,
+    "1005006807619368": 1794781664.5903678,
     "1005010653559191": 1794349536.4429784,
     "COUPON_CLAIM_zedstoreonline_39827": 1794363974.314961,
     "1005012197291105": 1794486534.4538748,
@@ -3715,7 +3715,7 @@
     "CUSU CV3500Q 2TB M.2": 1794305012.9961731,
     "MACHENIKE G5Pro Max SE With Charging Dock": 1794746364.5298474,
     "Xiaoxin Pad Pro GT (8/256)": 1794660072.7294455,
-    "Attack Shark X11": 1794731127.7284281,
+    "Attack Shark X11": 1794781656.5939317,
     "Mic USB Microphone with RGB Modes Professional Condenser Mic for": 1794436007.5288515,
     "MAONO PD100W USB Wireless Dynamic": 1794432872.6767933,
     "MAONO Wave T1 Mini Pro": 1794425282.6782186,
@@ -3810,7 +3810,7 @@
     "CUSU SSD CV3500 M2 1TB": 1794747846.3635185,
     "S80 Flash Drive USB 3.2 Type-A 128GB": 1794649534.468107,
     "ATK VXE Dragonfly V3 PRO": 1794733838.2777092,
-    "Kingston DataTraveler USB 128GB": 1794589551.8961492,
+    "Kingston DataTraveler USB 128GB": 1794781664.5903678,
     "Honor X80 Pro Max 8/128": 1794590278.0528092,
     "ماوس فخم Logitech G502 Hero": 1794591008.1982286,
     "ماوس لاسلكي Delux M800 Mini Series": 1794591382.6548223,
@@ -3884,8 +3884,6 @@
     "UGREEN GaN 100W": 1794781066.4824102
   },
   "published_post_keys": [
-    "lodydeals:46046",
-    "ecksdeal:6030",
     "lodydeals:46047",
     "lodydeals:46049",
     "lodydeals:46051",
@@ -4883,11 +4881,13 @@
     "aniscoupons:35029",
     "aniscoupons:35030",
     "zedstoreonline:40271",
-    "aniscoupons:35031"
+    "aniscoupons:35031",
+    "zedstoreonline:40272",
+    "zedstoreonline:40273"
   ],
   "last_disclaimer_time": 1794524540.9476151,
   "last_calendar_time": 1794572799.8939624,
-  "last_run_time": 1794781066.4824102,
+  "last_run_time": 1794781664.5903678,
   "monitored_channels": {
     "ecksdeal": {
       "last_message_id": 6066,
@@ -4914,8 +4914,8 @@
       "last_check_time": 1793599663.3444748
     },
     "zedstoreonline": {
-      "last_message_id": 40271,
-      "last_check_time": 1794781062.2573712
+      "last_message_id": 40273,
+      "last_check_time": 1794781666.657009
     },
     "aniscoupons": {
       "last_message_id": 35032,
@@ -26189,6 +26189,26 @@
       "price": 42.1,
       "timestamp": 1794781066.4824102,
       "status": "ACTIVE"
+    },
+    "zedstoreonline:40272": {
+      "channel_msg_id": 2883,
+      "product_id": "1005007805638431",
+      "title": "Attack Shark X11",
+      "channel": "zedstoreonline",
+      "source_msg_id": 40272,
+      "price": 22.3,
+      "timestamp": 1794781656.5939317,
+      "status": "ACTIVE"
+    },
+    "zedstoreonline:40273": {
+      "channel_msg_id": 2884,
+      "product_id": "1005006807619368",
+      "title": "Kingston DataTraveler USB 128GB",
+      "channel": "zedstoreonline",
+      "source_msg_id": 40273,
+      "price": 6.5,
+      "timestamp": 1794781664.5903678,
+      "status": "ACTIVE"
     }
   },
   "schedule_config": {
@@ -26197,17 +26217,17 @@
     "current_interval_minutes": 5,
     "is_paused": false,
     "night_mode_enabled": true,
-    "last_deal_post_time": 1794781069.536223,
+    "last_deal_post_time": 1794781668.1269083,
     "night_start_hour_dz": 0,
     "night_end_hour_dz": 8,
     "night_pause_enabled": true,
-    "last_sweep_time": 1794781252.295769,
+    "last_sweep_time": 1794781671.5513694,
     "last_sweep_times": {
-      "algeria": 1794781249.1243582,
-      "france": 1794781252.295769
+      "algeria": 1794781668.0982244,
+      "france": 1794781671.5513694
     },
     "last_deal_post_times": {
-      "algeria": 1794781069.536223
+      "algeria": 1794781668.1269083
     }
   },
   "last_coin_reminder_time": 1794767542.171841,
@@ -26713,7 +26733,7 @@
     "1005009627597591": "lodydeals",
     "1005013455514231": "lodydeals",
     "1005009578274758": "lodydeals",
-    "1005007805638431": "aniscoupons",
+    "1005007805638431": "zedstoreonline",
     "1005010413332383": "aniscoupons",
     "1005011550075220": "ecksdeal",
     "1005009806856302": "aniscoupons",
@@ -27992,7 +28012,7 @@
     "CUSU CV3500Q 2TB M.2": "lodydeals",
     "MACHENIKE G5Pro Max SE With Charging Dock": "aniscoupons",
     "Xiaoxin Pad Pro GT (8/256)": "aniscoupons",
-    "Attack Shark X11": "aniscoupons",
+    "Attack Shark X11": "zedstoreonline",
     "Mic USB Microphone with RGB Modes Professional Condenser Mic for": "aniscoupons",
     "MAONO PD100W USB Wireless Dynamic": "aniscoupons",
     "MAONO Wave T1 Mini Pro": "aniscoupons",
@@ -31236,6 +31256,20 @@
         "channel": "aniscoupons",
         "ts": 1794781064.1449764,
         "price": 42.1
+      }
+    ],
+    "1005007805638431": [
+      {
+        "channel": "zedstoreonline",
+        "ts": 1794781654.291785,
+        "price": 22.3
+      }
+    ],
+    "1005006807619368": [
+      {
+        "channel": "zedstoreonline",
+        "ts": 1794781662.4987738,
+        "price": 6.5
       }
     ]
   },
