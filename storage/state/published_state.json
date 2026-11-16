@@ -1276,7 +1276,7 @@
     "1005012675968319": 1793399525.3383162,
     "1005010424638496": 1794845289.860184,
     "1005010141682336": 1793399542.6698716,
-    "1005006782790827": 1794845385.6924558,
+    "1005006782790827": 1794863018.2939777,
     "1005012938359476": 1793448722.5382965,
     "1005012931209980": 1794678546.0543764,
     "1005011820893973": 1793540051.7895243,
@@ -1308,7 +1308,7 @@
     "1005011743605696": 1793478685.510433,
     "1005013037972159": 1793478690.5572577,
     "1005013081860728": 1793478695.1820586,
-    "1005013045114640": 1793478701.5762863,
+    "1005013045114640": 1794863026.9329176,
     "COUPONS_d131dda7a0e3": 1793478717.5768087,
     "COUPONS_d131dda7": 1793478717.5923967,
     "COUPONS_11.11 Global Shopping Festival Warm-Up": 1793478717.5923967,
@@ -2797,7 +2797,9 @@
     "NEW AMD R5 9600X CPU RYZNE 5 9600X Desktop Game Processor No Fan",
     "FANTECH WGP13S WIRELESS GAMEPAD",
     "HOCO Retro PU Leather",
-    "1:16 Scale Remote Control Monster"
+    "1:16 Scale Remote Control Monster",
+    "Magcubic C Pro Projector",
+    "MSI PRO B650-P WIFI 6E USED"
   ],
   "published_title_timestamps": {
     "Xiaomi Redmi Note 17 5G Global Version": 1790857823.0117362,
@@ -3907,11 +3909,11 @@
     "NEW AMD R5 9600X CPU RYZNE 5 9600X Desktop Game Processor No Fan": 1794852909.5572178,
     "FANTECH WGP13S WIRELESS GAMEPAD": 1794852953.5188413,
     "HOCO Retro PU Leather": 1794852971.2646165,
-    "1:16 Scale Remote Control Monster": 1794861887.139496
+    "1:16 Scale Remote Control Monster": 1794861887.139496,
+    "Magcubic C Pro Projector": 1794863018.2939777,
+    "MSI PRO B650-P WIFI 6E USED": 1794863026.9329176
   },
   "published_post_keys": [
-    "lodydeals:46179",
-    "lodydeals:46181",
     "lodydeals:46187",
     "aniscoupons:34144",
     "zedstoreonline:39627",
@@ -4909,19 +4911,21 @@
     "aniscoupons:35113",
     "lodydeals:46615",
     "lodydeals:46617",
-    "lodydeals:46619"
+    "lodydeals:46619",
+    "lodydeals:46621",
+    "aniscoupons:35114"
   ],
   "last_disclaimer_time": 1794524540.9476151,
   "last_calendar_time": 1794572799.8939624,
-  "last_run_time": 1794861893.2586784,
+  "last_run_time": 1794863026.9329176,
   "monitored_channels": {
     "ecksdeal": {
       "last_message_id": 6075,
       "last_check_time": 1794855985.2516208
     },
     "lodydeals": {
-      "last_message_id": 46620,
-      "last_check_time": 1794862252.9123693
+      "last_message_id": 46621,
+      "last_check_time": 1794863020.3588552
     },
     "test_channel": {
       "last_message_id": 1793967703,
@@ -4944,8 +4948,8 @@
       "last_check_time": 1794861327.572817
     },
     "aniscoupons": {
-      "last_message_id": 35113,
-      "last_check_time": 1794860230.7117777
+      "last_message_id": 35114,
+      "last_check_time": 1794863028.9935346
     },
     "bnddeals": {
       "last_message_id": 51307,
@@ -5300,7 +5304,7 @@
     "1005012675968319": 30.0,
     "1005010424638496": 113.9,
     "1005010141682336": 224.0,
-    "1005006782790827": 47.5,
+    "1005006782790827": 47.51,
     "1005012938359476": 123.17,
     "1005012931209980": 272.04,
     "1005011820893973": 690.0,
@@ -5332,7 +5336,7 @@
     "1005011743605696": 113.98,
     "1005013037972159": 85.7,
     "1005013081860728": 103.98,
-    "1005013045114640": 94.7,
+    "1005013045114640": 100.4,
     "1005008518280704": 179.16,
     "1005010527736444": 298.0,
     "1005013450996845": 212.48,
@@ -27008,6 +27012,26 @@
       "price": 138.13,
       "timestamp": 1794861893.2586784,
       "status": "ACTIVE"
+    },
+    "lodydeals:46621": {
+      "channel_msg_id": 2993,
+      "product_id": "1005006782790827",
+      "title": "Magcubic C Pro Projector",
+      "channel": "lodydeals",
+      "source_msg_id": 46621,
+      "price": 47.51,
+      "timestamp": 1794863018.2939777,
+      "status": "ACTIVE"
+    },
+    "aniscoupons:35114": {
+      "channel_msg_id": 2994,
+      "product_id": "1005013045114640",
+      "title": "MSI PRO B650-P WIFI 6E USED",
+      "channel": "aniscoupons",
+      "source_msg_id": 35114,
+      "price": 100.4,
+      "timestamp": 1794863026.9329176,
+      "status": "ACTIVE"
     }
   },
   "schedule_config": {
@@ -27016,17 +27040,17 @@
     "current_interval_minutes": 5,
     "is_paused": false,
     "night_mode_enabled": true,
-    "last_deal_post_time": 1794861899.7177355,
+    "last_deal_post_time": 1794863029.7966442,
     "night_start_hour_dz": 0,
     "night_end_hour_dz": 8,
     "night_pause_enabled": true,
-    "last_sweep_time": 1794862807.0512693,
+    "last_sweep_time": 1794863032.5702763,
     "last_sweep_times": {
-      "algeria": 1794862803.5118046,
-      "france": 1794862807.0512693
+      "algeria": 1794863029.7699184,
+      "france": 1794863032.5702763
     },
     "last_deal_post_times": {
-      "algeria": 1794861899.7177355
+      "algeria": 1794863029.7966442
     }
   },
   "last_coin_reminder_time": 1794767542.171841,
@@ -27476,7 +27500,7 @@
     "1005012675968319": "aniscoupons",
     "1005010424638496": "zedstoreonline",
     "1005010141682336": "aniscoupons",
-    "1005006782790827": "aniscoupons",
+    "1005006782790827": "lodydeals",
     "1005012938359476": "aniscoupons",
     "1005012931209980": "lodydeals",
     "1005011820893973": "megaphonna",
@@ -27508,7 +27532,7 @@
     "1005011743605696": "lodydeals",
     "1005013037972159": "lodydeals",
     "1005013081860728": "lodydeals",
-    "1005013045114640": "lodydeals",
+    "1005013045114640": "aniscoupons",
     "COUPONS_d131dda7a0e3": "lodydeals",
     "1005008518280704": "zedstoreonline",
     "1005010527736444": "zedstoreonline",
@@ -28990,7 +29014,9 @@
     "NEW AMD R5 9600X CPU RYZNE 5 9600X Desktop Game Processor No Fan": "lodydeals",
     "FANTECH WGP13S WIRELESS GAMEPAD": "aniscoupons",
     "HOCO Retro PU Leather": "aniscoupons",
-    "1:16 Scale Remote Control Monster": "lodydeals"
+    "1:16 Scale Remote Control Monster": "lodydeals",
+    "Magcubic C Pro Projector": "lodydeals",
+    "MSI PRO B650-P WIFI 6E USED": "aniscoupons"
   },
   "religious_reminders_history": {
     "mock_rem": "2026-10-02",
@@ -31834,6 +31860,11 @@
         "channel": "aniscoupons",
         "ts": 1794845382.4469771,
         "price": 47.5
+      },
+      {
+        "channel": "lodydeals",
+        "ts": 1794863016.351509,
+        "price": 47.51
       }
     ],
     "1005012135177627": [
@@ -32121,6 +32152,13 @@
         "channel": "lodydeals",
         "ts": 1794861890.3167844,
         "price": 138.13
+      }
+    ],
+    "1005013045114640": [
+      {
+        "channel": "aniscoupons",
+        "ts": 1794863024.8967776,
+        "price": 100.4
       }
     ]
   },
