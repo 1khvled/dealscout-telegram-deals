@@ -1213,7 +1213,7 @@
     "1005013351519067": 1793448628.3734028,
     "1005012484784752": 1794660067.2240539,
     "1005013222140851": 1794732855.3959744,
-    "1005013438245033": 1794742099.4513018,
+    "1005013438245033": 1794845957.706943,
     "1005008986635164": 1793314892.9200466,
     "1005008327980403": 1794430852.2821708,
     "1005012838686691": 1794822577.4407666,
@@ -3167,7 +3167,7 @@
     "ViVO X300E 12/256": 1793282624.5538614,
     "Oneplus 13T 12/256GB": 1793299421.73227,
     "Anker USB C GaN Charger 30W": 1793299440.1984155,
-    "Realme GT8": 1794742099.4513018,
+    "Realme GT8": 1794845957.706943,
     "Realme C100  6/128GB": 1793448628.3734028,
     "معالج Ryzen 5 5600XT": 1793299476.5930903,
     "معالج Ryzen 7 5700X": 1794676874.7516313,
@@ -3892,7 +3892,6 @@
     "Realme C100d": 1794845527.6371076
   },
   "published_post_keys": [
-    "lodydeals:46154",
     "lodydeals:46158",
     "lodydeals:46159",
     "ecksdeal:6041",
@@ -4891,15 +4890,16 @@
     "aniscoupons:35084",
     "aniscoupons:35086",
     "aniscoupons:35088",
-    "aniscoupons:35089"
+    "aniscoupons:35089",
+    "aniscoupons:35083"
   ],
   "last_disclaimer_time": 1794524540.9476151,
   "last_calendar_time": 1794572799.8939624,
-  "last_run_time": 1794845534.0248806,
+  "last_run_time": 1794845957.706943,
   "monitored_channels": {
     "ecksdeal": {
       "last_message_id": 6069,
-      "last_check_time": 1794845257.1365469
+      "last_check_time": 1794845936.6031802
     },
     "lodydeals": {
       "last_message_id": 46598,
@@ -4922,12 +4922,12 @@
       "last_check_time": 1793599663.3444748
     },
     "zedstoreonline": {
-      "last_message_id": 40303,
-      "last_check_time": 1794845331.094587
+      "last_message_id": 40306,
+      "last_check_time": 1794845942.9378366
     },
     "aniscoupons": {
-      "last_message_id": 35093,
-      "last_check_time": 1794845555.4320753
+      "last_message_id": 35095,
+      "last_check_time": 1794845979.1209579
     },
     "bnddeals": {
       "last_message_id": 51307,
@@ -26727,6 +26727,16 @@
       "price": 212.48,
       "timestamp": 1794845534.0248806,
       "status": "ACTIVE"
+    },
+    "aniscoupons:35083": {
+      "channel_msg_id": 2967,
+      "product_id": "1005013438245033",
+      "title": "Realme GT8",
+      "channel": "aniscoupons",
+      "source_msg_id": 35083,
+      "price": 409.36,
+      "timestamp": 1794845957.706943,
+      "status": "ACTIVE"
     }
   },
   "schedule_config": {
@@ -26735,17 +26745,17 @@
     "current_interval_minutes": 5,
     "is_paused": false,
     "night_mode_enabled": true,
-    "last_deal_post_time": 1794845556.5967367,
+    "last_deal_post_time": 1794845980.0694268,
     "night_start_hour_dz": 0,
     "night_end_hour_dz": 8,
     "night_pause_enabled": true,
-    "last_sweep_time": 1794845560.9068568,
+    "last_sweep_time": 1794845982.9043138,
     "last_sweep_times": {
-      "algeria": 1794845556.5656576,
-      "france": 1794845560.9068568
+      "algeria": 1794845980.0386834,
+      "france": 1794845982.9043138
     },
     "last_deal_post_times": {
-      "algeria": 1794845556.5967367
+      "algeria": 1794845980.0694268
     }
   },
   "last_coin_reminder_time": 1794767542.171841,
@@ -29497,14 +29507,6 @@
   "published_deals_history": {},
   "settings": {},
   "handled_post_keys": [
-    "zedstoreonline:39685",
-    "bnddeals:51228",
-    "bnddeals:51229",
-    "zedstoreonline:39686",
-    "aniscoupons:34236",
-    "zedstoreonline:39688",
-    "zedstoreonline:39689",
-    "zedstoreonline:39690",
     "zedstoreonline:39691",
     "aniscoupons:34241",
     "lodydeals:46226",
@@ -30496,7 +30498,15 @@
     "aniscoupons:35085",
     "aniscoupons:35087",
     "aniscoupons:35091",
-    "aniscoupons:35093"
+    "aniscoupons:35093",
+    "ecksdeal:6067",
+    "zedstoreonline:40295",
+    "zedstoreonline:40306",
+    "aniscoupons:35079",
+    "aniscoupons:35080",
+    "aniscoupons:35090",
+    "aniscoupons:35092",
+    "aniscoupons:35095"
   ],
   "last_france_cross_promo_time": 1794553348.8480208,
   "next_france_cross_promo_interval_seconds": 334302,
@@ -31310,6 +31320,11 @@
         "channel": "ecksdeal",
         "ts": 1794845243.2569287,
         "price": 75.8
+      },
+      {
+        "channel": "ecksdeal",
+        "ts": 1794845936.542326,
+        "price": 75.8
       }
     ],
     "1005012533449539": [
@@ -31324,6 +31339,11 @@
         "channel": "zedstoreonline",
         "ts": 1794845261.8317494,
         "price": 240.7
+      },
+      {
+        "channel": "aniscoupons",
+        "ts": 1794845967.611547,
+        "price": 240.7
       }
     ],
     "1005008645323478": [
@@ -31337,6 +31357,11 @@
       {
         "channel": "zedstoreonline",
         "ts": 1794845276.8328989,
+        "price": 366.0
+      },
+      {
+        "channel": "aniscoupons",
+        "ts": 1794845951.4380395,
         "price": 366.0
       }
     ],
@@ -31377,6 +31402,11 @@
       {
         "channel": "zedstoreonline",
         "ts": 1794845303.5134797,
+        "price": 11.2
+      },
+      {
+        "channel": "zedstoreonline",
+        "ts": 1794845939.7248652,
         "price": 11.2
       }
     ],
@@ -31496,6 +31526,11 @@
         "channel": "aniscoupons",
         "ts": 1794845391.474204,
         "price": 177.8
+      },
+      {
+        "channel": "aniscoupons",
+        "ts": 1794845963.6675375,
+        "price": 177.7
       }
     ],
     "1005012138794873": [
@@ -31559,6 +31594,11 @@
         "channel": "aniscoupons",
         "ts": 1794845467.7751644,
         "price": 186.74
+      },
+      {
+        "channel": "zedstoreonline",
+        "ts": 1794845942.8080578,
+        "price": 186.7
       }
     ],
     "1005010788149535": [
@@ -31601,6 +31641,20 @@
         "channel": "aniscoupons",
         "ts": 1794845531.1457083,
         "price": 212.48
+      }
+    ],
+    "1005013438245033": [
+      {
+        "channel": "aniscoupons",
+        "ts": 1794845955.6686783,
+        "price": 409.36
+      }
+    ],
+    "1005012191191893": [
+      {
+        "channel": "aniscoupons",
+        "ts": 1794845973.093898,
+        "price": 228.3
       }
     ]
   },
