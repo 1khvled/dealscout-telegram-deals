@@ -837,7 +837,8 @@
     "1005012970221631",
     "1005008637007198",
     "1005008521959756",
-    "1005009982675898"
+    "1005009982675898",
+    "1005013565686677"
   ],
   "published_product_timestamps": {
     "1005012973772517": 1794500732.7845657,
@@ -1347,7 +1348,7 @@
     "1005010354926803": 1793542626.5536122,
     "1005009621100138": 1793542634.9331498,
     "1005004905380908": 1793542639.2483642,
-    "1005013081060247": 1793543567.486626,
+    "1005013081060247": 1794861893.2586784,
     "1005012498496817": 1794662824.2051413,
     "1005003413514494": 1793732921.385459,
     "1005008741607292": 1794660431.126332,
@@ -1690,7 +1691,8 @@
     "1005012970221631": 1794845521.714394,
     "1005008637007198": 1794771008.638466,
     "1005008521959756": 1794852895.9711866,
-    "1005009982675898": 1794852971.2646165
+    "1005009982675898": 1794852971.2646165,
+    "1005013565686677": 1794861887.139496
   },
   "published_titles": [
     "Wireless WiFi Repeater 300Mbps WiFi Extender Amplifier Booster Router",
@@ -2794,7 +2796,8 @@
     "FIFINE K688 USB/XLR Dynamic",
     "NEW AMD R5 9600X CPU RYZNE 5 9600X Desktop Game Processor No Fan",
     "FANTECH WGP13S WIRELESS GAMEPAD",
-    "HOCO Retro PU Leather"
+    "HOCO Retro PU Leather",
+    "1:16 Scale Remote Control Monster"
   ],
   "published_title_timestamps": {
     "Xiaomi Redmi Note 17 5G Global Version": 1790857823.0117362,
@@ -3249,7 +3252,7 @@
     "ONEPLUS ACE 6T (12/256)": 1793380546.8905725,
     "AMD Ryzen 7 7700": 1794488939.6119785,
     "ASROCK B550 PHANTOM": 1794732855.3959744,
-    "MSI PRO B850-P WIFI": 1793543567.486626,
+    "MSI PRO B850-P WIFI": 1794861893.2586784,
     "MSI X670E GAMING PLUS WIFI": 1794822577.4407666,
     "MSI PRO X870E-P WIFI AM5": 1794822570.4027405,
     "Vivo X300 Pro 5G 12/256GB": 1793384203.5839794,
@@ -3903,11 +3906,10 @@
     "FIFINE K688 USB/XLR Dynamic": 1794852901.0609643,
     "NEW AMD R5 9600X CPU RYZNE 5 9600X Desktop Game Processor No Fan": 1794852909.5572178,
     "FANTECH WGP13S WIRELESS GAMEPAD": 1794852953.5188413,
-    "HOCO Retro PU Leather": 1794852971.2646165
+    "HOCO Retro PU Leather": 1794852971.2646165,
+    "1:16 Scale Remote Control Monster": 1794861887.139496
   },
   "published_post_keys": [
-    "zedstoreonline:39624",
-    "aniscoupons:34143",
     "lodydeals:46179",
     "lodydeals:46181",
     "lodydeals:46187",
@@ -4905,19 +4907,21 @@
     "aniscoupons:35110",
     "aniscoupons:35112",
     "aniscoupons:35113",
-    "lodydeals:46615"
+    "lodydeals:46615",
+    "lodydeals:46617",
+    "lodydeals:46619"
   ],
   "last_disclaimer_time": 1794524540.9476151,
   "last_calendar_time": 1794572799.8939624,
-  "last_run_time": 1794861693.0207138,
+  "last_run_time": 1794861893.2586784,
   "monitored_channels": {
     "ecksdeal": {
       "last_message_id": 6075,
       "last_check_time": 1794855985.2516208
     },
     "lodydeals": {
-      "last_message_id": 46615,
-      "last_check_time": 1794861695.10623
+      "last_message_id": 46619,
+      "last_check_time": 1794861895.325088
     },
     "test_channel": {
       "last_message_id": 1793967703,
@@ -5678,7 +5682,8 @@
     "1005012970221631": 70.65,
     "1005008637007198": 52.39,
     "1005008521959756": 98.21,
-    "1005009982675898": 17.1
+    "1005009982675898": 17.1,
+    "1005013565686677": 12.03
   },
   "channel_published_deals": {
     "aniscoupons:32590": {
@@ -26983,6 +26988,26 @@
       "price": 4.89,
       "timestamp": 1794861693.0207138,
       "status": "ACTIVE"
+    },
+    "lodydeals:46617": {
+      "channel_msg_id": 2991,
+      "product_id": "1005013565686677",
+      "title": "1:16 Scale Remote Control Monster",
+      "channel": "lodydeals",
+      "source_msg_id": 46617,
+      "price": 12.03,
+      "timestamp": 1794861887.139496,
+      "status": "ACTIVE"
+    },
+    "lodydeals:46619": {
+      "channel_msg_id": 2992,
+      "product_id": "1005013081060247",
+      "title": "MSI PRO B850-P WIFI",
+      "channel": "lodydeals",
+      "source_msg_id": 46619,
+      "price": 138.13,
+      "timestamp": 1794861893.2586784,
+      "status": "ACTIVE"
     }
   },
   "schedule_config": {
@@ -26991,17 +27016,17 @@
     "current_interval_minutes": 5,
     "is_paused": false,
     "night_mode_enabled": true,
-    "last_deal_post_time": 1794861699.633804,
+    "last_deal_post_time": 1794861899.7177355,
     "night_start_hour_dz": 0,
     "night_end_hour_dz": 8,
     "night_pause_enabled": true,
-    "last_sweep_time": 1794861702.86006,
+    "last_sweep_time": 1794861904.090446,
     "last_sweep_times": {
-      "algeria": 1794861699.5965517,
-      "france": 1794861702.86006
+      "algeria": 1794861899.6869402,
+      "france": 1794861904.090446
     },
     "last_deal_post_times": {
-      "algeria": 1794861699.633804
+      "algeria": 1794861899.7177355
     }
   },
   "last_coin_reminder_time": 1794767542.171841,
@@ -27852,7 +27877,8 @@
     "1005012970221631": "aniscoupons",
     "1005008637007198": "lodydeals",
     "1005008521959756": "lodydeals",
-    "1005009982675898": "aniscoupons"
+    "1005009982675898": "aniscoupons",
+    "1005013565686677": "lodydeals"
   },
   "published_title_channels": {
     "Test Wrench Set": "test_channel",
@@ -28963,7 +28989,8 @@
     "FIFINE K688 USB/XLR Dynamic": "lodydeals",
     "NEW AMD R5 9600X CPU RYZNE 5 9600X Desktop Game Processor No Fan": "lodydeals",
     "FANTECH WGP13S WIRELESS GAMEPAD": "aniscoupons",
-    "HOCO Retro PU Leather": "aniscoupons"
+    "HOCO Retro PU Leather": "aniscoupons",
+    "1:16 Scale Remote Control Monster": "lodydeals"
   },
   "religious_reminders_history": {
     "mock_rem": "2026-10-02",
@@ -29760,8 +29787,6 @@
   "published_deals_history": {},
   "settings": {},
   "handled_post_keys": [
-    "bnddeals:51232",
-    "zedstoreonline:39702",
     "aniscoupons:34258",
     "zedstoreonline:39703",
     "aniscoupons:34261",
@@ -30759,7 +30784,9 @@
     "zedstoreonline:40312",
     "aniscoupons:35111",
     "zedstoreonline:40313",
-    "lodydeals:46614"
+    "lodydeals:46614",
+    "lodydeals:46616",
+    "lodydeals:46618"
   ],
   "last_france_cross_promo_time": 1794553348.8480208,
   "next_france_cross_promo_interval_seconds": 334302,
@@ -32087,6 +32114,13 @@
         "channel": "lodydeals",
         "ts": 1794861690.7571595,
         "price": 4.89
+      }
+    ],
+    "1005013081060247": [
+      {
+        "channel": "lodydeals",
+        "ts": 1794861890.3167844,
+        "price": 138.13
       }
     ]
   },
