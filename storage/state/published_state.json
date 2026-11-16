@@ -1597,7 +1597,7 @@
     "1005008774483451": 1794735713.9376893,
     "1005012639349629": 1794579990.5893576,
     "1005010153422760": 1794487260.3295033,
-    "1005012809141747": 1794661908.7439618,
+    "1005012809141747": 1794846136.1841142,
     "1005012912160949": 1794845433.959343,
     "1005012167744546": 1794437860.4294534,
     "1005009582538267": 1794439531.0399334,
@@ -3765,7 +3765,7 @@
     "KOOTION M.2 512GB 7200Mbs": 1794430852.2821708,
     "HONOR X80 PRO MAX": 1794657860.5278585,
     "DJI Osmo mobile": 1794487260.3295033,
-    "OPPO K15 12/256GB": 1794661908.7439618,
+    "OPPO K15 12/256GB": 1794846136.1841142,
     "Lenovo Legion Y70 2026 Gamin(12/512GB)": 1794845433.959343,
     "KINGSTON DATA TRAVELER USB3.2 (128G)": 1794438803.0185766,
     "Essager Mini 30W Type C Charger PD": 1794438972.1864517,
@@ -3892,7 +3892,6 @@
     "Realme C100d": 1794845527.6371076
   },
   "published_post_keys": [
-    "lodydeals:46158",
     "lodydeals:46159",
     "ecksdeal:6041",
     "lodydeals:46161",
@@ -4891,11 +4890,12 @@
     "aniscoupons:35086",
     "aniscoupons:35088",
     "aniscoupons:35089",
-    "aniscoupons:35083"
+    "aniscoupons:35083",
+    "aniscoupons:35096"
   ],
   "last_disclaimer_time": 1794524540.9476151,
   "last_calendar_time": 1794572799.8939624,
-  "last_run_time": 1794845957.706943,
+  "last_run_time": 1794846136.1841142,
   "monitored_channels": {
     "ecksdeal": {
       "last_message_id": 6069,
@@ -4926,8 +4926,8 @@
       "last_check_time": 1794845942.9378366
     },
     "aniscoupons": {
-      "last_message_id": 35095,
-      "last_check_time": 1794845979.1209579
+      "last_message_id": 35097,
+      "last_check_time": 1794846142.1269064
     },
     "bnddeals": {
       "last_message_id": 51307,
@@ -26737,6 +26737,16 @@
       "price": 409.36,
       "timestamp": 1794845957.706943,
       "status": "ACTIVE"
+    },
+    "aniscoupons:35096": {
+      "channel_msg_id": 2968,
+      "product_id": "1005012809141747",
+      "title": "OPPO K15 12/256GB",
+      "channel": "aniscoupons",
+      "source_msg_id": 35096,
+      "price": 349.4,
+      "timestamp": 1794846136.1841142,
+      "status": "ACTIVE"
     }
   },
   "schedule_config": {
@@ -26745,17 +26755,17 @@
     "current_interval_minutes": 5,
     "is_paused": false,
     "night_mode_enabled": true,
-    "last_deal_post_time": 1794845980.0694268,
+    "last_deal_post_time": 1794846143.0377216,
     "night_start_hour_dz": 0,
     "night_end_hour_dz": 8,
     "night_pause_enabled": true,
-    "last_sweep_time": 1794845982.9043138,
+    "last_sweep_time": 1794846146.3048549,
     "last_sweep_times": {
-      "algeria": 1794845980.0386834,
-      "france": 1794845982.9043138
+      "algeria": 1794846143.0154088,
+      "france": 1794846146.3048549
     },
     "last_deal_post_times": {
-      "algeria": 1794845980.0694268
+      "algeria": 1794846143.0377216
     }
   },
   "last_coin_reminder_time": 1794767542.171841,
@@ -29507,8 +29517,6 @@
   "published_deals_history": {},
   "settings": {},
   "handled_post_keys": [
-    "zedstoreonline:39691",
-    "aniscoupons:34241",
     "lodydeals:46226",
     "zedstoreonline:39692",
     "lodydeals:46231",
@@ -30506,7 +30514,9 @@
     "aniscoupons:35080",
     "aniscoupons:35090",
     "aniscoupons:35092",
-    "aniscoupons:35095"
+    "aniscoupons:35095",
+    "aniscoupons:35094",
+    "aniscoupons:35097"
   ],
   "last_france_cross_promo_time": 1794553348.8480208,
   "next_france_cross_promo_interval_seconds": 334302,
@@ -31294,6 +31304,11 @@
         "channel": "lodydeals",
         "ts": 1794845213.0120504,
         "price": 153.04
+      },
+      {
+        "channel": "aniscoupons",
+        "ts": 1794846129.6628616,
+        "price": 153.0
       }
     ],
     "1005007805497968": [
@@ -31606,6 +31621,11 @@
         "channel": "aniscoupons",
         "ts": 1794845476.9678354,
         "price": 364.9
+      },
+      {
+        "channel": "aniscoupons",
+        "ts": 1794846142.0434642,
+        "price": 364.9
       }
     ],
     "1005012377459743": [
@@ -31655,6 +31675,13 @@
         "channel": "aniscoupons",
         "ts": 1794845973.093898,
         "price": 228.3
+      }
+    ],
+    "1005012809141747": [
+      {
+        "channel": "aniscoupons",
+        "ts": 1794846133.5366154,
+        "price": 349.4
       }
     ]
   },
