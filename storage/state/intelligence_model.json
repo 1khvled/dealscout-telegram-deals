@@ -46,16 +46,16 @@
       "ewma": 0.9994
     },
     "ecksdeal": {
-      "seen": 12,
-      "published": 10,
+      "seen": 14,
+      "published": 12,
       "skipped": 0,
-      "ewma": 0.7828
+      "ewma": 0.8162
     }
   },
   "category_stats": {
     "other": {
-      "seen": 309,
-      "published": 260,
+      "seen": 311,
+      "published": 262,
       "skipped": 0,
       "ewma": 0.9994
     },
@@ -376,7 +376,8 @@
     ],
     "1005010413332383": [
       340.3,
-      340.3
+      340.3,
+      340.38
     ],
     "1005009231510301": [
       259.7,
@@ -1216,34 +1217,21 @@
     ],
     "1005012533449539": [
       40.71
+    ],
+    "1005011550075220": [
+      124.53
     ]
   },
   "counters": {
-    "scored": 848,
-    "verdict_publish": 812,
+    "scored": 850,
+    "verdict_publish": 814,
     "verdict_hold": 36,
     "verdict_skip": 0,
-    "published": 640,
+    "published": 642,
     "skipped": 0
   },
-  "score_sum": 62217.55,
+  "score_sum": 62360.44,
   "recent_decisions": [
-    {
-      "ts": 1794731905,
-      "channel": "aniscoupons",
-      "category": "other",
-      "product_id": "1005010706574985",
-      "score": 74.06,
-      "verdict": "publish"
-    },
-    {
-      "ts": 1794731913,
-      "channel": "bnddeals",
-      "category": "other",
-      "product_id": "1005007096934754",
-      "score": 69.7,
-      "verdict": "publish"
-    },
     {
       "ts": 1794732077,
       "channel": "zedstoreonline",
@@ -2827,7 +2815,23 @@
       "product_id": "1005005951301259",
       "score": 79.66,
       "verdict": "publish"
+    },
+    {
+      "ts": 1794847051,
+      "channel": "ecksdeal",
+      "category": "other",
+      "product_id": "1005010413332383",
+      "score": 73.52,
+      "verdict": "publish"
+    },
+    {
+      "ts": 1794847070,
+      "channel": "ecksdeal",
+      "category": "other",
+      "product_id": "1005011550075220",
+      "score": 69.37,
+      "verdict": "publish"
     }
   ],
-  "updated_at": 1794846849.2838614
+  "updated_at": 1794847073.7409332
 }

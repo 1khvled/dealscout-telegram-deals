@@ -1329,8 +1329,8 @@
     "1005012135177627": 1794845393.90179,
     "1005013455514231": 1793542445.2859337,
     "1005009578274758": 1793542479.8362749,
-    "1005010413332383": 1794479904.193408,
-    "1005011550075220": 1793542531.6312253,
+    "1005010413332383": 1794847054.8094091,
+    "1005011550075220": 1794847073.6855137,
     "1005009806856302": 1794779736.0691626,
     "1005009980316035": 1793542552.2730343,
     "1005005905462505": 1794000865.9547298,
@@ -3352,8 +3352,8 @@
     "UGREEN HiTune S3 Earbuds": 1793542479.8362749,
     "OnePlus Ace 6T 5G 12/256GB": 1794742011.0691845,
     "Attack Shark X11 PAW3311": 1793908984.385319,
-    "معالج Ryzen 7 9800X3D": 1793542512.9419136,
-    "معالج Ryzen 5 7600X": 1793542531.6312253,
+    "معالج Ryzen 7 9800X3D": 1794847054.8094091,
+    "معالج Ryzen 5 7600X": 1794847073.6855137,
     "يد تحكم للهاتف GameSir X5 Lite": 1793542545.9047854,
     "يد تحكم لاسلكية  GameSir Nova 2 Lite Hall Effect Ultimate": 1793542552.2730343,
     "مايكروفون  Fifine AM8 Dynamic Mic USB/XLR": 1793542560.6809025,
@@ -3892,8 +3892,6 @@
     "Realme C100d": 1794845527.6371076
   },
   "published_post_keys": [
-    "lodydeals:46159",
-    "ecksdeal:6041",
     "lodydeals:46161",
     "lodydeals:46162",
     "lodydeals:46163",
@@ -4891,19 +4889,21 @@
     "aniscoupons:35088",
     "aniscoupons:35089",
     "aniscoupons:35083",
-    "aniscoupons:35096"
+    "aniscoupons:35096",
+    "ecksdeal:6070",
+    "ecksdeal:6074"
   ],
   "last_disclaimer_time": 1794524540.9476151,
   "last_calendar_time": 1794572799.8939624,
-  "last_run_time": 1794846136.1841142,
+  "last_run_time": 1794847073.6855137,
   "monitored_channels": {
     "ecksdeal": {
-      "last_message_id": 6069,
-      "last_check_time": 1794845936.6031802
+      "last_message_id": 6074,
+      "last_check_time": 1794847075.7573464
     },
     "lodydeals": {
-      "last_message_id": 46601,
-      "last_check_time": 1794846849.8568878
+      "last_message_id": 46602,
+      "last_check_time": 1794847047.0431828
     },
     "test_channel": {
       "last_message_id": 1793967703,
@@ -5332,7 +5332,7 @@
     "1005012135177627": 177.8,
     "1005013455514231": 66.71,
     "1005009578274758": 7.63,
-    "1005010413332383": 340.3,
+    "1005010413332383": 340.38,
     "1005011550075220": 124.53,
     "1005009806856302": 16.6,
     "1005009980316035": 25.85,
@@ -26747,6 +26747,26 @@
       "price": 349.4,
       "timestamp": 1794846136.1841142,
       "status": "ACTIVE"
+    },
+    "ecksdeal:6070": {
+      "channel_msg_id": 2969,
+      "product_id": "1005010413332383",
+      "title": "معالج Ryzen 7 9800X3D",
+      "channel": "ecksdeal",
+      "source_msg_id": 6070,
+      "price": 340.38,
+      "timestamp": 1794847054.8094091,
+      "status": "ACTIVE"
+    },
+    "ecksdeal:6074": {
+      "channel_msg_id": 2970,
+      "product_id": "1005011550075220",
+      "title": "معالج Ryzen 5 7600X",
+      "channel": "ecksdeal",
+      "source_msg_id": 6074,
+      "price": 124.53,
+      "timestamp": 1794847073.6855137,
+      "status": "ACTIVE"
     }
   },
   "schedule_config": {
@@ -26755,17 +26775,17 @@
     "current_interval_minutes": 5,
     "is_paused": false,
     "night_mode_enabled": true,
-    "last_deal_post_time": 1794846143.0377216,
+    "last_deal_post_time": 1794847078.1175115,
     "night_start_hour_dz": 0,
     "night_end_hour_dz": 8,
     "night_pause_enabled": true,
-    "last_sweep_time": 1794846869.624302,
+    "last_sweep_time": 1794847082.1867106,
     "last_sweep_times": {
-      "algeria": 1794846866.924007,
-      "france": 1794846869.624302
+      "algeria": 1794847078.0852954,
+      "france": 1794847082.1867106
     },
     "last_deal_post_times": {
-      "algeria": 1794846143.0377216
+      "algeria": 1794847078.1175115
     }
   },
   "last_coin_reminder_time": 1794767542.171841,
@@ -27272,7 +27292,7 @@
     "1005013455514231": "lodydeals",
     "1005009578274758": "lodydeals",
     "1005007805638431": "zedstoreonline",
-    "1005010413332383": "aniscoupons",
+    "1005010413332383": "ecksdeal",
     "1005011550075220": "ecksdeal",
     "1005009806856302": "aniscoupons",
     "1005009980316035": "ecksdeal",
@@ -29517,10 +29537,6 @@
   "published_deals_history": {},
   "settings": {},
   "handled_post_keys": [
-    "aniscoupons:34243",
-    "zedstoreonline:39695",
-    "aniscoupons:34244",
-    "zedstoreonline:39696",
     "zedstoreonline:39697",
     "aniscoupons:34246",
     "zedstoreonline:39698",
@@ -30516,7 +30532,11 @@
     "lodydeals:46599",
     "aniscoupons:35098",
     "lodydeals:46600",
-    "lodydeals:46601"
+    "lodydeals:46601",
+    "lodydeals:46602",
+    "ecksdeal:6071",
+    "ecksdeal:6072",
+    "ecksdeal:6073"
   ],
   "last_france_cross_promo_time": 1794553348.8480208,
   "next_france_cross_promo_interval_seconds": 334302,
@@ -31619,6 +31639,11 @@
         "channel": "lodydeals",
         "ts": 1794846309.0704699,
         "price": 186.21
+      },
+      {
+        "channel": "ecksdeal",
+        "ts": 1794847063.7535663,
+        "price": 186.74
       }
     ],
     "1005010788149535": [
@@ -31687,6 +31712,27 @@
         "channel": "aniscoupons",
         "ts": 1794846133.5366154,
         "price": 349.4
+      }
+    ],
+    "1005010413332383": [
+      {
+        "channel": "ecksdeal",
+        "ts": 1794847051.7644947,
+        "price": 340.38
+      }
+    ],
+    "1005011778197787": [
+      {
+        "channel": "ecksdeal",
+        "ts": 1794847066.8013902,
+        "price": 155.32
+      }
+    ],
+    "1005011550075220": [
+      {
+        "channel": "ecksdeal",
+        "ts": 1794847070.5000474,
+        "price": 124.53
       }
     ]
   },
