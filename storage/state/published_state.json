@@ -1430,7 +1430,7 @@
     "1005010285419688": 1793613895.6129942,
     "1005007805750092": 1793613900.590816,
     "1005006966360399": 1793613905.8870661,
-    "1005010706590867": 1794475820.1482265,
+    "1005010706590867": 1794848149.948447,
     "1005010428947440": 1793613916.2199864,
     "1005010585654037": 1794229795.9714105,
     "1005013137304827": 1793613926.9213502,
@@ -3545,7 +3545,7 @@
     "CMF Buds 2a ANC -42dB": 1794565826.9368062,
     "CUSU SSD 256GB M2 NVMe": 1793707081.0327315,
     "OPPO A6 PRO 12/256GB": 1793793726.6494405,
-    "Attack Shark R1 PAW3311": 1794475820.1482265,
+    "Attack Shark R1 PAW3311": 1794848149.948447,
     "GIGABYTE B550M K": 1793707102.1529818,
     "Black Shark Gaming Tab 12/255GB": 1793707108.6257114,
     "POCO F9 Pro 5G 12/256GB": 1793707119.4932482,
@@ -3892,7 +3892,6 @@
     "Realme C100d": 1794845527.6371076
   },
   "published_post_keys": [
-    "lodydeals:46161",
     "lodydeals:46162",
     "lodydeals:46163",
     "lodydeals:46164",
@@ -4891,19 +4890,20 @@
     "aniscoupons:35083",
     "aniscoupons:35096",
     "ecksdeal:6070",
-    "ecksdeal:6074"
+    "ecksdeal:6074",
+    "lodydeals:46604"
   ],
   "last_disclaimer_time": 1794524540.9476151,
   "last_calendar_time": 1794572799.8939624,
-  "last_run_time": 1794847073.6855137,
+  "last_run_time": 1794848149.948447,
   "monitored_channels": {
     "ecksdeal": {
       "last_message_id": 6074,
       "last_check_time": 1794847075.7573464
     },
     "lodydeals": {
-      "last_message_id": 46603,
-      "last_check_time": 1794847599.8060322
+      "last_message_id": 46604,
+      "last_check_time": 1794848152.034935
     },
     "test_channel": {
       "last_message_id": 1793967703,
@@ -26767,6 +26767,16 @@
       "price": 124.53,
       "timestamp": 1794847073.6855137,
       "status": "ACTIVE"
+    },
+    "lodydeals:46604": {
+      "channel_msg_id": 2971,
+      "product_id": "1005010706590867",
+      "title": "Attack Shark R1 PAW3311",
+      "channel": "lodydeals",
+      "source_msg_id": 46604,
+      "price": 16.1,
+      "timestamp": 1794848149.948447,
+      "status": "ACTIVE"
     }
   },
   "schedule_config": {
@@ -26775,17 +26785,17 @@
     "current_interval_minutes": 5,
     "is_paused": false,
     "night_mode_enabled": true,
-    "last_deal_post_time": 1794847078.1175115,
+    "last_deal_post_time": 1794848155.479497,
     "night_start_hour_dz": 0,
     "night_end_hour_dz": 8,
     "night_pause_enabled": true,
-    "last_sweep_time": 1794847970.5491972,
+    "last_sweep_time": 1794848159.6847708,
     "last_sweep_times": {
-      "algeria": 1794847966.736379,
-      "france": 1794847970.5491972
+      "algeria": 1794848155.4417865,
+      "france": 1794848159.6847708
     },
     "last_deal_post_times": {
-      "algeria": 1794847078.1175115
+      "algeria": 1794848155.479497
     }
   },
   "last_coin_reminder_time": 1794767542.171841,
@@ -31455,6 +31465,11 @@
         "channel": "aniscoupons",
         "ts": 1794845417.4202404,
         "price": 16.0
+      },
+      {
+        "channel": "lodydeals",
+        "ts": 1794848147.219676,
+        "price": 16.1
       }
     ],
     "1005009806804463": [
