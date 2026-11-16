@@ -1307,7 +1307,7 @@
     "1005013502444493": 1793467300.3656638,
     "1005011743605696": 1793478685.510433,
     "1005013037972159": 1793478690.5572577,
-    "1005013081860728": 1793478695.1820586,
+    "1005013081860728": 1794863220.9848075,
     "1005013045114640": 1794863026.9329176,
     "COUPONS_d131dda7a0e3": 1793478717.5768087,
     "COUPONS_d131dda7": 1793478717.5923967,
@@ -1363,7 +1363,7 @@
     "1005010114569881": 1793543824.1762173,
     "1005013053122560": 1794223202.4757502,
     "1005012322822595": 1793543961.1645148,
-    "1005009662812027": 1794845514.863395,
+    "1005009662812027": 1794863209.9434927,
     "1005005975560350": 1794663193.5352495,
     "1005012922578845": 1793544001.8628821,
     "1005011752891197": 1793613465.8475375,
@@ -2799,7 +2799,8 @@
     "HOCO Retro PU Leather",
     "1:16 Scale Remote Control Monster",
     "Magcubic C Pro Projector",
-    "MSI PRO B650-P WIFI 6E USED"
+    "MSI PRO B650-P WIFI 6E USED",
+    "MSI PRO B850M-VC WIFI 6E"
   ],
   "published_title_timestamps": {
     "Xiaomi Redmi Note 17 5G Global Version": 1790857823.0117362,
@@ -3413,7 +3414,7 @@
     "Realme Pad 3  8/256GB": 1793543961.1645148,
     "Lenovo Xiaoxin Pro 13 8/128GB": 1793543976.0151808,
     "Lenovo Xiaoxin Pad Pro 2025": 1793543981.0397952,
-    "Magcubic HY300 Max 400ANSI": 1794302238.7307503,
+    "Magcubic HY300 Max 400ANSI": 1794863209.9434927,
     "FIFINE H9 7.1 Surround Gaming": 1793543992.7069333,
     "Realme 15 5G 12/256GB": 1793544001.8628821,
     "Redmi 17 4G 4/128GB": 1793544011.7179348,
@@ -3911,11 +3912,10 @@
     "HOCO Retro PU Leather": 1794852971.2646165,
     "1:16 Scale Remote Control Monster": 1794861887.139496,
     "Magcubic C Pro Projector": 1794863018.2939777,
-    "MSI PRO B650-P WIFI 6E USED": 1794863026.9329176
+    "MSI PRO B650-P WIFI 6E USED": 1794863026.9329176,
+    "MSI PRO B850M-VC WIFI 6E": 1794863220.9848075
   },
   "published_post_keys": [
-    "lodydeals:46187",
-    "aniscoupons:34144",
     "zedstoreonline:39627",
     "aniscoupons:34149",
     "zedstoreonline:39630",
@@ -4913,19 +4913,21 @@
     "lodydeals:46617",
     "lodydeals:46619",
     "lodydeals:46621",
-    "aniscoupons:35114"
+    "aniscoupons:35114",
+    "lodydeals:46622",
+    "aniscoupons:35115"
   ],
   "last_disclaimer_time": 1794524540.9476151,
   "last_calendar_time": 1794572799.8939624,
-  "last_run_time": 1794863026.9329176,
+  "last_run_time": 1794863220.9848075,
   "monitored_channels": {
     "ecksdeal": {
       "last_message_id": 6075,
       "last_check_time": 1794855985.2516208
     },
     "lodydeals": {
-      "last_message_id": 46621,
-      "last_check_time": 1794863020.3588552
+      "last_message_id": 46622,
+      "last_check_time": 1794863212.038667
     },
     "test_channel": {
       "last_message_id": 1793967703,
@@ -4948,8 +4950,8 @@
       "last_check_time": 1794861327.572817
     },
     "aniscoupons": {
-      "last_message_id": 35114,
-      "last_check_time": 1794863028.9935346
+      "last_message_id": 35115,
+      "last_check_time": 1794863223.073388
     },
     "bnddeals": {
       "last_message_id": 51307,
@@ -5335,7 +5337,7 @@
     "1005013502444493": 547.0,
     "1005011743605696": 113.98,
     "1005013037972159": 85.7,
-    "1005013081860728": 103.98,
+    "1005013081860728": 111.1,
     "1005013045114640": 100.4,
     "1005008518280704": 179.16,
     "1005010527736444": 298.0,
@@ -5386,7 +5388,7 @@
     "1005013053122560": 53.59,
     "1005012322822595": 266.19,
     "1005012524603100": 283.59,
-    "1005009662812027": 78.4,
+    "1005009662812027": 78.35,
     "1005005975560350": 35.9,
     "1005011752891197": 119.3,
     "1005008689880751": 76.5,
@@ -27032,6 +27034,26 @@
       "price": 100.4,
       "timestamp": 1794863026.9329176,
       "status": "ACTIVE"
+    },
+    "lodydeals:46622": {
+      "channel_msg_id": 2995,
+      "product_id": "1005009662812027",
+      "title": "Magcubic HY300 Max 400ANSI",
+      "channel": "lodydeals",
+      "source_msg_id": 46622,
+      "price": 78.35,
+      "timestamp": 1794863209.9434927,
+      "status": "ACTIVE"
+    },
+    "aniscoupons:35115": {
+      "channel_msg_id": 2996,
+      "product_id": "1005013081860728",
+      "title": "MSI PRO B850M-VC WIFI 6E",
+      "channel": "aniscoupons",
+      "source_msg_id": 35115,
+      "price": 111.1,
+      "timestamp": 1794863220.9848075,
+      "status": "ACTIVE"
     }
   },
   "schedule_config": {
@@ -27040,17 +27062,17 @@
     "current_interval_minutes": 5,
     "is_paused": false,
     "night_mode_enabled": true,
-    "last_deal_post_time": 1794863029.7966442,
+    "last_deal_post_time": 1794863223.968085,
     "night_start_hour_dz": 0,
     "night_end_hour_dz": 8,
     "night_pause_enabled": true,
-    "last_sweep_time": 1794863032.5702763,
+    "last_sweep_time": 1794863227.3015838,
     "last_sweep_times": {
-      "algeria": 1794863029.7699184,
-      "france": 1794863032.5702763
+      "algeria": 1794863223.9288669,
+      "france": 1794863227.3015838
     },
     "last_deal_post_times": {
-      "algeria": 1794863029.7966442
+      "algeria": 1794863223.968085
     }
   },
   "last_coin_reminder_time": 1794767542.171841,
@@ -27531,7 +27553,7 @@
     "1005013502444493": "megaphonna",
     "1005011743605696": "lodydeals",
     "1005013037972159": "lodydeals",
-    "1005013081860728": "lodydeals",
+    "1005013081860728": "aniscoupons",
     "1005013045114640": "aniscoupons",
     "COUPONS_d131dda7a0e3": "lodydeals",
     "1005008518280704": "zedstoreonline",
@@ -27589,7 +27611,7 @@
     "1005013053122560": "ecksdeal",
     "1005012322822595": "lodydeals",
     "1005012524603100": "aniscoupons",
-    "1005009662812027": "aniscoupons",
+    "1005009662812027": "lodydeals",
     "1005005975560350": "zedstoreonline",
     "1005011752891197": "zedstoreonline",
     "1005008689880751": "lodydeals",
@@ -29016,7 +29038,8 @@
     "HOCO Retro PU Leather": "aniscoupons",
     "1:16 Scale Remote Control Monster": "lodydeals",
     "Magcubic C Pro Projector": "lodydeals",
-    "MSI PRO B650-P WIFI 6E USED": "aniscoupons"
+    "MSI PRO B650-P WIFI 6E USED": "aniscoupons",
+    "MSI PRO B850M-VC WIFI 6E": "aniscoupons"
   },
   "religious_reminders_history": {
     "mock_rem": "2026-10-02",
@@ -31486,6 +31509,11 @@
         "channel": "aniscoupons",
         "ts": 1794845512.1979632,
         "price": 78.4
+      },
+      {
+        "channel": "lodydeals",
+        "ts": 1794863207.811333,
+        "price": 78.35
       }
     ],
     "1005011557016158": [
@@ -32159,6 +32187,13 @@
         "channel": "aniscoupons",
         "ts": 1794863024.8967776,
         "price": 100.4
+      }
+    ],
+    "1005013081860728": [
+      {
+        "channel": "aniscoupons",
+        "ts": 1794863218.888817,
+        "price": 111.1
       }
     ]
   },
