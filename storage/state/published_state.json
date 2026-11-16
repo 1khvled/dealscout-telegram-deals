@@ -849,7 +849,7 @@
     "9998883350": 1790883350.933217,
     "9998883398": 1790883398.457595,
     "9998883417": 1790883417.3833034,
-    "1005007805638431": 1794852963.8236506,
+    "1005007805638431": 1794869801.3485081,
     "1005009054706827": 1794307249.1472638,
     "1005007961216287": 1791942616.1564767,
     "1005009627597591": 1793542398.3843465,
@@ -3366,7 +3366,7 @@
     "Netac NV7000-T M.2 Gen4 1TB": 1793899614.3022053,
     "UGREEN HiTune S3 Earbuds": 1793542479.8362749,
     "OnePlus Ace 6T 5G 12/256GB": 1794742011.0691845,
-    "Attack Shark X11 PAW3311": 1793908984.385319,
+    "Attack Shark X11 PAW3311": 1794869801.3485081,
     "معالج Ryzen 7 9800X3D": 1794847054.8094091,
     "معالج Ryzen 5 7600X": 1794847073.6855137,
     "يد تحكم للهاتف GameSir X5 Lite": 1793542545.9047854,
@@ -3916,7 +3916,6 @@
     "MSI PRO B850M-VC WIFI 6E": 1794863220.9848075
   },
   "published_post_keys": [
-    "aniscoupons:34149",
     "zedstoreonline:39630",
     "zedstoreonline:39631",
     "aniscoupons:34151",
@@ -4915,19 +4914,20 @@
     "aniscoupons:35114",
     "lodydeals:46622",
     "aniscoupons:35115",
-    "aniscoupons:35116"
+    "aniscoupons:35116",
+    "lodydeals:46626"
   ],
   "last_disclaimer_time": 1794524540.9476151,
   "last_calendar_time": 1794572799.8939624,
-  "last_run_time": 1794865810.9626079,
+  "last_run_time": 1794869801.3485081,
   "monitored_channels": {
     "ecksdeal": {
       "last_message_id": 6075,
       "last_check_time": 1794855985.2516208
     },
     "lodydeals": {
-      "last_message_id": 46625,
-      "last_check_time": 1794866114.806376
+      "last_message_id": 46626,
+      "last_check_time": 1794869803.4337437
     },
     "test_channel": {
       "last_message_id": 1793967703,
@@ -4961,7 +4961,7 @@
   "published_product_prices": {
     "1005012973772517": 217.8,
     "1005010219205081": 57.2,
-    "1005007805638431": 22.2,
+    "1005007805638431": 22.23,
     "1005007027334636": 13.49,
     "1005009054706827": 23.1,
     "1005007961216287": 20.26,
@@ -27064,6 +27064,16 @@
       "price": 12.11,
       "timestamp": 1794865810.9626079,
       "status": "ACTIVE"
+    },
+    "lodydeals:46626": {
+      "channel_msg_id": 2998,
+      "product_id": "1005007805638431",
+      "title": "Attack Shark X11 PAW3311",
+      "channel": "lodydeals",
+      "source_msg_id": 46626,
+      "price": 22.23,
+      "timestamp": 1794869801.3485081,
+      "status": "ACTIVE"
     }
   },
   "schedule_config": {
@@ -27072,17 +27082,17 @@
     "current_interval_minutes": 5,
     "is_paused": false,
     "night_mode_enabled": true,
-    "last_deal_post_time": 1794865813.8197172,
+    "last_deal_post_time": 1794869807.7473822,
     "night_start_hour_dz": 0,
     "night_end_hour_dz": 8,
     "night_pause_enabled": true,
-    "last_sweep_time": 1794869622.4265404,
+    "last_sweep_time": 1794869811.6799698,
     "last_sweep_times": {
-      "algeria": 1794869619.7532868,
-      "france": 1794869622.4265404
+      "algeria": 1794869807.710782,
+      "france": 1794869811.6799698
     },
     "last_deal_post_times": {
-      "algeria": 1794865813.8197172
+      "algeria": 1794869807.7473822
     }
   },
   "last_coin_reminder_time": 1794767542.171841,
@@ -27588,7 +27598,7 @@
     "1005009627597591": "lodydeals",
     "1005013455514231": "lodydeals",
     "1005009578274758": "lodydeals",
-    "1005007805638431": "aniscoupons",
+    "1005007805638431": "lodydeals",
     "1005010413332383": "ecksdeal",
     "1005011550075220": "ecksdeal",
     "1005009806856302": "aniscoupons",
@@ -32024,6 +32034,11 @@
         "channel": "aniscoupons",
         "ts": 1794852961.5930805,
         "price": 22.2
+      },
+      {
+        "channel": "lodydeals",
+        "ts": 1794869798.7886484,
+        "price": 22.23
       }
     ],
     "1005012790844974": [
