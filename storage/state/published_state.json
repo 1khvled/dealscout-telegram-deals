@@ -894,7 +894,7 @@
     "1005009828161174": 1791031550.2120771,
     "1005009281115306": 1793558205.9468858,
     "1005011797801269": 1791203753.790013,
-    "1005007168829266": 1794263706.8812196,
+    "1005007168829266": 1794861693.0207138,
     "1005012406142215": 1793543604.5851276,
     "1005007345398413": 1790943717.3545928,
     "1005012504076921": 1791236011.4353654,
@@ -3452,7 +3452,7 @@
     "Redmi Buds 6 Active": 1793613510.8543386,
     "Lexar D400 USB3.1 USB-C 128G": 1793567901.942504,
     "Zeblaze Vibe 8 AMOLED": 1794004758.429218,
-    "Baseus 20W PD Charger": 1794263706.8812196,
+    "Baseus 20W PD Charger": 1794861693.0207138,
     "Realme Neo 8  12/256GB": 1793569553.2022223,
     "Blackview MEGA 5 AI 8/256GB": 1793569904.419889,
     "Anker Nano Smart Display 45W": 1793570287.0210865,
@@ -3906,7 +3906,6 @@
     "HOCO Retro PU Leather": 1794852971.2646165
   },
   "published_post_keys": [
-    "test_channel:1793967703",
     "zedstoreonline:39624",
     "aniscoupons:34143",
     "lodydeals:46179",
@@ -4905,19 +4904,20 @@
     "ecksdeal:6075",
     "aniscoupons:35110",
     "aniscoupons:35112",
-    "aniscoupons:35113"
+    "aniscoupons:35113",
+    "lodydeals:46615"
   ],
   "last_disclaimer_time": 1794524540.9476151,
   "last_calendar_time": 1794572799.8939624,
-  "last_run_time": 1794860228.6265178,
+  "last_run_time": 1794861693.0207138,
   "monitored_channels": {
     "ecksdeal": {
       "last_message_id": 6075,
       "last_check_time": 1794855985.2516208
     },
     "lodydeals": {
-      "last_message_id": 46613,
-      "last_check_time": 1794853956.1210814
+      "last_message_id": 46615,
+      "last_check_time": 1794861695.10623
     },
     "test_channel": {
       "last_message_id": 1793967703,
@@ -26973,6 +26973,16 @@
       "price": 47.4,
       "timestamp": 1794860228.6265178,
       "status": "ACTIVE"
+    },
+    "lodydeals:46615": {
+      "channel_msg_id": 2990,
+      "product_id": "1005007168829266",
+      "title": "Baseus 20W PD Charger",
+      "channel": "lodydeals",
+      "source_msg_id": 46615,
+      "price": 4.89,
+      "timestamp": 1794861693.0207138,
+      "status": "ACTIVE"
     }
   },
   "schedule_config": {
@@ -26981,17 +26991,17 @@
     "current_interval_minutes": 5,
     "is_paused": false,
     "night_mode_enabled": true,
-    "last_deal_post_time": 1794860232.3307123,
+    "last_deal_post_time": 1794861699.633804,
     "night_start_hour_dz": 0,
     "night_end_hour_dz": 8,
     "night_pause_enabled": true,
-    "last_sweep_time": 1794861514.1054707,
+    "last_sweep_time": 1794861702.86006,
     "last_sweep_times": {
-      "algeria": 1794861510.1794817,
-      "france": 1794861514.1054707
+      "algeria": 1794861699.5965517,
+      "france": 1794861702.86006
     },
     "last_deal_post_times": {
-      "algeria": 1794860232.3307123
+      "algeria": 1794861699.633804
     }
   },
   "last_coin_reminder_time": 1794767542.171841,
@@ -29750,7 +29760,6 @@
   "published_deals_history": {},
   "settings": {},
   "handled_post_keys": [
-    "aniscoupons:34257",
     "bnddeals:51232",
     "zedstoreonline:39702",
     "aniscoupons:34258",
@@ -30749,7 +30758,8 @@
     "aniscoupons:35109",
     "zedstoreonline:40312",
     "aniscoupons:35111",
-    "zedstoreonline:40313"
+    "zedstoreonline:40313",
+    "lodydeals:46614"
   ],
   "last_france_cross_promo_time": 1794553348.8480208,
   "next_france_cross_promo_interval_seconds": 334302,
@@ -32070,6 +32080,13 @@
         "channel": "ecksdeal",
         "ts": 1794855980.747371,
         "price": 35.86
+      }
+    ],
+    "1005007168829266": [
+      {
+        "channel": "lodydeals",
+        "ts": 1794861690.7571595,
+        "price": 4.89
       }
     ]
   },

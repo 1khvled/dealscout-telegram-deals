@@ -22,8 +22,8 @@
   "flow_target": 24.0,
   "channel_stats": {
     "lodydeals": {
-      "seen": 98,
-      "published": 93,
+      "seen": 100,
+      "published": 94,
       "skipped": 0,
       "ewma": 0.9994
     },
@@ -54,7 +54,7 @@
   },
   "category_stats": {
     "other": {
-      "seen": 318,
+      "seen": 319,
       "published": 269,
       "skipped": 0,
       "ewma": 0.9994
@@ -78,10 +78,10 @@
       "ewma": 0.979
     },
     "accessories": {
-      "seen": 31,
-      "published": 21,
+      "seen": 32,
+      "published": 22,
       "skipped": 0,
-      "ewma": 0.9132
+      "ewma": 0.9201
     },
     "audio": {
       "seen": 31,
@@ -1245,34 +1245,21 @@
     ],
     "1005012790844974": [
       35.86
+    ],
+    "1005007168829266": [
+      4.89
     ]
   },
   "counters": {
-    "scored": 870,
-    "verdict_publish": 833,
+    "scored": 872,
+    "verdict_publish": 835,
     "verdict_hold": 37,
     "verdict_skip": 0,
-    "published": 661,
+    "published": 662,
     "skipped": 0
   },
-  "score_sum": 63831.67,
+  "score_sum": 63985.05,
   "recent_decisions": [
-    {
-      "ts": 1794735717,
-      "channel": "aniscoupons",
-      "category": "pc",
-      "product_id": "1005011551333926",
-      "score": 72.95,
-      "verdict": "publish"
-    },
-    {
-      "ts": 1794736338,
-      "channel": "zedstoreonline",
-      "category": "accessories",
-      "product_id": "1005011742851856",
-      "score": 89.75,
-      "verdict": "publish"
-    },
     {
       "ts": 1794736339,
       "channel": "zedstoreonline",
@@ -2856,7 +2843,23 @@
       "product_id": "1005007916078341",
       "score": 81.21,
       "verdict": "publish"
+    },
+    {
+      "ts": 1794861689,
+      "channel": "lodydeals",
+      "category": "other",
+      "product_id": "1005012723101736",
+      "score": 81.15,
+      "verdict": "publish"
+    },
+    {
+      "ts": 1794861690,
+      "channel": "lodydeals",
+      "category": "accessories",
+      "product_id": "1005007168829266",
+      "score": 72.23,
+      "verdict": "publish"
     }
   ],
-  "updated_at": 1794860228.693056
+  "updated_at": 1794861693.0865645
 }
