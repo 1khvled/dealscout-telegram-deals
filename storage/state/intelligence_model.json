@@ -40,8 +40,8 @@
       "ewma": 0.6705
     },
     "aniscoupons": {
-      "seen": 438,
-      "published": 369,
+      "seen": 439,
+      "published": 370,
       "skipped": 0,
       "ewma": 0.9994
     },
@@ -72,10 +72,10 @@
       "ewma": 0.9994
     },
     "home": {
-      "seen": 42,
-      "published": 38,
+      "seen": 43,
+      "published": 39,
       "skipped": 0,
-      "ewma": 0.979
+      "ewma": 0.9807
     },
     "accessories": {
       "seen": 32,
@@ -122,6 +122,7 @@
       217.8
     ],
     "1005012285327063": [
+      12.11,
       12.11,
       12.11,
       12.11,
@@ -1265,23 +1266,15 @@
     ]
   },
   "counters": {
-    "scored": 879,
-    "verdict_publish": 842,
+    "scored": 880,
+    "verdict_publish": 843,
     "verdict_hold": 37,
     "verdict_skip": 0,
-    "published": 668,
+    "published": 669,
     "skipped": 0
   },
-  "score_sum": 64492.76,
+  "score_sum": 64557.86,
   "recent_decisions": [
-    {
-      "ts": 1794741942,
-      "channel": "lodydeals",
-      "category": "audio",
-      "product_id": "1005012594430190",
-      "score": 70.49,
-      "verdict": "publish"
-    },
     {
       "ts": 1794741948,
       "channel": "lodydeals",
@@ -2873,7 +2866,15 @@
       "product_id": "1005013081860728",
       "score": 71.97,
       "verdict": "publish"
+    },
+    {
+      "ts": 1794865808,
+      "channel": "aniscoupons",
+      "category": "home",
+      "product_id": "1005012285327063",
+      "score": 65.1,
+      "verdict": "publish"
     }
   ],
-  "updated_at": 1794863221.0544538
+  "updated_at": 1794865811.0317516
 }
