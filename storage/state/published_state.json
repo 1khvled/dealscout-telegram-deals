@@ -1508,7 +1508,7 @@
     "9998887107": 1793967108.0014687,
     "9998887678": 1793967678.8184059,
     "9998887703": 1793967703.2348685,
-    "1005008708333999": 1794935336.9408855,
+    "1005008708333999": 1794950849.6355956,
     "1005012254132930": 1794913886.9009395,
     "1005013028124905": 1793971934.3600886,
     "1005012691642623": 1794074230.5173922,
@@ -3658,7 +3658,7 @@
     "SOUNDPEATS C30 ANC Wireless Earphones": 1794852924.3222039,
     "UGREEN 45W GaN Smart Display Charger": 1793995361.9589899,
     "Inphic PG1 PG9 RGB Wired Gaming Mouse": 1794935239.9072056,
-    "realme C100d 4/128GB": 1794749541.0047765,
+    "realme C100d 4/128GB": 1794950849.6355956,
     "Zeblaze GTS 3 Pro AMOLED": 1794500381.7712336,
     "شاحن سيارة ORICO بقوة 45W": 1794348808.2825344,
     "Hollyland LARK M2 DUO 2-Person": 1794658966.3702009,
@@ -3937,7 +3937,6 @@
     "Print Head QY6 0089 for Canon TS5060 TS5080 TS6020 TS6080 TS6120": 1794944609.807315
   },
   "published_post_keys": [
-    "aniscoupons:34239",
     "aniscoupons:34240",
     "lodydeals:46228",
     "lodydeals:46229",
@@ -4936,15 +4935,16 @@
     "aniscoupons:35193",
     "aniscoupons:35195",
     "aniscoupons:35196",
-    "aniscoupons:35197"
+    "aniscoupons:35197",
+    "zedstoreonline:40360"
   ],
   "last_disclaimer_time": 1794524540.9476151,
   "last_calendar_time": 1794572799.8939624,
-  "last_run_time": 1794950481.4326882,
+  "last_run_time": 1794950849.6355956,
   "monitored_channels": {
     "ecksdeal": {
-      "last_message_id": 6089,
-      "last_check_time": 1794946439.012591
+      "last_message_id": 6090,
+      "last_check_time": 1794950845.0345552
     },
     "lodydeals": {
       "last_message_id": 46634,
@@ -4967,8 +4967,8 @@
       "last_check_time": 1793599663.3444748
     },
     "zedstoreonline": {
-      "last_message_id": 40359,
-      "last_check_time": 1794948633.9163
+      "last_message_id": 40360,
+      "last_check_time": 1794950851.706186
     },
     "aniscoupons": {
       "last_message_id": 35197,
@@ -27789,6 +27789,16 @@
       "price": 114.99,
       "timestamp": 1794950481.4326882,
       "status": "ACTIVE"
+    },
+    "zedstoreonline:40360": {
+      "channel_msg_id": 3108,
+      "product_id": "1005008708333999",
+      "title": "realme C100d 4/128GB",
+      "channel": "zedstoreonline",
+      "source_msg_id": 40360,
+      "price": 136.7,
+      "timestamp": 1794950849.6355956,
+      "status": "ACTIVE"
     }
   },
   "schedule_config": {
@@ -27797,17 +27807,17 @@
     "current_interval_minutes": 5,
     "is_paused": false,
     "night_mode_enabled": true,
-    "last_deal_post_time": 1794950484.541668,
+    "last_deal_post_time": 1794950853.3832676,
     "night_start_hour_dz": 0,
     "night_end_hour_dz": 8,
     "night_pause_enabled": true,
-    "last_sweep_time": 1794950658.1414657,
+    "last_sweep_time": 1794950857.7043297,
     "last_sweep_times": {
-      "algeria": 1794950654.1580489,
-      "france": 1794950658.1414657
+      "algeria": 1794950853.3564692,
+      "france": 1794950857.7043297
     },
     "last_deal_post_times": {
-      "algeria": 1794950484.541668
+      "algeria": 1794950853.3832676
     }
   },
   "last_coin_reminder_time": 1794767542.171841,
@@ -28472,7 +28482,7 @@
     "9998887107": "test_channel",
     "9998887678": "test_channel",
     "9998887703": "test_channel",
-    "1005008708333999": "aniscoupons",
+    "1005008708333999": "zedstoreonline",
     "1005012254132930": "zedstoreonline",
     "1005013028124905": "zedstoreonline",
     "1005012691642623": "zedstoreonline",
@@ -30582,7 +30592,6 @@
   "published_deals_history": {},
   "settings": {},
   "handled_post_keys": [
-    "lodydeals:46270",
     "lodydeals:46271",
     "zedstoreonline:39755",
     "zedstoreonline:39756",
@@ -31581,7 +31590,8 @@
     "zedstoreonline:40357",
     "ecksdeal:6086",
     "aniscoupons:35194",
-    "zedstoreonline:40359"
+    "zedstoreonline:40359",
+    "ecksdeal:6090"
   ],
   "last_france_cross_promo_time": 1794913823.9647303,
   "next_france_cross_promo_interval_seconds": 311842,
@@ -32174,6 +32184,11 @@
         "channel": "aniscoupons",
         "ts": 1794935334.651255,
         "price": 136.7
+      },
+      {
+        "channel": "zedstoreonline",
+        "ts": 1794950846.8078823,
+        "price": 136.7
       }
     ],
     "1005008366962319": [
@@ -32458,6 +32473,11 @@
         "channel": "aniscoupons",
         "ts": 1794941848.427872,
         "price": 7.59
+      },
+      {
+        "channel": "ecksdeal",
+        "ts": 1794950844.92363,
+        "price": 7.4
       }
     ],
     "1005012285327063": [
