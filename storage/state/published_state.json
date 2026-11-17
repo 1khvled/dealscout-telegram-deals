@@ -27831,10 +27831,10 @@
     "night_start_hour_dz": 0,
     "night_end_hour_dz": 8,
     "night_pause_enabled": true,
-    "last_sweep_time": 1794956049.338843,
+    "last_sweep_time": 1794956158.022852,
     "last_sweep_times": {
-      "algeria": 1794956046.4462473,
-      "france": 1794956049.338843
+      "algeria": 1794956154.778162,
+      "france": 1794956158.022852
     },
     "last_deal_post_times": {
       "algeria": 1794955063.0365305
