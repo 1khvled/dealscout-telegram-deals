@@ -1551,7 +1551,7 @@
     "1005012953027259": 1794133977.9005425,
     "1005012048332402": 1794136369.073103,
     "1005011665465731": 1794137638.8201442,
-    "1005012377459743": 1794935543.9616108,
+    "1005012377459743": 1794953776.950704,
     "1005009460475870": 1794496858.1106308,
     "1005009649079564": 1794145536.5317988,
     "1005007038022940": 1794146648.256951,
@@ -3696,7 +3696,7 @@
     "Ulanzi A100 Wireless Lavalier Microphone": 1794130707.0577464,
     "Kootion X15 M.2 SSD NVMe 256GB": 1794134534.5760646,
     "Lenovo LE257 Headphones": 1794137638.8201442,
-    "Honor 600s CN (8/256)": 1794935543.9616108,
+    "Honor 600s CN (8/256)": 1794953776.950704,
     "ويبكام OBSBOT MEET 2 Webcam 4K": 1794140022.1412559,
     "Blackview Mega 5": 1794913990.5721397,
     "Warvank X8 Wireless Gaming Mouse": 1794496858.1106308,
@@ -3937,7 +3937,6 @@
     "Print Head QY6 0089 for Canon TS5060 TS5080 TS6020 TS6080 TS6120": 1794944609.807315
   },
   "published_post_keys": [
-    "aniscoupons:34240",
     "lodydeals:46228",
     "lodydeals:46229",
     "lodydeals:46230",
@@ -4936,11 +4935,12 @@
     "aniscoupons:35195",
     "aniscoupons:35196",
     "aniscoupons:35197",
-    "zedstoreonline:40360"
+    "zedstoreonline:40360",
+    "aniscoupons:35198"
   ],
   "last_disclaimer_time": 1794524540.9476151,
   "last_calendar_time": 1794572799.8939624,
-  "last_run_time": 1794950849.6355956,
+  "last_run_time": 1794953776.950704,
   "monitored_channels": {
     "ecksdeal": {
       "last_message_id": 6090,
@@ -4971,8 +4971,8 @@
       "last_check_time": 1794950851.706186
     },
     "aniscoupons": {
-      "last_message_id": 35197,
-      "last_check_time": 1794950483.51306
+      "last_message_id": 35198,
+      "last_check_time": 1794953779.0325155
     },
     "bnddeals": {
       "last_message_id": 51310,
@@ -27799,6 +27799,16 @@
       "price": 136.7,
       "timestamp": 1794950849.6355956,
       "status": "ACTIVE"
+    },
+    "aniscoupons:35198": {
+      "channel_msg_id": 3109,
+      "product_id": "1005012377459743",
+      "title": "Honor 600s CN (8/256)",
+      "channel": "aniscoupons",
+      "source_msg_id": 35198,
+      "price": 304.77,
+      "timestamp": 1794953776.950704,
+      "status": "ACTIVE"
     }
   },
   "schedule_config": {
@@ -27807,17 +27817,17 @@
     "current_interval_minutes": 5,
     "is_paused": false,
     "night_mode_enabled": true,
-    "last_deal_post_time": 1794950853.3832676,
+    "last_deal_post_time": 1794953780.1394742,
     "night_start_hour_dz": 0,
     "night_end_hour_dz": 8,
     "night_pause_enabled": true,
-    "last_sweep_time": 1794953589.3594134,
+    "last_sweep_time": 1794953784.5913177,
     "last_sweep_times": {
-      "algeria": 1794953585.5809348,
-      "france": 1794953589.3594134
+      "algeria": 1794953780.1052535,
+      "france": 1794953784.5913177
     },
     "last_deal_post_times": {
-      "algeria": 1794950853.3832676
+      "algeria": 1794953780.1394742
     }
   },
   "last_coin_reminder_time": 1794767542.171841,
@@ -32838,6 +32848,13 @@
         "channel": "aniscoupons",
         "ts": 1794948817.0835686,
         "price": 40.5
+      }
+    ],
+    "1005012377459743": [
+      {
+        "channel": "aniscoupons",
+        "ts": 1794953774.0999975,
+        "price": 304.77
       }
     ]
   },
