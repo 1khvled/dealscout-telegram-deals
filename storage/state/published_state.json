@@ -1643,7 +1643,7 @@
     "1005012644923854": 1794577769.242665,
     "1005005709908265": 1794577943.6825492,
     "1005011887425776": 1794733838.2777092,
-    "1005012547730772": 1794590278.0528092,
+    "1005012547730772": 1794955059.3960474,
     "1005012840419521": 1794591008.1982286,
     "1005010218815499": 1794845442.6108298,
     "1005011897409757": 1794593403.339319,
@@ -3846,7 +3846,7 @@
     "S80 Flash Drive USB 3.2 Type-A 128GB": 1794649534.468107,
     "ATK VXE Dragonfly V3 PRO": 1794733838.2777092,
     "Kingston DataTraveler USB 128GB": 1794781664.5903678,
-    "Honor X80 Pro Max 8/128": 1794590278.0528092,
+    "Honor X80 Pro Max 8/128": 1794955059.3960474,
     "ماوس فخم Logitech G502 Hero": 1794591008.1982286,
     "ماوس لاسلكي Delux M800 Mini Series": 1794591382.6548223,
     "Lexar V400 USB3.0 64GB": 1794593403.339319,
@@ -3937,7 +3937,6 @@
     "Print Head QY6 0089 for Canon TS5060 TS5080 TS6020 TS6080 TS6120": 1794944609.807315
   },
   "published_post_keys": [
-    "lodydeals:46228",
     "lodydeals:46229",
     "lodydeals:46230",
     "aniscoupons:34242",
@@ -4936,19 +4935,20 @@
     "aniscoupons:35196",
     "aniscoupons:35197",
     "zedstoreonline:40360",
-    "aniscoupons:35198"
+    "aniscoupons:35198",
+    "zedstoreonline:40361"
   ],
   "last_disclaimer_time": 1794524540.9476151,
   "last_calendar_time": 1794572799.8939624,
-  "last_run_time": 1794953776.950704,
+  "last_run_time": 1794955059.3960474,
   "monitored_channels": {
     "ecksdeal": {
       "last_message_id": 6090,
       "last_check_time": 1794950845.0345552
     },
     "lodydeals": {
-      "last_message_id": 46638,
-      "last_check_time": 1794954864.3798127
+      "last_message_id": 46639,
+      "last_check_time": 1794955050.8213801
     },
     "test_channel": {
       "last_message_id": 1793967703,
@@ -4967,8 +4967,8 @@
       "last_check_time": 1793599663.3444748
     },
     "zedstoreonline": {
-      "last_message_id": 40360,
-      "last_check_time": 1794950851.706186
+      "last_message_id": 40361,
+      "last_check_time": 1794955061.4791563
     },
     "aniscoupons": {
       "last_message_id": 35198,
@@ -27809,6 +27809,16 @@
       "price": 304.77,
       "timestamp": 1794953776.950704,
       "status": "ACTIVE"
+    },
+    "zedstoreonline:40361": {
+      "channel_msg_id": 3110,
+      "product_id": "1005012547730772",
+      "title": "Honor X80 Pro Max 8/128",
+      "channel": "zedstoreonline",
+      "source_msg_id": 40361,
+      "price": 272.8,
+      "timestamp": 1794955059.3960474,
+      "status": "ACTIVE"
     }
   },
   "schedule_config": {
@@ -27817,17 +27827,17 @@
     "current_interval_minutes": 5,
     "is_paused": false,
     "night_mode_enabled": true,
-    "last_deal_post_time": 1794953780.1394742,
+    "last_deal_post_time": 1794955063.0365305,
     "night_start_hour_dz": 0,
     "night_end_hour_dz": 8,
     "night_pause_enabled": true,
-    "last_sweep_time": 1794954873.7119544,
+    "last_sweep_time": 1794955066.8641202,
     "last_sweep_times": {
-      "algeria": 1794954870.207362,
-      "france": 1794954873.7119544
+      "algeria": 1794955063.011277,
+      "france": 1794955066.8641202
     },
     "last_deal_post_times": {
-      "algeria": 1794953780.1394742
+      "algeria": 1794955063.0365305
     }
   },
   "last_coin_reminder_time": 1794767542.171841,
@@ -30602,7 +30612,6 @@
   "published_deals_history": {},
   "settings": {},
   "handled_post_keys": [
-    "zedstoreonline:39757",
     "zedstoreonline:39758",
     "bnddeals:51240",
     "aniscoupons:34326",
@@ -31601,7 +31610,8 @@
     "lodydeals:46635",
     "lodydeals:46636",
     "lodydeals:46637",
-    "lodydeals:46638"
+    "lodydeals:46638",
+    "lodydeals:46639"
   ],
   "last_france_cross_promo_time": 1794913823.9647303,
   "next_france_cross_promo_interval_seconds": 311842,
@@ -32198,6 +32208,11 @@
       {
         "channel": "zedstoreonline",
         "ts": 1794950846.8078823,
+        "price": 136.7
+      },
+      {
+        "channel": "lodydeals",
+        "ts": 1794955050.7221017,
         "price": 136.7
       }
     ],
@@ -32860,6 +32875,13 @@
         "channel": "aniscoupons",
         "ts": 1794953774.0999975,
         "price": 304.77
+      }
+    ],
+    "1005012547730772": [
+      {
+        "channel": "zedstoreonline",
+        "ts": 1794955056.7951713,
+        "price": 272.8
       }
     ]
   },
