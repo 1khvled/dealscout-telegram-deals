@@ -1242,7 +1242,7 @@
     "1005013090910574": 1794340346.0747576,
     "1005012382148199": 1793500800.6950834,
     "1005010158485058": 1793543612.279949,
-    "1005012910719451": 1794742003.817957,
+    "1005012910719451": 1794937385.1178656,
     "1005006307798542": 1793467165.446982,
     "1005011787296177": 1793607070.347875,
     "1005007375332966": 1793467173.1692383,
@@ -3701,7 +3701,7 @@
     "WAMRAM SATA SSD 480GB": 1794159522.2930505,
     "Netac M.2 1TB 7400Mbs Gen 4": 1794935285.349218,
     "RYZEN 5 5600XT": 1794253893.3396604,
-    "OnePlus Turbo 6V": 1794476009.5322104,
+    "OnePlus Turbo 6V": 1794937385.1178656,
     "DJI Mic Mini2  2TX 1RX": 1794216974.0881407,
     "Magcubic HY350Max 900 ANSI": 1794164675.8426867,
     "Warvank X8 Wireless Gaming": 1794164680.2575803,
@@ -3927,7 +3927,6 @@
     "معالج بكرت شاشة مدمج Ryzen 5 3400G": 1794936842.146349
   },
   "published_post_keys": [
-    "aniscoupons:34228",
     "zedstoreonline:39681",
     "aniscoupons:34230",
     "zedstoreonline:39682",
@@ -4926,11 +4925,12 @@
     "ecksdeal:6082",
     "ecksdeal:6084",
     "ecksdeal:6085",
-    "aniscoupons:35185"
+    "aniscoupons:35185",
+    "aniscoupons:35186"
   ],
   "last_disclaimer_time": 1794524540.9476151,
   "last_calendar_time": 1794572799.8939624,
-  "last_run_time": 1794937022.015411,
+  "last_run_time": 1794937385.1178656,
   "monitored_channels": {
     "ecksdeal": {
       "last_message_id": 6085,
@@ -4961,8 +4961,8 @@
       "last_check_time": 1794935923.4830997
     },
     "aniscoupons": {
-      "last_message_id": 35185,
-      "last_check_time": 1794937024.1061065
+      "last_message_id": 35186,
+      "last_check_time": 1794937387.187962
     },
     "bnddeals": {
       "last_message_id": 51310,
@@ -5280,7 +5280,7 @@
     "1005013090910574": 192.7,
     "1005012382148199": 469.0,
     "1005010158485058": 66.5,
-    "1005012910719451": 275.87,
+    "1005012910719451": 275.8,
     "1005006307798542": 35.3,
     "1005011787296177": 29.76,
     "1005007375332966": 52.8,
@@ -27636,6 +27636,16 @@
       "price": 147.8,
       "timestamp": 1794937022.015411,
       "status": "ACTIVE"
+    },
+    "aniscoupons:35186": {
+      "channel_msg_id": 3094,
+      "product_id": "1005012910719451",
+      "title": "OnePlus Turbo 6V",
+      "channel": "aniscoupons",
+      "source_msg_id": 35186,
+      "price": 275.8,
+      "timestamp": 1794937385.1178656,
+      "status": "ACTIVE"
     }
   },
   "schedule_config": {
@@ -27644,17 +27654,17 @@
     "current_interval_minutes": 5,
     "is_paused": false,
     "night_mode_enabled": true,
-    "last_deal_post_time": 1794937025.1865077,
+    "last_deal_post_time": 1794937388.122182,
     "night_start_hour_dz": 0,
     "night_end_hour_dz": 8,
     "night_pause_enabled": true,
-    "last_sweep_time": 1794937198.4246614,
+    "last_sweep_time": 1794937391.674998,
     "last_sweep_times": {
-      "algeria": 1794937195.4580781,
-      "france": 1794937198.4246614
+      "algeria": 1794937388.0874965,
+      "france": 1794937391.674998
     },
     "last_deal_post_times": {
-      "algeria": 1794937025.1865077
+      "algeria": 1794937388.122182
     }
   },
   "last_coin_reminder_time": 1794767542.171841,
@@ -28066,7 +28076,7 @@
     "1005013090910574": "aniscoupons",
     "1005012382148199": "megaphonna",
     "1005010158485058": "lodydeals",
-    "1005012910719451": "lodydeals",
+    "1005012910719451": "aniscoupons",
     "1005006307798542": "aniscoupons",
     "1005011787296177": "lodydeals",
     "1005007375332966": "aniscoupons",
@@ -32581,6 +32591,13 @@
         "channel": "ecksdeal",
         "ts": 1794936831.6616163,
         "price": 98.79
+      }
+    ],
+    "1005012910719451": [
+      {
+        "channel": "aniscoupons",
+        "ts": 1794937382.113553,
+        "price": 275.8
       }
     ]
   },
