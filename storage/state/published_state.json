@@ -1289,7 +1289,7 @@
     "1005010033441204": 1794935331.9774265,
     "1005008356663932": 1793707052.9762022,
     "1005010074161953": 1793543659.5887568,
-    "1005010498953493": 1794914051.638498,
+    "1005010498953493": 1794948087.9126022,
     "1005010535660141": 1794689990.1332982,
     "1005010472570391": 1793571013.3288968,
     "1005012864293264": 1793570287.0210865,
@@ -3308,7 +3308,7 @@
     "OPPO A7 Pro Max CN": 1793448660.3359752,
     "Poco Pad X1 512GB": 1793448715.1480892,
     "Redmi Pad 2 9.7\"": 1793448729.1572442,
-    "Anker 100W Max USB C Charger 3-Port": 1794914051.638498,
+    "Anker 100W Max USB C Charger 3-Port": 1794948087.9126022,
     "Anker Laptop Charger, 140W Max 4-Port GaN": 1793448745.105644,
     "Anker Nano Charger, Ultra-Fast 70W Output 3-Port": 1793448757.527367,
     "Anker Space A40 Adaptive": 1793448762.165183,
@@ -3935,7 +3935,6 @@
     "Print Head QY6 0089 for Canon TS5060 TS5080 TS6020 TS6080 TS6120": 1794944609.807315
   },
   "published_post_keys": [
-    "zedstoreonline:39687",
     "aniscoupons:34237",
     "aniscoupons:34238",
     "aniscoupons:34239",
@@ -4934,11 +4933,12 @@
     "aniscoupons:35192",
     "ecksdeal:6088",
     "ecksdeal:6089",
-    "aniscoupons:35193"
+    "aniscoupons:35193",
+    "aniscoupons:35195"
   ],
   "last_disclaimer_time": 1794524540.9476151,
   "last_calendar_time": 1794572799.8939624,
-  "last_run_time": 1794946990.8370018,
+  "last_run_time": 1794948087.9126022,
   "monitored_channels": {
     "ecksdeal": {
       "last_message_id": 6089,
@@ -4969,8 +4969,8 @@
       "last_check_time": 1794944056.6520758
     },
     "aniscoupons": {
-      "last_message_id": 35193,
-      "last_check_time": 1794946992.9077427
+      "last_message_id": 35195,
+      "last_check_time": 1794948089.9772902
     },
     "bnddeals": {
       "last_message_id": 51310,
@@ -27756,6 +27756,16 @@
       "price": 265.7,
       "timestamp": 1794946990.8370018,
       "status": "ACTIVE"
+    },
+    "aniscoupons:35195": {
+      "channel_msg_id": 3105,
+      "product_id": "1005010498953493",
+      "title": "Anker 100W Max USB C Charger 3-Port",
+      "channel": "aniscoupons",
+      "source_msg_id": 35195,
+      "price": 51.15,
+      "timestamp": 1794948087.9126022,
+      "status": "ACTIVE"
     }
   },
   "schedule_config": {
@@ -27764,17 +27774,17 @@
     "current_interval_minutes": 5,
     "is_paused": false,
     "night_mode_enabled": true,
-    "last_deal_post_time": 1794946993.7377808,
+    "last_deal_post_time": 1794948090.7283506,
     "night_start_hour_dz": 0,
     "night_end_hour_dz": 8,
     "night_pause_enabled": true,
-    "last_sweep_time": 1794947908.2545903,
+    "last_sweep_time": 1794948093.5901506,
     "last_sweep_times": {
-      "algeria": 1794947903.705165,
-      "france": 1794947908.2545903
+      "algeria": 1794948090.7009969,
+      "france": 1794948093.5901506
     },
     "last_deal_post_times": {
-      "algeria": 1794946993.7377808
+      "algeria": 1794948090.7283506
     }
   },
   "last_coin_reminder_time": 1794767542.171841,
@@ -32513,6 +32523,11 @@
       {
         "channel": "aniscoupons",
         "ts": 1794914048.8647153,
+        "price": 51.15
+      },
+      {
+        "channel": "aniscoupons",
+        "ts": 1794948085.7528539,
         "price": 51.15
       }
     ],
