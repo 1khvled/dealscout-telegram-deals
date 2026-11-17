@@ -842,7 +842,8 @@
     "COUPONS_d400dc9b6d2c",
     "1005011551172448",
     "1005013401121405",
-    "1005003624789670"
+    "1005003624789670",
+    "1005008644346729"
   ],
   "published_product_timestamps": {
     "1005012973772517": 1794500732.7845657,
@@ -1701,7 +1702,8 @@
     "COUPONS_d400dc9b": 1794935379.010957,
     "1005011551172448": 1794936842.146349,
     "1005013401121405": 1794944061.2401145,
-    "1005003624789670": 1794944609.807315
+    "1005003624789670": 1794944609.807315,
+    "1005008644346729": 1794950481.4326882
   },
   "published_titles": [
     "Wireless WiFi Repeater 300Mbps WiFi Extender Amplifier Booster Router",
@@ -3705,7 +3707,7 @@
     "Lenovo LP40 Pro": 1794146830.4272797,
     "Ulanzi ST-06S Smartphone Mount Holder": 1794667301.7599618,
     "WAMRAM SATA SSD 480GB": 1794159522.2930505,
-    "Netac M.2 1TB 7400Mbs Gen 4": 1794935285.349218,
+    "Netac M.2 1TB 7400Mbs Gen 4": 1794950481.4326882,
     "RYZEN 5 5600XT": 1794253893.3396604,
     "OnePlus Turbo 6V": 1794937385.1178656,
     "DJI Mic Mini2  2TX 1RX": 1794216974.0881407,
@@ -3935,7 +3937,6 @@
     "Print Head QY6 0089 for Canon TS5060 TS5080 TS6020 TS6080 TS6120": 1794944609.807315
   },
   "published_post_keys": [
-    "aniscoupons:34238",
     "aniscoupons:34239",
     "aniscoupons:34240",
     "lodydeals:46228",
@@ -4934,11 +4935,12 @@
     "ecksdeal:6089",
     "aniscoupons:35193",
     "aniscoupons:35195",
-    "aniscoupons:35196"
+    "aniscoupons:35196",
+    "aniscoupons:35197"
   ],
   "last_disclaimer_time": 1794524540.9476151,
   "last_calendar_time": 1794572799.8939624,
-  "last_run_time": 1794948819.0338063,
+  "last_run_time": 1794950481.4326882,
   "monitored_channels": {
     "ecksdeal": {
       "last_message_id": 6089,
@@ -4969,8 +4971,8 @@
       "last_check_time": 1794948633.9163
     },
     "aniscoupons": {
-      "last_message_id": 35196,
-      "last_check_time": 1794948821.1128554
+      "last_message_id": 35197,
+      "last_check_time": 1794950483.51306
     },
     "bnddeals": {
       "last_message_id": 51310,
@@ -5711,7 +5713,8 @@
     "1005013565686677": 12.03,
     "1005011551172448": 58.29,
     "1005013401121405": 18.23,
-    "1005003624789670": 18.33
+    "1005003624789670": 18.33,
+    "1005008644346729": 114.99
   },
   "channel_published_deals": {
     "aniscoupons:32590": {
@@ -27776,6 +27779,16 @@
       "price": 40.5,
       "timestamp": 1794948819.0338063,
       "status": "ACTIVE"
+    },
+    "aniscoupons:35197": {
+      "channel_msg_id": 3107,
+      "product_id": "1005008644346729",
+      "title": "Netac M.2 1TB 7400Mbs Gen 4",
+      "channel": "aniscoupons",
+      "source_msg_id": 35197,
+      "price": 114.99,
+      "timestamp": 1794950481.4326882,
+      "status": "ACTIVE"
     }
   },
   "schedule_config": {
@@ -27784,17 +27797,17 @@
     "current_interval_minutes": 5,
     "is_paused": false,
     "night_mode_enabled": true,
-    "last_deal_post_time": 1794948821.8661675,
+    "last_deal_post_time": 1794950484.541668,
     "night_start_hour_dz": 0,
     "night_end_hour_dz": 8,
     "night_pause_enabled": true,
-    "last_sweep_time": 1794950293.645147,
+    "last_sweep_time": 1794950488.9077232,
     "last_sweep_times": {
-      "algeria": 1794950289.9990504,
-      "france": 1794950293.645147
+      "algeria": 1794950484.5121517,
+      "france": 1794950488.9077232
     },
     "last_deal_post_times": {
-      "algeria": 1794948821.8661675
+      "algeria": 1794950484.541668
     }
   },
   "last_coin_reminder_time": 1794767542.171841,
@@ -28650,7 +28663,8 @@
     "COUPONS_d400dc9b6d2c": "bnddeals",
     "1005011551172448": "ecksdeal",
     "1005013401121405": "aniscoupons",
-    "1005003624789670": "aniscoupons"
+    "1005003624789670": "aniscoupons",
+    "1005008644346729": "aniscoupons"
   },
   "published_title_channels": {
     "Test Wrench Set": "test_channel",
