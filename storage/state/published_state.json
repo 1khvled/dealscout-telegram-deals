@@ -1653,7 +1653,7 @@
     "1005010788231460": 1794604060.7762444,
     "1389260212": 1794605894.0354748,
     "1005012138794873": 1794935435.6166263,
-    "1005007129557126": 1794913979.05066,
+    "1005007129557126": 1794946247.1992912,
     "1005010519693722": 1794680859.9419408,
     "1005010788149535": 1794935551.6597214,
     "1005007857182319": 1794666000.5453608,
@@ -3858,7 +3858,7 @@
     "H96 MAX RK3518 2/16GB": 1794606633.373106,
     "realme 45W SUPERVOOC Charger": 1794606651.7602222,
     "Kodak K133 USB 3.1 Flash Drive 256GB": 1794614891.9797184,
-    "SOYO AMD B550M Gaming": 1794913979.05066,
+    "SOYO AMD B550M Gaming": 1794946247.1992912,
     "Delux M400 PAW3311 24000DPI 1Khz 500mAh Wireless": 1794649518.026784,
     "Delux M800mini Wireless Gaming Mouse": 1794845442.6108298,
     "ASROCK X570M PRO4 Motherboard": 1794660431.126332,
@@ -3935,7 +3935,6 @@
     "Print Head QY6 0089 for Canon TS5060 TS5080 TS6020 TS6080 TS6120": 1794944609.807315
   },
   "published_post_keys": [
-    "lodydeals:46225",
     "aniscoupons:34234",
     "aniscoupons:34235",
     "bnddeals:51230",
@@ -4934,11 +4933,12 @@
     "aniscoupons:35188",
     "aniscoupons:35189",
     "aniscoupons:35190",
-    "aniscoupons:35191"
+    "aniscoupons:35191",
+    "aniscoupons:35192"
   ],
   "last_disclaimer_time": 1794524540.9476151,
   "last_calendar_time": 1794572799.8939624,
-  "last_run_time": 1794945692.2706501,
+  "last_run_time": 1794946247.1992912,
   "monitored_channels": {
     "ecksdeal": {
       "last_message_id": 6086,
@@ -4969,8 +4969,8 @@
       "last_check_time": 1794944056.6520758
     },
     "aniscoupons": {
-      "last_message_id": 35191,
-      "last_check_time": 1794945694.3260431
+      "last_message_id": 35192,
+      "last_check_time": 1794946249.2731879
     },
     "bnddeals": {
       "last_message_id": 51310,
@@ -27716,6 +27716,16 @@
       "price": 277.36,
       "timestamp": 1794945692.2706501,
       "status": "ACTIVE"
+    },
+    "aniscoupons:35192": {
+      "channel_msg_id": 3101,
+      "product_id": "1005007129557126",
+      "title": "SOYO AMD B550M Gaming",
+      "channel": "aniscoupons",
+      "source_msg_id": 35192,
+      "price": 82.66,
+      "timestamp": 1794946247.1992912,
+      "status": "ACTIVE"
     }
   },
   "schedule_config": {
@@ -27724,17 +27734,17 @@
     "current_interval_minutes": 5,
     "is_paused": false,
     "night_mode_enabled": true,
-    "last_deal_post_time": 1794945695.11978,
+    "last_deal_post_time": 1794946250.077717,
     "night_start_hour_dz": 0,
     "night_end_hour_dz": 8,
     "night_pause_enabled": true,
-    "last_sweep_time": 1794946066.8948836,
+    "last_sweep_time": 1794946253.2718573,
     "last_sweep_times": {
-      "algeria": 1794946063.6003115,
-      "france": 1794946066.8948836
+      "algeria": 1794946250.0462265,
+      "france": 1794946253.2718573
     },
     "last_deal_post_times": {
-      "algeria": 1794945695.11978
+      "algeria": 1794946250.077717
     }
   },
   "last_coin_reminder_time": 1794767542.171841,
@@ -32433,6 +32443,11 @@
       {
         "channel": "aniscoupons",
         "ts": 1794913976.117695,
+        "price": 82.66
+      },
+      {
+        "channel": "aniscoupons",
+        "ts": 1794946244.6622086,
         "price": 82.66
       }
     ],
