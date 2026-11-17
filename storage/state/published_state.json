@@ -840,7 +840,8 @@
     "1005009982675898",
     "1005013565686677",
     "COUPONS_d400dc9b6d2c",
-    "1005011551172448"
+    "1005011551172448",
+    "1005013401121405"
   ],
   "published_product_timestamps": {
     "1005012973772517": 1794500732.7845657,
@@ -1513,7 +1514,7 @@
     "1005007469003552": 1794664656.5838907,
     "1005010041181003": 1794935344.0404687,
     "1005010265542567": 1794131426.95932,
-    "1005003156756854": 1794845666.3092437,
+    "1005003156756854": 1794944054.5907512,
     "1005010142208108": 1794753124.2973137,
     "1005008534907844": 1793987285.4130383,
     "1005009577554629": 1793987289.8200357,
@@ -1697,7 +1698,8 @@
     "1005013565686677": 1794861887.139496,
     "COUPONS_d400dc9b6d2c": 1794935378.986234,
     "COUPONS_d400dc9b": 1794935379.010957,
-    "1005011551172448": 1794936842.146349
+    "1005011551172448": 1794936842.146349,
+    "1005013401121405": 1794944061.2401145
   },
   "published_titles": [
     "Wireless WiFi Repeater 300Mbps WiFi Extender Amplifier Booster Router",
@@ -2808,7 +2810,8 @@
     "MSI PRO B850M-VC WIFI 6E",
     "HAYLOU S40 ANC",
     "معالج Ryzen 7 5600XT",
-    "معالج بكرت شاشة مدمج Ryzen 5 3400G"
+    "معالج بكرت شاشة مدمج Ryzen 5 3400G",
+    "QY6 0082 Printhead for Canon IP7210 IP7250 IP7280 MG5420 MG5460"
   ],
   "published_title_timestamps": {
     "Xiaomi Redmi Note 17 5G Global Version": 1790857823.0117362,
@@ -3642,7 +3645,7 @@
     "ميكروفون Ulanzi A100 لاسلكي صغير": 1793982290.6109207,
     "Lexar ARES PRO NVMe SSD PCle5.0x4 1TB": 1794935344.0404687,
     "Ulanzi A200 Mini Wireless Lavalier Microphone": 1794131426.95932,
-    "حامل هاتف Ulanzi ST-06S": 1794845666.3092437,
+    "حامل هاتف Ulanzi ST-06S": 1794944054.5907512,
     "AULA MINI60 HE PRO": 1794753124.2973137,
     "Maono Wave T5 Wireless Mic": 1793987285.4130383,
     "SAMSUNG DDR3 8GB 1600v": 1793987289.8200357,
@@ -3924,11 +3927,10 @@
     "MSI PRO B850M-VC WIFI 6E": 1794863220.9848075,
     "HAYLOU S40 ANC": 1794935370.6114745,
     "معالج Ryzen 7 5600XT": 1794936833.9811888,
-    "معالج بكرت شاشة مدمج Ryzen 5 3400G": 1794936842.146349
+    "معالج بكرت شاشة مدمج Ryzen 5 3400G": 1794936842.146349,
+    "QY6 0082 Printhead for Canon IP7210 IP7250 IP7280 MG5420 MG5460": 1794944061.2401145
   },
   "published_post_keys": [
-    "aniscoupons:34230",
-    "zedstoreonline:39682",
     "lodydeals:46216",
     "bnddeals:51227",
     "lodydeals:46223",
@@ -4926,11 +4928,13 @@
     "ecksdeal:6085",
     "aniscoupons:35185",
     "aniscoupons:35186",
-    "aniscoupons:35187"
+    "aniscoupons:35187",
+    "zedstoreonline:40358",
+    "aniscoupons:35188"
   ],
   "last_disclaimer_time": 1794524540.9476151,
   "last_calendar_time": 1794572799.8939624,
-  "last_run_time": 1794941852.8257122,
+  "last_run_time": 1794944061.2401145,
   "monitored_channels": {
     "ecksdeal": {
       "last_message_id": 6086,
@@ -4957,12 +4961,12 @@
       "last_check_time": 1793599663.3444748
     },
     "zedstoreonline": {
-      "last_message_id": 40357,
-      "last_check_time": 1794938883.6395316
+      "last_message_id": 40358,
+      "last_check_time": 1794944056.6520758
     },
     "aniscoupons": {
-      "last_message_id": 35187,
-      "last_check_time": 1794941854.905867
+      "last_message_id": 35188,
+      "last_check_time": 1794944063.2998762
     },
     "bnddeals": {
       "last_message_id": 51310,
@@ -5701,7 +5705,8 @@
     "1005008521959756": 98.21,
     "1005009982675898": 17.1,
     "1005013565686677": 12.03,
-    "1005011551172448": 58.29
+    "1005011551172448": 58.29,
+    "1005013401121405": 18.23
   },
   "channel_published_deals": {
     "aniscoupons:32590": {
@@ -27656,6 +27661,26 @@
       "price": 7.59,
       "timestamp": 1794941852.8257122,
       "status": "ACTIVE"
+    },
+    "zedstoreonline:40358": {
+      "channel_msg_id": 3096,
+      "product_id": "1005003156756854",
+      "title": "حامل هاتف Ulanzi ST-06S",
+      "channel": "zedstoreonline",
+      "source_msg_id": 40358,
+      "price": 11.2,
+      "timestamp": 1794944054.5907512,
+      "status": "ACTIVE"
+    },
+    "aniscoupons:35188": {
+      "channel_msg_id": 3097,
+      "product_id": "1005013401121405",
+      "title": "QY6 0082 Printhead for Canon IP7210 IP7250 IP7280 MG5420 MG5460",
+      "channel": "aniscoupons",
+      "source_msg_id": 35188,
+      "price": 18.23,
+      "timestamp": 1794944061.2401145,
+      "status": "ACTIVE"
     }
   },
   "schedule_config": {
@@ -27664,17 +27689,17 @@
     "current_interval_minutes": 5,
     "is_paused": false,
     "night_mode_enabled": true,
-    "last_deal_post_time": 1794941855.823669,
+    "last_deal_post_time": 1794944064.3182342,
     "night_start_hour_dz": 0,
     "night_end_hour_dz": 8,
     "night_pause_enabled": true,
-    "last_sweep_time": 1794943862.4619932,
+    "last_sweep_time": 1794944067.9964485,
     "last_sweep_times": {
-      "algeria": 1794943859.0637965,
-      "france": 1794943862.4619932
+      "algeria": 1794944064.2910597,
+      "france": 1794944067.9964485
     },
     "last_deal_post_times": {
-      "algeria": 1794941855.823669
+      "algeria": 1794944064.3182342
     }
   },
   "last_coin_reminder_time": 1794767542.171841,
@@ -28528,7 +28553,8 @@
     "1005009982675898": "aniscoupons",
     "1005013565686677": "lodydeals",
     "COUPONS_d400dc9b6d2c": "bnddeals",
-    "1005011551172448": "ecksdeal"
+    "1005011551172448": "ecksdeal",
+    "1005013401121405": "aniscoupons"
   },
   "published_title_channels": {
     "Test Wrench Set": "test_channel",
@@ -29646,7 +29672,8 @@
     "MSI PRO B850M-VC WIFI 6E": "aniscoupons",
     "HAYLOU S40 ANC": "bnddeals",
     "معالج Ryzen 7 5600XT": "ecksdeal",
-    "معالج بكرت شاشة مدمج Ryzen 5 3400G": "ecksdeal"
+    "معالج بكرت شاشة مدمج Ryzen 5 3400G": "ecksdeal",
+    "QY6 0082 Printhead for Canon IP7210 IP7250 IP7280 MG5420 MG5460": "aniscoupons"
   },
   "religious_reminders_history": {
     "mock_rem": "2026-10-02",
@@ -32618,6 +32645,13 @@
         "channel": "aniscoupons",
         "ts": 1794937382.113553,
         "price": 275.8
+      }
+    ],
+    "1005003156756854": [
+      {
+        "channel": "zedstoreonline",
+        "ts": 1794944051.8385723,
+        "price": 11.2
       }
     ]
   },
