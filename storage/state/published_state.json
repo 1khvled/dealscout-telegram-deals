@@ -1352,7 +1352,7 @@
     "1005013081060247": 1794861893.2586784,
     "1005012498496817": 1794662824.2051413,
     "1005003413514494": 1793732921.385459,
-    "1005008741607292": 1794660431.126332,
+    "1005008741607292": 1794936461.8541727,
     "1005010158587315": 1793543677.5915465,
     "1005012790288780": 1793656271.0286891,
     "1005012345939726": 1793656202.4239671,
@@ -1447,7 +1447,7 @@
     "1005012871436251": 1793707168.1519766,
     "1005010385663278": 1793616557.8235445,
     "1005009504965110": 1794935318.619458,
-    "1005008913425060": 1794072944.774369,
+    "1005008913425060": 1794936466.9727015,
     "1005013359761139": 1793649073.112849,
     "1005012267973092": 1793649078.2559402,
     "1005010289640412": 1793649086.527061,
@@ -3535,9 +3535,9 @@
     "Magcubic HY300 Max Projector": 1794914013.3468976,
     "AMD RYZEN 7 9800X3D": 1793615114.3091638,
     "Anker Space One ANC Headset": 1793616557.8235445,
-    "بطاقة الأم Asrock X570M PRO4": 1793995902.130763,
+    "بطاقة الأم Asrock X570M PRO4": 1794936461.8541727,
     "بطاقة الأم GIGABYTE B550M K": 1793649062.201711,
-    "بطاقة الأم MSI A520M A PRO": 1793649067.5197537,
+    "بطاقة الأم MSI A520M A PRO": 1794936466.9727015,
     "ماوس لاسلكي Aula Kunlun X5 Magnetic 8K Wireless": 1793649073.112849,
     "ماوسباد زجاجي Attack Shark CM05SE Tempred Glass": 1793649078.2559402,
     "يد تحكم فخمة  Flydigi Direwolf 4 Wireless Hall Effect": 1793649086.527061,
@@ -3921,8 +3921,6 @@
     "HAYLOU S40 ANC": 1794935370.6114745
   },
   "published_post_keys": [
-    "aniscoupons:34210",
-    "aniscoupons:34217",
     "ecksdeal:6043",
     "lodydeals:46214",
     "aniscoupons:34227",
@@ -4920,15 +4918,17 @@
     "aniscoupons:35179",
     "aniscoupons:35183",
     "bnddeals:51309",
-    "bnddeals:51310"
+    "bnddeals:51310",
+    "ecksdeal:6081",
+    "ecksdeal:6082"
   ],
   "last_disclaimer_time": 1794524540.9476151,
   "last_calendar_time": 1794572799.8939624,
-  "last_run_time": 1794935378.986234,
+  "last_run_time": 1794936466.9727015,
   "monitored_channels": {
     "ecksdeal": {
-      "last_message_id": 6080,
-      "last_check_time": 1794935203.0775192
+      "last_message_id": 6083,
+      "last_check_time": 1794936472.8520195
     },
     "lodydeals": {
       "last_message_id": 46634,
@@ -5380,7 +5380,7 @@
     "1005013081060247": 138.13,
     "1005012498496817": 196.4,
     "1005003413514494": 20.3,
-    "1005008741607292": 110.8,
+    "1005008741607292": 110.85,
     "1005010158587315": 141.02,
     "1005012790288780": 26.95,
     "1005012345939726": 18.62,
@@ -5465,7 +5465,7 @@
     "1005012871436251": 200.96,
     "1005010385663278": 58.55,
     "1005009504965110": 98.6,
-    "1005008913425060": 58.11,
+    "1005008913425060": 59.1,
     "1005013359761139": 75.6,
     "1005012267973092": 58.3,
     "1005012287238561": 44.5,
@@ -27579,6 +27579,26 @@
       "price": null,
       "timestamp": 1794935378.986234,
       "status": "ACTIVE"
+    },
+    "ecksdeal:6081": {
+      "channel_msg_id": 3089,
+      "product_id": "1005008741607292",
+      "title": "بطاقة الأم Asrock X570M PRO4",
+      "channel": "ecksdeal",
+      "source_msg_id": 6081,
+      "price": 110.85,
+      "timestamp": 1794936461.8541727,
+      "status": "ACTIVE"
+    },
+    "ecksdeal:6082": {
+      "channel_msg_id": 3090,
+      "product_id": "1005008913425060",
+      "title": "بطاقة الأم MSI A520M A PRO",
+      "channel": "ecksdeal",
+      "source_msg_id": 6082,
+      "price": 59.1,
+      "timestamp": 1794936466.9727015,
+      "status": "ACTIVE"
     }
   },
   "schedule_config": {
@@ -27587,17 +27607,17 @@
     "current_interval_minutes": 5,
     "is_paused": false,
     "night_mode_enabled": true,
-    "last_deal_post_time": 1794935381.1085505,
+    "last_deal_post_time": 1794936475.034647,
     "night_start_hour_dz": 0,
     "night_end_hour_dz": 8,
     "night_pause_enabled": true,
-    "last_sweep_time": 1794936279.3180947,
+    "last_sweep_time": 1794936478.1012273,
     "last_sweep_times": {
-      "algeria": 1794936276.5945044,
-      "france": 1794936279.3180947
+      "algeria": 1794936474.9925263,
+      "france": 1794936478.1012273
     },
     "last_deal_post_times": {
-      "algeria": 1794935381.1085505
+      "algeria": 1794936475.034647
     }
   },
   "last_coin_reminder_time": 1794767542.171841,
@@ -28123,7 +28143,7 @@
     "1005013081060247": "lodydeals",
     "1005012498496817": "aniscoupons",
     "1005003413514494": "lodydeals",
-    "1005008741607292": "zedstoreonline",
+    "1005008741607292": "ecksdeal",
     "1005010158587315": "lodydeals",
     "1005012790288780": "lodydeals",
     "1005012345939726": "lodydeals",
@@ -28209,7 +28229,7 @@
     "1005012648097890": "aniscoupons",
     "1005012871436251": "lodydeals",
     "1005009504965110": "aniscoupons",
-    "1005008913425060": "lodydeals",
+    "1005008913425060": "ecksdeal",
     "1005013359761139": "ecksdeal",
     "1005012267973092": "ecksdeal",
     "1005012287238561": "ecksdeal",
@@ -30364,7 +30384,6 @@
   "published_deals_history": {},
   "settings": {},
   "handled_post_keys": [
-    "bnddeals:51236",
     "lodydeals:46266",
     "bnddeals:51238",
     "lodydeals:46267",
@@ -31363,7 +31382,8 @@
     "zedstoreonline:40349",
     "aniscoupons:35176",
     "aniscoupons:35177",
-    "aniscoupons:35184"
+    "aniscoupons:35184",
+    "ecksdeal:6083"
   ],
   "last_france_cross_promo_time": 1794913823.9647303,
   "next_france_cross_promo_interval_seconds": 311842,
@@ -32488,6 +32508,27 @@
         "channel": "aniscoupons",
         "ts": 1794935931.429618,
         "price": 405.99
+      }
+    ],
+    "1005008741607292": [
+      {
+        "channel": "ecksdeal",
+        "ts": 1794936459.69857,
+        "price": 110.85
+      }
+    ],
+    "1005008913425060": [
+      {
+        "channel": "ecksdeal",
+        "ts": 1794936464.8522508,
+        "price": 59.1
+      }
+    ],
+    "1005011778621042": [
+      {
+        "channel": "ecksdeal",
+        "ts": 1794936472.7124705,
+        "price": 118.59
       }
     ]
   },
