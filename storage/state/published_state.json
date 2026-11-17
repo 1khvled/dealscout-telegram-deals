@@ -841,7 +841,8 @@
     "1005013565686677",
     "COUPONS_d400dc9b6d2c",
     "1005011551172448",
-    "1005013401121405"
+    "1005013401121405",
+    "1005003624789670"
   ],
   "published_product_timestamps": {
     "1005012973772517": 1794500732.7845657,
@@ -1699,7 +1700,8 @@
     "COUPONS_d400dc9b6d2c": 1794935378.986234,
     "COUPONS_d400dc9b": 1794935379.010957,
     "1005011551172448": 1794936842.146349,
-    "1005013401121405": 1794944061.2401145
+    "1005013401121405": 1794944061.2401145,
+    "1005003624789670": 1794944609.807315
   },
   "published_titles": [
     "Wireless WiFi Repeater 300Mbps WiFi Extender Amplifier Booster Router",
@@ -2811,7 +2813,8 @@
     "HAYLOU S40 ANC",
     "معالج Ryzen 7 5600XT",
     "معالج بكرت شاشة مدمج Ryzen 5 3400G",
-    "QY6 0082 Printhead for Canon IP7210 IP7250 IP7280 MG5420 MG5460"
+    "QY6 0082 Printhead for Canon IP7210 IP7250 IP7280 MG5420 MG5460",
+    "Print Head QY6 0089 for Canon TS5060 TS5080 TS6020 TS6080 TS6120"
   ],
   "published_title_timestamps": {
     "Xiaomi Redmi Note 17 5G Global Version": 1790857823.0117362,
@@ -3928,10 +3931,10 @@
     "HAYLOU S40 ANC": 1794935370.6114745,
     "معالج Ryzen 7 5600XT": 1794936833.9811888,
     "معالج بكرت شاشة مدمج Ryzen 5 3400G": 1794936842.146349,
-    "QY6 0082 Printhead for Canon IP7210 IP7250 IP7280 MG5420 MG5460": 1794944061.2401145
+    "QY6 0082 Printhead for Canon IP7210 IP7250 IP7280 MG5420 MG5460": 1794944061.2401145,
+    "Print Head QY6 0089 for Canon TS5060 TS5080 TS6020 TS6080 TS6120": 1794944609.807315
   },
   "published_post_keys": [
-    "lodydeals:46216",
     "bnddeals:51227",
     "lodydeals:46223",
     "lodydeals:46225",
@@ -4930,11 +4933,12 @@
     "aniscoupons:35186",
     "aniscoupons:35187",
     "zedstoreonline:40358",
-    "aniscoupons:35188"
+    "aniscoupons:35188",
+    "aniscoupons:35189"
   ],
   "last_disclaimer_time": 1794524540.9476151,
   "last_calendar_time": 1794572799.8939624,
-  "last_run_time": 1794944061.2401145,
+  "last_run_time": 1794944609.807315,
   "monitored_channels": {
     "ecksdeal": {
       "last_message_id": 6086,
@@ -4965,8 +4969,8 @@
       "last_check_time": 1794944056.6520758
     },
     "aniscoupons": {
-      "last_message_id": 35188,
-      "last_check_time": 1794944063.2998762
+      "last_message_id": 35189,
+      "last_check_time": 1794944611.871868
     },
     "bnddeals": {
       "last_message_id": 51310,
@@ -5706,7 +5710,8 @@
     "1005009982675898": 17.1,
     "1005013565686677": 12.03,
     "1005011551172448": 58.29,
-    "1005013401121405": 18.23
+    "1005013401121405": 18.23,
+    "1005003624789670": 18.33
   },
   "channel_published_deals": {
     "aniscoupons:32590": {
@@ -27681,6 +27686,16 @@
       "price": 18.23,
       "timestamp": 1794944061.2401145,
       "status": "ACTIVE"
+    },
+    "aniscoupons:35189": {
+      "channel_msg_id": 3098,
+      "product_id": "1005003624789670",
+      "title": "Print Head QY6 0089 for Canon TS5060 TS5080 TS6020 TS6080 TS6120",
+      "channel": "aniscoupons",
+      "source_msg_id": 35189,
+      "price": 18.33,
+      "timestamp": 1794944609.807315,
+      "status": "ACTIVE"
     }
   },
   "schedule_config": {
@@ -27689,17 +27704,17 @@
     "current_interval_minutes": 5,
     "is_paused": false,
     "night_mode_enabled": true,
-    "last_deal_post_time": 1794944064.3182342,
+    "last_deal_post_time": 1794944612.8924284,
     "night_start_hour_dz": 0,
     "night_end_hour_dz": 8,
     "night_pause_enabled": true,
-    "last_sweep_time": 1794944414.9372535,
+    "last_sweep_time": 1794944616.6085424,
     "last_sweep_times": {
-      "algeria": 1794944412.5069985,
-      "france": 1794944414.9372535
+      "algeria": 1794944612.865297,
+      "france": 1794944616.6085424
     },
     "last_deal_post_times": {
-      "algeria": 1794944064.3182342
+      "algeria": 1794944612.8924284
     }
   },
   "last_coin_reminder_time": 1794767542.171841,
@@ -28554,7 +28569,8 @@
     "1005013565686677": "lodydeals",
     "COUPONS_d400dc9b6d2c": "bnddeals",
     "1005011551172448": "ecksdeal",
-    "1005013401121405": "aniscoupons"
+    "1005013401121405": "aniscoupons",
+    "1005003624789670": "aniscoupons"
   },
   "published_title_channels": {
     "Test Wrench Set": "test_channel",
@@ -29673,7 +29689,8 @@
     "HAYLOU S40 ANC": "bnddeals",
     "معالج Ryzen 7 5600XT": "ecksdeal",
     "معالج بكرت شاشة مدمج Ryzen 5 3400G": "ecksdeal",
-    "QY6 0082 Printhead for Canon IP7210 IP7250 IP7280 MG5420 MG5460": "aniscoupons"
+    "QY6 0082 Printhead for Canon IP7210 IP7250 IP7280 MG5420 MG5460": "aniscoupons",
+    "Print Head QY6 0089 for Canon TS5060 TS5080 TS6020 TS6080 TS6120": "aniscoupons"
   },
   "religious_reminders_history": {
     "mock_rem": "2026-10-02",
