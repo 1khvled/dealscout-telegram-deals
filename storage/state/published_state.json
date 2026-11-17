@@ -1692,7 +1692,7 @@
     "1005012965284882": 1794742028.7342756,
     "1005004886782975": 1794755267.1243844,
     "1005013168050663": 1794759633.8642445,
-    "1005012970221631": 1794913960.077746,
+    "1005012970221631": 1794945145.5480957,
     "1005008637007198": 1794771008.638466,
     "1005008521959756": 1794852895.9711866,
     "1005009982675898": 1794852971.2646165,
@@ -3910,7 +3910,7 @@
     "UnionSine External HDD 2TB": 1794755267.1243844,
     "HONOR WIN RT 12/256GB": 1794935658.6344824,
     "INFLATABLE LAZY AIR SOFA": 1794759633.8642445,
-    "Crucial RAM 8GB×2 DDR4 2400MHz": 1794913960.077746,
+    "Crucial RAM 8GB×2 DDR4 2400MHz": 1794945145.5480957,
     "Netac NVMe 3500MB/S 500GB": 1794771008.638466,
     "SMAILWOLF L80": 1794935303.2198036,
     "GIGABYTE B550M K Motherboard": 1794935318.619458,
@@ -3935,7 +3935,6 @@
     "Print Head QY6 0089 for Canon TS5060 TS5080 TS6020 TS6080 TS6120": 1794944609.807315
   },
   "published_post_keys": [
-    "bnddeals:51227",
     "lodydeals:46223",
     "lodydeals:46225",
     "aniscoupons:34234",
@@ -4934,11 +4933,12 @@
     "aniscoupons:35187",
     "zedstoreonline:40358",
     "aniscoupons:35188",
-    "aniscoupons:35189"
+    "aniscoupons:35189",
+    "aniscoupons:35190"
   ],
   "last_disclaimer_time": 1794524540.9476151,
   "last_calendar_time": 1794572799.8939624,
-  "last_run_time": 1794944609.807315,
+  "last_run_time": 1794945145.5480957,
   "monitored_channels": {
     "ecksdeal": {
       "last_message_id": 6086,
@@ -4969,8 +4969,8 @@
       "last_check_time": 1794944056.6520758
     },
     "aniscoupons": {
-      "last_message_id": 35189,
-      "last_check_time": 1794944611.871868
+      "last_message_id": 35190,
+      "last_check_time": 1794945147.616736
     },
     "bnddeals": {
       "last_message_id": 51310,
@@ -5704,7 +5704,7 @@
     "1005012965284882": 18.03,
     "1005004886782975": 64.14,
     "1005013168050663": 9.4,
-    "1005012970221631": 70.65,
+    "1005012970221631": 71.8,
     "1005008637007198": 52.39,
     "1005008521959756": 98.21,
     "1005009982675898": 17.1,
@@ -27696,6 +27696,16 @@
       "price": 18.33,
       "timestamp": 1794944609.807315,
       "status": "ACTIVE"
+    },
+    "aniscoupons:35190": {
+      "channel_msg_id": 3099,
+      "product_id": "1005012970221631",
+      "title": "Crucial RAM 8GB×2 DDR4 2400MHz",
+      "channel": "aniscoupons",
+      "source_msg_id": 35190,
+      "price": 71.8,
+      "timestamp": 1794945145.5480957,
+      "status": "ACTIVE"
     }
   },
   "schedule_config": {
@@ -27704,17 +27714,17 @@
     "current_interval_minutes": 5,
     "is_paused": false,
     "night_mode_enabled": true,
-    "last_deal_post_time": 1794944612.8924284,
+    "last_deal_post_time": 1794945148.4721065,
     "night_start_hour_dz": 0,
     "night_end_hour_dz": 8,
     "night_pause_enabled": true,
-    "last_sweep_time": 1794944964.5970733,
+    "last_sweep_time": 1794945151.2797656,
     "last_sweep_times": {
-      "algeria": 1794944960.3669312,
-      "france": 1794944964.5970733
+      "algeria": 1794945148.4427438,
+      "france": 1794945151.2797656
     },
     "last_deal_post_times": {
-      "algeria": 1794944612.8924284
+      "algeria": 1794945148.4721065
     }
   },
   "last_coin_reminder_time": 1794767542.171841,
@@ -32378,6 +32388,11 @@
         "channel": "aniscoupons",
         "ts": 1794913957.4052708,
         "price": 70.65
+      },
+      {
+        "channel": "aniscoupons",
+        "ts": 1794945143.2745154,
+        "price": 71.8
       }
     ],
     "1005010702511858": [
