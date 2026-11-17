@@ -1556,7 +1556,7 @@
     "1005007038022940": 1794146648.256951,
     "1005007981362777": 1794146655.1062205,
     "1005007097302001": 1794146830.4272797,
-    "1005013361453762": 1794913937.4019446,
+    "1005013361453762": 1794945692.2706501,
     "1005013240296031": 1794216974.0881407,
     "1005012670472055": 1794742016.5166261,
     "1005013476568095": 1794169846.8168333,
@@ -3538,7 +3538,7 @@
     "Oppo Find X8s+": 1793613942.3770478,
     "Xiaoxin Pad Pro 13 (8/128)": 1794654766.3431966,
     "Lenovo Legion Y900 11 Tablet CN Version MediaTek Dimensity 9500S CPU 11.1\" 4K 144Hz LCD Display 1100": 1793613951.963987,
-    "Honor Pad V9 (8/256)": 1794852947.8704195,
+    "Honor Pad V9 (8/256)": 1794945692.2706501,
     "HONOR Pad X8b (LTE 6/128GB)": 1794136369.073103,
     "[Clearance] realme 14T 5G Smartphone NFC Dimensity 6300 5G Processor": 1793613966.8608465,
     "RYZEN 5 9600X": 1793613978.6202738,
@@ -3935,7 +3935,6 @@
     "Print Head QY6 0089 for Canon TS5060 TS5080 TS6020 TS6080 TS6120": 1794944609.807315
   },
   "published_post_keys": [
-    "lodydeals:46223",
     "lodydeals:46225",
     "aniscoupons:34234",
     "aniscoupons:34235",
@@ -4934,11 +4933,12 @@
     "zedstoreonline:40358",
     "aniscoupons:35188",
     "aniscoupons:35189",
-    "aniscoupons:35190"
+    "aniscoupons:35190",
+    "aniscoupons:35191"
   ],
   "last_disclaimer_time": 1794524540.9476151,
   "last_calendar_time": 1794572799.8939624,
-  "last_run_time": 1794945145.5480957,
+  "last_run_time": 1794945692.2706501,
   "monitored_channels": {
     "ecksdeal": {
       "last_message_id": 6086,
@@ -4969,8 +4969,8 @@
       "last_check_time": 1794944056.6520758
     },
     "aniscoupons": {
-      "last_message_id": 35190,
-      "last_check_time": 1794945147.616736
+      "last_message_id": 35191,
+      "last_check_time": 1794945694.3260431
     },
     "bnddeals": {
       "last_message_id": 51310,
@@ -5574,7 +5574,7 @@
     "1005007038022940": 5.49,
     "1005007981362777": 5.69,
     "1005007097302001": 4.69,
-    "1005013361453762": 276.3,
+    "1005013361453762": 277.36,
     "1005013240296031": 68.98,
     "1005012670472055": 112.1,
     "1005013476568095": 370.8,
@@ -27706,6 +27706,16 @@
       "price": 71.8,
       "timestamp": 1794945145.5480957,
       "status": "ACTIVE"
+    },
+    "aniscoupons:35191": {
+      "channel_msg_id": 3100,
+      "product_id": "1005013361453762",
+      "title": "Honor Pad V9 (8/256)",
+      "channel": "aniscoupons",
+      "source_msg_id": 35191,
+      "price": 277.36,
+      "timestamp": 1794945692.2706501,
+      "status": "ACTIVE"
     }
   },
   "schedule_config": {
@@ -27714,17 +27724,17 @@
     "current_interval_minutes": 5,
     "is_paused": false,
     "night_mode_enabled": true,
-    "last_deal_post_time": 1794945148.4721065,
+    "last_deal_post_time": 1794945695.11978,
     "night_start_hour_dz": 0,
     "night_end_hour_dz": 8,
     "night_pause_enabled": true,
-    "last_sweep_time": 1794945520.2608037,
+    "last_sweep_time": 1794945697.7283392,
     "last_sweep_times": {
-      "algeria": 1794945516.635097,
-      "france": 1794945520.2608037
+      "algeria": 1794945695.0949285,
+      "france": 1794945697.7283392
     },
     "last_deal_post_times": {
-      "algeria": 1794945148.4721065
+      "algeria": 1794945695.11978
     }
   },
   "last_coin_reminder_time": 1794767542.171841,
@@ -28438,7 +28448,7 @@
     "1005007038022940": "lodydeals",
     "1005007981362777": "lodydeals",
     "1005007097302001": "lodydeals",
-    "1005013361453762": "zedstoreonline",
+    "1005013361453762": "aniscoupons",
     "1005013240296031": "lodydeals",
     "1005012670472055": "lodydeals",
     "1005010062128237": "lodydeals",
@@ -32346,6 +32356,11 @@
       {
         "channel": "aniscoupons",
         "ts": 1794913968.4345145,
+        "price": 277.36
+      },
+      {
+        "channel": "aniscoupons",
+        "ts": 1794945689.9985335,
         "price": 277.36
       }
     ],
