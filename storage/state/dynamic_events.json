@@ -126,7 +126,36 @@
     "end_date": "2026-12-04T07:59:59+00:00",
     "banner_tag": "🔥 أقوى تخفيضات السنة 11.11 (19 - 3 نوفمبر)",
     "is_major": true,
-    "coupon_tiers": [],
+    "coupon_tiers": [
+      {
+        "tier": "3/15$",
+        "code": "OTSBF03"
+      },
+      {
+        "tier": "4/24$",
+        "code": "OTSBF04"
+      },
+      {
+        "tier": "8/60$",
+        "code": "OTSBF08"
+      },
+      {
+        "tier": "19/115$",
+        "code": "OTSBF19"
+      },
+      {
+        "tier": "34/209$",
+        "code": "OTSBF34"
+      },
+      {
+        "tier": "50/305$",
+        "code": "OTSBF50"
+      },
+      {
+        "tier": "66/405$",
+        "code": "OTSBF66"
+      }
+    ],
     "coupon_tiers_fr": [],
     "banner_image_url": "https://cdn4.telesco.pe/file/QwN_20aYD09R28TcD7MIeUKc_tDjmVvYJ5uuLVqcT1rD8bUHbt0QzUUJJe6vs-lP42NyEX0ptISggq-Jw6VTC_HjRZWhKT4HqWpmrWSqEvxz96xnsvu-aBQfCIIdcKXzvgp1kP8m35h7UjiP4n0iwc7OUefKcMmN_2XAe1pTybuCP_jNtBMuSFq9-kUHBCGS8td_c2O_1-SeZI6OW31ShmholDXrLRBUxpCfjyEOVcZqnTG6MTK29IYEB0vG16HH7ASu83_Jrs4TtX-xKIrwYN4MS1LMqdNl9S68_21onmNLekg7daJKoVM8vR2wLlKL04saHWrK8iubVZTb5nrsaQ.jpg",
     "source": "discovered",
