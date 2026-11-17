@@ -1070,7 +1070,7 @@
     "1005009275536960": 1791975930.016452,
     "1005007767322935": 1791975934.9659944,
     "1005012571601398": 1794657860.5278585,
-    "1005013054007275": 1794223210.002915,
+    "1005013054007275": 1794946431.3978004,
     "1005011899097443": 1794643910.1118689,
     "1005012865117890": 1793613385.3577175,
     "1005010733227481": 1792156757.9443583,
@@ -1365,7 +1365,7 @@
     "1005008605565544": 1793543812.9442995,
     "1005009508910625": 1793543817.982839,
     "1005010114569881": 1793543824.1762173,
-    "1005013053122560": 1794223202.4757502,
+    "1005013053122560": 1794946436.9390824,
     "1005012322822595": 1793543961.1645148,
     "1005009662812027": 1794914013.3468976,
     "1005005975560350": 1794663193.5352495,
@@ -3084,7 +3084,7 @@
     "Vxe Dragonfly R1 PAW3395 SE": 1791975934.9659944,
     "رجع العرض جنننننننننننننننننح🏃‍♂️🏃‍♂️ ©️©️©️©️️️️️⚡️️️️️️️": 1792025678.6249368,
     "Ⓜ HONOR X80 PRO MAX (8/128)": 1792007163.0270946,
-    "ماوس لاسلكي فخم Scyrox V8S Wireless 8K": 1794223210.002915,
+    "ماوس لاسلكي فخم Scyrox V8S Wireless 8K": 1794946431.3978004,
     "Used AMD Ryzen 5 7600X R5 7600X 4.7GHz CPU Processor 6-Core 12-Thread 5NM": 1791992945.451545,
     "Rocoren 100W Type-C to USB Fast Charging 0.5M": 1791992975.2913277,
     "Acinaci J11 Gaming Headset": 1794643910.1118689,
@@ -3424,7 +3424,7 @@
     "سماعات اذن فخمة Truthear x Crinacle Zero BLUE2 IEM'S": 1793543812.9442995,
     "سماعات لاسلكية Mchose V9 Pro 7.1 Wireless": 1793543817.982839,
     "ماوس لاسلكي Attack Shark X3 Wireless": 1793543824.1762173,
-    "ماوس لاسلكي فخم Scyrox V6S Wireless 8K": 1794223202.4757502,
+    "ماوس لاسلكي فخم Scyrox V6S Wireless 8K": 1794946436.9390824,
     "Realme Pad 3  8/256GB": 1793543961.1645148,
     "Lenovo Xiaoxin Pro 13 8/128GB": 1793543976.0151808,
     "Lenovo Xiaoxin Pad Pro 2025": 1793543981.0397952,
@@ -3935,8 +3935,6 @@
     "Print Head QY6 0089 for Canon TS5060 TS5080 TS6020 TS6080 TS6120": 1794944609.807315
   },
   "published_post_keys": [
-    "aniscoupons:34234",
-    "aniscoupons:34235",
     "bnddeals:51230",
     "zedstoreonline:39687",
     "aniscoupons:34237",
@@ -4934,15 +4932,17 @@
     "aniscoupons:35189",
     "aniscoupons:35190",
     "aniscoupons:35191",
-    "aniscoupons:35192"
+    "aniscoupons:35192",
+    "ecksdeal:6088",
+    "ecksdeal:6089"
   ],
   "last_disclaimer_time": 1794524540.9476151,
   "last_calendar_time": 1794572799.8939624,
-  "last_run_time": 1794946247.1992912,
+  "last_run_time": 1794946436.9390824,
   "monitored_channels": {
     "ecksdeal": {
-      "last_message_id": 6086,
-      "last_check_time": 1794941469.0728073
+      "last_message_id": 6089,
+      "last_check_time": 1794946439.012591
     },
     "lodydeals": {
       "last_message_id": 46634,
@@ -27726,6 +27726,26 @@
       "price": 82.66,
       "timestamp": 1794946247.1992912,
       "status": "ACTIVE"
+    },
+    "ecksdeal:6088": {
+      "channel_msg_id": 3102,
+      "product_id": "1005013054007275",
+      "title": "ماوس لاسلكي فخم Scyrox V8S Wireless 8K",
+      "channel": "ecksdeal",
+      "source_msg_id": 6088,
+      "price": 53.59,
+      "timestamp": 1794946431.3978004,
+      "status": "ACTIVE"
+    },
+    "ecksdeal:6089": {
+      "channel_msg_id": 3103,
+      "product_id": "1005013053122560",
+      "title": "ماوس لاسلكي فخم Scyrox V6S Wireless 8K",
+      "channel": "ecksdeal",
+      "source_msg_id": 6089,
+      "price": 53.59,
+      "timestamp": 1794946436.9390824,
+      "status": "ACTIVE"
     }
   },
   "schedule_config": {
@@ -27734,17 +27754,17 @@
     "current_interval_minutes": 5,
     "is_paused": false,
     "night_mode_enabled": true,
-    "last_deal_post_time": 1794946250.077717,
+    "last_deal_post_time": 1794946441.14784,
     "night_start_hour_dz": 0,
     "night_end_hour_dz": 8,
     "night_pause_enabled": true,
-    "last_sweep_time": 1794946253.2718573,
+    "last_sweep_time": 1794946444.5492766,
     "last_sweep_times": {
-      "algeria": 1794946250.0462265,
-      "france": 1794946253.2718573
+      "algeria": 1794946441.1165202,
+      "france": 1794946444.5492766
     },
     "last_deal_post_times": {
-      "algeria": 1794946250.077717
+      "algeria": 1794946441.14784
     }
   },
   "last_coin_reminder_time": 1794767542.171841,
@@ -32714,6 +32734,20 @@
         "channel": "zedstoreonline",
         "ts": 1794944051.8385723,
         "price": 11.2
+      }
+    ],
+    "1005013054007275": [
+      {
+        "channel": "ecksdeal",
+        "ts": 1794946428.5881257,
+        "price": 53.59
+      }
+    ],
+    "1005013053122560": [
+      {
+        "channel": "ecksdeal",
+        "ts": 1794946434.532757,
+        "price": 53.59
       }
     ]
   },
