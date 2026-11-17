@@ -839,7 +839,8 @@
     "1005008521959756",
     "1005009982675898",
     "1005013565686677",
-    "COUPONS_d400dc9b6d2c"
+    "COUPONS_d400dc9b6d2c",
+    "1005011551172448"
   ],
   "published_product_timestamps": {
     "1005012973772517": 1794500732.7845657,
@@ -1215,7 +1216,7 @@
     "1005010266487244": 1793448791.1740308,
     "1005010207075594": 1793299454.8390412,
     "1005013351519067": 1793448628.3734028,
-    "1005012484784752": 1794660067.2240539,
+    "1005012484784752": 1794936833.9811888,
     "1005013222140851": 1794732855.3959744,
     "1005013438245033": 1794845957.706943,
     "1005008986635164": 1793314892.9200466,
@@ -1695,7 +1696,8 @@
     "1005009982675898": 1794852971.2646165,
     "1005013565686677": 1794861887.139496,
     "COUPONS_d400dc9b6d2c": 1794935378.986234,
-    "COUPONS_d400dc9b": 1794935379.010957
+    "COUPONS_d400dc9b": 1794935379.010957,
+    "1005011551172448": 1794936842.146349
   },
   "published_titles": [
     "Wireless WiFi Repeater 300Mbps WiFi Extender Amplifier Booster Router",
@@ -2804,7 +2806,9 @@
     "Magcubic C Pro Projector",
     "MSI PRO B650-P WIFI 6E USED",
     "MSI PRO B850M-VC WIFI 6E",
-    "HAYLOU S40 ANC"
+    "HAYLOU S40 ANC",
+    "معالج Ryzen 7 5600XT",
+    "معالج بكرت شاشة مدمج Ryzen 5 3400G"
   ],
   "published_title_timestamps": {
     "Xiaomi Redmi Note 17 5G Global Version": 1790857823.0117362,
@@ -3918,11 +3922,11 @@
     "Magcubic C Pro Projector": 1794863018.2939777,
     "MSI PRO B650-P WIFI 6E USED": 1794863026.9329176,
     "MSI PRO B850M-VC WIFI 6E": 1794863220.9848075,
-    "HAYLOU S40 ANC": 1794935370.6114745
+    "HAYLOU S40 ANC": 1794935370.6114745,
+    "معالج Ryzen 7 5600XT": 1794936833.9811888,
+    "معالج بكرت شاشة مدمج Ryzen 5 3400G": 1794936842.146349
   },
   "published_post_keys": [
-    "ecksdeal:6043",
-    "lodydeals:46214",
     "aniscoupons:34227",
     "aniscoupons:34228",
     "zedstoreonline:39681",
@@ -4920,15 +4924,17 @@
     "bnddeals:51309",
     "bnddeals:51310",
     "ecksdeal:6081",
-    "ecksdeal:6082"
+    "ecksdeal:6082",
+    "ecksdeal:6084",
+    "ecksdeal:6085"
   ],
   "last_disclaimer_time": 1794524540.9476151,
   "last_calendar_time": 1794572799.8939624,
-  "last_run_time": 1794936466.9727015,
+  "last_run_time": 1794936842.146349,
   "monitored_channels": {
     "ecksdeal": {
-      "last_message_id": 6083,
-      "last_check_time": 1794936472.8520195
+      "last_message_id": 6085,
+      "last_check_time": 1794936844.2349489
     },
     "lodydeals": {
       "last_message_id": 46634,
@@ -5249,7 +5255,7 @@
     "1005011638526553": 407.54,
     "1005010207075594": 424.0,
     "1005013351519067": 202.9,
-    "1005012484784752": 98.7,
+    "1005012484784752": 98.79,
     "1005013222140851": 74.53,
     "1005010355409000": 494.2,
     "1005013438245033": 409.36,
@@ -5694,7 +5700,8 @@
     "1005008637007198": 52.39,
     "1005008521959756": 98.21,
     "1005009982675898": 17.1,
-    "1005013565686677": 12.03
+    "1005013565686677": 12.03,
+    "1005011551172448": 58.29
   },
   "channel_published_deals": {
     "aniscoupons:32590": {
@@ -27599,6 +27606,26 @@
       "price": 59.1,
       "timestamp": 1794936466.9727015,
       "status": "ACTIVE"
+    },
+    "ecksdeal:6084": {
+      "channel_msg_id": 3091,
+      "product_id": "1005012484784752",
+      "title": "معالج Ryzen 7 5600XT",
+      "channel": "ecksdeal",
+      "source_msg_id": 6084,
+      "price": 98.79,
+      "timestamp": 1794936833.9811888,
+      "status": "ACTIVE"
+    },
+    "ecksdeal:6085": {
+      "channel_msg_id": 3092,
+      "product_id": "1005011551172448",
+      "title": "معالج بكرت شاشة مدمج Ryzen 5 3400G",
+      "channel": "ecksdeal",
+      "source_msg_id": 6085,
+      "price": 58.29,
+      "timestamp": 1794936842.146349,
+      "status": "ACTIVE"
     }
   },
   "schedule_config": {
@@ -27607,17 +27634,17 @@
     "current_interval_minutes": 5,
     "is_paused": false,
     "night_mode_enabled": true,
-    "last_deal_post_time": 1794936475.034647,
+    "last_deal_post_time": 1794936846.6601694,
     "night_start_hour_dz": 0,
     "night_end_hour_dz": 8,
     "night_pause_enabled": true,
-    "last_sweep_time": 1794936665.556765,
+    "last_sweep_time": 1794936849.7331588,
     "last_sweep_times": {
-      "algeria": 1794936661.8896484,
-      "france": 1794936665.556765
+      "algeria": 1794936846.619623,
+      "france": 1794936849.7331588
     },
     "last_deal_post_times": {
-      "algeria": 1794936475.034647
+      "algeria": 1794936846.6601694
     }
   },
   "last_coin_reminder_time": 1794767542.171841,
@@ -28004,7 +28031,7 @@
     "1005011638526553": "lodydeals",
     "1005010207075594": "aniscoupons",
     "1005013351519067": "aniscoupons",
-    "1005012484784752": "zedstoreonline",
+    "1005012484784752": "ecksdeal",
     "1005013222140851": "lodydeals",
     "1005010355409000": "aniscoupons",
     "1005013438245033": "aniscoupons",
@@ -28470,7 +28497,8 @@
     "1005008521959756": "lodydeals",
     "1005009982675898": "aniscoupons",
     "1005013565686677": "lodydeals",
-    "COUPONS_d400dc9b6d2c": "bnddeals"
+    "COUPONS_d400dc9b6d2c": "bnddeals",
+    "1005011551172448": "ecksdeal"
   },
   "published_title_channels": {
     "Test Wrench Set": "test_channel",
@@ -29586,7 +29614,9 @@
     "Magcubic C Pro Projector": "lodydeals",
     "MSI PRO B650-P WIFI 6E USED": "aniscoupons",
     "MSI PRO B850M-VC WIFI 6E": "aniscoupons",
-    "HAYLOU S40 ANC": "bnddeals"
+    "HAYLOU S40 ANC": "bnddeals",
+    "معالج Ryzen 7 5600XT": "ecksdeal",
+    "معالج بكرت شاشة مدمج Ryzen 5 3400G": "ecksdeal"
   },
   "religious_reminders_history": {
     "mock_rem": "2026-10-02",
@@ -32529,6 +32559,13 @@
         "channel": "ecksdeal",
         "ts": 1794936472.7124705,
         "price": 118.59
+      }
+    ],
+    "1005012484784752": [
+      {
+        "channel": "ecksdeal",
+        "ts": 1794936831.6616163,
+        "price": 98.79
       }
     ]
   },
