@@ -1424,7 +1424,7 @@
     "1005011927267564": 1793728844.5794795,
     "1005008291023017": 1794998227.2322433,
     "1005012947477238": 1794914021.5924346,
-    "1005010121513376": 1794990160.20343,
+    "1005010121513376": 1795004960.4540246,
     "1005009064526142": 1793613380.753295,
     "1005010009130696": 1793613403.4444478,
     "1005013465751932": 1793613440.9413722,
@@ -2816,7 +2816,8 @@
     "معالج Ryzen 7 5600XT",
     "معالج بكرت شاشة مدمج Ryzen 5 3400G",
     "QY6 0082 Printhead for Canon IP7210 IP7250 IP7280 MG5420 MG5460",
-    "Print Head QY6 0089 for Canon TS5060 TS5080 TS6020 TS6080 TS6120"
+    "Print Head QY6 0089 for Canon TS5060 TS5080 TS6020 TS6080 TS6120",
+    "HONOR X9D 12/256GB"
   ],
   "published_title_timestamps": {
     "Xiaomi Redmi Note 17 5G Global Version": 1790857823.0117362,
@@ -3934,10 +3935,10 @@
     "معالج Ryzen 7 5600XT": 1794936833.9811888,
     "معالج بكرت شاشة مدمج Ryzen 5 3400G": 1794936842.146349,
     "QY6 0082 Printhead for Canon IP7210 IP7250 IP7280 MG5420 MG5460": 1794996958.0314968,
-    "Print Head QY6 0089 for Canon TS5060 TS5080 TS6020 TS6080 TS6120": 1794996764.6923764
+    "Print Head QY6 0089 for Canon TS5060 TS5080 TS6020 TS6080 TS6120": 1794996764.6923764,
+    "HONOR X9D 12/256GB": 1795004960.4540246
   },
   "published_post_keys": [
-    "zedstoreonline:39730",
     "aniscoupons:34287",
     "zedstoreonline:39731",
     "zedstoreonline:39732",
@@ -4936,19 +4937,20 @@
     "aniscoupons:35245",
     "zedstoreonline:40384",
     "zedstoreonline:40385",
-    "aniscoupons:35248"
+    "aniscoupons:35248",
+    "lodydeals:46641"
   ],
   "last_disclaimer_time": 1794524540.9476151,
   "last_calendar_time": 1794572799.8939624,
-  "last_run_time": 1795004596.986253,
+  "last_run_time": 1795004960.4540246,
   "monitored_channels": {
     "ecksdeal": {
       "last_message_id": 6090,
       "last_check_time": 1794950845.0345552
     },
     "lodydeals": {
-      "last_message_id": 46640,
-      "last_check_time": 1795003455.245495
+      "last_message_id": 46641,
+      "last_check_time": 1795004962.5442626
     },
     "test_channel": {
       "last_message_id": 1793967703,
@@ -5465,7 +5467,7 @@
     "1005011927267564": 24.55,
     "1005008291023017": 305.22,
     "1005012947477238": 217.8,
-    "1005010121513376": 289.5,
+    "1005010121513376": 289.51,
     "1005009064526142": 123.9,
     "1005010009130696": 656.0,
     "1005013465751932": 527.0,
@@ -28289,6 +28291,16 @@
       "price": 82.66,
       "timestamp": 1795004596.986253,
       "status": "ACTIVE"
+    },
+    "lodydeals:46641": {
+      "channel_msg_id": 3159,
+      "product_id": "1005010121513376",
+      "title": "HONOR X9D 12/256GB",
+      "channel": "lodydeals",
+      "source_msg_id": 46641,
+      "price": 289.51,
+      "timestamp": 1795004960.4540246,
+      "status": "ACTIVE"
     }
   },
   "schedule_config": {
@@ -28297,17 +28309,17 @@
     "current_interval_minutes": 5,
     "is_paused": false,
     "night_mode_enabled": true,
-    "last_deal_post_time": 1795004600.1166263,
+    "last_deal_post_time": 1795004966.322229,
     "night_start_hour_dz": 0,
     "night_end_hour_dz": 8,
     "night_pause_enabled": true,
-    "last_sweep_time": 1795004771.247184,
+    "last_sweep_time": 1795004969.5518875,
     "last_sweep_times": {
-      "algeria": 1795004768.5913045,
-      "france": 1795004771.247184
+      "algeria": 1795004966.2773252,
+      "france": 1795004969.5518875
     },
     "last_deal_post_times": {
-      "algeria": 1795004600.1166263
+      "algeria": 1795004966.322229
     }
   },
   "last_coin_reminder_time": 1794767542.171841,
@@ -28904,7 +28916,7 @@
     "1005011927267564": "lodydeals",
     "1005008291023017": "aniscoupons",
     "1005012947477238": "aniscoupons",
-    "1005010121513376": "aniscoupons",
+    "1005010121513376": "lodydeals",
     "1005009064526142": "zedstoreonline",
     "1005010009130696": "zedstoreonline",
     "1005013465751932": "zedstoreonline",
@@ -30284,7 +30296,8 @@
     "معالج Ryzen 7 5600XT": "ecksdeal",
     "معالج بكرت شاشة مدمج Ryzen 5 3400G": "ecksdeal",
     "QY6 0082 Printhead for Canon IP7210 IP7250 IP7280 MG5420 MG5460": "aniscoupons",
-    "Print Head QY6 0089 for Canon TS5060 TS5080 TS6020 TS6080 TS6120": "aniscoupons"
+    "Print Head QY6 0089 for Canon TS5060 TS5080 TS6020 TS6080 TS6120": "aniscoupons",
+    "HONOR X9D 12/256GB": "lodydeals"
   },
   "religious_reminders_history": {
     "mock_rem": "2026-10-02",
@@ -32670,6 +32683,11 @@
         "channel": "zedstoreonline",
         "ts": 1794999697.2908592,
         "price": 289.0
+      },
+      {
+        "channel": "lodydeals",
+        "ts": 1795004957.555821,
+        "price": 289.51
       }
     ],
     "1005010716206374": [
