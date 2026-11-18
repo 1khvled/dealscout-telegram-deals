@@ -1368,7 +1368,7 @@
     "1005010114569881": 1793543824.1762173,
     "1005013053122560": 1794946436.9390824,
     "1005012322822595": 1793543961.1645148,
-    "1005009662812027": 1794914013.3468976,
+    "1005009662812027": 1794995842.2213447,
     "1005005975560350": 1794663193.5352495,
     "1005012922578845": 1793544001.8628821,
     "1005011752891197": 1793613465.8475375,
@@ -3544,7 +3544,7 @@
     "HONOR Pad X8b (LTE 6/128GB)": 1794136369.073103,
     "[Clearance] realme 14T 5G Smartphone NFC Dimensity 6300 5G Processor": 1793613966.8608465,
     "RYZEN 5 9600X": 1793613978.6202738,
-    "Magcubic HY300 Max Projector": 1794914013.3468976,
+    "Magcubic HY300 Max Projector": 1794995842.2213447,
     "AMD RYZEN 7 9800X3D": 1793615114.3091638,
     "Anker Space One ANC Headset": 1793616557.8235445,
     "بطاقة الأم Asrock X570M PRO4": 1794936461.8541727,
@@ -3937,7 +3937,6 @@
     "Print Head QY6 0089 for Canon TS5060 TS5080 TS6020 TS6080 TS6120": 1794944609.807315
   },
   "published_post_keys": [
-    "aniscoupons:34266",
     "aniscoupons:34267",
     "zedstoreonline:39712",
     "aniscoupons:34269",
@@ -4936,11 +4935,12 @@
     "aniscoupons:35217",
     "aniscoupons:35219",
     "aniscoupons:35223",
-    "aniscoupons:35222"
+    "aniscoupons:35222",
+    "aniscoupons:35224"
   ],
   "last_disclaimer_time": 1794524540.9476151,
   "last_calendar_time": 1794572799.8939624,
-  "last_run_time": 1794995660.7798858,
+  "last_run_time": 1794995842.2213447,
   "monitored_channels": {
     "ecksdeal": {
       "last_message_id": 6090,
@@ -4971,8 +4971,8 @@
       "last_check_time": 1794995468.8626158
     },
     "aniscoupons": {
-      "last_message_id": 35223,
-      "last_check_time": 1794995660.7798858
+      "last_message_id": 35224,
+      "last_check_time": 1794995844.2894137
     },
     "bnddeals": {
       "last_message_id": 51310,
@@ -28019,6 +28019,16 @@
       "price": 364.9,
       "timestamp": 1794995660.7798858,
       "status": "ACTIVE"
+    },
+    "aniscoupons:35224": {
+      "channel_msg_id": 3131,
+      "product_id": "1005009662812027",
+      "title": "Magcubic HY300 Max Projector",
+      "channel": "aniscoupons",
+      "source_msg_id": 35224,
+      "price": 78.4,
+      "timestamp": 1794995842.2213447,
+      "status": "ACTIVE"
     }
   },
   "schedule_config": {
@@ -28027,17 +28037,17 @@
     "current_interval_minutes": 5,
     "is_paused": false,
     "night_mode_enabled": true,
-    "last_deal_post_time": 1794995663.7673018,
+    "last_deal_post_time": 1794995845.3538568,
     "night_start_hour_dz": 0,
     "night_end_hour_dz": 8,
     "night_pause_enabled": true,
-    "last_sweep_time": 1794995666.309101,
+    "last_sweep_time": 1794995848.4268517,
     "last_sweep_times": {
-      "algeria": 1794995663.7294075,
-      "france": 1794995666.309101
+      "algeria": 1794995845.3244143,
+      "france": 1794995848.4268517
     },
     "last_deal_post_times": {
-      "algeria": 1794995663.7673018
+      "algeria": 1794995845.3538568
     }
   },
   "last_coin_reminder_time": 1794767542.171841,
@@ -32574,6 +32584,13 @@
         "channel": "aniscoupons",
         "ts": 1794995658.742009,
         "price": 364.9
+      }
+    ],
+    "1005009662812027": [
+      {
+        "channel": "aniscoupons",
+        "ts": 1794995839.5501502,
+        "price": 78.4
       }
     ]
   },
