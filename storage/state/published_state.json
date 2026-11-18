@@ -1702,7 +1702,7 @@
     "COUPONS_d400dc9b": 1794935379.010957,
     "1005011551172448": 1794936842.146349,
     "1005013401121405": 1794944061.2401145,
-    "1005003624789670": 1794944609.807315,
+    "1005003624789670": 1794996764.6923764,
     "1005008644346729": 1794991252.6823444
   },
   "published_titles": [
@@ -3934,10 +3934,9 @@
     "معالج Ryzen 7 5600XT": 1794936833.9811888,
     "معالج بكرت شاشة مدمج Ryzen 5 3400G": 1794936842.146349,
     "QY6 0082 Printhead for Canon IP7210 IP7250 IP7280 MG5420 MG5460": 1794944061.2401145,
-    "Print Head QY6 0089 for Canon TS5060 TS5080 TS6020 TS6080 TS6120": 1794944609.807315
+    "Print Head QY6 0089 for Canon TS5060 TS5080 TS6020 TS6080 TS6120": 1794996764.6923764
   },
   "published_post_keys": [
-    "zedstoreonline:39714",
     "aniscoupons:34270",
     "aniscoupons:34271",
     "zedstoreonline:39716",
@@ -4936,11 +4935,12 @@
     "aniscoupons:35224",
     "zedstoreonline:40366",
     "zedstoreonline:40367",
-    "aniscoupons:35225"
+    "aniscoupons:35225",
+    "aniscoupons:35227"
   ],
   "last_disclaimer_time": 1794524540.9476151,
   "last_calendar_time": 1794572799.8939624,
-  "last_run_time": 1794996403.594225,
+  "last_run_time": 1794996764.6923764,
   "monitored_channels": {
     "ecksdeal": {
       "last_message_id": 6090,
@@ -4967,12 +4967,12 @@
       "last_check_time": 1793599663.3444748
     },
     "zedstoreonline": {
-      "last_message_id": 40368,
-      "last_check_time": 1794996396.897872
+      "last_message_id": 40369,
+      "last_check_time": 1794996759.8957765
     },
     "aniscoupons": {
-      "last_message_id": 35226,
-      "last_check_time": 1794996410.3393867
+      "last_message_id": 35227,
+      "last_check_time": 1794996766.7753408
     },
     "bnddeals": {
       "last_message_id": 51310,
@@ -28059,6 +28059,16 @@
       "price": 409.36,
       "timestamp": 1794996403.594225,
       "status": "ACTIVE"
+    },
+    "aniscoupons:35227": {
+      "channel_msg_id": 3135,
+      "product_id": "1005003624789670",
+      "title": "Print Head QY6 0089 for Canon TS5060 TS5080 TS6020 TS6080 TS6120",
+      "channel": "aniscoupons",
+      "source_msg_id": 35227,
+      "price": 18.33,
+      "timestamp": 1794996764.6923764,
+      "status": "ACTIVE"
     }
   },
   "schedule_config": {
@@ -28067,17 +28077,17 @@
     "current_interval_minutes": 5,
     "is_paused": false,
     "night_mode_enabled": true,
-    "last_deal_post_time": 1794996411.4132042,
+    "last_deal_post_time": 1794996767.9161003,
     "night_start_hour_dz": 0,
     "night_end_hour_dz": 8,
     "night_pause_enabled": true,
-    "last_sweep_time": 1794996573.6528404,
+    "last_sweep_time": 1794996771.4838707,
     "last_sweep_times": {
-      "algeria": 1794996571.3228025,
-      "france": 1794996573.6528404
+      "algeria": 1794996767.883396,
+      "france": 1794996771.4838707
     },
     "last_deal_post_times": {
-      "algeria": 1794996411.4132042
+      "algeria": 1794996767.9161003
     }
   },
   "last_coin_reminder_time": 1794767542.171841,
@@ -30851,7 +30861,6 @@
   "published_deals_history": {},
   "settings": {},
   "handled_post_keys": [
-    "lodydeals:46279",
     "zedstoreonline:39763",
     "zedstoreonline:39764",
     "zedstoreonline:39765",
@@ -31850,7 +31859,8 @@
     "zedstoreonline:40364",
     "zedstoreonline:40365",
     "zedstoreonline:40368",
-    "aniscoupons:35226"
+    "aniscoupons:35226",
+    "zedstoreonline:40369"
   ],
   "last_france_cross_promo_time": 1794913823.9647303,
   "next_france_cross_promo_interval_seconds": 311842,
@@ -32539,6 +32549,11 @@
         "channel": "aniscoupons",
         "ts": 1794992182.1918232,
         "price": 179.4
+      },
+      {
+        "channel": "zedstoreonline",
+        "ts": 1794996759.7602873,
+        "price": 179.16
       }
     ],
     "1005010369693975": [
@@ -32656,6 +32671,13 @@
         "channel": "aniscoupons",
         "ts": 1794996409.7123878,
         "price": 366.0
+      }
+    ],
+    "1005003624789670": [
+      {
+        "channel": "aniscoupons",
+        "ts": 1794996761.8218737,
+        "price": 18.33
       }
     ]
   },
