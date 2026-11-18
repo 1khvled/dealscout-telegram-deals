@@ -1459,7 +1459,7 @@
     "1005012533449539": 1794845255.0683267,
     "1005009178167326": 1793650772.8370051,
     "1005011742640729": 1794845615.4252245,
-    "1005013154935332": 1793655734.5359836,
+    "1005013154935332": 1795027119.0070791,
     "1005012774075728": 1793656103.0944026,
     "1005006783028347": 1794771190.3471751,
     "1005007010104970": 1793656134.827825,
@@ -3562,7 +3562,7 @@
     "كيبورد ميكانيكي لاسلكي فخم  EPOMAKER x Aproz TH108 Wireless": 1794845255.0683267,
     "كيبورد مغناطيسي فخم Epomaker HE68 Lite Magnetic 8K": 1793650772.8370051,
     "كيبورد مغناطيسي لاسلكي فخم Epomaker HE108 Wireless Magnetic 8K": 1794845615.4252245,
-    "ماوسباد زجاجي Epomaker GP1 Tempered Glass": 1793655734.5359836,
+    "ماوسباد زجاجي Epomaker GP1 Tempered Glass": 1795027119.0070791,
     "TCL Alcatel 3023": 1793656103.0944026,
     "Toocki PD Cable 100W": 1793656107.995781,
     "Toocki 60W Car Charger": 1793656112.890115,
@@ -3947,7 +3947,6 @@
     "DOOV R77 4G Touch 3/32GB": 1795023205.68955
   },
   "published_post_keys": [
-    "zedstoreonline:39744",
     "zedstoreonline:39745",
     "zedstoreonline:39747",
     "zedstoreonline:39749",
@@ -4946,15 +4945,16 @@
     "lodydeals:46644",
     "lodydeals:46648",
     "lodydeals:46652",
-    "lodydeals:46653"
+    "lodydeals:46653",
+    "ecksdeal:6094"
   ],
   "last_disclaimer_time": 1794524540.9476151,
   "last_calendar_time": 1794572799.8939624,
-  "last_run_time": 1795023369.0864155,
+  "last_run_time": 1795027119.0070791,
   "monitored_channels": {
     "ecksdeal": {
-      "last_message_id": 6093,
-      "last_check_time": 1795022277.203909
+      "last_message_id": 6095,
+      "last_check_time": 1795027125.6729147
     },
     "lodydeals": {
       "last_message_id": 46653,
@@ -28519,6 +28519,16 @@
       "price": 112.1,
       "timestamp": 1795023369.0864155,
       "status": "ACTIVE"
+    },
+    "ecksdeal:6094": {
+      "channel_msg_id": 3183,
+      "product_id": "1005013154935332",
+      "title": "ماوسباد زجاجي Epomaker GP1 Tempered Glass",
+      "channel": "ecksdeal",
+      "source_msg_id": 6094,
+      "price": 33.75,
+      "timestamp": 1795027119.0070791,
+      "status": "ACTIVE"
     }
   },
   "schedule_config": {
@@ -28527,17 +28537,17 @@
     "current_interval_minutes": 5,
     "is_paused": false,
     "night_mode_enabled": true,
-    "last_deal_post_time": 1795023374.2778673,
+    "last_deal_post_time": 1795027128.1585062,
     "night_start_hour_dz": 0,
     "night_end_hour_dz": 8,
     "night_pause_enabled": true,
-    "last_sweep_time": 1795026935.4505699,
+    "last_sweep_time": 1795027131.1205192,
     "last_sweep_times": {
-      "algeria": 1795026932.3463478,
-      "france": 1795026935.4505699
+      "algeria": 1795027128.1191506,
+      "france": 1795027131.1205192
     },
     "last_deal_post_times": {
-      "algeria": 1795023374.2778673
+      "algeria": 1795027128.1585062
     }
   },
   "last_coin_reminder_time": 1795015271.2437074,
@@ -31316,7 +31326,6 @@
   "published_deals_history": {},
   "settings": {},
   "handled_post_keys": [
-    "aniscoupons:34355",
     "aniscoupons:34356",
     "zedstoreonline:39789",
     "zedstoreonline:39791",
@@ -32315,7 +32324,8 @@
     "lodydeals:46647",
     "lodydeals:46650",
     "lodydeals:46651",
-    "aniscoupons:35261"
+    "aniscoupons:35261",
+    "ecksdeal:6095"
   ],
   "last_france_cross_promo_time": 1794913823.9647303,
   "next_france_cross_promo_interval_seconds": 311842,
@@ -33531,6 +33541,13 @@
         "channel": "lodydeals",
         "ts": 1795023366.4894435,
         "price": 112.1
+      }
+    ],
+    "1005013154935332": [
+      {
+        "channel": "ecksdeal",
+        "ts": 1795027116.5472667,
+        "price": 33.75
       }
     ]
   },
