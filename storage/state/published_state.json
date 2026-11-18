@@ -1508,7 +1508,7 @@
     "9998887107": 1793967108.0014687,
     "9998887678": 1793967678.8184059,
     "9998887703": 1793967703.2348685,
-    "1005008708333999": 1794950849.6355956,
+    "1005008708333999": 1794990350.4568644,
     "1005012254132930": 1794913886.9009395,
     "1005013028124905": 1793971934.3600886,
     "1005012691642623": 1794074230.5173922,
@@ -3920,7 +3920,7 @@
     "realme P4 Power 8/256GB": 1794935216.1531737,
     "HONGTOP H20PRO TV Box 2/16GB": 1794845239.5606787,
     "Xiaomi Redmi Note 17 5G Global Version 6/256GB": 1794914021.5924346,
-    "Realme C100d": 1794935336.9408855,
+    "Realme C100d": 1794990350.4568644,
     "AMD Ryzen 5 5600X": 1794852895.9711866,
     "FIFINE K688 USB/XLR Dynamic": 1794852901.0609643,
     "NEW AMD R5 9600X CPU RYZNE 5 9600X Desktop Game Processor No Fan": 1794852909.5572178,
@@ -3937,7 +3937,6 @@
     "Print Head QY6 0089 for Canon TS5060 TS5080 TS6020 TS6080 TS6120": 1794944609.807315
   },
   "published_post_keys": [
-    "aniscoupons:34245",
     "aniscoupons:34247",
     "aniscoupons:34248",
     "lodydeals:46232",
@@ -4936,11 +4935,12 @@
     "aniscoupons:35199",
     "aniscoupons:35200",
     "aniscoupons:35202",
-    "aniscoupons:35203"
+    "aniscoupons:35203",
+    "aniscoupons:35204"
   ],
   "last_disclaimer_time": 1794524540.9476151,
   "last_calendar_time": 1794572799.8939624,
-  "last_run_time": 1794990167.2493267,
+  "last_run_time": 1794990350.4568644,
   "monitored_channels": {
     "ecksdeal": {
       "last_message_id": 6090,
@@ -4971,8 +4971,8 @@
       "last_check_time": 1794955061.4791563
     },
     "aniscoupons": {
-      "last_message_id": 35203,
-      "last_check_time": 1794990169.39026
+      "last_message_id": 35204,
+      "last_check_time": 1794990352.527192
     },
     "bnddeals": {
       "last_message_id": 51310,
@@ -27859,6 +27859,16 @@
       "price": 304.39,
       "timestamp": 1794990167.2493267,
       "status": "ACTIVE"
+    },
+    "aniscoupons:35204": {
+      "channel_msg_id": 3115,
+      "product_id": "1005008708333999",
+      "title": "Realme C100d",
+      "channel": "aniscoupons",
+      "source_msg_id": 35204,
+      "price": 136.7,
+      "timestamp": 1794990350.4568644,
+      "status": "ACTIVE"
     }
   },
   "schedule_config": {
@@ -27867,17 +27877,17 @@
     "current_interval_minutes": 5,
     "is_paused": false,
     "night_mode_enabled": true,
-    "last_deal_post_time": 1794990170.2807224,
+    "last_deal_post_time": 1794990353.6310554,
     "night_start_hour_dz": 0,
     "night_end_hour_dz": 8,
     "night_pause_enabled": true,
-    "last_sweep_time": 1794990172.9092777,
+    "last_sweep_time": 1794990356.9924169,
     "last_sweep_times": {
-      "algeria": 1794990170.2423127,
-      "france": 1794990172.9092777
+      "algeria": 1794990353.6011298,
+      "france": 1794990356.9924169
     },
     "last_deal_post_times": {
-      "algeria": 1794990170.2807224
+      "algeria": 1794990353.6310554
     }
   },
   "last_coin_reminder_time": 1794767542.171841,
@@ -28542,7 +28552,7 @@
     "9998887107": "test_channel",
     "9998887678": "test_channel",
     "9998887703": "test_channel",
-    "1005008708333999": "zedstoreonline",
+    "1005008708333999": "aniscoupons",
     "1005012254132930": "zedstoreonline",
     "1005013028124905": "zedstoreonline",
     "1005012691642623": "zedstoreonline",
@@ -32233,6 +32243,11 @@
         "channel": "lodydeals",
         "ts": 1794955050.7221017,
         "price": 136.7
+      },
+      {
+        "channel": "aniscoupons",
+        "ts": 1794990347.7330453,
+        "price": 136.7
       }
     ],
     "1005012726037568": [
@@ -32252,13 +32267,6 @@
         "channel": "aniscoupons",
         "ts": 1794948085.7528539,
         "price": 51.15
-      }
-    ],
-    "1005013039644752": [
-      {
-        "channel": "aniscoupons",
-        "ts": 1794946988.4622169,
-        "price": 265.7
       }
     ],
     "1005011779814585": [
