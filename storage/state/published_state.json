@@ -1287,7 +1287,7 @@
     "1005011820893973": 1793540051.7895243,
     "1005009073904302": 1794731901.208706,
     "1005009916208760": 1793448612.7938895,
-    "1005010033441204": 1794935331.9774265,
+    "1005010033441204": 1794994015.7920218,
     "1005008356663932": 1793707052.9762022,
     "1005010074161953": 1793543659.5887568,
     "1005010498953493": 1794948087.9126022,
@@ -3304,7 +3304,7 @@
     "Soundcore by Anker Life Q30 Hybrid Active Noise Cancelling Headphones": 1793448587.6507976,
     "بروجكتور Magcubic HY300 max – أوتو فوكس، Android 14، إضاءة 400 ANSI": 1793448612.7938895,
     "MAONO PD100X Dynamic Microphone": 1794730332.5562615,
-    "Soundcore by Anker P20i": 1794935331.9774265,
+    "Soundcore by Anker P20i": 1794994015.7920218,
     "CUSU Memory DDR5  32GB(16GBX2) 5600MHz": 1793448632.7055113,
     "OPPO FIND X9 Pro": 1794486542.3386803,
     "OPPO A7 Pro Max CN": 1793448660.3359752,
@@ -3937,7 +3937,6 @@
     "Print Head QY6 0089 for Canon TS5060 TS5080 TS6020 TS6080 TS6120": 1794944609.807315
   },
   "published_post_keys": [
-    "zedstoreonline:39704",
     "aniscoupons:34262",
     "zedstoreonline:39706",
     "zedstoreonline:39707",
@@ -4936,11 +4935,12 @@
     "aniscoupons:35214",
     "aniscoupons:35213",
     "aniscoupons:35215",
-    "aniscoupons:35216"
+    "aniscoupons:35216",
+    "aniscoupons:35217"
   ],
   "last_disclaimer_time": 1794524540.9476151,
   "last_calendar_time": 1794572799.8939624,
-  "last_run_time": 1794993655.325986,
+  "last_run_time": 1794994015.7920218,
   "monitored_channels": {
     "ecksdeal": {
       "last_message_id": 6090,
@@ -4971,8 +4971,8 @@
       "last_check_time": 1794955061.4791563
     },
     "aniscoupons": {
-      "last_message_id": 35216,
-      "last_check_time": 1794993657.3890035
+      "last_message_id": 35218,
+      "last_check_time": 1794994018.9936202
     },
     "bnddeals": {
       "last_message_id": 51310,
@@ -27979,6 +27979,16 @@
       "price": 22.47,
       "timestamp": 1794993655.325986,
       "status": "ACTIVE"
+    },
+    "aniscoupons:35217": {
+      "channel_msg_id": 3127,
+      "product_id": "1005010033441204",
+      "title": "Soundcore by Anker P20i",
+      "channel": "aniscoupons",
+      "source_msg_id": 35217,
+      "price": 14.6,
+      "timestamp": 1794994015.7920218,
+      "status": "ACTIVE"
     }
   },
   "schedule_config": {
@@ -27987,17 +27997,17 @@
     "current_interval_minutes": 5,
     "is_paused": false,
     "night_mode_enabled": true,
-    "last_deal_post_time": 1794993658.4095745,
+    "last_deal_post_time": 1794994020.1090539,
     "night_start_hour_dz": 0,
     "night_end_hour_dz": 8,
     "night_pause_enabled": true,
-    "last_sweep_time": 1794993823.6216137,
+    "last_sweep_time": 1794994023.3046238,
     "last_sweep_times": {
-      "algeria": 1794993820.839492,
-      "france": 1794993823.6216137
+      "algeria": 1794994020.0781631,
+      "france": 1794994023.3046238
     },
     "last_deal_post_times": {
-      "algeria": 1794993658.4095745
+      "algeria": 1794994020.1090539
     }
   },
   "last_coin_reminder_time": 1794767542.171841,
@@ -30771,7 +30781,6 @@
   "published_deals_history": {},
   "settings": {},
   "handled_post_keys": [
-    "aniscoupons:34326",
     "aniscoupons:34327",
     "aniscoupons:34329",
     "aniscoupons:34330",
@@ -31770,7 +31779,8 @@
     "lodydeals:46638",
     "lodydeals:46639",
     "aniscoupons:35201",
-    "aniscoupons:35205"
+    "aniscoupons:35205",
+    "aniscoupons:35218"
   ],
   "last_france_cross_promo_time": 1794913823.9647303,
   "next_france_cross_promo_interval_seconds": 311842,
@@ -32433,6 +32443,11 @@
         "channel": "aniscoupons",
         "ts": 1794991250.3061204,
         "price": 114.99
+      },
+      {
+        "channel": "aniscoupons",
+        "ts": 1794994018.880785,
+        "price": 114.99
       }
     ],
     "1005012970221631": [
@@ -32489,6 +32504,13 @@
         "channel": "aniscoupons",
         "ts": 1794993652.538995,
         "price": 22.47
+      }
+    ],
+    "1005010033441204": [
+      {
+        "channel": "aniscoupons",
+        "ts": 1794994012.388369,
+        "price": 14.6
       }
     ]
   },
