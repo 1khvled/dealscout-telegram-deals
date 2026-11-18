@@ -1654,7 +1654,7 @@
     "1005010788231460": 1794604060.7762444,
     "1389260212": 1794605894.0354748,
     "1005012138794873": 1794993277.79399,
-    "1005007129557126": 1794946247.1992912,
+    "1005007129557126": 1795004596.986253,
     "1005010519693722": 1794680859.9419408,
     "1005010788149535": 1794995660.7798858,
     "1005007857182319": 1794666000.5453608,
@@ -3860,7 +3860,7 @@
     "H96 MAX RK3518 2/16GB": 1794606633.373106,
     "realme 45W SUPERVOOC Charger": 1794606651.7602222,
     "Kodak K133 USB 3.1 Flash Drive 256GB": 1794614891.9797184,
-    "SOYO AMD B550M Gaming": 1794946247.1992912,
+    "SOYO AMD B550M Gaming": 1795004596.986253,
     "Delux M400 PAW3311 24000DPI 1Khz 500mAh Wireless": 1794649518.026784,
     "Delux M800mini Wireless Gaming Mouse": 1794845442.6108298,
     "ASROCK X570M PRO4 Motherboard": 1794660431.126332,
@@ -3937,7 +3937,6 @@
     "Print Head QY6 0089 for Canon TS5060 TS5080 TS6020 TS6080 TS6120": 1794996764.6923764
   },
   "published_post_keys": [
-    "aniscoupons:34283",
     "zedstoreonline:39730",
     "aniscoupons:34287",
     "zedstoreonline:39731",
@@ -4936,11 +4935,12 @@
     "aniscoupons:35244",
     "aniscoupons:35245",
     "zedstoreonline:40384",
-    "zedstoreonline:40385"
+    "zedstoreonline:40385",
+    "aniscoupons:35248"
   ],
   "last_disclaimer_time": 1794524540.9476151,
   "last_calendar_time": 1794572799.8939624,
-  "last_run_time": 1795004220.913512,
+  "last_run_time": 1795004596.986253,
   "monitored_channels": {
     "ecksdeal": {
       "last_message_id": 6090,
@@ -4967,12 +4967,12 @@
       "last_check_time": 1793599663.3444748
     },
     "zedstoreonline": {
-      "last_message_id": 40385,
-      "last_check_time": 1795004223.0160787
+      "last_message_id": 40386,
+      "last_check_time": 1795004592.3843253
     },
     "aniscoupons": {
-      "last_message_id": 35247,
-      "last_check_time": 1795004030.9331062
+      "last_message_id": 35248,
+      "last_check_time": 1795004599.0483854
     },
     "bnddeals": {
       "last_message_id": 51310,
@@ -28279,6 +28279,16 @@
       "price": 18.7,
       "timestamp": 1795004220.913512,
       "status": "ACTIVE"
+    },
+    "aniscoupons:35248": {
+      "channel_msg_id": 3158,
+      "product_id": "1005007129557126",
+      "title": "SOYO AMD B550M Gaming",
+      "channel": "aniscoupons",
+      "source_msg_id": 35248,
+      "price": 82.66,
+      "timestamp": 1795004596.986253,
+      "status": "ACTIVE"
     }
   },
   "schedule_config": {
@@ -28287,17 +28297,17 @@
     "current_interval_minutes": 5,
     "is_paused": false,
     "night_mode_enabled": true,
-    "last_deal_post_time": 1795004224.781233,
+    "last_deal_post_time": 1795004600.1166263,
     "night_start_hour_dz": 0,
     "night_end_hour_dz": 8,
     "night_pause_enabled": true,
-    "last_sweep_time": 1795004409.0288289,
+    "last_sweep_time": 1795004603.2922862,
     "last_sweep_times": {
-      "algeria": 1795004405.6453555,
-      "france": 1795004409.0288289
+      "algeria": 1795004600.0892172,
+      "france": 1795004603.2922862
     },
     "last_deal_post_times": {
-      "algeria": 1795004224.781233
+      "algeria": 1795004600.1166263
     }
   },
   "last_coin_reminder_time": 1794767542.171841,
@@ -31071,7 +31081,6 @@
   "published_deals_history": {},
   "settings": {},
   "handled_post_keys": [
-    "zedstoreonline:39771",
     "zedstoreonline:39772",
     "zedstoreonline:39774",
     "aniscoupons:34341",
@@ -32070,7 +32079,8 @@
     "lodydeals:46640",
     "aniscoupons:35246",
     "zedstoreonline:40382",
-    "aniscoupons:35247"
+    "aniscoupons:35247",
+    "zedstoreonline:40386"
   ],
   "last_france_cross_promo_time": 1794913823.9647303,
   "next_france_cross_promo_interval_seconds": 311842,
@@ -32748,6 +32758,11 @@
         "channel": "aniscoupons",
         "ts": 1794993098.0767267,
         "price": 47.5
+      },
+      {
+        "channel": "zedstoreonline",
+        "ts": 1795004592.271587,
+        "price": 47.5
       }
     ],
     "1005012138794873": [
@@ -33064,6 +33079,13 @@
         "channel": "zedstoreonline",
         "ts": 1795004218.5043943,
         "price": 18.7
+      }
+    ],
+    "1005007129557126": [
+      {
+        "channel": "aniscoupons",
+        "ts": 1795004594.0637734,
+        "price": 82.66
       }
     ]
   },
