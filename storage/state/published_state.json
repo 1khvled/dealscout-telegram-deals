@@ -1485,7 +1485,7 @@
     "1005013205365677": 1794390785.626018,
     "1005008429979494": 1793741666.9686077,
     "1005004795387201": 1793742770.1634803,
-    "1005010702983351": 1794935190.6045454,
+    "1005010702983351": 1794998780.0409262,
     "1005008366962319": 1794845411.3284476,
     "1005005058037424": 1793779907.9964287,
     "1005012946895000": 1793793714.105913,
@@ -3631,7 +3631,7 @@
     "CUSU SSD 512GB 1TB 2.5 Inch SATA SATA3 2TB 4TB Hard Drive SSD 240GB 256GB": 1794991993.3818967,
     "Fifine Gaming Headset H9W": 1794566561.968837,
     "Fifine Gaming Headset H6": 1794424534.1435025,
-    "HyperX Cloud 3 III Wired Gaming Headset": 1794760450.4584036,
+    "HyperX Cloud 3 III Wired Gaming Headset": 1794998780.0409262,
     "KOOTION SSD SATA": 1794948819.0338063,
     "ال mouse  الشهيرة رجعت🖱️": 1793966875.5755405,
     "هذون سماعات جدد من   HAYLOU⌚": 1793966887.3818936,
@@ -3937,7 +3937,6 @@
     "Print Head QY6 0089 for Canon TS5060 TS5080 TS6020 TS6080 TS6120": 1794996764.6923764
   },
   "published_post_keys": [
-    "aniscoupons:34278",
     "zedstoreonline:39723",
     "zedstoreonline:39724",
     "aniscoupons:34279",
@@ -4936,11 +4935,12 @@
     "zedstoreonline:40374",
     "aniscoupons:35232",
     "aniscoupons:35233",
-    "zedstoreonline:40375"
+    "zedstoreonline:40375",
+    "zedstoreonline:40376"
   ],
   "last_disclaimer_time": 1794524540.9476151,
   "last_calendar_time": 1794572799.8939624,
-  "last_run_time": 1794998593.8332033,
+  "last_run_time": 1794998780.0409262,
   "monitored_channels": {
     "ecksdeal": {
       "last_message_id": 6090,
@@ -4967,12 +4967,12 @@
       "last_check_time": 1793599663.3444748
     },
     "zedstoreonline": {
-      "last_message_id": 40375,
-      "last_check_time": 1794998595.9009411
+      "last_message_id": 40376,
+      "last_check_time": 1794998782.1140258
     },
     "aniscoupons": {
-      "last_message_id": 35233,
-      "last_check_time": 1794998419.8377817
+      "last_message_id": 35234,
+      "last_check_time": 1794998782.8771589
     },
     "bnddeals": {
       "last_message_id": 51310,
@@ -5512,7 +5512,7 @@
     "1005013205365677": 883.6,
     "1005008429979494": 72.7,
     "1005004795387201": 115.5,
-    "1005010702983351": 69.9,
+    "1005010702983351": 69.6,
     "1005008366962319": 30.3,
     "1005005058037424": 34.67,
     "1005012946895000": 142.59,
@@ -28159,6 +28159,16 @@
       "price": 229.6,
       "timestamp": 1794998593.8332033,
       "status": "ACTIVE"
+    },
+    "zedstoreonline:40376": {
+      "channel_msg_id": 3145,
+      "product_id": "1005010702983351",
+      "title": "HyperX Cloud 3 III Wired Gaming Headset",
+      "channel": "zedstoreonline",
+      "source_msg_id": 40376,
+      "price": 69.6,
+      "timestamp": 1794998780.0409262,
+      "status": "ACTIVE"
     }
   },
   "schedule_config": {
@@ -28167,17 +28177,17 @@
     "current_interval_minutes": 5,
     "is_paused": false,
     "night_mode_enabled": true,
-    "last_deal_post_time": 1794998597.4767697,
+    "last_deal_post_time": 1794998783.497606,
     "night_start_hour_dz": 0,
     "night_end_hour_dz": 8,
     "night_pause_enabled": true,
-    "last_sweep_time": 1794998599.9189215,
+    "last_sweep_time": 1794998785.9394643,
     "last_sweep_times": {
-      "algeria": 1794998597.4494588,
-      "france": 1794998599.9189215
+      "algeria": 1794998783.4669874,
+      "france": 1794998785.9394643
     },
     "last_deal_post_times": {
-      "algeria": 1794998597.4767697
+      "algeria": 1794998783.497606
     }
   },
   "last_coin_reminder_time": 1794767542.171841,
@@ -28820,7 +28830,7 @@
     "1005013205365677": "bnddeals",
     "1005008429979494": "lodydeals",
     "1005004795387201": "lodydeals",
-    "1005010702983351": "ecksdeal",
+    "1005010702983351": "zedstoreonline",
     "1005008366962319": "aniscoupons",
     "1005005058037424": "lodydeals",
     "1005012946895000": "lodydeals",
@@ -30951,7 +30961,6 @@
   "published_deals_history": {},
   "settings": {},
   "handled_post_keys": [
-    "aniscoupons:34338",
     "lodydeals:46280",
     "zedstoreonline:39766",
     "lodydeals:46282",
@@ -31950,7 +31959,8 @@
     "zedstoreonline:40369",
     "aniscoupons:35229",
     "zedstoreonline:40372",
-    "zedstoreonline:40373"
+    "zedstoreonline:40373",
+    "aniscoupons:35234"
   ],
   "last_france_cross_promo_time": 1794913823.9647303,
   "next_france_cross_promo_interval_seconds": 311842,
@@ -32815,6 +32825,13 @@
         "channel": "zedstoreonline",
         "ts": 1794998591.511802,
         "price": 229.6
+      }
+    ],
+    "1005010702983351": [
+      {
+        "channel": "zedstoreonline",
+        "ts": 1794998777.878992,
+        "price": 69.6
       }
     ]
   },
