@@ -1279,7 +1279,7 @@
     "1005012864273120": 1793399494.1323898,
     "1005006967218963": 1793448582.9150612,
     "1005012675968319": 1793399525.3383162,
-    "1005010424638496": 1794845289.860184,
+    "1005010424638496": 1794998221.0343893,
     "1005010141682336": 1793399542.6698716,
     "1005006782790827": 1794993100.653145,
     "1005012938359476": 1793448722.5382965,
@@ -1422,7 +1422,7 @@
     "1005007010692093": 1793601389.0047116,
     "1005006994466968": 1793601744.1664062,
     "1005011927267564": 1793728844.5794795,
-    "1005008291023017": 1794822638.8360133,
+    "1005008291023017": 1794998227.2322433,
     "1005012947477238": 1794914021.5924346,
     "1005010121513376": 1794990160.20343,
     "1005009064526142": 1793613380.753295,
@@ -3668,7 +3668,7 @@
     "Essager 30W Car Charger": 1794393500.1320646,
     "KOOTION SSD SATA  240GB": 1794051434.2488248,
     "Xiaomi Redmi Note 17 Pro 5G Global Version": 1794060065.5449874,
-    "Magcubic  HY350 Max 900ANSI": 1794845289.860184,
+    "Magcubic  HY350 Max 900ANSI": 1794998221.0343893,
     "Toocki 60W Car Charger and cable": 1794771190.3471751,
     "Hollyland Lark M2 Wireless Mic": 1794063654.6498907,
     "XUNYOU-LINK 4G LTE WiFi 6 Portable Router": 1794064385.819615,
@@ -3852,7 +3852,7 @@
     "Lexar V400 USB3.0 64GB": 1794593403.339319,
     "HAYLOU S40 ANC Wireless": 1794913921.5364957,
     "CUSU Memory DDR5 (16GB) 6000MHz": 1794845393.90179,
-    "Realme 15 Pro (12/512GB)": 1794822638.8360133,
+    "Realme 15 Pro (12/512GB)": 1794998227.2322433,
     "MAONO T1 Plus Dual-Capsule Wireless Lavalier Microphone Lapel Microphone": 1794599278.9506347,
     "Blackview OSCAL PILOT 5  8/256": 1794604060.7762444,
     "Xiaomi Redmi Note 17 5G Global Version (6/256GB": 1794604246.449916,
@@ -3937,8 +3937,6 @@
     "Print Head QY6 0089 for Canon TS5060 TS5080 TS6020 TS6080 TS6120": 1794996764.6923764
   },
   "published_post_keys": [
-    "aniscoupons:34274",
-    "aniscoupons:34276",
     "zedstoreonline:39720",
     "aniscoupons:34277",
     "aniscoupons:34278",
@@ -4936,11 +4934,13 @@
     "zedstoreonline:40370",
     "zedstoreonline:40371",
     "aniscoupons:35230",
-    "aniscoupons:35231"
+    "aniscoupons:35231",
+    "zedstoreonline:40374",
+    "aniscoupons:35232"
   ],
   "last_disclaimer_time": 1794524540.9476151,
   "last_calendar_time": 1794572799.8939624,
-  "last_run_time": 1794998044.6375778,
+  "last_run_time": 1794998227.2322433,
   "monitored_channels": {
     "ecksdeal": {
       "last_message_id": 6090,
@@ -4967,12 +4967,12 @@
       "last_check_time": 1793599663.3444748
     },
     "zedstoreonline": {
-      "last_message_id": 40373,
-      "last_check_time": 1794997859.8559008
+      "last_message_id": 40374,
+      "last_check_time": 1794998223.0937817
     },
     "aniscoupons": {
-      "last_message_id": 35231,
-      "last_check_time": 1794998046.7312846
+      "last_message_id": 35232,
+      "last_check_time": 1794998229.296465
     },
     "bnddeals": {
       "last_message_id": 51310,
@@ -28119,6 +28119,26 @@
       "price": 22.3,
       "timestamp": 1794998044.6375778,
       "status": "ACTIVE"
+    },
+    "zedstoreonline:40374": {
+      "channel_msg_id": 3141,
+      "product_id": "1005010424638496",
+      "title": "Magcubic  HY350 Max 900ANSI",
+      "channel": "zedstoreonline",
+      "source_msg_id": 40374,
+      "price": 113.9,
+      "timestamp": 1794998221.0343893,
+      "status": "ACTIVE"
+    },
+    "aniscoupons:35232": {
+      "channel_msg_id": 3142,
+      "product_id": "1005008291023017",
+      "title": "Realme 15 Pro (12/512GB)",
+      "channel": "aniscoupons",
+      "source_msg_id": 35232,
+      "price": 305.22,
+      "timestamp": 1794998227.2322433,
+      "status": "ACTIVE"
     }
   },
   "schedule_config": {
@@ -28127,17 +28147,17 @@
     "current_interval_minutes": 5,
     "is_paused": false,
     "night_mode_enabled": true,
-    "last_deal_post_time": 1794998047.771617,
+    "last_deal_post_time": 1794998230.1300478,
     "night_start_hour_dz": 0,
     "night_end_hour_dz": 8,
     "night_pause_enabled": true,
-    "last_sweep_time": 1794998050.4717658,
+    "last_sweep_time": 1794998232.8985484,
     "last_sweep_times": {
-      "algeria": 1794998047.7332683,
-      "france": 1794998050.4717658
+      "algeria": 1794998230.1059554,
+      "france": 1794998232.8985484
     },
     "last_deal_post_times": {
-      "algeria": 1794998047.771617
+      "algeria": 1794998230.1300478
     }
   },
   "last_coin_reminder_time": 1794767542.171841,
@@ -32502,13 +32522,6 @@
         "price": 7.59
       }
     ],
-    "1005008357913212": [
-      {
-        "channel": "lodydeals",
-        "ts": 1794954864.1883907,
-        "price": 40.5
-      }
-    ],
     "1005012547730772": [
       {
         "channel": "zedstoreonline",
@@ -32766,6 +32779,20 @@
         "channel": "aniscoupons",
         "ts": 1794998042.2294283,
         "price": 22.3
+      }
+    ],
+    "1005010424638496": [
+      {
+        "channel": "zedstoreonline",
+        "ts": 1794998218.4715893,
+        "price": 113.9
+      }
+    ],
+    "1005008291023017": [
+      {
+        "channel": "aniscoupons",
+        "ts": 1794998224.9125814,
+        "price": 305.22
       }
     ]
   },
