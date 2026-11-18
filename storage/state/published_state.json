@@ -1639,7 +1639,7 @@
     "1005010487219975": 1794524381.8060858,
     "1005005277901494": 1794563997.9172754,
     "1005012191587148": 1794568023.9427352,
-    "1005012624574517": 1794736350.4409838,
+    "1005012624574517": 1795001591.8444278,
     "1005012644923854": 1794577769.242665,
     "1005005709908265": 1794577943.6825492,
     "1005011887425776": 1794733838.2777092,
@@ -3839,7 +3839,7 @@
     "XUNYOU-LINK 4G Modem": 1794562333.914511,
     "HOCO W40 Bluetooth 5.3 Wireless Headphone Music Headset 40mm Drivers": 1794563997.9172754,
     "HOCO E201 ENC Calling": 1794568023.9427352,
-    "MAONO Wave T1 Plus Dual": 1794736350.4409838,
+    "MAONO Wave T1 Plus Dual": 1795001591.8444278,
     "Luxury Quartz Watch": 1794577769.242665,
     "Maono Gamerwave DGM20S": 1794577943.6825492,
     "CUSU SSD CV3500 M2 1TB": 1794935207.3242974,
@@ -3937,7 +3937,6 @@
     "Print Head QY6 0089 for Canon TS5060 TS5080 TS6020 TS6080 TS6120": 1794996764.6923764
   },
   "published_post_keys": [
-    "lodydeals:46242",
     "zedstoreonline:39726",
     "aniscoupons:34280",
     "aniscoupons:34282",
@@ -4936,11 +4935,12 @@
     "aniscoupons:35236",
     "aniscoupons:35239",
     "aniscoupons:35241",
-    "zedstoreonline:40381"
+    "zedstoreonline:40381",
+    "aniscoupons:35243"
   ],
   "last_disclaimer_time": 1794524540.9476151,
   "last_calendar_time": 1794572799.8939624,
-  "last_run_time": 1795001220.8183246,
+  "last_run_time": 1795001591.8444278,
   "monitored_channels": {
     "ecksdeal": {
       "last_message_id": 6090,
@@ -4971,8 +4971,8 @@
       "last_check_time": 1795001222.8902183
     },
     "aniscoupons": {
-      "last_message_id": 35242,
-      "last_check_time": 1795001394.07308
+      "last_message_id": 35243,
+      "last_check_time": 1795001593.939367
     },
     "bnddeals": {
       "last_message_id": 51310,
@@ -28219,6 +28219,16 @@
       "price": 17.1,
       "timestamp": 1795001220.8183246,
       "status": "ACTIVE"
+    },
+    "aniscoupons:35243": {
+      "channel_msg_id": 3151,
+      "product_id": "1005012624574517",
+      "title": "MAONO Wave T1 Plus Dual",
+      "channel": "aniscoupons",
+      "source_msg_id": 35243,
+      "price": 31.62,
+      "timestamp": 1795001591.8444278,
+      "status": "ACTIVE"
     }
   },
   "schedule_config": {
@@ -28227,17 +28237,17 @@
     "current_interval_minutes": 5,
     "is_paused": false,
     "night_mode_enabled": true,
-    "last_deal_post_time": 1795001227.4363194,
+    "last_deal_post_time": 1795001595.0890167,
     "night_start_hour_dz": 0,
     "night_end_hour_dz": 8,
     "night_pause_enabled": true,
-    "last_sweep_time": 1795001397.3462162,
+    "last_sweep_time": 1795001598.3015883,
     "last_sweep_times": {
-      "algeria": 1795001394.9614384,
-      "france": 1795001397.3462162
+      "algeria": 1795001595.050663,
+      "france": 1795001598.3015883
     },
     "last_deal_post_times": {
-      "algeria": 1795001227.4363194
+      "algeria": 1795001595.0890167
     }
   },
   "last_coin_reminder_time": 1794767542.171841,
@@ -32590,13 +32600,6 @@
         "price": 136.7
       }
     ],
-    "1005006807619368": [
-      {
-        "channel": "aniscoupons",
-        "ts": 1794958360.5309734,
-        "price": 6.55
-      }
-    ],
     "1005010121513376": [
       {
         "channel": "aniscoupons",
@@ -32947,6 +32950,13 @@
         "channel": "aniscoupons",
         "ts": 1795001393.4392946,
         "price": 272.0
+      }
+    ],
+    "1005012624574517": [
+      {
+        "channel": "aniscoupons",
+        "ts": 1795001589.3635042,
+        "price": 31.62
       }
     ]
   },
