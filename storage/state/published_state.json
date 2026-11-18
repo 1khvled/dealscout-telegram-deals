@@ -1184,7 +1184,7 @@
     "1005013039644752": 1794946990.8370018,
     "1005013479436053": 1793380394.5736995,
     "1005012431631514": 1793270716.9132679,
-    "1005009338640941": 1794935313.496258,
+    "1005009338640941": 1794993460.3042686,
     "1005012402919487": 1793542345.0399988,
     "9998883962": 1793273962.6790612,
     "1005012005176923": 1793543639.3190484,
@@ -3788,7 +3788,7 @@
     "EASYSMX X05 PRO Controller": 1794478912.5670652,
     "ONEPLUS 16 12/256GB": 1794478726.13417,
     "Fifine H9 USB Gaming Headset": 1794663193.5352495,
-    "Honor 600 5G Global 8/256GB": 1794935313.496258,
+    "Honor 600 5G Global 8/256GB": 1794993460.3042686,
     "Baseus GoTrip VA1 Wireless Air Pump": 1794420675.7412696,
     "HOCO EW60 Bluetooth 5.0 Earbuds Wireless Hi-Res Audio Touch Control": 1794420680.672656,
     "Essager 2in1 USB Type C  60W": 1794420685.287832,
@@ -3937,7 +3937,6 @@
     "Print Head QY6 0089 for Canon TS5060 TS5080 TS6020 TS6080 TS6120": 1794944609.807315
   },
   "published_post_keys": [
-    "aniscoupons:34260",
     "lodydeals:46237",
     "zedstoreonline:39704",
     "aniscoupons:34262",
@@ -4936,11 +4935,12 @@
     "aniscoupons:35211",
     "aniscoupons:35212",
     "aniscoupons:35214",
-    "aniscoupons:35213"
+    "aniscoupons:35213",
+    "aniscoupons:35215"
   ],
   "last_disclaimer_time": 1794524540.9476151,
   "last_calendar_time": 1794572799.8939624,
-  "last_run_time": 1794993277.79399,
+  "last_run_time": 1794993460.3042686,
   "monitored_channels": {
     "ecksdeal": {
       "last_message_id": 6090,
@@ -4971,8 +4971,8 @@
       "last_check_time": 1794955061.4791563
     },
     "aniscoupons": {
-      "last_message_id": 35214,
-      "last_check_time": 1794993277.79399
+      "last_message_id": 35215,
+      "last_check_time": 1794993462.3938286
     },
     "bnddeals": {
       "last_message_id": 51310,
@@ -27959,6 +27959,16 @@
       "price": 82.4,
       "timestamp": 1794993277.79399,
       "status": "ACTIVE"
+    },
+    "aniscoupons:35215": {
+      "channel_msg_id": 3125,
+      "product_id": "1005009338640941",
+      "title": "Honor 600 5G Global 8/256GB",
+      "channel": "aniscoupons",
+      "source_msg_id": 35215,
+      "price": 380.4,
+      "timestamp": 1794993460.3042686,
+      "status": "ACTIVE"
     }
   },
   "schedule_config": {
@@ -27967,17 +27977,17 @@
     "current_interval_minutes": 5,
     "is_paused": false,
     "night_mode_enabled": true,
-    "last_deal_post_time": 1794993280.8397813,
+    "last_deal_post_time": 1794993463.4985383,
     "night_start_hour_dz": 0,
     "night_end_hour_dz": 8,
     "night_pause_enabled": true,
-    "last_sweep_time": 1794993283.3650403,
+    "last_sweep_time": 1794993466.5707088,
     "last_sweep_times": {
-      "algeria": 1794993280.7984064,
-      "france": 1794993283.3650403
+      "algeria": 1794993463.4602845,
+      "france": 1794993466.5707088
     },
     "last_deal_post_times": {
-      "algeria": 1794993280.8397813
+      "algeria": 1794993463.4985383
     }
   },
   "last_coin_reminder_time": 1794767542.171841,
@@ -32455,6 +32465,13 @@
         "channel": "aniscoupons",
         "ts": 1794993275.6929278,
         "price": 82.4
+      }
+    ],
+    "1005009338640941": [
+      {
+        "channel": "aniscoupons",
+        "ts": 1794993457.7631047,
+        "price": 380.4
       }
     ]
   },
