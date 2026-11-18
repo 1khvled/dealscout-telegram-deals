@@ -28415,10 +28415,10 @@
     "night_start_hour_dz": 0,
     "night_end_hour_dz": 8,
     "night_pause_enabled": true,
-    "last_sweep_time": 1795021530.9607337,
+    "last_sweep_time": 1795021709.6526036,
     "last_sweep_times": {
-      "algeria": 1795021528.2124832,
-      "france": 1795021530.9607337
+      "algeria": 1795021707.187989,
+      "france": 1795021709.6526036
     },
     "last_deal_post_times": {
       "algeria": 1795017873.0554569
@@ -31191,8 +31191,8 @@
     "END_ALERT_Brand Day Novembre 2026_20261113",
     "END_ALERT_11.11_202611"
   ],
-  "last_card_affiliate_time_dz": 1794935174.438934,
-  "card_affiliate_variant_idx_dz": 1,
+  "last_card_affiliate_time_dz": 1795021700.0174937,
+  "card_affiliate_variant_idx_dz": 2,
   "last_tajmi3at_published_time": 1793910650.2404215,
   "published_deals_history": {},
   "settings": {},
