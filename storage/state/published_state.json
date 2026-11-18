@@ -891,7 +891,7 @@
     "1005006603602562": 1790941207.5310047,
     "1005010721042860": 1793656098.242545,
     "1005009517247552": 1790941221.8823678,
-    "1005012191191893": 1794913990.5721397,
+    "1005012191191893": 1795011765.8067772,
     "1005012968221708": 1793542591.509991,
     "9998883454": 1790943454.3504107,
     "9998883497": 1790943497.723828,
@@ -1494,7 +1494,7 @@
     "1005010169268165": 1793794440.9453664,
     "1005010702038861": 1794935200.9462438,
     "1005009313079431": 1794159522.2930505,
-    "1005010702511858": 1794935195.7367425,
+    "1005010702511858": 1795011758.367623,
     "1005008554218453": 1793908979.1776278,
     "1005012499433797": 1794683885.7547128,
     "9998889309": 1793929309.3822134,
@@ -2817,7 +2817,8 @@
     "معالج بكرت شاشة مدمج Ryzen 5 3400G",
     "QY6 0082 Printhead for Canon IP7210 IP7250 IP7280 MG5420 MG5460",
     "Print Head QY6 0089 for Canon TS5060 TS5080 TS6020 TS6080 TS6120",
-    "HONOR X9D 12/256GB"
+    "HONOR X9D 12/256GB",
+    "HyperX Cloud Earbuds 2 II"
   ],
   "published_title_timestamps": {
     "Xiaomi Redmi Note 17 5G Global Version": 1790857823.0117362,
@@ -3699,7 +3700,7 @@
     "Lenovo LE257 Headphones": 1794137638.8201442,
     "Honor 600s CN (8/256)": 1795000847.1791112,
     "ويبكام OBSBOT MEET 2 Webcam 4K": 1794140022.1412559,
-    "Blackview Mega 5": 1794913990.5721397,
+    "Blackview Mega 5": 1795011765.8067772,
     "Warvank X8 Wireless Gaming Mouse": 1794496858.1106308,
     "Xiaoxin Pad Pro 2025 (8/128GB)": 1794995476.4520917,
     "سماعات ONIKUMA T27 لاسلكية بوضعَي اتصال 2.4GHz وBluetooth": 1794145536.5317988,
@@ -3936,11 +3937,10 @@
     "معالج بكرت شاشة مدمج Ryzen 5 3400G": 1794936842.146349,
     "QY6 0082 Printhead for Canon IP7210 IP7250 IP7280 MG5420 MG5460": 1794996958.0314968,
     "Print Head QY6 0089 for Canon TS5060 TS5080 TS6020 TS6080 TS6120": 1794996764.6923764,
-    "HONOR X9D 12/256GB": 1795004960.4540246
+    "HONOR X9D 12/256GB": 1795004960.4540246,
+    "HyperX Cloud Earbuds 2 II": 1795011758.367623
   },
   "published_post_keys": [
-    "lodydeals:46246",
-    "lodydeals:46250",
     "aniscoupons:34293",
     "zedstoreonline:39736",
     "aniscoupons:34295",
@@ -4938,19 +4938,21 @@
     "aniscoupons:35252",
     "aniscoupons:35254",
     "aniscoupons:35255",
-    "zedstoreonline:40394"
+    "zedstoreonline:40394",
+    "lodydeals:46643",
+    "aniscoupons:35256"
   ],
   "last_disclaimer_time": 1794524540.9476151,
   "last_calendar_time": 1794572799.8939624,
-  "last_run_time": 1795011389.6062365,
+  "last_run_time": 1795011765.8067772,
   "monitored_channels": {
     "ecksdeal": {
       "last_message_id": 6090,
       "last_check_time": 1794950845.0345552
     },
     "lodydeals": {
-      "last_message_id": 46642,
-      "last_check_time": 1795008452.068994
+      "last_message_id": 46643,
+      "last_check_time": 1795011760.4688766
     },
     "test_channel": {
       "last_message_id": 1793967703,
@@ -4973,8 +4975,8 @@
       "last_check_time": 1795011391.689356
     },
     "aniscoupons": {
-      "last_message_id": 35255,
-      "last_check_time": 1795009381.901575
+      "last_message_id": 35256,
+      "last_check_time": 1795011767.9040167
     },
     "bnddeals": {
       "last_message_id": 51310,
@@ -5522,7 +5524,7 @@
     "1005010169268165": 19.6,
     "1005010702038861": 18.12,
     "1005009313079431": 41.5,
-    "1005010702511858": 59.8,
+    "1005010702511858": 59.81,
     "1005008554218453": 52.55,
     "1005012499433797": 134.3,
     "1005008774483451": 40.1,
@@ -28371,6 +28373,26 @@
       "price": 7.6,
       "timestamp": 1795011389.6062365,
       "status": "ACTIVE"
+    },
+    "lodydeals:46643": {
+      "channel_msg_id": 3167,
+      "product_id": "1005010702511858",
+      "title": "HyperX Cloud Earbuds 2 II",
+      "channel": "lodydeals",
+      "source_msg_id": 46643,
+      "price": 59.81,
+      "timestamp": 1795011758.367623,
+      "status": "ACTIVE"
+    },
+    "aniscoupons:35256": {
+      "channel_msg_id": 3168,
+      "product_id": "1005012191191893",
+      "title": "Blackview Mega 5",
+      "channel": "aniscoupons",
+      "source_msg_id": 35256,
+      "price": 228.3,
+      "timestamp": 1795011765.8067772,
+      "status": "ACTIVE"
     }
   },
   "schedule_config": {
@@ -28379,17 +28401,17 @@
     "current_interval_minutes": 5,
     "is_paused": false,
     "night_mode_enabled": true,
-    "last_deal_post_time": 1795011393.3213258,
+    "last_deal_post_time": 1795011768.9410233,
     "night_start_hour_dz": 0,
     "night_end_hour_dz": 8,
     "night_pause_enabled": true,
-    "last_sweep_time": 1795011574.9100955,
+    "last_sweep_time": 1795011771.6402733,
     "last_sweep_times": {
-      "algeria": 1795011572.3094418,
-      "france": 1795011574.9100955
+      "algeria": 1795011768.8993762,
+      "france": 1795011771.6402733
     },
     "last_deal_post_times": {
-      "algeria": 1795011393.3213258
+      "algeria": 1795011768.9410233
     }
   },
   "last_coin_reminder_time": 1794767542.171841,
@@ -29040,7 +29062,7 @@
     "1005010169268165": "lodydeals",
     "1005010702038861": "ecksdeal",
     "1005009313079431": "zedstoreonline",
-    "1005010702511858": "ecksdeal",
+    "1005010702511858": "lodydeals",
     "1005008554218453": "lodydeals",
     "1005012499433797": "aniscoupons",
     "9998889309": "test_channel",
@@ -30367,7 +30389,8 @@
     "معالج بكرت شاشة مدمج Ryzen 5 3400G": "ecksdeal",
     "QY6 0082 Printhead for Canon IP7210 IP7250 IP7280 MG5420 MG5460": "aniscoupons",
     "Print Head QY6 0089 for Canon TS5060 TS5080 TS6020 TS6080 TS6120": "aniscoupons",
-    "HONOR X9D 12/256GB": "lodydeals"
+    "HONOR X9D 12/256GB": "lodydeals",
+    "HyperX Cloud Earbuds 2 II": "lodydeals"
   },
   "religious_reminders_history": {
     "mock_rem": "2026-10-02",
@@ -33257,6 +33280,20 @@
         "channel": "zedstoreonline",
         "ts": 1795011387.4735405,
         "price": 7.6
+      }
+    ],
+    "1005010702511858": [
+      {
+        "channel": "lodydeals",
+        "ts": 1795011756.0972435,
+        "price": 59.81
+      }
+    ],
+    "1005012191191893": [
+      {
+        "channel": "aniscoupons",
+        "ts": 1795011763.780145,
+        "price": 228.3
       }
     ]
   },
