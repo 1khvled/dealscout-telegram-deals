@@ -1633,7 +1633,7 @@
     "1005013485724377": 1794606651.7602222,
     "1005012783197164": 1794606646.2896297,
     "1005012993724126": 1794515920.3397443,
-    "1005012726037568": 1794956342.1797287,
+    "1005012726037568": 1795028259.898314,
     "1005011940143389": 1794524364.21287,
     "1005010374799328": 1794524370.7043138,
     "1005010487219975": 1794524381.8060858,
@@ -3767,7 +3767,7 @@
     "KOOTION SATA3 SSD 128GB": 1794585682.0605152,
     "Inphic YuanChuang Cyber Gaming Mouse": 1794320674.833981,
     "SIX PCIe 4.0 SSD (1TB) NVMe M2": 1794331533.1223195,
-    "Kootion SSD SATA": 1794956342.1797287,
+    "Kootion SSD SATA": 1795028259.898314,
     "KOOTION SATA SSD 128GB": 1794334097.945569,
     "Kingston DataTraveler 128GB": 1794958362.7165008,
     "CUSU CV3500  M.2 NVMe SSD (1tb)": 1794992184.6988244,
@@ -3947,7 +3947,6 @@
     "DOOV R77 4G Touch 3/32GB": 1795023205.68955
   },
   "published_post_keys": [
-    "aniscoupons:34301",
     "aniscoupons:34302",
     "aniscoupons:34303",
     "aniscoupons:34304",
@@ -4946,11 +4945,12 @@
     "ecksdeal:6096",
     "ecksdeal:6097",
     "zedstoreonline:40398",
-    "zedstoreonline:40399"
+    "zedstoreonline:40399",
+    "aniscoupons:35262"
   ],
   "last_disclaimer_time": 1794524540.9476151,
   "last_calendar_time": 1794572799.8939624,
-  "last_run_time": 1795027884.8693073,
+  "last_run_time": 1795028259.898314,
   "monitored_channels": {
     "ecksdeal": {
       "last_message_id": 6098,
@@ -4981,8 +4981,8 @@
       "last_check_time": 1795028059.8722296
     },
     "aniscoupons": {
-      "last_message_id": 35261,
-      "last_check_time": 1795024297.9634328
+      "last_message_id": 35262,
+      "last_check_time": 1795028261.9947538
     },
     "bnddeals": {
       "last_message_id": 51310,
@@ -5656,7 +5656,7 @@
     "1005013485724377": 11.54,
     "1005012783197164": 36.46,
     "1005012993724126": 15.6,
-    "1005012726037568": 7.59,
+    "1005012726037568": 7.4,
     "1005011940143389": 3.48,
     "1005010374799328": 10.49,
     "1005010487219975": 5.49,
@@ -28569,6 +28569,16 @@
       "price": 23.6,
       "timestamp": 1795027884.8693073,
       "status": "ACTIVE"
+    },
+    "aniscoupons:35262": {
+      "channel_msg_id": 3188,
+      "product_id": "1005012726037568",
+      "title": "Kootion SSD SATA",
+      "channel": "aniscoupons",
+      "source_msg_id": 35262,
+      "price": 7.4,
+      "timestamp": 1795028259.898314,
+      "status": "ACTIVE"
     }
   },
   "schedule_config": {
@@ -28577,17 +28587,17 @@
     "current_interval_minutes": 5,
     "is_paused": false,
     "night_mode_enabled": true,
-    "last_deal_post_time": 1795027889.358737,
+    "last_deal_post_time": 1795028263.0061288,
     "night_start_hour_dz": 0,
     "night_end_hour_dz": 8,
     "night_pause_enabled": true,
-    "last_sweep_time": 1795028064.2328906,
+    "last_sweep_time": 1795028265.6609418,
     "last_sweep_times": {
-      "algeria": 1795028061.704941,
-      "france": 1795028064.2328906
+      "algeria": 1795028262.9688423,
+      "france": 1795028265.6609418
     },
     "last_deal_post_times": {
-      "algeria": 1795027889.358737
+      "algeria": 1795028263.0061288
     }
   },
   "last_coin_reminder_time": 1795015271.2437074,
@@ -33616,6 +33626,13 @@
         "channel": "zedstoreonline",
         "ts": 1795027882.2320588,
         "price": 23.6
+      }
+    ],
+    "1005012726037568": [
+      {
+        "channel": "aniscoupons",
+        "ts": 1795028257.6196656,
+        "price": 7.4
       }
     ]
   },
