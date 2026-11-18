@@ -40,8 +40,8 @@
       "ewma": 0.7211
     },
     "aniscoupons": {
-      "seen": 490,
-      "published": 421,
+      "seen": 491,
+      "published": 422,
       "skipped": 0,
       "ewma": 0.9994
     },
@@ -60,8 +60,8 @@
       "ewma": 0.9994
     },
     "pc": {
-      "seen": 180,
-      "published": 136,
+      "seen": 181,
+      "published": 137,
       "skipped": 0,
       "ewma": 0.9994
     },
@@ -1040,6 +1040,7 @@
       82.4,
       82.4,
       82.4,
+      82.4,
       82.4
     ],
     "1005009121981190": [
@@ -1362,23 +1363,15 @@
     ]
   },
   "counters": {
-    "scored": 981,
-    "verdict_publish": 937,
+    "scored": 982,
+    "verdict_publish": 938,
     "verdict_hold": 44,
     "verdict_skip": 0,
-    "published": 755,
+    "published": 756,
     "skipped": 0
   },
-  "score_sum": 71777.63,
+  "score_sum": 71846.52,
   "recent_decisions": [
-    {
-      "ts": 1794822591,
-      "channel": "lodydeals",
-      "category": "pc",
-      "product_id": "1005012726037568",
-      "score": 64.02,
-      "verdict": "publish"
-    },
     {
       "ts": 1794822598,
       "channel": "lodydeals",
@@ -2970,7 +2963,15 @@
       "product_id": "1005006782790827",
       "score": 75.01,
       "verdict": "publish"
+    },
+    {
+      "ts": 1794993275,
+      "channel": "aniscoupons",
+      "category": "pc",
+      "product_id": "1005012138794873",
+      "score": 68.89,
+      "verdict": "publish"
     }
   ],
-  "updated_at": 1794993100.7062697
+  "updated_at": 1794993277.8648021
 }

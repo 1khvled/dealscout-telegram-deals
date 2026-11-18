@@ -1653,7 +1653,7 @@
     "1005007010612283": 1794599454.461018,
     "1005010788231460": 1794604060.7762444,
     "1389260212": 1794605894.0354748,
-    "1005012138794873": 1794935435.6166263,
+    "1005012138794873": 1794993277.79399,
     "1005007129557126": 1794946247.1992912,
     "1005010519693722": 1794680859.9419408,
     "1005010788149535": 1794935551.6597214,
@@ -3169,7 +3169,7 @@
     "أضف الآن في السلة الآن العرض يعمل يوم 1 نوفمبر 🔥": 1793270716.9132679,
     "Honor 600 5G Global 8/256GB .": 1793270732.2328634,
     "Honor 600s (8/255GB)": 1793270736.6516862,
-    "CUSU RAM DDR4 3200MHz 8GBx2": 1794845401.9177194,
+    "CUSU RAM DDR4 3200MHz 8GBx2": 1794993277.79399,
     "Realme P3 (No Charger)": 1793399519.0209813,
     "Oppo Find X9 Pro 12/256": 1793540035.6702917,
     "Vivo X200S 12/256": 1793448596.0702198,
@@ -3937,7 +3937,6 @@
     "Print Head QY6 0089 for Canon TS5060 TS5080 TS6020 TS6080 TS6120": 1794944609.807315
   },
   "published_post_keys": [
-    "lodydeals:46236",
     "aniscoupons:34260",
     "lodydeals:46237",
     "zedstoreonline:39704",
@@ -4936,11 +4935,12 @@
     "aniscoupons:35210",
     "aniscoupons:35211",
     "aniscoupons:35212",
-    "aniscoupons:35214"
+    "aniscoupons:35214",
+    "aniscoupons:35213"
   ],
   "last_disclaimer_time": 1794524540.9476151,
   "last_calendar_time": 1794572799.8939624,
-  "last_run_time": 1794993100.653145,
+  "last_run_time": 1794993277.79399,
   "monitored_channels": {
     "ecksdeal": {
       "last_message_id": 6090,
@@ -4972,7 +4972,7 @@
     },
     "aniscoupons": {
       "last_message_id": 35214,
-      "last_check_time": 1794993102.7211068
+      "last_check_time": 1794993277.79399
     },
     "bnddeals": {
       "last_message_id": 51310,
@@ -27949,6 +27949,16 @@
       "price": 47.5,
       "timestamp": 1794993100.653145,
       "status": "ACTIVE"
+    },
+    "aniscoupons:35213": {
+      "channel_msg_id": 3124,
+      "product_id": "1005012138794873",
+      "title": "CUSU RAM DDR4 3200MHz 8GBx2",
+      "channel": "aniscoupons",
+      "source_msg_id": 35213,
+      "price": 82.4,
+      "timestamp": 1794993277.79399,
+      "status": "ACTIVE"
     }
   },
   "schedule_config": {
@@ -27957,17 +27967,17 @@
     "current_interval_minutes": 5,
     "is_paused": false,
     "night_mode_enabled": true,
-    "last_deal_post_time": 1794993103.799353,
+    "last_deal_post_time": 1794993280.8397813,
     "night_start_hour_dz": 0,
     "night_end_hour_dz": 8,
     "night_pause_enabled": true,
-    "last_sweep_time": 1794993107.1691864,
+    "last_sweep_time": 1794993283.3650403,
     "last_sweep_times": {
-      "algeria": 1794993103.7692835,
-      "france": 1794993107.1691864
+      "algeria": 1794993280.7984064,
+      "france": 1794993283.3650403
     },
     "last_deal_post_times": {
-      "algeria": 1794993103.799353
+      "algeria": 1794993280.8397813
     }
   },
   "last_coin_reminder_time": 1794767542.171841,
@@ -28775,7 +28785,7 @@
     "1005007010612283": "zedstoreonline",
     "1005010788231460": "zedstoreonline",
     "1389260212": "zedstoreonline",
-    "1005012138794873": "lodydeals",
+    "1005012138794873": "aniscoupons",
     "1005007129557126": "aniscoupons",
     "1005010519693722": "lodydeals",
     "1005010788149535": "aniscoupons",
@@ -32438,6 +32448,13 @@
         "channel": "aniscoupons",
         "ts": 1794993098.0767267,
         "price": 47.5
+      }
+    ],
+    "1005012138794873": [
+      {
+        "channel": "aniscoupons",
+        "ts": 1794993275.6929278,
+        "price": 82.4
       }
     ]
   },
