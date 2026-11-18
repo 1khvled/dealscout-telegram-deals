@@ -1099,7 +1099,7 @@
     "9998883963": 1792073963.7339156,
     "1005010620269829": 1794998593.8332033,
     "9998886219": 1792086219.2668676,
-    "1005005875379717": 1794735354.793842,
+    "1005005875379717": 1795022289.1627383,
     "9998887185": 1792087185.8637784,
     "9998888020": 1792098020.7307658,
     "9998888253": 1792098253.077623,
@@ -1421,7 +1421,7 @@
     "1005010707075064": 1793600466.7601562,
     "1005007010692093": 1793601389.0047116,
     "1005006994466968": 1793601744.1664062,
-    "1005011927267564": 1793728844.5794795,
+    "1005011927267564": 1795022269.6440833,
     "1005008291023017": 1794998227.2322433,
     "1005012947477238": 1794914021.5924346,
     "1005010121513376": 1795004960.4540246,
@@ -1438,7 +1438,7 @@
     "1005010285419688": 1793613895.6129942,
     "1005007805750092": 1793613900.590816,
     "1005006966360399": 1793613905.8870661,
-    "1005010706590867": 1794848149.948447,
+    "1005010706590867": 1795022275.125014,
     "1005010428947440": 1793613916.2199864,
     "1005010585654037": 1794229795.9714105,
     "1005013137304827": 1793613926.9213502,
@@ -1534,7 +1534,7 @@
     "1005008060391372": 1795003476.8317716,
     "1005010209911111": 1794068056.674266,
     "1005008295555234": 1794073127.8664527,
-    "1005008645323478": 1794997317.8001297,
+    "1005008645323478": 1795022264.1116176,
     "1005008636930795": 1795009379.82882,
     "1005006260870758": 1794250569.5221198,
     "1005009759580502": 1794331533.1223195,
@@ -2818,7 +2818,9 @@
     "QY6 0082 Printhead for Canon IP7210 IP7250 IP7280 MG5420 MG5460",
     "Print Head QY6 0089 for Canon TS5060 TS5080 TS6020 TS6080 TS6120",
     "HONOR X9D 12/256GB",
-    "HyperX Cloud Earbuds 2 II"
+    "HyperX Cloud Earbuds 2 II",
+    "تخزين CUSU K5 SATA Portable USB SSD",
+    "تخزين CUSU C300 Sata SSD"
   ],
   "published_title_timestamps": {
     "Xiaomi Redmi Note 17 5G Global Version": 1790857823.0117362,
@@ -2835,7 +2837,7 @@
     "Realme 15 Pro Global (8/256)": 1790884233.6428,
     "Poco C71 3/64GB": 1791192360.1916943,
     "سماعات لاسلكية Attack Shark L80 PRO Wireless": 1791206142.4737842,
-    "ماوس لاسلكي Attack Shark R1 Wireless": 1794055832.565326,
+    "ماوس لاسلكي Attack Shark R1 Wireless": 1795022275.125014,
     "ماوس لاسلكي مع شاحن Attack Shark X1 Wireless": 1790884310.7506618,
     "معالج AMD Ryzen R7 5700X جديد! بتردد 3.4 جيجاهرتز، ثماني النواة وستة عشر": 1790888057.5668976,
     "معالج AMD Ryzen 5 7500F مستعمل، 6 نوى/12 خيط، 65 واط، 5 نانومتر، ذاكرة": 1790888097.0085742,
@@ -3885,7 +3887,7 @@
     "H20PRO TV Box 2/16GB": 1794913915.9826968,
     "DOOV R77 4G Touch (3/32GB)": 1794676338.751973,
     "Picun G1 Casque Gaming Sans Fil": 1794676695.2288063,
-    "Baseus GH02 Gaming Headphones": 1794735354.793842,
+    "Baseus GH02 Gaming Headphones": 1795022289.1627383,
     "E-YOOSO X-39 USB Wired RGB Gaming Mouse": 1794748963.317494,
     "Ajazz AHW10 Head-mounted Wired Gaming": 1794735719.2115917,
     "AJAZZ AJ179 PRO PAW3395 Wireless Gaming Mouse with RGB Charging Base": 1794677812.6238942,
@@ -3938,13 +3940,11 @@
     "QY6 0082 Printhead for Canon IP7210 IP7250 IP7280 MG5420 MG5460": 1794996958.0314968,
     "Print Head QY6 0089 for Canon TS5060 TS5080 TS6020 TS6080 TS6120": 1794996764.6923764,
     "HONOR X9D 12/256GB": 1795004960.4540246,
-    "HyperX Cloud Earbuds 2 II": 1795011758.367623
+    "HyperX Cloud Earbuds 2 II": 1795011758.367623,
+    "تخزين CUSU K5 SATA Portable USB SSD": 1795022264.1116176,
+    "تخزين CUSU C300 Sata SSD": 1795022269.6440833
   },
   "published_post_keys": [
-    "zedstoreonline:39736",
-    "aniscoupons:34295",
-    "zedstoreonline:39737",
-    "lodydeals:46254",
     "lodydeals:46255",
     "lodydeals:46256",
     "aniscoupons:34296",
@@ -4940,15 +4940,19 @@
     "zedstoreonline:40394",
     "lodydeals:46643",
     "aniscoupons:35256",
-    "aniscoupons:35259"
+    "aniscoupons:35259",
+    "ecksdeal:6091",
+    "ecksdeal:6092",
+    "ecksdeal:6093",
+    "aniscoupons:35260"
   ],
   "last_disclaimer_time": 1794524540.9476151,
   "last_calendar_time": 1794572799.8939624,
-  "last_run_time": 1795017869.777643,
+  "last_run_time": 1795022289.1627383,
   "monitored_channels": {
     "ecksdeal": {
-      "last_message_id": 6090,
-      "last_check_time": 1794950845.0345552
+      "last_message_id": 6093,
+      "last_check_time": 1795022277.203909
     },
     "lodydeals": {
       "last_message_id": 46643,
@@ -4971,12 +4975,12 @@
       "last_check_time": 1793599663.3444748
     },
     "zedstoreonline": {
-      "last_message_id": 40396,
-      "last_check_time": 1795015281.9314783
+      "last_message_id": 40397,
+      "last_check_time": 1795022283.2881393
     },
     "aniscoupons": {
-      "last_message_id": 35259,
-      "last_check_time": 1795017871.8660884
+      "last_message_id": 35260,
+      "last_check_time": 1795022291.24612
     },
     "bnddeals": {
       "last_message_id": 51310,
@@ -5202,7 +5206,7 @@
     "1005011908654312": 122.6,
     "1005010620269829": 229.6,
     "1005010149868688": 191.1,
-    "1005005875379717": 38.13,
+    "1005005875379717": 32.13,
     "1005013137396211": 316.0,
     "1005012575455222": 115.0,
     "1005010210432531": 147.8,
@@ -5466,7 +5470,7 @@
     "1005010707075064": 10.3,
     "1005007010692093": 2.88,
     "1005006994466968": 4.99,
-    "1005011927267564": 24.55,
+    "1005011927267564": 23.68,
     "1005008291023017": 305.22,
     "1005012947477238": 217.8,
     "1005010121513376": 289.51,
@@ -5560,7 +5564,7 @@
     "1005013053381984": 254.11,
     "1005010209911111": 40.6,
     "1005008295555234": 59.5,
-    "1005008645323478": 41.5,
+    "1005008645323478": 41.51,
     "1005006260870758": 41.1,
     "1005009759580502": 101.1,
     "1005009120888793": 22.3,
@@ -28403,6 +28407,46 @@
       "price": 273.5,
       "timestamp": 1795017869.777643,
       "status": "ACTIVE"
+    },
+    "ecksdeal:6091": {
+      "channel_msg_id": 3172,
+      "product_id": "1005008645323478",
+      "title": "تخزين CUSU K5 SATA Portable USB SSD",
+      "channel": "ecksdeal",
+      "source_msg_id": 6091,
+      "price": 41.51,
+      "timestamp": 1795022264.1116176,
+      "status": "ACTIVE"
+    },
+    "ecksdeal:6092": {
+      "channel_msg_id": 3173,
+      "product_id": "1005011927267564",
+      "title": "تخزين CUSU C300 Sata SSD",
+      "channel": "ecksdeal",
+      "source_msg_id": 6092,
+      "price": 23.68,
+      "timestamp": 1795022269.6440833,
+      "status": "ACTIVE"
+    },
+    "ecksdeal:6093": {
+      "channel_msg_id": 3174,
+      "product_id": "1005010706590867",
+      "title": "ماوس لاسلكي Attack Shark R1 Wireless",
+      "channel": "ecksdeal",
+      "source_msg_id": 6093,
+      "price": 16.1,
+      "timestamp": 1795022275.125014,
+      "status": "ACTIVE"
+    },
+    "aniscoupons:35260": {
+      "channel_msg_id": 3175,
+      "product_id": "1005005875379717",
+      "title": "Baseus GH02 Gaming Headphones",
+      "channel": "aniscoupons",
+      "source_msg_id": 35260,
+      "price": 32.13,
+      "timestamp": 1795022289.1627383,
+      "status": "ACTIVE"
     }
   },
   "schedule_config": {
@@ -28411,17 +28455,17 @@
     "current_interval_minutes": 5,
     "is_paused": false,
     "night_mode_enabled": true,
-    "last_deal_post_time": 1795017873.0554569,
+    "last_deal_post_time": 1795022292.313989,
     "night_start_hour_dz": 0,
     "night_end_hour_dz": 8,
     "night_pause_enabled": true,
-    "last_sweep_time": 1795022080.6719797,
+    "last_sweep_time": 1795022295.0241053,
     "last_sweep_times": {
-      "algeria": 1795022077.768242,
-      "france": 1795022080.6719797
+      "algeria": 1795022292.2762537,
+      "france": 1795022295.0241053
     },
     "last_deal_post_times": {
-      "algeria": 1795017873.0554569
+      "algeria": 1795022292.313989
     }
   },
   "last_coin_reminder_time": 1795015271.2437074,
@@ -29015,7 +29059,7 @@
     "1005010707075064": "lodydeals",
     "1005007010692093": "lodydeals",
     "1005006994466968": "lodydeals",
-    "1005011927267564": "lodydeals",
+    "1005011927267564": "ecksdeal",
     "1005008291023017": "aniscoupons",
     "1005012947477238": "aniscoupons",
     "1005010121513376": "lodydeals",
@@ -29029,7 +29073,7 @@
     "1005007060644375": "zedstoreonline",
     "1005007805750092": "aniscoupons",
     "1005006966360399": "aniscoupons",
-    "1005010706590867": "lodydeals",
+    "1005010706590867": "ecksdeal",
     "1005012648097890": "aniscoupons",
     "1005012871436251": "lodydeals",
     "1005009504965110": "aniscoupons",
@@ -29112,7 +29156,7 @@
     "1005008060391372": "aniscoupons",
     "1005010209911111": "bnddeals",
     "1005008295555234": "lodydeals",
-    "1005008645323478": "zedstoreonline",
+    "1005008645323478": "ecksdeal",
     "1005008636930795": "aniscoupons",
     "1005006260870758": "aniscoupons",
     "1005009759580502": "bnddeals",
@@ -30400,7 +30444,9 @@
     "QY6 0082 Printhead for Canon IP7210 IP7250 IP7280 MG5420 MG5460": "aniscoupons",
     "Print Head QY6 0089 for Canon TS5060 TS5080 TS6020 TS6080 TS6120": "aniscoupons",
     "HONOR X9D 12/256GB": "lodydeals",
-    "HyperX Cloud Earbuds 2 II": "lodydeals"
+    "HyperX Cloud Earbuds 2 II": "lodydeals",
+    "تخزين CUSU K5 SATA Portable USB SSD": "ecksdeal",
+    "تخزين CUSU C300 Sata SSD": "ecksdeal"
   },
   "religious_reminders_history": {
     "mock_rem": "2026-10-02",
@@ -31197,7 +31243,6 @@
   "published_deals_history": {},
   "settings": {},
   "handled_post_keys": [
-    "zedstoreonline:39786",
     "ecksdeal:6049",
     "lodydeals:46295",
     "lodydeals:46296",
@@ -32196,7 +32241,8 @@
     "aniscoupons:35257",
     "zedstoreonline:40395",
     "aniscoupons:35258",
-    "zedstoreonline:40396"
+    "zedstoreonline:40396",
+    "zedstoreonline:40397"
   ],
   "last_france_cross_promo_time": 1794913823.9647303,
   "next_france_cross_promo_interval_seconds": 311842,
@@ -33027,6 +33073,11 @@
         "channel": "zedstoreonline",
         "ts": 1794997859.2608538,
         "price": 366.0
+      },
+      {
+        "channel": "zedstoreonline",
+        "ts": 1795022282.7183478,
+        "price": 366.0
       }
     ],
     "1005003624789670": [
@@ -33060,6 +33111,11 @@
         "channel": "aniscoupons",
         "ts": 1794999699.588174,
         "price": 41.4
+      },
+      {
+        "channel": "ecksdeal",
+        "ts": 1795022261.7865214,
+        "price": 41.51
       }
     ],
     "1005010722422210": [
@@ -33316,6 +33372,11 @@
         "channel": "zedstoreonline",
         "ts": 1795012888.0439901,
         "price": 16.0
+      },
+      {
+        "channel": "ecksdeal",
+        "ts": 1795022272.8059068,
+        "price": 16.1
       }
     ],
     "1005007027334636": [
@@ -33335,6 +33396,20 @@
         "channel": "aniscoupons",
         "ts": 1795017867.3817816,
         "price": 273.5
+      }
+    ],
+    "1005011927267564": [
+      {
+        "channel": "ecksdeal",
+        "ts": 1795022267.4000046,
+        "price": 23.68
+      }
+    ],
+    "1005005875379717": [
+      {
+        "channel": "aniscoupons",
+        "ts": 1795022286.7847908,
+        "price": 32.13
       }
     ]
   },
