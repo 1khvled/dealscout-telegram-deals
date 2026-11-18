@@ -961,7 +961,7 @@
     "1005008144855522": 1791026444.9395418,
     "1005008486721357": 1791026452.368309,
     "1005012871566388": 1791026457.7236943,
-    "1005007027334636": 1793720742.084677,
+    "1005007027334636": 1795033574.311118,
     "1005006727600702": 1791027043.7332833,
     "1005009916278058": 1791027049.3509357,
     "1005009719082543": 1791027355.6595695,
@@ -2821,7 +2821,8 @@
     "HyperX Cloud Earbuds 2 II",
     "تخزين CUSU K5 SATA Portable USB SSD",
     "تخزين CUSU C300 Sata SSD",
-    "DOOV R77 4G Touch 3/32GB"
+    "DOOV R77 4G Touch 3/32GB",
+    "SOMNAMBULIST SSD 120GB"
   ],
   "published_title_timestamps": {
     "Xiaomi Redmi Note 17 5G Global Version": 1790857823.0117362,
@@ -3944,10 +3945,10 @@
     "HyperX Cloud Earbuds 2 II": 1795011758.367623,
     "تخزين CUSU K5 SATA Portable USB SSD": 1795022264.1116176,
     "تخزين CUSU C300 Sata SSD": 1795022269.6440833,
-    "DOOV R77 4G Touch 3/32GB": 1795023205.68955
+    "DOOV R77 4G Touch 3/32GB": 1795023205.68955,
+    "SOMNAMBULIST SSD 120GB": 1795033574.311118
   },
   "published_post_keys": [
-    "aniscoupons:34303",
     "aniscoupons:34304",
     "aniscoupons:34306",
     "aniscoupons:34307",
@@ -4946,19 +4947,20 @@
     "zedstoreonline:40398",
     "zedstoreonline:40399",
     "aniscoupons:35262",
-    "zedstoreonline:40403"
+    "zedstoreonline:40403",
+    "lodydeals:46654"
   ],
   "last_disclaimer_time": 1794524540.9476151,
   "last_calendar_time": 1794572799.8939624,
-  "last_run_time": 1795029350.7460742,
+  "last_run_time": 1795033574.311118,
   "monitored_channels": {
     "ecksdeal": {
       "last_message_id": 6103,
       "last_check_time": 1795033201.6078603
     },
     "lodydeals": {
-      "last_message_id": 46653,
-      "last_check_time": 1795023371.1435556
+      "last_message_id": 46654,
+      "last_check_time": 1795033576.3916368
     },
     "test_channel": {
       "last_message_id": 1793967703,
@@ -4993,7 +4995,7 @@
     "1005012973772517": 217.8,
     "1005010219205081": 57.2,
     "1005007805638431": 22.23,
-    "1005007027334636": 13.49,
+    "1005007027334636": 30.4,
     "1005009054706827": 23.1,
     "1005007961216287": 20.26,
     "1005008233932899": 294.9,
@@ -28589,6 +28591,16 @@
       "price": 10.7,
       "timestamp": 1795029350.7460742,
       "status": "ACTIVE"
+    },
+    "lodydeals:46654": {
+      "channel_msg_id": 3190,
+      "product_id": "1005007027334636",
+      "title": "SOMNAMBULIST SSD 120GB",
+      "channel": "lodydeals",
+      "source_msg_id": 46654,
+      "price": 30.4,
+      "timestamp": 1795033574.311118,
+      "status": "ACTIVE"
     }
   },
   "schedule_config": {
@@ -28597,17 +28609,17 @@
     "current_interval_minutes": 5,
     "is_paused": false,
     "night_mode_enabled": true,
-    "last_deal_post_time": 1795029354.3262212,
+    "last_deal_post_time": 1795033579.3980095,
     "night_start_hour_dz": 0,
     "night_end_hour_dz": 8,
     "night_pause_enabled": true,
-    "last_sweep_time": 1795033399.6049366,
+    "last_sweep_time": 1795033582.522111,
     "last_sweep_times": {
-      "algeria": 1795033396.2706475,
-      "france": 1795033399.6049366
+      "algeria": 1795033579.3672035,
+      "france": 1795033582.522111
     },
     "last_deal_post_times": {
-      "algeria": 1795029354.3262212
+      "algeria": 1795033579.3980095
     }
   },
   "last_coin_reminder_time": 1795015271.2437074,
@@ -30589,7 +30601,8 @@
     "HyperX Cloud Earbuds 2 II": "lodydeals",
     "تخزين CUSU K5 SATA Portable USB SSD": "ecksdeal",
     "تخزين CUSU C300 Sata SSD": "ecksdeal",
-    "DOOV R77 4G Touch 3/32GB": "lodydeals"
+    "DOOV R77 4G Touch 3/32GB": "lodydeals",
+    "SOMNAMBULIST SSD 120GB": "lodydeals"
   },
   "religious_reminders_history": {
     "mock_rem": "2026-10-02",
@@ -32958,19 +32971,7 @@
     "restock_alert": "2026-11-11"
   },
   "competitor_product_sightings": {
-    "1005008708333999": [
-      {
-        "channel": "aniscoupons",
-        "ts": 1794990347.7330453,
-        "price": 136.7
-      }
-    ],
     "1005010121513376": [
-      {
-        "channel": "aniscoupons",
-        "ts": 1794990158.010203,
-        "price": 289.5
-      },
       {
         "channel": "zedstoreonline",
         "ts": 1794999697.2908592,
@@ -32980,13 +32981,6 @@
         "channel": "lodydeals",
         "ts": 1795004957.555821,
         "price": 289.51
-      }
-    ],
-    "1005010716206374": [
-      {
-        "channel": "aniscoupons",
-        "ts": 1794990165.084801,
-        "price": 304.39
       }
     ],
     "1005007916078341": [
@@ -33557,6 +33551,11 @@
         "channel": "aniscoupons",
         "ts": 1795032840.944174,
         "price": 10.55
+      },
+      {
+        "channel": "lodydeals",
+        "ts": 1795033571.7169535,
+        "price": 30.4
       }
     ],
     "1005012547730772": [
