@@ -4959,8 +4959,8 @@
       "last_check_time": 1795033201.6078603
     },
     "lodydeals": {
-      "last_message_id": 46656,
-      "last_check_time": 1795033759.9916487
+      "last_message_id": 46657,
+      "last_check_time": 1795034305.1172562
     },
     "test_channel": {
       "last_message_id": 1793967703,
@@ -28623,10 +28623,10 @@
     "night_start_hour_dz": 0,
     "night_end_hour_dz": 8,
     "night_pause_enabled": true,
-    "last_sweep_time": 1795034140.3807342,
+    "last_sweep_time": 1795034310.8562768,
     "last_sweep_times": {
-      "algeria": 1795034136.7273648,
-      "france": 1795034140.3807342
+      "algeria": 1795034307.6780417,
+      "france": 1795034310.8562768
     },
     "last_deal_post_times": {
       "algeria": 1795033762.791533
@@ -31409,7 +31409,6 @@
   "published_deals_history": {},
   "settings": {},
   "handled_post_keys": [
-    "lodydeals:46303",
     "ecksdeal:6050",
     "zedstoreonline:39798",
     "aniscoupons:34370",
@@ -32408,7 +32407,8 @@
     "ecksdeal:6101",
     "ecksdeal:6102",
     "ecksdeal:6103",
-    "lodydeals:46656"
+    "lodydeals:46656",
+    "lodydeals:46657"
   ],
   "last_france_cross_promo_time": 1794913823.9647303,
   "next_france_cross_promo_interval_seconds": 311842,
@@ -32995,22 +32995,12 @@
     ],
     "1005007916078341": [
       {
-        "channel": "aniscoupons",
-        "ts": 1794990705.113443,
-        "price": 47.4
-      },
-      {
         "channel": "zedstoreonline",
         "ts": 1794995283.7609031,
         "price": 47.4
       }
     ],
     "1005010210432531": [
-      {
-        "channel": "aniscoupons",
-        "ts": 1794991075.6380115,
-        "price": 147.8
-      },
       {
         "channel": "zedstoreonline",
         "ts": 1794995468.2649655,
@@ -33070,6 +33060,11 @@
         "channel": "zedstoreonline",
         "ts": 1795029348.018381,
         "price": 10.7
+      },
+      {
+        "channel": "lodydeals",
+        "ts": 1795034305.0160446,
+        "price": 10.71
       }
     ],
     "1005006782790827": [
