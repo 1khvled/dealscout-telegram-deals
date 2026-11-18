@@ -1086,7 +1086,7 @@
     "1005010812635861": 1792160246.020243,
     "1005008500550817": 1792025664.1703467,
     "1005009834132291": 1794478912.5670652,
-    "1005008077568655": 1794914066.442274,
+    "1005008077568655": 1794999150.7012253,
     "1005009774318553": 1793543777.6383033,
     "1005012585389764": 1792061322.5579543,
     "1005011997237872": 1793543770.1912897,
@@ -3748,7 +3748,7 @@
     "Inphic PG1 RGB Wired Gaming Mouse": 1794742126.4762356,
     "Anker Q20i Hybrid Active": 1794845336.6479435,
     "CUSU CV3500Q 2TB M.2": 1794305012.9961731,
-    "MACHENIKE G5Pro Max SE With Charging Dock": 1794914066.442274,
+    "MACHENIKE G5Pro Max SE With Charging Dock": 1794999150.7012253,
     "Xiaoxin Pad Pro GT (8/256)": 1794935355.7449994,
     "Attack Shark X11": 1794852963.8236506,
     "Mic USB Microphone with RGB Modes Professional Condenser Mic for": 1794436007.5288515,
@@ -3937,7 +3937,6 @@
     "Print Head QY6 0089 for Canon TS5060 TS5080 TS6020 TS6080 TS6120": 1794996764.6923764
   },
   "published_post_keys": [
-    "zedstoreonline:39723",
     "zedstoreonline:39724",
     "aniscoupons:34279",
     "lodydeals:46241",
@@ -4936,11 +4935,12 @@
     "aniscoupons:35232",
     "aniscoupons:35233",
     "zedstoreonline:40375",
-    "zedstoreonline:40376"
+    "zedstoreonline:40376",
+    "aniscoupons:35235"
   ],
   "last_disclaimer_time": 1794524540.9476151,
   "last_calendar_time": 1794572799.8939624,
-  "last_run_time": 1794998780.0409262,
+  "last_run_time": 1794999150.7012253,
   "monitored_channels": {
     "ecksdeal": {
       "last_message_id": 6090,
@@ -4967,12 +4967,12 @@
       "last_check_time": 1793599663.3444748
     },
     "zedstoreonline": {
-      "last_message_id": 40376,
-      "last_check_time": 1794998782.1140258
+      "last_message_id": 40377,
+      "last_check_time": 1794999146.6146917
     },
     "aniscoupons": {
-      "last_message_id": 35234,
-      "last_check_time": 1794998782.8771589
+      "last_message_id": 35235,
+      "last_check_time": 1794999152.8123412
     },
     "bnddeals": {
       "last_message_id": 51310,
@@ -28169,6 +28169,16 @@
       "price": 69.6,
       "timestamp": 1794998780.0409262,
       "status": "ACTIVE"
+    },
+    "aniscoupons:35235": {
+      "channel_msg_id": 3146,
+      "product_id": "1005008077568655",
+      "title": "MACHENIKE G5Pro Max SE With Charging Dock",
+      "channel": "aniscoupons",
+      "source_msg_id": 35235,
+      "price": 41.77,
+      "timestamp": 1794999150.7012253,
+      "status": "ACTIVE"
     }
   },
   "schedule_config": {
@@ -28177,17 +28187,17 @@
     "current_interval_minutes": 5,
     "is_paused": false,
     "night_mode_enabled": true,
-    "last_deal_post_time": 1794998783.497606,
+    "last_deal_post_time": 1794999154.0405664,
     "night_start_hour_dz": 0,
     "night_end_hour_dz": 8,
     "night_pause_enabled": true,
-    "last_sweep_time": 1794998963.6746273,
+    "last_sweep_time": 1794999157.2365975,
     "last_sweep_times": {
-      "algeria": 1794998960.6085215,
-      "france": 1794998963.6746273
+      "algeria": 1794999153.9983191,
+      "france": 1794999157.2365975
     },
     "last_deal_post_times": {
-      "algeria": 1794998783.497606
+      "algeria": 1794999154.0405664
     }
   },
   "last_coin_reminder_time": 1794767542.171841,
@@ -30961,7 +30971,6 @@
   "published_deals_history": {},
   "settings": {},
   "handled_post_keys": [
-    "lodydeals:46280",
     "zedstoreonline:39766",
     "lodydeals:46282",
     "lodydeals:46283",
@@ -31960,7 +31969,8 @@
     "aniscoupons:35229",
     "zedstoreonline:40372",
     "zedstoreonline:40373",
-    "aniscoupons:35234"
+    "aniscoupons:35234",
+    "zedstoreonline:40377"
   ],
   "last_france_cross_promo_time": 1794913823.9647303,
   "next_france_cross_promo_interval_seconds": 311842,
@@ -32682,6 +32692,11 @@
         "channel": "aniscoupons",
         "ts": 1794994374.7153835,
         "price": 162.3
+      },
+      {
+        "channel": "zedstoreonline",
+        "ts": 1794999146.4408944,
+        "price": 161.0
       }
     ],
     "1005011925142821": [
@@ -32832,6 +32847,13 @@
         "channel": "zedstoreonline",
         "ts": 1794998777.878992,
         "price": 69.6
+      }
+    ],
+    "1005008077568655": [
+      {
+        "channel": "aniscoupons",
+        "ts": 1794999148.194849,
+        "price": 41.77
       }
     ]
   },
