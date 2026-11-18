@@ -1266,7 +1266,7 @@
     "1005011961308530": 1793380460.5377874,
     "1005012994490034": 1793441317.3934674,
     "1005010146493558": 1793448836.300828,
-    "1005010575865619": 1794742011.0691845,
+    "1005010575865619": 1795033757.827376,
     "1005011778197787": 1794488939.6119785,
     "1005012839355198": 1794822570.4027405,
     "1005010133081414": 1793467151.9364934,
@@ -3387,7 +3387,7 @@
     "GIGABYTE B650M GAMING WIFI": 1793542466.6850684,
     "Netac NV7000-T M.2 Gen4 1TB": 1793899614.3022053,
     "UGREEN HiTune S3 Earbuds": 1793542479.8362749,
-    "OnePlus Ace 6T 5G 12/256GB": 1794742011.0691845,
+    "OnePlus Ace 6T 5G 12/256GB": 1795033757.827376,
     "Attack Shark X11 PAW3311": 1794869801.3485081,
     "معالج Ryzen 7 9800X3D": 1794847054.8094091,
     "معالج Ryzen 5 7600X": 1794847073.6855137,
@@ -3949,7 +3949,6 @@
     "SOMNAMBULIST SSD 120GB": 1795033574.311118
   },
   "published_post_keys": [
-    "aniscoupons:34304",
     "aniscoupons:34306",
     "aniscoupons:34307",
     "aniscoupons:34310",
@@ -4948,19 +4947,20 @@
     "zedstoreonline:40399",
     "aniscoupons:35262",
     "zedstoreonline:40403",
-    "lodydeals:46654"
+    "lodydeals:46654",
+    "lodydeals:46655"
   ],
   "last_disclaimer_time": 1794524540.9476151,
   "last_calendar_time": 1794572799.8939624,
-  "last_run_time": 1795033574.311118,
+  "last_run_time": 1795033757.827376,
   "monitored_channels": {
     "ecksdeal": {
       "last_message_id": 6103,
       "last_check_time": 1795033201.6078603
     },
     "lodydeals": {
-      "last_message_id": 46654,
-      "last_check_time": 1795033576.3916368
+      "last_message_id": 46656,
+      "last_check_time": 1795033759.9916487
     },
     "test_channel": {
       "last_message_id": 1793967703,
@@ -5324,7 +5324,7 @@
     "1005011961308530": 313.7,
     "1005012994490034": 458.0,
     "1005010146493558": 562.0,
-    "1005010575865619": 366.11,
+    "1005010575865619": 365.89,
     "1005011778197787": 155.2,
     "1005012839355198": 157.29,
     "1005010133081414": 715.0,
@@ -28601,6 +28601,16 @@
       "price": 30.4,
       "timestamp": 1795033574.311118,
       "status": "ACTIVE"
+    },
+    "lodydeals:46655": {
+      "channel_msg_id": 3191,
+      "product_id": "1005010575865619",
+      "title": "OnePlus Ace 6T 5G 12/256GB",
+      "channel": "lodydeals",
+      "source_msg_id": 46655,
+      "price": 365.89,
+      "timestamp": 1795033757.827376,
+      "status": "ACTIVE"
     }
   },
   "schedule_config": {
@@ -28609,17 +28619,17 @@
     "current_interval_minutes": 5,
     "is_paused": false,
     "night_mode_enabled": true,
-    "last_deal_post_time": 1795033579.3980095,
+    "last_deal_post_time": 1795033762.791533,
     "night_start_hour_dz": 0,
     "night_end_hour_dz": 8,
     "night_pause_enabled": true,
-    "last_sweep_time": 1795033582.522111,
+    "last_sweep_time": 1795033765.3436332,
     "last_sweep_times": {
-      "algeria": 1795033579.3672035,
-      "france": 1795033582.522111
+      "algeria": 1795033762.7520814,
+      "france": 1795033765.3436332
     },
     "last_deal_post_times": {
-      "algeria": 1795033579.3980095
+      "algeria": 1795033762.791533
     }
   },
   "last_coin_reminder_time": 1795015271.2437074,
@@ -31399,7 +31409,6 @@
   "published_deals_history": {},
   "settings": {},
   "handled_post_keys": [
-    "aniscoupons:34368",
     "lodydeals:46303",
     "ecksdeal:6050",
     "zedstoreonline:39798",
@@ -32398,7 +32407,8 @@
     "ecksdeal:6100",
     "ecksdeal:6101",
     "ecksdeal:6102",
-    "ecksdeal:6103"
+    "ecksdeal:6103",
+    "lodydeals:46656"
   ],
   "last_france_cross_promo_time": 1794913823.9647303,
   "next_france_cross_promo_interval_seconds": 311842,
@@ -33201,6 +33211,11 @@
         "channel": "aniscoupons",
         "ts": 1795000092.8321784,
         "price": 366.0
+      },
+      {
+        "channel": "lodydeals",
+        "ts": 1795033755.208683,
+        "price": 365.89
       }
     ],
     "1005013438245033": [
