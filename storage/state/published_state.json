@@ -1362,7 +1362,7 @@
     "1005012345939726": 1793656202.4239671,
     "1005010722422210": 1794997865.6657422,
     "1005012582348584": 1794334097.945569,
-    "1005012529582418": 1793543800.9051948,
+    "1005012529582418": 1795027711.160117,
     "1005008605565544": 1793543812.9442995,
     "1005009508910625": 1793543817.982839,
     "1005010114569881": 1793543824.1762173,
@@ -1648,7 +1648,7 @@
     "1005010218815499": 1794845442.6108298,
     "1005011897409757": 1794593403.339319,
     "1005013203288194": 1794595430.2306583,
-    "1005010305059795": 1794913921.5364957,
+    "1005010305059795": 1795027720.1336117,
     "1005013078612320": 1794913869.2796004,
     "1005007010612283": 1794599454.461018,
     "1005010788231460": 1794604060.7762444,
@@ -1690,7 +1690,7 @@
     "1005006678149338": 1794741974.3299906,
     "1005006995973090": 1794741980.2334778,
     "1005006727646540": 1794741987.1669734,
-    "1005012965284882": 1794742028.7342756,
+    "1005012965284882": 1795027703.9087646,
     "1005004886782975": 1794755267.1243844,
     "1005013168050663": 1794759633.8642445,
     "1005012970221631": 1794991629.6061988,
@@ -2879,7 +2879,7 @@
     "Honor Power 2  12/256": 1790941214.6756065,
     "Honor X70 5G 8/128": 1794998593.8332033,
     "Blackview MEGA 5  8/256": 1794731901.208706,
-    "سماعات اذن فخمة  Moondrop Chu 3 IEM": 1794742028.7342756,
+    "سماعات اذن فخمة  Moondrop Chu 3 IEM": 1795027703.9087646,
     "4G LTE Wireless USB 150Mbps": 1794057675.8729835,
     "Curren 8455 Men's Quartz": 1790943640.1460688,
     "ATTACK SHARK X11SE": 1793558205.9468858,
@@ -3427,7 +3427,7 @@
     "OnePlus 13 5G 12/256GB": 1793543755.5335042,
     "KOOTION SATA SSD 256GB": 1793543760.1113183,
     "CUSU K5 External SSD 512GB": 1793543777.6383033,
-    "لاتنسى تحويل دولة التطبيق الى كندا 🇨🇦": 1793543800.9051948,
+    "لاتنسى تحويل دولة التطبيق الى كندا 🇨🇦": 1795027711.160117,
     "سماعات اذن فخمة Truthear x Crinacle Zero BLUE2 IEM'S": 1793543812.9442995,
     "سماعات لاسلكية Mchose V9 Pro 7.1 Wireless": 1793543817.982839,
     "ماوس لاسلكي Attack Shark X3 Wireless": 1793543824.1762173,
@@ -3855,7 +3855,7 @@
     "ماوس فخم Logitech G502 Hero": 1794591008.1982286,
     "ماوس لاسلكي Delux M800 Mini Series": 1794591382.6548223,
     "Lexar V400 USB3.0 64GB": 1794593403.339319,
-    "HAYLOU S40 ANC Wireless": 1794913921.5364957,
+    "HAYLOU S40 ANC Wireless": 1795027720.1336117,
     "CUSU Memory DDR5 (16GB) 6000MHz": 1794845393.90179,
     "Realme 15 Pro (12/512GB)": 1794998227.2322433,
     "MAONO T1 Plus Dual-Capsule Wireless Lavalier Microphone Lapel Microphone": 1794599278.9506347,
@@ -3947,9 +3947,6 @@
     "DOOV R77 4G Touch 3/32GB": 1795023205.68955
   },
   "published_post_keys": [
-    "zedstoreonline:39745",
-    "zedstoreonline:39747",
-    "zedstoreonline:39749",
     "aniscoupons:34300",
     "aniscoupons:34301",
     "aniscoupons:34302",
@@ -4946,15 +4943,18 @@
     "lodydeals:46648",
     "lodydeals:46652",
     "lodydeals:46653",
-    "ecksdeal:6094"
+    "ecksdeal:6094",
+    "ecksdeal:6096",
+    "ecksdeal:6097",
+    "zedstoreonline:40398"
   ],
   "last_disclaimer_time": 1794524540.9476151,
   "last_calendar_time": 1794572799.8939624,
-  "last_run_time": 1795027119.0070791,
+  "last_run_time": 1795027720.1336117,
   "monitored_channels": {
     "ecksdeal": {
-      "last_message_id": 6095,
-      "last_check_time": 1795027125.6729147
+      "last_message_id": 6098,
+      "last_check_time": 1795027714.346345
     },
     "lodydeals": {
       "last_message_id": 46653,
@@ -4977,8 +4977,8 @@
       "last_check_time": 1793599663.3444748
     },
     "zedstoreonline": {
-      "last_message_id": 40397,
-      "last_check_time": 1795022283.2881393
+      "last_message_id": 40398,
+      "last_check_time": 1795027722.2260942
     },
     "aniscoupons": {
       "last_message_id": 35261,
@@ -28529,6 +28529,36 @@
       "price": 33.75,
       "timestamp": 1795027119.0070791,
       "status": "ACTIVE"
+    },
+    "ecksdeal:6096": {
+      "channel_msg_id": 3184,
+      "product_id": "1005012965284882",
+      "title": "سماعات اذن فخمة  Moondrop Chu 3 IEM",
+      "channel": "ecksdeal",
+      "source_msg_id": 6096,
+      "price": 18.03,
+      "timestamp": 1795027703.9087646,
+      "status": "ACTIVE"
+    },
+    "ecksdeal:6097": {
+      "channel_msg_id": 3185,
+      "product_id": "1005012529582418",
+      "title": "لاتنسى تحويل دولة التطبيق الى كندا 🇨🇦",
+      "channel": "ecksdeal",
+      "source_msg_id": 6097,
+      "price": 12.6,
+      "timestamp": 1795027711.160117,
+      "status": "ACTIVE"
+    },
+    "zedstoreonline:40398": {
+      "channel_msg_id": 3186,
+      "product_id": "1005010305059795",
+      "title": "HAYLOU S40 ANC Wireless",
+      "channel": "zedstoreonline",
+      "source_msg_id": 40398,
+      "price": 29.3,
+      "timestamp": 1795027720.1336117,
+      "status": "ACTIVE"
     }
   },
   "schedule_config": {
@@ -28537,17 +28567,17 @@
     "current_interval_minutes": 5,
     "is_paused": false,
     "night_mode_enabled": true,
-    "last_deal_post_time": 1795027128.1585062,
+    "last_deal_post_time": 1795027723.8865893,
     "night_start_hour_dz": 0,
     "night_end_hour_dz": 8,
     "night_pause_enabled": true,
-    "last_sweep_time": 1795027520.5488853,
+    "last_sweep_time": 1795027726.6021628,
     "last_sweep_times": {
-      "algeria": 1795027517.7958646,
-      "france": 1795027520.5488853
+      "algeria": 1795027723.845481,
+      "france": 1795027726.6021628
     },
     "last_deal_post_times": {
-      "algeria": 1795027128.1585062
+      "algeria": 1795027723.8865893
     }
   },
   "last_coin_reminder_time": 1795015271.2437074,
@@ -31326,7 +31356,6 @@
   "published_deals_history": {},
   "settings": {},
   "handled_post_keys": [
-    "aniscoupons:34356",
     "zedstoreonline:39789",
     "zedstoreonline:39791",
     "aniscoupons:34359",
@@ -32325,7 +32354,8 @@
     "lodydeals:46650",
     "lodydeals:46651",
     "aniscoupons:35261",
-    "ecksdeal:6095"
+    "ecksdeal:6095",
+    "ecksdeal:6098"
   ],
   "last_france_cross_promo_time": 1794913823.9647303,
   "next_france_cross_promo_interval_seconds": 311842,
@@ -33548,6 +33578,27 @@
         "channel": "ecksdeal",
         "ts": 1795027116.5472667,
         "price": 33.75
+      }
+    ],
+    "1005012965284882": [
+      {
+        "channel": "ecksdeal",
+        "ts": 1795027701.750583,
+        "price": 18.03
+      }
+    ],
+    "1005012529582418": [
+      {
+        "channel": "ecksdeal",
+        "ts": 1795027709.060363,
+        "price": 12.6
+      }
+    ],
+    "1005010305059795": [
+      {
+        "channel": "zedstoreonline",
+        "ts": 1795027717.9981203,
+        "price": 29.3
       }
     ]
   },
