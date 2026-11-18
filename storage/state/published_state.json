@@ -1534,7 +1534,7 @@
     "1005008060391372": 1794496851.9006197,
     "1005010209911111": 1794068056.674266,
     "1005008295555234": 1794073127.8664527,
-    "1005008645323478": 1794845270.9249778,
+    "1005008645323478": 1794997317.8001297,
     "1005008636930795": 1794747089.3988028,
     "1005006260870758": 1794250569.5221198,
     "1005009759580502": 1794331533.1223195,
@@ -3679,7 +3679,7 @@
     "1MORE SonoFlow Pro HQ51": 1794073127.8664527,
     "Ulanzi ST-06S Vertical Shooting": 1794130692.4786665,
     "ميكروفون MAONO DGM20W لاسلكي للألعاب": 1794074230.5173922,
-    "CUSU 512GB External SSD Drive": 1794845270.9249778,
+    "CUSU 512GB External SSD Drive": 1794997317.8001297,
     "Netac M.2 NVME 250GB": 1794076438.7694528,
     "EPOMAKER X AULA F87 Pro": 1794250569.5221198,
     "SIX PCIe 4.0 7350MB/s  1TB": 1794079741.7808652,
@@ -3937,7 +3937,6 @@
     "Print Head QY6 0089 for Canon TS5060 TS5080 TS6020 TS6080 TS6120": 1794996764.6923764
   },
   "published_post_keys": [
-    "zedstoreonline:39716",
     "aniscoupons:34272",
     "aniscoupons:34273",
     "aniscoupons:34274",
@@ -4936,11 +4935,12 @@
     "aniscoupons:35225",
     "aniscoupons:35227",
     "aniscoupons:35228",
-    "zedstoreonline:40370"
+    "zedstoreonline:40370",
+    "zedstoreonline:40371"
   ],
   "last_disclaimer_time": 1794524540.9476151,
   "last_calendar_time": 1794572799.8939624,
-  "last_run_time": 1794997126.2609756,
+  "last_run_time": 1794997317.8001297,
   "monitored_channels": {
     "ecksdeal": {
       "last_message_id": 6090,
@@ -4967,12 +4967,12 @@
       "last_check_time": 1793599663.3444748
     },
     "zedstoreonline": {
-      "last_message_id": 40370,
-      "last_check_time": 1794997128.3403842
+      "last_message_id": 40371,
+      "last_check_time": 1794997319.8816485
     },
     "aniscoupons": {
-      "last_message_id": 35228,
-      "last_check_time": 1794996960.102407
+      "last_message_id": 35229,
+      "last_check_time": 1794997322.0186975
     },
     "bnddeals": {
       "last_message_id": 51310,
@@ -28089,6 +28089,16 @@
       "price": 98.7,
       "timestamp": 1794997126.2609756,
       "status": "ACTIVE"
+    },
+    "zedstoreonline:40371": {
+      "channel_msg_id": 3138,
+      "product_id": "1005008645323478",
+      "title": "CUSU 512GB External SSD Drive",
+      "channel": "zedstoreonline",
+      "source_msg_id": 40371,
+      "price": 41.5,
+      "timestamp": 1794997317.8001297,
+      "status": "ACTIVE"
     }
   },
   "schedule_config": {
@@ -28097,17 +28107,17 @@
     "current_interval_minutes": 5,
     "is_paused": false,
     "night_mode_enabled": true,
-    "last_deal_post_time": 1794997129.8976686,
+    "last_deal_post_time": 1794997322.8696628,
     "night_start_hour_dz": 0,
     "night_end_hour_dz": 8,
     "night_pause_enabled": true,
-    "last_sweep_time": 1794997132.4847806,
+    "last_sweep_time": 1794997326.3950505,
     "last_sweep_times": {
-      "algeria": 1794997129.8660808,
-      "france": 1794997132.4847806
+      "algeria": 1794997322.8342812,
+      "france": 1794997326.3950505
     },
     "last_deal_post_times": {
-      "algeria": 1794997129.8976686
+      "algeria": 1794997322.8696628
     }
   },
   "last_coin_reminder_time": 1794767542.171841,
@@ -30881,7 +30891,6 @@
   "published_deals_history": {},
   "settings": {},
   "handled_post_keys": [
-    "zedstoreonline:39763",
     "zedstoreonline:39764",
     "zedstoreonline:39765",
     "aniscoupons:34338",
@@ -31880,7 +31889,8 @@
     "zedstoreonline:40365",
     "zedstoreonline:40368",
     "aniscoupons:35226",
-    "zedstoreonline:40369"
+    "zedstoreonline:40369",
+    "aniscoupons:35229"
   ],
   "last_france_cross_promo_time": 1794913823.9647303,
   "next_france_cross_promo_interval_seconds": 311842,
@@ -32663,6 +32673,11 @@
         "channel": "zedstoreonline",
         "ts": 1794996032.2863917,
         "price": 276.3
+      },
+      {
+        "channel": "aniscoupons",
+        "ts": 1794997321.8887286,
+        "price": 277.36
       }
     ],
     "1005010575865619": [
@@ -32705,6 +32720,13 @@
         "channel": "zedstoreonline",
         "ts": 1794997123.8544648,
         "price": 98.7
+      }
+    ],
+    "1005008645323478": [
+      {
+        "channel": "zedstoreonline",
+        "ts": 1794997315.2281904,
+        "price": 41.5
       }
     ]
   },
