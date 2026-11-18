@@ -1701,7 +1701,7 @@
     "COUPONS_d400dc9b6d2c": 1794935378.986234,
     "COUPONS_d400dc9b": 1794935379.010957,
     "1005011551172448": 1794936842.146349,
-    "1005013401121405": 1794944061.2401145,
+    "1005013401121405": 1794996958.0314968,
     "1005003624789670": 1794996764.6923764,
     "1005008644346729": 1794991252.6823444
   },
@@ -3933,11 +3933,10 @@
     "HAYLOU S40 ANC": 1794935370.6114745,
     "معالج Ryzen 7 5600XT": 1794936833.9811888,
     "معالج بكرت شاشة مدمج Ryzen 5 3400G": 1794936842.146349,
-    "QY6 0082 Printhead for Canon IP7210 IP7250 IP7280 MG5420 MG5460": 1794944061.2401145,
+    "QY6 0082 Printhead for Canon IP7210 IP7250 IP7280 MG5420 MG5460": 1794996958.0314968,
     "Print Head QY6 0089 for Canon TS5060 TS5080 TS6020 TS6080 TS6120": 1794996764.6923764
   },
   "published_post_keys": [
-    "aniscoupons:34270",
     "aniscoupons:34271",
     "zedstoreonline:39716",
     "aniscoupons:34272",
@@ -4936,11 +4935,12 @@
     "zedstoreonline:40366",
     "zedstoreonline:40367",
     "aniscoupons:35225",
-    "aniscoupons:35227"
+    "aniscoupons:35227",
+    "aniscoupons:35228"
   ],
   "last_disclaimer_time": 1794524540.9476151,
   "last_calendar_time": 1794572799.8939624,
-  "last_run_time": 1794996764.6923764,
+  "last_run_time": 1794996958.0314968,
   "monitored_channels": {
     "ecksdeal": {
       "last_message_id": 6090,
@@ -4971,8 +4971,8 @@
       "last_check_time": 1794996759.8957765
     },
     "aniscoupons": {
-      "last_message_id": 35227,
-      "last_check_time": 1794996766.7753408
+      "last_message_id": 35228,
+      "last_check_time": 1794996960.102407
     },
     "bnddeals": {
       "last_message_id": 51310,
@@ -28069,6 +28069,16 @@
       "price": 18.33,
       "timestamp": 1794996764.6923764,
       "status": "ACTIVE"
+    },
+    "aniscoupons:35228": {
+      "channel_msg_id": 3136,
+      "product_id": "1005013401121405",
+      "title": "QY6 0082 Printhead for Canon IP7210 IP7250 IP7280 MG5420 MG5460",
+      "channel": "aniscoupons",
+      "source_msg_id": 35228,
+      "price": 18.23,
+      "timestamp": 1794996958.0314968,
+      "status": "ACTIVE"
     }
   },
   "schedule_config": {
@@ -28077,17 +28087,17 @@
     "current_interval_minutes": 5,
     "is_paused": false,
     "night_mode_enabled": true,
-    "last_deal_post_time": 1794996767.9161003,
+    "last_deal_post_time": 1794996961.1578183,
     "night_start_hour_dz": 0,
     "night_end_hour_dz": 8,
     "night_pause_enabled": true,
-    "last_sweep_time": 1794996771.4838707,
+    "last_sweep_time": 1794996964.3877811,
     "last_sweep_times": {
-      "algeria": 1794996767.883396,
-      "france": 1794996771.4838707
+      "algeria": 1794996961.130569,
+      "france": 1794996964.3877811
     },
     "last_deal_post_times": {
-      "algeria": 1794996767.9161003
+      "algeria": 1794996961.1578183
     }
   },
   "last_coin_reminder_time": 1794767542.171841,
@@ -32678,6 +32688,13 @@
         "channel": "aniscoupons",
         "ts": 1794996761.8218737,
         "price": 18.33
+      }
+    ],
+    "1005013401121405": [
+      {
+        "channel": "aniscoupons",
+        "ts": 1794996955.4512615,
+        "price": 18.23
       }
     ]
   },
