@@ -1123,7 +1123,7 @@
     "9998882360": 1792162360.6633363,
     "9998882475": 1793282475.663889,
     "9998882568": 1792162568.078144,
-    "1005010369693975": 1794992721.2661278,
+    "1005010369693975": 1795029350.7460742,
     "1005006442452857": 1792166326.0335298,
     "9998886462": 1792166462.200491,
     "1005009948598802": 1793500786.1935658,
@@ -3136,7 +3136,7 @@
     "RYZEN 7 5700X": 1795005702.3191934,
     "Ⓜ BLACKVIEW WAVE 10C (4/32)": 1792160262.8028278,
     "Ⓜ  TCL 60 NXT PAPER 8/256📱": 1792160269.0502243,
-    "HAYLOU Mori Pro ANC": 1794935245.9551399,
+    "HAYLOU Mori Pro ANC": 1795029350.7460742,
     "HAYLOU S30 Wireless Bluetooth 5.4 Headphones 43dB Adaptive Noise": 1792166326.0335298,
     "HAYLOU Watch Faro Voice Calling Smart Watch": 1792360422.5608404,
     "Redmi Note 12 5G 4/128": 1793543770.1912897,
@@ -3947,7 +3947,6 @@
     "DOOV R77 4G Touch 3/32GB": 1795023205.68955
   },
   "published_post_keys": [
-    "aniscoupons:34302",
     "aniscoupons:34303",
     "aniscoupons:34304",
     "aniscoupons:34306",
@@ -4946,11 +4945,12 @@
     "ecksdeal:6097",
     "zedstoreonline:40398",
     "zedstoreonline:40399",
-    "aniscoupons:35262"
+    "aniscoupons:35262",
+    "zedstoreonline:40403"
   ],
   "last_disclaimer_time": 1794524540.9476151,
   "last_calendar_time": 1794572799.8939624,
-  "last_run_time": 1795028259.898314,
+  "last_run_time": 1795029350.7460742,
   "monitored_channels": {
     "ecksdeal": {
       "last_message_id": 6098,
@@ -4977,8 +4977,8 @@
       "last_check_time": 1793599663.3444748
     },
     "zedstoreonline": {
-      "last_message_id": 40402,
-      "last_check_time": 1795029164.452825
+      "last_message_id": 40403,
+      "last_check_time": 1795029352.819324
     },
     "aniscoupons": {
       "last_message_id": 35263,
@@ -28579,6 +28579,16 @@
       "price": 7.4,
       "timestamp": 1795028259.898314,
       "status": "ACTIVE"
+    },
+    "zedstoreonline:40403": {
+      "channel_msg_id": 3189,
+      "product_id": "1005010369693975",
+      "title": "HAYLOU Mori Pro ANC",
+      "channel": "zedstoreonline",
+      "source_msg_id": 40403,
+      "price": 10.7,
+      "timestamp": 1795029350.7460742,
+      "status": "ACTIVE"
     }
   },
   "schedule_config": {
@@ -28587,17 +28597,17 @@
     "current_interval_minutes": 5,
     "is_paused": false,
     "night_mode_enabled": true,
-    "last_deal_post_time": 1795028263.0061288,
+    "last_deal_post_time": 1795029354.3262212,
     "night_start_hour_dz": 0,
     "night_end_hour_dz": 8,
     "night_pause_enabled": true,
-    "last_sweep_time": 1795029168.918273,
+    "last_sweep_time": 1795029357.3535237,
     "last_sweep_times": {
-      "algeria": 1795029165.9792643,
-      "france": 1795029168.918273
+      "algeria": 1795029354.2958338,
+      "france": 1795029357.3535237
     },
     "last_deal_post_times": {
-      "algeria": 1795028263.0061288
+      "algeria": 1795029354.3262212
     }
   },
   "last_coin_reminder_time": 1795015271.2437074,
@@ -28891,7 +28901,7 @@
     "9998882360": "test_channel",
     "9998882475": "test_channel",
     "9998882568": "test_channel",
-    "1005010369693975": "aniscoupons",
+    "1005010369693975": "zedstoreonline",
     "1005006442452857": "zedstoreonline",
     "9998886462": "test_channel",
     "1005012751475098": "couponsglobal",
@@ -33050,6 +33060,11 @@
       {
         "channel": "zedstoreonline",
         "ts": 1794994735.9987621,
+        "price": 10.7
+      },
+      {
+        "channel": "zedstoreonline",
+        "ts": 1795029348.018381,
         "price": 10.7
       }
     ],
