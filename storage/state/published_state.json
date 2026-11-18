@@ -1643,7 +1643,7 @@
     "1005012644923854": 1794577769.242665,
     "1005005709908265": 1794577943.6825492,
     "1005011887425776": 1794733838.2777092,
-    "1005012547730772": 1794955059.3960474,
+    "1005012547730772": 1795017869.777643,
     "1005012840419521": 1794591008.1982286,
     "1005010218815499": 1794845442.6108298,
     "1005011897409757": 1794593403.339319,
@@ -3796,7 +3796,7 @@
     "Essager 2in1 USB Type C  60W": 1794420685.287832,
     "GOOJPRT Portable Thermal Printer": 1794420689.8352551,
     "KOOTION M.2 512GB 7200Mbs": 1794430852.2821708,
-    "HONOR X80 PRO MAX": 1794657860.5278585,
+    "HONOR X80 PRO MAX": 1795017869.777643,
     "DJI Osmo mobile": 1794487260.3295033,
     "OPPO K15 12/256GB": 1794846136.1841142,
     "Lenovo Legion Y70 2026 Gamin(12/512GB)": 1794914057.3065243,
@@ -3941,7 +3941,6 @@
     "HyperX Cloud Earbuds 2 II": 1795011758.367623
   },
   "published_post_keys": [
-    "aniscoupons:34293",
     "zedstoreonline:39736",
     "aniscoupons:34295",
     "zedstoreonline:39737",
@@ -4940,11 +4939,12 @@
     "aniscoupons:35255",
     "zedstoreonline:40394",
     "lodydeals:46643",
-    "aniscoupons:35256"
+    "aniscoupons:35256",
+    "aniscoupons:35259"
   ],
   "last_disclaimer_time": 1794524540.9476151,
   "last_calendar_time": 1794572799.8939624,
-  "last_run_time": 1795011765.8067772,
+  "last_run_time": 1795017869.777643,
   "monitored_channels": {
     "ecksdeal": {
       "last_message_id": 6090,
@@ -4975,8 +4975,8 @@
       "last_check_time": 1795015281.9314783
     },
     "aniscoupons": {
-      "last_message_id": 35258,
-      "last_check_time": 1795012891.0908575
+      "last_message_id": 35259,
+      "last_check_time": 1795017871.8660884
     },
     "bnddeals": {
       "last_message_id": 51310,
@@ -5660,7 +5660,7 @@
     "1005012644923854": 0.95,
     "1005005709908265": 48.5,
     "1005011887425776": 20.48,
-    "1005012547730772": 272.8,
+    "1005012547730772": 273.5,
     "1005012840419521": 31.63,
     "1005010218815499": 13.94,
     "1005011897409757": 7.07,
@@ -28393,6 +28393,16 @@
       "price": 228.3,
       "timestamp": 1795011765.8067772,
       "status": "ACTIVE"
+    },
+    "aniscoupons:35259": {
+      "channel_msg_id": 3170,
+      "product_id": "1005012547730772",
+      "title": "HONOR X80 PRO MAX",
+      "channel": "aniscoupons",
+      "source_msg_id": 35259,
+      "price": 273.5,
+      "timestamp": 1795017869.777643,
+      "status": "ACTIVE"
     }
   },
   "schedule_config": {
@@ -28401,17 +28411,17 @@
     "current_interval_minutes": 5,
     "is_paused": false,
     "night_mode_enabled": true,
-    "last_deal_post_time": 1795011768.9410233,
+    "last_deal_post_time": 1795017873.0554569,
     "night_start_hour_dz": 0,
     "night_end_hour_dz": 8,
     "night_pause_enabled": true,
-    "last_sweep_time": 1795017677.6904917,
+    "last_sweep_time": 1795017876.097306,
     "last_sweep_times": {
-      "algeria": 1795017674.8362563,
-      "france": 1795017677.6904917
+      "algeria": 1795017873.0184615,
+      "france": 1795017876.097306
     },
     "last_deal_post_times": {
-      "algeria": 1795011768.9410233
+      "algeria": 1795017873.0554569
     }
   },
   "last_coin_reminder_time": 1795015271.2437074,
@@ -29209,7 +29219,7 @@
     "1005012644923854": "lodydeals",
     "1005005709908265": "aniscoupons",
     "1005011887425776": "aniscoupons",
-    "1005012547730772": "zedstoreonline",
+    "1005012547730772": "aniscoupons",
     "1005012840419521": "ecksdeal",
     "1005010218815499": "aniscoupons",
     "1005011897409757": "lodydeals",
@@ -33318,6 +33328,13 @@
         "channel": "zedstoreonline",
         "ts": 1795015281.363392,
         "price": 10.5
+      }
+    ],
+    "1005012547730772": [
+      {
+        "channel": "aniscoupons",
+        "ts": 1795017867.3817816,
+        "price": 273.5
       }
     ]
   },
