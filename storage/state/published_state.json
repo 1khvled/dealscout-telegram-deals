@@ -1360,7 +1360,7 @@
     "1005010158587315": 1793543677.5915465,
     "1005012790288780": 1793656271.0286891,
     "1005012345939726": 1793656202.4239671,
-    "1005010722422210": 1794935658.6344824,
+    "1005010722422210": 1794997865.6657422,
     "1005012582348584": 1794334097.945569,
     "1005012529582418": 1793543800.9051948,
     "1005008605565544": 1793543812.9442995,
@@ -3910,7 +3910,7 @@
     "FENVI WiFi Adapter 1300Mbps": 1794741987.1669734,
     "KOOTION SSD SATA3 128GB": 1794822594.3418565,
     "UnionSine External HDD 2TB": 1794755267.1243844,
-    "HONOR WIN RT 12/256GB": 1794935658.6344824,
+    "HONOR WIN RT 12/256GB": 1794997865.6657422,
     "INFLATABLE LAZY AIR SOFA": 1794759633.8642445,
     "Crucial RAM 8GB×2 DDR4 2400MHz": 1794991629.6061988,
     "Netac NVMe 3500MB/S 500GB": 1794771008.638466,
@@ -3937,7 +3937,6 @@
     "Print Head QY6 0089 for Canon TS5060 TS5080 TS6020 TS6080 TS6120": 1794996764.6923764
   },
   "published_post_keys": [
-    "aniscoupons:34272",
     "aniscoupons:34273",
     "aniscoupons:34274",
     "aniscoupons:34276",
@@ -4936,11 +4935,12 @@
     "aniscoupons:35227",
     "aniscoupons:35228",
     "zedstoreonline:40370",
-    "zedstoreonline:40371"
+    "zedstoreonline:40371",
+    "aniscoupons:35230"
   ],
   "last_disclaimer_time": 1794524540.9476151,
   "last_calendar_time": 1794572799.8939624,
-  "last_run_time": 1794997317.8001297,
+  "last_run_time": 1794997865.6657422,
   "monitored_channels": {
     "ecksdeal": {
       "last_message_id": 6090,
@@ -4967,12 +4967,12 @@
       "last_check_time": 1793599663.3444748
     },
     "zedstoreonline": {
-      "last_message_id": 40371,
-      "last_check_time": 1794997319.8816485
+      "last_message_id": 40373,
+      "last_check_time": 1794997859.8559008
     },
     "aniscoupons": {
-      "last_message_id": 35229,
-      "last_check_time": 1794997322.0186975
+      "last_message_id": 35230,
+      "last_check_time": 1794997867.7177827
     },
     "bnddeals": {
       "last_message_id": 51310,
@@ -28099,6 +28099,16 @@
       "price": 41.5,
       "timestamp": 1794997317.8001297,
       "status": "ACTIVE"
+    },
+    "aniscoupons:35230": {
+      "channel_msg_id": 3139,
+      "product_id": "1005010722422210",
+      "title": "HONOR WIN RT 12/256GB",
+      "channel": "aniscoupons",
+      "source_msg_id": 35230,
+      "price": 405.99,
+      "timestamp": 1794997865.6657422,
+      "status": "ACTIVE"
     }
   },
   "schedule_config": {
@@ -28107,17 +28117,17 @@
     "current_interval_minutes": 5,
     "is_paused": false,
     "night_mode_enabled": true,
-    "last_deal_post_time": 1794997322.8696628,
+    "last_deal_post_time": 1794997868.6132681,
     "night_start_hour_dz": 0,
     "night_end_hour_dz": 8,
     "night_pause_enabled": true,
-    "last_sweep_time": 1794997685.1606205,
+    "last_sweep_time": 1794997871.115531,
     "last_sweep_times": {
-      "algeria": 1794997683.0074096,
-      "france": 1794997685.1606205
+      "algeria": 1794997868.588347,
+      "france": 1794997871.115531
     },
     "last_deal_post_times": {
-      "algeria": 1794997322.8696628
+      "algeria": 1794997868.6132681
     }
   },
   "last_coin_reminder_time": 1794767542.171841,
@@ -30891,8 +30901,6 @@
   "published_deals_history": {},
   "settings": {},
   "handled_post_keys": [
-    "zedstoreonline:39764",
-    "zedstoreonline:39765",
     "aniscoupons:34338",
     "lodydeals:46280",
     "zedstoreonline:39766",
@@ -31890,7 +31898,9 @@
     "zedstoreonline:40368",
     "aniscoupons:35226",
     "zedstoreonline:40369",
-    "aniscoupons:35229"
+    "aniscoupons:35229",
+    "zedstoreonline:40372",
+    "zedstoreonline:40373"
   ],
   "last_france_cross_promo_time": 1794913823.9647303,
   "next_france_cross_promo_interval_seconds": 311842,
@@ -32699,6 +32709,11 @@
         "channel": "aniscoupons",
         "ts": 1794996409.7123878,
         "price": 366.0
+      },
+      {
+        "channel": "zedstoreonline",
+        "ts": 1794997859.2608538,
+        "price": 366.0
       }
     ],
     "1005003624789670": [
@@ -32727,6 +32742,13 @@
         "channel": "zedstoreonline",
         "ts": 1794997315.2281904,
         "price": 41.5
+      }
+    ],
+    "1005010722422210": [
+      {
+        "channel": "aniscoupons",
+        "ts": 1794997863.5554953,
+        "price": 405.99
       }
     ]
   },
