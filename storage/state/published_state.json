@@ -4967,12 +4967,12 @@
       "last_check_time": 1793599663.3444748
     },
     "zedstoreonline": {
-      "last_message_id": 40378,
-      "last_check_time": 1794999331.8926444
+      "last_message_id": 40379,
+      "last_check_time": 1794999697.4579527
     },
     "aniscoupons": {
-      "last_message_id": 35236,
-      "last_check_time": 1794999338.6051748
+      "last_message_id": 35237,
+      "last_check_time": 1794999699.7533133
     },
     "bnddeals": {
       "last_message_id": 51310,
@@ -28201,10 +28201,10 @@
     "night_start_hour_dz": 0,
     "night_end_hour_dz": 8,
     "night_pause_enabled": true,
-    "last_sweep_time": 1794999513.405528,
+    "last_sweep_time": 1794999703.5257099,
     "last_sweep_times": {
-      "algeria": 1794999511.1093502,
-      "france": 1794999513.405528
+      "algeria": 1794999700.7125297,
+      "france": 1794999703.5257099
     },
     "last_deal_post_times": {
       "algeria": 1794999340.2117593
@@ -30981,8 +30981,6 @@
   "published_deals_history": {},
   "settings": {},
   "handled_post_keys": [
-    "lodydeals:46282",
-    "lodydeals:46283",
     "lodydeals:46284",
     "zedstoreonline:39767",
     "zedstoreonline:39768",
@@ -31980,7 +31978,9 @@
     "zedstoreonline:40373",
     "aniscoupons:35234",
     "zedstoreonline:40377",
-    "zedstoreonline:40378"
+    "zedstoreonline:40378",
+    "zedstoreonline:40379",
+    "aniscoupons:35237"
   ],
   "last_france_cross_promo_time": 1794913823.9647303,
   "next_france_cross_promo_interval_seconds": 311842,
@@ -32560,13 +32560,6 @@
         "price": 136.7
       }
     ],
-    "1005012726037568": [
-      {
-        "channel": "aniscoupons",
-        "ts": 1794956339.9134715,
-        "price": 7.59
-      }
-    ],
     "1005006807619368": [
       {
         "channel": "aniscoupons",
@@ -32579,6 +32572,11 @@
         "channel": "aniscoupons",
         "ts": 1794990158.010203,
         "price": 289.5
+      },
+      {
+        "channel": "zedstoreonline",
+        "ts": 1794999697.2908592,
+        "price": 289.0
       }
     ],
     "1005010716206374": [
@@ -32813,6 +32811,11 @@
         "channel": "zedstoreonline",
         "ts": 1794997315.2281904,
         "price": 41.5
+      },
+      {
+        "channel": "aniscoupons",
+        "ts": 1794999699.588174,
+        "price": 41.4
       }
     ],
     "1005010722422210": [
