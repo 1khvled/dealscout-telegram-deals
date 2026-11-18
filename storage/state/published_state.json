@@ -1551,7 +1551,7 @@
     "1005012953027259": 1794133977.9005425,
     "1005012048332402": 1794136369.073103,
     "1005011665465731": 1794137638.8201442,
-    "1005012377459743": 1794953776.950704,
+    "1005012377459743": 1795000847.1791112,
     "1005009460475870": 1794496858.1106308,
     "1005009649079564": 1794145536.5317988,
     "1005007038022940": 1794146648.256951,
@@ -3696,7 +3696,7 @@
     "Ulanzi A100 Wireless Lavalier Microphone": 1794130707.0577464,
     "Kootion X15 M.2 SSD NVMe 256GB": 1794134534.5760646,
     "Lenovo LE257 Headphones": 1794137638.8201442,
-    "Honor 600s CN (8/256)": 1794953776.950704,
+    "Honor 600s CN (8/256)": 1795000847.1791112,
     "ويبكام OBSBOT MEET 2 Webcam 4K": 1794140022.1412559,
     "Blackview Mega 5": 1794913990.5721397,
     "Warvank X8 Wireless Gaming Mouse": 1794496858.1106308,
@@ -3937,7 +3937,6 @@
     "Print Head QY6 0089 for Canon TS5060 TS5080 TS6020 TS6080 TS6120": 1794996764.6923764
   },
   "published_post_keys": [
-    "lodydeals:46241",
     "zedstoreonline:39725",
     "lodydeals:46242",
     "zedstoreonline:39726",
@@ -4936,11 +4935,12 @@
     "zedstoreonline:40376",
     "aniscoupons:35235",
     "aniscoupons:35236",
-    "aniscoupons:35239"
+    "aniscoupons:35239",
+    "aniscoupons:35241"
   ],
   "last_disclaimer_time": 1794524540.9476151,
   "last_calendar_time": 1794572799.8939624,
-  "last_run_time": 1795000279.9355009,
+  "last_run_time": 1795000847.1791112,
   "monitored_channels": {
     "ecksdeal": {
       "last_message_id": 6090,
@@ -4967,12 +4967,12 @@
       "last_check_time": 1793599663.3444748
     },
     "zedstoreonline": {
-      "last_message_id": 40379,
-      "last_check_time": 1794999697.4579527
+      "last_message_id": 40380,
+      "last_check_time": 1795000840.4009776
     },
     "aniscoupons": {
-      "last_message_id": 35240,
-      "last_check_time": 1795000649.7336938
+      "last_message_id": 35241,
+      "last_check_time": 1795000849.2648473
     },
     "bnddeals": {
       "last_message_id": 51310,
@@ -28199,6 +28199,16 @@
       "price": 311.3,
       "timestamp": 1795000279.9355009,
       "status": "ACTIVE"
+    },
+    "aniscoupons:35241": {
+      "channel_msg_id": 3149,
+      "product_id": "1005012377459743",
+      "title": "Honor 600s CN (8/256)",
+      "channel": "aniscoupons",
+      "source_msg_id": 35241,
+      "price": 304.77,
+      "timestamp": 1795000847.1791112,
+      "status": "ACTIVE"
     }
   },
   "schedule_config": {
@@ -28207,17 +28217,17 @@
     "current_interval_minutes": 5,
     "is_paused": false,
     "night_mode_enabled": true,
-    "last_deal_post_time": 1795000282.961828,
+    "last_deal_post_time": 1795000850.3293328,
     "night_start_hour_dz": 0,
     "night_end_hour_dz": 8,
     "night_pause_enabled": true,
-    "last_sweep_time": 1795000652.7491784,
+    "last_sweep_time": 1795000853.3263845,
     "last_sweep_times": {
-      "algeria": 1795000650.5823166,
-      "france": 1795000652.7491784
+      "algeria": 1795000850.2923977,
+      "france": 1795000853.3263845
     },
     "last_deal_post_times": {
-      "algeria": 1795000282.961828
+      "algeria": 1795000850.3293328
     }
   },
   "last_coin_reminder_time": 1794767542.171841,
@@ -30991,7 +31001,6 @@
   "published_deals_history": {},
   "settings": {},
   "handled_post_keys": [
-    "zedstoreonline:39768",
     "zedstoreonline:39769",
     "zedstoreonline:39770",
     "lodydeals:46286",
@@ -31990,7 +31999,8 @@
     "zedstoreonline:40379",
     "aniscoupons:35237",
     "aniscoupons:35238",
-    "aniscoupons:35240"
+    "aniscoupons:35240",
+    "zedstoreonline:40380"
   ],
   "last_france_cross_promo_time": 1794913823.9647303,
   "next_france_cross_promo_interval_seconds": 311842,
@@ -32894,6 +32904,11 @@
         "channel": "aniscoupons",
         "ts": 1794999333.711318,
         "price": 33.64
+      },
+      {
+        "channel": "zedstoreonline",
+        "ts": 1795000840.2512765,
+        "price": 33.6
       }
     ],
     "1005012770405022": [
@@ -32901,6 +32916,13 @@
         "channel": "aniscoupons",
         "ts": 1795000277.6193602,
         "price": 311.3
+      }
+    ],
+    "1005012377459743": [
+      {
+        "channel": "aniscoupons",
+        "ts": 1795000844.514497,
+        "price": 304.77
       }
     ]
   },
