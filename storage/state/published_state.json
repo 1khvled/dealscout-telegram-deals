@@ -1513,7 +1513,7 @@
     "1005013028124905": 1793971934.3600886,
     "1005012691642623": 1794074230.5173922,
     "1005010266233059": 1793977272.9654846,
-    "1005007469003552": 1794664656.5838907,
+    "1005007469003552": 1795001220.8183246,
     "1005010041181003": 1794994376.6272743,
     "1005010265542567": 1794131426.95932,
     "1005003156756854": 1794944054.5907512,
@@ -3647,7 +3647,7 @@
     "MAONO Wave T1 Mini Pro Wireless Lavalier Microphone": 1794913928.7829926,
     "ميكروفون MAONO DGM20W لاسلكي للألعاب – تقليل الضوضاء مع إضاءة RGB، مثالي للبث المباشر والتسجيل والأل": 1793976348.7503736,
     "Ulanzi A21 Wireless Lavalier Microphone": 1793977272.9654846,
-    "ميكروفون Ulanzi A100 لاسلكي صغير": 1793982290.6109207,
+    "ميكروفون Ulanzi A100 لاسلكي صغير": 1795001220.8183246,
     "Lexar ARES PRO NVMe SSD PCle5.0x4 1TB": 1794994376.6272743,
     "Ulanzi A200 Mini Wireless Lavalier Microphone": 1794131426.95932,
     "حامل هاتف Ulanzi ST-06S": 1794944054.5907512,
@@ -3937,7 +3937,6 @@
     "Print Head QY6 0089 for Canon TS5060 TS5080 TS6020 TS6080 TS6120": 1794996764.6923764
   },
   "published_post_keys": [
-    "zedstoreonline:39725",
     "lodydeals:46242",
     "zedstoreonline:39726",
     "aniscoupons:34280",
@@ -4936,11 +4935,12 @@
     "aniscoupons:35235",
     "aniscoupons:35236",
     "aniscoupons:35239",
-    "aniscoupons:35241"
+    "aniscoupons:35241",
+    "zedstoreonline:40381"
   ],
   "last_disclaimer_time": 1794524540.9476151,
   "last_calendar_time": 1794572799.8939624,
-  "last_run_time": 1795000847.1791112,
+  "last_run_time": 1795001220.8183246,
   "monitored_channels": {
     "ecksdeal": {
       "last_message_id": 6090,
@@ -4967,8 +4967,8 @@
       "last_check_time": 1793599663.3444748
     },
     "zedstoreonline": {
-      "last_message_id": 40380,
-      "last_check_time": 1795000840.4009776
+      "last_message_id": 40381,
+      "last_check_time": 1795001222.8902183
     },
     "aniscoupons": {
       "last_message_id": 35241,
@@ -5539,7 +5539,7 @@
     "1005013028124905": 438.6,
     "1005012691642623": 37.1,
     "1005010266233059": 17.1,
-    "1005007469003552": 17.93,
+    "1005007469003552": 17.1,
     "1005010041181003": 162.3,
     "1005010265542567": 24.89,
     "1005003156756854": 11.2,
@@ -28209,6 +28209,16 @@
       "price": 304.77,
       "timestamp": 1795000847.1791112,
       "status": "ACTIVE"
+    },
+    "zedstoreonline:40381": {
+      "channel_msg_id": 3150,
+      "product_id": "1005007469003552",
+      "title": "ميكروفون Ulanzi A100 لاسلكي صغير",
+      "channel": "zedstoreonline",
+      "source_msg_id": 40381,
+      "price": 17.1,
+      "timestamp": 1795001220.8183246,
+      "status": "ACTIVE"
     }
   },
   "schedule_config": {
@@ -28217,17 +28227,17 @@
     "current_interval_minutes": 5,
     "is_paused": false,
     "night_mode_enabled": true,
-    "last_deal_post_time": 1795000850.3293328,
+    "last_deal_post_time": 1795001227.4363194,
     "night_start_hour_dz": 0,
     "night_end_hour_dz": 8,
     "night_pause_enabled": true,
-    "last_sweep_time": 1795001028.6013222,
+    "last_sweep_time": 1795001230.5741808,
     "last_sweep_times": {
-      "algeria": 1795001025.8781366,
-      "france": 1795001028.6013222
+      "algeria": 1795001227.4053826,
+      "france": 1795001230.5741808
     },
     "last_deal_post_times": {
-      "algeria": 1795000850.3293328
+      "algeria": 1795001227.4363194
     }
   },
   "last_coin_reminder_time": 1794767542.171841,
@@ -28897,7 +28907,7 @@
     "1005013028124905": "zedstoreonline",
     "1005012691642623": "zedstoreonline",
     "1005010266233059": "zedstoreonline",
-    "1005007469003552": "lodydeals",
+    "1005007469003552": "zedstoreonline",
     "1005010041181003": "aniscoupons",
     "1005010265542567": "aniscoupons",
     "1005003156756854": "zedstoreonline",
@@ -32923,6 +32933,13 @@
         "channel": "aniscoupons",
         "ts": 1795000844.514497,
         "price": 304.77
+      }
+    ],
+    "1005007469003552": [
+      {
+        "channel": "zedstoreonline",
+        "ts": 1795001218.0709283,
+        "price": 17.1
       }
     ]
   },
