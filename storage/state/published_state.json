@@ -940,7 +940,7 @@
     "1005008901941749": 1792785032.5334125,
     "1005010178295650": 1793743848.9735239,
     "1005006861002512": 1791151259.5667012,
-    "1005012285327063": 1794935364.12677,
+    "1005012285327063": 1795035422.7177825,
     "1005006581583862": 1794852936.201381,
     "1005012816171978": 1792157876.0860639,
     "1005006248571160": 1791012946.4110153,
@@ -2921,7 +2921,7 @@
     "Attack Shark X1": 1790972445.6591878,
     "KUULAA USB C Cable": 1790973051.970508,
     "Wireless WiFi Repeater 300Mbps WiFi Extender Amplifier Booster Router": 1790974856.4783835,
-    "HAYLOU Watch Faro": 1794935364.12677,
+    "HAYLOU Watch Faro": 1795035422.7177825,
     "HAYLOU S30": 1794852936.201381,
     "Lenovo XT88 TWS Wireless Earphones Bluetooth 5.3 Dual MIC Stereo Noise": 1790976654.120254,
     "VIVO Y600 Pro 8/128GB": 1793656161.7382708,
@@ -3949,7 +3949,6 @@
     "SOMNAMBULIST SSD 120GB": 1795033574.311118
   },
   "published_post_keys": [
-    "aniscoupons:34306",
     "aniscoupons:34307",
     "aniscoupons:34310",
     "aniscoupons:34311",
@@ -4948,11 +4947,12 @@
     "aniscoupons:35262",
     "zedstoreonline:40403",
     "lodydeals:46654",
-    "lodydeals:46655"
+    "lodydeals:46655",
+    "aniscoupons:35266"
   ],
   "last_disclaimer_time": 1794524540.9476151,
   "last_calendar_time": 1794572799.8939624,
-  "last_run_time": 1795033757.827376,
+  "last_run_time": 1795035422.7177825,
   "monitored_channels": {
     "ecksdeal": {
       "last_message_id": 6104,
@@ -4983,8 +4983,8 @@
       "last_check_time": 1795031548.3755999
     },
     "aniscoupons": {
-      "last_message_id": 35265,
-      "last_check_time": 1795034486.9887228
+      "last_message_id": 35266,
+      "last_check_time": 1795035424.8277433
     },
     "bnddeals": {
       "last_message_id": 51310,
@@ -28611,6 +28611,16 @@
       "price": 365.89,
       "timestamp": 1795033757.827376,
       "status": "ACTIVE"
+    },
+    "aniscoupons:35266": {
+      "channel_msg_id": 3192,
+      "product_id": "1005012285327063",
+      "title": "HAYLOU Watch Faro",
+      "channel": "aniscoupons",
+      "source_msg_id": 35266,
+      "price": 12.11,
+      "timestamp": 1795035422.7177825,
+      "status": "ACTIVE"
     }
   },
   "schedule_config": {
@@ -28619,17 +28629,17 @@
     "current_interval_minutes": 5,
     "is_paused": false,
     "night_mode_enabled": true,
-    "last_deal_post_time": 1795033762.791533,
+    "last_deal_post_time": 1795035425.9360392,
     "night_start_hour_dz": 0,
     "night_end_hour_dz": 8,
     "night_pause_enabled": true,
-    "last_sweep_time": 1795035224.417786,
+    "last_sweep_time": 1795035428.904777,
     "last_sweep_times": {
-      "algeria": 1795035221.0276568,
-      "france": 1795035224.417786
+      "algeria": 1795035425.894421,
+      "france": 1795035428.904777
     },
     "last_deal_post_times": {
-      "algeria": 1795033762.791533
+      "algeria": 1795035425.9360392
     }
   },
   "last_coin_reminder_time": 1795015271.2437074,
@@ -33014,26 +33024,7 @@
         "price": 114.99
       }
     ],
-    "1005012970221631": [
-      {
-        "channel": "aniscoupons",
-        "ts": 1794991626.9474185,
-        "price": 69.7
-      }
-    ],
-    "1005008703989845": [
-      {
-        "channel": "aniscoupons",
-        "ts": 1794991989.8150856,
-        "price": 44.2
-      }
-    ],
     "1005008518280704": [
-      {
-        "channel": "aniscoupons",
-        "ts": 1794992182.1918232,
-        "price": 179.4
-      },
       {
         "channel": "zedstoreonline",
         "ts": 1794996759.7602873,
@@ -33672,6 +33663,13 @@
         "channel": "ecksdeal",
         "ts": 1795029532.0883105,
         "price": 7.4
+      }
+    ],
+    "1005012285327063": [
+      {
+        "channel": "aniscoupons",
+        "ts": 1795035420.3973355,
+        "price": 12.11
       }
     ]
   },
