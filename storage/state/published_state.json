@@ -27851,10 +27851,10 @@
     "night_start_hour_dz": 0,
     "night_end_hour_dz": 8,
     "night_pause_enabled": true,
-    "last_sweep_time": 1794985208.0032244,
+    "last_sweep_time": 1794985390.1174989,
     "last_sweep_times": {
-      "algeria": 1794985204.7573335,
-      "france": 1794985208.0032244
+      "algeria": 1794985387.610495,
+      "france": 1794985390.1174989
     },
     "last_deal_post_times": {
       "algeria": 1794958365.701014
@@ -30609,8 +30609,7 @@
   "pinned_promo_events": {
     "AliExpress Special Promo Octobre 2026_20261004": 661,
     "AliExpress Special Promo Octobre 2026_20261006": 677,
-    "Brand Day Sale Octobre 2026_20261009": 702,
-    "11.11 Global Shopping Festival Main Sale_20261101": 1938
+    "Brand Day Sale Octobre 2026_20261009": 702
   },
   "sent_promo_notifiers": [
     "LAUNCH_ALERT_AliExpress Special Promo Octobre 2026_20261004",
