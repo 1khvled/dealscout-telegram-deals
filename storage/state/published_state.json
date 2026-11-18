@@ -1219,7 +1219,7 @@
     "1005010266487244": 1793448791.1740308,
     "1005010207075594": 1793299454.8390412,
     "1005013351519067": 1793448628.3734028,
-    "1005012484784752": 1794936833.9811888,
+    "1005012484784752": 1794997126.2609756,
     "1005013222140851": 1794732855.3959744,
     "1005013438245033": 1794996403.594225,
     "1005008986635164": 1793314892.9200466,
@@ -3374,7 +3374,7 @@
     "مدعومة ب Hall effect في Joysticks": 1793542392.5669472,
     "Realme 15 Pro 5G 12/256GB": 1794131420.4163597,
     ".شاشة AMOLED 6.57″ بدقة FHD+": 1793542420.8525836,
-    "AMD Ryzen 5 5600XT": 1794660067.2240539,
+    "AMD Ryzen 5 5600XT": 1794997126.2609756,
     "POCO M7 6/128GB": 1793707060.393079,
     "Blackview Wave 10C  4/32GB": 1793542445.2859337,
     "COLMI i28 Ultra AI  AMOLED": 1793542450.420599,
@@ -3937,7 +3937,6 @@
     "Print Head QY6 0089 for Canon TS5060 TS5080 TS6020 TS6080 TS6120": 1794996764.6923764
   },
   "published_post_keys": [
-    "aniscoupons:34271",
     "zedstoreonline:39716",
     "aniscoupons:34272",
     "aniscoupons:34273",
@@ -4936,11 +4935,12 @@
     "zedstoreonline:40367",
     "aniscoupons:35225",
     "aniscoupons:35227",
-    "aniscoupons:35228"
+    "aniscoupons:35228",
+    "zedstoreonline:40370"
   ],
   "last_disclaimer_time": 1794524540.9476151,
   "last_calendar_time": 1794572799.8939624,
-  "last_run_time": 1794996958.0314968,
+  "last_run_time": 1794997126.2609756,
   "monitored_channels": {
     "ecksdeal": {
       "last_message_id": 6090,
@@ -4967,8 +4967,8 @@
       "last_check_time": 1793599663.3444748
     },
     "zedstoreonline": {
-      "last_message_id": 40369,
-      "last_check_time": 1794996759.8957765
+      "last_message_id": 40370,
+      "last_check_time": 1794997128.3403842
     },
     "aniscoupons": {
       "last_message_id": 35228,
@@ -5265,7 +5265,7 @@
     "1005011638526553": 407.54,
     "1005010207075594": 424.0,
     "1005013351519067": 202.9,
-    "1005012484784752": 98.79,
+    "1005012484784752": 98.7,
     "1005013222140851": 74.53,
     "1005010355409000": 494.2,
     "1005013438245033": 409.36,
@@ -28079,6 +28079,16 @@
       "price": 18.23,
       "timestamp": 1794996958.0314968,
       "status": "ACTIVE"
+    },
+    "zedstoreonline:40370": {
+      "channel_msg_id": 3137,
+      "product_id": "1005012484784752",
+      "title": "AMD Ryzen 5 5600XT",
+      "channel": "zedstoreonline",
+      "source_msg_id": 40370,
+      "price": 98.7,
+      "timestamp": 1794997126.2609756,
+      "status": "ACTIVE"
     }
   },
   "schedule_config": {
@@ -28087,17 +28097,17 @@
     "current_interval_minutes": 5,
     "is_paused": false,
     "night_mode_enabled": true,
-    "last_deal_post_time": 1794996961.1578183,
+    "last_deal_post_time": 1794997129.8976686,
     "night_start_hour_dz": 0,
     "night_end_hour_dz": 8,
     "night_pause_enabled": true,
-    "last_sweep_time": 1794996964.3877811,
+    "last_sweep_time": 1794997132.4847806,
     "last_sweep_times": {
-      "algeria": 1794996961.130569,
-      "france": 1794996964.3877811
+      "algeria": 1794997129.8660808,
+      "france": 1794997132.4847806
     },
     "last_deal_post_times": {
-      "algeria": 1794996961.1578183
+      "algeria": 1794997129.8976686
     }
   },
   "last_coin_reminder_time": 1794767542.171841,
@@ -28484,7 +28494,7 @@
     "1005011638526553": "lodydeals",
     "1005010207075594": "aniscoupons",
     "1005013351519067": "aniscoupons",
-    "1005012484784752": "ecksdeal",
+    "1005012484784752": "zedstoreonline",
     "1005013222140851": "lodydeals",
     "1005010355409000": "aniscoupons",
     "1005013438245033": "aniscoupons",
@@ -32469,13 +32479,6 @@
         "price": 40.5
       }
     ],
-    "1005012377459743": [
-      {
-        "channel": "aniscoupons",
-        "ts": 1794953774.0999975,
-        "price": 304.77
-      }
-    ],
     "1005012547730772": [
       {
         "channel": "zedstoreonline",
@@ -32695,6 +32698,13 @@
         "channel": "aniscoupons",
         "ts": 1794996955.4512615,
         "price": 18.23
+      }
+    ],
+    "1005012484784752": [
+      {
+        "channel": "zedstoreonline",
+        "ts": 1794997123.8544648,
+        "price": 98.7
       }
     ]
   },
