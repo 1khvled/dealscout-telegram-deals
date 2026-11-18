@@ -901,7 +901,7 @@
     "1005009281115306": 1793558205.9468858,
     "1005011797801269": 1791203753.790013,
     "1005007168829266": 1794861693.0207138,
-    "1005012406142215": 1793543604.5851276,
+    "1005012406142215": 1795023191.9944189,
     "1005007345398413": 1790943717.3545928,
     "1005012504076921": 1791236011.4353654,
     "1005008715050858": 1791033345.3970714,
@@ -1245,7 +1245,7 @@
     "1005013090910574": 1794340346.0747576,
     "1005012382148199": 1793500800.6950834,
     "1005010158485058": 1793543612.279949,
-    "1005012910719451": 1795007178.5557232,
+    "1005012910719451": 1795023199.948518,
     "1005006307798542": 1793467165.446982,
     "1005011787296177": 1793607070.347875,
     "1005007375332966": 1793467173.1692383,
@@ -1671,7 +1671,7 @@
     "1005012781081420": 1794675219.0916212,
     "1005009806804463": 1794845311.5281317,
     "1005007096763939": 1794913915.9826968,
-    "1005008341428946": 1794676338.751973,
+    "1005008341428946": 1795023205.68955,
     "1005007173814545": 1794676695.2288063,
     "1005008077424799": 1794748963.317494,
     "1005011551333926": 1794735719.2115917,
@@ -2820,7 +2820,8 @@
     "HONOR X9D 12/256GB",
     "HyperX Cloud Earbuds 2 II",
     "تخزين CUSU K5 SATA Portable USB SSD",
-    "تخزين CUSU C300 Sata SSD"
+    "تخزين CUSU C300 Sata SSD",
+    "DOOV R77 4G Touch 3/32GB"
   ],
   "published_title_timestamps": {
     "Xiaomi Redmi Note 17 5G Global Version": 1790857823.0117362,
@@ -2971,7 +2972,7 @@
     "️ POCO X6 Pro (12/256)": 1791037857.3485136,
     "LENOVO LE257": 1791038145.1521833,
     "Lenovo XT53": 1791038753.5097415,
-    "HONOR WIN TURBO 12/256GB": 1793543604.5851276,
+    "HONOR WIN TURBO 12/256GB": 1795023191.9944189,
     "HONOR POWER 2 (12/256)": 1793467316.5435166,
     "New Sports Large Dial Men's Concept Watch Air Hole Men's Watch Night Light": 1791043842.6639822,
     "Nothing CMF Buds 2a TWS Earbuds 42dB Active Noise Cancellation ANC": 1791045040.5964694,
@@ -3418,7 +3419,7 @@
     "UGREEN 4K FHD Webcam 8MP": 1793543664.66204,
     "ASROCK X570M PRO4": 1794383957.69665,
     "Redmi Note 17 4G 4/128GB": 1793793714.105913,
-    "OnePlus Turbo 6V  8/256GB": 1794742003.817957,
+    "OnePlus Turbo 6V  8/256GB": 1795023199.948518,
     "QCY VN200 Pro 7.1 Wired": 1793656271.0286891,
     "UGREEN Nexode Air 65W GaN": 1793656202.4239671,
     "Honor WIN RT 5G 12/256GB": 1793543733.1622994,
@@ -3942,12 +3943,10 @@
     "HONOR X9D 12/256GB": 1795004960.4540246,
     "HyperX Cloud Earbuds 2 II": 1795011758.367623,
     "تخزين CUSU K5 SATA Portable USB SSD": 1795022264.1116176,
-    "تخزين CUSU C300 Sata SSD": 1795022269.6440833
+    "تخزين CUSU C300 Sata SSD": 1795022269.6440833,
+    "DOOV R77 4G Touch 3/32GB": 1795023205.68955
   },
   "published_post_keys": [
-    "zedstoreonline:39739",
-    "aniscoupons:34298",
-    "zedstoreonline:39742",
     "zedstoreonline:39743",
     "zedstoreonline:39744",
     "zedstoreonline:39745",
@@ -4944,19 +4943,22 @@
     "aniscoupons:35260",
     "lodydeals:46645",
     "lodydeals:46646",
-    "lodydeals:46649"
+    "lodydeals:46649",
+    "lodydeals:46644",
+    "lodydeals:46648",
+    "lodydeals:46652"
   ],
   "last_disclaimer_time": 1794524540.9476151,
   "last_calendar_time": 1794572799.8939624,
-  "last_run_time": 1795022829.6892593,
+  "last_run_time": 1795023205.68955,
   "monitored_channels": {
     "ecksdeal": {
       "last_message_id": 6093,
       "last_check_time": 1795022277.203909
     },
     "lodydeals": {
-      "last_message_id": 46651,
-      "last_check_time": 1795022998.3400946
+      "last_message_id": 46652,
+      "last_check_time": 1795023207.7994962
     },
     "test_channel": {
       "last_message_id": 1793967703,
@@ -5041,7 +5043,7 @@
     "1005009281115306": 12.3,
     "1005011797801269": 55.78,
     "1005007168829266": 4.89,
-    "1005012406142215": 375.12,
+    "1005012406142215": 366.31,
     "1005008390562391": 11.79,
     "1005007345398413": 14.3,
     "1005012504076921": 257.4,
@@ -5298,7 +5300,7 @@
     "1005013090910574": 192.7,
     "1005012382148199": 469.0,
     "1005010158485058": 66.5,
-    "1005012910719451": 275.8,
+    "1005012910719451": 275.87,
     "1005006307798542": 35.3,
     "1005011787296177": 29.76,
     "1005007375332966": 52.8,
@@ -5692,7 +5694,7 @@
     "1005012781081420": 11.3,
     "1005009806804463": 42.7,
     "1005007096763939": 19.7,
-    "1005008341428946": 63.47,
+    "1005008341428946": 63.4,
     "1005007173814545": 34.9,
     "1005008077424799": 19.5,
     "1005011551333926": 41.26,
@@ -28477,6 +28479,36 @@
       "price": 282.11,
       "timestamp": 1795022829.6892593,
       "status": "ACTIVE"
+    },
+    "lodydeals:46644": {
+      "channel_msg_id": 3179,
+      "product_id": "1005012406142215",
+      "title": "HONOR WIN TURBO 12/256GB",
+      "channel": "lodydeals",
+      "source_msg_id": 46644,
+      "price": 366.31,
+      "timestamp": 1795023191.9944189,
+      "status": "ACTIVE"
+    },
+    "lodydeals:46648": {
+      "channel_msg_id": 3180,
+      "product_id": "1005012910719451",
+      "title": "OnePlus Turbo 6V  8/256GB",
+      "channel": "lodydeals",
+      "source_msg_id": 46648,
+      "price": 275.87,
+      "timestamp": 1795023199.948518,
+      "status": "ACTIVE"
+    },
+    "lodydeals:46652": {
+      "channel_msg_id": 3181,
+      "product_id": "1005008341428946",
+      "title": "DOOV R77 4G Touch 3/32GB",
+      "channel": "lodydeals",
+      "source_msg_id": 46652,
+      "price": 63.4,
+      "timestamp": 1795023205.68955,
+      "status": "ACTIVE"
     }
   },
   "schedule_config": {
@@ -28485,17 +28517,17 @@
     "current_interval_minutes": 5,
     "is_paused": false,
     "night_mode_enabled": true,
-    "last_deal_post_time": 1795022834.7275248,
+    "last_deal_post_time": 1795023210.9616272,
     "night_start_hour_dz": 0,
     "night_end_hour_dz": 8,
     "night_pause_enabled": true,
-    "last_sweep_time": 1795023005.5676694,
+    "last_sweep_time": 1795023214.1148617,
     "last_sweep_times": {
-      "algeria": 1795023002.170041,
-      "france": 1795023005.5676694
+      "algeria": 1795023210.924477,
+      "france": 1795023214.1148617
     },
     "last_deal_post_times": {
-      "algeria": 1795022834.7275248
+      "algeria": 1795023210.9616272
     }
   },
   "last_coin_reminder_time": 1795015271.2437074,
@@ -28907,7 +28939,7 @@
     "1005013090910574": "aniscoupons",
     "1005012382148199": "megaphonna",
     "1005010158485058": "lodydeals",
-    "1005012910719451": "aniscoupons",
+    "1005012910719451": "lodydeals",
     "1005006307798542": "aniscoupons",
     "1005011787296177": "lodydeals",
     "1005007375332966": "aniscoupons",
@@ -29321,7 +29353,7 @@
     "1005012781081420": "zedstoreonline",
     "1005009806804463": "zedstoreonline",
     "1005007096763939": "zedstoreonline",
-    "1005008341428946": "aniscoupons",
+    "1005008341428946": "lodydeals",
     "1005007173814545": "zedstoreonline",
     "1005008077424799": "zedstoreonline",
     "1005011551333926": "aniscoupons",
@@ -30476,7 +30508,8 @@
     "HONOR X9D 12/256GB": "lodydeals",
     "HyperX Cloud Earbuds 2 II": "lodydeals",
     "تخزين CUSU K5 SATA Portable USB SSD": "ecksdeal",
-    "تخزين CUSU C300 Sata SSD": "ecksdeal"
+    "تخزين CUSU C300 Sata SSD": "ecksdeal",
+    "DOOV R77 4G Touch 3/32GB": "lodydeals"
   },
   "religious_reminders_history": {
     "mock_rem": "2026-10-02",
@@ -33113,6 +33146,11 @@
         "channel": "zedstoreonline",
         "ts": 1795022282.7183478,
         "price": 366.0
+      },
+      {
+        "channel": "lodydeals",
+        "ts": 1795023189.18156,
+        "price": 366.31
       }
     ],
     "1005003624789670": [
@@ -33358,6 +33396,11 @@
         "channel": "aniscoupons",
         "ts": 1795007175.6723082,
         "price": 275.8
+      },
+      {
+        "channel": "lodydeals",
+        "ts": 1795023197.5981216,
+        "price": 275.87
       }
     ],
     "1005012339196141": [
@@ -33459,6 +33502,13 @@
         "channel": "lodydeals",
         "ts": 1795022826.6788542,
         "price": 282.11
+      }
+    ],
+    "1005008341428946": [
+      {
+        "channel": "lodydeals",
+        "ts": 1795023202.8001902,
+        "price": 63.4
       }
     ]
   },

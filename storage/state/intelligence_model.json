@@ -22,8 +22,8 @@
   "flow_target": 24.0,
   "channel_stats": {
     "lodydeals": {
-      "seen": 115,
-      "published": 106,
+      "seen": 118,
+      "published": 109,
       "skipped": 0,
       "ewma": 0.9994
     },
@@ -54,8 +54,8 @@
   },
   "category_stats": {
     "other": {
-      "seen": 389,
-      "published": 334,
+      "seen": 390,
+      "published": 335,
       "skipped": 0,
       "ewma": 0.9994
     },
@@ -66,8 +66,8 @@
       "ewma": 0.9994
     },
     "phones": {
-      "seen": 342,
-      "published": 221,
+      "seen": 344,
+      "published": 223,
       "skipped": 0,
       "ewma": 0.9994
     },
@@ -341,7 +341,8 @@
       275.8,
       275.87,
       275.8,
-      275.8
+      275.8,
+      275.87
     ],
     "1005012499433797": [
       134.36,
@@ -1190,7 +1191,8 @@
       19.7
     ],
     "1005008341428946": [
-      63.47
+      63.47,
+      63.4
     ],
     "1005007173814545": [
       34.9
@@ -1413,42 +1415,21 @@
     ],
     "1005006302799297": [
       282.11
+    ],
+    "1005012406142215": [
+      366.31
     ]
   },
   "counters": {
-    "scored": 1049,
-    "verdict_publish": 1005,
+    "scored": 1052,
+    "verdict_publish": 1008,
     "verdict_hold": 44,
     "verdict_skip": 0,
-    "published": 807,
+    "published": 810,
     "skipped": 0
   },
-  "score_sum": 76843.37,
+  "score_sum": 77057.84,
   "recent_decisions": [
-    {
-      "ts": 1794847070,
-      "channel": "ecksdeal",
-      "category": "other",
-      "product_id": "1005011550075220",
-      "score": 69.37,
-      "verdict": "publish"
-    },
-    {
-      "ts": 1794848147,
-      "channel": "lodydeals",
-      "category": "other",
-      "product_id": "1005010706590867",
-      "score": 74.85,
-      "verdict": "publish"
-    },
-    {
-      "ts": 1794848515,
-      "channel": "zedstoreonline",
-      "category": "other",
-      "product_id": "1005010033441204",
-      "score": 64.75,
-      "verdict": "publish"
-    },
     {
       "ts": 1794852893,
       "channel": "lodydeals",
@@ -3024,7 +3005,31 @@
       "product_id": "1005006302799297",
       "score": 80.21,
       "verdict": "publish"
+    },
+    {
+      "ts": 1795023189,
+      "channel": "lodydeals",
+      "category": "phones",
+      "product_id": "1005012406142215",
+      "score": 65.29,
+      "verdict": "publish"
+    },
+    {
+      "ts": 1795023197,
+      "channel": "lodydeals",
+      "category": "phones",
+      "product_id": "1005012910719451",
+      "score": 69.58,
+      "verdict": "publish"
+    },
+    {
+      "ts": 1795023202,
+      "channel": "lodydeals",
+      "category": "other",
+      "product_id": "1005008341428946",
+      "score": 79.6,
+      "verdict": "publish"
     }
   ],
-  "updated_at": 1795022829.7382007
+  "updated_at": 1795023205.7495644
 }
