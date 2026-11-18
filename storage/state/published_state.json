@@ -1319,7 +1319,7 @@
     "COUPONS_11.11 Global Shopping Festival Warm-Up": 1793478717.5923967,
     "1005008518280704": 1794992184.6988244,
     "1005010527736444": 1793478769.6023057,
-    "1005013450996845": 1794914006.4161248,
+    "1005013450996845": 1794995476.4520917,
     "1005013144753309": 1794771014.8038359,
     "1005012061152213": 1793490079.2945042,
     "1005012519569107": 1793490085.1205146,
@@ -3700,7 +3700,7 @@
     "ويبكام OBSBOT MEET 2 Webcam 4K": 1794140022.1412559,
     "Blackview Mega 5": 1794913990.5721397,
     "Warvank X8 Wireless Gaming Mouse": 1794496858.1106308,
-    "Xiaoxin Pad Pro 2025 (8/128GB)": 1794914006.4161248,
+    "Xiaoxin Pad Pro 2025 (8/128GB)": 1794995476.4520917,
     "سماعات ONIKUMA T27 لاسلكية بوضعَي اتصال 2.4GHz وBluetooth": 1794145536.5317988,
     "Lenovo Thinkplus XT88": 1794146648.256951,
     "Rolls-Royce Phantom Model": 1794146655.1062205,
@@ -3937,7 +3937,6 @@
     "Print Head QY6 0089 for Canon TS5060 TS5080 TS6020 TS6080 TS6120": 1794944609.807315
   },
   "published_post_keys": [
-    "zedstoreonline:39706",
     "zedstoreonline:39707",
     "aniscoupons:34266",
     "aniscoupons:34267",
@@ -4936,11 +4935,12 @@
     "aniscoupons:35215",
     "aniscoupons:35216",
     "aniscoupons:35217",
-    "aniscoupons:35219"
+    "aniscoupons:35219",
+    "aniscoupons:35223"
   ],
   "last_disclaimer_time": 1794524540.9476151,
   "last_calendar_time": 1794572799.8939624,
-  "last_run_time": 1794994376.6272743,
+  "last_run_time": 1794995476.4520917,
   "monitored_channels": {
     "ecksdeal": {
       "last_message_id": 6090,
@@ -4967,12 +4967,12 @@
       "last_check_time": 1793599663.3444748
     },
     "zedstoreonline": {
-      "last_message_id": 40364,
-      "last_check_time": 1794995283.9236093
+      "last_message_id": 40365,
+      "last_check_time": 1794995468.8626158
     },
     "aniscoupons": {
-      "last_message_id": 35221,
-      "last_check_time": 1794994920.355939
+      "last_message_id": 35223,
+      "last_check_time": 1794995478.532522
     },
     "bnddeals": {
       "last_message_id": 51310,
@@ -27999,6 +27999,16 @@
       "price": 162.3,
       "timestamp": 1794994376.6272743,
       "status": "ACTIVE"
+    },
+    "aniscoupons:35223": {
+      "channel_msg_id": 3129,
+      "product_id": "1005013450996845",
+      "title": "Xiaoxin Pad Pro 2025 (8/128GB)",
+      "channel": "aniscoupons",
+      "source_msg_id": 35223,
+      "price": 212.48,
+      "timestamp": 1794995476.4520917,
+      "status": "ACTIVE"
     }
   },
   "schedule_config": {
@@ -28007,17 +28017,17 @@
     "current_interval_minutes": 5,
     "is_paused": false,
     "night_mode_enabled": true,
-    "last_deal_post_time": 1794994379.459921,
+    "last_deal_post_time": 1794995479.542609,
     "night_start_hour_dz": 0,
     "night_end_hour_dz": 8,
     "night_pause_enabled": true,
-    "last_sweep_time": 1794995291.9559603,
+    "last_sweep_time": 1794995482.3164687,
     "last_sweep_times": {
-      "algeria": 1794995289.4508855,
-      "france": 1794995291.9559603
+      "algeria": 1794995479.5081184,
+      "france": 1794995482.3164687
     },
     "last_deal_post_times": {
-      "algeria": 1794994379.459921
+      "algeria": 1794995479.542609
     }
   },
   "last_coin_reminder_time": 1794767542.171841,
@@ -30791,7 +30801,6 @@
   "published_deals_history": {},
   "settings": {},
   "handled_post_keys": [
-    "zedstoreonline:39760",
     "lodydeals:46278",
     "zedstoreonline:39761",
     "lodydeals:46279",
@@ -31790,7 +31799,8 @@
     "zedstoreonline:40362",
     "zedstoreonline:40363",
     "aniscoupons:35221",
-    "zedstoreonline:40364"
+    "zedstoreonline:40364",
+    "zedstoreonline:40365"
   ],
   "last_france_cross_promo_time": 1794913823.9647303,
   "next_france_cross_promo_interval_seconds": 311842,
@@ -32441,6 +32451,11 @@
         "channel": "aniscoupons",
         "ts": 1794991075.6380115,
         "price": 147.8
+      },
+      {
+        "channel": "zedstoreonline",
+        "ts": 1794995468.2649655,
+        "price": 40.0
       }
     ],
     "1005008644346729": [
@@ -32535,6 +32550,13 @@
         "channel": "zedstoreonline",
         "ts": 1794994919.0252705,
         "price": 258.0
+      }
+    ],
+    "1005013450996845": [
+      {
+        "channel": "aniscoupons",
+        "ts": 1794995474.135114,
+        "price": 212.48
       }
     ]
   },
