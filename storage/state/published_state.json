@@ -992,7 +992,7 @@
     "1005010536089199": 1794999336.5179884,
     "1005012385221205": 1791102050.1835058,
     "1005012743092233": 1791104461.903693,
-    "1005007805497968": 1794845232.3930068,
+    "1005007805497968": 1795004220.913512,
     "1005007345108759": 1793542577.5838556,
     "1005007394197021": 1792103174.5720932,
     "1005013290515237": 1791110751.0808105,
@@ -3285,7 +3285,7 @@
     "GIGABYTE B550M AORUS ELITE Motherboard": 1793399464.4760919,
     "Redmi Pad 2  4/64": 1793399472.4016223,
     "MSI MAG X670E TOMAHAWK Motherboard": 1793399494.1323898,
-    "GameSir Nova Lite": 1793448582.9150612,
+    "GameSir Nova Lite": 1795004220.913512,
     "QCY Crossky C50i Open": 1793399525.3383162,
     "Magcubic HY350MAX": 1793399534.209787,
     "BLACKVIEW OSCAL TANK1": 1793399542.6698716,
@@ -3937,7 +3937,6 @@
     "Print Head QY6 0089 for Canon TS5060 TS5080 TS6020 TS6080 TS6120": 1794996764.6923764
   },
   "published_post_keys": [
-    "lodydeals:46243",
     "aniscoupons:34283",
     "zedstoreonline:39730",
     "aniscoupons:34287",
@@ -4936,11 +4935,12 @@
     "zedstoreonline:40383",
     "aniscoupons:35244",
     "aniscoupons:35245",
-    "zedstoreonline:40384"
+    "zedstoreonline:40384",
+    "zedstoreonline:40385"
   ],
   "last_disclaimer_time": 1794524540.9476151,
   "last_calendar_time": 1794572799.8939624,
-  "last_run_time": 1795004027.2503812,
+  "last_run_time": 1795004220.913512,
   "monitored_channels": {
     "ecksdeal": {
       "last_message_id": 6090,
@@ -4967,8 +4967,8 @@
       "last_check_time": 1793599663.3444748
     },
     "zedstoreonline": {
-      "last_message_id": 40384,
-      "last_check_time": 1795004029.3093374
+      "last_message_id": 40385,
+      "last_check_time": 1795004223.0160787
     },
     "aniscoupons": {
       "last_message_id": 35247,
@@ -5115,7 +5115,7 @@
     "1005012385221205": 13.27,
     "1005013223462188": 13.5,
     "1005012743092233": 24.37,
-    "1005007805497968": 18.76,
+    "1005007805497968": 18.7,
     "1005007345108759": 19.47,
     "1005007394197021": 14.88,
     "1005012571601398": 273.5,
@@ -28269,6 +28269,16 @@
       "price": 9.2,
       "timestamp": 1795004027.2503812,
       "status": "ACTIVE"
+    },
+    "zedstoreonline:40385": {
+      "channel_msg_id": 3157,
+      "product_id": "1005007805497968",
+      "title": "GameSir Nova Lite",
+      "channel": "zedstoreonline",
+      "source_msg_id": 40385,
+      "price": 18.7,
+      "timestamp": 1795004220.913512,
+      "status": "ACTIVE"
     }
   },
   "schedule_config": {
@@ -28277,17 +28287,17 @@
     "current_interval_minutes": 5,
     "is_paused": false,
     "night_mode_enabled": true,
-    "last_deal_post_time": 1795004031.5953615,
+    "last_deal_post_time": 1795004224.781233,
     "night_start_hour_dz": 0,
     "night_end_hour_dz": 8,
     "night_pause_enabled": true,
-    "last_sweep_time": 1795004034.1390955,
+    "last_sweep_time": 1795004227.403999,
     "last_sweep_times": {
-      "algeria": 1795004031.570383,
-      "france": 1795004034.1390955
+      "algeria": 1795004224.7354274,
+      "france": 1795004227.403999
     },
     "last_deal_post_times": {
-      "algeria": 1795004031.5953615
+      "algeria": 1795004224.781233
     }
   },
   "last_coin_reminder_time": 1794767542.171841,
@@ -28436,7 +28446,7 @@
     "1005005217734986": "pcgamingpart",
     "1005007961216287": "lodydeals",
     "1005012743092233": "pcgamingpart",
-    "1005007805497968": "lodydeals",
+    "1005007805497968": "zedstoreonline",
     "1005007345108759": "ecksdeal",
     "1005007394028808": "lodydeals",
     "1005007394197021": "lodydeals",
@@ -33047,6 +33057,13 @@
         "channel": "zedstoreonline",
         "ts": 1795004023.8042881,
         "price": 9.2
+      }
+    ],
+    "1005007805497968": [
+      {
+        "channel": "zedstoreonline",
+        "ts": 1795004218.5043943,
+        "price": 18.7
       }
     ]
   },
