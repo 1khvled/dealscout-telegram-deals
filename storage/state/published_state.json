@@ -989,7 +989,7 @@
     "1005009497821240": 1791117948.6585228,
     "1005011925142821": 1794563445.89714,
     "9998883864": 1791063864.5866926,
-    "1005010536089199": 1794845336.6479435,
+    "1005010536089199": 1794999336.5179884,
     "1005012385221205": 1791102050.1835058,
     "1005012743092233": 1791104461.903693,
     "1005007805497968": 1794845232.3930068,
@@ -3746,7 +3746,7 @@
     "Bicycle Pump 80 PSI": 1794263702.59817,
     "Portable Hair Clipper": 1794263885.7408762,
     "Inphic PG1 RGB Wired Gaming Mouse": 1794742126.4762356,
-    "Anker Q20i Hybrid Active": 1794845336.6479435,
+    "Anker Q20i Hybrid Active": 1794999336.5179884,
     "CUSU CV3500Q 2TB M.2": 1794305012.9961731,
     "MACHENIKE G5Pro Max SE With Charging Dock": 1794999150.7012253,
     "Xiaoxin Pad Pro GT (8/256)": 1794935355.7449994,
@@ -3937,7 +3937,6 @@
     "Print Head QY6 0089 for Canon TS5060 TS5080 TS6020 TS6080 TS6120": 1794996764.6923764
   },
   "published_post_keys": [
-    "zedstoreonline:39724",
     "aniscoupons:34279",
     "lodydeals:46241",
     "zedstoreonline:39725",
@@ -4936,11 +4935,12 @@
     "aniscoupons:35233",
     "zedstoreonline:40375",
     "zedstoreonline:40376",
-    "aniscoupons:35235"
+    "aniscoupons:35235",
+    "aniscoupons:35236"
   ],
   "last_disclaimer_time": 1794524540.9476151,
   "last_calendar_time": 1794572799.8939624,
-  "last_run_time": 1794999150.7012253,
+  "last_run_time": 1794999336.5179884,
   "monitored_channels": {
     "ecksdeal": {
       "last_message_id": 6090,
@@ -4967,12 +4967,12 @@
       "last_check_time": 1793599663.3444748
     },
     "zedstoreonline": {
-      "last_message_id": 40377,
-      "last_check_time": 1794999146.6146917
+      "last_message_id": 40378,
+      "last_check_time": 1794999331.8926444
     },
     "aniscoupons": {
-      "last_message_id": 35235,
-      "last_check_time": 1794999152.8123412
+      "last_message_id": 35236,
+      "last_check_time": 1794999338.6051748
     },
     "bnddeals": {
       "last_message_id": 51310,
@@ -28179,6 +28179,16 @@
       "price": 41.77,
       "timestamp": 1794999150.7012253,
       "status": "ACTIVE"
+    },
+    "aniscoupons:35236": {
+      "channel_msg_id": 3147,
+      "product_id": "1005010536089199",
+      "title": "Anker Q20i Hybrid Active",
+      "channel": "aniscoupons",
+      "source_msg_id": 35236,
+      "price": 33.64,
+      "timestamp": 1794999336.5179884,
+      "status": "ACTIVE"
     }
   },
   "schedule_config": {
@@ -28187,17 +28197,17 @@
     "current_interval_minutes": 5,
     "is_paused": false,
     "night_mode_enabled": true,
-    "last_deal_post_time": 1794999154.0405664,
+    "last_deal_post_time": 1794999340.2117593,
     "night_start_hour_dz": 0,
     "night_end_hour_dz": 8,
     "night_pause_enabled": true,
-    "last_sweep_time": 1794999157.2365975,
+    "last_sweep_time": 1794999343.5488608,
     "last_sweep_times": {
-      "algeria": 1794999153.9983191,
-      "france": 1794999157.2365975
+      "algeria": 1794999340.1738212,
+      "france": 1794999343.5488608
     },
     "last_deal_post_times": {
-      "algeria": 1794999154.0405664
+      "algeria": 1794999340.2117593
     }
   },
   "last_coin_reminder_time": 1794767542.171841,
@@ -30971,7 +30981,6 @@
   "published_deals_history": {},
   "settings": {},
   "handled_post_keys": [
-    "zedstoreonline:39766",
     "lodydeals:46282",
     "lodydeals:46283",
     "lodydeals:46284",
@@ -31970,7 +31979,8 @@
     "zedstoreonline:40372",
     "zedstoreonline:40373",
     "aniscoupons:35234",
-    "zedstoreonline:40377"
+    "zedstoreonline:40377",
+    "zedstoreonline:40378"
   ],
   "last_france_cross_promo_time": 1794913823.9647303,
   "next_france_cross_promo_interval_seconds": 311842,
@@ -32725,6 +32735,11 @@
         "channel": "aniscoupons",
         "ts": 1794995839.5501502,
         "price": 78.4
+      },
+      {
+        "channel": "zedstoreonline",
+        "ts": 1794999331.7304986,
+        "price": 78.0
       }
     ],
     "1005011779814585": [
@@ -32854,6 +32869,13 @@
         "channel": "aniscoupons",
         "ts": 1794999148.194849,
         "price": 41.77
+      }
+    ],
+    "1005010536089199": [
+      {
+        "channel": "aniscoupons",
+        "ts": 1794999333.711318,
+        "price": 33.64
       }
     ]
   },
