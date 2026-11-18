@@ -1559,7 +1559,7 @@
     "1005007097302001": 1794146830.4272797,
     "1005013361453762": 1794996034.6024883,
     "1005013240296031": 1794216974.0881407,
-    "1005012670472055": 1794742016.5166261,
+    "1005012670472055": 1795023369.0864155,
     "1005013476568095": 1794169846.8168333,
     "1005012442521357": 1794171698.893023,
     "1005012494171063": 1794741997.2115686,
@@ -3467,7 +3467,7 @@
     "Realme P3 5G 8/256": 1793557654.0136676,
     "Lenovo Legion Y900 8/128GB": 1793738297.0536208,
     "HOCO ANC EQ34 PLUS": 1793566252.8097658,
-    "Magcubic 900ANSI HY350 MAX": 1794742016.5166261,
+    "Magcubic 900ANSI HY350 MAX": 1795023369.0864155,
     "OPPO A7 Pro Max 8/128GB": 1794678546.0543764,
     "Realme P4 Power 5G 12/256GB": 1793566295.6489058,
     "iQOO Neo 11 Ultra 12/256": 1793566310.8398705,
@@ -3947,7 +3947,6 @@
     "DOOV R77 4G Touch 3/32GB": 1795023205.68955
   },
   "published_post_keys": [
-    "zedstoreonline:39743",
     "zedstoreonline:39744",
     "zedstoreonline:39745",
     "zedstoreonline:39747",
@@ -4946,19 +4945,20 @@
     "lodydeals:46649",
     "lodydeals:46644",
     "lodydeals:46648",
-    "lodydeals:46652"
+    "lodydeals:46652",
+    "lodydeals:46653"
   ],
   "last_disclaimer_time": 1794524540.9476151,
   "last_calendar_time": 1794572799.8939624,
-  "last_run_time": 1795023205.68955,
+  "last_run_time": 1795023369.0864155,
   "monitored_channels": {
     "ecksdeal": {
       "last_message_id": 6093,
       "last_check_time": 1795022277.203909
     },
     "lodydeals": {
-      "last_message_id": 46652,
-      "last_check_time": 1795023207.7994962
+      "last_message_id": 46653,
+      "last_check_time": 1795023371.1435556
     },
     "test_channel": {
       "last_message_id": 1793967703,
@@ -28509,6 +28509,16 @@
       "price": 63.4,
       "timestamp": 1795023205.68955,
       "status": "ACTIVE"
+    },
+    "lodydeals:46653": {
+      "channel_msg_id": 3182,
+      "product_id": "1005012670472055",
+      "title": "Magcubic 900ANSI HY350 MAX",
+      "channel": "lodydeals",
+      "source_msg_id": 46653,
+      "price": 112.1,
+      "timestamp": 1795023369.0864155,
+      "status": "ACTIVE"
     }
   },
   "schedule_config": {
@@ -28517,17 +28527,17 @@
     "current_interval_minutes": 5,
     "is_paused": false,
     "night_mode_enabled": true,
-    "last_deal_post_time": 1795023210.9616272,
+    "last_deal_post_time": 1795023374.2778673,
     "night_start_hour_dz": 0,
     "night_end_hour_dz": 8,
     "night_pause_enabled": true,
-    "last_sweep_time": 1795023214.1148617,
+    "last_sweep_time": 1795023377.3097084,
     "last_sweep_times": {
-      "algeria": 1795023210.924477,
-      "france": 1795023214.1148617
+      "algeria": 1795023374.2493005,
+      "france": 1795023377.3097084
     },
     "last_deal_post_times": {
-      "algeria": 1795023210.9616272
+      "algeria": 1795023374.2778673
     }
   },
   "last_coin_reminder_time": 1795015271.2437074,
@@ -33509,6 +33519,13 @@
         "channel": "lodydeals",
         "ts": 1795023202.8001902,
         "price": 63.4
+      }
+    ],
+    "1005012670472055": [
+      {
+        "channel": "lodydeals",
+        "ts": 1795023366.4894435,
+        "price": 112.1
       }
     ]
   },
