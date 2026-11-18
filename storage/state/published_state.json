@@ -1468,7 +1468,7 @@
     "1005011891052345": 1793706864.9165008,
     "1005009648930854": 1793707047.5983977,
     "1005010184029817": 1794565826.9368062,
-    "1005006302799297": 1793707108.6257114,
+    "1005006302799297": 1795022829.6892593,
     "1005013372330447": 1793707119.4932482,
     "1005012305564176": 1793707135.2600253,
     "1005012483329501": 1793898360.7512894,
@@ -3582,7 +3582,7 @@
     "OPPO A6 PRO 12/256GB": 1793793726.6494405,
     "Attack Shark R1 PAW3311": 1794848149.948447,
     "GIGABYTE B550M K": 1793707102.1529818,
-    "Black Shark Gaming Tab 12/255GB": 1793707108.6257114,
+    "Black Shark Gaming Tab 12/255GB": 1795022829.6892593,
     "POCO F9 Pro 5G 12/256GB": 1793707119.4932482,
     "POCO C81 PRO 4/128GB": 1793707135.2600253,
     "Essager Mini 30W": 1793707149.3437843,
@@ -3945,7 +3945,6 @@
     "تخزين CUSU C300 Sata SSD": 1795022269.6440833
   },
   "published_post_keys": [
-    "aniscoupons:34296",
     "zedstoreonline:39739",
     "aniscoupons:34298",
     "zedstoreonline:39742",
@@ -4944,19 +4943,20 @@
     "ecksdeal:6093",
     "aniscoupons:35260",
     "lodydeals:46645",
-    "lodydeals:46646"
+    "lodydeals:46646",
+    "lodydeals:46649"
   ],
   "last_disclaimer_time": 1794524540.9476151,
   "last_calendar_time": 1794572799.8939624,
-  "last_run_time": 1795022632.7994065,
+  "last_run_time": 1795022829.6892593,
   "monitored_channels": {
     "ecksdeal": {
       "last_message_id": 6093,
       "last_check_time": 1795022277.203909
     },
     "lodydeals": {
-      "last_message_id": 46647,
-      "last_check_time": 1795022634.905952
+      "last_message_id": 46650,
+      "last_check_time": 1795022831.8176756
     },
     "test_channel": {
       "last_message_id": 1793967703,
@@ -5505,7 +5505,7 @@
     "1005011891052345": 50.64,
     "1005009648930854": 7.56,
     "1005010184029817": 10.3,
-    "1005006302799297": 282.23,
+    "1005006302799297": 282.11,
     "1005013372330447": 583.0,
     "1005012305564176": 60.76,
     "1005012483329501": 245.75,
@@ -28467,6 +28467,16 @@
       "price": 20.89,
       "timestamp": 1795022632.7994065,
       "status": "ACTIVE"
+    },
+    "lodydeals:46649": {
+      "channel_msg_id": 3178,
+      "product_id": "1005006302799297",
+      "title": "Black Shark Gaming Tab 12/255GB",
+      "channel": "lodydeals",
+      "source_msg_id": 46649,
+      "price": 282.11,
+      "timestamp": 1795022829.6892593,
+      "status": "ACTIVE"
     }
   },
   "schedule_config": {
@@ -28475,17 +28485,17 @@
     "current_interval_minutes": 5,
     "is_paused": false,
     "night_mode_enabled": true,
-    "last_deal_post_time": 1795022637.2761748,
+    "last_deal_post_time": 1795022834.7275248,
     "night_start_hour_dz": 0,
     "night_end_hour_dz": 8,
     "night_pause_enabled": true,
-    "last_sweep_time": 1795022639.988083,
+    "last_sweep_time": 1795022837.9882097,
     "last_sweep_times": {
-      "algeria": 1795022637.2527728,
-      "france": 1795022639.988083
+      "algeria": 1795022834.6976671,
+      "france": 1795022837.9882097
     },
     "last_deal_post_times": {
-      "algeria": 1795022637.2761748
+      "algeria": 1795022834.7275248
     }
   },
   "last_coin_reminder_time": 1795015271.2437074,
@@ -31263,7 +31273,6 @@
   "published_deals_history": {},
   "settings": {},
   "handled_post_keys": [
-    "lodydeals:46295",
     "lodydeals:46296",
     "zedstoreonline:39788",
     "aniscoupons:34355",
@@ -32262,7 +32271,8 @@
     "aniscoupons:35258",
     "zedstoreonline:40396",
     "zedstoreonline:40397",
-    "lodydeals:46647"
+    "lodydeals:46647",
+    "lodydeals:46650"
   ],
   "last_france_cross_promo_time": 1794913823.9647303,
   "next_france_cross_promo_interval_seconds": 311842,
@@ -33442,6 +33452,13 @@
         "channel": "lodydeals",
         "ts": 1795022630.5557818,
         "price": 20.89
+      }
+    ],
+    "1005006302799297": [
+      {
+        "channel": "lodydeals",
+        "ts": 1795022826.6788542,
+        "price": 282.11
       }
     ]
   },
