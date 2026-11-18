@@ -1221,7 +1221,7 @@
     "1005013351519067": 1793448628.3734028,
     "1005012484784752": 1794936833.9811888,
     "1005013222140851": 1794732855.3959744,
-    "1005013438245033": 1794845957.706943,
+    "1005013438245033": 1794996403.594225,
     "1005008986635164": 1793314892.9200466,
     "1005008327980403": 1794430852.2821708,
     "1005012838686691": 1794822577.4407666,
@@ -3198,7 +3198,7 @@
     "ViVO X300E 12/256": 1793282624.5538614,
     "Oneplus 13T 12/256GB": 1793299421.73227,
     "Anker USB C GaN Charger 30W": 1793299440.1984155,
-    "Realme GT8": 1794845957.706943,
+    "Realme GT8": 1794996403.594225,
     "Realme C100  6/128GB": 1793448628.3734028,
     "معالج Ryzen 5 5600XT": 1793299476.5930903,
     "معالج Ryzen 7 5700X": 1794676874.7516313,
@@ -3937,7 +3937,6 @@
     "Print Head QY6 0089 for Canon TS5060 TS5080 TS6020 TS6080 TS6120": 1794944609.807315
   },
   "published_post_keys": [
-    "aniscoupons:34269",
     "zedstoreonline:39714",
     "aniscoupons:34270",
     "aniscoupons:34271",
@@ -4936,11 +4935,12 @@
     "aniscoupons:35222",
     "aniscoupons:35224",
     "zedstoreonline:40366",
-    "zedstoreonline:40367"
+    "zedstoreonline:40367",
+    "aniscoupons:35225"
   ],
   "last_disclaimer_time": 1794524540.9476151,
   "last_calendar_time": 1794572799.8939624,
-  "last_run_time": 1794996034.6024883,
+  "last_run_time": 1794996403.594225,
   "monitored_channels": {
     "ecksdeal": {
       "last_message_id": 6090,
@@ -4967,12 +4967,12 @@
       "last_check_time": 1793599663.3444748
     },
     "zedstoreonline": {
-      "last_message_id": 40367,
-      "last_check_time": 1794996036.6711972
+      "last_message_id": 40368,
+      "last_check_time": 1794996396.897872
     },
     "aniscoupons": {
-      "last_message_id": 35224,
-      "last_check_time": 1794995844.2894137
+      "last_message_id": 35226,
+      "last_check_time": 1794996410.3393867
     },
     "bnddeals": {
       "last_message_id": 51310,
@@ -28049,6 +28049,16 @@
       "price": 276.3,
       "timestamp": 1794996034.6024883,
       "status": "ACTIVE"
+    },
+    "aniscoupons:35225": {
+      "channel_msg_id": 3134,
+      "product_id": "1005013438245033",
+      "title": "Realme GT8",
+      "channel": "aniscoupons",
+      "source_msg_id": 35225,
+      "price": 409.36,
+      "timestamp": 1794996403.594225,
+      "status": "ACTIVE"
     }
   },
   "schedule_config": {
@@ -28057,17 +28067,17 @@
     "current_interval_minutes": 5,
     "is_paused": false,
     "night_mode_enabled": true,
-    "last_deal_post_time": 1794996038.2356076,
+    "last_deal_post_time": 1794996411.4132042,
     "night_start_hour_dz": 0,
     "night_end_hour_dz": 8,
     "night_pause_enabled": true,
-    "last_sweep_time": 1794996211.9764314,
+    "last_sweep_time": 1794996414.0008664,
     "last_sweep_times": {
-      "algeria": 1794996209.1760075,
-      "france": 1794996211.9764314
+      "algeria": 1794996411.3739893,
+      "france": 1794996414.0008664
     },
     "last_deal_post_times": {
-      "algeria": 1794996038.2356076
+      "algeria": 1794996411.4132042
     }
   },
   "last_coin_reminder_time": 1794767542.171841,
@@ -30841,8 +30851,6 @@
   "published_deals_history": {},
   "settings": {},
   "handled_post_keys": [
-    "lodydeals:46278",
-    "zedstoreonline:39761",
     "lodydeals:46279",
     "zedstoreonline:39763",
     "zedstoreonline:39764",
@@ -31840,7 +31848,9 @@
     "zedstoreonline:40363",
     "aniscoupons:35221",
     "zedstoreonline:40364",
-    "zedstoreonline:40365"
+    "zedstoreonline:40365",
+    "zedstoreonline:40368",
+    "aniscoupons:35226"
   ],
   "last_france_cross_promo_time": 1794913823.9647303,
   "next_france_cross_promo_interval_seconds": 311842,
@@ -32625,6 +32635,27 @@
         "channel": "zedstoreonline",
         "ts": 1794996032.2863917,
         "price": 276.3
+      }
+    ],
+    "1005010575865619": [
+      {
+        "channel": "zedstoreonline",
+        "ts": 1794996396.2264707,
+        "price": 366.0
+      }
+    ],
+    "1005013438245033": [
+      {
+        "channel": "aniscoupons",
+        "ts": 1794996401.4929855,
+        "price": 409.36
+      }
+    ],
+    "1005012406142215": [
+      {
+        "channel": "aniscoupons",
+        "ts": 1794996409.7123878,
+        "price": 366.0
       }
     ]
   },
