@@ -1538,7 +1538,7 @@
     "1005008636930795": 1794747089.3988028,
     "1005006260870758": 1794250569.5221198,
     "1005009759580502": 1794331533.1223195,
-    "1005009120888793": 1794935303.2198036,
+    "1005009120888793": 1794998044.6375778,
     "1005011874310777": 1794087501.0429602,
     "1005008721853055": 1794126663.880001,
     "1005012593794312": 1794301654.5672474,
@@ -3914,7 +3914,7 @@
     "INFLATABLE LAZY AIR SOFA": 1794759633.8642445,
     "Crucial RAM 8GB×2 DDR4 2400MHz": 1794991629.6061988,
     "Netac NVMe 3500MB/S 500GB": 1794771008.638466,
-    "SMAILWOLF L80": 1794935303.2198036,
+    "SMAILWOLF L80": 1794998044.6375778,
     "GIGABYTE B550M K Motherboard": 1794935318.619458,
     "UGREEN GaN 100W": 1794935323.456239,
     "realme P4 Power 8/256GB": 1794935216.1531737,
@@ -3937,7 +3937,6 @@
     "Print Head QY6 0089 for Canon TS5060 TS5080 TS6020 TS6080 TS6120": 1794996764.6923764
   },
   "published_post_keys": [
-    "aniscoupons:34273",
     "aniscoupons:34274",
     "aniscoupons:34276",
     "zedstoreonline:39720",
@@ -4936,11 +4935,12 @@
     "aniscoupons:35228",
     "zedstoreonline:40370",
     "zedstoreonline:40371",
-    "aniscoupons:35230"
+    "aniscoupons:35230",
+    "aniscoupons:35231"
   ],
   "last_disclaimer_time": 1794524540.9476151,
   "last_calendar_time": 1794572799.8939624,
-  "last_run_time": 1794997865.6657422,
+  "last_run_time": 1794998044.6375778,
   "monitored_channels": {
     "ecksdeal": {
       "last_message_id": 6090,
@@ -4971,8 +4971,8 @@
       "last_check_time": 1794997859.8559008
     },
     "aniscoupons": {
-      "last_message_id": 35230,
-      "last_check_time": 1794997867.7177827
+      "last_message_id": 35231,
+      "last_check_time": 1794998046.7312846
     },
     "bnddeals": {
       "last_message_id": 51310,
@@ -28109,6 +28109,16 @@
       "price": 405.99,
       "timestamp": 1794997865.6657422,
       "status": "ACTIVE"
+    },
+    "aniscoupons:35231": {
+      "channel_msg_id": 3140,
+      "product_id": "1005009120888793",
+      "title": "SMAILWOLF L80",
+      "channel": "aniscoupons",
+      "source_msg_id": 35231,
+      "price": 22.3,
+      "timestamp": 1794998044.6375778,
+      "status": "ACTIVE"
     }
   },
   "schedule_config": {
@@ -28117,17 +28127,17 @@
     "current_interval_minutes": 5,
     "is_paused": false,
     "night_mode_enabled": true,
-    "last_deal_post_time": 1794997868.6132681,
+    "last_deal_post_time": 1794998047.771617,
     "night_start_hour_dz": 0,
     "night_end_hour_dz": 8,
     "night_pause_enabled": true,
-    "last_sweep_time": 1794997871.115531,
+    "last_sweep_time": 1794998050.4717658,
     "last_sweep_times": {
-      "algeria": 1794997868.588347,
-      "france": 1794997871.115531
+      "algeria": 1794998047.7332683,
+      "france": 1794998050.4717658
     },
     "last_deal_post_times": {
-      "algeria": 1794997868.6132681
+      "algeria": 1794998047.771617
     }
   },
   "last_coin_reminder_time": 1794767542.171841,
@@ -32749,6 +32759,13 @@
         "channel": "aniscoupons",
         "ts": 1794997863.5554953,
         "price": 405.99
+      }
+    ],
+    "1005009120888793": [
+      {
+        "channel": "aniscoupons",
+        "ts": 1794998042.2294283,
+        "price": 22.3
       }
     ]
   },
