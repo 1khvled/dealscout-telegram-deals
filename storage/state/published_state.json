@@ -1535,7 +1535,7 @@
     "1005010209911111": 1794068056.674266,
     "1005008295555234": 1794073127.8664527,
     "1005008645323478": 1794997317.8001297,
-    "1005008636930795": 1794747089.3988028,
+    "1005008636930795": 1795009379.82882,
     "1005006260870758": 1794250569.5221198,
     "1005009759580502": 1794331533.1223195,
     "1005009120888793": 1794998044.6375778,
@@ -3681,7 +3681,7 @@
     "Ulanzi ST-06S Vertical Shooting": 1794130692.4786665,
     "ميكروفون MAONO DGM20W لاسلكي للألعاب": 1794074230.5173922,
     "CUSU 512GB External SSD Drive": 1794997317.8001297,
-    "Netac M.2 NVME 250GB": 1794076438.7694528,
+    "Netac M.2 NVME 250GB": 1795009379.82882,
     "EPOMAKER X AULA F87 Pro": 1794250569.5221198,
     "SIX PCIe 4.0 7350MB/s  1TB": 1794079741.7808652,
     "SMAILWOLF L80 Bluetooth wireless wired three-mode gaming headset laptop": 1794490594.9899428,
@@ -3939,7 +3939,6 @@
     "HONOR X9D 12/256GB": 1795004960.4540246
   },
   "published_post_keys": [
-    "aniscoupons:34290",
     "ecksdeal:6044",
     "lodydeals:46246",
     "lodydeals:46250",
@@ -4938,11 +4937,12 @@
     "aniscoupons:35250",
     "aniscoupons:35251",
     "aniscoupons:35252",
-    "aniscoupons:35254"
+    "aniscoupons:35254",
+    "aniscoupons:35255"
   ],
   "last_disclaimer_time": 1794524540.9476151,
   "last_calendar_time": 1794572799.8939624,
-  "last_run_time": 1795008458.7584739,
+  "last_run_time": 1795009379.82882,
   "monitored_channels": {
     "ecksdeal": {
       "last_message_id": 6090,
@@ -4973,8 +4973,8 @@
       "last_check_time": 1795009183.2260175
     },
     "aniscoupons": {
-      "last_message_id": 35254,
-      "last_check_time": 1795008460.856322
+      "last_message_id": 35255,
+      "last_check_time": 1795009381.901575
     },
     "bnddeals": {
       "last_message_id": 51310,
@@ -28351,6 +28351,16 @@
       "price": 98.6,
       "timestamp": 1795008458.7584739,
       "status": "ACTIVE"
+    },
+    "aniscoupons:35255": {
+      "channel_msg_id": 3165,
+      "product_id": "1005008636930795",
+      "title": "Netac M.2 NVME 250GB",
+      "channel": "aniscoupons",
+      "source_msg_id": 35255,
+      "price": 31.5,
+      "timestamp": 1795009379.82882,
+      "status": "ACTIVE"
     }
   },
   "schedule_config": {
@@ -28359,17 +28369,17 @@
     "current_interval_minutes": 5,
     "is_paused": false,
     "night_mode_enabled": true,
-    "last_deal_post_time": 1795008462.144879,
+    "last_deal_post_time": 1795009383.0100467,
     "night_start_hour_dz": 0,
     "night_end_hour_dz": 8,
     "night_pause_enabled": true,
-    "last_sweep_time": 1795009187.7593265,
+    "last_sweep_time": 1795009386.1817634,
     "last_sweep_times": {
-      "algeria": 1795009185.117405,
-      "france": 1795009187.7593265
+      "algeria": 1795009382.9817023,
+      "france": 1795009386.1817634
     },
     "last_deal_post_times": {
-      "algeria": 1795008462.144879
+      "algeria": 1795009383.0100467
     }
   },
   "last_coin_reminder_time": 1794767542.171841,
@@ -29061,7 +29071,7 @@
     "1005010209911111": "bnddeals",
     "1005008295555234": "lodydeals",
     "1005008645323478": "zedstoreonline",
-    "1005008636930795": "zedstoreonline",
+    "1005008636930795": "aniscoupons",
     "1005006260870758": "aniscoupons",
     "1005009759580502": "bnddeals",
     "1005009120888793": "aniscoupons",
@@ -33223,6 +33233,13 @@
         "channel": "aniscoupons",
         "ts": 1795008456.189562,
         "price": 98.6
+      }
+    ],
+    "1005008636930795": [
+      {
+        "channel": "aniscoupons",
+        "ts": 1795009377.2728815,
+        "price": 31.5
       }
     ]
   },
