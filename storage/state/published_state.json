@@ -1703,7 +1703,7 @@
     "1005011551172448": 1794936842.146349,
     "1005013401121405": 1794944061.2401145,
     "1005003624789670": 1794944609.807315,
-    "1005008644346729": 1794950481.4326882
+    "1005008644346729": 1794991252.6823444
   },
   "published_titles": [
     "Wireless WiFi Repeater 300Mbps WiFi Extender Amplifier Booster Router",
@@ -3707,7 +3707,7 @@
     "Lenovo LP40 Pro": 1794146830.4272797,
     "Ulanzi ST-06S Smartphone Mount Holder": 1794667301.7599618,
     "WAMRAM SATA SSD 480GB": 1794159522.2930505,
-    "Netac M.2 1TB 7400Mbs Gen 4": 1794950481.4326882,
+    "Netac M.2 1TB 7400Mbs Gen 4": 1794991252.6823444,
     "RYZEN 5 5600XT": 1794253893.3396604,
     "OnePlus Turbo 6V": 1794937385.1178656,
     "DJI Mic Mini2  2TX 1RX": 1794216974.0881407,
@@ -3937,7 +3937,6 @@
     "Print Head QY6 0089 for Canon TS5060 TS5080 TS6020 TS6080 TS6120": 1794944609.807315
   },
   "published_post_keys": [
-    "lodydeals:46232",
     "lodydeals:46233",
     "lodydeals:46234",
     "aniscoupons:34255",
@@ -4936,11 +4935,12 @@
     "aniscoupons:35203",
     "aniscoupons:35204",
     "aniscoupons:35206",
-    "aniscoupons:35207"
+    "aniscoupons:35207",
+    "aniscoupons:35208"
   ],
   "last_disclaimer_time": 1794524540.9476151,
   "last_calendar_time": 1794572799.8939624,
-  "last_run_time": 1794991079.711429,
+  "last_run_time": 1794991252.6823444,
   "monitored_channels": {
     "ecksdeal": {
       "last_message_id": 6090,
@@ -4971,8 +4971,8 @@
       "last_check_time": 1794955061.4791563
     },
     "aniscoupons": {
-      "last_message_id": 35207,
-      "last_check_time": 1794991081.7966793
+      "last_message_id": 35208,
+      "last_check_time": 1794991254.7381794
     },
     "bnddeals": {
       "last_message_id": 51310,
@@ -27889,6 +27889,16 @@
       "price": 147.8,
       "timestamp": 1794991079.711429,
       "status": "ACTIVE"
+    },
+    "aniscoupons:35208": {
+      "channel_msg_id": 3118,
+      "product_id": "1005008644346729",
+      "title": "Netac M.2 1TB 7400Mbs Gen 4",
+      "channel": "aniscoupons",
+      "source_msg_id": 35208,
+      "price": 114.99,
+      "timestamp": 1794991252.6823444,
+      "status": "ACTIVE"
     }
   },
   "schedule_config": {
@@ -27897,17 +27907,17 @@
     "current_interval_minutes": 5,
     "is_paused": false,
     "night_mode_enabled": true,
-    "last_deal_post_time": 1794991082.9590259,
+    "last_deal_post_time": 1794991255.4875407,
     "night_start_hour_dz": 0,
     "night_end_hour_dz": 8,
     "night_pause_enabled": true,
-    "last_sweep_time": 1794991086.2368662,
+    "last_sweep_time": 1794991257.9740143,
     "last_sweep_times": {
-      "algeria": 1794991082.9216788,
-      "france": 1794991086.2368662
+      "algeria": 1794991255.4644897,
+      "france": 1794991257.9740143
     },
     "last_deal_post_times": {
-      "algeria": 1794991082.9590259
+      "algeria": 1794991255.4875407
     }
   },
   "last_coin_reminder_time": 1794767542.171841,
@@ -32355,6 +32365,13 @@
         "channel": "aniscoupons",
         "ts": 1794991075.6380115,
         "price": 147.8
+      }
+    ],
+    "1005008644346729": [
+      {
+        "channel": "aniscoupons",
+        "ts": 1794991250.3061204,
+        "price": 114.99
       }
     ]
   },
