@@ -1062,7 +1062,7 @@
     "1005011557896041": 1794845264.512838,
     "1005011754993234": 1794935476.2911777,
     "1005011735727412": 1791943783.9162278,
-    "1005007916078341": 1794935308.4624457,
+    "1005007916078341": 1794990707.3414822,
     "1005006506862816": 1791947519.5815504,
     "1005008072923842": 1791968144.109348,
     "1005013336240375": 1791968149.7952893,
@@ -2997,7 +2997,7 @@
     "ATTACK SHARK L80PRO Ultralight": 1791107750.295487,
     "AMD Ryzen 7 5700X": 1794742050.547227,
     "هاتف ينسيك في شارجور🤣🤣": 1791109857.5190113,
-    "CMF Smart Watch 3 pro AMOLED": 1794935308.4624457,
+    "CMF Smart Watch 3 pro AMOLED": 1794990707.3414822,
     "ATTACK SHARK V6 Tri-Mode": 1791110751.0808105,
     "POCO M7 (6/128)": 1791114651.412541,
     "OPPO A6 Pro 8/256GB": 1794340346.0747576,
@@ -3937,7 +3937,6 @@
     "Print Head QY6 0089 for Canon TS5060 TS5080 TS6020 TS6080 TS6120": 1794944609.807315
   },
   "published_post_keys": [
-    "aniscoupons:34247",
     "aniscoupons:34248",
     "lodydeals:46232",
     "lodydeals:46233",
@@ -4936,11 +4935,12 @@
     "aniscoupons:35200",
     "aniscoupons:35202",
     "aniscoupons:35203",
-    "aniscoupons:35204"
+    "aniscoupons:35204",
+    "aniscoupons:35206"
   ],
   "last_disclaimer_time": 1794524540.9476151,
   "last_calendar_time": 1794572799.8939624,
-  "last_run_time": 1794990350.4568644,
+  "last_run_time": 1794990707.3414822,
   "monitored_channels": {
     "ecksdeal": {
       "last_message_id": 6090,
@@ -4971,8 +4971,8 @@
       "last_check_time": 1794955061.4791563
     },
     "aniscoupons": {
-      "last_message_id": 35205,
-      "last_check_time": 1794990533.1605434
+      "last_message_id": 35206,
+      "last_check_time": 1794990709.3934426
     },
     "bnddeals": {
       "last_message_id": 51310,
@@ -27869,6 +27869,16 @@
       "price": 136.7,
       "timestamp": 1794990350.4568644,
       "status": "ACTIVE"
+    },
+    "aniscoupons:35206": {
+      "channel_msg_id": 3116,
+      "product_id": "1005007916078341",
+      "title": "CMF Smart Watch 3 pro AMOLED",
+      "channel": "aniscoupons",
+      "source_msg_id": 35206,
+      "price": 47.4,
+      "timestamp": 1794990707.3414822,
+      "status": "ACTIVE"
     }
   },
   "schedule_config": {
@@ -27877,17 +27887,17 @@
     "current_interval_minutes": 5,
     "is_paused": false,
     "night_mode_enabled": true,
-    "last_deal_post_time": 1794990353.6310554,
+    "last_deal_post_time": 1794990710.1506233,
     "night_start_hour_dz": 0,
     "night_end_hour_dz": 8,
     "night_pause_enabled": true,
-    "last_sweep_time": 1794990537.1512237,
+    "last_sweep_time": 1794990712.6953247,
     "last_sweep_times": {
-      "algeria": 1794990534.0230162,
-      "france": 1794990537.1512237
+      "algeria": 1794990710.1299527,
+      "france": 1794990712.6953247
     },
     "last_deal_post_times": {
-      "algeria": 1794990353.6310554
+      "algeria": 1794990710.1506233
     }
   },
   "last_coin_reminder_time": 1794767542.171841,
@@ -32321,6 +32331,13 @@
         "channel": "aniscoupons",
         "ts": 1794990165.084801,
         "price": 304.39
+      }
+    ],
+    "1005007916078341": [
+      {
+        "channel": "aniscoupons",
+        "ts": 1794990705.113443,
+        "price": 47.4
       }
     ]
   },
