@@ -1362,7 +1362,7 @@
     "1005009980316035": 1793542552.2730343,
     "1005005905462505": 1794000865.9547298,
     "1005008248133489": 1794475825.54016,
-    "1005008684239370": 1795004027.2503812,
+    "1005008684239370": 1795111968.5056303,
     "1005011583202464": 1794913864.041144,
     "1005009921069024": 1793542597.6187797,
     "1005009916209766": 1794167239.3538153,
@@ -2885,7 +2885,8 @@
     "Oppo Find X10 Pro max",
     "Honor Magic 8 Pro Air",
     "Honor Magic 9 SE",
-    "8L FOLDING WASHING MACHINE"
+    "8L FOLDING WASHING MACHINE",
+    "Maono WAVE T1 MINI"
   ],
   "published_title_timestamps": {
     "Xiaomi Redmi Note 17 5G Global Version": 1790857823.0117362,
@@ -4034,10 +4035,10 @@
     "Oppo Find X10 Pro max": 1795101781.0547688,
     "Honor Magic 8 Pro Air": 1795102336.0045958,
     "Honor Magic 9 SE": 1795103262.750217,
-    "8L FOLDING WASHING MACHINE": 1795104359.6206825
+    "8L FOLDING WASHING MACHINE": 1795104359.6206825,
+    "Maono WAVE T1 MINI": 1795111968.5056303
   },
   "published_post_keys": [
-    "aniscoupons:34353",
     "aniscoupons:34354",
     "zedstoreonline:39792",
     "zedstoreonline:39793",
@@ -5036,11 +5037,12 @@
     "aniscoupons:35325",
     "zedstoreonline:40452",
     "zedstoreonline:40456",
-    "lodydeals:46711"
+    "lodydeals:46711",
+    "bnddeals:51352"
   ],
   "last_disclaimer_time": 1794524540.9476151,
   "last_calendar_time": 1794572799.8939624,
-  "last_run_time": 1795111028.5315912,
+  "last_run_time": 1795111968.5056303,
   "monitored_channels": {
     "ecksdeal": {
       "last_message_id": 6110,
@@ -5075,8 +5077,8 @@
       "last_check_time": 1795109896.5976777
     },
     "bnddeals": {
-      "last_message_id": 51351,
-      "last_check_time": 1795111773.723577
+      "last_message_id": 51352,
+      "last_check_time": 1795111970.602459
     }
   },
   "published_product_prices": {
@@ -29408,6 +29410,16 @@
       "price": 20.96,
       "timestamp": 1795111028.5315912,
       "status": "ACTIVE"
+    },
+    "bnddeals:51352": {
+      "channel_msg_id": 3264,
+      "product_id": "1005008684239370",
+      "title": "Maono WAVE T1 MINI",
+      "channel": "bnddeals",
+      "source_msg_id": 51352,
+      "price": 9.2,
+      "timestamp": 1795111968.5056303,
+      "status": "ACTIVE"
     }
   },
   "schedule_config": {
@@ -29416,17 +29428,17 @@
     "current_interval_minutes": 5,
     "is_paused": false,
     "night_mode_enabled": true,
-    "last_deal_post_time": 1795111035.120233,
+    "last_deal_post_time": 1795111970.6854415,
     "night_start_hour_dz": 0,
     "night_end_hour_dz": 8,
     "night_pause_enabled": true,
-    "last_sweep_time": 1795111777.20369,
+    "last_sweep_time": 1795111974.1250744,
     "last_sweep_times": {
-      "algeria": 1795111773.7714117,
-      "france": 1795111777.20369
+      "algeria": 1795111970.6439526,
+      "france": 1795111974.1250744
     },
     "last_deal_post_times": {
-      "algeria": 1795111035.120233
+      "algeria": 1795111970.6854415
     }
   },
   "last_coin_reminder_time": 1795015271.2437074,
@@ -29939,7 +29951,7 @@
     "1005009980316035": "ecksdeal",
     "1005005905462505": "zedstoreonline",
     "1005008248133489": "lodydeals",
-    "1005008684239370": "zedstoreonline",
+    "1005008684239370": "bnddeals",
     "1005011583202464": "zedstoreonline",
     "1005009921069024": "ecksdeal",
     "1005009916209766": "aniscoupons",
@@ -31453,7 +31465,8 @@
     "Oppo Find X10 Pro max": "aniscoupons",
     "Honor Magic 8 Pro Air": "aniscoupons",
     "Honor Magic 9 SE": "aniscoupons",
-    "8L FOLDING WASHING MACHINE": "aniscoupons"
+    "8L FOLDING WASHING MACHINE": "aniscoupons",
+    "Maono WAVE T1 MINI": "bnddeals"
   },
   "religious_reminders_history": {
     "mock_rem": "2026-10-02",
@@ -34545,6 +34558,13 @@
         "channel": "lodydeals",
         "ts": 1795110848.3843017,
         "price": 889.32
+      }
+    ],
+    "1005008684239370": [
+      {
+        "channel": "bnddeals",
+        "ts": 1795111965.373178,
+        "price": 9.2
       }
     ]
   },
