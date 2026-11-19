@@ -1682,7 +1682,7 @@
     "1005010043969798": 1794679093.780596,
     "1005010376374580": 1794935234.6883996,
     "1005010239860751": 1794689616.7178488,
-    "1005009278862695": 1794687391.0146728,
+    "1005009278862695": 1795079013.6206362,
     "1005013005786079": 1794688878.915808,
     "1005008627811107": 1794694594.377669,
     "1005012892577195": 1794732862.0085351,
@@ -2833,7 +2833,8 @@
     "realme P4 Lite 4/128GB",
     "12V Cordless Electric Angle Grinder",
     "Nothing Buds 2a",
-    "BASEUS GH02 gaming wireless headphone"
+    "BASEUS GH02 gaming wireless headphone",
+    "Business Travel Best Partner Print Anywhere Inkless 203DPI Portable"
   ],
   "published_title_timestamps": {
     "Xiaomi Redmi Note 17 5G Global Version": 1790857823.0117362,
@@ -3962,10 +3963,10 @@
     "realme P4 Lite 4/128GB": 1795076082.27267,
     "12V Cordless Electric Angle Grinder": 1795077186.2578824,
     "Nothing Buds 2a": 1795077733.2815042,
-    "BASEUS GH02 gaming wireless headphone": 1795078474.5893383
+    "BASEUS GH02 gaming wireless headphone": 1795078474.5893383,
+    "Business Travel Best Partner Print Anywhere Inkless 203DPI Portable": 1795079013.6206362
   },
   "published_post_keys": [
-    "lodydeals:46269",
     "aniscoupons:34313",
     "zedstoreonline:39754",
     "aniscoupons:34314",
@@ -4964,11 +4965,12 @@
     "ecksdeal:6108",
     "zedstoreonline:40419",
     "bnddeals:51323",
-    "aniscoupons:35284"
+    "aniscoupons:35284",
+    "bnddeals:51326"
   ],
   "last_disclaimer_time": 1794524540.9476151,
   "last_calendar_time": 1794572799.8939624,
-  "last_run_time": 1795078834.8082728,
+  "last_run_time": 1795079013.6206362,
   "monitored_channels": {
     "ecksdeal": {
       "last_message_id": 6108,
@@ -4995,16 +4997,16 @@
       "last_check_time": 1793599663.3444748
     },
     "zedstoreonline": {
-      "last_message_id": 40419,
-      "last_check_time": 1795078115.3634107
+      "last_message_id": 40420,
+      "last_check_time": 1795079007.9414287
     },
     "aniscoupons": {
       "last_message_id": 35284,
       "last_check_time": 1795078836.8745685
     },
     "bnddeals": {
-      "last_message_id": 51325,
-      "last_check_time": 1795078665.2428362
+      "last_message_id": 51326,
+      "last_check_time": 1795079015.676316
     }
   },
   "published_product_prices": {
@@ -5720,7 +5722,7 @@
     "1005010043969798": 2.4,
     "1005010376374580": 20.4,
     "1005010239860751": 4.8,
-    "1005009278862695": 35.55,
+    "1005009278862695": 32.9,
     "1005013005786079": 16.29,
     "1005008627811107": 10.5,
     "1005012892577195": 16.27,
@@ -28790,6 +28792,16 @@
       "price": 41.8,
       "timestamp": 1795078834.8082728,
       "status": "ACTIVE"
+    },
+    "bnddeals:51326": {
+      "channel_msg_id": 3210,
+      "product_id": "1005009278862695",
+      "title": "Business Travel Best Partner Print Anywhere Inkless 203DPI Portable",
+      "channel": "bnddeals",
+      "source_msg_id": 51326,
+      "price": 32.9,
+      "timestamp": 1795079013.6206362,
+      "status": "ACTIVE"
     }
   },
   "schedule_config": {
@@ -28798,17 +28810,17 @@
     "current_interval_minutes": 5,
     "is_paused": false,
     "night_mode_enabled": true,
-    "last_deal_post_time": 1795078837.6969793,
+    "last_deal_post_time": 1795079015.7240782,
     "night_start_hour_dz": 0,
     "night_end_hour_dz": 8,
     "night_pause_enabled": true,
-    "last_sweep_time": 1795078839.8354182,
+    "last_sweep_time": 1795079018.4416788,
     "last_sweep_times": {
-      "algeria": 1795078837.666811,
-      "france": 1795078839.8354182
+      "algeria": 1795079015.698757,
+      "france": 1795079018.4416788
     },
     "last_deal_post_times": {
-      "algeria": 1795078837.6969793
+      "algeria": 1795079015.7240782
     }
   },
   "last_coin_reminder_time": 1795015271.2437074,
@@ -29642,7 +29654,7 @@
     "1005010043969798": "zedstoreonline",
     "1005010376374580": "zedstoreonline",
     "1005010239860751": "zedstoreonline",
-    "1005009278862695": "lodydeals",
+    "1005009278862695": "bnddeals",
     "1005013005786079": "aniscoupons",
     "1005008627811107": "ecksdeal",
     "1005012892577195": "lodydeals",
@@ -30799,7 +30811,8 @@
     "realme P4 Lite 4/128GB": "zedstoreonline",
     "12V Cordless Electric Angle Grinder": "bnddeals",
     "Nothing Buds 2a": "aniscoupons",
-    "BASEUS GH02 gaming wireless headphone": "bnddeals"
+    "BASEUS GH02 gaming wireless headphone": "bnddeals",
+    "Business Travel Best Partner Print Anywhere Inkless 203DPI Portable": "bnddeals"
   },
   "religious_reminders_history": {
     "mock_rem": "2026-10-02",
@@ -31597,7 +31610,6 @@
   "published_deals_history": {},
   "settings": {},
   "handled_post_keys": [
-    "aniscoupons:34429",
     "bnddeals:51248",
     "aniscoupons:34430",
     "bnddeals:51249",
@@ -32596,7 +32608,8 @@
     "aniscoupons:35283",
     "bnddeals:51324",
     "bnddeals:51325",
-    "lodydeals:46664"
+    "lodydeals:46664",
+    "zedstoreonline:40420"
   ],
   "last_france_cross_promo_time": 1794913823.9647303,
   "next_france_cross_promo_interval_seconds": 311842,
@@ -33358,6 +33371,11 @@
         "channel": "bnddeals",
         "ts": 1795078665.1279807,
         "price": 21.9
+      },
+      {
+        "channel": "zedstoreonline",
+        "ts": 1795079007.8412402,
+        "price": 21.2
       }
     ],
     "1005008703989845": [
@@ -33372,6 +33390,13 @@
         "channel": "aniscoupons",
         "ts": 1795078832.8972151,
         "price": 41.8
+      }
+    ],
+    "1005009278862695": [
+      {
+        "channel": "bnddeals",
+        "ts": 1795079011.3143322,
+        "price": 32.9
       }
     ]
   },
