@@ -34,7 +34,7 @@
       "ewma": 0.9994
     },
     "bnddeals": {
-      "seen": 31,
+      "seen": 32,
       "published": 10,
       "skipped": 0,
       "ewma": 0.7828
@@ -60,7 +60,7 @@
       "ewma": 0.9994
     },
     "pc": {
-      "seen": 199,
+      "seen": 200,
       "published": 149,
       "skipped": 0,
       "ewma": 0.9994
@@ -1451,23 +1451,15 @@
     ]
   },
   "counters": {
-    "scored": 1082,
-    "verdict_publish": 1038,
+    "scored": 1083,
+    "verdict_publish": 1039,
     "verdict_hold": 44,
     "verdict_skip": 0,
     "published": 835,
     "skipped": 0
   },
-  "score_sum": 79365.71,
+  "score_sum": 79454.19,
   "recent_decisions": [
-    {
-      "ts": 1794913828,
-      "channel": "lodydeals",
-      "category": "phones",
-      "product_id": "1005008708333999",
-      "score": 69.25,
-      "verdict": "publish"
-    },
     {
       "ts": 1794913833,
       "channel": "lodydeals",
@@ -3059,7 +3051,15 @@
       "product_id": "1005005875379717",
       "score": 87.57,
       "verdict": "publish"
+    },
+    {
+      "ts": 1795078663,
+      "channel": "bnddeals",
+      "category": "pc",
+      "product_id": "1005008703989845",
+      "score": 88.48,
+      "verdict": "publish"
     }
   ],
-  "updated_at": 1795078474.6658647
+  "updated_at": 1795078663.5135782
 }
