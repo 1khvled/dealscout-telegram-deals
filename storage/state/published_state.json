@@ -1722,7 +1722,7 @@
     "1005003624789670": 1794996764.6923764,
     "1005008644346729": 1795081763.1985488,
     "1005008723396190": 1795072599.5014904,
-    "1005011729105677": 1795077186.2578824,
+    "1005011729105677": 1795103808.7530327,
     "1005010538481521": 1795088201.579061,
     "1005009354317262": 1795079588.3610423,
     "1005007721842895": 1795083426.9610174,
@@ -3868,7 +3868,7 @@
     "Kingston DataTraveler Exodia S USB Flash (128g)": 1794439539.8661358,
     "FIFINE K688W USB XLR MIC": 1794439743.6258593,
     "ATK Blazing Sky Z1 V2 Ultimate Wireless Mouse PAW3950 Ultra": 1794439916.4928079,
-    "12V CORDLESS ELECTRIC DRILL": 1794470859.4033997,
+    "12V CORDLESS ELECTRIC DRILL": 1795103808.7530327,
     "FORSINING MECHANICAL SKELETON WATCH": 1794471412.477501,
     "ميزان رقمي محمول لحقائب السفر": 1794472329.794574,
     "ميكروفون لاسلكي احترافي MAONO PD100W بمدى 50 متر مع تقليل": 1794913864.041144,
@@ -4031,7 +4031,6 @@
     "Honor Magic 9 SE": 1795103262.750217
   },
   "published_post_keys": [
-    "lodydeals:46294",
     "aniscoupons:34349",
     "zedstoreonline:39787",
     "aniscoupons:34350",
@@ -5030,11 +5029,12 @@
     "aniscoupons:35316",
     "aniscoupons:35318",
     "aniscoupons:35319",
-    "aniscoupons:35320"
+    "aniscoupons:35320",
+    "aniscoupons:35321"
   ],
   "last_disclaimer_time": 1794524540.9476151,
   "last_calendar_time": 1794572799.8939624,
-  "last_run_time": 1795103262.750217,
+  "last_run_time": 1795103808.7530327,
   "monitored_channels": {
     "ecksdeal": {
       "last_message_id": 6110,
@@ -5065,8 +5065,8 @@
       "last_check_time": 1795102701.5735662
     },
     "aniscoupons": {
-      "last_message_id": 35320,
-      "last_check_time": 1795103264.8364134
+      "last_message_id": 35321,
+      "last_check_time": 1795103810.8238122
     },
     "bnddeals": {
       "last_message_id": 51349,
@@ -5810,7 +5810,7 @@
     "1005003624789670": 18.33,
     "1005008644346729": 115.9,
     "1005008723396190": 9.2,
-    "1005011729105677": 11.8,
+    "1005011729105677": 13.7,
     "1005010538481521": 11.3,
     "1005009354317262": 6.4,
     "1005007721842895": 1.21,
@@ -29340,6 +29340,16 @@
       "price": 597.9,
       "timestamp": 1795103262.750217,
       "status": "ACTIVE"
+    },
+    "aniscoupons:35321": {
+      "channel_msg_id": 3257,
+      "product_id": "1005011729105677",
+      "title": "12V CORDLESS ELECTRIC DRILL",
+      "channel": "aniscoupons",
+      "source_msg_id": 35321,
+      "price": 13.7,
+      "timestamp": 1795103808.7530327,
+      "status": "ACTIVE"
     }
   },
   "schedule_config": {
@@ -29348,17 +29358,17 @@
     "current_interval_minutes": 5,
     "is_paused": false,
     "night_mode_enabled": true,
-    "last_deal_post_time": 1795103265.9870887,
+    "last_deal_post_time": 1795103811.752021,
     "night_start_hour_dz": 0,
     "night_end_hour_dz": 8,
     "night_pause_enabled": true,
-    "last_sweep_time": 1795103623.3218417,
+    "last_sweep_time": 1795103814.5505502,
     "last_sweep_times": {
-      "algeria": 1795103620.63848,
-      "france": 1795103623.3218417
+      "algeria": 1795103811.7228556,
+      "france": 1795103814.5505502
     },
     "last_deal_post_times": {
-      "algeria": 1795103265.9870887
+      "algeria": 1795103811.752021
     }
   },
   "last_coin_reminder_time": 1795015271.2437074,
@@ -30217,7 +30227,7 @@
     "1005003624789670": "aniscoupons",
     "1005008644346729": "aniscoupons",
     "1005008723396190": "zedstoreonline",
-    "1005011729105677": "bnddeals",
+    "1005011729105677": "aniscoupons",
     "1005010538481521": "aniscoupons",
     "1005009354317262": "bnddeals",
     "1005007721842895": "lodydeals",
@@ -34394,6 +34404,13 @@
         "channel": "zedstoreonline",
         "ts": 1795101038.6127927,
         "price": 930.0
+      }
+    ],
+    "1005011729105677": [
+      {
+        "channel": "aniscoupons",
+        "ts": 1795103806.569858,
+        "price": 13.7
       }
     ]
   },
