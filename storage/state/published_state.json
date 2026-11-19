@@ -1627,7 +1627,7 @@
     "1005013288890301": 1794477157.5349603,
     "1005013089015192": 1794647055.558841,
     "1005009278114794": 1794647237.7084959,
-    "1005010210432531": 1794991079.711429,
+    "1005010210432531": 1795076082.27267,
     "1005013422894128": 1794487083.9711623,
     "1005010297094897": 1794657082.5305285,
     "1005009012821000": 1794502225.0175712,
@@ -2825,7 +2825,8 @@
     "تخزين CUSU C300 Sata SSD",
     "DOOV R77 4G Touch 3/32GB",
     "SOMNAMBULIST SSD 120GB",
-    "Kodak SD Card 128GB"
+    "Kodak SD Card 128GB",
+    "realme P4 Lite 4/128GB"
   ],
   "published_title_timestamps": {
     "Xiaomi Redmi Note 17 5G Global Version": 1790857823.0117362,
@@ -3950,10 +3951,10 @@
     "تخزين CUSU C300 Sata SSD": 1795022269.6440833,
     "DOOV R77 4G Touch 3/32GB": 1795023205.68955,
     "SOMNAMBULIST SSD 120GB": 1795033574.311118,
-    "Kodak SD Card 128GB": 1795072599.5014904
+    "Kodak SD Card 128GB": 1795072599.5014904,
+    "realme P4 Lite 4/128GB": 1795076082.27267
   },
   "published_post_keys": [
-    "aniscoupons:34312",
     "zedstoreonline:39752",
     "lodydeals:46258",
     "lodydeals:46259",
@@ -4952,19 +4953,20 @@
     "aniscoupons:35267",
     "aniscoupons:35269",
     "zedstoreonline:40407",
-    "aniscoupons:35273"
+    "aniscoupons:35273",
+    "zedstoreonline:40411"
   ],
   "last_disclaimer_time": 1794524540.9476151,
   "last_calendar_time": 1794572799.8939624,
-  "last_run_time": 1795075896.7063851,
+  "last_run_time": 1795076082.27267,
   "monitored_channels": {
     "ecksdeal": {
       "last_message_id": 6106,
       "last_check_time": 1795075350.1953816
     },
     "lodydeals": {
-      "last_message_id": 46661,
-      "last_check_time": 1795075709.6142821
+      "last_message_id": 46662,
+      "last_check_time": 1795076075.2048745
     },
     "test_channel": {
       "last_message_id": 1793967703,
@@ -4983,16 +4985,16 @@
       "last_check_time": 1793599663.3444748
     },
     "zedstoreonline": {
-      "last_message_id": 40410,
-      "last_check_time": 1795075351.2760603
+      "last_message_id": 40411,
+      "last_check_time": 1795076084.3521774
     },
     "aniscoupons": {
       "last_message_id": 35273,
       "last_check_time": 1795075898.7783566
     },
     "bnddeals": {
-      "last_message_id": 51313,
-      "last_check_time": 1795075714.9169602
+      "last_message_id": 51314,
+      "last_check_time": 1795076086.6897006
     }
   },
   "published_product_prices": {
@@ -5217,7 +5219,7 @@
     "1005005875379717": 32.13,
     "1005013137396211": 316.0,
     "1005012575455222": 115.0,
-    "1005010210432531": 147.8,
+    "1005010210432531": 133.8,
     "1005010266487244": 12.95,
     "1005011904443903": 92.0,
     "1005010112746583": 47.9,
@@ -28666,6 +28668,16 @@
       "price": 7.4,
       "timestamp": 1795075896.7063851,
       "status": "ACTIVE"
+    },
+    "zedstoreonline:40411": {
+      "channel_msg_id": 3199,
+      "product_id": "1005010210432531",
+      "title": "realme P4 Lite 4/128GB",
+      "channel": "zedstoreonline",
+      "source_msg_id": 40411,
+      "price": 133.8,
+      "timestamp": 1795076082.27267,
+      "status": "ACTIVE"
     }
   },
   "schedule_config": {
@@ -28674,17 +28686,17 @@
     "current_interval_minutes": 5,
     "is_paused": false,
     "night_mode_enabled": true,
-    "last_deal_post_time": 1795075899.608796,
+    "last_deal_post_time": 1795076086.750193,
     "night_start_hour_dz": 0,
     "night_end_hour_dz": 8,
     "night_pause_enabled": true,
-    "last_sweep_time": 1795075901.8664374,
+    "last_sweep_time": 1795076089.1908574,
     "last_sweep_times": {
-      "algeria": 1795075899.5776527,
-      "france": 1795075901.8664374
+      "algeria": 1795076086.7200248,
+      "france": 1795076089.1908574
     },
     "last_deal_post_times": {
-      "algeria": 1795075899.608796
+      "algeria": 1795076086.750193
     }
   },
   "last_coin_reminder_time": 1795015271.2437074,
@@ -28953,7 +28965,7 @@
     "9998887185": "test_channel",
     "1005013137396211": "bnddeals",
     "1005012575455222": "megaphonna",
-    "1005010210432531": "aniscoupons",
+    "1005010210432531": "zedstoreonline",
     "9998888020": "test_channel",
     "9998888253": "test_channel",
     "1005010266487244": "bnddeals",
@@ -30669,7 +30681,8 @@
     "تخزين CUSU C300 Sata SSD": "ecksdeal",
     "DOOV R77 4G Touch 3/32GB": "lodydeals",
     "SOMNAMBULIST SSD 120GB": "lodydeals",
-    "Kodak SD Card 128GB": "zedstoreonline"
+    "Kodak SD Card 128GB": "zedstoreonline",
+    "realme P4 Lite 4/128GB": "zedstoreonline"
   },
   "religious_reminders_history": {
     "mock_rem": "2026-10-02",
@@ -31467,8 +31480,6 @@
   "published_deals_history": {},
   "settings": {},
   "handled_post_keys": [
-    "bnddeals:51242",
-    "zedstoreonline:39808",
     "aniscoupons:34397",
     "aniscoupons:34398",
     "lodydeals:46321",
@@ -32466,7 +32477,9 @@
     "bnddeals:51312",
     "aniscoupons:35272",
     "lodydeals:46661",
-    "bnddeals:51313"
+    "bnddeals:51313",
+    "lodydeals:46662",
+    "bnddeals:51314"
   ],
   "last_france_cross_promo_time": 1794913823.9647303,
   "next_france_cross_promo_interval_seconds": 311842,
@@ -33067,11 +33080,6 @@
     ],
     "1005007027334636": [
       {
-        "channel": "aniscoupons",
-        "ts": 1795032840.944174,
-        "price": 10.55
-      },
-      {
         "channel": "lodydeals",
         "ts": 1795033571.7169535,
         "price": 30.4
@@ -33087,6 +33095,16 @@
         "channel": "aniscoupons",
         "ts": 1795075894.693499,
         "price": 7.4
+      },
+      {
+        "channel": "lodydeals",
+        "ts": 1795076075.0765164,
+        "price": 7.4
+      },
+      {
+        "channel": "bnddeals",
+        "ts": 1795076086.5827825,
+        "price": 7.3
       }
     ],
     "1005012285327063": [
@@ -33101,6 +33119,13 @@
         "channel": "zedstoreonline",
         "ts": 1795073154.032434,
         "price": 9.2
+      }
+    ],
+    "1005010210432531": [
+      {
+        "channel": "zedstoreonline",
+        "ts": 1795076079.9298985,
+        "price": 133.8
       }
     ]
   },
