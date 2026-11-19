@@ -1522,14 +1522,14 @@
     "1005007469003552": 1795001220.8183246,
     "1005010041181003": 1794994376.6272743,
     "1005010265542567": 1794131426.95932,
-    "1005003156756854": 1794944054.5907512,
+    "1005003156756854": 1795085808.5784442,
     "1005010142208108": 1794753124.2973137,
     "1005008534907844": 1793987285.4130383,
     "1005009577554629": 1793987289.8200357,
     "1005010656922924": 1794852924.3222039,
     "1005008077441711": 1795011389.6062365,
     "1005006411483066": 1794500381.7712336,
-    "1005012925301774": 1794348808.2825344,
+    "1005012925301774": 1795085801.1895535,
     "1005012959738411": 1794658966.3702009,
     "1005008357913212": 1794948819.0338063,
     "1005008703989845": 1795079201.8897693,
@@ -2845,7 +2845,8 @@
     "CUSU DDR4 8GBx2 3200MHz",
     "لأكثر طلباً شاحن",
     "HOCO CS25A 20W PD",
-    "Realme P4 (8/256GB)"
+    "Realme P4 (8/256GB)",
+    "Ulanzi ST-06S ✅"
   ],
   "published_title_timestamps": {
     "Xiaomi Redmi Note 17 5G Global Version": 1790857823.0117362,
@@ -3689,7 +3690,7 @@
     "Inphic PG1 PG9 RGB Wired Gaming Mouse": 1795011389.6062365,
     "realme C100d 4/128GB": 1794950849.6355956,
     "Zeblaze GTS 3 Pro AMOLED": 1794500381.7712336,
-    "شاحن سيارة ORICO بقوة 45W": 1794348808.2825344,
+    "شاحن سيارة ORICO بقوة 45W": 1795085801.1895535,
     "Hollyland LARK M2 DUO 2-Person": 1794658966.3702009,
     "[New Launch] realme C100d 4G Smartphone 8000mAh Battery 45W Charge 50MP AI": 1794647085.3020031,
     "Zeblaze Btalk 4 Pro السعر : 17.06": 1794043557.929627,
@@ -3980,11 +3981,10 @@
     "CUSU DDR4 8GBx2 3200MHz": 1795081588.9428203,
     "لأكثر طلباً شاحن": 1795081619.0346873,
     "HOCO CS25A 20W PD": 1795083426.9610174,
-    "Realme P4 (8/256GB)": 1795084333.1776772
+    "Realme P4 (8/256GB)": 1795084333.1776772,
+    "Ulanzi ST-06S ✅": 1795085808.5784442
   },
   "published_post_keys": [
-    "zedstoreonline:39762",
-    "aniscoupons:34335",
     "aniscoupons:34336",
     "aniscoupons:34337",
     "aniscoupons:34339",
@@ -4982,19 +4982,21 @@
     "zedstoreonline:40433",
     "aniscoupons:35298",
     "aniscoupons:35300",
-    "aniscoupons:35303"
+    "aniscoupons:35303",
+    "zedstoreonline:40434",
+    "bnddeals:51341"
   ],
   "last_disclaimer_time": 1794524540.9476151,
   "last_calendar_time": 1794572799.8939624,
-  "last_run_time": 1795085076.3079712,
+  "last_run_time": 1795085808.5784442,
   "monitored_channels": {
     "ecksdeal": {
       "last_message_id": 6110,
       "last_check_time": 1795080301.0556052
     },
     "lodydeals": {
-      "last_message_id": 46676,
-      "last_check_time": 1795085612.60488
+      "last_message_id": 46679,
+      "last_check_time": 1795085793.407366
     },
     "test_channel": {
       "last_message_id": 1793967703,
@@ -5013,16 +5015,16 @@
       "last_check_time": 1793599663.3444748
     },
     "zedstoreonline": {
-      "last_message_id": 40433,
-      "last_check_time": 1795083606.8857665
+      "last_message_id": 40434,
+      "last_check_time": 1795085803.2731557
     },
     "aniscoupons": {
       "last_message_id": 35303,
       "last_check_time": 1795085078.4023519
     },
     "bnddeals": {
-      "last_message_id": 51340,
-      "last_check_time": 1795085619.2938142
+      "last_message_id": 51341,
+      "last_check_time": 1795085810.662515
     }
   },
   "published_product_prices": {
@@ -29051,6 +29053,26 @@
       "price": 138.7,
       "timestamp": 1795085076.3079712,
       "status": "ACTIVE"
+    },
+    "zedstoreonline:40434": {
+      "channel_msg_id": 3234,
+      "product_id": "1005012925301774",
+      "title": "شاحن سيارة ORICO بقوة 45W",
+      "channel": "zedstoreonline",
+      "source_msg_id": 40434,
+      "price": 10.5,
+      "timestamp": 1795085801.1895535,
+      "status": "ACTIVE"
+    },
+    "bnddeals:51341": {
+      "channel_msg_id": 3235,
+      "product_id": "1005003156756854",
+      "title": "Ulanzi ST-06S ✅",
+      "channel": "bnddeals",
+      "source_msg_id": 51341,
+      "price": 11.2,
+      "timestamp": 1795085808.5784442,
+      "status": "ACTIVE"
     }
   },
   "schedule_config": {
@@ -29059,17 +29081,17 @@
     "current_interval_minutes": 5,
     "is_paused": false,
     "night_mode_enabled": true,
-    "last_deal_post_time": 1795085079.5600023,
+    "last_deal_post_time": 1795085810.7363095,
     "night_start_hour_dz": 0,
     "night_end_hour_dz": 8,
     "night_pause_enabled": true,
-    "last_sweep_time": 1795085622.7935052,
+    "last_sweep_time": 1795085813.6736887,
     "last_sweep_times": {
-      "algeria": 1795085619.3380363,
-      "france": 1795085622.7935052
+      "algeria": 1795085810.6992931,
+      "france": 1795085813.6736887
     },
     "last_deal_post_times": {
-      "algeria": 1795085079.5600023
+      "algeria": 1795085810.7363095
     }
   },
   "last_coin_reminder_time": 1795015271.2437074,
@@ -29742,7 +29764,7 @@
     "1005007469003552": "zedstoreonline",
     "1005010041181003": "aniscoupons",
     "1005010265542567": "aniscoupons",
-    "1005003156756854": "zedstoreonline",
+    "1005003156756854": "bnddeals",
     "1005010142208108": "lodydeals",
     "1005008534907844": "lodydeals",
     "1005009577554629": "lodydeals",
@@ -31069,7 +31091,8 @@
     "CUSU DDR4 8GBx2 3200MHz": "lodydeals",
     "لأكثر طلباً شاحن": "bnddeals",
     "HOCO CS25A 20W PD": "lodydeals",
-    "Realme P4 (8/256GB)": "aniscoupons"
+    "Realme P4 (8/256GB)": "aniscoupons",
+    "Ulanzi ST-06S ✅": "bnddeals"
   },
   "religious_reminders_history": {
     "mock_rem": "2026-10-02",
@@ -31867,7 +31890,6 @@
   "published_deals_history": {},
   "settings": {},
   "handled_post_keys": [
-    "lodydeals:46324",
     "zedstoreonline:39835",
     "zedstoreonline:39836",
     "aniscoupons:34447",
@@ -32866,7 +32888,8 @@
     "lodydeals:46675",
     "bnddeals:51339",
     "lodydeals:46676",
-    "bnddeals:51340"
+    "bnddeals:51340",
+    "lodydeals:46679"
   ],
   "last_france_cross_promo_time": 1794913823.9647303,
   "next_france_cross_promo_interval_seconds": 311842,
@@ -33904,6 +33927,20 @@
         "channel": "bnddeals",
         "ts": 1795085619.1238844,
         "price": 138.7
+      }
+    ],
+    "1005012925301774": [
+      {
+        "channel": "zedstoreonline",
+        "ts": 1795085798.459388,
+        "price": 10.5
+      }
+    ],
+    "1005003156756854": [
+      {
+        "channel": "bnddeals",
+        "ts": 1795085805.9367409,
+        "price": 11.2
       }
     ]
   },
