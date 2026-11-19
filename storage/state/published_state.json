@@ -1141,7 +1141,7 @@
     "9998882360": 1792162360.6633363,
     "9998882475": 1793282475.663889,
     "9998882568": 1792162568.078144,
-    "1005010369693975": 1795077003.7521157,
+    "1005010369693975": 1795106023.077125,
     "1005006442452857": 1792166326.0335298,
     "9998886462": 1792166462.200491,
     "1005009948598802": 1793500786.1935658,
@@ -3198,7 +3198,7 @@
     "RYZEN 7 5700X": 1795005702.3191934,
     "Ⓜ BLACKVIEW WAVE 10C (4/32)": 1792160262.8028278,
     "Ⓜ  TCL 60 NXT PAPER 8/256📱": 1792160269.0502243,
-    "HAYLOU Mori Pro ANC": 1795088919.270425,
+    "HAYLOU Mori Pro ANC": 1795106023.077125,
     "HAYLOU S30 Wireless Bluetooth 5.4 Headphones 43dB Adaptive Noise": 1792166326.0335298,
     "HAYLOU Watch Faro Voice Calling Smart Watch": 1792360422.5608404,
     "Redmi Note 12 5G 4/128": 1793543770.1912897,
@@ -4035,7 +4035,6 @@
     "8L FOLDING WASHING MACHINE": 1795104359.6206825
   },
   "published_post_keys": [
-    "aniscoupons:34350",
     "aniscoupons:34351",
     "aniscoupons:34352",
     "aniscoupons:34353",
@@ -5034,11 +5033,12 @@
     "aniscoupons:35320",
     "aniscoupons:35321",
     "aniscoupons:35323",
-    "aniscoupons:35325"
+    "aniscoupons:35325",
+    "zedstoreonline:40452"
   ],
   "last_disclaimer_time": 1794524540.9476151,
   "last_calendar_time": 1794572799.8939624,
-  "last_run_time": 1795105287.3516715,
+  "last_run_time": 1795106023.077125,
   "monitored_channels": {
     "ecksdeal": {
       "last_message_id": 6110,
@@ -5065,8 +5065,8 @@
       "last_check_time": 1793599663.3444748
     },
     "zedstoreonline": {
-      "last_message_id": 40451,
-      "last_check_time": 1795105660.0169413
+      "last_message_id": 40452,
+      "last_check_time": 1795106025.1388872
     },
     "aniscoupons": {
       "last_message_id": 35325,
@@ -29375,6 +29375,16 @@
       "price": 203.3,
       "timestamp": 1795105287.3516715,
       "status": "ACTIVE"
+    },
+    "zedstoreonline:40452": {
+      "channel_msg_id": 3260,
+      "product_id": "1005010369693975",
+      "title": "HAYLOU Mori Pro ANC",
+      "channel": "zedstoreonline",
+      "source_msg_id": 40452,
+      "price": 10.7,
+      "timestamp": 1795106023.077125,
+      "status": "ACTIVE"
     }
   },
   "schedule_config": {
@@ -29383,17 +29393,17 @@
     "current_interval_minutes": 5,
     "is_paused": false,
     "night_mode_enabled": true,
-    "last_deal_post_time": 1795105290.5202367,
+    "last_deal_post_time": 1795106027.1174214,
     "night_start_hour_dz": 0,
     "night_end_hour_dz": 8,
     "night_pause_enabled": true,
-    "last_sweep_time": 1795105843.6723623,
+    "last_sweep_time": 1795106029.7672048,
     "last_sweep_times": {
-      "algeria": 1795105840.8070939,
-      "france": 1795105843.6723623
+      "algeria": 1795106027.0935972,
+      "france": 1795106029.7672048
     },
     "last_deal_post_times": {
-      "algeria": 1795105290.5202367
+      "algeria": 1795106027.1174214
     }
   },
   "last_coin_reminder_time": 1795015271.2437074,
@@ -30587,7 +30597,7 @@
     "MACHENIKE G5Pro Max SE Gaming Controller With Charging Dock": "aniscoupons",
     "Ⓜ BLACKVIEW WAVE 10C (4/32)": "megaphonna",
     "RYZEN 7 5700X": "aniscoupons",
-    "HAYLOU Mori Pro ANC": "lodydeals",
+    "HAYLOU Mori Pro ANC": "zedstoreonline",
     "HAYLOU S30 Wireless Bluetooth 5.4 Headphones 43dB Adaptive Noise": "zedstoreonline",
     "HAYLOU Watch Faro Voice Calling Smart Watch": "couponsglobal",
     "Redmi Note 12 5G 4/128": "lodydeals",
@@ -33803,6 +33813,11 @@
       {
         "channel": "bnddeals",
         "ts": 1795077360.3728964,
+        "price": 10.7
+      },
+      {
+        "channel": "zedstoreonline",
+        "ts": 1795106020.6752357,
         "price": 10.7
       }
     ],
