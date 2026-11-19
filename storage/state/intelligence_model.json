@@ -34,7 +34,7 @@
       "ewma": 0.9994
     },
     "bnddeals": {
-      "seen": 45,
+      "seen": 46,
       "published": 18,
       "skipped": 0,
       "ewma": 0.8885
@@ -60,7 +60,7 @@
       "ewma": 0.9994
     },
     "pc": {
-      "seen": 211,
+      "seen": 212,
       "published": 157,
       "skipped": 0,
       "ewma": 0.9994
@@ -1540,23 +1540,15 @@
     ]
   },
   "counters": {
-    "scored": 1149,
-    "verdict_publish": 1103,
+    "scored": 1150,
+    "verdict_publish": 1104,
     "verdict_hold": 46,
     "verdict_skip": 0,
     "published": 889,
     "skipped": 0
   },
-  "score_sum": 84266.48,
+  "score_sum": 84344.23,
   "recent_decisions": [
-    {
-      "ts": 1794936839,
-      "channel": "ecksdeal",
-      "category": "other",
-      "product_id": "1005011551172448",
-      "score": 76.92,
-      "verdict": "publish"
-    },
     {
       "ts": 1794937019,
       "channel": "aniscoupons",
@@ -3148,7 +3140,15 @@
       "product_id": "1005012274502051",
       "score": 79.02,
       "verdict": "publish"
+    },
+    {
+      "ts": 1795111773,
+      "channel": "bnddeals",
+      "category": "pc",
+      "product_id": "1005008366962319",
+      "score": 77.75,
+      "verdict": "publish"
     }
   ],
-  "updated_at": 1795111028.5948987
+  "updated_at": 1795111773.2182505
 }
