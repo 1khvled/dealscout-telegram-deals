@@ -947,7 +947,7 @@
     "1005006581583862": 1794852936.201381,
     "1005012816171978": 1792157876.0860639,
     "1005006248571160": 1791012946.4110153,
-    "1005009390995992": 1794935370.6114745,
+    "1005009390995992": 1795079208.259405,
     "1005006196428484": 1791026745.7640984,
     "1005012390398338": 1791027348.2517543,
     "1005012297674623": 1791103551.065819,
@@ -1529,7 +1529,7 @@
     "1005012925301774": 1794348808.2825344,
     "1005012959738411": 1794658966.3702009,
     "1005008357913212": 1794948819.0338063,
-    "1005008703989845": 1794991993.3818967,
+    "1005008703989845": 1795079201.8897693,
     "1005007162099601": 1794524556.2538168,
     "1005007038130594": 1794393500.1320646,
     "1005008248187128": 1794057675.8729835,
@@ -3646,7 +3646,7 @@
     "Netac SSD NVME M2 250GB": 1794747089.3988028,
     "Essager 20W GaN + cable": 1794598546.8080914,
     "Redmi Note 17 Pro Max": 1793966798.7696738,
-    "CUSU SSD 512GB 1TB 2.5 Inch SATA SATA3 2TB 4TB Hard Drive SSD 240GB 256GB": 1794991993.3818967,
+    "CUSU SSD 512GB 1TB 2.5 Inch SATA SATA3 2TB 4TB Hard Drive SSD 240GB 256GB": 1795079201.8897693,
     "Fifine Gaming Headset H9W": 1795003471.3645086,
     "Fifine Gaming Headset H6": 1795003476.8317716,
     "HyperX Cloud 3 III Wired Gaming Headset": 1794998780.0409262,
@@ -3948,7 +3948,7 @@
     "Magcubic C Pro Projector": 1794863018.2939777,
     "MSI PRO B650-P WIFI 6E USED": 1794863026.9329176,
     "MSI PRO B850M-VC WIFI 6E": 1794863220.9848075,
-    "HAYLOU S40 ANC": 1794935370.6114745,
+    "HAYLOU S40 ANC": 1795079208.259405,
     "معالج Ryzen 7 5600XT": 1794936833.9811888,
     "معالج بكرت شاشة مدمج Ryzen 5 3400G": 1794936842.146349,
     "QY6 0082 Printhead for Canon IP7210 IP7250 IP7280 MG5420 MG5460": 1794996958.0314968,
@@ -3967,8 +3967,6 @@
     "Business Travel Best Partner Print Anywhere Inkless 203DPI Portable": 1795079013.6206362
   },
   "published_post_keys": [
-    "aniscoupons:34313",
-    "zedstoreonline:39754",
     "aniscoupons:34314",
     "lodydeals:46272",
     "lodydeals:46273",
@@ -4966,11 +4964,13 @@
     "zedstoreonline:40419",
     "bnddeals:51323",
     "aniscoupons:35284",
-    "bnddeals:51326"
+    "bnddeals:51326",
+    "aniscoupons:35285",
+    "bnddeals:51327"
   ],
   "last_disclaimer_time": 1794524540.9476151,
   "last_calendar_time": 1794572799.8939624,
-  "last_run_time": 1795079013.6206362,
+  "last_run_time": 1795079208.259405,
   "monitored_channels": {
     "ecksdeal": {
       "last_message_id": 6108,
@@ -5001,12 +5001,12 @@
       "last_check_time": 1795079007.9414287
     },
     "aniscoupons": {
-      "last_message_id": 35284,
-      "last_check_time": 1795078836.8745685
+      "last_message_id": 35285,
+      "last_check_time": 1795079203.9889207
     },
     "bnddeals": {
-      "last_message_id": 51326,
-      "last_check_time": 1795079015.676316
+      "last_message_id": 51327,
+      "last_check_time": 1795079210.3608356
     }
   },
   "published_product_prices": {
@@ -5560,7 +5560,7 @@
     "1005009738356108": 17.2,
     "1005008636930795": 31.5,
     "1005013083645836": 304.4,
-    "1005008703989845": 44.2,
+    "1005008703989845": 41.9,
     "1005008060391372": 33.5,
     "1005012593794312": 241.5,
     "1005008357913212": 40.5,
@@ -28802,6 +28802,26 @@
       "price": 32.9,
       "timestamp": 1795079013.6206362,
       "status": "ACTIVE"
+    },
+    "aniscoupons:35285": {
+      "channel_msg_id": 3211,
+      "product_id": "1005008703989845",
+      "title": "CUSU SSD 512GB 1TB 2.5 Inch SATA SATA3 2TB 4TB Hard Drive SSD 240GB 256GB",
+      "channel": "aniscoupons",
+      "source_msg_id": 35285,
+      "price": 41.9,
+      "timestamp": 1795079201.8897693,
+      "status": "ACTIVE"
+    },
+    "bnddeals:51327": {
+      "channel_msg_id": 3212,
+      "product_id": "1005009390995992",
+      "title": "HAYLOU S40 ANC",
+      "channel": "bnddeals",
+      "source_msg_id": 51327,
+      "price": 29.33,
+      "timestamp": 1795079208.259405,
+      "status": "ACTIVE"
     }
   },
   "schedule_config": {
@@ -28810,17 +28830,17 @@
     "current_interval_minutes": 5,
     "is_paused": false,
     "night_mode_enabled": true,
-    "last_deal_post_time": 1795079015.7240782,
+    "last_deal_post_time": 1795079210.4509075,
     "night_start_hour_dz": 0,
     "night_end_hour_dz": 8,
     "night_pause_enabled": true,
-    "last_sweep_time": 1795079018.4416788,
+    "last_sweep_time": 1795079213.3682363,
     "last_sweep_times": {
-      "algeria": 1795079015.698757,
-      "france": 1795079018.4416788
+      "algeria": 1795079210.4063923,
+      "france": 1795079213.3682363
     },
     "last_deal_post_times": {
-      "algeria": 1795079015.7240782
+      "algeria": 1795079210.4509075
     }
   },
   "last_coin_reminder_time": 1795015271.2437074,
@@ -33226,11 +33246,6 @@
     "1005012726037568": [
       {
         "channel": "aniscoupons",
-        "ts": 1795035979.8120522,
-        "price": 7.4
-      },
-      {
-        "channel": "aniscoupons",
         "ts": 1795075894.693499,
         "price": 7.4
       },
@@ -33383,6 +33398,11 @@
         "channel": "bnddeals",
         "ts": 1795078663.4675944,
         "price": 23.0
+      },
+      {
+        "channel": "aniscoupons",
+        "ts": 1795079199.4776227,
+        "price": 41.9
       }
     ],
     "1005008645323478": [
@@ -33397,6 +33417,13 @@
         "channel": "bnddeals",
         "ts": 1795079011.3143322,
         "price": 32.9
+      }
+    ],
+    "1005009390995992": [
+      {
+        "channel": "bnddeals",
+        "ts": 1795079206.0220652,
+        "price": 29.33
       }
     ]
   },
