@@ -34,14 +34,14 @@
       "ewma": 0.9994
     },
     "bnddeals": {
-      "seen": 39,
-      "published": 14,
+      "seen": 40,
+      "published": 15,
       "skipped": 0,
-      "ewma": 0.8444
+      "ewma": 0.8568
     },
     "aniscoupons": {
-      "seen": 543,
-      "published": 465,
+      "seen": 544,
+      "published": 466,
       "skipped": 0,
       "ewma": 0.9994
     },
@@ -54,8 +54,8 @@
   },
   "category_stats": {
     "other": {
-      "seen": 417,
-      "published": 356,
+      "seen": 418,
+      "published": 357,
       "skipped": 0,
       "ewma": 0.9994
     },
@@ -72,10 +72,10 @@
       "ewma": 0.9994
     },
     "home": {
-      "seen": 52,
-      "published": 48,
+      "seen": 53,
+      "published": 49,
       "skipped": 0,
-      "ewma": 0.9908
+      "ewma": 0.9915
     },
     "accessories": {
       "seen": 39,
@@ -376,6 +376,7 @@
       265.11
     ],
     "1005012191191893": [
+      228.3,
       228.3,
       228.3,
       228.3,
@@ -1466,34 +1467,21 @@
     ],
     "1005009354317262": [
       6.4
+    ],
+    "1005011748000554": [
+      17.8
     ]
   },
   "counters": {
-    "scored": 1104,
-    "verdict_publish": 1060,
+    "scored": 1106,
+    "verdict_publish": 1062,
     "verdict_hold": 44,
     "verdict_skip": 0,
-    "published": 851,
+    "published": 853,
     "skipped": 0
   },
-  "score_sum": 80992.1,
+  "score_sum": 81125.37,
   "recent_decisions": [
-    {
-      "ts": 1794913949,
-      "channel": "aniscoupons",
-      "category": "home",
-      "product_id": "1005012285327063",
-      "score": 64.69,
-      "verdict": "publish"
-    },
-    {
-      "ts": 1794913957,
-      "channel": "aniscoupons",
-      "category": "pc",
-      "product_id": "1005012970221631",
-      "score": 71.49,
-      "verdict": "publish"
-    },
     {
       "ts": 1794913963,
       "channel": "aniscoupons",
@@ -3077,7 +3065,23 @@
       "product_id": "1005008644346729",
       "score": 72.14,
       "verdict": "publish"
+    },
+    {
+      "ts": 1795082317,
+      "channel": "aniscoupons",
+      "category": "other",
+      "product_id": "1005012191191893",
+      "score": 69.57,
+      "verdict": "publish"
+    },
+    {
+      "ts": 1795082323,
+      "channel": "bnddeals",
+      "category": "home",
+      "product_id": "1005011748000554",
+      "score": 63.7,
+      "verdict": "publish"
     }
   ],
-  "updated_at": 1795081763.2746234
+  "updated_at": 1795082325.7677076
 }

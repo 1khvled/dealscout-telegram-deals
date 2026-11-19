@@ -895,7 +895,7 @@
     "1005006603602562": 1790941207.5310047,
     "1005010721042860": 1793656098.242545,
     "1005009517247552": 1790941221.8823678,
-    "1005012191191893": 1795046513.7681544,
+    "1005012191191893": 1795082319.5209298,
     "1005012968221708": 1793542591.509991,
     "9998883454": 1790943454.3504107,
     "9998883497": 1790943497.723828,
@@ -1480,7 +1480,7 @@
     "1005012099740266": 1793707154.0863686,
     "1005010462111234": 1793707161.4322476,
     "1005006026842392": 1793707779.0330126,
-    "1005011748000554": 1793966892.2256048,
+    "1005011748000554": 1795082325.695245,
     "COUPONS_gen": 1793728683.0472453,
     "COUPONS_11.11 Global Shopping Festival Main Sale": 1794935379.010957,
     "1005009111757092": 1793728859.1630292,
@@ -3658,7 +3658,7 @@
     "KOOTION SSD SATA": 1794948819.0338063,
     "ال mouse  الشهيرة رجعت🖱️": 1793966875.5755405,
     "هذون سماعات جدد من   HAYLOU⌚": 1795077914.4967594,
-    "HAYLOU WATCH 3 NEW": 1793966892.2256048,
+    "HAYLOU WATCH 3 NEW": 1795082325.695245,
     "Vivo Y600 Pro": 1793969543.5771117,
     "MAONO PD100X USB/XL": 1793969903.1419857,
     "Realme C100D 4G 4/128GB": 1794913830.7898324,
@@ -3721,7 +3721,7 @@
     "Lenovo LE257 Headphones": 1794137638.8201442,
     "Honor 600s CN (8/256)": 1795000847.1791112,
     "ويبكام OBSBOT MEET 2 Webcam 4K": 1794140022.1412559,
-    "Blackview Mega 5": 1795046513.7681544,
+    "Blackview Mega 5": 1795082319.5209298,
     "Warvank X8 Wireless Gaming Mouse": 1794496858.1106308,
     "Xiaoxin Pad Pro 2025 (8/128GB)": 1794995476.4520917,
     "سماعات ONIKUMA T27 لاسلكية بوضعَي اتصال 2.4GHz وBluetooth": 1794145536.5317988,
@@ -3975,8 +3975,6 @@
     "لأكثر طلباً شاحن": 1795081619.0346873
   },
   "published_post_keys": [
-    "aniscoupons:34323",
-    "aniscoupons:34324",
     "aniscoupons:34325",
     "lodydeals:46276",
     "aniscoupons:34328",
@@ -4974,19 +4972,21 @@
     "lodydeals:46669",
     "zedstoreonline:40430",
     "bnddeals:51334",
-    "aniscoupons:35294"
+    "aniscoupons:35294",
+    "aniscoupons:35296",
+    "bnddeals:51336"
   ],
   "last_disclaimer_time": 1794524540.9476151,
   "last_calendar_time": 1794572799.8939624,
-  "last_run_time": 1795081763.1985488,
+  "last_run_time": 1795082325.695245,
   "monitored_channels": {
     "ecksdeal": {
       "last_message_id": 6110,
       "last_check_time": 1795080301.0556052
     },
     "lodydeals": {
-      "last_message_id": 46670,
-      "last_check_time": 1795081945.4750235
+      "last_message_id": 46671,
+      "last_check_time": 1795082307.4072614
     },
     "test_channel": {
       "last_message_id": 1793967703,
@@ -5005,16 +5005,16 @@
       "last_check_time": 1793599663.3444748
     },
     "zedstoreonline": {
-      "last_message_id": 40430,
-      "last_check_time": 1795081609.2660165
+      "last_message_id": 40431,
+      "last_check_time": 1795082315.0004046
     },
     "aniscoupons": {
-      "last_message_id": 35295,
-      "last_check_time": 1795081950.860782
+      "last_message_id": 35296,
+      "last_check_time": 1795082321.6264498
     },
     "bnddeals": {
-      "last_message_id": 51335,
-      "last_check_time": 1795081767.172214
+      "last_message_id": 51336,
+      "last_check_time": 1795082327.7915945
     }
   },
   "published_product_prices": {
@@ -28951,6 +28951,26 @@
       "price": 115.9,
       "timestamp": 1795081763.1985488,
       "status": "ACTIVE"
+    },
+    "aniscoupons:35296": {
+      "channel_msg_id": 3225,
+      "product_id": "1005012191191893",
+      "title": "Blackview Mega 5",
+      "channel": "aniscoupons",
+      "source_msg_id": 35296,
+      "price": 228.3,
+      "timestamp": 1795082319.5209298,
+      "status": "ACTIVE"
+    },
+    "bnddeals:51336": {
+      "channel_msg_id": 3226,
+      "product_id": "1005011748000554",
+      "title": "HAYLOU WATCH 3 NEW",
+      "channel": "bnddeals",
+      "source_msg_id": 51336,
+      "price": 17.8,
+      "timestamp": 1795082325.695245,
+      "status": "ACTIVE"
     }
   },
   "schedule_config": {
@@ -28959,17 +28979,17 @@
     "current_interval_minutes": 5,
     "is_paused": false,
     "night_mode_enabled": true,
-    "last_deal_post_time": 1795081767.2641385,
+    "last_deal_post_time": 1795082327.8741705,
     "night_start_hour_dz": 0,
     "night_end_hour_dz": 8,
     "night_pause_enabled": true,
-    "last_sweep_time": 1795082136.497785,
+    "last_sweep_time": 1795082330.480633,
     "last_sweep_times": {
-      "algeria": 1795082133.0843544,
-      "france": 1795082136.497785
+      "algeria": 1795082327.8327296,
+      "france": 1795082330.480633
     },
     "last_deal_post_times": {
-      "algeria": 1795081767.2641385
+      "algeria": 1795082327.8741705
     }
   },
   "last_coin_reminder_time": 1795015271.2437074,
@@ -31763,8 +31783,6 @@
   "published_deals_history": {},
   "settings": {},
   "handled_post_keys": [
-    "bnddeals:51260",
-    "aniscoupons:34438",
     "bnddeals:51261",
     "bnddeals:51262",
     "lodydeals:46322",
@@ -32762,7 +32780,9 @@
     "aniscoupons:35293",
     "bnddeals:51335",
     "lodydeals:46670",
-    "aniscoupons:35295"
+    "aniscoupons:35295",
+    "lodydeals:46671",
+    "zedstoreonline:40431"
   ],
   "last_france_cross_promo_time": 1794913823.9647303,
   "next_france_cross_promo_interval_seconds": 311842,
@@ -33357,6 +33377,11 @@
         "channel": "aniscoupons",
         "ts": 1795046511.1104717,
         "price": 228.3
+      },
+      {
+        "channel": "aniscoupons",
+        "ts": 1795082317.1077158,
+        "price": 228.3
       }
     ],
     "1005007027334636": [
@@ -33675,6 +33700,11 @@
         "channel": "aniscoupons",
         "ts": 1795081035.4359624,
         "price": 191.7
+      },
+      {
+        "channel": "zedstoreonline",
+        "ts": 1795082314.8277652,
+        "price": 179.0
       }
     ],
     "1005012135177627": [
@@ -33712,6 +33742,13 @@
       {
         "channel": "zedstoreonline",
         "ts": 1795081604.5398967,
+        "price": 17.8
+      }
+    ],
+    "1005011748000554": [
+      {
+        "channel": "bnddeals",
+        "ts": 1795082323.3456483,
         "price": 17.8
       }
     ]
