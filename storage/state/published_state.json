@@ -1120,7 +1120,7 @@
     "9998883963": 1792073963.7339156,
     "1005010620269829": 1794998593.8332033,
     "9998886219": 1792086219.2668676,
-    "1005005875379717": 1795078474.5893383,
+    "1005005875379717": 1795116404.8944776,
     "9998887185": 1792087185.8637784,
     "9998888020": 1792098020.7307658,
     "9998888253": 1792098253.077623,
@@ -3958,7 +3958,7 @@
     "H20PRO TV Box 2/16GB": 1794913915.9826968,
     "DOOV R77 4G Touch (3/32GB)": 1794676338.751973,
     "Picun G1 Casque Gaming Sans Fil": 1794676695.2288063,
-    "Baseus GH02 Gaming Headphones": 1795022289.1627383,
+    "Baseus GH02 Gaming Headphones": 1795116404.8944776,
     "E-YOOSO X-39 USB Wired RGB Gaming Mouse": 1794748963.317494,
     "Ajazz AHW10 Head-mounted Wired Gaming": 1794735719.2115917,
     "AJAZZ AJ179 PRO PAW3395 Wireless Gaming Mouse with RGB Charging Base": 1794677812.6238942,
@@ -4045,7 +4045,6 @@
     "MAGCUBIC HY300 PRO Projector": 1795112692.4915283
   },
   "published_post_keys": [
-    "zedstoreonline:39794",
     "zedstoreonline:39795",
     "aniscoupons:34358",
     "aniscoupons:34357",
@@ -5044,11 +5043,12 @@
     "bnddeals:51352",
     "zedstoreonline:40458",
     "zedstoreonline:40459",
-    "aniscoupons:35328"
+    "aniscoupons:35328",
+    "aniscoupons:35329"
   ],
   "last_disclaimer_time": 1794524540.9476151,
   "last_calendar_time": 1794572799.8939624,
-  "last_run_time": 1795113438.2427025,
+  "last_run_time": 1795116404.8944776,
   "monitored_channels": {
     "ecksdeal": {
       "last_message_id": 6110,
@@ -5079,8 +5079,8 @@
       "last_check_time": 1795115097.268366
     },
     "aniscoupons": {
-      "last_message_id": 35328,
-      "last_check_time": 1795113440.4428766
+      "last_message_id": 35329,
+      "last_check_time": 1795116406.9982188
     },
     "bnddeals": {
       "last_message_id": 51353,
@@ -5306,7 +5306,7 @@
     "1005011908654312": 122.6,
     "1005010620269829": 229.6,
     "1005010149868688": 191.1,
-    "1005005875379717": 21.9,
+    "1005005875379717": 21.2,
     "1005013137396211": 316.0,
     "1005012575455222": 115.0,
     "1005010210432531": 133.8,
@@ -29458,6 +29458,16 @@
       "price": 7.5,
       "timestamp": 1795113438.2427025,
       "status": "ACTIVE"
+    },
+    "aniscoupons:35329": {
+      "channel_msg_id": 3268,
+      "product_id": "1005005875379717",
+      "title": "Baseus GH02 Gaming Headphones",
+      "channel": "aniscoupons",
+      "source_msg_id": 35329,
+      "price": 21.2,
+      "timestamp": 1795116404.8944776,
+      "status": "ACTIVE"
     }
   },
   "schedule_config": {
@@ -29466,17 +29476,17 @@
     "current_interval_minutes": 5,
     "is_paused": false,
     "night_mode_enabled": true,
-    "last_deal_post_time": 1795113441.4754179,
+    "last_deal_post_time": 1795116407.9507077,
     "night_start_hour_dz": 0,
     "night_end_hour_dz": 8,
     "night_pause_enabled": true,
-    "last_sweep_time": 1795116213.2058084,
+    "last_sweep_time": 1795116410.4902532,
     "last_sweep_times": {
-      "algeria": 1795116210.8817396,
-      "france": 1795116213.2058084
+      "algeria": 1795116407.9103985,
+      "france": 1795116410.4902532
     },
     "last_deal_post_times": {
-      "algeria": 1795113441.4754179
+      "algeria": 1795116407.9507077
     }
   },
   "last_coin_reminder_time": 1795015271.2437074,
@@ -29741,7 +29751,7 @@
     "1005010620269829": "zedstoreonline",
     "1005010149868688": "aniscoupons",
     "9998886219": "test_channel",
-    "1005005875379717": "bnddeals",
+    "1005005875379717": "aniscoupons",
     "9998887185": "test_channel",
     "1005013137396211": "bnddeals",
     "1005012575455222": "megaphonna",
@@ -33997,13 +34007,6 @@
         "price": 11.1
       }
     ],
-    "1005008723396190": [
-      {
-        "channel": "zedstoreonline",
-        "ts": 1795073154.032434,
-        "price": 9.2
-      }
-    ],
     "1005010210432531": [
       {
         "channel": "zedstoreonline",
@@ -34145,6 +34148,11 @@
       {
         "channel": "zedstoreonline",
         "ts": 1795079007.8412402,
+        "price": 21.2
+      },
+      {
+        "channel": "aniscoupons",
+        "ts": 1795116402.5847394,
         "price": 21.2
       }
     ],
