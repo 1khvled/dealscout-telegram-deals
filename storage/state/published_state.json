@@ -1531,7 +1531,7 @@
     "1005006411483066": 1794500381.7712336,
     "1005012925301774": 1795085801.1895535,
     "1005012959738411": 1794658966.3702009,
-    "1005008357913212": 1794948819.0338063,
+    "1005008357913212": 1795088381.5492814,
     "1005008703989845": 1795079201.8897693,
     "1005007162099601": 1794524556.2538168,
     "1005007038130594": 1794393500.1320646,
@@ -3663,7 +3663,7 @@
     "Fifine Gaming Headset H9W": 1795003471.3645086,
     "Fifine Gaming Headset H6": 1795003476.8317716,
     "HyperX Cloud 3 III Wired Gaming Headset": 1794998780.0409262,
-    "KOOTION SSD SATA": 1794948819.0338063,
+    "KOOTION SSD SATA": 1795088381.5492814,
     "ال mouse  الشهيرة رجعت🖱️": 1793966875.5755405,
     "هذون سماعات جدد من   HAYLOU⌚": 1795077914.4967594,
     "HAYLOU WATCH 3 NEW": 1795082325.695245,
@@ -3987,7 +3987,6 @@
     "ESSAGER 45W Car Charger PD Fast Charging with Retractable": 1795086173.3845732
   },
   "published_post_keys": [
-    "ecksdeal:6047",
     "ecksdeal:6048",
     "zedstoreonline:39773",
     "zedstoreonline:39776",
@@ -4986,19 +4985,20 @@
     "aniscoupons:35305",
     "lodydeals:46687",
     "lodydeals:46690",
-    "aniscoupons:35306"
+    "aniscoupons:35306",
+    "aniscoupons:35307"
   ],
   "last_disclaimer_time": 1794524540.9476151,
   "last_calendar_time": 1794572799.8939624,
-  "last_run_time": 1795088201.579061,
+  "last_run_time": 1795088381.5492814,
   "monitored_channels": {
     "ecksdeal": {
       "last_message_id": 6110,
       "last_check_time": 1795080301.0556052
     },
     "lodydeals": {
-      "last_message_id": 46690,
-      "last_check_time": 1795088192.2411335
+      "last_message_id": 46692,
+      "last_check_time": 1795088369.7435472
     },
     "test_channel": {
       "last_message_id": 1793967703,
@@ -5021,8 +5021,8 @@
       "last_check_time": 1795086900.1615627
     },
     "aniscoupons": {
-      "last_message_id": 35306,
-      "last_check_time": 1795088203.7256966
+      "last_message_id": 35307,
+      "last_check_time": 1795088383.640858
     },
     "bnddeals": {
       "last_message_id": 51346,
@@ -29135,6 +29135,16 @@
       "price": 11.3,
       "timestamp": 1795088201.579061,
       "status": "ACTIVE"
+    },
+    "aniscoupons:35307": {
+      "channel_msg_id": 3242,
+      "product_id": "1005008357913212",
+      "title": "KOOTION SSD SATA",
+      "channel": "aniscoupons",
+      "source_msg_id": 35307,
+      "price": 40.5,
+      "timestamp": 1795088381.5492814,
+      "status": "ACTIVE"
     }
   },
   "schedule_config": {
@@ -29143,17 +29153,17 @@
     "current_interval_minutes": 5,
     "is_paused": false,
     "night_mode_enabled": true,
-    "last_deal_post_time": 1795088204.910149,
+    "last_deal_post_time": 1795088385.0018718,
     "night_start_hour_dz": 0,
     "night_end_hour_dz": 8,
     "night_pause_enabled": true,
-    "last_sweep_time": 1795088207.9544501,
+    "last_sweep_time": 1795088388.5349517,
     "last_sweep_times": {
-      "algeria": 1795088204.8657255,
-      "france": 1795088207.9544501
+      "algeria": 1795088384.9553516,
+      "france": 1795088388.5349517
     },
     "last_deal_post_times": {
-      "algeria": 1795088204.910149
+      "algeria": 1795088385.0018718
     }
   },
   "last_coin_reminder_time": 1795015271.2437074,
@@ -31953,8 +31963,6 @@
   "published_deals_history": {},
   "settings": {},
   "handled_post_keys": [
-    "zedstoreonline:39839",
-    "aniscoupons:34467",
     "zedstoreonline:39840",
     "aniscoupons:34468",
     "ecksdeal:6054",
@@ -32952,7 +32960,9 @@
     "bnddeals:51346",
     "lodydeals:46686",
     "lodydeals:46688",
-    "lodydeals:46689"
+    "lodydeals:46689",
+    "lodydeals:46691",
+    "lodydeals:46692"
   ],
   "last_france_cross_promo_time": 1794913823.9647303,
   "next_france_cross_promo_interval_seconds": 311842,
@@ -34034,12 +34044,22 @@
         "channel": "zedstoreonline",
         "ts": 1795086899.9888573,
         "price": 11.2
+      },
+      {
+        "channel": "lodydeals",
+        "ts": 1795088369.575504,
+        "price": 11.25
       }
     ],
     "1005008430147176": [
       {
         "channel": "zedstoreonline",
         "ts": 1795085988.5746138,
+        "price": 22.6
+      },
+      {
+        "channel": "lodydeals",
+        "ts": 1795088368.284656,
         "price": 22.6
       }
     ],
@@ -34076,6 +34096,13 @@
         "channel": "lodydeals",
         "ts": 1795088187.6284955,
         "price": 22.78
+      }
+    ],
+    "1005008357913212": [
+      {
+        "channel": "aniscoupons",
+        "ts": 1795088378.8485377,
+        "price": 40.5
       }
     ]
   },
