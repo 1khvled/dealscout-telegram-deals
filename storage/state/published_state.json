@@ -1124,7 +1124,7 @@
     "9998882360": 1792162360.6633363,
     "9998882475": 1793282475.663889,
     "9998882568": 1792162568.078144,
-    "1005010369693975": 1795029350.7460742,
+    "1005010369693975": 1795077003.7521157,
     "1005006442452857": 1792166326.0335298,
     "9998886462": 1792166462.200491,
     "1005009948598802": 1793500786.1935658,
@@ -1318,7 +1318,7 @@
     "COUPONS_d131dda7a0e3": 1793478717.5768087,
     "COUPONS_d131dda7": 1793478717.5923967,
     "COUPONS_11.11 Global Shopping Festival Warm-Up": 1793478717.5923967,
-    "1005008518280704": 1794992184.6988244,
+    "1005008518280704": 1795077010.0031211,
     "1005010527736444": 1793478769.6023057,
     "1005013450996845": 1794995476.4520917,
     "1005013144753309": 1794771014.8038359,
@@ -3141,7 +3141,7 @@
     "RYZEN 7 5700X": 1795005702.3191934,
     "Ⓜ BLACKVIEW WAVE 10C (4/32)": 1792160262.8028278,
     "Ⓜ  TCL 60 NXT PAPER 8/256📱": 1792160269.0502243,
-    "HAYLOU Mori Pro ANC": 1795029350.7460742,
+    "HAYLOU Mori Pro ANC": 1795077003.7521157,
     "HAYLOU S30 Wireless Bluetooth 5.4 Headphones 43dB Adaptive Noise": 1792166326.0335298,
     "HAYLOU Watch Faro Voice Calling Smart Watch": 1792360422.5608404,
     "Redmi Note 12 5G 4/128": 1793543770.1912897,
@@ -3775,7 +3775,7 @@
     "Kootion SSD SATA": 1795075896.7063851,
     "KOOTION SATA SSD 128GB": 1794334097.945569,
     "Kingston DataTraveler 128GB": 1794958362.7165008,
-    "CUSU CV3500  M.2 NVMe SSD (1tb)": 1794992184.6988244,
+    "CUSU CV3500  M.2 NVMe SSD (1tb)": 1795077010.0031211,
     "Kootion X15 M.2 NVMe 256GB": 1794346230.0535362,
     "Baseus BS2 Lite": 1794349536.4429784,
     "حجز وتجدد كوبونات 11.11": 1794363974.314961,
@@ -3955,8 +3955,6 @@
     "realme P4 Lite 4/128GB": 1795076082.27267
   },
   "published_post_keys": [
-    "zedstoreonline:39752",
-    "lodydeals:46258",
     "lodydeals:46259",
     "lodydeals:46262",
     "lodydeals:46263",
@@ -4954,11 +4952,13 @@
     "aniscoupons:35269",
     "zedstoreonline:40407",
     "aniscoupons:35273",
-    "zedstoreonline:40411"
+    "zedstoreonline:40411",
+    "zedstoreonline:40414",
+    "aniscoupons:35276"
   ],
   "last_disclaimer_time": 1794524540.9476151,
   "last_calendar_time": 1794572799.8939624,
-  "last_run_time": 1795076082.27267,
+  "last_run_time": 1795077010.0031211,
   "monitored_channels": {
     "ecksdeal": {
       "last_message_id": 6107,
@@ -4985,12 +4985,12 @@
       "last_check_time": 1793599663.3444748
     },
     "zedstoreonline": {
-      "last_message_id": 40413,
-      "last_check_time": 1795076817.5295732
+      "last_message_id": 40414,
+      "last_check_time": 1795077005.844664
     },
     "aniscoupons": {
-      "last_message_id": 35275,
-      "last_check_time": 1795076628.7241895
+      "last_message_id": 35276,
+      "last_check_time": 1795077012.0896091
     },
     "bnddeals": {
       "last_message_id": 51316,
@@ -5378,7 +5378,7 @@
     "1005013037972159": 85.7,
     "1005013081860728": 111.1,
     "1005013045114640": 100.4,
-    "1005008518280704": 179.4,
+    "1005008518280704": 177.6,
     "1005010527736444": 298.0,
     "1005013450996845": 212.48,
     "1005012171521680": 277.26,
@@ -28678,6 +28678,26 @@
       "price": 133.8,
       "timestamp": 1795076082.27267,
       "status": "ACTIVE"
+    },
+    "zedstoreonline:40414": {
+      "channel_msg_id": 3200,
+      "product_id": "1005010369693975",
+      "title": "HAYLOU Mori Pro ANC",
+      "channel": "zedstoreonline",
+      "source_msg_id": 40414,
+      "price": 10.7,
+      "timestamp": 1795077003.7521157,
+      "status": "ACTIVE"
+    },
+    "aniscoupons:35276": {
+      "channel_msg_id": 3201,
+      "product_id": "1005008518280704",
+      "title": "CUSU CV3500  M.2 NVMe SSD (1tb)",
+      "channel": "aniscoupons",
+      "source_msg_id": 35276,
+      "price": 177.6,
+      "timestamp": 1795077010.0031211,
+      "status": "ACTIVE"
     }
   },
   "schedule_config": {
@@ -28686,17 +28706,17 @@
     "current_interval_minutes": 5,
     "is_paused": false,
     "night_mode_enabled": true,
-    "last_deal_post_time": 1795076086.750193,
+    "last_deal_post_time": 1795077013.133304,
     "night_start_hour_dz": 0,
     "night_end_hour_dz": 8,
     "night_pause_enabled": true,
-    "last_sweep_time": 1795076822.5725129,
+    "last_sweep_time": 1795077016.0780728,
     "last_sweep_times": {
-      "algeria": 1795076819.3914454,
-      "france": 1795076822.5725129
+      "algeria": 1795077013.09264,
+      "france": 1795077016.0780728
     },
     "last_deal_post_times": {
-      "algeria": 1795076086.750193
+      "algeria": 1795077013.133304
     }
   },
   "last_coin_reminder_time": 1795015271.2437074,
@@ -33062,13 +33082,11 @@
         "channel": "aniscoupons",
         "ts": 1795034486.8543408,
         "price": 10.7
-      }
-    ],
-    "1005010575865619": [
+      },
       {
-        "channel": "lodydeals",
-        "ts": 1795033755.208683,
-        "price": 365.89
+        "channel": "zedstoreonline",
+        "ts": 1795077000.8970268,
+        "price": 10.7
       }
     ],
     "1005012191191893": [
@@ -33151,6 +33169,13 @@
         "channel": "bnddeals",
         "ts": 1795076630.8132248,
         "price": 133.5
+      }
+    ],
+    "1005008518280704": [
+      {
+        "channel": "aniscoupons",
+        "ts": 1795077007.7573082,
+        "price": 177.6
       }
     ]
   },
