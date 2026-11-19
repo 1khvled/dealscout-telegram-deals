@@ -1352,7 +1352,7 @@
     "1005009916209766": 1794167239.3538153,
     "1005012537594921": 1793542611.8880281,
     "1005009963377960": 1794312953.1830955,
-    "1005012790844974": 1794855983.1834695,
+    "1005012790844974": 1795078106.4431038,
     "1005010354926803": 1793542626.5536122,
     "1005009621100138": 1793542634.9331498,
     "1005004905380908": 1793542639.2483642,
@@ -1492,7 +1492,7 @@
     "1005008366962319": 1794845411.3284476,
     "1005005058037424": 1793779907.9964287,
     "1005012946895000": 1793793714.105913,
-    "1005012150344482": 1794693680.6924913,
+    "1005012150344482": 1795078113.2768726,
     "1005006972551834": 1793793774.6743867,
     "1005010169268165": 1793794440.9453664,
     "1005010702038861": 1794935200.9462438,
@@ -3414,7 +3414,7 @@
     "كيبورد ميكانيكي Ajazz NK61 Red Switch": 1793542607.3688066,
     "كيبورد ميكانيكي لاسلكي فخم بشاشة Aula F75 Max Wireless": 1793542611.8880281,
     "كيبورد مغناطيسي AULA Win68 HE 8K Magnetic Switch": 1793727358.6485991,
-    "سماعات لاسلكية Epomaker GX1 Wireless": 1794855983.1834695,
+    "سماعات لاسلكية Epomaker GX1 Wireless": 1795078106.4431038,
     "سماعات لاسلكية Aula G7 7.1 Wireless": 1793542626.5536122,
     "كيبورد مغناطيسي AULA Hero68 HE 8K Magnetic Switch": 1793542634.9331498,
     "سماعات الاذن  TANGZU WAN'ER S.G  IEM": 1793542639.2483642,
@@ -3632,7 +3632,7 @@
     "HONOR PAD X8A 4/64GB": 1793908989.4952903,
     "Magcubic HY300 Pro Projector": 1793908994.588809,
     "CUSU SSD SATA3": 1793913777.3174822,
-    "Haylou Solar NEO 2 Amoled": 1794693680.6924913,
+    "Haylou Solar NEO 2 Amoled": 1795078113.2768726,
     "HAYLOU S30 Wireless Bluetooth 5.4 Headphones": 1794313321.761044,
     "HAYLOU Solar Ultra GPS": 1794735713.9376893,
     "NOTHING Watch 3 Pro": 1794913877.9986813,
@@ -3963,8 +3963,6 @@
     "Nothing Buds 2a": 1795077733.2815042
   },
   "published_post_keys": [
-    "lodydeals:46265",
-    "bnddeals:51237",
     "zedstoreonline:39753",
     "lodydeals:46268",
     "lodydeals:46269",
@@ -4962,15 +4960,17 @@
     "bnddeals:51317",
     "aniscoupons:35278",
     "aniscoupons:35280",
-    "bnddeals:51321"
+    "bnddeals:51321",
+    "ecksdeal:6108",
+    "zedstoreonline:40419"
   ],
   "last_disclaimer_time": 1794524540.9476151,
   "last_calendar_time": 1794572799.8939624,
-  "last_run_time": 1795077914.4967594,
+  "last_run_time": 1795078113.2768726,
   "monitored_channels": {
     "ecksdeal": {
-      "last_message_id": 6107,
-      "last_check_time": 1795076444.2495942
+      "last_message_id": 6108,
+      "last_check_time": 1795078108.5318997
     },
     "lodydeals": {
       "last_message_id": 46662,
@@ -4993,16 +4993,16 @@
       "last_check_time": 1793599663.3444748
     },
     "zedstoreonline": {
-      "last_message_id": 40417,
-      "last_check_time": 1795077909.2204006
+      "last_message_id": 40419,
+      "last_check_time": 1795078115.3634107
     },
     "aniscoupons": {
       "last_message_id": 35280,
       "last_check_time": 1795077735.3556128
     },
     "bnddeals": {
-      "last_message_id": 51321,
-      "last_check_time": 1795077916.5971198
+      "last_message_id": 51322,
+      "last_check_time": 1795078118.01145
     }
   },
   "published_product_prices": {
@@ -5239,7 +5239,7 @@
     "1005012751475098": 2.28,
     "1005012545304504": 123.1,
     "1005012826843176": 60.1,
-    "1005012150344482": 18.7,
+    "1005012150344482": 14.7,
     "1005006678195057": 32.62,
     "1005012398164621": 325.9,
     "1005013400815566": 12.4,
@@ -5415,7 +5415,7 @@
     "1005009916209766": 27.14,
     "1005012537594921": 45.74,
     "1005009963377960": 22.2,
-    "1005012790844974": 35.86,
+    "1005012790844974": 35.46,
     "1005010354926803": 19.11,
     "1005009621100138": 35.76,
     "1005004905380908": 8.79,
@@ -28748,6 +28748,26 @@
       "price": 14.5,
       "timestamp": 1795077914.4967594,
       "status": "ACTIVE"
+    },
+    "ecksdeal:6108": {
+      "channel_msg_id": 3206,
+      "product_id": "1005012790844974",
+      "title": "سماعات لاسلكية Epomaker GX1 Wireless",
+      "channel": "ecksdeal",
+      "source_msg_id": 6108,
+      "price": 35.46,
+      "timestamp": 1795078106.4431038,
+      "status": "ACTIVE"
+    },
+    "zedstoreonline:40419": {
+      "channel_msg_id": 3207,
+      "product_id": "1005012150344482",
+      "title": "Haylou Solar NEO 2 Amoled",
+      "channel": "zedstoreonline",
+      "source_msg_id": 40419,
+      "price": 14.7,
+      "timestamp": 1795078113.2768726,
+      "status": "ACTIVE"
     }
   },
   "schedule_config": {
@@ -28756,17 +28776,17 @@
     "current_interval_minutes": 5,
     "is_paused": false,
     "night_mode_enabled": true,
-    "last_deal_post_time": 1795077916.6859024,
+    "last_deal_post_time": 1795078118.0928574,
     "night_start_hour_dz": 0,
     "night_end_hour_dz": 8,
     "night_pause_enabled": true,
-    "last_sweep_time": 1795077919.3114831,
+    "last_sweep_time": 1795078121.3373492,
     "last_sweep_times": {
-      "algeria": 1795077916.6419754,
-      "france": 1795077919.3114831
+      "algeria": 1795078118.0522401,
+      "france": 1795078121.3373492
     },
     "last_deal_post_times": {
-      "algeria": 1795077916.6859024
+      "algeria": 1795078118.0928574
     }
   },
   "last_coin_reminder_time": 1795015271.2437074,
@@ -31554,8 +31574,6 @@
   "published_deals_history": {},
   "settings": {},
   "handled_post_keys": [
-    "aniscoupons:34419",
-    "bnddeals:51246",
     "aniscoupons:34423",
     "zedstoreonline:39826",
     "aniscoupons:34424",
@@ -32553,7 +32571,9 @@
     "aniscoupons:35279",
     "bnddeals:51320",
     "zedstoreonline:40416",
-    "zedstoreonline:40417"
+    "zedstoreonline:40417",
+    "zedstoreonline:40418",
+    "bnddeals:51322"
   ],
   "last_france_cross_promo_time": 1794913823.9647303,
   "next_france_cross_promo_interval_seconds": 311842,
@@ -33257,6 +33277,11 @@
         "channel": "zedstoreonline",
         "ts": 1795077909.056826,
         "price": 11.3
+      },
+      {
+        "channel": "bnddeals",
+        "ts": 1795078117.8720229,
+        "price": 11.3
       }
     ],
     "1005012254132930": [
@@ -33264,6 +33289,20 @@
         "channel": "bnddeals",
         "ts": 1795077912.0422084,
         "price": 14.5
+      }
+    ],
+    "1005012790844974": [
+      {
+        "channel": "ecksdeal",
+        "ts": 1795078103.6599817,
+        "price": 35.46
+      }
+    ],
+    "1005012150344482": [
+      {
+        "channel": "zedstoreonline",
+        "ts": 1795078110.5508354,
+        "price": 14.7
       }
     ]
   },
