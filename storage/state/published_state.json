@@ -1512,7 +1512,7 @@
     "9998887678": 1793967678.8184059,
     "9998887703": 1793967703.2348685,
     "1005008708333999": 1794990350.4568644,
-    "1005012254132930": 1794913886.9009395,
+    "1005012254132930": 1795077914.4967594,
     "1005013028124905": 1793971934.3600886,
     "1005012691642623": 1794074230.5173922,
     "1005010266233059": 1793977272.9654846,
@@ -3650,7 +3650,7 @@
     "HyperX Cloud 3 III Wired Gaming Headset": 1794998780.0409262,
     "KOOTION SSD SATA": 1794948819.0338063,
     "ال mouse  الشهيرة رجعت🖱️": 1793966875.5755405,
-    "هذون سماعات جدد من   HAYLOU⌚": 1793966887.3818936,
+    "هذون سماعات جدد من   HAYLOU⌚": 1795077914.4967594,
     "HAYLOU WATCH 3 NEW": 1793966892.2256048,
     "Vivo Y600 Pro": 1793969543.5771117,
     "MAONO PD100X USB/XL": 1793969903.1419857,
@@ -3963,7 +3963,6 @@
     "Nothing Buds 2a": 1795077733.2815042
   },
   "published_post_keys": [
-    "lodydeals:46264",
     "lodydeals:46265",
     "bnddeals:51237",
     "zedstoreonline:39753",
@@ -4962,11 +4961,12 @@
     "aniscoupons:35276",
     "bnddeals:51317",
     "aniscoupons:35278",
-    "aniscoupons:35280"
+    "aniscoupons:35280",
+    "bnddeals:51321"
   ],
   "last_disclaimer_time": 1794524540.9476151,
   "last_calendar_time": 1794572799.8939624,
-  "last_run_time": 1795077733.2815042,
+  "last_run_time": 1795077914.4967594,
   "monitored_channels": {
     "ecksdeal": {
       "last_message_id": 6107,
@@ -4993,16 +4993,16 @@
       "last_check_time": 1793599663.3444748
     },
     "zedstoreonline": {
-      "last_message_id": 40416,
-      "last_check_time": 1795077729.0310404
+      "last_message_id": 40417,
+      "last_check_time": 1795077909.2204006
     },
     "aniscoupons": {
       "last_message_id": 35280,
       "last_check_time": 1795077735.3556128
     },
     "bnddeals": {
-      "last_message_id": 51320,
-      "last_check_time": 1795077554.4029844
+      "last_message_id": 51321,
+      "last_check_time": 1795077916.5971198
     }
   },
   "published_product_prices": {
@@ -28738,6 +28738,16 @@
       "price": 11.3,
       "timestamp": 1795077733.2815042,
       "status": "ACTIVE"
+    },
+    "bnddeals:51321": {
+      "channel_msg_id": 3205,
+      "product_id": "1005012254132930",
+      "title": "هذون سماعات جدد من   HAYLOU⌚",
+      "channel": "bnddeals",
+      "source_msg_id": 51321,
+      "price": 14.5,
+      "timestamp": 1795077914.4967594,
+      "status": "ACTIVE"
     }
   },
   "schedule_config": {
@@ -28746,17 +28756,17 @@
     "current_interval_minutes": 5,
     "is_paused": false,
     "night_mode_enabled": true,
-    "last_deal_post_time": 1795077736.1833577,
+    "last_deal_post_time": 1795077916.6859024,
     "night_start_hour_dz": 0,
     "night_end_hour_dz": 8,
     "night_pause_enabled": true,
-    "last_sweep_time": 1795077738.3561058,
+    "last_sweep_time": 1795077919.3114831,
     "last_sweep_times": {
-      "algeria": 1795077736.1517804,
-      "france": 1795077738.3561058
+      "algeria": 1795077916.6419754,
+      "france": 1795077919.3114831
     },
     "last_deal_post_times": {
-      "algeria": 1795077736.1833577
+      "algeria": 1795077916.6859024
     }
   },
   "last_coin_reminder_time": 1795015271.2437074,
@@ -29422,7 +29432,7 @@
     "9998887678": "test_channel",
     "9998887703": "test_channel",
     "1005008708333999": "aniscoupons",
-    "1005012254132930": "zedstoreonline",
+    "1005012254132930": "bnddeals",
     "1005013028124905": "zedstoreonline",
     "1005012691642623": "zedstoreonline",
     "1005010266233059": "zedstoreonline",
@@ -31544,7 +31554,6 @@
   "published_deals_history": {},
   "settings": {},
   "handled_post_keys": [
-    "bnddeals:51245",
     "aniscoupons:34419",
     "bnddeals:51246",
     "aniscoupons:34423",
@@ -32543,7 +32552,8 @@
     "zedstoreonline:40415",
     "aniscoupons:35279",
     "bnddeals:51320",
-    "zedstoreonline:40416"
+    "zedstoreonline:40416",
+    "zedstoreonline:40417"
   ],
   "last_france_cross_promo_time": 1794913823.9647303,
   "next_france_cross_promo_interval_seconds": 311842,
@@ -33118,11 +33128,6 @@
   "competitor_product_sightings": {
     "1005010369693975": [
       {
-        "channel": "aniscoupons",
-        "ts": 1795034486.8543408,
-        "price": 10.7
-      },
-      {
         "channel": "zedstoreonline",
         "ts": 1795077000.8970268,
         "price": 10.7
@@ -33245,6 +33250,20 @@
         "channel": "aniscoupons",
         "ts": 1795077007.7573082,
         "price": 177.6
+      }
+    ],
+    "1005010538481521": [
+      {
+        "channel": "zedstoreonline",
+        "ts": 1795077909.056826,
+        "price": 11.3
+      }
+    ],
+    "1005012254132930": [
+      {
+        "channel": "bnddeals",
+        "ts": 1795077912.0422084,
+        "price": 14.5
       }
     ]
   },

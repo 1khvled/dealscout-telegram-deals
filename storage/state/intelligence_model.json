@@ -34,10 +34,10 @@
       "ewma": 0.9994
     },
     "bnddeals": {
-      "seen": 29,
-      "published": 8,
+      "seen": 30,
+      "published": 9,
       "skipped": 0,
-      "ewma": 0.7434
+      "ewma": 0.7639
     },
     "aniscoupons": {
       "seen": 538,
@@ -84,10 +84,10 @@
       "ewma": 0.9428
     },
     "audio": {
-      "seen": 43,
-      "published": 39,
+      "seen": 44,
+      "published": 40,
       "skipped": 0,
-      "ewma": 0.9807
+      "ewma": 0.9822
     }
   },
   "product_prices": {
@@ -1034,6 +1034,7 @@
       14.5,
       14.5,
       14.5,
+      14.5,
       14.5
     ],
     "1005010305059795": [
@@ -1447,23 +1448,15 @@
     ]
   },
   "counters": {
-    "scored": 1078,
-    "verdict_publish": 1034,
+    "scored": 1079,
+    "verdict_publish": 1035,
     "verdict_hold": 44,
     "verdict_skip": 0,
-    "published": 831,
+    "published": 832,
     "skipped": 0
   },
-  "score_sum": 79034.61,
+  "score_sum": 79111.4,
   "recent_decisions": [
-    {
-      "ts": 1794863218,
-      "channel": "aniscoupons",
-      "category": "other",
-      "product_id": "1005013081860728",
-      "score": 71.97,
-      "verdict": "publish"
-    },
     {
       "ts": 1794865808,
       "channel": "aniscoupons",
@@ -3055,7 +3048,15 @@
       "product_id": "1005010538481521",
       "score": 84.59,
       "verdict": "publish"
+    },
+    {
+      "ts": 1795077912,
+      "channel": "bnddeals",
+      "category": "audio",
+      "product_id": "1005012254132930",
+      "score": 76.79,
+      "verdict": "publish"
     }
   ],
-  "updated_at": 1795077733.3361676
+  "updated_at": 1795077914.5706675
 }
