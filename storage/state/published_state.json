@@ -845,7 +845,8 @@
     "1005003624789670",
     "1005008644346729",
     "1005008723396190",
-    "1005011729105677"
+    "1005011729105677",
+    "1005010538481521"
   ],
   "published_product_timestamps": {
     "1005012973772517": 1794500732.7845657,
@@ -1707,7 +1708,8 @@
     "1005003624789670": 1794996764.6923764,
     "1005008644346729": 1794991252.6823444,
     "1005008723396190": 1795072599.5014904,
-    "1005011729105677": 1795077186.2578824
+    "1005011729105677": 1795077186.2578824,
+    "1005010538481521": 1795077733.2815042
   },
   "published_titles": [
     "Wireless WiFi Repeater 300Mbps WiFi Extender Amplifier Booster Router",
@@ -2829,7 +2831,8 @@
     "SOMNAMBULIST SSD 120GB",
     "Kodak SD Card 128GB",
     "realme P4 Lite 4/128GB",
-    "12V Cordless Electric Angle Grinder"
+    "12V Cordless Electric Angle Grinder",
+    "Nothing Buds 2a"
   ],
   "published_title_timestamps": {
     "Xiaomi Redmi Note 17 5G Global Version": 1790857823.0117362,
@@ -3956,10 +3959,10 @@
     "SOMNAMBULIST SSD 120GB": 1795033574.311118,
     "Kodak SD Card 128GB": 1795072599.5014904,
     "realme P4 Lite 4/128GB": 1795076082.27267,
-    "12V Cordless Electric Angle Grinder": 1795077186.2578824
+    "12V Cordless Electric Angle Grinder": 1795077186.2578824,
+    "Nothing Buds 2a": 1795077733.2815042
   },
   "published_post_keys": [
-    "lodydeals:46263",
     "lodydeals:46264",
     "lodydeals:46265",
     "bnddeals:51237",
@@ -4958,11 +4961,12 @@
     "zedstoreonline:40414",
     "aniscoupons:35276",
     "bnddeals:51317",
-    "aniscoupons:35278"
+    "aniscoupons:35278",
+    "aniscoupons:35280"
   ],
   "last_disclaimer_time": 1794524540.9476151,
   "last_calendar_time": 1794572799.8939624,
-  "last_run_time": 1795077549.2084594,
+  "last_run_time": 1795077733.2815042,
   "monitored_channels": {
     "ecksdeal": {
       "last_message_id": 6107,
@@ -4989,12 +4993,12 @@
       "last_check_time": 1793599663.3444748
     },
     "zedstoreonline": {
-      "last_message_id": 40415,
-      "last_check_time": 1795077545.0735455
+      "last_message_id": 40416,
+      "last_check_time": 1795077729.0310404
     },
     "aniscoupons": {
-      "last_message_id": 35279,
-      "last_check_time": 1795077552.3996682
+      "last_message_id": 35280,
+      "last_check_time": 1795077735.3556128
     },
     "bnddeals": {
       "last_message_id": 51320,
@@ -5738,7 +5742,8 @@
     "1005003624789670": 18.33,
     "1005008644346729": 114.99,
     "1005008723396190": 9.2,
-    "1005011729105677": 11.8
+    "1005011729105677": 11.8,
+    "1005010538481521": 11.3
   },
   "channel_published_deals": {
     "aniscoupons:32590": {
@@ -28723,6 +28728,16 @@
       "price": 11.1,
       "timestamp": 1795077549.2084594,
       "status": "ACTIVE"
+    },
+    "aniscoupons:35280": {
+      "channel_msg_id": 3204,
+      "product_id": "1005010538481521",
+      "title": "Nothing Buds 2a",
+      "channel": "aniscoupons",
+      "source_msg_id": 35280,
+      "price": 11.3,
+      "timestamp": 1795077733.2815042,
+      "status": "ACTIVE"
     }
   },
   "schedule_config": {
@@ -28731,17 +28746,17 @@
     "current_interval_minutes": 5,
     "is_paused": false,
     "night_mode_enabled": true,
-    "last_deal_post_time": 1795077554.4736338,
+    "last_deal_post_time": 1795077736.1833577,
     "night_start_hour_dz": 0,
     "night_end_hour_dz": 8,
     "night_pause_enabled": true,
-    "last_sweep_time": 1795077557.062466,
+    "last_sweep_time": 1795077738.3561058,
     "last_sweep_times": {
-      "algeria": 1795077554.4385545,
-      "france": 1795077557.062466
+      "algeria": 1795077736.1517804,
+      "france": 1795077738.3561058
     },
     "last_deal_post_times": {
-      "algeria": 1795077554.4736338
+      "algeria": 1795077736.1833577
     }
   },
   "last_coin_reminder_time": 1795015271.2437074,
@@ -29600,7 +29615,8 @@
     "1005003624789670": "aniscoupons",
     "1005008644346729": "aniscoupons",
     "1005008723396190": "zedstoreonline",
-    "1005011729105677": "bnddeals"
+    "1005011729105677": "bnddeals",
+    "1005010538481521": "aniscoupons"
   },
   "published_title_channels": {
     "Test Wrench Set": "test_channel",
@@ -30729,7 +30745,8 @@
     "SOMNAMBULIST SSD 120GB": "lodydeals",
     "Kodak SD Card 128GB": "zedstoreonline",
     "realme P4 Lite 4/128GB": "zedstoreonline",
-    "12V Cordless Electric Angle Grinder": "bnddeals"
+    "12V Cordless Electric Angle Grinder": "bnddeals",
+    "Nothing Buds 2a": "aniscoupons"
   },
   "religious_reminders_history": {
     "mock_rem": "2026-10-02",
@@ -31527,7 +31544,6 @@
   "published_deals_history": {},
   "settings": {},
   "handled_post_keys": [
-    "zedstoreonline:39823",
     "bnddeals:51245",
     "aniscoupons:34419",
     "bnddeals:51246",
@@ -32526,7 +32542,8 @@
     "bnddeals:51319",
     "zedstoreonline:40415",
     "aniscoupons:35279",
-    "bnddeals:51320"
+    "bnddeals:51320",
+    "zedstoreonline:40416"
   ],
   "last_france_cross_promo_time": 1794913823.9647303,
   "next_france_cross_promo_interval_seconds": 311842,
