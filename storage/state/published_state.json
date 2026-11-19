@@ -942,7 +942,7 @@
     "1005008901941749": 1792785032.5334125,
     "1005010178295650": 1793743848.9735239,
     "1005006861002512": 1791151259.5667012,
-    "1005012285327063": 1795035422.7177825,
+    "1005012285327063": 1795077549.2084594,
     "1005006581583862": 1794852936.201381,
     "1005012816171978": 1792157876.0860639,
     "1005006248571160": 1791012946.4110153,
@@ -2928,7 +2928,7 @@
     "Attack Shark X1": 1790972445.6591878,
     "KUULAA USB C Cable": 1790973051.970508,
     "Wireless WiFi Repeater 300Mbps WiFi Extender Amplifier Booster Router": 1790974856.4783835,
-    "HAYLOU Watch Faro": 1795035422.7177825,
+    "HAYLOU Watch Faro": 1795077549.2084594,
     "HAYLOU S30": 1794852936.201381,
     "Lenovo XT88 TWS Wireless Earphones Bluetooth 5.3 Dual MIC Stereo Noise": 1790976654.120254,
     "VIVO Y600 Pro 8/128GB": 1793656161.7382708,
@@ -3959,7 +3959,6 @@
     "12V Cordless Electric Angle Grinder": 1795077186.2578824
   },
   "published_post_keys": [
-    "lodydeals:46262",
     "lodydeals:46263",
     "lodydeals:46264",
     "lodydeals:46265",
@@ -4958,11 +4957,12 @@
     "zedstoreonline:40411",
     "zedstoreonline:40414",
     "aniscoupons:35276",
-    "bnddeals:51317"
+    "bnddeals:51317",
+    "aniscoupons:35278"
   ],
   "last_disclaimer_time": 1794524540.9476151,
   "last_calendar_time": 1794572799.8939624,
-  "last_run_time": 1795077186.2578824,
+  "last_run_time": 1795077549.2084594,
   "monitored_channels": {
     "ecksdeal": {
       "last_message_id": 6107,
@@ -4989,16 +4989,16 @@
       "last_check_time": 1793599663.3444748
     },
     "zedstoreonline": {
-      "last_message_id": 40414,
-      "last_check_time": 1795077005.844664
+      "last_message_id": 40415,
+      "last_check_time": 1795077545.0735455
     },
     "aniscoupons": {
-      "last_message_id": 35277,
-      "last_check_time": 1795077358.3012526
+      "last_message_id": 35279,
+      "last_check_time": 1795077552.3996682
     },
     "bnddeals": {
-      "last_message_id": 51319,
-      "last_check_time": 1795077360.5482502
+      "last_message_id": 51320,
+      "last_check_time": 1795077554.4029844
     }
   },
   "published_product_prices": {
@@ -5084,7 +5084,7 @@
     "1005012554205120": 7.22,
     "1005008901941749": 0.95,
     "1005006861002512": 13.56,
-    "1005012285327063": 12.11,
+    "1005012285327063": 11.1,
     "1005006581583862": 18.4,
     "1005012816171978": 274.46,
     "1005009834132291": 21.1,
@@ -28713,6 +28713,16 @@
       "price": 11.8,
       "timestamp": 1795077186.2578824,
       "status": "ACTIVE"
+    },
+    "aniscoupons:35278": {
+      "channel_msg_id": 3203,
+      "product_id": "1005012285327063",
+      "title": "HAYLOU Watch Faro",
+      "channel": "aniscoupons",
+      "source_msg_id": 35278,
+      "price": 11.1,
+      "timestamp": 1795077549.2084594,
+      "status": "ACTIVE"
     }
   },
   "schedule_config": {
@@ -28721,17 +28731,17 @@
     "current_interval_minutes": 5,
     "is_paused": false,
     "night_mode_enabled": true,
-    "last_deal_post_time": 1795077188.4257088,
+    "last_deal_post_time": 1795077554.4736338,
     "night_start_hour_dz": 0,
     "night_end_hour_dz": 8,
     "night_pause_enabled": true,
-    "last_sweep_time": 1795077362.9349818,
+    "last_sweep_time": 1795077557.062466,
     "last_sweep_times": {
-      "algeria": 1795077360.5856256,
-      "france": 1795077362.9349818
+      "algeria": 1795077554.4385545,
+      "france": 1795077557.062466
     },
     "last_deal_post_times": {
-      "algeria": 1795077188.4257088
+      "algeria": 1795077554.4736338
     }
   },
   "last_coin_reminder_time": 1795015271.2437074,
@@ -31517,9 +31527,6 @@
   "published_deals_history": {},
   "settings": {},
   "handled_post_keys": [
-    "zedstoreonline:39818",
-    "aniscoupons:34416",
-    "aniscoupons:34418",
     "zedstoreonline:39823",
     "bnddeals:51245",
     "aniscoupons:34419",
@@ -32516,7 +32523,10 @@
     "zedstoreonline:40413",
     "aniscoupons:35277",
     "bnddeals:51318",
-    "bnddeals:51319"
+    "bnddeals:51319",
+    "zedstoreonline:40415",
+    "aniscoupons:35279",
+    "bnddeals:51320"
   ],
   "last_france_cross_promo_time": 1794913823.9647303,
   "next_france_cross_promo_interval_seconds": 311842,
@@ -33091,11 +33101,6 @@
   "competitor_product_sightings": {
     "1005010369693975": [
       {
-        "channel": "lodydeals",
-        "ts": 1795034305.0160446,
-        "price": 10.71
-      },
-      {
         "channel": "aniscoupons",
         "ts": 1795034486.8543408,
         "price": 10.7
@@ -33172,6 +33177,21 @@
         "channel": "aniscoupons",
         "ts": 1795035420.3973355,
         "price": 12.11
+      },
+      {
+        "channel": "aniscoupons",
+        "ts": 1795077546.5666995,
+        "price": 11.1
+      },
+      {
+        "channel": "aniscoupons",
+        "ts": 1795077552.2692485,
+        "price": 11.1
+      },
+      {
+        "channel": "bnddeals",
+        "ts": 1795077554.2618341,
+        "price": 11.1
       }
     ],
     "1005008723396190": [
@@ -33196,6 +33216,11 @@
         "channel": "bnddeals",
         "ts": 1795076630.8132248,
         "price": 133.5
+      },
+      {
+        "channel": "zedstoreonline",
+        "ts": 1795077544.909179,
+        "price": 133.8
       }
     ],
     "1005008518280704": [
