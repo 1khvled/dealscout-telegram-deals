@@ -847,7 +847,8 @@
     "1005008723396190",
     "1005011729105677",
     "1005010538481521",
-    "1005009354317262"
+    "1005009354317262",
+    "1005007721842895"
   ],
   "published_product_timestamps": {
     "1005012973772517": 1794500732.7845657,
@@ -1711,7 +1712,8 @@
     "1005008723396190": 1795072599.5014904,
     "1005011729105677": 1795077186.2578824,
     "1005010538481521": 1795077733.2815042,
-    "1005009354317262": 1795079588.3610423
+    "1005009354317262": 1795079588.3610423,
+    "1005007721842895": 1795083426.9610174
   },
   "published_titles": [
     "Wireless WiFi Repeater 300Mbps WiFi Extender Amplifier Booster Router",
@@ -2839,7 +2841,8 @@
     "Business Travel Best Partner Print Anywhere Inkless 203DPI Portable",
     "HOCO EQ27 – ANC+ENC",
     "CUSU DDR4 8GBx2 3200MHz",
-    "لأكثر طلباً شاحن"
+    "لأكثر طلباً شاحن",
+    "HOCO CS25A 20W PD"
   ],
   "published_title_timestamps": {
     "Xiaomi Redmi Note 17 5G Global Version": 1790857823.0117362,
@@ -3972,10 +3975,10 @@
     "Business Travel Best Partner Print Anywhere Inkless 203DPI Portable": 1795079013.6206362,
     "HOCO EQ27 – ANC+ENC": 1795079588.3610423,
     "CUSU DDR4 8GBx2 3200MHz": 1795081588.9428203,
-    "لأكثر طلباً شاحن": 1795081619.0346873
+    "لأكثر طلباً شاحن": 1795081619.0346873,
+    "HOCO CS25A 20W PD": 1795083426.9610174
   },
   "published_post_keys": [
-    "aniscoupons:34328",
     "aniscoupons:34331",
     "aniscoupons:34332",
     "aniscoupons:34333",
@@ -4974,19 +4977,20 @@
     "aniscoupons:35296",
     "bnddeals:51336",
     "zedstoreonline:40432",
-    "bnddeals:51337"
+    "bnddeals:51337",
+    "lodydeals:46674"
   ],
   "last_disclaimer_time": 1794524540.9476151,
   "last_calendar_time": 1794572799.8939624,
-  "last_run_time": 1795083060.0344934,
+  "last_run_time": 1795083426.9610174,
   "monitored_channels": {
     "ecksdeal": {
       "last_message_id": 6110,
       "last_check_time": 1795080301.0556052
     },
     "lodydeals": {
-      "last_message_id": 46672,
-      "last_check_time": 1795083224.6823215
+      "last_message_id": 46674,
+      "last_check_time": 1795083429.0567398
     },
     "test_channel": {
       "last_message_id": 1793967703,
@@ -5756,7 +5760,8 @@
     "1005008723396190": 9.2,
     "1005011729105677": 11.8,
     "1005010538481521": 11.3,
-    "1005009354317262": 6.4
+    "1005009354317262": 6.4,
+    "1005007721842895": 1.21
   },
   "channel_published_deals": {
     "aniscoupons:32590": {
@@ -28991,6 +28996,16 @@
       "price": 74.2,
       "timestamp": 1795083060.0344934,
       "status": "ACTIVE"
+    },
+    "lodydeals:46674": {
+      "channel_msg_id": 3229,
+      "product_id": "1005007721842895",
+      "title": "HOCO CS25A 20W PD",
+      "channel": "lodydeals",
+      "source_msg_id": 46674,
+      "price": 1.21,
+      "timestamp": 1795083426.9610174,
+      "status": "ACTIVE"
     }
   },
   "schedule_config": {
@@ -28999,17 +29014,17 @@
     "current_interval_minutes": 5,
     "is_paused": false,
     "night_mode_enabled": true,
-    "last_deal_post_time": 1795083062.2761192,
+    "last_deal_post_time": 1795083435.997942,
     "night_start_hour_dz": 0,
     "night_end_hour_dz": 8,
     "night_pause_enabled": true,
-    "last_sweep_time": 1795083234.3099113,
+    "last_sweep_time": 1795083439.2808409,
     "last_sweep_times": {
-      "algeria": 1795083231.2904208,
-      "france": 1795083234.3099113
+      "algeria": 1795083435.9600306,
+      "france": 1795083439.2808409
     },
     "last_deal_post_times": {
-      "algeria": 1795083062.2761192
+      "algeria": 1795083435.997942
     }
   },
   "last_coin_reminder_time": 1795015271.2437074,
@@ -29870,7 +29885,8 @@
     "1005008723396190": "zedstoreonline",
     "1005011729105677": "bnddeals",
     "1005010538481521": "aniscoupons",
-    "1005009354317262": "bnddeals"
+    "1005009354317262": "bnddeals",
+    "1005007721842895": "lodydeals"
   },
   "published_title_channels": {
     "Test Wrench Set": "test_channel",
@@ -31005,7 +31021,8 @@
     "Business Travel Best Partner Print Anywhere Inkless 203DPI Portable": "bnddeals",
     "HOCO EQ27 – ANC+ENC": "bnddeals",
     "CUSU DDR4 8GBx2 3200MHz": "lodydeals",
-    "لأكثر طلباً شاحن": "bnddeals"
+    "لأكثر طلباً شاحن": "bnddeals",
+    "HOCO CS25A 20W PD": "lodydeals"
   },
   "religious_reminders_history": {
     "mock_rem": "2026-10-02",
@@ -31803,7 +31820,6 @@
   "published_deals_history": {},
   "settings": {},
   "handled_post_keys": [
-    "lodydeals:46322",
     "aniscoupons:34439",
     "zedstoreonline:39834",
     "ecksdeal:6051",
@@ -32802,7 +32818,8 @@
     "lodydeals:46671",
     "zedstoreonline:40431",
     "aniscoupons:35297",
-    "lodydeals:46672"
+    "lodydeals:46672",
+    "lodydeals:46673"
   ],
   "last_france_cross_promo_time": 1794913823.9647303,
   "next_france_cross_promo_interval_seconds": 311842,
