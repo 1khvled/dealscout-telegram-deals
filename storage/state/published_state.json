@@ -1039,7 +1039,7 @@
     "9998887532": 1791627532.2548609,
     "9998887893": 1791627893.027416,
     "1005006007773971": 1791638433.4352653,
-    "1005013067004815": 1794400568.4819298,
+    "1005013067004815": 1795093445.0153434,
     "9998885318": 1791675318.975821,
     "9998885569": 1791675569.6911583,
     "COUPONS_54d30f00": 1791676848.283345,
@@ -3080,7 +3080,7 @@
     "Baseus GoTrip VA1 Air Pump": 1791235953.2682726,
     "CMF by Nothing Buds 2A 12.4mm Driver 42dB ANC 4HD MicsLong Battery Life Up": 1791968180.0253317,
     "REALME 15 5G (12/512)": 1792172104.7239766,
-    "Electronic Scale Smart": 1791482965.5086565,
+    "Electronic Scale Smart": 1795093445.0153434,
     "أحدث كوبونات وتخفيضات AliExpress": 1794935378.986234,
     "قرص صلب SSD من CUSU بسعات 1 تيرابايت، 512 جيجابايت، 240 جيجابايت، 480": 1791626816.0179322,
     "مايكروفون ديناميكي Fifine K688": 1793546757.4916894,
@@ -3991,7 +3991,6 @@
     "Wireless Car Air Pump": 1795093229.0666955
   },
   "published_post_keys": [
-    "zedstoreonline:39778",
     "aniscoupons:34344",
     "zedstoreonline:39779",
     "aniscoupons:34345",
@@ -4990,19 +4989,20 @@
     "aniscoupons:35307",
     "lodydeals:46696",
     "aniscoupons:35308",
-    "lodydeals:46699"
+    "lodydeals:46699",
+    "lodydeals:46700"
   ],
   "last_disclaimer_time": 1794524540.9476151,
   "last_calendar_time": 1794572799.8939624,
-  "last_run_time": 1795093229.0666955,
+  "last_run_time": 1795093445.0153434,
   "monitored_channels": {
     "ecksdeal": {
       "last_message_id": 6110,
       "last_check_time": 1795080301.0556052
     },
     "lodydeals": {
-      "last_message_id": 46699,
-      "last_check_time": 1795093231.1338878
+      "last_message_id": 46700,
+      "last_check_time": 1795093447.1195755
     },
     "test_channel": {
       "last_message_id": 1793967703,
@@ -5210,7 +5210,7 @@
     "1005010289640412": 32.06,
     "1005013313539058": 6.52,
     "1005006007773971": 54.15,
-    "1005013067004815": 6.7,
+    "1005013067004815": 7.28,
     "1005006966177706": 3.09,
     "1005012234106869": 1.71,
     "1005010209307090": 190.5,
@@ -29180,6 +29180,16 @@
       "price": 13.6,
       "timestamp": 1795093229.0666955,
       "status": "ACTIVE"
+    },
+    "lodydeals:46700": {
+      "channel_msg_id": 3246,
+      "product_id": "1005013067004815",
+      "title": "Electronic Scale Smart",
+      "channel": "lodydeals",
+      "source_msg_id": 46700,
+      "price": 7.28,
+      "timestamp": 1795093445.0153434,
+      "status": "ACTIVE"
     }
   },
   "schedule_config": {
@@ -29188,17 +29198,17 @@
     "current_interval_minutes": 5,
     "is_paused": false,
     "night_mode_enabled": true,
-    "last_deal_post_time": 1795093236.835935,
+    "last_deal_post_time": 1795093453.1695411,
     "night_start_hour_dz": 0,
     "night_end_hour_dz": 8,
     "night_pause_enabled": true,
-    "last_sweep_time": 1795093239.4645753,
+    "last_sweep_time": 1795093455.7765572,
     "last_sweep_times": {
-      "algeria": 1795093236.8071487,
-      "france": 1795093239.4645753
+      "algeria": 1795093453.122906,
+      "france": 1795093455.7765572
     },
     "last_deal_post_times": {
-      "algeria": 1795093236.835935
+      "algeria": 1795093453.1695411
     }
   },
   "last_coin_reminder_time": 1795015271.2437074,
@@ -29401,7 +29411,7 @@
     "9998887532": "test_channel",
     "9998887893": "test_channel",
     "1005006007773971": "ecksdeal",
-    "1005013067004815": "aniscoupons",
+    "1005013067004815": "lodydeals",
     "9998885318": "test_channel",
     "9998885569": "test_channel",
     "9998886905": "test_channel",
@@ -34181,6 +34191,13 @@
         "channel": "bnddeals",
         "ts": 1795090040.1755376,
         "price": 3.0
+      }
+    ],
+    "1005013067004815": [
+      {
+        "channel": "lodydeals",
+        "ts": 1795093442.7134519,
+        "price": 7.28
       }
     ]
   },
