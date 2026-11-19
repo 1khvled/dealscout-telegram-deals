@@ -848,7 +848,8 @@
     "1005011729105677",
     "1005010538481521",
     "1005009354317262",
-    "1005007721842895"
+    "1005007721842895",
+    "1005012325373696"
   ],
   "published_product_timestamps": {
     "1005012973772517": 1794500732.7845657,
@@ -1713,7 +1714,8 @@
     "1005011729105677": 1795077186.2578824,
     "1005010538481521": 1795077733.2815042,
     "1005009354317262": 1795079588.3610423,
-    "1005007721842895": 1795083426.9610174
+    "1005007721842895": 1795083426.9610174,
+    "1005012325373696": 1795084333.1776772
   },
   "published_titles": [
     "Wireless WiFi Repeater 300Mbps WiFi Extender Amplifier Booster Router",
@@ -2842,7 +2844,8 @@
     "HOCO EQ27 – ANC+ENC",
     "CUSU DDR4 8GBx2 3200MHz",
     "لأكثر طلباً شاحن",
-    "HOCO CS25A 20W PD"
+    "HOCO CS25A 20W PD",
+    "Realme P4 (8/256GB)"
   ],
   "published_title_timestamps": {
     "Xiaomi Redmi Note 17 5G Global Version": 1790857823.0117362,
@@ -3976,10 +3979,10 @@
     "HOCO EQ27 – ANC+ENC": 1795079588.3610423,
     "CUSU DDR4 8GBx2 3200MHz": 1795081588.9428203,
     "لأكثر طلباً شاحن": 1795081619.0346873,
-    "HOCO CS25A 20W PD": 1795083426.9610174
+    "HOCO CS25A 20W PD": 1795083426.9610174,
+    "Realme P4 (8/256GB)": 1795084333.1776772
   },
   "published_post_keys": [
-    "aniscoupons:34333",
     "aniscoupons:34334",
     "zedstoreonline:39762",
     "aniscoupons:34335",
@@ -4978,11 +4981,12 @@
     "bnddeals:51337",
     "lodydeals:46674",
     "zedstoreonline:40433",
-    "aniscoupons:35298"
+    "aniscoupons:35298",
+    "aniscoupons:35300"
   ],
   "last_disclaimer_time": 1794524540.9476151,
   "last_calendar_time": 1794572799.8939624,
-  "last_run_time": 1795083794.6533382,
+  "last_run_time": 1795084333.1776772,
   "monitored_channels": {
     "ecksdeal": {
       "last_message_id": 6110,
@@ -5013,8 +5017,8 @@
       "last_check_time": 1795083606.8857665
     },
     "aniscoupons": {
-      "last_message_id": 35299,
-      "last_check_time": 1795083797.9500482
+      "last_message_id": 35300,
+      "last_check_time": 1795084335.251011
     },
     "bnddeals": {
       "last_message_id": 51338,
@@ -5761,7 +5765,8 @@
     "1005011729105677": 11.8,
     "1005010538481521": 11.3,
     "1005009354317262": 6.4,
-    "1005007721842895": 1.21
+    "1005007721842895": 1.21,
+    "1005012325373696": 203.3
   },
   "channel_published_deals": {
     "aniscoupons:32590": {
@@ -29026,6 +29031,16 @@
       "price": 7.5,
       "timestamp": 1795083794.6533382,
       "status": "ACTIVE"
+    },
+    "aniscoupons:35300": {
+      "channel_msg_id": 3232,
+      "product_id": "1005012325373696",
+      "title": "Realme P4 (8/256GB)",
+      "channel": "aniscoupons",
+      "source_msg_id": 35300,
+      "price": 203.3,
+      "timestamp": 1795084333.1776772,
+      "status": "ACTIVE"
     }
   },
   "schedule_config": {
@@ -29034,17 +29049,17 @@
     "current_interval_minutes": 5,
     "is_paused": false,
     "night_mode_enabled": true,
-    "last_deal_post_time": 1795083799.2692056,
+    "last_deal_post_time": 1795084336.283235,
     "night_start_hour_dz": 0,
     "night_end_hour_dz": 8,
     "night_pause_enabled": true,
-    "last_sweep_time": 1795084153.5667474,
+    "last_sweep_time": 1795084338.6497977,
     "last_sweep_times": {
-      "algeria": 1795084150.5539525,
-      "france": 1795084153.5667474
+      "algeria": 1795084336.24471,
+      "france": 1795084338.6497977
     },
     "last_deal_post_times": {
-      "algeria": 1795083799.2692056
+      "algeria": 1795084336.283235
     }
   },
   "last_coin_reminder_time": 1795015271.2437074,
@@ -29906,7 +29921,8 @@
     "1005011729105677": "bnddeals",
     "1005010538481521": "aniscoupons",
     "1005009354317262": "bnddeals",
-    "1005007721842895": "lodydeals"
+    "1005007721842895": "lodydeals",
+    "1005012325373696": "aniscoupons"
   },
   "published_title_channels": {
     "Test Wrench Set": "test_channel",
@@ -31042,7 +31058,8 @@
     "HOCO EQ27 – ANC+ENC": "bnddeals",
     "CUSU DDR4 8GBx2 3200MHz": "lodydeals",
     "لأكثر طلباً شاحن": "bnddeals",
-    "HOCO CS25A 20W PD": "lodydeals"
+    "HOCO CS25A 20W PD": "lodydeals",
+    "Realme P4 (8/256GB)": "aniscoupons"
   },
   "religious_reminders_history": {
     "mock_rem": "2026-10-02",
