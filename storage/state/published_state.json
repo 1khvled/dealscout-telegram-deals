@@ -857,7 +857,8 @@
     "1005013614035166",
     "1005012047232780",
     "1005013474374644",
-    "1005013304766961"
+    "1005013304766961",
+    "1005013268493740"
   ],
   "published_product_timestamps": {
     "1005012973772517": 1794500732.7845657,
@@ -1731,7 +1732,8 @@
     "1005013614035166": 1795097149.7422955,
     "1005012047232780": 1795097711.3860745,
     "1005013474374644": 1795098824.3191414,
-    "1005013304766961": 1795100294.6239364
+    "1005013304766961": 1795100294.6239364,
+    "1005013268493740": 1795101781.0547688
   },
   "published_titles": [
     "Wireless WiFi Repeater 300Mbps WiFi Extender Amplifier Booster Router",
@@ -2871,7 +2873,8 @@
     "iPhone 16 Pro  256GB",
     "Oppo Find X9 Ultra",
     "VIVO X300 Ultra",
-    "HONOR MAGIC 9 Pro Max"
+    "HONOR MAGIC 9 Pro Max",
+    "Oppo Find X10 Pro max"
   ],
   "published_title_timestamps": {
     "Xiaomi Redmi Note 17 5G Global Version": 1790857823.0117362,
@@ -4016,10 +4019,10 @@
     "iPhone 16 Pro  256GB": 1795097149.7422955,
     "Oppo Find X9 Ultra": 1795097711.3860745,
     "VIVO X300 Ultra": 1795098824.3191414,
-    "HONOR MAGIC 9 Pro Max": 1795100294.6239364
+    "HONOR MAGIC 9 Pro Max": 1795100294.6239364,
+    "Oppo Find X10 Pro max": 1795101781.0547688
   },
   "published_post_keys": [
-    "lodydeals:46292",
     "aniscoupons:34348",
     "zedstoreonline:39785",
     "lodydeals:46294",
@@ -5018,11 +5021,12 @@
     "lodydeals:46704",
     "aniscoupons:35314",
     "aniscoupons:35315",
-    "aniscoupons:35316"
+    "aniscoupons:35316",
+    "aniscoupons:35318"
   ],
   "last_disclaimer_time": 1794524540.9476151,
   "last_calendar_time": 1794572799.8939624,
-  "last_run_time": 1795100294.6239364,
+  "last_run_time": 1795101781.0547688,
   "monitored_channels": {
     "ecksdeal": {
       "last_message_id": 6110,
@@ -5053,8 +5057,8 @@
       "last_check_time": 1795101038.725825
     },
     "aniscoupons": {
-      "last_message_id": 35317,
-      "last_check_time": 1795101222.950502
+      "last_message_id": 35318,
+      "last_check_time": 1795101783.1215065
     },
     "bnddeals": {
       "last_message_id": 51349,
@@ -5810,7 +5814,8 @@
     "1005013614035166": 973.93,
     "1005012047232780": 889.3,
     "1005013474374644": 925.3,
-    "1005013304766961": 930.3
+    "1005013304766961": 930.3,
+    "1005013268493740": 893.9
   },
   "channel_published_deals": {
     "aniscoupons:32590": {
@@ -29295,6 +29300,16 @@
       "price": 930.3,
       "timestamp": 1795100294.6239364,
       "status": "ACTIVE"
+    },
+    "aniscoupons:35318": {
+      "channel_msg_id": 3254,
+      "product_id": "1005013268493740",
+      "title": "Oppo Find X10 Pro max",
+      "channel": "aniscoupons",
+      "source_msg_id": 35318,
+      "price": 893.9,
+      "timestamp": 1795101781.0547688,
+      "status": "ACTIVE"
     }
   },
   "schedule_config": {
@@ -29303,17 +29318,17 @@
     "current_interval_minutes": 5,
     "is_paused": false,
     "night_mode_enabled": true,
-    "last_deal_post_time": 1795100297.5325239,
+    "last_deal_post_time": 1795101783.9683166,
     "night_start_hour_dz": 0,
     "night_end_hour_dz": 8,
     "night_pause_enabled": true,
-    "last_sweep_time": 1795101593.0844643,
+    "last_sweep_time": 1795101786.627196,
     "last_sweep_times": {
-      "algeria": 1795101590.4144628,
-      "france": 1795101593.0844643
+      "algeria": 1795101783.9439487,
+      "france": 1795101786.627196
     },
     "last_deal_post_times": {
-      "algeria": 1795100297.5325239
+      "algeria": 1795101783.9683166
     }
   },
   "last_coin_reminder_time": 1795015271.2437074,
@@ -30184,7 +30199,8 @@
     "1005013614035166": "lodydeals",
     "1005012047232780": "aniscoupons",
     "1005013474374644": "aniscoupons",
-    "1005013304766961": "aniscoupons"
+    "1005013304766961": "aniscoupons",
+    "1005013268493740": "aniscoupons"
   },
   "published_title_channels": {
     "Test Wrench Set": "test_channel",
@@ -31331,7 +31347,8 @@
     "iPhone 16 Pro  256GB": "lodydeals",
     "Oppo Find X9 Ultra": "aniscoupons",
     "VIVO X300 Ultra": "aniscoupons",
-    "HONOR MAGIC 9 Pro Max": "aniscoupons"
+    "HONOR MAGIC 9 Pro Max": "aniscoupons",
+    "Oppo Find X10 Pro max": "aniscoupons"
   },
   "religious_reminders_history": {
     "mock_rem": "2026-10-02",
