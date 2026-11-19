@@ -28,16 +28,16 @@
       "ewma": 0.9994
     },
     "zedstoreonline": {
-      "seen": 377,
-      "published": 236,
+      "seen": 378,
+      "published": 237,
       "skipped": 0,
       "ewma": 0.9994
     },
     "bnddeals": {
-      "seen": 47,
-      "published": 19,
+      "seen": 48,
+      "published": 20,
       "skipped": 0,
-      "ewma": 0.8974
+      "ewma": 0.9056
     },
     "aniscoupons": {
       "seen": 565,
@@ -54,8 +54,8 @@
   },
   "category_stats": {
     "other": {
-      "seen": 435,
-      "published": 373,
+      "seen": 437,
+      "published": 375,
       "skipped": 0,
       "ewma": 0.9994
     },
@@ -431,7 +431,8 @@
     ],
     "1005009834132291": [
       21.1,
-      21.1
+      21.1,
+      22.6
     ],
     "1005013399086495": [
       758.3,
@@ -1088,7 +1089,8 @@
       79.58,
       79.5,
       79.5,
-      79.5
+      79.5,
+      82.5
     ],
     "1005009118633225": [
       12.37
@@ -1548,31 +1550,15 @@
     ]
   },
   "counters": {
-    "scored": 1156,
-    "verdict_publish": 1110,
+    "scored": 1158,
+    "verdict_publish": 1112,
     "verdict_hold": 46,
     "verdict_skip": 0,
-    "published": 894,
+    "published": 896,
     "skipped": 0
   },
-  "score_sum": 84769.69,
+  "score_sum": 84919.85,
   "recent_decisions": [
-    {
-      "ts": 1794945143,
-      "channel": "aniscoupons",
-      "category": "pc",
-      "product_id": "1005012970221631",
-      "score": 71.76,
-      "verdict": "publish"
-    },
-    {
-      "ts": 1794945690,
-      "channel": "aniscoupons",
-      "category": "phones",
-      "product_id": "1005013361453762",
-      "score": 70.69,
-      "verdict": "publish"
-    },
     {
       "ts": 1794946244,
       "channel": "aniscoupons",
@@ -3156,7 +3142,23 @@
       "product_id": "1005007027334636",
       "score": 90.68,
       "verdict": "publish"
+    },
+    {
+      "ts": 1795118641,
+      "channel": "zedstoreonline",
+      "category": "other",
+      "product_id": "1005011754993234",
+      "score": 73.06,
+      "verdict": "publish"
+    },
+    {
+      "ts": 1795118648,
+      "channel": "bnddeals",
+      "category": "other",
+      "product_id": "1005009834132291",
+      "score": 77.1,
+      "verdict": "publish"
     }
   ],
-  "updated_at": 1795117337.5525854
+  "updated_at": 1795118650.552835
 }

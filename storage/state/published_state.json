@@ -1081,7 +1081,7 @@
     "1005007345151855": 1791942667.867043,
     "1005010345227483": 1793299548.5548651,
     "1005011557896041": 1794845264.512838,
-    "1005011754993234": 1794935476.2911777,
+    "1005011754993234": 1795118643.8899262,
     "1005011735727412": 1791943783.9162278,
     "1005007916078341": 1795083604.7836761,
     "1005006506862816": 1791947519.5815504,
@@ -1106,7 +1106,7 @@
     "1005012933967378": 1792103193.622027,
     "1005010812635861": 1792160246.020243,
     "1005008500550817": 1792025664.1703467,
-    "1005009834132291": 1794478912.5670652,
+    "1005009834132291": 1795118650.494316,
     "1005008077568655": 1794999150.7012253,
     "1005009774318553": 1793543777.6383033,
     "1005012585389764": 1792061322.5579543,
@@ -3147,7 +3147,7 @@
     "لووووووووووووز controller 🎮": 1791942667.867043,
     "جديد علامة ©️©️©️©️🆕": 1791942676.1983886,
     "AMD Ryzen 7 7800X3D": 1794845264.512838,
-    "AMD Ryzen 5 8400F": 1794935476.2911777,
+    "AMD Ryzen 5 8400F": 1795118643.8899262,
     "Disco Duro SSD CUSU 1TB 512GB 240GB 480GB SATA 2.5'' SATA3 Disco SSD 128GB": 1791943777.8506553,
     "🔝 مانات قووووة ل جماعة mobile gaming 🎮": 1792017738.3981204,
     "Honor Choice Infowear Watch 2i Smartwatch AMOLED": 1791943825.002781,
@@ -3176,7 +3176,7 @@
     "ماوس ألعاب سلكي خفيف الوزن من GameSir GM500 مزود بمستشعر بصري يصل إلى 12000 DPI": 1792025644.3094199,
     "Anker Nano 3 Pro 45W GaN + Cable": 1793467031.5081036,
     "محبوبة الجماهير controller🎮": 1792025664.1703467,
-    "EasySMX X05 Pro Wireless Gamepad": 1792025670.659584,
+    "EasySMX X05 Pro Wireless Gamepad": 1795118650.494316,
     "MACHENIKE G5Pro Max SE Gaming Controller": 1792032611.9670143,
     "قرص تخزين خارجي محمول CUSU SSD سعة 512 جيجابايت": 1792050974.7243752,
     "CUSU SSD 512GB": 1793966691.5688944,
@@ -4045,8 +4045,6 @@
     "MAGCUBIC HY300 PRO Projector": 1795112692.4915283
   },
   "published_post_keys": [
-    "zedstoreonline:39795",
-    "aniscoupons:34358",
     "aniscoupons:34357",
     "zedstoreonline:39796",
     "aniscoupons:34360",
@@ -5044,11 +5042,13 @@
     "zedstoreonline:40458",
     "zedstoreonline:40459",
     "aniscoupons:35328",
-    "aniscoupons:35329"
+    "aniscoupons:35329",
+    "zedstoreonline:40461",
+    "bnddeals:51355"
   ],
   "last_disclaimer_time": 1794524540.9476151,
   "last_calendar_time": 1794572799.8939624,
-  "last_run_time": 1795116404.8944776,
+  "last_run_time": 1795118650.494316,
   "monitored_channels": {
     "ecksdeal": {
       "last_message_id": 6110,
@@ -5075,16 +5075,16 @@
       "last_check_time": 1793599663.3444748
     },
     "zedstoreonline": {
-      "last_message_id": 40460,
-      "last_check_time": 1795115097.268366
+      "last_message_id": 40461,
+      "last_check_time": 1795118645.9770374
     },
     "aniscoupons": {
       "last_message_id": 35331,
       "last_check_time": 1795117338.0663497
     },
     "bnddeals": {
-      "last_message_id": 51354,
-      "last_check_time": 1795118468.721805
+      "last_message_id": 51355,
+      "last_check_time": 1795118652.569473
     }
   },
   "published_product_prices": {
@@ -5173,7 +5173,7 @@
     "1005012285327063": 11.1,
     "1005006581583862": 18.4,
     "1005012816171978": 274.46,
-    "1005009834132291": 21.1,
+    "1005009834132291": 22.6,
     "1005010585654037": 22.78,
     "1005006248571160": 16.8,
     "1005009390995992": 29.33,
@@ -5275,7 +5275,7 @@
     "1005007345151855": 40.0,
     "1005010345227483": 200.0,
     "1005011557896041": 240.7,
-    "1005011754993234": 79.5,
+    "1005011754993234": 82.5,
     "1005011735727412": 26.6,
     "1005013039644752": 265.7,
     "1005007916078341": 52.3,
@@ -29468,6 +29468,26 @@
       "price": 21.2,
       "timestamp": 1795116404.8944776,
       "status": "ACTIVE"
+    },
+    "zedstoreonline:40461": {
+      "channel_msg_id": 3269,
+      "product_id": "1005011754993234",
+      "title": "AMD Ryzen 5 8400F",
+      "channel": "zedstoreonline",
+      "source_msg_id": 40461,
+      "price": 82.5,
+      "timestamp": 1795118643.8899262,
+      "status": "ACTIVE"
+    },
+    "bnddeals:51355": {
+      "channel_msg_id": 3270,
+      "product_id": "1005009834132291",
+      "title": "EasySMX X05 Pro Wireless Gamepad",
+      "channel": "bnddeals",
+      "source_msg_id": 51355,
+      "price": 22.6,
+      "timestamp": 1795118650.494316,
+      "status": "ACTIVE"
     }
   },
   "schedule_config": {
@@ -29476,17 +29496,17 @@
     "current_interval_minutes": 5,
     "is_paused": false,
     "night_mode_enabled": true,
-    "last_deal_post_time": 1795116407.9507077,
+    "last_deal_post_time": 1795118652.7038085,
     "night_start_hour_dz": 0,
     "night_end_hour_dz": 8,
     "night_pause_enabled": true,
-    "last_sweep_time": 1795118471.496336,
+    "last_sweep_time": 1795118655.1796708,
     "last_sweep_times": {
-      "algeria": 1795118468.7726333,
-      "france": 1795118471.496336
+      "algeria": 1795118652.609432,
+      "france": 1795118655.1796708
     },
     "last_deal_post_times": {
-      "algeria": 1795116407.9507077
+      "algeria": 1795118652.7038085
     }
   },
   "last_coin_reminder_time": 1795015271.2437074,
@@ -29580,7 +29600,7 @@
     "1005012285327063": "aniscoupons",
     "1005006581583862": "aniscoupons",
     "1005012816171978": "lodydeals",
-    "1005009834132291": "aniscoupons",
+    "1005009834132291": "bnddeals",
     "1005010585654037": "lodydeals",
     "1005006248571160": "bnddeals",
     "1005009390995992": "bnddeals",
@@ -34650,6 +34670,20 @@
         "channel": "bnddeals",
         "ts": 1795118468.5364802,
         "price": 42.0
+      }
+    ],
+    "1005011754993234": [
+      {
+        "channel": "zedstoreonline",
+        "ts": 1795118641.7784977,
+        "price": 82.5
+      }
+    ],
+    "1005009834132291": [
+      {
+        "channel": "bnddeals",
+        "ts": 1795118648.5944686,
+        "price": 22.6
       }
     ]
   },
