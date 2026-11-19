@@ -1067,7 +1067,7 @@
     "1005011557896041": 1794845264.512838,
     "1005011754993234": 1794935476.2911777,
     "1005011735727412": 1791943783.9162278,
-    "1005007916078341": 1794990707.3414822,
+    "1005007916078341": 1795083604.7836761,
     "1005006506862816": 1791947519.5815504,
     "1005008072923842": 1791968144.109348,
     "1005013336240375": 1791968149.7952893,
@@ -3645,7 +3645,7 @@
     "Haylou Solar NEO 2 Amoled": 1795078113.2768726,
     "HAYLOU S30 Wireless Bluetooth 5.4 Headphones": 1794313321.761044,
     "HAYLOU Solar Ultra GPS": 1794735713.9376893,
-    "NOTHING Watch 3 Pro": 1794913877.9986813,
+    "NOTHING Watch 3 Pro": 1795083604.7836761,
     "مشترك كهربائي ORICO PD25W – محطة شحن مكتبية تضم منفذي Type-C ومنفذي USB-A ومقبسين AC لشحن الأجهزة وت": 1793966711.2525856,
     "Baseus Mouse Bluetooth Wireless Computer 1600DPI": 1793966716.198834,
     "Soundcore by Anker Q20i Hybrid Active Noise Cancelling Headphones Wireless": 1794658033.5242174,
@@ -3979,7 +3979,6 @@
     "HOCO CS25A 20W PD": 1795083426.9610174
   },
   "published_post_keys": [
-    "aniscoupons:34331",
     "aniscoupons:34332",
     "aniscoupons:34333",
     "aniscoupons:34334",
@@ -4978,11 +4977,12 @@
     "bnddeals:51336",
     "zedstoreonline:40432",
     "bnddeals:51337",
-    "lodydeals:46674"
+    "lodydeals:46674",
+    "zedstoreonline:40433"
   ],
   "last_disclaimer_time": 1794524540.9476151,
   "last_calendar_time": 1794572799.8939624,
-  "last_run_time": 1795083426.9610174,
+  "last_run_time": 1795083604.7836761,
   "monitored_channels": {
     "ecksdeal": {
       "last_message_id": 6110,
@@ -5009,8 +5009,8 @@
       "last_check_time": 1793599663.3444748
     },
     "zedstoreonline": {
-      "last_message_id": 40432,
-      "last_check_time": 1795082868.6707368
+      "last_message_id": 40433,
+      "last_check_time": 1795083606.8857665
     },
     "aniscoupons": {
       "last_message_id": 35297,
@@ -5212,7 +5212,7 @@
     "1005011754993234": 79.5,
     "1005011735727412": 26.6,
     "1005013039644752": 265.7,
-    "1005007916078341": 47.4,
+    "1005007916078341": 52.3,
     "1005006506862816": 11.86,
     "1005008072923842": 2.21,
     "1005013336240375": 4.18,
@@ -29006,6 +29006,16 @@
       "price": 1.21,
       "timestamp": 1795083426.9610174,
       "status": "ACTIVE"
+    },
+    "zedstoreonline:40433": {
+      "channel_msg_id": 3230,
+      "product_id": "1005007916078341",
+      "title": "NOTHING Watch 3 Pro",
+      "channel": "zedstoreonline",
+      "source_msg_id": 40433,
+      "price": 52.3,
+      "timestamp": 1795083604.7836761,
+      "status": "ACTIVE"
     }
   },
   "schedule_config": {
@@ -29014,17 +29024,17 @@
     "current_interval_minutes": 5,
     "is_paused": false,
     "night_mode_enabled": true,
-    "last_deal_post_time": 1795083435.997942,
+    "last_deal_post_time": 1795083609.3728983,
     "night_start_hour_dz": 0,
     "night_end_hour_dz": 8,
     "night_pause_enabled": true,
-    "last_sweep_time": 1795083439.2808409,
+    "last_sweep_time": 1795083612.8155243,
     "last_sweep_times": {
-      "algeria": 1795083435.9600306,
-      "france": 1795083439.2808409
+      "algeria": 1795083609.3272653,
+      "france": 1795083612.8155243
     },
     "last_deal_post_times": {
-      "algeria": 1795083435.997942
+      "algeria": 1795083609.3728983
     }
   },
   "last_coin_reminder_time": 1795015271.2437074,
@@ -29254,7 +29264,7 @@
     "1005011754993234": "zedstoreonline",
     "1005011735727412": "bnddeals",
     "1005013039644752": "aniscoupons",
-    "1005007916078341": "aniscoupons",
+    "1005007916078341": "zedstoreonline",
     "1005006506862816": "couponsglobal",
     "1005008072923842": "pcgamingpart",
     "1005013336240375": "pcgamingpart",
@@ -33804,6 +33814,13 @@
         "channel": "bnddeals",
         "ts": 1795083057.3592308,
         "price": 74.2
+      }
+    ],
+    "1005007916078341": [
+      {
+        "channel": "zedstoreonline",
+        "ts": 1795083602.014191,
+        "price": 52.3
       }
     ]
   },
