@@ -4961,8 +4961,8 @@
   "last_run_time": 1795076082.27267,
   "monitored_channels": {
     "ecksdeal": {
-      "last_message_id": 6106,
-      "last_check_time": 1795075350.1953816
+      "last_message_id": 6107,
+      "last_check_time": 1795076444.2495942
     },
     "lodydeals": {
       "last_message_id": 46662,
@@ -4985,12 +4985,12 @@
       "last_check_time": 1793599663.3444748
     },
     "zedstoreonline": {
-      "last_message_id": 40411,
-      "last_check_time": 1795076084.3521774
+      "last_message_id": 40412,
+      "last_check_time": 1795076445.2611024
     },
     "aniscoupons": {
-      "last_message_id": 35273,
-      "last_check_time": 1795075898.7783566
+      "last_message_id": 35274,
+      "last_check_time": 1795076447.4012866
     },
     "bnddeals": {
       "last_message_id": 51315,
@@ -28690,10 +28690,10 @@
     "night_start_hour_dz": 0,
     "night_end_hour_dz": 8,
     "night_pause_enabled": true,
-    "last_sweep_time": 1795076259.0647714,
+    "last_sweep_time": 1795076451.092348,
     "last_sweep_times": {
-      "algeria": 1795076256.5704353,
-      "france": 1795076259.0647714
+      "algeria": 1795076448.3423383,
+      "france": 1795076451.092348
     },
     "last_deal_post_times": {
       "algeria": 1795076086.750193
@@ -31480,9 +31480,6 @@
   "published_deals_history": {},
   "settings": {},
   "handled_post_keys": [
-    "aniscoupons:34398",
-    "lodydeals:46321",
-    "zedstoreonline:39809",
     "zedstoreonline:39811",
     "zedstoreonline:39813",
     "zedstoreonline:39814",
@@ -32479,7 +32476,10 @@
     "bnddeals:51313",
     "lodydeals:46662",
     "bnddeals:51314",
-    "bnddeals:51315"
+    "bnddeals:51315",
+    "ecksdeal:6107",
+    "zedstoreonline:40412",
+    "aniscoupons:35274"
   ],
   "last_france_cross_promo_time": 1794913823.9647303,
   "next_france_cross_promo_interval_seconds": 311842,
@@ -33088,6 +33088,11 @@
         "channel": "bnddeals",
         "ts": 1795076255.965397,
         "price": 3.0
+      },
+      {
+        "channel": "aniscoupons",
+        "ts": 1795076446.7664087,
+        "price": 10.55
       }
     ],
     "1005012726037568": [
@@ -33110,6 +33115,11 @@
         "channel": "bnddeals",
         "ts": 1795076086.5827825,
         "price": 7.3
+      },
+      {
+        "channel": "ecksdeal",
+        "ts": 1795076444.0864851,
+        "price": 7.56
       }
     ],
     "1005012285327063": [

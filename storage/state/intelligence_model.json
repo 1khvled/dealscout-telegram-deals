@@ -40,7 +40,7 @@
       "ewma": 0.7211
     },
     "aniscoupons": {
-      "seen": 534,
+      "seen": 535,
       "published": 457,
       "skipped": 0,
       "ewma": 0.9994
@@ -60,7 +60,7 @@
       "ewma": 0.9994
     },
     "pc": {
-      "seen": 196,
+      "seen": 197,
       "published": 148,
       "skipped": 0,
       "ewma": 0.9994
@@ -1440,23 +1440,15 @@
     ]
   },
   "counters": {
-    "scored": 1071,
-    "verdict_publish": 1027,
+    "scored": 1072,
+    "verdict_publish": 1028,
     "verdict_hold": 44,
     "verdict_skip": 0,
     "published": 826,
     "skipped": 0
   },
-  "score_sum": 78473.76,
+  "score_sum": 78566.18,
   "recent_decisions": [
-    {
-      "ts": 1794861690,
-      "channel": "lodydeals",
-      "category": "accessories",
-      "product_id": "1005007168829266",
-      "score": 72.23,
-      "verdict": "publish"
-    },
     {
       "ts": 1794861882,
       "channel": "lodydeals",
@@ -3048,7 +3040,15 @@
       "product_id": "1005007027334636",
       "score": 90.76,
       "verdict": "publish"
+    },
+    {
+      "ts": 1795076446,
+      "channel": "aniscoupons",
+      "category": "pc",
+      "product_id": "1005007027334636",
+      "score": 92.42,
+      "verdict": "publish"
     }
   ],
-  "updated_at": 1795076256.0095816
+  "updated_at": 1795076446.8321273
 }
