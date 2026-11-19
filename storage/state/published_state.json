@@ -1411,7 +1411,7 @@
     "1005013438789813": 1793569553.2022223,
     "1005012823102793": 1793569904.419889,
     "1005012773302941": 1794683510.1887808,
-    "1005008430147176": 1794935250.8141804,
+    "1005008430147176": 1795085991.192385,
     "1005011742851856": 1793793769.5631576,
     "1005006304425302": 1793656107.995781,
     "1005010487426245": 1793573558.2913802,
@@ -3787,7 +3787,7 @@
     "FIFINE M9 Wireless Lavalier Microphone": 1794424903.9490352,
     "AULA WIN68 HE Gaming Mechanical Keyboard": 1794312953.1830955,
     "CMF Buds 2a ANC -42dB  السعر: 11.7": 1794312964.1163073,
-    "MACHENIKE G1 Wireless Gaming Controller": 1794935250.8141804,
+    "MACHENIKE G1 Wireless Gaming Controller": 1795085991.192385,
     "HAYLOU Mori Pro": 1794992721.2661278,
     "KOOTION SATA3 SSD 128GB": 1794585682.0605152,
     "Inphic YuanChuang Cyber Gaming Mouse": 1794320674.833981,
@@ -3985,7 +3985,6 @@
     "Ulanzi ST-06S ✅": 1795085808.5784442
   },
   "published_post_keys": [
-    "aniscoupons:34336",
     "aniscoupons:34337",
     "aniscoupons:34339",
     "lodydeals:46281",
@@ -4984,19 +4983,20 @@
     "aniscoupons:35300",
     "aniscoupons:35303",
     "zedstoreonline:40434",
-    "bnddeals:51341"
+    "bnddeals:51341",
+    "zedstoreonline:40435"
   ],
   "last_disclaimer_time": 1794524540.9476151,
   "last_calendar_time": 1794572799.8939624,
-  "last_run_time": 1795085808.5784442,
+  "last_run_time": 1795085991.192385,
   "monitored_channels": {
     "ecksdeal": {
       "last_message_id": 6110,
       "last_check_time": 1795080301.0556052
     },
     "lodydeals": {
-      "last_message_id": 46679,
-      "last_check_time": 1795085793.407366
+      "last_message_id": 46680,
+      "last_check_time": 1795085982.0946732
     },
     "test_channel": {
       "last_message_id": 1793967703,
@@ -5015,12 +5015,12 @@
       "last_check_time": 1793599663.3444748
     },
     "zedstoreonline": {
-      "last_message_id": 40434,
-      "last_check_time": 1795085803.2731557
+      "last_message_id": 40435,
+      "last_check_time": 1795085993.299128
     },
     "aniscoupons": {
-      "last_message_id": 35303,
-      "last_check_time": 1795085078.4023519
+      "last_message_id": 35304,
+      "last_check_time": 1795085995.946015
     },
     "bnddeals": {
       "last_message_id": 51341,
@@ -5495,7 +5495,7 @@
     "1005013438789813": 408.02,
     "1005012823102793": 226.25,
     "1005012773302941": 17.06,
-    "1005008430147176": 20.4,
+    "1005008430147176": 22.6,
     "1005011742851856": 12.8,
     "1005006304425302": 2.24,
     "1005010487426245": 7.74,
@@ -29073,6 +29073,16 @@
       "price": 11.2,
       "timestamp": 1795085808.5784442,
       "status": "ACTIVE"
+    },
+    "zedstoreonline:40435": {
+      "channel_msg_id": 3236,
+      "product_id": "1005008430147176",
+      "title": "MACHENIKE G1 Wireless Gaming Controller",
+      "channel": "zedstoreonline",
+      "source_msg_id": 40435,
+      "price": 22.6,
+      "timestamp": 1795085991.192385,
+      "status": "ACTIVE"
     }
   },
   "schedule_config": {
@@ -29081,17 +29091,17 @@
     "current_interval_minutes": 5,
     "is_paused": false,
     "night_mode_enabled": true,
-    "last_deal_post_time": 1795085810.7363095,
+    "last_deal_post_time": 1795085996.9235103,
     "night_start_hour_dz": 0,
     "night_end_hour_dz": 8,
     "night_pause_enabled": true,
-    "last_sweep_time": 1795085813.6736887,
+    "last_sweep_time": 1795086000.4363291,
     "last_sweep_times": {
-      "algeria": 1795085810.6992931,
-      "france": 1795085813.6736887
+      "algeria": 1795085996.8780408,
+      "france": 1795086000.4363291
     },
     "last_deal_post_times": {
-      "algeria": 1795085810.7363095
+      "algeria": 1795085996.9235103
     }
   },
   "last_coin_reminder_time": 1795015271.2437074,
@@ -31890,8 +31900,6 @@
   "published_deals_history": {},
   "settings": {},
   "handled_post_keys": [
-    "zedstoreonline:39835",
-    "zedstoreonline:39836",
     "aniscoupons:34447",
     "lodydeals:46326",
     "aniscoupons:34449",
@@ -32889,7 +32897,9 @@
     "bnddeals:51339",
     "lodydeals:46676",
     "bnddeals:51340",
-    "lodydeals:46679"
+    "lodydeals:46679",
+    "lodydeals:46680",
+    "aniscoupons:35304"
   ],
   "last_france_cross_promo_time": 1794913823.9647303,
   "next_france_cross_promo_interval_seconds": 311842,
@@ -33941,6 +33951,18 @@
         "channel": "bnddeals",
         "ts": 1795085805.9367409,
         "price": 11.2
+      },
+      {
+        "channel": "aniscoupons",
+        "ts": 1795085995.7778575,
+        "price": 11.2
+      }
+    ],
+    "1005008430147176": [
+      {
+        "channel": "zedstoreonline",
+        "ts": 1795085988.5746138,
+        "price": 22.6
       }
     ]
   },

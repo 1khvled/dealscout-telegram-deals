@@ -28,8 +28,8 @@
       "ewma": 0.9994
     },
     "zedstoreonline": {
-      "seen": 369,
-      "published": 231,
+      "seen": 370,
+      "published": 232,
       "skipped": 0,
       "ewma": 0.9994
     },
@@ -60,8 +60,8 @@
       "ewma": 0.9994
     },
     "pc": {
-      "seen": 206,
-      "published": 155,
+      "seen": 207,
+      "published": 156,
       "skipped": 0,
       "ewma": 0.9994
     },
@@ -483,7 +483,8 @@
     "1005008430147176": [
       20.4,
       20.41,
-      20.4
+      20.4,
+      22.6
     ],
     "1005010485068924": [
       22.47,
@@ -1485,23 +1486,15 @@
     ]
   },
   "counters": {
-    "scored": 1115,
-    "verdict_publish": 1071,
+    "scored": 1116,
+    "verdict_publish": 1072,
     "verdict_hold": 44,
     "verdict_skip": 0,
-    "published": 862,
+    "published": 863,
     "skipped": 0
   },
-  "score_sum": 81757.69,
+  "score_sum": 81821.31,
   "recent_decisions": [
-    {
-      "ts": 1794914063,
-      "channel": "aniscoupons",
-      "category": "accessories",
-      "product_id": "1005008077568655",
-      "score": 72.92,
-      "verdict": "publish"
-    },
     {
       "ts": 1794914074,
       "channel": "bnddeals",
@@ -3093,7 +3086,15 @@
       "product_id": "1005003156756854",
       "score": 68.38,
       "verdict": "publish"
+    },
+    {
+      "ts": 1795085988,
+      "channel": "zedstoreonline",
+      "category": "pc",
+      "product_id": "1005008430147176",
+      "score": 63.62,
+      "verdict": "publish"
     }
   ],
-  "updated_at": 1795085808.6400237
+  "updated_at": 1795085991.2726772
 }
