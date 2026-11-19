@@ -1338,7 +1338,7 @@
     "9998881955": 1793541955.4874578,
     "9998882236": 1793542236.891774,
     "1005012401488201": 1793542360.268408,
-    "1005012135177627": 1794845393.90179,
+    "1005012135177627": 1795080686.538359,
     "1005013455514231": 1793542445.2859337,
     "1005009578274758": 1793542479.8362749,
     "1005010413332383": 1794847054.8094091,
@@ -3872,7 +3872,7 @@
     "ماوس لاسلكي Delux M800 Mini Series": 1794591382.6548223,
     "Lexar V400 USB3.0 64GB": 1794593403.339319,
     "HAYLOU S40 ANC Wireless": 1795080125.0187495,
-    "CUSU Memory DDR5 (16GB) 6000MHz": 1794845393.90179,
+    "CUSU Memory DDR5 (16GB) 6000MHz": 1795080686.538359,
     "Realme 15 Pro (12/512GB)": 1794998227.2322433,
     "MAONO T1 Plus Dual-Capsule Wireless Lavalier Microphone Lapel Microphone": 1794599278.9506347,
     "Blackview OSCAL PILOT 5  8/256": 1794604060.7762444,
@@ -3971,7 +3971,6 @@
     "HOCO EQ27 – ANC+ENC": 1795079588.3610423
   },
   "published_post_keys": [
-    "aniscoupons:34318",
     "aniscoupons:34319",
     "aniscoupons:34320",
     "aniscoupons:34321",
@@ -4970,19 +4969,20 @@
     "ecksdeal:6109",
     "zedstoreonline:40423",
     "ecksdeal:6110",
-    "zedstoreonline:40424"
+    "zedstoreonline:40424",
+    "aniscoupons:35291"
   ],
   "last_disclaimer_time": 1794524540.9476151,
   "last_calendar_time": 1794572799.8939624,
-  "last_run_time": 1795080308.058737,
+  "last_run_time": 1795080686.538359,
   "monitored_channels": {
     "ecksdeal": {
       "last_message_id": 6110,
       "last_check_time": 1795080301.0556052
     },
     "lodydeals": {
-      "last_message_id": 46664,
-      "last_check_time": 1795078827.6719713
+      "last_message_id": 46665,
+      "last_check_time": 1795080668.7619288
     },
     "test_channel": {
       "last_message_id": 1793967703,
@@ -5001,12 +5001,12 @@
       "last_check_time": 1793599663.3444748
     },
     "zedstoreonline": {
-      "last_message_id": 40424,
-      "last_check_time": 1795080310.1182165
+      "last_message_id": 40425,
+      "last_check_time": 1795080679.831067
     },
     "aniscoupons": {
-      "last_message_id": 35290,
-      "last_check_time": 1795080480.7161698
+      "last_message_id": 35291,
+      "last_check_time": 1795080688.616057
     },
     "bnddeals": {
       "last_message_id": 51330,
@@ -5408,7 +5408,7 @@
     "1005012536471204": 603.9,
     "1005010243337678": 598.26,
     "1005012401488201": 30.35,
-    "1005012135177627": 177.8,
+    "1005012135177627": 177.9,
     "1005013455514231": 66.71,
     "1005009578274758": 7.63,
     "1005010413332383": 340.38,
@@ -28897,6 +28897,16 @@
       "price": 175.9,
       "timestamp": 1795080308.058737,
       "status": "ACTIVE"
+    },
+    "aniscoupons:35291": {
+      "channel_msg_id": 3220,
+      "product_id": "1005012135177627",
+      "title": "CUSU Memory DDR5 (16GB) 6000MHz",
+      "channel": "aniscoupons",
+      "source_msg_id": 35291,
+      "price": 177.9,
+      "timestamp": 1795080686.538359,
+      "status": "ACTIVE"
     }
   },
   "schedule_config": {
@@ -28905,17 +28915,17 @@
     "current_interval_minutes": 5,
     "is_paused": false,
     "night_mode_enabled": true,
-    "last_deal_post_time": 1795080311.5645423,
+    "last_deal_post_time": 1795080689.7305312,
     "night_start_hour_dz": 0,
     "night_end_hour_dz": 8,
     "night_pause_enabled": true,
-    "last_sweep_time": 1795080484.104744,
+    "last_sweep_time": 1795080693.2926548,
     "last_sweep_times": {
-      "algeria": 1795080481.5973935,
-      "france": 1795080484.104744
+      "algeria": 1795080689.6929674,
+      "france": 1795080693.2926548
     },
     "last_deal_post_times": {
-      "algeria": 1795080311.5645423
+      "algeria": 1795080689.7305312
     }
   },
   "last_coin_reminder_time": 1795015271.2437074,
@@ -31707,8 +31717,6 @@
   "published_deals_history": {},
   "settings": {},
   "handled_post_keys": [
-    "bnddeals:51252",
-    "bnddeals:51253",
     "aniscoupons:34434",
     "bnddeals:51254",
     "zedstoreonline:39828",
@@ -32706,7 +32714,9 @@
     "aniscoupons:35288",
     "bnddeals:51330",
     "aniscoupons:35289",
-    "aniscoupons:35290"
+    "aniscoupons:35290",
+    "lodydeals:46665",
+    "zedstoreonline:40425"
   ],
   "last_france_cross_promo_time": 1794913823.9647303,
   "next_france_cross_promo_interval_seconds": 311842,
@@ -33579,6 +33589,13 @@
         "channel": "zedstoreonline",
         "ts": 1795080305.6949763,
         "price": 175.9
+      }
+    ],
+    "1005012135177627": [
+      {
+        "channel": "aniscoupons",
+        "ts": 1795080683.360813,
+        "price": 177.9
       }
     ]
   },
