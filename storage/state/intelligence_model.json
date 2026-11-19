@@ -22,8 +22,8 @@
   "flow_target": 24.0,
   "channel_stats": {
     "lodydeals": {
-      "seen": 126,
-      "published": 117,
+      "seen": 127,
+      "published": 118,
       "skipped": 0,
       "ewma": 0.9994
     },
@@ -54,8 +54,8 @@
   },
   "category_stats": {
     "other": {
-      "seen": 426,
-      "published": 364,
+      "seen": 427,
+      "published": 365,
       "skipped": 0,
       "ewma": 0.9994
     },
@@ -1494,26 +1494,21 @@
     ],
     "1005010585654037": [
       22.78
+    ],
+    "1005012929627900": [
+      13.6
     ]
   },
   "counters": {
-    "scored": 1126,
-    "verdict_publish": 1081,
+    "scored": 1127,
+    "verdict_publish": 1082,
     "verdict_hold": 45,
     "verdict_skip": 0,
-    "published": 871,
+    "published": 872,
     "skipped": 0
   },
-  "score_sum": 82522.08,
+  "score_sum": 82597.66,
   "recent_decisions": [
-    {
-      "ts": 1794935232,
-      "channel": "zedstoreonline",
-      "category": "audio",
-      "product_id": "1005010376374580",
-      "score": 50.24,
-      "verdict": "hold"
-    },
     {
       "ts": 1794935237,
       "channel": "zedstoreonline",
@@ -3105,7 +3100,15 @@
       "product_id": "1005007096934754",
       "score": 83.57,
       "verdict": "publish"
+    },
+    {
+      "ts": 1795093226,
+      "channel": "lodydeals",
+      "category": "other",
+      "product_id": "1005012929627900",
+      "score": 75.58,
+      "verdict": "publish"
     }
   ],
-  "updated_at": 1795090040.2466514
+  "updated_at": 1795093229.1167736
 }

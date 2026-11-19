@@ -849,7 +849,8 @@
     "1005010538481521",
     "1005009354317262",
     "1005007721842895",
-    "1005012325373696"
+    "1005012325373696",
+    "1005012929627900"
   ],
   "published_product_timestamps": {
     "1005012973772517": 1794500732.7845657,
@@ -1715,7 +1716,8 @@
     "1005010538481521": 1795088201.579061,
     "1005009354317262": 1795079588.3610423,
     "1005007721842895": 1795083426.9610174,
-    "1005012325373696": 1795084333.1776772
+    "1005012325373696": 1795084333.1776772,
+    "1005012929627900": 1795093229.0666955
   },
   "published_titles": [
     "Wireless WiFi Repeater 300Mbps WiFi Extender Amplifier Booster Router",
@@ -2847,7 +2849,8 @@
     "HOCO CS25A 20W PD",
     "Realme P4 (8/256GB)",
     "Ulanzi ST-06S ✅",
-    "ESSAGER 45W Car Charger PD Fast Charging with Retractable"
+    "ESSAGER 45W Car Charger PD Fast Charging with Retractable",
+    "Wireless Car Air Pump"
   ],
   "published_title_timestamps": {
     "Xiaomi Redmi Note 17 5G Global Version": 1790857823.0117362,
@@ -3984,10 +3987,10 @@
     "HOCO CS25A 20W PD": 1795083426.9610174,
     "Realme P4 (8/256GB)": 1795084333.1776772,
     "Ulanzi ST-06S ✅": 1795085808.5784442,
-    "ESSAGER 45W Car Charger PD Fast Charging with Retractable": 1795086173.3845732
+    "ESSAGER 45W Car Charger PD Fast Charging with Retractable": 1795086173.3845732,
+    "Wireless Car Air Pump": 1795093229.0666955
   },
   "published_post_keys": [
-    "zedstoreonline:39776",
     "zedstoreonline:39778",
     "aniscoupons:34344",
     "zedstoreonline:39779",
@@ -4986,19 +4989,20 @@
     "aniscoupons:35306",
     "aniscoupons:35307",
     "lodydeals:46696",
-    "aniscoupons:35308"
+    "aniscoupons:35308",
+    "lodydeals:46699"
   ],
   "last_disclaimer_time": 1794524540.9476151,
   "last_calendar_time": 1794572799.8939624,
-  "last_run_time": 1795090036.0940757,
+  "last_run_time": 1795093229.0666955,
   "monitored_channels": {
     "ecksdeal": {
       "last_message_id": 6110,
       "last_check_time": 1795080301.0556052
     },
     "lodydeals": {
-      "last_message_id": 46698,
-      "last_check_time": 1795093046.2919497
+      "last_message_id": 46699,
+      "last_check_time": 1795093231.1338878
     },
     "test_channel": {
       "last_message_id": 1793967703,
@@ -5770,7 +5774,8 @@
     "1005010538481521": 11.3,
     "1005009354317262": 6.4,
     "1005007721842895": 1.21,
-    "1005012325373696": 203.3
+    "1005012325373696": 203.3,
+    "1005012929627900": 13.6
   },
   "channel_published_deals": {
     "aniscoupons:32590": {
@@ -29165,6 +29170,16 @@
       "price": 37.5,
       "timestamp": 1795090036.0940757,
       "status": "ACTIVE"
+    },
+    "lodydeals:46699": {
+      "channel_msg_id": 3245,
+      "product_id": "1005012929627900",
+      "title": "Wireless Car Air Pump",
+      "channel": "lodydeals",
+      "source_msg_id": 46699,
+      "price": 13.6,
+      "timestamp": 1795093229.0666955,
+      "status": "ACTIVE"
     }
   },
   "schedule_config": {
@@ -29173,17 +29188,17 @@
     "current_interval_minutes": 5,
     "is_paused": false,
     "night_mode_enabled": true,
-    "last_deal_post_time": 1795090040.7967434,
+    "last_deal_post_time": 1795093236.835935,
     "night_start_hour_dz": 0,
     "night_end_hour_dz": 8,
     "night_pause_enabled": true,
-    "last_sweep_time": 1795093056.1227334,
+    "last_sweep_time": 1795093239.4645753,
     "last_sweep_times": {
-      "algeria": 1795093052.9549878,
-      "france": 1795093056.1227334
+      "algeria": 1795093236.8071487,
+      "france": 1795093239.4645753
     },
     "last_deal_post_times": {
-      "algeria": 1795090040.7967434
+      "algeria": 1795093236.835935
     }
   },
   "last_coin_reminder_time": 1795015271.2437074,
@@ -30046,7 +30061,8 @@
     "1005010538481521": "aniscoupons",
     "1005009354317262": "bnddeals",
     "1005007721842895": "lodydeals",
-    "1005012325373696": "aniscoupons"
+    "1005012325373696": "aniscoupons",
+    "1005012929627900": "lodydeals"
   },
   "published_title_channels": {
     "Test Wrench Set": "test_channel",
@@ -31185,7 +31201,8 @@
     "HOCO CS25A 20W PD": "lodydeals",
     "Realme P4 (8/256GB)": "aniscoupons",
     "Ulanzi ST-06S ✅": "bnddeals",
-    "ESSAGER 45W Car Charger PD Fast Charging with Retractable": "bnddeals"
+    "ESSAGER 45W Car Charger PD Fast Charging with Retractable": "bnddeals",
+    "Wireless Car Air Pump": "lodydeals"
   },
   "religious_reminders_history": {
     "mock_rem": "2026-10-02",
