@@ -860,7 +860,8 @@
     "1005013304766961",
     "1005013268493740",
     "1005012408109331",
-    "1005013304783085"
+    "1005013304783085",
+    "1005013633649876"
   ],
   "published_product_timestamps": {
     "1005012973772517": 1794500732.7845657,
@@ -1737,7 +1738,8 @@
     "1005013304766961": 1795100294.6239364,
     "1005013268493740": 1795101781.0547688,
     "1005012408109331": 1795102336.0045958,
-    "1005013304783085": 1795103262.750217
+    "1005013304783085": 1795103262.750217,
+    "1005013633649876": 1795104359.6206825
   },
   "published_titles": [
     "Wireless WiFi Repeater 300Mbps WiFi Extender Amplifier Booster Router",
@@ -2880,7 +2882,8 @@
     "HONOR MAGIC 9 Pro Max",
     "Oppo Find X10 Pro max",
     "Honor Magic 8 Pro Air",
-    "Honor Magic 9 SE"
+    "Honor Magic 9 SE",
+    "8L FOLDING WASHING MACHINE"
   ],
   "published_title_timestamps": {
     "Xiaomi Redmi Note 17 5G Global Version": 1790857823.0117362,
@@ -4028,10 +4031,10 @@
     "HONOR MAGIC 9 Pro Max": 1795100294.6239364,
     "Oppo Find X10 Pro max": 1795101781.0547688,
     "Honor Magic 8 Pro Air": 1795102336.0045958,
-    "Honor Magic 9 SE": 1795103262.750217
+    "Honor Magic 9 SE": 1795103262.750217,
+    "8L FOLDING WASHING MACHINE": 1795104359.6206825
   },
   "published_post_keys": [
-    "aniscoupons:34349",
     "zedstoreonline:39787",
     "aniscoupons:34350",
     "aniscoupons:34351",
@@ -5030,11 +5033,12 @@
     "aniscoupons:35318",
     "aniscoupons:35319",
     "aniscoupons:35320",
-    "aniscoupons:35321"
+    "aniscoupons:35321",
+    "aniscoupons:35323"
   ],
   "last_disclaimer_time": 1794524540.9476151,
   "last_calendar_time": 1794572799.8939624,
-  "last_run_time": 1795103808.7530327,
+  "last_run_time": 1795104359.6206825,
   "monitored_channels": {
     "ecksdeal": {
       "last_message_id": 6110,
@@ -5065,8 +5069,8 @@
       "last_check_time": 1795103991.7491994
     },
     "aniscoupons": {
-      "last_message_id": 35322,
-      "last_check_time": 1795104174.1864324
+      "last_message_id": 35323,
+      "last_check_time": 1795104361.7243497
     },
     "bnddeals": {
       "last_message_id": 51349,
@@ -5825,7 +5829,8 @@
     "1005013304766961": 930.3,
     "1005013268493740": 893.9,
     "1005012408109331": 661.2,
-    "1005013304783085": 597.9
+    "1005013304783085": 597.9,
+    "1005013633649876": 12.9
   },
   "channel_published_deals": {
     "aniscoupons:32590": {
@@ -29350,6 +29355,16 @@
       "price": 13.7,
       "timestamp": 1795103808.7530327,
       "status": "ACTIVE"
+    },
+    "aniscoupons:35323": {
+      "channel_msg_id": 3258,
+      "product_id": "1005013633649876",
+      "title": "8L FOLDING WASHING MACHINE",
+      "channel": "aniscoupons",
+      "source_msg_id": 35323,
+      "price": 12.9,
+      "timestamp": 1795104359.6206825,
+      "status": "ACTIVE"
     }
   },
   "schedule_config": {
@@ -29358,17 +29373,17 @@
     "current_interval_minutes": 5,
     "is_paused": false,
     "night_mode_enabled": true,
-    "last_deal_post_time": 1795103811.752021,
+    "last_deal_post_time": 1795104362.9536982,
     "night_start_hour_dz": 0,
     "night_end_hour_dz": 8,
     "night_pause_enabled": true,
-    "last_sweep_time": 1795104177.395338,
+    "last_sweep_time": 1795104365.5827587,
     "last_sweep_times": {
-      "algeria": 1795104174.9749553,
-      "france": 1795104177.395338
+      "algeria": 1795104362.9065037,
+      "france": 1795104365.5827587
     },
     "last_deal_post_times": {
-      "algeria": 1795103811.752021
+      "algeria": 1795104362.9536982
     }
   },
   "last_coin_reminder_time": 1795015271.2437074,
@@ -30242,7 +30257,8 @@
     "1005013304766961": "aniscoupons",
     "1005013268493740": "aniscoupons",
     "1005012408109331": "aniscoupons",
-    "1005013304783085": "aniscoupons"
+    "1005013304783085": "aniscoupons",
+    "1005013633649876": "aniscoupons"
   },
   "published_title_channels": {
     "Test Wrench Set": "test_channel",
@@ -31392,7 +31408,8 @@
     "HONOR MAGIC 9 Pro Max": "aniscoupons",
     "Oppo Find X10 Pro max": "aniscoupons",
     "Honor Magic 8 Pro Air": "aniscoupons",
-    "Honor Magic 9 SE": "aniscoupons"
+    "Honor Magic 9 SE": "aniscoupons",
+    "8L FOLDING WASHING MACHINE": "aniscoupons"
   },
   "religious_reminders_history": {
     "mock_rem": "2026-10-02",
