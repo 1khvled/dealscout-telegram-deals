@@ -1697,7 +1697,7 @@
     "1005012965284882": 1795027703.9087646,
     "1005004886782975": 1794755267.1243844,
     "1005013168050663": 1794759633.8642445,
-    "1005012970221631": 1794991629.6061988,
+    "1005012970221631": 1795083060.0344934,
     "1005008637007198": 1794771008.638466,
     "1005008521959756": 1794852895.9711866,
     "1005009982675898": 1794852971.2646165,
@@ -3935,7 +3935,7 @@
     "UnionSine External HDD 2TB": 1794755267.1243844,
     "HONOR WIN RT 12/256GB": 1794997865.6657422,
     "INFLATABLE LAZY AIR SOFA": 1794759633.8642445,
-    "Crucial RAM 8GB×2 DDR4 2400MHz": 1794991629.6061988,
+    "Crucial RAM 8GB×2 DDR4 2400MHz": 1795083060.0344934,
     "Netac NVMe 3500MB/S 500GB": 1794771008.638466,
     "SMAILWOLF L80": 1794998044.6375778,
     "GIGABYTE B550M K Motherboard": 1795008458.7584739,
@@ -3975,7 +3975,6 @@
     "لأكثر طلباً شاحن": 1795081619.0346873
   },
   "published_post_keys": [
-    "lodydeals:46276",
     "aniscoupons:34328",
     "aniscoupons:34331",
     "aniscoupons:34332",
@@ -4974,11 +4973,12 @@
     "aniscoupons:35294",
     "aniscoupons:35296",
     "bnddeals:51336",
-    "zedstoreonline:40432"
+    "zedstoreonline:40432",
+    "bnddeals:51337"
   ],
   "last_disclaimer_time": 1794524540.9476151,
   "last_calendar_time": 1794572799.8939624,
-  "last_run_time": 1795082866.519863,
+  "last_run_time": 1795083060.0344934,
   "monitored_channels": {
     "ecksdeal": {
       "last_message_id": 6110,
@@ -5013,8 +5013,8 @@
       "last_check_time": 1795082506.1760201
     },
     "bnddeals": {
-      "last_message_id": 51336,
-      "last_check_time": 1795082327.7915945
+      "last_message_id": 51337,
+      "last_check_time": 1795083062.1358898
     }
   },
   "published_product_prices": {
@@ -5744,7 +5744,7 @@
     "1005012965284882": 18.03,
     "1005004886782975": 64.14,
     "1005013168050663": 9.4,
-    "1005012970221631": 69.7,
+    "1005012970221631": 74.2,
     "1005008637007198": 52.39,
     "1005008521959756": 98.21,
     "1005009982675898": 17.1,
@@ -28981,6 +28981,16 @@
       "price": 133.8,
       "timestamp": 1795082866.519863,
       "status": "ACTIVE"
+    },
+    "bnddeals:51337": {
+      "channel_msg_id": 3228,
+      "product_id": "1005012970221631",
+      "title": "Crucial RAM 8GB×2 DDR4 2400MHz",
+      "channel": "bnddeals",
+      "source_msg_id": 51337,
+      "price": 74.2,
+      "timestamp": 1795083060.0344934,
+      "status": "ACTIVE"
     }
   },
   "schedule_config": {
@@ -28989,17 +28999,17 @@
     "current_interval_minutes": 5,
     "is_paused": false,
     "night_mode_enabled": true,
-    "last_deal_post_time": 1795082870.6846402,
+    "last_deal_post_time": 1795083062.2761192,
     "night_start_hour_dz": 0,
     "night_end_hour_dz": 8,
     "night_pause_enabled": true,
-    "last_sweep_time": 1795082873.3343565,
+    "last_sweep_time": 1795083065.3997054,
     "last_sweep_times": {
-      "algeria": 1795082870.639355,
-      "france": 1795082873.3343565
+      "algeria": 1795083062.229499,
+      "france": 1795083065.3997054
     },
     "last_deal_post_times": {
-      "algeria": 1795082870.6846402
+      "algeria": 1795083062.2761192
     }
   },
   "last_coin_reminder_time": 1795015271.2437074,
@@ -29847,7 +29857,7 @@
     "1005012965284882": "ecksdeal",
     "1005004886782975": "lodydeals",
     "1005013168050663": "aniscoupons",
-    "1005012970221631": "aniscoupons",
+    "1005012970221631": "bnddeals",
     "1005008637007198": "lodydeals",
     "1005008521959756": "lodydeals",
     "1005009982675898": "aniscoupons",
@@ -30958,7 +30968,7 @@
     "UnionSine External HDD 2TB": "lodydeals",
     "HONOR WIN RT 12/256GB": "aniscoupons",
     "INFLATABLE LAZY AIR SOFA": "aniscoupons",
-    "Crucial RAM 8GB×2 DDR4 2400MHz": "aniscoupons",
+    "Crucial RAM 8GB×2 DDR4 2400MHz": "bnddeals",
     "Netac NVMe 3500MB/S 500GB": "lodydeals",
     "SMAILWOLF L80": "aniscoupons",
     "GIGABYTE B550M K Motherboard": "aniscoupons",
@@ -33770,6 +33780,13 @@
         "channel": "bnddeals",
         "ts": 1795082323.3456483,
         "price": 17.8
+      }
+    ],
+    "1005012970221631": [
+      {
+        "channel": "bnddeals",
+        "ts": 1795083057.3592308,
+        "price": 74.2
       }
     ]
   },
