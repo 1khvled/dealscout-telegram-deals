@@ -22,8 +22,8 @@
   "flow_target": 24.0,
   "channel_stats": {
     "lodydeals": {
-      "seen": 123,
-      "published": 114,
+      "seen": 124,
+      "published": 115,
       "skipped": 0,
       "ewma": 0.9994
     },
@@ -54,8 +54,8 @@
   },
   "category_stats": {
     "other": {
-      "seen": 421,
-      "published": 360,
+      "seen": 422,
+      "published": 361,
       "skipped": 0,
       "ewma": 0.9994
     },
@@ -565,7 +565,8 @@
       53.24
     ],
     "1005012292809645": [
-      37.69
+      37.69,
+      37.52
     ],
     "1005008774483451": [
       40.1,
@@ -1490,23 +1491,15 @@
     ]
   },
   "counters": {
-    "scored": 1119,
-    "verdict_publish": 1075,
+    "scored": 1120,
+    "verdict_publish": 1076,
     "verdict_hold": 44,
     "verdict_skip": 0,
-    "published": 865,
+    "published": 866,
     "skipped": 0
   },
-  "score_sum": 82031.88,
+  "score_sum": 82103.6,
   "recent_decisions": [
-    {
-      "ts": 1794935193,
-      "channel": "ecksdeal",
-      "category": "audio",
-      "product_id": "1005010702511858",
-      "score": 58.11,
-      "verdict": "hold"
-    },
     {
       "ts": 1794935198,
       "channel": "ecksdeal",
@@ -3098,7 +3091,15 @@
       "product_id": "1005008774483451",
       "score": 69.05,
       "verdict": "publish"
+    },
+    {
+      "ts": 1795087817,
+      "channel": "lodydeals",
+      "category": "other",
+      "product_id": "1005012292809645",
+      "score": 71.72,
+      "verdict": "publish"
     }
   ],
-  "updated_at": 1795087264.9560108
+  "updated_at": 1795087819.240404
 }
