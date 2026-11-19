@@ -1338,7 +1338,7 @@
     "COUPONS_d131dda7a0e3": 1793478717.5768087,
     "COUPONS_d131dda7": 1793478717.5923967,
     "COUPONS_11.11 Global Shopping Festival Warm-Up": 1793478717.5923967,
-    "1005008518280704": 1795077010.0031211,
+    "1005008518280704": 1795124868.4158998,
     "1005010527736444": 1793478769.6023057,
     "1005013450996845": 1794995476.4520917,
     "1005013144753309": 1794771014.8038359,
@@ -3840,7 +3840,7 @@
     "Kootion SSD SATA": 1795113438.2427025,
     "KOOTION SATA SSD 128GB": 1794334097.945569,
     "Kingston DataTraveler 128GB": 1794958362.7165008,
-    "CUSU CV3500  M.2 NVMe SSD (1tb)": 1795077010.0031211,
+    "CUSU CV3500  M.2 NVMe SSD (1tb)": 1795124868.4158998,
     "Kootion X15 M.2 NVMe 256GB": 1794346230.0535362,
     "Baseus BS2 Lite": 1794349536.4429784,
     "حجز وتجدد كوبونات 11.11": 1794363974.314961,
@@ -4045,7 +4045,6 @@
     "MAGCUBIC HY300 PRO Projector": 1795112692.4915283
   },
   "published_post_keys": [
-    "zedstoreonline:39796",
     "aniscoupons:34360",
     "aniscoupons:34361",
     "lodydeals:46299",
@@ -5044,11 +5043,12 @@
     "aniscoupons:35329",
     "zedstoreonline:40461",
     "bnddeals:51355",
-    "zedstoreonline:40462"
+    "zedstoreonline:40462",
+    "aniscoupons:35334"
   ],
   "last_disclaimer_time": 1794524540.9476151,
   "last_calendar_time": 1794572799.8939624,
-  "last_run_time": 1795119213.875791,
+  "last_run_time": 1795124868.4158998,
   "monitored_channels": {
     "ecksdeal": {
       "last_message_id": 6110,
@@ -5079,8 +5079,8 @@
       "last_check_time": 1795122202.929093
     },
     "aniscoupons": {
-      "last_message_id": 35333,
-      "last_check_time": 1795124483.1311927
+      "last_message_id": 35334,
+      "last_check_time": 1795124870.491742
     },
     "bnddeals": {
       "last_message_id": 51357,
@@ -29498,6 +29498,16 @@
       "price": 99.7,
       "timestamp": 1795119213.875791,
       "status": "ACTIVE"
+    },
+    "aniscoupons:35334": {
+      "channel_msg_id": 3272,
+      "product_id": "1005008518280704",
+      "title": "CUSU CV3500  M.2 NVMe SSD (1tb)",
+      "channel": "aniscoupons",
+      "source_msg_id": 35334,
+      "price": 177.6,
+      "timestamp": 1795124868.4158998,
+      "status": "ACTIVE"
     }
   },
   "schedule_config": {
@@ -29506,17 +29516,17 @@
     "current_interval_minutes": 5,
     "is_paused": false,
     "night_mode_enabled": true,
-    "last_deal_post_time": 1795119221.3307347,
+    "last_deal_post_time": 1795124871.6539135,
     "night_start_hour_dz": 0,
     "night_end_hour_dz": 8,
     "night_pause_enabled": true,
-    "last_sweep_time": 1795124676.4691474,
+    "last_sweep_time": 1795124874.73688,
     "last_sweep_times": {
-      "algeria": 1795124673.8320312,
-      "france": 1795124676.4691474
+      "algeria": 1795124871.621609,
+      "france": 1795124874.73688
     },
     "last_deal_post_times": {
-      "algeria": 1795119221.3307347
+      "algeria": 1795124871.6539135
     }
   },
   "last_coin_reminder_time": 1795015271.2437074,
@@ -34030,20 +34040,6 @@
         "price": 228.32
       }
     ],
-    "1005009560287420": [
-      {
-        "channel": "bnddeals",
-        "ts": 1795081424.6664202,
-        "price": 52.3
-      }
-    ],
-    "1005009354317262": [
-      {
-        "channel": "lodydeals",
-        "ts": 1795081404.8812118,
-        "price": 6.57
-      }
-    ],
     "1005010305059795": [
       {
         "channel": "aniscoupons",
@@ -34058,18 +34054,6 @@
         "price": 115.9
       }
     ],
-    "1005011778621042": [
-      {
-        "channel": "zedstoreonline",
-        "ts": 1795081599.6317565,
-        "price": 119.5
-      },
-      {
-        "channel": "aniscoupons",
-        "ts": 1795081613.4354067,
-        "price": 119.5
-      }
-    ],
     "1005011779814585": [
       {
         "channel": "zedstoreonline",
@@ -34077,38 +34061,7 @@
         "price": 179.0
       }
     ],
-    "1005012135177627": [
-      {
-        "channel": "lodydeals",
-        "ts": 1795081582.6821926,
-        "price": 177.9
-      }
-    ],
-    "1005007168829266": [
-      {
-        "channel": "zedstoreonline",
-        "ts": 1795081417.135724,
-        "price": 4.1
-      },
-      {
-        "channel": "bnddeals",
-        "ts": 1795081616.5406256,
-        "price": 16.5
-      }
-    ],
-    "1005012138794873": [
-      {
-        "channel": "lodydeals",
-        "ts": 1795081586.2996037,
-        "price": 86.01
-      }
-    ],
     "1005010470699571": [
-      {
-        "channel": "zedstoreonline",
-        "ts": 1795081604.5398967,
-        "price": 17.8
-      },
       {
         "channel": "bnddeals",
         "ts": 1795087093.5148754,
@@ -34450,6 +34403,13 @@
         "channel": "zedstoreonline",
         "ts": 1795119219.2805562,
         "price": 98.3
+      }
+    ],
+    "1005008518280704": [
+      {
+        "channel": "aniscoupons",
+        "ts": 1795124865.6988473,
+        "price": 177.6
       }
     ]
   },
