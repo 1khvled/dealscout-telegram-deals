@@ -852,7 +852,9 @@
     "1005012325373696",
     "1005012929627900",
     "1005009465190932",
-    "1005013270397194"
+    "1005013270397194",
+    "1005013611971758",
+    "1005013614035166"
   ],
   "published_product_timestamps": {
     "1005012973772517": 1794500732.7845657,
@@ -1721,7 +1723,9 @@
     "1005012325373696": 1795084333.1776772,
     "1005012929627900": 1795093229.0666955,
     "1005009465190932": 1795095306.94495,
-    "1005013270397194": 1795096787.4537058
+    "1005013270397194": 1795096787.4537058,
+    "1005013611971758": 1795097142.4984226,
+    "1005013614035166": 1795097149.7422955
   },
   "published_titles": [
     "Wireless WiFi Repeater 300Mbps WiFi Extender Amplifier Booster Router",
@@ -2856,7 +2860,9 @@
     "ESSAGER 45W Car Charger PD Fast Charging with Retractable",
     "Wireless Car Air Pump",
     "HOCO EQ28 ANC Earbuds",
-    "VIVO X500 PRO MAX"
+    "VIVO X500 PRO MAX",
+    "iPhone 15 Pro Max 256GB",
+    "iPhone 16 Pro  256GB"
   ],
   "published_title_timestamps": {
     "Xiaomi Redmi Note 17 5G Global Version": 1790857823.0117362,
@@ -3996,11 +4002,11 @@
     "ESSAGER 45W Car Charger PD Fast Charging with Retractable": 1795086173.3845732,
     "Wireless Car Air Pump": 1795093229.0666955,
     "HOCO EQ28 ANC Earbuds": 1795095306.94495,
-    "VIVO X500 PRO MAX": 1795096787.4537058
+    "VIVO X500 PRO MAX": 1795096787.4537058,
+    "iPhone 15 Pro Max 256GB": 1795097142.4984226,
+    "iPhone 16 Pro  256GB": 1795097149.7422955
   },
   "published_post_keys": [
-    "aniscoupons:34345",
-    "zedstoreonline:39782",
     "lodydeals:46289",
     "lodydeals:46290",
     "aniscoupons:34347",
@@ -4998,19 +5004,21 @@
     "lodydeals:46699",
     "lodydeals:46700",
     "lodydeals:46702",
-    "aniscoupons:35312"
+    "aniscoupons:35312",
+    "lodydeals:46703",
+    "lodydeals:46704"
   ],
   "last_disclaimer_time": 1794524540.9476151,
   "last_calendar_time": 1794572799.8939624,
-  "last_run_time": 1795096787.4537058,
+  "last_run_time": 1795097149.7422955,
   "monitored_channels": {
     "ecksdeal": {
       "last_message_id": 6110,
       "last_check_time": 1795080301.0556052
     },
     "lodydeals": {
-      "last_message_id": 46702,
-      "last_check_time": 1795095309.050209
+      "last_message_id": 46705,
+      "last_check_time": 1795097155.7601967
     },
     "test_channel": {
       "last_message_id": 1793967703,
@@ -5033,8 +5041,8 @@
       "last_check_time": 1795096224.767619
     },
     "aniscoupons": {
-      "last_message_id": 35312,
-      "last_check_time": 1795096789.557709
+      "last_message_id": 35313,
+      "last_check_time": 1795097161.9390564
     },
     "bnddeals": {
       "last_message_id": 51348,
@@ -5785,7 +5793,9 @@
     "1005012325373696": 203.3,
     "1005012929627900": 13.6,
     "1005009465190932": 4.13,
-    "1005013270397194": 928.9
+    "1005013270397194": 928.9,
+    "1005013611971758": 871.08,
+    "1005013614035166": 973.93
   },
   "channel_published_deals": {
     "aniscoupons:32590": {
@@ -29220,6 +29230,26 @@
       "price": 928.9,
       "timestamp": 1795096787.4537058,
       "status": "ACTIVE"
+    },
+    "lodydeals:46703": {
+      "channel_msg_id": 3249,
+      "product_id": "1005013611971758",
+      "title": "iPhone 15 Pro Max 256GB",
+      "channel": "lodydeals",
+      "source_msg_id": 46703,
+      "price": 871.08,
+      "timestamp": 1795097142.4984226,
+      "status": "ACTIVE"
+    },
+    "lodydeals:46704": {
+      "channel_msg_id": 3250,
+      "product_id": "1005013614035166",
+      "title": "iPhone 16 Pro  256GB",
+      "channel": "lodydeals",
+      "source_msg_id": 46704,
+      "price": 973.93,
+      "timestamp": 1795097149.7422955,
+      "status": "ACTIVE"
     }
   },
   "schedule_config": {
@@ -29228,17 +29258,17 @@
     "current_interval_minutes": 5,
     "is_paused": false,
     "night_mode_enabled": true,
-    "last_deal_post_time": 1795096790.731887,
+    "last_deal_post_time": 1795097162.5507405,
     "night_start_hour_dz": 0,
     "night_end_hour_dz": 8,
     "night_pause_enabled": true,
-    "last_sweep_time": 1795096972.5179148,
+    "last_sweep_time": 1795097165.5129275,
     "last_sweep_times": {
-      "algeria": 1795096969.9429436,
-      "france": 1795096972.5179148
+      "algeria": 1795097162.52684,
+      "france": 1795097165.5129275
     },
     "last_deal_post_times": {
-      "algeria": 1795096790.731887
+      "algeria": 1795097162.5507405
     }
   },
   "last_coin_reminder_time": 1795015271.2437074,
@@ -30104,7 +30134,9 @@
     "1005012325373696": "aniscoupons",
     "1005012929627900": "lodydeals",
     "1005009465190932": "lodydeals",
-    "1005013270397194": "aniscoupons"
+    "1005013270397194": "aniscoupons",
+    "1005013611971758": "lodydeals",
+    "1005013614035166": "lodydeals"
   },
   "published_title_channels": {
     "Test Wrench Set": "test_channel",
@@ -31246,7 +31278,9 @@
     "ESSAGER 45W Car Charger PD Fast Charging with Retractable": "bnddeals",
     "Wireless Car Air Pump": "lodydeals",
     "HOCO EQ28 ANC Earbuds": "lodydeals",
-    "VIVO X500 PRO MAX": "aniscoupons"
+    "VIVO X500 PRO MAX": "aniscoupons",
+    "iPhone 15 Pro Max 256GB": "lodydeals",
+    "iPhone 16 Pro  256GB": "lodydeals"
   },
   "religious_reminders_history": {
     "mock_rem": "2026-10-02",
@@ -32044,8 +32078,6 @@
   "published_deals_history": {},
   "settings": {},
   "handled_post_keys": [
-    "aniscoupons:34473",
-    "lodydeals:46337",
     "bnddeals:51267",
     "bnddeals:51268",
     "bnddeals:51269",
@@ -33043,7 +33075,9 @@
     "aniscoupons:35309",
     "lodydeals:46701",
     "aniscoupons:35311",
-    "zedstoreonline:40444"
+    "zedstoreonline:40444",
+    "lodydeals:46705",
+    "aniscoupons:35313"
   ],
   "last_france_cross_promo_time": 1794913823.9647303,
   "next_france_cross_promo_interval_seconds": 311842,
@@ -33692,6 +33726,11 @@
         "channel": "lodydeals",
         "ts": 1795088915.6647596,
         "price": 7.54
+      },
+      {
+        "channel": "aniscoupons",
+        "ts": 1795097161.8302672,
+        "price": 7.5
       }
     ],
     "1005012285327063": [

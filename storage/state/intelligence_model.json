@@ -22,8 +22,8 @@
   "flow_target": 24.0,
   "channel_stats": {
     "lodydeals": {
-      "seen": 129,
-      "published": 120,
+      "seen": 132,
+      "published": 122,
       "skipped": 0,
       "ewma": 0.9994
     },
@@ -66,8 +66,8 @@
       "ewma": 0.9994
     },
     "phones": {
-      "seen": 352,
-      "published": 231,
+      "seen": 355,
+      "published": 233,
       "skipped": 0,
       "ewma": 0.9994
     },
@@ -1504,42 +1504,24 @@
     ],
     "1005013270397194": [
       928.9
+    ],
+    "1005013611971758": [
+      871.08
+    ],
+    "1005013614035166": [
+      973.93
     ]
   },
   "counters": {
-    "scored": 1130,
-    "verdict_publish": 1085,
+    "scored": 1133,
+    "verdict_publish": 1088,
     "verdict_hold": 45,
     "verdict_skip": 0,
-    "published": 875,
+    "published": 877,
     "skipped": 0
   },
-  "score_sum": 82825.94,
+  "score_sum": 83044.6,
   "recent_decisions": [
-    {
-      "ts": 1794935283,
-      "channel": "aniscoupons",
-      "category": "other",
-      "product_id": "1005003949106838",
-      "score": 63.61,
-      "verdict": "publish"
-    },
-    {
-      "ts": 1794935290,
-      "channel": "aniscoupons",
-      "category": "other",
-      "product_id": "1005006782790827",
-      "score": 62.77,
-      "verdict": "publish"
-    },
-    {
-      "ts": 1794935296,
-      "channel": "aniscoupons",
-      "category": "pc",
-      "product_id": "1005008703989845",
-      "score": 59.94,
-      "verdict": "hold"
-    },
     {
       "ts": 1794935301,
       "channel": "aniscoupons",
@@ -3115,7 +3097,31 @@
       "product_id": "1005013270397194",
       "score": 80.15,
       "verdict": "publish"
+    },
+    {
+      "ts": 1795097140,
+      "channel": "lodydeals",
+      "category": "phones",
+      "product_id": "1005013611971758",
+      "score": 76.92,
+      "verdict": "publish"
+    },
+    {
+      "ts": 1795097147,
+      "channel": "lodydeals",
+      "category": "phones",
+      "product_id": "1005013614035166",
+      "score": 72.98,
+      "verdict": "publish"
+    },
+    {
+      "ts": 1795097155,
+      "channel": "lodydeals",
+      "category": "phones",
+      "product_id": "1005013625318884",
+      "score": 68.76,
+      "verdict": "publish"
     }
   ],
-  "updated_at": 1795096787.532784
+  "updated_at": 1795097155.2466514
 }
