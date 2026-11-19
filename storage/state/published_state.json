@@ -861,7 +861,8 @@
     "1005013268493740",
     "1005012408109331",
     "1005013304783085",
-    "1005013633649876"
+    "1005013633649876",
+    "1005012274502051"
   ],
   "published_product_timestamps": {
     "1005012973772517": 1794500732.7845657,
@@ -1739,7 +1740,8 @@
     "1005013268493740": 1795101781.0547688,
     "1005012408109331": 1795102336.0045958,
     "1005013304783085": 1795103262.750217,
-    "1005013633649876": 1795104359.6206825
+    "1005013633649876": 1795104359.6206825,
+    "1005012274502051": 1795111028.5315912
   },
   "published_titles": [
     "Wireless WiFi Repeater 300Mbps WiFi Extender Amplifier Booster Router",
@@ -3483,7 +3485,7 @@
     "Redmi Note 17 4G 4/128GB": 1793793714.105913,
     "OnePlus Turbo 6V  8/256GB": 1795023199.948518,
     "QCY VN200 Pro 7.1 Wired": 1793656271.0286891,
-    "UGREEN Nexode Air 65W GaN": 1793656202.4239671,
+    "UGREEN Nexode Air 65W GaN": 1795111028.5315912,
     "Honor WIN RT 5G 12/256GB": 1793543733.1622994,
     "OnePlus 13T 5G 12/256GB": 1793543747.3776598,
     "OnePlus 13 5G 12/256GB": 1793543755.5335042,
@@ -4035,7 +4037,6 @@
     "8L FOLDING WASHING MACHINE": 1795104359.6206825
   },
   "published_post_keys": [
-    "aniscoupons:34352",
     "aniscoupons:34353",
     "aniscoupons:34354",
     "zedstoreonline:39792",
@@ -5034,19 +5035,20 @@
     "aniscoupons:35323",
     "aniscoupons:35325",
     "zedstoreonline:40452",
-    "zedstoreonline:40456"
+    "zedstoreonline:40456",
+    "lodydeals:46711"
   ],
   "last_disclaimer_time": 1794524540.9476151,
   "last_calendar_time": 1794572799.8939624,
-  "last_run_time": 1795109536.6725779,
+  "last_run_time": 1795111028.5315912,
   "monitored_channels": {
     "ecksdeal": {
       "last_message_id": 6110,
       "last_check_time": 1795080301.0556052
     },
     "lodydeals": {
-      "last_message_id": 46710,
-      "last_check_time": 1795110848.5591543
+      "last_message_id": 46711,
+      "last_check_time": 1795111030.6157656
     },
     "test_channel": {
       "last_message_id": 1793967703,
@@ -5830,7 +5832,8 @@
     "1005013268493740": 893.9,
     "1005012408109331": 661.2,
     "1005013304783085": 597.9,
-    "1005013633649876": 12.9
+    "1005013633649876": 12.9,
+    "1005012274502051": 20.96
   },
   "channel_published_deals": {
     "aniscoupons:32590": {
@@ -29395,6 +29398,16 @@
       "price": 67.7,
       "timestamp": 1795109536.6725779,
       "status": "ACTIVE"
+    },
+    "lodydeals:46711": {
+      "channel_msg_id": 3263,
+      "product_id": "1005012274502051",
+      "title": "UGREEN Nexode Air 65W GaN",
+      "channel": "lodydeals",
+      "source_msg_id": 46711,
+      "price": 20.96,
+      "timestamp": 1795111028.5315912,
+      "status": "ACTIVE"
     }
   },
   "schedule_config": {
@@ -29403,17 +29416,17 @@
     "current_interval_minutes": 5,
     "is_paused": false,
     "night_mode_enabled": true,
-    "last_deal_post_time": 1795109541.865382,
+    "last_deal_post_time": 1795111035.120233,
     "night_start_hour_dz": 0,
     "night_end_hour_dz": 8,
     "night_pause_enabled": true,
-    "last_sweep_time": 1795110855.251756,
+    "last_sweep_time": 1795111038.2174897,
     "last_sweep_times": {
-      "algeria": 1795110852.7091453,
-      "france": 1795110855.251756
+      "algeria": 1795111035.0879786,
+      "france": 1795111038.2174897
     },
     "last_deal_post_times": {
-      "algeria": 1795109541.865382
+      "algeria": 1795111035.120233
     }
   },
   "last_coin_reminder_time": 1795015271.2437074,
@@ -30288,7 +30301,8 @@
     "1005013268493740": "aniscoupons",
     "1005012408109331": "aniscoupons",
     "1005013304783085": "aniscoupons",
-    "1005013633649876": "aniscoupons"
+    "1005013633649876": "aniscoupons",
+    "1005012274502051": "lodydeals"
   },
   "published_title_channels": {
     "Test Wrench Set": "test_channel",
