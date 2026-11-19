@@ -1630,7 +1630,7 @@
     "1005013288890301": 1794477157.5349603,
     "1005013089015192": 1794647055.558841,
     "1005009278114794": 1794647237.7084959,
-    "1005010210432531": 1795076082.27267,
+    "1005010210432531": 1795082866.519863,
     "1005013422894128": 1794487083.9711623,
     "1005010297094897": 1794657082.5305285,
     "1005009012821000": 1794502225.0175712,
@@ -3965,7 +3965,7 @@
     "DOOV R77 4G Touch 3/32GB": 1795023205.68955,
     "SOMNAMBULIST SSD 120GB": 1795033574.311118,
     "Kodak SD Card 128GB": 1795072599.5014904,
-    "realme P4 Lite 4/128GB": 1795076082.27267,
+    "realme P4 Lite 4/128GB": 1795082866.519863,
     "12V Cordless Electric Angle Grinder": 1795077186.2578824,
     "Nothing Buds 2a": 1795077733.2815042,
     "BASEUS GH02 gaming wireless headphone": 1795078474.5893383,
@@ -3975,7 +3975,6 @@
     "لأكثر طلباً شاحن": 1795081619.0346873
   },
   "published_post_keys": [
-    "aniscoupons:34325",
     "lodydeals:46276",
     "aniscoupons:34328",
     "aniscoupons:34331",
@@ -4974,11 +4973,12 @@
     "bnddeals:51334",
     "aniscoupons:35294",
     "aniscoupons:35296",
-    "bnddeals:51336"
+    "bnddeals:51336",
+    "zedstoreonline:40432"
   ],
   "last_disclaimer_time": 1794524540.9476151,
   "last_calendar_time": 1794572799.8939624,
-  "last_run_time": 1795082325.695245,
+  "last_run_time": 1795082866.519863,
   "monitored_channels": {
     "ecksdeal": {
       "last_message_id": 6110,
@@ -5005,8 +5005,8 @@
       "last_check_time": 1793599663.3444748
     },
     "zedstoreonline": {
-      "last_message_id": 40431,
-      "last_check_time": 1795082315.0004046
+      "last_message_id": 40432,
+      "last_check_time": 1795082868.6707368
     },
     "aniscoupons": {
       "last_message_id": 35297,
@@ -28971,6 +28971,16 @@
       "price": 17.8,
       "timestamp": 1795082325.695245,
       "status": "ACTIVE"
+    },
+    "zedstoreonline:40432": {
+      "channel_msg_id": 3227,
+      "product_id": "1005010210432531",
+      "title": "realme P4 Lite 4/128GB",
+      "channel": "zedstoreonline",
+      "source_msg_id": 40432,
+      "price": 133.8,
+      "timestamp": 1795082866.519863,
+      "status": "ACTIVE"
     }
   },
   "schedule_config": {
@@ -28979,17 +28989,17 @@
     "current_interval_minutes": 5,
     "is_paused": false,
     "night_mode_enabled": true,
-    "last_deal_post_time": 1795082327.8741705,
+    "last_deal_post_time": 1795082870.6846402,
     "night_start_hour_dz": 0,
     "night_end_hour_dz": 8,
     "night_pause_enabled": true,
-    "last_sweep_time": 1795082678.4722633,
+    "last_sweep_time": 1795082873.3343565,
     "last_sweep_times": {
-      "algeria": 1795082675.796747,
-      "france": 1795082678.4722633
+      "algeria": 1795082870.639355,
+      "france": 1795082873.3343565
     },
     "last_deal_post_times": {
-      "algeria": 1795082327.8741705
+      "algeria": 1795082870.6846402
     }
   },
   "last_coin_reminder_time": 1795015271.2437074,
@@ -33467,6 +33477,11 @@
         "channel": "zedstoreonline",
         "ts": 1795077544.909179,
         "price": 133.8
+      },
+      {
+        "channel": "zedstoreonline",
+        "ts": 1795082864.2672684,
+        "price": 133.8
       }
     ],
     "1005008518280704": [
@@ -33761,6 +33776,7 @@
   "hot_repost_timestamps": {
     "1005012726037568": 1795035982.1003845,
     "1005008708333999": 1794613227.9043555,
-    "1005011557016158": 1794769611.840472
+    "1005011557016158": 1794769611.840472,
+    "1005010210432531": 1795082866.566105
   }
 }
