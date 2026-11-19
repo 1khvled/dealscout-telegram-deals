@@ -863,7 +863,8 @@
     "1005013304783085",
     "1005013633649876",
     "1005012274502051",
-    "1005013603023857"
+    "1005013603023857",
+    "1005009693337727"
   ],
   "published_product_timestamps": {
     "1005012973772517": 1794500732.7845657,
@@ -1653,7 +1654,7 @@
     "1005013485724377": 1794606651.7602222,
     "1005012783197164": 1794606646.2896297,
     "1005012993724126": 1794515920.3397443,
-    "1005012726037568": 1795083794.6533382,
+    "1005012726037568": 1795113438.2427025,
     "1005011940143389": 1794524364.21287,
     "1005010374799328": 1794524370.7043138,
     "1005010487219975": 1794524381.8060858,
@@ -1743,7 +1744,8 @@
     "1005013304783085": 1795103262.750217,
     "1005013633649876": 1795104359.6206825,
     "1005012274502051": 1795111028.5315912,
-    "1005013603023857": 1795112692.4915283
+    "1005013603023857": 1795112692.4915283,
+    "1005009693337727": 1795113429.7687285
   },
   "published_titles": [
     "Wireless WiFi Repeater 300Mbps WiFi Extender Amplifier Booster Router",
@@ -3741,7 +3743,7 @@
     "Essager 30W Car Charger": 1794393500.1320646,
     "KOOTION SSD SATA  240GB": 1794051434.2488248,
     "Xiaomi Redmi Note 17 Pro 5G Global Version": 1794060065.5449874,
-    "Magcubic  HY350 Max 900ANSI": 1794998221.0343893,
+    "Magcubic  HY350 Max 900ANSI": 1795113429.7687285,
     "Toocki 60W Car Charger and cable": 1794771190.3471751,
     "Hollyland Lark M2 Wireless Mic": 1794063654.6498907,
     "XUNYOU-LINK 4G LTE WiFi 6 Portable Router": 1794064385.819615,
@@ -3835,7 +3837,7 @@
     "KOOTION SATA3 SSD 128GB": 1794585682.0605152,
     "Inphic YuanChuang Cyber Gaming Mouse": 1794320674.833981,
     "SIX PCIe 4.0 SSD (1TB) NVMe M2": 1794331533.1223195,
-    "Kootion SSD SATA": 1795083794.6533382,
+    "Kootion SSD SATA": 1795113438.2427025,
     "KOOTION SATA SSD 128GB": 1794334097.945569,
     "Kingston DataTraveler 128GB": 1794958362.7165008,
     "CUSU CV3500  M.2 NVMe SSD (1tb)": 1795077010.0031211,
@@ -4043,8 +4045,6 @@
     "MAGCUBIC HY300 PRO Projector": 1795112692.4915283
   },
   "published_post_keys": [
-    "zedstoreonline:39792",
-    "zedstoreonline:39793",
     "zedstoreonline:39794",
     "zedstoreonline:39795",
     "aniscoupons:34358",
@@ -5042,11 +5042,13 @@
     "zedstoreonline:40456",
     "lodydeals:46711",
     "bnddeals:51352",
-    "zedstoreonline:40458"
+    "zedstoreonline:40458",
+    "zedstoreonline:40459",
+    "aniscoupons:35328"
   ],
   "last_disclaimer_time": 1794524540.9476151,
   "last_calendar_time": 1794572799.8939624,
-  "last_run_time": 1795112692.4915283,
+  "last_run_time": 1795113438.2427025,
   "monitored_channels": {
     "ecksdeal": {
       "last_message_id": 6110,
@@ -5073,12 +5075,12 @@
       "last_check_time": 1793599663.3444748
     },
     "zedstoreonline": {
-      "last_message_id": 40458,
-      "last_check_time": 1795112694.5875683
+      "last_message_id": 40459,
+      "last_check_time": 1795113431.8524685
     },
     "aniscoupons": {
-      "last_message_id": 35327,
-      "last_check_time": 1795112328.8438675
+      "last_message_id": 35328,
+      "last_check_time": 1795113440.4428766
     },
     "bnddeals": {
       "last_message_id": 51353,
@@ -5840,7 +5842,8 @@
     "1005013304783085": 597.9,
     "1005013633649876": 12.9,
     "1005012274502051": 20.96,
-    "1005013603023857": 42.1
+    "1005013603023857": 42.1,
+    "1005009693337727": 113.4
   },
   "channel_published_deals": {
     "aniscoupons:32590": {
@@ -29435,6 +29438,26 @@
       "price": 42.1,
       "timestamp": 1795112692.4915283,
       "status": "ACTIVE"
+    },
+    "zedstoreonline:40459": {
+      "channel_msg_id": 3266,
+      "product_id": "1005009693337727",
+      "title": "Magcubic  HY350 Max 900ANSI",
+      "channel": "zedstoreonline",
+      "source_msg_id": 40459,
+      "price": 113.4,
+      "timestamp": 1795113429.7687285,
+      "status": "ACTIVE"
+    },
+    "aniscoupons:35328": {
+      "channel_msg_id": 3267,
+      "product_id": "1005012726037568",
+      "title": "Kootion SSD SATA",
+      "channel": "aniscoupons",
+      "source_msg_id": 35328,
+      "price": 7.5,
+      "timestamp": 1795113438.2427025,
+      "status": "ACTIVE"
     }
   },
   "schedule_config": {
@@ -29443,17 +29466,17 @@
     "current_interval_minutes": 5,
     "is_paused": false,
     "night_mode_enabled": true,
-    "last_deal_post_time": 1795112696.8302794,
+    "last_deal_post_time": 1795113441.4754179,
     "night_start_hour_dz": 0,
     "night_end_hour_dz": 8,
     "night_pause_enabled": true,
-    "last_sweep_time": 1795113241.196164,
+    "last_sweep_time": 1795113444.710043,
     "last_sweep_times": {
-      "algeria": 1795113238.8354518,
-      "france": 1795113241.196164
+      "algeria": 1795113441.4428258,
+      "france": 1795113444.710043
     },
     "last_deal_post_times": {
-      "algeria": 1795112696.8302794
+      "algeria": 1795113441.4754179
     }
   },
   "last_coin_reminder_time": 1795015271.2437074,
@@ -30330,7 +30353,8 @@
     "1005013304783085": "aniscoupons",
     "1005013633649876": "aniscoupons",
     "1005012274502051": "lodydeals",
-    "1005013603023857": "zedstoreonline"
+    "1005013603023857": "zedstoreonline",
+    "1005009693337727": "zedstoreonline"
   },
   "published_title_channels": {
     "Test Wrench Set": "test_channel",
@@ -33948,6 +33972,11 @@
       {
         "channel": "aniscoupons",
         "ts": 1795097161.8302672,
+        "price": 7.5
+      },
+      {
+        "channel": "aniscoupons",
+        "ts": 1795113435.5518682,
         "price": 7.5
       }
     ],
