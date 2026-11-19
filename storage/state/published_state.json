@@ -1595,7 +1595,7 @@
     "1005012083833079": 1794432872.6767933,
     "1005012292809645": 1795087819.176533,
     "1005007495712340": 1794475814.3090613,
-    "1005009104334975": 1794421043.2176414,
+    "1005009104334975": 1795088919.270425,
     "1005012474727998": 1794320674.833981,
     "1005006807619368": 1794958362.7165008,
     "1005010653559191": 1794349536.4429784,
@@ -3162,7 +3162,7 @@
     "RYZEN 7 5700X": 1795005702.3191934,
     "Ⓜ BLACKVIEW WAVE 10C (4/32)": 1792160262.8028278,
     "Ⓜ  TCL 60 NXT PAPER 8/256📱": 1792160269.0502243,
-    "HAYLOU Mori Pro ANC": 1795077003.7521157,
+    "HAYLOU Mori Pro ANC": 1795088919.270425,
     "HAYLOU S30 Wireless Bluetooth 5.4 Headphones 43dB Adaptive Noise": 1792166326.0335298,
     "HAYLOU Watch Faro Voice Calling Smart Watch": 1792360422.5608404,
     "Redmi Note 12 5G 4/128": 1793543770.1912897,
@@ -3987,7 +3987,6 @@
     "ESSAGER 45W Car Charger PD Fast Charging with Retractable": 1795086173.3845732
   },
   "published_post_keys": [
-    "ecksdeal:6048",
     "zedstoreonline:39773",
     "zedstoreonline:39776",
     "zedstoreonline:39778",
@@ -4986,19 +4985,20 @@
     "lodydeals:46687",
     "lodydeals:46690",
     "aniscoupons:35306",
-    "aniscoupons:35307"
+    "aniscoupons:35307",
+    "lodydeals:46696"
   ],
   "last_disclaimer_time": 1794524540.9476151,
   "last_calendar_time": 1794572799.8939624,
-  "last_run_time": 1795088381.5492814,
+  "last_run_time": 1795088919.270425,
   "monitored_channels": {
     "ecksdeal": {
       "last_message_id": 6110,
       "last_check_time": 1795080301.0556052
     },
     "lodydeals": {
-      "last_message_id": 46694,
-      "last_check_time": 1795088732.3985484
+      "last_message_id": 46696,
+      "last_check_time": 1795088921.3526978
     },
     "test_channel": {
       "last_message_id": 1793967703,
@@ -5656,7 +5656,7 @@
     "1005012083833079": 57.9,
     "1005012292809645": 37.52,
     "1005007495712340": 53.24,
-    "1005009104334975": 10.7,
+    "1005009104334975": 10.79,
     "1005012474727998": 14.9,
     "1005006807619368": 6.55,
     "1005010653559191": 10.5,
@@ -29145,6 +29145,16 @@
       "price": 40.5,
       "timestamp": 1795088381.5492814,
       "status": "ACTIVE"
+    },
+    "lodydeals:46696": {
+      "channel_msg_id": 3243,
+      "product_id": "1005009104334975",
+      "title": "HAYLOU Mori Pro ANC",
+      "channel": "lodydeals",
+      "source_msg_id": 46696,
+      "price": 10.79,
+      "timestamp": 1795088919.270425,
+      "status": "ACTIVE"
     }
   },
   "schedule_config": {
@@ -29153,17 +29163,17 @@
     "current_interval_minutes": 5,
     "is_paused": false,
     "night_mode_enabled": true,
-    "last_deal_post_time": 1795088385.0018718,
+    "last_deal_post_time": 1795088926.7628002,
     "night_start_hour_dz": 0,
     "night_end_hour_dz": 8,
     "night_pause_enabled": true,
-    "last_sweep_time": 1795088740.947941,
+    "last_sweep_time": 1795088929.4279914,
     "last_sweep_times": {
-      "algeria": 1795088738.5270255,
-      "france": 1795088740.947941
+      "algeria": 1795088926.7271748,
+      "france": 1795088929.4279914
     },
     "last_deal_post_times": {
-      "algeria": 1795088385.0018718
+      "algeria": 1795088926.7628002
     }
   },
   "last_coin_reminder_time": 1795015271.2437074,
@@ -29909,7 +29919,7 @@
     "1005012083833079": "aniscoupons",
     "1005012292809645": "lodydeals",
     "1005007495712340": "lodydeals",
-    "1005009104334975": "zedstoreonline",
+    "1005009104334975": "lodydeals",
     "1005012474727998": "zedstoreonline",
     "1005006807619368": "aniscoupons",
     "1005010653559191": "zedstoreonline",
@@ -30345,7 +30355,7 @@
     "MACHENIKE G5Pro Max SE Gaming Controller With Charging Dock": "aniscoupons",
     "Ⓜ BLACKVIEW WAVE 10C (4/32)": "megaphonna",
     "RYZEN 7 5700X": "aniscoupons",
-    "HAYLOU Mori Pro ANC": "zedstoreonline",
+    "HAYLOU Mori Pro ANC": "lodydeals",
     "HAYLOU S30 Wireless Bluetooth 5.4 Headphones 43dB Adaptive Noise": "zedstoreonline",
     "HAYLOU Watch Faro Voice Calling Smart Watch": "couponsglobal",
     "Redmi Note 12 5G 4/128": "lodydeals",
@@ -31963,7 +31973,6 @@
   "published_deals_history": {},
   "settings": {},
   "handled_post_keys": [
-    "ecksdeal:6054",
     "aniscoupons:34470",
     "zedstoreonline:39827",
     "zedstoreonline:39844",
@@ -32962,7 +32971,8 @@
     "lodydeals:46691",
     "lodydeals:46692",
     "lodydeals:46693",
-    "lodydeals:46694"
+    "lodydeals:46694",
+    "lodydeals:46695"
   ],
   "last_france_cross_promo_time": 1794913823.9647303,
   "next_france_cross_promo_interval_seconds": 311842,
@@ -33611,6 +33621,11 @@
         "channel": "aniscoupons",
         "ts": 1795083797.7934816,
         "price": 7.5
+      },
+      {
+        "channel": "lodydeals",
+        "ts": 1795088915.6647596,
+        "price": 7.54
       }
     ],
     "1005012285327063": [
@@ -34108,6 +34123,13 @@
         "channel": "aniscoupons",
         "ts": 1795088378.8485377,
         "price": 40.5
+      }
+    ],
+    "1005009104334975": [
+      {
+        "channel": "lodydeals",
+        "ts": 1795088916.8318639,
+        "price": 10.79
       }
     ]
   },
