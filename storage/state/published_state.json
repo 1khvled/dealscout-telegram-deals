@@ -1588,7 +1588,7 @@
     "1005007820092290": 1794224654.527678,
     "1005012329021334": 1794494280.7112553,
     "1005013218893010": 1794226314.627466,
-    "1005013480169843": 1794845317.1382728,
+    "1005013480169843": 1795109536.6725779,
     "1005013226454479": 1794227594.9699965,
     "1005005548265076": 1794231079.407264,
     "1005012555450345": 1794232557.0275722,
@@ -3175,7 +3175,7 @@
     "Ⓜ ONEPLUS TURBO 6X PRO 5G (8/128)": 1792156501.818011,
     "Redmi Pad 2 9.7": 1792061322.5579543,
     "Redmi Note 12 5G Global (4/128GB)": 1792156524.878074,
-    "Blackview Wave 10C": 1794845317.1382728,
+    "Blackview Wave 10C": 1795109536.6725779,
     "متوسط سعره حالياً 82000دج": 1793276237.692456,
     "iQOO Z11s 5G (8/128GB)": 1795006994.1615362,
     "realme Watch 5 Smart Watch 1.97\" AMOLED Display Sports & Health Monitoring": 1793966861.2399917,
@@ -4035,7 +4035,6 @@
     "8L FOLDING WASHING MACHINE": 1795104359.6206825
   },
   "published_post_keys": [
-    "aniscoupons:34351",
     "aniscoupons:34352",
     "aniscoupons:34353",
     "aniscoupons:34354",
@@ -5034,11 +5033,12 @@
     "aniscoupons:35321",
     "aniscoupons:35323",
     "aniscoupons:35325",
-    "zedstoreonline:40452"
+    "zedstoreonline:40452",
+    "zedstoreonline:40456"
   ],
   "last_disclaimer_time": 1794524540.9476151,
   "last_calendar_time": 1794572799.8939624,
-  "last_run_time": 1795106023.077125,
+  "last_run_time": 1795109536.6725779,
   "monitored_channels": {
     "ecksdeal": {
       "last_message_id": 6110,
@@ -5065,8 +5065,8 @@
       "last_check_time": 1793599663.3444748
     },
     "zedstoreonline": {
-      "last_message_id": 40455,
-      "last_check_time": 1795109152.3846204
+      "last_message_id": 40456,
+      "last_check_time": 1795109538.7510252
     },
     "aniscoupons": {
       "last_message_id": 35325,
@@ -5687,7 +5687,7 @@
     "1005007820092290": 2.8,
     "1005012329021334": 35.25,
     "1005013218893010": 2.7,
-    "1005013480169843": 66.7,
+    "1005013480169843": 67.7,
     "1005013226454479": 12.3,
     "1005005548265076": 36.51,
     "1005012555450345": 272.2,
@@ -29385,6 +29385,16 @@
       "price": 10.7,
       "timestamp": 1795106023.077125,
       "status": "ACTIVE"
+    },
+    "zedstoreonline:40456": {
+      "channel_msg_id": 3262,
+      "product_id": "1005013480169843",
+      "title": "Blackview Wave 10C",
+      "channel": "zedstoreonline",
+      "source_msg_id": 40456,
+      "price": 67.7,
+      "timestamp": 1795109536.6725779,
+      "status": "ACTIVE"
     }
   },
   "schedule_config": {
@@ -29393,17 +29403,17 @@
     "current_interval_minutes": 5,
     "is_paused": false,
     "night_mode_enabled": true,
-    "last_deal_post_time": 1795106027.1174214,
+    "last_deal_post_time": 1795109541.865382,
     "night_start_hour_dz": 0,
     "night_end_hour_dz": 8,
     "night_pause_enabled": true,
-    "last_sweep_time": 1795109340.0512776,
+    "last_sweep_time": 1795109545.0757437,
     "last_sweep_times": {
-      "algeria": 1795109337.4758112,
-      "france": 1795109340.0512776
+      "algeria": 1795109541.8316207,
+      "france": 1795109545.0757437
     },
     "last_deal_post_times": {
-      "algeria": 1795106027.1174214
+      "algeria": 1795109541.865382
     }
   },
   "last_coin_reminder_time": 1795015271.2437074,
@@ -34492,6 +34502,13 @@
         "channel": "zedstoreonline",
         "ts": 1795107489.4520328,
         "price": 30.0
+      }
+    ],
+    "1005013480169843": [
+      {
+        "channel": "zedstoreonline",
+        "ts": 1795109533.5913315,
+        "price": 67.7
       }
     ]
   },
