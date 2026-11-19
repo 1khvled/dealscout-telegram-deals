@@ -1442,7 +1442,7 @@
     "1005010285419688": 1793613895.6129942,
     "1005007805750092": 1793613900.590816,
     "1005006966360399": 1793613905.8870661,
-    "1005010706590867": 1795022275.125014,
+    "1005010706590867": 1795080117.8039865,
     "1005010428947440": 1793613916.2199864,
     "1005010585654037": 1794229795.9714105,
     "1005013137304827": 1793613926.9213502,
@@ -1652,7 +1652,7 @@
     "1005010218815499": 1794845442.6108298,
     "1005011897409757": 1794593403.339319,
     "1005013203288194": 1794595430.2306583,
-    "1005010305059795": 1795027720.1336117,
+    "1005010305059795": 1795080125.0187495,
     "1005013078612320": 1795027884.8693073,
     "1005007010612283": 1794599454.461018,
     "1005010788231460": 1794604060.7762444,
@@ -2854,7 +2854,7 @@
     "Realme 15 Pro Global (8/256)": 1790884233.6428,
     "Poco C71 3/64GB": 1791192360.1916943,
     "سماعات لاسلكية Attack Shark L80 PRO Wireless": 1791206142.4737842,
-    "ماوس لاسلكي Attack Shark R1 Wireless": 1795022275.125014,
+    "ماوس لاسلكي Attack Shark R1 Wireless": 1795080117.8039865,
     "ماوس لاسلكي مع شاحن Attack Shark X1 Wireless": 1790884310.7506618,
     "معالج AMD Ryzen R7 5700X جديد! بتردد 3.4 جيجاهرتز، ثماني النواة وستة عشر": 1790888057.5668976,
     "معالج AMD Ryzen 5 7500F مستعمل، 6 نوى/12 خيط، 65 واط، 5 نانومتر، ذاكرة": 1790888097.0085742,
@@ -3871,7 +3871,7 @@
     "ماوس فخم Logitech G502 Hero": 1794591008.1982286,
     "ماوس لاسلكي Delux M800 Mini Series": 1794591382.6548223,
     "Lexar V400 USB3.0 64GB": 1794593403.339319,
-    "HAYLOU S40 ANC Wireless": 1795027720.1336117,
+    "HAYLOU S40 ANC Wireless": 1795080125.0187495,
     "CUSU Memory DDR5 (16GB) 6000MHz": 1794845393.90179,
     "Realme 15 Pro (12/512GB)": 1794998227.2322433,
     "MAONO T1 Plus Dual-Capsule Wireless Lavalier Microphone Lapel Microphone": 1794599278.9506347,
@@ -3971,8 +3971,6 @@
     "HOCO EQ27 – ANC+ENC": 1795079588.3610423
   },
   "published_post_keys": [
-    "lodydeals:46274",
-    "lodydeals:46275",
     "aniscoupons:34316",
     "aniscoupons:34317",
     "aniscoupons:34318",
@@ -4970,15 +4968,17 @@
     "bnddeals:51327",
     "zedstoreonline:40421",
     "aniscoupons:35286",
-    "bnddeals:51328"
+    "bnddeals:51328",
+    "ecksdeal:6109",
+    "zedstoreonline:40423"
   ],
   "last_disclaimer_time": 1794524540.9476151,
   "last_calendar_time": 1794572799.8939624,
-  "last_run_time": 1795079588.3610423,
+  "last_run_time": 1795080125.0187495,
   "monitored_channels": {
     "ecksdeal": {
-      "last_message_id": 6108,
-      "last_check_time": 1795078108.5318997
+      "last_message_id": 6109,
+      "last_check_time": 1795080119.903036
     },
     "lodydeals": {
       "last_message_id": 46664,
@@ -5001,16 +5001,16 @@
       "last_check_time": 1793599663.3444748
     },
     "zedstoreonline": {
-      "last_message_id": 40422,
-      "last_check_time": 1795079937.1791773
+      "last_message_id": 40423,
+      "last_check_time": 1795080127.106145
     },
     "aniscoupons": {
-      "last_message_id": 35287,
-      "last_check_time": 1795079939.77044
+      "last_message_id": 35288,
+      "last_check_time": 1795080128.2246556
     },
     "bnddeals": {
-      "last_message_id": 51329,
-      "last_check_time": 1795079753.8859184
+      "last_message_id": 51330,
+      "last_check_time": 1795080131.7176282
     }
   },
   "published_product_prices": {
@@ -5695,7 +5695,7 @@
     "1005010218815499": 13.94,
     "1005011897409757": 7.07,
     "1005013203288194": 348.26,
-    "1005010305059795": 29.3,
+    "1005010305059795": 29.6,
     "1005013078612320": 23.6,
     "1005007010612283": 23.2,
     "1005010788231460": 178.4,
@@ -28857,6 +28857,26 @@
       "price": 6.4,
       "timestamp": 1795079588.3610423,
       "status": "ACTIVE"
+    },
+    "ecksdeal:6109": {
+      "channel_msg_id": 3216,
+      "product_id": "1005010706590867",
+      "title": "ماوس لاسلكي Attack Shark R1 Wireless",
+      "channel": "ecksdeal",
+      "source_msg_id": 6109,
+      "price": 16.1,
+      "timestamp": 1795080117.8039865,
+      "status": "ACTIVE"
+    },
+    "zedstoreonline:40423": {
+      "channel_msg_id": 3217,
+      "product_id": "1005010305059795",
+      "title": "HAYLOU S40 ANC Wireless",
+      "channel": "zedstoreonline",
+      "source_msg_id": 40423,
+      "price": 29.6,
+      "timestamp": 1795080125.0187495,
+      "status": "ACTIVE"
     }
   },
   "schedule_config": {
@@ -28865,17 +28885,17 @@
     "current_interval_minutes": 5,
     "is_paused": false,
     "night_mode_enabled": true,
-    "last_deal_post_time": 1795079590.4849823,
+    "last_deal_post_time": 1795080131.7971559,
     "night_start_hour_dz": 0,
     "night_end_hour_dz": 8,
     "night_pause_enabled": true,
-    "last_sweep_time": 1795079944.1874769,
+    "last_sweep_time": 1795080135.2095902,
     "last_sweep_times": {
-      "algeria": 1795079940.7041483,
-      "france": 1795079944.1874769
+      "algeria": 1795080131.7574253,
+      "france": 1795080135.2095902
     },
     "last_deal_post_times": {
-      "algeria": 1795079590.4849823
+      "algeria": 1795080131.7971559
     }
   },
   "last_coin_reminder_time": 1795015271.2437074,
@@ -31667,8 +31687,6 @@
   "published_deals_history": {},
   "settings": {},
   "handled_post_keys": [
-    "bnddeals:51250",
-    "aniscoupons:34431",
     "bnddeals:51251",
     "aniscoupons:34433",
     "bnddeals:51252",
@@ -32666,7 +32684,9 @@
     "zedstoreonline:40420",
     "bnddeals:51329",
     "zedstoreonline:40422",
-    "aniscoupons:35287"
+    "aniscoupons:35287",
+    "aniscoupons:35288",
+    "bnddeals:51330"
   ],
   "last_france_cross_promo_time": 1794913823.9647303,
   "next_france_cross_promo_interval_seconds": 311842,
@@ -33482,6 +33502,11 @@
         "channel": "bnddeals",
         "ts": 1795079753.3220322,
         "price": 16.0
+      },
+      {
+        "channel": "ecksdeal",
+        "ts": 1795080115.131461,
+        "price": 16.1
       }
     ],
     "1005006996329614": [
@@ -33496,6 +33521,20 @@
         "channel": "aniscoupons",
         "ts": 1795079939.5978918,
         "price": 6.5
+      }
+    ],
+    "1005010305059795": [
+      {
+        "channel": "zedstoreonline",
+        "ts": 1795080122.3250427,
+        "price": 29.6
+      }
+    ],
+    "1005008644346729": [
+      {
+        "channel": "bnddeals",
+        "ts": 1795080131.211927,
+        "price": 116.0
       }
     ]
   },
