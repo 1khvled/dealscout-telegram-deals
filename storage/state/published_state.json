@@ -846,7 +846,8 @@
     "1005008644346729",
     "1005008723396190",
     "1005011729105677",
-    "1005010538481521"
+    "1005010538481521",
+    "1005009354317262"
   ],
   "published_product_timestamps": {
     "1005012973772517": 1794500732.7845657,
@@ -1617,7 +1618,7 @@
     "1005013560596944": 1794470859.4033997,
     "1005007038882010": 1794471412.477501,
     "1005007345327497": 1794472329.794574,
-    "1005009560287420": 1794578325.6062727,
+    "1005009560287420": 1795079581.5030608,
     "1005008513502995": 1794475809.562155,
     "1005013525374520": 1794475830.5998907,
     "1005012650636759": 1794606633.373106,
@@ -1709,7 +1710,8 @@
     "1005008644346729": 1794991252.6823444,
     "1005008723396190": 1795072599.5014904,
     "1005011729105677": 1795077186.2578824,
-    "1005010538481521": 1795077733.2815042
+    "1005010538481521": 1795077733.2815042,
+    "1005009354317262": 1795079588.3610423
   },
   "published_titles": [
     "Wireless WiFi Repeater 300Mbps WiFi Extender Amplifier Booster Router",
@@ -2834,7 +2836,8 @@
     "12V Cordless Electric Angle Grinder",
     "Nothing Buds 2a",
     "BASEUS GH02 gaming wireless headphone",
-    "Business Travel Best Partner Print Anywhere Inkless 203DPI Portable"
+    "Business Travel Best Partner Print Anywhere Inkless 203DPI Portable",
+    "HOCO EQ27 – ANC+ENC"
   ],
   "published_title_timestamps": {
     "Xiaomi Redmi Note 17 5G Global Version": 1790857823.0117362,
@@ -3015,7 +3018,7 @@
     "ATTACK SHARK L80PRO Ultralight": 1791107750.295487,
     "AMD Ryzen 7 5700X": 1794742050.547227,
     "هاتف ينسيك في شارجور🤣🤣": 1791109857.5190113,
-    "CMF Smart Watch 3 pro AMOLED": 1794990707.3414822,
+    "CMF Smart Watch 3 pro AMOLED": 1795079581.5030608,
     "ATTACK SHARK V6 Tri-Mode": 1791110751.0808105,
     "POCO M7 (6/128)": 1791114651.412541,
     "OPPO A6 Pro 8/256GB": 1794340346.0747576,
@@ -3964,11 +3967,10 @@
     "12V Cordless Electric Angle Grinder": 1795077186.2578824,
     "Nothing Buds 2a": 1795077733.2815042,
     "BASEUS GH02 gaming wireless headphone": 1795078474.5893383,
-    "Business Travel Best Partner Print Anywhere Inkless 203DPI Portable": 1795079013.6206362
+    "Business Travel Best Partner Print Anywhere Inkless 203DPI Portable": 1795079013.6206362,
+    "HOCO EQ27 – ANC+ENC": 1795079588.3610423
   },
   "published_post_keys": [
-    "lodydeals:46272",
-    "lodydeals:46273",
     "lodydeals:46274",
     "lodydeals:46275",
     "aniscoupons:34316",
@@ -4966,11 +4968,13 @@
     "bnddeals:51326",
     "aniscoupons:35285",
     "bnddeals:51327",
-    "zedstoreonline:40421"
+    "zedstoreonline:40421",
+    "aniscoupons:35286",
+    "bnddeals:51328"
   ],
   "last_disclaimer_time": 1794524540.9476151,
   "last_calendar_time": 1794572799.8939624,
-  "last_run_time": 1795079378.0518088,
+  "last_run_time": 1795079588.3610423,
   "monitored_channels": {
     "ecksdeal": {
       "last_message_id": 6108,
@@ -5001,12 +5005,12 @@
       "last_check_time": 1795079380.121418
     },
     "aniscoupons": {
-      "last_message_id": 35285,
-      "last_check_time": 1795079203.9889207
+      "last_message_id": 35286,
+      "last_check_time": 1795079583.5754466
     },
     "bnddeals": {
-      "last_message_id": 51327,
-      "last_check_time": 1795079210.3608356
+      "last_message_id": 51328,
+      "last_check_time": 1795079590.4284995
     }
   },
   "published_product_prices": {
@@ -5659,7 +5663,7 @@
     "1005013560596944": 9.6,
     "1005007038882010": 8.4,
     "1005007345327497": 2.4,
-    "1005009560287420": 51.3,
+    "1005009560287420": 52.3,
     "1005008513502995": 35.12,
     "1005013525374520": 68.85,
     "1005012650636759": 23.78,
@@ -5747,7 +5751,8 @@
     "1005008644346729": 114.99,
     "1005008723396190": 9.2,
     "1005011729105677": 11.8,
-    "1005010538481521": 11.3
+    "1005010538481521": 11.3,
+    "1005009354317262": 6.4
   },
   "channel_published_deals": {
     "aniscoupons:32590": {
@@ -28832,6 +28837,26 @@
       "price": 228.3,
       "timestamp": 1795079378.0518088,
       "status": "ACTIVE"
+    },
+    "aniscoupons:35286": {
+      "channel_msg_id": 3214,
+      "product_id": "1005009560287420",
+      "title": "CMF Smart Watch 3 pro AMOLED",
+      "channel": "aniscoupons",
+      "source_msg_id": 35286,
+      "price": 52.3,
+      "timestamp": 1795079581.5030608,
+      "status": "ACTIVE"
+    },
+    "bnddeals:51328": {
+      "channel_msg_id": 3215,
+      "product_id": "1005009354317262",
+      "title": "HOCO EQ27 – ANC+ENC",
+      "channel": "bnddeals",
+      "source_msg_id": 51328,
+      "price": 6.4,
+      "timestamp": 1795079588.3610423,
+      "status": "ACTIVE"
     }
   },
   "schedule_config": {
@@ -28840,17 +28865,17 @@
     "current_interval_minutes": 5,
     "is_paused": false,
     "night_mode_enabled": true,
-    "last_deal_post_time": 1795079381.558353,
+    "last_deal_post_time": 1795079590.4849823,
     "night_start_hour_dz": 0,
     "night_end_hour_dz": 8,
     "night_pause_enabled": true,
-    "last_sweep_time": 1795079384.2367008,
+    "last_sweep_time": 1795079593.7739134,
     "last_sweep_times": {
-      "algeria": 1795079381.5337055,
-      "france": 1795079384.2367008
+      "algeria": 1795079590.4570413,
+      "france": 1795079593.7739134
     },
     "last_deal_post_times": {
-      "algeria": 1795079381.558353
+      "algeria": 1795079590.4849823
     }
   },
   "last_coin_reminder_time": 1795015271.2437074,
@@ -29710,7 +29735,8 @@
     "1005008644346729": "aniscoupons",
     "1005008723396190": "zedstoreonline",
     "1005011729105677": "bnddeals",
-    "1005010538481521": "aniscoupons"
+    "1005010538481521": "aniscoupons",
+    "1005009354317262": "bnddeals"
   },
   "published_title_channels": {
     "Test Wrench Set": "test_channel",
@@ -30842,7 +30868,8 @@
     "12V Cordless Electric Angle Grinder": "bnddeals",
     "Nothing Buds 2a": "aniscoupons",
     "BASEUS GH02 gaming wireless headphone": "bnddeals",
-    "Business Travel Best Partner Print Anywhere Inkless 203DPI Portable": "bnddeals"
+    "Business Travel Best Partner Print Anywhere Inkless 203DPI Portable": "bnddeals",
+    "HOCO EQ27 – ANC+ENC": "bnddeals"
   },
   "religious_reminders_history": {
     "mock_rem": "2026-10-02",
@@ -33441,6 +33468,13 @@
         "channel": "zedstoreonline",
         "ts": 1795079375.6758738,
         "price": 228.3
+      }
+    ],
+    "1005009560287420": [
+      {
+        "channel": "aniscoupons",
+        "ts": 1795079578.7175667,
+        "price": 52.3
       }
     ]
   },
