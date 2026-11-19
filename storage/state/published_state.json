@@ -1707,7 +1707,7 @@
     "1005011551172448": 1794936842.146349,
     "1005013401121405": 1794996958.0314968,
     "1005003624789670": 1794996764.6923764,
-    "1005008644346729": 1794991252.6823444,
+    "1005008644346729": 1795081763.1985488,
     "1005008723396190": 1795072599.5014904,
     "1005011729105677": 1795077186.2578824,
     "1005010538481521": 1795077733.2815042,
@@ -3730,7 +3730,7 @@
     "Lenovo LP40 Pro": 1794146830.4272797,
     "Ulanzi ST-06S Smartphone Mount Holder": 1794667301.7599618,
     "WAMRAM SATA SSD 480GB": 1794159522.2930505,
-    "Netac M.2 1TB 7400Mbs Gen 4": 1794991252.6823444,
+    "Netac M.2 1TB 7400Mbs Gen 4": 1795081763.1985488,
     "RYZEN 5 5600XT": 1794253893.3396604,
     "OnePlus Turbo 6V": 1795007178.5557232,
     "DJI Mic Mini2  2TX 1RX": 1794216974.0881407,
@@ -3975,7 +3975,6 @@
     "لأكثر طلباً شاحن": 1795081619.0346873
   },
   "published_post_keys": [
-    "aniscoupons:34322",
     "aniscoupons:34323",
     "aniscoupons:34324",
     "aniscoupons:34325",
@@ -4974,11 +4973,12 @@
     "aniscoupons:35291",
     "lodydeals:46669",
     "zedstoreonline:40430",
-    "bnddeals:51334"
+    "bnddeals:51334",
+    "aniscoupons:35294"
   ],
   "last_disclaimer_time": 1794524540.9476151,
   "last_calendar_time": 1794572799.8939624,
-  "last_run_time": 1795081619.0346873,
+  "last_run_time": 1795081763.1985488,
   "monitored_channels": {
     "ecksdeal": {
       "last_message_id": 6110,
@@ -5009,12 +5009,12 @@
       "last_check_time": 1795081609.2660165
     },
     "aniscoupons": {
-      "last_message_id": 35293,
-      "last_check_time": 1795081613.5845537
+      "last_message_id": 35294,
+      "last_check_time": 1795081765.2994723
     },
     "bnddeals": {
-      "last_message_id": 51334,
-      "last_check_time": 1795081621.1383176
+      "last_message_id": 51335,
+      "last_check_time": 1795081767.172214
     }
   },
   "published_product_prices": {
@@ -5752,7 +5752,7 @@
     "1005011551172448": 58.29,
     "1005013401121405": 18.23,
     "1005003624789670": 18.33,
-    "1005008644346729": 114.99,
+    "1005008644346729": 115.9,
     "1005008723396190": 9.2,
     "1005011729105677": 11.8,
     "1005010538481521": 11.3,
@@ -28941,6 +28941,16 @@
       "price": 16.5,
       "timestamp": 1795081619.0346873,
       "status": "ACTIVE"
+    },
+    "aniscoupons:35294": {
+      "channel_msg_id": 3224,
+      "product_id": "1005008644346729",
+      "title": "Netac M.2 1TB 7400Mbs Gen 4",
+      "channel": "aniscoupons",
+      "source_msg_id": 35294,
+      "price": 115.9,
+      "timestamp": 1795081763.1985488,
+      "status": "ACTIVE"
     }
   },
   "schedule_config": {
@@ -28949,17 +28959,17 @@
     "current_interval_minutes": 5,
     "is_paused": false,
     "night_mode_enabled": true,
-    "last_deal_post_time": 1795081621.2324586,
+    "last_deal_post_time": 1795081767.2641385,
     "night_start_hour_dz": 0,
     "night_end_hour_dz": 8,
     "night_pause_enabled": true,
-    "last_sweep_time": 1795081624.3446379,
+    "last_sweep_time": 1795081769.798104,
     "last_sweep_times": {
-      "algeria": 1795081621.1852033,
-      "france": 1795081624.3446379
+      "algeria": 1795081767.218796,
+      "france": 1795081769.798104
     },
     "last_deal_post_times": {
-      "algeria": 1795081621.2324586
+      "algeria": 1795081767.2641385
     }
   },
   "last_coin_reminder_time": 1795015271.2437074,
@@ -31753,7 +31763,6 @@
   "published_deals_history": {},
   "settings": {},
   "handled_post_keys": [
-    "bnddeals:51259",
     "zedstoreonline:39833",
     "aniscoupons:34437",
     "bnddeals:51260",
@@ -32752,7 +32761,8 @@
     "lodydeals:46668",
     "zedstoreonline:40427",
     "zedstoreonline:40428",
-    "aniscoupons:35293"
+    "aniscoupons:35293",
+    "bnddeals:51335"
   ],
   "last_france_cross_promo_time": 1794913823.9647303,
   "next_france_cross_promo_interval_seconds": 311842,
@@ -33569,6 +33579,11 @@
         "channel": "zedstoreonline",
         "ts": 1795079375.6758738,
         "price": 228.3
+      },
+      {
+        "channel": "bnddeals",
+        "ts": 1795081767.0053368,
+        "price": 228.3
       }
     ],
     "1005009560287420": [
@@ -33626,6 +33641,11 @@
         "channel": "bnddeals",
         "ts": 1795080131.211927,
         "price": 116.0
+      },
+      {
+        "channel": "aniscoupons",
+        "ts": 1795081760.8377802,
+        "price": 115.9
       }
     ],
     "1005011778621042": [
