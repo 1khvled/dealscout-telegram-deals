@@ -1541,7 +1541,7 @@
     "1005010209911111": 1794068056.674266,
     "1005008295555234": 1794073127.8664527,
     "1005008645323478": 1795078834.8082728,
-    "1005008636930795": 1795009379.82882,
+    "1005008636930795": 1795087088.7300034,
     "1005006260870758": 1794250569.5221198,
     "1005009759580502": 1794331533.1223195,
     "1005009120888793": 1794998044.6375778,
@@ -3711,7 +3711,7 @@
     "Ulanzi ST-06S Vertical Shooting": 1794130692.4786665,
     "ميكروفون MAONO DGM20W لاسلكي للألعاب": 1794074230.5173922,
     "CUSU 512GB External SSD Drive": 1795078834.8082728,
-    "Netac M.2 NVME 250GB": 1795009379.82882,
+    "Netac M.2 NVME 250GB": 1795087088.7300034,
     "EPOMAKER X AULA F87 Pro": 1794250569.5221198,
     "SIX PCIe 4.0 7350MB/s  1TB": 1794079741.7808652,
     "SMAILWOLF L80 Bluetooth wireless wired three-mode gaming headset laptop": 1794490594.9899428,
@@ -3987,7 +3987,6 @@
     "ESSAGER 45W Car Charger PD Fast Charging with Retractable": 1795086173.3845732
   },
   "published_post_keys": [
-    "aniscoupons:34339",
     "lodydeals:46281",
     "aniscoupons:34340",
     "lodydeals:46285",
@@ -4986,11 +4985,12 @@
     "zedstoreonline:40434",
     "bnddeals:51341",
     "zedstoreonline:40435",
-    "bnddeals:51342"
+    "bnddeals:51342",
+    "aniscoupons:35305"
   ],
   "last_disclaimer_time": 1794524540.9476151,
   "last_calendar_time": 1794572799.8939624,
-  "last_run_time": 1795086173.3845732,
+  "last_run_time": 1795087088.7300034,
   "monitored_channels": {
     "ecksdeal": {
       "last_message_id": 6110,
@@ -5021,12 +5021,12 @@
       "last_check_time": 1795086900.1615627
     },
     "aniscoupons": {
-      "last_message_id": 35304,
-      "last_check_time": 1795085995.946015
+      "last_message_id": 35305,
+      "last_check_time": 1795087090.82615
     },
     "bnddeals": {
-      "last_message_id": 51342,
-      "last_check_time": 1795086175.4822383
+      "last_message_id": 51344,
+      "last_check_time": 1795087093.6810598
     }
   },
   "published_product_prices": {
@@ -29095,6 +29095,16 @@
       "price": 14.67,
       "timestamp": 1795086173.3845732,
       "status": "ACTIVE"
+    },
+    "aniscoupons:35305": {
+      "channel_msg_id": 3238,
+      "product_id": "1005008636930795",
+      "title": "Netac M.2 NVME 250GB",
+      "channel": "aniscoupons",
+      "source_msg_id": 35305,
+      "price": 31.5,
+      "timestamp": 1795087088.7300034,
+      "status": "ACTIVE"
     }
   },
   "schedule_config": {
@@ -29103,17 +29113,17 @@
     "current_interval_minutes": 5,
     "is_paused": false,
     "night_mode_enabled": true,
-    "last_deal_post_time": 1795086175.5542974,
+    "last_deal_post_time": 1795087093.7547278,
     "night_start_hour_dz": 0,
     "night_end_hour_dz": 8,
     "night_pause_enabled": true,
-    "last_sweep_time": 1795086905.7432973,
+    "last_sweep_time": 1795087096.1189513,
     "last_sweep_times": {
-      "algeria": 1795086902.054482,
-      "france": 1795086905.7432973
+      "algeria": 1795087093.718356,
+      "france": 1795087096.1189513
     },
     "last_deal_post_times": {
-      "algeria": 1795086175.5542974
+      "algeria": 1795087093.7547278
     }
   },
   "last_coin_reminder_time": 1795015271.2437074,
@@ -31913,8 +31923,6 @@
   "published_deals_history": {},
   "settings": {},
   "handled_post_keys": [
-    "zedstoreonline:39838",
-    "aniscoupons:34456",
     "lodydeals:46327",
     "aniscoupons:34458",
     "aniscoupons:34459",
@@ -32912,7 +32920,9 @@
     "lodydeals:46682",
     "lodydeals:46683",
     "lodydeals:46684",
-    "zedstoreonline:40436"
+    "zedstoreonline:40436",
+    "bnddeals:51343",
+    "bnddeals:51344"
   ],
   "last_france_cross_promo_time": 1794913823.9647303,
   "next_france_cross_promo_interval_seconds": 311842,
@@ -33677,6 +33687,11 @@
         "channel": "zedstoreonline",
         "ts": 1795078110.5508354,
         "price": 14.7
+      },
+      {
+        "channel": "bnddeals",
+        "ts": 1795087092.7279308,
+        "price": 18.2
       }
     ],
     "1005005875379717": [
@@ -33893,6 +33908,11 @@
         "channel": "zedstoreonline",
         "ts": 1795081604.5398967,
         "price": 17.8
+      },
+      {
+        "channel": "bnddeals",
+        "ts": 1795087093.5148754,
+        "price": 17.8
       }
     ],
     "1005011748000554": [
@@ -33988,6 +34008,13 @@
         "channel": "bnddeals",
         "ts": 1795086170.3309948,
         "price": 14.67
+      }
+    ],
+    "1005008636930795": [
+      {
+        "channel": "aniscoupons",
+        "ts": 1795087086.5805066,
+        "price": 31.5
       }
     ]
   },
