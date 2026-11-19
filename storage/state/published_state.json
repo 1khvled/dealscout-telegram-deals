@@ -843,7 +843,8 @@
     "1005011551172448",
     "1005013401121405",
     "1005003624789670",
-    "1005008644346729"
+    "1005008644346729",
+    "1005008723396190"
   ],
   "published_product_timestamps": {
     "1005012973772517": 1794500732.7845657,
@@ -1703,7 +1704,8 @@
     "1005011551172448": 1794936842.146349,
     "1005013401121405": 1794996958.0314968,
     "1005003624789670": 1794996764.6923764,
-    "1005008644346729": 1794991252.6823444
+    "1005008644346729": 1794991252.6823444,
+    "1005008723396190": 1795072599.5014904
   },
   "published_titles": [
     "Wireless WiFi Repeater 300Mbps WiFi Extender Amplifier Booster Router",
@@ -2822,7 +2824,8 @@
     "تخزين CUSU K5 SATA Portable USB SSD",
     "تخزين CUSU C300 Sata SSD",
     "DOOV R77 4G Touch 3/32GB",
-    "SOMNAMBULIST SSD 120GB"
+    "SOMNAMBULIST SSD 120GB",
+    "Kodak SD Card 128GB"
   ],
   "published_title_timestamps": {
     "Xiaomi Redmi Note 17 5G Global Version": 1790857823.0117362,
@@ -3946,10 +3949,10 @@
     "تخزين CUSU K5 SATA Portable USB SSD": 1795022264.1116176,
     "تخزين CUSU C300 Sata SSD": 1795022269.6440833,
     "DOOV R77 4G Touch 3/32GB": 1795023205.68955,
-    "SOMNAMBULIST SSD 120GB": 1795033574.311118
+    "SOMNAMBULIST SSD 120GB": 1795033574.311118,
+    "Kodak SD Card 128GB": 1795072599.5014904
   },
   "published_post_keys": [
-    "aniscoupons:34311",
     "zedstoreonline:39751",
     "aniscoupons:34312",
     "zedstoreonline:39752",
@@ -4948,11 +4951,12 @@
     "lodydeals:46655",
     "aniscoupons:35266",
     "aniscoupons:35267",
-    "aniscoupons:35269"
+    "aniscoupons:35269",
+    "zedstoreonline:40407"
   ],
   "last_disclaimer_time": 1794524540.9476151,
   "last_calendar_time": 1794572799.8939624,
-  "last_run_time": 1795046513.7681544,
+  "last_run_time": 1795072599.5014904,
   "monitored_channels": {
     "ecksdeal": {
       "last_message_id": 6104,
@@ -4979,8 +4983,8 @@
       "last_check_time": 1793599663.3444748
     },
     "zedstoreonline": {
-      "last_message_id": 40406,
-      "last_check_time": 1795072416.05289
+      "last_message_id": 40407,
+      "last_check_time": 1795072601.5865905
     },
     "aniscoupons": {
       "last_message_id": 35269,
@@ -5726,7 +5730,8 @@
     "1005011551172448": 58.29,
     "1005013401121405": 18.23,
     "1005003624789670": 18.33,
-    "1005008644346729": 114.99
+    "1005008644346729": 114.99,
+    "1005008723396190": 9.2
   },
   "channel_published_deals": {
     "aniscoupons:32590": {
@@ -28641,6 +28646,16 @@
       "price": 228.3,
       "timestamp": 1795046513.7681544,
       "status": "ACTIVE"
+    },
+    "zedstoreonline:40407": {
+      "channel_msg_id": 3197,
+      "product_id": "1005008723396190",
+      "title": "Kodak SD Card 128GB",
+      "channel": "zedstoreonline",
+      "source_msg_id": 40407,
+      "price": 9.2,
+      "timestamp": 1795072599.5014904,
+      "status": "ACTIVE"
     }
   },
   "schedule_config": {
@@ -28649,17 +28664,17 @@
     "current_interval_minutes": 5,
     "is_paused": false,
     "night_mode_enabled": true,
-    "last_deal_post_time": 1795046516.819378,
+    "last_deal_post_time": 1795072603.283749,
     "night_start_hour_dz": 0,
     "night_end_hour_dz": 8,
     "night_pause_enabled": true,
-    "last_sweep_time": 1795072420.99953,
+    "last_sweep_time": 1795072605.7515929,
     "last_sweep_times": {
-      "algeria": 1795072417.853194,
-      "france": 1795072420.99953
+      "algeria": 1795072603.2462664,
+      "france": 1795072605.7515929
     },
     "last_deal_post_times": {
-      "algeria": 1795046516.819378
+      "algeria": 1795072603.283749
     }
   },
   "last_coin_reminder_time": 1795015271.2437074,
@@ -29516,7 +29531,8 @@
     "1005011551172448": "ecksdeal",
     "1005013401121405": "aniscoupons",
     "1005003624789670": "aniscoupons",
-    "1005008644346729": "aniscoupons"
+    "1005008644346729": "aniscoupons",
+    "1005008723396190": "zedstoreonline"
   },
   "published_title_channels": {
     "Test Wrench Set": "test_channel",
@@ -30642,7 +30658,8 @@
     "تخزين CUSU K5 SATA Portable USB SSD": "ecksdeal",
     "تخزين CUSU C300 Sata SSD": "ecksdeal",
     "DOOV R77 4G Touch 3/32GB": "lodydeals",
-    "SOMNAMBULIST SSD 120GB": "lodydeals"
+    "SOMNAMBULIST SSD 120GB": "lodydeals",
+    "Kodak SD Card 128GB": "zedstoreonline"
   },
   "religious_reminders_history": {
     "mock_rem": "2026-10-02",
