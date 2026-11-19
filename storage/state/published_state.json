@@ -854,7 +854,8 @@
     "1005009465190932",
     "1005013270397194",
     "1005013611971758",
-    "1005013614035166"
+    "1005013614035166",
+    "1005012047232780"
   ],
   "published_product_timestamps": {
     "1005012973772517": 1794500732.7845657,
@@ -1725,7 +1726,8 @@
     "1005009465190932": 1795095306.94495,
     "1005013270397194": 1795096787.4537058,
     "1005013611971758": 1795097142.4984226,
-    "1005013614035166": 1795097149.7422955
+    "1005013614035166": 1795097149.7422955,
+    "1005012047232780": 1795097711.3860745
   },
   "published_titles": [
     "Wireless WiFi Repeater 300Mbps WiFi Extender Amplifier Booster Router",
@@ -2862,7 +2864,8 @@
     "HOCO EQ28 ANC Earbuds",
     "VIVO X500 PRO MAX",
     "iPhone 15 Pro Max 256GB",
-    "iPhone 16 Pro  256GB"
+    "iPhone 16 Pro  256GB",
+    "Oppo Find X9 Ultra"
   ],
   "published_title_timestamps": {
     "Xiaomi Redmi Note 17 5G Global Version": 1790857823.0117362,
@@ -4004,10 +4007,10 @@
     "HOCO EQ28 ANC Earbuds": 1795095306.94495,
     "VIVO X500 PRO MAX": 1795096787.4537058,
     "iPhone 15 Pro Max 256GB": 1795097142.4984226,
-    "iPhone 16 Pro  256GB": 1795097149.7422955
+    "iPhone 16 Pro  256GB": 1795097149.7422955,
+    "Oppo Find X9 Ultra": 1795097711.3860745
   },
   "published_post_keys": [
-    "lodydeals:46289",
     "lodydeals:46290",
     "aniscoupons:34347",
     "lodydeals:46292",
@@ -5006,11 +5009,12 @@
     "lodydeals:46702",
     "aniscoupons:35312",
     "lodydeals:46703",
-    "lodydeals:46704"
+    "lodydeals:46704",
+    "aniscoupons:35314"
   ],
   "last_disclaimer_time": 1794524540.9476151,
   "last_calendar_time": 1794572799.8939624,
-  "last_run_time": 1795097149.7422955,
+  "last_run_time": 1795097711.3860745,
   "monitored_channels": {
     "ecksdeal": {
       "last_message_id": 6110,
@@ -5041,8 +5045,8 @@
       "last_check_time": 1795096224.767619
     },
     "aniscoupons": {
-      "last_message_id": 35313,
-      "last_check_time": 1795097161.9390564
+      "last_message_id": 35314,
+      "last_check_time": 1795097713.4622777
     },
     "bnddeals": {
       "last_message_id": 51348,
@@ -5795,7 +5799,8 @@
     "1005009465190932": 4.13,
     "1005013270397194": 928.9,
     "1005013611971758": 871.08,
-    "1005013614035166": 973.93
+    "1005013614035166": 973.93,
+    "1005012047232780": 889.3
   },
   "channel_published_deals": {
     "aniscoupons:32590": {
@@ -29250,6 +29255,16 @@
       "price": 973.93,
       "timestamp": 1795097149.7422955,
       "status": "ACTIVE"
+    },
+    "aniscoupons:35314": {
+      "channel_msg_id": 3251,
+      "product_id": "1005012047232780",
+      "title": "Oppo Find X9 Ultra",
+      "channel": "aniscoupons",
+      "source_msg_id": 35314,
+      "price": 889.3,
+      "timestamp": 1795097711.3860745,
+      "status": "ACTIVE"
     }
   },
   "schedule_config": {
@@ -29258,17 +29273,17 @@
     "current_interval_minutes": 5,
     "is_paused": false,
     "night_mode_enabled": true,
-    "last_deal_post_time": 1795097162.5507405,
+    "last_deal_post_time": 1795097714.403059,
     "night_start_hour_dz": 0,
     "night_end_hour_dz": 8,
     "night_pause_enabled": true,
-    "last_sweep_time": 1795097540.3600156,
+    "last_sweep_time": 1795097717.083293,
     "last_sweep_times": {
-      "algeria": 1795097537.0504315,
-      "france": 1795097540.3600156
+      "algeria": 1795097714.374904,
+      "france": 1795097717.083293
     },
     "last_deal_post_times": {
-      "algeria": 1795097162.5507405
+      "algeria": 1795097714.403059
     }
   },
   "last_coin_reminder_time": 1795015271.2437074,
@@ -30136,7 +30151,8 @@
     "1005009465190932": "lodydeals",
     "1005013270397194": "aniscoupons",
     "1005013611971758": "lodydeals",
-    "1005013614035166": "lodydeals"
+    "1005013614035166": "lodydeals",
+    "1005012047232780": "aniscoupons"
   },
   "published_title_channels": {
     "Test Wrench Set": "test_channel",
@@ -31280,7 +31296,8 @@
     "HOCO EQ28 ANC Earbuds": "lodydeals",
     "VIVO X500 PRO MAX": "aniscoupons",
     "iPhone 15 Pro Max 256GB": "lodydeals",
-    "iPhone 16 Pro  256GB": "lodydeals"
+    "iPhone 16 Pro  256GB": "lodydeals",
+    "Oppo Find X9 Ultra": "aniscoupons"
   },
   "religious_reminders_history": {
     "mock_rem": "2026-10-02",
