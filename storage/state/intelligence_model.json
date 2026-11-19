@@ -34,10 +34,10 @@
       "ewma": 0.9994
     },
     "bnddeals": {
-      "seen": 42,
-      "published": 17,
+      "seen": 43,
+      "published": 18,
       "skipped": 0,
-      "ewma": 0.8788
+      "ewma": 0.8885
     },
     "aniscoupons": {
       "seen": 547,
@@ -78,10 +78,10 @@
       "ewma": 0.9922
     },
     "accessories": {
-      "seen": 40,
-      "published": 28,
+      "seen": 41,
+      "published": 29,
       "skipped": 0,
-      "ewma": 0.9516
+      "ewma": 0.9555
     },
     "audio": {
       "seen": 45,
@@ -1483,26 +1483,21 @@
     ],
     "1005012925301774": [
       10.5
+    ],
+    "1005011742851856": [
+      14.67
     ]
   },
   "counters": {
-    "scored": 1116,
-    "verdict_publish": 1072,
+    "scored": 1117,
+    "verdict_publish": 1073,
     "verdict_hold": 44,
     "verdict_skip": 0,
-    "published": 863,
+    "published": 864,
     "skipped": 0
   },
-  "score_sum": 81821.31,
+  "score_sum": 81892.04,
   "recent_decisions": [
-    {
-      "ts": 1794914074,
-      "channel": "bnddeals",
-      "category": "other",
-      "product_id": "1005010184029817",
-      "score": 67.07,
-      "verdict": "publish"
-    },
     {
       "ts": 1794935182,
       "channel": "ecksdeal",
@@ -3094,7 +3089,15 @@
       "product_id": "1005008430147176",
       "score": 63.62,
       "verdict": "publish"
+    },
+    {
+      "ts": 1795086170,
+      "channel": "bnddeals",
+      "category": "accessories",
+      "product_id": "1005011742851856",
+      "score": 70.73,
+      "verdict": "publish"
     }
   ],
-  "updated_at": 1795085991.2726772
+  "updated_at": 1795086173.4459686
 }

@@ -1412,7 +1412,7 @@
     "1005012823102793": 1793569904.419889,
     "1005012773302941": 1794683510.1887808,
     "1005008430147176": 1795085991.192385,
-    "1005011742851856": 1793793769.5631576,
+    "1005011742851856": 1795086173.3845732,
     "1005006304425302": 1793656107.995781,
     "1005010487426245": 1793573558.2913802,
     "1005012865939059": 1793573742.8007863,
@@ -2846,7 +2846,8 @@
     "لأكثر طلباً شاحن",
     "HOCO CS25A 20W PD",
     "Realme P4 (8/256GB)",
-    "Ulanzi ST-06S ✅"
+    "Ulanzi ST-06S ✅",
+    "ESSAGER 45W Car Charger PD Fast Charging with Retractable"
   ],
   "published_title_timestamps": {
     "Xiaomi Redmi Note 17 5G Global Version": 1790857823.0117362,
@@ -3982,10 +3983,10 @@
     "لأكثر طلباً شاحن": 1795081619.0346873,
     "HOCO CS25A 20W PD": 1795083426.9610174,
     "Realme P4 (8/256GB)": 1795084333.1776772,
-    "Ulanzi ST-06S ✅": 1795085808.5784442
+    "Ulanzi ST-06S ✅": 1795085808.5784442,
+    "ESSAGER 45W Car Charger PD Fast Charging with Retractable": 1795086173.3845732
   },
   "published_post_keys": [
-    "aniscoupons:34337",
     "aniscoupons:34339",
     "lodydeals:46281",
     "aniscoupons:34340",
@@ -4984,11 +4985,12 @@
     "aniscoupons:35303",
     "zedstoreonline:40434",
     "bnddeals:51341",
-    "zedstoreonline:40435"
+    "zedstoreonline:40435",
+    "bnddeals:51342"
   ],
   "last_disclaimer_time": 1794524540.9476151,
   "last_calendar_time": 1794572799.8939624,
-  "last_run_time": 1795085991.192385,
+  "last_run_time": 1795086173.3845732,
   "monitored_channels": {
     "ecksdeal": {
       "last_message_id": 6110,
@@ -5023,8 +5025,8 @@
       "last_check_time": 1795085995.946015
     },
     "bnddeals": {
-      "last_message_id": 51341,
-      "last_check_time": 1795085810.662515
+      "last_message_id": 51342,
+      "last_check_time": 1795086175.4822383
     }
   },
   "published_product_prices": {
@@ -5496,7 +5498,7 @@
     "1005012823102793": 226.25,
     "1005012773302941": 17.06,
     "1005008430147176": 22.6,
-    "1005011742851856": 12.8,
+    "1005011742851856": 14.67,
     "1005006304425302": 2.24,
     "1005010487426245": 7.74,
     "1005012865939059": 14.89,
@@ -29083,6 +29085,16 @@
       "price": 22.6,
       "timestamp": 1795085991.192385,
       "status": "ACTIVE"
+    },
+    "bnddeals:51342": {
+      "channel_msg_id": 3237,
+      "product_id": "1005011742851856",
+      "title": "ESSAGER 45W Car Charger PD Fast Charging with Retractable",
+      "channel": "bnddeals",
+      "source_msg_id": 51342,
+      "price": 14.67,
+      "timestamp": 1795086173.3845732,
+      "status": "ACTIVE"
     }
   },
   "schedule_config": {
@@ -29091,17 +29103,17 @@
     "current_interval_minutes": 5,
     "is_paused": false,
     "night_mode_enabled": true,
-    "last_deal_post_time": 1795085996.9235103,
+    "last_deal_post_time": 1795086175.5542974,
     "night_start_hour_dz": 0,
     "night_end_hour_dz": 8,
     "night_pause_enabled": true,
-    "last_sweep_time": 1795086000.4363291,
+    "last_sweep_time": 1795086178.5050623,
     "last_sweep_times": {
-      "algeria": 1795085996.8780408,
-      "france": 1795086000.4363291
+      "algeria": 1795086175.5186512,
+      "france": 1795086178.5050623
     },
     "last_deal_post_times": {
-      "algeria": 1795085996.9235103
+      "algeria": 1795086175.5542974
     }
   },
   "last_coin_reminder_time": 1795015271.2437074,
@@ -29679,7 +29691,7 @@
     "1005012823102793": "lodydeals",
     "1005012773302941": "lodydeals",
     "1005008430147176": "zedstoreonline",
-    "1005011742851856": "lodydeals",
+    "1005011742851856": "bnddeals",
     "1005006304425302": "lodydeals",
     "1005010487426245": "lodydeals",
     "1005012865939059": "lodydeals",
@@ -31102,7 +31114,8 @@
     "لأكثر طلباً شاحن": "bnddeals",
     "HOCO CS25A 20W PD": "lodydeals",
     "Realme P4 (8/256GB)": "aniscoupons",
-    "Ulanzi ST-06S ✅": "bnddeals"
+    "Ulanzi ST-06S ✅": "bnddeals",
+    "ESSAGER 45W Car Charger PD Fast Charging with Retractable": "bnddeals"
   },
   "religious_reminders_history": {
     "mock_rem": "2026-10-02",
@@ -33963,6 +33976,13 @@
         "channel": "zedstoreonline",
         "ts": 1795085988.5746138,
         "price": 22.6
+      }
+    ],
+    "1005011742851856": [
+      {
+        "channel": "bnddeals",
+        "ts": 1795086170.3309948,
+        "price": 14.67
       }
     ]
   },
