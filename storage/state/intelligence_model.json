@@ -34,14 +34,14 @@
       "ewma": 0.9994
     },
     "bnddeals": {
-      "seen": 44,
+      "seen": 45,
       "published": 18,
       "skipped": 0,
       "ewma": 0.8885
     },
     "aniscoupons": {
-      "seen": 550,
-      "published": 472,
+      "seen": 551,
+      "published": 473,
       "skipped": 0,
       "ewma": 0.9994
     },
@@ -54,7 +54,7 @@
   },
   "category_stats": {
     "other": {
-      "seen": 425,
+      "seen": 426,
       "published": 364,
       "skipped": 0,
       "ewma": 0.9994
@@ -66,8 +66,8 @@
       "ewma": 0.9994
     },
     "phones": {
-      "seen": 350,
-      "published": 229,
+      "seen": 351,
+      "published": 230,
       "skipped": 0,
       "ewma": 0.9994
     },
@@ -665,7 +665,8 @@
       37.5,
       36.5,
       36.5,
-      36.5
+      36.5,
+      37.5
     ],
     "1005007805638431": [
       21.2,
@@ -1496,31 +1497,15 @@
     ]
   },
   "counters": {
-    "scored": 1124,
-    "verdict_publish": 1079,
+    "scored": 1126,
+    "verdict_publish": 1081,
     "verdict_hold": 45,
     "verdict_skip": 0,
-    "published": 870,
+    "published": 871,
     "skipped": 0
   },
-  "score_sum": 82367.64,
+  "score_sum": 82522.08,
   "recent_decisions": [
-    {
-      "ts": 1794935221,
-      "channel": "zedstoreonline",
-      "category": "phones",
-      "product_id": "1005011925142821",
-      "score": 70.83,
-      "verdict": "publish"
-    },
-    {
-      "ts": 1794935225,
-      "channel": "zedstoreonline",
-      "category": "other",
-      "product_id": "1005010485068924",
-      "score": 67.89,
-      "verdict": "publish"
-    },
     {
       "ts": 1794935232,
       "channel": "zedstoreonline",
@@ -3104,7 +3089,23 @@
       "product_id": "1005009104334975",
       "score": 60.02,
       "verdict": "publish"
+    },
+    {
+      "ts": 1795090033,
+      "channel": "aniscoupons",
+      "category": "phones",
+      "product_id": "1005007869955343",
+      "score": 70.87,
+      "verdict": "publish"
+    },
+    {
+      "ts": 1795090040,
+      "channel": "bnddeals",
+      "category": "other",
+      "product_id": "1005007096934754",
+      "score": 83.57,
+      "verdict": "publish"
     }
   ],
-  "updated_at": 1795088919.332482
+  "updated_at": 1795090040.2466514
 }
