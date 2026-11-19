@@ -1638,7 +1638,7 @@
     "1005013485724377": 1794606651.7602222,
     "1005012783197164": 1794606646.2896297,
     "1005012993724126": 1794515920.3397443,
-    "1005012726037568": 1795075896.7063851,
+    "1005012726037568": 1795083794.6533382,
     "1005011940143389": 1794524364.21287,
     "1005010374799328": 1794524370.7043138,
     "1005010487219975": 1794524381.8060858,
@@ -3788,7 +3788,7 @@
     "KOOTION SATA3 SSD 128GB": 1794585682.0605152,
     "Inphic YuanChuang Cyber Gaming Mouse": 1794320674.833981,
     "SIX PCIe 4.0 SSD (1TB) NVMe M2": 1794331533.1223195,
-    "Kootion SSD SATA": 1795075896.7063851,
+    "Kootion SSD SATA": 1795083794.6533382,
     "KOOTION SATA SSD 128GB": 1794334097.945569,
     "Kingston DataTraveler 128GB": 1794958362.7165008,
     "CUSU CV3500  M.2 NVMe SSD (1tb)": 1795077010.0031211,
@@ -3979,7 +3979,6 @@
     "HOCO CS25A 20W PD": 1795083426.9610174
   },
   "published_post_keys": [
-    "aniscoupons:34332",
     "aniscoupons:34333",
     "aniscoupons:34334",
     "zedstoreonline:39762",
@@ -4978,11 +4977,12 @@
     "zedstoreonline:40432",
     "bnddeals:51337",
     "lodydeals:46674",
-    "zedstoreonline:40433"
+    "zedstoreonline:40433",
+    "aniscoupons:35298"
   ],
   "last_disclaimer_time": 1794524540.9476151,
   "last_calendar_time": 1794572799.8939624,
-  "last_run_time": 1795083604.7836761,
+  "last_run_time": 1795083794.6533382,
   "monitored_channels": {
     "ecksdeal": {
       "last_message_id": 6110,
@@ -5013,8 +5013,8 @@
       "last_check_time": 1795083606.8857665
     },
     "aniscoupons": {
-      "last_message_id": 35297,
-      "last_check_time": 1795082506.1760201
+      "last_message_id": 35299,
+      "last_check_time": 1795083797.9500482
     },
     "bnddeals": {
       "last_message_id": 51337,
@@ -5688,7 +5688,7 @@
     "1005013485724377": 11.54,
     "1005012783197164": 36.46,
     "1005012993724126": 15.6,
-    "1005012726037568": 7.4,
+    "1005012726037568": 7.5,
     "1005011940143389": 3.48,
     "1005010374799328": 10.49,
     "1005010487219975": 5.49,
@@ -29016,6 +29016,16 @@
       "price": 52.3,
       "timestamp": 1795083604.7836761,
       "status": "ACTIVE"
+    },
+    "aniscoupons:35298": {
+      "channel_msg_id": 3231,
+      "product_id": "1005012726037568",
+      "title": "Kootion SSD SATA",
+      "channel": "aniscoupons",
+      "source_msg_id": 35298,
+      "price": 7.5,
+      "timestamp": 1795083794.6533382,
+      "status": "ACTIVE"
     }
   },
   "schedule_config": {
@@ -29024,17 +29034,17 @@
     "current_interval_minutes": 5,
     "is_paused": false,
     "night_mode_enabled": true,
-    "last_deal_post_time": 1795083609.3728983,
+    "last_deal_post_time": 1795083799.2692056,
     "night_start_hour_dz": 0,
     "night_end_hour_dz": 8,
     "night_pause_enabled": true,
-    "last_sweep_time": 1795083612.8155243,
+    "last_sweep_time": 1795083802.7985833,
     "last_sweep_times": {
-      "algeria": 1795083609.3272653,
-      "france": 1795083612.8155243
+      "algeria": 1795083799.21907,
+      "france": 1795083802.7985833
     },
     "last_deal_post_times": {
-      "algeria": 1795083609.3728983
+      "algeria": 1795083799.2692056
     }
   },
   "last_coin_reminder_time": 1795015271.2437074,
@@ -31830,7 +31840,6 @@
   "published_deals_history": {},
   "settings": {},
   "handled_post_keys": [
-    "aniscoupons:34439",
     "zedstoreonline:39834",
     "ecksdeal:6051",
     "aniscoupons:34440",
@@ -32829,7 +32838,8 @@
     "zedstoreonline:40431",
     "aniscoupons:35297",
     "lodydeals:46672",
-    "lodydeals:46673"
+    "lodydeals:46673",
+    "aniscoupons:35299"
   ],
   "last_france_cross_promo_time": 1794913823.9647303,
   "next_france_cross_promo_interval_seconds": 311842,
@@ -33468,6 +33478,16 @@
         "channel": "ecksdeal",
         "ts": 1795076444.0864851,
         "price": 7.56
+      },
+      {
+        "channel": "aniscoupons",
+        "ts": 1795083791.822341,
+        "price": 7.5
+      },
+      {
+        "channel": "aniscoupons",
+        "ts": 1795083797.7934816,
+        "price": 7.5
       }
     ],
     "1005012285327063": [
@@ -33825,7 +33845,7 @@
     ]
   },
   "hot_repost_timestamps": {
-    "1005012726037568": 1795035982.1003845,
+    "1005012726037568": 1795083794.6937497,
     "1005008708333999": 1794613227.9043555,
     "1005011557016158": 1794769611.840472,
     "1005010210432531": 1795082866.566105
