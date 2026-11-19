@@ -34,7 +34,7 @@
       "ewma": 0.9994
     },
     "bnddeals": {
-      "seen": 37,
+      "seen": 38,
       "published": 13,
       "skipped": 0,
       "ewma": 0.8309
@@ -54,7 +54,7 @@
   },
   "category_stats": {
     "other": {
-      "seen": 414,
+      "seen": 415,
       "published": 354,
       "skipped": 0,
       "ewma": 0.9994
@@ -1465,23 +1465,15 @@
     ]
   },
   "counters": {
-    "scored": 1098,
-    "verdict_publish": 1054,
+    "scored": 1099,
+    "verdict_publish": 1055,
     "verdict_hold": 44,
     "verdict_skip": 0,
     "published": 847,
     "skipped": 0
   },
-  "score_sum": 80558.0,
+  "score_sum": 80641.01,
   "recent_decisions": [
-    {
-      "ts": 1794913918,
-      "channel": "zedstoreonline",
-      "category": "other",
-      "product_id": "1005010305059795",
-      "score": 67.14,
-      "verdict": "publish"
-    },
     {
       "ts": 1794913924,
       "channel": "zedstoreonline",
@@ -3073,7 +3065,15 @@
       "product_id": "1005012135177627",
       "score": 84.36,
       "verdict": "publish"
+    },
+    {
+      "ts": 1795081232,
+      "channel": "bnddeals",
+      "category": "other",
+      "product_id": "1005008518280704",
+      "score": 83.01,
+      "verdict": "publish"
     }
   ],
-  "updated_at": 1795080686.5984685
+  "updated_at": 1795081232.492002
 }
