@@ -862,7 +862,8 @@
     "1005012408109331",
     "1005013304783085",
     "1005013633649876",
-    "1005012274502051"
+    "1005012274502051",
+    "1005013603023857"
   ],
   "published_product_timestamps": {
     "1005012973772517": 1794500732.7845657,
@@ -1741,7 +1742,8 @@
     "1005012408109331": 1795102336.0045958,
     "1005013304783085": 1795103262.750217,
     "1005013633649876": 1795104359.6206825,
-    "1005012274502051": 1795111028.5315912
+    "1005012274502051": 1795111028.5315912,
+    "1005013603023857": 1795112692.4915283
   },
   "published_titles": [
     "Wireless WiFi Repeater 300Mbps WiFi Extender Amplifier Booster Router",
@@ -2886,7 +2888,8 @@
     "Honor Magic 8 Pro Air",
     "Honor Magic 9 SE",
     "8L FOLDING WASHING MACHINE",
-    "Maono WAVE T1 MINI"
+    "Maono WAVE T1 MINI",
+    "MAGCUBIC HY300 PRO Projector"
   ],
   "published_title_timestamps": {
     "Xiaomi Redmi Note 17 5G Global Version": 1790857823.0117362,
@@ -4036,10 +4039,10 @@
     "Honor Magic 8 Pro Air": 1795102336.0045958,
     "Honor Magic 9 SE": 1795103262.750217,
     "8L FOLDING WASHING MACHINE": 1795104359.6206825,
-    "Maono WAVE T1 MINI": 1795111968.5056303
+    "Maono WAVE T1 MINI": 1795111968.5056303,
+    "MAGCUBIC HY300 PRO Projector": 1795112692.4915283
   },
   "published_post_keys": [
-    "aniscoupons:34354",
     "zedstoreonline:39792",
     "zedstoreonline:39793",
     "zedstoreonline:39794",
@@ -5038,11 +5041,12 @@
     "zedstoreonline:40452",
     "zedstoreonline:40456",
     "lodydeals:46711",
-    "bnddeals:51352"
+    "bnddeals:51352",
+    "zedstoreonline:40458"
   ],
   "last_disclaimer_time": 1794524540.9476151,
   "last_calendar_time": 1794572799.8939624,
-  "last_run_time": 1795111968.5056303,
+  "last_run_time": 1795112692.4915283,
   "monitored_channels": {
     "ecksdeal": {
       "last_message_id": 6110,
@@ -5069,8 +5073,8 @@
       "last_check_time": 1793599663.3444748
     },
     "zedstoreonline": {
-      "last_message_id": 40457,
-      "last_check_time": 1795110850.443223
+      "last_message_id": 40458,
+      "last_check_time": 1795112694.5875683
     },
     "aniscoupons": {
       "last_message_id": 35327,
@@ -5835,7 +5839,8 @@
     "1005012408109331": 661.2,
     "1005013304783085": 597.9,
     "1005013633649876": 12.9,
-    "1005012274502051": 20.96
+    "1005012274502051": 20.96,
+    "1005013603023857": 42.1
   },
   "channel_published_deals": {
     "aniscoupons:32590": {
@@ -29420,6 +29425,16 @@
       "price": 9.2,
       "timestamp": 1795111968.5056303,
       "status": "ACTIVE"
+    },
+    "zedstoreonline:40458": {
+      "channel_msg_id": 3265,
+      "product_id": "1005013603023857",
+      "title": "MAGCUBIC HY300 PRO Projector",
+      "channel": "zedstoreonline",
+      "source_msg_id": 40458,
+      "price": 42.1,
+      "timestamp": 1795112692.4915283,
+      "status": "ACTIVE"
     }
   },
   "schedule_config": {
@@ -29428,17 +29443,17 @@
     "current_interval_minutes": 5,
     "is_paused": false,
     "night_mode_enabled": true,
-    "last_deal_post_time": 1795111970.6854415,
+    "last_deal_post_time": 1795112696.8302794,
     "night_start_hour_dz": 0,
     "night_end_hour_dz": 8,
     "night_pause_enabled": true,
-    "last_sweep_time": 1795112524.9447427,
+    "last_sweep_time": 1795112699.3824947,
     "last_sweep_times": {
-      "algeria": 1795112521.5513713,
-      "france": 1795112524.9447427
+      "algeria": 1795112696.7899516,
+      "france": 1795112699.3824947
     },
     "last_deal_post_times": {
-      "algeria": 1795111970.6854415
+      "algeria": 1795112696.8302794
     }
   },
   "last_coin_reminder_time": 1795015271.2437074,
@@ -30314,7 +30329,8 @@
     "1005012408109331": "aniscoupons",
     "1005013304783085": "aniscoupons",
     "1005013633649876": "aniscoupons",
-    "1005012274502051": "lodydeals"
+    "1005012274502051": "lodydeals",
+    "1005013603023857": "zedstoreonline"
   },
   "published_title_channels": {
     "Test Wrench Set": "test_channel",
@@ -31466,7 +31482,8 @@
     "Honor Magic 8 Pro Air": "aniscoupons",
     "Honor Magic 9 SE": "aniscoupons",
     "8L FOLDING WASHING MACHINE": "aniscoupons",
-    "Maono WAVE T1 MINI": "bnddeals"
+    "Maono WAVE T1 MINI": "bnddeals",
+    "MAGCUBIC HY300 PRO Projector": "zedstoreonline"
   },
   "religious_reminders_history": {
     "mock_rem": "2026-10-02",
