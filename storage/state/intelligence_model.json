@@ -28,7 +28,7 @@
       "ewma": 0.9994
     },
     "zedstoreonline": {
-      "seen": 364,
+      "seen": 365,
       "published": 227,
       "skipped": 0,
       "ewma": 0.9994
@@ -78,7 +78,7 @@
       "ewma": 0.9908
     },
     "accessories": {
-      "seen": 37,
+      "seen": 38,
       "published": 26,
       "skipped": 0,
       "ewma": 0.9428
@@ -1465,23 +1465,15 @@
     ]
   },
   "counters": {
-    "scored": 1099,
-    "verdict_publish": 1055,
+    "scored": 1100,
+    "verdict_publish": 1056,
     "verdict_hold": 44,
     "verdict_skip": 0,
     "published": 847,
     "skipped": 0
   },
-  "score_sum": 80641.01,
+  "score_sum": 80722.9,
   "recent_decisions": [
-    {
-      "ts": 1794913924,
-      "channel": "zedstoreonline",
-      "category": "other",
-      "product_id": "1005010706590867",
-      "score": 64.21,
-      "verdict": "publish"
-    },
     {
       "ts": 1794913925,
       "channel": "zedstoreonline",
@@ -3073,7 +3065,15 @@
       "product_id": "1005008518280704",
       "score": 83.01,
       "verdict": "publish"
+    },
+    {
+      "ts": 1795081417,
+      "channel": "zedstoreonline",
+      "category": "accessories",
+      "product_id": "1005007168829266",
+      "score": 81.89,
+      "verdict": "publish"
     }
   ],
-  "updated_at": 1795081232.492002
+  "updated_at": 1795081417.1832457
 }
