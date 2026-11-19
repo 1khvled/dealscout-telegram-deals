@@ -919,7 +919,7 @@
     "9998883531": 1790943531.551938,
     "1005010111014453": 1790943633.9774187,
     "1005009828161174": 1791031550.2120771,
-    "1005009281115306": 1793558205.9468858,
+    "1005009281115306": 1795125230.187759,
     "1005011797801269": 1791203753.790013,
     "1005007168829266": 1795081619.0346873,
     "1005012406142215": 1795023191.9944189,
@@ -2952,7 +2952,7 @@
     "سماعات اذن فخمة  Moondrop Chu 3 IEM": 1795027703.9087646,
     "4G LTE Wireless USB 150Mbps": 1794057675.8729835,
     "Curren 8455 Men's Quartz": 1790943640.1460688,
-    "ATTACK SHARK X11SE": 1793558205.9468858,
+    "ATTACK SHARK X11SE": 1795125230.187759,
     "CMF Watch 3 Pro AMOLED": 1794067316.3057165,
     "Redmi Note 17 5G   6/256": 1790943667.90417,
     "Baseus USB Type C Charger 20W": 1791102355.4991398,
@@ -4045,7 +4045,6 @@
     "MAGCUBIC HY300 PRO Projector": 1795112692.4915283
   },
   "published_post_keys": [
-    "aniscoupons:34360",
     "aniscoupons:34361",
     "lodydeals:46299",
     "lodydeals:46300",
@@ -5044,11 +5043,12 @@
     "zedstoreonline:40461",
     "bnddeals:51355",
     "zedstoreonline:40462",
-    "aniscoupons:35334"
+    "aniscoupons:35334",
+    "zedstoreonline:40465"
   ],
   "last_disclaimer_time": 1794524540.9476151,
   "last_calendar_time": 1794572799.8939624,
-  "last_run_time": 1795124868.4158998,
+  "last_run_time": 1795125230.187759,
   "monitored_channels": {
     "ecksdeal": {
       "last_message_id": 6110,
@@ -5075,16 +5075,16 @@
       "last_check_time": 1793599663.3444748
     },
     "zedstoreonline": {
-      "last_message_id": 40464,
-      "last_check_time": 1795122202.929093
+      "last_message_id": 40465,
+      "last_check_time": 1795125232.2458558
     },
     "aniscoupons": {
-      "last_message_id": 35334,
-      "last_check_time": 1795124870.491742
+      "last_message_id": 35335,
+      "last_check_time": 1795125234.1695056
     },
     "bnddeals": {
-      "last_message_id": 51357,
-      "last_check_time": 1795124486.3951697
+      "last_message_id": 51358,
+      "last_check_time": 1795125235.4311163
     }
   },
   "published_product_prices": {
@@ -5138,7 +5138,7 @@
     "1005012968221708": 20.2,
     "1005010111014453": 6.09,
     "1005009828161174": 7.62,
-    "1005009281115306": 12.3,
+    "1005009281115306": 14.2,
     "1005011797801269": 55.78,
     "1005007168829266": 16.5,
     "1005012406142215": 366.31,
@@ -29508,6 +29508,16 @@
       "price": 177.6,
       "timestamp": 1795124868.4158998,
       "status": "ACTIVE"
+    },
+    "zedstoreonline:40465": {
+      "channel_msg_id": 3273,
+      "product_id": "1005009281115306",
+      "title": "ATTACK SHARK X11SE",
+      "channel": "zedstoreonline",
+      "source_msg_id": 40465,
+      "price": 14.2,
+      "timestamp": 1795125230.187759,
+      "status": "ACTIVE"
     }
   },
   "schedule_config": {
@@ -29516,17 +29526,17 @@
     "current_interval_minutes": 5,
     "is_paused": false,
     "night_mode_enabled": true,
-    "last_deal_post_time": 1795124871.6539135,
+    "last_deal_post_time": 1795125235.4843934,
     "night_start_hour_dz": 0,
     "night_end_hour_dz": 8,
     "night_pause_enabled": true,
-    "last_sweep_time": 1795125047.8409038,
+    "last_sweep_time": 1795125238.1310213,
     "last_sweep_times": {
-      "algeria": 1795125045.0332425,
-      "france": 1795125047.8409038
+      "algeria": 1795125235.458195,
+      "france": 1795125238.1310213
     },
     "last_deal_post_times": {
-      "algeria": 1795124871.6539135
+      "algeria": 1795125235.4843934
     }
   },
   "last_coin_reminder_time": 1795015271.2437074,
@@ -29557,7 +29567,7 @@
     "9998883531": "test_channel",
     "1005010111014453": "lodydeals",
     "1005009828161174": "couponsglobal",
-    "1005009281115306": "lodydeals",
+    "1005009281115306": "zedstoreonline",
     "1005011797801269": "couponsglobal",
     "1005012973772517": "lodydeals",
     "1005007168829266": "bnddeals",
@@ -30428,7 +30438,7 @@
     "سماعات اذن فخمة  Moondrop Chu 3 IEM": "ecksdeal",
     "4G LTE Wireless USB 150Mbps": "lodydeals",
     "Curren 8455 Men's Quartz": "lodydeals",
-    "ATTACK SHARK X11SE": "lodydeals",
+    "ATTACK SHARK X11SE": "zedstoreonline",
     "CMF Watch 3 Pro AMOLED": "lodydeals",
     "Redmi Note 17 5G   6/256": "zedstoreonline",
     "Baseus USB Type C Charger 20W": "aniscoupons",
@@ -32355,8 +32365,6 @@
   "published_deals_history": {},
   "settings": {},
   "handled_post_keys": [
-    "aniscoupons:34487",
-    "bnddeals:51276",
     "zedstoreonline:39863",
     "bnddeals:51277",
     "lodydeals:46349",
@@ -33354,7 +33362,9 @@
     "lodydeals:46712",
     "zedstoreonline:40464",
     "aniscoupons:35333",
-    "bnddeals:51357"
+    "bnddeals:51357",
+    "aniscoupons:35335",
+    "bnddeals:51358"
   ],
   "last_france_cross_promo_time": 1794913823.9647303,
   "next_france_cross_promo_interval_seconds": 311842,
@@ -34030,11 +34040,6 @@
     ],
     "1005009073904302": [
       {
-        "channel": "bnddeals",
-        "ts": 1795081767.0053368,
-        "price": 228.3
-      },
-      {
         "channel": "lodydeals",
         "ts": 1795088732.2662241,
         "price": 228.32
@@ -34045,13 +34050,6 @@
         "channel": "aniscoupons",
         "ts": 1795082506.058658,
         "price": 29.6
-      }
-    ],
-    "1005008644346729": [
-      {
-        "channel": "aniscoupons",
-        "ts": 1795081760.8377802,
-        "price": 115.9
       }
     ],
     "1005011779814585": [
@@ -34349,6 +34347,11 @@
         "channel": "bnddeals",
         "ts": 1795112331.0686088,
         "price": 20.9
+      },
+      {
+        "channel": "aniscoupons",
+        "ts": 1795125234.0864594,
+        "price": 20.9
       }
     ],
     "1005013633649876": [
@@ -34410,6 +34413,18 @@
         "channel": "aniscoupons",
         "ts": 1795124865.6988473,
         "price": 177.6
+      }
+    ],
+    "1005009281115306": [
+      {
+        "channel": "zedstoreonline",
+        "ts": 1795125227.6677005,
+        "price": 14.2
+      },
+      {
+        "channel": "bnddeals",
+        "ts": 1795125235.3450875,
+        "price": 14.2
       }
     ]
   },
