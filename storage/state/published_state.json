@@ -921,7 +921,7 @@
     "9998883531": 1790943531.551938,
     "1005010111014453": 1790943633.9774187,
     "1005009828161174": 1791031550.2120771,
-    "1005009281115306": 1795125230.187759,
+    "1005009281115306": 1795182497.0644763,
     "1005011797801269": 1791203753.790013,
     "1005007168829266": 1795081619.0346873,
     "1005012406142215": 1795023191.9944189,
@@ -1749,7 +1749,8 @@
     "1005013603023857": 1795112692.4915283,
     "1005009693337727": 1795113429.7687285,
     "1005013497504096": 1795134132.9931045,
-    "1005013482874428": 1795170262.9783158
+    "1005013482874428": 1795170262.9783158,
+    "1005013354356242": 1795182504.6024845
   },
   "published_titles": [
     "Wireless WiFi Repeater 300Mbps WiFi Extender Amplifier Booster Router",
@@ -2903,7 +2904,9 @@
     "Blackview Wave 7C",
     "لي يحوس على حاجة أصلية ومضمونة",
     "Soundcore by Anker Q20i",
-    "HUAWEI Pura 90s Pro"
+    "HUAWEI Pura 90s Pro",
+    "ماوس لاسلكي Attack Shark X11SE Wireless",
+    "ميزان ذكي يعمل بالبلوتوث لقياس الوزن"
   ],
   "published_title_timestamps": {
     "Xiaomi Redmi Note 17 5G Global Version": 1790857823.0117362,
@@ -4062,11 +4065,11 @@
     "Blackview Wave 7C": 1795170262.9783158,
     "لي يحوس على حاجة أصلية ومضمونة": 1795175430.73419,
     "Soundcore by Anker Q20i": 1795180451.4710355,
-    "HUAWEI Pura 90s Pro": 1795181297.4400892
+    "HUAWEI Pura 90s Pro": 1795181297.4400892,
+    "ماوس لاسلكي Attack Shark X11SE Wireless": 1795182497.0644763,
+    "ميزان ذكي يعمل بالبلوتوث لقياس الوزن": 1795182504.6024845
   },
   "published_post_keys": [
-    "lodydeals:46318",
-    "aniscoupons:34388",
     "aniscoupons:34389",
     "aniscoupons:34390",
     "aniscoupons:34391",
@@ -5064,15 +5067,17 @@
     "aniscoupons:35365",
     "ecksdeal:6112",
     "ecksdeal:6113",
-    "aniscoupons:35368"
+    "aniscoupons:35368",
+    "ecksdeal:6114",
+    "zedstoreonline:40482"
   ],
   "last_disclaimer_time": 1794524540.9476151,
   "last_calendar_time": 1795177633.1203737,
-  "last_run_time": 1795182132.0040085,
+  "last_run_time": 1795182504.6024845,
   "monitored_channels": {
     "ecksdeal": {
-      "last_message_id": 6113,
-      "last_check_time": 1795182123.7238793
+      "last_message_id": 6114,
+      "last_check_time": 1795182499.1546493
     },
     "lodydeals": {
       "last_message_id": 46715,
@@ -5095,12 +5100,12 @@
       "last_check_time": 1793599663.3444748
     },
     "zedstoreonline": {
-      "last_message_id": 40481,
-      "last_check_time": 1795182124.7200267
+      "last_message_id": 40482,
+      "last_check_time": 1795182506.6926343
     },
     "aniscoupons": {
-      "last_message_id": 35368,
-      "last_check_time": 1795182134.0792816
+      "last_message_id": 35369,
+      "last_check_time": 1795182507.7796047
     },
     "bnddeals": {
       "last_message_id": 51366,
@@ -5158,7 +5163,7 @@
     "1005012968221708": 20.2,
     "1005010111014453": 6.09,
     "1005009828161174": 7.62,
-    "1005009281115306": 14.2,
+    "1005009281115306": 12.73,
     "1005011797801269": 55.78,
     "1005007168829266": 16.5,
     "1005012406142215": 366.31,
@@ -5865,7 +5870,8 @@
     "1005013603023857": 42.1,
     "1005009693337727": 113.4,
     "1005013497504096": 3.2,
-    "1005013482874428": 79.6
+    "1005013482874428": 79.6,
+    "1005013354356242": 11.8
   },
   "channel_published_deals": {
     "aniscoupons:32590": {
@@ -29880,6 +29886,26 @@
       "price": 887.9,
       "timestamp": 1795182132.0040085,
       "status": "ACTIVE"
+    },
+    "ecksdeal:6114": {
+      "channel_msg_id": 3311,
+      "product_id": "1005009281115306",
+      "title": "ماوس لاسلكي Attack Shark X11SE Wireless",
+      "channel": "ecksdeal",
+      "source_msg_id": 6114,
+      "price": 12.73,
+      "timestamp": 1795182497.0644763,
+      "status": "ACTIVE"
+    },
+    "zedstoreonline:40482": {
+      "channel_msg_id": 3312,
+      "product_id": "1005013354356242",
+      "title": "ميزان ذكي يعمل بالبلوتوث لقياس الوزن",
+      "channel": "zedstoreonline",
+      "source_msg_id": 40482,
+      "price": 11.8,
+      "timestamp": 1795182504.6024845,
+      "status": "ACTIVE"
     }
   },
   "schedule_config": {
@@ -29888,17 +29914,17 @@
     "current_interval_minutes": 5,
     "is_paused": false,
     "night_mode_enabled": true,
-    "last_deal_post_time": 1795182135.066135,
+    "last_deal_post_time": 1795182508.6046922,
     "night_start_hour_dz": 0,
     "night_end_hour_dz": 8,
     "night_pause_enabled": true,
-    "last_sweep_time": 1795182137.621883,
+    "last_sweep_time": 1795182511.1876502,
     "last_sweep_times": {
-      "algeria": 1795182135.031874,
-      "france": 1795182137.621883
+      "algeria": 1795182508.5650058,
+      "france": 1795182511.1876502
     },
     "last_deal_post_times": {
-      "algeria": 1795182135.066135
+      "algeria": 1795182508.6046922
     }
   },
   "last_coin_reminder_time": 1795015271.2437074,
@@ -29929,7 +29955,7 @@
     "9998883531": "test_channel",
     "1005010111014453": "lodydeals",
     "1005009828161174": "couponsglobal",
-    "1005009281115306": "zedstoreonline",
+    "1005009281115306": "ecksdeal",
     "1005011797801269": "couponsglobal",
     "1005012973772517": "lodydeals",
     "1005007168829266": "bnddeals",
@@ -30778,7 +30804,8 @@
     "1005013603023857": "zedstoreonline",
     "1005009693337727": "zedstoreonline",
     "1005013497504096": "aniscoupons",
-    "1005013482874428": "aniscoupons"
+    "1005013482874428": "aniscoupons",
+    "1005013354356242": "zedstoreonline"
   },
   "published_title_channels": {
     "Test Wrench Set": "test_channel",
@@ -31938,7 +31965,9 @@
     "Portable Wireless Electric Air Pump with LCD Display": "bnddeals",
     "لي يحوس على حاجة أصلية ومضمونة": "bnddeals",
     "Soundcore by Anker Q20i": "bnddeals",
-    "HUAWEI Pura 90s Pro": "aniscoupons"
+    "HUAWEI Pura 90s Pro": "aniscoupons",
+    "ماوس لاسلكي Attack Shark X11SE Wireless": "ecksdeal",
+    "ميزان ذكي يعمل بالبلوتوث لقياس الوزن": "zedstoreonline"
   },
   "religious_reminders_history": {
     "mock_rem": "2026-10-02",
@@ -32736,7 +32765,6 @@
   "published_deals_history": {},
   "settings": {},
   "handled_post_keys": [
-    "bnddeals:51288",
     "aniscoupons:34498",
     "zedstoreonline:39875",
     "aniscoupons:34500",
@@ -33735,7 +33763,8 @@
     "aniscoupons:35367",
     "lodydeals:46715",
     "zedstoreonline:40480",
-    "zedstoreonline:40481"
+    "zedstoreonline:40481",
+    "aniscoupons:35369"
   ],
   "last_france_cross_promo_time": 1794913823.9647303,
   "next_france_cross_promo_interval_seconds": 311842,
@@ -34601,6 +34630,13 @@
         "channel": "aniscoupons",
         "ts": 1795182129.6049204,
         "price": 887.9
+      }
+    ],
+    "1005009281115306": [
+      {
+        "channel": "ecksdeal",
+        "ts": 1795182494.4120588,
+        "price": 12.73
       }
     ]
   },
