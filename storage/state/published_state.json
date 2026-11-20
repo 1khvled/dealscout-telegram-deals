@@ -1655,7 +1655,7 @@
     "1005013288890301": 1794477157.5349603,
     "1005013089015192": 1795185813.1399975,
     "1005009278114794": 1794647237.7084959,
-    "1005010210432531": 1795163283.762443,
+    "1005010210432531": 1795190161.3398871,
     "1005013422894128": 1794487083.9711623,
     "1005010297094897": 1794657082.5305285,
     "1005009012821000": 1794502225.0175712,
@@ -3930,7 +3930,7 @@
     "FIFINE 1440p Full HD PC Webcam with Microphone": 1794650936.0000904,
     "iQOO Z11S 8/128": 1794647055.558841,
     "Inphic A9 PRO MAX Wireless Gaming Mouse": 1794647237.7084959,
-    "realme P4 Lite Smartphone NFC 6300mAh Battery": 1795163283.762443,
+    "realme P4 Lite Smartphone NFC 6300mAh Battery": 1795190161.3398871,
     "Honor Win RT2": 1794487083.9711623,
     "MCHOSE A7 V3 Pro": 1794657082.5305285,
     "سماعات Fifine Ampligame H6 7.1 RGB": 1795182121.6502924,
@@ -4096,7 +4096,6 @@
     "Vivo Y500 Pro (8/128GB)": 1795186378.654721
   },
   "published_post_keys": [
-    "bnddeals:51243",
     "aniscoupons:34408",
     "aniscoupons:34409",
     "aniscoupons:34410",
@@ -5095,11 +5094,12 @@
     "aniscoupons:35380",
     "aniscoupons:35381",
     "aniscoupons:35382",
-    "aniscoupons:35383"
+    "aniscoupons:35383",
+    "aniscoupons:35386"
   ],
   "last_disclaimer_time": 1794524540.9476151,
   "last_calendar_time": 1795177633.1203737,
-  "last_run_time": 1795186378.654721,
+  "last_run_time": 1795190161.3398871,
   "monitored_channels": {
     "ecksdeal": {
       "last_message_id": 6116,
@@ -5130,8 +5130,8 @@
       "last_check_time": 1795188178.1176436
     },
     "aniscoupons": {
-      "last_message_id": 35385,
-      "last_check_time": 1795188183.5007992
+      "last_message_id": 35386,
+      "last_check_time": 1795190163.446456
     },
     "bnddeals": {
       "last_message_id": 51371,
@@ -30128,6 +30128,16 @@
       "price": 260.8,
       "timestamp": 1795186378.654721,
       "status": "ACTIVE"
+    },
+    "aniscoupons:35386": {
+      "channel_msg_id": 3333,
+      "product_id": "1005010210432531",
+      "title": "realme P4 Lite Smartphone NFC 6300mAh Battery",
+      "channel": "aniscoupons",
+      "source_msg_id": 35386,
+      "price": 133.8,
+      "timestamp": 1795190161.3398871,
+      "status": "ACTIVE"
     }
   },
   "schedule_config": {
@@ -30136,17 +30146,17 @@
     "current_interval_minutes": 5,
     "is_paused": false,
     "night_mode_enabled": true,
-    "last_deal_post_time": 1795186381.4942927,
+    "last_deal_post_time": 1795190164.7617466,
     "night_start_hour_dz": 0,
     "night_end_hour_dz": 8,
     "night_pause_enabled": true,
-    "last_sweep_time": 1795188973.7500892,
+    "last_sweep_time": 1795190167.4985774,
     "last_sweep_times": {
-      "algeria": 1795188971.4378421,
-      "france": 1795188973.7500892
+      "algeria": 1795190164.7150521,
+      "france": 1795190167.4985774
     },
     "last_deal_post_times": {
-      "algeria": 1795186381.4942927
+      "algeria": 1795190164.7617466
     }
   },
   "last_coin_reminder_time": 1795015271.2437074,
@@ -34646,6 +34656,11 @@
       {
         "channel": "aniscoupons",
         "ts": 1795163281.0775874,
+        "price": 133.8
+      },
+      {
+        "channel": "aniscoupons",
+        "ts": 1795190158.5027351,
         "price": 133.8
       }
     ],
