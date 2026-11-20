@@ -874,7 +874,9 @@
     "1005013052070984",
     "1005010340916961",
     "1005009920180201",
-    "1005008358599837"
+    "1005008358599837",
+    "1005010679290254",
+    "1005013063780292"
   ],
   "published_product_timestamps": {
     "1005012973772517": 1794500732.7845657,
@@ -1766,7 +1768,9 @@
     "1005013052070984": 1795185803.549076,
     "1005010340916961": 1795185821.1731942,
     "1005009920180201": 1795195556.2284572,
-    "1005008358599837": 1795196136.7491949
+    "1005008358599837": 1795196136.7491949,
+    "1005010679290254": 1795200031.7838972,
+    "1005013063780292": 1795200037.561095
   },
   "published_titles": [
     "Wireless WiFi Repeater 300Mbps WiFi Extender Amplifier Booster Router",
@@ -2932,7 +2936,9 @@
     "Vivo Y500 Pro (8/128GB)",
     "Honor Power 2 12/256GB",
     "الجودة العالية من BASEUS",
-    "1More HQ20 SonoFlow MINI Hearing"
+    "1More HQ20 SonoFlow MINI Hearing",
+    "JGINYUE B650M AURORA",
+    "Redmi Note 17 4G (6/128GB)"
   ],
   "published_title_timestamps": {
     "Xiaomi Redmi Note 17 5G Global Version": 1790857823.0117362,
@@ -4103,11 +4109,11 @@
     "Vivo Y500 Pro (8/128GB)": 1795186378.654721,
     "Honor Power 2 12/256GB": 1795192228.0234952,
     "الجودة العالية من BASEUS": 1795195556.2284572,
-    "1More HQ20 SonoFlow MINI Hearing": 1795196136.7491949
+    "1More HQ20 SonoFlow MINI Hearing": 1795196136.7491949,
+    "JGINYUE B650M AURORA": 1795200031.7838972,
+    "Redmi Note 17 4G (6/128GB)": 1795200037.561095
   },
   "published_post_keys": [
-    "aniscoupons:34413",
-    "aniscoupons:34414",
     "aniscoupons:34415",
     "zedstoreonline:39819",
     "zedstoreonline:39820",
@@ -5105,19 +5111,21 @@
     "aniscoupons:35390",
     "bnddeals:51374",
     "bnddeals:51376",
-    "aniscoupons:35391"
+    "aniscoupons:35391",
+    "aniscoupons:35392",
+    "aniscoupons:35393"
   ],
   "last_disclaimer_time": 1794524540.9476151,
   "last_calendar_time": 1795177633.1203737,
-  "last_run_time": 1795199244.3177361,
+  "last_run_time": 1795200037.561095,
   "monitored_channels": {
     "ecksdeal": {
       "last_message_id": 6116,
       "last_check_time": 1795183542.6481285
     },
     "lodydeals": {
-      "last_message_id": 46741,
-      "last_check_time": 1795199416.9857075
+      "last_message_id": 46744,
+      "last_check_time": 1795200025.1643026
     },
     "test_channel": {
       "last_message_id": 1793967703,
@@ -5140,8 +5148,8 @@
       "last_check_time": 1795199239.642348
     },
     "aniscoupons": {
-      "last_message_id": 35391,
-      "last_check_time": 1795199246.4159105
+      "last_message_id": 35393,
+      "last_check_time": 1795200039.6673653
     },
     "bnddeals": {
       "last_message_id": 51377,
@@ -5915,7 +5923,9 @@
     "1005013052070984": 275.02,
     "1005010340916961": 267.6,
     "1005009920180201": 24.12,
-    "1005008358599837": 21.8
+    "1005008358599837": 21.8,
+    "1005010679290254": 123.36,
+    "1005013063780292": 192.89
   },
   "channel_published_deals": {
     "aniscoupons:32590": {
@@ -30210,6 +30220,26 @@
       "price": 85.5,
       "timestamp": 1795199244.3177361,
       "status": "ACTIVE"
+    },
+    "aniscoupons:35392": {
+      "channel_msg_id": 3341,
+      "product_id": "1005010679290254",
+      "title": "JGINYUE B650M AURORA",
+      "channel": "aniscoupons",
+      "source_msg_id": 35392,
+      "price": 123.36,
+      "timestamp": 1795200031.7838972,
+      "status": "ACTIVE"
+    },
+    "aniscoupons:35393": {
+      "channel_msg_id": 3342,
+      "product_id": "1005013063780292",
+      "title": "Redmi Note 17 4G (6/128GB)",
+      "channel": "aniscoupons",
+      "source_msg_id": 35393,
+      "price": 192.89,
+      "timestamp": 1795200037.561095,
+      "status": "ACTIVE"
     }
   },
   "schedule_config": {
@@ -30218,17 +30248,17 @@
     "current_interval_minutes": 5,
     "is_paused": false,
     "night_mode_enabled": true,
-    "last_deal_post_time": 1795199248.4783387,
+    "last_deal_post_time": 1795200040.866141,
     "night_start_hour_dz": 0,
     "night_end_hour_dz": 8,
     "night_pause_enabled": true,
-    "last_sweep_time": 1795199421.2940104,
+    "last_sweep_time": 1795200043.279525,
     "last_sweep_times": {
-      "algeria": 1795199419.6150177,
-      "france": 1795199421.2940104
+      "algeria": 1795200040.8226016,
+      "france": 1795200043.279525
     },
     "last_deal_post_times": {
-      "algeria": 1795199248.4783387
+      "algeria": 1795200040.866141
     }
   },
   "last_coin_reminder_time": 1795015271.2437074,
@@ -31117,7 +31147,9 @@
     "1005013052070984": "lodydeals",
     "1005010340916961": "aniscoupons",
     "1005009920180201": "bnddeals",
-    "1005008358599837": "bnddeals"
+    "1005008358599837": "bnddeals",
+    "1005010679290254": "aniscoupons",
+    "1005013063780292": "aniscoupons"
   },
   "published_title_channels": {
     "Test Wrench Set": "test_channel",
@@ -32289,7 +32321,9 @@
     "Vivo Y500 Pro (8/128GB)": "aniscoupons",
     "Honor Power 2 12/256GB": "aniscoupons",
     "الجودة العالية من BASEUS": "bnddeals",
-    "1More HQ20 SonoFlow MINI Hearing": "bnddeals"
+    "1More HQ20 SonoFlow MINI Hearing": "bnddeals",
+    "JGINYUE B650M AURORA": "aniscoupons",
+    "Redmi Note 17 4G (6/128GB)": "aniscoupons"
   },
   "religious_reminders_history": {
     "mock_rem": "2026-10-02",
