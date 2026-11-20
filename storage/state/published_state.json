@@ -865,7 +865,8 @@
     "1005012274502051",
     "1005013603023857",
     "1005009693337727",
-    "1005013497504096"
+    "1005013497504096",
+    "1005013482874428"
   ],
   "published_product_timestamps": {
     "1005012973772517": 1794500732.7845657,
@@ -1747,7 +1748,8 @@
     "1005012274502051": 1795166225.425497,
     "1005013603023857": 1795112692.4915283,
     "1005009693337727": 1795113429.7687285,
-    "1005013497504096": 1795134132.9931045
+    "1005013497504096": 1795134132.9931045,
+    "1005013482874428": 1795170262.9783158
   },
   "published_titles": [
     "Wireless WiFi Repeater 300Mbps WiFi Extender Amplifier Booster Router",
@@ -2897,7 +2899,8 @@
     "DIGITAL BATHROOM SCALE",
     "CUSU K5 Portable External SSD 512gb",
     "UGREEN Nexode Air 65W GaN Charger",
-    "Portable Wireless Electric Air Pump with LCD Display"
+    "Portable Wireless Electric Air Pump with LCD Display",
+    "Blackview Wave 7C"
   ],
   "published_title_timestamps": {
     "Xiaomi Redmi Note 17 5G Global Version": 1790857823.0117362,
@@ -4052,10 +4055,10 @@
     "DIGITAL BATHROOM SCALE": 1795134132.9931045,
     "CUSU K5 Portable External SSD 512gb": 1795164006.096927,
     "UGREEN Nexode Air 65W GaN Charger": 1795166225.425497,
-    "Portable Wireless Electric Air Pump with LCD Display": 1795167145.0122104
+    "Portable Wireless Electric Air Pump with LCD Display": 1795167145.0122104,
+    "Blackview Wave 7C": 1795170262.9783158
   },
   "published_post_keys": [
-    "aniscoupons:34379",
     "aniscoupons:34380",
     "aniscoupons:34381",
     "aniscoupons:34382",
@@ -5054,11 +5057,12 @@
     "aniscoupons:35355",
     "aniscoupons:35356",
     "aniscoupons:35357",
-    "aniscoupons:35358"
+    "aniscoupons:35358",
+    "aniscoupons:35359"
   ],
   "last_disclaimer_time": 1794524540.9476151,
   "last_calendar_time": 1794572799.8939624,
-  "last_run_time": 1795169898.6012874,
+  "last_run_time": 1795170262.9783158,
   "monitored_channels": {
     "ecksdeal": {
       "last_message_id": 6110,
@@ -5089,8 +5093,8 @@
       "last_check_time": 1795170084.6672587
     },
     "aniscoupons": {
-      "last_message_id": 35358,
-      "last_check_time": 1795169900.7052157
+      "last_message_id": 35359,
+      "last_check_time": 1795170265.0430517
     },
     "bnddeals": {
       "last_message_id": 51360,
@@ -5854,7 +5858,8 @@
     "1005012274502051": 20.9,
     "1005013603023857": 42.1,
     "1005009693337727": 113.4,
-    "1005013497504096": 3.2
+    "1005013497504096": 3.2,
+    "1005013482874428": 79.6
   },
   "channel_published_deals": {
     "aniscoupons:32590": {
@@ -29749,6 +29754,16 @@
       "price": 31.5,
       "timestamp": 1795169898.6012874,
       "status": "ACTIVE"
+    },
+    "aniscoupons:35359": {
+      "channel_msg_id": 3298,
+      "product_id": "1005013482874428",
+      "title": "Blackview Wave 7C",
+      "channel": "aniscoupons",
+      "source_msg_id": 35359,
+      "price": 79.6,
+      "timestamp": 1795170262.9783158,
+      "status": "ACTIVE"
     }
   },
   "schedule_config": {
@@ -29757,17 +29772,17 @@
     "current_interval_minutes": 5,
     "is_paused": false,
     "night_mode_enabled": true,
-    "last_deal_post_time": 1795169901.9282866,
+    "last_deal_post_time": 1795170265.887517,
     "night_start_hour_dz": 0,
     "night_end_hour_dz": 8,
     "night_pause_enabled": true,
-    "last_sweep_time": 1795170088.6107728,
+    "last_sweep_time": 1795170268.0534062,
     "last_sweep_times": {
-      "algeria": 1795170086.1683888,
-      "france": 1795170088.6107728
+      "algeria": 1795170265.861681,
+      "france": 1795170268.0534062
     },
     "last_deal_post_times": {
-      "algeria": 1795169901.9282866
+      "algeria": 1795170265.887517
     }
   },
   "last_coin_reminder_time": 1795015271.2437074,
@@ -30646,7 +30661,8 @@
     "1005012274502051": "aniscoupons",
     "1005013603023857": "zedstoreonline",
     "1005009693337727": "zedstoreonline",
-    "1005013497504096": "aniscoupons"
+    "1005013497504096": "aniscoupons",
+    "1005013482874428": "aniscoupons"
   },
   "published_title_channels": {
     "Test Wrench Set": "test_channel",
