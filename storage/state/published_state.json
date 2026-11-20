@@ -913,7 +913,7 @@
     "1005006603602562": 1790941207.5310047,
     "1005010721042860": 1793656098.242545,
     "1005009517247552": 1790941221.8823678,
-    "1005012191191893": 1795082319.5209298,
+    "1005012191191893": 1795165490.909228,
     "1005012968221708": 1793542591.509991,
     "9998883454": 1790943454.3504107,
     "9998883497": 1790943497.723828,
@@ -3777,7 +3777,7 @@
     "Lenovo LE257 Headphones": 1794137638.8201442,
     "Honor 600s CN (8/256)": 1795000847.1791112,
     "ويبكام OBSBOT MEET 2 Webcam 4K": 1794140022.1412559,
-    "Blackview Mega 5": 1795082319.5209298,
+    "Blackview Mega 5": 1795165490.909228,
     "Warvank X8 Wireless Gaming Mouse": 1794496858.1106308,
     "Xiaoxin Pad Pro 2025 (8/128GB)": 1794995476.4520917,
     "سماعات ONIKUMA T27 لاسلكية بوضعَي اتصال 2.4GHz وBluetooth": 1794145536.5317988,
@@ -4051,7 +4051,6 @@
     "CUSU K5 Portable External SSD 512gb": 1795164006.096927
   },
   "published_post_keys": [
-    "aniscoupons:34372",
     "aniscoupons:34373",
     "zedstoreonline:39801",
     "aniscoupons:34374",
@@ -5050,11 +5049,12 @@
     "zedstoreonline:40471",
     "aniscoupons:35349",
     "zedstoreonline:40472",
-    "aniscoupons:35350"
+    "aniscoupons:35350",
+    "aniscoupons:35351"
   ],
   "last_disclaimer_time": 1794524540.9476151,
   "last_calendar_time": 1794572799.8939624,
-  "last_run_time": 1795165124.3736773,
+  "last_run_time": 1795165490.909228,
   "monitored_channels": {
     "ecksdeal": {
       "last_message_id": 6110,
@@ -5085,8 +5085,8 @@
       "last_check_time": 1795165120.5024471
     },
     "aniscoupons": {
-      "last_message_id": 35350,
-      "last_check_time": 1795165126.4531758
+      "last_message_id": 35351,
+      "last_check_time": 1795165492.9827595
     },
     "bnddeals": {
       "last_message_id": 51359,
@@ -29665,6 +29665,16 @@
       "price": 41.8,
       "timestamp": 1795165124.3736773,
       "status": "ACTIVE"
+    },
+    "aniscoupons:35351": {
+      "channel_msg_id": 3290,
+      "product_id": "1005012191191893",
+      "title": "Blackview Mega 5",
+      "channel": "aniscoupons",
+      "source_msg_id": 35351,
+      "price": 228.3,
+      "timestamp": 1795165490.909228,
+      "status": "ACTIVE"
     }
   },
   "schedule_config": {
@@ -29673,17 +29683,17 @@
     "current_interval_minutes": 5,
     "is_paused": false,
     "night_mode_enabled": true,
-    "last_deal_post_time": 1795165127.428639,
+    "last_deal_post_time": 1795165494.149486,
     "night_start_hour_dz": 0,
     "night_end_hour_dz": 8,
     "night_pause_enabled": true,
-    "last_sweep_time": 1795165295.8015468,
+    "last_sweep_time": 1795165496.6580641,
     "last_sweep_times": {
-      "algeria": 1795165293.5751655,
-      "france": 1795165295.8015468
+      "algeria": 1795165494.1183474,
+      "france": 1795165496.6580641
     },
     "last_deal_post_times": {
-      "algeria": 1795165127.428639
+      "algeria": 1795165494.149486
     }
   },
   "last_coin_reminder_time": 1795015271.2437074,
@@ -34089,11 +34099,6 @@
   "competitor_product_sightings": {
     "1005012726037568": [
       {
-        "channel": "lodydeals",
-        "ts": 1795122012.0709174,
-        "price": 7.54
-      },
-      {
         "channel": "aniscoupons",
         "ts": 1795162725.9077325,
         "price": 7.5
@@ -34234,6 +34239,13 @@
         "channel": "aniscoupons",
         "ts": 1795165122.0859675,
         "price": 41.8
+      }
+    ],
+    "1005012191191893": [
+      {
+        "channel": "aniscoupons",
+        "ts": 1795165487.8976495,
+        "price": 228.3
       }
     ]
   },
