@@ -1653,7 +1653,7 @@
     "1005013422894128": 1794487083.9711623,
     "1005010297094897": 1794657082.5305285,
     "1005009012821000": 1794502225.0175712,
-    "1005013485724377": 1794606651.7602222,
+    "1005013485724377": 1795175430.73419,
     "1005012783197164": 1794606646.2896297,
     "1005012993724126": 1794515920.3397443,
     "1005012726037568": 1795162728.7157729,
@@ -2900,7 +2900,8 @@
     "CUSU K5 Portable External SSD 512gb",
     "UGREEN Nexode Air 65W GaN Charger",
     "Portable Wireless Electric Air Pump with LCD Display",
-    "Blackview Wave 7C"
+    "Blackview Wave 7C",
+    "لي يحوس على حاجة أصلية ومضمونة"
   ],
   "published_title_timestamps": {
     "Xiaomi Redmi Note 17 5G Global Version": 1790857823.0117362,
@@ -4056,10 +4057,10 @@
     "CUSU K5 Portable External SSD 512gb": 1795164006.096927,
     "UGREEN Nexode Air 65W GaN Charger": 1795166225.425497,
     "Portable Wireless Electric Air Pump with LCD Display": 1795167145.0122104,
-    "Blackview Wave 7C": 1795170262.9783158
+    "Blackview Wave 7C": 1795170262.9783158,
+    "لي يحوس على حاجة أصلية ومضمونة": 1795175430.73419
   },
   "published_post_keys": [
-    "aniscoupons:34382",
     "aniscoupons:34383",
     "aniscoupons:34384",
     "aniscoupons:34385",
@@ -5058,11 +5059,12 @@
     "aniscoupons:35358",
     "aniscoupons:35359",
     "aniscoupons:35360",
-    "aniscoupons:35361"
+    "aniscoupons:35361",
+    "bnddeals:51362"
   ],
   "last_disclaimer_time": 1794524540.9476151,
   "last_calendar_time": 1794572799.8939624,
-  "last_run_time": 1795172302.8704398,
+  "last_run_time": 1795175430.73419,
   "monitored_channels": {
     "ecksdeal": {
       "last_message_id": 6110,
@@ -5097,8 +5099,8 @@
       "last_check_time": 1795174887.08563
     },
     "bnddeals": {
-      "last_message_id": 51361,
-      "last_check_time": 1795174889.4606361
+      "last_message_id": 51362,
+      "last_check_time": 1795175432.8123803
     }
   },
   "published_product_prices": {
@@ -5765,7 +5767,7 @@
     "1005013422894128": 499.5,
     "1005010297094897": 44.8,
     "1005009012821000": 87.8,
-    "1005013485724377": 11.54,
+    "1005013485724377": 15.4,
     "1005012783197164": 36.46,
     "1005012993724126": 15.6,
     "1005012726037568": 7.5,
@@ -29784,6 +29786,16 @@
       "price": 40.4,
       "timestamp": 1795172302.8704398,
       "status": "ACTIVE"
+    },
+    "bnddeals:51362": {
+      "channel_msg_id": 3301,
+      "product_id": "1005013485724377",
+      "title": "لي يحوس على حاجة أصلية ومضمونة",
+      "channel": "bnddeals",
+      "source_msg_id": 51362,
+      "price": 15.4,
+      "timestamp": 1795175430.73419,
+      "status": "ACTIVE"
     }
   },
   "schedule_config": {
@@ -29792,17 +29804,17 @@
     "current_interval_minutes": 5,
     "is_paused": false,
     "night_mode_enabled": true,
-    "last_deal_post_time": 1795172305.7264516,
+    "last_deal_post_time": 1795175432.8730798,
     "night_start_hour_dz": 0,
     "night_end_hour_dz": 8,
     "night_pause_enabled": true,
-    "last_sweep_time": 1795175248.458422,
+    "last_sweep_time": 1795175434.842298,
     "last_sweep_times": {
-      "algeria": 1795175246.0801976,
-      "france": 1795175248.458422
+      "algeria": 1795175432.8432133,
+      "france": 1795175434.842298
     },
     "last_deal_post_times": {
-      "algeria": 1795172305.7264516
+      "algeria": 1795175432.8730798
     }
   },
   "last_coin_reminder_time": 1795015271.2437074,
@@ -30587,7 +30599,7 @@
     "1005013422894128": "aniscoupons",
     "1005010297094897": "aniscoupons",
     "1005009012821000": "lodydeals",
-    "1005013485724377": "lodydeals",
+    "1005013485724377": "bnddeals",
     "1005012783197164": "lodydeals",
     "1005012993724126": "aniscoupons",
     "1005012726037568": "aniscoupons",
@@ -31839,7 +31851,8 @@
     "DIGITAL BATHROOM SCALE": "aniscoupons",
     "CUSU K5 Portable External SSD 512gb": "bnddeals",
     "UGREEN Nexode Air 65W GaN Charger": "aniscoupons",
-    "Portable Wireless Electric Air Pump with LCD Display": "bnddeals"
+    "Portable Wireless Electric Air Pump with LCD Display": "bnddeals",
+    "لي يحوس على حاجة أصلية ومضمونة": "bnddeals"
   },
   "religious_reminders_history": {
     "mock_rem": "2026-10-02",
@@ -34427,6 +34440,13 @@
         "channel": "aniscoupons",
         "ts": 1795172300.4333382,
         "price": 40.4
+      }
+    ],
+    "1005013485724377": [
+      {
+        "channel": "bnddeals",
+        "ts": 1795175428.1575983,
+        "price": 15.4
       }
     ]
   },
