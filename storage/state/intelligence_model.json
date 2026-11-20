@@ -28,7 +28,7 @@
       "ewma": 0.9994
     },
     "zedstoreonline": {
-      "seen": 398,
+      "seen": 399,
       "published": 250,
       "skipped": 0,
       "ewma": 0.9994
@@ -40,8 +40,8 @@
       "ewma": 0.9516
     },
     "aniscoupons": {
-      "seen": 609,
-      "published": 525,
+      "seen": 610,
+      "published": 526,
       "skipped": 0,
       "ewma": 0.9994
     },
@@ -66,8 +66,8 @@
       "ewma": 0.9994
     },
     "phones": {
-      "seen": 395,
-      "published": 264,
+      "seen": 397,
+      "published": 265,
       "skipped": 0,
       "ewma": 0.9994
     },
@@ -1642,34 +1642,21 @@
     ],
     "1005013063780292": [
       192.89
+    ],
+    "1005012577991043": [
+      273.5
     ]
   },
   "counters": {
-    "scored": 1243,
-    "verdict_publish": 1196,
+    "scored": 1245,
+    "verdict_publish": 1198,
     "verdict_hold": 47,
     "verdict_skip": 0,
-    "published": 965,
+    "published": 966,
     "skipped": 0
   },
-  "score_sum": 91321.59,
+  "score_sum": 91473.49,
   "recent_decisions": [
-    {
-      "ts": 1795022272,
-      "channel": "ecksdeal",
-      "category": "other",
-      "product_id": "1005010706590867",
-      "score": 80.38,
-      "verdict": "publish"
-    },
-    {
-      "ts": 1795022282,
-      "channel": "zedstoreonline",
-      "category": "phones",
-      "product_id": "1005012406142215",
-      "score": 75.65,
-      "verdict": "publish"
-    },
     {
       "ts": 1795022286,
       "channel": "aniscoupons",
@@ -3253,7 +3240,23 @@
       "product_id": "1005010413332383",
       "score": 78.28,
       "verdict": "publish"
+    },
+    {
+      "ts": 1795201842,
+      "channel": "zedstoreonline",
+      "category": "phones",
+      "product_id": "1005010702038861",
+      "score": 81.78,
+      "verdict": "publish"
+    },
+    {
+      "ts": 1795201847,
+      "channel": "aniscoupons",
+      "category": "phones",
+      "product_id": "1005012577991043",
+      "score": 70.12,
+      "verdict": "publish"
     }
   ],
-  "updated_at": 1795201242.6852632
+  "updated_at": 1795201850.8776796
 }

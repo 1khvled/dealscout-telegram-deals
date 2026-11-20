@@ -876,7 +876,8 @@
     "1005009920180201",
     "1005008358599837",
     "1005010679290254",
-    "1005013063780292"
+    "1005013063780292",
+    "1005012577991043"
   ],
   "published_product_timestamps": {
     "1005012973772517": 1794500732.7845657,
@@ -1770,7 +1771,8 @@
     "1005009920180201": 1795195556.2284572,
     "1005008358599837": 1795196136.7491949,
     "1005010679290254": 1795200031.7838972,
-    "1005013063780292": 1795200037.561095
+    "1005013063780292": 1795200037.561095,
+    "1005012577991043": 1795201850.7994294
   },
   "published_titles": [
     "Wireless WiFi Repeater 300Mbps WiFi Extender Amplifier Booster Router",
@@ -3916,7 +3918,7 @@
     "Essager 2in1 USB Type C  60W": 1794420685.287832,
     "GOOJPRT Portable Thermal Printer": 1794420689.8352551,
     "KOOTION M.2 512GB 7200Mbs": 1794430852.2821708,
-    "HONOR X80 PRO MAX": 1795183557.3230655,
+    "HONOR X80 PRO MAX": 1795201850.7994294,
     "DJI Osmo mobile": 1794487260.3295033,
     "OPPO K15 12/256GB": 1795186207.2341003,
     "Lenovo Legion Y70 2026 Gamin(12/512GB)": 1794914057.3065243,
@@ -4114,7 +4116,6 @@
     "Redmi Note 17 4G (6/128GB)": 1795200037.561095
   },
   "published_post_keys": [
-    "zedstoreonline:39820",
     "aniscoupons:34417",
     "bnddeals:51244",
     "zedstoreonline:39821",
@@ -5113,19 +5114,20 @@
     "aniscoupons:35392",
     "aniscoupons:35393",
     "aniscoupons:35394",
-    "aniscoupons:35395"
+    "aniscoupons:35395",
+    "aniscoupons:35396"
   ],
   "last_disclaimer_time": 1794524540.9476151,
   "last_calendar_time": 1795177633.1203737,
-  "last_run_time": 1795201242.5037365,
+  "last_run_time": 1795201850.7994294,
   "monitored_channels": {
     "ecksdeal": {
       "last_message_id": 6116,
       "last_check_time": 1795183542.6481285
     },
     "lodydeals": {
-      "last_message_id": 46746,
-      "last_check_time": 1795201025.367551
+      "last_message_id": 46747,
+      "last_check_time": 1795201839.7484577
     },
     "test_channel": {
       "last_message_id": 1793967703,
@@ -5144,12 +5146,12 @@
       "last_check_time": 1793599663.3444748
     },
     "zedstoreonline": {
-      "last_message_id": 40503,
-      "last_check_time": 1795199239.642348
+      "last_message_id": 40504,
+      "last_check_time": 1795201843.4796395
     },
     "aniscoupons": {
-      "last_message_id": 35395,
-      "last_check_time": 1795201244.7072651
+      "last_message_id": 35396,
+      "last_check_time": 1795201852.8979323
     },
     "bnddeals": {
       "last_message_id": 51378,
@@ -5925,7 +5927,8 @@
     "1005009920180201": 24.12,
     "1005008358599837": 21.8,
     "1005010679290254": 123.36,
-    "1005013063780292": 192.89
+    "1005013063780292": 192.89,
+    "1005012577991043": 273.5
   },
   "channel_published_deals": {
     "aniscoupons:32590": {
@@ -30260,6 +30263,16 @@
       "price": 338.2,
       "timestamp": 1795201242.5037365,
       "status": "ACTIVE"
+    },
+    "aniscoupons:35396": {
+      "channel_msg_id": 3345,
+      "product_id": "1005012577991043",
+      "title": "HONOR X80 PRO MAX",
+      "channel": "aniscoupons",
+      "source_msg_id": 35396,
+      "price": 273.5,
+      "timestamp": 1795201850.7994294,
+      "status": "ACTIVE"
     }
   },
   "schedule_config": {
@@ -30268,17 +30281,17 @@
     "current_interval_minutes": 5,
     "is_paused": false,
     "night_mode_enabled": true,
-    "last_deal_post_time": 1795201245.8347394,
+    "last_deal_post_time": 1795201854.2102017,
     "night_start_hour_dz": 0,
     "night_end_hour_dz": 8,
     "night_pause_enabled": true,
-    "last_sweep_time": 1795201248.4337938,
+    "last_sweep_time": 1795201857.0046906,
     "last_sweep_times": {
-      "algeria": 1795201245.7962847,
-      "france": 1795201248.4337938
+      "algeria": 1795201854.1617367,
+      "france": 1795201857.0046906
     },
     "last_deal_post_times": {
-      "algeria": 1795201245.8347394
+      "algeria": 1795201854.2102017
     }
   },
   "last_coin_reminder_time": 1795015271.2437074,
@@ -31169,7 +31182,8 @@
     "1005009920180201": "bnddeals",
     "1005008358599837": "bnddeals",
     "1005010679290254": "aniscoupons",
-    "1005013063780292": "aniscoupons"
+    "1005013063780292": "aniscoupons",
+    "1005012577991043": "aniscoupons"
   },
   "published_title_channels": {
     "Test Wrench Set": "test_channel",
@@ -33141,7 +33155,6 @@
   "published_deals_history": {},
   "settings": {},
   "handled_post_keys": [
-    "lodydeals:46368",
     "zedstoreonline:39904",
     "zedstoreonline:39906",
     "aniscoupons:34546",
@@ -34140,7 +34153,8 @@
     "zedstoreonline:40502",
     "zedstoreonline:40503",
     "bnddeals:51377",
-    "bnddeals:51378"
+    "bnddeals:51378",
+    "zedstoreonline:40504"
   ],
   "last_france_cross_promo_time": 1794913823.9647303,
   "next_france_cross_promo_interval_seconds": 311842,
@@ -35288,6 +35302,13 @@
         "channel": "aniscoupons",
         "ts": 1795201239.0978777,
         "price": 338.2
+      }
+    ],
+    "1005010702038861": [
+      {
+        "channel": "zedstoreonline",
+        "ts": 1795201842.9023242,
+        "price": 18.0
       }
     ]
   },
