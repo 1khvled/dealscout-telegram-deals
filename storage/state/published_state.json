@@ -1082,7 +1082,7 @@
     "1005007345151855": 1791942667.867043,
     "1005010345227483": 1793299548.5548651,
     "1005011557896041": 1794845264.512838,
-    "1005011754993234": 1795118643.8899262,
+    "1005011754993234": 1795165118.405755,
     "1005011735727412": 1791943783.9162278,
     "1005007916078341": 1795162358.8512342,
     "1005006506862816": 1791947519.5815504,
@@ -1548,7 +1548,7 @@
     "1005012925301774": 1795085801.1895535,
     "1005012959738411": 1794658966.3702009,
     "1005008357913212": 1795088381.5492814,
-    "1005008703989845": 1795079201.8897693,
+    "1005008703989845": 1795165124.3736773,
     "1005007162099601": 1794524556.2538168,
     "1005007038130594": 1794393500.1320646,
     "1005008248187128": 1794057675.8729835,
@@ -3151,7 +3151,7 @@
     "لووووووووووووز controller 🎮": 1791942667.867043,
     "جديد علامة ©️©️©️©️🆕": 1791942676.1983886,
     "AMD Ryzen 7 7800X3D": 1794845264.512838,
-    "AMD Ryzen 5 8400F": 1795118643.8899262,
+    "AMD Ryzen 5 8400F": 1795165118.405755,
     "Disco Duro SSD CUSU 1TB 512GB 240GB 480GB SATA 2.5'' SATA3 Disco SSD 128GB": 1791943777.8506553,
     "🔝 مانات قووووة ل جماعة mobile gaming 🎮": 1792017738.3981204,
     "Honor Choice Infowear Watch 2i Smartwatch AMOLED": 1791943825.002781,
@@ -3707,7 +3707,7 @@
     "Netac SSD NVME M2 250GB": 1794747089.3988028,
     "Essager 20W GaN + cable": 1794598546.8080914,
     "Redmi Note 17 Pro Max": 1793966798.7696738,
-    "CUSU SSD 512GB 1TB 2.5 Inch SATA SATA3 2TB 4TB Hard Drive SSD 240GB 256GB": 1795079201.8897693,
+    "CUSU SSD 512GB 1TB 2.5 Inch SATA SATA3 2TB 4TB Hard Drive SSD 240GB 256GB": 1795165124.3736773,
     "Fifine Gaming Headset H9W": 1795003471.3645086,
     "Fifine Gaming Headset H6": 1795003476.8317716,
     "HyperX Cloud 3 III Wired Gaming Headset": 1794998780.0409262,
@@ -4051,8 +4051,6 @@
     "CUSU K5 Portable External SSD 512gb": 1795164006.096927
   },
   "published_post_keys": [
-    "lodydeals:46310",
-    "lodydeals:46308",
     "aniscoupons:34372",
     "aniscoupons:34373",
     "zedstoreonline:39801",
@@ -5050,11 +5048,13 @@
     "bnddeals:51359",
     "aniscoupons:35348",
     "zedstoreonline:40471",
-    "aniscoupons:35349"
+    "aniscoupons:35349",
+    "zedstoreonline:40472",
+    "aniscoupons:35350"
   ],
   "last_disclaimer_time": 1794524540.9476151,
   "last_calendar_time": 1794572799.8939624,
-  "last_run_time": 1795164758.9252188,
+  "last_run_time": 1795165124.3736773,
   "monitored_channels": {
     "ecksdeal": {
       "last_message_id": 6110,
@@ -5081,12 +5081,12 @@
       "last_check_time": 1793599663.3444748
     },
     "zedstoreonline": {
-      "last_message_id": 40471,
-      "last_check_time": 1795164753.8741693
+      "last_message_id": 40472,
+      "last_check_time": 1795165120.5024471
     },
     "aniscoupons": {
-      "last_message_id": 35349,
-      "last_check_time": 1795164760.994324
+      "last_message_id": 35350,
+      "last_check_time": 1795165126.4531758
     },
     "bnddeals": {
       "last_message_id": 51359,
@@ -5644,7 +5644,7 @@
     "1005009738356108": 17.2,
     "1005008636930795": 31.5,
     "1005013083645836": 304.4,
-    "1005008703989845": 41.9,
+    "1005008703989845": 41.8,
     "1005008060391372": 33.5,
     "1005012593794312": 241.5,
     "1005008357913212": 40.5,
@@ -29645,6 +29645,26 @@
       "price": 52.3,
       "timestamp": 1795164758.9252188,
       "status": "ACTIVE"
+    },
+    "zedstoreonline:40472": {
+      "channel_msg_id": 3288,
+      "product_id": "1005011754993234",
+      "title": "AMD Ryzen 5 8400F",
+      "channel": "zedstoreonline",
+      "source_msg_id": 40472,
+      "price": 82.5,
+      "timestamp": 1795165118.405755,
+      "status": "ACTIVE"
+    },
+    "aniscoupons:35350": {
+      "channel_msg_id": 3289,
+      "product_id": "1005008703989845",
+      "title": "CUSU SSD 512GB 1TB 2.5 Inch SATA SATA3 2TB 4TB Hard Drive SSD 240GB 256GB",
+      "channel": "aniscoupons",
+      "source_msg_id": 35350,
+      "price": 41.8,
+      "timestamp": 1795165124.3736773,
+      "status": "ACTIVE"
     }
   },
   "schedule_config": {
@@ -29653,17 +29673,17 @@
     "current_interval_minutes": 5,
     "is_paused": false,
     "night_mode_enabled": true,
-    "last_deal_post_time": 1795164762.045233,
+    "last_deal_post_time": 1795165127.428639,
     "night_start_hour_dz": 0,
     "night_end_hour_dz": 8,
     "night_pause_enabled": true,
-    "last_sweep_time": 1795164927.1589756,
+    "last_sweep_time": 1795165129.7119331,
     "last_sweep_times": {
-      "algeria": 1795164925.0074463,
-      "france": 1795164927.1589756
+      "algeria": 1795165127.40219,
+      "france": 1795165129.7119331
     },
     "last_deal_post_times": {
-      "algeria": 1795164762.045233
+      "algeria": 1795165127.428639
     }
   },
   "last_coin_reminder_time": 1795015271.2437074,
@@ -34200,6 +34220,20 @@
         "channel": "aniscoupons",
         "ts": 1795164756.1252935,
         "price": 52.3
+      }
+    ],
+    "1005011754993234": [
+      {
+        "channel": "zedstoreonline",
+        "ts": 1795165115.8710763,
+        "price": 82.5
+      }
+    ],
+    "1005008703989845": [
+      {
+        "channel": "aniscoupons",
+        "ts": 1795165122.0859675,
+        "price": 41.8
       }
     ]
   },
