@@ -1663,7 +1663,7 @@
     "1005013422894128": 1794487083.9711623,
     "1005010297094897": 1794657082.5305285,
     "1005009012821000": 1794502225.0175712,
-    "1005013485724377": 1795175430.73419,
+    "1005013485724377": 1795201032.4311068,
     "1005012783197164": 1794606646.2896297,
     "1005012993724126": 1794515920.3397443,
     "1005012726037568": 1795179607.4941258,
@@ -3951,7 +3951,7 @@
     "FANTECH SHOOTER III WGP13S": 1794501299.95393,
     "DITONG X3Plus  4K WIFI6": 1794502225.0175712,
     "Lenovo Legion Y900 11 Tablet CN Version MediaTek Dimensity 9500S": 1795000279.9355009,
-    "realme Original Adapter SUPERVOOC Charger 45W": 1794510747.6816225,
+    "realme Original Adapter SUPERVOOC Charger 45W": 1795201032.4311068,
     "EPOMAKER GX1 Tri-mode": 1794606646.2896297,
     "WALRAM M.2  128GB": 1794515920.3397443,
     "Portable Magnetic Phone": 1794524364.21287,
@@ -4114,7 +4114,6 @@
     "Redmi Note 17 4G (6/128GB)": 1795200037.561095
   },
   "published_post_keys": [
-    "aniscoupons:34415",
     "zedstoreonline:39819",
     "zedstoreonline:39820",
     "aniscoupons:34417",
@@ -5113,19 +5112,20 @@
     "bnddeals:51376",
     "aniscoupons:35391",
     "aniscoupons:35392",
-    "aniscoupons:35393"
+    "aniscoupons:35393",
+    "aniscoupons:35394"
   ],
   "last_disclaimer_time": 1794524540.9476151,
   "last_calendar_time": 1795177633.1203737,
-  "last_run_time": 1795200037.561095,
+  "last_run_time": 1795201032.4311068,
   "monitored_channels": {
     "ecksdeal": {
       "last_message_id": 6116,
       "last_check_time": 1795183542.6481285
     },
     "lodydeals": {
-      "last_message_id": 46745,
-      "last_check_time": 1795200404.6850414
+      "last_message_id": 46746,
+      "last_check_time": 1795201025.367551
     },
     "test_channel": {
       "last_message_id": 1793967703,
@@ -5148,8 +5148,8 @@
       "last_check_time": 1795199239.642348
     },
     "aniscoupons": {
-      "last_message_id": 35393,
-      "last_check_time": 1795200039.6673653
+      "last_message_id": 35394,
+      "last_check_time": 1795201034.5295146
     },
     "bnddeals": {
       "last_message_id": 51378,
@@ -5820,7 +5820,7 @@
     "1005013422894128": 499.5,
     "1005010297094897": 44.8,
     "1005009012821000": 87.8,
-    "1005013485724377": 15.4,
+    "1005013485724377": 11.5,
     "1005012783197164": 36.46,
     "1005012993724126": 15.6,
     "1005012726037568": 7.5,
@@ -30240,6 +30240,16 @@
       "price": 192.89,
       "timestamp": 1795200037.561095,
       "status": "ACTIVE"
+    },
+    "aniscoupons:35394": {
+      "channel_msg_id": 3343,
+      "product_id": "1005013485724377",
+      "title": "realme Original Adapter SUPERVOOC Charger 45W",
+      "channel": "aniscoupons",
+      "source_msg_id": 35394,
+      "price": 11.5,
+      "timestamp": 1795201032.4311068,
+      "status": "ACTIVE"
     }
   },
   "schedule_config": {
@@ -30248,17 +30258,17 @@
     "current_interval_minutes": 5,
     "is_paused": false,
     "night_mode_enabled": true,
-    "last_deal_post_time": 1795200040.866141,
+    "last_deal_post_time": 1795201035.863617,
     "night_start_hour_dz": 0,
     "night_end_hour_dz": 8,
     "night_pause_enabled": true,
-    "last_sweep_time": 1795200409.6051817,
+    "last_sweep_time": 1795201038.4696238,
     "last_sweep_times": {
-      "algeria": 1795200407.5816014,
-      "france": 1795200409.6051817
+      "algeria": 1795201035.8149562,
+      "france": 1795201038.4696238
     },
     "last_deal_post_times": {
-      "algeria": 1795200040.866141
+      "algeria": 1795201035.863617
     }
   },
   "last_coin_reminder_time": 1795015271.2437074,
@@ -31043,7 +31053,7 @@
     "1005013422894128": "aniscoupons",
     "1005010297094897": "aniscoupons",
     "1005009012821000": "lodydeals",
-    "1005013485724377": "bnddeals",
+    "1005013485724377": "aniscoupons",
     "1005012783197164": "lodydeals",
     "1005012993724126": "aniscoupons",
     "1005012726037568": "aniscoupons",
@@ -34936,6 +34946,11 @@
         "channel": "bnddeals",
         "ts": 1795175428.1575983,
         "price": 15.4
+      },
+      {
+        "channel": "aniscoupons",
+        "ts": 1795201029.724809,
+        "price": 11.5
       }
     ],
     "1005010033441204": [
