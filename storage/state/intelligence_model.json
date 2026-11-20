@@ -40,8 +40,8 @@
       "ewma": 0.9428
     },
     "aniscoupons": {
-      "seen": 586,
-      "published": 505,
+      "seen": 588,
+      "published": 506,
       "skipped": 0,
       "ewma": 0.9994
     },
@@ -54,8 +54,8 @@
   },
   "category_stats": {
     "other": {
-      "seen": 455,
-      "published": 393,
+      "seen": 456,
+      "published": 394,
       "skipped": 0,
       "ewma": 0.9994
     },
@@ -66,7 +66,7 @@
       "ewma": 0.9994
     },
     "phones": {
-      "seen": 368,
+      "seen": 369,
       "published": 245,
       "skipped": 0,
       "ewma": 0.9994
@@ -147,7 +147,8 @@
       10.9
     ],
     "1005013030365524": [
-      646.41
+      646.41,
+      675.68
     ],
     "1005006581583862": [
       18.4,
@@ -1578,31 +1579,15 @@
     ]
   },
   "counters": {
-    "scored": 1194,
-    "verdict_publish": 1147,
+    "scored": 1196,
+    "verdict_publish": 1149,
     "verdict_hold": 47,
     "verdict_skip": 0,
-    "published": 929,
+    "published": 930,
     "skipped": 0
   },
-  "score_sum": 87541.25,
+  "score_sum": 87700.47,
   "recent_decisions": [
-    {
-      "ts": 1794996401,
-      "channel": "aniscoupons",
-      "category": "phones",
-      "product_id": "1005013438245033",
-      "score": 69.21,
-      "verdict": "publish"
-    },
-    {
-      "ts": 1794996409,
-      "channel": "aniscoupons",
-      "category": "phones",
-      "product_id": "1005012406142215",
-      "score": 77.99,
-      "verdict": "publish"
-    },
     {
       "ts": 1794996761,
       "channel": "aniscoupons",
@@ -3186,7 +3171,23 @@
       "product_id": "1005010485068924",
       "score": 63.63,
       "verdict": "publish"
+    },
+    {
+      "ts": 1795181294,
+      "channel": "aniscoupons",
+      "category": "other",
+      "product_id": "1005013030365524",
+      "score": 81.23,
+      "verdict": "publish"
+    },
+    {
+      "ts": 1795181302,
+      "channel": "aniscoupons",
+      "category": "phones",
+      "product_id": "1005013399086495",
+      "score": 77.99,
+      "verdict": "publish"
     }
   ],
-  "updated_at": 1795180458.6467667
+  "updated_at": 1795181302.7515793
 }

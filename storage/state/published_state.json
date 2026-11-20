@@ -1503,7 +1503,7 @@
     "COUPONS_gen": 1793728683.0472453,
     "COUPONS_11.11 Global Shopping Festival Main Sale": 1794935379.010957,
     "1005009111757092": 1793728859.1630292,
-    "1005013030365524": 1794390200.6061625,
+    "1005013030365524": 1795181297.4400892,
     "1005013199719142": 1794935185.3140237,
     "1005013205365677": 1794390785.626018,
     "1005008429979494": 1793741666.9686077,
@@ -2902,7 +2902,8 @@
     "Portable Wireless Electric Air Pump with LCD Display",
     "Blackview Wave 7C",
     "لي يحوس على حاجة أصلية ومضمونة",
-    "Soundcore by Anker Q20i"
+    "Soundcore by Anker Q20i",
+    "HUAWEI Pura 90s Pro"
   ],
   "published_title_timestamps": {
     "Xiaomi Redmi Note 17 5G Global Version": 1790857823.0117362,
@@ -4060,10 +4061,10 @@
     "Portable Wireless Electric Air Pump with LCD Display": 1795167145.0122104,
     "Blackview Wave 7C": 1795170262.9783158,
     "لي يحوس على حاجة أصلية ومضمونة": 1795175430.73419,
-    "Soundcore by Anker Q20i": 1795180451.4710355
+    "Soundcore by Anker Q20i": 1795180451.4710355,
+    "HUAWEI Pura 90s Pro": 1795181297.4400892
   },
   "published_post_keys": [
-    "lodydeals:46314",
     "lodydeals:46315",
     "lodydeals:46317",
     "aniscoupons:34386",
@@ -5062,11 +5063,12 @@
     "aniscoupons:35364",
     "bnddeals:51363",
     "bnddeals:51364",
-    "bnddeals:51366"
+    "bnddeals:51366",
+    "aniscoupons:35365"
   ],
   "last_disclaimer_time": 1794524540.9476151,
   "last_calendar_time": 1795177633.1203737,
-  "last_run_time": 1795180458.5949016,
+  "last_run_time": 1795181297.4400892,
   "monitored_channels": {
     "ecksdeal": {
       "last_message_id": 6110,
@@ -5097,8 +5099,8 @@
       "last_check_time": 1795179790.0162816
     },
     "aniscoupons": {
-      "last_message_id": 35364,
-      "last_check_time": 1795179609.58259
+      "last_message_id": 35366,
+      "last_check_time": 1795181303.2407699
     },
     "bnddeals": {
       "last_message_id": 51366,
@@ -5633,7 +5635,7 @@
     "1005006026842392": 14.91,
     "1005011748000554": 17.8,
     "1005009111757092": 114.9,
-    "1005013030365524": 646.41,
+    "1005013030365524": 675.68,
     "1005013199719142": 52.75,
     "1005013205365677": 883.6,
     "1005008429979494": 72.7,
@@ -29838,6 +29840,16 @@
       "price": 22.4,
       "timestamp": 1795180458.5949016,
       "status": "ACTIVE"
+    },
+    "aniscoupons:35365": {
+      "channel_msg_id": 3307,
+      "product_id": "1005013030365524",
+      "title": "HUAWEI Pura 90s Pro",
+      "channel": "aniscoupons",
+      "source_msg_id": 35365,
+      "price": 675.68,
+      "timestamp": 1795181297.4400892,
+      "status": "ACTIVE"
     }
   },
   "schedule_config": {
@@ -29846,17 +29858,17 @@
     "current_interval_minutes": 5,
     "is_paused": false,
     "night_mode_enabled": true,
-    "last_deal_post_time": 1795180460.7208912,
+    "last_deal_post_time": 1795181304.062814,
     "night_start_hour_dz": 0,
     "night_end_hour_dz": 8,
     "night_pause_enabled": true,
-    "last_sweep_time": 1795180463.2522376,
+    "last_sweep_time": 1795181306.0449922,
     "last_sweep_times": {
-      "algeria": 1795180460.691895,
-      "france": 1795180463.2522376
+      "algeria": 1795181304.0368052,
+      "france": 1795181306.0449922
     },
     "last_deal_post_times": {
-      "algeria": 1795180460.7208912
+      "algeria": 1795181304.062814
     }
   },
   "last_coin_reminder_time": 1795015271.2437074,
@@ -30494,7 +30506,7 @@
     "1005006026842392": "lodydeals",
     "1005011748000554": "bnddeals",
     "1005009111757092": "lodydeals",
-    "1005013030365524": "lodydeals",
+    "1005013030365524": "aniscoupons",
     "1005013199719142": "ecksdeal",
     "1005013205365677": "bnddeals",
     "1005008429979494": "lodydeals",
@@ -31895,7 +31907,8 @@
     "UGREEN Nexode Air 65W GaN Charger": "aniscoupons",
     "Portable Wireless Electric Air Pump with LCD Display": "bnddeals",
     "لي يحوس على حاجة أصلية ومضمونة": "bnddeals",
-    "Soundcore by Anker Q20i": "bnddeals"
+    "Soundcore by Anker Q20i": "bnddeals",
+    "HUAWEI Pura 90s Pro": "aniscoupons"
   },
   "religious_reminders_history": {
     "mock_rem": "2026-10-02",
@@ -32693,7 +32706,6 @@
   "published_deals_history": {},
   "settings": {},
   "handled_post_keys": [
-    "bnddeals:51284",
     "bnddeals:51285",
     "zedstoreonline:39872",
     "zedstoreonline:39873",
@@ -33692,7 +33704,8 @@
     "zedstoreonline:40478",
     "aniscoupons:35363",
     "zedstoreonline:40479",
-    "bnddeals:51365"
+    "bnddeals:51365",
+    "aniscoupons:35366"
   ],
   "last_france_cross_promo_time": 1794913823.9647303,
   "next_france_cross_promo_interval_seconds": 311842,
@@ -34511,6 +34524,20 @@
         "channel": "bnddeals",
         "ts": 1795180455.678747,
         "price": 22.4
+      }
+    ],
+    "1005013030365524": [
+      {
+        "channel": "aniscoupons",
+        "ts": 1795181294.7905006,
+        "price": 675.68
+      }
+    ],
+    "1005013399086495": [
+      {
+        "channel": "aniscoupons",
+        "ts": 1795181302.7137969,
+        "price": 789.0
       }
     ]
   },
