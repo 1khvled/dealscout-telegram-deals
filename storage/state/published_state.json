@@ -1221,7 +1221,7 @@
     "1005013479172067": 1793448884.6592717,
     "1005012199872142": 1794487833.0095515,
     "9998886358": 1793276358.3466215,
-    "1005013170854617": 1793969543.5771117,
+    "1005013170854617": 1795186378.654721,
     "1005010172572484": 1793521744.753259,
     "1005012167596439": 1794394415.6108775,
     "1005005209037696": 1793399509.450536,
@@ -4093,10 +4093,9 @@
     "ViVO iQOO Z11  8/256": 1795184400.6197784,
     "Redmi Note 17 Pro 5G (6/128GB)": 1795184587.079662,
     "Honor 600 Lite 5G 8/256GB": 1795185596.5947275,
-    "Vivo Y500 Pro (8/128GB)": 1795185821.1731942
+    "Vivo Y500 Pro (8/128GB)": 1795186378.654721
   },
   "published_post_keys": [
-    "aniscoupons:34406",
     "bnddeals:51243",
     "aniscoupons:34408",
     "aniscoupons:34409",
@@ -5095,19 +5094,20 @@
     "aniscoupons:35379",
     "aniscoupons:35380",
     "aniscoupons:35381",
-    "aniscoupons:35382"
+    "aniscoupons:35382",
+    "aniscoupons:35383"
   ],
   "last_disclaimer_time": 1794524540.9476151,
   "last_calendar_time": 1795177633.1203737,
-  "last_run_time": 1795186207.2341003,
+  "last_run_time": 1795186378.654721,
   "monitored_channels": {
     "ecksdeal": {
       "last_message_id": 6116,
       "last_check_time": 1795183542.6481285
     },
     "lodydeals": {
-      "last_message_id": 46723,
-      "last_check_time": 1795185805.6427865
+      "last_message_id": 46724,
+      "last_check_time": 1795186370.1994717
     },
     "test_channel": {
       "last_message_id": 1793967703,
@@ -5130,8 +5130,8 @@
       "last_check_time": 1795186199.277419
     },
     "aniscoupons": {
-      "last_message_id": 35382,
-      "last_check_time": 1795186209.335475
+      "last_message_id": 35383,
+      "last_check_time": 1795186380.713257
     },
     "bnddeals": {
       "last_message_id": 51370,
@@ -5402,7 +5402,7 @@
     "1005012399830182": 443.3,
     "1005013479172067": 218.0,
     "1005012199872142": 438.5,
-    "1005013170854617": 258.8,
+    "1005013170854617": 260.8,
     "1005010172572484": 513.7,
     "1005012167596439": 553.5,
     "1005005209037696": 328.0,
@@ -30118,6 +30118,16 @@
       "price": 352.4,
       "timestamp": 1795186207.2341003,
       "status": "ACTIVE"
+    },
+    "aniscoupons:35383": {
+      "channel_msg_id": 3332,
+      "product_id": "1005013170854617",
+      "title": "Vivo Y500 Pro (8/128GB)",
+      "channel": "aniscoupons",
+      "source_msg_id": 35383,
+      "price": 260.8,
+      "timestamp": 1795186378.654721,
+      "status": "ACTIVE"
     }
   },
   "schedule_config": {
@@ -30126,17 +30136,17 @@
     "current_interval_minutes": 5,
     "is_paused": false,
     "night_mode_enabled": true,
-    "last_deal_post_time": 1795186212.80177,
+    "last_deal_post_time": 1795186381.4942927,
     "night_start_hour_dz": 0,
     "night_end_hour_dz": 8,
     "night_pause_enabled": true,
-    "last_sweep_time": 1795186214.9111292,
+    "last_sweep_time": 1795186383.495687,
     "last_sweep_times": {
-      "algeria": 1795186212.7600548,
-      "france": 1795186214.9111292
+      "algeria": 1795186381.4700449,
+      "france": 1795186383.495687
     },
     "last_deal_post_times": {
-      "algeria": 1795186212.80177
+      "algeria": 1795186381.4942927
     }
   },
   "last_coin_reminder_time": 1795015271.2437074,
@@ -32990,7 +33000,6 @@
   "published_deals_history": {},
   "settings": {},
   "handled_post_keys": [
-    "aniscoupons:34513",
     "aniscoupons:34514",
     "zedstoreonline:39886",
     "zedstoreonline:39889",
@@ -33989,7 +33998,8 @@
     "bnddeals:51368",
     "bnddeals:51369",
     "zedstoreonline:40494",
-    "bnddeals:51370"
+    "bnddeals:51370",
+    "lodydeals:46724"
   ],
   "last_france_cross_promo_time": 1794913823.9647303,
   "next_france_cross_promo_interval_seconds": 311842,
@@ -35007,6 +35017,11 @@
         "channel": "zedstoreonline",
         "ts": 1795186198.616738,
         "price": 260.0
+      },
+      {
+        "channel": "aniscoupons",
+        "ts": 1795186375.991024,
+        "price": 260.8
       }
     ],
     "1005012809141747": [
