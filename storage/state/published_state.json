@@ -870,7 +870,9 @@
     "1005013117620640",
     "1005013048908707",
     "1005011955602754",
-    "1005012484548468"
+    "1005012484548468",
+    "1005013052070984",
+    "1005010340916961"
   ],
   "published_product_timestamps": {
     "1005012973772517": 1794500732.7845657,
@@ -1651,7 +1653,7 @@
     "1005001849536579": 1794753509.2499118,
     "1005006967391791": 1794476797.164376,
     "1005013288890301": 1794477157.5349603,
-    "1005013089015192": 1794647055.558841,
+    "1005013089015192": 1795185813.1399975,
     "1005009278114794": 1794647237.7084959,
     "1005010210432531": 1795163283.762443,
     "1005013422894128": 1794487083.9711623,
@@ -1674,7 +1676,7 @@
     "1005012840419521": 1794591008.1982286,
     "1005010218815499": 1794845442.6108298,
     "1005011897409757": 1794593403.339319,
-    "1005013203288194": 1794595430.2306583,
+    "1005013203288194": 1795185828.2808123,
     "1005010305059795": 1795168608.9197643,
     "1005013078612320": 1795027884.8693073,
     "1005007010612283": 1794599454.461018,
@@ -1758,7 +1760,9 @@
     "1005013117620640": 1795183540.495267,
     "1005013048908707": 1795183557.3230655,
     "1005011955602754": 1795184400.6197784,
-    "1005012484548468": 1795185596.5947275
+    "1005012484548468": 1795185596.5947275,
+    "1005013052070984": 1795185803.549076,
+    "1005010340916961": 1795185821.1731942
   },
   "published_titles": [
     "Wireless WiFi Repeater 300Mbps WiFi Extender Amplifier Booster Router",
@@ -2920,7 +2924,8 @@
     "بروجكتور Magcubic HY300 max",
     "ViVO iQOO Z11  8/256",
     "Redmi Note 17 Pro 5G (6/128GB)",
-    "Honor 600 Lite 5G 8/256GB"
+    "Honor 600 Lite 5G 8/256GB",
+    "Vivo Y500 Pro (8/128GB)"
   ],
   "published_title_timestamps": {
     "Xiaomi Redmi Note 17 5G Global Version": 1790857823.0117362,
@@ -3214,7 +3219,7 @@
     "Redmi Note 12 5G Global (4/128GB)": 1792156524.878074,
     "Blackview Wave 10C": 1795164560.8676937,
     "متوسط سعره حالياً 82000دج": 1793276237.692456,
-    "iQOO Z11s 5G (8/128GB)": 1795006994.1615362,
+    "iQOO Z11s 5G (8/128GB)": 1795185813.1399975,
     "realme Watch 5 Smart Watch 1.97\" AMOLED Display Sports & Health Monitoring": 1793966861.2399917,
     "Baseus GH02 Gaming Wireless Headphone": 1792087000.9978776,
     "GameSir GM500 PMW33600 Gaming Mouse": 1792087147.0923955,
@@ -3323,7 +3328,7 @@
     "UGREEN 60W Car Charger 145W 90W": 1793448653.6981916,
     "UGREEN HiTune S3 Air Open Ear Earbuds": 1793361183.531266,
     "Soundcore by Anker Space Q45": 1793448672.3363433,
-    "OPPO Reno 16F 5G Global (8/256GB)": 1794595430.2306583,
+    "OPPO Reno 16F 5G Global (8/256GB)": 1795185828.2808123,
     "REALME P4 POWER (8/256)": 1793448688.2878077,
     "ONEPLUS 13T (12/256)": 1793448695.876665,
     "VIVO Y600 pro": 1793448703.2952108,
@@ -3567,7 +3572,7 @@
     "Lenovo Legion Y900 8/128GB": 1793738297.0536208,
     "HOCO ANC EQ34 PLUS": 1793566252.8097658,
     "Magcubic 900ANSI HY350 MAX": 1795023369.0864155,
-    "OPPO A7 Pro Max 8/128GB": 1794678546.0543764,
+    "OPPO A7 Pro Max 8/128GB": 1795185803.549076,
     "Realme P4 Power 5G 12/256GB": 1793566295.6489058,
     "iQOO Neo 11 Ultra 12/256": 1793566310.8398705,
     "ATTACK SHARK V6 25000DPI": 1793566315.7447746,
@@ -4087,13 +4092,10 @@
     "بروجكتور Magcubic HY300 max": 1795183546.9104183,
     "ViVO iQOO Z11  8/256": 1795184400.6197784,
     "Redmi Note 17 Pro 5G (6/128GB)": 1795184587.079662,
-    "Honor 600 Lite 5G 8/256GB": 1795185596.5947275
+    "Honor 600 Lite 5G 8/256GB": 1795185596.5947275,
+    "Vivo Y500 Pro (8/128GB)": 1795185821.1731942
   },
   "published_post_keys": [
-    "zedstoreonline:39810",
-    "aniscoupons:34403",
-    "zedstoreonline:39812",
-    "aniscoupons:34404",
     "aniscoupons:34405",
     "aniscoupons:34406",
     "bnddeals:51243",
@@ -5089,19 +5091,23 @@
     "aniscoupons:35377",
     "aniscoupons:35378",
     "lodydeals:46721",
-    "zedstoreonline:40492"
+    "zedstoreonline:40492",
+    "lodydeals:46723",
+    "aniscoupons:35379",
+    "aniscoupons:35380",
+    "aniscoupons:35381"
   ],
   "last_disclaimer_time": 1794524540.9476151,
   "last_calendar_time": 1795177633.1203737,
-  "last_run_time": 1795185603.819884,
+  "last_run_time": 1795185828.2808123,
   "monitored_channels": {
     "ecksdeal": {
       "last_message_id": 6116,
       "last_check_time": 1795183542.6481285
     },
     "lodydeals": {
-      "last_message_id": 46722,
-      "last_check_time": 1795185598.7558093
+      "last_message_id": 46723,
+      "last_check_time": 1795185805.6427865
     },
     "test_channel": {
       "last_message_id": 1793967703,
@@ -5124,12 +5130,12 @@
       "last_check_time": 1795185607.258133
     },
     "aniscoupons": {
-      "last_message_id": 35378,
-      "last_check_time": 1795184589.186213
+      "last_message_id": 35381,
+      "last_check_time": 1795185830.3660839
     },
     "bnddeals": {
-      "last_message_id": 51368,
-      "last_check_time": 1795185621.6155224
+      "last_message_id": 51369,
+      "last_check_time": 1795185832.0241792
     }
   },
   "published_product_prices": {
@@ -5791,7 +5797,7 @@
     "1005001849536579": 20.5,
     "1005006967391791": 36.2,
     "1005013288890301": 16.9,
-    "1005013089015192": 261.9,
+    "1005013089015192": 264.6,
     "1005009278114794": 11.5,
     "1005013422894128": 499.5,
     "1005010297094897": 44.8,
@@ -5813,7 +5819,7 @@
     "1005012840419521": 31.63,
     "1005010218815499": 13.94,
     "1005011897409757": 7.07,
-    "1005013203288194": 348.26,
+    "1005013203288194": 346.3,
     "1005010305059795": 29.6,
     "1005013078612320": 23.6,
     "1005007010612283": 23.2,
@@ -5895,7 +5901,9 @@
     "1005013117620640": 61.51,
     "1005013048908707": 276.5,
     "1005011955602754": 312.5,
-    "1005012484548468": 276.1
+    "1005012484548468": 276.1,
+    "1005013052070984": 275.02,
+    "1005010340916961": 267.6
   },
   "channel_published_deals": {
     "aniscoupons:32590": {
@@ -30060,6 +30068,46 @@
       "price": 50.7,
       "timestamp": 1795185603.819884,
       "status": "ACTIVE"
+    },
+    "lodydeals:46723": {
+      "channel_msg_id": 3327,
+      "product_id": "1005013052070984",
+      "title": "OPPO A7 Pro Max 8/128GB",
+      "channel": "lodydeals",
+      "source_msg_id": 46723,
+      "price": 275.02,
+      "timestamp": 1795185803.549076,
+      "status": "ACTIVE"
+    },
+    "aniscoupons:35379": {
+      "channel_msg_id": 3328,
+      "product_id": "1005013089015192",
+      "title": "iQOO Z11s 5G (8/128GB)",
+      "channel": "aniscoupons",
+      "source_msg_id": 35379,
+      "price": 264.6,
+      "timestamp": 1795185813.1399975,
+      "status": "ACTIVE"
+    },
+    "aniscoupons:35380": {
+      "channel_msg_id": 3329,
+      "product_id": "1005010340916961",
+      "title": "Vivo Y500 Pro (8/128GB)",
+      "channel": "aniscoupons",
+      "source_msg_id": 35380,
+      "price": 267.6,
+      "timestamp": 1795185821.1731942,
+      "status": "ACTIVE"
+    },
+    "aniscoupons:35381": {
+      "channel_msg_id": 3330,
+      "product_id": "1005013203288194",
+      "title": "OPPO Reno 16F 5G Global (8/256GB)",
+      "channel": "aniscoupons",
+      "source_msg_id": 35381,
+      "price": 346.3,
+      "timestamp": 1795185828.2808123,
+      "status": "ACTIVE"
     }
   },
   "schedule_config": {
@@ -30068,17 +30116,17 @@
     "current_interval_minutes": 5,
     "is_paused": false,
     "night_mode_enabled": true,
-    "last_deal_post_time": 1795185621.6906402,
+    "last_deal_post_time": 1795185832.0889812,
     "night_start_hour_dz": 0,
     "night_end_hour_dz": 8,
     "night_pause_enabled": true,
-    "last_sweep_time": 1795185623.7915676,
+    "last_sweep_time": 1795185834.046748,
     "last_sweep_times": {
-      "algeria": 1795185621.6526384,
-      "france": 1795185623.7915676
+      "algeria": 1795185832.056731,
+      "france": 1795185834.046748
     },
     "last_deal_post_times": {
-      "algeria": 1795185621.6906402
+      "algeria": 1795185832.0889812
     }
   },
   "last_coin_reminder_time": 1795015271.2437074,
@@ -30858,7 +30906,7 @@
     "1005001849536579": "zedstoreonline",
     "1005006967391791": "zedstoreonline",
     "1005013288890301": "zedstoreonline",
-    "1005013089015192": "zedstoreonline",
+    "1005013089015192": "aniscoupons",
     "1005009278114794": "zedstoreonline",
     "1005013422894128": "aniscoupons",
     "1005010297094897": "aniscoupons",
@@ -30963,7 +31011,9 @@
     "1005013117620640": "ecksdeal",
     "1005013048908707": "aniscoupons",
     "1005011955602754": "zedstoreonline",
-    "1005012484548468": "lodydeals"
+    "1005012484548468": "lodydeals",
+    "1005013052070984": "lodydeals",
+    "1005010340916961": "aniscoupons"
   },
   "published_title_channels": {
     "Test Wrench Set": "test_channel",
@@ -32131,7 +32181,8 @@
     "بروجكتور Magcubic HY300 max": "zedstoreonline",
     "ViVO iQOO Z11  8/256": "zedstoreonline",
     "Redmi Note 17 Pro 5G (6/128GB)": "aniscoupons",
-    "Honor 600 Lite 5G 8/256GB": "lodydeals"
+    "Honor 600 Lite 5G 8/256GB": "lodydeals",
+    "Vivo Y500 Pro (8/128GB)": "aniscoupons"
   },
   "religious_reminders_history": {
     "mock_rem": "2026-10-02",
@@ -32929,7 +32980,6 @@
   "published_deals_history": {},
   "settings": {},
   "handled_post_keys": [
-    "ecksdeal:6055",
     "lodydeals:46356",
     "lodydeals:46358",
     "aniscoupons:34513",
@@ -33928,7 +33978,8 @@
     "bnddeals:51367",
     "lodydeals:46722",
     "zedstoreonline:40493",
-    "bnddeals:51368"
+    "bnddeals:51368",
+    "bnddeals:51369"
   ],
   "last_france_cross_promo_time": 1794913823.9647303,
   "next_france_cross_promo_interval_seconds": 311842,
@@ -34882,6 +34933,11 @@
         "channel": "aniscoupons",
         "ts": 1795184415.3967679,
         "price": 271.59
+      },
+      {
+        "channel": "bnddeals",
+        "ts": 1795185831.8969684,
+        "price": 271.6
       }
     ],
     "1005012377459743": [
@@ -34910,6 +34966,11 @@
         "channel": "zedstoreonline",
         "ts": 1795184770.235467,
         "price": 263.0
+      },
+      {
+        "channel": "aniscoupons",
+        "ts": 1795185811.0714836,
+        "price": 264.6
       }
     ],
     "1005012953027259": [
@@ -34917,6 +34978,13 @@
         "channel": "bnddeals",
         "ts": 1795184773.6314137,
         "price": 280.0
+      }
+    ],
+    "1005013203288194": [
+      {
+        "channel": "aniscoupons",
+        "ts": 1795185826.0922322,
+        "price": 346.3
       }
     ]
   },
