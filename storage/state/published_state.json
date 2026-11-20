@@ -1682,7 +1682,7 @@
     "1005010218815499": 1794845442.6108298,
     "1005011897409757": 1794593403.339319,
     "1005013203288194": 1795185828.2808123,
-    "1005010305059795": 1795168608.9197643,
+    "1005010305059795": 1795202797.011454,
     "1005013078612320": 1795027884.8693073,
     "1005007010612283": 1794599454.461018,
     "1005010788231460": 1794604060.7762444,
@@ -3974,7 +3974,7 @@
     "ماوس فخم Logitech G502 Hero": 1794591008.1982286,
     "ماوس لاسلكي Delux M800 Mini Series": 1794591382.6548223,
     "Lexar V400 USB3.0 64GB": 1794593403.339319,
-    "HAYLOU S40 ANC Wireless": 1795080125.0187495,
+    "HAYLOU S40 ANC Wireless": 1795202797.011454,
     "CUSU Memory DDR5 (16GB) 6000MHz": 1795080686.538359,
     "Realme 15 Pro (12/512GB)": 1794998227.2322433,
     "MAONO T1 Plus Dual-Capsule Wireless Lavalier Microphone Lapel Microphone": 1794599278.9506347,
@@ -4116,7 +4116,6 @@
     "Redmi Note 17 4G (6/128GB)": 1795200037.561095
   },
   "published_post_keys": [
-    "zedstoreonline:39821",
     "zedstoreonline:39822",
     "zedstoreonline:39824",
     "aniscoupons:34420",
@@ -5115,11 +5114,12 @@
     "aniscoupons:35395",
     "aniscoupons:35396",
     "zedstoreonline:40505",
-    "zedstoreonline:40506"
+    "zedstoreonline:40506",
+    "zedstoreonline:40507"
   ],
   "last_disclaimer_time": 1794524540.9476151,
   "last_calendar_time": 1795177633.1203737,
-  "last_run_time": 1795202623.049966,
+  "last_run_time": 1795202797.011454,
   "monitored_channels": {
     "ecksdeal": {
       "last_message_id": 6116,
@@ -5146,8 +5146,8 @@
       "last_check_time": 1793599663.3444748
     },
     "zedstoreonline": {
-      "last_message_id": 40506,
-      "last_check_time": 1795202625.1546657
+      "last_message_id": 40507,
+      "last_check_time": 1795202799.1054966
     },
     "aniscoupons": {
       "last_message_id": 35397,
@@ -30293,6 +30293,16 @@
       "price": 14.5,
       "timestamp": 1795202623.049966,
       "status": "ACTIVE"
+    },
+    "zedstoreonline:40507": {
+      "channel_msg_id": 3348,
+      "product_id": "1005010305059795",
+      "title": "HAYLOU S40 ANC Wireless",
+      "channel": "zedstoreonline",
+      "source_msg_id": 40507,
+      "price": 29.6,
+      "timestamp": 1795202797.011454,
+      "status": "ACTIVE"
     }
   },
   "schedule_config": {
@@ -30301,17 +30311,17 @@
     "current_interval_minutes": 5,
     "is_paused": false,
     "night_mode_enabled": true,
-    "last_deal_post_time": 1795202627.0797007,
+    "last_deal_post_time": 1795202800.9512904,
     "night_start_hour_dz": 0,
     "night_end_hour_dz": 8,
     "night_pause_enabled": true,
-    "last_sweep_time": 1795202629.4797857,
+    "last_sweep_time": 1795202803.6028163,
     "last_sweep_times": {
-      "algeria": 1795202627.0357378,
-      "france": 1795202629.4797857
+      "algeria": 1795202800.91081,
+      "france": 1795202803.6028163
     },
     "last_deal_post_times": {
-      "algeria": 1795202627.0797007
+      "algeria": 1795202800.9512904
     }
   },
   "last_coin_reminder_time": 1795015271.2437074,
@@ -31114,7 +31124,7 @@
     "1005010218815499": "aniscoupons",
     "1005011897409757": "lodydeals",
     "1005013203288194": "aniscoupons",
-    "1005010305059795": "aniscoupons",
+    "1005010305059795": "zedstoreonline",
     "1005013078612320": "zedstoreonline",
     "1005007010612283": "zedstoreonline",
     "1005010788231460": "zedstoreonline",
@@ -34944,6 +34954,11 @@
       {
         "channel": "aniscoupons",
         "ts": 1795168606.1679277,
+        "price": 29.6
+      },
+      {
+        "channel": "zedstoreonline",
+        "ts": 1795202794.1950183,
         "price": 29.6
       }
     ],
