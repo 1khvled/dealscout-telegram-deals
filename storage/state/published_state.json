@@ -1685,7 +1685,7 @@
     "1005010788231460": 1794604060.7762444,
     "1389260212": 1794605894.0354748,
     "1005012138794873": 1795081588.9428203,
-    "1005007129557126": 1795004596.986253,
+    "1005007129557126": 1795199244.3177361,
     "1005010519693722": 1794680859.9419408,
     "1005010788149535": 1794995660.7798858,
     "1005007857182319": 1794666000.5453608,
@@ -3976,7 +3976,7 @@
     "H96 MAX RK3518 2/16GB": 1794606633.373106,
     "realme 45W SUPERVOOC Charger": 1794606651.7602222,
     "Kodak K133 USB 3.1 Flash Drive 256GB": 1794614891.9797184,
-    "SOYO AMD B550M Gaming": 1795004596.986253,
+    "SOYO AMD B550M Gaming": 1795199244.3177361,
     "Delux M400 PAW3311 24000DPI 1Khz 500mAh Wireless": 1794649518.026784,
     "Delux M800mini Wireless Gaming Mouse": 1794845442.6108298,
     "ASROCK X570M PRO4 Motherboard": 1794660431.126332,
@@ -4106,7 +4106,6 @@
     "1More HQ20 SonoFlow MINI Hearing": 1795196136.7491949
   },
   "published_post_keys": [
-    "zedstoreonline:39817",
     "aniscoupons:34413",
     "aniscoupons:34414",
     "aniscoupons:34415",
@@ -5105,19 +5104,20 @@
     "aniscoupons:35388",
     "aniscoupons:35390",
     "bnddeals:51374",
-    "bnddeals:51376"
+    "bnddeals:51376",
+    "aniscoupons:35391"
   ],
   "last_disclaimer_time": 1794524540.9476151,
   "last_calendar_time": 1795177633.1203737,
-  "last_run_time": 1795196136.7491949,
+  "last_run_time": 1795199244.3177361,
   "monitored_channels": {
     "ecksdeal": {
       "last_message_id": 6116,
       "last_check_time": 1795183542.6481285
     },
     "lodydeals": {
-      "last_message_id": 46737,
-      "last_check_time": 1795197331.0452616
+      "last_message_id": 46740,
+      "last_check_time": 1795199232.7915483
     },
     "test_channel": {
       "last_message_id": 1793967703,
@@ -5136,16 +5136,16 @@
       "last_check_time": 1793599663.3444748
     },
     "zedstoreonline": {
-      "last_message_id": 40501,
-      "last_check_time": 1795197337.6791458
+      "last_message_id": 40503,
+      "last_check_time": 1795199239.642348
     },
     "aniscoupons": {
-      "last_message_id": 35390,
-      "last_check_time": 1795195552.0273385
+      "last_message_id": 35391,
+      "last_check_time": 1795199246.4159105
     },
     "bnddeals": {
-      "last_message_id": 51376,
-      "last_check_time": 1795196138.8430812
+      "last_message_id": 51377,
+      "last_check_time": 1795199248.381429
     }
   },
   "published_product_prices": {
@@ -5836,7 +5836,7 @@
     "1005010788231460": 178.4,
     "1389260212": 14.8,
     "1005012138794873": 86.01,
-    "1005007129557126": 82.66,
+    "1005007129557126": 85.5,
     "1005010519693722": 13.42,
     "1005010788149535": 364.9,
     "1005007857182319": 23.88,
@@ -30200,6 +30200,16 @@
       "price": 21.8,
       "timestamp": 1795196136.7491949,
       "status": "ACTIVE"
+    },
+    "aniscoupons:35391": {
+      "channel_msg_id": 3340,
+      "product_id": "1005007129557126",
+      "title": "SOYO AMD B550M Gaming",
+      "channel": "aniscoupons",
+      "source_msg_id": 35391,
+      "price": 85.5,
+      "timestamp": 1795199244.3177361,
+      "status": "ACTIVE"
     }
   },
   "schedule_config": {
@@ -30208,17 +30218,17 @@
     "current_interval_minutes": 5,
     "is_paused": false,
     "night_mode_enabled": true,
-    "last_deal_post_time": 1795196138.9273827,
+    "last_deal_post_time": 1795199248.4783387,
     "night_start_hour_dz": 0,
     "night_end_hour_dz": 8,
     "night_pause_enabled": true,
-    "last_sweep_time": 1795197341.5886812,
+    "last_sweep_time": 1795199250.7358346,
     "last_sweep_times": {
-      "algeria": 1795197339.52452,
-      "france": 1795197341.5886812
+      "algeria": 1795199248.4247,
+      "france": 1795199250.7358346
     },
     "last_deal_post_times": {
-      "algeria": 1795196138.9273827
+      "algeria": 1795199248.4783387
     }
   },
   "last_coin_reminder_time": 1795015271.2437074,
@@ -33077,9 +33087,6 @@
   "published_deals_history": {},
   "settings": {},
   "handled_post_keys": [
-    "lodydeals:46360",
-    "lodydeals:46363",
-    "lodydeals:46366",
     "lodydeals:46367",
     "lodydeals:46368",
     "zedstoreonline:39904",
@@ -34076,7 +34083,10 @@
     "zedstoreonline:40500",
     "bnddeals:51373",
     "bnddeals:51375",
-    "zedstoreonline:40501"
+    "zedstoreonline:40501",
+    "zedstoreonline:40502",
+    "zedstoreonline:40503",
+    "bnddeals:51377"
   ],
   "last_france_cross_promo_time": 1794913823.9647303,
   "next_france_cross_promo_interval_seconds": 311842,
@@ -35186,6 +35196,11 @@
         "channel": "zedstoreonline",
         "ts": 1795197337.0006742,
         "price": 275.0
+      },
+      {
+        "channel": "zedstoreonline",
+        "ts": 1795199238.8936071,
+        "price": 375.0
       }
     ],
     "1005006807619368": [
@@ -35193,6 +35208,20 @@
         "channel": "aniscoupons",
         "ts": 1795195547.4799645,
         "price": 6.55
+      }
+    ],
+    "1005007129557126": [
+      {
+        "channel": "aniscoupons",
+        "ts": 1795199241.7752392,
+        "price": 85.5
+      }
+    ],
+    "1005008358599837": [
+      {
+        "channel": "bnddeals",
+        "ts": 1795199248.1994197,
+        "price": 62.3
       }
     ]
   },
