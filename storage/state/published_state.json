@@ -1634,7 +1634,7 @@
     "1005008774483451": 1794735713.9376893,
     "1005012639349629": 1794579990.5893576,
     "1005010153422760": 1794487260.3295033,
-    "1005012809141747": 1794846136.1841142,
+    "1005012809141747": 1795186207.2341003,
     "1005012912160949": 1794914057.3065243,
     "1005012167744546": 1794437860.4294534,
     "1005009582538267": 1794439531.0399334,
@@ -3905,7 +3905,7 @@
     "KOOTION M.2 512GB 7200Mbs": 1794430852.2821708,
     "HONOR X80 PRO MAX": 1795183557.3230655,
     "DJI Osmo mobile": 1794487260.3295033,
-    "OPPO K15 12/256GB": 1794846136.1841142,
+    "OPPO K15 12/256GB": 1795186207.2341003,
     "Lenovo Legion Y70 2026 Gamin(12/512GB)": 1794914057.3065243,
     "KINGSTON DATA TRAVELER USB3.2 (128G)": 1794438803.0185766,
     "Essager Mini 30W Type C Charger PD": 1794438972.1864517,
@@ -4096,7 +4096,6 @@
     "Vivo Y500 Pro (8/128GB)": 1795185821.1731942
   },
   "published_post_keys": [
-    "aniscoupons:34405",
     "aniscoupons:34406",
     "bnddeals:51243",
     "aniscoupons:34408",
@@ -5095,11 +5094,12 @@
     "lodydeals:46723",
     "aniscoupons:35379",
     "aniscoupons:35380",
-    "aniscoupons:35381"
+    "aniscoupons:35381",
+    "aniscoupons:35382"
   ],
   "last_disclaimer_time": 1794524540.9476151,
   "last_calendar_time": 1795177633.1203737,
-  "last_run_time": 1795185828.2808123,
+  "last_run_time": 1795186207.2341003,
   "monitored_channels": {
     "ecksdeal": {
       "last_message_id": 6116,
@@ -5126,16 +5126,16 @@
       "last_check_time": 1793599663.3444748
     },
     "zedstoreonline": {
-      "last_message_id": 40493,
-      "last_check_time": 1795185607.258133
+      "last_message_id": 40494,
+      "last_check_time": 1795186199.277419
     },
     "aniscoupons": {
-      "last_message_id": 35381,
-      "last_check_time": 1795185830.3660839
+      "last_message_id": 35382,
+      "last_check_time": 1795186209.335475
     },
     "bnddeals": {
-      "last_message_id": 51369,
-      "last_check_time": 1795185832.0241792
+      "last_message_id": 51370,
+      "last_check_time": 1795186212.7185833
     }
   },
   "published_product_prices": {
@@ -5779,7 +5779,7 @@
     "1005007477084001": 18.78,
     "1005012639349629": 378.14,
     "1005010153422760": 58.7,
-    "1005012809141747": 349.4,
+    "1005012809141747": 352.4,
     "1005012912160949": 370.5,
     "1005012167744546": 558.49,
     "1005009582538267": 25.1,
@@ -30108,6 +30108,16 @@
       "price": 346.3,
       "timestamp": 1795185828.2808123,
       "status": "ACTIVE"
+    },
+    "aniscoupons:35382": {
+      "channel_msg_id": 3331,
+      "product_id": "1005012809141747",
+      "title": "OPPO K15 12/256GB",
+      "channel": "aniscoupons",
+      "source_msg_id": 35382,
+      "price": 352.4,
+      "timestamp": 1795186207.2341003,
+      "status": "ACTIVE"
     }
   },
   "schedule_config": {
@@ -30116,17 +30126,17 @@
     "current_interval_minutes": 5,
     "is_paused": false,
     "night_mode_enabled": true,
-    "last_deal_post_time": 1795185832.0889812,
+    "last_deal_post_time": 1795186212.80177,
     "night_start_hour_dz": 0,
     "night_end_hour_dz": 8,
     "night_pause_enabled": true,
-    "last_sweep_time": 1795186005.3487778,
+    "last_sweep_time": 1795186214.9111292,
     "last_sweep_times": {
-      "algeria": 1795186003.2562423,
-      "france": 1795186005.3487778
+      "algeria": 1795186212.7600548,
+      "france": 1795186214.9111292
     },
     "last_deal_post_times": {
-      "algeria": 1795185832.0889812
+      "algeria": 1795186212.80177
     }
   },
   "last_coin_reminder_time": 1795015271.2437074,
@@ -32980,8 +32990,6 @@
   "published_deals_history": {},
   "settings": {},
   "handled_post_keys": [
-    "lodydeals:46356",
-    "lodydeals:46358",
     "aniscoupons:34513",
     "aniscoupons:34514",
     "zedstoreonline:39886",
@@ -33979,7 +33987,9 @@
     "lodydeals:46722",
     "zedstoreonline:40493",
     "bnddeals:51368",
-    "bnddeals:51369"
+    "bnddeals:51369",
+    "zedstoreonline:40494",
+    "bnddeals:51370"
   ],
   "last_france_cross_promo_time": 1794913823.9647303,
   "next_france_cross_promo_interval_seconds": 311842,
@@ -34959,6 +34969,11 @@
         "channel": "aniscoupons",
         "ts": 1795184584.1933503,
         "price": 255.8
+      },
+      {
+        "channel": "bnddeals",
+        "ts": 1795186212.5718791,
+        "price": 255.8
       }
     ],
     "1005013089015192": [
@@ -34985,6 +35000,20 @@
         "channel": "aniscoupons",
         "ts": 1795185826.0922322,
         "price": 346.3
+      }
+    ],
+    "1005013170854617": [
+      {
+        "channel": "zedstoreonline",
+        "ts": 1795186198.616738,
+        "price": 260.0
+      }
+    ],
+    "1005012809141747": [
+      {
+        "channel": "aniscoupons",
+        "ts": 1795186204.6668897,
+        "price": 352.4
       }
     ]
   },

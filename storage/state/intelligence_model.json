@@ -28,7 +28,7 @@
       "ewma": 0.9994
     },
     "zedstoreonline": {
-      "seen": 394,
+      "seen": 395,
       "published": 249,
       "skipped": 0,
       "ewma": 0.9994
@@ -40,8 +40,8 @@
       "ewma": 0.9428
     },
     "aniscoupons": {
-      "seen": 598,
-      "published": 515,
+      "seen": 599,
+      "published": 516,
       "skipped": 0,
       "ewma": 0.9994
     },
@@ -66,8 +66,8 @@
       "ewma": 0.9994
     },
     "phones": {
-      "seen": 384,
-      "published": 257,
+      "seen": 386,
+      "published": 258,
       "skipped": 0,
       "ewma": 0.9994
     },
@@ -719,7 +719,8 @@
       349.4,
       349.4,
       349.4,
-      349.4
+      349.4,
+      352.4
     ],
     "1005011778197787": [
       155.2,
@@ -1621,31 +1622,15 @@
     ]
   },
   "counters": {
-    "scored": 1223,
-    "verdict_publish": 1176,
+    "scored": 1225,
+    "verdict_publish": 1178,
     "verdict_hold": 47,
     "verdict_skip": 0,
-    "published": 952,
+    "published": 953,
     "skipped": 0
   },
-  "score_sum": 89757.68,
+  "score_sum": 89913.42,
   "recent_decisions": [
-    {
-      "ts": 1795004594,
-      "channel": "aniscoupons",
-      "category": "pc",
-      "product_id": "1005007129557126",
-      "score": 70.46,
-      "verdict": "publish"
-    },
-    {
-      "ts": 1795004957,
-      "channel": "lodydeals",
-      "category": "phones",
-      "product_id": "1005010121513376",
-      "score": 72.78,
-      "verdict": "publish"
-    },
     {
       "ts": 1795005500,
       "channel": "zedstoreonline",
@@ -3229,7 +3214,23 @@
       "product_id": "1005013203288194",
       "score": 83.73,
       "verdict": "publish"
+    },
+    {
+      "ts": 1795186198,
+      "channel": "zedstoreonline",
+      "category": "phones",
+      "product_id": "1005013170854617",
+      "score": 75.8,
+      "verdict": "publish"
+    },
+    {
+      "ts": 1795186204,
+      "channel": "aniscoupons",
+      "category": "phones",
+      "product_id": "1005012809141747",
+      "score": 79.94,
+      "verdict": "publish"
     }
   ],
-  "updated_at": 1795185828.343546
+  "updated_at": 1795186207.3106778
 }
