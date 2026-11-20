@@ -962,7 +962,7 @@
     "1005008901941749": 1792785032.5334125,
     "1005010178295650": 1793743848.9735239,
     "1005006861002512": 1791151259.5667012,
-    "1005012285327063": 1795077549.2084594,
+    "1005012285327063": 1795163841.7448497,
     "1005006581583862": 1794852936.201381,
     "1005012816171978": 1792157876.0860639,
     "1005006248571160": 1791012946.4110153,
@@ -1145,7 +1145,7 @@
     "9998882360": 1792162360.6633363,
     "9998882475": 1793282475.663889,
     "9998882568": 1792162568.078144,
-    "1005010369693975": 1795106023.077125,
+    "1005010369693975": 1795163834.9436953,
     "1005006442452857": 1792166326.0335298,
     "9998886462": 1792166462.200491,
     "1005009948598802": 1793500786.1935658,
@@ -2993,7 +2993,7 @@
     "Attack Shark X1": 1790972445.6591878,
     "KUULAA USB C Cable": 1790973051.970508,
     "Wireless WiFi Repeater 300Mbps WiFi Extender Amplifier Booster Router": 1790974856.4783835,
-    "HAYLOU Watch Faro": 1795077549.2084594,
+    "HAYLOU Watch Faro": 1795163841.7448497,
     "HAYLOU S30": 1794852936.201381,
     "Lenovo XT88 TWS Wireless Earphones Bluetooth 5.3 Dual MIC Stereo Noise": 1790976654.120254,
     "VIVO Y600 Pro 8/128GB": 1793656161.7382708,
@@ -3209,7 +3209,7 @@
     "RYZEN 7 5700X": 1795005702.3191934,
     "Ⓜ BLACKVIEW WAVE 10C (4/32)": 1792160262.8028278,
     "Ⓜ  TCL 60 NXT PAPER 8/256📱": 1792160269.0502243,
-    "HAYLOU Mori Pro ANC": 1795106023.077125,
+    "HAYLOU Mori Pro ANC": 1795163834.9436953,
     "HAYLOU S30 Wireless Bluetooth 5.4 Headphones 43dB Adaptive Noise": 1792166326.0335298,
     "HAYLOU Watch Faro Voice Calling Smart Watch": 1792360422.5608404,
     "Redmi Note 12 5G 4/128": 1793543770.1912897,
@@ -4049,8 +4049,6 @@
     "DIGITAL BATHROOM SCALE": 1795134132.9931045
   },
   "published_post_keys": [
-    "aniscoupons:34367",
-    "aniscoupons:34369",
     "aniscoupons:34371",
     "lodydeals:46305",
     "lodydeals:46306",
@@ -5048,11 +5046,13 @@
     "aniscoupons:35342",
     "aniscoupons:35343",
     "aniscoupons:35344",
-    "aniscoupons:35345"
+    "aniscoupons:35345",
+    "zedstoreonline:40469",
+    "aniscoupons:35346"
   ],
   "last_disclaimer_time": 1794524540.9476151,
   "last_calendar_time": 1794572799.8939624,
-  "last_run_time": 1795163283.762443,
+  "last_run_time": 1795163841.7448497,
   "monitored_channels": {
     "ecksdeal": {
       "last_message_id": 6110,
@@ -5079,12 +5079,12 @@
       "last_check_time": 1793599663.3444748
     },
     "zedstoreonline": {
-      "last_message_id": 40468,
-      "last_check_time": 1795162360.9543061
+      "last_message_id": 40469,
+      "last_check_time": 1795163837.0385504
     },
     "aniscoupons": {
-      "last_message_id": 35345,
-      "last_check_time": 1795163285.8596215
+      "last_message_id": 35346,
+      "last_check_time": 1795163843.8422124
     },
     "bnddeals": {
       "last_message_id": 51358,
@@ -5320,7 +5320,7 @@
     "1005012671337268": 4.02,
     "1005012331836106": 268.0,
     "1005007760080474": 75.0,
-    "1005010369693975": 10.7,
+    "1005010369693975": 10.9,
     "1005006442452857": 24.7,
     "1005012751475098": 2.28,
     "1005012545304504": 123.1,
@@ -29583,6 +29583,26 @@
       "price": 133.8,
       "timestamp": 1795163283.762443,
       "status": "ACTIVE"
+    },
+    "zedstoreonline:40469": {
+      "channel_msg_id": 3282,
+      "product_id": "1005010369693975",
+      "title": "HAYLOU Mori Pro ANC",
+      "channel": "zedstoreonline",
+      "source_msg_id": 40469,
+      "price": 10.9,
+      "timestamp": 1795163834.9436953,
+      "status": "ACTIVE"
+    },
+    "aniscoupons:35346": {
+      "channel_msg_id": 3283,
+      "product_id": "1005012285327063",
+      "title": "HAYLOU Watch Faro",
+      "channel": "aniscoupons",
+      "source_msg_id": 35346,
+      "price": 11.1,
+      "timestamp": 1795163841.7448497,
+      "status": "ACTIVE"
     }
   },
   "schedule_config": {
@@ -29591,17 +29611,17 @@
     "current_interval_minutes": 5,
     "is_paused": false,
     "night_mode_enabled": true,
-    "last_deal_post_time": 1795163286.9114535,
+    "last_deal_post_time": 1795163845.089699,
     "night_start_hour_dz": 0,
     "night_end_hour_dz": 8,
     "night_pause_enabled": true,
-    "last_sweep_time": 1795163648.3014846,
+    "last_sweep_time": 1795163847.7634861,
     "last_sweep_times": {
-      "algeria": 1795163645.6810315,
-      "france": 1795163648.3014846
+      "algeria": 1795163845.0486114,
+      "france": 1795163847.7634861
     },
     "last_deal_post_times": {
-      "algeria": 1795163286.9114535
+      "algeria": 1795163845.089699
     }
   },
   "last_coin_reminder_time": 1795015271.2437074,
@@ -34085,6 +34105,20 @@
         "channel": "aniscoupons",
         "ts": 1795163281.0775874,
         "price": 133.8
+      }
+    ],
+    "1005010369693975": [
+      {
+        "channel": "zedstoreonline",
+        "ts": 1795163831.9097059,
+        "price": 10.9
+      }
+    ],
+    "1005012285327063": [
+      {
+        "channel": "aniscoupons",
+        "ts": 1795163839.0361593,
+        "price": 11.1
       }
     ]
   },
