@@ -1530,7 +1530,7 @@
     "9998887107": 1793967108.0014687,
     "9998887678": 1793967678.8184059,
     "9998887703": 1793967703.2348685,
-    "1005008708333999": 1795085076.3079712,
+    "1005008708333999": 1795169161.0279288,
     "1005012254132930": 1795077914.4967594,
     "1005013028124905": 1793971934.3600886,
     "1005012691642623": 1794074230.5173922,
@@ -4001,7 +4001,7 @@
     "realme P4 Power 8/256GB": 1794935216.1531737,
     "HONGTOP H20PRO TV Box 2/16GB": 1794845239.5606787,
     "Xiaomi Redmi Note 17 5G Global Version 6/256GB": 1794914021.5924346,
-    "Realme C100d": 1795085076.3079712,
+    "Realme C100d": 1795169161.0279288,
     "AMD Ryzen 5 5600X": 1794852895.9711866,
     "FIFINE K688 USB/XLR Dynamic": 1794852901.0609643,
     "NEW AMD R5 9600X CPU RYZNE 5 9600X Desktop Game Processor No Fan": 1794852909.5572178,
@@ -4055,7 +4055,6 @@
     "Portable Wireless Electric Air Pump with LCD Display": 1795167145.0122104
   },
   "published_post_keys": [
-    "aniscoupons:34376",
     "aniscoupons:34378",
     "aniscoupons:34379",
     "aniscoupons:34380",
@@ -5054,11 +5053,12 @@
     "zedstoreonline:40474",
     "bnddeals:51360",
     "aniscoupons:35355",
-    "aniscoupons:35356"
+    "aniscoupons:35356",
+    "aniscoupons:35357"
   ],
   "last_disclaimer_time": 1794524540.9476151,
   "last_calendar_time": 1794572799.8939624,
-  "last_run_time": 1795168608.9197643,
+  "last_run_time": 1795169161.0279288,
   "monitored_channels": {
     "ecksdeal": {
       "last_message_id": 6110,
@@ -5089,8 +5089,8 @@
       "last_check_time": 1795167500.2642531
     },
     "aniscoupons": {
-      "last_message_id": 35356,
-      "last_check_time": 1795168611.0119998
+      "last_message_id": 35357,
+      "last_check_time": 1795169163.1125846
     },
     "bnddeals": {
       "last_message_id": 51360,
@@ -29729,6 +29729,16 @@
       "price": 29.6,
       "timestamp": 1795168608.9197643,
       "status": "ACTIVE"
+    },
+    "aniscoupons:35357": {
+      "channel_msg_id": 3296,
+      "product_id": "1005008708333999",
+      "title": "Realme C100d",
+      "channel": "aniscoupons",
+      "source_msg_id": 35357,
+      "price": 138.7,
+      "timestamp": 1795169161.0279288,
+      "status": "ACTIVE"
     }
   },
   "schedule_config": {
@@ -29737,17 +29747,17 @@
     "current_interval_minutes": 5,
     "is_paused": false,
     "night_mode_enabled": true,
-    "last_deal_post_time": 1795168611.9520931,
+    "last_deal_post_time": 1795169164.225655,
     "night_start_hour_dz": 0,
     "night_end_hour_dz": 8,
     "night_pause_enabled": true,
-    "last_sweep_time": 1795168981.9945083,
+    "last_sweep_time": 1795169166.3198419,
     "last_sweep_times": {
-      "algeria": 1795168979.1658826,
-      "france": 1795168981.9945083
+      "algeria": 1795169164.1870275,
+      "france": 1795169166.3198419
     },
     "last_deal_post_times": {
-      "algeria": 1795168611.9520931
+      "algeria": 1795169164.225655
     }
   },
   "last_coin_reminder_time": 1795015271.2437074,
@@ -34328,6 +34338,13 @@
         "channel": "aniscoupons",
         "ts": 1795168606.1679277,
         "price": 29.6
+      }
+    ],
+    "1005008708333999": [
+      {
+        "channel": "aniscoupons",
+        "ts": 1795169158.358631,
+        "price": 138.7
       }
     ]
   },
