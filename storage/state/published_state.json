@@ -1543,7 +1543,7 @@
     "9998887678": 1793967678.8184059,
     "9998887703": 1793967703.2348685,
     "1005008708333999": 1795169161.0279288,
-    "1005012254132930": 1795077914.4967594,
+    "1005012254132930": 1795202623.049966,
     "1005013028124905": 1793971934.3600886,
     "1005012691642623": 1794074230.5173922,
     "1005010266233059": 1793977272.9654846,
@@ -3763,7 +3763,7 @@
     "Vivo Y600 Pro": 1793969543.5771117,
     "MAONO PD100X USB/XL": 1793969903.1419857,
     "Realme C100D 4G 4/128GB": 1794913830.7898324,
-    "HAYLOU Flowbuds N50 ANC": 1794913886.9009395,
+    "HAYLOU Flowbuds N50 ANC": 1795202623.049966,
     "Honor 600 Pro 12/256": 1794131798.3098254,
     "HONOR Pad X8a (4/64GB)": 1794683885.7547128,
     "Magcubic HY350 Max 900ANSI": 1794476813.180707,
@@ -4116,7 +4116,6 @@
     "Redmi Note 17 4G (6/128GB)": 1795200037.561095
   },
   "published_post_keys": [
-    "bnddeals:51244",
     "zedstoreonline:39821",
     "zedstoreonline:39822",
     "zedstoreonline:39824",
@@ -5115,11 +5114,12 @@
     "aniscoupons:35394",
     "aniscoupons:35395",
     "aniscoupons:35396",
-    "zedstoreonline:40505"
+    "zedstoreonline:40505",
+    "zedstoreonline:40506"
   ],
   "last_disclaimer_time": 1794524540.9476151,
   "last_calendar_time": 1795177633.1203737,
-  "last_run_time": 1795202414.5446742,
+  "last_run_time": 1795202623.049966,
   "monitored_channels": {
     "ecksdeal": {
       "last_message_id": 6116,
@@ -5146,8 +5146,8 @@
       "last_check_time": 1793599663.3444748
     },
     "zedstoreonline": {
-      "last_message_id": 40505,
-      "last_check_time": 1795202416.6548293
+      "last_message_id": 40506,
+      "last_check_time": 1795202625.1546657
     },
     "aniscoupons": {
       "last_message_id": 35397,
@@ -30283,6 +30283,16 @@
       "price": 8.5,
       "timestamp": 1795202414.5446742,
       "status": "ACTIVE"
+    },
+    "zedstoreonline:40506": {
+      "channel_msg_id": 3347,
+      "product_id": "1005012254132930",
+      "title": "HAYLOU Flowbuds N50 ANC",
+      "channel": "zedstoreonline",
+      "source_msg_id": 40506,
+      "price": 14.5,
+      "timestamp": 1795202623.049966,
+      "status": "ACTIVE"
     }
   },
   "schedule_config": {
@@ -30291,17 +30301,17 @@
     "current_interval_minutes": 5,
     "is_paused": false,
     "night_mode_enabled": true,
-    "last_deal_post_time": 1795202418.9484928,
+    "last_deal_post_time": 1795202627.0797007,
     "night_start_hour_dz": 0,
     "night_end_hour_dz": 8,
     "night_pause_enabled": true,
-    "last_sweep_time": 1795202421.785106,
+    "last_sweep_time": 1795202629.4797857,
     "last_sweep_times": {
-      "algeria": 1795202418.8995783,
-      "france": 1795202421.785106
+      "algeria": 1795202627.0357378,
+      "france": 1795202629.4797857
     },
     "last_deal_post_times": {
-      "algeria": 1795202418.9484928
+      "algeria": 1795202627.0797007
     }
   },
   "last_coin_reminder_time": 1795015271.2437074,
@@ -30967,7 +30977,7 @@
     "9998887678": "test_channel",
     "9998887703": "test_channel",
     "1005008708333999": "aniscoupons",
-    "1005012254132930": "bnddeals",
+    "1005012254132930": "zedstoreonline",
     "1005013028124905": "zedstoreonline",
     "1005012691642623": "zedstoreonline",
     "1005010266233059": "zedstoreonline",
@@ -35326,6 +35336,13 @@
         "channel": "zedstoreonline",
         "ts": 1795202411.7153878,
         "price": 8.5
+      }
+    ],
+    "1005012254132930": [
+      {
+        "channel": "zedstoreonline",
+        "ts": 1795202620.2818072,
+        "price": 14.5
       }
     ]
   },
