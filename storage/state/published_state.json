@@ -1555,7 +1555,7 @@
     "1005008534907844": 1793987285.4130383,
     "1005009577554629": 1793987289.8200357,
     "1005010656922924": 1794852924.3222039,
-    "1005008077441711": 1795011389.6062365,
+    "1005008077441711": 1795202414.5446742,
     "1005006411483066": 1794500381.7712336,
     "1005012925301774": 1795085801.1895535,
     "1005012959738411": 1794658966.3702009,
@@ -3781,7 +3781,7 @@
     "Realme 15 Pro (12/256GB)": 1794508546.500024,
     "SOUNDPEATS C30 ANC Wireless Earphones": 1794852924.3222039,
     "UGREEN 45W GaN Smart Display Charger": 1793995361.9589899,
-    "Inphic PG1 PG9 RGB Wired Gaming Mouse": 1795011389.6062365,
+    "Inphic PG1 PG9 RGB Wired Gaming Mouse": 1795202414.5446742,
     "realme C100d 4/128GB": 1794950849.6355956,
     "Zeblaze GTS 3 Pro AMOLED": 1794500381.7712336,
     "شاحن سيارة ORICO بقوة 45W": 1795085801.1895535,
@@ -4116,7 +4116,6 @@
     "Redmi Note 17 4G (6/128GB)": 1795200037.561095
   },
   "published_post_keys": [
-    "aniscoupons:34417",
     "bnddeals:51244",
     "zedstoreonline:39821",
     "zedstoreonline:39822",
@@ -5115,19 +5114,20 @@
     "aniscoupons:35393",
     "aniscoupons:35394",
     "aniscoupons:35395",
-    "aniscoupons:35396"
+    "aniscoupons:35396",
+    "zedstoreonline:40505"
   ],
   "last_disclaimer_time": 1794524540.9476151,
   "last_calendar_time": 1795177633.1203737,
-  "last_run_time": 1795201850.7994294,
+  "last_run_time": 1795202414.5446742,
   "monitored_channels": {
     "ecksdeal": {
       "last_message_id": 6116,
       "last_check_time": 1795183542.6481285
     },
     "lodydeals": {
-      "last_message_id": 46747,
-      "last_check_time": 1795201839.7484577
+      "last_message_id": 46748,
+      "last_check_time": 1795202408.5606322
     },
     "test_channel": {
       "last_message_id": 1793967703,
@@ -5146,12 +5146,12 @@
       "last_check_time": 1793599663.3444748
     },
     "zedstoreonline": {
-      "last_message_id": 40504,
-      "last_check_time": 1795201843.4796395
+      "last_message_id": 40505,
+      "last_check_time": 1795202416.6548293
     },
     "aniscoupons": {
-      "last_message_id": 35396,
-      "last_check_time": 1795201852.8979323
+      "last_message_id": 35397,
+      "last_check_time": 1795202417.8764024
     },
     "bnddeals": {
       "last_message_id": 51378,
@@ -5726,7 +5726,7 @@
     "1005008534907844": 50.86,
     "1005009577554629": 10.55,
     "1005010656922924": 20.4,
-    "1005008077441711": 7.6,
+    "1005008077441711": 8.5,
     "1005012925301774": 10.5,
     "1005012959738411": 68.79,
     "1005007162099601": 29.21,
@@ -30273,6 +30273,16 @@
       "price": 273.5,
       "timestamp": 1795201850.7994294,
       "status": "ACTIVE"
+    },
+    "zedstoreonline:40505": {
+      "channel_msg_id": 3346,
+      "product_id": "1005008077441711",
+      "title": "Inphic PG1 PG9 RGB Wired Gaming Mouse",
+      "channel": "zedstoreonline",
+      "source_msg_id": 40505,
+      "price": 8.5,
+      "timestamp": 1795202414.5446742,
+      "status": "ACTIVE"
     }
   },
   "schedule_config": {
@@ -30281,17 +30291,17 @@
     "current_interval_minutes": 5,
     "is_paused": false,
     "night_mode_enabled": true,
-    "last_deal_post_time": 1795201854.2102017,
+    "last_deal_post_time": 1795202418.9484928,
     "night_start_hour_dz": 0,
     "night_end_hour_dz": 8,
     "night_pause_enabled": true,
-    "last_sweep_time": 1795202022.599607,
+    "last_sweep_time": 1795202421.785106,
     "last_sweep_times": {
-      "algeria": 1795202020.6188982,
-      "france": 1795202022.599607
+      "algeria": 1795202418.8995783,
+      "france": 1795202421.785106
     },
     "last_deal_post_times": {
-      "algeria": 1795201854.2102017
+      "algeria": 1795202418.9484928
     }
   },
   "last_coin_reminder_time": 1795015271.2437074,
@@ -33155,7 +33165,6 @@
   "published_deals_history": {},
   "settings": {},
   "handled_post_keys": [
-    "zedstoreonline:39904",
     "zedstoreonline:39906",
     "aniscoupons:34546",
     "lodydeals:46369",
@@ -34154,7 +34163,8 @@
     "zedstoreonline:40503",
     "bnddeals:51377",
     "bnddeals:51378",
-    "zedstoreonline:40504"
+    "zedstoreonline:40504",
+    "aniscoupons:35397"
   ],
   "last_france_cross_promo_time": 1794913823.9647303,
   "next_france_cross_promo_interval_seconds": 311842,
@@ -35309,6 +35319,13 @@
         "channel": "zedstoreonline",
         "ts": 1795201842.9023242,
         "price": 18.0
+      }
+    ],
+    "1005008077441711": [
+      {
+        "channel": "zedstoreonline",
+        "ts": 1795202411.7153878,
+        "price": 8.5
       }
     ]
   },
