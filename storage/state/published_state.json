@@ -883,7 +883,7 @@
     "9998887952": 1790887952.6119926,
     "9998887972": 1790887972.157133,
     "100500777666555": 1793956903.3513582,
-    "1005011778621042": 1795080299.0000596,
+    "1005011778621042": 1795166773.5390282,
     "9998888080": 1790888080.3099577,
     "1005009234854371": 1793543664.66204,
     "1005006533038973": 1791104468.758226,
@@ -3075,7 +3075,7 @@
     "ATTACK SHARK X5": 1791106544.154073,
     "ATTACK SHARK X2 Pro": 1791106853.9447496,
     "ATTACK SHARK L80PRO Ultralight": 1791107750.295487,
-    "AMD Ryzen 7 5700X": 1794742050.547227,
+    "AMD Ryzen 7 5700X": 1795166773.5390282,
     "هاتف ينسيك في شارجور🤣🤣": 1791109857.5190113,
     "CMF Smart Watch 3 pro AMOLED": 1795164758.9252188,
     "ATTACK SHARK V6 Tri-Mode": 1791110751.0808105,
@@ -4053,7 +4053,6 @@
     "UGREEN Nexode Air 65W GaN Charger": 1795166225.425497
   },
   "published_post_keys": [
-    "zedstoreonline:39801",
     "aniscoupons:34374",
     "aniscoupons:34375",
     "zedstoreonline:39804",
@@ -5052,11 +5051,12 @@
     "zedstoreonline:40472",
     "aniscoupons:35350",
     "aniscoupons:35351",
-    "aniscoupons:35352"
+    "aniscoupons:35352",
+    "zedstoreonline:40474"
   ],
   "last_disclaimer_time": 1794524540.9476151,
   "last_calendar_time": 1794572799.8939624,
-  "last_run_time": 1795166225.425497,
+  "last_run_time": 1795166773.5390282,
   "monitored_channels": {
     "ecksdeal": {
       "last_message_id": 6110,
@@ -5083,12 +5083,12 @@
       "last_check_time": 1793599663.3444748
     },
     "zedstoreonline": {
-      "last_message_id": 40473,
-      "last_check_time": 1795166033.3121047
+      "last_message_id": 40474,
+      "last_check_time": 1795166775.644059
     },
     "aniscoupons": {
-      "last_message_id": 35352,
-      "last_check_time": 1795166227.5192769
+      "last_message_id": 35353,
+      "last_check_time": 1795166777.9454427
     },
     "bnddeals": {
       "last_message_id": 51359,
@@ -5109,7 +5109,7 @@
     "1005007279793099": 13.7,
     "1005008829227075": 24.76,
     "100500777666555": 20.0,
-    "1005011778621042": 119.59,
+    "1005011778621042": 119.5,
     "1005012312990781": 92.31,
     "1005009234854371": 13.3,
     "1005006533038973": 21.81,
@@ -29687,6 +29687,16 @@
       "price": 20.9,
       "timestamp": 1795166225.425497,
       "status": "ACTIVE"
+    },
+    "zedstoreonline:40474": {
+      "channel_msg_id": 3292,
+      "product_id": "1005011778621042",
+      "title": "AMD Ryzen 7 5700X",
+      "channel": "zedstoreonline",
+      "source_msg_id": 40474,
+      "price": 119.5,
+      "timestamp": 1795166773.5390282,
+      "status": "ACTIVE"
     }
   },
   "schedule_config": {
@@ -29695,17 +29705,17 @@
     "current_interval_minutes": 5,
     "is_paused": false,
     "night_mode_enabled": true,
-    "last_deal_post_time": 1795166228.8941894,
+    "last_deal_post_time": 1795166778.9321373,
     "night_start_hour_dz": 0,
     "night_end_hour_dz": 8,
     "night_pause_enabled": true,
-    "last_sweep_time": 1795166586.3535495,
+    "last_sweep_time": 1795166781.241037,
     "last_sweep_times": {
-      "algeria": 1795166583.7640276,
-      "france": 1795166586.3535495
+      "algeria": 1795166778.885132,
+      "france": 1795166781.241037
     },
     "last_deal_post_times": {
-      "algeria": 1795166228.8941894
+      "algeria": 1795166778.9321373
     }
   },
   "last_coin_reminder_time": 1795015271.2437074,
@@ -29858,7 +29868,7 @@
     "1005007345108759": "ecksdeal",
     "1005007394028808": "lodydeals",
     "1005007394197021": "lodydeals",
-    "1005011778621042": "ecksdeal",
+    "1005011778621042": "zedstoreonline",
     "1005012571601398": "aniscoupons",
     "1005013290515237": "aniscoupons",
     "1005012264415744": "megaphonna",
@@ -32538,7 +32548,6 @@
   "published_deals_history": {},
   "settings": {},
   "handled_post_keys": [
-    "bnddeals:51278",
     "bnddeals:51279",
     "zedstoreonline:39868",
     "bnddeals:51280",
@@ -33537,7 +33546,8 @@
     "aniscoupons:35341",
     "zedstoreonline:40470",
     "aniscoupons:35347",
-    "zedstoreonline:40473"
+    "zedstoreonline:40473",
+    "aniscoupons:35353"
   ],
   "last_france_cross_promo_time": 1794913823.9647303,
   "next_france_cross_promo_interval_seconds": 311842,
@@ -34269,6 +34279,20 @@
         "channel": "aniscoupons",
         "ts": 1795165487.8976495,
         "price": 228.3
+      }
+    ],
+    "1005011778621042": [
+      {
+        "channel": "zedstoreonline",
+        "ts": 1795166770.9900634,
+        "price": 119.5
+      }
+    ],
+    "1005008366962319": [
+      {
+        "channel": "aniscoupons",
+        "ts": 1795166777.3123689,
+        "price": 30.0
       }
     ]
   },
