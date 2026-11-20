@@ -1548,7 +1548,7 @@
     "1005006411483066": 1794500381.7712336,
     "1005012925301774": 1795085801.1895535,
     "1005012959738411": 1794658966.3702009,
-    "1005008357913212": 1795088381.5492814,
+    "1005008357913212": 1795172302.8704398,
     "1005008703989845": 1795165124.3736773,
     "1005007162099601": 1794524556.2538168,
     "1005007038130594": 1794393500.1320646,
@@ -3716,7 +3716,7 @@
     "Fifine Gaming Headset H9W": 1795003471.3645086,
     "Fifine Gaming Headset H6": 1795003476.8317716,
     "HyperX Cloud 3 III Wired Gaming Headset": 1794998780.0409262,
-    "KOOTION SSD SATA": 1795088381.5492814,
+    "KOOTION SSD SATA": 1795172302.8704398,
     "ال mouse  الشهيرة رجعت🖱️": 1793966875.5755405,
     "هذون سماعات جدد من   HAYLOU⌚": 1795077914.4967594,
     "HAYLOU WATCH 3 NEW": 1795082325.695245,
@@ -4059,7 +4059,6 @@
     "Blackview Wave 7C": 1795170262.9783158
   },
   "published_post_keys": [
-    "aniscoupons:34381",
     "aniscoupons:34382",
     "aniscoupons:34383",
     "aniscoupons:34384",
@@ -5058,11 +5057,12 @@
     "aniscoupons:35357",
     "aniscoupons:35358",
     "aniscoupons:35359",
-    "aniscoupons:35360"
+    "aniscoupons:35360",
+    "aniscoupons:35361"
   ],
   "last_disclaimer_time": 1794524540.9476151,
   "last_calendar_time": 1794572799.8939624,
-  "last_run_time": 1795171023.5122423,
+  "last_run_time": 1795172302.8704398,
   "monitored_channels": {
     "ecksdeal": {
       "last_message_id": 6110,
@@ -5093,8 +5093,8 @@
       "last_check_time": 1795171938.9418156
     },
     "aniscoupons": {
-      "last_message_id": 35360,
-      "last_check_time": 1795171025.7921932
+      "last_message_id": 35361,
+      "last_check_time": 1795172304.9316788
     },
     "bnddeals": {
       "last_message_id": 51360,
@@ -5655,7 +5655,7 @@
     "1005008703989845": 41.8,
     "1005008060391372": 33.5,
     "1005012593794312": 241.5,
-    "1005008357913212": 40.5,
+    "1005008357913212": 40.4,
     "1005012254132930": 14.5,
     "1005008708333999": 138.7,
     "1005013028124905": 438.6,
@@ -29774,6 +29774,16 @@
       "price": 37.5,
       "timestamp": 1795171023.5122423,
       "status": "ACTIVE"
+    },
+    "aniscoupons:35361": {
+      "channel_msg_id": 3300,
+      "product_id": "1005008357913212",
+      "title": "KOOTION SSD SATA",
+      "channel": "aniscoupons",
+      "source_msg_id": 35361,
+      "price": 40.4,
+      "timestamp": 1795172302.8704398,
+      "status": "ACTIVE"
     }
   },
   "schedule_config": {
@@ -29782,17 +29792,17 @@
     "current_interval_minutes": 5,
     "is_paused": false,
     "night_mode_enabled": true,
-    "last_deal_post_time": 1795171026.9909303,
+    "last_deal_post_time": 1795172305.7264516,
     "night_start_hour_dz": 0,
     "night_end_hour_dz": 8,
     "night_pause_enabled": true,
-    "last_sweep_time": 1795172122.9869864,
+    "last_sweep_time": 1795172307.7639182,
     "last_sweep_times": {
-      "algeria": 1795172120.6968312,
-      "france": 1795172122.9869864
+      "algeria": 1795172305.7020106,
+      "france": 1795172307.7639182
     },
     "last_deal_post_times": {
-      "algeria": 1795171026.9909303
+      "algeria": 1795172305.7264516
     }
   },
   "last_coin_reminder_time": 1795015271.2437074,
@@ -34405,6 +34415,13 @@
         "channel": "aniscoupons",
         "ts": 1795171020.220532,
         "price": 37.5
+      }
+    ],
+    "1005008357913212": [
+      {
+        "channel": "aniscoupons",
+        "ts": 1795172300.4333382,
+        "price": 40.4
       }
     ]
   },
