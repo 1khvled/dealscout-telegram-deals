@@ -918,7 +918,7 @@
     "1005005648888450": 1790941186.791633,
     "1005006117094928": 1794524375.306614,
     "1005006603602562": 1790941207.5310047,
-    "1005010721042860": 1793656098.242545,
+    "1005010721042860": 1795192228.0234952,
     "1005009517247552": 1790941221.8823678,
     "1005012191191893": 1795165490.909228,
     "1005012968221708": 1793542591.509991,
@@ -2925,7 +2925,8 @@
     "ViVO iQOO Z11  8/256",
     "Redmi Note 17 Pro 5G (6/128GB)",
     "Honor 600 Lite 5G 8/256GB",
-    "Vivo Y500 Pro (8/128GB)"
+    "Vivo Y500 Pro (8/128GB)",
+    "Honor Power 2 12/256GB"
   ],
   "published_title_timestamps": {
     "Xiaomi Redmi Note 17 5G Global Version": 1790857823.0117362,
@@ -4093,10 +4094,10 @@
     "ViVO iQOO Z11  8/256": 1795184400.6197784,
     "Redmi Note 17 Pro 5G (6/128GB)": 1795184587.079662,
     "Honor 600 Lite 5G 8/256GB": 1795185596.5947275,
-    "Vivo Y500 Pro (8/128GB)": 1795186378.654721
+    "Vivo Y500 Pro (8/128GB)": 1795186378.654721,
+    "Honor Power 2 12/256GB": 1795192228.0234952
   },
   "published_post_keys": [
-    "aniscoupons:34409",
     "aniscoupons:34410",
     "aniscoupons:34411",
     "aniscoupons:34412",
@@ -5095,11 +5096,12 @@
     "aniscoupons:35382",
     "aniscoupons:35383",
     "aniscoupons:35386",
-    "zedstoreonline:40496"
+    "zedstoreonline:40496",
+    "aniscoupons:35388"
   ],
   "last_disclaimer_time": 1794524540.9476151,
   "last_calendar_time": 1795177633.1203737,
-  "last_run_time": 1795190582.3905108,
+  "last_run_time": 1795192228.0234952,
   "monitored_channels": {
     "ecksdeal": {
       "last_message_id": 6116,
@@ -5130,8 +5132,8 @@
       "last_check_time": 1795191837.740857
     },
     "aniscoupons": {
-      "last_message_id": 35387,
-      "last_check_time": 1795191840.0153828
+      "last_message_id": 35388,
+      "last_check_time": 1795192230.131736
     },
     "bnddeals": {
       "last_message_id": 51372,
@@ -5183,7 +5185,7 @@
     "1005010178295650": 6.49,
     "1005006117094928": 15.29,
     "1005006603602562": 181.0,
-    "1005010721042860": 363.7,
+    "1005010721042860": 375.8,
     "1005009517247552": 236.0,
     "1005012191191893": 228.3,
     "1005012968221708": 20.2,
@@ -30148,6 +30150,16 @@
       "price": 231.2,
       "timestamp": 1795190582.3905108,
       "status": "ACTIVE"
+    },
+    "aniscoupons:35388": {
+      "channel_msg_id": 3335,
+      "product_id": "1005010721042860",
+      "title": "Honor Power 2 12/256GB",
+      "channel": "aniscoupons",
+      "source_msg_id": 35388,
+      "price": 375.8,
+      "timestamp": 1795192228.0234952,
+      "status": "ACTIVE"
     }
   },
   "schedule_config": {
@@ -30156,17 +30168,17 @@
     "current_interval_minutes": 5,
     "is_paused": false,
     "night_mode_enabled": true,
-    "last_deal_post_time": 1795190591.0336525,
+    "last_deal_post_time": 1795192231.2222664,
     "night_start_hour_dz": 0,
     "night_end_hour_dz": 8,
     "night_pause_enabled": true,
-    "last_sweep_time": 1795192037.8279026,
+    "last_sweep_time": 1795192233.3447545,
     "last_sweep_times": {
-      "algeria": 1795192035.6868432,
-      "france": 1795192037.8279026
+      "algeria": 1795192231.1703753,
+      "france": 1795192233.3447545
     },
     "last_deal_post_times": {
-      "algeria": 1795190591.0336525
+      "algeria": 1795192231.2222664
     }
   },
   "last_coin_reminder_time": 1795015271.2437074,
@@ -30188,7 +30200,7 @@
     "1005010178295650": "lodydeals",
     "1005006117094928": "lodydeals",
     "1005006603602562": "zedstoreonline",
-    "1005010721042860": "lodydeals",
+    "1005010721042860": "aniscoupons",
     "1005009517247552": "zedstoreonline",
     "1005012191191893": "aniscoupons",
     "1005012968221708": "ecksdeal",
@@ -32222,7 +32234,8 @@
     "ViVO iQOO Z11  8/256": "zedstoreonline",
     "Redmi Note 17 Pro 5G (6/128GB)": "aniscoupons",
     "Honor 600 Lite 5G 8/256GB": "lodydeals",
-    "Vivo Y500 Pro (8/128GB)": "aniscoupons"
+    "Vivo Y500 Pro (8/128GB)": "aniscoupons",
+    "Honor Power 2 12/256GB": "aniscoupons"
   },
   "religious_reminders_history": {
     "mock_rem": "2026-10-02",
@@ -35107,6 +35120,13 @@
         "channel": "aniscoupons",
         "ts": 1795191839.4585187,
         "price": 16.0
+      }
+    ],
+    "1005010721042860": [
+      {
+        "channel": "aniscoupons",
+        "ts": 1795192225.7405062,
+        "price": 375.8
       }
     ]
   },
