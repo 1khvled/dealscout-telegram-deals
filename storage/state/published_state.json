@@ -1305,7 +1305,7 @@
     "1005012839355198": 1794822570.4027405,
     "1005010133081414": 1793467151.9364934,
     "1005005373032877": 1793600283.7397804,
-    "1005007869955343": 1795171023.5122423,
+    "1005007869955343": 1795206035.9210248,
     "1005012644570693": 1793441338.6619778,
     "1005003949106838": 1794935285.349218,
     "1005012436082838": 1793733101.535615,
@@ -3428,7 +3428,7 @@
     "OnePlus Turbo 6X Pro 8/128": 1793441350.359979,
     "Soundcore by Anker Life Q30 Hybrid Active Noise Cancelling Headphones": 1793448587.6507976,
     "بروجكتور Magcubic HY300 max – أوتو فوكس، Android 14، إضاءة 400 ANSI": 1793448612.7938895,
-    "MAONO PD100X Dynamic Microphone": 1795171023.5122423,
+    "MAONO PD100X Dynamic Microphone": 1795206035.9210248,
     "Soundcore by Anker P20i": 1795180445.582193,
     "CUSU Memory DDR5  32GB(16GBX2) 5600MHz": 1793448632.7055113,
     "OPPO FIND X9 Pro": 1794486542.3386803,
@@ -4118,7 +4118,6 @@
     "Machenike G7 Gaming Mouse": 1795204239.9976652
   },
   "published_post_keys": [
-    "zedstoreonline:39824",
     "aniscoupons:34420",
     "zedstoreonline:39825",
     "aniscoupons:34422",
@@ -5117,11 +5116,12 @@
     "zedstoreonline:40505",
     "zedstoreonline:40506",
     "zedstoreonline:40507",
-    "bnddeals:51380"
+    "bnddeals:51380",
+    "zedstoreonline:40508"
   ],
   "last_disclaimer_time": 1794524540.9476151,
   "last_calendar_time": 1795177633.1203737,
-  "last_run_time": 1795204239.9976652,
+  "last_run_time": 1795206035.9210248,
   "monitored_channels": {
     "ecksdeal": {
       "last_message_id": 6116,
@@ -5148,8 +5148,8 @@
       "last_check_time": 1793599663.3444748
     },
     "zedstoreonline": {
-      "last_message_id": 40507,
-      "last_check_time": 1795202799.1054966
+      "last_message_id": 40508,
+      "last_check_time": 1795206037.9943235
     },
     "aniscoupons": {
       "last_message_id": 35397,
@@ -30315,6 +30315,16 @@
       "price": 15.6,
       "timestamp": 1795204239.9976652,
       "status": "ACTIVE"
+    },
+    "zedstoreonline:40508": {
+      "channel_msg_id": 3350,
+      "product_id": "1005007869955343",
+      "title": "MAONO PD100X Dynamic Microphone",
+      "channel": "zedstoreonline",
+      "source_msg_id": 40508,
+      "price": 37.5,
+      "timestamp": 1795206035.9210248,
+      "status": "ACTIVE"
     }
   },
   "schedule_config": {
@@ -30323,17 +30333,17 @@
     "current_interval_minutes": 5,
     "is_paused": false,
     "night_mode_enabled": true,
-    "last_deal_post_time": 1795204242.1848235,
+    "last_deal_post_time": 1795206042.3399436,
     "night_start_hour_dz": 0,
     "night_end_hour_dz": 8,
     "night_pause_enabled": true,
-    "last_sweep_time": 1795205817.4714262,
+    "last_sweep_time": 1795206044.8476377,
     "last_sweep_times": {
-      "algeria": 1795205814.8492134,
-      "france": 1795205817.4714262
+      "algeria": 1795206042.3105524,
+      "france": 1795206044.8476377
     },
     "last_deal_post_times": {
-      "algeria": 1795204242.1848235
+      "algeria": 1795206042.3399436
     }
   },
   "last_coin_reminder_time": 1795015271.2437074,
@@ -30772,7 +30782,7 @@
     "1005012839355198": "lodydeals",
     "1005010133081414": "aniscoupons",
     "1005005373032877": "lodydeals",
-    "1005007869955343": "aniscoupons",
+    "1005007869955343": "zedstoreonline",
     "1005012644570693": "zedstoreonline",
     "1005009118633225": "lodydeals",
     "1005003949106838": "aniscoupons",
@@ -31718,7 +31728,7 @@
     "HONOR 600S 8/256": "zedstoreonline",
     "Soundcore by Anker Life Q30 Hybrid Active Noise Cancelling Headphones": "zedstoreonline",
     "بروجكتور Magcubic HY300 max – أوتو فوكس، Android 14، إضاءة 400 ANSI": "zedstoreonline",
-    "MAONO PD100X Dynamic Microphone": "aniscoupons",
+    "MAONO PD100X Dynamic Microphone": "zedstoreonline",
     "Soundcore by Anker P20i": "bnddeals",
     "CUSU Memory DDR5  32GB(16GBX2) 5600MHz": "aniscoupons",
     "OPPO FIND X9 Pro": "aniscoupons",
@@ -34773,11 +34783,6 @@
     "1005012726037568": [
       {
         "channel": "aniscoupons",
-        "ts": 1795162725.9077325,
-        "price": 7.5
-      },
-      {
-        "channel": "aniscoupons",
         "ts": 1795179605.171325,
         "price": 7.5
       },
@@ -34799,19 +34804,7 @@
         "price": 20.9
       }
     ],
-    "1005008518280704": [
-      {
-        "channel": "aniscoupons",
-        "ts": 1795162362.8070638,
-        "price": 177.3
-      }
-    ],
     "1005007916078341": [
-      {
-        "channel": "zedstoreonline",
-        "ts": 1795162356.3199813,
-        "price": 52.3
-      },
       {
         "channel": "bnddeals",
         "ts": 1795174889.3405166,
@@ -35004,6 +34997,11 @@
         "channel": "ecksdeal",
         "ts": 1795181498.960227,
         "price": 36.57
+      },
+      {
+        "channel": "zedstoreonline",
+        "ts": 1795206033.3011682,
+        "price": 37.5
       }
     ],
     "1005008357913212": [
