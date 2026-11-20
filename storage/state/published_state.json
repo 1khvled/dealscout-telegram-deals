@@ -1670,7 +1670,7 @@
     "1005010218815499": 1794845442.6108298,
     "1005011897409757": 1794593403.339319,
     "1005013203288194": 1794595430.2306583,
-    "1005010305059795": 1795080125.0187495,
+    "1005010305059795": 1795168608.9197643,
     "1005013078612320": 1795027884.8693073,
     "1005007010612283": 1794599454.461018,
     "1005010788231460": 1794604060.7762444,
@@ -4011,7 +4011,7 @@
     "Magcubic C Pro Projector": 1794863018.2939777,
     "MSI PRO B650-P WIFI 6E USED": 1794863026.9329176,
     "MSI PRO B850M-VC WIFI 6E": 1794863220.9848075,
-    "HAYLOU S40 ANC": 1795079208.259405,
+    "HAYLOU S40 ANC": 1795168608.9197643,
     "معالج Ryzen 7 5600XT": 1794936833.9811888,
     "معالج بكرت شاشة مدمج Ryzen 5 3400G": 1794936842.146349,
     "QY6 0082 Printhead for Canon IP7210 IP7250 IP7280 MG5420 MG5460": 1794996958.0314968,
@@ -4055,7 +4055,6 @@
     "Portable Wireless Electric Air Pump with LCD Display": 1795167145.0122104
   },
   "published_post_keys": [
-    "zedstoreonline:39804",
     "aniscoupons:34376",
     "aniscoupons:34378",
     "aniscoupons:34379",
@@ -5054,11 +5053,12 @@
     "aniscoupons:35352",
     "zedstoreonline:40474",
     "bnddeals:51360",
-    "aniscoupons:35355"
+    "aniscoupons:35355",
+    "aniscoupons:35356"
   ],
   "last_disclaimer_time": 1794524540.9476151,
   "last_calendar_time": 1794572799.8939624,
-  "last_run_time": 1795168060.4173288,
+  "last_run_time": 1795168608.9197643,
   "monitored_channels": {
     "ecksdeal": {
       "last_message_id": 6110,
@@ -5089,8 +5089,8 @@
       "last_check_time": 1795167500.2642531
     },
     "aniscoupons": {
-      "last_message_id": 35355,
-      "last_check_time": 1795168062.5972743
+      "last_message_id": 35356,
+      "last_check_time": 1795168611.0119998
     },
     "bnddeals": {
       "last_message_id": 51360,
@@ -29719,6 +29719,16 @@
       "price": 115.9,
       "timestamp": 1795168060.4173288,
       "status": "ACTIVE"
+    },
+    "aniscoupons:35356": {
+      "channel_msg_id": 3295,
+      "product_id": "1005010305059795",
+      "title": "HAYLOU S40 ANC",
+      "channel": "aniscoupons",
+      "source_msg_id": 35356,
+      "price": 29.6,
+      "timestamp": 1795168608.9197643,
+      "status": "ACTIVE"
     }
   },
   "schedule_config": {
@@ -29727,17 +29737,17 @@
     "current_interval_minutes": 5,
     "is_paused": false,
     "night_mode_enabled": true,
-    "last_deal_post_time": 1795168063.6706007,
+    "last_deal_post_time": 1795168611.9520931,
     "night_start_hour_dz": 0,
     "night_end_hour_dz": 8,
     "night_pause_enabled": true,
-    "last_sweep_time": 1795168428.6246884,
+    "last_sweep_time": 1795168613.9854252,
     "last_sweep_times": {
-      "algeria": 1795168426.2099326,
-      "france": 1795168428.6246884
+      "algeria": 1795168611.9120407,
+      "france": 1795168613.9854252
     },
     "last_deal_post_times": {
-      "algeria": 1795168063.6706007
+      "algeria": 1795168611.9520931
     }
   },
   "last_coin_reminder_time": 1795015271.2437074,
@@ -30540,7 +30550,7 @@
     "1005010218815499": "aniscoupons",
     "1005011897409757": "lodydeals",
     "1005013203288194": "aniscoupons",
-    "1005010305059795": "zedstoreonline",
+    "1005010305059795": "aniscoupons",
     "1005013078612320": "zedstoreonline",
     "1005007010612283": "zedstoreonline",
     "1005010788231460": "zedstoreonline",
@@ -31732,7 +31742,7 @@
     "Magcubic C Pro Projector": "lodydeals",
     "MSI PRO B650-P WIFI 6E USED": "aniscoupons",
     "MSI PRO B850M-VC WIFI 6E": "aniscoupons",
-    "HAYLOU S40 ANC": "bnddeals",
+    "HAYLOU S40 ANC": "aniscoupons",
     "معالج Ryzen 7 5600XT": "ecksdeal",
     "معالج بكرت شاشة مدمج Ryzen 5 3400G": "ecksdeal",
     "QY6 0082 Printhead for Canon IP7210 IP7250 IP7280 MG5420 MG5460": "aniscoupons",
@@ -34153,11 +34163,6 @@
     "1005012274502051": [
       {
         "channel": "aniscoupons",
-        "ts": 1795125234.0864594,
-        "price": 20.9
-      },
-      {
-        "channel": "aniscoupons",
         "ts": 1795166222.3637497,
         "price": 20.9
       }
@@ -34165,25 +34170,8 @@
     "1005008518280704": [
       {
         "channel": "aniscoupons",
-        "ts": 1795124865.6988473,
-        "price": 177.6
-      },
-      {
-        "channel": "aniscoupons",
         "ts": 1795162362.8070638,
         "price": 177.3
-      }
-    ],
-    "1005009281115306": [
-      {
-        "channel": "zedstoreonline",
-        "ts": 1795125227.6677005,
-        "price": 14.2
-      },
-      {
-        "channel": "bnddeals",
-        "ts": 1795125235.3450875,
-        "price": 14.2
       }
     ],
     "1005013497504096": [
@@ -34333,6 +34321,13 @@
         "channel": "aniscoupons",
         "ts": 1795168057.8843353,
         "price": 115.9
+      }
+    ],
+    "1005010305059795": [
+      {
+        "channel": "aniscoupons",
+        "ts": 1795168606.1679277,
+        "price": 29.6
       }
     ]
   },
