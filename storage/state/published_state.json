@@ -873,7 +873,8 @@
     "1005012484548468",
     "1005013052070984",
     "1005010340916961",
-    "1005009920180201"
+    "1005009920180201",
+    "1005008358599837"
   ],
   "published_product_timestamps": {
     "1005012973772517": 1794500732.7845657,
@@ -1764,7 +1765,8 @@
     "1005012484548468": 1795185596.5947275,
     "1005013052070984": 1795185803.549076,
     "1005010340916961": 1795185821.1731942,
-    "1005009920180201": 1795195556.2284572
+    "1005009920180201": 1795195556.2284572,
+    "1005008358599837": 1795196136.7491949
   },
   "published_titles": [
     "Wireless WiFi Repeater 300Mbps WiFi Extender Amplifier Booster Router",
@@ -2929,7 +2931,8 @@
     "Honor 600 Lite 5G 8/256GB",
     "Vivo Y500 Pro (8/128GB)",
     "Honor Power 2 12/256GB",
-    "الجودة العالية من BASEUS"
+    "الجودة العالية من BASEUS",
+    "1More HQ20 SonoFlow MINI Hearing"
   ],
   "published_title_timestamps": {
     "Xiaomi Redmi Note 17 5G Global Version": 1790857823.0117362,
@@ -4099,10 +4102,10 @@
     "Honor 600 Lite 5G 8/256GB": 1795185596.5947275,
     "Vivo Y500 Pro (8/128GB)": 1795186378.654721,
     "Honor Power 2 12/256GB": 1795192228.0234952,
-    "الجودة العالية من BASEUS": 1795195556.2284572
+    "الجودة العالية من BASEUS": 1795195556.2284572,
+    "1More HQ20 SonoFlow MINI Hearing": 1795196136.7491949
   },
   "published_post_keys": [
-    "aniscoupons:34412",
     "zedstoreonline:39817",
     "aniscoupons:34413",
     "aniscoupons:34414",
@@ -5101,19 +5104,20 @@
     "zedstoreonline:40496",
     "aniscoupons:35388",
     "aniscoupons:35390",
-    "bnddeals:51374"
+    "bnddeals:51374",
+    "bnddeals:51376"
   ],
   "last_disclaimer_time": 1794524540.9476151,
   "last_calendar_time": 1795177633.1203737,
-  "last_run_time": 1795195556.2284572,
+  "last_run_time": 1795196136.7491949,
   "monitored_channels": {
     "ecksdeal": {
       "last_message_id": 6116,
       "last_check_time": 1795183542.6481285
     },
     "lodydeals": {
-      "last_message_id": 46734,
-      "last_check_time": 1795195541.0583777
+      "last_message_id": 46735,
+      "last_check_time": 1795196128.153071
     },
     "test_channel": {
       "last_message_id": 1793967703,
@@ -5140,8 +5144,8 @@
       "last_check_time": 1795195552.0273385
     },
     "bnddeals": {
-      "last_message_id": 51374,
-      "last_check_time": 1795195558.3365715
+      "last_message_id": 51376,
+      "last_check_time": 1795196138.8430812
     }
   },
   "published_product_prices": {
@@ -5910,7 +5914,8 @@
     "1005012484548468": 276.1,
     "1005013052070984": 275.02,
     "1005010340916961": 267.6,
-    "1005009920180201": 24.12
+    "1005009920180201": 24.12,
+    "1005008358599837": 21.8
   },
   "channel_published_deals": {
     "aniscoupons:32590": {
@@ -30185,6 +30190,16 @@
       "price": 24.12,
       "timestamp": 1795195556.2284572,
       "status": "ACTIVE"
+    },
+    "bnddeals:51376": {
+      "channel_msg_id": 3339,
+      "product_id": "1005008358599837",
+      "title": "1More HQ20 SonoFlow MINI Hearing",
+      "channel": "bnddeals",
+      "source_msg_id": 51376,
+      "price": 21.8,
+      "timestamp": 1795196136.7491949,
+      "status": "ACTIVE"
     }
   },
   "schedule_config": {
@@ -30193,17 +30208,17 @@
     "current_interval_minutes": 5,
     "is_paused": false,
     "night_mode_enabled": true,
-    "last_deal_post_time": 1795195558.4369874,
+    "last_deal_post_time": 1795196138.9273827,
     "night_start_hour_dz": 0,
     "night_end_hour_dz": 8,
     "night_pause_enabled": true,
-    "last_sweep_time": 1795195753.0164485,
+    "last_sweep_time": 1795196141.0352395,
     "last_sweep_times": {
-      "algeria": 1795195750.7286887,
-      "france": 1795195753.0164485
+      "algeria": 1795196138.8864505,
+      "france": 1795196141.0352395
     },
     "last_deal_post_times": {
-      "algeria": 1795195558.4369874
+      "algeria": 1795196138.9273827
     }
   },
   "last_coin_reminder_time": 1795015271.2437074,
@@ -31091,7 +31106,8 @@
     "1005012484548468": "lodydeals",
     "1005013052070984": "lodydeals",
     "1005010340916961": "aniscoupons",
-    "1005009920180201": "bnddeals"
+    "1005009920180201": "bnddeals",
+    "1005008358599837": "bnddeals"
   },
   "published_title_channels": {
     "Test Wrench Set": "test_channel",
@@ -32262,7 +32278,8 @@
     "Honor 600 Lite 5G 8/256GB": "lodydeals",
     "Vivo Y500 Pro (8/128GB)": "aniscoupons",
     "Honor Power 2 12/256GB": "aniscoupons",
-    "الجودة العالية من BASEUS": "bnddeals"
+    "الجودة العالية من BASEUS": "bnddeals",
+    "1More HQ20 SonoFlow MINI Hearing": "bnddeals"
   },
   "religious_reminders_history": {
     "mock_rem": "2026-10-02",
@@ -33060,7 +33077,6 @@
   "published_deals_history": {},
   "settings": {},
   "handled_post_keys": [
-    "aniscoupons:34541",
     "lodydeals:46359",
     "lodydeals:46360",
     "lodydeals:46363",
@@ -34059,7 +34075,8 @@
     "lodydeals:46729",
     "aniscoupons:35389",
     "zedstoreonline:40500",
-    "bnddeals:51373"
+    "bnddeals:51373",
+    "bnddeals:51375"
   ],
   "last_france_cross_promo_time": 1794913823.9647303,
   "next_france_cross_promo_interval_seconds": 311842,
