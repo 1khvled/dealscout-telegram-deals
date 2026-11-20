@@ -1084,7 +1084,7 @@
     "1005011557896041": 1794845264.512838,
     "1005011754993234": 1795118643.8899262,
     "1005011735727412": 1791943783.9162278,
-    "1005007916078341": 1795083604.7836761,
+    "1005007916078341": 1795162358.8512342,
     "1005006506862816": 1791947519.5815504,
     "1005008072923842": 1791968144.109348,
     "1005013336240375": 1791968149.7952893,
@@ -1339,7 +1339,7 @@
     "COUPONS_d131dda7a0e3": 1793478717.5768087,
     "COUPONS_d131dda7": 1793478717.5923967,
     "COUPONS_11.11 Global Shopping Festival Warm-Up": 1793478717.5923967,
-    "1005008518280704": 1795124868.4158998,
+    "1005008518280704": 1795162364.8507466,
     "1005010527736444": 1793478769.6023057,
     "1005013450996845": 1794995476.4520917,
     "1005013144753309": 1794771014.8038359,
@@ -3697,7 +3697,7 @@
     "Haylou Solar NEO 2 Amoled": 1795078113.2768726,
     "HAYLOU S30 Wireless Bluetooth 5.4 Headphones": 1794313321.761044,
     "HAYLOU Solar Ultra GPS": 1794735713.9376893,
-    "NOTHING Watch 3 Pro": 1795083604.7836761,
+    "NOTHING Watch 3 Pro": 1795162358.8512342,
     "مشترك كهربائي ORICO PD25W – محطة شحن مكتبية تضم منفذي Type-C ومنفذي USB-A ومقبسين AC لشحن الأجهزة وت": 1793966711.2525856,
     "Baseus Mouse Bluetooth Wireless Computer 1600DPI": 1793966716.198834,
     "Soundcore by Anker Q20i Hybrid Active Noise Cancelling Headphones Wireless": 1794658033.5242174,
@@ -3843,7 +3843,7 @@
     "Kootion SSD SATA": 1795113438.2427025,
     "KOOTION SATA SSD 128GB": 1794334097.945569,
     "Kingston DataTraveler 128GB": 1794958362.7165008,
-    "CUSU CV3500  M.2 NVMe SSD (1tb)": 1795124868.4158998,
+    "CUSU CV3500  M.2 NVMe SSD (1tb)": 1795162364.8507466,
     "Kootion X15 M.2 NVMe 256GB": 1794346230.0535362,
     "Baseus BS2 Lite": 1794349536.4429784,
     "حجز وتجدد كوبونات 11.11": 1794363974.314961,
@@ -4049,8 +4049,6 @@
     "DIGITAL BATHROOM SCALE": 1795134132.9931045
   },
   "published_post_keys": [
-    "lodydeals:46299",
-    "lodydeals:46300",
     "zedstoreonline:39780",
     "aniscoupons:34365",
     "aniscoupons:34366",
@@ -5048,11 +5046,13 @@
     "zedstoreonline:40462",
     "aniscoupons:35334",
     "zedstoreonline:40465",
-    "aniscoupons:35337"
+    "aniscoupons:35337",
+    "zedstoreonline:40468",
+    "aniscoupons:35342"
   ],
   "last_disclaimer_time": 1794524540.9476151,
   "last_calendar_time": 1794572799.8939624,
-  "last_run_time": 1795134132.9931045,
+  "last_run_time": 1795162364.8507466,
   "monitored_channels": {
     "ecksdeal": {
       "last_message_id": 6110,
@@ -5079,12 +5079,12 @@
       "last_check_time": 1793599663.3444748
     },
     "zedstoreonline": {
-      "last_message_id": 40467,
-      "last_check_time": 1795161805.9100273
+      "last_message_id": 40468,
+      "last_check_time": 1795162360.9543061
     },
     "aniscoupons": {
-      "last_message_id": 35341,
-      "last_check_time": 1795161807.9057558
+      "last_message_id": 35342,
+      "last_check_time": 1795162366.9997268
     },
     "bnddeals": {
       "last_message_id": 51358,
@@ -5472,7 +5472,7 @@
     "1005013037972159": 85.7,
     "1005013081860728": 111.1,
     "1005013045114640": 100.4,
-    "1005008518280704": 177.6,
+    "1005008518280704": 177.3,
     "1005010527736444": 298.0,
     "1005013450996845": 212.48,
     "1005012171521680": 277.26,
@@ -29533,6 +29533,26 @@
       "price": 3.2,
       "timestamp": 1795134132.9931045,
       "status": "ACTIVE"
+    },
+    "zedstoreonline:40468": {
+      "channel_msg_id": 3277,
+      "product_id": "1005007916078341",
+      "title": "NOTHING Watch 3 Pro",
+      "channel": "zedstoreonline",
+      "source_msg_id": 40468,
+      "price": 52.3,
+      "timestamp": 1795162358.8512342,
+      "status": "ACTIVE"
+    },
+    "aniscoupons:35342": {
+      "channel_msg_id": 3278,
+      "product_id": "1005008518280704",
+      "title": "CUSU CV3500  M.2 NVMe SSD (1tb)",
+      "channel": "aniscoupons",
+      "source_msg_id": 35342,
+      "price": 177.3,
+      "timestamp": 1795162364.8507466,
+      "status": "ACTIVE"
     }
   },
   "schedule_config": {
@@ -29541,17 +29561,17 @@
     "current_interval_minutes": 5,
     "is_paused": false,
     "night_mode_enabled": true,
-    "last_deal_post_time": 1795134136.2175384,
+    "last_deal_post_time": 1795162368.098197,
     "night_start_hour_dz": 0,
     "night_end_hour_dz": 8,
     "night_pause_enabled": true,
-    "last_sweep_time": 1795162176.6315646,
+    "last_sweep_time": 1795162370.22998,
     "last_sweep_times": {
-      "algeria": 1795162174.6172934,
-      "france": 1795162176.6315646
+      "algeria": 1795162368.0563438,
+      "france": 1795162370.22998
     },
     "last_deal_post_times": {
-      "algeria": 1795134136.2175384
+      "algeria": 1795162368.098197
     }
   },
   "last_coin_reminder_time": 1795015271.2437074,
@@ -33954,211 +33974,25 @@
     "restock_alert": "2026-11-11"
   },
   "competitor_product_sightings": {
-    "1005010369693975": [
-      {
-        "channel": "zedstoreonline",
-        "ts": 1795106020.6752357,
-        "price": 10.7
-      },
-      {
-        "channel": "aniscoupons",
-        "ts": 1795112328.6583683,
-        "price": 10.7
-      }
-    ],
-    "1005007027334636": [
-      {
-        "channel": "zedstoreonline",
-        "ts": 1795105659.4165335,
-        "price": 10.5
-      },
-      {
-        "channel": "aniscoupons",
-        "ts": 1795117337.4803755,
-        "price": 10.55
-      }
-    ],
     "1005012726037568": [
-      {
-        "channel": "aniscoupons",
-        "ts": 1795097161.8302672,
-        "price": 7.5
-      },
-      {
-        "channel": "aniscoupons",
-        "ts": 1795113435.5518682,
-        "price": 7.5
-      },
       {
         "channel": "lodydeals",
         "ts": 1795122012.0709174,
         "price": 7.54
       }
     ],
-    "1005005875379717": [
-      {
-        "channel": "aniscoupons",
-        "ts": 1795116402.5847394,
-        "price": 21.2
-      }
-    ],
-    "1005012325373696": [
-      {
-        "channel": "aniscoupons",
-        "ts": 1795105284.2969904,
-        "price": 203.3
-      },
-      {
-        "channel": "zedstoreonline",
-        "ts": 1795109152.2586725,
-        "price": 204.0
-      }
-    ],
-    "1005013067004815": [
-      {
-        "channel": "lodydeals",
-        "ts": 1795093442.7134519,
-        "price": 7.28
-      }
-    ],
-    "1005009465190932": [
-      {
-        "channel": "bnddeals",
-        "ts": 1795097902.8874805,
-        "price": 4.1
-      },
-      {
-        "channel": "zedstoreonline",
-        "ts": 1795107303.434368,
-        "price": 4.1
-      }
-    ],
-    "1005013270397194": [
-      {
-        "channel": "zedstoreonline",
-        "ts": 1795099736.8945394,
-        "price": 928.0
-      }
-    ],
-    "1005013304766961": [
-      {
-        "channel": "zedstoreonline",
-        "ts": 1795101038.6127927,
-        "price": 930.0
-      }
-    ],
-    "1005011729105677": [
-      {
-        "channel": "aniscoupons",
-        "ts": 1795103806.569858,
-        "price": 13.7
-      }
-    ],
-    "1005012929627900": [
-      {
-        "channel": "aniscoupons",
-        "ts": 1795104174.0352662,
-        "price": 13.6
-      }
-    ],
-    "1005008366962319": [
-      {
-        "channel": "aniscoupons",
-        "ts": 1795104728.739746,
-        "price": 30.0
-      },
-      {
-        "channel": "zedstoreonline",
-        "ts": 1795107489.4520328,
-        "price": 30.0
-      },
-      {
-        "channel": "bnddeals",
-        "ts": 1795111773.1493995,
-        "price": 30.0
-      }
-    ],
-    "1005013480169843": [
-      {
-        "channel": "zedstoreonline",
-        "ts": 1795109533.5913315,
-        "price": 67.7
-      },
-      {
-        "channel": "aniscoupons",
-        "ts": 1795109896.4174397,
-        "price": 67.7
-      },
-      {
-        "channel": "bnddeals",
-        "ts": 1795111583.0255806,
-        "price": 67.5
-      }
-    ],
-    "1005012047232780": [
-      {
-        "channel": "lodydeals",
-        "ts": 1795110848.3843017,
-        "price": 889.32
-      }
-    ],
-    "1005008684239370": [
-      {
-        "channel": "bnddeals",
-        "ts": 1795111965.373178,
-        "price": 9.2
-      }
-    ],
     "1005012274502051": [
-      {
-        "channel": "bnddeals",
-        "ts": 1795112331.0686088,
-        "price": 20.9
-      },
       {
         "channel": "aniscoupons",
         "ts": 1795125234.0864594,
         "price": 20.9
       }
     ],
-    "1005013633649876": [
-      {
-        "channel": "aniscoupons",
-        "ts": 1795116957.9398417,
-        "price": 12.9
-      }
-    ],
     "1005013603023857": [
-      {
-        "channel": "bnddeals",
-        "ts": 1795118468.5364802,
-        "price": 42.0
-      },
       {
         "channel": "aniscoupons",
         "ts": 1795124483.0343971,
         "price": 42.1
-      }
-    ],
-    "1005011754993234": [
-      {
-        "channel": "zedstoreonline",
-        "ts": 1795118641.7784977,
-        "price": 82.5
-      }
-    ],
-    "1005009834132291": [
-      {
-        "channel": "bnddeals",
-        "ts": 1795118648.5944686,
-        "price": 22.6
-      }
-    ],
-    "1005009693337727": [
-      {
-        "channel": "bnddeals",
-        "ts": 1795118832.7587066,
-        "price": 113.4
       }
     ],
     "1005012484784752": [
@@ -34180,6 +34014,11 @@
         "channel": "aniscoupons",
         "ts": 1795124865.6988473,
         "price": 177.6
+      },
+      {
+        "channel": "aniscoupons",
+        "ts": 1795162362.8070638,
+        "price": 177.3
       }
     ],
     "1005009281115306": [
@@ -34204,6 +34043,13 @@
         "channel": "aniscoupons",
         "ts": 1795135598.4507365,
         "price": 3.2
+      }
+    ],
+    "1005007916078341": [
+      {
+        "channel": "zedstoreonline",
+        "ts": 1795162356.3199813,
+        "price": 52.3
       }
     ]
   },
