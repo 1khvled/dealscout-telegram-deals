@@ -1579,7 +1579,7 @@
     "1005008384277561": 1794128872.1451216,
     "1005010155263623": 1794129971.1690388,
     "1005011572208218": 1794471958.5920799,
-    "1005012374550298": 1794476801.4817152,
+    "1005012374550298": 1795204239.9976652,
     "1005009851407234": 1794852909.5572178,
     "1005009738356108": 1794473432.2937162,
     "1005012953027259": 1794133977.9005425,
@@ -2940,7 +2940,8 @@
     "الجودة العالية من BASEUS",
     "1More HQ20 SonoFlow MINI Hearing",
     "JGINYUE B650M AURORA",
-    "Redmi Note 17 4G (6/128GB)"
+    "Redmi Note 17 4G (6/128GB)",
+    "Machenike G7 Gaming Mouse"
   ],
   "published_title_timestamps": {
     "Xiaomi Redmi Note 17 5G Global Version": 1790857823.0117362,
@@ -4113,10 +4114,10 @@
     "الجودة العالية من BASEUS": 1795195556.2284572,
     "1More HQ20 SonoFlow MINI Hearing": 1795196136.7491949,
     "JGINYUE B650M AURORA": 1795200031.7838972,
-    "Redmi Note 17 4G (6/128GB)": 1795200037.561095
+    "Redmi Note 17 4G (6/128GB)": 1795200037.561095,
+    "Machenike G7 Gaming Mouse": 1795204239.9976652
   },
   "published_post_keys": [
-    "zedstoreonline:39822",
     "zedstoreonline:39824",
     "aniscoupons:34420",
     "zedstoreonline:39825",
@@ -5115,11 +5116,12 @@
     "aniscoupons:35396",
     "zedstoreonline:40505",
     "zedstoreonline:40506",
-    "zedstoreonline:40507"
+    "zedstoreonline:40507",
+    "bnddeals:51380"
   ],
   "last_disclaimer_time": 1794524540.9476151,
   "last_calendar_time": 1795177633.1203737,
-  "last_run_time": 1795202797.011454,
+  "last_run_time": 1795204239.9976652,
   "monitored_channels": {
     "ecksdeal": {
       "last_message_id": 6116,
@@ -5154,8 +5156,8 @@
       "last_check_time": 1795202417.8764024
     },
     "bnddeals": {
-      "last_message_id": 51379,
-      "last_check_time": 1795203820.800268
+      "last_message_id": 51380,
+      "last_check_time": 1795204242.0973973
     }
   },
   "published_product_prices": {
@@ -5744,7 +5746,7 @@
     "1005008384277561": 7.3,
     "1005010155263623": 2.4,
     "1005011572208218": 217.8,
-    "1005012374550298": 15.8,
+    "1005012374550298": 15.6,
     "1005009851407234": 149.44,
     "1005012953027259": 279.32,
     "1005012048332402": 193.1,
@@ -30303,6 +30305,16 @@
       "price": 29.6,
       "timestamp": 1795202797.011454,
       "status": "ACTIVE"
+    },
+    "bnddeals:51380": {
+      "channel_msg_id": 3349,
+      "product_id": "1005012374550298",
+      "title": "Machenike G7 Gaming Mouse",
+      "channel": "bnddeals",
+      "source_msg_id": 51380,
+      "price": 15.6,
+      "timestamp": 1795204239.9976652,
+      "status": "ACTIVE"
     }
   },
   "schedule_config": {
@@ -30311,17 +30323,17 @@
     "current_interval_minutes": 5,
     "is_paused": false,
     "night_mode_enabled": true,
-    "last_deal_post_time": 1795202800.9512904,
+    "last_deal_post_time": 1795204242.1848235,
     "night_start_hour_dz": 0,
     "night_end_hour_dz": 8,
     "night_pause_enabled": true,
-    "last_sweep_time": 1795203823.3472328,
+    "last_sweep_time": 1795204244.4055712,
     "last_sweep_times": {
-      "algeria": 1795203820.8302577,
-      "france": 1795203823.3472328
+      "algeria": 1795204242.141685,
+      "france": 1795204244.4055712
     },
     "last_deal_post_times": {
-      "algeria": 1795202800.9512904
+      "algeria": 1795204242.1848235
     }
   },
   "last_coin_reminder_time": 1795015271.2437074,
@@ -31023,7 +31035,7 @@
     "1005008384277561": "zedstoreonline",
     "1005010155263623": "zedstoreonline",
     "1005011572208218": "aniscoupons",
-    "1005012374550298": "zedstoreonline",
+    "1005012374550298": "bnddeals",
     "1005009851407234": "lodydeals",
     "1005009738356108": "zedstoreonline",
     "1005012953027259": "aniscoupons",
@@ -32387,7 +32399,8 @@
     "الجودة العالية من BASEUS": "bnddeals",
     "1More HQ20 SonoFlow MINI Hearing": "bnddeals",
     "JGINYUE B650M AURORA": "aniscoupons",
-    "Redmi Note 17 4G (6/128GB)": "aniscoupons"
+    "Redmi Note 17 4G (6/128GB)": "aniscoupons",
+    "Machenike G7 Gaming Mouse": "bnddeals"
   },
   "religious_reminders_history": {
     "mock_rem": "2026-10-02",
@@ -35358,6 +35371,13 @@
         "channel": "zedstoreonline",
         "ts": 1795202620.2818072,
         "price": 14.5
+      }
+    ],
+    "1005012374550298": [
+      {
+        "channel": "bnddeals",
+        "ts": 1795204237.4604597,
+        "price": 15.6
       }
     ]
   },
