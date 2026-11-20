@@ -866,7 +866,9 @@
     "1005013603023857",
     "1005009693337727",
     "1005013497504096",
-    "1005013482874428"
+    "1005013482874428",
+    "1005013117620640",
+    "1005013048908707"
   ],
   "published_product_timestamps": {
     "1005012973772517": 1794500732.7845657,
@@ -1309,7 +1311,7 @@
     "1005012931209980": 1794678546.0543764,
     "1005011820893973": 1793540051.7895243,
     "1005009073904302": 1795164751.799644,
-    "1005009916208760": 1793448612.7938895,
+    "1005009916208760": 1795183546.9104183,
     "1005010033441204": 1795180445.582193,
     "1005008356663932": 1793707052.9762022,
     "1005010074161953": 1793543659.5887568,
@@ -1580,7 +1582,7 @@
     "1005007038022940": 1794146648.256951,
     "1005007981362777": 1794146655.1062205,
     "1005007097302001": 1794146830.4272797,
-    "1005013361453762": 1794996034.6024883,
+    "1005013361453762": 1795183533.724997,
     "1005013240296031": 1794216974.0881407,
     "1005012670472055": 1795023369.0864155,
     "1005013476568095": 1794169846.8168333,
@@ -1750,7 +1752,9 @@
     "1005009693337727": 1795113429.7687285,
     "1005013497504096": 1795134132.9931045,
     "1005013482874428": 1795170262.9783158,
-    "1005013354356242": 1795182504.6024845
+    "1005013354356242": 1795182504.6024845,
+    "1005013117620640": 1795183540.495267,
+    "1005013048908707": 1795183557.3230655
   },
   "published_titles": [
     "Wireless WiFi Repeater 300Mbps WiFi Extender Amplifier Booster Router",
@@ -2907,7 +2911,9 @@
     "HUAWEI Pura 90s Pro",
     "ماوس لاسلكي Attack Shark X11SE Wireless",
     "ميزان ذكي يعمل بالبلوتوث لقياس الوزن",
-    "TCL 60 NXTPAPER 8/256"
+    "TCL 60 NXTPAPER 8/256",
+    "ماوس لاسلكي بألياف الكربون Attack Shark RS6 Ultra 8K Carbon",
+    "بروجكتور Magcubic HY300 max"
   ],
   "published_title_timestamps": {
     "Xiaomi Redmi Note 17 5G Global Version": 1790857823.0117362,
@@ -3496,7 +3502,7 @@
     "OnePlus Turbo 6X  8/128GB": 1793543578.6842017,
     "Soundcore by Anker P20i True Wireless Earbuds 30H Wireless Earphone": 1793543583.5978532,
     "Honor X80 Pro Max 8/128GB": 1794302617.1026945,
-    "HONOR Pad V9 Wifi 8/256GB": 1794246148.3838613,
+    "HONOR Pad V9 Wifi 8/256GB": 1795183533.724997,
     "Redmi A7 Pro 4/64GB": 1793543612.279949,
     "تخفيض ل UGREEN 65W GaN Charger": 1793543617.2639549,
     "Vivo X200S 5G 12/256GB": 1793543639.3190484,
@@ -3885,7 +3891,7 @@
     "Essager 2in1 USB Type C  60W": 1794420685.287832,
     "GOOJPRT Portable Thermal Printer": 1794420689.8352551,
     "KOOTION M.2 512GB 7200Mbs": 1794430852.2821708,
-    "HONOR X80 PRO MAX": 1795017869.777643,
+    "HONOR X80 PRO MAX": 1795183557.3230655,
     "DJI Osmo mobile": 1794487260.3295033,
     "OPPO K15 12/256GB": 1794846136.1841142,
     "Lenovo Legion Y70 2026 Gamin(12/512GB)": 1794914057.3065243,
@@ -4069,13 +4075,11 @@
     "HUAWEI Pura 90s Pro": 1795181297.4400892,
     "ماوس لاسلكي Attack Shark X11SE Wireless": 1795182497.0644763,
     "ميزان ذكي يعمل بالبلوتوث لقياس الوزن": 1795182504.6024845,
-    "TCL 60 NXTPAPER 8/256": 1795182900.2959979
+    "TCL 60 NXTPAPER 8/256": 1795182900.2959979,
+    "ماوس لاسلكي بألياف الكربون Attack Shark RS6 Ultra 8K Carbon": 1795183540.495267,
+    "بروجكتور Magcubic HY300 max": 1795183546.9104183
   },
   "published_post_keys": [
-    "aniscoupons:34390",
-    "aniscoupons:34391",
-    "aniscoupons:34392",
-    "aniscoupons:34393",
     "aniscoupons:34394",
     "lodydeals:46320",
     "aniscoupons:34395",
@@ -5071,19 +5075,23 @@
     "aniscoupons:35368",
     "ecksdeal:6114",
     "zedstoreonline:40482",
-    "zedstoreonline:40483"
+    "zedstoreonline:40483",
+    "lodydeals:46717",
+    "ecksdeal:6115",
+    "zedstoreonline:40485",
+    "aniscoupons:35373"
   ],
   "last_disclaimer_time": 1794524540.9476151,
   "last_calendar_time": 1795177633.1203737,
-  "last_run_time": 1795182900.2959979,
+  "last_run_time": 1795183557.3230655,
   "monitored_channels": {
     "ecksdeal": {
-      "last_message_id": 6114,
-      "last_check_time": 1795182499.1546493
+      "last_message_id": 6116,
+      "last_check_time": 1795183542.6481285
     },
     "lodydeals": {
-      "last_message_id": 46715,
-      "last_check_time": 1795182110.7995858
+      "last_message_id": 46717,
+      "last_check_time": 1795183535.810416
     },
     "test_channel": {
       "last_message_id": 1793967703,
@@ -5102,12 +5110,12 @@
       "last_check_time": 1793599663.3444748
     },
     "zedstoreonline": {
-      "last_message_id": 40484,
-      "last_check_time": 1795182902.500438
+      "last_message_id": 40485,
+      "last_check_time": 1795183548.9847646
     },
     "aniscoupons": {
-      "last_message_id": 35370,
-      "last_check_time": 1795182903.5874507
+      "last_message_id": 35373,
+      "last_check_time": 1795183559.4010735
     },
     "bnddeals": {
       "last_message_id": 51366,
@@ -5467,7 +5475,7 @@
     "1005012931209980": 272.04,
     "1005011820893973": 690.0,
     "1005009073904302": 228.3,
-    "1005009916208760": 77.0,
+    "1005009916208760": 81.8,
     "1005010033441204": 14.5,
     "1005008356663932": 355.5,
     "1005010074161953": 130.08,
@@ -5711,7 +5719,7 @@
     "1005007038022940": 5.49,
     "1005007981362777": 5.69,
     "1005007097302001": 4.69,
-    "1005013361453762": 276.3,
+    "1005013361453762": 280.36,
     "1005013240296031": 68.98,
     "1005012670472055": 112.1,
     "1005013476568095": 370.8,
@@ -5873,7 +5881,9 @@
     "1005009693337727": 113.4,
     "1005013497504096": 3.2,
     "1005013482874428": 79.6,
-    "1005013354356242": 11.8
+    "1005013354356242": 11.8,
+    "1005013117620640": 61.51,
+    "1005013048908707": 276.5
   },
   "channel_published_deals": {
     "aniscoupons:32590": {
@@ -29918,6 +29928,46 @@
       "price": 129.8,
       "timestamp": 1795182900.2959979,
       "status": "ACTIVE"
+    },
+    "lodydeals:46717": {
+      "channel_msg_id": 3314,
+      "product_id": "1005013361453762",
+      "title": "HONOR Pad V9 Wifi 8/256GB",
+      "channel": "lodydeals",
+      "source_msg_id": 46717,
+      "price": 280.36,
+      "timestamp": 1795183533.724997,
+      "status": "ACTIVE"
+    },
+    "ecksdeal:6115": {
+      "channel_msg_id": 3315,
+      "product_id": "1005013117620640",
+      "title": "ماوس لاسلكي بألياف الكربون Attack Shark RS6 Ultra 8K Carbon",
+      "channel": "ecksdeal",
+      "source_msg_id": 6115,
+      "price": 61.51,
+      "timestamp": 1795183540.495267,
+      "status": "ACTIVE"
+    },
+    "zedstoreonline:40485": {
+      "channel_msg_id": 3316,
+      "product_id": "1005009916208760",
+      "title": "بروجكتور Magcubic HY300 max",
+      "channel": "zedstoreonline",
+      "source_msg_id": 40485,
+      "price": 81.8,
+      "timestamp": 1795183546.9104183,
+      "status": "ACTIVE"
+    },
+    "aniscoupons:35373": {
+      "channel_msg_id": 3317,
+      "product_id": "1005013048908707",
+      "title": "HONOR X80 PRO MAX",
+      "channel": "aniscoupons",
+      "source_msg_id": 35373,
+      "price": 276.5,
+      "timestamp": 1795183557.3230655,
+      "status": "ACTIVE"
     }
   },
   "schedule_config": {
@@ -29926,17 +29976,17 @@
     "current_interval_minutes": 5,
     "is_paused": false,
     "night_mode_enabled": true,
-    "last_deal_post_time": 1795182904.4803998,
+    "last_deal_post_time": 1795183560.35066,
     "night_start_hour_dz": 0,
     "night_end_hour_dz": 8,
     "night_pause_enabled": true,
-    "last_sweep_time": 1795182906.464697,
+    "last_sweep_time": 1795183562.7969007,
     "last_sweep_times": {
-      "algeria": 1795182904.4340706,
-      "france": 1795182906.464697
+      "algeria": 1795183560.3179667,
+      "france": 1795183562.7969007
     },
     "last_deal_post_times": {
-      "algeria": 1795182904.4803998
+      "algeria": 1795183560.35066
     }
   },
   "last_coin_reminder_time": 1795015271.2437074,
@@ -30650,7 +30700,7 @@
     "1005007038022940": "lodydeals",
     "1005007981362777": "lodydeals",
     "1005007097302001": "lodydeals",
-    "1005013361453762": "zedstoreonline",
+    "1005013361453762": "lodydeals",
     "1005013240296031": "lodydeals",
     "1005012670472055": "lodydeals",
     "1005010062128237": "lodydeals",
@@ -30817,7 +30867,9 @@
     "1005009693337727": "zedstoreonline",
     "1005013497504096": "aniscoupons",
     "1005013482874428": "aniscoupons",
-    "1005013354356242": "zedstoreonline"
+    "1005013354356242": "zedstoreonline",
+    "1005013117620640": "ecksdeal",
+    "1005013048908707": "aniscoupons"
   },
   "published_title_channels": {
     "Test Wrench Set": "test_channel",
@@ -31980,7 +32032,9 @@
     "HUAWEI Pura 90s Pro": "aniscoupons",
     "ماوس لاسلكي Attack Shark X11SE Wireless": "ecksdeal",
     "ميزان ذكي يعمل بالبلوتوث لقياس الوزن": "zedstoreonline",
-    "TCL 60 NXTPAPER 8/256": "zedstoreonline"
+    "TCL 60 NXTPAPER 8/256": "zedstoreonline",
+    "ماوس لاسلكي بألياف الكربون Attack Shark RS6 Ultra 8K Carbon": "ecksdeal",
+    "بروجكتور Magcubic HY300 max": "zedstoreonline"
   },
   "religious_reminders_history": {
     "mock_rem": "2026-10-02",
@@ -32778,10 +32832,6 @@
   "published_deals_history": {},
   "settings": {},
   "handled_post_keys": [
-    "aniscoupons:34500",
-    "zedstoreonline:39877",
-    "aniscoupons:34501",
-    "lodydeals:46352",
     "zedstoreonline:39878",
     "zedstoreonline:39879",
     "zedstoreonline:39880",
@@ -33777,7 +33827,11 @@
     "zedstoreonline:40481",
     "aniscoupons:35369",
     "zedstoreonline:40484",
-    "aniscoupons:35370"
+    "aniscoupons:35370",
+    "lodydeals:46716",
+    "ecksdeal:6116",
+    "aniscoupons:35371",
+    "aniscoupons:35372"
   ],
   "last_france_cross_promo_time": 1794913823.9647303,
   "next_france_cross_promo_interval_seconds": 311842,
@@ -34657,6 +34711,25 @@
         "channel": "zedstoreonline",
         "ts": 1795182897.7749047,
         "price": 129.8
+      }
+    ],
+    "1005013361453762": [
+      {
+        "channel": "lodydeals",
+        "ts": 1795183530.8306456,
+        "price": 280.36
+      },
+      {
+        "channel": "aniscoupons",
+        "ts": 1795183550.7717304,
+        "price": 280.0
+      }
+    ],
+    "1005009916208760": [
+      {
+        "channel": "zedstoreonline",
+        "ts": 1795183544.436929,
+        "price": 81.8
       }
     ]
   },
