@@ -1351,7 +1351,7 @@
     "COUPONS_d131dda7a0e3": 1793478717.5768087,
     "COUPONS_d131dda7": 1793478717.5923967,
     "COUPONS_11.11 Global Shopping Festival Warm-Up": 1793478717.5923967,
-    "1005008518280704": 1795162364.8507466,
+    "1005008518280704": 1795210465.156453,
     "1005010527736444": 1793478769.6023057,
     "1005013450996845": 1794995476.4520917,
     "1005013144753309": 1794771014.8038359,
@@ -1655,7 +1655,7 @@
     "1005011936109841": 1794475842.5666552,
     "1005012333024137": 1794649534.468107,
     "1005007822635375": 1794852953.5188413,
-    "1005001849536579": 1794753509.2499118,
+    "1005001849536579": 1795210459.357509,
     "1005006967391791": 1794476797.164376,
     "1005013288890301": 1794477157.5349603,
     "1005013089015192": 1795185813.1399975,
@@ -3890,7 +3890,7 @@
     "Kootion SSD SATA": 1795207271.5729127,
     "KOOTION SATA SSD 128GB": 1794334097.945569,
     "Kingston DataTraveler 128GB": 1795195549.9206557,
-    "CUSU CV3500  M.2 NVMe SSD (1tb)": 1795162364.8507466,
+    "CUSU CV3500  M.2 NVMe SSD (1tb)": 1795210465.156453,
     "Kootion X15 M.2 NVMe 256GB": 1794346230.0535362,
     "Baseus BS2 Lite": 1794349536.4429784,
     "حجز وتجدد كوبونات 11.11": 1794363974.314961,
@@ -3940,7 +3940,7 @@
     "Lenovo Legion Y700 12/256GB": 1794475842.5666552,
     "S80 USB 3.2 Flash Drive 128GB": 1794475849.927629,
     "FANTECH SHOOTER III": 1794666179.4152045,
-    "MAONO PM360TR Condenser Microphone": 1794753509.2499118,
+    "MAONO PM360TR Condenser Microphone": 1795210459.357509,
     "Machenike G5 Pro Gaming Controller": 1794476797.164376,
     "Webcam EMEET C100 1080P": 1794477157.5349603,
     "FIFINE 1440p Full HD PC Webcam with Microphone": 1794650936.0000904,
@@ -4118,8 +4118,6 @@
     "Machenike G7 Gaming Mouse": 1795204239.9976652
   },
   "published_post_keys": [
-    "bnddeals:51247",
-    "zedstoreonline:39831",
     "aniscoupons:34441",
     "aniscoupons:34442",
     "bnddeals:51265",
@@ -5117,11 +5115,13 @@
     "zedstoreonline:40508",
     "zedstoreonline:40509",
     "zedstoreonline:40510",
-    "aniscoupons:35398"
+    "aniscoupons:35398",
+    "zedstoreonline:40511",
+    "aniscoupons:35399"
   ],
   "last_disclaimer_time": 1794524540.9476151,
   "last_calendar_time": 1795177633.1203737,
-  "last_run_time": 1795207271.5729127,
+  "last_run_time": 1795210465.156453,
   "monitored_channels": {
     "ecksdeal": {
       "last_message_id": 6116,
@@ -5148,12 +5148,12 @@
       "last_check_time": 1793599663.3444748
     },
     "zedstoreonline": {
-      "last_message_id": 40510,
-      "last_check_time": 1795207266.8299959
+      "last_message_id": 40511,
+      "last_check_time": 1795210461.4502664
     },
     "aniscoupons": {
-      "last_message_id": 35398,
-      "last_check_time": 1795207273.7235155
+      "last_message_id": 35399,
+      "last_check_time": 1795210467.2438307
     },
     "bnddeals": {
       "last_message_id": 51380,
@@ -5816,7 +5816,7 @@
     "1005012650636759": 23.78,
     "1005011936109841": 457.36,
     "1005012333024137": 6.07,
-    "1005001849536579": 20.5,
+    "1005001849536579": 21.5,
     "1005006967391791": 36.2,
     "1005013288890301": 16.9,
     "1005013089015192": 264.6,
@@ -30355,6 +30355,26 @@
       "price": 7.5,
       "timestamp": 1795207271.5729127,
       "status": "ACTIVE"
+    },
+    "zedstoreonline:40511": {
+      "channel_msg_id": 3354,
+      "product_id": "1005001849536579",
+      "title": "MAONO PM360TR Condenser Microphone",
+      "channel": "zedstoreonline",
+      "source_msg_id": 40511,
+      "price": 21.5,
+      "timestamp": 1795210459.357509,
+      "status": "ACTIVE"
+    },
+    "aniscoupons:35399": {
+      "channel_msg_id": 3355,
+      "product_id": "1005008518280704",
+      "title": "CUSU CV3500  M.2 NVMe SSD (1tb)",
+      "channel": "aniscoupons",
+      "source_msg_id": 35399,
+      "price": 177.3,
+      "timestamp": 1795210465.156453,
+      "status": "ACTIVE"
     }
   },
   "schedule_config": {
@@ -30363,17 +30383,17 @@
     "current_interval_minutes": 5,
     "is_paused": false,
     "night_mode_enabled": true,
-    "last_deal_post_time": 1795207274.8264015,
+    "last_deal_post_time": 1795210468.1821287,
     "night_start_hour_dz": 0,
     "night_end_hour_dz": 8,
     "night_pause_enabled": true,
-    "last_sweep_time": 1795210032.9443145,
+    "last_sweep_time": 1795210470.2148345,
     "last_sweep_times": {
-      "algeria": 1795210030.6598334,
-      "france": 1795210032.9443145
+      "algeria": 1795210468.1449158,
+      "france": 1795210470.2148345
     },
     "last_deal_post_times": {
-      "algeria": 1795207274.8264015
+      "algeria": 1795210468.1821287
     }
   },
   "last_coin_reminder_time": 1795015271.2437074,
@@ -34832,13 +34852,6 @@
         "price": 7.5
       }
     ],
-    "1005012274502051": [
-      {
-        "channel": "aniscoupons",
-        "ts": 1795166222.3637497,
-        "price": 20.9
-      }
-    ],
     "1005007916078341": [
       {
         "channel": "bnddeals",
@@ -34851,18 +34864,6 @@
         "price": 50.7
       }
     ],
-    "1005012325373696": [
-      {
-        "channel": "zedstoreonline",
-        "ts": 1795164192.1039007,
-        "price": 203.3
-      },
-      {
-        "channel": "zedstoreonline",
-        "ts": 1795166033.1629403,
-        "price": 203.3
-      }
-    ],
     "1005010210432531": [
       {
         "channel": "aniscoupons",
@@ -34872,11 +34873,6 @@
     ],
     "1005008645323478": [
       {
-        "channel": "aniscoupons",
-        "ts": 1795164193.7977467,
-        "price": 41.8
-      },
-      {
         "channel": "zedstoreonline",
         "ts": 1795207262.2464454,
         "price": 40.6
@@ -34884,57 +34880,12 @@
     ],
     "1005013480169843": [
       {
-        "channel": "aniscoupons",
-        "ts": 1795164558.4211466,
-        "price": 67.7
-      },
-      {
         "channel": "zedstoreonline",
         "ts": 1795170084.5475078,
         "price": 67.7
       }
     ],
-    "1005009073904302": [
-      {
-        "channel": "zedstoreonline",
-        "ts": 1795164748.7793233,
-        "price": 228.3
-      }
-    ],
-    "1005009560287420": [
-      {
-        "channel": "aniscoupons",
-        "ts": 1795164756.1252935,
-        "price": 52.3
-      }
-    ],
-    "1005011754993234": [
-      {
-        "channel": "zedstoreonline",
-        "ts": 1795165115.8710763,
-        "price": 82.5
-      }
-    ],
-    "1005008703989845": [
-      {
-        "channel": "aniscoupons",
-        "ts": 1795165122.0859675,
-        "price": 41.8
-      }
-    ],
-    "1005012191191893": [
-      {
-        "channel": "aniscoupons",
-        "ts": 1795165487.8976495,
-        "price": 228.3
-      }
-    ],
     "1005011778621042": [
-      {
-        "channel": "zedstoreonline",
-        "ts": 1795166770.9900634,
-        "price": 119.5
-      },
       {
         "channel": "aniscoupons",
         "ts": 1795167321.6552427,
@@ -34943,21 +34894,9 @@
     ],
     "1005008366962319": [
       {
-        "channel": "aniscoupons",
-        "ts": 1795166777.3123689,
-        "price": 30.0
-      },
-      {
         "channel": "zedstoreonline",
         "ts": 1795167499.7038364,
         "price": 30.0
-      }
-    ],
-    "1005012929627900": [
-      {
-        "channel": "bnddeals",
-        "ts": 1795167141.7917702,
-        "price": 13.6
       }
     ],
     "1005008644346729": [
@@ -35394,6 +35333,20 @@
         "channel": "zedstoreonline",
         "ts": 1795207256.1642823,
         "price": 23.6
+      }
+    ],
+    "1005001849536579": [
+      {
+        "channel": "zedstoreonline",
+        "ts": 1795210456.9422166,
+        "price": 21.5
+      }
+    ],
+    "1005008518280704": [
+      {
+        "channel": "aniscoupons",
+        "ts": 1795210463.2871375,
+        "price": 177.3
       }
     ]
   },
