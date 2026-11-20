@@ -872,7 +872,8 @@
     "1005011955602754",
     "1005012484548468",
     "1005013052070984",
-    "1005010340916961"
+    "1005010340916961",
+    "1005009920180201"
   ],
   "published_product_timestamps": {
     "1005012973772517": 1794500732.7845657,
@@ -1620,7 +1621,7 @@
     "1005007495712340": 1794475814.3090613,
     "1005009104334975": 1795088919.270425,
     "1005012474727998": 1794320674.833981,
-    "1005006807619368": 1794958362.7165008,
+    "1005006807619368": 1795195549.9206557,
     "1005010653559191": 1794349536.4429784,
     "COUPON_CLAIM_zedstoreonline_39827": 1794363974.314961,
     "1005012197291105": 1794486534.4538748,
@@ -1762,7 +1763,8 @@
     "1005011955602754": 1795184400.6197784,
     "1005012484548468": 1795185596.5947275,
     "1005013052070984": 1795185803.549076,
-    "1005010340916961": 1795185821.1731942
+    "1005010340916961": 1795185821.1731942,
+    "1005009920180201": 1795195556.2284572
   },
   "published_titles": [
     "Wireless WiFi Repeater 300Mbps WiFi Extender Amplifier Booster Router",
@@ -2926,7 +2928,8 @@
     "Redmi Note 17 Pro 5G (6/128GB)",
     "Honor 600 Lite 5G 8/256GB",
     "Vivo Y500 Pro (8/128GB)",
-    "Honor Power 2 12/256GB"
+    "Honor Power 2 12/256GB",
+    "الجودة العالية من BASEUS"
   ],
   "published_title_timestamps": {
     "Xiaomi Redmi Note 17 5G Global Version": 1790857823.0117362,
@@ -3874,7 +3877,7 @@
     "SIX PCIe 4.0 SSD (1TB) NVMe M2": 1794331533.1223195,
     "Kootion SSD SATA": 1795179607.4941258,
     "KOOTION SATA SSD 128GB": 1794334097.945569,
-    "Kingston DataTraveler 128GB": 1794958362.7165008,
+    "Kingston DataTraveler 128GB": 1795195549.9206557,
     "CUSU CV3500  M.2 NVMe SSD (1tb)": 1795162364.8507466,
     "Kootion X15 M.2 NVMe 256GB": 1794346230.0535362,
     "Baseus BS2 Lite": 1794349536.4429784,
@@ -4095,11 +4098,10 @@
     "Redmi Note 17 Pro 5G (6/128GB)": 1795184587.079662,
     "Honor 600 Lite 5G 8/256GB": 1795185596.5947275,
     "Vivo Y500 Pro (8/128GB)": 1795186378.654721,
-    "Honor Power 2 12/256GB": 1795192228.0234952
+    "Honor Power 2 12/256GB": 1795192228.0234952,
+    "الجودة العالية من BASEUS": 1795195556.2284572
   },
   "published_post_keys": [
-    "aniscoupons:34410",
-    "aniscoupons:34411",
     "aniscoupons:34412",
     "zedstoreonline:39817",
     "aniscoupons:34413",
@@ -5097,19 +5099,21 @@
     "aniscoupons:35383",
     "aniscoupons:35386",
     "zedstoreonline:40496",
-    "aniscoupons:35388"
+    "aniscoupons:35388",
+    "aniscoupons:35390",
+    "bnddeals:51374"
   ],
   "last_disclaimer_time": 1794524540.9476151,
   "last_calendar_time": 1795177633.1203737,
-  "last_run_time": 1795192228.0234952,
+  "last_run_time": 1795195556.2284572,
   "monitored_channels": {
     "ecksdeal": {
       "last_message_id": 6116,
       "last_check_time": 1795183542.6481285
     },
     "lodydeals": {
-      "last_message_id": 46733,
-      "last_check_time": 1795195118.0957174
+      "last_message_id": 46734,
+      "last_check_time": 1795195541.0583777
     },
     "test_channel": {
       "last_message_id": 1793967703,
@@ -5132,12 +5136,12 @@
       "last_check_time": 1795195120.0550995
     },
     "aniscoupons": {
-      "last_message_id": 35389,
-      "last_check_time": 1795193876.1468487
+      "last_message_id": 35390,
+      "last_check_time": 1795195552.0273385
     },
     "bnddeals": {
-      "last_message_id": 51373,
-      "last_check_time": 1795195124.1434584
+      "last_message_id": 51374,
+      "last_check_time": 1795195558.3365715
     }
   },
   "published_product_prices": {
@@ -5905,7 +5909,8 @@
     "1005011955602754": 312.5,
     "1005012484548468": 276.1,
     "1005013052070984": 275.02,
-    "1005010340916961": 267.6
+    "1005010340916961": 267.6,
+    "1005009920180201": 24.12
   },
   "channel_published_deals": {
     "aniscoupons:32590": {
@@ -30160,6 +30165,26 @@
       "price": 375.8,
       "timestamp": 1795192228.0234952,
       "status": "ACTIVE"
+    },
+    "aniscoupons:35390": {
+      "channel_msg_id": 3337,
+      "product_id": "1005006807619368",
+      "title": "Kingston DataTraveler 128GB",
+      "channel": "aniscoupons",
+      "source_msg_id": 35390,
+      "price": 6.55,
+      "timestamp": 1795195549.9206557,
+      "status": "ACTIVE"
+    },
+    "bnddeals:51374": {
+      "channel_msg_id": 3338,
+      "product_id": "1005009920180201",
+      "title": "الجودة العالية من BASEUS",
+      "channel": "bnddeals",
+      "source_msg_id": 51374,
+      "price": 24.12,
+      "timestamp": 1795195556.2284572,
+      "status": "ACTIVE"
     }
   },
   "schedule_config": {
@@ -30168,17 +30193,17 @@
     "current_interval_minutes": 5,
     "is_paused": false,
     "night_mode_enabled": true,
-    "last_deal_post_time": 1795192231.2222664,
+    "last_deal_post_time": 1795195558.4369874,
     "night_start_hour_dz": 0,
     "night_end_hour_dz": 8,
     "night_pause_enabled": true,
-    "last_sweep_time": 1795195126.2958155,
+    "last_sweep_time": 1795195560.4596477,
     "last_sweep_times": {
-      "algeria": 1795195124.1943536,
-      "france": 1795195126.2958155
+      "algeria": 1795195558.3859773,
+      "france": 1795195560.4596477
     },
     "last_deal_post_times": {
-      "algeria": 1795192231.2222664
+      "algeria": 1795195558.4369874
     }
   },
   "last_coin_reminder_time": 1795015271.2437074,
@@ -31065,7 +31090,8 @@
     "1005011955602754": "zedstoreonline",
     "1005012484548468": "lodydeals",
     "1005013052070984": "lodydeals",
-    "1005010340916961": "aniscoupons"
+    "1005010340916961": "aniscoupons",
+    "1005009920180201": "bnddeals"
   },
   "published_title_channels": {
     "Test Wrench Set": "test_channel",
@@ -32235,7 +32261,8 @@
     "Redmi Note 17 Pro 5G (6/128GB)": "aniscoupons",
     "Honor 600 Lite 5G 8/256GB": "lodydeals",
     "Vivo Y500 Pro (8/128GB)": "aniscoupons",
-    "Honor Power 2 12/256GB": "aniscoupons"
+    "Honor Power 2 12/256GB": "aniscoupons",
+    "الجودة العالية من BASEUS": "bnddeals"
   },
   "religious_reminders_history": {
     "mock_rem": "2026-10-02",
@@ -35137,6 +35164,13 @@
         "channel": "lodydeals",
         "ts": 1795193865.9637597,
         "price": 375.8
+      }
+    ],
+    "1005006807619368": [
+      {
+        "channel": "aniscoupons",
+        "ts": 1795195547.4799645,
+        "price": 6.55
       }
     ]
   },
