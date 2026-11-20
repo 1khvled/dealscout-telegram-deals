@@ -1307,7 +1307,7 @@
     "1005012938359476": 1793448722.5382965,
     "1005012931209980": 1794678546.0543764,
     "1005011820893973": 1793540051.7895243,
-    "1005009073904302": 1795079378.0518088,
+    "1005009073904302": 1795164751.799644,
     "1005009916208760": 1793448612.7938895,
     "1005010033441204": 1794994015.7920218,
     "1005008356663932": 1793707052.9762022,
@@ -1636,7 +1636,7 @@
     "1005013560596944": 1794470859.4033997,
     "1005007038882010": 1794471412.477501,
     "1005007345327497": 1794472329.794574,
-    "1005009560287420": 1795079581.5030608,
+    "1005009560287420": 1795164758.9252188,
     "1005008513502995": 1794475809.562155,
     "1005013525374520": 1794475830.5998907,
     "1005012650636759": 1794606633.373106,
@@ -2952,7 +2952,7 @@
     "Blackview Zeno 10 5G  8/128": 1790941207.5310047,
     "Honor Power 2  12/256": 1790941214.6756065,
     "Honor X70 5G 8/128": 1794998593.8332033,
-    "Blackview MEGA 5  8/256": 1795079378.0518088,
+    "Blackview MEGA 5  8/256": 1795164751.799644,
     "سماعات اذن فخمة  Moondrop Chu 3 IEM": 1795027703.9087646,
     "4G LTE Wireless USB 150Mbps": 1794057675.8729835,
     "Curren 8455 Men's Quartz": 1790943640.1460688,
@@ -3076,7 +3076,7 @@
     "ATTACK SHARK L80PRO Ultralight": 1791107750.295487,
     "AMD Ryzen 7 5700X": 1794742050.547227,
     "هاتف ينسيك في شارجور🤣🤣": 1791109857.5190113,
-    "CMF Smart Watch 3 pro AMOLED": 1795079581.5030608,
+    "CMF Smart Watch 3 pro AMOLED": 1795164758.9252188,
     "ATTACK SHARK V6 Tri-Mode": 1791110751.0808105,
     "POCO M7 (6/128)": 1791114651.412541,
     "OPPO A6 Pro 8/256GB": 1794340346.0747576,
@@ -4051,8 +4051,6 @@
     "CUSU K5 Portable External SSD 512gb": 1795164006.096927
   },
   "published_post_keys": [
-    "lodydeals:46306",
-    "lodydeals:46309",
     "lodydeals:46310",
     "lodydeals:46308",
     "aniscoupons:34372",
@@ -5050,11 +5048,13 @@
     "zedstoreonline:40469",
     "aniscoupons:35346",
     "bnddeals:51359",
-    "aniscoupons:35348"
+    "aniscoupons:35348",
+    "zedstoreonline:40471",
+    "aniscoupons:35349"
   ],
   "last_disclaimer_time": 1794524540.9476151,
   "last_calendar_time": 1794572799.8939624,
-  "last_run_time": 1795164560.8676937,
+  "last_run_time": 1795164758.9252188,
   "monitored_channels": {
     "ecksdeal": {
       "last_message_id": 6110,
@@ -5081,12 +5081,12 @@
       "last_check_time": 1793599663.3444748
     },
     "zedstoreonline": {
-      "last_message_id": 40470,
-      "last_check_time": 1795164192.2702768
+      "last_message_id": 40471,
+      "last_check_time": 1795164753.8741693
     },
     "aniscoupons": {
-      "last_message_id": 35348,
-      "last_check_time": 1795164562.966973
+      "last_message_id": 35349,
+      "last_check_time": 1795164760.994324
     },
     "bnddeals": {
       "last_message_id": 51359,
@@ -29625,6 +29625,26 @@
       "price": 67.7,
       "timestamp": 1795164560.8676937,
       "status": "ACTIVE"
+    },
+    "zedstoreonline:40471": {
+      "channel_msg_id": 3286,
+      "product_id": "1005009073904302",
+      "title": "Blackview MEGA 5  8/256",
+      "channel": "zedstoreonline",
+      "source_msg_id": 40471,
+      "price": 228.3,
+      "timestamp": 1795164751.799644,
+      "status": "ACTIVE"
+    },
+    "aniscoupons:35349": {
+      "channel_msg_id": 3287,
+      "product_id": "1005009560287420",
+      "title": "CMF Smart Watch 3 pro AMOLED",
+      "channel": "aniscoupons",
+      "source_msg_id": 35349,
+      "price": 52.3,
+      "timestamp": 1795164758.9252188,
+      "status": "ACTIVE"
     }
   },
   "schedule_config": {
@@ -29633,17 +29653,17 @@
     "current_interval_minutes": 5,
     "is_paused": false,
     "night_mode_enabled": true,
-    "last_deal_post_time": 1795164564.1379359,
+    "last_deal_post_time": 1795164762.045233,
     "night_start_hour_dz": 0,
     "night_end_hour_dz": 8,
     "night_pause_enabled": true,
-    "last_sweep_time": 1795164566.2308152,
+    "last_sweep_time": 1795164764.5815203,
     "last_sweep_times": {
-      "algeria": 1795164564.0905054,
-      "france": 1795164566.2308152
+      "algeria": 1795164762.0170407,
+      "france": 1795164764.5815203
     },
     "last_deal_post_times": {
-      "algeria": 1795164564.1379359
+      "algeria": 1795164762.045233
     }
   },
   "last_coin_reminder_time": 1795015271.2437074,
@@ -34166,6 +34186,20 @@
         "channel": "aniscoupons",
         "ts": 1795164558.4211466,
         "price": 67.7
+      }
+    ],
+    "1005009073904302": [
+      {
+        "channel": "zedstoreonline",
+        "ts": 1795164748.7793233,
+        "price": 228.3
+      }
+    ],
+    "1005009560287420": [
+      {
+        "channel": "aniscoupons",
+        "ts": 1795164756.1252935,
+        "price": 52.3
       }
     ]
   },
