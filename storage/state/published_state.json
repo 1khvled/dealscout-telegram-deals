@@ -1568,7 +1568,7 @@
     "1005008060391372": 1795182121.6502924,
     "1005010209911111": 1794068056.674266,
     "1005008295555234": 1794073127.8664527,
-    "1005008645323478": 1795164006.096927,
+    "1005008645323478": 1795207264.72009,
     "1005008636930795": 1795169898.6012874,
     "1005006260870758": 1794250569.5221198,
     "1005009759580502": 1794331533.1223195,
@@ -1667,7 +1667,7 @@
     "1005013485724377": 1795201032.4311068,
     "1005012783197164": 1794606646.2896297,
     "1005012993724126": 1794515920.3397443,
-    "1005012726037568": 1795179607.4941258,
+    "1005012726037568": 1795207271.5729127,
     "1005011940143389": 1794524364.21287,
     "1005010374799328": 1794524370.7043138,
     "1005010487219975": 1794524381.8060858,
@@ -1683,7 +1683,7 @@
     "1005011897409757": 1794593403.339319,
     "1005013203288194": 1795185828.2808123,
     "1005010305059795": 1795202797.011454,
-    "1005013078612320": 1795027884.8693073,
+    "1005013078612320": 1795207259.087596,
     "1005007010612283": 1794599454.461018,
     "1005010788231460": 1794604060.7762444,
     "1389260212": 1794605894.0354748,
@@ -3055,7 +3055,7 @@
     "Baseus-Bowie E5x": 1791014145.8727648,
     "Affichage tête haute GPS pour voiture – compteur de vitesse numérique km/h, police LED grande, compa": 1791014755.488723,
     "HAYLOU Solar Lite 2": 1795081607.1753583,
-    "HAYLOU FlowLoop S33": 1795027884.8693073,
+    "HAYLOU FlowLoop S33": 1795207259.087596,
     "OPPO A6 Pro 4G Smartphone MediaTek Helio G100 Processor 7000mAh Battery": 1791015953.484505,
     "WiFi 6 USB3.0 Adapter 1800Mbps 5G/2.4GHz": 1791017145.537471,
     "CUSU 512GB": 1792158003.7032418,
@@ -3804,7 +3804,7 @@
     "1MORE SonoFlow Pro HQ51": 1794073127.8664527,
     "Ulanzi ST-06S Vertical Shooting": 1794130692.4786665,
     "ميكروفون MAONO DGM20W لاسلكي للألعاب": 1794074230.5173922,
-    "CUSU 512GB External SSD Drive": 1795078834.8082728,
+    "CUSU 512GB External SSD Drive": 1795207264.72009,
     "Netac M.2 NVME 250GB": 1795169898.6012874,
     "EPOMAKER X AULA F87 Pro": 1794250569.5221198,
     "SIX PCIe 4.0 7350MB/s  1TB": 1794079741.7808652,
@@ -3887,7 +3887,7 @@
     "KOOTION SATA3 SSD 128GB": 1794585682.0605152,
     "Inphic YuanChuang Cyber Gaming Mouse": 1794320674.833981,
     "SIX PCIe 4.0 SSD (1TB) NVMe M2": 1794331533.1223195,
-    "Kootion SSD SATA": 1795179607.4941258,
+    "Kootion SSD SATA": 1795207271.5729127,
     "KOOTION SATA SSD 128GB": 1794334097.945569,
     "Kingston DataTraveler 128GB": 1795195549.9206557,
     "CUSU CV3500  M.2 NVMe SSD (1tb)": 1795162364.8507466,
@@ -4118,9 +4118,6 @@
     "Machenike G7 Gaming Mouse": 1795204239.9976652
   },
   "published_post_keys": [
-    "aniscoupons:34420",
-    "zedstoreonline:39825",
-    "aniscoupons:34422",
     "bnddeals:51247",
     "zedstoreonline:39831",
     "aniscoupons:34441",
@@ -5117,11 +5114,14 @@
     "zedstoreonline:40506",
     "zedstoreonline:40507",
     "bnddeals:51380",
-    "zedstoreonline:40508"
+    "zedstoreonline:40508",
+    "zedstoreonline:40509",
+    "zedstoreonline:40510",
+    "aniscoupons:35398"
   ],
   "last_disclaimer_time": 1794524540.9476151,
   "last_calendar_time": 1795177633.1203737,
-  "last_run_time": 1795206035.9210248,
+  "last_run_time": 1795207271.5729127,
   "monitored_channels": {
     "ecksdeal": {
       "last_message_id": 6116,
@@ -5148,12 +5148,12 @@
       "last_check_time": 1793599663.3444748
     },
     "zedstoreonline": {
-      "last_message_id": 40508,
-      "last_check_time": 1795206037.9943235
+      "last_message_id": 40510,
+      "last_check_time": 1795207266.8299959
     },
     "aniscoupons": {
-      "last_message_id": 35397,
-      "last_check_time": 1795202417.8764024
+      "last_message_id": 35398,
+      "last_check_time": 1795207273.7235155
     },
     "bnddeals": {
       "last_message_id": 51380,
@@ -5737,7 +5737,7 @@
     "1005013053381984": 255.8,
     "1005010209911111": 40.6,
     "1005008295555234": 59.5,
-    "1005008645323478": 41.7,
+    "1005008645323478": 40.6,
     "1005006260870758": 41.1,
     "1005009759580502": 101.1,
     "1005009120888793": 22.3,
@@ -30325,6 +30325,36 @@
       "price": 37.5,
       "timestamp": 1795206035.9210248,
       "status": "ACTIVE"
+    },
+    "zedstoreonline:40509": {
+      "channel_msg_id": 3351,
+      "product_id": "1005013078612320",
+      "title": "HAYLOU FlowLoop S33",
+      "channel": "zedstoreonline",
+      "source_msg_id": 40509,
+      "price": 23.6,
+      "timestamp": 1795207259.087596,
+      "status": "ACTIVE"
+    },
+    "zedstoreonline:40510": {
+      "channel_msg_id": 3352,
+      "product_id": "1005008645323478",
+      "title": "CUSU 512GB External SSD Drive",
+      "channel": "zedstoreonline",
+      "source_msg_id": 40510,
+      "price": 40.6,
+      "timestamp": 1795207264.72009,
+      "status": "ACTIVE"
+    },
+    "aniscoupons:35398": {
+      "channel_msg_id": 3353,
+      "product_id": "1005012726037568",
+      "title": "Kootion SSD SATA",
+      "channel": "aniscoupons",
+      "source_msg_id": 35398,
+      "price": 7.5,
+      "timestamp": 1795207271.5729127,
+      "status": "ACTIVE"
     }
   },
   "schedule_config": {
@@ -30333,17 +30363,17 @@
     "current_interval_minutes": 5,
     "is_paused": false,
     "night_mode_enabled": true,
-    "last_deal_post_time": 1795206042.3399436,
+    "last_deal_post_time": 1795207274.8264015,
     "night_start_hour_dz": 0,
     "night_end_hour_dz": 8,
     "night_pause_enabled": true,
-    "last_sweep_time": 1795206215.4178317,
+    "last_sweep_time": 1795207281.2664816,
     "last_sweep_times": {
-      "algeria": 1795206210.3600364,
-      "france": 1795206215.4178317
+      "algeria": 1795207274.7827597,
+      "france": 1795207281.2664816
     },
     "last_deal_post_times": {
-      "algeria": 1795206042.3399436
+      "algeria": 1795207274.8264015
     }
   },
   "last_coin_reminder_time": 1795015271.2437074,
@@ -31034,7 +31064,7 @@
     "1005008060391372": "ecksdeal",
     "1005010209911111": "bnddeals",
     "1005008295555234": "lodydeals",
-    "1005008645323478": "bnddeals",
+    "1005008645323478": "zedstoreonline",
     "1005008636930795": "aniscoupons",
     "1005006260870758": "aniscoupons",
     "1005009759580502": "bnddeals",
@@ -32099,7 +32129,7 @@
     "1MORE SonoFlow Pro HQ51": "lodydeals",
     "Ulanzi ST-06S Vertical Shooting": "lodydeals",
     "ميكروفون MAONO DGM20W لاسلكي للألعاب": "zedstoreonline",
-    "CUSU 512GB External SSD Drive": "aniscoupons",
+    "CUSU 512GB External SSD Drive": "zedstoreonline",
     "Netac M.2 NVME 250GB": "aniscoupons",
     "EPOMAKER X AULA F87 Pro": "aniscoupons",
     "SIX PCIe 4.0 7350MB/s  1TB": "lodydeals",
@@ -34795,6 +34825,11 @@
         "channel": "aniscoupons",
         "ts": 1795188183.372497,
         "price": 7.5
+      },
+      {
+        "channel": "aniscoupons",
+        "ts": 1795207268.8764424,
+        "price": 7.5
       }
     ],
     "1005012274502051": [
@@ -34818,11 +34853,6 @@
     ],
     "1005012325373696": [
       {
-        "channel": "aniscoupons",
-        "ts": 1795162913.185691,
-        "price": 203.3
-      },
-      {
         "channel": "zedstoreonline",
         "ts": 1795164192.1039007,
         "price": 203.3
@@ -34836,39 +34866,20 @@
     "1005010210432531": [
       {
         "channel": "aniscoupons",
-        "ts": 1795163281.0775874,
-        "price": 133.8
-      },
-      {
-        "channel": "aniscoupons",
         "ts": 1795190158.5027351,
         "price": 133.8
       }
     ],
-    "1005010369693975": [
-      {
-        "channel": "zedstoreonline",
-        "ts": 1795163831.9097059,
-        "price": 10.9
-      }
-    ],
-    "1005012285327063": [
-      {
-        "channel": "aniscoupons",
-        "ts": 1795163839.0361593,
-        "price": 11.1
-      }
-    ],
     "1005008645323478": [
-      {
-        "channel": "bnddeals",
-        "ts": 1795164003.730924,
-        "price": 41.7
-      },
       {
         "channel": "aniscoupons",
         "ts": 1795164193.7977467,
         "price": 41.8
+      },
+      {
+        "channel": "zedstoreonline",
+        "ts": 1795207262.2464454,
+        "price": 40.6
       }
     ],
     "1005013480169843": [
@@ -35376,6 +35387,13 @@
         "channel": "bnddeals",
         "ts": 1795204237.4604597,
         "price": 15.6
+      }
+    ],
+    "1005013078612320": [
+      {
+        "channel": "zedstoreonline",
+        "ts": 1795207256.1642823,
+        "price": 23.6
       }
     ]
   },
