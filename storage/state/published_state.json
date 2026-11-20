@@ -1556,7 +1556,7 @@
     "1005008060391372": 1795003476.8317716,
     "1005010209911111": 1794068056.674266,
     "1005008295555234": 1794073127.8664527,
-    "1005008645323478": 1795078834.8082728,
+    "1005008645323478": 1795164006.096927,
     "1005008636930795": 1795087088.7300034,
     "1005006260870758": 1794250569.5221198,
     "1005009759580502": 1794331533.1223195,
@@ -2894,7 +2894,8 @@
     "8L FOLDING WASHING MACHINE",
     "Maono WAVE T1 MINI",
     "MAGCUBIC HY300 PRO Projector",
-    "DIGITAL BATHROOM SCALE"
+    "DIGITAL BATHROOM SCALE",
+    "CUSU K5 Portable External SSD 512gb"
   ],
   "published_title_timestamps": {
     "Xiaomi Redmi Note 17 5G Global Version": 1790857823.0117362,
@@ -4046,10 +4047,10 @@
     "8L FOLDING WASHING MACHINE": 1795104359.6206825,
     "Maono WAVE T1 MINI": 1795111968.5056303,
     "MAGCUBIC HY300 PRO Projector": 1795112692.4915283,
-    "DIGITAL BATHROOM SCALE": 1795134132.9931045
+    "DIGITAL BATHROOM SCALE": 1795134132.9931045,
+    "CUSU K5 Portable External SSD 512gb": 1795164006.096927
   },
   "published_post_keys": [
-    "aniscoupons:34371",
     "lodydeals:46305",
     "lodydeals:46306",
     "lodydeals:46309",
@@ -5048,11 +5049,12 @@
     "aniscoupons:35344",
     "aniscoupons:35345",
     "zedstoreonline:40469",
-    "aniscoupons:35346"
+    "aniscoupons:35346",
+    "bnddeals:51359"
   ],
   "last_disclaimer_time": 1794524540.9476151,
   "last_calendar_time": 1794572799.8939624,
-  "last_run_time": 1795163841.7448497,
+  "last_run_time": 1795164006.096927,
   "monitored_channels": {
     "ecksdeal": {
       "last_message_id": 6110,
@@ -5087,8 +5089,8 @@
       "last_check_time": 1795163843.8422124
     },
     "bnddeals": {
-      "last_message_id": 51358,
-      "last_check_time": 1795125235.4311163
+      "last_message_id": 51359,
+      "last_check_time": 1795164008.1617115
     }
   },
   "published_product_prices": {
@@ -5668,7 +5670,7 @@
     "1005013053381984": 254.11,
     "1005010209911111": 40.6,
     "1005008295555234": 59.5,
-    "1005008645323478": 41.8,
+    "1005008645323478": 41.7,
     "1005006260870758": 41.1,
     "1005009759580502": 101.1,
     "1005009120888793": 22.3,
@@ -29603,6 +29605,16 @@
       "price": 11.1,
       "timestamp": 1795163841.7448497,
       "status": "ACTIVE"
+    },
+    "bnddeals:51359": {
+      "channel_msg_id": 3284,
+      "product_id": "1005008645323478",
+      "title": "CUSU K5 Portable External SSD 512gb",
+      "channel": "bnddeals",
+      "source_msg_id": 51359,
+      "price": 41.7,
+      "timestamp": 1795164006.096927,
+      "status": "ACTIVE"
     }
   },
   "schedule_config": {
@@ -29611,17 +29623,17 @@
     "current_interval_minutes": 5,
     "is_paused": false,
     "night_mode_enabled": true,
-    "last_deal_post_time": 1795163845.089699,
+    "last_deal_post_time": 1795164008.2147968,
     "night_start_hour_dz": 0,
     "night_end_hour_dz": 8,
     "night_pause_enabled": true,
-    "last_sweep_time": 1795163847.7634861,
+    "last_sweep_time": 1795164010.237775,
     "last_sweep_times": {
-      "algeria": 1795163845.0486114,
-      "france": 1795163847.7634861
+      "algeria": 1795164008.1885207,
+      "france": 1795164010.237775
     },
     "last_deal_post_times": {
-      "algeria": 1795163845.089699
+      "algeria": 1795164008.2147968
     }
   },
   "last_coin_reminder_time": 1795015271.2437074,
@@ -30312,7 +30324,7 @@
     "1005008060391372": "aniscoupons",
     "1005010209911111": "bnddeals",
     "1005008295555234": "lodydeals",
-    "1005008645323478": "aniscoupons",
+    "1005008645323478": "bnddeals",
     "1005008636930795": "aniscoupons",
     "1005006260870758": "aniscoupons",
     "1005009759580502": "bnddeals",
@@ -31654,7 +31666,8 @@
     "8L FOLDING WASHING MACHINE": "aniscoupons",
     "Maono WAVE T1 MINI": "bnddeals",
     "MAGCUBIC HY300 PRO Projector": "zedstoreonline",
-    "DIGITAL BATHROOM SCALE": "aniscoupons"
+    "DIGITAL BATHROOM SCALE": "aniscoupons",
+    "CUSU K5 Portable External SSD 512gb": "bnddeals"
   },
   "religious_reminders_history": {
     "mock_rem": "2026-10-02",
@@ -34119,6 +34132,13 @@
         "channel": "aniscoupons",
         "ts": 1795163839.0361593,
         "price": 11.1
+      }
+    ],
+    "1005008645323478": [
+      {
+        "channel": "bnddeals",
+        "ts": 1795164003.730924,
+        "price": 41.7
       }
     ]
   },
