@@ -1556,7 +1556,7 @@
     "1005007162099601": 1794524556.2538168,
     "1005007038130594": 1794393500.1320646,
     "1005008248187128": 1794057675.8729835,
-    "1005013053381984": 1794060065.5449874,
+    "1005013053381984": 1795184587.079662,
     "1005008060391372": 1795182121.6502924,
     "1005010209911111": 1794068056.674266,
     "1005008295555234": 1794073127.8664527,
@@ -2916,7 +2916,8 @@
     "TCL 60 NXTPAPER 8/256",
     "ماوس لاسلكي بألياف الكربون Attack Shark RS6 Ultra 8K Carbon",
     "بروجكتور Magcubic HY300 max",
-    "ViVO iQOO Z11  8/256"
+    "ViVO iQOO Z11  8/256",
+    "Redmi Note 17 Pro 5G (6/128GB)"
   ],
   "published_title_timestamps": {
     "Xiaomi Redmi Note 17 5G Global Version": 1790857823.0117362,
@@ -4081,10 +4082,10 @@
     "TCL 60 NXTPAPER 8/256": 1795182900.2959979,
     "ماوس لاسلكي بألياف الكربون Attack Shark RS6 Ultra 8K Carbon": 1795183540.495267,
     "بروجكتور Magcubic HY300 max": 1795183546.9104183,
-    "ViVO iQOO Z11  8/256": 1795184400.6197784
+    "ViVO iQOO Z11  8/256": 1795184400.6197784,
+    "Redmi Note 17 Pro 5G (6/128GB)": 1795184587.079662
   },
   "published_post_keys": [
-    "aniscoupons:34400",
     "aniscoupons:34401",
     "aniscoupons:34402",
     "zedstoreonline:39810",
@@ -5083,19 +5084,20 @@
     "zedstoreonline:40487",
     "aniscoupons:35374",
     "aniscoupons:35375",
-    "aniscoupons:35377"
+    "aniscoupons:35377",
+    "aniscoupons:35378"
   ],
   "last_disclaimer_time": 1794524540.9476151,
   "last_calendar_time": 1795177633.1203737,
-  "last_run_time": 1795184432.291171,
+  "last_run_time": 1795184587.079662,
   "monitored_channels": {
     "ecksdeal": {
       "last_message_id": 6116,
       "last_check_time": 1795183542.6481285
     },
     "lodydeals": {
-      "last_message_id": 46719,
-      "last_check_time": 1795184389.66397
+      "last_message_id": 46720,
+      "last_check_time": 1795184576.3318367
     },
     "test_channel": {
       "last_message_id": 1793967703,
@@ -5114,12 +5116,12 @@
       "last_check_time": 1793599663.3444748
     },
     "zedstoreonline": {
-      "last_message_id": 40489,
-      "last_check_time": 1795184407.1151435
+      "last_message_id": 40490,
+      "last_check_time": 1795184581.7663364
     },
     "aniscoupons": {
-      "last_message_id": 35377,
-      "last_check_time": 1795184434.372243
+      "last_message_id": 35378,
+      "last_check_time": 1795184589.186213
     },
     "bnddeals": {
       "last_message_id": 51366,
@@ -5700,7 +5702,7 @@
     "1005007162099601": 29.21,
     "1005007038130594": 12.03,
     "1005008248187128": 4.49,
-    "1005013053381984": 254.11,
+    "1005013053381984": 255.8,
     "1005010209911111": 40.6,
     "1005008295555234": 59.5,
     "1005008645323478": 41.7,
@@ -30023,6 +30025,16 @@
       "price": 313.59,
       "timestamp": 1795184432.291171,
       "status": "ACTIVE"
+    },
+    "aniscoupons:35378": {
+      "channel_msg_id": 3323,
+      "product_id": "1005013053381984",
+      "title": "Redmi Note 17 Pro 5G (6/128GB)",
+      "channel": "aniscoupons",
+      "source_msg_id": 35378,
+      "price": 255.8,
+      "timestamp": 1795184587.079662,
+      "status": "ACTIVE"
     }
   },
   "schedule_config": {
@@ -30031,17 +30043,17 @@
     "current_interval_minutes": 5,
     "is_paused": false,
     "night_mode_enabled": true,
-    "last_deal_post_time": 1795184435.38483,
+    "last_deal_post_time": 1795184590.5694659,
     "night_start_hour_dz": 0,
     "night_end_hour_dz": 8,
     "night_pause_enabled": true,
-    "last_sweep_time": 1795184438.0049798,
+    "last_sweep_time": 1795184593.2873123,
     "last_sweep_times": {
-      "algeria": 1795184435.3524482,
-      "france": 1795184438.0049798
+      "algeria": 1795184590.5206702,
+      "france": 1795184593.2873123
     },
     "last_deal_post_times": {
-      "algeria": 1795184435.38483
+      "algeria": 1795184590.5694659
     }
   },
   "last_coin_reminder_time": 1795015271.2437074,
@@ -32091,7 +32103,8 @@
     "TCL 60 NXTPAPER 8/256": "zedstoreonline",
     "ماوس لاسلكي بألياف الكربون Attack Shark RS6 Ultra 8K Carbon": "ecksdeal",
     "بروجكتور Magcubic HY300 max": "zedstoreonline",
-    "ViVO iQOO Z11  8/256": "zedstoreonline"
+    "ViVO iQOO Z11  8/256": "zedstoreonline",
+    "Redmi Note 17 Pro 5G (6/128GB)": "aniscoupons"
   },
   "religious_reminders_history": {
     "mock_rem": "2026-10-02",
@@ -32889,8 +32902,6 @@
   "published_deals_history": {},
   "settings": {},
   "handled_post_keys": [
-    "bnddeals:51291",
-    "zedstoreonline:39881",
     "zedstoreonline:39882",
     "zedstoreonline:39883",
     "aniscoupons:34510",
@@ -33888,7 +33899,9 @@
     "zedstoreonline:40486",
     "zedstoreonline:40488",
     "zedstoreonline:40489",
-    "aniscoupons:35376"
+    "aniscoupons:35376",
+    "lodydeals:46720",
+    "zedstoreonline:40490"
   ],
   "last_france_cross_promo_time": 1794913823.9647303,
   "next_france_cross_promo_interval_seconds": 311842,
@@ -34834,6 +34847,20 @@
         "channel": "aniscoupons",
         "ts": 1795184429.7422147,
         "price": 313.59
+      }
+    ],
+    "1005012574108028": [
+      {
+        "channel": "zedstoreonline",
+        "ts": 1795184581.1825113,
+        "price": 272.0
+      }
+    ],
+    "1005013053381984": [
+      {
+        "channel": "aniscoupons",
+        "ts": 1795184584.1933503,
+        "price": 255.8
       }
     ]
   },
