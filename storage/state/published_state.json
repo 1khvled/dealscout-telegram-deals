@@ -869,7 +869,8 @@
     "1005013482874428",
     "1005013117620640",
     "1005013048908707",
-    "1005011955602754"
+    "1005011955602754",
+    "1005012484548468"
   ],
   "published_product_timestamps": {
     "1005012973772517": 1794500732.7845657,
@@ -1088,7 +1089,7 @@
     "1005011557896041": 1794845264.512838,
     "1005011754993234": 1795165118.405755,
     "1005011735727412": 1791943783.9162278,
-    "1005007916078341": 1795162358.8512342,
+    "1005007916078341": 1795185603.819884,
     "1005006506862816": 1791947519.5815504,
     "1005008072923842": 1791968144.109348,
     "1005013336240375": 1791968149.7952893,
@@ -1756,7 +1757,8 @@
     "1005013354356242": 1795182504.6024845,
     "1005013117620640": 1795183540.495267,
     "1005013048908707": 1795183557.3230655,
-    "1005011955602754": 1795184400.6197784
+    "1005011955602754": 1795184400.6197784,
+    "1005012484548468": 1795185596.5947275
   },
   "published_titles": [
     "Wireless WiFi Repeater 300Mbps WiFi Extender Amplifier Booster Router",
@@ -2917,7 +2919,8 @@
     "ماوس لاسلكي بألياف الكربون Attack Shark RS6 Ultra 8K Carbon",
     "بروجكتور Magcubic HY300 max",
     "ViVO iQOO Z11  8/256",
-    "Redmi Note 17 Pro 5G (6/128GB)"
+    "Redmi Note 17 Pro 5G (6/128GB)",
+    "Honor 600 Lite 5G 8/256GB"
   ],
   "published_title_timestamps": {
     "Xiaomi Redmi Note 17 5G Global Version": 1790857823.0117362,
@@ -3720,7 +3723,7 @@
     "Haylou Solar NEO 2 Amoled": 1795078113.2768726,
     "HAYLOU S30 Wireless Bluetooth 5.4 Headphones": 1794313321.761044,
     "HAYLOU Solar Ultra GPS": 1794735713.9376893,
-    "NOTHING Watch 3 Pro": 1795162358.8512342,
+    "NOTHING Watch 3 Pro": 1795185603.819884,
     "مشترك كهربائي ORICO PD25W – محطة شحن مكتبية تضم منفذي Type-C ومنفذي USB-A ومقبسين AC لشحن الأجهزة وت": 1793966711.2525856,
     "Baseus Mouse Bluetooth Wireless Computer 1600DPI": 1793966716.198834,
     "Soundcore by Anker Q20i Hybrid Active Noise Cancelling Headphones Wireless": 1794658033.5242174,
@@ -4083,11 +4086,10 @@
     "ماوس لاسلكي بألياف الكربون Attack Shark RS6 Ultra 8K Carbon": 1795183540.495267,
     "بروجكتور Magcubic HY300 max": 1795183546.9104183,
     "ViVO iQOO Z11  8/256": 1795184400.6197784,
-    "Redmi Note 17 Pro 5G (6/128GB)": 1795184587.079662
+    "Redmi Note 17 Pro 5G (6/128GB)": 1795184587.079662,
+    "Honor 600 Lite 5G 8/256GB": 1795185596.5947275
   },
   "published_post_keys": [
-    "aniscoupons:34401",
-    "aniscoupons:34402",
     "zedstoreonline:39810",
     "aniscoupons:34403",
     "zedstoreonline:39812",
@@ -5085,19 +5087,21 @@
     "aniscoupons:35374",
     "aniscoupons:35375",
     "aniscoupons:35377",
-    "aniscoupons:35378"
+    "aniscoupons:35378",
+    "lodydeals:46721",
+    "zedstoreonline:40492"
   ],
   "last_disclaimer_time": 1794524540.9476151,
   "last_calendar_time": 1795177633.1203737,
-  "last_run_time": 1795184587.079662,
+  "last_run_time": 1795185603.819884,
   "monitored_channels": {
     "ecksdeal": {
       "last_message_id": 6116,
       "last_check_time": 1795183542.6481285
     },
     "lodydeals": {
-      "last_message_id": 46720,
-      "last_check_time": 1795184576.3318367
+      "last_message_id": 46722,
+      "last_check_time": 1795185598.7558093
     },
     "test_channel": {
       "last_message_id": 1793967703,
@@ -5116,16 +5120,16 @@
       "last_check_time": 1793599663.3444748
     },
     "zedstoreonline": {
-      "last_message_id": 40491,
-      "last_check_time": 1795184770.9130821
+      "last_message_id": 40493,
+      "last_check_time": 1795185607.258133
     },
     "aniscoupons": {
       "last_message_id": 35378,
       "last_check_time": 1795184589.186213
     },
     "bnddeals": {
-      "last_message_id": 51367,
-      "last_check_time": 1795184774.2944841
+      "last_message_id": 51368,
+      "last_check_time": 1795185621.6155224
     }
   },
   "published_product_prices": {
@@ -5319,7 +5323,7 @@
     "1005011754993234": 82.5,
     "1005011735727412": 26.6,
     "1005013039644752": 265.7,
-    "1005007916078341": 52.3,
+    "1005007916078341": 50.7,
     "1005006506862816": 11.86,
     "1005008072923842": 2.21,
     "1005013336240375": 4.18,
@@ -5890,7 +5894,8 @@
     "1005013354356242": 11.8,
     "1005013117620640": 61.51,
     "1005013048908707": 276.5,
-    "1005011955602754": 312.5
+    "1005011955602754": 312.5,
+    "1005012484548468": 276.1
   },
   "channel_published_deals": {
     "aniscoupons:32590": {
@@ -30035,6 +30040,26 @@
       "price": 255.8,
       "timestamp": 1795184587.079662,
       "status": "ACTIVE"
+    },
+    "lodydeals:46721": {
+      "channel_msg_id": 3325,
+      "product_id": "1005012484548468",
+      "title": "Honor 600 Lite 5G 8/256GB",
+      "channel": "lodydeals",
+      "source_msg_id": 46721,
+      "price": 276.1,
+      "timestamp": 1795185596.5947275,
+      "status": "ACTIVE"
+    },
+    "zedstoreonline:40492": {
+      "channel_msg_id": 3326,
+      "product_id": "1005007916078341",
+      "title": "NOTHING Watch 3 Pro",
+      "channel": "zedstoreonline",
+      "source_msg_id": 40492,
+      "price": 50.7,
+      "timestamp": 1795185603.819884,
+      "status": "ACTIVE"
     }
   },
   "schedule_config": {
@@ -30043,17 +30068,17 @@
     "current_interval_minutes": 5,
     "is_paused": false,
     "night_mode_enabled": true,
-    "last_deal_post_time": 1795184590.5694659,
+    "last_deal_post_time": 1795185621.6906402,
     "night_start_hour_dz": 0,
     "night_end_hour_dz": 8,
     "night_pause_enabled": true,
-    "last_sweep_time": 1795184776.4924552,
+    "last_sweep_time": 1795185623.7915676,
     "last_sweep_times": {
-      "algeria": 1795184774.343657,
-      "france": 1795184776.4924552
+      "algeria": 1795185621.6526384,
+      "france": 1795185623.7915676
     },
     "last_deal_post_times": {
-      "algeria": 1795184590.5694659
+      "algeria": 1795185621.6906402
     }
   },
   "last_coin_reminder_time": 1795015271.2437074,
@@ -30937,7 +30962,8 @@
     "1005013354356242": "zedstoreonline",
     "1005013117620640": "ecksdeal",
     "1005013048908707": "aniscoupons",
-    "1005011955602754": "zedstoreonline"
+    "1005011955602754": "zedstoreonline",
+    "1005012484548468": "lodydeals"
   },
   "published_title_channels": {
     "Test Wrench Set": "test_channel",
@@ -32104,7 +32130,8 @@
     "ماوس لاسلكي بألياف الكربون Attack Shark RS6 Ultra 8K Carbon": "ecksdeal",
     "بروجكتور Magcubic HY300 max": "zedstoreonline",
     "ViVO iQOO Z11  8/256": "zedstoreonline",
-    "Redmi Note 17 Pro 5G (6/128GB)": "aniscoupons"
+    "Redmi Note 17 Pro 5G (6/128GB)": "aniscoupons",
+    "Honor 600 Lite 5G 8/256GB": "lodydeals"
   },
   "religious_reminders_history": {
     "mock_rem": "2026-10-02",
@@ -32114,7 +32141,7 @@
     "test_rem_d0b156d9": "2026-10-02",
     "test_rem_35271d74": "2026-10-02",
     "test_rem_308fc3d4": "2026-10-02",
-    "jumuah_asr": "2026-11-13",
+    "jumuah_asr": "2026-11-20",
     "test_rem_668cf761": "2026-10-02",
     "test_rem_4160aaaf": "2026-10-02",
     "test_rem_961ddded": "2026-10-02",
@@ -32902,9 +32929,6 @@
   "published_deals_history": {},
   "settings": {},
   "handled_post_keys": [
-    "aniscoupons:34510",
-    "zedstoreonline:39884",
-    "lodydeals:46353",
     "ecksdeal:6055",
     "lodydeals:46356",
     "lodydeals:46358",
@@ -33901,7 +33925,10 @@
     "lodydeals:46720",
     "zedstoreonline:40490",
     "zedstoreonline:40491",
-    "bnddeals:51367"
+    "bnddeals:51367",
+    "lodydeals:46722",
+    "zedstoreonline:40493",
+    "bnddeals:51368"
   ],
   "last_france_cross_promo_time": 1794913823.9647303,
   "next_france_cross_promo_interval_seconds": 311842,
@@ -34510,6 +34537,11 @@
         "channel": "bnddeals",
         "ts": 1795174889.3405166,
         "price": 49.0
+      },
+      {
+        "channel": "zedstoreonline",
+        "ts": 1795185601.4989908,
+        "price": 50.7
       }
     ],
     "1005012325373696": [
@@ -34793,6 +34825,11 @@
         "channel": "aniscoupons",
         "ts": 1795183550.7717304,
         "price": 280.0
+      },
+      {
+        "channel": "zedstoreonline",
+        "ts": 1795185607.1232076,
+        "price": 280.0
       }
     ],
     "1005009916208760": [
@@ -34832,6 +34869,11 @@
       {
         "channel": "aniscoupons",
         "ts": 1795184408.7735722,
+        "price": 262.7
+      },
+      {
+        "channel": "bnddeals",
+        "ts": 1795185621.4774616,
         "price": 262.7
       }
     ],
