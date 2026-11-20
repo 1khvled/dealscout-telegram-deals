@@ -1744,7 +1744,7 @@
     "1005012408109331": 1795102336.0045958,
     "1005013304783085": 1795103262.750217,
     "1005013633649876": 1795104359.6206825,
-    "1005012274502051": 1795111028.5315912,
+    "1005012274502051": 1795166225.425497,
     "1005013603023857": 1795112692.4915283,
     "1005009693337727": 1795113429.7687285,
     "1005013497504096": 1795134132.9931045
@@ -2895,7 +2895,8 @@
     "Maono WAVE T1 MINI",
     "MAGCUBIC HY300 PRO Projector",
     "DIGITAL BATHROOM SCALE",
-    "CUSU K5 Portable External SSD 512gb"
+    "CUSU K5 Portable External SSD 512gb",
+    "UGREEN Nexode Air 65W GaN Charger"
   ],
   "published_title_timestamps": {
     "Xiaomi Redmi Note 17 5G Global Version": 1790857823.0117362,
@@ -4048,10 +4049,10 @@
     "Maono WAVE T1 MINI": 1795111968.5056303,
     "MAGCUBIC HY300 PRO Projector": 1795112692.4915283,
     "DIGITAL BATHROOM SCALE": 1795134132.9931045,
-    "CUSU K5 Portable External SSD 512gb": 1795164006.096927
+    "CUSU K5 Portable External SSD 512gb": 1795164006.096927,
+    "UGREEN Nexode Air 65W GaN Charger": 1795166225.425497
   },
   "published_post_keys": [
-    "aniscoupons:34373",
     "zedstoreonline:39801",
     "aniscoupons:34374",
     "aniscoupons:34375",
@@ -5050,11 +5051,12 @@
     "aniscoupons:35349",
     "zedstoreonline:40472",
     "aniscoupons:35350",
-    "aniscoupons:35351"
+    "aniscoupons:35351",
+    "aniscoupons:35352"
   ],
   "last_disclaimer_time": 1794524540.9476151,
   "last_calendar_time": 1794572799.8939624,
-  "last_run_time": 1795165490.909228,
+  "last_run_time": 1795166225.425497,
   "monitored_channels": {
     "ecksdeal": {
       "last_message_id": 6110,
@@ -5085,8 +5087,8 @@
       "last_check_time": 1795166033.3121047
     },
     "aniscoupons": {
-      "last_message_id": 35351,
-      "last_check_time": 1795165492.9827595
+      "last_message_id": 35352,
+      "last_check_time": 1795166227.5192769
     },
     "bnddeals": {
       "last_message_id": 51359,
@@ -5847,7 +5849,7 @@
     "1005012408109331": 661.2,
     "1005013304783085": 597.9,
     "1005013633649876": 12.9,
-    "1005012274502051": 20.96,
+    "1005012274502051": 20.9,
     "1005013603023857": 42.1,
     "1005009693337727": 113.4,
     "1005013497504096": 3.2
@@ -29675,6 +29677,16 @@
       "price": 228.3,
       "timestamp": 1795165490.909228,
       "status": "ACTIVE"
+    },
+    "aniscoupons:35352": {
+      "channel_msg_id": 3291,
+      "product_id": "1005012274502051",
+      "title": "UGREEN Nexode Air 65W GaN Charger",
+      "channel": "aniscoupons",
+      "source_msg_id": 35352,
+      "price": 20.9,
+      "timestamp": 1795166225.425497,
+      "status": "ACTIVE"
     }
   },
   "schedule_config": {
@@ -29683,17 +29695,17 @@
     "current_interval_minutes": 5,
     "is_paused": false,
     "night_mode_enabled": true,
-    "last_deal_post_time": 1795165494.149486,
+    "last_deal_post_time": 1795166228.8941894,
     "night_start_hour_dz": 0,
     "night_end_hour_dz": 8,
     "night_pause_enabled": true,
-    "last_sweep_time": 1795166037.1276977,
+    "last_sweep_time": 1795166231.4981835,
     "last_sweep_times": {
-      "algeria": 1795166034.8311388,
-      "france": 1795166037.1276977
+      "algeria": 1795166228.847936,
+      "france": 1795166231.4981835
     },
     "last_deal_post_times": {
-      "algeria": 1795165494.149486
+      "algeria": 1795166228.8941894
     }
   },
   "last_coin_reminder_time": 1795015271.2437074,
@@ -30569,7 +30581,7 @@
     "1005012408109331": "aniscoupons",
     "1005013304783085": "aniscoupons",
     "1005013633649876": "aniscoupons",
-    "1005012274502051": "lodydeals",
+    "1005012274502051": "aniscoupons",
     "1005013603023857": "zedstoreonline",
     "1005009693337727": "zedstoreonline",
     "1005013497504096": "aniscoupons"
@@ -31727,7 +31739,8 @@
     "Maono WAVE T1 MINI": "bnddeals",
     "MAGCUBIC HY300 PRO Projector": "zedstoreonline",
     "DIGITAL BATHROOM SCALE": "aniscoupons",
-    "CUSU K5 Portable External SSD 512gb": "bnddeals"
+    "CUSU K5 Portable External SSD 512gb": "bnddeals",
+    "UGREEN Nexode Air 65W GaN Charger": "aniscoupons"
   },
   "religious_reminders_history": {
     "mock_rem": "2026-10-02",
@@ -34108,6 +34121,11 @@
       {
         "channel": "aniscoupons",
         "ts": 1795125234.0864594,
+        "price": 20.9
+      },
+      {
+        "channel": "aniscoupons",
+        "ts": 1795166222.3637497,
         "price": 20.9
       }
     ],
