@@ -1096,7 +1096,7 @@
     "1005011557896041": 1794845264.512838,
     "1005011754993234": 1795165118.405755,
     "1005011735727412": 1791943783.9162278,
-    "1005007916078341": 1795185603.819884,
+    "1005007916078341": 1795213678.186103,
     "1005006506862816": 1791947519.5815504,
     "1005008072923842": 1791968144.109348,
     "1005013336240375": 1791968149.7952893,
@@ -3122,7 +3122,7 @@
     "ATTACK SHARK L80PRO Ultralight": 1791107750.295487,
     "AMD Ryzen 7 5700X": 1795166773.5390282,
     "هاتف ينسيك في شارجور🤣🤣": 1791109857.5190113,
-    "CMF Smart Watch 3 pro AMOLED": 1795164758.9252188,
+    "CMF Smart Watch 3 pro AMOLED": 1795213678.186103,
     "ATTACK SHARK V6 Tri-Mode": 1791110751.0808105,
     "POCO M7 (6/128)": 1791114651.412541,
     "OPPO A6 Pro 8/256GB": 1794340346.0747576,
@@ -4118,7 +4118,6 @@
     "Machenike G7 Gaming Mouse": 1795204239.9976652
   },
   "published_post_keys": [
-    "aniscoupons:34442",
     "bnddeals:51265",
     "aniscoupons:34443",
     "aniscoupons:34444",
@@ -5117,11 +5116,12 @@
     "aniscoupons:35398",
     "zedstoreonline:40511",
     "aniscoupons:35399",
-    "aniscoupons:35400"
+    "aniscoupons:35400",
+    "aniscoupons:35401"
   ],
   "last_disclaimer_time": 1794524540.9476151,
   "last_calendar_time": 1795177633.1203737,
-  "last_run_time": 1795211052.267421,
+  "last_run_time": 1795213678.186103,
   "monitored_channels": {
     "ecksdeal": {
       "last_message_id": 6116,
@@ -5148,12 +5148,12 @@
       "last_check_time": 1793599663.3444748
     },
     "zedstoreonline": {
-      "last_message_id": 40511,
-      "last_check_time": 1795210461.4502664
+      "last_message_id": 40512,
+      "last_check_time": 1795213673.5777721
     },
     "aniscoupons": {
-      "last_message_id": 35400,
-      "last_check_time": 1795211054.3708982
+      "last_message_id": 35401,
+      "last_check_time": 1795213680.282019
     },
     "bnddeals": {
       "last_message_id": 51380,
@@ -5351,7 +5351,7 @@
     "1005011754993234": 82.5,
     "1005011735727412": 26.6,
     "1005013039644752": 265.7,
-    "1005007916078341": 50.7,
+    "1005007916078341": 49.3,
     "1005006506862816": 11.86,
     "1005008072923842": 2.21,
     "1005013336240375": 4.18,
@@ -30385,6 +30385,16 @@
       "price": 133.8,
       "timestamp": 1795211052.267421,
       "status": "ACTIVE"
+    },
+    "aniscoupons:35401": {
+      "channel_msg_id": 3357,
+      "product_id": "1005007916078341",
+      "title": "CMF Smart Watch 3 pro AMOLED",
+      "channel": "aniscoupons",
+      "source_msg_id": 35401,
+      "price": 49.3,
+      "timestamp": 1795213678.186103,
+      "status": "ACTIVE"
     }
   },
   "schedule_config": {
@@ -30393,17 +30403,17 @@
     "current_interval_minutes": 5,
     "is_paused": false,
     "night_mode_enabled": true,
-    "last_deal_post_time": 1795211055.5329843,
+    "last_deal_post_time": 1795213681.3376188,
     "night_start_hour_dz": 0,
     "night_end_hour_dz": 8,
     "night_pause_enabled": true,
-    "last_sweep_time": 1795212850.2625191,
+    "last_sweep_time": 1795213683.8429909,
     "last_sweep_times": {
-      "algeria": 1795212848.4173365,
-      "france": 1795212850.2625191
+      "algeria": 1795213681.2956038,
+      "france": 1795213683.8429909
     },
     "last_deal_post_times": {
-      "algeria": 1795211055.5329843
+      "algeria": 1795213681.3376188
     }
   },
   "last_coin_reminder_time": 1795015271.2437074,
@@ -30633,7 +30643,7 @@
     "1005011754993234": "zedstoreonline",
     "1005011735727412": "bnddeals",
     "1005013039644752": "aniscoupons",
-    "1005007916078341": "zedstoreonline",
+    "1005007916078341": "aniscoupons",
     "1005006506862816": "couponsglobal",
     "1005008072923842": "pcgamingpart",
     "1005013336240375": "pcgamingpart",
@@ -33268,7 +33278,6 @@
   "published_deals_history": {},
   "settings": {},
   "handled_post_keys": [
-    "aniscoupons:34546",
     "lodydeals:46369",
     "zedstoreonline:39907",
     "zedstoreonline:39908",
@@ -34267,7 +34276,8 @@
     "bnddeals:51378",
     "zedstoreonline:40504",
     "aniscoupons:35397",
-    "bnddeals:51379"
+    "bnddeals:51379",
+    "zedstoreonline:40512"
   ],
   "last_france_cross_promo_time": 1794913823.9647303,
   "next_france_cross_promo_interval_seconds": 311842,
@@ -34872,6 +34882,11 @@
         "channel": "zedstoreonline",
         "ts": 1795185601.4989908,
         "price": 50.7
+      },
+      {
+        "channel": "aniscoupons",
+        "ts": 1795213675.5773654,
+        "price": 49.3
       }
     ],
     "1005010210432531": [
@@ -34893,26 +34908,7 @@
         "price": 40.6
       }
     ],
-    "1005013480169843": [
-      {
-        "channel": "zedstoreonline",
-        "ts": 1795170084.5475078,
-        "price": 67.7
-      }
-    ],
-    "1005008644346729": [
-      {
-        "channel": "aniscoupons",
-        "ts": 1795168057.8843353,
-        "price": 115.9
-      }
-    ],
     "1005010305059795": [
-      {
-        "channel": "aniscoupons",
-        "ts": 1795168606.1679277,
-        "price": 29.6
-      },
       {
         "channel": "zedstoreonline",
         "ts": 1795202794.1950183,
@@ -34921,21 +34917,9 @@
     ],
     "1005008708333999": [
       {
-        "channel": "aniscoupons",
-        "ts": 1795169158.358631,
-        "price": 138.7
-      },
-      {
         "channel": "zedstoreonline",
         "ts": 1795171938.7677984,
         "price": 138.0
-      }
-    ],
-    "1005008636930795": [
-      {
-        "channel": "aniscoupons",
-        "ts": 1795169895.8107376,
-        "price": 31.5
       }
     ],
     "1005007869955343": [
@@ -35021,6 +35005,11 @@
         "channel": "aniscoupons",
         "ts": 1795181501.2742774,
         "price": 10.35
+      },
+      {
+        "channel": "zedstoreonline",
+        "ts": 1795213672.9428856,
+        "price": 10.5
       }
     ],
     "1005005905462505": [
