@@ -29545,10 +29545,10 @@
     "night_start_hour_dz": 0,
     "night_end_hour_dz": 8,
     "night_pause_enabled": true,
-    "last_sweep_time": 1795154302.768517,
+    "last_sweep_time": 1795154481.156165,
     "last_sweep_times": {
-      "algeria": 1795154300.3258274,
-      "france": 1795154302.768517
+      "algeria": 1795154478.6878488,
+      "france": 1795154481.156165
     },
     "last_deal_post_times": {
       "algeria": 1795134136.2175384
@@ -31590,7 +31590,7 @@
     "mock_rem": "2026-10-02",
     "test_rem_13d1524e": "2026-10-02",
     "test_rem_e95dab13": "2026-10-02",
-    "jumuah": "2026-11-13",
+    "jumuah": "2026-11-20",
     "test_rem_d0b156d9": "2026-10-02",
     "test_rem_35271d74": "2026-10-02",
     "test_rem_308fc3d4": "2026-10-02",
