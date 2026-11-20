@@ -1725,7 +1725,7 @@
     "1005011551172448": 1794936842.146349,
     "1005013401121405": 1794996958.0314968,
     "1005003624789670": 1794996764.6923764,
-    "1005008644346729": 1795081763.1985488,
+    "1005008644346729": 1795168060.4173288,
     "1005008723396190": 1795072599.5014904,
     "1005011729105677": 1795103808.7530327,
     "1005010538481521": 1795088201.579061,
@@ -3788,7 +3788,7 @@
     "Lenovo LP40 Pro": 1794146830.4272797,
     "Ulanzi ST-06S Smartphone Mount Holder": 1794667301.7599618,
     "WAMRAM SATA SSD 480GB": 1794159522.2930505,
-    "Netac M.2 1TB 7400Mbs Gen 4": 1795081763.1985488,
+    "Netac M.2 1TB 7400Mbs Gen 4": 1795168060.4173288,
     "RYZEN 5 5600XT": 1794253893.3396604,
     "OnePlus Turbo 6V": 1795007178.5557232,
     "DJI Mic Mini2  2TX 1RX": 1794216974.0881407,
@@ -4055,7 +4055,6 @@
     "Portable Wireless Electric Air Pump with LCD Display": 1795167145.0122104
   },
   "published_post_keys": [
-    "aniscoupons:34375",
     "zedstoreonline:39804",
     "aniscoupons:34376",
     "aniscoupons:34378",
@@ -5054,11 +5053,12 @@
     "aniscoupons:35351",
     "aniscoupons:35352",
     "zedstoreonline:40474",
-    "bnddeals:51360"
+    "bnddeals:51360",
+    "aniscoupons:35355"
   ],
   "last_disclaimer_time": 1794524540.9476151,
   "last_calendar_time": 1794572799.8939624,
-  "last_run_time": 1795167145.0122104,
+  "last_run_time": 1795168060.4173288,
   "monitored_channels": {
     "ecksdeal": {
       "last_message_id": 6110,
@@ -5089,8 +5089,8 @@
       "last_check_time": 1795167500.2642531
     },
     "aniscoupons": {
-      "last_message_id": 35354,
-      "last_check_time": 1795167321.8285332
+      "last_message_id": 35355,
+      "last_check_time": 1795168062.5972743
     },
     "bnddeals": {
       "last_message_id": 51360,
@@ -29709,6 +29709,16 @@
       "price": 13.6,
       "timestamp": 1795167145.0122104,
       "status": "ACTIVE"
+    },
+    "aniscoupons:35355": {
+      "channel_msg_id": 3294,
+      "product_id": "1005008644346729",
+      "title": "Netac M.2 1TB 7400Mbs Gen 4",
+      "channel": "aniscoupons",
+      "source_msg_id": 35355,
+      "price": 115.9,
+      "timestamp": 1795168060.4173288,
+      "status": "ACTIVE"
     }
   },
   "schedule_config": {
@@ -29717,17 +29727,17 @@
     "current_interval_minutes": 5,
     "is_paused": false,
     "night_mode_enabled": true,
-    "last_deal_post_time": 1795167147.2178981,
+    "last_deal_post_time": 1795168063.6706007,
     "night_start_hour_dz": 0,
     "night_end_hour_dz": 8,
     "night_pause_enabled": true,
-    "last_sweep_time": 1795167870.1362116,
+    "last_sweep_time": 1795168065.7631714,
     "last_sweep_times": {
-      "algeria": 1795167867.9824553,
-      "france": 1795167870.1362116
+      "algeria": 1795168063.6343257,
+      "france": 1795168065.7631714
     },
     "last_deal_post_times": {
-      "algeria": 1795167147.2178981
+      "algeria": 1795168063.6706007
     }
   },
   "last_coin_reminder_time": 1795015271.2437074,
@@ -34152,13 +34162,6 @@
         "price": 20.9
       }
     ],
-    "1005013603023857": [
-      {
-        "channel": "aniscoupons",
-        "ts": 1795124483.0343971,
-        "price": 42.1
-      }
-    ],
     "1005008518280704": [
       {
         "channel": "aniscoupons",
@@ -34323,6 +34326,13 @@
         "channel": "bnddeals",
         "ts": 1795167141.7917702,
         "price": 13.6
+      }
+    ],
+    "1005008644346729": [
+      {
+        "channel": "aniscoupons",
+        "ts": 1795168057.8843353,
+        "price": 115.9
       }
     ]
   },
