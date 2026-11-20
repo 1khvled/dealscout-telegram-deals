@@ -1655,7 +1655,7 @@
     "1005013485724377": 1794606651.7602222,
     "1005012783197164": 1794606646.2896297,
     "1005012993724126": 1794515920.3397443,
-    "1005012726037568": 1795113438.2427025,
+    "1005012726037568": 1795162728.7157729,
     "1005011940143389": 1794524364.21287,
     "1005010374799328": 1794524370.7043138,
     "1005010487219975": 1794524381.8060858,
@@ -3840,7 +3840,7 @@
     "KOOTION SATA3 SSD 128GB": 1794585682.0605152,
     "Inphic YuanChuang Cyber Gaming Mouse": 1794320674.833981,
     "SIX PCIe 4.0 SSD (1TB) NVMe M2": 1794331533.1223195,
-    "Kootion SSD SATA": 1795113438.2427025,
+    "Kootion SSD SATA": 1795162728.7157729,
     "KOOTION SATA SSD 128GB": 1794334097.945569,
     "Kingston DataTraveler 128GB": 1794958362.7165008,
     "CUSU CV3500  M.2 NVMe SSD (1tb)": 1795162364.8507466,
@@ -4049,7 +4049,6 @@
     "DIGITAL BATHROOM SCALE": 1795134132.9931045
   },
   "published_post_keys": [
-    "zedstoreonline:39780",
     "aniscoupons:34365",
     "aniscoupons:34366",
     "aniscoupons:34367",
@@ -5048,11 +5047,12 @@
     "zedstoreonline:40465",
     "aniscoupons:35337",
     "zedstoreonline:40468",
-    "aniscoupons:35342"
+    "aniscoupons:35342",
+    "aniscoupons:35343"
   ],
   "last_disclaimer_time": 1794524540.9476151,
   "last_calendar_time": 1794572799.8939624,
-  "last_run_time": 1795162364.8507466,
+  "last_run_time": 1795162728.7157729,
   "monitored_channels": {
     "ecksdeal": {
       "last_message_id": 6110,
@@ -5083,8 +5083,8 @@
       "last_check_time": 1795162360.9543061
     },
     "aniscoupons": {
-      "last_message_id": 35342,
-      "last_check_time": 1795162366.9997268
+      "last_message_id": 35343,
+      "last_check_time": 1795162730.808044
     },
     "bnddeals": {
       "last_message_id": 51358,
@@ -29553,6 +29553,16 @@
       "price": 177.3,
       "timestamp": 1795162364.8507466,
       "status": "ACTIVE"
+    },
+    "aniscoupons:35343": {
+      "channel_msg_id": 3279,
+      "product_id": "1005012726037568",
+      "title": "Kootion SSD SATA",
+      "channel": "aniscoupons",
+      "source_msg_id": 35343,
+      "price": 7.5,
+      "timestamp": 1795162728.7157729,
+      "status": "ACTIVE"
     }
   },
   "schedule_config": {
@@ -29561,17 +29571,17 @@
     "current_interval_minutes": 5,
     "is_paused": false,
     "night_mode_enabled": true,
-    "last_deal_post_time": 1795162368.098197,
+    "last_deal_post_time": 1795162731.9234376,
     "night_start_hour_dz": 0,
     "night_end_hour_dz": 8,
     "night_pause_enabled": true,
-    "last_sweep_time": 1795162545.5416133,
+    "last_sweep_time": 1795162734.2392938,
     "last_sweep_times": {
-      "algeria": 1795162543.505605,
-      "france": 1795162545.5416133
+      "algeria": 1795162731.886782,
+      "france": 1795162734.2392938
     },
     "last_deal_post_times": {
-      "algeria": 1795162368.098197
+      "algeria": 1795162731.9234376
     }
   },
   "last_coin_reminder_time": 1795015271.2437074,
@@ -33979,6 +33989,11 @@
         "channel": "lodydeals",
         "ts": 1795122012.0709174,
         "price": 7.54
+      },
+      {
+        "channel": "aniscoupons",
+        "ts": 1795162725.9077325,
+        "price": 7.5
       }
     ],
     "1005012274502051": [
@@ -33993,20 +34008,6 @@
         "channel": "aniscoupons",
         "ts": 1795124483.0343971,
         "price": 42.1
-      }
-    ],
-    "1005012484784752": [
-      {
-        "channel": "zedstoreonline",
-        "ts": 1795119211.6938956,
-        "price": 99.7
-      }
-    ],
-    "1005011778223630": [
-      {
-        "channel": "zedstoreonline",
-        "ts": 1795119219.2805562,
-        "price": 98.3
       }
     ],
     "1005008518280704": [
