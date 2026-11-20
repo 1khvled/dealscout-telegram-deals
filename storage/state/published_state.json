@@ -1732,7 +1732,7 @@
     "1005009354317262": 1795079588.3610423,
     "1005007721842895": 1795083426.9610174,
     "1005012325373696": 1795162916.066681,
-    "1005012929627900": 1795093229.0666955,
+    "1005012929627900": 1795167145.0122104,
     "1005009465190932": 1795095306.94495,
     "1005013270397194": 1795096787.4537058,
     "1005013611971758": 1795097142.4984226,
@@ -2896,7 +2896,8 @@
     "MAGCUBIC HY300 PRO Projector",
     "DIGITAL BATHROOM SCALE",
     "CUSU K5 Portable External SSD 512gb",
-    "UGREEN Nexode Air 65W GaN Charger"
+    "UGREEN Nexode Air 65W GaN Charger",
+    "Portable Wireless Electric Air Pump with LCD Display"
   ],
   "published_title_timestamps": {
     "Xiaomi Redmi Note 17 5G Global Version": 1790857823.0117362,
@@ -4050,10 +4051,10 @@
     "MAGCUBIC HY300 PRO Projector": 1795112692.4915283,
     "DIGITAL BATHROOM SCALE": 1795134132.9931045,
     "CUSU K5 Portable External SSD 512gb": 1795164006.096927,
-    "UGREEN Nexode Air 65W GaN Charger": 1795166225.425497
+    "UGREEN Nexode Air 65W GaN Charger": 1795166225.425497,
+    "Portable Wireless Electric Air Pump with LCD Display": 1795167145.0122104
   },
   "published_post_keys": [
-    "aniscoupons:34374",
     "aniscoupons:34375",
     "zedstoreonline:39804",
     "aniscoupons:34376",
@@ -5052,11 +5053,12 @@
     "aniscoupons:35350",
     "aniscoupons:35351",
     "aniscoupons:35352",
-    "zedstoreonline:40474"
+    "zedstoreonline:40474",
+    "bnddeals:51360"
   ],
   "last_disclaimer_time": 1794524540.9476151,
   "last_calendar_time": 1794572799.8939624,
-  "last_run_time": 1795166773.5390282,
+  "last_run_time": 1795167145.0122104,
   "monitored_channels": {
     "ecksdeal": {
       "last_message_id": 6110,
@@ -5091,8 +5093,8 @@
       "last_check_time": 1795166777.9454427
     },
     "bnddeals": {
-      "last_message_id": 51359,
-      "last_check_time": 1795164008.1617115
+      "last_message_id": 51360,
+      "last_check_time": 1795167147.125783
     }
   },
   "published_product_prices": {
@@ -29697,6 +29699,16 @@
       "price": 119.5,
       "timestamp": 1795166773.5390282,
       "status": "ACTIVE"
+    },
+    "bnddeals:51360": {
+      "channel_msg_id": 3293,
+      "product_id": "1005012929627900",
+      "title": "Portable Wireless Electric Air Pump with LCD Display",
+      "channel": "bnddeals",
+      "source_msg_id": 51360,
+      "price": 13.6,
+      "timestamp": 1795167145.0122104,
+      "status": "ACTIVE"
     }
   },
   "schedule_config": {
@@ -29705,17 +29717,17 @@
     "current_interval_minutes": 5,
     "is_paused": false,
     "night_mode_enabled": true,
-    "last_deal_post_time": 1795166778.9321373,
+    "last_deal_post_time": 1795167147.2178981,
     "night_start_hour_dz": 0,
     "night_end_hour_dz": 8,
     "night_pause_enabled": true,
-    "last_sweep_time": 1795166947.766166,
+    "last_sweep_time": 1795167149.7612917,
     "last_sweep_times": {
-      "algeria": 1795166945.9613428,
-      "france": 1795166947.766166
+      "algeria": 1795167147.1719089,
+      "france": 1795167149.7612917
     },
     "last_deal_post_times": {
-      "algeria": 1795166778.9321373
+      "algeria": 1795167147.2178981
     }
   },
   "last_coin_reminder_time": 1795015271.2437074,
@@ -30579,7 +30591,7 @@
     "1005009354317262": "bnddeals",
     "1005007721842895": "lodydeals",
     "1005012325373696": "aniscoupons",
-    "1005012929627900": "lodydeals",
+    "1005012929627900": "bnddeals",
     "1005009465190932": "lodydeals",
     "1005013270397194": "aniscoupons",
     "1005013611971758": "lodydeals",
@@ -31750,7 +31762,8 @@
     "MAGCUBIC HY300 PRO Projector": "zedstoreonline",
     "DIGITAL BATHROOM SCALE": "aniscoupons",
     "CUSU K5 Portable External SSD 512gb": "bnddeals",
-    "UGREEN Nexode Air 65W GaN Charger": "aniscoupons"
+    "UGREEN Nexode Air 65W GaN Charger": "aniscoupons",
+    "Portable Wireless Electric Air Pump with LCD Display": "bnddeals"
   },
   "religious_reminders_history": {
     "mock_rem": "2026-10-02",
@@ -34293,6 +34306,13 @@
         "channel": "aniscoupons",
         "ts": 1795166777.3123689,
         "price": 30.0
+      }
+    ],
+    "1005012929627900": [
+      {
+        "channel": "bnddeals",
+        "ts": 1795167141.7917702,
+        "price": 13.6
       }
     ]
   },
