@@ -1364,7 +1364,7 @@
     "1005011550075220": 1794847073.6855137,
     "1005009806856302": 1794779736.0691626,
     "1005009980316035": 1793542552.2730343,
-    "1005005905462505": 1794000865.9547298,
+    "1005005905462505": 1795182116.060049,
     "1005008248133489": 1794475825.54016,
     "1005008684239370": 1795111968.5056303,
     "1005011583202464": 1794913864.041144,
@@ -1554,7 +1554,7 @@
     "1005007038130594": 1794393500.1320646,
     "1005008248187128": 1794057675.8729835,
     "1005013053381984": 1794060065.5449874,
-    "1005008060391372": 1795003476.8317716,
+    "1005008060391372": 1795182121.6502924,
     "1005010209911111": 1794068056.674266,
     "1005008295555234": 1794073127.8664527,
     "1005008645323478": 1795164006.096927,
@@ -1740,7 +1740,7 @@
     "1005013614035166": 1795097149.7422955,
     "1005012047232780": 1795097711.3860745,
     "1005013474374644": 1795098824.3191414,
-    "1005013304766961": 1795100294.6239364,
+    "1005013304766961": 1795182132.0040085,
     "1005013268493740": 1795101781.0547688,
     "1005012408109331": 1795102336.0045958,
     "1005013304783085": 1795103262.750217,
@@ -3474,7 +3474,7 @@
     "معالج Ryzen 5 7600X": 1794847073.6855137,
     "يد تحكم للهاتف GameSir X5 Lite": 1793542545.9047854,
     "يد تحكم لاسلكية  GameSir Nova 2 Lite Hall Effect Ultimate": 1793542552.2730343,
-    "مايكروفون  Fifine AM8 Dynamic Mic USB/XLR": 1793542560.6809025,
+    "مايكروفون  Fifine AM8 Dynamic Mic USB/XLR": 1795182116.060049,
     "ماوس لاسلكي ATK VXE Dragonfly R1 SE Wireless": 1793542566.1256328,
     "مايكروفون Maono DGM20 Condenser USB Mic": 1793542571.5615325,
     "مايكروفون Fifine Ampligame A2 Condenser USB Mic": 1793542577.5838556,
@@ -3911,7 +3911,7 @@
     "realme P4 Lite Smartphone NFC 6300mAh Battery": 1795163283.762443,
     "Honor Win RT2": 1794487083.9711623,
     "MCHOSE A7 V3 Pro": 1794657082.5305285,
-    "سماعات Fifine Ampligame H6 7.1 RGB": 1794496851.9006197,
+    "سماعات Fifine Ampligame H6 7.1 RGB": 1795182121.6502924,
     "MCHOSE A7 V3 Lightweight": 1794500546.592492,
     "FANTECH SHOOTER III WGP13S": 1794501299.95393,
     "DITONG X3Plus  4K WIFI6": 1794502225.0175712,
@@ -4048,7 +4048,7 @@
     "iPhone 16 Pro  256GB": 1795097149.7422955,
     "Oppo Find X9 Ultra": 1795097711.3860745,
     "VIVO X300 Ultra": 1795098824.3191414,
-    "HONOR MAGIC 9 Pro Max": 1795100294.6239364,
+    "HONOR MAGIC 9 Pro Max": 1795182132.0040085,
     "Oppo Find X10 Pro max": 1795101781.0547688,
     "Honor Magic 8 Pro Air": 1795102336.0045958,
     "Honor Magic 9 SE": 1795103262.750217,
@@ -4065,9 +4065,6 @@
     "HUAWEI Pura 90s Pro": 1795181297.4400892
   },
   "published_post_keys": [
-    "lodydeals:46315",
-    "lodydeals:46317",
-    "aniscoupons:34386",
     "lodydeals:46318",
     "aniscoupons:34388",
     "aniscoupons:34389",
@@ -5064,19 +5061,22 @@
     "bnddeals:51363",
     "bnddeals:51364",
     "bnddeals:51366",
-    "aniscoupons:35365"
+    "aniscoupons:35365",
+    "ecksdeal:6112",
+    "ecksdeal:6113",
+    "aniscoupons:35368"
   ],
   "last_disclaimer_time": 1794524540.9476151,
   "last_calendar_time": 1795177633.1203737,
-  "last_run_time": 1795181297.4400892,
+  "last_run_time": 1795182132.0040085,
   "monitored_channels": {
     "ecksdeal": {
-      "last_message_id": 6111,
-      "last_check_time": 1795181499.1535394
+      "last_message_id": 6113,
+      "last_check_time": 1795182123.7238793
     },
     "lodydeals": {
-      "last_message_id": 46714,
-      "last_check_time": 1795171935.241223
+      "last_message_id": 46715,
+      "last_check_time": 1795182110.7995858
     },
     "test_channel": {
       "last_message_id": 1793967703,
@@ -5095,12 +5095,12 @@
       "last_check_time": 1793599663.3444748
     },
     "zedstoreonline": {
-      "last_message_id": 40479,
-      "last_check_time": 1795179790.0162816
+      "last_message_id": 40481,
+      "last_check_time": 1795182124.7200267
     },
     "aniscoupons": {
-      "last_message_id": 35367,
-      "last_check_time": 1795181501.78861
+      "last_message_id": 35368,
+      "last_check_time": 1795182134.0792816
     },
     "bnddeals": {
       "last_message_id": 51366,
@@ -5509,7 +5509,7 @@
     "1005011550075220": 124.53,
     "1005009806856302": 16.6,
     "1005009980316035": 25.85,
-    "1005005905462505": 54.4,
+    "1005005905462505": 52.41,
     "1005008248133489": 15.61,
     "1005008684239370": 9.2,
     "1005011583202464": 58.4,
@@ -5659,7 +5659,7 @@
     "1005008636930795": 31.5,
     "1005013083645836": 304.4,
     "1005008703989845": 41.8,
-    "1005008060391372": 33.5,
+    "1005008060391372": 31.78,
     "1005012593794312": 241.5,
     "1005008357913212": 40.4,
     "1005012254132930": 14.5,
@@ -5856,7 +5856,7 @@
     "1005013614035166": 973.93,
     "1005012047232780": 889.3,
     "1005013474374644": 925.3,
-    "1005013304766961": 930.3,
+    "1005013304766961": 887.9,
     "1005013268493740": 893.9,
     "1005012408109331": 661.2,
     "1005013304783085": 597.9,
@@ -29850,6 +29850,36 @@
       "price": 675.68,
       "timestamp": 1795181297.4400892,
       "status": "ACTIVE"
+    },
+    "ecksdeal:6112": {
+      "channel_msg_id": 3308,
+      "product_id": "1005005905462505",
+      "title": "مايكروفون  Fifine AM8 Dynamic Mic USB/XLR",
+      "channel": "ecksdeal",
+      "source_msg_id": 6112,
+      "price": 52.41,
+      "timestamp": 1795182116.060049,
+      "status": "ACTIVE"
+    },
+    "ecksdeal:6113": {
+      "channel_msg_id": 3309,
+      "product_id": "1005008060391372",
+      "title": "سماعات Fifine Ampligame H6 7.1 RGB",
+      "channel": "ecksdeal",
+      "source_msg_id": 6113,
+      "price": 31.78,
+      "timestamp": 1795182121.6502924,
+      "status": "ACTIVE"
+    },
+    "aniscoupons:35368": {
+      "channel_msg_id": 3310,
+      "product_id": "1005013304766961",
+      "title": "HONOR MAGIC 9 Pro Max",
+      "channel": "aniscoupons",
+      "source_msg_id": 35368,
+      "price": 887.9,
+      "timestamp": 1795182132.0040085,
+      "status": "ACTIVE"
     }
   },
   "schedule_config": {
@@ -29858,17 +29888,17 @@
     "current_interval_minutes": 5,
     "is_paused": false,
     "night_mode_enabled": true,
-    "last_deal_post_time": 1795181304.062814,
+    "last_deal_post_time": 1795182135.066135,
     "night_start_hour_dz": 0,
     "night_end_hour_dz": 8,
     "night_pause_enabled": true,
-    "last_sweep_time": 1795181505.2373877,
+    "last_sweep_time": 1795182137.621883,
     "last_sweep_times": {
-      "algeria": 1795181502.6205413,
-      "france": 1795181505.2373877
+      "algeria": 1795182135.031874,
+      "france": 1795182137.621883
     },
     "last_deal_post_times": {
-      "algeria": 1795181304.062814
+      "algeria": 1795182135.066135
     }
   },
   "last_coin_reminder_time": 1795015271.2437074,
@@ -30379,7 +30409,7 @@
     "1005011550075220": "ecksdeal",
     "1005009806856302": "aniscoupons",
     "1005009980316035": "ecksdeal",
-    "1005005905462505": "zedstoreonline",
+    "1005005905462505": "ecksdeal",
     "1005008248133489": "lodydeals",
     "1005008684239370": "bnddeals",
     "1005011583202464": "zedstoreonline",
@@ -30556,7 +30586,7 @@
     "1005007038130594": "lodydeals",
     "1005008248187128": "lodydeals",
     "1005013053381984": "aniscoupons",
-    "1005008060391372": "aniscoupons",
+    "1005008060391372": "ecksdeal",
     "1005010209911111": "bnddeals",
     "1005008295555234": "lodydeals",
     "1005008645323478": "bnddeals",
@@ -32706,9 +32736,6 @@
   "published_deals_history": {},
   "settings": {},
   "handled_post_keys": [
-    "zedstoreonline:39873",
-    "bnddeals:51286",
-    "bnddeals:51287",
     "bnddeals:51288",
     "aniscoupons:34498",
     "zedstoreonline:39875",
@@ -33705,7 +33732,10 @@
     "bnddeals:51365",
     "aniscoupons:35366",
     "ecksdeal:6111",
-    "aniscoupons:35367"
+    "aniscoupons:35367",
+    "lodydeals:46715",
+    "zedstoreonline:40480",
+    "zedstoreonline:40481"
   ],
   "last_france_cross_promo_time": 1794913823.9647303,
   "next_france_cross_promo_interval_seconds": 311842,
@@ -34550,6 +34580,27 @@
         "channel": "aniscoupons",
         "ts": 1795181501.2742774,
         "price": 10.35
+      }
+    ],
+    "1005005905462505": [
+      {
+        "channel": "ecksdeal",
+        "ts": 1795182113.0799863,
+        "price": 52.41
+      }
+    ],
+    "1005008060391372": [
+      {
+        "channel": "ecksdeal",
+        "ts": 1795182118.9403436,
+        "price": 31.78
+      }
+    ],
+    "1005013304766961": [
+      {
+        "channel": "aniscoupons",
+        "ts": 1795182129.6049204,
+        "price": 887.9
       }
     ]
   },
