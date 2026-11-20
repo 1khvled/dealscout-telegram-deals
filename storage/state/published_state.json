@@ -868,7 +868,8 @@
     "1005013497504096",
     "1005013482874428",
     "1005013117620640",
-    "1005013048908707"
+    "1005013048908707",
+    "1005011955602754"
   ],
   "published_product_timestamps": {
     "1005012973772517": 1794500732.7845657,
@@ -1270,7 +1271,7 @@
     "1005013090910574": 1794340346.0747576,
     "1005012382148199": 1793500800.6950834,
     "1005010158485058": 1793543612.279949,
-    "1005012910719451": 1795023199.948518,
+    "1005012910719451": 1795184387.5053294,
     "1005006307798542": 1793467165.446982,
     "1005011787296177": 1793607070.347875,
     "1005007375332966": 1793467173.1692383,
@@ -1454,7 +1455,7 @@
     "1005010009130696": 1793613403.4444478,
     "1005013465751932": 1793613440.9413722,
     "1005011778223630": 1793613478.3592212,
-    "1005009231510301": 1795005502.6505046,
+    "1005009231510301": 1795184412.0241432,
     "1005011625723042": 1793613515.3490868,
     "1005006280695304": 1793613524.8970137,
     "1005010149868688": 1793613530.8342392,
@@ -1469,7 +1470,7 @@
     "1005013137304827": 1793613926.9213502,
     "1005010355409000": 1793613934.9347482,
     "1005012648097890": 1793613942.3770478,
-    "1005012524603100": 1794654766.3431966,
+    "1005012524603100": 1795184417.996706,
     "1005012770405022": 1795000279.9355009,
     "1005012171521680": 1794246148.3838613,
     "1005010758512904": 1793613961.7877593,
@@ -1576,7 +1577,7 @@
     "1005012953027259": 1794133977.9005425,
     "1005012048332402": 1794136369.073103,
     "1005011665465731": 1794137638.8201442,
-    "1005012377459743": 1795000847.1791112,
+    "1005012377459743": 1795184432.291171,
     "1005009460475870": 1794496858.1106308,
     "1005009649079564": 1794145536.5317988,
     "1005007038022940": 1794146648.256951,
@@ -1754,7 +1755,8 @@
     "1005013482874428": 1795170262.9783158,
     "1005013354356242": 1795182504.6024845,
     "1005013117620640": 1795183540.495267,
-    "1005013048908707": 1795183557.3230655
+    "1005013048908707": 1795183557.3230655,
+    "1005011955602754": 1795184400.6197784
   },
   "published_titles": [
     "Wireless WiFi Repeater 300Mbps WiFi Extender Amplifier Booster Router",
@@ -2913,7 +2915,8 @@
     "ميزان ذكي يعمل بالبلوتوث لقياس الوزن",
     "TCL 60 NXTPAPER 8/256",
     "ماوس لاسلكي بألياف الكربون Attack Shark RS6 Ultra 8K Carbon",
-    "بروجكتور Magcubic HY300 max"
+    "بروجكتور Magcubic HY300 max",
+    "ViVO iQOO Z11  8/256"
   ],
   "published_title_timestamps": {
     "Xiaomi Redmi Note 17 5G Global Version": 1790857823.0117362,
@@ -3511,7 +3514,7 @@
     "UGREEN 4K FHD Webcam 8MP": 1793543664.66204,
     "ASROCK X570M PRO4": 1794383957.69665,
     "Redmi Note 17 4G 4/128GB": 1793793714.105913,
-    "OnePlus Turbo 6V  8/256GB": 1795023199.948518,
+    "OnePlus Turbo 6V  8/256GB": 1795184387.5053294,
     "QCY VN200 Pro 7.1 Wired": 1793656271.0286891,
     "UGREEN Nexode Air 65W GaN": 1795111028.5315912,
     "Honor WIN RT 5G 12/256GB": 1793543733.1622994,
@@ -3635,7 +3638,7 @@
     "HONOR 600s 8/256GB": 1793613926.9213502,
     "Realme GT8 Pro": 1793613934.9347482,
     "Oppo Find X8s+": 1793613942.3770478,
-    "Xiaoxin Pad Pro 13 (8/128)": 1794654766.3431966,
+    "Xiaoxin Pad Pro 13 (8/128)": 1795184417.996706,
     "Lenovo Legion Y900 11 Tablet CN Version MediaTek Dimensity 9500S CPU 11.1\" 4K 144Hz LCD Display 1100": 1793613951.963987,
     "Honor Pad V9 (8/256)": 1794945692.2706501,
     "HONOR Pad X8b (LTE 6/128GB)": 1794136369.073103,
@@ -3793,7 +3796,7 @@
     "Ulanzi A100 Wireless Lavalier Microphone": 1794130707.0577464,
     "Kootion X15 M.2 SSD NVMe 256GB": 1794134534.5760646,
     "Lenovo LE257 Headphones": 1794137638.8201442,
-    "Honor 600s CN (8/256)": 1795000847.1791112,
+    "Honor 600s CN (8/256)": 1795184432.291171,
     "ويبكام OBSBOT MEET 2 Webcam 4K": 1794140022.1412559,
     "Blackview Mega 5": 1795165490.909228,
     "Warvank X8 Wireless Gaming Mouse": 1794496858.1106308,
@@ -3846,7 +3849,7 @@
     "Anker Q20i Hybrid Active": 1794999336.5179884,
     "CUSU CV3500Q 2TB M.2": 1794305012.9961731,
     "MACHENIKE G5Pro Max SE With Charging Dock": 1794999150.7012253,
-    "Xiaoxin Pad Pro GT (8/256)": 1794935355.7449994,
+    "Xiaoxin Pad Pro GT (8/256)": 1795184412.0241432,
     "Attack Shark X11": 1794852963.8236506,
     "Mic USB Microphone with RGB Modes Professional Condenser Mic for": 1794436007.5288515,
     "MAONO PD100W USB Wireless Dynamic": 1794432872.6767933,
@@ -4077,14 +4080,10 @@
     "ميزان ذكي يعمل بالبلوتوث لقياس الوزن": 1795182504.6024845,
     "TCL 60 NXTPAPER 8/256": 1795182900.2959979,
     "ماوس لاسلكي بألياف الكربون Attack Shark RS6 Ultra 8K Carbon": 1795183540.495267,
-    "بروجكتور Magcubic HY300 max": 1795183546.9104183
+    "بروجكتور Magcubic HY300 max": 1795183546.9104183,
+    "ViVO iQOO Z11  8/256": 1795184400.6197784
   },
   "published_post_keys": [
-    "aniscoupons:34394",
-    "lodydeals:46320",
-    "aniscoupons:34395",
-    "aniscoupons:34396",
-    "aniscoupons:34399",
     "aniscoupons:34400",
     "aniscoupons:34401",
     "aniscoupons:34402",
@@ -5079,19 +5078,24 @@
     "lodydeals:46717",
     "ecksdeal:6115",
     "zedstoreonline:40485",
-    "aniscoupons:35373"
+    "aniscoupons:35373",
+    "lodydeals:46718",
+    "zedstoreonline:40487",
+    "aniscoupons:35374",
+    "aniscoupons:35375",
+    "aniscoupons:35377"
   ],
   "last_disclaimer_time": 1794524540.9476151,
   "last_calendar_time": 1795177633.1203737,
-  "last_run_time": 1795183557.3230655,
+  "last_run_time": 1795184432.291171,
   "monitored_channels": {
     "ecksdeal": {
       "last_message_id": 6116,
       "last_check_time": 1795183542.6481285
     },
     "lodydeals": {
-      "last_message_id": 46717,
-      "last_check_time": 1795183535.810416
+      "last_message_id": 46719,
+      "last_check_time": 1795184389.66397
     },
     "test_channel": {
       "last_message_id": 1793967703,
@@ -5110,12 +5114,12 @@
       "last_check_time": 1793599663.3444748
     },
     "zedstoreonline": {
-      "last_message_id": 40485,
-      "last_check_time": 1795183548.9847646
+      "last_message_id": 40489,
+      "last_check_time": 1795184407.1151435
     },
     "aniscoupons": {
-      "last_message_id": 35373,
-      "last_check_time": 1795183559.4010735
+      "last_message_id": 35377,
+      "last_check_time": 1795184434.372243
     },
     "bnddeals": {
       "last_message_id": 51366,
@@ -5433,7 +5437,7 @@
     "1005013090910574": 192.7,
     "1005012382148199": 469.0,
     "1005010158485058": 66.5,
-    "1005012910719451": 275.87,
+    "1005012910719451": 278.44,
     "1005006307798542": 35.3,
     "1005011787296177": 29.76,
     "1005007375332966": 52.8,
@@ -5551,7 +5555,7 @@
     "1005010114569881": 23.08,
     "1005013053122560": 53.59,
     "1005012322822595": 266.19,
-    "1005012524603100": 283.59,
+    "1005012524603100": 271.59,
     "1005009662812027": 78.4,
     "1005005975560350": 35.9,
     "1005011752891197": 119.3,
@@ -5613,7 +5617,7 @@
     "1005010009130696": 656.0,
     "1005013465751932": 527.0,
     "1005011778223630": 106.0,
-    "1005009231510301": 259.7,
+    "1005009231510301": 262.7,
     "1005011625723042": 7.59,
     "1005006280695304": 5.7,
     "1005007060644375": 3.2,
@@ -5713,7 +5717,7 @@
     "1005012953027259": 279.32,
     "1005012048332402": 193.1,
     "1005011665465731": 5.38,
-    "1005012377459743": 304.77,
+    "1005012377459743": 313.59,
     "1005009460475870": 6.7,
     "1005009649079564": 19.4,
     "1005007038022940": 5.49,
@@ -5883,7 +5887,8 @@
     "1005013482874428": 79.6,
     "1005013354356242": 11.8,
     "1005013117620640": 61.51,
-    "1005013048908707": 276.5
+    "1005013048908707": 276.5,
+    "1005011955602754": 312.5
   },
   "channel_published_deals": {
     "aniscoupons:32590": {
@@ -29968,6 +29973,56 @@
       "price": 276.5,
       "timestamp": 1795183557.3230655,
       "status": "ACTIVE"
+    },
+    "lodydeals:46718": {
+      "channel_msg_id": 3318,
+      "product_id": "1005012910719451",
+      "title": "OnePlus Turbo 6V  8/256GB",
+      "channel": "lodydeals",
+      "source_msg_id": 46718,
+      "price": 278.44,
+      "timestamp": 1795184387.5053294,
+      "status": "ACTIVE"
+    },
+    "zedstoreonline:40487": {
+      "channel_msg_id": 3319,
+      "product_id": "1005011955602754",
+      "title": "ViVO iQOO Z11  8/256",
+      "channel": "zedstoreonline",
+      "source_msg_id": 40487,
+      "price": 312.5,
+      "timestamp": 1795184400.6197784,
+      "status": "ACTIVE"
+    },
+    "aniscoupons:35374": {
+      "channel_msg_id": 3320,
+      "product_id": "1005009231510301",
+      "title": "Xiaoxin Pad Pro GT (8/256)",
+      "channel": "aniscoupons",
+      "source_msg_id": 35374,
+      "price": 262.7,
+      "timestamp": 1795184412.0241432,
+      "status": "ACTIVE"
+    },
+    "aniscoupons:35375": {
+      "channel_msg_id": 3321,
+      "product_id": "1005012524603100",
+      "title": "Xiaoxin Pad Pro 13 (8/128)",
+      "channel": "aniscoupons",
+      "source_msg_id": 35375,
+      "price": 271.59,
+      "timestamp": 1795184417.996706,
+      "status": "ACTIVE"
+    },
+    "aniscoupons:35377": {
+      "channel_msg_id": 3322,
+      "product_id": "1005012377459743",
+      "title": "Honor 600s CN (8/256)",
+      "channel": "aniscoupons",
+      "source_msg_id": 35377,
+      "price": 313.59,
+      "timestamp": 1795184432.291171,
+      "status": "ACTIVE"
     }
   },
   "schedule_config": {
@@ -29976,17 +30031,17 @@
     "current_interval_minutes": 5,
     "is_paused": false,
     "night_mode_enabled": true,
-    "last_deal_post_time": 1795183560.35066,
+    "last_deal_post_time": 1795184435.38483,
     "night_start_hour_dz": 0,
     "night_end_hour_dz": 8,
     "night_pause_enabled": true,
-    "last_sweep_time": 1795183562.7969007,
+    "last_sweep_time": 1795184438.0049798,
     "last_sweep_times": {
-      "algeria": 1795183560.3179667,
-      "france": 1795183562.7969007
+      "algeria": 1795184435.3524482,
+      "france": 1795184438.0049798
     },
     "last_deal_post_times": {
-      "algeria": 1795183560.35066
+      "algeria": 1795184435.38483
     }
   },
   "last_coin_reminder_time": 1795015271.2437074,
@@ -30588,7 +30643,7 @@
     "1005010009130696": "zedstoreonline",
     "1005013465751932": "zedstoreonline",
     "1005011778223630": "zedstoreonline",
-    "1005009231510301": "zedstoreonline",
+    "1005009231510301": "aniscoupons",
     "1005011625723042": "aniscoupons",
     "1005006280695304": "aniscoupons",
     "1005007060644375": "zedstoreonline",
@@ -30869,7 +30924,8 @@
     "1005013482874428": "aniscoupons",
     "1005013354356242": "zedstoreonline",
     "1005013117620640": "ecksdeal",
-    "1005013048908707": "aniscoupons"
+    "1005013048908707": "aniscoupons",
+    "1005011955602754": "zedstoreonline"
   },
   "published_title_channels": {
     "Test Wrench Set": "test_channel",
@@ -32034,7 +32090,8 @@
     "ميزان ذكي يعمل بالبلوتوث لقياس الوزن": "zedstoreonline",
     "TCL 60 NXTPAPER 8/256": "zedstoreonline",
     "ماوس لاسلكي بألياف الكربون Attack Shark RS6 Ultra 8K Carbon": "ecksdeal",
-    "بروجكتور Magcubic HY300 max": "zedstoreonline"
+    "بروجكتور Magcubic HY300 max": "zedstoreonline",
+    "ViVO iQOO Z11  8/256": "zedstoreonline"
   },
   "religious_reminders_history": {
     "mock_rem": "2026-10-02",
@@ -32832,11 +32889,6 @@
   "published_deals_history": {},
   "settings": {},
   "handled_post_keys": [
-    "zedstoreonline:39878",
-    "zedstoreonline:39879",
-    "zedstoreonline:39880",
-    "aniscoupons:34505",
-    "aniscoupons:34506",
     "bnddeals:51291",
     "zedstoreonline:39881",
     "zedstoreonline:39882",
@@ -33831,7 +33883,12 @@
     "lodydeals:46716",
     "ecksdeal:6116",
     "aniscoupons:35371",
-    "aniscoupons:35372"
+    "aniscoupons:35372",
+    "lodydeals:46719",
+    "zedstoreonline:40486",
+    "zedstoreonline:40488",
+    "zedstoreonline:40489",
+    "aniscoupons:35376"
   ],
   "last_france_cross_promo_time": 1794913823.9647303,
   "next_france_cross_promo_interval_seconds": 311842,
@@ -34730,6 +34787,53 @@
         "channel": "zedstoreonline",
         "ts": 1795183544.436929,
         "price": 81.8
+      }
+    ],
+    "1005012910719451": [
+      {
+        "channel": "lodydeals",
+        "ts": 1795184384.8109655,
+        "price": 278.44
+      }
+    ],
+    "1005013048908707": [
+      {
+        "channel": "zedstoreonline",
+        "ts": 1795184394.4076903,
+        "price": 276.0
+      }
+    ],
+    "1005012931209980": [
+      {
+        "channel": "zedstoreonline",
+        "ts": 1795184406.6135995,
+        "price": 277.0
+      },
+      {
+        "channel": "aniscoupons",
+        "ts": 1795184425.1814568,
+        "price": 275.0
+      }
+    ],
+    "1005009231510301": [
+      {
+        "channel": "aniscoupons",
+        "ts": 1795184408.7735722,
+        "price": 262.7
+      }
+    ],
+    "1005012524603100": [
+      {
+        "channel": "aniscoupons",
+        "ts": 1795184415.3967679,
+        "price": 271.59
+      }
+    ],
+    "1005012377459743": [
+      {
+        "channel": "aniscoupons",
+        "ts": 1795184429.7422147,
+        "price": 313.59
       }
     ]
   },
