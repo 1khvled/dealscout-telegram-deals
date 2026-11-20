@@ -1126,7 +1126,7 @@
     "9998883549": 1792073549.4615705,
     "9998883836": 1792073836.8176863,
     "9998883963": 1792073963.7339156,
-    "1005010620269829": 1794998593.8332033,
+    "1005010620269829": 1795190582.3905108,
     "9998886219": 1792086219.2668676,
     "1005005875379717": 1795116404.8944776,
     "9998887185": 1792087185.8637784,
@@ -2981,7 +2981,7 @@
     "QCY T13 True Wireless Earbuds Bluetooth 5.1 Earphones 7.2mm Drivers with": 1790941202.9035249,
     "Blackview Zeno 10 5G  8/128": 1790941207.5310047,
     "Honor Power 2  12/256": 1790941214.6756065,
-    "Honor X70 5G 8/128": 1794998593.8332033,
+    "Honor X70 5G 8/128": 1795190582.3905108,
     "Blackview MEGA 5  8/256": 1795164751.799644,
     "سماعات اذن فخمة  Moondrop Chu 3 IEM": 1795027703.9087646,
     "4G LTE Wireless USB 150Mbps": 1794057675.8729835,
@@ -4096,7 +4096,6 @@
     "Vivo Y500 Pro (8/128GB)": 1795186378.654721
   },
   "published_post_keys": [
-    "aniscoupons:34408",
     "aniscoupons:34409",
     "aniscoupons:34410",
     "aniscoupons:34411",
@@ -5095,11 +5094,12 @@
     "aniscoupons:35381",
     "aniscoupons:35382",
     "aniscoupons:35383",
-    "aniscoupons:35386"
+    "aniscoupons:35386",
+    "zedstoreonline:40496"
   ],
   "last_disclaimer_time": 1794524540.9476151,
   "last_calendar_time": 1795177633.1203737,
-  "last_run_time": 1795190161.3398871,
+  "last_run_time": 1795190582.3905108,
   "monitored_channels": {
     "ecksdeal": {
       "last_message_id": 6116,
@@ -5127,15 +5127,15 @@
     },
     "zedstoreonline": {
       "last_message_id": 40498,
-      "last_check_time": 1795188178.1176436
+      "last_check_time": 1795190582.3905108
     },
     "aniscoupons": {
       "last_message_id": 35386,
-      "last_check_time": 1795190163.446456
+      "last_check_time": 1795190589.1243248
     },
     "bnddeals": {
-      "last_message_id": 51371,
-      "last_check_time": 1795187166.5380647
+      "last_message_id": 51372,
+      "last_check_time": 1795190590.9803524
     }
   },
   "published_product_prices": {
@@ -5355,7 +5355,7 @@
     "1005012585389764": 153.9,
     "1005011997237872": 92.15,
     "1005011908654312": 122.6,
-    "1005010620269829": 229.6,
+    "1005010620269829": 231.2,
     "1005010149868688": 191.1,
     "1005005875379717": 21.2,
     "1005013137396211": 316.0,
@@ -30138,6 +30138,16 @@
       "price": 133.8,
       "timestamp": 1795190161.3398871,
       "status": "ACTIVE"
+    },
+    "zedstoreonline:40496": {
+      "channel_msg_id": 3334,
+      "product_id": "1005010620269829",
+      "title": "Honor X70 5G 8/128",
+      "channel": "zedstoreonline",
+      "source_msg_id": 40496,
+      "price": 231.2,
+      "timestamp": 1795190582.3905108,
+      "status": "ACTIVE"
     }
   },
   "schedule_config": {
@@ -30146,17 +30156,17 @@
     "current_interval_minutes": 5,
     "is_paused": false,
     "night_mode_enabled": true,
-    "last_deal_post_time": 1795190164.7617466,
+    "last_deal_post_time": 1795190591.0336525,
     "night_start_hour_dz": 0,
     "night_end_hour_dz": 8,
     "night_pause_enabled": true,
-    "last_sweep_time": 1795190167.4985774,
+    "last_sweep_time": 1795190592.964107,
     "last_sweep_times": {
-      "algeria": 1795190164.7150521,
-      "france": 1795190167.4985774
+      "algeria": 1795190591.0071125,
+      "france": 1795190592.964107
     },
     "last_deal_post_times": {
-      "algeria": 1795190164.7617466
+      "algeria": 1795190591.0336525
     }
   },
   "last_coin_reminder_time": 1795015271.2437074,
@@ -33010,8 +33020,6 @@
   "published_deals_history": {},
   "settings": {},
   "handled_post_keys": [
-    "aniscoupons:34530",
-    "zedstoreonline:39895",
     "aniscoupons:34531",
     "aniscoupons:34533",
     "zedstoreonline:39897",
@@ -34009,7 +34017,9 @@
     "bnddeals:51371",
     "zedstoreonline:40497",
     "zedstoreonline:40498",
-    "aniscoupons:35385"
+    "aniscoupons:35385",
+    "aniscoupons:35384",
+    "bnddeals:51372"
   ],
   "last_france_cross_promo_time": 1794913823.9647303,
   "next_france_cross_promo_interval_seconds": 311842,
@@ -35069,6 +35079,27 @@
         "channel": "aniscoupons",
         "ts": 1795186204.6668897,
         "price": 352.4
+      }
+    ],
+    "1005010620269829": [
+      {
+        "channel": "zedstoreonline",
+        "ts": 1795190580.00955,
+        "price": 231.2
+      }
+    ],
+    "1005011955602754": [
+      {
+        "channel": "aniscoupons",
+        "ts": 1795190589.0771108,
+        "price": 313.7
+      }
+    ],
+    "1005012061152213": [
+      {
+        "channel": "bnddeals",
+        "ts": 1795190590.4364831,
+        "price": 61.0
       }
     ]
   },
