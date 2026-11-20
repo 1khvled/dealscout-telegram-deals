@@ -864,7 +864,8 @@
     "1005013633649876",
     "1005012274502051",
     "1005013603023857",
-    "1005009693337727"
+    "1005009693337727",
+    "1005013497504096"
   ],
   "published_product_timestamps": {
     "1005012973772517": 1794500732.7845657,
@@ -1745,7 +1746,8 @@
     "1005013633649876": 1795104359.6206825,
     "1005012274502051": 1795111028.5315912,
     "1005013603023857": 1795112692.4915283,
-    "1005009693337727": 1795113429.7687285
+    "1005009693337727": 1795113429.7687285,
+    "1005013497504096": 1795134132.9931045
   },
   "published_titles": [
     "Wireless WiFi Repeater 300Mbps WiFi Extender Amplifier Booster Router",
@@ -2891,7 +2893,8 @@
     "Honor Magic 9 SE",
     "8L FOLDING WASHING MACHINE",
     "Maono WAVE T1 MINI",
-    "MAGCUBIC HY300 PRO Projector"
+    "MAGCUBIC HY300 PRO Projector",
+    "DIGITAL BATHROOM SCALE"
   ],
   "published_title_timestamps": {
     "Xiaomi Redmi Note 17 5G Global Version": 1790857823.0117362,
@@ -4042,10 +4045,10 @@
     "Honor Magic 9 SE": 1795103262.750217,
     "8L FOLDING WASHING MACHINE": 1795104359.6206825,
     "Maono WAVE T1 MINI": 1795111968.5056303,
-    "MAGCUBIC HY300 PRO Projector": 1795112692.4915283
+    "MAGCUBIC HY300 PRO Projector": 1795112692.4915283,
+    "DIGITAL BATHROOM SCALE": 1795134132.9931045
   },
   "published_post_keys": [
-    "aniscoupons:34361",
     "lodydeals:46299",
     "lodydeals:46300",
     "zedstoreonline:39780",
@@ -5044,11 +5047,12 @@
     "bnddeals:51355",
     "zedstoreonline:40462",
     "aniscoupons:35334",
-    "zedstoreonline:40465"
+    "zedstoreonline:40465",
+    "aniscoupons:35337"
   ],
   "last_disclaimer_time": 1794524540.9476151,
   "last_calendar_time": 1794572799.8939624,
-  "last_run_time": 1795125230.187759,
+  "last_run_time": 1795134132.9931045,
   "monitored_channels": {
     "ecksdeal": {
       "last_message_id": 6110,
@@ -5079,8 +5083,8 @@
       "last_check_time": 1795128365.841056
     },
     "aniscoupons": {
-      "last_message_id": 35336,
-      "last_check_time": 1795129288.1040268
+      "last_message_id": 35337,
+      "last_check_time": 1795134135.0689213
     },
     "bnddeals": {
       "last_message_id": 51358,
@@ -5843,7 +5847,8 @@
     "1005013633649876": 12.9,
     "1005012274502051": 20.96,
     "1005013603023857": 42.1,
-    "1005009693337727": 113.4
+    "1005009693337727": 113.4,
+    "1005013497504096": 3.2
   },
   "channel_published_deals": {
     "aniscoupons:32590": {
@@ -29518,6 +29523,16 @@
       "price": 14.2,
       "timestamp": 1795125230.187759,
       "status": "ACTIVE"
+    },
+    "aniscoupons:35337": {
+      "channel_msg_id": 3274,
+      "product_id": "1005013497504096",
+      "title": "DIGITAL BATHROOM SCALE",
+      "channel": "aniscoupons",
+      "source_msg_id": 35337,
+      "price": 3.2,
+      "timestamp": 1795134132.9931045,
+      "status": "ACTIVE"
     }
   },
   "schedule_config": {
@@ -29526,17 +29541,17 @@
     "current_interval_minutes": 5,
     "is_paused": false,
     "night_mode_enabled": true,
-    "last_deal_post_time": 1795125235.4843934,
+    "last_deal_post_time": 1795134136.2175384,
     "night_start_hour_dz": 0,
     "night_end_hour_dz": 8,
     "night_pause_enabled": true,
-    "last_sweep_time": 1795133937.2253156,
+    "last_sweep_time": 1795134139.3597093,
     "last_sweep_times": {
-      "algeria": 1795133934.781596,
-      "france": 1795133937.2253156
+      "algeria": 1795134136.1893437,
+      "france": 1795134139.3597093
     },
     "last_deal_post_times": {
-      "algeria": 1795125235.4843934
+      "algeria": 1795134136.2175384
     }
   },
   "last_coin_reminder_time": 1795015271.2437074,
@@ -30414,7 +30429,8 @@
     "1005013633649876": "aniscoupons",
     "1005012274502051": "lodydeals",
     "1005013603023857": "zedstoreonline",
-    "1005009693337727": "zedstoreonline"
+    "1005009693337727": "zedstoreonline",
+    "1005013497504096": "aniscoupons"
   },
   "published_title_channels": {
     "Test Wrench Set": "test_channel",
@@ -31567,7 +31583,8 @@
     "Honor Magic 9 SE": "aniscoupons",
     "8L FOLDING WASHING MACHINE": "aniscoupons",
     "Maono WAVE T1 MINI": "bnddeals",
-    "MAGCUBIC HY300 PRO Projector": "zedstoreonline"
+    "MAGCUBIC HY300 PRO Projector": "zedstoreonline",
+    "DIGITAL BATHROOM SCALE": "aniscoupons"
   },
   "religious_reminders_history": {
     "mock_rem": "2026-10-02",
