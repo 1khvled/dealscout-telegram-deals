@@ -1694,7 +1694,7 @@
     "1005010788231460": 1794604060.7762444,
     "1389260212": 1794605894.0354748,
     "1005012138794873": 1795081588.9428203,
-    "1005007129557126": 1795199244.3177361,
+    "1005007129557126": 1795271082.5291889,
     "1005010519693722": 1794680859.9419408,
     "1005010788149535": 1794995660.7798858,
     "1005007857182319": 1794666000.5453608,
@@ -4005,7 +4005,7 @@
     "H96 MAX RK3518 2/16GB": 1794606633.373106,
     "realme 45W SUPERVOOC Charger": 1794606651.7602222,
     "Kodak K133 USB 3.1 Flash Drive 256GB": 1794614891.9797184,
-    "SOYO AMD B550M Gaming": 1795199244.3177361,
+    "SOYO AMD B550M Gaming": 1795271082.5291889,
     "Delux M400 PAW3311 24000DPI 1Khz 500mAh Wireless": 1794649518.026784,
     "Delux M800mini Wireless Gaming Mouse": 1794845442.6108298,
     "ASROCK X570M PRO4 Motherboard": 1794660431.126332,
@@ -4146,7 +4146,6 @@
     "KingSpec DDR4 16GB 3200Mhz": 1795267406.4196262
   },
   "published_post_keys": [
-    "bnddeals:51290",
     "aniscoupons:34499",
     "zedstoreonline:39876",
     "aniscoupons:34502",
@@ -5145,19 +5144,20 @@
     "zedstoreonline:40539",
     "aniscoupons:35428",
     "aniscoupons:35429",
-    "aniscoupons:35430"
+    "aniscoupons:35430",
+    "lodydeals:46765"
   ],
   "last_disclaimer_time": 1794524540.9476151,
   "last_calendar_time": 1795177633.1203737,
-  "last_run_time": 1795270898.894993,
+  "last_run_time": 1795271082.5291889,
   "monitored_channels": {
     "ecksdeal": {
       "last_message_id": 6116,
       "last_check_time": 1795183542.6481285
     },
     "lodydeals": {
-      "last_message_id": 46764,
-      "last_check_time": 1795270892.1421838
+      "last_message_id": 46765,
+      "last_check_time": 1795271084.6039395
     },
     "test_channel": {
       "last_message_id": 1793967703,
@@ -5876,7 +5876,7 @@
     "1005010788231460": 178.4,
     "1389260212": 14.8,
     "1005012138794873": 86.01,
-    "1005007129557126": 85.5,
+    "1005007129557126": 85.53,
     "1005010519693722": 13.42,
     "1005010788149535": 364.9,
     "1005007857182319": 23.88,
@@ -30859,6 +30859,16 @@
       "price": 49.3,
       "timestamp": 1795270898.894993,
       "status": "ACTIVE"
+    },
+    "lodydeals:46765": {
+      "channel_msg_id": 3403,
+      "product_id": "1005007129557126",
+      "title": "SOYO AMD B550M Gaming",
+      "channel": "lodydeals",
+      "source_msg_id": 46765,
+      "price": 85.53,
+      "timestamp": 1795271082.5291889,
+      "status": "ACTIVE"
     }
   },
   "schedule_config": {
@@ -30867,17 +30877,17 @@
     "current_interval_minutes": 5,
     "is_paused": false,
     "night_mode_enabled": true,
-    "last_deal_post_time": 1795270902.428444,
+    "last_deal_post_time": 1795271087.4590714,
     "night_start_hour_dz": 0,
     "night_end_hour_dz": 8,
     "night_pause_enabled": true,
-    "last_sweep_time": 1795270905.687789,
+    "last_sweep_time": 1795271090.4853208,
     "last_sweep_times": {
-      "algeria": 1795270902.3810253,
-      "france": 1795270905.687789
+      "algeria": 1795271087.4267647,
+      "france": 1795271090.4853208
     },
     "last_deal_post_times": {
-      "algeria": 1795270902.428444
+      "algeria": 1795271087.4590714
     }
   },
   "last_coin_reminder_time": 1795241331.112354,
@@ -31686,7 +31696,7 @@
     "1005010788231460": "zedstoreonline",
     "1389260212": "zedstoreonline",
     "1005012138794873": "lodydeals",
-    "1005007129557126": "aniscoupons",
+    "1005007129557126": "lodydeals",
     "1005010519693722": "lodydeals",
     "1005010788149535": "aniscoupons",
     "1005007857182319": "ecksdeal",
@@ -32821,7 +32831,7 @@
     "H96 MAX RK3518 2/16GB": "lodydeals",
     "realme 45W SUPERVOOC Charger": "lodydeals",
     "Kodak K133 USB 3.1 Flash Drive 256GB": "zedstoreonline",
-    "SOYO AMD B550M Gaming": "aniscoupons",
+    "SOYO AMD B550M Gaming": "lodydeals",
     "Delux M400 PAW3311 24000DPI 1Khz 500mAh Wireless": "lodydeals",
     "Delux M800mini Wireless Gaming Mouse": "aniscoupons",
     "ASROCK X570M PRO4 Motherboard": "zedstoreonline",
@@ -35691,6 +35701,13 @@
         "channel": "bnddeals",
         "ts": 1795269787.0217266,
         "price": 75.19
+      }
+    ],
+    "1005007129557126": [
+      {
+        "channel": "lodydeals",
+        "ts": 1795271079.563794,
+        "price": 85.53
       }
     ]
   },
