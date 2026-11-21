@@ -909,7 +909,7 @@
     "1005012899224314": 1791943825.002781,
     "1005012923660718": 1790888191.2162998,
     "1005012881256093": 1791941229.2882626,
-    "1005009118633225": 1794606808.077093,
+    "1005009118633225": 1795272176.5827496,
     "1005012143831265": 1793613460.6520321,
     "1005008852027824": 1793613419.7534997,
     "9998888981": 1790888981.6873999,
@@ -2989,7 +2989,7 @@
     "Honor Choice Watch 2i": 1794306871.9339762,
     "HONOR CHOICE Earbuds X7e Active": 1790888191.2162998,
     "Honor Watch X5i": 1790973641.950298,
-    "UGREEN 45W GaN Charger": 1794606808.077093,
+    "UGREEN 45W GaN Charger": 1795272176.5827496,
     "Realme Pad 3 5G 256GB": 1791012345.6086447,
     "Attack Shark x AJAZZ AJ159P Gaming Mouse With Magnetic Charging Dock, PAW3395 Sensor": 1790888886.4062796,
     "OPPO A6 Pro 8/256": 1794299257.6397457,
@@ -4146,7 +4146,6 @@
     "KingSpec DDR4 16GB 3200Mhz": 1795267406.4196262
   },
   "published_post_keys": [
-    "aniscoupons:34502",
     "aniscoupons:34503",
     "aniscoupons:34504",
     "aniscoupons:34507",
@@ -5145,19 +5144,20 @@
     "aniscoupons:35430",
     "lodydeals:46765",
     "zedstoreonline:40542",
-    "lodydeals:46767"
+    "lodydeals:46767",
+    "lodydeals:46768"
   ],
   "last_disclaimer_time": 1794524540.9476151,
   "last_calendar_time": 1795177633.1203737,
-  "last_run_time": 1795271644.1827564,
+  "last_run_time": 1795272176.5827496,
   "monitored_channels": {
     "ecksdeal": {
       "last_message_id": 6116,
       "last_check_time": 1795183542.6481285
     },
     "lodydeals": {
-      "last_message_id": 46767,
-      "last_check_time": 1795271646.288615
+      "last_message_id": 46768,
+      "last_check_time": 1795272178.684319
     },
     "test_channel": {
       "last_message_id": 1793967703,
@@ -5176,8 +5176,8 @@
       "last_check_time": 1793599663.3444748
     },
     "zedstoreonline": {
-      "last_message_id": 40542,
-      "last_check_time": 1795271441.2692254
+      "last_message_id": 40543,
+      "last_check_time": 1795272184.712422
     },
     "aniscoupons": {
       "last_message_id": 35430,
@@ -5210,7 +5210,7 @@
     "1005012899224314": 26.38,
     "1005012923660718": 15.17,
     "1005012881256093": 27.52,
-    "1005009118633225": 12.37,
+    "1005009118633225": 12.11,
     "1005012143831265": 261.0,
     "1005007458827229": 22.1,
     "1005010453516983": 211.6,
@@ -30889,6 +30889,16 @@
       "price": 191.61,
       "timestamp": 1795271644.1827564,
       "status": "ACTIVE"
+    },
+    "lodydeals:46768": {
+      "channel_msg_id": 3406,
+      "product_id": "1005009118633225",
+      "title": "UGREEN 45W GaN Charger",
+      "channel": "lodydeals",
+      "source_msg_id": 46768,
+      "price": 12.11,
+      "timestamp": 1795272176.5827496,
+      "status": "ACTIVE"
     }
   },
   "schedule_config": {
@@ -30897,17 +30907,17 @@
     "current_interval_minutes": 5,
     "is_paused": false,
     "night_mode_enabled": true,
-    "last_deal_post_time": 1795271649.868042,
+    "last_deal_post_time": 1795272186.2529638,
     "night_start_hour_dz": 0,
     "night_end_hour_dz": 8,
     "night_pause_enabled": true,
-    "last_sweep_time": 1795271997.3931751,
+    "last_sweep_time": 1795272188.7895215,
     "last_sweep_times": {
-      "algeria": 1795271995.3024054,
-      "france": 1795271997.3931751
+      "algeria": 1795272186.2113667,
+      "france": 1795272188.7895215
     },
     "last_deal_post_times": {
-      "algeria": 1795271649.868042
+      "algeria": 1795272186.2529638
     }
   },
   "last_coin_reminder_time": 1795241331.112354,
@@ -33786,7 +33796,6 @@
   "published_deals_history": {},
   "settings": {},
   "handled_post_keys": [
-    "aniscoupons:34604",
     "zedstoreonline:39931",
     "zedstoreonline:39933",
     "aniscoupons:34611",
@@ -34785,7 +34794,8 @@
     "lodydeals:46762",
     "lodydeals:46763",
     "lodydeals:46764",
-    "lodydeals:46766"
+    "lodydeals:46766",
+    "zedstoreonline:40543"
   ],
   "last_france_cross_promo_time": 1795236239.730334,
   "next_france_cross_promo_interval_seconds": 209180,
@@ -35742,6 +35752,13 @@
         "channel": "lodydeals",
         "ts": 1795271640.845721,
         "price": 191.61
+      }
+    ],
+    "1005009118633225": [
+      {
+        "channel": "lodydeals",
+        "ts": 1795272174.3695588,
+        "price": 12.11
       }
     ]
   },
