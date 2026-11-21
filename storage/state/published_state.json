@@ -1761,7 +1761,7 @@
     "1005012408109331": 1795102336.0045958,
     "1005013304783085": 1795103262.750217,
     "1005013633649876": 1795104359.6206825,
-    "1005012274502051": 1795166225.425497,
+    "1005012274502051": 1795253775.2319088,
     "1005013603023857": 1795112692.4915283,
     "1005009693337727": 1795113429.7687285,
     "1005013497504096": 1795134132.9931045,
@@ -4110,7 +4110,7 @@
     "MAGCUBIC HY300 PRO Projector": 1795112692.4915283,
     "DIGITAL BATHROOM SCALE": 1795134132.9931045,
     "CUSU K5 Portable External SSD 512gb": 1795164006.096927,
-    "UGREEN Nexode Air 65W GaN Charger": 1795166225.425497,
+    "UGREEN Nexode Air 65W GaN Charger": 1795253775.2319088,
     "Portable Wireless Electric Air Pump with LCD Display": 1795167145.0122104,
     "Blackview Wave 7C": 1795170262.9783158,
     "لي يحوس على حاجة أصلية ومضمونة": 1795175430.73419,
@@ -4138,7 +4138,6 @@
     "لووووووووووووز HAYLOU": 1795251398.024725
   },
   "published_post_keys": [
-    "aniscoupons:34478",
     "aniscoupons:34480",
     "aniscoupons:34481",
     "aniscoupons:34482",
@@ -5137,11 +5136,12 @@
     "zedstoreonline:40523",
     "bnddeals:51382",
     "zedstoreonline:40524",
-    "aniscoupons:35412"
+    "aniscoupons:35412",
+    "aniscoupons:35414"
   ],
   "last_disclaimer_time": 1794524540.9476151,
   "last_calendar_time": 1795177633.1203737,
-  "last_run_time": 1795252679.8114014,
+  "last_run_time": 1795253775.2319088,
   "monitored_channels": {
     "ecksdeal": {
       "last_message_id": 6116,
@@ -5168,12 +5168,12 @@
       "last_check_time": 1793599663.3444748
     },
     "zedstoreonline": {
-      "last_message_id": 40526,
-      "last_check_time": 1795252853.6950388
+      "last_message_id": 40527,
+      "last_check_time": 1795253770.6577532
     },
     "aniscoupons": {
-      "last_message_id": 35413,
-      "last_check_time": 1795253221.1989477
+      "last_message_id": 35414,
+      "last_check_time": 1795253777.3312144
     },
     "bnddeals": {
       "last_message_id": 51382,
@@ -30660,6 +30660,16 @@
       "price": 228.3,
       "timestamp": 1795252679.8114014,
       "status": "ACTIVE"
+    },
+    "aniscoupons:35414": {
+      "channel_msg_id": 3384,
+      "product_id": "1005012274502051",
+      "title": "UGREEN Nexode Air 65W GaN Charger",
+      "channel": "aniscoupons",
+      "source_msg_id": 35414,
+      "price": 20.9,
+      "timestamp": 1795253775.2319088,
+      "status": "ACTIVE"
     }
   },
   "schedule_config": {
@@ -30668,17 +30678,17 @@
     "current_interval_minutes": 5,
     "is_paused": false,
     "night_mode_enabled": true,
-    "last_deal_post_time": 1795252683.0500944,
+    "last_deal_post_time": 1795253778.4677837,
     "night_start_hour_dz": 0,
     "night_end_hour_dz": 8,
     "night_pause_enabled": true,
-    "last_sweep_time": 1795253586.9170327,
+    "last_sweep_time": 1795253781.38079,
     "last_sweep_times": {
-      "algeria": 1795253584.8423193,
-      "france": 1795253586.9170327
+      "algeria": 1795253778.4250908,
+      "france": 1795253781.38079
     },
     "last_deal_post_times": {
-      "algeria": 1795252683.0500944
+      "algeria": 1795253778.4677837
     }
   },
   "last_coin_reminder_time": 1795241331.112354,
@@ -33553,7 +33563,6 @@
   "published_deals_history": {},
   "settings": {},
   "handled_post_keys": [
-    "lodydeals:46374",
     "lodydeals:46375",
     "lodydeals:46376",
     "lodydeals:46377",
@@ -34552,7 +34561,8 @@
     "lodydeals:46759",
     "zedstoreonline:40525",
     "zedstoreonline:40526",
-    "aniscoupons:35413"
+    "aniscoupons:35413",
+    "zedstoreonline:40527"
   ],
   "last_france_cross_promo_time": 1795236239.730334,
   "next_france_cross_promo_interval_seconds": 209180,
@@ -35180,19 +35190,7 @@
         "price": 31.07
       }
     ],
-    "1005001849536579": [
-      {
-        "channel": "zedstoreonline",
-        "ts": 1795210456.9422166,
-        "price": 21.5
-      }
-    ],
     "1005008518280704": [
-      {
-        "channel": "aniscoupons",
-        "ts": 1795210463.2871375,
-        "price": 177.3
-      },
       {
         "channel": "aniscoupons",
         "ts": 1795249228.7528512,
@@ -35335,6 +35333,13 @@
         "channel": "aniscoupons",
         "ts": 1795253220.5946193,
         "price": 30.0
+      }
+    ],
+    "1005012274502051": [
+      {
+        "channel": "aniscoupons",
+        "ts": 1795253772.6217208,
+        "price": 20.9
       }
     ]
   },
