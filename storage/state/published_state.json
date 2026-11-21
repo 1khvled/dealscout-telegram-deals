@@ -1776,7 +1776,7 @@
     "1005013633649876": 1795104359.6206825,
     "1005012274502051": 1795253775.2319088,
     "1005013603023857": 1795290161.6076646,
-    "1005009693337727": 1795113429.7687285,
+    "1005009693337727": 1795298225.2538948,
     "1005013497504096": 1795283264.8493018,
     "1005013482874428": 1795258532.9191153,
     "1005013354356242": 1795182504.6024845,
@@ -3851,7 +3851,7 @@
     "Essager 30W Car Charger": 1795291550.8320675,
     "KOOTION SSD SATA  240GB": 1794051434.2488248,
     "Xiaomi Redmi Note 17 Pro 5G Global Version": 1794060065.5449874,
-    "Magcubic  HY350 Max 900ANSI": 1795113429.7687285,
+    "Magcubic  HY350 Max 900ANSI": 1795298225.2538948,
     "Toocki 60W Car Charger and cable": 1794771190.3471751,
     "Hollyland Lark M2 Wireless Mic": 1794063654.6498907,
     "XUNYOU-LINK 4G LTE WiFi 6 Portable Router": 1794064385.819615,
@@ -4196,7 +4196,6 @@
     "VIVO X300 Ultra 12/256": 1795296883.1865098
   },
   "published_post_keys": [
-    "zedstoreonline:39902",
     "aniscoupons:34538",
     "aniscoupons:34540",
     "zedstoreonline:39903",
@@ -5195,11 +5194,12 @@
     "aniscoupons:35451",
     "aniscoupons:35453",
     "aniscoupons:35454",
-    "zedstoreonline:40553"
+    "zedstoreonline:40553",
+    "zedstoreonline:40554"
   ],
   "last_disclaimer_time": 1794524540.9476151,
   "last_calendar_time": 1795177633.1203737,
-  "last_run_time": 1795296883.1865098,
+  "last_run_time": 1795298225.2538948,
   "monitored_channels": {
     "ecksdeal": {
       "last_message_id": 6119,
@@ -5226,8 +5226,8 @@
       "last_check_time": 1793599663.3444748
     },
     "zedstoreonline": {
-      "last_message_id": 40553,
-      "last_check_time": 1795296885.30027
+      "last_message_id": 40554,
+      "last_check_time": 1795298227.3284862
     },
     "aniscoupons": {
       "last_message_id": 35454,
@@ -31310,6 +31310,16 @@
       "price": 887.7,
       "timestamp": 1795296883.1865098,
       "status": "ACTIVE"
+    },
+    "zedstoreonline:40554": {
+      "channel_msg_id": 3444,
+      "product_id": "1005009693337727",
+      "title": "Magcubic  HY350 Max 900ANSI",
+      "channel": "zedstoreonline",
+      "source_msg_id": 40554,
+      "price": 113.4,
+      "timestamp": 1795298225.2538948,
+      "status": "ACTIVE"
     }
   },
   "schedule_config": {
@@ -31318,17 +31328,17 @@
     "current_interval_minutes": 5,
     "is_paused": false,
     "night_mode_enabled": true,
-    "last_deal_post_time": 1795296887.2976263,
+    "last_deal_post_time": 1795298228.8690996,
     "night_start_hour_dz": 0,
     "night_end_hour_dz": 8,
     "night_pause_enabled": true,
-    "last_sweep_time": 1795298045.1804483,
+    "last_sweep_time": 1795298231.2944515,
     "last_sweep_times": {
-      "algeria": 1795298042.9889085,
-      "france": 1795298045.1804483
+      "algeria": 1795298228.835021,
+      "france": 1795298231.2944515
     },
     "last_deal_post_times": {
-      "algeria": 1795296887.2976263
+      "algeria": 1795298228.8690996
     }
   },
   "last_coin_reminder_time": 1795241331.112354,
@@ -35896,26 +35906,7 @@
         "price": 30.0
       }
     ],
-    "1005012274502051": [
-      {
-        "channel": "aniscoupons",
-        "ts": 1795253772.6217208,
-        "price": 20.9
-      }
-    ],
-    "1005012574108028": [
-      {
-        "channel": "zedstoreonline",
-        "ts": 1795254685.093597,
-        "price": 272.0
-      }
-    ],
     "1005011778621042": [
-      {
-        "channel": "aniscoupons",
-        "ts": 1795254689.4804127,
-        "price": 119.5
-      },
       {
         "channel": "lodydeals",
         "ts": 1795274743.426176,
@@ -35928,11 +35919,6 @@
       }
     ],
     "1005013480169843": [
-      {
-        "channel": "aniscoupons",
-        "ts": 1795254866.6295376,
-        "price": 67.7
-      },
       {
         "channel": "zedstoreonline",
         "ts": 1795255972.38381,
@@ -36256,6 +36242,13 @@
         "channel": "aniscoupons",
         "ts": 1795296513.3500485,
         "price": 375.8
+      }
+    ],
+    "1005009693337727": [
+      {
+        "channel": "zedstoreonline",
+        "ts": 1795298222.4972057,
+        "price": 113.4
       }
     ]
   },
