@@ -1547,7 +1547,7 @@
     "9998887107": 1793967108.0014687,
     "9998887678": 1793967678.8184059,
     "9998887703": 1793967703.2348685,
-    "1005008708333999": 1795169161.0279288,
+    "1005008708333999": 1795257987.78027,
     "1005012254132930": 1795202623.049966,
     "1005013028124905": 1793971934.3600886,
     "1005012691642623": 1794074230.5173922,
@@ -4061,7 +4061,7 @@
     "realme P4 Power 8/256GB": 1794935216.1531737,
     "HONGTOP H20PRO TV Box 2/16GB": 1794845239.5606787,
     "Xiaomi Redmi Note 17 5G Global Version 6/256GB": 1794914021.5924346,
-    "Realme C100d": 1795169161.0279288,
+    "Realme C100d": 1795257987.78027,
     "AMD Ryzen 5 5600X": 1794852895.9711866,
     "FIFINE K688 USB/XLR Dynamic": 1794852901.0609643,
     "NEW AMD R5 9600X CPU RYZNE 5 9600X Desktop Game Processor No Fan": 1794852909.5572178,
@@ -4140,7 +4140,6 @@
     "KOOTION X16 7100MB/s NVMe 512GB": 1795256330.146872
   },
   "published_post_keys": [
-    "aniscoupons:34486",
     "bnddeals:51275",
     "zedstoreonline:39862",
     "aniscoupons:34488",
@@ -5139,11 +5138,12 @@
     "zedstoreonline:40531",
     "zedstoreonline:40532",
     "aniscoupons:35419",
-    "zedstoreonline:40534"
+    "zedstoreonline:40534",
+    "aniscoupons:35421"
   ],
   "last_disclaimer_time": 1794524540.9476151,
   "last_calendar_time": 1795177633.1203737,
-  "last_run_time": 1795257430.9310815,
+  "last_run_time": 1795257987.78027,
   "monitored_channels": {
     "ecksdeal": {
       "last_message_id": 6116,
@@ -5170,12 +5170,12 @@
       "last_check_time": 1793599663.3444748
     },
     "zedstoreonline": {
-      "last_message_id": 40534,
-      "last_check_time": 1795257432.9974473
+      "last_message_id": 40535,
+      "last_check_time": 1795257983.8405275
     },
     "aniscoupons": {
-      "last_message_id": 35420,
-      "last_check_time": 1795257434.5704756
+      "last_message_id": 35421,
+      "last_check_time": 1795257989.9102938
     },
     "bnddeals": {
       "last_message_id": 51382,
@@ -30752,6 +30752,16 @@
       "price": 17.1,
       "timestamp": 1795257430.9310815,
       "status": "ACTIVE"
+    },
+    "aniscoupons:35421": {
+      "channel_msg_id": 3393,
+      "product_id": "1005008708333999",
+      "title": "Realme C100d",
+      "channel": "aniscoupons",
+      "source_msg_id": 35421,
+      "price": 138.7,
+      "timestamp": 1795257987.78027,
+      "status": "ACTIVE"
     }
   },
   "schedule_config": {
@@ -30760,17 +30770,17 @@
     "current_interval_minutes": 5,
     "is_paused": false,
     "night_mode_enabled": true,
-    "last_deal_post_time": 1795257435.4777217,
+    "last_deal_post_time": 1795257991.005361,
     "night_start_hour_dz": 0,
     "night_end_hour_dz": 8,
     "night_pause_enabled": true,
-    "last_sweep_time": 1795257800.3282194,
+    "last_sweep_time": 1795257993.4835796,
     "last_sweep_times": {
-      "algeria": 1795257797.784518,
-      "france": 1795257800.3282194
+      "algeria": 1795257990.9524498,
+      "france": 1795257993.4835796
     },
     "last_deal_post_times": {
-      "algeria": 1795257435.4777217
+      "algeria": 1795257991.005361
     }
   },
   "last_coin_reminder_time": 1795241331.112354,
@@ -33646,7 +33656,6 @@
   "published_deals_history": {},
   "settings": {},
   "handled_post_keys": [
-    "aniscoupons:34575",
     "zedstoreonline:39922",
     "aniscoupons:34573",
     "aniscoupons:34574",
@@ -34645,7 +34654,8 @@
     "zedstoreonline:40529",
     "aniscoupons:35418",
     "zedstoreonline:40533",
-    "aniscoupons:35420"
+    "aniscoupons:35420",
+    "zedstoreonline:40535"
   ],
   "last_france_cross_promo_time": 1795236239.730334,
   "next_france_cross_promo_interval_seconds": 209180,
@@ -35378,6 +35388,11 @@
         "channel": "zedstoreonline",
         "ts": 1795251085.0309215,
         "price": 138.0
+      },
+      {
+        "channel": "aniscoupons",
+        "ts": 1795257985.4576461,
+        "price": 138.7
       }
     ],
     "1005010369693975": [
@@ -35491,6 +35506,13 @@
         "channel": "zedstoreonline",
         "ts": 1795257428.4645925,
         "price": 17.1
+      }
+    ],
+    "1005012931209980": [
+      {
+        "channel": "zedstoreonline",
+        "ts": 1795257983.1620152,
+        "price": 277.0
       }
     ]
   },

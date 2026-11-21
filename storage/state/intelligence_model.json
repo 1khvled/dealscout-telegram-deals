@@ -28,7 +28,7 @@
       "ewma": 0.9994
     },
     "zedstoreonline": {
-      "seen": 420,
+      "seen": 421,
       "published": 264,
       "skipped": 0,
       "ewma": 0.9994
@@ -40,8 +40,8 @@
       "ewma": 0.9591
     },
     "aniscoupons": {
-      "seen": 629,
-      "published": 543,
+      "seen": 630,
+      "published": 544,
       "skipped": 0,
       "ewma": 0.9994
     },
@@ -66,8 +66,8 @@
       "ewma": 0.9994
     },
     "phones": {
-      "seen": 410,
-      "published": 274,
+      "seen": 412,
+      "published": 275,
       "skipped": 0,
       "ewma": 0.9994
     },
@@ -562,7 +562,7 @@
       136.7,
       136.7,
       136.7,
-      136.7,
+      138.7,
       138.7,
       138.7
     ],
@@ -1688,31 +1688,15 @@
     ]
   },
   "counters": {
-    "scored": 1300,
-    "verdict_publish": 1246,
+    "scored": 1302,
+    "verdict_publish": 1248,
     "verdict_hold": 53,
     "verdict_skip": 1,
-    "published": 1011,
+    "published": 1012,
     "skipped": 0
   },
-  "score_sum": 95261.83,
+  "score_sum": 95401.32,
   "recent_decisions": [
-    {
-      "ts": 1795081586,
-      "channel": "lodydeals",
-      "category": "pc",
-      "product_id": "1005012138794873",
-      "score": 60.05,
-      "verdict": "publish"
-    },
-    {
-      "ts": 1795081604,
-      "channel": "zedstoreonline",
-      "category": "other",
-      "product_id": "1005010470699571",
-      "score": 76.06,
-      "verdict": "publish"
-    },
     {
       "ts": 1795081616,
       "channel": "bnddeals",
@@ -3296,7 +3280,23 @@
       "product_id": "1005007469003552",
       "score": 79.94,
       "verdict": "publish"
+    },
+    {
+      "ts": 1795257983,
+      "channel": "zedstoreonline",
+      "category": "phones",
+      "product_id": "1005012931209980",
+      "score": 70.75,
+      "verdict": "publish"
+    },
+    {
+      "ts": 1795257985,
+      "channel": "aniscoupons",
+      "category": "phones",
+      "product_id": "1005008708333999",
+      "score": 68.74,
+      "verdict": "publish"
     }
   ],
-  "updated_at": 1795257430.9788857
+  "updated_at": 1795257987.8830113
 }
