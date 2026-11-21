@@ -1560,11 +1560,11 @@
     "1005008534907844": 1793987285.4130383,
     "1005009577554629": 1793987289.8200357,
     "1005010656922924": 1794852924.3222039,
-    "1005008077441711": 1795202414.5446742,
+    "1005008077441711": 1795259816.8338442,
     "1005006411483066": 1794500381.7712336,
     "1005012925301774": 1795085801.1895535,
     "1005012959738411": 1794658966.3702009,
-    "1005008357913212": 1795172302.8704398,
+    "1005008357913212": 1795259822.787355,
     "1005008703989845": 1795250472.1469674,
     "1005007162099601": 1794524556.2538168,
     "1005007038130594": 1794393500.1320646,
@@ -3773,7 +3773,7 @@
     "Fifine Gaming Headset H9W": 1795003471.3645086,
     "Fifine Gaming Headset H6": 1795003476.8317716,
     "HyperX Cloud 3 III Wired Gaming Headset": 1794998780.0409262,
-    "KOOTION SSD SATA": 1795172302.8704398,
+    "KOOTION SSD SATA": 1795259822.787355,
     "ال mouse  الشهيرة رجعت🖱️": 1793966875.5755405,
     "هذون سماعات جدد من   HAYLOU⌚": 1795077914.4967594,
     "HAYLOU WATCH 3 NEW": 1795082325.695245,
@@ -3798,7 +3798,7 @@
     "Realme 15 Pro (12/256GB)": 1794508546.500024,
     "SOUNDPEATS C30 ANC Wireless Earphones": 1794852924.3222039,
     "UGREEN 45W GaN Smart Display Charger": 1793995361.9589899,
-    "Inphic PG1 PG9 RGB Wired Gaming Mouse": 1795202414.5446742,
+    "Inphic PG1 PG9 RGB Wired Gaming Mouse": 1795259816.8338442,
     "realme C100d 4/128GB": 1794950849.6355956,
     "Zeblaze GTS 3 Pro AMOLED": 1794500381.7712336,
     "شاحن سيارة ORICO بقوة 45W": 1795085801.1895535,
@@ -4140,8 +4140,6 @@
     "KOOTION X16 7100MB/s NVMe 512GB": 1795256330.146872
   },
   "published_post_keys": [
-    "aniscoupons:34488",
-    "aniscoupons:34489",
     "aniscoupons:34490",
     "aniscoupons:34494",
     "lodydeals:46351",
@@ -5139,11 +5137,13 @@
     "zedstoreonline:40534",
     "aniscoupons:35421",
     "aniscoupons:35422",
-    "aniscoupons:35423"
+    "aniscoupons:35423",
+    "zedstoreonline:40536",
+    "aniscoupons:35424"
   ],
   "last_disclaimer_time": 1794524540.9476151,
   "last_calendar_time": 1795177633.1203737,
-  "last_run_time": 1795259266.1538367,
+  "last_run_time": 1795259822.787355,
   "monitored_channels": {
     "ecksdeal": {
       "last_message_id": 6116,
@@ -5170,12 +5170,12 @@
       "last_check_time": 1793599663.3444748
     },
     "zedstoreonline": {
-      "last_message_id": 40535,
-      "last_check_time": 1795257983.8405275
+      "last_message_id": 40536,
+      "last_check_time": 1795259818.9350057
     },
     "aniscoupons": {
-      "last_message_id": 35423,
-      "last_check_time": 1795259268.238868
+      "last_message_id": 35424,
+      "last_check_time": 1795259824.8825302
     },
     "bnddeals": {
       "last_message_id": 51382,
@@ -30782,6 +30782,26 @@
       "price": 37.5,
       "timestamp": 1795259266.1538367,
       "status": "ACTIVE"
+    },
+    "zedstoreonline:40536": {
+      "channel_msg_id": 3396,
+      "product_id": "1005008077441711",
+      "title": "Inphic PG1 PG9 RGB Wired Gaming Mouse",
+      "channel": "zedstoreonline",
+      "source_msg_id": 40536,
+      "price": 8.5,
+      "timestamp": 1795259816.8338442,
+      "status": "ACTIVE"
+    },
+    "aniscoupons:35424": {
+      "channel_msg_id": 3397,
+      "product_id": "1005008357913212",
+      "title": "KOOTION SSD SATA",
+      "channel": "aniscoupons",
+      "source_msg_id": 35424,
+      "price": 40.4,
+      "timestamp": 1795259822.787355,
+      "status": "ACTIVE"
     }
   },
   "schedule_config": {
@@ -30790,17 +30810,17 @@
     "current_interval_minutes": 5,
     "is_paused": false,
     "night_mode_enabled": true,
-    "last_deal_post_time": 1795259269.1671808,
+    "last_deal_post_time": 1795259825.8980114,
     "night_start_hour_dz": 0,
     "night_end_hour_dz": 8,
     "night_pause_enabled": true,
-    "last_sweep_time": 1795259642.9874363,
+    "last_sweep_time": 1795259828.4165876,
     "last_sweep_times": {
-      "algeria": 1795259638.5065162,
-      "france": 1795259642.9874363
+      "algeria": 1795259825.8598387,
+      "france": 1795259828.4165876
     },
     "last_deal_post_times": {
-      "algeria": 1795259269.1671808
+      "algeria": 1795259825.8980114
     }
   },
   "last_coin_reminder_time": 1795241331.112354,
@@ -35547,6 +35567,20 @@
         "channel": "aniscoupons",
         "ts": 1795259263.8288753,
         "price": 37.5
+      }
+    ],
+    "1005008077441711": [
+      {
+        "channel": "zedstoreonline",
+        "ts": 1795259814.5231245,
+        "price": 8.5
+      }
+    ],
+    "1005008357913212": [
+      {
+        "channel": "aniscoupons",
+        "ts": 1795259820.5623486,
+        "price": 40.4
       }
     ]
   },
