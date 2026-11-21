@@ -881,7 +881,8 @@
     "1005005430153846",
     "1005012663205752",
     "1005013383203760",
-    "1005010121796649"
+    "1005010121796649",
+    "1005008850261694"
   ],
   "published_product_timestamps": {
     "1005012973772517": 1794500732.7845657,
@@ -1161,7 +1162,7 @@
     "9998882360": 1792162360.6633363,
     "9998882475": 1793282475.663889,
     "9998882568": 1792162568.078144,
-    "1005010369693975": 1795163834.9436953,
+    "1005010369693975": 1795251391.6121745,
     "1005006442452857": 1792166326.0335298,
     "9998886462": 1792166462.200491,
     "1005009948598802": 1793500786.1935658,
@@ -1780,7 +1781,8 @@
     "1005005430153846": 1795249207.7202265,
     "1005012663205752": 1795249213.3989208,
     "1005013383203760": 1795250850.7040482,
-    "1005010121796649": 1795251024.4152784
+    "1005010121796649": 1795251024.4152784,
+    "1005008850261694": 1795251398.024725
   },
   "published_titles": [
     "Wireless WiFi Repeater 300Mbps WiFi Extender Amplifier Booster Router",
@@ -2953,7 +2955,8 @@
     "Anker P20i TWS",
     "Onn 4K Android 13 TV Box",
     "1More  HQ20 Headphones",
-    "Poco X8 5G (6/128GB)"
+    "Poco X8 5G (6/128GB)",
+    "لووووووووووووز HAYLOU"
   ],
   "published_title_timestamps": {
     "Xiaomi Redmi Note 17 5G Global Version": 1790857823.0117362,
@@ -3268,7 +3271,7 @@
     "RYZEN 7 5700X": 1795005702.3191934,
     "Ⓜ BLACKVIEW WAVE 10C (4/32)": 1792160262.8028278,
     "Ⓜ  TCL 60 NXT PAPER 8/256📱": 1792160269.0502243,
-    "HAYLOU Mori Pro ANC": 1795163834.9436953,
+    "HAYLOU Mori Pro ANC": 1795251391.6121745,
     "HAYLOU S30 Wireless Bluetooth 5.4 Headphones 43dB Adaptive Noise": 1792166326.0335298,
     "HAYLOU Watch Faro Voice Calling Smart Watch": 1792360422.5608404,
     "Redmi Note 12 5G 4/128": 1793543770.1912897,
@@ -4131,11 +4134,10 @@
     "Anker P20i TWS": 1795249022.7985642,
     "Onn 4K Android 13 TV Box": 1795249213.3989208,
     "1More  HQ20 Headphones": 1795249218.8314788,
-    "Poco X8 5G (6/128GB)": 1795251024.4152784
+    "Poco X8 5G (6/128GB)": 1795251024.4152784,
+    "لووووووووووووز HAYLOU": 1795251398.024725
   },
   "published_post_keys": [
-    "aniscoupons:34469",
-    "zedstoreonline:39827",
     "lodydeals:46331",
     "lodydeals:46338",
     "aniscoupons:34478",
@@ -5133,11 +5135,13 @@
     "aniscoupons:35408",
     "zedstoreonline:40521",
     "aniscoupons:35409",
-    "aniscoupons:35410"
+    "aniscoupons:35410",
+    "zedstoreonline:40523",
+    "bnddeals:51382"
   ],
   "last_disclaimer_time": 1794524540.9476151,
   "last_calendar_time": 1795177633.1203737,
-  "last_run_time": 1795251024.4152784,
+  "last_run_time": 1795251398.024725,
   "monitored_channels": {
     "ecksdeal": {
       "last_message_id": 6116,
@@ -5164,16 +5168,16 @@
       "last_check_time": 1793599663.3444748
     },
     "zedstoreonline": {
-      "last_message_id": 40522,
-      "last_check_time": 1795251085.7006729
+      "last_message_id": 40523,
+      "last_check_time": 1795251393.7112272
     },
     "aniscoupons": {
-      "last_message_id": 35410,
-      "last_check_time": 1795251026.515264
+      "last_message_id": 35411,
+      "last_check_time": 1795251394.5223877
     },
     "bnddeals": {
-      "last_message_id": 51381,
-      "last_check_time": 1795251205.0096157
+      "last_message_id": 51382,
+      "last_check_time": 1795251400.1190479
     }
   },
   "published_product_prices": {
@@ -5950,7 +5954,8 @@
     "1005005430153846": 7.08,
     "1005012663205752": 31.05,
     "1005013383203760": 186.7,
-    "1005010121796649": 217.8
+    "1005010121796649": 217.8,
+    "1005008850261694": 30.3
   },
   "channel_published_deals": {
     "aniscoupons:32590": {
@@ -30615,6 +30620,26 @@
       "price": 217.8,
       "timestamp": 1795251024.4152784,
       "status": "ACTIVE"
+    },
+    "zedstoreonline:40523": {
+      "channel_msg_id": 3380,
+      "product_id": "1005010369693975",
+      "title": "HAYLOU Mori Pro ANC",
+      "channel": "zedstoreonline",
+      "source_msg_id": 40523,
+      "price": 10.9,
+      "timestamp": 1795251391.6121745,
+      "status": "ACTIVE"
+    },
+    "bnddeals:51382": {
+      "channel_msg_id": 3381,
+      "product_id": "1005008850261694",
+      "title": "لووووووووووووز HAYLOU",
+      "channel": "bnddeals",
+      "source_msg_id": 51382,
+      "price": 30.3,
+      "timestamp": 1795251398.024725,
+      "status": "ACTIVE"
     }
   },
   "schedule_config": {
@@ -30623,17 +30648,17 @@
     "current_interval_minutes": 5,
     "is_paused": false,
     "night_mode_enabled": true,
-    "last_deal_post_time": 1795251027.5435913,
+    "last_deal_post_time": 1795251400.205938,
     "night_start_hour_dz": 0,
     "night_end_hour_dz": 8,
     "night_pause_enabled": true,
-    "last_sweep_time": 1795251207.9221132,
+    "last_sweep_time": 1795251402.6391897,
     "last_sweep_times": {
-      "algeria": 1795251205.0427773,
-      "france": 1795251207.9221132
+      "algeria": 1795251400.163974,
+      "france": 1795251402.6391897
     },
     "last_deal_post_times": {
-      "algeria": 1795251027.5435913
+      "algeria": 1795251400.205938
     }
   },
   "last_coin_reminder_time": 1795241331.112354,
@@ -31529,7 +31554,8 @@
     "1005005430153846": "lodydeals",
     "1005012663205752": "lodydeals",
     "1005013383203760": "aniscoupons",
-    "1005010121796649": "aniscoupons"
+    "1005010121796649": "aniscoupons",
+    "1005008850261694": "bnddeals"
   },
   "published_title_channels": {
     "Test Wrench Set": "test_channel",
@@ -32708,7 +32734,8 @@
     "Anker P20i TWS": "lodydeals",
     "Onn 4K Android 13 TV Box": "lodydeals",
     "1More  HQ20 Headphones": "lodydeals",
-    "Poco X8 5G (6/128GB)": "aniscoupons"
+    "Poco X8 5G (6/128GB)": "aniscoupons",
+    "لووووووووووووز HAYLOU": "bnddeals"
   },
   "religious_reminders_history": {
     "mock_rem": "2026-10-02",
@@ -33506,7 +33533,6 @@
   "published_deals_history": {},
   "settings": {},
   "handled_post_keys": [
-    "zedstoreonline:39917",
     "aniscoupons:34562",
     "zedstoreonline:39918",
     "aniscoupons:34564",
@@ -34505,7 +34531,8 @@
     "zedstoreonline:40520",
     "lodydeals:46757",
     "zedstoreonline:40522",
-    "bnddeals:51381"
+    "bnddeals:51381",
+    "aniscoupons:35411"
   ],
   "last_france_cross_promo_time": 1795236239.730334,
   "next_france_cross_promo_interval_seconds": 209180,
@@ -35255,6 +35282,13 @@
         "channel": "zedstoreonline",
         "ts": 1795251085.0309215,
         "price": 138.0
+      }
+    ],
+    "1005010369693975": [
+      {
+        "channel": "zedstoreonline",
+        "ts": 1795251389.0876982,
+        "price": 10.9
       }
     ]
   },
