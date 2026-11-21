@@ -932,7 +932,7 @@
     "9998883531": 1790943531.551938,
     "1005010111014453": 1790943633.9774187,
     "1005009828161174": 1791031550.2120771,
-    "1005009281115306": 1795182497.0644763,
+    "1005009281115306": 1795249016.9005632,
     "1005011797801269": 1791203753.790013,
     "1005007168829266": 1795081619.0346873,
     "1005012406142215": 1795023191.9944189,
@@ -1250,7 +1250,7 @@
     "9998882843": 1793282843.2823777,
     "9998883032": 1793283032.609285,
     "1005011638526553": 1793543747.3776598,
-    "1005010266487244": 1793448791.1740308,
+    "1005010266487244": 1795249027.928314,
     "1005010207075594": 1793299454.8390412,
     "1005013351519067": 1793448628.3734028,
     "1005012484784752": 1795119213.875791,
@@ -1320,8 +1320,8 @@
     "1005012931209980": 1794678546.0543764,
     "1005011820893973": 1793540051.7895243,
     "1005009073904302": 1795164751.799644,
-    "1005009916208760": 1795183546.9104183,
-    "1005010033441204": 1795180445.582193,
+    "1005009916208760": 1795249011.22468,
+    "1005010033441204": 1795249022.7985642,
     "1005008356663932": 1793707052.9762022,
     "1005010074161953": 1793543659.5887568,
     "1005010498953493": 1794948087.9126022,
@@ -1660,7 +1660,7 @@
     "1005013288890301": 1794477157.5349603,
     "1005013089015192": 1795185813.1399975,
     "1005009278114794": 1794647237.7084959,
-    "1005010210432531": 1795211052.267421,
+    "1005010210432531": 1795249035.7578309,
     "1005013422894128": 1794487083.9711623,
     "1005010297094897": 1794657082.5305285,
     "1005009012821000": 1794502225.0175712,
@@ -2941,7 +2941,8 @@
     "1More HQ20 SonoFlow MINI Hearing",
     "JGINYUE B650M AURORA",
     "Redmi Note 17 4G (6/128GB)",
-    "Machenike G7 Gaming Mouse"
+    "Machenike G7 Gaming Mouse",
+    "Anker P20i TWS"
   ],
   "published_title_timestamps": {
     "Xiaomi Redmi Note 17 5G Global Version": 1790857823.0117362,
@@ -3002,7 +3003,7 @@
     "سماعات اذن فخمة  Moondrop Chu 3 IEM": 1795027703.9087646,
     "4G LTE Wireless USB 150Mbps": 1794057675.8729835,
     "Curren 8455 Men's Quartz": 1790943640.1460688,
-    "ATTACK SHARK X11SE": 1795125230.187759,
+    "ATTACK SHARK X11SE": 1795249016.9005632,
     "CMF Watch 3 Pro AMOLED": 1794067316.3057165,
     "Redmi Note 17 5G   6/256": 1790943667.90417,
     "Baseus USB Type C Charger 20W": 1791102355.4991398,
@@ -3241,7 +3242,7 @@
     "GameSir GM500 PMW33600 Gaming Mouse": 1792087147.0923955,
     "Honor 600S 5G 12/256GB": 1792091791.0211077,
     "Realme P3 Lite 4G 4/128GB": 1792097839.1553843,
-    "Anker 511 Nano Pro 30W": 1792103182.8885217,
+    "Anker 511 Nano Pro 30W": 1795249027.928314,
     "Anker Nano 3 Pro 45W GaN": 1792103193.622027,
     "POCO X8 5G 6/128GB": 1793542379.417902,
     "Blackview Wave 10": 1794437138.1462939,
@@ -3555,7 +3556,7 @@
     "Realme Pad 3  8/256GB": 1793543961.1645148,
     "Lenovo Xiaoxin Pro 13 8/128GB": 1793543976.0151808,
     "Lenovo Xiaoxin Pad Pro 2025": 1793543981.0397952,
-    "Magcubic HY300 Max 400ANSI": 1794863209.9434927,
+    "Magcubic HY300 Max 400ANSI": 1795249011.22468,
     "FIFINE H9 7.1 Surround Gaming": 1793543992.7069333,
     "Realme 15 5G 12/256GB": 1793544001.8628821,
     "Redmi 17 4G 4/128GB": 1793544011.7179348,
@@ -3946,7 +3947,7 @@
     "FIFINE 1440p Full HD PC Webcam with Microphone": 1794650936.0000904,
     "iQOO Z11S 8/128": 1794647055.558841,
     "Inphic A9 PRO MAX Wireless Gaming Mouse": 1794647237.7084959,
-    "realme P4 Lite Smartphone NFC 6300mAh Battery": 1795211052.267421,
+    "realme P4 Lite Smartphone NFC 6300mAh Battery": 1795249035.7578309,
     "Honor Win RT2": 1794487083.9711623,
     "MCHOSE A7 V3 Pro": 1794657082.5305285,
     "سماعات Fifine Ampligame H6 7.1 RGB": 1795182121.6502924,
@@ -4115,14 +4116,10 @@
     "1More HQ20 SonoFlow MINI Hearing": 1795196136.7491949,
     "JGINYUE B650M AURORA": 1795200031.7838972,
     "Redmi Note 17 4G (6/128GB)": 1795200037.561095,
-    "Machenike G7 Gaming Mouse": 1795204239.9976652
+    "Machenike G7 Gaming Mouse": 1795204239.9976652,
+    "Anker P20i TWS": 1795249022.7985642
   },
   "published_post_keys": [
-    "bnddeals:51265",
-    "aniscoupons:34443",
-    "aniscoupons:34444",
-    "lodydeals:46323",
-    "lodydeals:46325",
     "aniscoupons:34446",
     "aniscoupons:34448",
     "aniscoupons:34450",
@@ -5117,11 +5114,16 @@
     "zedstoreonline:40511",
     "aniscoupons:35399",
     "aniscoupons:35400",
-    "aniscoupons:35401"
+    "aniscoupons:35401",
+    "lodydeals:46737",
+    "lodydeals:46740",
+    "lodydeals:46742",
+    "lodydeals:46743",
+    "aniscoupons:35403"
   ],
   "last_disclaimer_time": 1794524540.9476151,
   "last_calendar_time": 1795177633.1203737,
-  "last_run_time": 1795213678.186103,
+  "last_run_time": 1795249035.7578309,
   "monitored_channels": {
     "ecksdeal": {
       "last_message_id": 6116,
@@ -5129,7 +5131,7 @@
     },
     "lodydeals": {
       "last_message_id": 46753,
-      "last_check_time": 1795216800.4163828
+      "last_check_time": 1795249027.928314
     },
     "test_channel": {
       "last_message_id": 1793967703,
@@ -5152,8 +5154,8 @@
       "last_check_time": 1795248641.122056
     },
     "aniscoupons": {
-      "last_message_id": 35402,
-      "last_check_time": 1795217901.0876925
+      "last_message_id": 35403,
+      "last_check_time": 1795249037.8496726
     },
     "bnddeals": {
       "last_message_id": 51380,
@@ -5211,7 +5213,7 @@
     "1005012968221708": 20.2,
     "1005010111014453": 6.09,
     "1005009828161174": 7.62,
-    "1005009281115306": 12.73,
+    "1005009281115306": 13.61,
     "1005011797801269": 55.78,
     "1005007168829266": 16.5,
     "1005012406142215": 366.31,
@@ -5383,7 +5385,7 @@
     "1005013137396211": 316.0,
     "1005012575455222": 129.8,
     "1005010210432531": 133.8,
-    "1005010266487244": 12.95,
+    "1005010266487244": 25.6,
     "1005011904443903": 92.0,
     "1005010112746583": 47.9,
     "1005012671337268": 4.02,
@@ -5513,8 +5515,8 @@
     "1005012931209980": 272.04,
     "1005011820893973": 690.0,
     "1005009073904302": 228.3,
-    "1005009916208760": 81.8,
-    "1005010033441204": 14.5,
+    "1005009916208760": 84.35,
+    "1005010033441204": 14.6,
     "1005008356663932": 355.5,
     "1005010074161953": 130.08,
     "1005010498953493": 51.15,
@@ -30395,6 +30397,56 @@
       "price": 49.3,
       "timestamp": 1795213678.186103,
       "status": "ACTIVE"
+    },
+    "lodydeals:46737": {
+      "channel_msg_id": 3360,
+      "product_id": "1005009916208760",
+      "title": "Magcubic HY300 Max 400ANSI",
+      "channel": "lodydeals",
+      "source_msg_id": 46737,
+      "price": 84.35,
+      "timestamp": 1795249011.22468,
+      "status": "ACTIVE"
+    },
+    "lodydeals:46740": {
+      "channel_msg_id": 3361,
+      "product_id": "1005009281115306",
+      "title": "ATTACK SHARK X11SE",
+      "channel": "lodydeals",
+      "source_msg_id": 46740,
+      "price": 13.61,
+      "timestamp": 1795249016.9005632,
+      "status": "ACTIVE"
+    },
+    "lodydeals:46742": {
+      "channel_msg_id": 3362,
+      "product_id": "1005010033441204",
+      "title": "Anker P20i TWS",
+      "channel": "lodydeals",
+      "source_msg_id": 46742,
+      "price": 14.6,
+      "timestamp": 1795249022.7985642,
+      "status": "ACTIVE"
+    },
+    "lodydeals:46743": {
+      "channel_msg_id": 3363,
+      "product_id": "1005010266487244",
+      "title": "Anker 511 Nano Pro 30W",
+      "channel": "lodydeals",
+      "source_msg_id": 46743,
+      "price": 25.6,
+      "timestamp": 1795249027.928314,
+      "status": "ACTIVE"
+    },
+    "aniscoupons:35403": {
+      "channel_msg_id": 3364,
+      "product_id": "1005010210432531",
+      "title": "realme P4 Lite Smartphone NFC 6300mAh Battery",
+      "channel": "aniscoupons",
+      "source_msg_id": 35403,
+      "price": 133.8,
+      "timestamp": 1795249035.7578309,
+      "status": "ACTIVE"
     }
   },
   "schedule_config": {
@@ -30403,17 +30455,17 @@
     "current_interval_minutes": 5,
     "is_paused": false,
     "night_mode_enabled": true,
-    "last_deal_post_time": 1795213681.3376188,
+    "last_deal_post_time": 1795249038.8650668,
     "night_start_hour_dz": 0,
     "night_end_hour_dz": 8,
     "night_pause_enabled": true,
-    "last_sweep_time": 1795248829.2026355,
+    "last_sweep_time": 1795249041.9109974,
     "last_sweep_times": {
-      "algeria": 1795248826.3544357,
-      "france": 1795248829.2026355
+      "algeria": 1795249038.8225877,
+      "france": 1795249041.9109974
     },
     "last_deal_post_times": {
-      "algeria": 1795213681.3376188
+      "algeria": 1795249038.8650668
     }
   },
   "last_coin_reminder_time": 1795241331.112354,
@@ -30444,7 +30496,7 @@
     "9998883531": "test_channel",
     "1005010111014453": "lodydeals",
     "1005009828161174": "couponsglobal",
-    "1005009281115306": "ecksdeal",
+    "1005009281115306": "lodydeals",
     "1005011797801269": "couponsglobal",
     "1005012973772517": "lodydeals",
     "1005007168829266": "bnddeals",
@@ -30685,7 +30737,7 @@
     "1005010210432531": "aniscoupons",
     "9998888020": "test_channel",
     "9998888253": "test_channel",
-    "1005010266487244": "bnddeals",
+    "1005010266487244": "lodydeals",
     "9998888342": "test_channel",
     "9998889399": "test_channel",
     "999888177": "test_channel",
@@ -30868,8 +30920,8 @@
     "1005012931209980": "lodydeals",
     "1005011820893973": "megaphonna",
     "1005009073904302": "zedstoreonline",
-    "1005009916208760": "zedstoreonline",
-    "1005010033441204": "bnddeals",
+    "1005009916208760": "lodydeals",
+    "1005010033441204": "lodydeals",
     "1005008356663932": "lodydeals",
     "1005010074161953": "lodydeals",
     "1005010498953493": "aniscoupons",
@@ -31329,7 +31381,7 @@
     "سماعات اذن فخمة  Moondrop Chu 3 IEM": "ecksdeal",
     "4G LTE Wireless USB 150Mbps": "lodydeals",
     "Curren 8455 Men's Quartz": "lodydeals",
-    "ATTACK SHARK X11SE": "zedstoreonline",
+    "ATTACK SHARK X11SE": "lodydeals",
     "CMF Watch 3 Pro AMOLED": "lodydeals",
     "Redmi Note 17 5G   6/256": "zedstoreonline",
     "Baseus USB Type C Charger 20W": "aniscoupons",
@@ -32480,7 +32532,8 @@
     "1More HQ20 SonoFlow MINI Hearing": "bnddeals",
     "JGINYUE B650M AURORA": "aniscoupons",
     "Redmi Note 17 4G (6/128GB)": "aniscoupons",
-    "Machenike G7 Gaming Mouse": "bnddeals"
+    "Machenike G7 Gaming Mouse": "bnddeals",
+    "Anker P20i TWS": "lodydeals"
   },
   "religious_reminders_history": {
     "mock_rem": "2026-10-02",
@@ -33278,11 +33331,6 @@
   "published_deals_history": {},
   "settings": {},
   "handled_post_keys": [
-    "aniscoupons:34547",
-    "aniscoupons:34549",
-    "lodydeals:46370",
-    "zedstoreonline:39909",
-    "aniscoupons:34551",
     "zedstoreonline:39911",
     "aniscoupons:34552",
     "zedstoreonline:39912",
@@ -34277,7 +34325,12 @@
     "zedstoreonline:40512",
     "aniscoupons:35402",
     "zedstoreonline:40513",
-    "zedstoreonline:40514"
+    "zedstoreonline:40514",
+    "lodydeals:46734",
+    "lodydeals:46736",
+    "lodydeals:46738",
+    "lodydeals:46739",
+    "lodydeals:46741"
   ],
   "last_france_cross_promo_time": 1795236239.730334,
   "next_france_cross_promo_interval_seconds": 209180,
@@ -34874,6 +34927,11 @@
         "channel": "aniscoupons",
         "ts": 1795211049.921723,
         "price": 133.8
+      },
+      {
+        "channel": "aniscoupons",
+        "ts": 1795249033.0673184,
+        "price": 133.8
       }
     ],
     "1005008645323478": [
@@ -34923,6 +34981,34 @@
         "channel": "zedstoreonline",
         "ts": 1795248640.462337,
         "price": 4.1
+      }
+    ],
+    "1005009916208760": [
+      {
+        "channel": "lodydeals",
+        "ts": 1795249008.5766373,
+        "price": 84.35
+      }
+    ],
+    "1005009281115306": [
+      {
+        "channel": "lodydeals",
+        "ts": 1795249014.4329948,
+        "price": 13.61
+      }
+    ],
+    "1005010033441204": [
+      {
+        "channel": "lodydeals",
+        "ts": 1795249020.1297092,
+        "price": 14.6
+      }
+    ],
+    "1005010266487244": [
+      {
+        "channel": "lodydeals",
+        "ts": 1795249025.5017633,
+        "price": 25.6
       }
     ]
   },
