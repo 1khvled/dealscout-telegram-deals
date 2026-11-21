@@ -900,7 +900,7 @@
     "9998887952": 1790887952.6119926,
     "9998887972": 1790887972.157133,
     "100500777666555": 1793956903.3513582,
-    "1005011778621042": 1795166773.5390282,
+    "1005011778621042": 1795254692.1958745,
     "9998888080": 1790888080.3099577,
     "1005009234854371": 1793543664.66204,
     "1005006533038973": 1791104468.758226,
@@ -3268,7 +3268,7 @@
     "Honor X60 GT 12/256GB": 1792157902.7999656,
     "EasySMX X05 Pro Wireless Gamepad PC Controller": 1792157910.2543087,
     "MACHENIKE G5Pro Max SE Gaming Controller With Charging Dock": 1792157933.6814291,
-    "RYZEN 7 5700X": 1795005702.3191934,
+    "RYZEN 7 5700X": 1795254692.1958745,
     "Ⓜ BLACKVIEW WAVE 10C (4/32)": 1792160262.8028278,
     "Ⓜ  TCL 60 NXT PAPER 8/256📱": 1792160269.0502243,
     "HAYLOU Mori Pro ANC": 1795251391.6121745,
@@ -4138,7 +4138,6 @@
     "لووووووووووووز HAYLOU": 1795251398.024725
   },
   "published_post_keys": [
-    "aniscoupons:34480",
     "aniscoupons:34481",
     "aniscoupons:34482",
     "lodydeals:46345",
@@ -5137,11 +5136,12 @@
     "bnddeals:51382",
     "zedstoreonline:40524",
     "aniscoupons:35412",
-    "aniscoupons:35414"
+    "aniscoupons:35414",
+    "aniscoupons:35415"
   ],
   "last_disclaimer_time": 1794524540.9476151,
   "last_calendar_time": 1795177633.1203737,
-  "last_run_time": 1795253775.2319088,
+  "last_run_time": 1795254692.1958745,
   "monitored_channels": {
     "ecksdeal": {
       "last_message_id": 6116,
@@ -5168,12 +5168,12 @@
       "last_check_time": 1793599663.3444748
     },
     "zedstoreonline": {
-      "last_message_id": 40527,
-      "last_check_time": 1795253770.6577532
+      "last_message_id": 40528,
+      "last_check_time": 1795254685.6537302
     },
     "aniscoupons": {
-      "last_message_id": 35414,
-      "last_check_time": 1795253777.3312144
+      "last_message_id": 35415,
+      "last_check_time": 1795254694.269975
     },
     "bnddeals": {
       "last_message_id": 51382,
@@ -30670,6 +30670,16 @@
       "price": 20.9,
       "timestamp": 1795253775.2319088,
       "status": "ACTIVE"
+    },
+    "aniscoupons:35415": {
+      "channel_msg_id": 3385,
+      "product_id": "1005011778621042",
+      "title": "RYZEN 7 5700X",
+      "channel": "aniscoupons",
+      "source_msg_id": 35415,
+      "price": 119.5,
+      "timestamp": 1795254692.1958745,
+      "status": "ACTIVE"
     }
   },
   "schedule_config": {
@@ -30678,17 +30688,17 @@
     "current_interval_minutes": 5,
     "is_paused": false,
     "night_mode_enabled": true,
-    "last_deal_post_time": 1795253778.4677837,
+    "last_deal_post_time": 1795254695.3034298,
     "night_start_hour_dz": 0,
     "night_end_hour_dz": 8,
     "night_pause_enabled": true,
-    "last_sweep_time": 1795254519.06954,
+    "last_sweep_time": 1795254697.9790292,
     "last_sweep_times": {
-      "algeria": 1795254515.8120887,
-      "france": 1795254519.06954
+      "algeria": 1795254695.256007,
+      "france": 1795254697.9790292
     },
     "last_deal_post_times": {
-      "algeria": 1795253778.4677837
+      "algeria": 1795254695.3034298
     }
   },
   "last_coin_reminder_time": 1795241331.112354,
@@ -30841,7 +30851,7 @@
     "1005007345108759": "ecksdeal",
     "1005007394028808": "lodydeals",
     "1005007394197021": "lodydeals",
-    "1005011778621042": "zedstoreonline",
+    "1005011778621042": "aniscoupons",
     "1005012571601398": "aniscoupons",
     "1005013290515237": "aniscoupons",
     "1005012264415744": "megaphonna",
@@ -33563,7 +33573,6 @@
   "published_deals_history": {},
   "settings": {},
   "handled_post_keys": [
-    "lodydeals:46375",
     "lodydeals:46376",
     "lodydeals:46377",
     "lodydeals:46379",
@@ -34562,7 +34571,8 @@
     "zedstoreonline:40525",
     "zedstoreonline:40526",
     "aniscoupons:35413",
-    "zedstoreonline:40527"
+    "zedstoreonline:40527",
+    "zedstoreonline:40528"
   ],
   "last_france_cross_promo_time": 1795236239.730334,
   "next_france_cross_promo_interval_seconds": 209180,
@@ -35157,11 +35167,6 @@
     "1005010210432531": [
       {
         "channel": "aniscoupons",
-        "ts": 1795211049.921723,
-        "price": 133.8
-      },
-      {
-        "channel": "aniscoupons",
         "ts": 1795249033.0673184,
         "price": 133.8
       },
@@ -35340,6 +35345,20 @@
         "channel": "aniscoupons",
         "ts": 1795253772.6217208,
         "price": 20.9
+      }
+    ],
+    "1005012574108028": [
+      {
+        "channel": "zedstoreonline",
+        "ts": 1795254685.093597,
+        "price": 272.0
+      }
+    ],
+    "1005011778621042": [
+      {
+        "channel": "aniscoupons",
+        "ts": 1795254689.4804127,
+        "price": 119.5
       }
     ]
   },
