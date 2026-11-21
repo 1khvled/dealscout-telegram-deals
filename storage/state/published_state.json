@@ -1684,7 +1684,7 @@
     "1005012783197164": 1794606646.2896297,
     "1005012993724126": 1794515920.3397443,
     "1005012726037568": 1795267592.0773335,
-    "1005011940143389": 1794524364.21287,
+    "1005011940143389": 1795291139.3742876,
     "1005010374799328": 1794524370.7043138,
     "1005010487219975": 1794524381.8060858,
     "1005005277901494": 1794563997.9172754,
@@ -4008,7 +4008,7 @@
     "realme Original Adapter SUPERVOOC Charger 45W": 1795286867.9281676,
     "EPOMAKER GX1 Tri-mode": 1794606646.2896297,
     "WALRAM M.2  128GB": 1794515920.3397443,
-    "Portable Magnetic Phone": 1794524364.21287,
+    "Portable Magnetic Phone": 1795291139.3742876,
     "QCY T13 ENC Earphone": 1794524375.306614,
     "Retro Bronze Embossed": 1794524381.8060858,
     "تخزين Kootion X12 Sata SSD": 1794531406.8053942,
@@ -4186,7 +4186,6 @@
     "500mL Water Bottle": 1795290738.086464
   },
   "published_post_keys": [
-    "aniscoupons:34528",
     "zedstoreonline:39892",
     "zedstoreonline:39894",
     "zedstoreonline:39896",
@@ -5185,19 +5184,20 @@
     "lodydeals:46783",
     "lodydeals:46785",
     "lodydeals:46786",
-    "lodydeals:46787"
+    "lodydeals:46787",
+    "lodydeals:46788"
   ],
   "last_disclaimer_time": 1794524540.9476151,
   "last_calendar_time": 1795177633.1203737,
-  "last_run_time": 1795290738.086464,
+  "last_run_time": 1795291139.3742876,
   "monitored_channels": {
     "ecksdeal": {
       "last_message_id": 6119,
       "last_check_time": 1795282395.5364728
     },
     "lodydeals": {
-      "last_message_id": 46787,
-      "last_check_time": 1795290740.1700573
+      "last_message_id": 46788,
+      "last_check_time": 1795291141.4470992
     },
     "test_channel": {
       "last_message_id": 1793967703,
@@ -5896,7 +5896,7 @@
     "1005012783197164": 36.46,
     "1005012993724126": 15.6,
     "1005012726037568": 7.5,
-    "1005011940143389": 3.48,
+    "1005011940143389": 3.89,
     "1005010374799328": 10.49,
     "1005010487219975": 5.49,
     "1005005277901494": 13.44,
@@ -31198,6 +31198,16 @@
       "price": 4.09,
       "timestamp": 1795290738.086464,
       "status": "ACTIVE"
+    },
+    "lodydeals:46788": {
+      "channel_msg_id": 3434,
+      "product_id": "1005011940143389",
+      "title": "Portable Magnetic Phone",
+      "channel": "lodydeals",
+      "source_msg_id": 46788,
+      "price": 3.89,
+      "timestamp": 1795291139.3742876,
+      "status": "ACTIVE"
     }
   },
   "schedule_config": {
@@ -31206,17 +31216,17 @@
     "current_interval_minutes": 5,
     "is_paused": false,
     "night_mode_enabled": true,
-    "last_deal_post_time": 1795290743.2977672,
+    "last_deal_post_time": 1795291144.3455553,
     "night_start_hour_dz": 0,
     "night_end_hour_dz": 8,
     "night_pause_enabled": true,
-    "last_sweep_time": 1795290745.8693347,
+    "last_sweep_time": 1795291146.817664,
     "last_sweep_times": {
-      "algeria": 1795290743.264212,
-      "france": 1795290745.8693347
+      "algeria": 1795291144.3137445,
+      "france": 1795291146.817664
     },
     "last_deal_post_times": {
-      "algeria": 1795290743.2977672
+      "algeria": 1795291144.3455553
     }
   },
   "last_coin_reminder_time": 1795241331.112354,
@@ -36203,6 +36213,13 @@
         "channel": "lodydeals",
         "ts": 1795290148.9577093,
         "price": 2.89
+      }
+    ],
+    "1005011940143389": [
+      {
+        "channel": "lodydeals",
+        "ts": 1795291136.875342,
+        "price": 3.89
       }
     ]
   },
