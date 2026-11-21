@@ -911,7 +911,7 @@
     "9998887952": 1790887952.6119926,
     "9998887972": 1790887972.157133,
     "100500777666555": 1793956903.3513582,
-    "1005011778621042": 1795274745.8868842,
+    "1005011778621042": 1795292660.5399654,
     "9998888080": 1790888080.3099577,
     "1005009234854371": 1793543664.66204,
     "1005006533038973": 1791104468.758226,
@@ -3171,7 +3171,7 @@
     "ATTACK SHARK X5": 1791106544.154073,
     "ATTACK SHARK X2 Pro": 1791106853.9447496,
     "ATTACK SHARK L80PRO Ultralight": 1791107750.295487,
-    "AMD Ryzen 7 5700X": 1795274745.8868842,
+    "AMD Ryzen 7 5700X": 1795292660.5399654,
     "هاتف ينسيك في شارجور🤣🤣": 1791109857.5190113,
     "CMF Smart Watch 3 pro AMOLED": 1795270898.894993,
     "ATTACK SHARK V6 Tri-Mode": 1791110751.0808105,
@@ -4186,7 +4186,6 @@
     "500mL Water Bottle": 1795290738.086464
   },
   "published_post_keys": [
-    "zedstoreonline:39896",
     "aniscoupons:34532",
     "aniscoupons:34534",
     "zedstoreonline:39898",
@@ -5185,11 +5184,12 @@
     "lodydeals:46787",
     "lodydeals:46788",
     "lodydeals:46789",
-    "aniscoupons:35446"
+    "aniscoupons:35446",
+    "zedstoreonline:40549"
   ],
   "last_disclaimer_time": 1794524540.9476151,
   "last_calendar_time": 1795177633.1203737,
-  "last_run_time": 1795292292.1067379,
+  "last_run_time": 1795292660.5399654,
   "monitored_channels": {
     "ecksdeal": {
       "last_message_id": 6119,
@@ -5216,8 +5216,8 @@
       "last_check_time": 1793599663.3444748
     },
     "zedstoreonline": {
-      "last_message_id": 40548,
-      "last_check_time": 1795290167.1120696
+      "last_message_id": 40549,
+      "last_check_time": 1795292662.6409585
     },
     "aniscoupons": {
       "last_message_id": 35446,
@@ -5242,7 +5242,7 @@
     "1005007279793099": 13.7,
     "1005008829227075": 24.76,
     "100500777666555": 20.0,
-    "1005011778621042": 119.59,
+    "1005011778621042": 119.5,
     "1005012312990781": 92.31,
     "1005009234854371": 13.3,
     "1005006533038973": 21.81,
@@ -31228,6 +31228,16 @@
       "price": 138.7,
       "timestamp": 1795292292.1067379,
       "status": "ACTIVE"
+    },
+    "zedstoreonline:40549": {
+      "channel_msg_id": 3437,
+      "product_id": "1005011778621042",
+      "title": "AMD Ryzen 7 5700X",
+      "channel": "zedstoreonline",
+      "source_msg_id": 40549,
+      "price": 119.5,
+      "timestamp": 1795292660.5399654,
+      "status": "ACTIVE"
     }
   },
   "schedule_config": {
@@ -31236,17 +31246,17 @@
     "current_interval_minutes": 5,
     "is_paused": false,
     "night_mode_enabled": true,
-    "last_deal_post_time": 1795292295.5359385,
+    "last_deal_post_time": 1795292664.714963,
     "night_start_hour_dz": 0,
     "night_end_hour_dz": 8,
     "night_pause_enabled": true,
-    "last_sweep_time": 1795292467.2291248,
+    "last_sweep_time": 1795292667.8602402,
     "last_sweep_times": {
-      "algeria": 1795292464.6255333,
-      "france": 1795292467.2291248
+      "algeria": 1795292664.6715958,
+      "france": 1795292667.8602402
     },
     "last_deal_post_times": {
-      "algeria": 1795292295.5359385
+      "algeria": 1795292664.714963
     }
   },
   "last_coin_reminder_time": 1795241331.112354,
@@ -31399,7 +31409,7 @@
     "1005007345108759": "ecksdeal",
     "1005007394028808": "lodydeals",
     "1005007394197021": "lodydeals",
-    "1005011778621042": "lodydeals",
+    "1005011778621042": "zedstoreonline",
     "1005012571601398": "aniscoupons",
     "1005013290515237": "aniscoupons",
     "1005012264415744": "megaphonna",
@@ -32314,7 +32324,7 @@
     "ATTACK SHARK X5": "aniscoupons",
     "ATTACK SHARK X2 Pro": "aniscoupons",
     "ATTACK SHARK L80PRO Ultralight": "aniscoupons",
-    "AMD Ryzen 7 5700X": "lodydeals",
+    "AMD Ryzen 7 5700X": "zedstoreonline",
     "Attack Shark L80 Tri-mode": "lodydeals",
     "هاتف ينسيك في شارجور🤣🤣": "aniscoupons",
     "CMF Smart Watch 3 pro AMOLED": "aniscoupons",
@@ -35742,19 +35752,7 @@
         "price": 41.8
       }
     ],
-    "1005007027334636": [
-      {
-        "channel": "lodydeals",
-        "ts": 1795249380.331449,
-        "price": 31.07
-      }
-    ],
     "1005008518280704": [
-      {
-        "channel": "aniscoupons",
-        "ts": 1795249228.7528512,
-        "price": 177.3
-      },
       {
         "channel": "zedstoreonline",
         "ts": 1795250468.0988128,
@@ -35780,35 +35778,9 @@
     ],
     "1005010413332383": [
       {
-        "channel": "lodydeals",
-        "ts": 1795249191.0044646,
-        "price": 338.22
-      },
-      {
         "channel": "ecksdeal",
         "ts": 1795282386.279049,
         "price": 338.24
-      }
-    ],
-    "1005010485068924": [
-      {
-        "channel": "lodydeals",
-        "ts": 1795249196.6862602,
-        "price": 22.4
-      }
-    ],
-    "1005008358599837": [
-      {
-        "channel": "lodydeals",
-        "ts": 1795249216.450598,
-        "price": 21.8
-      }
-    ],
-    "1005012374550298": [
-      {
-        "channel": "lodydeals",
-        "ts": 1795249221.9430623,
-        "price": 15.6
       }
     ],
     "1005013361453762": [
@@ -35950,6 +35922,11 @@
         "channel": "lodydeals",
         "ts": 1795274743.426176,
         "price": 119.59
+      },
+      {
+        "channel": "zedstoreonline",
+        "ts": 1795292657.7641785,
+        "price": 119.5
       }
     ],
     "1005013480169843": [
