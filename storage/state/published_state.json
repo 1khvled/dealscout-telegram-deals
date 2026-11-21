@@ -887,7 +887,8 @@
     "COUPONS_67c5d85c35f4",
     "1005013612885095",
     "1005009120961416",
-    "1005006460821282"
+    "1005006460821282",
+    "1005007038424043"
   ],
   "published_product_timestamps": {
     "1005012973772517": 1794500732.7845657,
@@ -1754,7 +1755,7 @@
     "1005009354317262": 1795079588.3610423,
     "1005007721842895": 1795083426.9610174,
     "1005012325373696": 1795249746.4902642,
-    "1005012929627900": 1795167145.0122104,
+    "1005012929627900": 1795283256.2680137,
     "1005009465190932": 1795095306.94495,
     "1005013270397194": 1795096787.4537058,
     "1005013611971758": 1795097142.4984226,
@@ -1769,7 +1770,7 @@
     "1005012274502051": 1795253775.2319088,
     "1005013603023857": 1795112692.4915283,
     "1005009693337727": 1795113429.7687285,
-    "1005013497504096": 1795134132.9931045,
+    "1005013497504096": 1795283264.8493018,
     "1005013482874428": 1795258532.9191153,
     "1005013354356242": 1795182504.6024845,
     "1005013117620640": 1795183540.495267,
@@ -1794,7 +1795,8 @@
     "COUPONS_Black Friday & Cyber Monday": 1795275291.651658,
     "1005013612885095": 1795282393.4390564,
     "1005009120961416": 1795282412.584454,
-    "1005006460821282": 1795282419.1354063
+    "1005006460821282": 1795282419.1354063,
+    "1005007038424043": 1795283249.1787498
   },
   "published_titles": [
     "Wireless WiFi Repeater 300Mbps WiFi Extender Amplifier Booster Router",
@@ -3213,7 +3215,7 @@
     "Realme 15 Global (12/256)": 1793399565.5626073,
     "REALME P3 5G": 1791649464.949431,
     "Essager 54W USB Car Charger": 1794741962.3989522,
-    "Original QKZ AK6": 1791752787.9016774,
+    "Original QKZ AK6": 1795283249.1787498,
     "realme 15T 5G Smartphone NFC Dimensity 6400 Max Chipset Dual 50MP Cameras": 1792156493.2084296,
     "🌐نسخة عالمية": 1791752930.9846199,
     "realme P3 5G 8/256GB": 1791941221.9951465,
@@ -4112,7 +4114,7 @@
     "Realme P4 (8/256GB)": 1795249746.4902642,
     "Ulanzi ST-06S ✅": 1795085808.5784442,
     "ESSAGER 45W Car Charger PD Fast Charging with Retractable": 1795086173.3845732,
-    "Wireless Car Air Pump": 1795093229.0666955,
+    "Wireless Car Air Pump": 1795283256.2680137,
     "HOCO EQ28 ANC Earbuds": 1795095306.94495,
     "VIVO X500 PRO MAX": 1795096787.4537058,
     "iPhone 15 Pro Max 256GB": 1795097142.4984226,
@@ -4126,7 +4128,7 @@
     "8L FOLDING WASHING MACHINE": 1795104359.6206825,
     "Maono WAVE T1 MINI": 1795111968.5056303,
     "MAGCUBIC HY300 PRO Projector": 1795112692.4915283,
-    "DIGITAL BATHROOM SCALE": 1795134132.9931045,
+    "DIGITAL BATHROOM SCALE": 1795283264.8493018,
     "CUSU K5 Portable External SSD 512gb": 1795164006.096927,
     "UGREEN Nexode Air 65W GaN Charger": 1795253775.2319088,
     "Portable Wireless Electric Air Pump with LCD Display": 1795167145.0122104,
@@ -4162,9 +4164,6 @@
     "لوووووووووووووووووووز": 1795282419.1354063
   },
   "published_post_keys": [
-    "zedstoreonline:39887",
-    "aniscoupons:34515",
-    "aniscoupons:34516",
     "aniscoupons:34517",
     "zedstoreonline:39888",
     "aniscoupons:34518",
@@ -5161,19 +5160,22 @@
     "zedstoreonline:40545",
     "aniscoupons:35436",
     "aniscoupons:35438",
-    "bnddeals:51384"
+    "bnddeals:51384",
+    "lodydeals:46771",
+    "lodydeals:46773",
+    "aniscoupons:35439"
   ],
   "last_disclaimer_time": 1794524540.9476151,
   "last_calendar_time": 1795177633.1203737,
-  "last_run_time": 1795282419.1354063,
+  "last_run_time": 1795283264.8493018,
   "monitored_channels": {
     "ecksdeal": {
       "last_message_id": 6119,
       "last_check_time": 1795282395.5364728
     },
     "lodydeals": {
-      "last_message_id": 46770,
-      "last_check_time": 1795274747.9594407
+      "last_message_id": 46774,
+      "last_check_time": 1795283258.438874
     },
     "test_channel": {
       "last_message_id": 1793967703,
@@ -5196,8 +5198,8 @@
       "last_check_time": 1795282401.6087055
     },
     "aniscoupons": {
-      "last_message_id": 35438,
-      "last_check_time": 1795282414.678269
+      "last_message_id": 35439,
+      "last_check_time": 1795283266.9732354
     },
     "bnddeals": {
       "last_message_id": 51384,
@@ -5983,7 +5985,8 @@
     "32847542727": 75.19,
     "1005013612885095": 73.07,
     "1005009120961416": 211.5,
-    "1005006460821282": 9.7
+    "1005006460821282": 9.7,
+    "1005007038424043": 2.71
   },
   "channel_published_deals": {
     "aniscoupons:32590": {
@@ -31018,6 +31021,36 @@
       "price": 9.7,
       "timestamp": 1795282419.1354063,
       "status": "ACTIVE"
+    },
+    "lodydeals:46771": {
+      "channel_msg_id": 3419,
+      "product_id": "1005007038424043",
+      "title": "Original QKZ AK6",
+      "channel": "lodydeals",
+      "source_msg_id": 46771,
+      "price": 2.71,
+      "timestamp": 1795283249.1787498,
+      "status": "ACTIVE"
+    },
+    "lodydeals:46773": {
+      "channel_msg_id": 3420,
+      "product_id": "1005012929627900",
+      "title": "Wireless Car Air Pump",
+      "channel": "lodydeals",
+      "source_msg_id": 46773,
+      "price": 13.6,
+      "timestamp": 1795283256.2680137,
+      "status": "ACTIVE"
+    },
+    "aniscoupons:35439": {
+      "channel_msg_id": 3421,
+      "product_id": "1005013497504096",
+      "title": "DIGITAL BATHROOM SCALE",
+      "channel": "aniscoupons",
+      "source_msg_id": 35439,
+      "price": 3.2,
+      "timestamp": 1795283264.8493018,
+      "status": "ACTIVE"
     }
   },
   "schedule_config": {
@@ -31026,17 +31059,17 @@
     "current_interval_minutes": 5,
     "is_paused": false,
     "night_mode_enabled": true,
-    "last_deal_post_time": 1795282421.3145044,
+    "last_deal_post_time": 1795283268.2426093,
     "night_start_hour_dz": 0,
     "night_end_hour_dz": 8,
     "night_pause_enabled": true,
-    "last_sweep_time": 1795282424.0987356,
+    "last_sweep_time": 1795283271.6143465,
     "last_sweep_times": {
-      "algeria": 1795282421.2727532,
-      "france": 1795282424.0987356
+      "algeria": 1795283268.198372,
+      "france": 1795283271.6143465
     },
     "last_deal_post_times": {
-      "algeria": 1795282421.3145044
+      "algeria": 1795283268.2426093
     }
   },
   "last_coin_reminder_time": 1795241331.112354,
@@ -31900,7 +31933,7 @@
     "1005009354317262": "bnddeals",
     "1005007721842895": "lodydeals",
     "1005012325373696": "aniscoupons",
-    "1005012929627900": "bnddeals",
+    "1005012929627900": "lodydeals",
     "1005009465190932": "lodydeals",
     "1005013270397194": "aniscoupons",
     "1005013611971758": "lodydeals",
@@ -31938,7 +31971,8 @@
     "COUPONS_67c5d85c35f4": "aniscoupons",
     "1005013612885095": "ecksdeal",
     "1005009120961416": "aniscoupons",
-    "1005006460821282": "bnddeals"
+    "1005006460821282": "bnddeals",
+    "1005007038424043": "lodydeals"
   },
   "published_title_channels": {
     "Test Wrench Set": "test_channel",
@@ -33922,8 +33956,6 @@
   "published_deals_history": {},
   "settings": {},
   "handled_post_keys": [
-    "aniscoupons:34612",
-    "aniscoupons:34613",
     "zedstoreonline:39940",
     "zedstoreonline:39941",
     "aniscoupons:34616",
@@ -34921,7 +34953,9 @@
     "aniscoupons:35434",
     "zedstoreonline:40544",
     "zedstoreonline:40546",
-    "aniscoupons:35437"
+    "aniscoupons:35437",
+    "lodydeals:46772",
+    "lodydeals:46774"
   ],
   "last_france_cross_promo_time": 1795236239.730334,
   "next_france_cross_promo_interval_seconds": 209180,
@@ -35924,6 +35958,11 @@
         "channel": "zedstoreonline",
         "ts": 1795282397.3294847,
         "price": 11.2
+      },
+      {
+        "channel": "lodydeals",
+        "ts": 1795283252.457745,
+        "price": 11.25
       }
     ],
     "1005010706691647": [
@@ -35931,6 +35970,20 @@
         "channel": "aniscoupons",
         "ts": 1795282408.8337636,
         "price": 4.6
+      }
+    ],
+    "1005012929627900": [
+      {
+        "channel": "lodydeals",
+        "ts": 1795283253.7219667,
+        "price": 13.6
+      }
+    ],
+    "1005013497504096": [
+      {
+        "channel": "aniscoupons",
+        "ts": 1795283261.9135246,
+        "price": 3.2
       }
     ]
   },
