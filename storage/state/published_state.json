@@ -1362,7 +1362,7 @@
     "COUPONS_d131dda7a0e3": 1793478717.5768087,
     "COUPONS_d131dda7": 1793478717.5923967,
     "COUPONS_11.11 Global Shopping Festival Warm-Up": 1793478717.5923967,
-    "1005008518280704": 1795249230.9051876,
+    "1005008518280704": 1795288901.8714402,
     "1005010527736444": 1793478769.6023057,
     "1005013450996845": 1794995476.4520917,
     "1005013144753309": 1794771014.8038359,
@@ -3925,7 +3925,7 @@
     "Kootion SSD SATA": 1795267592.0773335,
     "KOOTION SATA SSD 128GB": 1794334097.945569,
     "Kingston DataTraveler 128GB": 1795249207.7202265,
-    "CUSU CV3500  M.2 NVMe SSD (1tb)": 1795249230.9051876,
+    "CUSU CV3500  M.2 NVMe SSD (1tb)": 1795288901.8714402,
     "Kootion X15 M.2 NVMe 256GB": 1794346230.0535362,
     "Baseus BS2 Lite": 1794349536.4429784,
     "حجز وتجدد كوبونات 11.11": 1794363974.314961,
@@ -4164,7 +4164,6 @@
     "لوووووووووووووووووووز": 1795282419.1354063
   },
   "published_post_keys": [
-    "zedstoreonline:39888",
     "aniscoupons:34518",
     "aniscoupons:34519",
     "aniscoupons:34520",
@@ -5163,11 +5162,12 @@
     "lodydeals:46771",
     "lodydeals:46773",
     "aniscoupons:35439",
-    "aniscoupons:35441"
+    "aniscoupons:35441",
+    "aniscoupons:35443"
   ],
   "last_disclaimer_time": 1794524540.9476151,
   "last_calendar_time": 1795177633.1203737,
-  "last_run_time": 1795286867.9281676,
+  "last_run_time": 1795288901.8714402,
   "monitored_channels": {
     "ecksdeal": {
       "last_message_id": 6119,
@@ -5198,8 +5198,8 @@
       "last_check_time": 1795284824.7690773
     },
     "aniscoupons": {
-      "last_message_id": 35442,
-      "last_check_time": 1795288721.3175023
+      "last_message_id": 35443,
+      "last_check_time": 1795288903.945532
     },
     "bnddeals": {
       "last_message_id": 51384,
@@ -31061,6 +31061,16 @@
       "price": 11.5,
       "timestamp": 1795286867.9281676,
       "status": "ACTIVE"
+    },
+    "aniscoupons:35443": {
+      "channel_msg_id": 3423,
+      "product_id": "1005008518280704",
+      "title": "CUSU CV3500  M.2 NVMe SSD (1tb)",
+      "channel": "aniscoupons",
+      "source_msg_id": 35443,
+      "price": 177.3,
+      "timestamp": 1795288901.8714402,
+      "status": "ACTIVE"
     }
   },
   "schedule_config": {
@@ -31069,17 +31079,17 @@
     "current_interval_minutes": 5,
     "is_paused": false,
     "night_mode_enabled": true,
-    "last_deal_post_time": 1795286871.2745912,
+    "last_deal_post_time": 1795288904.9050896,
     "night_start_hour_dz": 0,
     "night_end_hour_dz": 8,
     "night_pause_enabled": true,
-    "last_sweep_time": 1795288724.8582842,
+    "last_sweep_time": 1795288907.543526,
     "last_sweep_times": {
-      "algeria": 1795288722.2720716,
-      "france": 1795288724.8582842
+      "algeria": 1795288904.8752007,
+      "france": 1795288907.543526
     },
     "last_deal_post_times": {
-      "algeria": 1795286871.2745912
+      "algeria": 1795288904.9050896
     }
   },
   "last_coin_reminder_time": 1795241331.112354,
@@ -35586,6 +35596,11 @@
         "channel": "zedstoreonline",
         "ts": 1795250468.0988128,
         "price": 177.0
+      },
+      {
+        "channel": "aniscoupons",
+        "ts": 1795288899.3251674,
+        "price": 177.3
       }
     ],
     "1005011742851856": [
