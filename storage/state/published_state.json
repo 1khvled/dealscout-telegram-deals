@@ -1136,7 +1136,7 @@
     "9998883549": 1792073549.4615705,
     "9998883836": 1792073836.8176863,
     "9998883963": 1792073963.7339156,
-    "1005010620269829": 1795190582.3905108,
+    "1005010620269829": 1795256521.0477176,
     "9998886219": 1792086219.2668676,
     "1005005875379717": 1795116404.8944776,
     "9998887185": 1792087185.8637784,
@@ -3013,7 +3013,7 @@
     "QCY T13 True Wireless Earbuds Bluetooth 5.1 Earphones 7.2mm Drivers with": 1790941202.9035249,
     "Blackview Zeno 10 5G  8/128": 1790941207.5310047,
     "Honor Power 2  12/256": 1790941214.6756065,
-    "Honor X70 5G 8/128": 1795190582.3905108,
+    "Honor X70 5G 8/128": 1795256521.0477176,
     "Blackview MEGA 5  8/256": 1795164751.799644,
     "سماعات اذن فخمة  Moondrop Chu 3 IEM": 1795027703.9087646,
     "4G LTE Wireless USB 150Mbps": 1794057675.8729835,
@@ -4140,7 +4140,6 @@
     "KOOTION X16 7100MB/s NVMe 512GB": 1795256330.146872
   },
   "published_post_keys": [
-    "aniscoupons:34484",
     "lodydeals:46346",
     "aniscoupons:34485",
     "lodydeals:46347",
@@ -5139,11 +5138,12 @@
     "aniscoupons:35415",
     "aniscoupons:35416",
     "zedstoreonline:40530",
-    "lodydeals:46760"
+    "lodydeals:46760",
+    "zedstoreonline:40531"
   ],
   "last_disclaimer_time": 1794524540.9476151,
   "last_calendar_time": 1795177633.1203737,
-  "last_run_time": 1795256330.146872,
+  "last_run_time": 1795256521.0477176,
   "monitored_channels": {
     "ecksdeal": {
       "last_message_id": 6116,
@@ -5170,8 +5170,8 @@
       "last_check_time": 1793599663.3444748
     },
     "zedstoreonline": {
-      "last_message_id": 40530,
-      "last_check_time": 1795256154.6534994
+      "last_message_id": 40531,
+      "last_check_time": 1795256523.1345556
     },
     "aniscoupons": {
       "last_message_id": 35418,
@@ -30712,6 +30712,16 @@
       "price": 86.23,
       "timestamp": 1795256330.146872,
       "status": "ACTIVE"
+    },
+    "zedstoreonline:40531": {
+      "channel_msg_id": 3389,
+      "product_id": "1005010620269829",
+      "title": "Honor X70 5G 8/128",
+      "channel": "zedstoreonline",
+      "source_msg_id": 40531,
+      "price": 231.2,
+      "timestamp": 1795256521.0477176,
+      "status": "ACTIVE"
     }
   },
   "schedule_config": {
@@ -30720,17 +30730,17 @@
     "current_interval_minutes": 5,
     "is_paused": false,
     "night_mode_enabled": true,
-    "last_deal_post_time": 1795256335.4499233,
+    "last_deal_post_time": 1795256524.7547948,
     "night_start_hour_dz": 0,
     "night_end_hour_dz": 8,
     "night_pause_enabled": true,
-    "last_sweep_time": 1795256338.2194057,
+    "last_sweep_time": 1795256527.0991435,
     "last_sweep_times": {
-      "algeria": 1795256335.4121356,
-      "france": 1795256338.2194057
+      "algeria": 1795256524.716964,
+      "france": 1795256527.0991435
     },
     "last_deal_post_times": {
-      "algeria": 1795256335.4499233
+      "algeria": 1795256524.7547948
     }
   },
   "last_coin_reminder_time": 1795241331.112354,
@@ -35428,6 +35438,13 @@
         "channel": "lodydeals",
         "ts": 1795256327.499489,
         "price": 86.23
+      }
+    ],
+    "1005010620269829": [
+      {
+        "channel": "zedstoreonline",
+        "ts": 1795256518.5969324,
+        "price": 231.2
       }
     ]
   },
