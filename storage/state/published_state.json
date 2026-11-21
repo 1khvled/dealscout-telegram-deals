@@ -1745,7 +1745,7 @@
     "1005010538481521": 1795088201.579061,
     "1005009354317262": 1795079588.3610423,
     "1005007721842895": 1795083426.9610174,
-    "1005012325373696": 1795162916.066681,
+    "1005012325373696": 1795249746.4902642,
     "1005012929627900": 1795167145.0122104,
     "1005009465190932": 1795095306.94495,
     "1005013270397194": 1795096787.4537058,
@@ -4083,7 +4083,7 @@
     "CUSU DDR4 8GBx2 3200MHz": 1795081588.9428203,
     "لأكثر طلباً شاحن": 1795081619.0346873,
     "HOCO CS25A 20W PD": 1795083426.9610174,
-    "Realme P4 (8/256GB)": 1795162916.066681,
+    "Realme P4 (8/256GB)": 1795249746.4902642,
     "Ulanzi ST-06S ✅": 1795085808.5784442,
     "ESSAGER 45W Car Charger PD Fast Charging with Retractable": 1795086173.3845732,
     "Wireless Car Air Pump": 1795093229.0666955,
@@ -4128,7 +4128,6 @@
     "1More  HQ20 Headphones": 1795249218.8314788
   },
   "published_post_keys": [
-    "aniscoupons:34462",
     "aniscoupons:34465",
     "lodydeals:46328",
     "aniscoupons:34466",
@@ -5127,11 +5126,12 @@
     "lodydeals:46751",
     "lodydeals:46752",
     "aniscoupons:35404",
-    "lodydeals:46753"
+    "lodydeals:46753",
+    "aniscoupons:35405"
   ],
   "last_disclaimer_time": 1794524540.9476151,
   "last_calendar_time": 1795177633.1203737,
-  "last_run_time": 1795249382.992338,
+  "last_run_time": 1795249746.4902642,
   "monitored_channels": {
     "ecksdeal": {
       "last_message_id": 6116,
@@ -5158,12 +5158,12 @@
       "last_check_time": 1793599663.3444748
     },
     "zedstoreonline": {
-      "last_message_id": 40516,
-      "last_check_time": 1795249387.2647376
+      "last_message_id": 40517,
+      "last_check_time": 1795249742.2685204
     },
     "aniscoupons": {
-      "last_message_id": 35404,
-      "last_check_time": 1795249233.0297174
+      "last_message_id": 35405,
+      "last_check_time": 1795249748.5952177
     },
     "bnddeals": {
       "last_message_id": 51380,
@@ -30537,6 +30537,16 @@
       "price": 31.07,
       "timestamp": 1795249382.992338,
       "status": "ACTIVE"
+    },
+    "aniscoupons:35405": {
+      "channel_msg_id": 3373,
+      "product_id": "1005012325373696",
+      "title": "Realme P4 (8/256GB)",
+      "channel": "aniscoupons",
+      "source_msg_id": 35405,
+      "price": 203.3,
+      "timestamp": 1795249746.4902642,
+      "status": "ACTIVE"
     }
   },
   "schedule_config": {
@@ -30545,17 +30555,17 @@
     "current_interval_minutes": 5,
     "is_paused": false,
     "night_mode_enabled": true,
-    "last_deal_post_time": 1795249389.0179873,
+    "last_deal_post_time": 1795249749.6250863,
     "night_start_hour_dz": 0,
     "night_end_hour_dz": 8,
     "night_pause_enabled": true,
-    "last_sweep_time": 1795249557.9055169,
+    "last_sweep_time": 1795249752.197813,
     "last_sweep_times": {
-      "algeria": 1795249555.3165975,
-      "france": 1795249557.9055169
+      "algeria": 1795249749.5833712,
+      "france": 1795249752.197813
     },
     "last_deal_post_times": {
-      "algeria": 1795249389.0179873
+      "algeria": 1795249749.6250863
     }
   },
   "last_coin_reminder_time": 1795241331.112354,
@@ -33425,7 +33435,6 @@
   "published_deals_history": {},
   "settings": {},
   "handled_post_keys": [
-    "zedstoreonline:39913",
     "zedstoreonline:39914",
     "lodydeals:46371",
     "lodydeals:46372",
@@ -34424,7 +34433,8 @@
     "lodydeals:46748",
     "lodydeals:46750",
     "lodydeals:46754",
-    "zedstoreonline:40516"
+    "zedstoreonline:40516",
+    "zedstoreonline:40517"
   ],
   "last_france_cross_promo_time": 1795236239.730334,
   "next_france_cross_promo_interval_seconds": 209180,
@@ -35134,6 +35144,20 @@
         "channel": "lodydeals",
         "ts": 1795249221.9430623,
         "price": 15.6
+      }
+    ],
+    "1005013361453762": [
+      {
+        "channel": "zedstoreonline",
+        "ts": 1795249741.6171677,
+        "price": 280.0
+      }
+    ],
+    "1005012325373696": [
+      {
+        "channel": "aniscoupons",
+        "ts": 1795249744.1189957,
+        "price": 203.3
       }
     ]
   },
