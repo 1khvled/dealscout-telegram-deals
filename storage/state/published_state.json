@@ -1543,7 +1543,7 @@
     "1005006972551834": 1793793774.6743867,
     "1005010169268165": 1793794440.9453664,
     "1005010702038861": 1794935200.9462438,
-    "1005009313079431": 1794159522.2930505,
+    "1005009313079431": 1795294136.0974371,
     "1005010702511858": 1795011758.367623,
     "1005008554218453": 1793908979.1776278,
     "1005012499433797": 1794683885.7547128,
@@ -2992,7 +2992,8 @@
     "Personalized Quartz Watch",
     "Essager 45W Mini",
     "Electric Lint Remover",
-    "500mL Water Bottle"
+    "500mL Water Bottle",
+    "WALRAM 2.5  sata 480GB"
   ],
   "published_title_timestamps": {
     "Xiaomi Redmi Note 17 5G Global Version": 1790857823.0117362,
@@ -4183,10 +4184,10 @@
     "Personalized Quartz Watch": 1795290145.0386395,
     "Essager 45W Mini": 1795290151.521564,
     "Electric Lint Remover": 1795290732.7583535,
-    "500mL Water Bottle": 1795290738.086464
+    "500mL Water Bottle": 1795290738.086464,
+    "WALRAM 2.5  sata 480GB": 1795294136.0974371
   },
   "published_post_keys": [
-    "aniscoupons:34534",
     "zedstoreonline:39898",
     "aniscoupons:34536",
     "zedstoreonline:39901",
@@ -5185,11 +5186,12 @@
     "lodydeals:46789",
     "aniscoupons:35446",
     "zedstoreonline:40549",
-    "aniscoupons:35447"
+    "aniscoupons:35447",
+    "aniscoupons:35449"
   ],
   "last_disclaimer_time": 1794524540.9476151,
   "last_calendar_time": 1795177633.1203737,
-  "last_run_time": 1795293755.0704303,
+  "last_run_time": 1795294136.0974371,
   "monitored_channels": {
     "ecksdeal": {
       "last_message_id": 6119,
@@ -5220,12 +5222,12 @@
       "last_check_time": 1795293933.3902645
     },
     "aniscoupons": {
-      "last_message_id": 35448,
-      "last_check_time": 1795293938.8372078
+      "last_message_id": 35449,
+      "last_check_time": 1795294138.210249
     },
     "bnddeals": {
-      "last_message_id": 51384,
-      "last_check_time": 1795282421.230258
+      "last_message_id": 51385,
+      "last_check_time": 1795294142.7010822
     }
   },
   "published_product_prices": {
@@ -5768,7 +5770,7 @@
     "1005006972551834": 31.07,
     "1005010169268165": 19.6,
     "1005010702038861": 18.12,
-    "1005009313079431": 41.5,
+    "1005009313079431": 37.9,
     "1005010702511858": 59.81,
     "1005008554218453": 52.55,
     "1005012499433797": 134.3,
@@ -31248,6 +31250,16 @@
       "price": 271.59,
       "timestamp": 1795293755.0704303,
       "status": "ACTIVE"
+    },
+    "aniscoupons:35449": {
+      "channel_msg_id": 3439,
+      "product_id": "1005009313079431",
+      "title": "WALRAM 2.5  sata 480GB",
+      "channel": "aniscoupons",
+      "source_msg_id": 35449,
+      "price": 37.9,
+      "timestamp": 1795294136.0974371,
+      "status": "ACTIVE"
     }
   },
   "schedule_config": {
@@ -31256,17 +31268,17 @@
     "current_interval_minutes": 5,
     "is_paused": false,
     "night_mode_enabled": true,
-    "last_deal_post_time": 1795293758.3272874,
+    "last_deal_post_time": 1795294142.7850862,
     "night_start_hour_dz": 0,
     "night_end_hour_dz": 8,
     "night_pause_enabled": true,
-    "last_sweep_time": 1795293944.74363,
+    "last_sweep_time": 1795294146.0810208,
     "last_sweep_times": {
-      "algeria": 1795293942.2644448,
-      "france": 1795293944.74363
+      "algeria": 1795294142.7433412,
+      "france": 1795294146.0810208
     },
     "last_deal_post_times": {
-      "algeria": 1795293758.3272874
+      "algeria": 1795294142.7850862
     }
   },
   "last_coin_reminder_time": 1795241331.112354,
@@ -31916,7 +31928,7 @@
     "1005006972551834": "lodydeals",
     "1005010169268165": "lodydeals",
     "1005010702038861": "ecksdeal",
-    "1005009313079431": "zedstoreonline",
+    "1005009313079431": "aniscoupons",
     "1005010702511858": "lodydeals",
     "1005008554218453": "lodydeals",
     "1005012499433797": "aniscoupons",
@@ -33366,7 +33378,8 @@
     "Personalized Quartz Watch": "lodydeals",
     "Essager 45W Mini": "lodydeals",
     "Electric Lint Remover": "lodydeals",
-    "500mL Water Bottle": "lodydeals"
+    "500mL Water Bottle": "lodydeals",
+    "WALRAM 2.5  sata 480GB": "aniscoupons"
   },
   "religious_reminders_history": {
     "mock_rem": "2026-10-02",
@@ -34164,7 +34177,6 @@
   "published_deals_history": {},
   "settings": {},
   "handled_post_keys": [
-    "zedstoreonline:39953",
     "zedstoreonline:39954",
     "aniscoupons:34629",
     "zedstoreonline:39956",
@@ -35163,7 +35175,8 @@
     "aniscoupons:35444",
     "aniscoupons:35445",
     "zedstoreonline:40550",
-    "aniscoupons:35448"
+    "aniscoupons:35448",
+    "bnddeals:51385"
   ],
   "last_france_cross_promo_time": 1795236239.730334,
   "next_france_cross_promo_interval_seconds": 209180,
@@ -35783,11 +35796,6 @@
     ],
     "1005010305059795": [
       {
-        "channel": "zedstoreonline",
-        "ts": 1795250840.8931777,
-        "price": 29.6
-      },
-      {
         "channel": "aniscoupons",
         "ts": 1795257434.455012,
         "price": 29.6
@@ -36185,6 +36193,18 @@
         "channel": "aniscoupons",
         "ts": 1795293935.273215,
         "price": 4.8
+      }
+    ],
+    "1005009313079431": [
+      {
+        "channel": "aniscoupons",
+        "ts": 1795294133.3347142,
+        "price": 37.9
+      },
+      {
+        "channel": "bnddeals",
+        "ts": 1795294142.5526514,
+        "price": 37.6
       }
     ]
   },
