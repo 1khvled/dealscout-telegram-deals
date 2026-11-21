@@ -1558,7 +1558,7 @@
     "9998887107": 1793967108.0014687,
     "9998887678": 1793967678.8184059,
     "9998887703": 1793967703.2348685,
-    "1005008708333999": 1795257987.78027,
+    "1005008708333999": 1795292292.1067379,
     "1005012254132930": 1795202623.049966,
     "1005013028124905": 1793971934.3600886,
     "1005012691642623": 1794074230.5173922,
@@ -4096,7 +4096,7 @@
     "realme P4 Power 8/256GB": 1794935216.1531737,
     "HONGTOP H20PRO TV Box 2/16GB": 1794845239.5606787,
     "Xiaomi Redmi Note 17 5G Global Version 6/256GB": 1794914021.5924346,
-    "Realme C100d": 1795257987.78027,
+    "Realme C100d": 1795292292.1067379,
     "AMD Ryzen 5 5600X": 1794852895.9711866,
     "FIFINE K688 USB/XLR Dynamic": 1794852901.0609643,
     "NEW AMD R5 9600X CPU RYZNE 5 9600X Desktop Game Processor No Fan": 1794852909.5572178,
@@ -4186,7 +4186,6 @@
     "500mL Water Bottle": 1795290738.086464
   },
   "published_post_keys": [
-    "zedstoreonline:39894",
     "zedstoreonline:39896",
     "aniscoupons:34532",
     "aniscoupons:34534",
@@ -5185,11 +5184,12 @@
     "lodydeals:46786",
     "lodydeals:46787",
     "lodydeals:46788",
-    "lodydeals:46789"
+    "lodydeals:46789",
+    "aniscoupons:35446"
   ],
   "last_disclaimer_time": 1794524540.9476151,
   "last_calendar_time": 1795177633.1203737,
-  "last_run_time": 1795291550.8320675,
+  "last_run_time": 1795292292.1067379,
   "monitored_channels": {
     "ecksdeal": {
       "last_message_id": 6119,
@@ -5220,8 +5220,8 @@
       "last_check_time": 1795290167.1120696
     },
     "aniscoupons": {
-      "last_message_id": 35445,
-      "last_check_time": 1795291557.9915118
+      "last_message_id": 35446,
+      "last_check_time": 1795292294.2327518
     },
     "bnddeals": {
       "last_message_id": 51384,
@@ -31218,6 +31218,16 @@
       "price": 13.43,
       "timestamp": 1795291550.8320675,
       "status": "ACTIVE"
+    },
+    "aniscoupons:35446": {
+      "channel_msg_id": 3436,
+      "product_id": "1005008708333999",
+      "title": "Realme C100d",
+      "channel": "aniscoupons",
+      "source_msg_id": 35446,
+      "price": 138.7,
+      "timestamp": 1795292292.1067379,
+      "status": "ACTIVE"
     }
   },
   "schedule_config": {
@@ -31226,17 +31236,17 @@
     "current_interval_minutes": 5,
     "is_paused": false,
     "night_mode_enabled": true,
-    "last_deal_post_time": 1795291558.820824,
+    "last_deal_post_time": 1795292295.5359385,
     "night_start_hour_dz": 0,
     "night_end_hour_dz": 8,
     "night_pause_enabled": true,
-    "last_sweep_time": 1795292097.553322,
+    "last_sweep_time": 1795292298.4759896,
     "last_sweep_times": {
-      "algeria": 1795292094.9178715,
-      "france": 1795292097.553322
+      "algeria": 1795292295.4885921,
+      "france": 1795292298.4759896
     },
     "last_deal_post_times": {
-      "algeria": 1795291558.820824
+      "algeria": 1795292295.5359385
     }
   },
   "last_coin_reminder_time": 1795241331.112354,
@@ -35720,11 +35730,6 @@
     ],
     "1005010210432531": [
       {
-        "channel": "aniscoupons",
-        "ts": 1795249033.0673184,
-        "price": 133.8
-      },
-      {
         "channel": "zedstoreonline",
         "ts": 1795249923.7389517,
         "price": 133.8
@@ -35763,11 +35768,6 @@
     ],
     "1005011742851856": [
       {
-        "channel": "zedstoreonline",
-        "ts": 1795248640.462337,
-        "price": 4.1
-      },
-      {
         "channel": "aniscoupons",
         "ts": 1795286863.4368112,
         "price": 4.8
@@ -35776,34 +35776,6 @@
         "channel": "lodydeals",
         "ts": 1795290121.4741435,
         "price": 4.89
-      }
-    ],
-    "1005009916208760": [
-      {
-        "channel": "lodydeals",
-        "ts": 1795249008.5766373,
-        "price": 84.35
-      }
-    ],
-    "1005009281115306": [
-      {
-        "channel": "lodydeals",
-        "ts": 1795249014.4329948,
-        "price": 13.61
-      }
-    ],
-    "1005010033441204": [
-      {
-        "channel": "lodydeals",
-        "ts": 1795249020.1297092,
-        "price": 14.6
-      }
-    ],
-    "1005010266487244": [
-      {
-        "channel": "lodydeals",
-        "ts": 1795249025.5017633,
-        "price": 25.6
       }
     ],
     "1005010413332383": [
@@ -35899,6 +35871,11 @@
         "channel": "zedstoreonline",
         "ts": 1795290166.4581804,
         "price": 138.0
+      },
+      {
+        "channel": "aniscoupons",
+        "ts": 1795292289.4672456,
+        "price": 138.7
       }
     ],
     "1005010369693975": [
