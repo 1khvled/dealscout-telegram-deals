@@ -901,7 +901,7 @@
     "9998887952": 1790887952.6119926,
     "9998887972": 1790887972.157133,
     "100500777666555": 1793956903.3513582,
-    "1005011778621042": 1795254692.1958745,
+    "1005011778621042": 1795274745.8868842,
     "9998888080": 1790888080.3099577,
     "1005009234854371": 1793543664.66204,
     "1005006533038973": 1791104468.758226,
@@ -1216,7 +1216,7 @@
     "1005012249968766": 1793448641.953655,
     "9998886751": 1793226751.289748,
     "9998887440": 1793227440.500994,
-    "1005009200129898": 1793227797.933171,
+    "1005009200129898": 1795274754.6782088,
     "9998888526": 1793228526.415094,
     "9998889908": 1793229908.2507865,
     "1005012339196141": 1794845215.6504672,
@@ -3140,7 +3140,7 @@
     "ATTACK SHARK X5": 1791106544.154073,
     "ATTACK SHARK X2 Pro": 1791106853.9447496,
     "ATTACK SHARK L80PRO Ultralight": 1791107750.295487,
-    "AMD Ryzen 7 5700X": 1795166773.5390282,
+    "AMD Ryzen 7 5700X": 1795274745.8868842,
     "هاتف ينسيك في شارجور🤣🤣": 1791109857.5190113,
     "CMF Smart Watch 3 pro AMOLED": 1795270898.894993,
     "ATTACK SHARK V6 Tri-Mode": 1791110751.0808105,
@@ -3307,7 +3307,7 @@
     "SAMZHE Metal Lens Protector for iPhone 17 Pro Max": 1793123744.0676813,
     "SAMZHE Support Aluminum Graphics Card": 1793123749.6836987,
     "Oppo Find X9 Pro New 7500mAh 80W SuperVOOC 50W Wireless Dimensity9500": 1793138738.0845888,
-    "كابل Ethernet Flat Cat 6 Cable 2meter  السعر💲 :": 1793227797.933171,
+    "كابل Ethernet Flat Cat 6 Cable 2meter  السعر💲 :": 1795274754.6782088,
     "AMD Ryzen 5 9600X": 1794307242.7687027,
     "AMD Ryzen 7 8700F": 1793467108.5532427,
     "OnePlus ACE 6": 1793380394.5736995,
@@ -4146,8 +4146,6 @@
     "KingSpec DDR4 16GB 3200Mhz": 1795274576.3351243
   },
   "published_post_keys": [
-    "aniscoupons:34504",
-    "aniscoupons:34507",
     "aniscoupons:34508",
     "aniscoupons:34509",
     "lodydeals:46354",
@@ -5145,19 +5143,21 @@
     "zedstoreonline:40542",
     "lodydeals:46767",
     "lodydeals:46768",
-    "aniscoupons:35433"
+    "aniscoupons:35433",
+    "lodydeals:46770",
+    "ecksdeal:6117"
   ],
   "last_disclaimer_time": 1794524540.9476151,
   "last_calendar_time": 1795177633.1203737,
-  "last_run_time": 1795274576.3351243,
+  "last_run_time": 1795274754.6782088,
   "monitored_channels": {
     "ecksdeal": {
-      "last_message_id": 6116,
-      "last_check_time": 1795183542.6481285
+      "last_message_id": 6117,
+      "last_check_time": 1795274756.7486389
     },
     "lodydeals": {
-      "last_message_id": 46769,
-      "last_check_time": 1795272721.302541
+      "last_message_id": 46770,
+      "last_check_time": 1795274747.9594407
     },
     "test_channel": {
       "last_message_id": 1793967703,
@@ -5202,7 +5202,7 @@
     "1005007279793099": 13.7,
     "1005008829227075": 24.76,
     "100500777666555": 20.0,
-    "1005011778621042": 119.5,
+    "1005011778621042": 119.59,
     "1005012312990781": 92.31,
     "1005009234854371": 13.3,
     "1005006533038973": 21.81,
@@ -30909,6 +30909,26 @@
       "price": 75.19,
       "timestamp": 1795274576.3351243,
       "status": "ACTIVE"
+    },
+    "lodydeals:46770": {
+      "channel_msg_id": 3408,
+      "product_id": "1005011778621042",
+      "title": "AMD Ryzen 7 5700X",
+      "channel": "lodydeals",
+      "source_msg_id": 46770,
+      "price": 119.59,
+      "timestamp": 1795274745.8868842,
+      "status": "ACTIVE"
+    },
+    "ecksdeal:6117": {
+      "channel_msg_id": 3409,
+      "product_id": "1005009200129898",
+      "title": "كابل Ethernet Flat Cat 6 Cable 2meter  السعر💲 :",
+      "channel": "ecksdeal",
+      "source_msg_id": 6117,
+      "price": 0.01,
+      "timestamp": 1795274754.6782088,
+      "status": "ACTIVE"
     }
   },
   "schedule_config": {
@@ -30917,17 +30937,17 @@
     "current_interval_minutes": 5,
     "is_paused": false,
     "night_mode_enabled": true,
-    "last_deal_post_time": 1795274579.476485,
+    "last_deal_post_time": 1795274758.9785368,
     "night_start_hour_dz": 0,
     "night_end_hour_dz": 8,
     "night_pause_enabled": true,
-    "last_sweep_time": 1795274582.6732085,
+    "last_sweep_time": 1795274761.9255717,
     "last_sweep_times": {
-      "algeria": 1795274579.4466817,
-      "france": 1795274582.6732085
+      "algeria": 1795274758.946125,
+      "france": 1795274761.9255717
     },
     "last_deal_post_times": {
-      "algeria": 1795274579.476485
+      "algeria": 1795274758.9785368
     }
   },
   "last_coin_reminder_time": 1795241331.112354,
@@ -31080,7 +31100,7 @@
     "1005007345108759": "ecksdeal",
     "1005007394028808": "lodydeals",
     "1005007394197021": "lodydeals",
-    "1005011778621042": "aniscoupons",
+    "1005011778621042": "lodydeals",
     "1005012571601398": "aniscoupons",
     "1005013290515237": "aniscoupons",
     "1005012264415744": "megaphonna",
@@ -31985,7 +32005,7 @@
     "ATTACK SHARK X5": "aniscoupons",
     "ATTACK SHARK X2 Pro": "aniscoupons",
     "ATTACK SHARK L80PRO Ultralight": "aniscoupons",
-    "AMD Ryzen 7 5700X": "zedstoreonline",
+    "AMD Ryzen 7 5700X": "lodydeals",
     "Attack Shark L80 Tri-mode": "lodydeals",
     "هاتف ينسيك في شارجور🤣🤣": "aniscoupons",
     "CMF Smart Watch 3 pro AMOLED": "aniscoupons",
@@ -35605,6 +35625,11 @@
         "channel": "aniscoupons",
         "ts": 1795254689.4804127,
         "price": 119.5
+      },
+      {
+        "channel": "lodydeals",
+        "ts": 1795274743.426176,
+        "price": 119.59
       }
     ],
     "1005013480169843": [
@@ -35779,6 +35804,13 @@
         "channel": "lodydeals",
         "ts": 1795272174.3695588,
         "price": 12.11
+      }
+    ],
+    "1005009200129898": [
+      {
+        "channel": "ecksdeal",
+        "ts": 1795274752.2336361,
+        "price": 0.01
       }
     ]
   },

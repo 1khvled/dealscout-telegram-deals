@@ -22,8 +22,8 @@
   "flow_target": 24.0,
   "channel_stats": {
     "lodydeals": {
-      "seen": 152,
-      "published": 142,
+      "seen": 153,
+      "published": 143,
       "skipped": 0,
       "ewma": 0.9994
     },
@@ -46,16 +46,16 @@
       "ewma": 0.9994
     },
     "ecksdeal": {
-      "seen": 39,
-      "published": 36,
+      "seen": 40,
+      "published": 37,
       "skipped": 0,
-      "ewma": 0.9752
+      "ewma": 0.9772
     }
   },
   "category_stats": {
     "other": {
-      "seen": 499,
-      "published": 431,
+      "seen": 500,
+      "published": 432,
       "skipped": 0,
       "ewma": 0.9994
     },
@@ -78,10 +78,10 @@
       "ewma": 0.9963
     },
     "accessories": {
-      "seen": 46,
-      "published": 32,
+      "seen": 47,
+      "published": 33,
       "skipped": 0,
-      "ewma": 0.9654
+      "ewma": 0.9682
     },
     "audio": {
       "seen": 49,
@@ -919,7 +919,6 @@
     ],
     "1005011778621042": [
       118.5,
-      118.5,
       118.59,
       118.5,
       118.5,
@@ -927,7 +926,8 @@
       118.5,
       119.59,
       119.5,
-      119.5
+      119.5,
+      119.59
     ],
     "1005013222073946": [
       19.5
@@ -1697,34 +1697,21 @@
     "32847542727": [
       75.19,
       75.19
+    ],
+    "1005009200129898": [
+      0.01
     ]
   },
   "counters": {
-    "scored": 1320,
-    "verdict_publish": 1265,
+    "scored": 1322,
+    "verdict_publish": 1267,
     "verdict_hold": 54,
     "verdict_skip": 1,
-    "published": 1026,
+    "published": 1028,
     "skipped": 0
   },
-  "score_sum": 96693.33,
+  "score_sum": 96839.5,
   "recent_decisions": [
-    {
-      "ts": 1795088187,
-      "channel": "lodydeals",
-      "category": "other",
-      "product_id": "1005010585654037",
-      "score": 75.44,
-      "verdict": "publish"
-    },
-    {
-      "ts": 1795088199,
-      "channel": "aniscoupons",
-      "category": "other",
-      "product_id": "1005010538481521",
-      "score": 69.44,
-      "verdict": "publish"
-    },
     {
       "ts": 1795088378,
       "channel": "aniscoupons",
@@ -3308,7 +3295,23 @@
       "product_id": "32847542727",
       "score": 71.4,
       "verdict": "publish"
+    },
+    {
+      "ts": 1795274743,
+      "channel": "lodydeals",
+      "category": "other",
+      "product_id": "1005011778621042",
+      "score": 63.73,
+      "verdict": "publish"
+    },
+    {
+      "ts": 1795274752,
+      "channel": "ecksdeal",
+      "category": "accessories",
+      "product_id": "1005009200129898",
+      "score": 82.44,
+      "verdict": "publish"
     }
   ],
-  "updated_at": 1795274576.4185023
+  "updated_at": 1795274754.728797
 }
