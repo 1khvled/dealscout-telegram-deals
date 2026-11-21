@@ -894,7 +894,8 @@
     "1005009649241196",
     "1005007097015654",
     "1005007805749110",
-    "1005009319376059"
+    "1005009319376059",
+    "1005011974295002"
   ],
   "published_product_timestamps": {
     "1005012973772517": 1794500732.7845657,
@@ -1808,7 +1809,8 @@
     "1005009649241196": 1795290145.0386395,
     "1005007097015654": 1795290732.7583535,
     "1005007805749110": 1795290738.086464,
-    "1005009319376059": 1795295051.5484984
+    "1005009319376059": 1795295051.5484984,
+    "1005011974295002": 1795296883.1865098
   },
   "published_titles": [
     "Wireless WiFi Repeater 300Mbps WiFi Extender Amplifier Booster Router",
@@ -2996,7 +2998,8 @@
     "Electric Lint Remover",
     "500mL Water Bottle",
     "WALRAM 2.5  sata 480GB",
-    "WALRAM  M.2 NVMe SSD 512GB"
+    "WALRAM  M.2 NVMe SSD 512GB",
+    "VIVO X300 Ultra 12/256"
   ],
   "published_title_timestamps": {
     "Xiaomi Redmi Note 17 5G Global Version": 1790857823.0117362,
@@ -4189,10 +4192,10 @@
     "Electric Lint Remover": 1795290732.7583535,
     "500mL Water Bottle": 1795290738.086464,
     "WALRAM 2.5  sata 480GB": 1795294136.0974371,
-    "WALRAM  M.2 NVMe SSD 512GB": 1795295051.5484984
+    "WALRAM  M.2 NVMe SSD 512GB": 1795295051.5484984,
+    "VIVO X300 Ultra 12/256": 1795296883.1865098
   },
   "published_post_keys": [
-    "aniscoupons:34537",
     "zedstoreonline:39902",
     "aniscoupons:34538",
     "aniscoupons:34540",
@@ -5191,11 +5194,12 @@
     "aniscoupons:35449",
     "aniscoupons:35451",
     "aniscoupons:35453",
-    "aniscoupons:35454"
+    "aniscoupons:35454",
+    "zedstoreonline:40553"
   ],
   "last_disclaimer_time": 1794524540.9476151,
   "last_calendar_time": 1795177633.1203737,
-  "last_run_time": 1795296516.155404,
+  "last_run_time": 1795296883.1865098,
   "monitored_channels": {
     "ecksdeal": {
       "last_message_id": 6119,
@@ -5222,8 +5226,8 @@
       "last_check_time": 1793599663.3444748
     },
     "zedstoreonline": {
-      "last_message_id": 40552,
-      "last_check_time": 1795296509.7622979
+      "last_message_id": 40553,
+      "last_check_time": 1795296885.30027
     },
     "aniscoupons": {
       "last_message_id": 35454,
@@ -6020,7 +6024,8 @@
     "1005009649241196": 3.29,
     "1005007097015654": 5.69,
     "1005007805749110": 4.09,
-    "1005009319376059": 49.5
+    "1005009319376059": 49.5,
+    "1005011974295002": 887.7
   },
   "channel_published_deals": {
     "aniscoupons:32590": {
@@ -31295,6 +31300,16 @@
       "price": 375.8,
       "timestamp": 1795296516.155404,
       "status": "ACTIVE"
+    },
+    "zedstoreonline:40553": {
+      "channel_msg_id": 3443,
+      "product_id": "1005011974295002",
+      "title": "VIVO X300 Ultra 12/256",
+      "channel": "zedstoreonline",
+      "source_msg_id": 40553,
+      "price": 887.7,
+      "timestamp": 1795296883.1865098,
+      "status": "ACTIVE"
     }
   },
   "schedule_config": {
@@ -31303,17 +31318,17 @@
     "current_interval_minutes": 5,
     "is_paused": false,
     "night_mode_enabled": true,
-    "last_deal_post_time": 1795296519.2082279,
+    "last_deal_post_time": 1795296887.2976263,
     "night_start_hour_dz": 0,
     "night_end_hour_dz": 8,
     "night_pause_enabled": true,
-    "last_sweep_time": 1795296698.4643137,
+    "last_sweep_time": 1795296889.8259494,
     "last_sweep_times": {
-      "algeria": 1795296696.172823,
-      "france": 1795296698.4643137
+      "algeria": 1795296887.2484405,
+      "france": 1795296889.8259494
     },
     "last_deal_post_times": {
-      "algeria": 1795296519.2082279
+      "algeria": 1795296887.2976263
     }
   },
   "last_coin_reminder_time": 1795241331.112354,
@@ -32222,7 +32237,8 @@
     "1005009649241196": "lodydeals",
     "1005007097015654": "lodydeals",
     "1005007805749110": "lodydeals",
-    "1005009319376059": "aniscoupons"
+    "1005009319376059": "aniscoupons",
+    "1005011974295002": "zedstoreonline"
   },
   "published_title_channels": {
     "Test Wrench Set": "test_channel",
@@ -33416,7 +33432,8 @@
     "Electric Lint Remover": "lodydeals",
     "500mL Water Bottle": "lodydeals",
     "WALRAM 2.5  sata 480GB": "aniscoupons",
-    "WALRAM  M.2 NVMe SSD 512GB": "aniscoupons"
+    "WALRAM  M.2 NVMe SSD 512GB": "aniscoupons",
+    "VIVO X300 Ultra 12/256": "zedstoreonline"
   },
   "religious_reminders_history": {
     "mock_rem": "2026-10-02",
