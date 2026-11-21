@@ -883,7 +883,8 @@
     "1005013383203760",
     "1005010121796649",
     "1005008850261694",
-    "32847542727"
+    "32847542727",
+    "COUPONS_67c5d85c35f4"
   ],
   "published_product_timestamps": {
     "1005012973772517": 1794500732.7845657,
@@ -1784,7 +1785,10 @@
     "1005013383203760": 1795250850.7040482,
     "1005010121796649": 1795251024.4152784,
     "1005008850261694": 1795251398.024725,
-    "32847542727": 1795274576.3351243
+    "32847542727": 1795274576.3351243,
+    "COUPONS_67c5d85c35f4": 1795275291.619781,
+    "COUPONS_67c5d85c": 1795275291.651658,
+    "COUPONS_Black Friday & Cyber Monday": 1795275291.651658
   },
   "published_titles": [
     "Wireless WiFi Repeater 300Mbps WiFi Extender Amplifier Booster Router",
@@ -3192,7 +3196,7 @@
     "CMF by Nothing Buds 2A 12.4mm Driver 42dB ANC 4HD MicsLong Battery Life Up": 1791968180.0253317,
     "REALME 15 5G (12/512)": 1792172104.7239766,
     "Electronic Scale Smart": 1795093445.0153434,
-    "أحدث كوبونات وتخفيضات AliExpress": 1794935378.986234,
+    "أحدث كوبونات وتخفيضات AliExpress": 1795275291.619781,
     "قرص صلب SSD من CUSU بسعات 1 تيرابايت، 512 جيجابايت، 240 جيجابايت، 480": 1791626816.0179322,
     "مايكروفون ديناميكي Fifine K688": 1793546757.4916894,
     "Walram SATA3 SSD 512GB": 1791638441.843642,
@@ -4146,7 +4150,6 @@
     "KingSpec DDR4 16GB 3200Mhz": 1795274576.3351243
   },
   "published_post_keys": [
-    "aniscoupons:34508",
     "aniscoupons:34509",
     "lodydeals:46354",
     "lodydeals:46357",
@@ -5145,11 +5148,12 @@
     "lodydeals:46768",
     "aniscoupons:35433",
     "lodydeals:46770",
-    "ecksdeal:6117"
+    "ecksdeal:6117",
+    "aniscoupons:35435"
   ],
   "last_disclaimer_time": 1794524540.9476151,
   "last_calendar_time": 1795177633.1203737,
-  "last_run_time": 1795274754.6782088,
+  "last_run_time": 1795275291.619781,
   "monitored_channels": {
     "ecksdeal": {
       "last_message_id": 6117,
@@ -5180,8 +5184,8 @@
       "last_check_time": 1795272184.712422
     },
     "aniscoupons": {
-      "last_message_id": 35433,
-      "last_check_time": 1795274578.4344041
+      "last_message_id": 35435,
+      "last_check_time": 1795275293.7235844
     },
     "bnddeals": {
       "last_message_id": 51383,
@@ -30929,6 +30933,16 @@
       "price": 0.01,
       "timestamp": 1795274754.6782088,
       "status": "ACTIVE"
+    },
+    "aniscoupons:35435": {
+      "channel_msg_id": 3410,
+      "product_id": "COUPONS_67c5d85c35f4",
+      "title": "أحدث كوبونات وتخفيضات AliExpress",
+      "channel": "aniscoupons",
+      "source_msg_id": 35435,
+      "price": null,
+      "timestamp": 1795275291.619781,
+      "status": "ACTIVE"
     }
   },
   "schedule_config": {
@@ -30937,17 +30951,17 @@
     "current_interval_minutes": 5,
     "is_paused": false,
     "night_mode_enabled": true,
-    "last_deal_post_time": 1795274758.9785368,
+    "last_deal_post_time": 1795275294.6619482,
     "night_start_hour_dz": 0,
     "night_end_hour_dz": 8,
     "night_pause_enabled": true,
-    "last_sweep_time": 1795275113.403743,
+    "last_sweep_time": 1795275297.2193913,
     "last_sweep_times": {
-      "algeria": 1795275110.6832101,
-      "france": 1795275113.403743
+      "algeria": 1795275294.631421,
+      "france": 1795275297.2193913
     },
     "last_deal_post_times": {
-      "algeria": 1795274758.9785368
+      "algeria": 1795275294.6619482
     }
   },
   "last_coin_reminder_time": 1795241331.112354,
@@ -31845,7 +31859,8 @@
     "1005013383203760": "aniscoupons",
     "1005010121796649": "aniscoupons",
     "1005008850261694": "bnddeals",
-    "32847542727": "aniscoupons"
+    "32847542727": "aniscoupons",
+    "COUPONS_67c5d85c35f4": "aniscoupons"
   },
   "published_title_channels": {
     "Test Wrench Set": "test_channel",
@@ -32020,7 +32035,7 @@
     "HTC NE79 TWS Wireless Bluetooth Earphones: AI": "couponsglobal",
     "Nail Scissors Set Household High End": "couponsglobal",
     "Baseus 30W Car Charger Dual Port USB Type-C Fast": "couponsglobal",
-    "أحدث كوبونات وتخفيضات AliExpress": "bnddeals",
+    "أحدث كوبونات وتخفيضات AliExpress": "aniscoupons",
     "XUNYOU-LINK 4G SIM WiFi Router 300Mbps High Speed WiFi6": "aniscoupons",
     "SMAILWOLF M3 Ergonomic Gaming Mouse Tri-Mode": "aniscoupons",
     "Xprinter H10 Handheld POS Thermal": "lodydeals",
@@ -33826,7 +33841,6 @@
   "published_deals_history": {},
   "settings": {},
   "handled_post_keys": [
-    "aniscoupons:34611",
     "zedstoreonline:39937",
     "zedstoreonline:39938",
     "zedstoreonline:39939",
@@ -34825,23 +34839,13 @@
     "lodydeals:46766",
     "zedstoreonline:40543",
     "lodydeals:46769",
-    "aniscoupons:35431"
+    "aniscoupons:35431",
+    "aniscoupons:35434"
   ],
   "last_france_cross_promo_time": 1795236239.730334,
   "next_france_cross_promo_interval_seconds": 209180,
   "france_cross_promo_variant_idx": 0,
   "published_coupon_bulletins": [
-    {
-      "promo": "Test Event 2026",
-      "hash": "d9b8b196",
-      "codes": [
-        "TEST04",
-        "TEST06"
-      ],
-      "channel_msg_id": 9999,
-      "channel": "@DzAliexpress0",
-      "timestamp": 1792166461.0601103
-    },
     {
       "promo": "Test Event 2026",
       "hash": "d9b8b196",
@@ -35381,6 +35385,17 @@
       "channel_msg_id": 3052,
       "channel": "@DzAliexpress0",
       "timestamp": 1794935379.010957
+    },
+    {
+      "promo": "Black Friday & Cyber Monday",
+      "hash": "67c5d85c",
+      "codes": [
+        "OTSBF03",
+        "OTSBF04"
+      ],
+      "channel_msg_id": 3410,
+      "channel": "@DzAliexpress0",
+      "timestamp": 1795275291.651658
     }
   ],
   "last_pre_11_11_advisory_time": 1794277956.9993703,
