@@ -930,7 +930,7 @@
     "1005006603602562": 1790941207.5310047,
     "1005010721042860": 1795192228.0234952,
     "1005009517247552": 1790941221.8823678,
-    "1005012191191893": 1795165490.909228,
+    "1005012191191893": 1795252679.8114014,
     "1005012968221708": 1793542591.509991,
     "9998883454": 1790943454.3504107,
     "9998883497": 1790943497.723828,
@@ -3838,7 +3838,7 @@
     "Lenovo LE257 Headphones": 1794137638.8201442,
     "Honor 600s CN (8/256)": 1795184432.291171,
     "ويبكام OBSBOT MEET 2 Webcam 4K": 1794140022.1412559,
-    "Blackview Mega 5": 1795165490.909228,
+    "Blackview Mega 5": 1795252679.8114014,
     "Warvank X8 Wireless Gaming Mouse": 1794496858.1106308,
     "Xiaoxin Pad Pro 2025 (8/128GB)": 1794995476.4520917,
     "سماعات ONIKUMA T27 لاسلكية بوضعَي اتصال 2.4GHz وBluetooth": 1794145536.5317988,
@@ -4138,7 +4138,6 @@
     "لووووووووووووز HAYLOU": 1795251398.024725
   },
   "published_post_keys": [
-    "lodydeals:46338",
     "aniscoupons:34478",
     "aniscoupons:34480",
     "aniscoupons:34481",
@@ -5137,11 +5136,12 @@
     "aniscoupons:35410",
     "zedstoreonline:40523",
     "bnddeals:51382",
-    "zedstoreonline:40524"
+    "zedstoreonline:40524",
+    "aniscoupons:35412"
   ],
   "last_disclaimer_time": 1794524540.9476151,
   "last_calendar_time": 1795177633.1203737,
-  "last_run_time": 1795252123.7889981,
+  "last_run_time": 1795252679.8114014,
   "monitored_channels": {
     "ecksdeal": {
       "last_message_id": 6116,
@@ -5168,12 +5168,12 @@
       "last_check_time": 1793599663.3444748
     },
     "zedstoreonline": {
-      "last_message_id": 40524,
-      "last_check_time": 1795252125.8978868
+      "last_message_id": 40525,
+      "last_check_time": 1795252675.0650706
     },
     "aniscoupons": {
-      "last_message_id": 35411,
-      "last_check_time": 1795251394.5223877
+      "last_message_id": 35412,
+      "last_check_time": 1795252681.8872604
     },
     "bnddeals": {
       "last_message_id": 51382,
@@ -30650,6 +30650,16 @@
       "price": 50.7,
       "timestamp": 1795252123.7889981,
       "status": "ACTIVE"
+    },
+    "aniscoupons:35412": {
+      "channel_msg_id": 3383,
+      "product_id": "1005012191191893",
+      "title": "Blackview Mega 5",
+      "channel": "aniscoupons",
+      "source_msg_id": 35412,
+      "price": 228.3,
+      "timestamp": 1795252679.8114014,
+      "status": "ACTIVE"
     }
   },
   "schedule_config": {
@@ -30658,17 +30668,17 @@
     "current_interval_minutes": 5,
     "is_paused": false,
     "night_mode_enabled": true,
-    "last_deal_post_time": 1795252127.6184,
+    "last_deal_post_time": 1795252683.0500944,
     "night_start_hour_dz": 0,
     "night_end_hour_dz": 8,
     "night_pause_enabled": true,
-    "last_sweep_time": 1795252492.0113168,
+    "last_sweep_time": 1795252686.087764,
     "last_sweep_times": {
-      "algeria": 1795252489.8510096,
-      "france": 1795252492.0113168
+      "algeria": 1795252683.0113392,
+      "france": 1795252686.087764
     },
     "last_deal_post_times": {
-      "algeria": 1795252127.6184
+      "algeria": 1795252683.0500944
     }
   },
   "last_coin_reminder_time": 1795241331.112354,
@@ -33543,7 +33553,6 @@
   "published_deals_history": {},
   "settings": {},
   "handled_post_keys": [
-    "aniscoupons:34564",
     "aniscoupons:34567",
     "aniscoupons:34568",
     "lodydeals:46374",
@@ -34542,7 +34551,8 @@
     "bnddeals:51381",
     "aniscoupons:35411",
     "lodydeals:46758",
-    "lodydeals:46759"
+    "lodydeals:46759",
+    "zedstoreonline:40525"
   ],
   "last_france_cross_promo_time": 1795236239.730334,
   "next_france_cross_promo_interval_seconds": 209180,
@@ -35304,6 +35314,13 @@
         "channel": "zedstoreonline",
         "ts": 1795251389.0876982,
         "price": 10.9
+      }
+    ],
+    "1005012191191893": [
+      {
+        "channel": "aniscoupons",
+        "ts": 1795252676.8580782,
+        "price": 228.3
       }
     ]
   },
