@@ -5234,8 +5234,8 @@
       "last_check_time": 1795298595.932235
     },
     "bnddeals": {
-      "last_message_id": 51385,
-      "last_check_time": 1795294142.7010822
+      "last_message_id": 51386,
+      "last_check_time": 1795299321.5901177
     }
   },
   "published_product_prices": {
@@ -31342,10 +31342,10 @@
     "night_start_hour_dz": 0,
     "night_end_hour_dz": 8,
     "night_pause_enabled": true,
-    "last_sweep_time": 1795299145.250333,
+    "last_sweep_time": 1795299324.1025395,
     "last_sweep_times": {
-      "algeria": 1795299142.101232,
-      "france": 1795299145.250333
+      "algeria": 1795299321.6352427,
+      "france": 1795299324.1025395
     },
     "last_deal_post_times": {
       "algeria": 1795298597.0218382
@@ -34251,7 +34251,6 @@
   "published_deals_history": {},
   "settings": {},
   "handled_post_keys": [
-    "zedstoreonline:39957",
     "lodydeals:46389",
     "lodydeals:46391",
     "lodydeals:46392",
@@ -35250,7 +35249,8 @@
     "aniscoupons:35450",
     "aniscoupons:35452",
     "zedstoreonline:40551",
-    "zedstoreonline:40552"
+    "zedstoreonline:40552",
+    "bnddeals:51386"
   ],
   "last_france_cross_promo_time": 1795236239.730334,
   "next_france_cross_promo_interval_seconds": 209180,
@@ -35892,13 +35892,6 @@
         "price": 138.7
       }
     ],
-    "1005012191191893": [
-      {
-        "channel": "aniscoupons",
-        "ts": 1795255606.9795244,
-        "price": 228.3
-      }
-    ],
     "1005008366962319": [
       {
         "channel": "aniscoupons",
@@ -35926,13 +35919,6 @@
         "channel": "zedstoreonline",
         "ts": 1795292657.7641785,
         "price": 119.5
-      }
-    ],
-    "1005013480169843": [
-      {
-        "channel": "zedstoreonline",
-        "ts": 1795255972.38381,
-        "price": 67.7
       }
     ],
     "1005013078612320": [
@@ -36264,6 +36250,13 @@
         "channel": "zedstoreonline",
         "ts": 1795298222.4972057,
         "price": 113.4
+      }
+    ],
+    "1005010155229810": [
+      {
+        "channel": "bnddeals",
+        "ts": 1795299320.9116576,
+        "price": 3.0
       }
     ]
   },
