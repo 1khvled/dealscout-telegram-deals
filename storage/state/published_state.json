@@ -1468,7 +1468,7 @@
     "1005010009130696": 1793613403.4444478,
     "1005013465751932": 1793613440.9413722,
     "1005011778223630": 1793613478.3592212,
-    "1005009231510301": 1795184412.0241432,
+    "1005009231510301": 1795256888.2596917,
     "1005011625723042": 1793613515.3490868,
     "1005006280695304": 1793613524.8970137,
     "1005010149868688": 1793613530.8342392,
@@ -1742,7 +1742,7 @@
     "1005011551172448": 1794936842.146349,
     "1005013401121405": 1794996958.0314968,
     "1005003624789670": 1794996764.6923764,
-    "1005008644346729": 1795168060.4173288,
+    "1005008644346729": 1795256894.3631735,
     "1005008723396190": 1795072599.5014904,
     "1005011729105677": 1795103808.7530327,
     "1005010538481521": 1795088201.579061,
@@ -3660,7 +3660,7 @@
     "Xiaomi Redmi 17 Smartphone 128G 256G ROM 120Hz 6.9\" Display 50MP 45W Turbo": 1793613465.8475375,
     "AMD Ryzen 5 7500F": 1793613478.3592212,
     "AMD Ryzen R9 9900X": 1793613486.2912338,
-    "Lenovo Xiaoxin Pad Pro GT  8/256": 1795005502.6505046,
+    "Lenovo Xiaoxin Pad Pro GT  8/256": 1795256888.2596917,
     "China Version Xiaomi WiFi Router Amplifier Pro": 1793613515.3490868,
     "SMAILWOLF RS7 Bluetooth wireless gaming mouse PAW3311 macro driver laptop": 1793613519.9635994,
     "Original Xiaomi Mi Small Backpack": 1793613524.8970137,
@@ -3848,7 +3848,7 @@
     "Lenovo LP40 Pro": 1794146830.4272797,
     "Ulanzi ST-06S Smartphone Mount Holder": 1794667301.7599618,
     "WAMRAM SATA SSD 480GB": 1794159522.2930505,
-    "Netac M.2 1TB 7400Mbs Gen 4": 1795168060.4173288,
+    "Netac M.2 1TB 7400Mbs Gen 4": 1795256894.3631735,
     "RYZEN 5 5600XT": 1794253893.3396604,
     "OnePlus Turbo 6V": 1795007178.5557232,
     "DJI Mic Mini2  2TX 1RX": 1794216974.0881407,
@@ -4140,8 +4140,6 @@
     "KOOTION X16 7100MB/s NVMe 512GB": 1795256330.146872
   },
   "published_post_keys": [
-    "lodydeals:46346",
-    "aniscoupons:34485",
     "lodydeals:46347",
     "aniscoupons:34486",
     "bnddeals:51275",
@@ -5139,11 +5137,13 @@
     "aniscoupons:35416",
     "zedstoreonline:40530",
     "lodydeals:46760",
-    "zedstoreonline:40531"
+    "zedstoreonline:40531",
+    "zedstoreonline:40532",
+    "aniscoupons:35419"
   ],
   "last_disclaimer_time": 1794524540.9476151,
   "last_calendar_time": 1795177633.1203737,
-  "last_run_time": 1795256521.0477176,
+  "last_run_time": 1795256894.3631735,
   "monitored_channels": {
     "ecksdeal": {
       "last_message_id": 6116,
@@ -5170,12 +5170,12 @@
       "last_check_time": 1793599663.3444748
     },
     "zedstoreonline": {
-      "last_message_id": 40531,
-      "last_check_time": 1795256523.1345556
+      "last_message_id": 40532,
+      "last_check_time": 1795256890.335402
     },
     "aniscoupons": {
-      "last_message_id": 35418,
-      "last_check_time": 1795256156.6526701
+      "last_message_id": 35419,
+      "last_check_time": 1795256896.4369361
     },
     "bnddeals": {
       "last_message_id": 51382,
@@ -30722,6 +30722,26 @@
       "price": 231.2,
       "timestamp": 1795256521.0477176,
       "status": "ACTIVE"
+    },
+    "zedstoreonline:40532": {
+      "channel_msg_id": 3390,
+      "product_id": "1005009231510301",
+      "title": "Lenovo Xiaoxin Pad Pro GT  8/256",
+      "channel": "zedstoreonline",
+      "source_msg_id": 40532,
+      "price": 262.7,
+      "timestamp": 1795256888.2596917,
+      "status": "ACTIVE"
+    },
+    "aniscoupons:35419": {
+      "channel_msg_id": 3391,
+      "product_id": "1005008644346729",
+      "title": "Netac M.2 1TB 7400Mbs Gen 4",
+      "channel": "aniscoupons",
+      "source_msg_id": 35419,
+      "price": 115.9,
+      "timestamp": 1795256894.3631735,
+      "status": "ACTIVE"
     }
   },
   "schedule_config": {
@@ -30730,17 +30750,17 @@
     "current_interval_minutes": 5,
     "is_paused": false,
     "night_mode_enabled": true,
-    "last_deal_post_time": 1795256524.7547948,
+    "last_deal_post_time": 1795256897.2340086,
     "night_start_hour_dz": 0,
     "night_end_hour_dz": 8,
     "night_pause_enabled": true,
-    "last_sweep_time": 1795256706.5436535,
+    "last_sweep_time": 1795256899.3688173,
     "last_sweep_times": {
-      "algeria": 1795256703.3863692,
-      "france": 1795256706.5436535
+      "algeria": 1795256897.2047007,
+      "france": 1795256899.3688173
     },
     "last_deal_post_times": {
-      "algeria": 1795256524.7547948
+      "algeria": 1795256897.2340086
     }
   },
   "last_coin_reminder_time": 1795241331.112354,
@@ -31342,7 +31362,7 @@
     "1005010009130696": "zedstoreonline",
     "1005013465751932": "zedstoreonline",
     "1005011778223630": "zedstoreonline",
-    "1005009231510301": "aniscoupons",
+    "1005009231510301": "zedstoreonline",
     "1005011625723042": "aniscoupons",
     "1005006280695304": "aniscoupons",
     "1005007060644375": "zedstoreonline",
@@ -35197,11 +35217,6 @@
     ],
     "1005007916078341": [
       {
-        "channel": "aniscoupons",
-        "ts": 1795213675.5773654,
-        "price": 49.3
-      },
-      {
         "channel": "zedstoreonline",
         "ts": 1795252121.1263137,
         "price": 50.7
@@ -35227,11 +35242,6 @@
       }
     ],
     "1005007027334636": [
-      {
-        "channel": "zedstoreonline",
-        "ts": 1795213672.9428856,
-        "price": 10.5
-      },
       {
         "channel": "lodydeals",
         "ts": 1795249380.331449,
@@ -35445,6 +35455,20 @@
         "channel": "zedstoreonline",
         "ts": 1795256518.5969324,
         "price": 231.2
+      }
+    ],
+    "1005009231510301": [
+      {
+        "channel": "zedstoreonline",
+        "ts": 1795256886.1481133,
+        "price": 262.7
+      }
+    ],
+    "1005008644346729": [
+      {
+        "channel": "aniscoupons",
+        "ts": 1795256892.2327695,
+        "price": 115.9
       }
     ]
   },

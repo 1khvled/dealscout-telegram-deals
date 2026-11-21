@@ -28,8 +28,8 @@
       "ewma": 0.9994
     },
     "zedstoreonline": {
-      "seen": 418,
-      "published": 262,
+      "seen": 419,
+      "published": 263,
       "skipped": 0,
       "ewma": 0.9994
     },
@@ -40,8 +40,8 @@
       "ewma": 0.9591
     },
     "aniscoupons": {
-      "seen": 628,
-      "published": 542,
+      "seen": 629,
+      "published": 543,
       "skipped": 0,
       "ewma": 0.9994
     },
@@ -54,8 +54,8 @@
   },
   "category_stats": {
     "other": {
-      "seen": 491,
-      "published": 425,
+      "seen": 493,
+      "published": 427,
       "skipped": 0,
       "ewma": 0.9994
     },
@@ -424,6 +424,7 @@
       259.7,
       259.7,
       259.7,
+      262.7,
       262.7
     ],
     "1005008077441711": [
@@ -1485,6 +1486,7 @@
       114.99,
       114.99,
       115.9,
+      115.9,
       115.9
     ],
     "1005010716206374": [
@@ -1685,31 +1687,15 @@
     ]
   },
   "counters": {
-    "scored": 1297,
-    "verdict_publish": 1243,
+    "scored": 1299,
+    "verdict_publish": 1245,
     "verdict_hold": 53,
     "verdict_skip": 1,
-    "published": 1008,
+    "published": 1010,
     "skipped": 0
   },
-  "score_sum": 95042.97,
+  "score_sum": 95181.89,
   "recent_decisions": [
-    {
-      "ts": 1795080683,
-      "channel": "aniscoupons",
-      "category": "pc",
-      "product_id": "1005012135177627",
-      "score": 84.36,
-      "verdict": "publish"
-    },
-    {
-      "ts": 1795081232,
-      "channel": "bnddeals",
-      "category": "other",
-      "product_id": "1005008518280704",
-      "score": 83.01,
-      "verdict": "publish"
-    },
     {
       "ts": 1795081417,
       "channel": "zedstoreonline",
@@ -3293,7 +3279,23 @@
       "product_id": "1005010620269829",
       "score": 64.6,
       "verdict": "publish"
+    },
+    {
+      "ts": 1795256886,
+      "channel": "zedstoreonline",
+      "category": "other",
+      "product_id": "1005009231510301",
+      "score": 66.57,
+      "verdict": "publish"
+    },
+    {
+      "ts": 1795256892,
+      "channel": "aniscoupons",
+      "category": "other",
+      "product_id": "1005008644346729",
+      "score": 72.35,
+      "verdict": "publish"
     }
   ],
-  "updated_at": 1795256521.112745
+  "updated_at": 1795256894.4165895
 }
