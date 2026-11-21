@@ -880,7 +880,8 @@
     "1005012577991043",
     "1005005430153846",
     "1005012663205752",
-    "1005013383203760"
+    "1005013383203760",
+    "1005010121796649"
   ],
   "published_product_timestamps": {
     "1005012973772517": 1794500732.7845657,
@@ -1778,7 +1779,8 @@
     "1005012577991043": 1795201850.7994294,
     "1005005430153846": 1795249207.7202265,
     "1005012663205752": 1795249213.3989208,
-    "1005013383203760": 1795250850.7040482
+    "1005013383203760": 1795250850.7040482,
+    "1005010121796649": 1795251024.4152784
   },
   "published_titles": [
     "Wireless WiFi Repeater 300Mbps WiFi Extender Amplifier Booster Router",
@@ -2950,7 +2952,8 @@
     "Machenike G7 Gaming Mouse",
     "Anker P20i TWS",
     "Onn 4K Android 13 TV Box",
-    "1More  HQ20 Headphones"
+    "1More  HQ20 Headphones",
+    "Poco X8 5G (6/128GB)"
   ],
   "published_title_timestamps": {
     "Xiaomi Redmi Note 17 5G Global Version": 1790857823.0117362,
@@ -4127,10 +4130,10 @@
     "Machenike G7 Gaming Mouse": 1795204239.9976652,
     "Anker P20i TWS": 1795249022.7985642,
     "Onn 4K Android 13 TV Box": 1795249213.3989208,
-    "1More  HQ20 Headphones": 1795249218.8314788
+    "1More  HQ20 Headphones": 1795249218.8314788,
+    "Poco X8 5G (6/128GB)": 1795251024.4152784
   },
   "published_post_keys": [
-    "zedstoreonline:39843",
     "aniscoupons:34469",
     "zedstoreonline:39827",
     "lodydeals:46331",
@@ -5129,19 +5132,20 @@
     "aniscoupons:35407",
     "aniscoupons:35408",
     "zedstoreonline:40521",
-    "aniscoupons:35409"
+    "aniscoupons:35409",
+    "aniscoupons:35410"
   ],
   "last_disclaimer_time": 1794524540.9476151,
   "last_calendar_time": 1795177633.1203737,
-  "last_run_time": 1795250850.7040482,
+  "last_run_time": 1795251024.4152784,
   "monitored_channels": {
     "ecksdeal": {
       "last_message_id": 6116,
       "last_check_time": 1795183542.6481285
     },
     "lodydeals": {
-      "last_message_id": 46756,
-      "last_check_time": 1795250464.8816574
+      "last_message_id": 46757,
+      "last_check_time": 1795251018.4552064
     },
     "test_channel": {
       "last_message_id": 1793967703,
@@ -5164,8 +5168,8 @@
       "last_check_time": 1795250845.9068234
     },
     "aniscoupons": {
-      "last_message_id": 35409,
-      "last_check_time": 1795250852.7958484
+      "last_message_id": 35410,
+      "last_check_time": 1795251026.515264
     },
     "bnddeals": {
       "last_message_id": 51380,
@@ -5945,7 +5949,8 @@
     "1005012577991043": 273.5,
     "1005005430153846": 7.08,
     "1005012663205752": 31.05,
-    "1005013383203760": 186.7
+    "1005013383203760": 186.7,
+    "1005010121796649": 217.8
   },
   "channel_published_deals": {
     "aniscoupons:32590": {
@@ -30600,6 +30605,16 @@
       "price": 186.7,
       "timestamp": 1795250850.7040482,
       "status": "ACTIVE"
+    },
+    "aniscoupons:35410": {
+      "channel_msg_id": 3379,
+      "product_id": "1005010121796649",
+      "title": "Poco X8 5G (6/128GB)",
+      "channel": "aniscoupons",
+      "source_msg_id": 35410,
+      "price": 217.8,
+      "timestamp": 1795251024.4152784,
+      "status": "ACTIVE"
     }
   },
   "schedule_config": {
@@ -30608,17 +30623,17 @@
     "current_interval_minutes": 5,
     "is_paused": false,
     "night_mode_enabled": true,
-    "last_deal_post_time": 1795250853.9707026,
+    "last_deal_post_time": 1795251027.5435913,
     "night_start_hour_dz": 0,
     "night_end_hour_dz": 8,
     "night_pause_enabled": true,
-    "last_sweep_time": 1795250857.2735567,
+    "last_sweep_time": 1795251029.9841294,
     "last_sweep_times": {
-      "algeria": 1795250853.9267354,
-      "france": 1795250857.2735567
+      "algeria": 1795251027.5045571,
+      "france": 1795251029.9841294
     },
     "last_deal_post_times": {
-      "algeria": 1795250853.9707026
+      "algeria": 1795251027.5435913
     }
   },
   "last_coin_reminder_time": 1795241331.112354,
@@ -31513,7 +31528,8 @@
     "1005012577991043": "aniscoupons",
     "1005005430153846": "lodydeals",
     "1005012663205752": "lodydeals",
-    "1005013383203760": "aniscoupons"
+    "1005013383203760": "aniscoupons",
+    "1005010121796649": "aniscoupons"
   },
   "published_title_channels": {
     "Test Wrench Set": "test_channel",
@@ -32691,7 +32707,8 @@
     "Machenike G7 Gaming Mouse": "bnddeals",
     "Anker P20i TWS": "lodydeals",
     "Onn 4K Android 13 TV Box": "lodydeals",
-    "1More  HQ20 Headphones": "lodydeals"
+    "1More  HQ20 Headphones": "lodydeals",
+    "Poco X8 5G (6/128GB)": "aniscoupons"
   },
   "religious_reminders_history": {
     "mock_rem": "2026-10-02",
@@ -33489,7 +33506,6 @@
   "published_deals_history": {},
   "settings": {},
   "handled_post_keys": [
-    "zedstoreonline:39916",
     "aniscoupons:34560",
     "aniscoupons:34561",
     "zedstoreonline:39917",
@@ -34488,7 +34504,8 @@
     "zedstoreonline:40518",
     "zedstoreonline:40519",
     "lodydeals:46756",
-    "zedstoreonline:40520"
+    "zedstoreonline:40520",
+    "lodydeals:46757"
   ],
   "last_france_cross_promo_time": 1795236239.730334,
   "next_france_cross_promo_interval_seconds": 209180,
