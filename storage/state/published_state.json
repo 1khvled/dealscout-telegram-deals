@@ -891,7 +891,9 @@
     "1005007038424043",
     "1005010439285778",
     "1005010089091939",
-    "1005009649241196"
+    "1005009649241196",
+    "1005007097015654",
+    "1005007805749110"
   ],
   "published_product_timestamps": {
     "1005012973772517": 1794500732.7845657,
@@ -1802,7 +1804,9 @@
     "1005007038424043": 1795283249.1787498,
     "1005010439285778": 1795290129.2736075,
     "1005010089091939": 1795290139.8130522,
-    "1005009649241196": 1795290145.0386395
+    "1005009649241196": 1795290145.0386395,
+    "1005007097015654": 1795290732.7583535,
+    "1005007805749110": 1795290738.086464
   },
   "published_titles": [
     "Wireless WiFi Repeater 300Mbps WiFi Extender Amplifier Booster Router",
@@ -2986,7 +2990,9 @@
     "Men's Watch Business",
     "LAXASFIT Men Watch",
     "Personalized Quartz Watch",
-    "Essager 45W Mini"
+    "Essager 45W Mini",
+    "Electric Lint Remover",
+    "500mL Water Bottle"
   ],
   "published_title_timestamps": {
     "Xiaomi Redmi Note 17 5G Global Version": 1790857823.0117362,
@@ -4175,11 +4181,11 @@
     "Men's Watch Business": 1795290129.2736075,
     "LAXASFIT Men Watch": 1795290139.8130522,
     "Personalized Quartz Watch": 1795290145.0386395,
-    "Essager 45W Mini": 1795290151.521564
+    "Essager 45W Mini": 1795290151.521564,
+    "Electric Lint Remover": 1795290732.7583535,
+    "500mL Water Bottle": 1795290738.086464
   },
   "published_post_keys": [
-    "aniscoupons:34525",
-    "aniscoupons:34527",
     "aniscoupons:34528",
     "zedstoreonline:39892",
     "zedstoreonline:39894",
@@ -5177,19 +5183,21 @@
     "lodydeals:46780",
     "lodydeals:46782",
     "lodydeals:46783",
-    "lodydeals:46785"
+    "lodydeals:46785",
+    "lodydeals:46786",
+    "lodydeals:46787"
   ],
   "last_disclaimer_time": 1794524540.9476151,
   "last_calendar_time": 1795177633.1203737,
-  "last_run_time": 1795290161.6076646,
+  "last_run_time": 1795290738.086464,
   "monitored_channels": {
     "ecksdeal": {
       "last_message_id": 6119,
       "last_check_time": 1795282395.5364728
     },
     "lodydeals": {
-      "last_message_id": 46785,
-      "last_check_time": 1795290161.6076646
+      "last_message_id": 46787,
+      "last_check_time": 1795290740.1700573
     },
     "test_channel": {
       "last_message_id": 1793967703,
@@ -6003,7 +6011,9 @@
     "1005007038424043": 2.71,
     "1005010439285778": 5.29,
     "1005010089091939": 5.29,
-    "1005009649241196": 3.29
+    "1005009649241196": 3.29,
+    "1005007097015654": 5.69,
+    "1005007805749110": 4.09
   },
   "channel_published_deals": {
     "aniscoupons:32590": {
@@ -31168,6 +31178,26 @@
       "price": 42.14,
       "timestamp": 1795290161.6076646,
       "status": "ACTIVE"
+    },
+    "lodydeals:46786": {
+      "channel_msg_id": 3432,
+      "product_id": "1005007097015654",
+      "title": "Electric Lint Remover",
+      "channel": "lodydeals",
+      "source_msg_id": 46786,
+      "price": 5.69,
+      "timestamp": 1795290732.7583535,
+      "status": "ACTIVE"
+    },
+    "lodydeals:46787": {
+      "channel_msg_id": 3433,
+      "product_id": "1005007805749110",
+      "title": "500mL Water Bottle",
+      "channel": "lodydeals",
+      "source_msg_id": 46787,
+      "price": 4.09,
+      "timestamp": 1795290738.086464,
+      "status": "ACTIVE"
     }
   },
   "schedule_config": {
@@ -31176,17 +31206,17 @@
     "current_interval_minutes": 5,
     "is_paused": false,
     "night_mode_enabled": true,
-    "last_deal_post_time": 1795290168.7111688,
+    "last_deal_post_time": 1795290743.2977672,
     "night_start_hour_dz": 0,
     "night_end_hour_dz": 8,
     "night_pause_enabled": true,
-    "last_sweep_time": 1795290333.4279072,
+    "last_sweep_time": 1795290745.8693347,
     "last_sweep_times": {
-      "algeria": 1795290330.3741484,
-      "france": 1795290333.4279072
+      "algeria": 1795290743.264212,
+      "france": 1795290745.8693347
     },
     "last_deal_post_times": {
-      "algeria": 1795290168.7111688
+      "algeria": 1795290743.2977672
     }
   },
   "last_coin_reminder_time": 1795241331.112354,
@@ -32092,7 +32122,9 @@
     "1005007038424043": "lodydeals",
     "1005010439285778": "lodydeals",
     "1005010089091939": "lodydeals",
-    "1005009649241196": "lodydeals"
+    "1005009649241196": "lodydeals",
+    "1005007097015654": "lodydeals",
+    "1005007805749110": "lodydeals"
   },
   "published_title_channels": {
     "Test Wrench Set": "test_channel",
@@ -33282,7 +33314,9 @@
     "Men's Watch Business": "lodydeals",
     "LAXASFIT Men Watch": "lodydeals",
     "Personalized Quartz Watch": "lodydeals",
-    "Essager 45W Mini": "lodydeals"
+    "Essager 45W Mini": "lodydeals",
+    "Electric Lint Remover": "lodydeals",
+    "500mL Water Bottle": "lodydeals"
   },
   "religious_reminders_history": {
     "mock_rem": "2026-10-02",
