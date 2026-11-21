@@ -1281,7 +1281,7 @@
     "1005010529440901": 1793361918.107678,
     "1005010035309013": 1793554752.7954907,
     "1005010385472500": 1793448762.165183,
-    "1005011779814585": 1795080308.058737,
+    "1005011779814585": 1795271644.1827564,
     "1005013090910574": 1794340346.0747576,
     "1005012382148199": 1793500800.6950834,
     "1005010158485058": 1793543612.279949,
@@ -3439,7 +3439,7 @@
     "OPPO A7 PRO MAX  (8/128)": 1793399619.8124897,
     "وحش الأخر": 1793448843.5220337,
     "OnePlus ACE 6T 12/256": 1793613338.6107306,
-    "AMD Ryzen 7 9700X": 1795080308.058737,
+    "AMD Ryzen 7 9700X": 1795271644.1827564,
     "JUHOR DDR5 RAM 6000MHz 16GBx2": 1793441297.4632108,
     "KingSpec DDR5 RGB RAM 16GBX2 6000 MHz": 1793441302.3527575,
     "ViVO iQOO Neo 11 Ultra 12/256": 1793971934.3600886,
@@ -4146,7 +4146,6 @@
     "KingSpec DDR4 16GB 3200Mhz": 1795267406.4196262
   },
   "published_post_keys": [
-    "zedstoreonline:39876",
     "aniscoupons:34502",
     "aniscoupons:34503",
     "aniscoupons:34504",
@@ -5145,19 +5144,20 @@
     "aniscoupons:35429",
     "aniscoupons:35430",
     "lodydeals:46765",
-    "zedstoreonline:40542"
+    "zedstoreonline:40542",
+    "lodydeals:46767"
   ],
   "last_disclaimer_time": 1794524540.9476151,
   "last_calendar_time": 1795177633.1203737,
-  "last_run_time": 1795271439.2141373,
+  "last_run_time": 1795271644.1827564,
   "monitored_channels": {
     "ecksdeal": {
       "last_message_id": 6116,
       "last_check_time": 1795183542.6481285
     },
     "lodydeals": {
-      "last_message_id": 46766,
-      "last_check_time": 1795271256.321276
+      "last_message_id": 46767,
+      "last_check_time": 1795271646.288615
     },
     "test_channel": {
       "last_message_id": 1793967703,
@@ -5495,7 +5495,7 @@
     "1005010529440901": 59.8,
     "1005010035309013": 72.89,
     "1005010385472500": 40.0,
-    "1005011779814585": 175.9,
+    "1005011779814585": 191.61,
     "1005013090910574": 192.7,
     "1005012382148199": 469.0,
     "1005010158485058": 66.5,
@@ -30879,6 +30879,16 @@
       "price": 52.4,
       "timestamp": 1795271439.2141373,
       "status": "ACTIVE"
+    },
+    "lodydeals:46767": {
+      "channel_msg_id": 3405,
+      "product_id": "1005011779814585",
+      "title": "AMD Ryzen 7 9700X",
+      "channel": "lodydeals",
+      "source_msg_id": 46767,
+      "price": 191.61,
+      "timestamp": 1795271644.1827564,
+      "status": "ACTIVE"
     }
   },
   "schedule_config": {
@@ -30887,17 +30897,17 @@
     "current_interval_minutes": 5,
     "is_paused": false,
     "night_mode_enabled": true,
-    "last_deal_post_time": 1795271442.4413986,
+    "last_deal_post_time": 1795271649.868042,
     "night_start_hour_dz": 0,
     "night_end_hour_dz": 8,
     "night_pause_enabled": true,
-    "last_sweep_time": 1795271444.8414872,
+    "last_sweep_time": 1795271652.9215832,
     "last_sweep_times": {
-      "algeria": 1795271442.4185894,
-      "france": 1795271444.8414872
+      "algeria": 1795271649.8217697,
+      "france": 1795271652.9215832
     },
     "last_deal_post_times": {
-      "algeria": 1795271442.4413986
+      "algeria": 1795271649.868042
     }
   },
   "last_coin_reminder_time": 1795241331.112354,
@@ -31305,7 +31315,7 @@
     "1005010529440901": "zedstoreonline",
     "1005010035309013": "lodydeals",
     "1005010385472500": "bnddeals",
-    "1005011779814585": "zedstoreonline",
+    "1005011779814585": "lodydeals",
     "1005013090910574": "aniscoupons",
     "1005012382148199": "megaphonna",
     "1005010158485058": "lodydeals",
@@ -32280,7 +32290,7 @@
     "OPPO A7 PRO MAX  (8/128)": "megaphonna",
     "وحش الأخر": "megaphonna",
     "OnePlus ACE 6T 12/256": "zedstoreonline",
-    "AMD Ryzen 7 9700X": "zedstoreonline",
+    "AMD Ryzen 7 9700X": "lodydeals",
     "JUHOR DDR5 RAM 6000MHz 16GBx2": "zedstoreonline",
     "KingSpec DDR5 RGB RAM 16GBX2 6000 MHz": "zedstoreonline",
     "ViVO iQOO Neo 11 Ultra 12/256": "zedstoreonline",
@@ -35725,6 +35735,13 @@
         "channel": "zedstoreonline",
         "ts": 1795271436.6413963,
         "price": 52.4
+      }
+    ],
+    "1005011779814585": [
+      {
+        "channel": "lodydeals",
+        "ts": 1795271640.845721,
+        "price": 191.61
       }
     ]
   },
