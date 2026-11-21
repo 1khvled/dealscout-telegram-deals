@@ -879,7 +879,8 @@
     "1005013063780292",
     "1005012577991043",
     "1005005430153846",
-    "1005012663205752"
+    "1005012663205752",
+    "1005013383203760"
   ],
   "published_product_timestamps": {
     "1005012973772517": 1794500732.7845657,
@@ -1684,7 +1685,7 @@
     "1005010218815499": 1794845442.6108298,
     "1005011897409757": 1794593403.339319,
     "1005013203288194": 1795185828.2808123,
-    "1005010305059795": 1795202797.011454,
+    "1005010305059795": 1795250843.8103168,
     "1005013078612320": 1795207259.087596,
     "1005007010612283": 1794599454.461018,
     "1005010788231460": 1794604060.7762444,
@@ -1776,7 +1777,8 @@
     "1005013063780292": 1795200037.561095,
     "1005012577991043": 1795201850.7994294,
     "1005005430153846": 1795249207.7202265,
-    "1005012663205752": 1795249213.3989208
+    "1005012663205752": 1795249213.3989208,
+    "1005013383203760": 1795250850.7040482
   },
   "published_titles": [
     "Wireless WiFi Repeater 300Mbps WiFi Extender Amplifier Booster Router",
@@ -3982,7 +3984,7 @@
     "ماوس فخم Logitech G502 Hero": 1794591008.1982286,
     "ماوس لاسلكي Delux M800 Mini Series": 1794591382.6548223,
     "Lexar V400 USB3.0 64GB": 1794593403.339319,
-    "HAYLOU S40 ANC Wireless": 1795202797.011454,
+    "HAYLOU S40 ANC Wireless": 1795250843.8103168,
     "CUSU Memory DDR5 (16GB) 6000MHz": 1795080686.538359,
     "Realme 15 Pro (12/512GB)": 1794998227.2322433,
     "MAONO T1 Plus Dual-Capsule Wireless Lavalier Microphone Lapel Microphone": 1794599278.9506347,
@@ -4121,15 +4123,13 @@
     "الجودة العالية من BASEUS": 1795195556.2284572,
     "1More HQ20 SonoFlow MINI Hearing": 1795196136.7491949,
     "JGINYUE B650M AURORA": 1795200031.7838972,
-    "Redmi Note 17 4G (6/128GB)": 1795200037.561095,
+    "Redmi Note 17 4G (6/128GB)": 1795250850.7040482,
     "Machenike G7 Gaming Mouse": 1795204239.9976652,
     "Anker P20i TWS": 1795249022.7985642,
     "Onn 4K Android 13 TV Box": 1795249213.3989208,
     "1More  HQ20 Headphones": 1795249218.8314788
   },
   "published_post_keys": [
-    "zedstoreonline:39841",
-    "zedstoreonline:39842",
     "zedstoreonline:39843",
     "aniscoupons:34469",
     "zedstoreonline:39827",
@@ -5127,11 +5127,13 @@
     "aniscoupons:35405",
     "aniscoupons:35406",
     "aniscoupons:35407",
-    "aniscoupons:35408"
+    "aniscoupons:35408",
+    "zedstoreonline:40521",
+    "aniscoupons:35409"
   ],
   "last_disclaimer_time": 1794524540.9476151,
   "last_calendar_time": 1795177633.1203737,
-  "last_run_time": 1795250472.1469674,
+  "last_run_time": 1795250850.7040482,
   "monitored_channels": {
     "ecksdeal": {
       "last_message_id": 6116,
@@ -5158,12 +5160,12 @@
       "last_check_time": 1793599663.3444748
     },
     "zedstoreonline": {
-      "last_message_id": 40520,
-      "last_check_time": 1795250468.2032075
+      "last_message_id": 40521,
+      "last_check_time": 1795250845.9068234
     },
     "aniscoupons": {
-      "last_message_id": 35408,
-      "last_check_time": 1795250474.200561
+      "last_message_id": 35409,
+      "last_check_time": 1795250852.7958484
     },
     "bnddeals": {
       "last_message_id": 51380,
@@ -5942,7 +5944,8 @@
     "1005013063780292": 192.89,
     "1005012577991043": 273.5,
     "1005005430153846": 7.08,
-    "1005012663205752": 31.05
+    "1005012663205752": 31.05,
+    "1005013383203760": 186.7
   },
   "channel_published_deals": {
     "aniscoupons:32590": {
@@ -30577,6 +30580,26 @@
       "price": 41.8,
       "timestamp": 1795250472.1469674,
       "status": "ACTIVE"
+    },
+    "zedstoreonline:40521": {
+      "channel_msg_id": 3377,
+      "product_id": "1005010305059795",
+      "title": "HAYLOU S40 ANC Wireless",
+      "channel": "zedstoreonline",
+      "source_msg_id": 40521,
+      "price": 29.6,
+      "timestamp": 1795250843.8103168,
+      "status": "ACTIVE"
+    },
+    "aniscoupons:35409": {
+      "channel_msg_id": 3378,
+      "product_id": "1005013383203760",
+      "title": "Redmi Note 17 4G (6/128GB)",
+      "channel": "aniscoupons",
+      "source_msg_id": 35409,
+      "price": 186.7,
+      "timestamp": 1795250850.7040482,
+      "status": "ACTIVE"
     }
   },
   "schedule_config": {
@@ -30585,17 +30608,17 @@
     "current_interval_minutes": 5,
     "is_paused": false,
     "night_mode_enabled": true,
-    "last_deal_post_time": 1795250475.001296,
+    "last_deal_post_time": 1795250853.9707026,
     "night_start_hour_dz": 0,
     "night_end_hour_dz": 8,
     "night_pause_enabled": true,
-    "last_sweep_time": 1795250661.0162845,
+    "last_sweep_time": 1795250857.2735567,
     "last_sweep_times": {
-      "algeria": 1795250658.2550864,
-      "france": 1795250661.0162845
+      "algeria": 1795250853.9267354,
+      "france": 1795250857.2735567
     },
     "last_deal_post_times": {
-      "algeria": 1795250475.001296
+      "algeria": 1795250853.9707026
     }
   },
   "last_coin_reminder_time": 1795241331.112354,
@@ -31489,7 +31512,8 @@
     "1005013063780292": "aniscoupons",
     "1005012577991043": "aniscoupons",
     "1005005430153846": "lodydeals",
-    "1005012663205752": "lodydeals"
+    "1005012663205752": "lodydeals",
+    "1005013383203760": "aniscoupons"
   },
   "published_title_channels": {
     "Test Wrench Set": "test_channel",
@@ -35200,6 +35224,13 @@
         "channel": "aniscoupons",
         "ts": 1795250469.8497813,
         "price": 41.8
+      }
+    ],
+    "1005010305059795": [
+      {
+        "channel": "zedstoreonline",
+        "ts": 1795250840.8931777,
+        "price": 29.6
       }
     ]
   },
