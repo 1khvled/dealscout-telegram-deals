@@ -940,7 +940,7 @@
     "1005005648888450": 1790941186.791633,
     "1005006117094928": 1794524375.306614,
     "1005006603602562": 1790941207.5310047,
-    "1005010721042860": 1795192228.0234952,
+    "1005010721042860": 1795296516.155404,
     "1005009517247552": 1790941221.8823678,
     "1005012191191893": 1795252679.8114014,
     "1005012968221708": 1793542591.509991,
@@ -4165,7 +4165,7 @@
     "Redmi Note 17 Pro 5G (6/128GB)": 1795184587.079662,
     "Honor 600 Lite 5G 8/256GB": 1795185596.5947275,
     "Vivo Y500 Pro (8/128GB)": 1795186378.654721,
-    "Honor Power 2 12/256GB": 1795192228.0234952,
+    "Honor Power 2 12/256GB": 1795296516.155404,
     "الجودة العالية من BASEUS": 1795195556.2284572,
     "1More HQ20 SonoFlow MINI Hearing": 1795196136.7491949,
     "JGINYUE B650M AURORA": 1795200031.7838972,
@@ -4192,7 +4192,6 @@
     "WALRAM  M.2 NVMe SSD 512GB": 1795295051.5484984
   },
   "published_post_keys": [
-    "zedstoreonline:39901",
     "aniscoupons:34537",
     "zedstoreonline:39902",
     "aniscoupons:34538",
@@ -5191,11 +5190,12 @@
     "aniscoupons:35447",
     "aniscoupons:35449",
     "aniscoupons:35451",
-    "aniscoupons:35453"
+    "aniscoupons:35453",
+    "aniscoupons:35454"
   ],
   "last_disclaimer_time": 1794524540.9476151,
   "last_calendar_time": 1795177633.1203737,
-  "last_run_time": 1795296330.8259635,
+  "last_run_time": 1795296516.155404,
   "monitored_channels": {
     "ecksdeal": {
       "last_message_id": 6119,
@@ -5222,12 +5222,12 @@
       "last_check_time": 1793599663.3444748
     },
     "zedstoreonline": {
-      "last_message_id": 40551,
-      "last_check_time": 1795296323.840131
+      "last_message_id": 40552,
+      "last_check_time": 1795296509.7622979
     },
     "aniscoupons": {
-      "last_message_id": 35453,
-      "last_check_time": 1795296332.8959427
+      "last_message_id": 35454,
+      "last_check_time": 1795296518.22503
     },
     "bnddeals": {
       "last_message_id": 51385,
@@ -31285,6 +31285,16 @@
       "price": 273.5,
       "timestamp": 1795296330.8259635,
       "status": "ACTIVE"
+    },
+    "aniscoupons:35454": {
+      "channel_msg_id": 3442,
+      "product_id": "1005010721042860",
+      "title": "Honor Power 2 12/256GB",
+      "channel": "aniscoupons",
+      "source_msg_id": 35454,
+      "price": 375.8,
+      "timestamp": 1795296516.155404,
+      "status": "ACTIVE"
     }
   },
   "schedule_config": {
@@ -31293,17 +31303,17 @@
     "current_interval_minutes": 5,
     "is_paused": false,
     "night_mode_enabled": true,
-    "last_deal_post_time": 1795296333.9425378,
+    "last_deal_post_time": 1795296519.2082279,
     "night_start_hour_dz": 0,
     "night_end_hour_dz": 8,
     "night_pause_enabled": true,
-    "last_sweep_time": 1795296336.7576215,
+    "last_sweep_time": 1795296521.96184,
     "last_sweep_times": {
-      "algeria": 1795296333.9118304,
-      "france": 1795296336.7576215
+      "algeria": 1795296519.1798284,
+      "france": 1795296521.96184
     },
     "last_deal_post_times": {
-      "algeria": 1795296333.9425378
+      "algeria": 1795296519.2082279
     }
   },
   "last_coin_reminder_time": 1795241331.112354,
@@ -34204,7 +34214,6 @@
   "published_deals_history": {},
   "settings": {},
   "handled_post_keys": [
-    "aniscoupons:34631",
     "zedstoreonline:39957",
     "lodydeals:46389",
     "lodydeals:46391",
@@ -35203,7 +35212,8 @@
     "bnddeals:51385",
     "aniscoupons:35450",
     "aniscoupons:35452",
-    "zedstoreonline:40551"
+    "zedstoreonline:40551",
+    "zedstoreonline:40552"
   ],
   "last_france_cross_promo_time": 1795236239.730334,
   "next_france_cross_promo_interval_seconds": 209180,
@@ -35855,11 +35865,6 @@
     "1005008366962319": [
       {
         "channel": "aniscoupons",
-        "ts": 1795253220.5946193,
-        "price": 30.0
-      },
-      {
-        "channel": "aniscoupons",
         "ts": 1795256156.0968547,
         "price": 30.0
       },
@@ -36227,6 +36232,13 @@
         "channel": "aniscoupons",
         "ts": 1795296328.1612024,
         "price": 273.5
+      }
+    ],
+    "1005010721042860": [
+      {
+        "channel": "aniscoupons",
+        "ts": 1795296513.3500485,
+        "price": 375.8
       }
     ]
   },
