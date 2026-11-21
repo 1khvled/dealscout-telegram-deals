@@ -888,7 +888,10 @@
     "1005013612885095",
     "1005009120961416",
     "1005006460821282",
-    "1005007038424043"
+    "1005007038424043",
+    "1005010439285778",
+    "1005010089091939",
+    "1005009649241196"
   ],
   "published_product_timestamps": {
     "1005012973772517": 1794500732.7845657,
@@ -1451,7 +1454,7 @@
     "1005012823102793": 1793569904.419889,
     "1005012773302941": 1794683510.1887808,
     "1005008430147176": 1795085991.192385,
-    "1005011742851856": 1795086173.3845732,
+    "1005011742851856": 1795290123.812915,
     "1005006304425302": 1793656107.995781,
     "1005010487426245": 1793573558.2913802,
     "1005012865939059": 1793573742.8007863,
@@ -1518,7 +1521,7 @@
     "1005012305564176": 1793707135.2600253,
     "1005012483329501": 1793898360.7512894,
     "1005010044163415": 1794438972.1864517,
-    "1005012099740266": 1793707154.0863686,
+    "1005012099740266": 1795290151.521564,
     "1005010462111234": 1793707161.4322476,
     "1005006026842392": 1793707779.0330126,
     "1005011748000554": 1795082325.695245,
@@ -1601,7 +1604,7 @@
     "1005009649079564": 1794145536.5317988,
     "1005007038022940": 1794146648.256951,
     "1005007981362777": 1794146655.1062205,
-    "1005007097302001": 1794146830.4272797,
+    "1005007097302001": 1795290134.3000894,
     "1005013361453762": 1795183533.724997,
     "1005013240296031": 1794216974.0881407,
     "1005012670472055": 1795023369.0864155,
@@ -1627,7 +1630,7 @@
     "1005009766330661": 1794251129.0913823,
     "1005009649048598": 1794741938.4262142,
     "1005005209277375": 1794263702.59817,
-    "1005010706691647": 1794263885.7408762,
+    "1005010706691647": 1795290156.5592504,
     "COUPONS_949f01595a98": 1794309459.0513651,
     "COUPONS_949f0159": 1794309459.0725908,
     "1005008046071240": 1794436007.5288515,
@@ -1768,7 +1771,7 @@
     "1005013304783085": 1795103262.750217,
     "1005013633649876": 1795104359.6206825,
     "1005012274502051": 1795253775.2319088,
-    "1005013603023857": 1795112692.4915283,
+    "1005013603023857": 1795290161.6076646,
     "1005009693337727": 1795113429.7687285,
     "1005013497504096": 1795283264.8493018,
     "1005013482874428": 1795258532.9191153,
@@ -1796,7 +1799,10 @@
     "1005013612885095": 1795282393.4390564,
     "1005009120961416": 1795282412.584454,
     "1005006460821282": 1795282419.1354063,
-    "1005007038424043": 1795283249.1787498
+    "1005007038424043": 1795283249.1787498,
+    "1005010439285778": 1795290129.2736075,
+    "1005010089091939": 1795290139.8130522,
+    "1005009649241196": 1795290145.0386395
   },
   "published_titles": [
     "Wireless WiFi Repeater 300Mbps WiFi Extender Amplifier Booster Router",
@@ -2976,7 +2982,11 @@
     "KingSpec DDR4 16GB 3200Mhz",
     "ماوس لاسلكي Aula Kunlun L5 Magnetic",
     "ASROCK B850M STEEL LEGEND",
-    "لوووووووووووووووووووز"
+    "لوووووووووووووووووووز",
+    "Men's Watch Business",
+    "LAXASFIT Men Watch",
+    "Personalized Quartz Watch",
+    "Essager 45W Mini"
   ],
   "published_title_timestamps": {
     "Xiaomi Redmi Note 17 5G Global Version": 1790857823.0117362,
@@ -3642,7 +3652,7 @@
     "Anker Soundcore 2": 1793571013.3288968,
     "MACHENIKE G5Pro Max SE": 1793571550.5645735,
     "MACHENIKE G1 Gaming": 1794822583.449546,
-    "Essager 45W Retractable Car": 1793572108.9610763,
+    "Essager 45W Retractable Car": 1795290123.812915,
     "Essager 240W USB Type C To USB C Cable 100W PD 3.1 Fast Charging Charger": 1793572474.8860087,
     "SMAILWOLF RS8 1000Hz": 1793573558.2913802,
     "HILDA 2 Lines Laser": 1793573945.0580306,
@@ -3774,7 +3784,7 @@
     "سماعات فخمة HyperX Cloud 2": 1794935195.7367425,
     "CUSU Nexdrive P60 512GB": 1793908979.1776278,
     "HONOR PAD X8A 4/64GB": 1793908989.4952903,
-    "Magcubic HY300 Pro Projector": 1793908994.588809,
+    "Magcubic HY300 Pro Projector": 1795290161.6076646,
     "CUSU SSD SATA3": 1793913777.3174822,
     "Haylou Solar NEO 2 Amoled": 1795078113.2768726,
     "HAYLOU S30 Wireless Bluetooth 5.4 Headphones": 1794313321.761044,
@@ -3864,7 +3874,7 @@
     "سماعات ONIKUMA T27 لاسلكية بوضعَي اتصال 2.4GHz وBluetooth": 1794145536.5317988,
     "Lenovo Thinkplus XT88": 1794146648.256951,
     "Rolls-Royce Phantom Model": 1794146655.1062205,
-    "Lenovo LP40 Pro": 1794146830.4272797,
+    "Lenovo LP40 Pro": 1795290134.3000894,
     "Ulanzi ST-06S Smartphone Mount Holder": 1794667301.7599618,
     "WAMRAM SATA SSD 480GB": 1794159522.2930505,
     "Netac M.2 1TB 7400Mbs Gen 4": 1795256894.3631735,
@@ -3904,7 +3914,7 @@
     "EPOMAKER RT85 75% Mechanical Keyboard Wireless Green White": 1794251129.0913823,
     "Fashion Square Watches": 1794741938.4262142,
     "Bicycle Pump 80 PSI": 1794263702.59817,
-    "Portable Hair Clipper": 1794263885.7408762,
+    "Portable Hair Clipper": 1795290156.5592504,
     "Inphic PG1 RGB Wired Gaming Mouse": 1794742126.4762356,
     "Anker Q20i Hybrid Active": 1794999336.5179884,
     "CUSU CV3500Q 2TB M.2": 1794305012.9961731,
@@ -4161,17 +4171,13 @@
     "KingSpec DDR4 16GB 3200Mhz": 1795274576.3351243,
     "ماوس لاسلكي Aula Kunlun L5 Magnetic": 1795282393.4390564,
     "ASROCK B850M STEEL LEGEND": 1795282412.584454,
-    "لوووووووووووووووووووز": 1795282419.1354063
+    "لوووووووووووووووووووز": 1795282419.1354063,
+    "Men's Watch Business": 1795290129.2736075,
+    "LAXASFIT Men Watch": 1795290139.8130522,
+    "Personalized Quartz Watch": 1795290145.0386395,
+    "Essager 45W Mini": 1795290151.521564
   },
   "published_post_keys": [
-    "aniscoupons:34518",
-    "aniscoupons:34519",
-    "aniscoupons:34520",
-    "aniscoupons:34521",
-    "aniscoupons:34522",
-    "aniscoupons:34523",
-    "aniscoupons:34524",
-    "zedstoreonline:39890",
     "aniscoupons:34525",
     "aniscoupons:34527",
     "aniscoupons:34528",
@@ -5163,11 +5169,19 @@
     "lodydeals:46773",
     "aniscoupons:35439",
     "aniscoupons:35441",
-    "aniscoupons:35443"
+    "aniscoupons:35443",
+    "lodydeals:46776",
+    "lodydeals:46777",
+    "lodydeals:46778",
+    "lodydeals:46779",
+    "lodydeals:46780",
+    "lodydeals:46782",
+    "lodydeals:46783",
+    "lodydeals:46785"
   ],
   "last_disclaimer_time": 1794524540.9476151,
   "last_calendar_time": 1795177633.1203737,
-  "last_run_time": 1795288901.8714402,
+  "last_run_time": 1795290161.6076646,
   "monitored_channels": {
     "ecksdeal": {
       "last_message_id": 6119,
@@ -5175,7 +5189,7 @@
     },
     "lodydeals": {
       "last_message_id": 46785,
-      "last_check_time": 1795286033.5141659
+      "last_check_time": 1795290161.6076646
     },
     "test_channel": {
       "last_message_id": 1793967703,
@@ -5194,8 +5208,8 @@
       "last_check_time": 1793599663.3444748
     },
     "zedstoreonline": {
-      "last_message_id": 40547,
-      "last_check_time": 1795284824.7690773
+      "last_message_id": 40548,
+      "last_check_time": 1795290167.1120696
     },
     "aniscoupons": {
       "last_message_id": 35443,
@@ -5675,7 +5689,7 @@
     "1005012823102793": 226.25,
     "1005012773302941": 17.06,
     "1005008430147176": 22.6,
-    "1005011742851856": 14.67,
+    "1005011742851856": 4.89,
     "1005006304425302": 2.24,
     "1005010487426245": 7.74,
     "1005012865939059": 14.89,
@@ -5729,7 +5743,7 @@
     "1005012305564176": 60.76,
     "1005012483329501": 245.75,
     "1005010044163415": 2.7,
-    "1005012099740266": 2.17,
+    "1005012099740266": 2.89,
     "1005010462111234": 2.51,
     "1005006026842392": 14.91,
     "1005011748000554": 17.8,
@@ -5802,7 +5816,7 @@
     "1005009649079564": 19.4,
     "1005007038022940": 5.49,
     "1005007981362777": 5.69,
-    "1005007097302001": 4.69,
+    "1005007097302001": 4.89,
     "1005013361453762": 280.36,
     "1005013240296031": 68.98,
     "1005012670472055": 112.1,
@@ -5828,7 +5842,7 @@
     "1005009766330661": 45.1,
     "1005009649048598": 3.69,
     "1005005209277375": 4.69,
-    "1005010706691647": 5.29,
+    "1005010706691647": 5.69,
     "1005008046071240": 46.77,
     "1005012083833079": 57.9,
     "1005012292809645": 37.52,
@@ -5961,7 +5975,7 @@
     "1005013304783085": 597.9,
     "1005013633649876": 12.9,
     "1005012274502051": 20.9,
-    "1005013603023857": 42.1,
+    "1005013603023857": 42.14,
     "1005009693337727": 113.4,
     "1005013497504096": 3.2,
     "1005013482874428": 79.6,
@@ -5986,7 +6000,10 @@
     "1005013612885095": 73.07,
     "1005009120961416": 211.5,
     "1005006460821282": 9.7,
-    "1005007038424043": 2.71
+    "1005007038424043": 2.71,
+    "1005010439285778": 5.29,
+    "1005010089091939": 5.29,
+    "1005009649241196": 3.29
   },
   "channel_published_deals": {
     "aniscoupons:32590": {
@@ -31071,6 +31088,86 @@
       "price": 177.3,
       "timestamp": 1795288901.8714402,
       "status": "ACTIVE"
+    },
+    "lodydeals:46776": {
+      "channel_msg_id": 3424,
+      "product_id": "1005011742851856",
+      "title": "Essager 45W Retractable Car",
+      "channel": "lodydeals",
+      "source_msg_id": 46776,
+      "price": 4.89,
+      "timestamp": 1795290123.812915,
+      "status": "ACTIVE"
+    },
+    "lodydeals:46777": {
+      "channel_msg_id": 3425,
+      "product_id": "1005010439285778",
+      "title": "Men's Watch Business",
+      "channel": "lodydeals",
+      "source_msg_id": 46777,
+      "price": 5.29,
+      "timestamp": 1795290129.2736075,
+      "status": "ACTIVE"
+    },
+    "lodydeals:46778": {
+      "channel_msg_id": 3426,
+      "product_id": "1005007097302001",
+      "title": "Lenovo LP40 Pro",
+      "channel": "lodydeals",
+      "source_msg_id": 46778,
+      "price": 4.89,
+      "timestamp": 1795290134.3000894,
+      "status": "ACTIVE"
+    },
+    "lodydeals:46779": {
+      "channel_msg_id": 3427,
+      "product_id": "1005010089091939",
+      "title": "LAXASFIT Men Watch",
+      "channel": "lodydeals",
+      "source_msg_id": 46779,
+      "price": 5.29,
+      "timestamp": 1795290139.8130522,
+      "status": "ACTIVE"
+    },
+    "lodydeals:46780": {
+      "channel_msg_id": 3428,
+      "product_id": "1005009649241196",
+      "title": "Personalized Quartz Watch",
+      "channel": "lodydeals",
+      "source_msg_id": 46780,
+      "price": 3.29,
+      "timestamp": 1795290145.0386395,
+      "status": "ACTIVE"
+    },
+    "lodydeals:46782": {
+      "channel_msg_id": 3429,
+      "product_id": "1005012099740266",
+      "title": "Essager 45W Mini",
+      "channel": "lodydeals",
+      "source_msg_id": 46782,
+      "price": 2.89,
+      "timestamp": 1795290151.521564,
+      "status": "ACTIVE"
+    },
+    "lodydeals:46783": {
+      "channel_msg_id": 3430,
+      "product_id": "1005010706691647",
+      "title": "Portable Hair Clipper",
+      "channel": "lodydeals",
+      "source_msg_id": 46783,
+      "price": 5.69,
+      "timestamp": 1795290156.5592504,
+      "status": "ACTIVE"
+    },
+    "lodydeals:46785": {
+      "channel_msg_id": 3431,
+      "product_id": "1005013603023857",
+      "title": "Magcubic HY300 Pro Projector",
+      "channel": "lodydeals",
+      "source_msg_id": 46785,
+      "price": 42.14,
+      "timestamp": 1795290161.6076646,
+      "status": "ACTIVE"
     }
   },
   "schedule_config": {
@@ -31079,17 +31176,17 @@
     "current_interval_minutes": 5,
     "is_paused": false,
     "night_mode_enabled": true,
-    "last_deal_post_time": 1795288904.9050896,
+    "last_deal_post_time": 1795290168.7111688,
     "night_start_hour_dz": 0,
     "night_end_hour_dz": 8,
     "night_pause_enabled": true,
-    "last_sweep_time": 1795289495.1862175,
+    "last_sweep_time": 1795290171.1759355,
     "last_sweep_times": {
-      "algeria": 1795289492.7607214,
-      "france": 1795289495.1862175
+      "algeria": 1795290168.6648154,
+      "france": 1795290171.1759355
     },
     "last_deal_post_times": {
-      "algeria": 1795288904.9050896
+      "algeria": 1795290168.7111688
     }
   },
   "last_coin_reminder_time": 1795241331.112354,
@@ -31667,7 +31764,7 @@
     "1005012823102793": "lodydeals",
     "1005012773302941": "lodydeals",
     "1005008430147176": "zedstoreonline",
-    "1005011742851856": "bnddeals",
+    "1005011742851856": "lodydeals",
     "1005006304425302": "lodydeals",
     "1005010487426245": "lodydeals",
     "1005012865939059": "lodydeals",
@@ -31966,7 +32063,7 @@
     "1005013304783085": "aniscoupons",
     "1005013633649876": "aniscoupons",
     "1005012274502051": "aniscoupons",
-    "1005013603023857": "zedstoreonline",
+    "1005013603023857": "lodydeals",
     "1005009693337727": "zedstoreonline",
     "1005013497504096": "aniscoupons",
     "1005013482874428": "aniscoupons",
@@ -31992,7 +32089,10 @@
     "1005013612885095": "ecksdeal",
     "1005009120961416": "aniscoupons",
     "1005006460821282": "bnddeals",
-    "1005007038424043": "lodydeals"
+    "1005007038424043": "lodydeals",
+    "1005010439285778": "lodydeals",
+    "1005010089091939": "lodydeals",
+    "1005009649241196": "lodydeals"
   },
   "published_title_channels": {
     "Test Wrench Set": "test_channel",
@@ -33178,7 +33278,11 @@
     "KingSpec DDR4 16GB 3200Mhz": "aniscoupons",
     "ماوس لاسلكي Aula Kunlun L5 Magnetic": "ecksdeal",
     "ASROCK B850M STEEL LEGEND": "aniscoupons",
-    "لوووووووووووووووووووز": "bnddeals"
+    "لوووووووووووووووووووز": "bnddeals",
+    "Men's Watch Business": "lodydeals",
+    "LAXASFIT Men Watch": "lodydeals",
+    "Personalized Quartz Watch": "lodydeals",
+    "Essager 45W Mini": "lodydeals"
   },
   "religious_reminders_history": {
     "mock_rem": "2026-10-02",
@@ -33976,9 +34080,6 @@
   "published_deals_history": {},
   "settings": {},
   "handled_post_keys": [
-    "zedstoreonline:39943",
-    "zedstoreonline:39944",
-    "zedstoreonline:39945",
     "zedstoreonline:39946",
     "zedstoreonline:39949",
     "aniscoupons:34624",
@@ -34975,7 +35076,10 @@
     "lodydeals:46775",
     "zedstoreonline:40547",
     "aniscoupons:35440",
-    "aniscoupons:35442"
+    "aniscoupons:35442",
+    "lodydeals:46781",
+    "lodydeals:46784",
+    "zedstoreonline:40548"
   ],
   "last_france_cross_promo_time": 1795236239.730334,
   "next_france_cross_promo_interval_seconds": 209180,
@@ -35613,6 +35717,11 @@
         "channel": "aniscoupons",
         "ts": 1795286863.4368112,
         "price": 4.8
+      },
+      {
+        "channel": "lodydeals",
+        "ts": 1795290121.4741435,
+        "price": 4.89
       }
     ],
     "1005009916208760": [
@@ -35731,6 +35840,11 @@
         "channel": "aniscoupons",
         "ts": 1795257985.4576461,
         "price": 138.7
+      },
+      {
+        "channel": "zedstoreonline",
+        "ts": 1795290166.4581804,
+        "price": 138.0
       }
     ],
     "1005010369693975": [
@@ -35929,6 +36043,11 @@
         "channel": "zedstoreonline",
         "ts": 1795267771.0329134,
         "price": 42.0
+      },
+      {
+        "channel": "lodydeals",
+        "ts": 1795290159.370568,
+        "price": 42.14
       }
     ],
     "32847542727": [
@@ -36000,6 +36119,11 @@
         "channel": "aniscoupons",
         "ts": 1795282408.8337636,
         "price": 4.6
+      },
+      {
+        "channel": "lodydeals",
+        "ts": 1795290154.2945144,
+        "price": 5.69
       }
     ],
     "1005012929627900": [
@@ -36031,6 +36155,20 @@
         "channel": "aniscoupons",
         "ts": 1795286865.0811481,
         "price": 11.5
+      }
+    ],
+    "1005007097302001": [
+      {
+        "channel": "lodydeals",
+        "ts": 1795290132.0455716,
+        "price": 4.89
+      }
+    ],
+    "1005012099740266": [
+      {
+        "channel": "lodydeals",
+        "ts": 1795290148.9577093,
+        "price": 2.89
       }
     ]
   },
