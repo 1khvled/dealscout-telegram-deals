@@ -1519,7 +1519,7 @@
     "COUPONS_gen": 1793728683.0472453,
     "COUPONS_11.11 Global Shopping Festival Main Sale": 1794935379.010957,
     "1005009111757092": 1793728859.1630292,
-    "1005013030365524": 1795181297.4400892,
+    "1005013030365524": 1795261651.3173792,
     "1005013199719142": 1794935185.3140237,
     "1005013205365677": 1794390785.626018,
     "1005008429979494": 1793741666.9686077,
@@ -4116,7 +4116,7 @@
     "Blackview Wave 7C": 1795258532.9191153,
     "لي يحوس على حاجة أصلية ومضمونة": 1795175430.73419,
     "Soundcore by Anker Q20i": 1795180451.4710355,
-    "HUAWEI Pura 90s Pro": 1795181297.4400892,
+    "HUAWEI Pura 90s Pro": 1795261651.3173792,
     "ماوس لاسلكي Attack Shark X11SE Wireless": 1795182497.0644763,
     "ميزان ذكي يعمل بالبلوتوث لقياس الوزن": 1795182504.6024845,
     "TCL 60 NXTPAPER 8/256": 1795182900.2959979,
@@ -4140,7 +4140,6 @@
     "KOOTION X16 7100MB/s NVMe 512GB": 1795256330.146872
   },
   "published_post_keys": [
-    "aniscoupons:34490",
     "aniscoupons:34494",
     "lodydeals:46351",
     "aniscoupons:34497",
@@ -5139,11 +5138,12 @@
     "aniscoupons:35422",
     "aniscoupons:35423",
     "zedstoreonline:40536",
-    "aniscoupons:35424"
+    "aniscoupons:35424",
+    "aniscoupons:35425"
   ],
   "last_disclaimer_time": 1794524540.9476151,
   "last_calendar_time": 1795177633.1203737,
-  "last_run_time": 1795259822.787355,
+  "last_run_time": 1795261651.3173792,
   "monitored_channels": {
     "ecksdeal": {
       "last_message_id": 6116,
@@ -5174,8 +5174,8 @@
       "last_check_time": 1795259818.9350057
     },
     "aniscoupons": {
-      "last_message_id": 35424,
-      "last_check_time": 1795259824.8825302
+      "last_message_id": 35425,
+      "last_check_time": 1795261653.3816364
     },
     "bnddeals": {
       "last_message_id": 51382,
@@ -30802,6 +30802,16 @@
       "price": 40.4,
       "timestamp": 1795259822.787355,
       "status": "ACTIVE"
+    },
+    "aniscoupons:35425": {
+      "channel_msg_id": 3398,
+      "product_id": "1005013030365524",
+      "title": "HUAWEI Pura 90s Pro",
+      "channel": "aniscoupons",
+      "source_msg_id": 35425,
+      "price": 675.68,
+      "timestamp": 1795261651.3173792,
+      "status": "ACTIVE"
     }
   },
   "schedule_config": {
@@ -30810,17 +30820,17 @@
     "current_interval_minutes": 5,
     "is_paused": false,
     "night_mode_enabled": true,
-    "last_deal_post_time": 1795259825.8980114,
+    "last_deal_post_time": 1795261654.1487842,
     "night_start_hour_dz": 0,
     "night_end_hour_dz": 8,
     "night_pause_enabled": true,
-    "last_sweep_time": 1795261465.427084,
+    "last_sweep_time": 1795261656.51145,
     "last_sweep_times": {
-      "algeria": 1795261462.203578,
-      "france": 1795261465.427084
+      "algeria": 1795261654.1258225,
+      "france": 1795261656.51145
     },
     "last_deal_post_times": {
-      "algeria": 1795259825.8980114
+      "algeria": 1795261654.1487842
     }
   },
   "last_coin_reminder_time": 1795241331.112354,
@@ -35268,13 +35278,6 @@
     "restock_alert": "2026-11-11"
   },
   "competitor_product_sightings": {
-    "1005012726037568": [
-      {
-        "channel": "aniscoupons",
-        "ts": 1795217900.9117072,
-        "price": 7.5
-      }
-    ],
     "1005007916078341": [
       {
         "channel": "zedstoreonline",
@@ -35581,6 +35584,13 @@
         "channel": "aniscoupons",
         "ts": 1795259820.5623486,
         "price": 40.4
+      }
+    ],
+    "1005013030365524": [
+      {
+        "channel": "aniscoupons",
+        "ts": 1795261648.8861213,
+        "price": 675.68
       }
     ]
   },
