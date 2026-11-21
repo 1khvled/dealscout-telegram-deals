@@ -884,7 +884,10 @@
     "1005010121796649",
     "1005008850261694",
     "32847542727",
-    "COUPONS_67c5d85c35f4"
+    "COUPONS_67c5d85c35f4",
+    "1005013612885095",
+    "1005009120961416",
+    "1005006460821282"
   ],
   "published_product_timestamps": {
     "1005012973772517": 1794500732.7845657,
@@ -981,7 +984,7 @@
     "1005008901941749": 1792785032.5334125,
     "1005010178295650": 1793743848.9735239,
     "1005006861002512": 1791151259.5667012,
-    "1005012285327063": 1795250120.3646204,
+    "1005012285327063": 1795282406.1264048,
     "1005006581583862": 1794852936.201381,
     "1005012816171978": 1792157876.0860639,
     "1005006248571160": 1791012946.4110153,
@@ -1378,7 +1381,7 @@
     "1005012135177627": 1795080686.538359,
     "1005013455514231": 1793542445.2859337,
     "1005009578274758": 1793542479.8362749,
-    "1005010413332383": 1795249193.5712183,
+    "1005010413332383": 1795282388.4222057,
     "1005011550075220": 1794847073.6855137,
     "1005009806856302": 1794779736.0691626,
     "1005009980316035": 1793542552.2730343,
@@ -1557,7 +1560,7 @@
     "1005007469003552": 1795257430.9310815,
     "1005010041181003": 1794994376.6272743,
     "1005010265542567": 1794131426.95932,
-    "1005003156756854": 1795085808.5784442,
+    "1005003156756854": 1795282399.424266,
     "1005010142208108": 1794753124.2973137,
     "1005008534907844": 1793987285.4130383,
     "1005009577554629": 1793987289.8200357,
@@ -1788,7 +1791,10 @@
     "32847542727": 1795274576.3351243,
     "COUPONS_67c5d85c35f4": 1795275291.619781,
     "COUPONS_67c5d85c": 1795275291.651658,
-    "COUPONS_Black Friday & Cyber Monday": 1795275291.651658
+    "COUPONS_Black Friday & Cyber Monday": 1795275291.651658,
+    "1005013612885095": 1795282393.4390564,
+    "1005009120961416": 1795282412.584454,
+    "1005006460821282": 1795282419.1354063
   },
   "published_titles": [
     "Wireless WiFi Repeater 300Mbps WiFi Extender Amplifier Booster Router",
@@ -2965,7 +2971,10 @@
     "لووووووووووووز HAYLOU",
     "KOOTION X16 7100MB/s NVMe 512GB",
     "GIGABYTE B550M K AM4 Motherboard",
-    "KingSpec DDR4 16GB 3200Mhz"
+    "KingSpec DDR4 16GB 3200Mhz",
+    "ماوس لاسلكي Aula Kunlun L5 Magnetic",
+    "ASROCK B850M STEEL LEGEND",
+    "لوووووووووووووووووووز"
   ],
   "published_title_timestamps": {
     "Xiaomi Redmi Note 17 5G Global Version": 1790857823.0117362,
@@ -3064,7 +3073,7 @@
     "Attack Shark X1": 1790972445.6591878,
     "KUULAA USB C Cable": 1790973051.970508,
     "Wireless WiFi Repeater 300Mbps WiFi Extender Amplifier Booster Router": 1790974856.4783835,
-    "HAYLOU Watch Faro": 1795250120.3646204,
+    "HAYLOU Watch Faro": 1795282406.1264048,
     "HAYLOU S30": 1794852936.201381,
     "Lenovo XT88 TWS Wireless Earphones Bluetooth 5.3 Dual MIC Stereo Noise": 1790976654.120254,
     "VIVO Y600 Pro 8/128GB": 1793656161.7382708,
@@ -3532,7 +3541,7 @@
     "UGREEN HiTune S3 Earbuds": 1793542479.8362749,
     "OnePlus Ace 6T 5G 12/256GB": 1795033757.827376,
     "Attack Shark X11 PAW3311": 1794869801.3485081,
-    "معالج Ryzen 7 9800X3D": 1794847054.8094091,
+    "معالج Ryzen 7 9800X3D": 1795282388.4222057,
     "معالج Ryzen 5 7600X": 1794847073.6855137,
     "يد تحكم للهاتف GameSir X5 Lite": 1793542545.9047854,
     "يد تحكم لاسلكية  GameSir Nova 2 Lite Hall Effect Ultimate": 1793542552.2730343,
@@ -3799,7 +3808,7 @@
     "ميكروفون Ulanzi A100 لاسلكي صغير": 1795257430.9310815,
     "Lexar ARES PRO NVMe SSD PCle5.0x4 1TB": 1794994376.6272743,
     "Ulanzi A200 Mini Wireless Lavalier Microphone": 1794131426.95932,
-    "حامل هاتف Ulanzi ST-06S": 1794944054.5907512,
+    "حامل هاتف Ulanzi ST-06S": 1795282399.424266,
     "AULA MINI60 HE PRO": 1794753124.2973137,
     "Maono Wave T5 Wireless Mic": 1793987285.4130383,
     "SAMSUNG DDR3 8GB 1600v": 1793987289.8200357,
@@ -4147,15 +4156,12 @@
     "لووووووووووووز HAYLOU": 1795251398.024725,
     "KOOTION X16 7100MB/s NVMe 512GB": 1795256330.146872,
     "GIGABYTE B550M K AM4 Motherboard": 1795265573.5780053,
-    "KingSpec DDR4 16GB 3200Mhz": 1795274576.3351243
+    "KingSpec DDR4 16GB 3200Mhz": 1795274576.3351243,
+    "ماوس لاسلكي Aula Kunlun L5 Magnetic": 1795282393.4390564,
+    "ASROCK B850M STEEL LEGEND": 1795282412.584454,
+    "لوووووووووووووووووووز": 1795282419.1354063
   },
   "published_post_keys": [
-    "aniscoupons:34509",
-    "lodydeals:46354",
-    "lodydeals:46357",
-    "aniscoupons:34511",
-    "zedstoreonline:39885",
-    "aniscoupons:34512",
     "zedstoreonline:39887",
     "aniscoupons:34515",
     "aniscoupons:34516",
@@ -5149,15 +5155,21 @@
     "aniscoupons:35433",
     "lodydeals:46770",
     "ecksdeal:6117",
-    "aniscoupons:35435"
+    "aniscoupons:35435",
+    "ecksdeal:6118",
+    "ecksdeal:6119",
+    "zedstoreonline:40545",
+    "aniscoupons:35436",
+    "aniscoupons:35438",
+    "bnddeals:51384"
   ],
   "last_disclaimer_time": 1794524540.9476151,
   "last_calendar_time": 1795177633.1203737,
-  "last_run_time": 1795275291.619781,
+  "last_run_time": 1795282419.1354063,
   "monitored_channels": {
     "ecksdeal": {
-      "last_message_id": 6117,
-      "last_check_time": 1795274756.7486389
+      "last_message_id": 6119,
+      "last_check_time": 1795282395.5364728
     },
     "lodydeals": {
       "last_message_id": 46770,
@@ -5180,16 +5192,16 @@
       "last_check_time": 1793599663.3444748
     },
     "zedstoreonline": {
-      "last_message_id": 40544,
-      "last_check_time": 1795275471.8924584
+      "last_message_id": 40546,
+      "last_check_time": 1795282401.6087055
     },
     "aniscoupons": {
-      "last_message_id": 35435,
-      "last_check_time": 1795275293.7235844
+      "last_message_id": 35438,
+      "last_check_time": 1795282414.678269
     },
     "bnddeals": {
-      "last_message_id": 51383,
-      "last_check_time": 1795269787.1612165
+      "last_message_id": 51384,
+      "last_check_time": 1795282421.230258
     }
   },
   "published_product_prices": {
@@ -5590,7 +5602,7 @@
     "1005012135177627": 177.9,
     "1005013455514231": 66.71,
     "1005009578274758": 7.63,
-    "1005010413332383": 338.22,
+    "1005010413332383": 338.24,
     "1005011550075220": 124.53,
     "1005009806856302": 16.6,
     "1005009980316035": 25.85,
@@ -5968,7 +5980,10 @@
     "1005013383203760": 186.7,
     "1005010121796649": 217.8,
     "1005008850261694": 30.3,
-    "32847542727": 75.19
+    "32847542727": 75.19,
+    "1005013612885095": 73.07,
+    "1005009120961416": 211.5,
+    "1005006460821282": 9.7
   },
   "channel_published_deals": {
     "aniscoupons:32590": {
@@ -30943,6 +30958,66 @@
       "price": null,
       "timestamp": 1795275291.619781,
       "status": "ACTIVE"
+    },
+    "ecksdeal:6118": {
+      "channel_msg_id": 3413,
+      "product_id": "1005010413332383",
+      "title": "معالج Ryzen 7 9800X3D",
+      "channel": "ecksdeal",
+      "source_msg_id": 6118,
+      "price": 338.24,
+      "timestamp": 1795282388.4222057,
+      "status": "ACTIVE"
+    },
+    "ecksdeal:6119": {
+      "channel_msg_id": 3414,
+      "product_id": "1005013612885095",
+      "title": "ماوس لاسلكي Aula Kunlun L5 Magnetic",
+      "channel": "ecksdeal",
+      "source_msg_id": 6119,
+      "price": 73.07,
+      "timestamp": 1795282393.4390564,
+      "status": "ACTIVE"
+    },
+    "zedstoreonline:40545": {
+      "channel_msg_id": 3415,
+      "product_id": "1005003156756854",
+      "title": "حامل هاتف Ulanzi ST-06S",
+      "channel": "zedstoreonline",
+      "source_msg_id": 40545,
+      "price": 11.2,
+      "timestamp": 1795282399.424266,
+      "status": "ACTIVE"
+    },
+    "aniscoupons:35436": {
+      "channel_msg_id": 3416,
+      "product_id": "1005012285327063",
+      "title": "HAYLOU Watch Faro",
+      "channel": "aniscoupons",
+      "source_msg_id": 35436,
+      "price": 11.1,
+      "timestamp": 1795282406.1264048,
+      "status": "ACTIVE"
+    },
+    "aniscoupons:35438": {
+      "channel_msg_id": 3417,
+      "product_id": "1005009120961416",
+      "title": "ASROCK B850M STEEL LEGEND",
+      "channel": "aniscoupons",
+      "source_msg_id": 35438,
+      "price": 211.5,
+      "timestamp": 1795282412.584454,
+      "status": "ACTIVE"
+    },
+    "bnddeals:51384": {
+      "channel_msg_id": 3418,
+      "product_id": "1005006460821282",
+      "title": "لوووووووووووووووووووز",
+      "channel": "bnddeals",
+      "source_msg_id": 51384,
+      "price": 9.7,
+      "timestamp": 1795282419.1354063,
+      "status": "ACTIVE"
     }
   },
   "schedule_config": {
@@ -30951,17 +31026,17 @@
     "current_interval_minutes": 5,
     "is_paused": false,
     "night_mode_enabled": true,
-    "last_deal_post_time": 1795275294.6619482,
+    "last_deal_post_time": 1795282421.3145044,
     "night_start_hour_dz": 0,
     "night_end_hour_dz": 8,
     "night_pause_enabled": true,
-    "last_sweep_time": 1795278427.7462835,
+    "last_sweep_time": 1795282424.0987356,
     "last_sweep_times": {
-      "algeria": 1795278425.1116736,
-      "france": 1795278427.7462835
+      "algeria": 1795282421.2727532,
+      "france": 1795282424.0987356
     },
     "last_deal_post_times": {
-      "algeria": 1795275294.6619482
+      "algeria": 1795282421.3145044
     }
   },
   "last_coin_reminder_time": 1795241331.112354,
@@ -31468,7 +31543,7 @@
     "1005013455514231": "lodydeals",
     "1005009578274758": "lodydeals",
     "1005007805638431": "lodydeals",
-    "1005010413332383": "lodydeals",
+    "1005010413332383": "ecksdeal",
     "1005011550075220": "ecksdeal",
     "1005009806856302": "aniscoupons",
     "1005009980316035": "ecksdeal",
@@ -31634,7 +31709,7 @@
     "1005007469003552": "zedstoreonline",
     "1005010041181003": "aniscoupons",
     "1005010265542567": "aniscoupons",
-    "1005003156756854": "bnddeals",
+    "1005003156756854": "zedstoreonline",
     "1005010142208108": "lodydeals",
     "1005008534907844": "lodydeals",
     "1005009577554629": "lodydeals",
@@ -31860,7 +31935,10 @@
     "1005010121796649": "aniscoupons",
     "1005008850261694": "bnddeals",
     "32847542727": "aniscoupons",
-    "COUPONS_67c5d85c35f4": "aniscoupons"
+    "COUPONS_67c5d85c35f4": "aniscoupons",
+    "1005013612885095": "ecksdeal",
+    "1005009120961416": "aniscoupons",
+    "1005006460821282": "bnddeals"
   },
   "published_title_channels": {
     "Test Wrench Set": "test_channel",
@@ -33043,7 +33121,10 @@
     "لووووووووووووز HAYLOU": "bnddeals",
     "KOOTION X16 7100MB/s NVMe 512GB": "lodydeals",
     "GIGABYTE B550M K AM4 Motherboard": "zedstoreonline",
-    "KingSpec DDR4 16GB 3200Mhz": "aniscoupons"
+    "KingSpec DDR4 16GB 3200Mhz": "aniscoupons",
+    "ماوس لاسلكي Aula Kunlun L5 Magnetic": "ecksdeal",
+    "ASROCK B850M STEEL LEGEND": "aniscoupons",
+    "لوووووووووووووووووووز": "bnddeals"
   },
   "religious_reminders_history": {
     "mock_rem": "2026-10-02",
@@ -33835,14 +33916,12 @@
     "END_ALERT_11.11_202611",
     "LAUNCH_ALERT_black_friday_and_cyber_monday_202611"
   ],
-  "last_card_affiliate_time_dz": 1795195112.8105671,
-  "card_affiliate_variant_idx_dz": 1,
+  "last_card_affiliate_time_dz": 1795282376.5433078,
+  "card_affiliate_variant_idx_dz": 2,
   "last_tajmi3at_published_time": 1793910650.2404215,
   "published_deals_history": {},
   "settings": {},
   "handled_post_keys": [
-    "zedstoreonline:39938",
-    "zedstoreonline:39939",
     "aniscoupons:34612",
     "aniscoupons:34613",
     "zedstoreonline:39940",
@@ -34840,7 +34919,9 @@
     "lodydeals:46769",
     "aniscoupons:35431",
     "aniscoupons:35434",
-    "zedstoreonline:40544"
+    "zedstoreonline:40544",
+    "zedstoreonline:40546",
+    "aniscoupons:35437"
   ],
   "last_france_cross_promo_time": 1795236239.730334,
   "next_france_cross_promo_interval_seconds": 209180,
@@ -35503,6 +35584,11 @@
         "channel": "lodydeals",
         "ts": 1795249191.0044646,
         "price": 338.22
+      },
+      {
+        "channel": "ecksdeal",
+        "ts": 1795282386.279049,
+        "price": 338.24
       }
     ],
     "1005010485068924": [
@@ -35544,6 +35630,11 @@
       {
         "channel": "aniscoupons",
         "ts": 1795250116.7770238,
+        "price": 11.1
+      },
+      {
+        "channel": "aniscoupons",
+        "ts": 1795282404.126903,
         "price": 11.1
       }
     ],
@@ -35826,6 +35917,20 @@
         "channel": "ecksdeal",
         "ts": 1795274752.2336361,
         "price": 0.01
+      }
+    ],
+    "1005003156756854": [
+      {
+        "channel": "zedstoreonline",
+        "ts": 1795282397.3294847,
+        "price": 11.2
+      }
+    ],
+    "1005010706691647": [
+      {
+        "channel": "aniscoupons",
+        "ts": 1795282408.8337636,
+        "price": 4.6
       }
     ]
   },
