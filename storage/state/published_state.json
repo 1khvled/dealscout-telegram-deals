@@ -1262,7 +1262,7 @@
     "1005013222140851": 1794732855.3959744,
     "1005013438245033": 1794996403.594225,
     "1005008986635164": 1793314892.9200466,
-    "1005008327980403": 1794430852.2821708,
+    "1005008327980403": 1795256330.146872,
     "1005012838686691": 1794822577.4407666,
     "1005007966795709": 1794682395.5974634,
     "1005007760080474": 1793613355.4947147,
@@ -2956,7 +2956,8 @@
     "Onn 4K Android 13 TV Box",
     "1More  HQ20 Headphones",
     "Poco X8 5G (6/128GB)",
-    "لووووووووووووز HAYLOU"
+    "لووووووووووووز HAYLOU",
+    "KOOTION X16 7100MB/s NVMe 512GB"
   ],
   "published_title_timestamps": {
     "Xiaomi Redmi Note 17 5G Global Version": 1790857823.0117362,
@@ -4135,10 +4136,10 @@
     "Onn 4K Android 13 TV Box": 1795249213.3989208,
     "1More  HQ20 Headphones": 1795249218.8314788,
     "Poco X8 5G (6/128GB)": 1795251024.4152784,
-    "لووووووووووووز HAYLOU": 1795251398.024725
+    "لووووووووووووز HAYLOU": 1795251398.024725,
+    "KOOTION X16 7100MB/s NVMe 512GB": 1795256330.146872
   },
   "published_post_keys": [
-    "lodydeals:46345",
     "aniscoupons:34484",
     "lodydeals:46346",
     "aniscoupons:34485",
@@ -5137,19 +5138,20 @@
     "aniscoupons:35414",
     "aniscoupons:35415",
     "aniscoupons:35416",
-    "zedstoreonline:40530"
+    "zedstoreonline:40530",
+    "lodydeals:46760"
   ],
   "last_disclaimer_time": 1794524540.9476151,
   "last_calendar_time": 1795177633.1203737,
-  "last_run_time": 1795256152.5715585,
+  "last_run_time": 1795256330.146872,
   "monitored_channels": {
     "ecksdeal": {
       "last_message_id": 6116,
       "last_check_time": 1795183542.6481285
     },
     "lodydeals": {
-      "last_message_id": 46759,
-      "last_check_time": 1795251937.1476684
+      "last_message_id": 46760,
+      "last_check_time": 1795256332.2314053
     },
     "test_channel": {
       "last_message_id": 1793967703,
@@ -5471,7 +5473,7 @@
     "1005010355409000": 494.2,
     "1005013438245033": 409.36,
     "1005008986635164": 185.9,
-    "1005008327980403": 83.31,
+    "1005008327980403": 86.23,
     "1005012838686691": 153.39,
     "1005007966795709": 87.01,
     "1005011857340568": 114.63,
@@ -30700,6 +30702,16 @@
       "price": 23.6,
       "timestamp": 1795256152.5715585,
       "status": "ACTIVE"
+    },
+    "lodydeals:46760": {
+      "channel_msg_id": 3388,
+      "product_id": "1005008327980403",
+      "title": "KOOTION X16 7100MB/s NVMe 512GB",
+      "channel": "lodydeals",
+      "source_msg_id": 46760,
+      "price": 86.23,
+      "timestamp": 1795256330.146872,
+      "status": "ACTIVE"
     }
   },
   "schedule_config": {
@@ -30708,17 +30720,17 @@
     "current_interval_minutes": 5,
     "is_paused": false,
     "night_mode_enabled": true,
-    "last_deal_post_time": 1795256157.3516843,
+    "last_deal_post_time": 1795256335.4499233,
     "night_start_hour_dz": 0,
     "night_end_hour_dz": 8,
     "night_pause_enabled": true,
-    "last_sweep_time": 1795256159.8599768,
+    "last_sweep_time": 1795256338.2194057,
     "last_sweep_times": {
-      "algeria": 1795256157.3195267,
-      "france": 1795256159.8599768
+      "algeria": 1795256335.4121356,
+      "france": 1795256338.2194057
     },
     "last_deal_post_times": {
-      "algeria": 1795256157.3516843
+      "algeria": 1795256335.4499233
     }
   },
   "last_coin_reminder_time": 1795241331.112354,
@@ -32795,7 +32807,8 @@
     "Onn 4K Android 13 TV Box": "lodydeals",
     "1More  HQ20 Headphones": "lodydeals",
     "Poco X8 5G (6/128GB)": "aniscoupons",
-    "لووووووووووووز HAYLOU": "bnddeals"
+    "لووووووووووووز HAYLOU": "bnddeals",
+    "KOOTION X16 7100MB/s NVMe 512GB": "lodydeals"
   },
   "religious_reminders_history": {
     "mock_rem": "2026-10-02",
@@ -35408,6 +35421,13 @@
         "channel": "zedstoreonline",
         "ts": 1795256150.0087695,
         "price": 23.6
+      }
+    ],
+    "1005008327980403": [
+      {
+        "channel": "lodydeals",
+        "ts": 1795256327.499489,
+        "price": 86.23
       }
     ]
   },
