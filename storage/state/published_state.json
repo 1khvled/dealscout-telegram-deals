@@ -1489,7 +1489,7 @@
     "1005010758512904": 1793613961.7877593,
     "1005012871436251": 1793707168.1519766,
     "1005010385663278": 1793616557.8235445,
-    "1005009504965110": 1795008458.7584739,
+    "1005009504965110": 1795265573.5780053,
     "1005008913425060": 1794936466.9727015,
     "1005013359761139": 1793649073.112849,
     "1005012267973092": 1793649078.2559402,
@@ -2957,7 +2957,8 @@
     "1More  HQ20 Headphones",
     "Poco X8 5G (6/128GB)",
     "لووووووووووووز HAYLOU",
-    "KOOTION X16 7100MB/s NVMe 512GB"
+    "KOOTION X16 7100MB/s NVMe 512GB",
+    "GIGABYTE B550M K AM4 Motherboard"
   ],
   "published_title_timestamps": {
     "Xiaomi Redmi Note 17 5G Global Version": 1790857823.0117362,
@@ -4137,10 +4138,10 @@
     "1More  HQ20 Headphones": 1795249218.8314788,
     "Poco X8 5G (6/128GB)": 1795251024.4152784,
     "لووووووووووووز HAYLOU": 1795251398.024725,
-    "KOOTION X16 7100MB/s NVMe 512GB": 1795256330.146872
+    "KOOTION X16 7100MB/s NVMe 512GB": 1795256330.146872,
+    "GIGABYTE B550M K AM4 Motherboard": 1795265573.5780053
   },
   "published_post_keys": [
-    "aniscoupons:34494",
     "lodydeals:46351",
     "aniscoupons:34497",
     "bnddeals:51289",
@@ -5139,11 +5140,12 @@
     "aniscoupons:35423",
     "zedstoreonline:40536",
     "aniscoupons:35424",
-    "aniscoupons:35425"
+    "aniscoupons:35425",
+    "zedstoreonline:40539"
   ],
   "last_disclaimer_time": 1794524540.9476151,
   "last_calendar_time": 1795177633.1203737,
-  "last_run_time": 1795261651.3173792,
+  "last_run_time": 1795265573.5780053,
   "monitored_channels": {
     "ecksdeal": {
       "last_message_id": 6116,
@@ -5170,8 +5172,8 @@
       "last_check_time": 1793599663.3444748
     },
     "zedstoreonline": {
-      "last_message_id": 40538,
-      "last_check_time": 1795265013.0598652
+      "last_message_id": 40539,
+      "last_check_time": 1795265575.676941
     },
     "aniscoupons": {
       "last_message_id": 35427,
@@ -5683,7 +5685,7 @@
     "1005012648097890": 430.0,
     "1005012871436251": 200.96,
     "1005010385663278": 58.55,
-    "1005009504965110": 98.6,
+    "1005009504965110": 99.5,
     "1005008913425060": 59.1,
     "1005013359761139": 75.6,
     "1005012267973092": 58.3,
@@ -30812,6 +30814,16 @@
       "price": 675.68,
       "timestamp": 1795261651.3173792,
       "status": "ACTIVE"
+    },
+    "zedstoreonline:40539": {
+      "channel_msg_id": 3399,
+      "product_id": "1005009504965110",
+      "title": "GIGABYTE B550M K AM4 Motherboard",
+      "channel": "zedstoreonline",
+      "source_msg_id": 40539,
+      "price": 99.5,
+      "timestamp": 1795265573.5780053,
+      "status": "ACTIVE"
     }
   },
   "schedule_config": {
@@ -30820,17 +30832,17 @@
     "current_interval_minutes": 5,
     "is_paused": false,
     "night_mode_enabled": true,
-    "last_deal_post_time": 1795261654.1487842,
+    "last_deal_post_time": 1795265577.454263,
     "night_start_hour_dz": 0,
     "night_end_hour_dz": 8,
     "night_pause_enabled": true,
-    "last_sweep_time": 1795265384.0624526,
+    "last_sweep_time": 1795265580.34135,
     "last_sweep_times": {
-      "algeria": 1795265381.9656591,
-      "france": 1795265384.0624526
+      "algeria": 1795265577.4166687,
+      "france": 1795265580.34135
     },
     "last_deal_post_times": {
-      "algeria": 1795261654.1487842
+      "algeria": 1795265577.454263
     }
   },
   "last_coin_reminder_time": 1795241331.112354,
@@ -31441,7 +31453,7 @@
     "1005010706590867": "ecksdeal",
     "1005012648097890": "aniscoupons",
     "1005012871436251": "lodydeals",
-    "1005009504965110": "aniscoupons",
+    "1005009504965110": "zedstoreonline",
     "1005008913425060": "ecksdeal",
     "1005013359761139": "ecksdeal",
     "1005012267973092": "ecksdeal",
@@ -32908,7 +32920,8 @@
     "1More  HQ20 Headphones": "lodydeals",
     "Poco X8 5G (6/128GB)": "aniscoupons",
     "لووووووووووووز HAYLOU": "bnddeals",
-    "KOOTION X16 7100MB/s NVMe 512GB": "lodydeals"
+    "KOOTION X16 7100MB/s NVMe 512GB": "lodydeals",
+    "GIGABYTE B550M K AM4 Motherboard": "zedstoreonline"
   },
   "religious_reminders_history": {
     "mock_rem": "2026-10-02",
@@ -35603,6 +35616,13 @@
         "channel": "aniscoupons",
         "ts": 1795262764.5978212,
         "price": 789.0
+      }
+    ],
+    "1005009504965110": [
+      {
+        "channel": "zedstoreonline",
+        "ts": 1795265570.7575378,
+        "price": 99.5
       }
     ]
   },
