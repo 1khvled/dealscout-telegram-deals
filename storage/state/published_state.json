@@ -1578,7 +1578,7 @@
     "1005008357913212": 1795259822.787355,
     "1005008703989845": 1795250472.1469674,
     "1005007162099601": 1794524556.2538168,
-    "1005007038130594": 1794393500.1320646,
+    "1005007038130594": 1795291550.8320675,
     "1005008248187128": 1794057675.8729835,
     "1005013053381984": 1795184587.079662,
     "1005008060391372": 1795182121.6502924,
@@ -3841,7 +3841,7 @@
     "[New Launch] realme C100d 4G Smartphone 8000mAh Battery 45W Charge 50MP AI": 1794647085.3020031,
     "Zeblaze Btalk 4 Pro السعر : 17.06": 1794043557.929627,
     "HyperX Cloud Earbuds II 2 Gaming Earphone": 1794746687.3818107,
-    "Essager 30W Car Charger": 1794393500.1320646,
+    "Essager 30W Car Charger": 1795291550.8320675,
     "KOOTION SSD SATA  240GB": 1794051434.2488248,
     "Xiaomi Redmi Note 17 Pro 5G Global Version": 1794060065.5449874,
     "Magcubic  HY350 Max 900ANSI": 1795113429.7687285,
@@ -4186,7 +4186,6 @@
     "500mL Water Bottle": 1795290738.086464
   },
   "published_post_keys": [
-    "zedstoreonline:39892",
     "zedstoreonline:39894",
     "zedstoreonline:39896",
     "aniscoupons:34532",
@@ -5185,19 +5184,20 @@
     "lodydeals:46785",
     "lodydeals:46786",
     "lodydeals:46787",
-    "lodydeals:46788"
+    "lodydeals:46788",
+    "lodydeals:46789"
   ],
   "last_disclaimer_time": 1794524540.9476151,
   "last_calendar_time": 1795177633.1203737,
-  "last_run_time": 1795291139.3742876,
+  "last_run_time": 1795291550.8320675,
   "monitored_channels": {
     "ecksdeal": {
       "last_message_id": 6119,
       "last_check_time": 1795282395.5364728
     },
     "lodydeals": {
-      "last_message_id": 46788,
-      "last_check_time": 1795291141.4470992
+      "last_message_id": 46789,
+      "last_check_time": 1795291552.955214
     },
     "test_channel": {
       "last_message_id": 1793967703,
@@ -5220,8 +5220,8 @@
       "last_check_time": 1795290167.1120696
     },
     "aniscoupons": {
-      "last_message_id": 35443,
-      "last_check_time": 1795288903.945532
+      "last_message_id": 35445,
+      "last_check_time": 1795291557.9915118
     },
     "bnddeals": {
       "last_message_id": 51384,
@@ -5800,7 +5800,7 @@
     "1005012925301774": 10.5,
     "1005012959738411": 68.79,
     "1005007162099601": 29.21,
-    "1005007038130594": 12.03,
+    "1005007038130594": 13.43,
     "1005008248187128": 4.49,
     "1005013053381984": 255.8,
     "1005010209911111": 40.6,
@@ -31208,6 +31208,16 @@
       "price": 3.89,
       "timestamp": 1795291139.3742876,
       "status": "ACTIVE"
+    },
+    "lodydeals:46789": {
+      "channel_msg_id": 3435,
+      "product_id": "1005007038130594",
+      "title": "Essager 30W Car Charger",
+      "channel": "lodydeals",
+      "source_msg_id": 46789,
+      "price": 13.43,
+      "timestamp": 1795291550.8320675,
+      "status": "ACTIVE"
     }
   },
   "schedule_config": {
@@ -31216,17 +31226,17 @@
     "current_interval_minutes": 5,
     "is_paused": false,
     "night_mode_enabled": true,
-    "last_deal_post_time": 1795291144.3455553,
+    "last_deal_post_time": 1795291558.820824,
     "night_start_hour_dz": 0,
     "night_end_hour_dz": 8,
     "night_pause_enabled": true,
-    "last_sweep_time": 1795291146.817664,
+    "last_sweep_time": 1795291561.2866626,
     "last_sweep_times": {
-      "algeria": 1795291144.3137445,
-      "france": 1795291146.817664
+      "algeria": 1795291558.7808583,
+      "france": 1795291561.2866626
     },
     "last_deal_post_times": {
-      "algeria": 1795291144.3455553
+      "algeria": 1795291558.820824
     }
   },
   "last_coin_reminder_time": 1795241331.112354,
@@ -34124,8 +34134,6 @@
   "published_deals_history": {},
   "settings": {},
   "handled_post_keys": [
-    "zedstoreonline:39946",
-    "zedstoreonline:39949",
     "aniscoupons:34624",
     "zedstoreonline:39952",
     "zedstoreonline:39953",
@@ -35123,7 +35131,9 @@
     "aniscoupons:35442",
     "lodydeals:46781",
     "lodydeals:46784",
-    "zedstoreonline:40548"
+    "zedstoreonline:40548",
+    "aniscoupons:35444",
+    "aniscoupons:35445"
   ],
   "last_france_cross_promo_time": 1795236239.730334,
   "next_france_cross_promo_interval_seconds": 209180,
@@ -35932,6 +35942,11 @@
         "channel": "zedstoreonline",
         "ts": 1795265012.4042244,
         "price": 30.0
+      },
+      {
+        "channel": "aniscoupons",
+        "ts": 1795291557.3501484,
+        "price": 30.0
       }
     ],
     "1005012274502051": [
@@ -36168,6 +36183,11 @@
         "channel": "lodydeals",
         "ts": 1795290154.2945144,
         "price": 5.69
+      },
+      {
+        "channel": "aniscoupons",
+        "ts": 1795291556.5795052,
+        "price": 4.6
       }
     ],
     "1005012929627900": [
@@ -36220,6 +36240,13 @@
         "channel": "lodydeals",
         "ts": 1795291136.875342,
         "price": 3.89
+      }
+    ],
+    "1005007038130594": [
+      {
+        "channel": "lodydeals",
+        "ts": 1795291548.2397664,
+        "price": 13.43
       }
     ]
   },
