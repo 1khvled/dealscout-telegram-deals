@@ -1784,7 +1784,7 @@
     "1005013383203760": 1795250850.7040482,
     "1005010121796649": 1795251024.4152784,
     "1005008850261694": 1795251398.024725,
-    "32847542727": 1795267406.4196262
+    "32847542727": 1795274576.3351243
   },
   "published_titles": [
     "Wireless WiFi Repeater 300Mbps WiFi Extender Amplifier Booster Router",
@@ -4143,10 +4143,9 @@
     "لووووووووووووز HAYLOU": 1795251398.024725,
     "KOOTION X16 7100MB/s NVMe 512GB": 1795256330.146872,
     "GIGABYTE B550M K AM4 Motherboard": 1795265573.5780053,
-    "KingSpec DDR4 16GB 3200Mhz": 1795267406.4196262
+    "KingSpec DDR4 16GB 3200Mhz": 1795274576.3351243
   },
   "published_post_keys": [
-    "aniscoupons:34503",
     "aniscoupons:34504",
     "aniscoupons:34507",
     "aniscoupons:34508",
@@ -5145,11 +5144,12 @@
     "lodydeals:46765",
     "zedstoreonline:40542",
     "lodydeals:46767",
-    "lodydeals:46768"
+    "lodydeals:46768",
+    "aniscoupons:35433"
   ],
   "last_disclaimer_time": 1794524540.9476151,
   "last_calendar_time": 1795177633.1203737,
-  "last_run_time": 1795272176.5827496,
+  "last_run_time": 1795274576.3351243,
   "monitored_channels": {
     "ecksdeal": {
       "last_message_id": 6116,
@@ -5180,8 +5180,8 @@
       "last_check_time": 1795272184.712422
     },
     "aniscoupons": {
-      "last_message_id": 35431,
-      "last_check_time": 1795272725.2451324
+      "last_message_id": 35433,
+      "last_check_time": 1795274578.4344041
     },
     "bnddeals": {
       "last_message_id": 51383,
@@ -30899,6 +30899,16 @@
       "price": 12.11,
       "timestamp": 1795272176.5827496,
       "status": "ACTIVE"
+    },
+    "aniscoupons:35433": {
+      "channel_msg_id": 3407,
+      "product_id": "32847542727",
+      "title": "KingSpec DDR4 16GB 3200Mhz",
+      "channel": "aniscoupons",
+      "source_msg_id": 35433,
+      "price": 75.19,
+      "timestamp": 1795274576.3351243,
+      "status": "ACTIVE"
     }
   },
   "schedule_config": {
@@ -30907,17 +30917,17 @@
     "current_interval_minutes": 5,
     "is_paused": false,
     "night_mode_enabled": true,
-    "last_deal_post_time": 1795272186.2529638,
+    "last_deal_post_time": 1795274579.476485,
     "night_start_hour_dz": 0,
     "night_end_hour_dz": 8,
     "night_pause_enabled": true,
-    "last_sweep_time": 1795274390.6786113,
+    "last_sweep_time": 1795274582.6732085,
     "last_sweep_times": {
-      "algeria": 1795274387.5328515,
-      "france": 1795274390.6786113
+      "algeria": 1795274579.4466817,
+      "france": 1795274582.6732085
     },
     "last_deal_post_times": {
-      "algeria": 1795272186.2529638
+      "algeria": 1795274579.476485
     }
   },
   "last_coin_reminder_time": 1795241331.112354,
@@ -35736,6 +35746,11 @@
         "channel": "aniscoupons",
         "ts": 1795272725.0658488,
         "price": 75.19
+      },
+      {
+        "channel": "aniscoupons",
+        "ts": 1795274573.5283077,
+        "price": 75.19
       }
     ],
     "1005007129557126": [
@@ -35772,6 +35787,7 @@
     "1005008708333999": 1794613227.9043555,
     "1005011557016158": 1794769611.840472,
     "1005010210432531": 1795082866.566105,
-    "1005010538481521": 1795088201.6241915
+    "1005010538481521": 1795088201.6241915,
+    "32847542727": 1795274576.3657165
   }
 }
