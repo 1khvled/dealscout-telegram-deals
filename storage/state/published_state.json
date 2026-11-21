@@ -1381,7 +1381,7 @@
     "1005011550075220": 1794847073.6855137,
     "1005009806856302": 1794779736.0691626,
     "1005009980316035": 1793542552.2730343,
-    "1005005905462505": 1795182116.060049,
+    "1005005905462505": 1795271439.2141373,
     "1005008248133489": 1794475825.54016,
     "1005008684239370": 1795111968.5056303,
     "1005011583202464": 1794913864.041144,
@@ -3400,7 +3400,7 @@
     "Anker 45W Smart Display USB-C Fast Charger – PD Quick Charge": 1793380335.1434295,
     "IQOO 15T": 1793380343.534803,
     "Soundcore by Anker Life Q30": 1793380356.1638675,
-    "FIFINE AM8 USB/XLR Dynamic Microphone": 1794000865.9547298,
+    "FIFINE AM8 USB/XLR Dynamic Microphone": 1795271439.2141373,
     "MAONO DGM20 USB Gaming Microphone": 1794577027.4515839,
     "MAONO PD100W USB Wireless Dynamic Microphone Cardioid Mic 50m Range": 1793380404.996831,
     "CUSU RAM DDR4 RGB 8x2 3200Mhz": 1793380414.784201,
@@ -4146,7 +4146,6 @@
     "KingSpec DDR4 16GB 3200Mhz": 1795267406.4196262
   },
   "published_post_keys": [
-    "aniscoupons:34499",
     "zedstoreonline:39876",
     "aniscoupons:34502",
     "aniscoupons:34503",
@@ -5145,11 +5144,12 @@
     "aniscoupons:35428",
     "aniscoupons:35429",
     "aniscoupons:35430",
-    "lodydeals:46765"
+    "lodydeals:46765",
+    "zedstoreonline:40542"
   ],
   "last_disclaimer_time": 1794524540.9476151,
   "last_calendar_time": 1795177633.1203737,
-  "last_run_time": 1795271082.5291889,
+  "last_run_time": 1795271439.2141373,
   "monitored_channels": {
     "ecksdeal": {
       "last_message_id": 6116,
@@ -5176,8 +5176,8 @@
       "last_check_time": 1793599663.3444748
     },
     "zedstoreonline": {
-      "last_message_id": 40541,
-      "last_check_time": 1795267771.7074301
+      "last_message_id": 40542,
+      "last_check_time": 1795271441.2692254
     },
     "aniscoupons": {
       "last_message_id": 35430,
@@ -5590,7 +5590,7 @@
     "1005011550075220": 124.53,
     "1005009806856302": 16.6,
     "1005009980316035": 25.85,
-    "1005005905462505": 52.41,
+    "1005005905462505": 52.4,
     "1005008248133489": 15.61,
     "1005008684239370": 9.2,
     "1005011583202464": 58.4,
@@ -30869,6 +30869,16 @@
       "price": 85.53,
       "timestamp": 1795271082.5291889,
       "status": "ACTIVE"
+    },
+    "zedstoreonline:40542": {
+      "channel_msg_id": 3404,
+      "product_id": "1005005905462505",
+      "title": "FIFINE AM8 USB/XLR Dynamic Microphone",
+      "channel": "zedstoreonline",
+      "source_msg_id": 40542,
+      "price": 52.4,
+      "timestamp": 1795271439.2141373,
+      "status": "ACTIVE"
     }
   },
   "schedule_config": {
@@ -30877,17 +30887,17 @@
     "current_interval_minutes": 5,
     "is_paused": false,
     "night_mode_enabled": true,
-    "last_deal_post_time": 1795271087.4590714,
+    "last_deal_post_time": 1795271442.4413986,
     "night_start_hour_dz": 0,
     "night_end_hour_dz": 8,
     "night_pause_enabled": true,
-    "last_sweep_time": 1795271262.6795502,
+    "last_sweep_time": 1795271444.8414872,
     "last_sweep_times": {
-      "algeria": 1795271259.6738489,
-      "france": 1795271262.6795502
+      "algeria": 1795271442.4185894,
+      "france": 1795271444.8414872
     },
     "last_deal_post_times": {
-      "algeria": 1795271087.4590714
+      "algeria": 1795271442.4413986
     }
   },
   "last_coin_reminder_time": 1795241331.112354,
@@ -31398,7 +31408,7 @@
     "1005011550075220": "ecksdeal",
     "1005009806856302": "aniscoupons",
     "1005009980316035": "ecksdeal",
-    "1005005905462505": "ecksdeal",
+    "1005005905462505": "zedstoreonline",
     "1005008248133489": "lodydeals",
     "1005008684239370": "bnddeals",
     "1005011583202464": "zedstoreonline",
@@ -35708,6 +35718,13 @@
         "channel": "lodydeals",
         "ts": 1795271079.563794,
         "price": 85.53
+      }
+    ],
+    "1005005905462505": [
+      {
+        "channel": "zedstoreonline",
+        "ts": 1795271436.6413963,
+        "price": 52.4
       }
     ]
   },
