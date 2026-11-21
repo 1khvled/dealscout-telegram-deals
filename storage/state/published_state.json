@@ -997,7 +997,7 @@
     "1005008144855522": 1791026444.9395418,
     "1005008486721357": 1791026452.368309,
     "1005012871566388": 1791026457.7236943,
-    "1005007027334636": 1795033574.311118,
+    "1005007027334636": 1795249382.992338,
     "1005006727600702": 1791027043.7332833,
     "1005009916278058": 1791027049.3509357,
     "1005009719082543": 1791027355.6595695,
@@ -4072,7 +4072,7 @@
     "تخزين CUSU K5 SATA Portable USB SSD": 1795022264.1116176,
     "تخزين CUSU C300 Sata SSD": 1795022269.6440833,
     "DOOV R77 4G Touch 3/32GB": 1795023205.68955,
-    "SOMNAMBULIST SSD 120GB": 1795033574.311118,
+    "SOMNAMBULIST SSD 120GB": 1795249382.992338,
     "Kodak SD Card 128GB": 1795072599.5014904,
     "realme P4 Lite 4/128GB": 1795082866.519863,
     "12V Cordless Electric Angle Grinder": 1795077186.2578824,
@@ -4128,7 +4128,6 @@
     "1More  HQ20 Headphones": 1795249218.8314788
   },
   "published_post_keys": [
-    "aniscoupons:34460",
     "aniscoupons:34462",
     "aniscoupons:34465",
     "lodydeals:46328",
@@ -5127,19 +5126,20 @@
     "lodydeals:46749",
     "lodydeals:46751",
     "lodydeals:46752",
-    "aniscoupons:35404"
+    "aniscoupons:35404",
+    "lodydeals:46753"
   ],
   "last_disclaimer_time": 1794524540.9476151,
   "last_calendar_time": 1795177633.1203737,
-  "last_run_time": 1795249230.9051876,
+  "last_run_time": 1795249382.992338,
   "monitored_channels": {
     "ecksdeal": {
       "last_message_id": 6116,
       "last_check_time": 1795183542.6481285
     },
     "lodydeals": {
-      "last_message_id": 46753,
-      "last_check_time": 1795249224.1580532
+      "last_message_id": 46754,
+      "last_check_time": 1795249385.2006454
     },
     "test_channel": {
       "last_message_id": 1793967703,
@@ -5158,8 +5158,8 @@
       "last_check_time": 1793599663.3444748
     },
     "zedstoreonline": {
-      "last_message_id": 40514,
-      "last_check_time": 1795248641.122056
+      "last_message_id": 40516,
+      "last_check_time": 1795249387.2647376
     },
     "aniscoupons": {
       "last_message_id": 35404,
@@ -5174,7 +5174,7 @@
     "1005012973772517": 217.8,
     "1005010219205081": 57.2,
     "1005007805638431": 22.23,
-    "1005007027334636": 30.4,
+    "1005007027334636": 31.07,
     "1005009054706827": 23.1,
     "1005007961216287": 20.26,
     "1005008233932899": 294.9,
@@ -30527,6 +30527,16 @@
       "price": 177.3,
       "timestamp": 1795249230.9051876,
       "status": "ACTIVE"
+    },
+    "lodydeals:46753": {
+      "channel_msg_id": 3372,
+      "product_id": "1005007027334636",
+      "title": "SOMNAMBULIST SSD 120GB",
+      "channel": "lodydeals",
+      "source_msg_id": 46753,
+      "price": 31.07,
+      "timestamp": 1795249382.992338,
+      "status": "ACTIVE"
     }
   },
   "schedule_config": {
@@ -30535,17 +30545,17 @@
     "current_interval_minutes": 5,
     "is_paused": false,
     "night_mode_enabled": true,
-    "last_deal_post_time": 1795249233.8900974,
+    "last_deal_post_time": 1795249389.0179873,
     "night_start_hour_dz": 0,
     "night_end_hour_dz": 8,
     "night_pause_enabled": true,
-    "last_sweep_time": 1795249236.538721,
+    "last_sweep_time": 1795249392.1680539,
     "last_sweep_times": {
-      "algeria": 1795249233.8575857,
-      "france": 1795249236.538721
+      "algeria": 1795249388.9754987,
+      "france": 1795249392.1680539
     },
     "last_deal_post_times": {
-      "algeria": 1795249233.8900974
+      "algeria": 1795249389.0179873
     }
   },
   "last_coin_reminder_time": 1795241331.112354,
@@ -33415,8 +33425,6 @@
   "published_deals_history": {},
   "settings": {},
   "handled_post_keys": [
-    "aniscoupons:34554",
-    "aniscoupons:34555",
     "zedstoreonline:39913",
     "zedstoreonline:39914",
     "lodydeals:46371",
@@ -34414,7 +34422,9 @@
     "lodydeals:46745",
     "lodydeals:46746",
     "lodydeals:46748",
-    "lodydeals:46750"
+    "lodydeals:46750",
+    "lodydeals:46754",
+    "zedstoreonline:40516"
   ],
   "last_france_cross_promo_time": 1795236239.730334,
   "next_france_cross_promo_interval_seconds": 209180,
@@ -35025,18 +35035,16 @@
         "price": 40.6
       }
     ],
-    "1005007869955343": [
-      {
-        "channel": "zedstoreonline",
-        "ts": 1795206033.3011682,
-        "price": 37.5
-      }
-    ],
     "1005007027334636": [
       {
         "channel": "zedstoreonline",
         "ts": 1795213672.9428856,
         "price": 10.5
+      },
+      {
+        "channel": "lodydeals",
+        "ts": 1795249380.331449,
+        "price": 31.07
       }
     ],
     "1005013078612320": [
