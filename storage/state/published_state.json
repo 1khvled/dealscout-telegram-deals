@@ -1675,7 +1675,7 @@
     "1005013422894128": 1794487083.9711623,
     "1005010297094897": 1794657082.5305285,
     "1005009012821000": 1794502225.0175712,
-    "1005013485724377": 1795201032.4311068,
+    "1005013485724377": 1795286867.9281676,
     "1005012783197164": 1794606646.2896297,
     "1005012993724126": 1794515920.3397443,
     "1005012726037568": 1795267592.0773335,
@@ -3989,7 +3989,7 @@
     "FANTECH SHOOTER III WGP13S": 1794501299.95393,
     "DITONG X3Plus  4K WIFI6": 1794502225.0175712,
     "Lenovo Legion Y900 11 Tablet CN Version MediaTek Dimensity 9500S": 1795000279.9355009,
-    "realme Original Adapter SUPERVOOC Charger 45W": 1795201032.4311068,
+    "realme Original Adapter SUPERVOOC Charger 45W": 1795286867.9281676,
     "EPOMAKER GX1 Tri-mode": 1794606646.2896297,
     "WALRAM M.2  128GB": 1794515920.3397443,
     "Portable Magnetic Phone": 1794524364.21287,
@@ -4164,7 +4164,6 @@
     "لوووووووووووووووووووز": 1795282419.1354063
   },
   "published_post_keys": [
-    "aniscoupons:34517",
     "zedstoreonline:39888",
     "aniscoupons:34518",
     "aniscoupons:34519",
@@ -5163,11 +5162,12 @@
     "bnddeals:51384",
     "lodydeals:46771",
     "lodydeals:46773",
-    "aniscoupons:35439"
+    "aniscoupons:35439",
+    "aniscoupons:35441"
   ],
   "last_disclaimer_time": 1794524540.9476151,
   "last_calendar_time": 1795177633.1203737,
-  "last_run_time": 1795283264.8493018,
+  "last_run_time": 1795286867.9281676,
   "monitored_channels": {
     "ecksdeal": {
       "last_message_id": 6119,
@@ -5198,8 +5198,8 @@
       "last_check_time": 1795284824.7690773
     },
     "aniscoupons": {
-      "last_message_id": 35439,
-      "last_check_time": 1795283266.9732354
+      "last_message_id": 35441,
+      "last_check_time": 1795286870.0322497
     },
     "bnddeals": {
       "last_message_id": 51384,
@@ -31051,6 +31051,16 @@
       "price": 3.2,
       "timestamp": 1795283264.8493018,
       "status": "ACTIVE"
+    },
+    "aniscoupons:35441": {
+      "channel_msg_id": 3422,
+      "product_id": "1005013485724377",
+      "title": "realme Original Adapter SUPERVOOC Charger 45W",
+      "channel": "aniscoupons",
+      "source_msg_id": 35441,
+      "price": 11.5,
+      "timestamp": 1795286867.9281676,
+      "status": "ACTIVE"
     }
   },
   "schedule_config": {
@@ -31059,17 +31069,17 @@
     "current_interval_minutes": 5,
     "is_paused": false,
     "night_mode_enabled": true,
-    "last_deal_post_time": 1795283268.2426093,
+    "last_deal_post_time": 1795286871.2745912,
     "night_start_hour_dz": 0,
     "night_end_hour_dz": 8,
     "night_pause_enabled": true,
-    "last_sweep_time": 1795286234.840382,
+    "last_sweep_time": 1795286874.5074556,
     "last_sweep_times": {
-      "algeria": 1795286232.1856148,
-      "france": 1795286234.840382
+      "algeria": 1795286871.2284927,
+      "france": 1795286874.5074556
     },
     "last_deal_post_times": {
-      "algeria": 1795283268.2426093
+      "algeria": 1795286871.2745912
     }
   },
   "last_coin_reminder_time": 1795241331.112354,
@@ -33956,7 +33966,6 @@
   "published_deals_history": {},
   "settings": {},
   "handled_post_keys": [
-    "aniscoupons:34616",
     "zedstoreonline:39942",
     "zedstoreonline:39943",
     "zedstoreonline:39944",
@@ -34955,7 +34964,8 @@
     "lodydeals:46772",
     "lodydeals:46774",
     "lodydeals:46775",
-    "zedstoreonline:40547"
+    "zedstoreonline:40547",
+    "aniscoupons:35440"
   ],
   "last_france_cross_promo_time": 1795236239.730334,
   "next_france_cross_promo_interval_seconds": 209180,
@@ -35583,6 +35593,11 @@
         "channel": "zedstoreonline",
         "ts": 1795248640.462337,
         "price": 4.1
+      },
+      {
+        "channel": "aniscoupons",
+        "ts": 1795286863.4368112,
+        "price": 4.8
       }
     ],
     "1005009916208760": [
@@ -35994,6 +36009,13 @@
         "channel": "zedstoreonline",
         "ts": 1795284824.622539,
         "price": 3.3
+      }
+    ],
+    "1005013485724377": [
+      {
+        "channel": "aniscoupons",
+        "ts": 1795286865.0811481,
+        "price": 11.5
       }
     ]
   },
