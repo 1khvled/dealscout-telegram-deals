@@ -1552,7 +1552,7 @@
     "1005013028124905": 1793971934.3600886,
     "1005012691642623": 1794074230.5173922,
     "1005010266233059": 1793977272.9654846,
-    "1005007469003552": 1795001220.8183246,
+    "1005007469003552": 1795257430.9310815,
     "1005010041181003": 1794994376.6272743,
     "1005010265542567": 1794131426.95932,
     "1005003156756854": 1795085808.5784442,
@@ -3788,7 +3788,7 @@
     "MAONO Wave T1 Mini Pro Wireless Lavalier Microphone": 1795004027.2503812,
     "ميكروفون MAONO DGM20W لاسلكي للألعاب – تقليل الضوضاء مع إضاءة RGB، مثالي للبث المباشر والتسجيل والأل": 1793976348.7503736,
     "Ulanzi A21 Wireless Lavalier Microphone": 1793977272.9654846,
-    "ميكروفون Ulanzi A100 لاسلكي صغير": 1795001220.8183246,
+    "ميكروفون Ulanzi A100 لاسلكي صغير": 1795257430.9310815,
     "Lexar ARES PRO NVMe SSD PCle5.0x4 1TB": 1794994376.6272743,
     "Ulanzi A200 Mini Wireless Lavalier Microphone": 1794131426.95932,
     "حامل هاتف Ulanzi ST-06S": 1794944054.5907512,
@@ -4140,7 +4140,6 @@
     "KOOTION X16 7100MB/s NVMe 512GB": 1795256330.146872
   },
   "published_post_keys": [
-    "lodydeals:46347",
     "aniscoupons:34486",
     "bnddeals:51275",
     "zedstoreonline:39862",
@@ -5139,11 +5138,12 @@
     "lodydeals:46760",
     "zedstoreonline:40531",
     "zedstoreonline:40532",
-    "aniscoupons:35419"
+    "aniscoupons:35419",
+    "zedstoreonline:40534"
   ],
   "last_disclaimer_time": 1794524540.9476151,
   "last_calendar_time": 1795177633.1203737,
-  "last_run_time": 1795256894.3631735,
+  "last_run_time": 1795257430.9310815,
   "monitored_channels": {
     "ecksdeal": {
       "last_message_id": 6116,
@@ -5170,12 +5170,12 @@
       "last_check_time": 1793599663.3444748
     },
     "zedstoreonline": {
-      "last_message_id": 40533,
-      "last_check_time": 1795257250.9980326
+      "last_message_id": 40534,
+      "last_check_time": 1795257432.9974473
     },
     "aniscoupons": {
-      "last_message_id": 35419,
-      "last_check_time": 1795256896.4369361
+      "last_message_id": 35420,
+      "last_check_time": 1795257434.5704756
     },
     "bnddeals": {
       "last_message_id": 51382,
@@ -30742,6 +30742,16 @@
       "price": 115.9,
       "timestamp": 1795256894.3631735,
       "status": "ACTIVE"
+    },
+    "zedstoreonline:40534": {
+      "channel_msg_id": 3392,
+      "product_id": "1005007469003552",
+      "title": "ميكروفون Ulanzi A100 لاسلكي صغير",
+      "channel": "zedstoreonline",
+      "source_msg_id": 40534,
+      "price": 17.1,
+      "timestamp": 1795257430.9310815,
+      "status": "ACTIVE"
     }
   },
   "schedule_config": {
@@ -30750,17 +30760,17 @@
     "current_interval_minutes": 5,
     "is_paused": false,
     "night_mode_enabled": true,
-    "last_deal_post_time": 1795256897.2340086,
+    "last_deal_post_time": 1795257435.4777217,
     "night_start_hour_dz": 0,
     "night_end_hour_dz": 8,
     "night_pause_enabled": true,
-    "last_sweep_time": 1795257255.787908,
+    "last_sweep_time": 1795257438.0365722,
     "last_sweep_times": {
-      "algeria": 1795257252.6560962,
-      "france": 1795257255.787908
+      "algeria": 1795257435.448801,
+      "france": 1795257438.0365722
     },
     "last_deal_post_times": {
-      "algeria": 1795256897.2340086
+      "algeria": 1795257435.4777217
     }
   },
   "last_coin_reminder_time": 1795241331.112354,
@@ -33636,7 +33646,6 @@
   "published_deals_history": {},
   "settings": {},
   "handled_post_keys": [
-    "aniscoupons:34570",
     "aniscoupons:34575",
     "zedstoreonline:39922",
     "aniscoupons:34573",
@@ -34635,7 +34644,8 @@
     "aniscoupons:35417",
     "zedstoreonline:40529",
     "aniscoupons:35418",
-    "zedstoreonline:40533"
+    "zedstoreonline:40533",
+    "aniscoupons:35420"
   ],
   "last_france_cross_promo_time": 1795236239.730334,
   "next_france_cross_promo_interval_seconds": 209180,
@@ -35356,6 +35366,11 @@
         "channel": "zedstoreonline",
         "ts": 1795250840.8931777,
         "price": 29.6
+      },
+      {
+        "channel": "aniscoupons",
+        "ts": 1795257434.455012,
+        "price": 29.6
       }
     ],
     "1005008708333999": [
@@ -35469,6 +35484,13 @@
         "channel": "aniscoupons",
         "ts": 1795256892.2327695,
         "price": 115.9
+      }
+    ],
+    "1005007469003552": [
+      {
+        "channel": "zedstoreonline",
+        "ts": 1795257428.4645925,
+        "price": 17.1
       }
     ]
   },
