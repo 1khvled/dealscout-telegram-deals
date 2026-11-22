@@ -895,7 +895,8 @@
     "1005007097015654",
     "1005007805749110",
     "1005009319376059",
-    "1005011974295002"
+    "1005011974295002",
+    "1005010063967666"
   ],
   "published_product_timestamps": {
     "1005012973772517": 1794500732.7845657,
@@ -1810,7 +1811,8 @@
     "1005007097015654": 1795290732.7583535,
     "1005007805749110": 1795290738.086464,
     "1005009319376059": 1795342254.1571093,
-    "1005011974295002": 1795344836.3762915
+    "1005011974295002": 1795344836.3762915,
+    "1005010063967666": 1795345550.2834108
   },
   "published_titles": [
     "Wireless WiFi Repeater 300Mbps WiFi Extender Amplifier Booster Router",
@@ -3003,7 +3005,8 @@
     "Lenovo Legion Y900 11 Tablet CN Version",
     "WALRAM 2.5  sata 480GB",
     "Blackview MEGA 5 8/256GB 4G",
-    "ViVO X300 Ultra 12/256GB"
+    "ViVO X300 Ultra 12/256GB",
+    "JGINYUE B650M PRO V2"
   ],
   "published_title_timestamps": {
     "Xiaomi Redmi Note 17 5G Global Version": 1790857823.0117362,
@@ -4201,10 +4204,10 @@
     "Lenovo Legion Y900 11 Tablet CN Version": 1795337128.5106091,
     "WALRAM 2.5  sata 480GB": 1795343539.292944,
     "Blackview MEGA 5 8/256GB 4G": 1795344827.810419,
-    "ViVO X300 Ultra 12/256GB": 1795344836.3762915
+    "ViVO X300 Ultra 12/256GB": 1795344836.3762915,
+    "JGINYUE B650M PRO V2": 1795345550.2834108
   },
   "published_post_keys": [
-    "aniscoupons:34566",
     "aniscoupons:34569",
     "lodydeals:46378",
     "zedstoreonline:39920",
@@ -5203,11 +5206,12 @@
     "lodydeals:46794",
     "lodydeals:46796",
     "lodydeals:46797",
-    "lodydeals:46798"
+    "lodydeals:46798",
+    "aniscoupons:35474"
   ],
   "last_disclaimer_time": 1794524540.9476151,
   "last_calendar_time": 1795177633.1203737,
-  "last_run_time": 1795344849.625043,
+  "last_run_time": 1795345550.2834108,
   "monitored_channels": {
     "ecksdeal": {
       "last_message_id": 6119,
@@ -5238,8 +5242,8 @@
       "last_check_time": 1795343895.3755047
     },
     "aniscoupons": {
-      "last_message_id": 35473,
-      "last_check_time": 1795344637.4129093
+      "last_message_id": 35474,
+      "last_check_time": 1795345552.3948772
     },
     "bnddeals": {
       "last_message_id": 51387,
@@ -6033,7 +6037,8 @@
     "1005007097015654": 5.69,
     "1005007805749110": 4.09,
     "1005009319376059": 49.5,
-    "1005011974295002": 887.7
+    "1005011974295002": 887.7,
+    "1005010063967666": 111.68
   },
   "channel_published_deals": {
     "aniscoupons:32590": {
@@ -31548,6 +31553,16 @@
       "price": 10.59,
       "timestamp": 1795344849.625043,
       "status": "ACTIVE"
+    },
+    "aniscoupons:35474": {
+      "channel_msg_id": 3467,
+      "product_id": "1005010063967666",
+      "title": "JGINYUE B650M PRO V2",
+      "channel": "aniscoupons",
+      "source_msg_id": 35474,
+      "price": 111.68,
+      "timestamp": 1795345550.2834108,
+      "status": "ACTIVE"
     }
   },
   "schedule_config": {
@@ -31556,17 +31571,17 @@
     "current_interval_minutes": 5,
     "is_paused": false,
     "night_mode_enabled": true,
-    "last_deal_post_time": 1795344856.3427858,
+    "last_deal_post_time": 1795345553.65234,
     "night_start_hour_dz": 0,
     "night_end_hour_dz": 8,
     "night_pause_enabled": true,
-    "last_sweep_time": 1795345365.8999536,
+    "last_sweep_time": 1795345556.3077416,
     "last_sweep_times": {
-      "algeria": 1795345363.6951058,
-      "france": 1795345365.8999536
+      "algeria": 1795345553.5997412,
+      "france": 1795345556.3077416
     },
     "last_deal_post_times": {
-      "algeria": 1795344856.3427858
+      "algeria": 1795345553.65234
     }
   },
   "last_coin_reminder_time": 1795241331.112354,
@@ -32476,7 +32491,8 @@
     "1005007097015654": "lodydeals",
     "1005007805749110": "lodydeals",
     "1005009319376059": "aniscoupons",
-    "1005011974295002": "lodydeals"
+    "1005011974295002": "lodydeals",
+    "1005010063967666": "aniscoupons"
   },
   "published_title_channels": {
     "Test Wrench Set": "test_channel",
@@ -33675,7 +33691,8 @@
     "Lenovo Legion Y900 11 Tablet CN Version": "bnddeals",
     "WALRAM 2.5  sata 480GB": "aniscoupons",
     "Blackview MEGA 5 8/256GB 4G": "lodydeals",
-    "ViVO X300 Ultra 12/256GB": "lodydeals"
+    "ViVO X300 Ultra 12/256GB": "lodydeals",
+    "JGINYUE B650M PRO V2": "aniscoupons"
   },
   "religious_reminders_history": {
     "mock_rem": "2026-10-02",
