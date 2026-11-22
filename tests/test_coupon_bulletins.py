@@ -2,6 +2,7 @@
 
 from app.ai.coupon_bulletins import (
     build_bulletin_caption,
+    compact_photo_caption,
     coupons_from_text,
     detect_bulletin_kind,
     event_from_text,
@@ -90,6 +91,21 @@ def test_build_caption_uses_our_links_and_no_competitor_branding():
     normal = build_bulletin_caption(NORMAL_POST, [our[0]])
     assert normal is not None and "OTSBF03" in normal and "الجمعة البيضاء" in normal
     assert build_bulletin_caption(PRODUCT_POST, our) is None
+
+
+def test_photo_caption_stays_under_telegram_limit_and_keeps_coupons():
+    full = build_bulletin_caption(BIZ_POST, ["https://s.click.aliexpress.com/e/_OUR1"])
+    assert len(full) > 1024  # business layout needs a compact photo caption
+
+    compact = compact_photo_caption(full)
+    assert len(compact) <= 1024
+    for code in ["AEBBF10", "AEBBF11", "AEBBF12", "AEBBF31"]:
+        assert code in compact
+    assert "https://s.click.aliexpress.com/e/_OUR1" in compact
+    assert "Alilo07BOT" in compact
+
+    short = compact_photo_caption("short caption")
+    assert short == "short caption"
 
 
 def test_event_name_is_read_from_post_not_hardcoded():

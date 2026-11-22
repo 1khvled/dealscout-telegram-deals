@@ -168,8 +168,27 @@ def build_bulletin_caption(raw_text: str, our_links: Sequence[str]) -> Optional[
     )
 
 
+def compact_photo_caption(caption: str, limit: int = 1000) -> str:
+    """Photo captions cap at 1024 chars — keep the essentials when longer."""
+    if len(caption) <= limit:
+        return caption
+    kept = []
+    for line in caption.splitlines():
+        s = line.strip()
+        if not s:
+            continue
+        if (s.startswith("🎟️ كوبون") or s.startswith("🚀")
+                or s.startswith("https://s.click.aliexpress.com")
+                or s.startswith("https://t.me/Alilo07BOT")
+                or "@DzAliexpress0" in s
+                or "dealscoutgreen.vercel.app" in s):
+            kept.append(s)
+    out = "\n\n".join(kept)
+    return out[:limit].rsplit("\n", 1)[0] if len(out) > limit else out
+
+
 __all__ = [
     "Coupon", "coupons_from_text", "detect_bulletin_kind", "event_from_text",
     "format_business_coupon_bulletin", "format_normal_coupon_bulletin",
-    "build_bulletin_caption",
+    "build_bulletin_caption", "compact_photo_caption",
 ]

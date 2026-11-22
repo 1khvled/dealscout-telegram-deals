@@ -3,6 +3,7 @@ import os
 import re
 import sys
 import json
+import mimetypes
 from pathlib import Path
 from typing import Optional, Dict, Any, List
 
@@ -289,13 +290,16 @@ async def publish_coupon_bulletin(raw_text: str, source_channel: str, source_msg
         from app.aliexpress.affiliate import affiliate_service
         from api.coin_bot import ensure_affiliate
         from app.ai.coupon_bulletins import (
-            detect_bulletin_kind, coupons_from_text, build_bulletin_caption, event_from_text,
+            detect_bulletin_kind, coupons_from_text, build_bulletin_caption,
+            event_from_text, compact_photo_caption,
         )
         from app.publisher.state_tracker import (
             is_coupon_bulletin_already_published, record_post_published,
         )
+        from app.media.renderer import media_renderer
 
-        if detect_bulletin_kind(raw_text) is None:
+        kind = detect_bulletin_kind(raw_text)
+        if kind is None:
             return False
         coupons = coupons_from_text(raw_text)
 
@@ -332,11 +336,50 @@ async def publish_coupon_bulletin(raw_text: str, source_channel: str, source_msg
         if not bot_token:
             return False
 
-        async with httpx.AsyncClient(timeout=25.0) as client:
-            resp = await client.post(
-                f"https://api.telegram.org/bot{bot_token}/sendMessage",
-                json={"chat_id": target_chat, "text": caption, "disable_web_page_preview": True},
+        # Use the generated high-definition coupon card (never a static poster).
+        card_path = None
+        event = event_from_text(raw_text) or ""
+        # PIL fonts have no Arabic shaping — keep the image title Latin-only.
+        promo_title = event if event and not any('\u0600' <= ch <= '\u06ff' for ch in event) \
+            else ("Business" if kind == "business" else "Coupon Wall")
+        try:
+            card_path = media_renderer.render_coupon_bulletin_card(
+                [{"tier": t, "code": c} for t, c in coupons],
+                promo_title=promo_title,
+                channel_handle="@DzAliexpress0",
+                is_french=False,
             )
+        except Exception as render_err:
+            logger.warning(f"Coupon bulletin card render failed, sending text only: {render_err}")
+
+        async with httpx.AsyncClient(timeout=25.0) as client:
+            if card_path and os.path.exists(str(card_path)):
+                photo_caption = compact_photo_caption(caption)
+                with open(card_path, "rb") as f_img:
+                    resp = await client.post(
+                        f"https://api.telegram.org/bot{bot_token}/sendPhoto",
+                        data={"chat_id": target_chat, "caption": photo_caption},
+                        files={"photo": (
+                            os.path.basename(str(card_path)), f_img,
+                            mimetypes.guess_type(str(card_path))[0] or "image/png",
+                        )},
+                    )
+                # Long captions: post the full version as a threaded follow-up.
+                if resp.status_code == 200 and resp.json().get("ok") and photo_caption != caption:
+                    await client.post(
+                        f"https://api.telegram.org/bot{bot_token}/sendMessage",
+                        json={
+                            "chat_id": target_chat,
+                            "text": caption,
+                            "reply_to_message_id": resp.json().get("result", {}).get("message_id"),
+                            "disable_web_page_preview": True,
+                        },
+                    )
+            else:
+                resp = await client.post(
+                    f"https://api.telegram.org/bot{bot_token}/sendMessage",
+                    json={"chat_id": target_chat, "text": caption, "disable_web_page_preview": True},
+                )
         if resp.status_code == 200 and resp.json().get("ok"):
             new_msg_id = resp.json().get("result", {}).get("message_id")
             first_line = raw_text.splitlines()[0].strip() if raw_text.splitlines() else "كوبونات"

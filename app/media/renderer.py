@@ -397,11 +397,13 @@ class MediaRenderer:
                     if getattr(p, "is_sunday_flash", False):
                         date_range_str = "SUPER SUNDAY • FLASH 24H DIMANCHE"
                     else:
-                        date_range_str = f"{p.name.upper()} • {p.start_date.day:02d} - {p.end_date.day:02d} OCTOBRE"
+                        month = p.end_date.strftime("%b").upper()
+                        prefix = "DU" if is_french else "FROM"
+                        date_range_str = f"{p.name.upper()} • {prefix} {p.start_date.day:02d} - {p.end_date.day:02d} {month}"
             except Exception:
                 pass
 
-        badge_text = date_range_str or ("CHOICE DAY • DU 1 AU 7 OCTOBRE" if is_french else "BRAND DAY • 09 - 13 OCTOBRE")
+        badge_text = date_range_str or ("CHOICE DAY • CODES OFFICIELS" if is_french else "COUPON WALL • OFFICIAL CODES")
         full_badge = f"•  {badge_text.upper()}  •"
         badge_bbox = font_badge.getbbox(full_badge)
         badge_text_w = badge_bbox[2] - badge_bbox[0]
@@ -430,7 +432,8 @@ class MediaRenderer:
         draw.text((w // 2, 146), sub_text, fill=(253, 224, 71), font=font_sub, anchor="mm")
 
         # Notice
-        notice_text = "• Actifs dès 09h00 (Heure de Paris) • Valables sur tout le site •" if is_french else "• Actifs dès 08h00 (Heure DZ) • Quantités Limitées •"
+        notice_text = ("• Actifs dès 09h00 (Heure de Paris) • Valables sur tout le site •"
+                       if is_french else "• Active from 08:00 (Algeria time) • Limited quantities •")
         draw.text((w // 2, 184), notice_text, fill=(241, 245, 249), font=font_badge, anchor="mm")
 
         # Circular Logo top right in header
@@ -491,10 +494,10 @@ class MediaRenderer:
                 if "/" in tier_raw:
                     parts = tier_raw.replace("$", "").split("/")
                     amount_str = f"-${parts[0].strip()}"
-                    cond_str = f"Dès ${parts[1].strip()} d'achat"
+                    cond_str = f"Min. ${parts[1].strip()} spend"
                 else:
                     amount_str = f"-${tier_raw.replace('$', '')}"
-                    cond_str = "Sur tout le panier"
+                    cond_str = "Sitewide"
 
             cy = start_y + i * (row_h + gap)
 
@@ -523,7 +526,7 @@ class MediaRenderer:
             )
             draw.text(
                 (card_x + 8 + badge_w // 2, cy + (row_h // 2) + 22),
-                "ÉCONOMIE" if is_french else "RÉDUCTION",
+                "ÉCONOMIE" if is_french else "OFF",
                 fill=(254, 202, 202),
                 font=font_amount_sub,
                 anchor="mm"
@@ -545,7 +548,7 @@ class MediaRenderer:
             )
             draw.text(
                 (cond_x, cy + (row_h // 2) + 18),
-                "Valable sur tous les articles éligibles",
+                "Valable sur tous les articles éligibles" if is_french else "Valid on all eligible items",
                 fill=(148, 163, 184),
                 font=font_cond_sub,
                 anchor="lm"
@@ -563,7 +566,7 @@ class MediaRenderer:
             )
             draw.text(
                 (code_x + code_box_w // 2, cy + 24),
-                "CODE PROMO",
+                "CODE PROMO" if is_french else "PROMO CODE",
                 fill=(245, 158, 11),
                 font=font_code_label,
                 anchor="mm"
@@ -582,7 +585,8 @@ class MediaRenderer:
         draw.line([(0, footer_y), (w, footer_y)], fill=(245, 158, 11), width=2)
         draw.text(
             (w // 2, footer_y + 35),
-            f"Canal officiel : {channel_handle}   •   Bot Réductions : @Alilo07BOT",
+            (f"Canal officiel : {channel_handle}   •   Bot Réductions : @Alilo07BOT"
+             if is_french else f"Official channel: {channel_handle}   •   Deals bot: @Alilo07BOT"),
             fill=(226, 232, 240),
             font=font_footer,
             anchor="mm"
@@ -598,7 +602,7 @@ class MediaRenderer:
         else:
             draw.text(
                 (w // 2, footer_y + 68),
-                "Astuce : Utilisez le bot @Alilo07BOT pour cumuler jusqu'à 70% de réduction Coins !",
+                "Tip: use @Alilo07BOT to stack up to 70% extra Coins discount!",
                 fill=(253, 224, 71),
                 font=font_tip,
                 anchor="mm"
