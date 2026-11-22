@@ -1761,7 +1761,7 @@
     "1005010538481521": 1795088201.579061,
     "1005009354317262": 1795079588.3610423,
     "1005007721842895": 1795083426.9610174,
-    "1005012325373696": 1795249746.4902642,
+    "1005012325373696": 1795336945.6090689,
     "1005012929627900": 1795283256.2680137,
     "1005009465190932": 1795095306.94495,
     "1005013270397194": 1795096787.4537058,
@@ -4134,7 +4134,7 @@
     "CUSU DDR4 8GBx2 3200MHz": 1795081588.9428203,
     "لأكثر طلباً شاحن": 1795081619.0346873,
     "HOCO CS25A 20W PD": 1795083426.9610174,
-    "Realme P4 (8/256GB)": 1795249746.4902642,
+    "Realme P4 (8/256GB)": 1795336945.6090689,
     "Ulanzi ST-06S ✅": 1795085808.5784442,
     "ESSAGER 45W Car Charger PD Fast Charging with Retractable": 1795086173.3845732,
     "Wireless Car Air Pump": 1795283256.2680137,
@@ -4196,7 +4196,6 @@
     "VIVO X300 Ultra 12/256": 1795296883.1865098
   },
   "published_post_keys": [
-    "lodydeals:46361",
     "lodydeals:46362",
     "lodydeals:46364",
     "lodydeals:46365",
@@ -5195,19 +5194,20 @@
     "aniscoupons:35455",
     "aniscoupons:35456",
     "aniscoupons:35457",
-    "aniscoupons:35458"
+    "aniscoupons:35458",
+    "aniscoupons:35459"
   ],
   "last_disclaimer_time": 1794524540.9476151,
   "last_calendar_time": 1795177633.1203737,
-  "last_run_time": 1795336579.7101295,
+  "last_run_time": 1795336945.6090689,
   "monitored_channels": {
     "ecksdeal": {
       "last_message_id": 6119,
       "last_check_time": 1795282395.5364728
     },
     "lodydeals": {
-      "last_message_id": 46796,
-      "last_check_time": 1795336391.8864253
+      "last_message_id": 46797,
+      "last_check_time": 1795336939.4112542
     },
     "test_channel": {
       "last_message_id": 1793967703,
@@ -5230,8 +5230,8 @@
       "last_check_time": 1795301531.2051742
     },
     "aniscoupons": {
-      "last_message_id": 35458,
-      "last_check_time": 1795336581.8186417
+      "last_message_id": 35459,
+      "last_check_time": 1795336947.6780143
     },
     "bnddeals": {
       "last_message_id": 51386,
@@ -31360,6 +31360,16 @@
       "price": 177.3,
       "timestamp": 1795336579.7101295,
       "status": "ACTIVE"
+    },
+    "aniscoupons:35459": {
+      "channel_msg_id": 3449,
+      "product_id": "1005012325373696",
+      "title": "Realme P4 (8/256GB)",
+      "channel": "aniscoupons",
+      "source_msg_id": 35459,
+      "price": 203.3,
+      "timestamp": 1795336945.6090689,
+      "status": "ACTIVE"
     }
   },
   "schedule_config": {
@@ -31368,17 +31378,17 @@
     "current_interval_minutes": 5,
     "is_paused": false,
     "night_mode_enabled": true,
-    "last_deal_post_time": 1795336583.0032632,
+    "last_deal_post_time": 1795336948.6561909,
     "night_start_hour_dz": 0,
     "night_end_hour_dz": 8,
     "night_pause_enabled": true,
-    "last_sweep_time": 1795336755.5584853,
+    "last_sweep_time": 1795336951.2494776,
     "last_sweep_times": {
-      "algeria": 1795336753.0910962,
-      "france": 1795336755.5584853
+      "algeria": 1795336948.6266398,
+      "france": 1795336951.2494776
     },
     "last_deal_post_times": {
-      "algeria": 1795336583.0032632
+      "algeria": 1795336948.6561909
     }
   },
   "last_coin_reminder_time": 1795241331.112354,
@@ -35966,6 +35976,13 @@
         "channel": "aniscoupons",
         "ts": 1795336577.490331,
         "price": 177.3
+      }
+    ],
+    "1005012325373696": [
+      {
+        "channel": "aniscoupons",
+        "ts": 1795336942.99323,
+        "price": 203.3
       }
     ]
   },
