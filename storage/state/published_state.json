@@ -5268,8 +5268,8 @@
       "last_check_time": 1795383206.61308
     },
     "aniscoupons": {
-      "last_message_id": 35495,
-      "last_check_time": 1795384487.1673017
+      "last_message_id": 35496,
+      "last_check_time": 1795385782.549351
     },
     "bnddeals": {
       "last_message_id": 51390,
@@ -31807,10 +31807,10 @@
     "night_start_hour_dz": 0,
     "night_end_hour_dz": 8,
     "night_pause_enabled": true,
-    "last_sweep_time": 1795385595.7288682,
+    "last_sweep_time": 1795385786.1160781,
     "last_sweep_times": {
-      "algeria": 1795385592.3672752,
-      "france": 1795385595.7288682
+      "algeria": 1795385783.3603199,
+      "france": 1795385786.1160781
     },
     "last_deal_post_times": {
       "algeria": 1795382846.3223975
@@ -34735,7 +34735,6 @@
   "published_deals_history": {},
   "settings": {},
   "handled_post_keys": [
-    "zedstoreonline:39998",
     "zedstoreonline:39999",
     "aniscoupons:34691",
     "aniscoupons:34693",
@@ -35734,7 +35733,8 @@
     "aniscoupons:35494",
     "zedstoreonline:40576",
     "ecksdeal:6124",
-    "aniscoupons:35495"
+    "aniscoupons:35495",
+    "aniscoupons:35496"
   ],
   "last_france_cross_promo_time": 1795236239.730334,
   "next_france_cross_promo_interval_seconds": 209180,
@@ -36314,13 +36314,6 @@
         "price": 50.3
       }
     ],
-    "1005009231510301": [
-      {
-        "channel": "zedstoreonline",
-        "ts": 1795341703.406586,
-        "price": 262.7
-      }
-    ],
     "1005010721042860": [
       {
         "channel": "lodydeals",
@@ -36347,20 +36340,6 @@
         "channel": "zedstoreonline",
         "ts": 1795362993.0608187,
         "price": 30.0
-      }
-    ],
-    "1005012274502051": [
-      {
-        "channel": "aniscoupons",
-        "ts": 1795341887.1536322,
-        "price": 20.9
-      }
-    ],
-    "1005009319376059": [
-      {
-        "channel": "aniscoupons",
-        "ts": 1795342251.8014178,
-        "price": 49.5
       }
     ],
     "1005012931209980": [
@@ -36626,6 +36605,11 @@
         "channel": "aniscoupons",
         "ts": 1795384487.0231092,
         "price": 37.2
+      },
+      {
+        "channel": "aniscoupons",
+        "ts": 1795385782.3984296,
+        "price": 36.9
       }
     ]
   },
