@@ -1545,7 +1545,7 @@
     "1005006972551834": 1793793774.6743867,
     "1005010169268165": 1793794440.9453664,
     "1005010702038861": 1794935200.9462438,
-    "1005009313079431": 1795294136.0974371,
+    "1005009313079431": 1795343539.292944,
     "1005010702511858": 1795011758.367623,
     "1005008554218453": 1793908979.1776278,
     "1005012499433797": 1794683885.7547128,
@@ -3000,7 +3000,8 @@
     "WALRAM 2.5  sata 480GB",
     "WALRAM  M.2 NVMe SSD 512GB",
     "VIVO X300 Ultra 12/256",
-    "Lenovo Legion Y900 11 Tablet CN Version"
+    "Lenovo Legion Y900 11 Tablet CN Version",
+    "WALRAM 2.5  sata 480GB"
   ],
   "published_title_timestamps": {
     "Xiaomi Redmi Note 17 5G Global Version": 1790857823.0117362,
@@ -4195,10 +4196,10 @@
     "WALRAM 2.5  sata 480GB": 1795294136.0974371,
     "WALRAM  M.2 NVMe SSD 512GB": 1795342254.1571093,
     "VIVO X300 Ultra 12/256": 1795296883.1865098,
-    "Lenovo Legion Y900 11 Tablet CN Version": 1795337128.5106091
+    "Lenovo Legion Y900 11 Tablet CN Version": 1795337128.5106091,
+    "WALRAM 2.5  sata 480GB": 1795343539.292944
   },
   "published_post_keys": [
-    "zedstoreonline:39910",
     "aniscoupons:34556",
     "aniscoupons:34557",
     "aniscoupons:34558",
@@ -5197,11 +5198,12 @@
     "aniscoupons:35465",
     "zedstoreonline:40561",
     "aniscoupons:35467",
-    "aniscoupons:35468"
+    "aniscoupons:35468",
+    "aniscoupons:35470"
   ],
   "last_disclaimer_time": 1794524540.9476151,
   "last_calendar_time": 1795177633.1203737,
-  "last_run_time": 1795342254.1571093,
+  "last_run_time": 1795343539.292944,
   "monitored_channels": {
     "ecksdeal": {
       "last_message_id": 6119,
@@ -5232,8 +5234,8 @@
       "last_check_time": 1795341708.2923858
     },
     "aniscoupons": {
-      "last_message_id": 35469,
-      "last_check_time": 1795342984.1553178
+      "last_message_id": 35470,
+      "last_check_time": 1795343541.3967018
     },
     "bnddeals": {
       "last_message_id": 51387,
@@ -31462,6 +31464,16 @@
       "price": 49.5,
       "timestamp": 1795342254.1571093,
       "status": "ACTIVE"
+    },
+    "aniscoupons:35470": {
+      "channel_msg_id": 3459,
+      "product_id": "1005009313079431",
+      "title": "WALRAM 2.5  sata 480GB",
+      "channel": "aniscoupons",
+      "source_msg_id": 35470,
+      "price": 37.9,
+      "timestamp": 1795343539.292944,
+      "status": "ACTIVE"
     }
   },
   "schedule_config": {
@@ -31470,17 +31482,17 @@
     "current_interval_minutes": 5,
     "is_paused": false,
     "night_mode_enabled": true,
-    "last_deal_post_time": 1795342257.3786259,
+    "last_deal_post_time": 1795343542.5981355,
     "night_start_hour_dz": 0,
     "night_end_hour_dz": 8,
     "night_pause_enabled": true,
-    "last_sweep_time": 1795343350.5534394,
+    "last_sweep_time": 1795343545.7226734,
     "last_sweep_times": {
-      "algeria": 1795343347.9308786,
-      "france": 1795343350.5534394
+      "algeria": 1795343542.5531616,
+      "france": 1795343545.7226734
     },
     "last_deal_post_times": {
-      "algeria": 1795342257.3786259
+      "algeria": 1795343542.5981355
     }
   },
   "last_coin_reminder_time": 1795241331.112354,
@@ -33586,7 +33598,8 @@
     "WALRAM 2.5  sata 480GB": "aniscoupons",
     "WALRAM  M.2 NVMe SSD 512GB": "aniscoupons",
     "VIVO X300 Ultra 12/256": "zedstoreonline",
-    "Lenovo Legion Y900 11 Tablet CN Version": "bnddeals"
+    "Lenovo Legion Y900 11 Tablet CN Version": "bnddeals",
+    "WALRAM 2.5  sata 480GB": "aniscoupons"
   },
   "religious_reminders_history": {
     "mock_rem": "2026-10-02",
@@ -36090,6 +36103,13 @@
         "channel": "aniscoupons",
         "ts": 1795342983.4695258,
         "price": 275.0
+      }
+    ],
+    "1005009313079431": [
+      {
+        "channel": "aniscoupons",
+        "ts": 1795343536.3590105,
+        "price": 37.9
       }
     ]
   },
