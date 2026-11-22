@@ -896,7 +896,8 @@
     "1005007805749110",
     "1005009319376059",
     "1005011974295002",
-    "1005010063967666"
+    "1005010063967666",
+    "1005009873824892"
   ],
   "published_product_timestamps": {
     "1005012973772517": 1794500732.7845657,
@@ -1812,7 +1813,8 @@
     "1005007805749110": 1795290738.086464,
     "1005009319376059": 1795342254.1571093,
     "1005011974295002": 1795344836.3762915,
-    "1005010063967666": 1795345550.2834108
+    "1005010063967666": 1795345550.2834108,
+    "1005009873824892": 1795346646.0617936
   },
   "published_titles": [
     "Wireless WiFi Repeater 300Mbps WiFi Extender Amplifier Booster Router",
@@ -3006,7 +3008,8 @@
     "WALRAM 2.5  sata 480GB",
     "Blackview MEGA 5 8/256GB 4G",
     "ViVO X300 Ultra 12/256GB",
-    "JGINYUE B650M PRO V2"
+    "JGINYUE B650M PRO V2",
+    "لوووووووووووووووووووز MOTHERBOARD"
   ],
   "published_title_timestamps": {
     "Xiaomi Redmi Note 17 5G Global Version": 1790857823.0117362,
@@ -4205,10 +4208,10 @@
     "WALRAM 2.5  sata 480GB": 1795343539.292944,
     "Blackview MEGA 5 8/256GB 4G": 1795344827.810419,
     "ViVO X300 Ultra 12/256GB": 1795344836.3762915,
-    "JGINYUE B650M PRO V2": 1795345550.2834108
+    "JGINYUE B650M PRO V2": 1795345550.2834108,
+    "لوووووووووووووووووووز MOTHERBOARD": 1795346646.0617936
   },
   "published_post_keys": [
-    "aniscoupons:34569",
     "lodydeals:46378",
     "zedstoreonline:39920",
     "aniscoupons:34571",
@@ -5207,11 +5210,12 @@
     "lodydeals:46796",
     "lodydeals:46797",
     "lodydeals:46798",
-    "aniscoupons:35474"
+    "aniscoupons:35474",
+    "bnddeals:51388"
   ],
   "last_disclaimer_time": 1794524540.9476151,
   "last_calendar_time": 1795177633.1203737,
-  "last_run_time": 1795345550.2834108,
+  "last_run_time": 1795346646.0617936,
   "monitored_channels": {
     "ecksdeal": {
       "last_message_id": 6119,
@@ -5246,8 +5250,8 @@
       "last_check_time": 1795345552.3948772
     },
     "bnddeals": {
-      "last_message_id": 51387,
-      "last_check_time": 1795337130.6178725
+      "last_message_id": 51388,
+      "last_check_time": 1795346648.1695056
     }
   },
   "published_product_prices": {
@@ -6038,7 +6042,8 @@
     "1005007805749110": 4.09,
     "1005009319376059": 49.5,
     "1005011974295002": 887.7,
-    "1005010063967666": 111.68
+    "1005010063967666": 111.68,
+    "1005009873824892": 211.5
   },
   "channel_published_deals": {
     "aniscoupons:32590": {
@@ -31563,6 +31568,16 @@
       "price": 111.68,
       "timestamp": 1795345550.2834108,
       "status": "ACTIVE"
+    },
+    "bnddeals:51388": {
+      "channel_msg_id": 3468,
+      "product_id": "1005009873824892",
+      "title": "لوووووووووووووووووووز MOTHERBOARD",
+      "channel": "bnddeals",
+      "source_msg_id": 51388,
+      "price": 211.5,
+      "timestamp": 1795346646.0617936,
+      "status": "ACTIVE"
     }
   },
   "schedule_config": {
@@ -31571,17 +31586,17 @@
     "current_interval_minutes": 5,
     "is_paused": false,
     "night_mode_enabled": true,
-    "last_deal_post_time": 1795345553.65234,
+    "last_deal_post_time": 1795346648.2658596,
     "night_start_hour_dz": 0,
     "night_end_hour_dz": 8,
     "night_pause_enabled": true,
-    "last_sweep_time": 1795346472.022832,
+    "last_sweep_time": 1795346650.699803,
     "last_sweep_times": {
-      "algeria": 1795346468.739872,
-      "france": 1795346472.022832
+      "algeria": 1795346648.2180219,
+      "france": 1795346650.699803
     },
     "last_deal_post_times": {
-      "algeria": 1795345553.65234
+      "algeria": 1795346648.2658596
     }
   },
   "last_coin_reminder_time": 1795241331.112354,
@@ -32492,7 +32507,8 @@
     "1005007805749110": "lodydeals",
     "1005009319376059": "aniscoupons",
     "1005011974295002": "lodydeals",
-    "1005010063967666": "aniscoupons"
+    "1005010063967666": "aniscoupons",
+    "1005009873824892": "bnddeals"
   },
   "published_title_channels": {
     "Test Wrench Set": "test_channel",
@@ -33692,7 +33708,8 @@
     "WALRAM 2.5  sata 480GB": "aniscoupons",
     "Blackview MEGA 5 8/256GB 4G": "lodydeals",
     "ViVO X300 Ultra 12/256GB": "lodydeals",
-    "JGINYUE B650M PRO V2": "aniscoupons"
+    "JGINYUE B650M PRO V2": "aniscoupons",
+    "لوووووووووووووووووووز MOTHERBOARD": "bnddeals"
   },
   "religious_reminders_history": {
     "mock_rem": "2026-10-02",
