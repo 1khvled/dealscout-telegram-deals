@@ -1,38 +1,27 @@
-"""Reusable coupon-bulletin formats for @DzAliexpress0.
+"""Coupon bulletin layouts — dynamic, never hardcoded coupon codes.
 
-Two saved layouts:
-  * BUSINESS — the "كوبونات حساب Business" bulletin (guide + AEBBF coupons).
-  * NORMAL   — the standard promo/event coupon wall (OTSBF coupons), same
-               structure as the well-maintained #3195 White Friday post.
-
-Both use only our own links/branding — no competitor handles or links.
+When a monitored channel (currently @aniscoupons) posts a coupon bulletin,
+we detect the situation, read the *actual* coupons from that post, and render
+our own version with our own monetized links. Coupons and links are always
+supplied by the caller; nothing about a specific campaign is stored here.
 """
 
-from typing import Iterable, Optional, Tuple
+import re
+from typing import Iterable, List, Optional, Sequence, Tuple
 
-# (tier, code) — e.g. ("90/689$", "AEBBF10")
+from app.aliexpress.parser import extract_coupon_list
+
+# (tier, code) — read from the source post, e.g. ("90/689$", "AEBBF10")
 Coupon = Tuple[str, str]
 
-BUSINESS_COUPONS: Tuple[Coupon, ...] = (
-    ("90/689$", "AEBBF10"),
-    ("115/899$", "AEBBF11"),
-    ("125/1000$", "AEBBF12"),
-    ("185/1500$", "AEBBF31"),
+BUSINESS_MARKERS = (
+    "كوبون حساب", "حساب business", "business coupon", "inbusiness",
+    "تحقق من الهوية", "المبيعات عبر الإنترنت",
 )
-
-NORMAL_COUPONS: Tuple[Coupon, ...] = (
-    ("3/15$", "OTSBF03"),
-    ("4/24$", "OTSBF04"),
-    ("8/60$", "OTSBF08"),
-    ("19/115$", "OTSBF19"),
-    ("34/209$", "OTSBF34"),
-    ("50/305$", "OTSBF50"),
-    ("66/405$", "OTSBF66"),
+NORMAL_MARKERS = (
+    "كوبونات خاصة", "الجمعة البيضاء", "black friday", "بلاك فرايداي",
+    "11.11", "تخفيضات", "كوبونات",
 )
-
-BUSINESS_GUIDE_URL = "https://s.click.aliexpress.com/e/_c38vQBKV"
-BUSINESS_APPLY_URL = "https://s.click.aliexpress.com/e/_c4pJY9Vj"
-NORMAL_APPLY_URL = "https://s.click.aliexpress.com/e/_c3d8Osgp"
 
 FOOTER = """لا تنسى استخدام البوت للشراء بأقل الأسعار :
 https://t.me/Alilo07BOT
@@ -42,18 +31,51 @@ https://t.me/Alilo07BOT
 📢 قناة الصفقات الرسمية: @DzAliexpress0"""
 
 
+def coupons_from_text(raw_text: str) -> List[Coupon]:
+    """Read every (tier, code) pair from a source post — always fresh."""
+    items = extract_coupon_list(raw_text or "")
+    return [(str(i.get("tier") or "").strip(), str(i.get("code") or "").strip())
+            for i in items if i.get("code")]
+
+
+def detect_bulletin_kind(raw_text: str) -> Optional[str]:
+    """Return 'business', 'normal', or None for a coupon bulletin situation."""
+    if not raw_text:
+        return None
+    coupons = coupons_from_text(raw_text)
+    if len(coupons) < 2:  # a single coupon belongs to a normal product deal
+        return None
+    lower = raw_text.lower()
+    if any(m in lower for m in BUSINESS_MARKERS):
+        return "business"
+    if any(m in lower for m in NORMAL_MARKERS):
+        return "normal"
+    return None
+
+
 def _coupon_lines(coupons: Iterable[Coupon]) -> str:
     return "\n".join(f"🎟️ كوبون {tier} : {code}" for tier, code in coupons)
 
 
+def _max_spend(coupons: Sequence[Coupon]) -> str:
+    values = []
+    for tier, _code in coupons:
+        m = re.search(r'/\s*([0-9]+(?:\.[0-9]+)?)', tier)
+        if m:
+            values.append(float(m.group(1)))
+    top = max(values) if values else 0
+    return f"{int(top)}" if top.is_integer() else f"{top:g}"
+
+
 def format_business_coupon_bulletin(
-    coupons: Iterable[Coupon] = BUSINESS_COUPONS,
-    guide_url: str = BUSINESS_GUIDE_URL,
-    apply_url: str = BUSINESS_APPLY_URL,
+    coupons: Sequence[Coupon],
+    guide_url: str,
+    apply_url: str,
     company_example: str = "DealScout Phone",
-    event_title: str = "🚀 إطلاق كوبونات حساب Business ⚡️ تخفيضات ضخمة حتى 1500$ 🛍️",
 ) -> str:
-    """The saved BUSINESS format (published as @DzAliexpress0 #3479)."""
+    """Our BUSINESS layout, filled with the coupons/links from the source post."""
+    if not coupons:
+        raise ValueError("business bulletin needs coupons")
     steps = [
         '1️⃣ اضغط "تحقق من الهوية" واتبع الخطوات',
         '2️⃣ اختر "المبيعات عبر الإنترنت" ثم التالي',
@@ -63,14 +85,14 @@ def format_business_coupon_bulletin(
         '6️⃣ اختر "لا أملك رخصة تجارية" + ارفع صورة حساب تجاري → تأكيد',
     ]
     return "\n\n".join([
-        event_title,
+        f"🚀 إطلاق كوبونات حساب Business ⚡️ تخفيضات ضخمة حتى {_max_spend(coupons)}$ 🛍️",
         "✅ الكوبونات تشتغل في الجزائر 🇩🇿\n"
         "انسخ الرابط وحطّه في المتصفح (Via Browser) ⬇️\n"
         f"{guide_url}",
         "📋 الخطوات باختصار:\n" + "\n".join(steps),
         "🎟️ قائمة الكوبونات ⬇️\n" + _coupon_lines(coupons),
         "⭕️ طريقة حجز الكوبونات وتثبيتها في حسابك 🔥👌🏽:\n"
-        "⚠️ ابدأ دائماً بالكوبونات الكبيرة ($90 ثم $115...) ثم البقية واحداً تلو الآخر "
+        f"⚠️ ابدأ دائماً بالكوبونات الكبيرة (${_max_spend(coupons)} ...) ثم البقية واحداً تلو الآخر "
         "باه يبقاو في حسابك طيلة التخفيضات وما يهربلكش الستوك ✅\n"
         "🔹 طبّق الآن كامل الكوبونات على هذا المنتج باه تبقالكم في الحساب ⤵️\n"
         f"{apply_url}",
@@ -80,23 +102,23 @@ def format_business_coupon_bulletin(
 
 
 def format_normal_coupon_bulletin(
-    coupons: Iterable[Coupon] = NORMAL_COUPONS,
-    apply_url: str = NORMAL_APPLY_URL,
-    event_name: str = "الجمعة البيضاء Black Friday 🖤",
-    start_time: str = "08:00 صباحاً بتوقيت الجزائر 🇩🇿",
-    hook: Optional[str] = None,
+    coupons: Sequence[Coupon],
+    apply_url: str,
+    event_name: Optional[str] = None,
+    start_time: Optional[str] = None,
 ) -> str:
-    """The saved NORMAL format (same structure as the well-maintained #3195 post)."""
-    headline = hook or (
-        f"🚀 انطلاق تخفيضات {event_name} رسمياً الآن! 🛍️🔥\n"
-        f"⏰ الكوبونات اشتغلت وبدأت بالعمل في هذه اللحظات ({start_time}):\n"
-        "سارعوا بحجزها وتطبيقها فوراً في حساباتكم قبل نفاد الكميات المحدودة! 🏃💨"
-    )
+    """Our NORMAL coupon-wall layout, filled from the source post."""
+    if not coupons:
+        raise ValueError("normal bulletin needs coupons")
+    event = event_name or "كوبونات AliExpress"
+    when = f" ({start_time})" if start_time else ""
     return "\n\n".join([
-        headline,
+        f"🚀 انطلاق تخفيضات {event} رسمياً الآن! 🛍️🔥\n"
+        f"⏰ الكوبونات اشتغلت وبدأت بالعمل في هذه اللحظات{when}:\n"
+        "سارعوا بحجزها وتطبيقها فوراً في حساباتكم قبل نفاد الكميات المحدودة! 🏃💨",
         _coupon_lines(coupons),
         "⭕️ طريقة حجز الكوبونات وتثبيتها في حسابك الآن 🔥👌🏽:\n"
-        "⚠️ ابدأ دائماً بالكوبونات الكبيرة ($55 ثم $42...) ثم البقية واحداً تلو الآخر "
+        f"⚠️ ابدأ دائماً بالكوبونات الكبيرة (${_max_spend(coupons)} ...) ثم البقية واحداً تلو الآخر "
         "باه يبقاو في حسابك طيلة التخفيضات وما يهربلكش الستوك ✅\n"
         "🔹 طبّقوا الآن كامل الكوبونات على هذا المنتج باه تبقالكم في الحساب ⤵️\n"
         f"{apply_url}",
@@ -104,7 +126,31 @@ def format_normal_coupon_bulletin(
     ]).strip()
 
 
+def build_bulletin_caption(raw_text: str, our_links: Sequence[str]) -> Optional[str]:
+    """Detect + render in one call. ``our_links`` must be our own monetized URLs."""
+    kind = detect_bulletin_kind(raw_text)
+    coupons = coupons_from_text(raw_text)
+    if not kind or not coupons or not our_links:
+        return None
+    if kind == "business":
+        return format_business_coupon_bulletin(
+            coupons, guide_url=our_links[0],
+            apply_url=our_links[1] if len(our_links) > 1 else our_links[0],
+        )
+    event = None
+    for marker in ("الجمعة البيضاء", "11.11", "بلاك فرايداي", "Black Friday"):
+        if marker.lower() in raw_text.lower():
+            event = marker
+            break
+    m_time = re.search(r'([0-9]{1,2}:[0-9]{2}\s*(?:صباحاً|مساءً)?)', raw_text)
+    return format_normal_coupon_bulletin(
+        coupons, apply_url=our_links[0],
+        event_name=event, start_time=m_time.group(1) if m_time else None,
+    )
+
+
 __all__ = [
-    "BUSINESS_COUPONS", "NORMAL_COUPONS", "Coupon",
+    "Coupon", "coupons_from_text", "detect_bulletin_kind",
     "format_business_coupon_bulletin", "format_normal_coupon_bulletin",
+    "build_bulletin_caption",
 ]

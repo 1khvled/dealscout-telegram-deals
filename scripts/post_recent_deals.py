@@ -33,6 +33,7 @@ from app.aliexpress.parser import is_spam_or_non_deal, is_allowed_category, dete
 from app.aliexpress.promos import promo_tracker
 from app.aliexpress.affiliate import affiliate_service
 from app.ai.generator import caption_generator, format_lodydeals_caption_1to1, format_ecksdeal_caption_1to1, format_competitor_to_lody_1to1, format_multi_deal_tajmi3at_1to1
+from app.ai.coupon_bulletins import detect_bulletin_kind
 from app.media.downloader import media_downloader
 from app.media.renderer import media_renderer
 from app.publisher.publisher import telegram_publisher
@@ -274,6 +275,74 @@ async def publish_incoming_coupon_claim_post(raw_text: str, source_channel: str,
                 return False
     except Exception as e:
         print(f"  [!] Exception publishing coupon claim: {e}")
+        return False
+
+
+async def publish_coupon_bulletin_post(raw_text: str, source_channel: str, source_msg_id: int) -> bool:
+    """
+    When a monitored channel posts a coupon bulletin, publish OUR version:
+    same situation, but fresh coupons read from that post and our own links.
+    Nothing about a campaign is hardcoded.
+    """
+    try:
+        from app.aliexpress.urls import extract_all_urls, is_aliexpress_url, is_potential_shortener
+        from app.aliexpress.affiliate import affiliate_service
+        from api.coin_bot import ensure_affiliate
+        from app.ai.coupon_bulletins import detect_bulletin_kind, build_bulletin_caption
+        from app.publisher.state_tracker import record_post_published
+
+        if detect_bulletin_kind(raw_text) is None:
+            return False
+
+        our_links = []
+        for u in extract_all_urls(raw_text):
+            if not (is_aliexpress_url(u) or is_potential_shortener(u)):
+                continue
+            clean_u = u.rstrip('.,;)"\'')
+            if clean_u in our_links:
+                continue
+            try:
+                monetized = await affiliate_service.create_affiliate_link(clean_u)
+                our_links.append(ensure_affiliate(monetized))
+            except Exception as aff_err:
+                logger.warning(f"Failed monetizing coupon bulletin link {clean_u}: {aff_err}")
+        if not our_links:
+            return False
+
+        caption = build_bulletin_caption(raw_text, our_links)
+        if not caption:
+            return False
+
+        bot_token = get_bot_token()
+        target_chat = getattr(settings, "TARGET_CHANNEL_ID", None) or os.getenv("TARGET_CHANNEL_ID", "@DzAliexpress0")
+        if not bot_token:
+            return False
+
+        async with httpx.AsyncClient(timeout=25.0) as client:
+            resp = await client.post(
+                f"https://api.telegram.org/bot{bot_token}/sendMessage",
+                json={
+                    "chat_id": target_chat,
+                    "text": caption,
+                    "disable_web_page_preview": True,
+                },
+            )
+        if resp.status_code == 200 and resp.json().get("ok"):
+            new_msg_id = resp.json().get("result", {}).get("message_id")
+            first_line = raw_text.splitlines()[0].strip() if raw_text.splitlines() else "كوبونات"
+            record_post_published(
+                channel_username=source_channel,
+                message_id=source_msg_id,
+                product_id=f"COUPONBULLETIN_{source_channel}_{source_msg_id}",
+                title=first_line[:60],
+                channel_msg_id=new_msg_id,
+            )
+            print(f"  [COUPON BULLETIN PUBLISHED] {source_channel} #{source_msg_id} -> DzAliexpress0 #{new_msg_id}!")
+            return True
+        print(f"  [!] Failed to publish coupon bulletin: {resp.text if resp else 'No response'}")
+        return False
+    except Exception as e:
+        print(f"  [!] Exception publishing coupon bulletin: {e}")
         return False
 
 
@@ -670,6 +739,17 @@ async def collect_and_post_last_10_deals(force: bool = False, force_tajmi3at: bo
                         max_processed_id = max(max_processed_id, msg_id)
                         record_post_handled(ch, msg_id)
                         continue
+
+                    # 3.5. Anis coupon bulletin -> publish our own dynamic version with
+                    # the coupons actually posted (never a stored campaign list).
+                    if ch.lower() == "aniscoupons" and detect_bulletin_kind(raw_text):
+                        if await publish_coupon_bulletin_post(raw_text, ch, msg_id):
+                            deals_published_this_run += 1
+                            published_deals.append(f"COUPONBULLETIN_{ch}_{msg_id}")
+                            max_processed_id = max(max_processed_id, msg_id)
+                            record_monitored_channel_last_id(ch, msg_id)
+                            record_post_handled(ch, msg_id)
+                            continue
 
                     # Check: Multi-Deal Roundup / Tajmi3at Compilation (e.g. SSD compilation, phones roundup)
                     if is_multi_deal_compilation(raw_text):
