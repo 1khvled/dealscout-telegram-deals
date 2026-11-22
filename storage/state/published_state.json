@@ -1597,7 +1597,7 @@
     "1005008384277561": 1794128872.1451216,
     "1005010155263623": 1794129971.1690388,
     "1005011572208218": 1794471958.5920799,
-    "1005012374550298": 1795249224.1580532,
+    "1005012374550298": 1795344085.4542253,
     "1005009851407234": 1794852909.5572178,
     "1005009738356108": 1794473432.2937162,
     "1005012953027259": 1794133977.9005425,
@@ -4175,7 +4175,7 @@
     "1More HQ20 SonoFlow MINI Hearing": 1795196136.7491949,
     "JGINYUE B650M AURORA": 1795200031.7838972,
     "Redmi Note 17 4G (6/128GB)": 1795338775.7608411,
-    "Machenike G7 Gaming Mouse": 1795204239.9976652,
+    "Machenike G7 Gaming Mouse": 1795344085.4542253,
     "Anker P20i TWS": 1795249022.7985642,
     "Onn 4K Android 13 TV Box": 1795249213.3989208,
     "1More  HQ20 Headphones": 1795249218.8314788,
@@ -4200,7 +4200,6 @@
     "WALRAM 2.5  sata 480GB": 1795343539.292944
   },
   "published_post_keys": [
-    "aniscoupons:34556",
     "aniscoupons:34557",
     "aniscoupons:34558",
     "aniscoupons:34559",
@@ -5199,11 +5198,12 @@
     "zedstoreonline:40561",
     "aniscoupons:35467",
     "aniscoupons:35468",
-    "aniscoupons:35470"
+    "aniscoupons:35470",
+    "aniscoupons:35471"
   ],
   "last_disclaimer_time": 1794524540.9476151,
   "last_calendar_time": 1795177633.1203737,
-  "last_run_time": 1795343539.292944,
+  "last_run_time": 1795344085.4542253,
   "monitored_channels": {
     "ecksdeal": {
       "last_message_id": 6119,
@@ -5234,8 +5234,8 @@
       "last_check_time": 1795343895.3755047
     },
     "aniscoupons": {
-      "last_message_id": 35470,
-      "last_check_time": 1795343541.3967018
+      "last_message_id": 35471,
+      "last_check_time": 1795344087.5403152
     },
     "bnddeals": {
       "last_message_id": 51387,
@@ -5828,7 +5828,7 @@
     "1005008384277561": 7.3,
     "1005010155263623": 2.4,
     "1005011572208218": 217.8,
-    "1005012374550298": 15.6,
+    "1005012374550298": 15.85,
     "1005009851407234": 149.44,
     "1005012953027259": 279.32,
     "1005012048332402": 193.1,
@@ -31474,6 +31474,16 @@
       "price": 37.9,
       "timestamp": 1795343539.292944,
       "status": "ACTIVE"
+    },
+    "aniscoupons:35471": {
+      "channel_msg_id": 3460,
+      "product_id": "1005012374550298",
+      "title": "Machenike G7 Gaming Mouse",
+      "channel": "aniscoupons",
+      "source_msg_id": 35471,
+      "price": 15.85,
+      "timestamp": 1795344085.4542253,
+      "status": "ACTIVE"
     }
   },
   "schedule_config": {
@@ -31482,17 +31492,17 @@
     "current_interval_minutes": 5,
     "is_paused": false,
     "night_mode_enabled": true,
-    "last_deal_post_time": 1795343542.5981355,
+    "last_deal_post_time": 1795344088.7711387,
     "night_start_hour_dz": 0,
     "night_end_hour_dz": 8,
     "night_pause_enabled": true,
-    "last_sweep_time": 1795343899.9932761,
+    "last_sweep_time": 1795344091.6816914,
     "last_sweep_times": {
-      "algeria": 1795343897.151681,
-      "france": 1795343899.9932761
+      "algeria": 1795344088.7299788,
+      "france": 1795344091.6816914
     },
     "last_deal_post_times": {
-      "algeria": 1795343542.5981355
+      "algeria": 1795344088.7711387
     }
   },
   "last_coin_reminder_time": 1795241331.112354,
@@ -32194,7 +32204,7 @@
     "1005008384277561": "zedstoreonline",
     "1005010155263623": "zedstoreonline",
     "1005011572208218": "aniscoupons",
-    "1005012374550298": "lodydeals",
+    "1005012374550298": "aniscoupons",
     "1005009851407234": "lodydeals",
     "1005009738356108": "zedstoreonline",
     "1005012953027259": "aniscoupons",
@@ -33577,7 +33587,7 @@
     "1More HQ20 SonoFlow MINI Hearing": "bnddeals",
     "JGINYUE B650M AURORA": "aniscoupons",
     "Redmi Note 17 4G (6/128GB)": "aniscoupons",
-    "Machenike G7 Gaming Mouse": "bnddeals",
+    "Machenike G7 Gaming Mouse": "aniscoupons",
     "Anker P20i TWS": "lodydeals",
     "Onn 4K Android 13 TV Box": "lodydeals",
     "1More  HQ20 Headphones": "lodydeals",
@@ -36110,6 +36120,13 @@
         "channel": "aniscoupons",
         "ts": 1795343536.3590105,
         "price": 37.9
+      }
+    ],
+    "1005012374550298": [
+      {
+        "channel": "aniscoupons",
+        "ts": 1795344082.7262259,
+        "price": 15.85
       }
     ]
   },
