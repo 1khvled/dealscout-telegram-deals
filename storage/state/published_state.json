@@ -1774,7 +1774,7 @@
     "1005012408109331": 1795102336.0045958,
     "1005013304783085": 1795103262.750217,
     "1005013633649876": 1795104359.6206825,
-    "1005012274502051": 1795253775.2319088,
+    "1005012274502051": 1795341889.4915757,
     "1005013603023857": 1795290161.6076646,
     "1005009693337727": 1795298225.2538948,
     "1005013497504096": 1795283264.8493018,
@@ -4154,7 +4154,7 @@
     "MAGCUBIC HY300 PRO Projector": 1795112692.4915283,
     "DIGITAL BATHROOM SCALE": 1795283264.8493018,
     "CUSU K5 Portable External SSD 512gb": 1795164006.096927,
-    "UGREEN Nexode Air 65W GaN Charger": 1795253775.2319088,
+    "UGREEN Nexode Air 65W GaN Charger": 1795341889.4915757,
     "Portable Wireless Electric Air Pump with LCD Display": 1795167145.0122104,
     "Blackview Wave 7C": 1795258532.9191153,
     "لي يحوس على حاجة أصلية ومضمونة": 1795175430.73419,
@@ -4198,7 +4198,6 @@
     "Lenovo Legion Y900 11 Tablet CN Version": 1795337128.5106091
   },
   "published_post_keys": [
-    "aniscoupons:34548",
     "aniscoupons:34550",
     "zedstoreonline:39910",
     "aniscoupons:34556",
@@ -5197,11 +5196,12 @@
     "aniscoupons:35462",
     "aniscoupons:35463",
     "aniscoupons:35465",
-    "zedstoreonline:40561"
+    "zedstoreonline:40561",
+    "aniscoupons:35467"
   ],
   "last_disclaimer_time": 1794524540.9476151,
   "last_calendar_time": 1795177633.1203737,
-  "last_run_time": 1795341706.1859498,
+  "last_run_time": 1795341889.4915757,
   "monitored_channels": {
     "ecksdeal": {
       "last_message_id": 6119,
@@ -5232,8 +5232,8 @@
       "last_check_time": 1795341708.2923858
     },
     "aniscoupons": {
-      "last_message_id": 35466,
-      "last_check_time": 1795341150.4416103
+      "last_message_id": 35467,
+      "last_check_time": 1795341891.5898025
     },
     "bnddeals": {
       "last_message_id": 51387,
@@ -31442,6 +31442,16 @@
       "price": 262.7,
       "timestamp": 1795341706.1859498,
       "status": "ACTIVE"
+    },
+    "aniscoupons:35467": {
+      "channel_msg_id": 3457,
+      "product_id": "1005012274502051",
+      "title": "UGREEN Nexode Air 65W GaN Charger",
+      "channel": "aniscoupons",
+      "source_msg_id": 35467,
+      "price": 20.9,
+      "timestamp": 1795341889.4915757,
+      "status": "ACTIVE"
     }
   },
   "schedule_config": {
@@ -31450,17 +31460,17 @@
     "current_interval_minutes": 5,
     "is_paused": false,
     "night_mode_enabled": true,
-    "last_deal_post_time": 1795341710.3198204,
+    "last_deal_post_time": 1795341892.729987,
     "night_start_hour_dz": 0,
     "night_end_hour_dz": 8,
     "night_pause_enabled": true,
-    "last_sweep_time": 1795341713.2599418,
+    "last_sweep_time": 1795341895.4591296,
     "last_sweep_times": {
-      "algeria": 1795341710.2725153,
-      "france": 1795341713.2599418
+      "algeria": 1795341892.68536,
+      "france": 1795341895.4591296
     },
     "last_deal_post_times": {
-      "algeria": 1795341710.3198204
+      "algeria": 1795341892.729987
     }
   },
   "last_coin_reminder_time": 1795241331.112354,
@@ -35945,11 +35955,6 @@
     ],
     "1005009231510301": [
       {
-        "channel": "aniscoupons",
-        "ts": 1795298591.9449582,
-        "price": 262.7
-      },
-      {
         "channel": "zedstoreonline",
         "ts": 1795341703.406586,
         "price": 262.7
@@ -36061,6 +36066,13 @@
         "channel": "aniscoupons",
         "ts": 1795341149.7820444,
         "price": 30.0
+      }
+    ],
+    "1005012274502051": [
+      {
+        "channel": "aniscoupons",
+        "ts": 1795341887.1536322,
+        "price": 20.9
       }
     ]
   },
