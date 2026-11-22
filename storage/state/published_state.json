@@ -1793,7 +1793,7 @@
     "1005012577991043": 1795296330.8259635,
     "1005005430153846": 1795249207.7202265,
     "1005012663205752": 1795249213.3989208,
-    "1005013383203760": 1795250850.7040482,
+    "1005013383203760": 1795338775.7608411,
     "1005010121796649": 1795251024.4152784,
     "1005008850261694": 1795251398.024725,
     "32847542727": 1795274576.3351243,
@@ -4173,7 +4173,7 @@
     "الجودة العالية من BASEUS": 1795195556.2284572,
     "1More HQ20 SonoFlow MINI Hearing": 1795196136.7491949,
     "JGINYUE B650M AURORA": 1795200031.7838972,
-    "Redmi Note 17 4G (6/128GB)": 1795250850.7040482,
+    "Redmi Note 17 4G (6/128GB)": 1795338775.7608411,
     "Machenike G7 Gaming Mouse": 1795204239.9976652,
     "Anker P20i TWS": 1795249022.7985642,
     "Onn 4K Android 13 TV Box": 1795249213.3989208,
@@ -4198,7 +4198,6 @@
     "Lenovo Legion Y900 11 Tablet CN Version": 1795337128.5106091
   },
   "published_post_keys": [
-    "aniscoupons:34543",
     "zedstoreonline:39905",
     "aniscoupons:34544",
     "aniscoupons:34545",
@@ -5197,11 +5196,12 @@
     "aniscoupons:35459",
     "bnddeals:51387",
     "aniscoupons:35460",
-    "aniscoupons:35461"
+    "aniscoupons:35461",
+    "aniscoupons:35462"
   ],
   "last_disclaimer_time": 1794524540.9476151,
   "last_calendar_time": 1795177633.1203737,
-  "last_run_time": 1795338233.068368,
+  "last_run_time": 1795338775.7608411,
   "monitored_channels": {
     "ecksdeal": {
       "last_message_id": 6119,
@@ -5232,8 +5232,8 @@
       "last_check_time": 1795338228.5296474
     },
     "aniscoupons": {
-      "last_message_id": 35461,
-      "last_check_time": 1795338235.1484632
+      "last_message_id": 35462,
+      "last_check_time": 1795338777.8660862
     },
     "bnddeals": {
       "last_message_id": 51387,
@@ -31402,6 +31402,16 @@
       "price": 41.8,
       "timestamp": 1795338233.068368,
       "status": "ACTIVE"
+    },
+    "aniscoupons:35462": {
+      "channel_msg_id": 3453,
+      "product_id": "1005013383203760",
+      "title": "Redmi Note 17 4G (6/128GB)",
+      "channel": "aniscoupons",
+      "source_msg_id": 35462,
+      "price": 186.7,
+      "timestamp": 1795338775.7608411,
+      "status": "ACTIVE"
     }
   },
   "schedule_config": {
@@ -31410,17 +31420,17 @@
     "current_interval_minutes": 5,
     "is_paused": false,
     "night_mode_enabled": true,
-    "last_deal_post_time": 1795338236.2911952,
+    "last_deal_post_time": 1795338778.970606,
     "night_start_hour_dz": 0,
     "night_end_hour_dz": 8,
     "night_pause_enabled": true,
-    "last_sweep_time": 1795338594.1717033,
+    "last_sweep_time": 1795338781.6938462,
     "last_sweep_times": {
-      "algeria": 1795338591.2001157,
-      "france": 1795338594.1717033
+      "algeria": 1795338778.926281,
+      "france": 1795338781.6938462
     },
     "last_deal_post_times": {
-      "algeria": 1795338236.2911952
+      "algeria": 1795338778.970606
     }
   },
   "last_coin_reminder_time": 1795241331.112354,
@@ -36004,6 +36014,13 @@
         "channel": "aniscoupons",
         "ts": 1795338230.3061812,
         "price": 41.8
+      }
+    ],
+    "1005013383203760": [
+      {
+        "channel": "aniscoupons",
+        "ts": 1795338772.95604,
+        "price": 186.7
       }
     ]
   },
