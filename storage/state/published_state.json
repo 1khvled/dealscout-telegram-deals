@@ -1549,7 +1549,7 @@
     "1005006972551834": 1793793774.6743867,
     "1005010169268165": 1793794440.9453664,
     "1005010702038861": 1794935200.9462438,
-    "1005009313079431": 1795343539.292944,
+    "1005009313079431": 1795365744.911586,
     "1005010702511858": 1795011758.367623,
     "1005008554218453": 1793908979.1776278,
     "1005012499433797": 1794683885.7547128,
@@ -3015,7 +3015,8 @@
     "JGINYUE B650M PRO V2",
     "لوووووووووووووووووووز MOTHERBOARD",
     "كابل USB Type C Coiled Cable 3M For Keyboard",
-    "KingSpec DDR4 8GB 16GB Memoria Ram 2666Mhz 3200 Memory Module 8GBX2 16GBX2"
+    "KingSpec DDR4 8GB 16GB Memoria Ram 2666Mhz 3200 Memory Module 8GBX2 16GBX2",
+    "WALRAM SSD SATA 480GB"
   ],
   "published_title_timestamps": {
     "Xiaomi Redmi Note 17 5G Global Version": 1790857823.0117362,
@@ -4217,10 +4218,10 @@
     "JGINYUE B650M PRO V2": 1795345550.2834108,
     "لوووووووووووووووووووز MOTHERBOARD": 1795346646.0617936,
     "كابل USB Type C Coiled Cable 3M For Keyboard": 1795353977.3759387,
-    "KingSpec DDR4 8GB 16GB Memoria Ram 2666Mhz 3200 Memory Module 8GBX2 16GBX2": 1795354738.6784947
+    "KingSpec DDR4 8GB 16GB Memoria Ram 2666Mhz 3200 Memory Module 8GBX2 16GBX2": 1795354738.6784947,
+    "WALRAM SSD SATA 480GB": 1795365744.911586
   },
   "published_post_keys": [
-    "aniscoupons:34581",
     "aniscoupons:34582",
     "zedstoreonline:39923",
     "aniscoupons:34585",
@@ -5219,11 +5220,12 @@
     "aniscoupons:35481",
     "zedstoreonline:40565",
     "aniscoupons:35483",
-    "lodydeals:46806"
+    "lodydeals:46806",
+    "zedstoreonline:40570"
   ],
   "last_disclaimer_time": 1794524540.9476151,
   "last_calendar_time": 1795177633.1203737,
-  "last_run_time": 1795364091.7842977,
+  "last_run_time": 1795365744.911586,
   "monitored_channels": {
     "ecksdeal": {
       "last_message_id": 6123,
@@ -5250,12 +5252,12 @@
       "last_check_time": 1793599663.3444748
     },
     "zedstoreonline": {
-      "last_message_id": 40569,
-      "last_check_time": 1795364281.8086984
+      "last_message_id": 40570,
+      "last_check_time": 1795365746.9904587
     },
     "aniscoupons": {
-      "last_message_id": 35483,
-      "last_check_time": 1795362082.3827016
+      "last_message_id": 35484,
+      "last_check_time": 1795365751.833433
     },
     "bnddeals": {
       "last_message_id": 51389,
@@ -31678,6 +31680,16 @@
       "price": 14.07,
       "timestamp": 1795364091.7842977,
       "status": "ACTIVE"
+    },
+    "zedstoreonline:40570": {
+      "channel_msg_id": 3478,
+      "product_id": "1005009313079431",
+      "title": "WALRAM SSD SATA 480GB",
+      "channel": "zedstoreonline",
+      "source_msg_id": 40570,
+      "price": 37.9,
+      "timestamp": 1795365744.911586,
+      "status": "ACTIVE"
     }
   },
   "schedule_config": {
@@ -31686,17 +31698,17 @@
     "current_interval_minutes": 5,
     "is_paused": false,
     "night_mode_enabled": true,
-    "last_deal_post_time": 1795364097.7118046,
+    "last_deal_post_time": 1795365752.5261762,
     "night_start_hour_dz": 0,
     "night_end_hour_dz": 8,
     "night_pause_enabled": true,
-    "last_sweep_time": 1795365554.8080356,
+    "last_sweep_time": 1795365755.0344594,
     "last_sweep_times": {
-      "algeria": 1795365552.3115642,
-      "france": 1795365554.8080356
+      "algeria": 1795365752.4970632,
+      "france": 1795365755.0344594
     },
     "last_deal_post_times": {
-      "algeria": 1795364097.7118046
+      "algeria": 1795365752.5261762
     }
   },
   "last_coin_reminder_time": 1795241331.112354,
@@ -32346,7 +32358,7 @@
     "1005006972551834": "lodydeals",
     "1005010169268165": "lodydeals",
     "1005010702038861": "ecksdeal",
-    "1005009313079431": "aniscoupons",
+    "1005009313079431": "zedstoreonline",
     "1005010702511858": "lodydeals",
     "1005008554218453": "lodydeals",
     "1005012499433797": "aniscoupons",
@@ -33813,7 +33825,8 @@
     "JGINYUE B650M PRO V2": "aniscoupons",
     "لوووووووووووووووووووز MOTHERBOARD": "bnddeals",
     "كابل USB Type C Coiled Cable 3M For Keyboard": "ecksdeal",
-    "KingSpec DDR4 8GB 16GB Memoria Ram 2666Mhz 3200 Memory Module 8GBX2 16GBX2": "aniscoupons"
+    "KingSpec DDR4 8GB 16GB Memoria Ram 2666Mhz 3200 Memory Module 8GBX2 16GBX2": "aniscoupons",
+    "WALRAM SSD SATA 480GB": "zedstoreonline"
   },
   "religious_reminders_history": {
     "mock_rem": "2026-10-02",
@@ -34611,7 +34624,6 @@
   "published_deals_history": {},
   "settings": {},
   "handled_post_keys": [
-    "zedstoreonline:39984",
     "aniscoupons:34664",
     "aniscoupons:34667",
     "aniscoupons:34668",
@@ -35610,7 +35622,8 @@
     "lodydeals:46804",
     "lodydeals:46805",
     "zedstoreonline:40568",
-    "zedstoreonline:40569"
+    "zedstoreonline:40569",
+    "aniscoupons:35484"
   ],
   "last_france_cross_promo_time": 1795236239.730334,
   "next_france_cross_promo_interval_seconds": 209180,
@@ -36347,6 +36360,16 @@
         "channel": "lodydeals",
         "ts": 1795344818.6320388,
         "price": 37.6
+      },
+      {
+        "channel": "zedstoreonline",
+        "ts": 1795365742.3515632,
+        "price": 37.9
+      },
+      {
+        "channel": "aniscoupons",
+        "ts": 1795365751.7197065,
+        "price": 37.9
       }
     ],
     "1005012374550298": [
