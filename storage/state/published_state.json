@@ -1311,7 +1311,7 @@
     "1005013245248248": 1793467100.7719579,
     "1005011790544318": 1793448745.105644,
     "1005010266614743": 1793380310.000534,
-    "1005006990064696": 1794935323.456239,
+    "1005006990064696": 1795372537.0212965,
     "1005013254642366": 1793995361.9589899,
     "1005012725188908": 1793467076.3852122,
     "1005013224329670": 1793380335.1434295,
@@ -4116,7 +4116,7 @@
     "Netac NVMe 3500MB/S 500GB": 1794771008.638466,
     "SMAILWOLF L80": 1794998044.6375778,
     "GIGABYTE B550M K Motherboard": 1795008458.7584739,
-    "UGREEN GaN 100W": 1794935323.456239,
+    "UGREEN GaN 100W": 1795372537.0212965,
     "realme P4 Power 8/256GB": 1794935216.1531737,
     "HONGTOP H20PRO TV Box 2/16GB": 1794845239.5606787,
     "Xiaomi Redmi Note 17 5G Global Version 6/256GB": 1794914021.5924346,
@@ -4222,7 +4222,6 @@
     "WALRAM SSD SATA 480GB": 1795365744.911586
   },
   "published_post_keys": [
-    "aniscoupons:34585",
     "zedstoreonline:39924",
     "aniscoupons:34586",
     "aniscoupons:34587",
@@ -5221,11 +5220,12 @@
     "lodydeals:46806",
     "zedstoreonline:40570",
     "aniscoupons:35485",
-    "aniscoupons:35486"
+    "aniscoupons:35486",
+    "aniscoupons:35487"
   ],
   "last_disclaimer_time": 1794524540.9476151,
   "last_calendar_time": 1795177633.1203737,
-  "last_run_time": 1795371614.0931513,
+  "last_run_time": 1795372537.0212965,
   "monitored_channels": {
     "ecksdeal": {
       "last_message_id": 6123,
@@ -5256,8 +5256,8 @@
       "last_check_time": 1795365746.9904587
     },
     "aniscoupons": {
-      "last_message_id": 35486,
-      "last_check_time": 1795371616.1913614
+      "last_message_id": 35487,
+      "last_check_time": 1795372539.1012177
     },
     "bnddeals": {
       "last_message_id": 51389,
@@ -31710,6 +31710,16 @@
       "price": 14.6,
       "timestamp": 1795371614.0931513,
       "status": "ACTIVE"
+    },
+    "aniscoupons:35487": {
+      "channel_msg_id": 3483,
+      "product_id": "1005006990064696",
+      "title": "UGREEN GaN 100W",
+      "channel": "aniscoupons",
+      "source_msg_id": 35487,
+      "price": 42.1,
+      "timestamp": 1795372537.0212965,
+      "status": "ACTIVE"
     }
   },
   "schedule_config": {
@@ -31718,17 +31728,17 @@
     "current_interval_minutes": 5,
     "is_paused": false,
     "night_mode_enabled": true,
-    "last_deal_post_time": 1795371617.4193473,
+    "last_deal_post_time": 1795372540.2127554,
     "night_start_hour_dz": 0,
     "night_end_hour_dz": 8,
     "night_pause_enabled": true,
-    "last_sweep_time": 1795372351.8366237,
+    "last_sweep_time": 1795372543.4911296,
     "last_sweep_times": {
-      "algeria": 1795372348.9414117,
-      "france": 1795372351.8366237
+      "algeria": 1795372540.1780043,
+      "france": 1795372543.4911296
     },
     "last_deal_post_times": {
-      "algeria": 1795371617.4193473
+      "algeria": 1795372540.2127554
     }
   },
   "last_coin_reminder_time": 1795241331.112354,
@@ -36549,6 +36559,13 @@
         "channel": "aniscoupons",
         "ts": 1795371611.4716475,
         "price": 14.6
+      }
+    ],
+    "1005006990064696": [
+      {
+        "channel": "aniscoupons",
+        "ts": 1795372534.1985772,
+        "price": 42.1
       }
     ]
   },
