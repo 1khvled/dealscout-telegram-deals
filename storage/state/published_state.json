@@ -1638,7 +1638,7 @@
     "1005009766330661": 1794251129.0913823,
     "1005009649048598": 1794741938.4262142,
     "1005005209277375": 1794263702.59817,
-    "1005010706691647": 1795290156.5592504,
+    "1005010706691647": 1795364091.7842977,
     "COUPONS_949f01595a98": 1794309459.0513651,
     "COUPONS_949f0159": 1794309459.0725908,
     "1005008046071240": 1794436007.5288515,
@@ -3943,7 +3943,7 @@
     "EPOMAKER RT85 75% Mechanical Keyboard Wireless Green White": 1794251129.0913823,
     "Fashion Square Watches": 1794741938.4262142,
     "Bicycle Pump 80 PSI": 1794263702.59817,
-    "Portable Hair Clipper": 1795290156.5592504,
+    "Portable Hair Clipper": 1795364091.7842977,
     "Inphic PG1 RGB Wired Gaming Mouse": 1794742126.4762356,
     "Anker Q20i Hybrid Active": 1794999336.5179884,
     "CUSU CV3500Q 2TB M.2": 1794305012.9961731,
@@ -4220,7 +4220,6 @@
     "KingSpec DDR4 8GB 16GB Memoria Ram 2666Mhz 3200 Memory Module 8GBX2 16GBX2": 1795354738.6784947
   },
   "published_post_keys": [
-    "aniscoupons:34580",
     "aniscoupons:34581",
     "aniscoupons:34582",
     "zedstoreonline:39923",
@@ -5219,19 +5218,20 @@
     "aniscoupons:35480",
     "aniscoupons:35481",
     "zedstoreonline:40565",
-    "aniscoupons:35483"
+    "aniscoupons:35483",
+    "lodydeals:46806"
   ],
   "last_disclaimer_time": 1794524540.9476151,
   "last_calendar_time": 1795177633.1203737,
-  "last_run_time": 1795362080.2949963,
+  "last_run_time": 1795364091.7842977,
   "monitored_channels": {
     "ecksdeal": {
       "last_message_id": 6123,
       "last_check_time": 1795353979.4336424
     },
     "lodydeals": {
-      "last_message_id": 46805,
-      "last_check_time": 1795363737.9731834
+      "last_message_id": 46806,
+      "last_check_time": 1795364093.8958898
     },
     "test_channel": {
       "last_message_id": 1793967703,
@@ -5884,7 +5884,7 @@
     "1005009766330661": 45.1,
     "1005009649048598": 3.69,
     "1005005209277375": 4.69,
-    "1005010706691647": 5.69,
+    "1005010706691647": 14.07,
     "1005008046071240": 46.77,
     "1005012083833079": 57.9,
     "1005012292809645": 37.52,
@@ -31668,6 +31668,16 @@
       "price": 191.7,
       "timestamp": 1795362080.2949963,
       "status": "ACTIVE"
+    },
+    "lodydeals:46806": {
+      "channel_msg_id": 3477,
+      "product_id": "1005010706691647",
+      "title": "Portable Hair Clipper",
+      "channel": "lodydeals",
+      "source_msg_id": 46806,
+      "price": 14.07,
+      "timestamp": 1795364091.7842977,
+      "status": "ACTIVE"
     }
   },
   "schedule_config": {
@@ -31676,17 +31686,17 @@
     "current_interval_minutes": 5,
     "is_paused": false,
     "night_mode_enabled": true,
-    "last_deal_post_time": 1795362083.2754805,
+    "last_deal_post_time": 1795364097.7118046,
     "night_start_hour_dz": 0,
     "night_end_hour_dz": 8,
     "night_pause_enabled": true,
-    "last_sweep_time": 1795363910.6722136,
+    "last_sweep_time": 1795364100.2193205,
     "last_sweep_times": {
-      "algeria": 1795363907.9763696,
-      "france": 1795363910.6722136
+      "algeria": 1795364097.6624546,
+      "france": 1795364100.2193205
     },
     "last_deal_post_times": {
-      "algeria": 1795362083.2754805
+      "algeria": 1795364097.7118046
     }
   },
   "last_coin_reminder_time": 1795241331.112354,
@@ -36470,6 +36480,13 @@
         "channel": "zedstoreonline",
         "ts": 1795363745.9076135,
         "price": 260.0
+      }
+    ],
+    "1005010706691647": [
+      {
+        "channel": "lodydeals",
+        "ts": 1795364089.4321094,
+        "price": 14.07
       }
     ]
   },
