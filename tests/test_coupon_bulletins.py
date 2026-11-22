@@ -4,6 +4,7 @@ from app.ai.coupon_bulletins import (
     build_bulletin_caption,
     coupons_from_text,
     detect_bulletin_kind,
+    event_from_text,
     format_business_coupon_bulletin,
     format_normal_coupon_bulletin,
 )
@@ -27,6 +28,15 @@ NORMAL_POST = """🔥 ظهور كوبونات خاصة بمناسبة تخفيض
 🎟️ كوبون 66/405$ : OTSBF66
 https://s.click.aliexpress.com/e/_c4lZ2Hy5"""
 
+OTHER_EVENT_POST = """📣 كوبونات خاصة بتخفيضات Party Ready Sale لشهر أكتوبر
+🎟️ كوبون 5/25$ : PARTY5
+🎟️ كوبون 10/50$ : PARTY10
+https://s.click.aliexpress.com/e/_c4lZ2Hy5"""
+
+PLAIN_LIST_POST = """🎟️ كوبون 4/25$ : OTD1104
+🎟️ كوبون 19/115$ : OTSBF19
+🔗 https://s.click.aliexpress.com/e/_c3yeCRmH"""
+
 PRODUCT_POST = """تخفيض ممتاز لـ Ulanzi MA35
 السعر : 9.7$
 🎟️ كوبون 3/15$ : OTSBF03
@@ -37,6 +47,9 @@ def test_detection_and_extraction_are_driven_by_the_post():
     assert detect_bulletin_kind(BIZ_POST) == "business"
     assert detect_bulletin_kind(NORMAL_POST) == "normal"
     assert detect_bulletin_kind(PRODUCT_POST) is None  # one coupon = product deal
+    # A plain coupon list (no festival keyword, no dates) is handled too —
+    # this is the case the old calendar-gated path used to drop.
+    assert detect_bulletin_kind(PLAIN_LIST_POST) == "normal"
 
     assert coupons_from_text(BIZ_POST) == [
         ("90/689$", "AEBBF10"), ("115/899$", "AEBBF11"),
@@ -77,3 +90,14 @@ def test_build_caption_uses_our_links_and_no_competitor_branding():
     normal = build_bulletin_caption(NORMAL_POST, [our[0]])
     assert normal is not None and "OTSBF03" in normal and "الجمعة البيضاء" in normal
     assert build_bulletin_caption(PRODUCT_POST, our) is None
+
+
+def test_event_name_is_read_from_post_not_hardcoded():
+    assert "الجمعة البيضاء" in event_from_text(NORMAL_POST)
+    assert "Party Ready Sale" in event_from_text(OTHER_EVENT_POST)
+
+    other = build_bulletin_caption(OTHER_EVENT_POST, ["https://s.click.aliexpress.com/e/_OUR1"])
+    assert other is not None
+    assert "Party Ready Sale" in other
+    assert "الجمعة البيضاء" not in other and "Black Friday" not in other
+    assert "PARTY5" in other and "PARTY10" in other

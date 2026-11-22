@@ -19,8 +19,7 @@ BUSINESS_MARKERS = (
     "تحقق من الهوية", "المبيعات عبر الإنترنت",
 )
 NORMAL_MARKERS = (
-    "كوبونات خاصة", "الجمعة البيضاء", "black friday", "بلاك فرايداي",
-    "11.11", "تخفيضات", "كوبونات",
+    "كوبونات خاصة", "كوبونات", "كوبون", "كود", "تخفيضات", "عروض", "مهرجان",
 )
 
 FOOTER = """لا تنسى استخدام البوت للشراء بأقل الأسعار :
@@ -51,6 +50,30 @@ def detect_bulletin_kind(raw_text: str) -> Optional[str]:
     if any(m in lower for m in NORMAL_MARKERS):
         return "normal"
     return None
+
+
+def event_from_text(raw_text: str) -> Optional[str]:
+    """Read whichever event the source announces — no event name is stored here."""
+    if not raw_text:
+        return None
+    norm = re.sub(r'\u0640', '', raw_text)  # Arabic tatweel
+    first = next((l.strip() for l in norm.splitlines() if l.strip()), "")
+    first = re.sub(r'^[^\u0600-\u06FFA-Za-z0-9]+', '', first).strip()
+    # Cut at the first emoji or explicit date — the event phrase sits before those.
+    first = re.split(
+        r'[🗓📢⏰🎟️🔥⚡️😍🚀🛍️💥]|(?:\d{1,2}\s*(?:نوفمبر|ديسمبر|أكتوبر|سبتمبر|'
+        r'يناير|فبراير|مارس|أبريل|مايو|يونيو|يوليو|غشت|اغسطس))',
+        first,
+    )[0]
+    # Strip announcement scaffolding, keep only the actual event name.
+    first = re.sub(
+        r'^(?:ظهور|إطلاق|انطلاق)?\s*(?:كوبونات|الكوبونات)\s+خاصة\s+'
+        r'(?:بمناسبة\s+|بـ\s+|بتخفيضات\s+)?(?:تخفيضات\s+)?',
+        '', first, flags=re.IGNORECASE,
+    )
+    first = re.sub(r'^(?:انطلاق|إطلاق)\s+(?:تخفيضات\s+)?', '', first)
+    first = first.strip(' !!.؟:،-')
+    return first or None
 
 
 def _coupon_lines(coupons: Iterable[Coupon]) -> str:
@@ -137,11 +160,7 @@ def build_bulletin_caption(raw_text: str, our_links: Sequence[str]) -> Optional[
             coupons, guide_url=our_links[0],
             apply_url=our_links[1] if len(our_links) > 1 else our_links[0],
         )
-    event = None
-    for marker in ("الجمعة البيضاء", "11.11", "بلاك فرايداي", "Black Friday"):
-        if marker.lower() in raw_text.lower():
-            event = marker
-            break
+    event = event_from_text(raw_text)
     m_time = re.search(r'([0-9]{1,2}:[0-9]{2}\s*(?:صباحاً|مساءً)?)', raw_text)
     return format_normal_coupon_bulletin(
         coupons, apply_url=our_links[0],
@@ -150,7 +169,7 @@ def build_bulletin_caption(raw_text: str, our_links: Sequence[str]) -> Optional[
 
 
 __all__ = [
-    "Coupon", "coupons_from_text", "detect_bulletin_kind",
+    "Coupon", "coupons_from_text", "detect_bulletin_kind", "event_from_text",
     "format_business_coupon_bulletin", "format_normal_coupon_bulletin",
     "build_bulletin_caption",
 ]

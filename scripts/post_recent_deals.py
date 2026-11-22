@@ -33,7 +33,6 @@ from app.aliexpress.parser import is_spam_or_non_deal, is_allowed_category, dete
 from app.aliexpress.promos import promo_tracker
 from app.aliexpress.affiliate import affiliate_service
 from app.ai.generator import caption_generator, format_lodydeals_caption_1to1, format_ecksdeal_caption_1to1, format_competitor_to_lody_1to1, format_multi_deal_tajmi3at_1to1
-from app.ai.coupon_bulletins import detect_bulletin_kind
 from app.media.downloader import media_downloader
 from app.media.renderer import media_renderer
 from app.publisher.publisher import telegram_publisher
@@ -278,20 +277,35 @@ async def publish_incoming_coupon_claim_post(raw_text: str, source_channel: str,
         return False
 
 
-async def publish_coupon_bulletin_post(raw_text: str, source_channel: str, source_msg_id: int) -> bool:
+async def publish_coupon_bulletin(raw_text: str, source_channel: str, source_msg_id: int) -> bool:
     """
-    When a monitored channel posts a coupon bulletin, publish OUR version:
-    same situation, but fresh coupons read from that post and our own links.
-    Nothing about a campaign is hardcoded.
+    THE single dynamic coupon mechanism for every monitored channel:
+    detect the situation -> read the fresh coupons from the post -> monetize its
+    links -> render our layout -> publish -> record. No calendar gate, no static
+    coupon lists, no separate per-event code paths.
     """
     try:
         from app.aliexpress.urls import extract_all_urls, is_aliexpress_url, is_potential_shortener
         from app.aliexpress.affiliate import affiliate_service
         from api.coin_bot import ensure_affiliate
-        from app.ai.coupon_bulletins import detect_bulletin_kind, build_bulletin_caption
-        from app.publisher.state_tracker import record_post_published
+        from app.ai.coupon_bulletins import (
+            detect_bulletin_kind, coupons_from_text, build_bulletin_caption, event_from_text,
+        )
+        from app.publisher.state_tracker import (
+            is_coupon_bulletin_already_published, record_post_published,
+        )
 
         if detect_bulletin_kind(raw_text) is None:
+            return False
+        coupons = coupons_from_text(raw_text)
+
+        is_dup, reason = is_coupon_bulletin_already_published(
+            coupon_list=[{"tier": t, "code": c} for t, c in coupons],
+            promo_name=event_from_text(raw_text) or "coupon bulletin",
+            channel_id=settings.TARGET_CHANNEL_ID,
+        )
+        if is_dup:
+            print(f"  [COUPON BULLETIN DUPLICATE BLOCKED] {reason}. Skipping {source_channel} #{source_msg_id}")
             return False
 
         our_links = []
@@ -321,11 +335,7 @@ async def publish_coupon_bulletin_post(raw_text: str, source_channel: str, sourc
         async with httpx.AsyncClient(timeout=25.0) as client:
             resp = await client.post(
                 f"https://api.telegram.org/bot{bot_token}/sendMessage",
-                json={
-                    "chat_id": target_chat,
-                    "text": caption,
-                    "disable_web_page_preview": True,
-                },
+                json={"chat_id": target_chat, "text": caption, "disable_web_page_preview": True},
             )
         if resp.status_code == 200 and resp.json().get("ok"):
             new_msg_id = resp.json().get("result", {}).get("message_id")
@@ -740,10 +750,9 @@ async def collect_and_post_last_10_deals(force: bool = False, force_tajmi3at: bo
                         record_post_handled(ch, msg_id)
                         continue
 
-                    # 3.5. Anis coupon bulletin -> publish our own dynamic version with
-                    # the coupons actually posted (never a stored campaign list).
-                    if ch.lower() == "aniscoupons" and detect_bulletin_kind(raw_text):
-                        if await publish_coupon_bulletin_post(raw_text, ch, msg_id):
+                    # 3.5. One dynamic coupon mechanism for all monitored channels:
+                    # detect the situation, use the post's own coupons, publish our version.
+                    if await publish_coupon_bulletin(raw_text, ch, msg_id):
                             deals_published_this_run += 1
                             published_deals.append(f"COUPONBULLETIN_{ch}_{msg_id}")
                             max_processed_id = max(max_processed_id, msg_id)
@@ -863,38 +872,18 @@ async def collect_and_post_last_10_deals(force: bool = False, force_tajmi3at: bo
 
 
 
-                    # 5. Category whitelist & Coupon bulletin check
-                    if extracted.is_coupon_list:
-                        active_promo = promo_tracker.get_active_promo()
-                        if not active_promo:
-                            print(f"  [COUPON BULLETIN BLOCKED] Promo event has ended. Skipping coupon list: #{msg_id}")
-                            max_processed_id = max(max_processed_id, msg_id)
-                            record_post_handled(ch, msg_id)
-                            continue
-
-                        from app.publisher.state_tracker import is_coupon_bulletin_already_published
-                        is_c_dup, c_reason = is_coupon_bulletin_already_published(
-                            coupon_list=extracted.coupon_list,
-                            promo_name=active_promo.name,
-                            channel_id=settings.TARGET_CHANNEL_ID
-                        )
-                        if is_c_dup:
-                            print(f"  [COUPON BULLETIN DUPLICATE BLOCKED] {c_reason}. Skipping #{msg_id} from {ch}")
-                            max_processed_id = max(max_processed_id, msg_id)
-                            record_monitored_channel_last_id(ch, msg_id)
-                            record_post_handled(ch, msg_id)
-                            continue
-                    else:
-                        allowed, reject_reason = is_allowed_category(
-                            extracted.title or '',
-                            raw_text,
-                            channel_username=ch
-                        )
-                        if not allowed:
-                            print(f"  [CATEGORY FILTERED] {reject_reason}")
-                            max_processed_id = max(max_processed_id, msg_id)
-                            record_post_handled(ch, msg_id)
-                            continue
+                    # 5. Category whitelist. Coupon bulletins are already handled by the
+                    # single dynamic mechanism at 3.5 — no calendar-gated second path.
+                    allowed, reject_reason = is_allowed_category(
+                        extracted.title or '',
+                        raw_text,
+                        channel_username=ch
+                    )
+                    if not allowed:
+                        print(f"  [CATEGORY FILTERED] {reject_reason}")
+                        max_processed_id = max(max_processed_id, msg_id)
+                        record_post_handled(ch, msg_id)
+                        continue
 
                     # 5.5. Coupon walls are not products. Without this guard a coupon
                     # bulletin gets a fake product price and is published as a real deal.
