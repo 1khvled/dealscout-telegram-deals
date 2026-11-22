@@ -985,7 +985,7 @@
     "9998885747": 1790965747.5380507,
     "1005010129356058": 1793956183.6769423,
     "9998885993": 1790965993.3792443,
-    "1005012574108028": 1793543591.1032917,
+    "1005012574108028": 1795353435.4897993,
     "1005008599340405": 1791638441.843642,
     "1005007572968437": 1790969442.7810974,
     "1005009120957437": 1790970941.2570727,
@@ -3987,7 +3987,7 @@
     "Essager 2in1 USB Type C  60W": 1794420685.287832,
     "GOOJPRT Portable Thermal Printer": 1794420689.8352551,
     "KOOTION M.2 512GB 7200Mbs": 1794430852.2821708,
-    "HONOR X80 PRO MAX": 1795296330.8259635,
+    "HONOR X80 PRO MAX": 1795353435.4897993,
     "DJI Osmo mobile": 1794487260.3295033,
     "OPPO K15 12/256GB": 1795186207.2341003,
     "Lenovo Legion Y70 2026 Gamin(12/512GB)": 1794914057.3065243,
@@ -4212,7 +4212,6 @@
     "لوووووووووووووووووووز MOTHERBOARD": 1795346646.0617936
   },
   "published_post_keys": [
-    "aniscoupons:34571",
     "aniscoupons:34572",
     "aniscoupons:34579",
     "aniscoupons:34576",
@@ -5211,11 +5210,12 @@
     "aniscoupons:35474",
     "bnddeals:51388",
     "ecksdeal:6120",
-    "ecksdeal:6121"
+    "ecksdeal:6121",
+    "aniscoupons:35476"
   ],
   "last_disclaimer_time": 1794524540.9476151,
   "last_calendar_time": 1795177633.1203737,
-  "last_run_time": 1795352881.214854,
+  "last_run_time": 1795353435.4897993,
   "monitored_channels": {
     "ecksdeal": {
       "last_message_id": 6121,
@@ -5246,8 +5246,8 @@
       "last_check_time": 1795347560.4515812
     },
     "aniscoupons": {
-      "last_message_id": 35478,
-      "last_check_time": 1795353066.1473265
+      "last_message_id": 35479,
+      "last_check_time": 1795353439.0120537
     },
     "bnddeals": {
       "last_message_id": 51388,
@@ -5329,7 +5329,7 @@
     "1005011991145678": 0.8,
     "1005011682821623": 0.8,
     "1005009774318553": 43.58,
-    "1005012574108028": 276.3,
+    "1005012574108028": 272.9,
     "1005008599340405": 48.7,
     "1005007572968437": 17.47,
     "1005009120957437": 189.21,
@@ -31598,6 +31598,16 @@
       "price": 12.6,
       "timestamp": 1795352881.214854,
       "status": "ACTIVE"
+    },
+    "aniscoupons:35476": {
+      "channel_msg_id": 3471,
+      "product_id": "1005012574108028",
+      "title": "HONOR X80 PRO MAX",
+      "channel": "aniscoupons",
+      "source_msg_id": 35476,
+      "price": 272.9,
+      "timestamp": 1795353435.4897993,
+      "status": "ACTIVE"
     }
   },
   "schedule_config": {
@@ -31606,17 +31616,17 @@
     "current_interval_minutes": 5,
     "is_paused": false,
     "night_mode_enabled": true,
-    "last_deal_post_time": 1795352885.4014246,
+    "last_deal_post_time": 1795353440.152194,
     "night_start_hour_dz": 0,
     "night_end_hour_dz": 8,
     "night_pause_enabled": true,
-    "last_sweep_time": 1795353248.827602,
+    "last_sweep_time": 1795353443.059469,
     "last_sweep_times": {
-      "algeria": 1795353246.5966804,
-      "france": 1795353248.827602
+      "algeria": 1795353440.1137671,
+      "france": 1795353443.059469
     },
     "last_deal_post_times": {
-      "algeria": 1795352885.4014246
+      "algeria": 1795353440.152194
     }
   },
   "last_coin_reminder_time": 1795241331.112354,
@@ -31695,7 +31705,7 @@
     "9998885747": "test_channel",
     "9998885993": "test_channel",
     "1005009774318553": "lodydeals",
-    "1005012574108028": "lodydeals",
+    "1005012574108028": "aniscoupons",
     "1005008599340405": "bnddeals",
     "1005009054706827": "aniscoupons",
     "1005007572968437": "lodydeals",
@@ -34527,7 +34537,6 @@
   "published_deals_history": {},
   "settings": {},
   "handled_post_keys": [
-    "aniscoupons:34653",
     "zedstoreonline:39978",
     "aniscoupons:34656",
     "zedstoreonline:39979",
@@ -35526,7 +35535,8 @@
     "aniscoupons:35475",
     "zedstoreonline:40563",
     "aniscoupons:35477",
-    "aniscoupons:35478"
+    "aniscoupons:35478",
+    "aniscoupons:35479"
   ],
   "last_france_cross_promo_time": 1795236239.730334,
   "next_france_cross_promo_interval_seconds": 209180,
@@ -36333,6 +36343,18 @@
         "channel": "aniscoupons",
         "ts": 1795353066.0014448,
         "price": 64.0
+      },
+      {
+        "channel": "aniscoupons",
+        "ts": 1795353438.468125,
+        "price": 64.0
+      }
+    ],
+    "1005012574108028": [
+      {
+        "channel": "aniscoupons",
+        "ts": 1795353432.9581513,
+        "price": 272.9
       }
     ]
   },

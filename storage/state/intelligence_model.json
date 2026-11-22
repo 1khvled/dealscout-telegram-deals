@@ -40,8 +40,8 @@
       "ewma": 0.9682
     },
     "aniscoupons": {
-      "seen": 676,
-      "published": 580,
+      "seen": 678,
+      "published": 581,
       "skipped": 0,
       "ewma": 0.9994
     },
@@ -60,14 +60,14 @@
       "ewma": 0.9994
     },
     "pc": {
-      "seen": 259,
+      "seen": 260,
       "published": 192,
       "skipped": 0,
       "ewma": 0.9994
     },
     "phones": {
-      "seen": 434,
-      "published": 290,
+      "seen": 435,
+      "published": 291,
       "skipped": 0,
       "ewma": 0.9994
     },
@@ -1782,34 +1782,21 @@
     ],
     "1005009873824892": [
       211.5
+    ],
+    "1005012574108028": [
+      272.9
     ]
   },
   "counters": {
-    "scored": 1397,
-    "verdict_publish": 1339,
+    "scored": 1399,
+    "verdict_publish": 1341,
     "verdict_hold": 57,
     "verdict_skip": 1,
-    "published": 1087,
+    "published": 1088,
     "skipped": 0
   },
-  "score_sum": 102352.53,
+  "score_sum": 102503.8,
   "recent_decisions": [
-    {
-      "ts": 1795182113,
-      "channel": "ecksdeal",
-      "category": "audio",
-      "product_id": "1005005905462505",
-      "score": 85.09,
-      "verdict": "publish"
-    },
-    {
-      "ts": 1795182118,
-      "channel": "ecksdeal",
-      "category": "audio",
-      "product_id": "1005008060391372",
-      "score": 82.91,
-      "verdict": "publish"
-    },
     {
       "ts": 1795182129,
       "channel": "aniscoupons",
@@ -3393,7 +3380,23 @@
       "product_id": "32847542727",
       "score": 80.97,
       "verdict": "publish"
+    },
+    {
+      "ts": 1795353433,
+      "channel": "aniscoupons",
+      "category": "phones",
+      "product_id": "1005012574108028",
+      "score": 70.31,
+      "verdict": "publish"
+    },
+    {
+      "ts": 1795353438,
+      "channel": "aniscoupons",
+      "category": "pc",
+      "product_id": "32847542727",
+      "score": 80.96,
+      "verdict": "publish"
     }
   ],
-  "updated_at": 1795353062.929141
+  "updated_at": 1795353438.5248268
 }
