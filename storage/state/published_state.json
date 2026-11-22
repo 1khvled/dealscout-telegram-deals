@@ -941,7 +941,7 @@
     "1005005648888450": 1790941186.791633,
     "1005006117094928": 1794524375.306614,
     "1005006603602562": 1790941207.5310047,
-    "1005010721042860": 1795296516.155404,
+    "1005010721042860": 1795344844.4672604,
     "1005009517247552": 1790941221.8823678,
     "1005012191191893": 1795340611.9077039,
     "1005012968221708": 1793542591.509991,
@@ -1337,7 +1337,7 @@
     "1005012938359476": 1793448722.5382965,
     "1005012931209980": 1794678546.0543764,
     "1005011820893973": 1793540051.7895243,
-    "1005009073904302": 1795164751.799644,
+    "1005009073904302": 1795344827.810419,
     "1005009916208760": 1795249011.22468,
     "1005010033441204": 1795249022.7985642,
     "1005008356663932": 1793707052.9762022,
@@ -1641,7 +1641,7 @@
     "1005012083833079": 1794432872.6767933,
     "1005012292809645": 1795087819.176533,
     "1005007495712340": 1794475814.3090613,
-    "1005009104334975": 1795088919.270425,
+    "1005009104334975": 1795344849.625043,
     "1005012474727998": 1794320674.833981,
     "1005006807619368": 1795195549.9206557,
     "1005010653559191": 1794349536.4429784,
@@ -1776,7 +1776,7 @@
     "1005013633649876": 1795104359.6206825,
     "1005012274502051": 1795341889.4915757,
     "1005013603023857": 1795290161.6076646,
-    "1005009693337727": 1795298225.2538948,
+    "1005009693337727": 1795344822.4527907,
     "1005013497504096": 1795283264.8493018,
     "1005013482874428": 1795258532.9191153,
     "1005013354356242": 1795182504.6024845,
@@ -1810,7 +1810,7 @@
     "1005007097015654": 1795290732.7583535,
     "1005007805749110": 1795290738.086464,
     "1005009319376059": 1795342254.1571093,
-    "1005011974295002": 1795296883.1865098
+    "1005011974295002": 1795344836.3762915
   },
   "published_titles": [
     "Wireless WiFi Repeater 300Mbps WiFi Extender Amplifier Booster Router",
@@ -3001,7 +3001,9 @@
     "WALRAM  M.2 NVMe SSD 512GB",
     "VIVO X300 Ultra 12/256",
     "Lenovo Legion Y900 11 Tablet CN Version",
-    "WALRAM 2.5  sata 480GB"
+    "WALRAM 2.5  sata 480GB",
+    "Blackview MEGA 5 8/256GB 4G",
+    "ViVO X300 Ultra 12/256GB"
   ],
   "published_title_timestamps": {
     "Xiaomi Redmi Note 17 5G Global Version": 1790857823.0117362,
@@ -3316,7 +3318,7 @@
     "RYZEN 7 5700X": 1795254692.1958745,
     "Ⓜ BLACKVIEW WAVE 10C (4/32)": 1792160262.8028278,
     "Ⓜ  TCL 60 NXT PAPER 8/256📱": 1792160269.0502243,
-    "HAYLOU Mori Pro ANC": 1795251391.6121745,
+    "HAYLOU Mori Pro ANC": 1795344849.625043,
     "HAYLOU S30 Wireless Bluetooth 5.4 Headphones 43dB Adaptive Noise": 1792166326.0335298,
     "HAYLOU Watch Faro Voice Calling Smart Watch": 1792360422.5608404,
     "Redmi Note 12 5G 4/128": 1793543770.1912897,
@@ -3639,7 +3641,7 @@
     "Blackview WAVE 10 8/256GB": 1793554740.6491675,
     "SAMSUNG DDR3 Ram 8GB 1600MHz": 1793554757.8937938,
     "ASRock B650 PRO RS": 1793554764.2266893,
-    "Honor Power 2 5G 12/256GB": 1793656098.242545,
+    "Honor Power 2 5G 12/256GB": 1795344844.4672604,
     "MSI MAG X670E TOMAHAWK WIFI Motherboard Socket AM5 AMD X670 4xDDR5 4xM.2": 1793600112.7686548,
     "HONOR Pad X8b Wifi 4/128GB": 1793556565.207214,
     "VIVO IQOO Z11s 8/128": 1793600120.2797327,
@@ -3647,7 +3649,7 @@
     "Realme P3 5G 8/256": 1793557654.0136676,
     "Lenovo Legion Y900 8/128GB": 1793738297.0536208,
     "HOCO ANC EQ34 PLUS": 1793566252.8097658,
-    "Magcubic 900ANSI HY350 MAX": 1795023369.0864155,
+    "Magcubic 900ANSI HY350 MAX": 1795344822.4527907,
     "OPPO A7 Pro Max 8/128GB": 1795185803.549076,
     "Realme P4 Power 5G 12/256GB": 1793566295.6489058,
     "iQOO Neo 11 Ultra 12/256": 1793566310.8398705,
@@ -4197,14 +4199,11 @@
     "WALRAM  M.2 NVMe SSD 512GB": 1795342254.1571093,
     "VIVO X300 Ultra 12/256": 1795296883.1865098,
     "Lenovo Legion Y900 11 Tablet CN Version": 1795337128.5106091,
-    "WALRAM 2.5  sata 480GB": 1795343539.292944
+    "WALRAM 2.5  sata 480GB": 1795343539.292944,
+    "Blackview MEGA 5 8/256GB 4G": 1795344827.810419,
+    "ViVO X300 Ultra 12/256GB": 1795344836.3762915
   },
   "published_post_keys": [
-    "aniscoupons:34558",
-    "aniscoupons:34559",
-    "aniscoupons:34563",
-    "zedstoreonline:39919",
-    "aniscoupons:34565",
     "aniscoupons:34566",
     "aniscoupons:34569",
     "lodydeals:46378",
@@ -5199,11 +5198,16 @@
     "aniscoupons:35468",
     "aniscoupons:35470",
     "aniscoupons:35471",
-    "aniscoupons:35473"
+    "aniscoupons:35473",
+    "lodydeals:46792",
+    "lodydeals:46794",
+    "lodydeals:46796",
+    "lodydeals:46797",
+    "lodydeals:46798"
   ],
   "last_disclaimer_time": 1794524540.9476151,
   "last_calendar_time": 1795177633.1203737,
-  "last_run_time": 1795344635.2889817,
+  "last_run_time": 1795344849.625043,
   "monitored_channels": {
     "ecksdeal": {
       "last_message_id": 6119,
@@ -5211,7 +5215,7 @@
     },
     "lodydeals": {
       "last_message_id": 46801,
-      "last_check_time": 1795339871.2356064
+      "last_check_time": 1795344852.7483542
     },
     "test_channel": {
       "last_message_id": 1793967703,
@@ -5594,7 +5598,7 @@
     "1005012938359476": 123.17,
     "1005012931209980": 272.04,
     "1005011820893973": 690.0,
-    "1005009073904302": 228.3,
+    "1005009073904302": 228.32,
     "1005009916208760": 84.35,
     "1005010033441204": 14.6,
     "1005008356663932": 355.5,
@@ -5869,7 +5873,7 @@
     "1005012083833079": 57.9,
     "1005012292809645": 37.52,
     "1005007495712340": 53.24,
-    "1005009104334975": 10.79,
+    "1005009104334975": 10.59,
     "1005012474727998": 14.9,
     "1005006807619368": 6.55,
     "1005010653559191": 10.5,
@@ -5998,7 +6002,7 @@
     "1005013633649876": 12.9,
     "1005012274502051": 20.9,
     "1005013603023857": 42.14,
-    "1005009693337727": 113.4,
+    "1005009693337727": 113.1,
     "1005013497504096": 3.2,
     "1005013482874428": 79.6,
     "1005013354356242": 11.8,
@@ -31494,6 +31498,56 @@
       "price": 271.59,
       "timestamp": 1795344635.2889817,
       "status": "ACTIVE"
+    },
+    "lodydeals:46792": {
+      "channel_msg_id": 3462,
+      "product_id": "1005009693337727",
+      "title": "Magcubic 900ANSI HY350 MAX",
+      "channel": "lodydeals",
+      "source_msg_id": 46792,
+      "price": 113.1,
+      "timestamp": 1795344822.4527907,
+      "status": "ACTIVE"
+    },
+    "lodydeals:46794": {
+      "channel_msg_id": 3463,
+      "product_id": "1005009073904302",
+      "title": "Blackview MEGA 5 8/256GB 4G",
+      "channel": "lodydeals",
+      "source_msg_id": 46794,
+      "price": 228.32,
+      "timestamp": 1795344827.810419,
+      "status": "ACTIVE"
+    },
+    "lodydeals:46796": {
+      "channel_msg_id": 3464,
+      "product_id": "1005011974295002",
+      "title": "ViVO X300 Ultra 12/256GB",
+      "channel": "lodydeals",
+      "source_msg_id": 46796,
+      "price": 887.7,
+      "timestamp": 1795344836.3762915,
+      "status": "ACTIVE"
+    },
+    "lodydeals:46797": {
+      "channel_msg_id": 3465,
+      "product_id": "1005010721042860",
+      "title": "Honor Power 2 5G 12/256GB",
+      "channel": "lodydeals",
+      "source_msg_id": 46797,
+      "price": 375.8,
+      "timestamp": 1795344844.4672604,
+      "status": "ACTIVE"
+    },
+    "lodydeals:46798": {
+      "channel_msg_id": 3466,
+      "product_id": "1005009104334975",
+      "title": "HAYLOU Mori Pro ANC",
+      "channel": "lodydeals",
+      "source_msg_id": 46798,
+      "price": 10.59,
+      "timestamp": 1795344849.625043,
+      "status": "ACTIVE"
     }
   },
   "schedule_config": {
@@ -31502,17 +31556,17 @@
     "current_interval_minutes": 5,
     "is_paused": false,
     "night_mode_enabled": true,
-    "last_deal_post_time": 1795344638.570751,
+    "last_deal_post_time": 1795344856.3427858,
     "night_start_hour_dz": 0,
     "night_end_hour_dz": 8,
     "night_pause_enabled": true,
-    "last_sweep_time": 1795344641.772562,
+    "last_sweep_time": 1795344859.2377832,
     "last_sweep_times": {
-      "algeria": 1795344638.5313346,
-      "france": 1795344641.772562
+      "algeria": 1795344856.2935545,
+      "france": 1795344859.2377832
     },
     "last_deal_post_times": {
-      "algeria": 1795344638.570751
+      "algeria": 1795344856.3427858
     }
   },
   "last_coin_reminder_time": 1795241331.112354,
@@ -31534,7 +31588,7 @@
     "1005010178295650": "lodydeals",
     "1005006117094928": "lodydeals",
     "1005006603602562": "zedstoreonline",
-    "1005010721042860": "aniscoupons",
+    "1005010721042860": "lodydeals",
     "1005009517247552": "zedstoreonline",
     "1005012191191893": "aniscoupons",
     "1005012968221708": "ecksdeal",
@@ -31966,7 +32020,7 @@
     "1005012938359476": "aniscoupons",
     "1005012931209980": "lodydeals",
     "1005011820893973": "megaphonna",
-    "1005009073904302": "zedstoreonline",
+    "1005009073904302": "lodydeals",
     "1005009916208760": "lodydeals",
     "1005010033441204": "lodydeals",
     "1005008356663932": "lodydeals",
@@ -32390,7 +32444,7 @@
     "1005013633649876": "aniscoupons",
     "1005012274502051": "aniscoupons",
     "1005013603023857": "lodydeals",
-    "1005009693337727": "zedstoreonline",
+    "1005009693337727": "lodydeals",
     "1005013497504096": "aniscoupons",
     "1005013482874428": "aniscoupons",
     "1005013354356242": "zedstoreonline",
@@ -32422,7 +32476,7 @@
     "1005007097015654": "lodydeals",
     "1005007805749110": "lodydeals",
     "1005009319376059": "aniscoupons",
-    "1005011974295002": "zedstoreonline"
+    "1005011974295002": "lodydeals"
   },
   "published_title_channels": {
     "Test Wrench Set": "test_channel",
@@ -32741,7 +32795,7 @@
     "MACHENIKE G5Pro Max SE Gaming Controller With Charging Dock": "aniscoupons",
     "Ⓜ BLACKVIEW WAVE 10C (4/32)": "megaphonna",
     "RYZEN 7 5700X": "aniscoupons",
-    "HAYLOU Mori Pro ANC": "zedstoreonline",
+    "HAYLOU Mori Pro ANC": "lodydeals",
     "HAYLOU S30 Wireless Bluetooth 5.4 Headphones 43dB Adaptive Noise": "zedstoreonline",
     "HAYLOU Watch Faro Voice Calling Smart Watch": "couponsglobal",
     "Redmi Note 12 5G 4/128": "lodydeals",
@@ -33619,7 +33673,9 @@
     "WALRAM  M.2 NVMe SSD 512GB": "aniscoupons",
     "VIVO X300 Ultra 12/256": "zedstoreonline",
     "Lenovo Legion Y900 11 Tablet CN Version": "bnddeals",
-    "WALRAM 2.5  sata 480GB": "aniscoupons"
+    "WALRAM 2.5  sata 480GB": "aniscoupons",
+    "Blackview MEGA 5 8/256GB 4G": "lodydeals",
+    "ViVO X300 Ultra 12/256GB": "lodydeals"
   },
   "religious_reminders_history": {
     "mock_rem": "2026-10-02",
@@ -34417,11 +34473,6 @@
   "published_deals_history": {},
   "settings": {},
   "handled_post_keys": [
-    "aniscoupons:34638",
-    "zedstoreonline:39965",
-    "zedstoreonline:39966",
-    "aniscoupons:34642",
-    "zedstoreonline:39967",
     "zedstoreonline:39969",
     "zedstoreonline:39970",
     "aniscoupons:34645",
@@ -35416,7 +35467,12 @@
     "aniscoupons:35466",
     "aniscoupons:35469",
     "zedstoreonline:40562",
-    "aniscoupons:35472"
+    "aniscoupons:35472",
+    "lodydeals:46790",
+    "lodydeals:46791",
+    "lodydeals:46793",
+    "lodydeals:46795",
+    "lodydeals:46799"
   ],
   "last_france_cross_promo_time": 1795236239.730334,
   "next_france_cross_promo_interval_seconds": 209180,
@@ -36008,13 +36064,11 @@
         "channel": "zedstoreonline",
         "ts": 1795337308.9969718,
         "price": 375.0
-      }
-    ],
-    "1005012574108028": [
+      },
       {
-        "channel": "zedstoreonline",
-        "ts": 1795301530.6391253,
-        "price": 272.0
+        "channel": "lodydeals",
+        "ts": 1795344841.9803934,
+        "price": 375.8
       }
     ],
     "1005010210432531": [
@@ -36039,6 +36093,11 @@
         "channel": "zedstoreonline",
         "ts": 1795340052.7790663,
         "price": 177.0
+      },
+      {
+        "channel": "lodydeals",
+        "ts": 1795344852.664819,
+        "price": 177.61
       }
     ],
     "1005012325373696": [
@@ -36135,6 +36194,11 @@
         "channel": "aniscoupons",
         "ts": 1795343536.3590105,
         "price": 37.9
+      },
+      {
+        "channel": "lodydeals",
+        "ts": 1795344818.6320388,
+        "price": 37.6
       }
     ],
     "1005012374550298": [
@@ -36149,6 +36213,34 @@
         "channel": "aniscoupons",
         "ts": 1795344632.3421092,
         "price": 271.59
+      }
+    ],
+    "1005009693337727": [
+      {
+        "channel": "lodydeals",
+        "ts": 1795344819.875943,
+        "price": 113.1
+      }
+    ],
+    "1005009073904302": [
+      {
+        "channel": "lodydeals",
+        "ts": 1795344825.276588,
+        "price": 228.32
+      }
+    ],
+    "1005011974295002": [
+      {
+        "channel": "lodydeals",
+        "ts": 1795344833.9296281,
+        "price": 887.7
+      }
+    ],
+    "1005009104334975": [
+      {
+        "channel": "lodydeals",
+        "ts": 1795344847.185163,
+        "price": 10.59
       }
     ]
   },
