@@ -1736,7 +1736,7 @@
     "1005010376374580": 1794935234.6883996,
     "1005010239860751": 1794689616.7178488,
     "1005009278862695": 1795079013.6206362,
-    "1005013005786079": 1794688878.915808,
+    "1005013005786079": 1795358932.2202182,
     "1005008627811107": 1794694594.377669,
     "1005012892577195": 1794732862.0085351,
     "1005012594430190": 1794741945.3108501,
@@ -4093,7 +4093,7 @@
     "FIFINE Wireless Lavalier Recording Microphone": 1794682951.3022494,
     "MCHOSE A7 V2 Ultra Gaming Mouse": 1794684619.3058665,
     "NETUM XL-P801 Thermal A4 Printer": 1794687391.0146728,
-    "Nothing Buds 2 Neo": 1794688878.915808,
+    "Nothing Buds 2 Neo": 1795358932.2202182,
     "مقبس SONOFF ذكي بقوة 16A يتيح تشغيل وإيقاف الأجهزة الكهربائية عن": 1794689616.7178488,
     "Anker Soundcore P30i ANC": 1795249198.9372864,
     "Anker 735 GaN 3 Port 65W": 1795022632.7994065,
@@ -4220,7 +4220,6 @@
     "KingSpec DDR4 8GB 16GB Memoria Ram 2666Mhz 3200 Memory Module 8GBX2 16GBX2": 1795354738.6784947
   },
   "published_post_keys": [
-    "aniscoupons:34576",
     "aniscoupons:34577",
     "aniscoupons:34578",
     "aniscoupons:34580",
@@ -5219,11 +5218,12 @@
     "ecksdeal:6121",
     "aniscoupons:35476",
     "ecksdeal:6123",
-    "aniscoupons:35480"
+    "aniscoupons:35480",
+    "aniscoupons:35481"
   ],
   "last_disclaimer_time": 1794524540.9476151,
   "last_calendar_time": 1795177633.1203737,
-  "last_run_time": 1795354738.6784947,
+  "last_run_time": 1795358932.2202182,
   "monitored_channels": {
     "ecksdeal": {
       "last_message_id": 6123,
@@ -5254,8 +5254,8 @@
       "last_check_time": 1795353795.835804
     },
     "aniscoupons": {
-      "last_message_id": 35480,
-      "last_check_time": 1795354740.7414823
+      "last_message_id": 35481,
+      "last_check_time": 1795358934.333102
     },
     "bnddeals": {
       "last_message_id": 51388,
@@ -5976,7 +5976,7 @@
     "1005010376374580": 20.4,
     "1005010239860751": 4.8,
     "1005009278862695": 32.9,
-    "1005013005786079": 16.29,
+    "1005013005786079": 18.29,
     "1005008627811107": 10.5,
     "1005012892577195": 16.27,
     "1005012594430190": 5.89,
@@ -31638,6 +31638,16 @@
       "price": 67.87,
       "timestamp": 1795354738.6784947,
       "status": "ACTIVE"
+    },
+    "aniscoupons:35481": {
+      "channel_msg_id": 3474,
+      "product_id": "1005013005786079",
+      "title": "Nothing Buds 2 Neo",
+      "channel": "aniscoupons",
+      "source_msg_id": 35481,
+      "price": 18.29,
+      "timestamp": 1795358932.2202182,
+      "status": "ACTIVE"
     }
   },
   "schedule_config": {
@@ -31646,17 +31656,17 @@
     "current_interval_minutes": 5,
     "is_paused": false,
     "night_mode_enabled": true,
-    "last_deal_post_time": 1795354741.6376855,
+    "last_deal_post_time": 1795358935.6195183,
     "night_start_hour_dz": 0,
     "night_end_hour_dz": 8,
     "night_pause_enabled": true,
-    "last_sweep_time": 1795358751.4931333,
+    "last_sweep_time": 1795358939.568276,
     "last_sweep_times": {
-      "algeria": 1795358747.9141004,
-      "france": 1795358751.4931333
+      "algeria": 1795358935.5700502,
+      "france": 1795358939.568276
     },
     "last_deal_post_times": {
-      "algeria": 1795354741.6376855
+      "algeria": 1795358935.6195183
     }
   },
   "last_coin_reminder_time": 1795241331.112354,
@@ -36394,6 +36404,13 @@
         "channel": "aniscoupons",
         "ts": 1795353432.9581513,
         "price": 272.9
+      }
+    ],
+    "1005013005786079": [
+      {
+        "channel": "aniscoupons",
+        "ts": 1795358929.6891959,
+        "price": 18.29
       }
     ]
   },
