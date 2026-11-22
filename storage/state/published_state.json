@@ -1586,7 +1586,7 @@
     "1005008060391372": 1795182121.6502924,
     "1005010209911111": 1794068056.674266,
     "1005008295555234": 1794073127.8664527,
-    "1005008645323478": 1795250300.2179325,
+    "1005008645323478": 1795338233.068368,
     "1005008636930795": 1795169898.6012874,
     "1005006260870758": 1794250569.5221198,
     "1005009759580502": 1794331533.1223195,
@@ -3863,7 +3863,7 @@
     "1MORE SonoFlow Pro HQ51": 1794073127.8664527,
     "Ulanzi ST-06S Vertical Shooting": 1794130692.4786665,
     "ميكروفون MAONO DGM20W لاسلكي للألعاب": 1794074230.5173922,
-    "CUSU 512GB External SSD Drive": 1795250300.2179325,
+    "CUSU 512GB External SSD Drive": 1795338233.068368,
     "Netac M.2 NVME 250GB": 1795169898.6012874,
     "EPOMAKER X AULA F87 Pro": 1794250569.5221198,
     "SIX PCIe 4.0 7350MB/s  1TB": 1794079741.7808652,
@@ -4198,7 +4198,6 @@
     "Lenovo Legion Y900 11 Tablet CN Version": 1795337128.5106091
   },
   "published_post_keys": [
-    "lodydeals:46365",
     "aniscoupons:34543",
     "zedstoreonline:39905",
     "aniscoupons:34544",
@@ -5197,11 +5196,12 @@
     "aniscoupons:35458",
     "aniscoupons:35459",
     "bnddeals:51387",
-    "aniscoupons:35460"
+    "aniscoupons:35460",
+    "aniscoupons:35461"
   ],
   "last_disclaimer_time": 1794524540.9476151,
   "last_calendar_time": 1795177633.1203737,
-  "last_run_time": 1795337450.3762672,
+  "last_run_time": 1795338233.068368,
   "monitored_channels": {
     "ecksdeal": {
       "last_message_id": 6119,
@@ -5228,12 +5228,12 @@
       "last_check_time": 1793599663.3444748
     },
     "zedstoreonline": {
-      "last_message_id": 40556,
-      "last_check_time": 1795337309.6579905
+      "last_message_id": 40557,
+      "last_check_time": 1795338228.5296474
     },
     "aniscoupons": {
-      "last_message_id": 35460,
-      "last_check_time": 1795337452.4650285
+      "last_message_id": 35461,
+      "last_check_time": 1795338235.1484632
     },
     "bnddeals": {
       "last_message_id": 51387,
@@ -31392,6 +31392,16 @@
       "price": 41.8,
       "timestamp": 1795337450.3762672,
       "status": "ACTIVE"
+    },
+    "aniscoupons:35461": {
+      "channel_msg_id": 3452,
+      "product_id": "1005008645323478",
+      "title": "CUSU 512GB External SSD Drive",
+      "channel": "aniscoupons",
+      "source_msg_id": 35461,
+      "price": 41.8,
+      "timestamp": 1795338233.068368,
+      "status": "ACTIVE"
     }
   },
   "schedule_config": {
@@ -31400,17 +31410,17 @@
     "current_interval_minutes": 5,
     "is_paused": false,
     "night_mode_enabled": true,
-    "last_deal_post_time": 1795337453.6573656,
+    "last_deal_post_time": 1795338236.2911952,
     "night_start_hour_dz": 0,
     "night_end_hour_dz": 8,
     "night_pause_enabled": true,
-    "last_sweep_time": 1795338043.1731431,
+    "last_sweep_time": 1795338239.5309973,
     "last_sweep_times": {
-      "algeria": 1795338039.7414882,
-      "france": 1795338043.1731431
+      "algeria": 1795338236.2560525,
+      "france": 1795338239.5309973
     },
     "last_deal_post_times": {
-      "algeria": 1795337453.6573656
+      "algeria": 1795338236.2911952
     }
   },
   "last_coin_reminder_time": 1795241331.112354,
@@ -34314,7 +34324,6 @@
   "published_deals_history": {},
   "settings": {},
   "handled_post_keys": [
-    "lodydeals:46392",
     "lodydeals:46393",
     "lodydeals:46394",
     "lodydeals:46398",
@@ -35313,7 +35322,8 @@
     "zedstoreonline:40552",
     "bnddeals:51386",
     "zedstoreonline:40555",
-    "zedstoreonline:40556"
+    "zedstoreonline:40556",
+    "zedstoreonline:40557"
   ],
   "last_france_cross_promo_time": 1795236239.730334,
   "next_france_cross_promo_interval_seconds": 209180,
@@ -35907,13 +35917,6 @@
         "price": 262.7
       }
     ],
-    "1005012931209980": [
-      {
-        "channel": "aniscoupons",
-        "ts": 1795294309.1371524,
-        "price": 275.0
-      }
-    ],
     "1005013361453762": [
       {
         "channel": "aniscoupons",
@@ -35993,6 +35996,13 @@
       {
         "channel": "aniscoupons",
         "ts": 1795337447.5274165,
+        "price": 41.8
+      }
+    ],
+    "1005008645323478": [
+      {
+        "channel": "aniscoupons",
+        "ts": 1795338230.3061812,
         "price": 41.8
       }
     ]
