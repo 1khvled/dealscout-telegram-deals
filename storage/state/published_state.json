@@ -1794,7 +1794,7 @@
     "1005005430153846": 1795249207.7202265,
     "1005012663205752": 1795249213.3989208,
     "1005013383203760": 1795338775.7608411,
-    "1005010121796649": 1795251024.4152784,
+    "1005010121796649": 1795339323.7288988,
     "1005008850261694": 1795251398.024725,
     "32847542727": 1795274576.3351243,
     "COUPONS_67c5d85c35f4": 1795275291.619781,
@@ -4178,7 +4178,7 @@
     "Anker P20i TWS": 1795249022.7985642,
     "Onn 4K Android 13 TV Box": 1795249213.3989208,
     "1More  HQ20 Headphones": 1795249218.8314788,
-    "Poco X8 5G (6/128GB)": 1795251024.4152784,
+    "Poco X8 5G (6/128GB)": 1795339323.7288988,
     "لووووووووووووز HAYLOU": 1795251398.024725,
     "KOOTION X16 7100MB/s NVMe 512GB": 1795256330.146872,
     "GIGABYTE B550M K AM4 Motherboard": 1795265573.5780053,
@@ -4198,7 +4198,6 @@
     "Lenovo Legion Y900 11 Tablet CN Version": 1795337128.5106091
   },
   "published_post_keys": [
-    "zedstoreonline:39905",
     "aniscoupons:34544",
     "aniscoupons:34545",
     "aniscoupons:34548",
@@ -5197,19 +5196,20 @@
     "bnddeals:51387",
     "aniscoupons:35460",
     "aniscoupons:35461",
-    "aniscoupons:35462"
+    "aniscoupons:35462",
+    "aniscoupons:35463"
   ],
   "last_disclaimer_time": 1794524540.9476151,
   "last_calendar_time": 1795177633.1203737,
-  "last_run_time": 1795338775.7608411,
+  "last_run_time": 1795339323.7288988,
   "monitored_channels": {
     "ecksdeal": {
       "last_message_id": 6119,
       "last_check_time": 1795282395.5364728
     },
     "lodydeals": {
-      "last_message_id": 46799,
-      "last_check_time": 1795338410.8384862
+      "last_message_id": 46800,
+      "last_check_time": 1795339316.5897133
     },
     "test_channel": {
       "last_message_id": 1793967703,
@@ -5228,12 +5228,12 @@
       "last_check_time": 1793599663.3444748
     },
     "zedstoreonline": {
-      "last_message_id": 40557,
-      "last_check_time": 1795338228.5296474
+      "last_message_id": 40558,
+      "last_check_time": 1795339319.8307703
     },
     "aniscoupons": {
-      "last_message_id": 35462,
-      "last_check_time": 1795338777.8660862
+      "last_message_id": 35463,
+      "last_check_time": 1795339325.834794
     },
     "bnddeals": {
       "last_message_id": 51387,
@@ -31412,6 +31412,16 @@
       "price": 186.7,
       "timestamp": 1795338775.7608411,
       "status": "ACTIVE"
+    },
+    "aniscoupons:35463": {
+      "channel_msg_id": 3454,
+      "product_id": "1005010121796649",
+      "title": "Poco X8 5G (6/128GB)",
+      "channel": "aniscoupons",
+      "source_msg_id": 35463,
+      "price": 217.8,
+      "timestamp": 1795339323.7288988,
+      "status": "ACTIVE"
     }
   },
   "schedule_config": {
@@ -31420,17 +31430,17 @@
     "current_interval_minutes": 5,
     "is_paused": false,
     "night_mode_enabled": true,
-    "last_deal_post_time": 1795338778.970606,
+    "last_deal_post_time": 1795339327.0119689,
     "night_start_hour_dz": 0,
     "night_end_hour_dz": 8,
     "night_pause_enabled": true,
-    "last_sweep_time": 1795339139.3678937,
+    "last_sweep_time": 1795339329.5771248,
     "last_sweep_times": {
-      "algeria": 1795339136.9387462,
-      "france": 1795339139.3678937
+      "algeria": 1795339326.9638507,
+      "france": 1795339329.5771248
     },
     "last_deal_post_times": {
-      "algeria": 1795338778.970606
+      "algeria": 1795339327.0119689
     }
   },
   "last_coin_reminder_time": 1795241331.112354,
@@ -34334,7 +34344,6 @@
   "published_deals_history": {},
   "settings": {},
   "handled_post_keys": [
-    "lodydeals:46393",
     "lodydeals:46394",
     "lodydeals:46398",
     "lodydeals:46401",
@@ -35333,7 +35342,8 @@
     "bnddeals:51386",
     "zedstoreonline:40555",
     "zedstoreonline:40556",
-    "zedstoreonline:40557"
+    "zedstoreonline:40557",
+    "zedstoreonline:40558"
   ],
   "last_france_cross_promo_time": 1795236239.730334,
   "next_france_cross_promo_interval_seconds": 209180,
@@ -35927,13 +35937,6 @@
         "price": 262.7
       }
     ],
-    "1005013361453762": [
-      {
-        "channel": "aniscoupons",
-        "ts": 1795295598.3056705,
-        "price": 280.0
-      }
-    ],
     "1005012577991043": [
       {
         "channel": "aniscoupons",
@@ -35979,6 +35982,11 @@
         "channel": "aniscoupons",
         "ts": 1795335850.308053,
         "price": 133.8
+      },
+      {
+        "channel": "zedstoreonline",
+        "ts": 1795339319.6507664,
+        "price": 133.8
       }
     ],
     "1005008518280704": [
@@ -36021,6 +36029,13 @@
         "channel": "aniscoupons",
         "ts": 1795338772.95604,
         "price": 186.7
+      }
+    ],
+    "1005010121796649": [
+      {
+        "channel": "aniscoupons",
+        "ts": 1795339321.3347244,
+        "price": 217.8
       }
     ]
   },
