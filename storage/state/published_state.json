@@ -1496,7 +1496,7 @@
     "1005007805750092": 1793613900.590816,
     "1005006966360399": 1793613905.8870661,
     "1005010706590867": 1795371434.3132992,
-    "1005010428947440": 1793613916.2199864,
+    "1005010428947440": 1795380257.6694264,
     "1005010585654037": 1795088190.1400514,
     "1005013137304827": 1793613926.9213502,
     "1005010355409000": 1793613934.9347482,
@@ -3736,7 +3736,7 @@
     "ONEPLUS 80W CHARGER": 1793613900.590816,
     "GAMINJA WIRELESS CONTROLLER": 1793613905.8870661,
     "ATTACK SHARK R1": 1795371434.3132992,
-    "Soundcore Select 4 Go": 1793613916.2199864,
+    "Soundcore Select 4 Go": 1795380257.6694264,
     "Mortal Android TV Box": 1793613921.841963,
     "HONOR 600s 8/256GB": 1793613926.9213502,
     "Realme GT8 Pro": 1793613934.9347482,
@@ -4226,7 +4226,6 @@
     "Oneplus Turbo 6V 8/256GB": 1795376024.6586418
   },
   "published_post_keys": [
-    "aniscoupons:34587",
     "zedstoreonline:39925",
     "aniscoupons:34588",
     "aniscoupons:34589",
@@ -5225,11 +5224,12 @@
     "aniscoupons:35486",
     "aniscoupons:35487",
     "bnddeals:51390",
-    "aniscoupons:35489"
+    "aniscoupons:35489",
+    "zedstoreonline:40572"
   ],
   "last_disclaimer_time": 1794524540.9476151,
   "last_calendar_time": 1795177633.1203737,
-  "last_run_time": 1795377867.284167,
+  "last_run_time": 1795380257.6694264,
   "monitored_channels": {
     "ecksdeal": {
       "last_message_id": 6123,
@@ -5256,8 +5256,8 @@
       "last_check_time": 1793599663.3444748
     },
     "zedstoreonline": {
-      "last_message_id": 40571,
-      "last_check_time": 1795375280.8180509
+      "last_message_id": 40572,
+      "last_check_time": 1795380259.7829406
     },
     "aniscoupons": {
       "last_message_id": 35489,
@@ -5469,7 +5469,7 @@
     "1005007767322935": 21.61,
     "1005013054007275": 53.59,
     "1005011899097443": 10.16,
-    "1005010428947440": 21.2,
+    "1005010428947440": 20.2,
     "1005010733227481": 285.4,
     "1005006281667276": 33.2,
     "1005010177152485": 46.0,
@@ -31745,6 +31745,16 @@
       "price": 887.9,
       "timestamp": 1795377867.284167,
       "status": "ACTIVE"
+    },
+    "zedstoreonline:40572": {
+      "channel_msg_id": 3486,
+      "product_id": "1005010428947440",
+      "title": "Soundcore Select 4 Go",
+      "channel": "zedstoreonline",
+      "source_msg_id": 40572,
+      "price": 20.2,
+      "timestamp": 1795380257.6694264,
+      "status": "ACTIVE"
     }
   },
   "schedule_config": {
@@ -31753,17 +31763,17 @@
     "current_interval_minutes": 5,
     "is_paused": false,
     "night_mode_enabled": true,
-    "last_deal_post_time": 1795377870.3914764,
+    "last_deal_post_time": 1795380261.8780096,
     "night_start_hour_dz": 0,
     "night_end_hour_dz": 8,
     "night_pause_enabled": true,
-    "last_sweep_time": 1795380071.5286837,
+    "last_sweep_time": 1795380264.9003465,
     "last_sweep_times": {
-      "algeria": 1795380068.1360743,
-      "france": 1795380071.5286837
+      "algeria": 1795380261.828526,
+      "france": 1795380264.9003465
     },
     "last_deal_post_times": {
-      "algeria": 1795377870.3914764
+      "algeria": 1795380261.8780096
     }
   },
   "last_coin_reminder_time": 1795241331.112354,
@@ -32003,7 +32013,7 @@
     "1005007767322935": "lodydeals",
     "1005013054007275": "ecksdeal",
     "1005011899097443": "bnddeals",
-    "1005010428947440": "aniscoupons",
+    "1005010428947440": "zedstoreonline",
     "1005010733227481": "megaphonna",
     "1005006281667276": "zedstoreonline",
     "1005010177152485": "bnddeals",
@@ -33063,7 +33073,7 @@
     "Honor Win RT2 12/256": "lodydeals",
     "ViVO X300E 12/256": "zedstoreonline",
     "Oneplus 13T 12/256GB": "zedstoreonline",
-    "Soundcore Select 4 Go": "aniscoupons",
+    "Soundcore Select 4 Go": "zedstoreonline",
     "Anker USB C GaN Charger 30W": "aniscoupons",
     "Realme GT8": "aniscoupons",
     "Realme C100  6/128GB": "aniscoupons",
@@ -36281,22 +36291,12 @@
     ],
     "1005010210432531": [
       {
-        "channel": "aniscoupons",
-        "ts": 1795335850.308053,
-        "price": 133.8
-      },
-      {
         "channel": "zedstoreonline",
         "ts": 1795339319.6507664,
         "price": 133.8
       }
     ],
     "1005008518280704": [
-      {
-        "channel": "aniscoupons",
-        "ts": 1795336577.490331,
-        "price": 177.3
-      },
       {
         "channel": "zedstoreonline",
         "ts": 1795340052.7790663,
@@ -36306,13 +36306,6 @@
         "channel": "lodydeals",
         "ts": 1795344852.664819,
         "price": 177.61
-      }
-    ],
-    "1005012325373696": [
-      {
-        "channel": "aniscoupons",
-        "ts": 1795336942.99323,
-        "price": 203.3
       }
     ],
     "1005012770405022": [
@@ -36602,6 +36595,13 @@
         "channel": "aniscoupons",
         "ts": 1795377865.012963,
         "price": 887.9
+      }
+    ],
+    "1005010428947440": [
+      {
+        "channel": "zedstoreonline",
+        "ts": 1795380255.2302072,
+        "price": 20.2
       }
     ]
   },
