@@ -1809,7 +1809,7 @@
     "1005009649241196": 1795290145.0386395,
     "1005007097015654": 1795290732.7583535,
     "1005007805749110": 1795290738.086464,
-    "1005009319376059": 1795295051.5484984,
+    "1005009319376059": 1795342254.1571093,
     "1005011974295002": 1795296883.1865098
   },
   "published_titles": [
@@ -4193,12 +4193,11 @@
     "Electric Lint Remover": 1795290732.7583535,
     "500mL Water Bottle": 1795290738.086464,
     "WALRAM 2.5  sata 480GB": 1795294136.0974371,
-    "WALRAM  M.2 NVMe SSD 512GB": 1795295051.5484984,
+    "WALRAM  M.2 NVMe SSD 512GB": 1795342254.1571093,
     "VIVO X300 Ultra 12/256": 1795296883.1865098,
     "Lenovo Legion Y900 11 Tablet CN Version": 1795337128.5106091
   },
   "published_post_keys": [
-    "aniscoupons:34550",
     "zedstoreonline:39910",
     "aniscoupons:34556",
     "aniscoupons:34557",
@@ -5197,11 +5196,12 @@
     "aniscoupons:35463",
     "aniscoupons:35465",
     "zedstoreonline:40561",
-    "aniscoupons:35467"
+    "aniscoupons:35467",
+    "aniscoupons:35468"
   ],
   "last_disclaimer_time": 1794524540.9476151,
   "last_calendar_time": 1795177633.1203737,
-  "last_run_time": 1795341889.4915757,
+  "last_run_time": 1795342254.1571093,
   "monitored_channels": {
     "ecksdeal": {
       "last_message_id": 6119,
@@ -5232,8 +5232,8 @@
       "last_check_time": 1795341708.2923858
     },
     "aniscoupons": {
-      "last_message_id": 35467,
-      "last_check_time": 1795341891.5898025
+      "last_message_id": 35468,
+      "last_check_time": 1795342256.25858
     },
     "bnddeals": {
       "last_message_id": 51387,
@@ -31452,6 +31452,16 @@
       "price": 20.9,
       "timestamp": 1795341889.4915757,
       "status": "ACTIVE"
+    },
+    "aniscoupons:35468": {
+      "channel_msg_id": 3458,
+      "product_id": "1005009319376059",
+      "title": "WALRAM  M.2 NVMe SSD 512GB",
+      "channel": "aniscoupons",
+      "source_msg_id": 35468,
+      "price": 49.5,
+      "timestamp": 1795342254.1571093,
+      "status": "ACTIVE"
     }
   },
   "schedule_config": {
@@ -31460,17 +31470,17 @@
     "current_interval_minutes": 5,
     "is_paused": false,
     "night_mode_enabled": true,
-    "last_deal_post_time": 1795341892.729987,
+    "last_deal_post_time": 1795342257.3786259,
     "night_start_hour_dz": 0,
     "night_end_hour_dz": 8,
     "night_pause_enabled": true,
-    "last_sweep_time": 1795342070.342208,
+    "last_sweep_time": 1795342259.9172492,
     "last_sweep_times": {
-      "algeria": 1795342067.7802782,
-      "france": 1795342070.342208
+      "algeria": 1795342257.3308816,
+      "france": 1795342259.9172492
     },
     "last_deal_post_times": {
-      "algeria": 1795341892.729987
+      "algeria": 1795342257.3786259
     }
   },
   "last_coin_reminder_time": 1795241331.112354,
@@ -36073,6 +36083,13 @@
         "channel": "aniscoupons",
         "ts": 1795341887.1536322,
         "price": 20.9
+      }
+    ],
+    "1005009319376059": [
+      {
+        "channel": "aniscoupons",
+        "ts": 1795342251.8014178,
+        "price": 49.5
       }
     ]
   },
