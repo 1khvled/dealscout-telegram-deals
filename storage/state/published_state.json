@@ -1343,7 +1343,7 @@
     "1005011820893973": 1793540051.7895243,
     "1005009073904302": 1795344827.810419,
     "1005009916208760": 1795249011.22468,
-    "1005010033441204": 1795249022.7985642,
+    "1005010033441204": 1795371614.0931513,
     "1005008356663932": 1793707052.9762022,
     "1005010074161953": 1793543659.5887568,
     "1005010498953493": 1794948087.9126022,
@@ -3504,7 +3504,7 @@
     "Soundcore by Anker Life Q30 Hybrid Active Noise Cancelling Headphones": 1793448587.6507976,
     "بروجكتور Magcubic HY300 max – أوتو فوكس، Android 14، إضاءة 400 ANSI": 1793448612.7938895,
     "MAONO PD100X Dynamic Microphone": 1795259266.1538367,
-    "Soundcore by Anker P20i": 1795180445.582193,
+    "Soundcore by Anker P20i": 1795371614.0931513,
     "CUSU Memory DDR5  32GB(16GBX2) 5600MHz": 1793448632.7055113,
     "OPPO FIND X9 Pro": 1794486542.3386803,
     "OPPO A7 Pro Max CN": 1793448660.3359752,
@@ -4222,7 +4222,6 @@
     "WALRAM SSD SATA 480GB": 1795365744.911586
   },
   "published_post_keys": [
-    "zedstoreonline:39923",
     "aniscoupons:34585",
     "zedstoreonline:39924",
     "aniscoupons:34586",
@@ -5221,11 +5220,12 @@
     "aniscoupons:35483",
     "lodydeals:46806",
     "zedstoreonline:40570",
-    "aniscoupons:35485"
+    "aniscoupons:35485",
+    "aniscoupons:35486"
   ],
   "last_disclaimer_time": 1794524540.9476151,
   "last_calendar_time": 1795177633.1203737,
-  "last_run_time": 1795371434.3132992,
+  "last_run_time": 1795371614.0931513,
   "monitored_channels": {
     "ecksdeal": {
       "last_message_id": 6123,
@@ -5256,8 +5256,8 @@
       "last_check_time": 1795365746.9904587
     },
     "aniscoupons": {
-      "last_message_id": 35485,
-      "last_check_time": 1795371436.4229262
+      "last_message_id": 35486,
+      "last_check_time": 1795371616.1913614
     },
     "bnddeals": {
       "last_message_id": 51389,
@@ -31700,6 +31700,16 @@
       "price": 16.0,
       "timestamp": 1795371434.3132992,
       "status": "ACTIVE"
+    },
+    "aniscoupons:35486": {
+      "channel_msg_id": 3482,
+      "product_id": "1005010033441204",
+      "title": "Soundcore by Anker P20i",
+      "channel": "aniscoupons",
+      "source_msg_id": 35486,
+      "price": 14.6,
+      "timestamp": 1795371614.0931513,
+      "status": "ACTIVE"
     }
   },
   "schedule_config": {
@@ -31708,17 +31718,17 @@
     "current_interval_minutes": 5,
     "is_paused": false,
     "night_mode_enabled": true,
-    "last_deal_post_time": 1795371437.7372844,
+    "last_deal_post_time": 1795371617.4193473,
     "night_start_hour_dz": 0,
     "night_end_hour_dz": 8,
     "night_pause_enabled": true,
-    "last_sweep_time": 1795371440.669211,
+    "last_sweep_time": 1795371620.361999,
     "last_sweep_times": {
-      "algeria": 1795371437.6884198,
-      "france": 1795371440.669211
+      "algeria": 1795371617.3770063,
+      "france": 1795371620.361999
     },
     "last_deal_post_times": {
-      "algeria": 1795371437.7372844
+      "algeria": 1795371617.4193473
     }
   },
   "last_coin_reminder_time": 1795241331.112354,
@@ -32174,7 +32184,7 @@
     "1005011820893973": "megaphonna",
     "1005009073904302": "lodydeals",
     "1005009916208760": "lodydeals",
-    "1005010033441204": "lodydeals",
+    "1005010033441204": "aniscoupons",
     "1005008356663932": "lodydeals",
     "1005010074161953": "lodydeals",
     "1005010498953493": "aniscoupons",
@@ -33126,7 +33136,7 @@
     "Soundcore by Anker Life Q30 Hybrid Active Noise Cancelling Headphones": "zedstoreonline",
     "بروجكتور Magcubic HY300 max – أوتو فوكس، Android 14، إضاءة 400 ANSI": "zedstoreonline",
     "MAONO PD100X Dynamic Microphone": "aniscoupons",
-    "Soundcore by Anker P20i": "bnddeals",
+    "Soundcore by Anker P20i": "aniscoupons",
     "CUSU Memory DDR5  32GB(16GBX2) 5600MHz": "aniscoupons",
     "OPPO FIND X9 Pro": "aniscoupons",
     "OPPO A7 Pro Max CN": "aniscoupons",
@@ -36532,6 +36542,13 @@
         "channel": "aniscoupons",
         "ts": 1795371431.6394353,
         "price": 16.0
+      }
+    ],
+    "1005010033441204": [
+      {
+        "channel": "aniscoupons",
+        "ts": 1795371611.4716475,
+        "price": 14.6
       }
     ]
   },
