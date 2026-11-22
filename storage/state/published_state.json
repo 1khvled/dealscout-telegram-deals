@@ -900,7 +900,8 @@
     "1005009873824892",
     "1005008248024782",
     "1005002292884528",
-    "1005010680777854"
+    "1005010680777854",
+    "1005007893508418"
   ],
   "published_product_timestamps": {
     "1005012973772517": 1794500732.7845657,
@@ -1820,7 +1821,8 @@
     "1005009873824892": 1795346646.0617936,
     "1005008248024782": 1795353977.3759387,
     "1005002292884528": 1795354738.6784947,
-    "1005010680777854": 1795376024.6586418
+    "1005010680777854": 1795376024.6586418,
+    "1005007893508418": 1795381174.309368
   },
   "published_titles": [
     "Wireless WiFi Repeater 300Mbps WiFi Extender Amplifier Booster Router",
@@ -3019,7 +3021,8 @@
     "كابل USB Type C Coiled Cable 3M For Keyboard",
     "KingSpec DDR4 8GB 16GB Memoria Ram 2666Mhz 3200 Memory Module 8GBX2 16GBX2",
     "WALRAM SSD SATA 480GB",
-    "Oneplus Turbo 6V 8/256GB"
+    "Oneplus Turbo 6V 8/256GB",
+    "Walram SSD 480GB"
   ],
   "published_title_timestamps": {
     "Xiaomi Redmi Note 17 5G Global Version": 1790857823.0117362,
@@ -4223,10 +4226,10 @@
     "كابل USB Type C Coiled Cable 3M For Keyboard": 1795353977.3759387,
     "KingSpec DDR4 8GB 16GB Memoria Ram 2666Mhz 3200 Memory Module 8GBX2 16GBX2": 1795354738.6784947,
     "WALRAM SSD SATA 480GB": 1795365744.911586,
-    "Oneplus Turbo 6V 8/256GB": 1795376024.6586418
+    "Oneplus Turbo 6V 8/256GB": 1795376024.6586418,
+    "Walram SSD 480GB": 1795381174.309368
   },
   "published_post_keys": [
-    "zedstoreonline:39925",
     "aniscoupons:34588",
     "aniscoupons:34589",
     "zedstoreonline:39927",
@@ -5225,19 +5228,20 @@
     "aniscoupons:35487",
     "bnddeals:51390",
     "aniscoupons:35489",
-    "zedstoreonline:40572"
+    "zedstoreonline:40572",
+    "lodydeals:46811"
   ],
   "last_disclaimer_time": 1794524540.9476151,
   "last_calendar_time": 1795177633.1203737,
-  "last_run_time": 1795380257.6694264,
+  "last_run_time": 1795381174.309368,
   "monitored_channels": {
     "ecksdeal": {
       "last_message_id": 6123,
       "last_check_time": 1795353979.4336424
     },
     "lodydeals": {
-      "last_message_id": 46810,
-      "last_check_time": 1795380983.144091
+      "last_message_id": 46811,
+      "last_check_time": 1795381176.4167995
     },
     "test_channel": {
       "last_message_id": 1793967703,
@@ -6060,7 +6064,8 @@
     "1005009873824892": 211.5,
     "1005008248024782": 13.47,
     "1005002292884528": 67.87,
-    "1005010680777854": 268.0
+    "1005010680777854": 268.0,
+    "1005007893508418": 32.39
   },
   "channel_published_deals": {
     "aniscoupons:32590": {
@@ -31755,6 +31760,16 @@
       "price": 20.2,
       "timestamp": 1795380257.6694264,
       "status": "ACTIVE"
+    },
+    "lodydeals:46811": {
+      "channel_msg_id": 3487,
+      "product_id": "1005007893508418",
+      "title": "Walram SSD 480GB",
+      "channel": "lodydeals",
+      "source_msg_id": 46811,
+      "price": 32.39,
+      "timestamp": 1795381174.309368,
+      "status": "ACTIVE"
     }
   },
   "schedule_config": {
@@ -31763,17 +31778,17 @@
     "current_interval_minutes": 5,
     "is_paused": false,
     "night_mode_enabled": true,
-    "last_deal_post_time": 1795380261.8780096,
+    "last_deal_post_time": 1795381180.0423975,
     "night_start_hour_dz": 0,
     "night_end_hour_dz": 8,
     "night_pause_enabled": true,
-    "last_sweep_time": 1795380989.3564632,
+    "last_sweep_time": 1795381183.0103767,
     "last_sweep_times": {
-      "algeria": 1795380986.248854,
-      "france": 1795380989.3564632
+      "algeria": 1795381179.9942074,
+      "france": 1795381183.0103767
     },
     "last_deal_post_times": {
-      "algeria": 1795380261.8780096
+      "algeria": 1795381180.0423975
     }
   },
   "last_coin_reminder_time": 1795241331.112354,
@@ -32688,7 +32703,8 @@
     "1005009873824892": "bnddeals",
     "1005008248024782": "ecksdeal",
     "1005002292884528": "aniscoupons",
-    "1005010680777854": "bnddeals"
+    "1005010680777854": "bnddeals",
+    "1005007893508418": "lodydeals"
   },
   "published_title_channels": {
     "Test Wrench Set": "test_channel",
@@ -33893,7 +33909,8 @@
     "كابل USB Type C Coiled Cable 3M For Keyboard": "ecksdeal",
     "KingSpec DDR4 8GB 16GB Memoria Ram 2666Mhz 3200 Memory Module 8GBX2 16GBX2": "aniscoupons",
     "WALRAM SSD SATA 480GB": "zedstoreonline",
-    "Oneplus Turbo 6V 8/256GB": "bnddeals"
+    "Oneplus Turbo 6V 8/256GB": "bnddeals",
+    "Walram SSD 480GB": "lodydeals"
   },
   "religious_reminders_history": {
     "mock_rem": "2026-10-02",
