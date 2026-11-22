@@ -901,7 +901,8 @@
     "1005008248024782",
     "1005002292884528",
     "1005010680777854",
-    "1005007893508418"
+    "1005007893508418",
+    "1005004433755802"
   ],
   "published_product_timestamps": {
     "1005012973772517": 1794500732.7845657,
@@ -1822,7 +1823,8 @@
     "1005008248024782": 1795353977.3759387,
     "1005002292884528": 1795354738.6784947,
     "1005010680777854": 1795376024.6586418,
-    "1005007893508418": 1795381174.309368
+    "1005007893508418": 1795381174.309368,
+    "1005004433755802": 1795382836.9089916
   },
   "published_titles": [
     "Wireless WiFi Repeater 300Mbps WiFi Extender Amplifier Booster Router",
@@ -3022,7 +3024,8 @@
     "KingSpec DDR4 8GB 16GB Memoria Ram 2666Mhz 3200 Memory Module 8GBX2 16GBX2",
     "WALRAM SSD SATA 480GB",
     "Oneplus Turbo 6V 8/256GB",
-    "Walram SSD 480GB"
+    "Walram SSD 480GB",
+    "Walram SSD 500GB"
   ],
   "published_title_timestamps": {
     "Xiaomi Redmi Note 17 5G Global Version": 1790857823.0117362,
@@ -4227,10 +4230,10 @@
     "KingSpec DDR4 8GB 16GB Memoria Ram 2666Mhz 3200 Memory Module 8GBX2 16GBX2": 1795354738.6784947,
     "WALRAM SSD SATA 480GB": 1795365744.911586,
     "Oneplus Turbo 6V 8/256GB": 1795376024.6586418,
-    "Walram SSD 480GB": 1795381174.309368
+    "Walram SSD 480GB": 1795381174.309368,
+    "Walram SSD 500GB": 1795382836.9089916
   },
   "published_post_keys": [
-    "aniscoupons:34589",
     "zedstoreonline:39927",
     "aniscoupons:34590",
     "aniscoupons:34592",
@@ -5229,19 +5232,20 @@
     "aniscoupons:35489",
     "zedstoreonline:40572",
     "lodydeals:46811",
-    "aniscoupons:35490"
+    "aniscoupons:35490",
+    "lodydeals:46815"
   ],
   "last_disclaimer_time": 1794524540.9476151,
   "last_calendar_time": 1795177633.1203737,
-  "last_run_time": 1795381363.7169378,
+  "last_run_time": 1795382836.9089916,
   "monitored_channels": {
     "ecksdeal": {
       "last_message_id": 6123,
       "last_check_time": 1795353979.4336424
     },
     "lodydeals": {
-      "last_message_id": 46814,
-      "last_check_time": 1795381919.2291648
+      "last_message_id": 46815,
+      "last_check_time": 1795382838.995726
     },
     "test_channel": {
       "last_message_id": 1793967703,
@@ -5260,8 +5264,8 @@
       "last_check_time": 1793599663.3444748
     },
     "zedstoreonline": {
-      "last_message_id": 40574,
-      "last_check_time": 1795382286.4834893
+      "last_message_id": 40575,
+      "last_check_time": 1795382844.8097017
     },
     "aniscoupons": {
       "last_message_id": 35493,
@@ -6065,7 +6069,8 @@
     "1005008248024782": 13.47,
     "1005002292884528": 67.87,
     "1005010680777854": 268.0,
-    "1005007893508418": 32.39
+    "1005007893508418": 32.39,
+    "1005004433755802": 36.95
   },
   "channel_published_deals": {
     "aniscoupons:32590": {
@@ -31780,6 +31785,16 @@
       "price": 32.3,
       "timestamp": 1795381363.7169378,
       "status": "ACTIVE"
+    },
+    "lodydeals:46815": {
+      "channel_msg_id": 3489,
+      "product_id": "1005004433755802",
+      "title": "Walram SSD 500GB",
+      "channel": "lodydeals",
+      "source_msg_id": 46815,
+      "price": 36.95,
+      "timestamp": 1795382836.9089916,
+      "status": "ACTIVE"
     }
   },
   "schedule_config": {
@@ -31788,17 +31803,17 @@
     "current_interval_minutes": 5,
     "is_paused": false,
     "night_mode_enabled": true,
-    "last_deal_post_time": 1795381366.8326292,
+    "last_deal_post_time": 1795382846.3223975,
     "night_start_hour_dz": 0,
     "night_end_hour_dz": 8,
     "night_pause_enabled": true,
-    "last_sweep_time": 1795382649.749662,
+    "last_sweep_time": 1795382849.3839421,
     "last_sweep_times": {
-      "algeria": 1795382646.7583292,
-      "france": 1795382649.749662
+      "algeria": 1795382846.283038,
+      "france": 1795382849.3839421
     },
     "last_deal_post_times": {
-      "algeria": 1795381366.8326292
+      "algeria": 1795382846.3223975
     }
   },
   "last_coin_reminder_time": 1795241331.112354,
@@ -32714,7 +32729,8 @@
     "1005008248024782": "ecksdeal",
     "1005002292884528": "aniscoupons",
     "1005010680777854": "bnddeals",
-    "1005007893508418": "lodydeals"
+    "1005007893508418": "lodydeals",
+    "1005004433755802": "lodydeals"
   },
   "published_title_channels": {
     "Test Wrench Set": "test_channel",
@@ -33920,7 +33936,8 @@
     "KingSpec DDR4 8GB 16GB Memoria Ram 2666Mhz 3200 Memory Module 8GBX2 16GBX2": "aniscoupons",
     "WALRAM SSD SATA 480GB": "zedstoreonline",
     "Oneplus Turbo 6V 8/256GB": "bnddeals",
-    "Walram SSD 480GB": "lodydeals"
+    "Walram SSD 480GB": "lodydeals",
+    "Walram SSD 500GB": "lodydeals"
   },
   "religious_reminders_history": {
     "mock_rem": "2026-10-02",
@@ -34718,7 +34735,6 @@
   "published_deals_history": {},
   "settings": {},
   "handled_post_keys": [
-    "aniscoupons:34682",
     "zedstoreonline:39997",
     "aniscoupons:34685",
     "aniscoupons:34686",
@@ -35717,7 +35733,8 @@
     "aniscoupons:35492",
     "zedstoreonline:40573",
     "zedstoreonline:40574",
-    "aniscoupons:35493"
+    "aniscoupons:35493",
+    "zedstoreonline:40575"
   ],
   "last_france_cross_promo_time": 1795236239.730334,
   "next_france_cross_promo_interval_seconds": 209180,
@@ -36311,13 +36328,6 @@
         "price": 375.8
       }
     ],
-    "1005010210432531": [
-      {
-        "channel": "zedstoreonline",
-        "ts": 1795339319.6507664,
-        "price": 133.8
-      }
-    ],
     "1005008518280704": [
       {
         "channel": "zedstoreonline",
@@ -36335,13 +36345,6 @@
         "channel": "aniscoupons",
         "ts": 1795344444.6569924,
         "price": 41.8
-      }
-    ],
-    "1005010121796649": [
-      {
-        "channel": "aniscoupons",
-        "ts": 1795339321.3347244,
-        "price": 217.8
       }
     ],
     "1005013603023857": [
@@ -36624,6 +36627,11 @@
       {
         "channel": "zedstoreonline",
         "ts": 1795382286.2682164,
+        "price": 36.2
+      },
+      {
+        "channel": "zedstoreonline",
+        "ts": 1795382844.6650329,
         "price": 36.2
       }
     ]
