@@ -1416,7 +1416,7 @@
     "1005012345939726": 1793656202.4239671,
     "1005010722422210": 1794997865.6657422,
     "1005012582348584": 1794334097.945569,
-    "1005012529582418": 1795027711.160117,
+    "1005012529582418": 1795352881.214854,
     "1005008605565544": 1793543812.9442995,
     "1005009508910625": 1793543817.982839,
     "1005010114569881": 1793543824.1762173,
@@ -1744,7 +1744,7 @@
     "1005006678149338": 1794741974.3299906,
     "1005006995973090": 1794741980.2334778,
     "1005006727646540": 1794741987.1669734,
-    "1005012965284882": 1795027703.9087646,
+    "1005012965284882": 1795352874.1785383,
     "1005004886782975": 1794755267.1243844,
     "1005013168050663": 1794759633.8642445,
     "1005012970221631": 1795083060.0344934,
@@ -3067,7 +3067,7 @@
     "Honor Power 2  12/256": 1790941214.6756065,
     "Honor X70 5G 8/128": 1795256521.0477176,
     "Blackview MEGA 5  8/256": 1795164751.799644,
-    "سماعات اذن فخمة  Moondrop Chu 3 IEM": 1795027703.9087646,
+    "سماعات اذن فخمة  Moondrop Chu 3 IEM": 1795352874.1785383,
     "4G LTE Wireless USB 150Mbps": 1794057675.8729835,
     "Curren 8455 Men's Quartz": 1790943640.1460688,
     "ATTACK SHARK X11SE": 1795249016.9005632,
@@ -3615,7 +3615,7 @@
     "OnePlus 13 5G 12/256GB": 1793543755.5335042,
     "KOOTION SATA SSD 256GB": 1793543760.1113183,
     "CUSU K5 External SSD 512GB": 1793543777.6383033,
-    "لاتنسى تحويل دولة التطبيق الى كندا 🇨🇦": 1795027711.160117,
+    "لاتنسى تحويل دولة التطبيق الى كندا 🇨🇦": 1795352881.214854,
     "سماعات اذن فخمة Truthear x Crinacle Zero BLUE2 IEM'S": 1793543812.9442995,
     "سماعات لاسلكية Mchose V9 Pro 7.1 Wireless": 1793543817.982839,
     "ماوس لاسلكي Attack Shark X3 Wireless": 1793543824.1762173,
@@ -4212,8 +4212,6 @@
     "لوووووووووووووووووووز MOTHERBOARD": 1795346646.0617936
   },
   "published_post_keys": [
-    "lodydeals:46378",
-    "zedstoreonline:39920",
     "aniscoupons:34571",
     "aniscoupons:34572",
     "aniscoupons:34579",
@@ -5211,15 +5209,17 @@
     "lodydeals:46797",
     "lodydeals:46798",
     "aniscoupons:35474",
-    "bnddeals:51388"
+    "bnddeals:51388",
+    "ecksdeal:6120",
+    "ecksdeal:6121"
   ],
   "last_disclaimer_time": 1794524540.9476151,
   "last_calendar_time": 1795177633.1203737,
-  "last_run_time": 1795346646.0617936,
+  "last_run_time": 1795352881.214854,
   "monitored_channels": {
     "ecksdeal": {
-      "last_message_id": 6119,
-      "last_check_time": 1795282395.5364728
+      "last_message_id": 6121,
+      "last_check_time": 1795352883.32238
     },
     "lodydeals": {
       "last_message_id": 46802,
@@ -31578,6 +31578,26 @@
       "price": 211.5,
       "timestamp": 1795346646.0617936,
       "status": "ACTIVE"
+    },
+    "ecksdeal:6120": {
+      "channel_msg_id": 3469,
+      "product_id": "1005012965284882",
+      "title": "سماعات اذن فخمة  Moondrop Chu 3 IEM",
+      "channel": "ecksdeal",
+      "source_msg_id": 6120,
+      "price": 18.03,
+      "timestamp": 1795352874.1785383,
+      "status": "ACTIVE"
+    },
+    "ecksdeal:6121": {
+      "channel_msg_id": 3470,
+      "product_id": "1005012529582418",
+      "title": "لاتنسى تحويل دولة التطبيق الى كندا 🇨🇦",
+      "channel": "ecksdeal",
+      "source_msg_id": 6121,
+      "price": 12.6,
+      "timestamp": 1795352881.214854,
+      "status": "ACTIVE"
     }
   },
   "schedule_config": {
@@ -31586,17 +31606,17 @@
     "current_interval_minutes": 5,
     "is_paused": false,
     "night_mode_enabled": true,
-    "last_deal_post_time": 1795346648.2658596,
+    "last_deal_post_time": 1795352885.4014246,
     "night_start_hour_dz": 0,
     "night_end_hour_dz": 8,
     "night_pause_enabled": true,
-    "last_sweep_time": 1795352696.525776,
+    "last_sweep_time": 1795352887.673979,
     "last_sweep_times": {
-      "algeria": 1795352693.663046,
-      "france": 1795352696.525776
+      "algeria": 1795352885.3734956,
+      "france": 1795352887.673979
     },
     "last_deal_post_times": {
-      "algeria": 1795346648.2658596
+      "algeria": 1795352885.4014246
     }
   },
   "last_coin_reminder_time": 1795241331.112354,
@@ -36287,6 +36307,20 @@
         "channel": "aniscoupons",
         "ts": 1795347376.6991992,
         "price": 10.5
+      }
+    ],
+    "1005012965284882": [
+      {
+        "channel": "ecksdeal",
+        "ts": 1795352872.093231,
+        "price": 18.03
+      }
+    ],
+    "1005012529582418": [
+      {
+        "channel": "ecksdeal",
+        "ts": 1795352879.246262,
+        "price": 12.6
       }
     ]
   },
