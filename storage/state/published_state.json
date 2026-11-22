@@ -1494,7 +1494,7 @@
     "1005010285419688": 1793613895.6129942,
     "1005007805750092": 1793613900.590816,
     "1005006966360399": 1793613905.8870661,
-    "1005010706590867": 1795080117.8039865,
+    "1005010706590867": 1795371434.3132992,
     "1005010428947440": 1793613916.2199864,
     "1005010585654037": 1795088190.1400514,
     "1005013137304827": 1793613926.9213502,
@@ -3732,7 +3732,7 @@
     "MEN SQUARE QUARTZ WATCH": 1793613895.6129942,
     "ONEPLUS 80W CHARGER": 1793613900.590816,
     "GAMINJA WIRELESS CONTROLLER": 1793613905.8870661,
-    "ATTACK SHARK R1": 1793613910.3121545,
+    "ATTACK SHARK R1": 1795371434.3132992,
     "Soundcore Select 4 Go": 1793613916.2199864,
     "Mortal Android TV Box": 1793613921.841963,
     "HONOR 600s 8/256GB": 1793613926.9213502,
@@ -4222,7 +4222,6 @@
     "WALRAM SSD SATA 480GB": 1795365744.911586
   },
   "published_post_keys": [
-    "aniscoupons:34582",
     "zedstoreonline:39923",
     "aniscoupons:34585",
     "zedstoreonline:39924",
@@ -5221,11 +5220,12 @@
     "zedstoreonline:40565",
     "aniscoupons:35483",
     "lodydeals:46806",
-    "zedstoreonline:40570"
+    "zedstoreonline:40570",
+    "aniscoupons:35485"
   ],
   "last_disclaimer_time": 1794524540.9476151,
   "last_calendar_time": 1795177633.1203737,
-  "last_run_time": 1795365744.911586,
+  "last_run_time": 1795371434.3132992,
   "monitored_channels": {
     "ecksdeal": {
       "last_message_id": 6123,
@@ -5256,8 +5256,8 @@
       "last_check_time": 1795365746.9904587
     },
     "aniscoupons": {
-      "last_message_id": 35484,
-      "last_check_time": 1795365751.833433
+      "last_message_id": 35485,
+      "last_check_time": 1795371436.4229262
     },
     "bnddeals": {
       "last_message_id": 51389,
@@ -5761,7 +5761,7 @@
     "1005007060644375": 3.2,
     "1005007805750092": 4.4,
     "1005006966360399": 6.5,
-    "1005010706590867": 16.1,
+    "1005010706590867": 16.0,
     "1005012648097890": 430.0,
     "1005012871436251": 200.96,
     "1005010385663278": 58.55,
@@ -31690,6 +31690,16 @@
       "price": 37.9,
       "timestamp": 1795365744.911586,
       "status": "ACTIVE"
+    },
+    "aniscoupons:35485": {
+      "channel_msg_id": 3481,
+      "product_id": "1005010706590867",
+      "title": "ATTACK SHARK R1",
+      "channel": "aniscoupons",
+      "source_msg_id": 35485,
+      "price": 16.0,
+      "timestamp": 1795371434.3132992,
+      "status": "ACTIVE"
     }
   },
   "schedule_config": {
@@ -31698,17 +31708,17 @@
     "current_interval_minutes": 5,
     "is_paused": false,
     "night_mode_enabled": true,
-    "last_deal_post_time": 1795365752.5261762,
+    "last_deal_post_time": 1795371437.7372844,
     "night_start_hour_dz": 0,
     "night_end_hour_dz": 8,
     "night_pause_enabled": true,
-    "last_sweep_time": 1795371246.2503753,
+    "last_sweep_time": 1795371440.669211,
     "last_sweep_times": {
-      "algeria": 1795371243.620002,
-      "france": 1795371246.2503753
+      "algeria": 1795371437.6884198,
+      "france": 1795371440.669211
     },
     "last_deal_post_times": {
-      "algeria": 1795365752.5261762
+      "algeria": 1795371437.7372844
     }
   },
   "last_coin_reminder_time": 1795241331.112354,
@@ -32316,7 +32326,7 @@
     "1005007060644375": "zedstoreonline",
     "1005007805750092": "aniscoupons",
     "1005006966360399": "aniscoupons",
-    "1005010706590867": "ecksdeal",
+    "1005010706590867": "aniscoupons",
     "1005012648097890": "aniscoupons",
     "1005012871436251": "lodydeals",
     "1005009504965110": "zedstoreonline",
@@ -36515,6 +36525,13 @@
         "channel": "lodydeals",
         "ts": 1795364089.4321094,
         "price": 14.07
+      }
+    ],
+    "1005010706590867": [
+      {
+        "channel": "aniscoupons",
+        "ts": 1795371431.6394353,
+        "price": 16.0
       }
     ]
   },
