@@ -29,7 +29,7 @@ from app.config.settings import settings
 from app.db.session import init_db, db_context
 from app.db.models import Channel, SourceMessage, Deal, GeneratedPost, TelegramPost
 from app.aliexpress.product import product_extractor
-from app.aliexpress.parser import is_spam_or_non_deal, is_allowed_category, detect_deal_type, is_france_deal, extract_telegram_html_text, is_multi_deal_compilation
+from app.aliexpress.parser import is_spam_or_non_deal, is_allowed_category, detect_deal_type, is_france_deal, extract_telegram_html_text, is_multi_deal_compilation, is_coupon_bulletin_post
 from app.aliexpress.promos import promo_tracker
 from app.aliexpress.affiliate import affiliate_service
 from app.ai.generator import caption_generator, format_lodydeals_caption_1to1, format_ecksdeal_caption_1to1, format_competitor_to_lody_1to1, format_multi_deal_tajmi3at_1to1
@@ -816,6 +816,18 @@ async def collect_and_post_last_10_deals(force: bool = False, force_tajmi3at: bo
                             record_post_handled(ch, msg_id)
                             continue
 
+                    # 5.5. Coupon walls are not products. Without this guard a coupon
+                    # bulletin gets a fake product price and is published as a real deal.
+                    if not extracted.is_coupon_list and (
+                        is_coupon_bulletin_post(extracted.title or "", raw_text)
+                        or str(extracted.product_id or "").startswith("COUPONS_")
+                    ):
+                        print(f"  [NOT A PRODUCT] Coupon wall misread as a deal: #{msg_id} from {ch} -> '{extracted.title}'")
+                        max_processed_id = max(max_processed_id, msg_id)
+                        record_monitored_channel_last_id(ch, msg_id)
+                        record_post_handled(ch, msg_id)
+                        continue
+
                     # 6. Validate by Post ID & check Cross-Channel duplicates vs Repeat Posts / Restocks:
                     # Enforce full 24h cooldown to prevent duplicate reposts,
                     # while allowing genuine Restock / Return and Price-Drop exceptions!
@@ -936,7 +948,9 @@ async def collect_and_post_last_10_deals(force: bool = False, force_tajmi3at: bo
                             affiliate_url=aff_link,
                             coupon_code=extracted.coupon_code,
                             extracted_title=extracted.title,
-                            deal_type=deal_type
+                            deal_type=deal_type,
+                            usd_price=extracted.current_price,
+                            eur_price=extracted.current_price_eur
                         )
                     elif ch.lower() in ["ecksdeal", "zedstoreonline", "aniscoupons", "bnddeals"]:
                         caption = format_competitor_to_lody_1to1(
@@ -944,7 +958,9 @@ async def collect_and_post_last_10_deals(force: bool = False, force_tajmi3at: bo
                             affiliate_url=aff_link,
                             coupon_code=extracted.coupon_code,
                             extracted_title=extracted.title,
-                            deal_type=deal_type
+                            deal_type=deal_type,
+                            usd_price=extracted.current_price,
+                            eur_price=extracted.current_price_eur
                         )
                     else:
                         caption = await caption_generator.generate(

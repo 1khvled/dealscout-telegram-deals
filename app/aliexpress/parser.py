@@ -1628,10 +1628,38 @@ def is_coupon_claim_post(text: str) -> bool:
     usd_price, _ = extract_prices(text)
     has_item_link = any("/item/" in u.lower() for u in ali_urls)
     has_coupon_center = any("coupon" in u.lower() or "300003448" in u.lower() for u in ali_urls)
-    if has_item_link and usd_price is not None and not has_coupon_center:
+    # A single-product deal with a seller voucher ("احجز قسيمة البائع 1$") is NOT a
+    # coupon-center claim. The bare action word "احجز" used to make every such post
+    # look like a coupon reservation and get skipped before extraction.
+    seller_voucher_only = bool(re.search(
+        r'(?:احجز|احجزوا|حجز)\s*(?:قسيمـ?ة|كوبون|كود)\s*(?:البـ?ائع|المتجر|خاصة\s*بالمتجر|store|seller)',
+        lower,
+    ))
+    if usd_price is not None and not has_coupon_center and (has_item_link or seller_voucher_only):
         return False
 
     return True
+
+
+# Coupon-wall announcements (e.g. "أحدث كوبونات وتخفيضات AliExpress") are NOT products.
+# Without this guard the extractor happily turns a coupon amount into a fake product price
+# and the pipeline publishes a "تخفيض ممتاز لـ ..." post linking to a dead campaign page.
+COUPON_BULLETIN_TITLE_PATTERNS = [
+    r'كوبونات\s+وتخفيضات',
+    r'أحدث\s+كوبونات|اخر\s+كوبونات|آخر\s+كوبونات',
+    r'كوبونات\s+(?:علي|على)\s+(?:اكسبريس|إكسبريس|aliexpress)',
+    r'كوبونات\s+aliexpress',
+    r'(?:أفضل|افضل)\s+الكوبونات',
+    r'كوبونات\s+اليوم|كودات\s+الخصم',
+    r'coupon\s*(?:center|wall)',
+    r'coupons?\s+and\s+discounts?',
+]
+
+
+def is_coupon_bulletin_post(title: str, text: str = "") -> bool:
+    """True when a post is a generic coupon wall, not a single product deal."""
+    combined = f"{title or ''} {text or ''}".lower()
+    return any(re.search(p, combined, re.IGNORECASE) for p in COUPON_BULLETIN_TITLE_PATTERNS)
 
 
 

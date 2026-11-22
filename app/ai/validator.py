@@ -101,6 +101,24 @@ class DealCaptionValidator:
         "البيز",
     ]
 
+    @staticmethod
+    def _has_price(caption: str, expected: float, symbols: str) -> bool:
+        """Numeric price check.
+
+        Captions may print 4.0 as "4", use an Arabic decimal comma, or show
+        several prices (e.g. a bundle's per-piece price and its 3-piece total).
+        Compare parsed numbers instead of requiring a literal formatted string.
+        """
+        pattern = re.compile(r'([0-9]+(?:[\.,][0-9]{1,2})?)\s*(?:' + symbols + r')')
+        for m in pattern.finditer(caption):
+            try:
+                value = float(m.group(1).replace(",", "."))
+            except ValueError:
+                continue
+            if abs(value - float(expected)) <= 0.011:
+                return True
+        return False
+
     def validate(
         self,
         caption: str,
@@ -168,24 +186,24 @@ class DealCaptionValidator:
             if not any(hook in clean_first_lines for hook in self.SITUATIONAL_HOOKS):
                 errors.append("Missing valid situational hook header")
 
-        # 2. Price verification
+        # 2. Price verification (numeric: "4$" satisfies expected 4.0, and a bundle
+        # caption may show both the per-piece price and the 3-piece total).
         if expected_usd_price is not None:
-            expected_usd_str = f"{expected_usd_price:.2f}"
-            if expected_usd_str not in caption and f"{expected_usd_price:.1f}" not in caption:
+            if not self._has_price(caption, expected_usd_price, r'\$'):
                 errors.append(f"USD price {expected_usd_price} not found in caption")
 
         if expected_eur_price is not None and ("€" in caption or "EUR" in caption):
-            expected_eur_str = f"{expected_eur_price:.2f}"
-            if expected_eur_str not in caption and f"{expected_eur_price:.1f}" not in caption:
-                m_eur = re.search(r'([0-9]+(?:[\.,][0-9]{1,2})?)\s*(?:€|EUR)', caption)
-                if m_eur:
+            if not self._has_price(caption, expected_eur_price, r'€|EUR'):
+                eur_ok = False
+                for m_eur in re.finditer(r'([0-9]+(?:[\.,][0-9]{1,2})?)\s*(?:€|EUR)', caption):
                     try:
                         val_eur = float(m_eur.group(1).replace(",", "."))
-                        if abs(val_eur - expected_eur_price) > max(5.0, expected_eur_price * 0.15):
-                            errors.append(f"EUR price {expected_eur_price} not found in caption (found {val_eur}€)")
-                    except Exception:
-                        errors.append(f"EUR price {expected_eur_price} not found in caption")
-                else:
+                    except ValueError:
+                        continue
+                    if abs(val_eur - expected_eur_price) <= max(5.0, expected_eur_price * 0.15):
+                        eur_ok = True
+                        break
+                if not eur_ok:
                     errors.append(f"EUR price {expected_eur_price} not found in caption")
 
         # 3. Coupon check

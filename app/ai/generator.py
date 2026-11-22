@@ -702,7 +702,9 @@ def format_lodydeals_caption_1to1(
     coupon_code: Optional[str] = None,
     link_mapping: Optional[Dict[str, str]] = None,
     extracted_title: Optional[str] = None,
-    deal_type: Optional[str] = None
+    deal_type: Optional[str] = None,
+    usd_price: Optional[float] = None,
+    eur_price: Optional[float] = None
 ) -> str:
     """
     Standardizes @lodydeals deals using our unified, high-converting format:
@@ -715,7 +717,9 @@ def format_lodydeals_caption_1to1(
         affiliate_url=affiliate_url,
         coupon_code=coupon_code,
         extracted_title=extracted_title,
-        deal_type=deal_type
+        deal_type=deal_type,
+        usd_price=usd_price,
+        eur_price=eur_price
     )
 
 
@@ -861,7 +865,7 @@ def format_coupon_claim_caption(raw_text: str, link_mapping: Dict[str, str]) -> 
     return "\n".join(lines).strip()
 
 
-def format_competitor_to_lody_1to1(raw_text: str, affiliate_url: str, coupon_code: Optional[str] = None, extracted_title: Optional[str] = None, deal_type: Optional[str] = None) -> str:
+def format_competitor_to_lody_1to1(raw_text: str, affiliate_url: str, coupon_code: Optional[str] = None, extracted_title: Optional[str] = None, deal_type: Optional[str] = None, usd_price: Optional[float] = None, eur_price: Optional[float] = None) -> str:
     """
     Transforms incoming posts from ANY monitored channel (Lodydeals, ECKSDEAL, ZedStore, AnisCoupons, BNDDeals)
     into our clean, standardized, high-converting deal format:
@@ -976,19 +980,37 @@ def format_competitor_to_lody_1to1(raw_text: str, affiliate_url: str, coupon_cod
     title = _sanitize_title(title)
 
     # 2. Price Extraction (USD & EUR with BiDi isolation)
+    # Prefer the price verified by ProductExtractor. Re-scraping the raw text here
+    # used to pick the 3-piece bundle total ("3 قطع 16.5$") instead of the
+    # per-piece price ("4.1") that the caption validator expects.
     m_usd = re.search(r'(?:السعر|السعــــر|السعـر|Prix|💰|💵)\s*💲?\s*:?\s*\$?\s*(\d+(?:\.\d+)?)\s*\$?', clean_raw, re.I)
     if not m_usd:
         m_usd = re.search(r'(\d+(?:\.\d+)?)\s*\$', clean_raw)
-    price_str = m_usd.group(1) if m_usd else ""
+    price_str = f"{usd_price:g}" if usd_price is not None else (m_usd.group(1) if m_usd else "")
 
     m_eur = re.search(r'(\d+(?:\.\d+)?)[ 	]*€|€[ 	]*(\d+(?:\.\d+)?)', clean_raw)
-    eur_str = (m_eur.group(1) or m_eur.group(2)) if m_eur else ""
+    eur_str = f"{eur_price:.2f}" if eur_price is not None else ((m_eur.group(1) or m_eur.group(2)) if m_eur else "")
+
+    # Bundle posts quote both a 3-piece total and a per-piece price — keep both.
+    bundle_total = ""
+    if is_bundle:
+        m_total = re.search(r'(?:ثلاث|3)\s*قطع[^\n\d]{0,24}(\d+(?:\.\d+)?)\s*\$', clean_raw)
+        if m_total:
+            bundle_total = m_total.group(1)
 
     price_line = ""
-    if price_str and eur_str:
-        price_line = f"السعر : {price_str}$ ‎({eur_str}€) 🔥"
-    elif price_str:
-        price_line = f"السعر : {price_str}$ 🔥"
+    if price_str:
+        suffix = ""
+        if bundle_total:
+            try:
+                if abs(float(bundle_total) - float(price_str)) > 0.01:
+                    suffix = f" (3 قطع بـ {bundle_total}$)"
+            except ValueError:
+                pass
+        if eur_str:
+            price_line = f"السعر : {price_str}${suffix} ‎({eur_str}€) 🔥"
+        else:
+            price_line = f"السعر : {price_str}${suffix} 🔥"
 
     # 3. Store Coupon (قسيمة البائع)
     store_coupon = ""
@@ -1059,12 +1081,16 @@ def format_ecksdeal_caption_1to1(
     affiliate_url: str,
     coupon_code: Optional[str] = None,
     extracted_title: Optional[str] = None,
-    deal_type: Optional[str] = None
+    deal_type: Optional[str] = None,
+    usd_price: Optional[float] = None,
+    eur_price: Optional[float] = None
 ) -> str:
     return format_competitor_to_lody_1to1(
         raw_text=raw_text,
         affiliate_url=affiliate_url,
         coupon_code=coupon_code,
         extracted_title=extracted_title,
-        deal_type=deal_type
+        deal_type=deal_type,
+        usd_price=usd_price,
+        eur_price=eur_price
     )

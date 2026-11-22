@@ -27,7 +27,7 @@ from app.config.settings import settings
 from app.db.session import init_db, db_context
 from app.db.models import Channel, SourceMessage, Deal, GeneratedPost
 from app.aliexpress.product import product_extractor
-from app.aliexpress.parser import is_spam_or_non_deal, is_allowed_category, detect_deal_type, extract_telegram_html_text
+from app.aliexpress.parser import is_spam_or_non_deal, is_allowed_category, detect_deal_type, extract_telegram_html_text, is_coupon_bulletin_post
 from app.aliexpress.promos import promo_tracker
 from app.aliexpress.affiliate import affiliate_service
 from app.ai.generator import caption_generator
@@ -147,6 +147,16 @@ class AutonomousEngine:
                 # 3. Extract deal / coupon list
                 extracted = await product_extractor.extract_from_message(raw_text)
                 if not extracted or not extracted.is_valid:
+                    if msg_url:
+                        self.seen_message_urls.add(msg_url)
+                    continue
+
+                # 3.2. Coupon walls are not products (avoid fake $15 "deals" with dead links)
+                if not extracted.is_coupon_list and (
+                    is_coupon_bulletin_post(extracted.title or "", raw_text)
+                    or str(extracted.product_id or "").startswith("COUPONS_")
+                ):
+                    logger.debug(f"[@{channel_username}] Coupon wall misread as a deal: {extracted.title}")
                     if msg_url:
                         self.seen_message_urls.add(msg_url)
                     continue
