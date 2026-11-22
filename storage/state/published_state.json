@@ -1772,7 +1772,7 @@
     "1005013270397194": 1795096787.4537058,
     "1005013611971758": 1795097142.4984226,
     "1005013614035166": 1795097149.7422955,
-    "1005012047232780": 1795097711.3860745,
+    "1005012047232780": 1795377867.284167,
     "1005013474374644": 1795098824.3191414,
     "1005013304766961": 1795182132.0040085,
     "1005013268493740": 1795101781.0547688,
@@ -4162,7 +4162,7 @@
     "VIVO X500 PRO MAX": 1795096787.4537058,
     "iPhone 15 Pro Max 256GB": 1795097142.4984226,
     "iPhone 16 Pro  256GB": 1795097149.7422955,
-    "Oppo Find X9 Ultra": 1795097711.3860745,
+    "Oppo Find X9 Ultra": 1795377867.284167,
     "VIVO X300 Ultra": 1795098824.3191414,
     "HONOR MAGIC 9 Pro Max": 1795182132.0040085,
     "Oppo Find X10 Pro max": 1795101781.0547688,
@@ -4226,7 +4226,6 @@
     "Oneplus Turbo 6V 8/256GB": 1795376024.6586418
   },
   "published_post_keys": [
-    "aniscoupons:34586",
     "aniscoupons:34587",
     "zedstoreonline:39925",
     "aniscoupons:34588",
@@ -5225,19 +5224,20 @@
     "aniscoupons:35485",
     "aniscoupons:35486",
     "aniscoupons:35487",
-    "bnddeals:51390"
+    "bnddeals:51390",
+    "aniscoupons:35489"
   ],
   "last_disclaimer_time": 1794524540.9476151,
   "last_calendar_time": 1795177633.1203737,
-  "last_run_time": 1795376024.6586418,
+  "last_run_time": 1795377867.284167,
   "monitored_channels": {
     "ecksdeal": {
       "last_message_id": 6123,
       "last_check_time": 1795353979.4336424
     },
     "lodydeals": {
-      "last_message_id": 46808,
-      "last_check_time": 1795374543.1710932
+      "last_message_id": 46809,
+      "last_check_time": 1795377858.3402302
     },
     "test_channel": {
       "last_message_id": 1793967703,
@@ -5260,8 +5260,8 @@
       "last_check_time": 1795375280.8180509
     },
     "aniscoupons": {
-      "last_message_id": 35488,
-      "last_check_time": 1795376760.186077
+      "last_message_id": 35489,
+      "last_check_time": 1795377869.3703547
     },
     "bnddeals": {
       "last_message_id": 51390,
@@ -6015,7 +6015,7 @@
     "1005013270397194": 928.9,
     "1005013611971758": 871.08,
     "1005013614035166": 973.93,
-    "1005012047232780": 889.3,
+    "1005012047232780": 887.9,
     "1005013474374644": 925.3,
     "1005013304766961": 887.9,
     "1005013268493740": 893.9,
@@ -31735,6 +31735,16 @@
       "price": 268.0,
       "timestamp": 1795376024.6586418,
       "status": "ACTIVE"
+    },
+    "aniscoupons:35489": {
+      "channel_msg_id": 3485,
+      "product_id": "1005012047232780",
+      "title": "Oppo Find X9 Ultra",
+      "channel": "aniscoupons",
+      "source_msg_id": 35489,
+      "price": 887.9,
+      "timestamp": 1795377867.284167,
+      "status": "ACTIVE"
     }
   },
   "schedule_config": {
@@ -31743,17 +31753,17 @@
     "current_interval_minutes": 5,
     "is_paused": false,
     "night_mode_enabled": true,
-    "last_deal_post_time": 1795376026.899876,
+    "last_deal_post_time": 1795377870.3914764,
     "night_start_hour_dz": 0,
     "night_end_hour_dz": 8,
     "night_pause_enabled": true,
-    "last_sweep_time": 1795377674.718748,
+    "last_sweep_time": 1795377872.9370883,
     "last_sweep_times": {
-      "algeria": 1795377672.186422,
-      "france": 1795377674.718748
+      "algeria": 1795377870.3532732,
+      "france": 1795377872.9370883
     },
     "last_deal_post_times": {
-      "algeria": 1795376026.899876
+      "algeria": 1795377870.3914764
     }
   },
   "last_coin_reminder_time": 1795241331.112354,
@@ -34671,7 +34681,6 @@
   "published_deals_history": {},
   "settings": {},
   "handled_post_keys": [
-    "zedstoreonline:39988",
     "zedstoreonline:39989",
     "zedstoreonline:39990",
     "zedstoreonline:39992",
@@ -35670,7 +35679,8 @@
     "lodydeals:46807",
     "lodydeals:46808",
     "zedstoreonline:40571",
-    "aniscoupons:35488"
+    "aniscoupons:35488",
+    "lodydeals:46809"
   ],
   "last_france_cross_promo_time": 1795236239.730334,
   "next_france_cross_promo_interval_seconds": 209180,
@@ -36245,11 +36255,6 @@
   "competitor_product_sightings": {
     "1005007916078341": [
       {
-        "channel": "aniscoupons",
-        "ts": 1795334196.0348606,
-        "price": 49.3
-      },
-      {
         "channel": "zedstoreonline",
         "ts": 1795359862.3032472,
         "price": 50.3
@@ -36590,6 +36595,13 @@
         "channel": "aniscoupons",
         "ts": 1795376759.9905663,
         "price": 268.8
+      }
+    ],
+    "1005012047232780": [
+      {
+        "channel": "aniscoupons",
+        "ts": 1795377865.012963,
+        "price": 887.9
       }
     ]
   },
