@@ -897,7 +897,8 @@
     "1005009319376059",
     "1005011974295002",
     "1005010063967666",
-    "1005009873824892"
+    "1005009873824892",
+    "1005008248024782"
   ],
   "published_product_timestamps": {
     "1005012973772517": 1794500732.7845657,
@@ -1814,7 +1815,8 @@
     "1005009319376059": 1795342254.1571093,
     "1005011974295002": 1795344836.3762915,
     "1005010063967666": 1795345550.2834108,
-    "1005009873824892": 1795346646.0617936
+    "1005009873824892": 1795346646.0617936,
+    "1005008248024782": 1795353977.3759387
   },
   "published_titles": [
     "Wireless WiFi Repeater 300Mbps WiFi Extender Amplifier Booster Router",
@@ -3009,7 +3011,8 @@
     "Blackview MEGA 5 8/256GB 4G",
     "ViVO X300 Ultra 12/256GB",
     "JGINYUE B650M PRO V2",
-    "لوووووووووووووووووووز MOTHERBOARD"
+    "لوووووووووووووووووووز MOTHERBOARD",
+    "كابل USB Type C Coiled Cable 3M For Keyboard"
   ],
   "published_title_timestamps": {
     "Xiaomi Redmi Note 17 5G Global Version": 1790857823.0117362,
@@ -4209,10 +4212,10 @@
     "Blackview MEGA 5 8/256GB 4G": 1795344827.810419,
     "ViVO X300 Ultra 12/256GB": 1795344836.3762915,
     "JGINYUE B650M PRO V2": 1795345550.2834108,
-    "لوووووووووووووووووووز MOTHERBOARD": 1795346646.0617936
+    "لوووووووووووووووووووز MOTHERBOARD": 1795346646.0617936,
+    "كابل USB Type C Coiled Cable 3M For Keyboard": 1795353977.3759387
   },
   "published_post_keys": [
-    "aniscoupons:34572",
     "aniscoupons:34579",
     "aniscoupons:34576",
     "aniscoupons:34577",
@@ -5211,15 +5214,16 @@
     "bnddeals:51388",
     "ecksdeal:6120",
     "ecksdeal:6121",
-    "aniscoupons:35476"
+    "aniscoupons:35476",
+    "ecksdeal:6123"
   ],
   "last_disclaimer_time": 1794524540.9476151,
   "last_calendar_time": 1795177633.1203737,
-  "last_run_time": 1795353435.4897993,
+  "last_run_time": 1795353977.3759387,
   "monitored_channels": {
     "ecksdeal": {
-      "last_message_id": 6122,
-      "last_check_time": 1795353627.9376004
+      "last_message_id": 6123,
+      "last_check_time": 1795353979.4336424
     },
     "lodydeals": {
       "last_message_id": 46802,
@@ -6043,7 +6047,8 @@
     "1005009319376059": 49.5,
     "1005011974295002": 887.7,
     "1005010063967666": 111.68,
-    "1005009873824892": 211.5
+    "1005009873824892": 211.5,
+    "1005008248024782": 13.47
   },
   "channel_published_deals": {
     "aniscoupons:32590": {
@@ -31608,6 +31613,16 @@
       "price": 272.9,
       "timestamp": 1795353435.4897993,
       "status": "ACTIVE"
+    },
+    "ecksdeal:6123": {
+      "channel_msg_id": 3472,
+      "product_id": "1005008248024782",
+      "title": "كابل USB Type C Coiled Cable 3M For Keyboard",
+      "channel": "ecksdeal",
+      "source_msg_id": 6123,
+      "price": 13.47,
+      "timestamp": 1795353977.3759387,
+      "status": "ACTIVE"
     }
   },
   "schedule_config": {
@@ -31616,17 +31631,17 @@
     "current_interval_minutes": 5,
     "is_paused": false,
     "night_mode_enabled": true,
-    "last_deal_post_time": 1795353440.152194,
+    "last_deal_post_time": 1795353981.3877769,
     "night_start_hour_dz": 0,
     "night_end_hour_dz": 8,
     "night_pause_enabled": true,
-    "last_sweep_time": 1795353800.1033669,
+    "last_sweep_time": 1795353984.5037944,
     "last_sweep_times": {
-      "algeria": 1795353797.5272138,
-      "france": 1795353800.1033669
+      "algeria": 1795353981.3634508,
+      "france": 1795353984.5037944
     },
     "last_deal_post_times": {
-      "algeria": 1795353440.152194
+      "algeria": 1795353981.3877769
     }
   },
   "last_coin_reminder_time": 1795241331.112354,
@@ -32538,7 +32553,8 @@
     "1005009319376059": "aniscoupons",
     "1005011974295002": "lodydeals",
     "1005010063967666": "aniscoupons",
-    "1005009873824892": "bnddeals"
+    "1005009873824892": "bnddeals",
+    "1005008248024782": "ecksdeal"
   },
   "published_title_channels": {
     "Test Wrench Set": "test_channel",
@@ -33739,7 +33755,8 @@
     "Blackview MEGA 5 8/256GB 4G": "lodydeals",
     "ViVO X300 Ultra 12/256GB": "lodydeals",
     "JGINYUE B650M PRO V2": "aniscoupons",
-    "لوووووووووووووووووووز MOTHERBOARD": "bnddeals"
+    "لوووووووووووووووووووز MOTHERBOARD": "bnddeals",
+    "كابل USB Type C Coiled Cable 3M For Keyboard": "ecksdeal"
   },
   "religious_reminders_history": {
     "mock_rem": "2026-10-02",
