@@ -1497,7 +1497,7 @@
     "1005010355409000": 1793613934.9347482,
     "1005012648097890": 1793613942.3770478,
     "1005012524603100": 1795293755.0704303,
-    "1005012770405022": 1795000279.9355009,
+    "1005012770405022": 1795337128.5106091,
     "1005012171521680": 1794246148.3838613,
     "1005010758512904": 1793613961.7877593,
     "1005012871436251": 1793707168.1519766,
@@ -2999,7 +2999,8 @@
     "500mL Water Bottle",
     "WALRAM 2.5  sata 480GB",
     "WALRAM  M.2 NVMe SSD 512GB",
-    "VIVO X300 Ultra 12/256"
+    "VIVO X300 Ultra 12/256",
+    "Lenovo Legion Y900 11 Tablet CN Version"
   ],
   "published_title_timestamps": {
     "Xiaomi Redmi Note 17 5G Global Version": 1790857823.0117362,
@@ -4193,10 +4194,10 @@
     "500mL Water Bottle": 1795290738.086464,
     "WALRAM 2.5  sata 480GB": 1795294136.0974371,
     "WALRAM  M.2 NVMe SSD 512GB": 1795295051.5484984,
-    "VIVO X300 Ultra 12/256": 1795296883.1865098
+    "VIVO X300 Ultra 12/256": 1795296883.1865098,
+    "Lenovo Legion Y900 11 Tablet CN Version": 1795337128.5106091
   },
   "published_post_keys": [
-    "lodydeals:46362",
     "lodydeals:46364",
     "lodydeals:46365",
     "aniscoupons:34543",
@@ -5195,11 +5196,12 @@
     "aniscoupons:35456",
     "aniscoupons:35457",
     "aniscoupons:35458",
-    "aniscoupons:35459"
+    "aniscoupons:35459",
+    "bnddeals:51387"
   ],
   "last_disclaimer_time": 1794524540.9476151,
   "last_calendar_time": 1795177633.1203737,
-  "last_run_time": 1795336945.6090689,
+  "last_run_time": 1795337128.5106091,
   "monitored_channels": {
     "ecksdeal": {
       "last_message_id": 6119,
@@ -5234,8 +5236,8 @@
       "last_check_time": 1795336947.6780143
     },
     "bnddeals": {
-      "last_message_id": 51386,
-      "last_check_time": 1795299321.5901177
+      "last_message_id": 51387,
+      "last_check_time": 1795337130.6178725
     }
   },
   "published_product_prices": {
@@ -5694,7 +5696,7 @@
     "1005012887486015": 146.25,
     "1005010758512904": 175.8,
     "1005013478918892": 382.9,
-    "1005012770405022": 311.3,
+    "1005012770405022": 314.3,
     "1005010443138358": 6.9,
     "1005013006189646": 414.2,
     "1005011653777805": 23.8,
@@ -31370,6 +31372,16 @@
       "price": 203.3,
       "timestamp": 1795336945.6090689,
       "status": "ACTIVE"
+    },
+    "bnddeals:51387": {
+      "channel_msg_id": 3450,
+      "product_id": "1005012770405022",
+      "title": "Lenovo Legion Y900 11 Tablet CN Version",
+      "channel": "bnddeals",
+      "source_msg_id": 51387,
+      "price": 314.3,
+      "timestamp": 1795337128.5106091,
+      "status": "ACTIVE"
     }
   },
   "schedule_config": {
@@ -31378,17 +31390,17 @@
     "current_interval_minutes": 5,
     "is_paused": false,
     "night_mode_enabled": true,
-    "last_deal_post_time": 1795336948.6561909,
+    "last_deal_post_time": 1795337130.7142618,
     "night_start_hour_dz": 0,
     "night_end_hour_dz": 8,
     "night_pause_enabled": true,
-    "last_sweep_time": 1795336951.2494776,
+    "last_sweep_time": 1795337133.9989734,
     "last_sweep_times": {
-      "algeria": 1795336948.6266398,
-      "france": 1795336951.2494776
+      "algeria": 1795337130.6664073,
+      "france": 1795337133.9989734
     },
     "last_deal_post_times": {
-      "algeria": 1795336948.6561909
+      "algeria": 1795337130.7142618
     }
   },
   "last_coin_reminder_time": 1795241331.112354,
@@ -31953,7 +31965,7 @@
     "1005012887486015": "lodydeals",
     "1005010758512904": "aniscoupons",
     "1005013478918892": "aniscoupons",
-    "1005012770405022": "aniscoupons",
+    "1005012770405022": "bnddeals",
     "1005010443138358": "lodydeals",
     "1005013006189646": "aniscoupons",
     "1005011653777805": "lodydeals",
@@ -33493,7 +33505,8 @@
     "500mL Water Bottle": "lodydeals",
     "WALRAM 2.5  sata 480GB": "aniscoupons",
     "WALRAM  M.2 NVMe SSD 512GB": "aniscoupons",
-    "VIVO X300 Ultra 12/256": "zedstoreonline"
+    "VIVO X300 Ultra 12/256": "zedstoreonline",
+    "Lenovo Legion Y900 11 Tablet CN Version": "bnddeals"
   },
   "religious_reminders_history": {
     "mock_rem": "2026-10-02",
@@ -35891,13 +35904,6 @@
         "price": 275.0
       }
     ],
-    "1005012524603100": [
-      {
-        "channel": "aniscoupons",
-        "ts": 1795293752.5572705,
-        "price": 271.59
-      }
-    ],
     "1005007820092290": [
       {
         "channel": "zedstoreonline",
@@ -35983,6 +35989,13 @@
         "channel": "aniscoupons",
         "ts": 1795336942.99323,
         "price": 203.3
+      }
+    ],
+    "1005012770405022": [
+      {
+        "channel": "bnddeals",
+        "ts": 1795337125.8064573,
+        "price": 314.3
       }
     ]
   },
