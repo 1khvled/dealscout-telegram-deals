@@ -1552,7 +1552,7 @@
     "1005006972551834": 1793793774.6743867,
     "1005010169268165": 1793794440.9453664,
     "1005010702038861": 1794935200.9462438,
-    "1005009313079431": 1795381363.7169378,
+    "1005009313079431": 1795422508.1241443,
     "1005010702511858": 1795011758.367623,
     "1005008554218453": 1793908979.1776278,
     "1005012499433797": 1794683885.7547128,
@@ -3025,7 +3025,8 @@
     "WALRAM SSD SATA 480GB",
     "Oneplus Turbo 6V 8/256GB",
     "Walram SSD 480GB",
-    "Walram SSD 500GB"
+    "Walram SSD 500GB",
+    "WALRAM SSD SATA 512GB"
   ],
   "published_title_timestamps": {
     "Xiaomi Redmi Note 17 5G Global Version": 1790857823.0117362,
@@ -4231,10 +4232,10 @@
     "WALRAM SSD SATA 480GB": 1795365744.911586,
     "Oneplus Turbo 6V 8/256GB": 1795376024.6586418,
     "Walram SSD 480GB": 1795381174.309368,
-    "Walram SSD 500GB": 1795382836.9089916
+    "Walram SSD 500GB": 1795382836.9089916,
+    "WALRAM SSD SATA 512GB": 1795422508.1241443
   },
   "published_post_keys": [
-    "zedstoreonline:39927",
     "aniscoupons:34590",
     "aniscoupons:34592",
     "aniscoupons:34593",
@@ -5233,11 +5234,12 @@
     "zedstoreonline:40572",
     "lodydeals:46811",
     "aniscoupons:35490",
-    "lodydeals:46815"
+    "lodydeals:46815",
+    "zedstoreonline:40578"
   ],
   "last_disclaimer_time": 1794524540.9476151,
   "last_calendar_time": 1795177633.1203737,
-  "last_run_time": 1795382836.9089916,
+  "last_run_time": 1795422508.1241443,
   "monitored_channels": {
     "ecksdeal": {
       "last_message_id": 6124,
@@ -5264,12 +5266,12 @@
       "last_check_time": 1793599663.3444748
     },
     "zedstoreonline": {
-      "last_message_id": 40577,
-      "last_check_time": 1795419556.007525
+      "last_message_id": 40578,
+      "last_check_time": 1795422510.215157
     },
     "aniscoupons": {
-      "last_message_id": 35500,
-      "last_check_time": 1795422125.3756895
+      "last_message_id": 35502,
+      "last_check_time": 1795422518.476326
     },
     "bnddeals": {
       "last_message_id": 51390,
@@ -5816,7 +5818,7 @@
     "1005006972551834": 31.07,
     "1005010169268165": 19.6,
     "1005010702038861": 18.12,
-    "1005009313079431": 32.3,
+    "1005009313079431": 33.3,
     "1005010702511858": 59.81,
     "1005008554218453": 52.55,
     "1005012499433797": 134.3,
@@ -31795,6 +31797,16 @@
       "price": 36.95,
       "timestamp": 1795382836.9089916,
       "status": "ACTIVE"
+    },
+    "zedstoreonline:40578": {
+      "channel_msg_id": 3490,
+      "product_id": "1005009313079431",
+      "title": "WALRAM SSD SATA 512GB",
+      "channel": "zedstoreonline",
+      "source_msg_id": 40578,
+      "price": 33.3,
+      "timestamp": 1795422508.1241443,
+      "status": "ACTIVE"
     }
   },
   "schedule_config": {
@@ -31803,17 +31815,17 @@
     "current_interval_minutes": 5,
     "is_paused": false,
     "night_mode_enabled": true,
-    "last_deal_post_time": 1795382846.3223975,
+    "last_deal_post_time": 1795422519.7724864,
     "night_start_hour_dz": 0,
     "night_end_hour_dz": 8,
     "night_pause_enabled": true,
-    "last_sweep_time": 1795422317.5628483,
+    "last_sweep_time": 1795422523.0915823,
     "last_sweep_times": {
-      "algeria": 1795422314.13245,
-      "france": 1795422317.5628483
+      "algeria": 1795422519.7326167,
+      "france": 1795422523.0915823
     },
     "last_deal_post_times": {
-      "algeria": 1795382846.3223975
+      "algeria": 1795422519.7724864
     }
   },
   "last_coin_reminder_time": 1795241331.112354,
@@ -32463,7 +32475,7 @@
     "1005006972551834": "lodydeals",
     "1005010169268165": "lodydeals",
     "1005010702038861": "ecksdeal",
-    "1005009313079431": "aniscoupons",
+    "1005009313079431": "zedstoreonline",
     "1005010702511858": "lodydeals",
     "1005008554218453": "lodydeals",
     "1005012499433797": "aniscoupons",
@@ -33937,7 +33949,8 @@
     "WALRAM SSD SATA 480GB": "zedstoreonline",
     "Oneplus Turbo 6V 8/256GB": "bnddeals",
     "Walram SSD 480GB": "lodydeals",
-    "Walram SSD 500GB": "lodydeals"
+    "Walram SSD 500GB": "lodydeals",
+    "WALRAM SSD SATA 512GB": "zedstoreonline"
   },
   "religious_reminders_history": {
     "mock_rem": "2026-10-02",
@@ -34735,8 +34748,6 @@
   "published_deals_history": {},
   "settings": {},
   "handled_post_keys": [
-    "aniscoupons:34694",
-    "aniscoupons:34695",
     "aniscoupons:34697",
     "aniscoupons:34698",
     "zedstoreonline:40006",
@@ -35734,7 +35745,9 @@
     "aniscoupons:35496",
     "zedstoreonline:40577",
     "aniscoupons:35497",
-    "aniscoupons:35498"
+    "aniscoupons:35498",
+    "aniscoupons:35501",
+    "aniscoupons:35502"
   ],
   "last_france_cross_promo_time": 1795236239.730334,
   "next_france_cross_promo_interval_seconds": 209180,
@@ -36307,69 +36320,7 @@
     "restock_alert": "2026-11-11"
   },
   "competitor_product_sightings": {
-    "1005007916078341": [
-      {
-        "channel": "zedstoreonline",
-        "ts": 1795359862.3032472,
-        "price": 50.3
-      }
-    ],
-    "1005010721042860": [
-      {
-        "channel": "lodydeals",
-        "ts": 1795344841.9803934,
-        "price": 375.8
-      }
-    ],
-    "1005008518280704": [
-      {
-        "channel": "lodydeals",
-        "ts": 1795344852.664819,
-        "price": 177.61
-      }
-    ],
-    "1005008703989845": [
-      {
-        "channel": "aniscoupons",
-        "ts": 1795344444.6569924,
-        "price": 41.8
-      }
-    ],
-    "1005008366962319": [
-      {
-        "channel": "zedstoreonline",
-        "ts": 1795362993.0608187,
-        "price": 30.0
-      }
-    ],
-    "1005012931209980": [
-      {
-        "channel": "aniscoupons",
-        "ts": 1795342983.4695258,
-        "price": 275.0
-      }
-    ],
     "1005009313079431": [
-      {
-        "channel": "aniscoupons",
-        "ts": 1795343536.3590105,
-        "price": 37.9
-      },
-      {
-        "channel": "lodydeals",
-        "ts": 1795344818.6320388,
-        "price": 37.6
-      },
-      {
-        "channel": "zedstoreonline",
-        "ts": 1795365742.3515632,
-        "price": 37.9
-      },
-      {
-        "channel": "aniscoupons",
-        "ts": 1795365751.7197065,
-        "price": 37.9
-      },
       {
         "channel": "aniscoupons",
         "ts": 1795381361.064593,
@@ -36389,186 +36340,21 @@
         "channel": "aniscoupons",
         "ts": 1795381925.9148176,
         "price": 32.3
-      }
-    ],
-    "1005012374550298": [
-      {
-        "channel": "aniscoupons",
-        "ts": 1795344082.7262259,
-        "price": 15.85
-      }
-    ],
-    "1005012524603100": [
-      {
-        "channel": "aniscoupons",
-        "ts": 1795344632.3421092,
-        "price": 271.59
-      }
-    ],
-    "1005009693337727": [
-      {
-        "channel": "lodydeals",
-        "ts": 1795344819.875943,
-        "price": 113.1
-      }
-    ],
-    "1005009073904302": [
-      {
-        "channel": "lodydeals",
-        "ts": 1795344825.276588,
-        "price": 228.32
       },
       {
         "channel": "zedstoreonline",
-        "ts": 1795347560.2729232,
-        "price": 228.3
-      }
-    ],
-    "1005011974295002": [
-      {
-        "channel": "lodydeals",
-        "ts": 1795344833.9296281,
-        "price": 887.7
-      }
-    ],
-    "1005009104334975": [
-      {
-        "channel": "lodydeals",
-        "ts": 1795344847.185163,
-        "price": 10.59
-      }
-    ],
-    "1005007027334636": [
-      {
-        "channel": "aniscoupons",
-        "ts": 1795347376.6991992,
-        "price": 10.5
-      },
-      {
-        "channel": "zedstoreonline",
-        "ts": 1795353795.1906185,
-        "price": 10.5
-      }
-    ],
-    "1005012965284882": [
-      {
-        "channel": "ecksdeal",
-        "ts": 1795352872.093231,
-        "price": 18.03
-      }
-    ],
-    "1005012529582418": [
-      {
-        "channel": "ecksdeal",
-        "ts": 1795352879.246262,
-        "price": 12.6
-      }
-    ],
-    "32847542727": [
-      {
-        "channel": "aniscoupons",
-        "ts": 1795353062.8656702,
-        "price": 64.0
+        "ts": 1795422505.669385,
+        "price": 33.3
       },
       {
         "channel": "aniscoupons",
-        "ts": 1795353066.0014448,
-        "price": 64.0
+        "ts": 1795422515.0813465,
+        "price": 33.3
       },
       {
         "channel": "aniscoupons",
-        "ts": 1795353438.468125,
-        "price": 64.0
-      }
-    ],
-    "1005012574108028": [
-      {
-        "channel": "aniscoupons",
-        "ts": 1795353432.9581513,
-        "price": 272.9
-      },
-      {
-        "channel": "zedstoreonline",
-        "ts": 1795364281.6334753,
-        "price": 272.0
-      }
-    ],
-    "1005013005786079": [
-      {
-        "channel": "aniscoupons",
-        "ts": 1795358929.6891959,
-        "price": 18.29
-      },
-      {
-        "channel": "bnddeals",
-        "ts": 1795359306.682296,
-        "price": 18.0
-      },
-      {
-        "channel": "aniscoupons",
-        "ts": 1795360228.5759902,
-        "price": 18.29
-      },
-      {
-        "channel": "zedstoreonline",
-        "ts": 1795360605.092277,
-        "price": 18.2
-      }
-    ],
-    "1005011779814585": [
-      {
-        "channel": "aniscoupons",
-        "ts": 1795362078.0310645,
-        "price": 191.7
-      }
-    ],
-    "1005013170854617": [
-      {
-        "channel": "zedstoreonline",
-        "ts": 1795363745.9076135,
-        "price": 260.0
-      }
-    ],
-    "1005010706691647": [
-      {
-        "channel": "lodydeals",
-        "ts": 1795364089.4321094,
-        "price": 14.07
-      }
-    ],
-    "1005010706590867": [
-      {
-        "channel": "aniscoupons",
-        "ts": 1795371431.6394353,
-        "price": 16.0
-      }
-    ],
-    "1005010033441204": [
-      {
-        "channel": "aniscoupons",
-        "ts": 1795371611.4716475,
-        "price": 14.6
-      }
-    ],
-    "1005006990064696": [
-      {
-        "channel": "aniscoupons",
-        "ts": 1795372534.1985772,
-        "price": 42.1
-      }
-    ],
-    "1005010680777854": [
-      {
-        "channel": "aniscoupons",
-        "ts": 1795376759.9905663,
-        "price": 268.8
-      }
-    ],
-    "1005012047232780": [
-      {
-        "channel": "aniscoupons",
-        "ts": 1795377865.012963,
-        "price": 887.9
+        "ts": 1795422518.3261929,
+        "price": 33.3
       }
     ],
     "1005010428947440": [
