@@ -1768,7 +1768,7 @@
     "1005010538481521": 1795088201.579061,
     "1005009354317262": 1795079588.3610423,
     "1005007721842895": 1795083426.9610174,
-    "1005012325373696": 1795336945.6090689,
+    "1005012325373696": 1795431492.1213608,
     "1005012929627900": 1795283256.2680137,
     "1005009465190932": 1795095306.94495,
     "1005013270397194": 1795096787.4537058,
@@ -4163,7 +4163,7 @@
     "CUSU DDR4 8GBx2 3200MHz": 1795081588.9428203,
     "لأكثر طلباً شاحن": 1795081619.0346873,
     "HOCO CS25A 20W PD": 1795083426.9610174,
-    "Realme P4 (8/256GB)": 1795336945.6090689,
+    "Realme P4 (8/256GB)": 1795431492.1213608,
     "Ulanzi ST-06S ✅": 1795085808.5784442,
     "ESSAGER 45W Car Charger PD Fast Charging with Retractable": 1795086173.3845732,
     "Wireless Car Air Pump": 1795283256.2680137,
@@ -4240,7 +4240,6 @@
     "KOOTION SATA 3 SSD": 1795426347.1170113
   },
   "published_post_keys": [
-    "aniscoupons:34598",
     "zedstoreonline:39928",
     "aniscoupons:34600",
     "aniscoupons:34601",
@@ -5239,11 +5238,12 @@
     "zedstoreonline:40580",
     "aniscoupons:35509",
     "aniscoupons:35510",
-    "aniscoupons:35511"
+    "aniscoupons:35511",
+    "aniscoupons:35512"
   ],
   "last_disclaimer_time": 1794524540.9476151,
   "last_calendar_time": 1795177633.1203737,
-  "last_run_time": 1795430754.1421003,
+  "last_run_time": 1795431492.1213608,
   "monitored_channels": {
     "ecksdeal": {
       "last_message_id": 6124,
@@ -5274,8 +5274,8 @@
       "last_check_time": 1795430567.9048233
     },
     "aniscoupons": {
-      "last_message_id": 35511,
-      "last_check_time": 1795430756.2321832
+      "last_message_id": 35512,
+      "last_check_time": 1795431494.2077608
     },
     "bnddeals": {
       "last_message_id": 51391,
@@ -31871,6 +31871,16 @@
       "price": 177.3,
       "timestamp": 1795430754.1421003,
       "status": "ACTIVE"
+    },
+    "aniscoupons:35512": {
+      "channel_msg_id": 3497,
+      "product_id": "1005012325373696",
+      "title": "Realme P4 (8/256GB)",
+      "channel": "aniscoupons",
+      "source_msg_id": 35512,
+      "price": 203.3,
+      "timestamp": 1795431492.1213608,
+      "status": "ACTIVE"
     }
   },
   "schedule_config": {
@@ -31879,17 +31889,17 @@
     "current_interval_minutes": 5,
     "is_paused": false,
     "night_mode_enabled": true,
-    "last_deal_post_time": 1795430757.3728118,
+    "last_deal_post_time": 1795431495.293132,
     "night_start_hour_dz": 0,
     "night_end_hour_dz": 8,
     "night_pause_enabled": true,
-    "last_sweep_time": 1795431303.5145671,
+    "last_sweep_time": 1795431498.4726884,
     "last_sweep_times": {
-      "algeria": 1795431301.100539,
-      "france": 1795431303.5145671
+      "algeria": 1795431495.254969,
+      "france": 1795431498.4726884
     },
     "last_deal_post_times": {
-      "algeria": 1795430757.3728118
+      "algeria": 1795431495.293132
     }
   },
   "last_coin_reminder_time": 1795241331.112354,
@@ -36468,6 +36478,13 @@
         "channel": "aniscoupons",
         "ts": 1795430751.7398963,
         "price": 177.3
+      }
+    ],
+    "1005012325373696": [
+      {
+        "channel": "aniscoupons",
+        "ts": 1795431489.2937088,
+        "price": 203.3
       }
     ]
   },
