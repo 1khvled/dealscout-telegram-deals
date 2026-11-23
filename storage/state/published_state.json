@@ -1420,7 +1420,7 @@
     "1005012790288780": 1793656271.0286891,
     "1005012345939726": 1793656202.4239671,
     "1005010722422210": 1794997865.6657422,
-    "1005012582348584": 1794334097.945569,
+    "1005012582348584": 1795426347.1170113,
     "1005012529582418": 1795352881.214854,
     "1005008605565544": 1793543812.9442995,
     "1005009508910625": 1793543817.982839,
@@ -3027,7 +3027,8 @@
     "Walram SSD 480GB",
     "Walram SSD 500GB",
     "WALRAM SSD SATA 512GB",
-    "KOOTION SATA3 SSD 256GB"
+    "KOOTION SATA3 SSD 256GB",
+    "KOOTION SATA 3 SSD"
   ],
   "published_title_timestamps": {
     "Xiaomi Redmi Note 17 5G Global Version": 1790857823.0117362,
@@ -4235,10 +4236,10 @@
     "Walram SSD 480GB": 1795381174.309368,
     "Walram SSD 500GB": 1795382836.9089916,
     "WALRAM SSD SATA 512GB": 1795422508.1241443,
-    "KOOTION SATA3 SSD 256GB": 1795424517.998026
+    "KOOTION SATA3 SSD 256GB": 1795424517.998026,
+    "KOOTION SATA 3 SSD": 1795426347.1170113
   },
   "published_post_keys": [
-    "aniscoupons:34593",
     "aniscoupons:34595",
     "aniscoupons:34596",
     "aniscoupons:34597",
@@ -5237,11 +5238,12 @@
     "lodydeals:46815",
     "zedstoreonline:40578",
     "bnddeals:51391",
-    "aniscoupons:35505"
+    "aniscoupons:35505",
+    "zedstoreonline:40580"
   ],
   "last_disclaimer_time": 1794524540.9476151,
   "last_calendar_time": 1795177633.1203737,
-  "last_run_time": 1795424878.719029,
+  "last_run_time": 1795426347.1170113,
   "monitored_channels": {
     "ecksdeal": {
       "last_message_id": 6124,
@@ -5268,8 +5270,8 @@
       "last_check_time": 1793599663.3444748
     },
     "zedstoreonline": {
-      "last_message_id": 40579,
-      "last_check_time": 1795423412.0873804
+      "last_message_id": 40580,
+      "last_check_time": 1795426349.2071483
     },
     "aniscoupons": {
       "last_message_id": 35506,
@@ -5702,7 +5704,7 @@
     "1005012790288780": 26.95,
     "1005012345939726": 18.62,
     "1005010722422210": 405.99,
-    "1005012582348584": 8.3,
+    "1005012582348584": 16.5,
     "1005012529582418": 12.6,
     "1005008605565544": 58.59,
     "1005009508910625": 46.26,
@@ -31829,6 +31831,16 @@
       "price": 27.5,
       "timestamp": 1795424878.719029,
       "status": "ACTIVE"
+    },
+    "zedstoreonline:40580": {
+      "channel_msg_id": 3493,
+      "product_id": "1005012582348584",
+      "title": "KOOTION SATA 3 SSD",
+      "channel": "zedstoreonline",
+      "source_msg_id": 40580,
+      "price": 16.5,
+      "timestamp": 1795426347.1170113,
+      "status": "ACTIVE"
     }
   },
   "schedule_config": {
@@ -31837,17 +31849,17 @@
     "current_interval_minutes": 5,
     "is_paused": false,
     "night_mode_enabled": true,
-    "last_deal_post_time": 1795424881.7445245,
+    "last_deal_post_time": 1795426351.0581596,
     "night_start_hour_dz": 0,
     "night_end_hour_dz": 8,
     "night_pause_enabled": true,
-    "last_sweep_time": 1795426166.5650377,
+    "last_sweep_time": 1795426353.7936506,
     "last_sweep_times": {
-      "algeria": 1795426164.468113,
-      "france": 1795426166.5650377
+      "algeria": 1795426351.019591,
+      "france": 1795426353.7936506
     },
     "last_deal_post_times": {
-      "algeria": 1795424881.7445245
+      "algeria": 1795426351.0581596
     }
   },
   "last_coin_reminder_time": 1795241331.112354,
@@ -32378,7 +32390,7 @@
     "1005012790288780": "lodydeals",
     "1005012345939726": "lodydeals",
     "1005010722422210": "aniscoupons",
-    "1005012582348584": "lodydeals",
+    "1005012582348584": "zedstoreonline",
     "1005012529582418": "ecksdeal",
     "1005008605565544": "ecksdeal",
     "1005009508910625": "ecksdeal",
@@ -33973,7 +33985,8 @@
     "Walram SSD 480GB": "lodydeals",
     "Walram SSD 500GB": "lodydeals",
     "WALRAM SSD SATA 512GB": "zedstoreonline",
-    "KOOTION SATA3 SSD 256GB": "bnddeals"
+    "KOOTION SATA3 SSD 256GB": "bnddeals",
+    "KOOTION SATA 3 SSD": "zedstoreonline"
   },
   "religious_reminders_history": {
     "mock_rem": "2026-10-02",
@@ -36345,21 +36358,6 @@
   "competitor_product_sightings": {
     "1005009313079431": [
       {
-        "channel": "lodydeals",
-        "ts": 1795381913.3979971,
-        "price": 32.39
-      },
-      {
-        "channel": "lodydeals",
-        "ts": 1795381916.1459243,
-        "price": 32.39
-      },
-      {
-        "channel": "aniscoupons",
-        "ts": 1795381925.9148176,
-        "price": 32.3
-      },
-      {
         "channel": "zedstoreonline",
         "ts": 1795422505.669385,
         "price": 33.3
@@ -36385,24 +36383,7 @@
         "price": 33.3
       }
     ],
-    "1005007893508418": [
-      {
-        "channel": "zedstoreonline",
-        "ts": 1795382286.2682164,
-        "price": 36.2
-      },
-      {
-        "channel": "zedstoreonline",
-        "ts": 1795382844.6650329,
-        "price": 36.2
-      }
-    ],
     "1005004433755802": [
-      {
-        "channel": "aniscoupons",
-        "ts": 1795383015.8031278,
-        "price": 36.9
-      },
       {
         "channel": "zedstoreonline",
         "ts": 1795383206.4206297,
@@ -36436,6 +36417,13 @@
         "channel": "aniscoupons",
         "ts": 1795424876.2707658,
         "price": 27.5
+      }
+    ],
+    "1005012582348584": [
+      {
+        "channel": "zedstoreonline",
+        "ts": 1795426344.491754,
+        "price": 16.5
       }
     ]
   },
