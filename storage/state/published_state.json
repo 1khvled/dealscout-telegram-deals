@@ -905,7 +905,8 @@
     "1005004433755802",
     "1005013572353302",
     "1005012172081619",
-    "1005007869625249"
+    "1005007869625249",
+    "1005013572273568"
   ],
   "published_product_timestamps": {
     "1005012973772517": 1794500732.7845657,
@@ -1830,7 +1831,8 @@
     "1005004433755802": 1795382836.9089916,
     "1005013572353302": 1795457306.5240903,
     "1005012172081619": 1795461354.838551,
-    "1005007869625249": 1795465234.865786
+    "1005007869625249": 1795465234.865786,
+    "1005013572273568": 1795472795.5793128
   },
   "published_titles": [
     "Wireless WiFi Repeater 300Mbps WiFi Extender Amplifier Booster Router",
@@ -3044,7 +3046,8 @@
     "Zeblaze Btalk 4 Pro Voice Calling Amoled",
     "CUSU RAM DDR4 3200MHz 16GB",
     "BOYA Mini 2 Wireless Lavalier Microphone",
-    "عودة المايك الأسطوري ما تراطيش"
+    "عودة المايك الأسطوري ما تراطيش",
+    "ADATA XPG DDR4 8GBx2 3200Mhz"
   ],
   "published_title_timestamps": {
     "Xiaomi Redmi Note 17 5G Global Version": 1790857823.0117362,
@@ -4263,10 +4266,10 @@
     "Zeblaze Btalk 4 Pro Voice Calling Amoled": 1795463758.3094215,
     "CUSU RAM DDR4 3200MHz 16GB": 1795465234.865786,
     "BOYA Mini 2 Wireless Lavalier Microphone": 1795466729.299068,
-    "عودة المايك الأسطوري ما تراطيش": 1795467282.6052318
+    "عودة المايك الأسطوري ما تراطيش": 1795467282.6052318,
+    "ADATA XPG DDR4 8GBx2 3200Mhz": 1795472795.5793128
   },
   "published_post_keys": [
-    "aniscoupons:34623",
     "zedstoreonline:39951",
     "aniscoupons:34625",
     "aniscoupons:34626",
@@ -5265,19 +5268,20 @@
     "bnddeals:51397",
     "bnddeals:51398",
     "aniscoupons:35528",
-    "aniscoupons:35535"
+    "aniscoupons:35535",
+    "lodydeals:46821"
   ],
   "last_disclaimer_time": 1794524540.9476151,
   "last_calendar_time": 1795177633.1203737,
-  "last_run_time": 1795471879.4752672,
+  "last_run_time": 1795472795.5793128,
   "monitored_channels": {
     "ecksdeal": {
       "last_message_id": 6125,
       "last_check_time": 1795432235.194755
     },
     "lodydeals": {
-      "last_message_id": 46820,
-      "last_check_time": 1795437627.8796887
+      "last_message_id": 46821,
+      "last_check_time": 1795472797.666671
     },
     "test_channel": {
       "last_message_id": 1793967703,
@@ -5304,8 +5308,8 @@
       "last_check_time": 1795472608.0620399
     },
     "bnddeals": {
-      "last_message_id": 51399,
-      "last_check_time": 1795468021.1009681
+      "last_message_id": 51400,
+      "last_check_time": 1795472801.4805732
     }
   },
   "published_product_prices": {
@@ -6105,7 +6109,8 @@
     "1005004433755802": 36.95,
     "1005013572353302": 13.18,
     "1005012172081619": 22.49,
-    "1005007869625249": 82.6
+    "1005007869625249": 82.6,
+    "1005013572273568": 76.83
   },
   "channel_published_deals": {
     "aniscoupons:32590": {
@@ -32160,6 +32165,16 @@
       "price": 34.8,
       "timestamp": 1795471879.4752672,
       "status": "ACTIVE"
+    },
+    "lodydeals:46821": {
+      "channel_msg_id": 3525,
+      "product_id": "1005013572273568",
+      "title": "ADATA XPG DDR4 8GBx2 3200Mhz",
+      "channel": "lodydeals",
+      "source_msg_id": 46821,
+      "price": 76.83,
+      "timestamp": 1795472795.5793128,
+      "status": "ACTIVE"
     }
   },
   "schedule_config": {
@@ -32168,17 +32183,17 @@
     "current_interval_minutes": 5,
     "is_paused": false,
     "night_mode_enabled": true,
-    "last_deal_post_time": 1795471882.664753,
+    "last_deal_post_time": 1795472801.5485241,
     "night_start_hour_dz": 0,
     "night_end_hour_dz": 8,
     "night_pause_enabled": true,
-    "last_sweep_time": 1795472611.018736,
+    "last_sweep_time": 1795472804.4521353,
     "last_sweep_times": {
-      "algeria": 1795472608.7650766,
-      "france": 1795472611.018736
+      "algeria": 1795472801.5147245,
+      "france": 1795472804.4521353
     },
     "last_deal_post_times": {
-      "algeria": 1795471882.664753
+      "algeria": 1795472801.5485241
     }
   },
   "last_coin_reminder_time": 1795433324.042843,
@@ -33098,7 +33113,8 @@
     "1005004433755802": "lodydeals",
     "1005013572353302": "aniscoupons",
     "1005012172081619": "aniscoupons",
-    "1005007869625249": "aniscoupons"
+    "1005007869625249": "aniscoupons",
+    "1005013572273568": "lodydeals"
   },
   "published_title_channels": {
     "Test Wrench Set": "test_channel",
@@ -34318,7 +34334,8 @@
     "Zeblaze Btalk 4 Pro Voice Calling Amoled": "zedstoreonline",
     "CUSU RAM DDR4 3200MHz 16GB": "aniscoupons",
     "BOYA Mini 2 Wireless Lavalier Microphone": "bnddeals",
-    "عودة المايك الأسطوري ما تراطيش": "bnddeals"
+    "عودة المايك الأسطوري ما تراطيش": "bnddeals",
+    "ADATA XPG DDR4 8GBx2 3200Mhz": "lodydeals"
   },
   "religious_reminders_history": {
     "mock_rem": "2026-10-02",
@@ -35116,7 +35133,6 @@
   "published_deals_history": {},
   "settings": {},
   "handled_post_keys": [
-    "lodydeals:46424",
     "aniscoupons:34715",
     "aniscoupons:34716",
     "aniscoupons:34717",
@@ -36115,7 +36131,8 @@
     "aniscoupons:35532",
     "aniscoupons:35533",
     "aniscoupons:35534",
-    "aniscoupons:35536"
+    "aniscoupons:35536",
+    "bnddeals:51400"
   ],
   "last_france_cross_promo_time": 1795236239.730334,
   "next_france_cross_promo_interval_seconds": 209180,
@@ -36953,6 +36970,13 @@
         "channel": "aniscoupons",
         "ts": 1795471877.3310616,
         "price": 34.8
+      }
+    ],
+    "1005013572273568": [
+      {
+        "channel": "bnddeals",
+        "ts": 1795472801.3543432,
+        "price": 76.8
       }
     ]
   },
