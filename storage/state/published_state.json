@@ -1833,7 +1833,7 @@
     "1005013572353302": 1795457306.5240903,
     "1005012172081619": 1795461354.838551,
     "1005007869625249": 1795465234.865786,
-    "1005013572273568": 1795472795.5793128,
+    "1005013572273568": 1795476463.9675937,
     "COUPONBULLETIN_lodydeals_46823": 1795474088.8029113
   },
   "published_titles": [
@@ -3050,7 +3050,8 @@
     "BOYA Mini 2 Wireless Lavalier Microphone",
     "عودة المايك الأسطوري ما تراطيش",
     "ADATA XPG DDR4 8GBx2 3200Mhz",
-    "أفضل مايك لصناعة المحتوى"
+    "أفضل مايك لصناعة المحتوى",
+    "ADATA XPG DDR4 Ram  8GB×2 3200MHZ"
   ],
   "published_title_timestamps": {
     "Xiaomi Redmi Note 17 5G Global Version": 1790857823.0117362,
@@ -4271,10 +4272,10 @@
     "BOYA Mini 2 Wireless Lavalier Microphone": 1795466729.299068,
     "عودة المايك الأسطوري ما تراطيش": 1795467282.6052318,
     "ADATA XPG DDR4 8GBx2 3200Mhz": 1795472795.5793128,
-    "أفضل مايك لصناعة المحتوى": 1795474088.8029113
+    "أفضل مايك لصناعة المحتوى": 1795474088.8029113,
+    "ADATA XPG DDR4 Ram  8GB×2 3200MHZ": 1795476463.9675937
   },
   "published_post_keys": [
-    "aniscoupons:34626",
     "aniscoupons:34627",
     "aniscoupons:34628",
     "zedstoreonline:39955",
@@ -5273,11 +5274,12 @@
     "aniscoupons:35535",
     "lodydeals:46821",
     "bnddeals:51401",
-    "lodydeals:46823"
+    "lodydeals:46823",
+    "aniscoupons:35539"
   ],
   "last_disclaimer_time": 1794524540.9476151,
   "last_calendar_time": 1795177633.1203737,
-  "last_run_time": 1795474088.8029113,
+  "last_run_time": 1795476463.9675937,
   "monitored_channels": {
     "ecksdeal": {
       "last_message_id": 6126,
@@ -5308,8 +5310,8 @@
       "last_check_time": 1795473533.1755981
     },
     "aniscoupons": {
-      "last_message_id": 35538,
-      "last_check_time": 1795474631.1420102
+      "last_message_id": 35539,
+      "last_check_time": 1795476466.1251192
     },
     "bnddeals": {
       "last_message_id": 51401,
@@ -6114,7 +6116,7 @@
     "1005013572353302": 13.18,
     "1005012172081619": 22.49,
     "1005007869625249": 82.6,
-    "1005013572273568": 76.83
+    "1005013572273568": 76.8
   },
   "channel_published_deals": {
     "aniscoupons:32590": {
@@ -32199,6 +32201,16 @@
       "price": null,
       "timestamp": 1795474088.8029113,
       "status": "ACTIVE"
+    },
+    "aniscoupons:35539": {
+      "channel_msg_id": 3528,
+      "product_id": "1005013572273568",
+      "title": "ADATA XPG DDR4 Ram  8GB×2 3200MHZ",
+      "channel": "aniscoupons",
+      "source_msg_id": 35539,
+      "price": 76.8,
+      "timestamp": 1795476463.9675937,
+      "status": "ACTIVE"
     }
   },
   "schedule_config": {
@@ -32207,17 +32219,17 @@
     "current_interval_minutes": 5,
     "is_paused": false,
     "night_mode_enabled": true,
-    "last_deal_post_time": 1795474091.96661,
+    "last_deal_post_time": 1795476467.0771542,
     "night_start_hour_dz": 0,
     "night_end_hour_dz": 8,
     "night_pause_enabled": true,
-    "last_sweep_time": 1795476283.2867668,
+    "last_sweep_time": 1795476469.6726003,
     "last_sweep_times": {
-      "algeria": 1795476280.2285106,
-      "france": 1795476283.2867668
+      "algeria": 1795476467.034485,
+      "france": 1795476469.6726003
     },
     "last_deal_post_times": {
-      "algeria": 1795474091.96661
+      "algeria": 1795476467.0771542
     }
   },
   "last_coin_reminder_time": 1795433324.042843,
@@ -33138,7 +33150,7 @@
     "1005013572353302": "aniscoupons",
     "1005012172081619": "aniscoupons",
     "1005007869625249": "aniscoupons",
-    "1005013572273568": "lodydeals",
+    "1005013572273568": "aniscoupons",
     "COUPONBULLETIN_lodydeals_46823": "lodydeals"
   },
   "published_title_channels": {
@@ -34361,7 +34373,8 @@
     "BOYA Mini 2 Wireless Lavalier Microphone": "bnddeals",
     "عودة المايك الأسطوري ما تراطيش": "bnddeals",
     "ADATA XPG DDR4 8GBx2 3200Mhz": "lodydeals",
-    "أفضل مايك لصناعة المحتوى": "lodydeals"
+    "أفضل مايك لصناعة المحتوى": "lodydeals",
+    "ADATA XPG DDR4 Ram  8GB×2 3200MHZ": "aniscoupons"
   },
   "religious_reminders_history": {
     "mock_rem": "2026-10-02",
@@ -36806,20 +36819,6 @@
         "price": 133.8
       }
     ],
-    "1005012325373696": [
-      {
-        "channel": "aniscoupons",
-        "ts": 1795431489.2937088,
-        "price": 203.3
-      }
-    ],
-    "1005012726037568": [
-      {
-        "channel": "ecksdeal",
-        "ts": 1795432229.378667,
-        "price": 7.56
-      }
-    ],
     "1005012931209980": [
       {
         "channel": "zedstoreonline",
@@ -37006,6 +37005,11 @@
         "channel": "ecksdeal",
         "ts": 1795474626.5034087,
         "price": 77.72
+      },
+      {
+        "channel": "aniscoupons",
+        "ts": 1795476461.5982141,
+        "price": 76.8
       }
     ]
   },
@@ -37015,6 +37019,7 @@
     "1005011557016158": 1794769611.840472,
     "1005010210432531": 1795082866.566105,
     "1005010538481521": 1795088201.6241915,
-    "32847542727": 1795274576.3657165
+    "32847542727": 1795274576.3657165,
+    "1005013572273568": 1795476464.0167599
   }
 }
