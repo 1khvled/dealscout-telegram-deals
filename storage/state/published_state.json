@@ -1587,7 +1587,7 @@
     "1005006411483066": 1794500381.7712336,
     "1005012925301774": 1795085801.1895535,
     "1005012959738411": 1795467282.6052318,
-    "1005008357913212": 1795424517.998026,
+    "1005008357913212": 1795471879.4752672,
     "1005008703989845": 1795337450.3762672,
     "1005007162099601": 1794524556.2538168,
     "1005007038130594": 1795291550.8320675,
@@ -3914,7 +3914,7 @@
     "SMAILWOLF L80 Bluetooth wireless wired three-mode gaming headset laptop": 1794490594.9899428,
     "SOUNDPEATS Air6 HS": 1794087501.0429602,
     "مبرد الهاتف MEMO CX10": 1794126663.880001,
-    "KOOTION SATA SSD 480GB": 1794736341.444561,
+    "KOOTION SATA SSD 480GB": 1795471879.4752672,
     "راوتر Vodafone 4G محمول": 1794128872.1451216,
     "OnePlus ACE 6T": 1794484334.0264623,
     "Essager Mini 20W Type C Charger PD": 1794129971.1690388,
@@ -4266,7 +4266,6 @@
     "عودة المايك الأسطوري ما تراطيش": 1795467282.6052318
   },
   "published_post_keys": [
-    "zedstoreonline:39950",
     "aniscoupons:34623",
     "zedstoreonline:39951",
     "aniscoupons:34625",
@@ -5265,11 +5264,12 @@
     "bnddeals:51395",
     "bnddeals:51397",
     "bnddeals:51398",
-    "aniscoupons:35528"
+    "aniscoupons:35528",
+    "aniscoupons:35535"
   ],
   "last_disclaimer_time": 1794524540.9476151,
   "last_calendar_time": 1795177633.1203737,
-  "last_run_time": 1795467838.0597904,
+  "last_run_time": 1795471879.4752672,
   "monitored_channels": {
     "ecksdeal": {
       "last_message_id": 6125,
@@ -5300,8 +5300,8 @@
       "last_check_time": 1795463760.4184015
     },
     "aniscoupons": {
-      "last_message_id": 35534,
-      "last_check_time": 1795471698.7999122
+      "last_message_id": 35535,
+      "last_check_time": 1795471881.5860543
     },
     "bnddeals": {
       "last_message_id": 51399,
@@ -5862,7 +5862,7 @@
     "1005008703989845": 41.8,
     "1005008060391372": 31.78,
     "1005012593794312": 241.5,
-    "1005008357913212": 17.3,
+    "1005008357913212": 34.8,
     "1005012254132930": 14.5,
     "1005008708333999": 138.0,
     "1005013028124905": 438.6,
@@ -32150,6 +32150,16 @@
       "price": 34.27,
       "timestamp": 1795467838.0597904,
       "status": "ACTIVE"
+    },
+    "aniscoupons:35535": {
+      "channel_msg_id": 3524,
+      "product_id": "1005008357913212",
+      "title": "KOOTION SATA SSD 480GB",
+      "channel": "aniscoupons",
+      "source_msg_id": 35535,
+      "price": 34.8,
+      "timestamp": 1795471879.4752672,
+      "status": "ACTIVE"
     }
   },
   "schedule_config": {
@@ -32158,17 +32168,17 @@
     "current_interval_minutes": 5,
     "is_paused": false,
     "night_mode_enabled": true,
-    "last_deal_post_time": 1795467844.7603366,
+    "last_deal_post_time": 1795471882.664753,
     "night_start_hour_dz": 0,
     "night_end_hour_dz": 8,
     "night_pause_enabled": true,
-    "last_sweep_time": 1795471702.621092,
+    "last_sweep_time": 1795471885.2031636,
     "last_sweep_times": {
-      "algeria": 1795471699.7822347,
-      "france": 1795471702.621092
+      "algeria": 1795471882.6167278,
+      "france": 1795471885.2031636
     },
     "last_deal_post_times": {
-      "algeria": 1795467844.7603366
+      "algeria": 1795471882.664753
     }
   },
   "last_coin_reminder_time": 1795433324.042843,
@@ -32850,7 +32860,7 @@
     "1005006411483066": "lodydeals",
     "1005012925301774": "zedstoreonline",
     "1005012959738411": "bnddeals",
-    "1005008357913212": "bnddeals",
+    "1005008357913212": "aniscoupons",
     "1005008703989845": "aniscoupons",
     "1005007162099601": "lodydeals",
     "1005007038130594": "lodydeals",
@@ -33960,7 +33970,7 @@
     "Honor Choice Watch 2i": "aniscoupons",
     "SOUNDPEATS Air6 HS": "lodydeals",
     "مبرد الهاتف MEMO CX10": "zedstoreonline",
-    "KOOTION SATA SSD 480GB": "zedstoreonline",
+    "KOOTION SATA SSD 480GB": "aniscoupons",
     "راوتر Vodafone 4G محمول": "zedstoreonline",
     "OnePlus ACE 6T": "aniscoupons",
     "Essager Mini 20W Type C Charger PD": "zedstoreonline",
@@ -36936,6 +36946,13 @@
         "channel": "bnddeals",
         "ts": 1795467279.8895664,
         "price": 70.0
+      }
+    ],
+    "1005008357913212": [
+      {
+        "channel": "aniscoupons",
+        "ts": 1795471877.3310616,
+        "price": 34.8
       }
     ]
   },
