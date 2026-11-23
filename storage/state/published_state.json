@@ -1344,7 +1344,7 @@
     "1005012938359476": 1793448722.5382965,
     "1005012931209980": 1795435353.7654994,
     "1005011820893973": 1793540051.7895243,
-    "1005009073904302": 1795344827.810419,
+    "1005009073904302": 1795437453.1973996,
     "1005009916208760": 1795249011.22468,
     "1005010033441204": 1795371614.0931513,
     "1005008356663932": 1793707052.9762022,
@@ -1503,7 +1503,7 @@
     "1005013137304827": 1793613926.9213502,
     "1005010355409000": 1793613934.9347482,
     "1005012648097890": 1793613942.3770478,
-    "1005012524603100": 1795344635.2889817,
+    "1005012524603100": 1795437459.3614366,
     "1005012770405022": 1795337128.5106091,
     "1005012171521680": 1794246148.3838613,
     "1005010758512904": 1793613961.7877593,
@@ -3087,7 +3087,7 @@
     "Blackview Zeno 10 5G  8/128": 1790941207.5310047,
     "Honor Power 2  12/256": 1790941214.6756065,
     "Honor X70 5G 8/128": 1795256521.0477176,
-    "Blackview MEGA 5  8/256": 1795164751.799644,
+    "Blackview MEGA 5  8/256": 1795437453.1973996,
     "سماعات اذن فخمة  Moondrop Chu 3 IEM": 1795352874.1785383,
     "4G LTE Wireless USB 150Mbps": 1794057675.8729835,
     "Curren 8455 Men's Quartz": 1790943640.1460688,
@@ -3752,7 +3752,7 @@
     "HONOR 600s 8/256GB": 1793613926.9213502,
     "Realme GT8 Pro": 1793613934.9347482,
     "Oppo Find X8s+": 1793613942.3770478,
-    "Xiaoxin Pad Pro 13 (8/128)": 1795344635.2889817,
+    "Xiaoxin Pad Pro 13 (8/128)": 1795437459.3614366,
     "Lenovo Legion Y900 11 Tablet CN Version MediaTek Dimensity 9500S CPU 11.1\" 4K 144Hz LCD Display 1100": 1793613951.963987,
     "Honor Pad V9 (8/256)": 1794945692.2706501,
     "HONOR Pad X8b (LTE 6/128GB)": 1794136369.073103,
@@ -4244,8 +4244,6 @@
     "CMF Buds Neo Titanium": 1795437264.8543983
   },
   "published_post_keys": [
-    "aniscoupons:34605",
-    "zedstoreonline:39932",
     "aniscoupons:34606",
     "zedstoreonline:39934",
     "aniscoupons:34608",
@@ -5243,19 +5241,21 @@
     "zedstoreonline:40583",
     "zedstoreonline:40584",
     "lodydeals:46816",
-    "lodydeals:46817"
+    "lodydeals:46817",
+    "zedstoreonline:40585",
+    "aniscoupons:35515"
   ],
   "last_disclaimer_time": 1794524540.9476151,
   "last_calendar_time": 1795177633.1203737,
-  "last_run_time": 1795437264.8543983,
+  "last_run_time": 1795437459.3614366,
   "monitored_channels": {
     "ecksdeal": {
       "last_message_id": 6125,
       "last_check_time": 1795432235.194755
     },
     "lodydeals": {
-      "last_message_id": 46817,
-      "last_check_time": 1795437266.9617302
+      "last_message_id": 46820,
+      "last_check_time": 1795437448.0986087
     },
     "test_channel": {
       "last_message_id": 1793967703,
@@ -5274,12 +5274,12 @@
       "last_check_time": 1793599663.3444748
     },
     "zedstoreonline": {
-      "last_message_id": 40584,
-      "last_check_time": 1795436904.8800046
+      "last_message_id": 40585,
+      "last_check_time": 1795437455.270508
     },
     "aniscoupons": {
-      "last_message_id": 35513,
-      "last_check_time": 1795436909.7924974
+      "last_message_id": 35515,
+      "last_check_time": 1795437461.4372091
     },
     "bnddeals": {
       "last_message_id": 51391,
@@ -5638,7 +5638,7 @@
     "1005012938359476": 123.17,
     "1005012931209980": 277.0,
     "1005011820893973": 690.0,
-    "1005009073904302": 228.32,
+    "1005009073904302": 228.3,
     "1005009916208760": 84.35,
     "1005010033441204": 14.6,
     "1005008356663932": 355.5,
@@ -31935,6 +31935,26 @@
       "price": 18.29,
       "timestamp": 1795437264.8543983,
       "status": "ACTIVE"
+    },
+    "zedstoreonline:40585": {
+      "channel_msg_id": 3504,
+      "product_id": "1005009073904302",
+      "title": "Blackview MEGA 5  8/256",
+      "channel": "zedstoreonline",
+      "source_msg_id": 40585,
+      "price": 228.3,
+      "timestamp": 1795437453.1973996,
+      "status": "ACTIVE"
+    },
+    "aniscoupons:35515": {
+      "channel_msg_id": 3505,
+      "product_id": "1005012524603100",
+      "title": "Xiaoxin Pad Pro 13 (8/128)",
+      "channel": "aniscoupons",
+      "source_msg_id": 35515,
+      "price": 271.59,
+      "timestamp": 1795437459.3614366,
+      "status": "ACTIVE"
     }
   },
   "schedule_config": {
@@ -31943,17 +31963,17 @@
     "current_interval_minutes": 5,
     "is_paused": false,
     "night_mode_enabled": true,
-    "last_deal_post_time": 1795437271.1363535,
+    "last_deal_post_time": 1795437462.46005,
     "night_start_hour_dz": 0,
     "night_end_hour_dz": 8,
     "night_pause_enabled": true,
-    "last_sweep_time": 1795437273.7825868,
+    "last_sweep_time": 1795437465.0867126,
     "last_sweep_times": {
-      "algeria": 1795437271.0821397,
-      "france": 1795437273.7825868
+      "algeria": 1795437462.4271767,
+      "france": 1795437465.0867126
     },
     "last_deal_post_times": {
-      "algeria": 1795437271.1363535
+      "algeria": 1795437462.46005
     }
   },
   "last_coin_reminder_time": 1795433324.042843,
@@ -32407,7 +32427,7 @@
     "1005012938359476": "aniscoupons",
     "1005012931209980": "zedstoreonline",
     "1005011820893973": "megaphonna",
-    "1005009073904302": "lodydeals",
+    "1005009073904302": "zedstoreonline",
     "1005009916208760": "lodydeals",
     "1005010033441204": "aniscoupons",
     "1005008356663932": "lodydeals",
@@ -34880,8 +34900,6 @@
   "published_deals_history": {},
   "settings": {},
   "handled_post_keys": [
-    "zedstoreonline:40010",
-    "zedstoreonline:40011",
     "aniscoupons:34707",
     "lodydeals:46406",
     "lodydeals:46408",
@@ -35879,7 +35897,9 @@
     "aniscoupons:35508",
     "zedstoreonline:40581",
     "zedstoreonline:40582",
-    "aniscoupons:35513"
+    "aniscoupons:35513",
+    "lodydeals:46819",
+    "lodydeals:46820"
   ],
   "last_france_cross_promo_time": 1795236239.730334,
   "next_france_cross_promo_interval_seconds": 209180,
@@ -36520,6 +36540,11 @@
         "channel": "aniscoupons",
         "ts": 1795429649.8276114,
         "price": 49.3
+      },
+      {
+        "channel": "lodydeals",
+        "ts": 1795437447.9761786,
+        "price": 49.3
       }
     ],
     "1005010210432531": [
@@ -36586,6 +36611,20 @@
         "channel": "lodydeals",
         "ts": 1795437262.932726,
         "price": 18.29
+      }
+    ],
+    "1005009073904302": [
+      {
+        "channel": "zedstoreonline",
+        "ts": 1795437450.8046215,
+        "price": 228.3
+      }
+    ],
+    "1005012524603100": [
+      {
+        "channel": "aniscoupons",
+        "ts": 1795437457.190353,
+        "price": 271.59
       }
     ]
   },
