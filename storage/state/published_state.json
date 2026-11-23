@@ -1555,7 +1555,7 @@
     "1005006972551834": 1793793774.6743867,
     "1005010169268165": 1795466729.299068,
     "1005010702038861": 1794935200.9462438,
-    "1005009313079431": 1795442235.6853206,
+    "1005009313079431": 1795467838.0597904,
     "1005010702511858": 1795011758.367623,
     "1005008554218453": 1793908979.1776278,
     "1005012499433797": 1794683885.7547128,
@@ -4256,7 +4256,7 @@
     "KOOTION SATA 3 SSD": 1795426347.1170113,
     "OPPO A7 Pro Max 8/128": 1795435353.7654994,
     "CMF Buds Neo Titanium": 1795437264.8543983,
-    "WALRAM 2.5  sata 512GB": 1795442235.6853206,
+    "WALRAM 2.5  sata 512GB": 1795467838.0597904,
     "Zeblaze Btalk 4 Pro": 1795446097.3435004,
     "HONOR Earbuds X10 Play": 1795457306.5240903,
     "OPPO Enco Buds3 Pro True Wireless Earbuds": 1795461354.838551,
@@ -4266,7 +4266,6 @@
     "عودة المايك الأسطوري ما تراطيش": 1795467282.6052318
   },
   "published_post_keys": [
-    "aniscoupons:34622",
     "zedstoreonline:39950",
     "aniscoupons:34623",
     "zedstoreonline:39951",
@@ -5265,11 +5264,12 @@
     "aniscoupons:35527",
     "bnddeals:51395",
     "bnddeals:51397",
-    "bnddeals:51398"
+    "bnddeals:51398",
+    "aniscoupons:35528"
   ],
   "last_disclaimer_time": 1794524540.9476151,
   "last_calendar_time": 1795177633.1203737,
-  "last_run_time": 1795467282.6052318,
+  "last_run_time": 1795467838.0597904,
   "monitored_channels": {
     "ecksdeal": {
       "last_message_id": 6125,
@@ -5300,8 +5300,8 @@
       "last_check_time": 1795463760.4184015
     },
     "aniscoupons": {
-      "last_message_id": 35527,
-      "last_check_time": 1795465236.9417477
+      "last_message_id": 35529,
+      "last_check_time": 1795467843.6527505
     },
     "bnddeals": {
       "last_message_id": 51398,
@@ -5848,7 +5848,7 @@
     "1005006972551834": 31.07,
     "1005010169268165": 21.0,
     "1005010702038861": 18.12,
-    "1005009313079431": 33.3,
+    "1005009313079431": 34.27,
     "1005010702511858": 59.81,
     "1005008554218453": 52.55,
     "1005012499433797": 134.3,
@@ -32140,6 +32140,16 @@
       "price": 70.0,
       "timestamp": 1795467282.6052318,
       "status": "ACTIVE"
+    },
+    "aniscoupons:35528": {
+      "channel_msg_id": 3523,
+      "product_id": "1005009313079431",
+      "title": "WALRAM 2.5  sata 512GB",
+      "channel": "aniscoupons",
+      "source_msg_id": 35528,
+      "price": 34.27,
+      "timestamp": 1795467838.0597904,
+      "status": "ACTIVE"
     }
   },
   "schedule_config": {
@@ -32148,17 +32158,17 @@
     "current_interval_minutes": 5,
     "is_paused": false,
     "night_mode_enabled": true,
-    "last_deal_post_time": 1795467284.8119411,
+    "last_deal_post_time": 1795467844.7603366,
     "night_start_hour_dz": 0,
     "night_end_hour_dz": 8,
     "night_pause_enabled": true,
-    "last_sweep_time": 1795467653.445084,
+    "last_sweep_time": 1795467847.846161,
     "last_sweep_times": {
-      "algeria": 1795467650.2442403,
-      "france": 1795467653.445084
+      "algeria": 1795467844.7097046,
+      "france": 1795467847.846161
     },
     "last_deal_post_times": {
-      "algeria": 1795467284.8119411
+      "algeria": 1795467844.7603366
     }
   },
   "last_coin_reminder_time": 1795433324.042843,
@@ -35096,7 +35106,6 @@
   "published_deals_history": {},
   "settings": {},
   "handled_post_keys": [
-    "zedstoreonline:40016",
     "lodydeals:46418",
     "aniscoupons:34710",
     "lodydeals:46421",
@@ -36095,7 +36104,8 @@
     "zedstoreonline:40590",
     "bnddeals:51393",
     "bnddeals:51394",
-    "bnddeals:51396"
+    "bnddeals:51396",
+    "aniscoupons:35529"
   ],
   "last_france_cross_promo_time": 1795236239.730334,
   "next_france_cross_promo_interval_seconds": 209180,
@@ -36683,14 +36693,19 @@
         "channel": "aniscoupons",
         "ts": 1795453996.3031979,
         "price": 34.27
+      },
+      {
+        "channel": "aniscoupons",
+        "ts": 1795467835.65292,
+        "price": 34.27
+      },
+      {
+        "channel": "aniscoupons",
+        "ts": 1795467843.4658365,
+        "price": 34.27
       }
     ],
     "1005008357913212": [
-      {
-        "channel": "bnddeals",
-        "ts": 1795424515.7408416,
-        "price": 17.3
-      },
       {
         "channel": "aniscoupons",
         "ts": 1795424694.5519695,
