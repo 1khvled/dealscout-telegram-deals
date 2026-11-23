@@ -5300,8 +5300,8 @@
       "last_check_time": 1793599663.3444748
     },
     "zedstoreonline": {
-      "last_message_id": 40591,
-      "last_check_time": 1795463760.4184015
+      "last_message_id": 40592,
+      "last_check_time": 1795473533.1755981
     },
     "aniscoupons": {
       "last_message_id": 35536,
@@ -32187,10 +32187,10 @@
     "night_start_hour_dz": 0,
     "night_end_hour_dz": 8,
     "night_pause_enabled": true,
-    "last_sweep_time": 1795473344.173196,
+    "last_sweep_time": 1795473537.5846674,
     "last_sweep_times": {
-      "algeria": 1795473341.5198553,
-      "france": 1795473344.173196
+      "algeria": 1795473534.9981294,
+      "france": 1795473537.5846674
     },
     "last_deal_post_times": {
       "algeria": 1795472801.5485241
@@ -35133,7 +35133,6 @@
   "published_deals_history": {},
   "settings": {},
   "handled_post_keys": [
-    "aniscoupons:34715",
     "aniscoupons:34716",
     "aniscoupons:34717",
     "lodydeals:46425",
@@ -36132,7 +36131,8 @@
     "aniscoupons:35533",
     "aniscoupons:35534",
     "aniscoupons:35536",
-    "bnddeals:51400"
+    "bnddeals:51400",
+    "zedstoreonline:40592"
   ],
   "last_france_cross_promo_time": 1795236239.730334,
   "next_france_cross_promo_interval_seconds": 209180,
@@ -36763,11 +36763,6 @@
     ],
     "1005007916078341": [
       {
-        "channel": "aniscoupons",
-        "ts": 1795429649.8276114,
-        "price": 49.3
-      },
-      {
         "channel": "lodydeals",
         "ts": 1795437447.9761786,
         "price": 49.3
@@ -36779,11 +36774,6 @@
       }
     ],
     "1005010210432531": [
-      {
-        "channel": "aniscoupons",
-        "ts": 1795430202.884215,
-        "price": 133.8
-      },
       {
         "channel": "zedstoreonline",
         "ts": 1795434613.245766,
@@ -36969,6 +36959,11 @@
       {
         "channel": "aniscoupons",
         "ts": 1795471877.3310616,
+        "price": 34.8
+      },
+      {
+        "channel": "zedstoreonline",
+        "ts": 1795473532.9852514,
         "price": 34.8
       }
     ],
