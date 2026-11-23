@@ -902,7 +902,8 @@
     "1005002292884528",
     "1005010680777854",
     "1005007893508418",
-    "1005004433755802"
+    "1005004433755802",
+    "1005013572353302"
   ],
   "published_product_timestamps": {
     "1005012973772517": 1794500732.7845657,
@@ -1824,7 +1825,8 @@
     "1005002292884528": 1795354738.6784947,
     "1005010680777854": 1795376024.6586418,
     "1005007893508418": 1795381174.309368,
-    "1005004433755802": 1795382836.9089916
+    "1005004433755802": 1795382836.9089916,
+    "1005013572353302": 1795457306.5240903
   },
   "published_titles": [
     "Wireless WiFi Repeater 300Mbps WiFi Extender Amplifier Booster Router",
@@ -3032,7 +3034,8 @@
     "OPPO A7 Pro Max 8/128",
     "CMF Buds Neo Titanium",
     "WALRAM 2.5  sata 512GB",
-    "Zeblaze Btalk 4 Pro"
+    "Zeblaze Btalk 4 Pro",
+    "HONOR Earbuds X10 Play"
   ],
   "published_title_timestamps": {
     "Xiaomi Redmi Note 17 5G Global Version": 1790857823.0117362,
@@ -4245,10 +4248,10 @@
     "OPPO A7 Pro Max 8/128": 1795435353.7654994,
     "CMF Buds Neo Titanium": 1795437264.8543983,
     "WALRAM 2.5  sata 512GB": 1795442235.6853206,
-    "Zeblaze Btalk 4 Pro": 1795446097.3435004
+    "Zeblaze Btalk 4 Pro": 1795446097.3435004,
+    "HONOR Earbuds X10 Play": 1795457306.5240903
   },
   "published_post_keys": [
-    "aniscoupons:34614",
     "aniscoupons:34615",
     "aniscoupons:34617",
     "aniscoupons:34618",
@@ -5247,11 +5250,12 @@
     "aniscoupons:35519",
     "zedstoreonline:40588",
     "bnddeals:51392",
-    "aniscoupons:35522"
+    "aniscoupons:35522",
+    "aniscoupons:35523"
   ],
   "last_disclaimer_time": 1794524540.9476151,
   "last_calendar_time": 1795177633.1203737,
-  "last_run_time": 1795455837.2486,
+  "last_run_time": 1795457306.5240903,
   "monitored_channels": {
     "ecksdeal": {
       "last_message_id": 6125,
@@ -5282,8 +5286,8 @@
       "last_check_time": 1795448479.359128
     },
     "aniscoupons": {
-      "last_message_id": 35522,
-      "last_check_time": 1795455839.3612783
+      "last_message_id": 35523,
+      "last_check_time": 1795457308.630469
     },
     "bnddeals": {
       "last_message_id": 51392,
@@ -6084,7 +6088,8 @@
     "1005002292884528": 67.87,
     "1005010680777854": 268.0,
     "1005007893508418": 32.39,
-    "1005004433755802": 36.95
+    "1005004433755802": 36.95,
+    "1005013572353302": 13.18
   },
   "channel_published_deals": {
     "aniscoupons:32590": {
@@ -32029,6 +32034,16 @@
       "price": 16.7,
       "timestamp": 1795455837.2486,
       "status": "ACTIVE"
+    },
+    "aniscoupons:35523": {
+      "channel_msg_id": 3514,
+      "product_id": "1005013572353302",
+      "title": "HONOR Earbuds X10 Play",
+      "channel": "aniscoupons",
+      "source_msg_id": 35523,
+      "price": 13.18,
+      "timestamp": 1795457306.5240903,
+      "status": "ACTIVE"
     }
   },
   "schedule_config": {
@@ -32037,17 +32052,17 @@
     "current_interval_minutes": 5,
     "is_paused": false,
     "night_mode_enabled": true,
-    "last_deal_post_time": 1795455840.5852249,
+    "last_deal_post_time": 1795457309.8475459,
     "night_start_hour_dz": 0,
     "night_end_hour_dz": 8,
     "night_pause_enabled": true,
-    "last_sweep_time": 1795457120.519272,
+    "last_sweep_time": 1795457313.1156013,
     "last_sweep_times": {
-      "algeria": 1795457117.588187,
-      "france": 1795457120.519272
+      "algeria": 1795457309.7950459,
+      "france": 1795457313.1156013
     },
     "last_deal_post_times": {
-      "algeria": 1795455840.5852249
+      "algeria": 1795457309.8475459
     }
   },
   "last_coin_reminder_time": 1795433324.042843,
@@ -32964,7 +32979,8 @@
     "1005002292884528": "aniscoupons",
     "1005010680777854": "bnddeals",
     "1005007893508418": "lodydeals",
-    "1005004433755802": "lodydeals"
+    "1005004433755802": "lodydeals",
+    "1005013572353302": "aniscoupons"
   },
   "published_title_channels": {
     "Test Wrench Set": "test_channel",
@@ -34178,7 +34194,8 @@
     "OPPO A7 Pro Max 8/128": "zedstoreonline",
     "CMF Buds Neo Titanium": "lodydeals",
     "WALRAM 2.5  sata 512GB": "aniscoupons",
-    "Zeblaze Btalk 4 Pro": "bnddeals"
+    "Zeblaze Btalk 4 Pro": "bnddeals",
+    "HONOR Earbuds X10 Play": "aniscoupons"
   },
   "religious_reminders_history": {
     "mock_rem": "2026-10-02",
