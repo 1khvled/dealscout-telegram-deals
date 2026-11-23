@@ -1549,7 +1549,7 @@
     "1005008429979494": 1793741666.9686077,
     "1005004795387201": 1793742770.1634803,
     "1005010702983351": 1794998780.0409262,
-    "1005008366962319": 1795424878.719029,
+    "1005008366962319": 1795473903.7335489,
     "1005005058037424": 1793779907.9964287,
     "1005012946895000": 1793793714.105913,
     "1005012150344482": 1795078113.2768726,
@@ -3925,7 +3925,7 @@
     "OnePlus Ace 6 12/256GB": 1794130143.129755,
     "Machenike G7 Gaming Mouse USB Wired 2.4GHz Wireless Mouse": 1794476801.4817152,
     "Ulanzi A100 Wireless Lavalier Microphone": 1794130707.0577464,
-    "Kootion X15 M.2 SSD NVMe 256GB": 1794134534.5760646,
+    "Kootion X15 M.2 SSD NVMe 256GB": 1795473903.7335489,
     "Lenovo LE257 Headphones": 1794137638.8201442,
     "Honor 600s CN (8/256)": 1795184432.291171,
     "ويبكام OBSBOT MEET 2 Webcam 4K": 1794140022.1412559,
@@ -4270,7 +4270,6 @@
     "ADATA XPG DDR4 8GBx2 3200Mhz": 1795472795.5793128
   },
   "published_post_keys": [
-    "zedstoreonline:39951",
     "aniscoupons:34625",
     "aniscoupons:34626",
     "aniscoupons:34627",
@@ -5269,11 +5268,12 @@
     "bnddeals:51398",
     "aniscoupons:35528",
     "aniscoupons:35535",
-    "lodydeals:46821"
+    "lodydeals:46821",
+    "bnddeals:51401"
   ],
   "last_disclaimer_time": 1794524540.9476151,
   "last_calendar_time": 1795177633.1203737,
-  "last_run_time": 1795472795.5793128,
+  "last_run_time": 1795473903.7335489,
   "monitored_channels": {
     "ecksdeal": {
       "last_message_id": 6125,
@@ -5308,8 +5308,8 @@
       "last_check_time": 1795472608.0620399
     },
     "bnddeals": {
-      "last_message_id": 51400,
-      "last_check_time": 1795472801.4805732
+      "last_message_id": 51401,
+      "last_check_time": 1795473905.8129642
     }
   },
   "published_product_prices": {
@@ -32175,6 +32175,16 @@
       "price": 76.83,
       "timestamp": 1795472795.5793128,
       "status": "ACTIVE"
+    },
+    "bnddeals:51401": {
+      "channel_msg_id": 3526,
+      "product_id": "1005008366962319",
+      "title": "Kootion X15 M.2 SSD NVMe 256GB",
+      "channel": "bnddeals",
+      "source_msg_id": 51401,
+      "price": 27.5,
+      "timestamp": 1795473903.7335489,
+      "status": "ACTIVE"
     }
   },
   "schedule_config": {
@@ -32183,17 +32193,17 @@
     "current_interval_minutes": 5,
     "is_paused": false,
     "night_mode_enabled": true,
-    "last_deal_post_time": 1795472801.5485241,
+    "last_deal_post_time": 1795473905.8813741,
     "night_start_hour_dz": 0,
     "night_end_hour_dz": 8,
     "night_pause_enabled": true,
-    "last_sweep_time": 1795473717.2418945,
+    "last_sweep_time": 1795473907.9765246,
     "last_sweep_times": {
-      "algeria": 1795473713.9036984,
-      "france": 1795473717.2418945
+      "algeria": 1795473905.8477228,
+      "france": 1795473907.9765246
     },
     "last_deal_post_times": {
-      "algeria": 1795472801.5485241
+      "algeria": 1795473905.8813741
     }
   },
   "last_coin_reminder_time": 1795433324.042843,
@@ -32837,7 +32847,7 @@
     "1005008429979494": "lodydeals",
     "1005004795387201": "lodydeals",
     "1005010702983351": "zedstoreonline",
-    "1005008366962319": "aniscoupons",
+    "1005008366962319": "bnddeals",
     "1005005058037424": "lodydeals",
     "1005012946895000": "lodydeals",
     "1005006972551834": "lodydeals",
@@ -33994,7 +34004,7 @@
     "OnePlus Ace 6 12/256GB": "lodydeals",
     "Machenike G7 Gaming Mouse USB Wired 2.4GHz Wireless Mouse": "zedstoreonline",
     "Ulanzi A100 Wireless Lavalier Microphone": "aniscoupons",
-    "Kootion X15 M.2 SSD NVMe 256GB": "zedstoreonline",
+    "Kootion X15 M.2 SSD NVMe 256GB": "bnddeals",
     "Lenovo LE257 Headphones": "lodydeals",
     "Honor 600s CN (8/256)": "aniscoupons",
     "ويبكام OBSBOT MEET 2 Webcam 4K": "ecksdeal",
@@ -36734,8 +36744,8 @@
     ],
     "1005008366962319": [
       {
-        "channel": "zedstoreonline",
-        "ts": 1795430567.7171187,
+        "channel": "bnddeals",
+        "ts": 1795473901.7499244,
         "price": 27.5
       }
     ],
