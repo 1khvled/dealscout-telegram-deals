@@ -22,8 +22,8 @@
   "flow_target": 24.0,
   "channel_stats": {
     "lodydeals": {
-      "seen": 175,
-      "published": 165,
+      "seen": 177,
+      "published": 167,
       "skipped": 0,
       "ewma": 0.9994
     },
@@ -54,8 +54,8 @@
   },
   "category_stats": {
     "other": {
-      "seen": 540,
-      "published": 468,
+      "seen": 542,
+      "published": 470,
       "skipped": 0,
       "ewma": 0.9994
     },
@@ -421,7 +421,8 @@
       340.38,
       338.2,
       338.22,
-      338.24
+      338.24,
+      338.22
     ],
     "1005009231510301": [
       259.7,
@@ -1338,6 +1339,7 @@
     ],
     "1005013005786079": [
       16.29,
+      18.29,
       18.29
     ],
     "1005010535660141": [
@@ -1820,31 +1822,15 @@
     ]
   },
   "counters": {
-    "scored": 1429,
-    "verdict_publish": 1369,
+    "scored": 1431,
+    "verdict_publish": 1371,
     "verdict_hold": 59,
     "verdict_skip": 1,
-    "published": 1115,
+    "published": 1117,
     "skipped": 0
   },
-  "score_sum": 104753.87,
+  "score_sum": 104896.69,
   "recent_decisions": [
-    {
-      "ts": 1795191839,
-      "channel": "aniscoupons",
-      "category": "other",
-      "product_id": "1005010706590867",
-      "score": 77.19,
-      "verdict": "publish"
-    },
-    {
-      "ts": 1795192225,
-      "channel": "aniscoupons",
-      "category": "phones",
-      "product_id": "1005010721042860",
-      "score": 77.87,
-      "verdict": "publish"
-    },
     {
       "ts": 1795195123,
       "channel": "bnddeals",
@@ -3428,7 +3414,23 @@
       "product_id": "1005011778621042",
       "score": 68.0,
       "verdict": "publish"
+    },
+    {
+      "ts": 1795437257,
+      "channel": "lodydeals",
+      "category": "other",
+      "product_id": "1005010413332383",
+      "score": 68.1,
+      "verdict": "publish"
+    },
+    {
+      "ts": 1795437263,
+      "channel": "lodydeals",
+      "category": "other",
+      "product_id": "1005013005786079",
+      "score": 74.72,
+      "verdict": "publish"
     }
   ],
-  "updated_at": 1795436902.8530297
+  "updated_at": 1795437264.933906
 }

@@ -1396,7 +1396,7 @@
     "1005012135177627": 1795080686.538359,
     "1005013455514231": 1793542445.2859337,
     "1005009578274758": 1793542479.8362749,
-    "1005010413332383": 1795282388.4222057,
+    "1005010413332383": 1795437259.7655225,
     "1005011550075220": 1794847073.6855137,
     "1005009806856302": 1794779736.0691626,
     "1005009980316035": 1793542552.2730343,
@@ -1739,7 +1739,7 @@
     "1005010376374580": 1794935234.6883996,
     "1005010239860751": 1794689616.7178488,
     "1005009278862695": 1795079013.6206362,
-    "1005013005786079": 1795358932.2202182,
+    "1005013005786079": 1795437264.8543983,
     "1005008627811107": 1794694594.377669,
     "1005012892577195": 1794732862.0085351,
     "1005012594430190": 1794741945.3108501,
@@ -3029,7 +3029,8 @@
     "WALRAM SSD SATA 512GB",
     "KOOTION SATA3 SSD 256GB",
     "KOOTION SATA 3 SSD",
-    "OPPO A7 Pro Max 8/128"
+    "OPPO A7 Pro Max 8/128",
+    "CMF Buds Neo Titanium"
   ],
   "published_title_timestamps": {
     "Xiaomi Redmi Note 17 5G Global Version": 1790857823.0117362,
@@ -3758,7 +3759,7 @@
     "[Clearance] realme 14T 5G Smartphone NFC Dimensity 6300 5G Processor": 1793613966.8608465,
     "RYZEN 5 9600X": 1793613978.6202738,
     "Magcubic HY300 Max Projector": 1794995842.2213447,
-    "AMD RYZEN 7 9800X3D": 1795249193.5712183,
+    "AMD RYZEN 7 9800X3D": 1795437259.7655225,
     "Anker Space One ANC Headset": 1793616557.8235445,
     "بطاقة الأم Asrock X570M PRO4": 1794936461.8541727,
     "بطاقة الأم GIGABYTE B550M K": 1793649062.201711,
@@ -4239,11 +4240,10 @@
     "WALRAM SSD SATA 512GB": 1795422508.1241443,
     "KOOTION SATA3 SSD 256GB": 1795424517.998026,
     "KOOTION SATA 3 SSD": 1795426347.1170113,
-    "OPPO A7 Pro Max 8/128": 1795435353.7654994
+    "OPPO A7 Pro Max 8/128": 1795435353.7654994,
+    "CMF Buds Neo Titanium": 1795437264.8543983
   },
   "published_post_keys": [
-    "aniscoupons:34602",
-    "zedstoreonline:39929",
     "aniscoupons:34605",
     "zedstoreonline:39932",
     "aniscoupons:34606",
@@ -5241,19 +5241,21 @@
     "aniscoupons:35512",
     "ecksdeal:6125",
     "zedstoreonline:40583",
-    "zedstoreonline:40584"
+    "zedstoreonline:40584",
+    "lodydeals:46816",
+    "lodydeals:46817"
   ],
   "last_disclaimer_time": 1794524540.9476151,
   "last_calendar_time": 1795177633.1203737,
-  "last_run_time": 1795436902.7698905,
+  "last_run_time": 1795437264.8543983,
   "monitored_channels": {
     "ecksdeal": {
       "last_message_id": 6125,
       "last_check_time": 1795432235.194755
     },
     "lodydeals": {
-      "last_message_id": 46815,
-      "last_check_time": 1795382838.995726
+      "last_message_id": 46817,
+      "last_check_time": 1795437266.9617302
     },
     "test_channel": {
       "last_message_id": 1793967703,
@@ -5682,7 +5684,7 @@
     "1005012135177627": 177.9,
     "1005013455514231": 66.71,
     "1005009578274758": 7.63,
-    "1005010413332383": 338.24,
+    "1005010413332383": 338.22,
     "1005011550075220": 124.53,
     "1005009806856302": 16.6,
     "1005009980316035": 25.85,
@@ -31913,6 +31915,26 @@
       "price": 119.5,
       "timestamp": 1795436902.7698905,
       "status": "ACTIVE"
+    },
+    "lodydeals:46816": {
+      "channel_msg_id": 3502,
+      "product_id": "1005010413332383",
+      "title": "AMD RYZEN 7 9800X3D",
+      "channel": "lodydeals",
+      "source_msg_id": 46816,
+      "price": 338.22,
+      "timestamp": 1795437259.7655225,
+      "status": "ACTIVE"
+    },
+    "lodydeals:46817": {
+      "channel_msg_id": 3503,
+      "product_id": "1005013005786079",
+      "title": "CMF Buds Neo Titanium",
+      "channel": "lodydeals",
+      "source_msg_id": 46817,
+      "price": 18.29,
+      "timestamp": 1795437264.8543983,
+      "status": "ACTIVE"
     }
   },
   "schedule_config": {
@@ -31921,17 +31943,17 @@
     "current_interval_minutes": 5,
     "is_paused": false,
     "night_mode_enabled": true,
-    "last_deal_post_time": 1795436910.8034785,
+    "last_deal_post_time": 1795437271.1363535,
     "night_start_hour_dz": 0,
     "night_end_hour_dz": 8,
     "night_pause_enabled": true,
-    "last_sweep_time": 1795437083.79585,
+    "last_sweep_time": 1795437273.7825868,
     "last_sweep_times": {
-      "algeria": 1795437080.4676383,
-      "france": 1795437083.79585
+      "algeria": 1795437271.0821397,
+      "france": 1795437273.7825868
     },
     "last_deal_post_times": {
-      "algeria": 1795436910.8034785
+      "algeria": 1795437271.1363535
     }
   },
   "last_coin_reminder_time": 1795433324.042843,
@@ -32438,7 +32460,7 @@
     "1005013455514231": "lodydeals",
     "1005009578274758": "lodydeals",
     "1005007805638431": "lodydeals",
-    "1005010413332383": "ecksdeal",
+    "1005010413332383": "lodydeals",
     "1005011550075220": "ecksdeal",
     "1005009806856302": "aniscoupons",
     "1005009980316035": "ecksdeal",
@@ -32766,7 +32788,7 @@
     "1005010376374580": "zedstoreonline",
     "1005010239860751": "zedstoreonline",
     "1005009278862695": "bnddeals",
-    "1005013005786079": "aniscoupons",
+    "1005013005786079": "lodydeals",
     "1005008627811107": "ecksdeal",
     "1005012892577195": "lodydeals",
     "1005012594430190": "lodydeals",
@@ -34059,7 +34081,8 @@
     "WALRAM SSD SATA 512GB": "zedstoreonline",
     "KOOTION SATA3 SSD 256GB": "bnddeals",
     "KOOTION SATA 3 SSD": "zedstoreonline",
-    "OPPO A7 Pro Max 8/128": "zedstoreonline"
+    "OPPO A7 Pro Max 8/128": "zedstoreonline",
+    "CMF Buds Neo Titanium": "lodydeals"
   },
   "religious_reminders_history": {
     "mock_rem": "2026-10-02",
@@ -36549,6 +36572,20 @@
         "channel": "aniscoupons",
         "ts": 1795436909.6106482,
         "price": 119.5
+      }
+    ],
+    "1005010413332383": [
+      {
+        "channel": "lodydeals",
+        "ts": 1795437257.2612844,
+        "price": 338.22
+      }
+    ],
+    "1005013005786079": [
+      {
+        "channel": "lodydeals",
+        "ts": 1795437262.932726,
+        "price": 18.29
       }
     ]
   },
