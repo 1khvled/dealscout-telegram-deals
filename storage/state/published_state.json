@@ -904,7 +904,8 @@
     "1005007893508418",
     "1005004433755802",
     "1005013572353302",
-    "1005012172081619"
+    "1005012172081619",
+    "1005007869625249"
   ],
   "published_product_timestamps": {
     "1005012973772517": 1794500732.7845657,
@@ -1828,7 +1829,8 @@
     "1005007893508418": 1795381174.309368,
     "1005004433755802": 1795382836.9089916,
     "1005013572353302": 1795457306.5240903,
-    "1005012172081619": 1795461354.838551
+    "1005012172081619": 1795461354.838551,
+    "1005007869625249": 1795465234.865786
   },
   "published_titles": [
     "Wireless WiFi Repeater 300Mbps WiFi Extender Amplifier Booster Router",
@@ -3039,7 +3041,8 @@
     "Zeblaze Btalk 4 Pro",
     "HONOR Earbuds X10 Play",
     "OPPO Enco Buds3 Pro True Wireless Earbuds",
-    "Zeblaze Btalk 4 Pro Voice Calling Amoled"
+    "Zeblaze Btalk 4 Pro Voice Calling Amoled",
+    "CUSU RAM DDR4 3200MHz 16GB"
   ],
   "published_title_timestamps": {
     "Xiaomi Redmi Note 17 5G Global Version": 1790857823.0117362,
@@ -4255,10 +4258,10 @@
     "Zeblaze Btalk 4 Pro": 1795446097.3435004,
     "HONOR Earbuds X10 Play": 1795457306.5240903,
     "OPPO Enco Buds3 Pro True Wireless Earbuds": 1795461354.838551,
-    "Zeblaze Btalk 4 Pro Voice Calling Amoled": 1795463758.3094215
+    "Zeblaze Btalk 4 Pro Voice Calling Amoled": 1795463758.3094215,
+    "CUSU RAM DDR4 3200MHz 16GB": 1795465234.865786
   },
   "published_post_keys": [
-    "zedstoreonline:39947",
     "zedstoreonline:39948",
     "aniscoupons:34620",
     "aniscoupons:34621",
@@ -5257,11 +5260,12 @@
     "aniscoupons:35524",
     "aniscoupons:35525",
     "zedstoreonline:40591",
-    "aniscoupons:35526"
+    "aniscoupons:35526",
+    "aniscoupons:35527"
   ],
   "last_disclaimer_time": 1794524540.9476151,
   "last_calendar_time": 1795177633.1203737,
-  "last_run_time": 1795464130.6239684,
+  "last_run_time": 1795465234.865786,
   "monitored_channels": {
     "ecksdeal": {
       "last_message_id": 6125,
@@ -5292,8 +5296,8 @@
       "last_check_time": 1795463760.4184015
     },
     "aniscoupons": {
-      "last_message_id": 35526,
-      "last_check_time": 1795464132.7348654
+      "last_message_id": 35527,
+      "last_check_time": 1795465236.9417477
     },
     "bnddeals": {
       "last_message_id": 51394,
@@ -6096,7 +6100,8 @@
     "1005007893508418": 32.39,
     "1005004433755802": 36.95,
     "1005013572353302": 13.18,
-    "1005012172081619": 22.49
+    "1005012172081619": 22.49,
+    "1005007869625249": 82.6
   },
   "channel_published_deals": {
     "aniscoupons:32590": {
@@ -32091,6 +32096,16 @@
       "price": 79.6,
       "timestamp": 1795464130.6239684,
       "status": "ACTIVE"
+    },
+    "aniscoupons:35527": {
+      "channel_msg_id": 3519,
+      "product_id": "1005007869625249",
+      "title": "CUSU RAM DDR4 3200MHz 16GB",
+      "channel": "aniscoupons",
+      "source_msg_id": 35527,
+      "price": 82.6,
+      "timestamp": 1795465234.865786,
+      "status": "ACTIVE"
     }
   },
   "schedule_config": {
@@ -32099,17 +32114,17 @@
     "current_interval_minutes": 5,
     "is_paused": false,
     "night_mode_enabled": true,
-    "last_deal_post_time": 1795464133.914967,
+    "last_deal_post_time": 1795465237.9799547,
     "night_start_hour_dz": 0,
     "night_end_hour_dz": 8,
     "night_pause_enabled": true,
-    "last_sweep_time": 1795465064.4357507,
+    "last_sweep_time": 1795465240.70339,
     "last_sweep_times": {
-      "algeria": 1795465061.2938435,
-      "france": 1795465064.4357507
+      "algeria": 1795465237.9454265,
+      "france": 1795465240.70339
     },
     "last_deal_post_times": {
-      "algeria": 1795464133.914967
+      "algeria": 1795465237.9799547
     }
   },
   "last_coin_reminder_time": 1795433324.042843,
@@ -33028,7 +33043,8 @@
     "1005007893508418": "lodydeals",
     "1005004433755802": "lodydeals",
     "1005013572353302": "aniscoupons",
-    "1005012172081619": "aniscoupons"
+    "1005012172081619": "aniscoupons",
+    "1005007869625249": "aniscoupons"
   },
   "published_title_channels": {
     "Test Wrench Set": "test_channel",
@@ -34245,7 +34261,8 @@
     "Zeblaze Btalk 4 Pro": "bnddeals",
     "HONOR Earbuds X10 Play": "aniscoupons",
     "OPPO Enco Buds3 Pro True Wireless Earbuds": "aniscoupons",
-    "Zeblaze Btalk 4 Pro Voice Calling Amoled": "zedstoreonline"
+    "Zeblaze Btalk 4 Pro Voice Calling Amoled": "zedstoreonline",
+    "CUSU RAM DDR4 3200MHz 16GB": "aniscoupons"
   },
   "religious_reminders_history": {
     "mock_rem": "2026-10-02",
