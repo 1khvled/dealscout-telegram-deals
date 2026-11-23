@@ -1463,7 +1463,7 @@
     "1005009569642817": 1794004758.429218,
     "1005013438789813": 1793569553.2022223,
     "1005012823102793": 1793569904.419889,
-    "1005012773302941": 1794683510.1887808,
+    "1005012773302941": 1795446097.3435004,
     "1005008430147176": 1795085991.192385,
     "1005011742851856": 1795290123.812915,
     "1005006304425302": 1793656107.995781,
@@ -3031,7 +3031,8 @@
     "KOOTION SATA 3 SSD",
     "OPPO A7 Pro Max 8/128",
     "CMF Buds Neo Titanium",
-    "WALRAM 2.5  sata 512GB"
+    "WALRAM 2.5  sata 512GB",
+    "Zeblaze Btalk 4 Pro"
   ],
   "published_title_timestamps": {
     "Xiaomi Redmi Note 17 5G Global Version": 1790857823.0117362,
@@ -4243,10 +4244,10 @@
     "KOOTION SATA 3 SSD": 1795426347.1170113,
     "OPPO A7 Pro Max 8/128": 1795435353.7654994,
     "CMF Buds Neo Titanium": 1795437264.8543983,
-    "WALRAM 2.5  sata 512GB": 1795442235.6853206
+    "WALRAM 2.5  sata 512GB": 1795442235.6853206,
+    "Zeblaze Btalk 4 Pro": 1795446097.3435004
   },
   "published_post_keys": [
-    "aniscoupons:34610",
     "zedstoreonline:39936",
     "aniscoupons:34614",
     "aniscoupons:34615",
@@ -5245,11 +5246,12 @@
     "aniscoupons:35518",
     "zedstoreonline:40586",
     "aniscoupons:35519",
-    "zedstoreonline:40588"
+    "zedstoreonline:40588",
+    "bnddeals:51392"
   ],
   "last_disclaimer_time": 1794524540.9476151,
   "last_calendar_time": 1795177633.1203737,
-  "last_run_time": 1795442951.2127218,
+  "last_run_time": 1795446097.3435004,
   "monitored_channels": {
     "ecksdeal": {
       "last_message_id": 6125,
@@ -5284,8 +5286,8 @@
       "last_check_time": 1795442237.7735147
     },
     "bnddeals": {
-      "last_message_id": 51391,
-      "last_check_time": 1795424520.1095142
+      "last_message_id": 51392,
+      "last_check_time": 1795446099.454547
     }
   },
   "published_product_prices": {
@@ -5755,7 +5757,7 @@
     "1005009569642817": 28.43,
     "1005013438789813": 408.02,
     "1005012823102793": 226.25,
-    "1005012773302941": 17.06,
+    "1005012773302941": 17.8,
     "1005008430147176": 22.6,
     "1005011742851856": 4.89,
     "1005006304425302": 2.24,
@@ -32007,6 +32009,16 @@
       "price": 138.0,
       "timestamp": 1795442951.2127218,
       "status": "ACTIVE"
+    },
+    "bnddeals:51392": {
+      "channel_msg_id": 3511,
+      "product_id": "1005012773302941",
+      "title": "Zeblaze Btalk 4 Pro",
+      "channel": "bnddeals",
+      "source_msg_id": 51392,
+      "price": 17.8,
+      "timestamp": 1795446097.3435004,
+      "status": "ACTIVE"
     }
   },
   "schedule_config": {
@@ -32015,17 +32027,17 @@
     "current_interval_minutes": 5,
     "is_paused": false,
     "night_mode_enabled": true,
-    "last_deal_post_time": 1795442954.9575224,
+    "last_deal_post_time": 1795446099.553146,
     "night_start_hour_dz": 0,
     "night_end_hour_dz": 8,
     "night_pause_enabled": true,
-    "last_sweep_time": 1795445906.3773465,
+    "last_sweep_time": 1795446102.6804643,
     "last_sweep_times": {
-      "algeria": 1795445903.6289942,
-      "france": 1795445906.3773465
+      "algeria": 1795446099.5044305,
+      "france": 1795446102.6804643
     },
     "last_deal_post_times": {
-      "algeria": 1795442954.9575224
+      "algeria": 1795446099.553146
     }
   },
   "last_coin_reminder_time": 1795433324.042843,
@@ -32601,7 +32613,7 @@
     "1005009569642817": "lodydeals",
     "1005013438789813": "lodydeals",
     "1005012823102793": "lodydeals",
-    "1005012773302941": "lodydeals",
+    "1005012773302941": "bnddeals",
     "1005008430147176": "zedstoreonline",
     "1005011742851856": "lodydeals",
     "1005006304425302": "lodydeals",
@@ -34155,7 +34167,8 @@
     "KOOTION SATA 3 SSD": "zedstoreonline",
     "OPPO A7 Pro Max 8/128": "zedstoreonline",
     "CMF Buds Neo Titanium": "lodydeals",
-    "WALRAM 2.5  sata 512GB": "aniscoupons"
+    "WALRAM 2.5  sata 512GB": "aniscoupons",
+    "Zeblaze Btalk 4 Pro": "bnddeals"
   },
   "religious_reminders_history": {
     "mock_rem": "2026-10-02",
@@ -36721,6 +36734,13 @@
         "channel": "zedstoreonline",
         "ts": 1795442948.6989534,
         "price": 138.0
+      }
+    ],
+    "1005012773302941": [
+      {
+        "channel": "bnddeals",
+        "ts": 1795446094.5227206,
+        "price": 17.8
       }
     ]
   },
