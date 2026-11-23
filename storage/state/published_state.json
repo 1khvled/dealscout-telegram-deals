@@ -1332,7 +1332,7 @@
     "1005005373032877": 1793600283.7397804,
     "1005007869955343": 1795259266.1538367,
     "1005012644570693": 1793441338.6619778,
-    "1005003949106838": 1794935285.349218,
+    "1005003949106838": 1795441304.587918,
     "1005012436082838": 1793733101.535615,
     "1005010716206374": 1794990167.2493267,
     "1005012864273120": 1793399494.1323898,
@@ -3495,7 +3495,7 @@
     "Machenike G3 V2 PC Gaming Controller": 1794307249.1472638,
     "⭐️ 🎟️": 1793384286.409923,
     "Vivo X200s (12/255GB)": 1793384294.3328166,
-    "Netac 7400MB/s SSD NVMe 1TB": 1794845300.492113,
+    "Netac 7400MB/s SSD NVMe 1TB": 1795441304.587918,
     "GIGABYTE B550M AORUS ELITE Motherboard": 1793399464.4760919,
     "Redmi Pad 2  4/64": 1793399472.4016223,
     "MSI MAG X670E TOMAHAWK Motherboard": 1793399494.1323898,
@@ -4244,7 +4244,6 @@
     "CMF Buds Neo Titanium": 1795437264.8543983
   },
   "published_post_keys": [
-    "aniscoupons:34608",
     "aniscoupons:34607",
     "zedstoreonline:39935",
     "aniscoupons:34610",
@@ -5243,11 +5242,12 @@
     "zedstoreonline:40585",
     "aniscoupons:35515",
     "aniscoupons:35517",
-    "aniscoupons:35518"
+    "aniscoupons:35518",
+    "zedstoreonline:40586"
   ],
   "last_disclaimer_time": 1794524540.9476151,
   "last_calendar_time": 1795177633.1203737,
-  "last_run_time": 1795439282.605692,
+  "last_run_time": 1795441304.587918,
   "monitored_channels": {
     "ecksdeal": {
       "last_message_id": 6125,
@@ -5274,8 +5274,8 @@
       "last_check_time": 1793599663.3444748
     },
     "zedstoreonline": {
-      "last_message_id": 40585,
-      "last_check_time": 1795437455.270508
+      "last_message_id": 40586,
+      "last_check_time": 1795441306.681772
     },
     "aniscoupons": {
       "last_message_id": 35518,
@@ -5626,7 +5626,7 @@
     "1005005373032877": 61.03,
     "1005007869955343": 37.5,
     "1005012644570693": 558.0,
-    "1005003949106838": 114.99,
+    "1005003949106838": 115.9,
     "1005012436082838": 123.6,
     "1005010716206374": 304.39,
     "1005012864273120": 154.0,
@@ -31975,6 +31975,16 @@
       "price": 228.3,
       "timestamp": 1795439282.605692,
       "status": "ACTIVE"
+    },
+    "zedstoreonline:40586": {
+      "channel_msg_id": 3508,
+      "product_id": "1005003949106838",
+      "title": "Netac 7400MB/s SSD NVMe 1TB",
+      "channel": "zedstoreonline",
+      "source_msg_id": 40586,
+      "price": 115.9,
+      "timestamp": 1795441304.587918,
+      "status": "ACTIVE"
     }
   },
   "schedule_config": {
@@ -31983,17 +31993,17 @@
     "current_interval_minutes": 5,
     "is_paused": false,
     "night_mode_enabled": true,
-    "last_deal_post_time": 1795439286.05459,
+    "last_deal_post_time": 1795441308.6732998,
     "night_start_hour_dz": 0,
     "night_end_hour_dz": 8,
     "night_pause_enabled": true,
-    "last_sweep_time": 1795441120.280558,
+    "last_sweep_time": 1795441311.6392698,
     "last_sweep_times": {
-      "algeria": 1795441116.7359898,
-      "france": 1795441120.280558
+      "algeria": 1795441308.633115,
+      "france": 1795441311.6392698
     },
     "last_deal_post_times": {
-      "algeria": 1795439286.05459
+      "algeria": 1795441308.6732998
     }
   },
   "last_coin_reminder_time": 1795433324.042843,
@@ -32435,7 +32445,7 @@
     "1005007869955343": "aniscoupons",
     "1005012644570693": "zedstoreonline",
     "1005009118633225": "lodydeals",
-    "1005003949106838": "aniscoupons",
+    "1005003949106838": "zedstoreonline",
     "1005012436082838": "lodydeals",
     "1005010716206374": "aniscoupons",
     "1005012864273120": "zedstoreonline",
@@ -36669,6 +36679,13 @@
         "channel": "aniscoupons",
         "ts": 1795439280.2912188,
         "price": 228.3
+      }
+    ],
+    "1005003949106838": [
+      {
+        "channel": "zedstoreonline",
+        "ts": 1795441301.8348644,
+        "price": 115.9
       }
     ]
   },
