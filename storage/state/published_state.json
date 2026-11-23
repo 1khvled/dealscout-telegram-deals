@@ -5268,8 +5268,8 @@
       "last_check_time": 1795419556.007525
     },
     "aniscoupons": {
-      "last_message_id": 35498,
-      "last_check_time": 1795420842.8664725
+      "last_message_id": 35500,
+      "last_check_time": 1795422125.3756895
     },
     "bnddeals": {
       "last_message_id": 51390,
@@ -31807,10 +31807,10 @@
     "night_start_hour_dz": 0,
     "night_end_hour_dz": 8,
     "night_pause_enabled": true,
-    "last_sweep_time": 1795421950.0565474,
+    "last_sweep_time": 1795422128.8732822,
     "last_sweep_times": {
-      "algeria": 1795421946.451128,
-      "france": 1795421950.0565474
+      "algeria": 1795422126.3532026,
+      "france": 1795422128.8732822
     },
     "last_deal_post_times": {
       "algeria": 1795382846.3223975
