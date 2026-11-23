@@ -1584,7 +1584,7 @@
     "1005006411483066": 1794500381.7712336,
     "1005012925301774": 1795085801.1895535,
     "1005012959738411": 1794658966.3702009,
-    "1005008357913212": 1795259822.787355,
+    "1005008357913212": 1795424517.998026,
     "1005008703989845": 1795337450.3762672,
     "1005007162099601": 1794524556.2538168,
     "1005007038130594": 1795291550.8320675,
@@ -3026,7 +3026,8 @@
     "Oneplus Turbo 6V 8/256GB",
     "Walram SSD 480GB",
     "Walram SSD 500GB",
-    "WALRAM SSD SATA 512GB"
+    "WALRAM SSD SATA 512GB",
+    "KOOTION SATA3 SSD 256GB"
   ],
   "published_title_timestamps": {
     "Xiaomi Redmi Note 17 5G Global Version": 1790857823.0117362,
@@ -4233,10 +4234,10 @@
     "Oneplus Turbo 6V 8/256GB": 1795376024.6586418,
     "Walram SSD 480GB": 1795381174.309368,
     "Walram SSD 500GB": 1795382836.9089916,
-    "WALRAM SSD SATA 512GB": 1795422508.1241443
+    "WALRAM SSD SATA 512GB": 1795422508.1241443,
+    "KOOTION SATA3 SSD 256GB": 1795424517.998026
   },
   "published_post_keys": [
-    "aniscoupons:34590",
     "aniscoupons:34592",
     "aniscoupons:34593",
     "aniscoupons:34595",
@@ -5235,11 +5236,12 @@
     "lodydeals:46811",
     "aniscoupons:35490",
     "lodydeals:46815",
-    "zedstoreonline:40578"
+    "zedstoreonline:40578",
+    "bnddeals:51391"
   ],
   "last_disclaimer_time": 1794524540.9476151,
   "last_calendar_time": 1795177633.1203737,
-  "last_run_time": 1795422508.1241443,
+  "last_run_time": 1795424517.998026,
   "monitored_channels": {
     "ecksdeal": {
       "last_message_id": 6124,
@@ -5274,8 +5276,8 @@
       "last_check_time": 1795422684.1639652
     },
     "bnddeals": {
-      "last_message_id": 51390,
-      "last_check_time": 1795376026.802958
+      "last_message_id": 51391,
+      "last_check_time": 1795424520.1095142
     }
   },
   "published_product_prices": {
@@ -5832,7 +5834,7 @@
     "1005008703989845": 41.8,
     "1005008060391372": 31.78,
     "1005012593794312": 241.5,
-    "1005008357913212": 40.4,
+    "1005008357913212": 17.3,
     "1005012254132930": 14.5,
     "1005008708333999": 138.7,
     "1005013028124905": 438.6,
@@ -31807,6 +31809,16 @@
       "price": 33.3,
       "timestamp": 1795422508.1241443,
       "status": "ACTIVE"
+    },
+    "bnddeals:51391": {
+      "channel_msg_id": 3491,
+      "product_id": "1005008357913212",
+      "title": "KOOTION SATA3 SSD 256GB",
+      "channel": "bnddeals",
+      "source_msg_id": 51391,
+      "price": 17.3,
+      "timestamp": 1795424517.998026,
+      "status": "ACTIVE"
     }
   },
   "schedule_config": {
@@ -31815,17 +31827,17 @@
     "current_interval_minutes": 5,
     "is_paused": false,
     "night_mode_enabled": true,
-    "last_deal_post_time": 1795422519.7724864,
+    "last_deal_post_time": 1795424520.2047489,
     "night_start_hour_dz": 0,
     "night_end_hour_dz": 8,
     "night_pause_enabled": true,
-    "last_sweep_time": 1795424328.3743615,
+    "last_sweep_time": 1795424522.7500489,
     "last_sweep_times": {
-      "algeria": 1795424325.805744,
-      "france": 1795424328.3743615
+      "algeria": 1795424520.1570327,
+      "france": 1795424522.7500489
     },
     "last_deal_post_times": {
-      "algeria": 1795422519.7724864
+      "algeria": 1795424520.2047489
     }
   },
   "last_coin_reminder_time": 1795241331.112354,
@@ -32507,7 +32519,7 @@
     "1005006411483066": "lodydeals",
     "1005012925301774": "zedstoreonline",
     "1005012959738411": "aniscoupons",
-    "1005008357913212": "aniscoupons",
+    "1005008357913212": "bnddeals",
     "1005008703989845": "aniscoupons",
     "1005007162099601": "lodydeals",
     "1005007038130594": "lodydeals",
@@ -33950,7 +33962,8 @@
     "Oneplus Turbo 6V 8/256GB": "bnddeals",
     "Walram SSD 480GB": "lodydeals",
     "Walram SSD 500GB": "lodydeals",
-    "WALRAM SSD SATA 512GB": "zedstoreonline"
+    "WALRAM SSD SATA 512GB": "zedstoreonline",
+    "KOOTION SATA3 SSD 256GB": "bnddeals"
   },
   "religious_reminders_history": {
     "mock_rem": "2026-10-02",
@@ -36367,13 +36380,6 @@
         "price": 33.3
       }
     ],
-    "1005010428947440": [
-      {
-        "channel": "zedstoreonline",
-        "ts": 1795380255.2302072,
-        "price": 20.2
-      }
-    ],
     "1005007893508418": [
       {
         "channel": "zedstoreonline",
@@ -36406,6 +36412,13 @@
         "channel": "aniscoupons",
         "ts": 1795385782.3984296,
         "price": 36.9
+      }
+    ],
+    "1005008357913212": [
+      {
+        "channel": "bnddeals",
+        "ts": 1795424515.7408416,
+        "price": 17.3
       }
     ]
   },
