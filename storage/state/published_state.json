@@ -1465,7 +1465,7 @@
     "1005009569642817": 1794004758.429218,
     "1005013438789813": 1793569553.2022223,
     "1005012823102793": 1793569904.419889,
-    "1005012773302941": 1795446097.3435004,
+    "1005012773302941": 1795463758.3094215,
     "1005008430147176": 1795085991.192385,
     "1005011742851856": 1795290123.812915,
     "1005006304425302": 1793656107.995781,
@@ -3038,7 +3038,8 @@
     "WALRAM 2.5  sata 512GB",
     "Zeblaze Btalk 4 Pro",
     "HONOR Earbuds X10 Play",
-    "OPPO Enco Buds3 Pro True Wireless Earbuds"
+    "OPPO Enco Buds3 Pro True Wireless Earbuds",
+    "Zeblaze Btalk 4 Pro Voice Calling Amoled"
   ],
   "published_title_timestamps": {
     "Xiaomi Redmi Note 17 5G Global Version": 1790857823.0117362,
@@ -4253,10 +4254,10 @@
     "WALRAM 2.5  sata 512GB": 1795442235.6853206,
     "Zeblaze Btalk 4 Pro": 1795446097.3435004,
     "HONOR Earbuds X10 Play": 1795457306.5240903,
-    "OPPO Enco Buds3 Pro True Wireless Earbuds": 1795461354.838551
+    "OPPO Enco Buds3 Pro True Wireless Earbuds": 1795461354.838551,
+    "Zeblaze Btalk 4 Pro Voice Calling Amoled": 1795463758.3094215
   },
   "published_post_keys": [
-    "aniscoupons:34618",
     "aniscoupons:34619",
     "zedstoreonline:39947",
     "zedstoreonline:39948",
@@ -5255,11 +5256,12 @@
     "aniscoupons:35522",
     "aniscoupons:35523",
     "aniscoupons:35524",
-    "aniscoupons:35525"
+    "aniscoupons:35525",
+    "zedstoreonline:40591"
   ],
   "last_disclaimer_time": 1794524540.9476151,
   "last_calendar_time": 1795177633.1203737,
-  "last_run_time": 1795462839.7331553,
+  "last_run_time": 1795463758.3094215,
   "monitored_channels": {
     "ecksdeal": {
       "last_message_id": 6125,
@@ -5286,8 +5288,8 @@
       "last_check_time": 1793599663.3444748
     },
     "zedstoreonline": {
-      "last_message_id": 40590,
-      "last_check_time": 1795457481.9027028
+      "last_message_id": 40591,
+      "last_check_time": 1795463760.4184015
     },
     "aniscoupons": {
       "last_message_id": 35525,
@@ -32069,6 +32071,16 @@
       "price": 49.3,
       "timestamp": 1795462839.7331553,
       "status": "ACTIVE"
+    },
+    "zedstoreonline:40591": {
+      "channel_msg_id": 3517,
+      "product_id": "1005012773302941",
+      "title": "Zeblaze Btalk 4 Pro Voice Calling Amoled",
+      "channel": "zedstoreonline",
+      "source_msg_id": 40591,
+      "price": 17.8,
+      "timestamp": 1795463758.3094215,
+      "status": "ACTIVE"
     }
   },
   "schedule_config": {
@@ -32077,17 +32089,17 @@
     "current_interval_minutes": 5,
     "is_paused": false,
     "night_mode_enabled": true,
-    "last_deal_post_time": 1795462842.8430803,
+    "last_deal_post_time": 1795463762.3528137,
     "night_start_hour_dz": 0,
     "night_end_hour_dz": 8,
     "night_pause_enabled": true,
-    "last_sweep_time": 1795463578.9209282,
+    "last_sweep_time": 1795463765.3677733,
     "last_sweep_times": {
-      "algeria": 1795463575.7361577,
-      "france": 1795463578.9209282
+      "algeria": 1795463762.307672,
+      "france": 1795463765.3677733
     },
     "last_deal_post_times": {
-      "algeria": 1795462842.8430803
+      "algeria": 1795463762.3528137
     }
   },
   "last_coin_reminder_time": 1795433324.042843,
@@ -32663,7 +32675,7 @@
     "1005009569642817": "lodydeals",
     "1005013438789813": "lodydeals",
     "1005012823102793": "lodydeals",
-    "1005012773302941": "bnddeals",
+    "1005012773302941": "zedstoreonline",
     "1005008430147176": "zedstoreonline",
     "1005011742851856": "lodydeals",
     "1005006304425302": "lodydeals",
@@ -34222,7 +34234,8 @@
     "WALRAM 2.5  sata 512GB": "aniscoupons",
     "Zeblaze Btalk 4 Pro": "bnddeals",
     "HONOR Earbuds X10 Play": "aniscoupons",
-    "OPPO Enco Buds3 Pro True Wireless Earbuds": "aniscoupons"
+    "OPPO Enco Buds3 Pro True Wireless Earbuds": "aniscoupons",
+    "Zeblaze Btalk 4 Pro Voice Calling Amoled": "zedstoreonline"
   },
   "religious_reminders_history": {
     "mock_rem": "2026-10-02",
@@ -36824,6 +36837,11 @@
       {
         "channel": "bnddeals",
         "ts": 1795446094.5227206,
+        "price": 17.8
+      },
+      {
+        "channel": "zedstoreonline",
+        "ts": 1795463755.7011483,
         "price": 17.8
       }
     ],
