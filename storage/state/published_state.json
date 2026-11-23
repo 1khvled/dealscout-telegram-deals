@@ -32172,10 +32172,10 @@
     "night_start_hour_dz": 0,
     "night_end_hour_dz": 8,
     "night_pause_enabled": true,
-    "last_sweep_time": 1795471885.2031636,
+    "last_sweep_time": 1795472070.164604,
     "last_sweep_times": {
-      "algeria": 1795471882.6167278,
-      "france": 1795471885.2031636
+      "algeria": 1795472067.1174755,
+      "france": 1795472070.164604
     },
     "last_deal_post_times": {
       "algeria": 1795471882.664753
