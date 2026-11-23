@@ -1121,7 +1121,7 @@
     "1005011557896041": 1794845264.512838,
     "1005011754993234": 1795165118.405755,
     "1005011735727412": 1791943783.9162278,
-    "1005007916078341": 1795359864.5333638,
+    "1005007916078341": 1795429652.6051064,
     "1005006506862816": 1791947519.5815504,
     "1005008072923842": 1791968144.109348,
     "1005013336240375": 1791968149.7952893,
@@ -3209,7 +3209,7 @@
     "ATTACK SHARK L80PRO Ultralight": 1791107750.295487,
     "AMD Ryzen 7 5700X": 1795292660.5399654,
     "هاتف ينسيك في شارجور🤣🤣": 1791109857.5190113,
-    "CMF Smart Watch 3 pro AMOLED": 1795334198.279695,
+    "CMF Smart Watch 3 pro AMOLED": 1795429652.6051064,
     "ATTACK SHARK V6 Tri-Mode": 1791110751.0808105,
     "POCO M7 (6/128)": 1791114651.412541,
     "OPPO A6 Pro 8/256GB": 1794340346.0747576,
@@ -4240,7 +4240,6 @@
     "KOOTION SATA 3 SSD": 1795426347.1170113
   },
   "published_post_keys": [
-    "aniscoupons:34595",
     "aniscoupons:34596",
     "aniscoupons:34597",
     "aniscoupons:34598",
@@ -5239,11 +5238,12 @@
     "zedstoreonline:40578",
     "bnddeals:51391",
     "aniscoupons:35505",
-    "zedstoreonline:40580"
+    "zedstoreonline:40580",
+    "aniscoupons:35509"
   ],
   "last_disclaimer_time": 1794524540.9476151,
   "last_calendar_time": 1795177633.1203737,
-  "last_run_time": 1795426347.1170113,
+  "last_run_time": 1795429652.6051064,
   "monitored_channels": {
     "ecksdeal": {
       "last_message_id": 6124,
@@ -5274,8 +5274,8 @@
       "last_check_time": 1795426349.2071483
     },
     "aniscoupons": {
-      "last_message_id": 35508,
-      "last_check_time": 1795426712.5782871
+      "last_message_id": 35509,
+      "last_check_time": 1795429654.7243612
     },
     "bnddeals": {
       "last_message_id": 51391,
@@ -5473,7 +5473,7 @@
     "1005011754993234": 82.5,
     "1005011735727412": 26.6,
     "1005013039644752": 265.7,
-    "1005007916078341": 50.3,
+    "1005007916078341": 49.3,
     "1005006506862816": 11.86,
     "1005008072923842": 2.21,
     "1005013336240375": 4.18,
@@ -31841,6 +31841,16 @@
       "price": 16.5,
       "timestamp": 1795426347.1170113,
       "status": "ACTIVE"
+    },
+    "aniscoupons:35509": {
+      "channel_msg_id": 3494,
+      "product_id": "1005007916078341",
+      "title": "CMF Smart Watch 3 pro AMOLED",
+      "channel": "aniscoupons",
+      "source_msg_id": 35509,
+      "price": 49.3,
+      "timestamp": 1795429652.6051064,
+      "status": "ACTIVE"
     }
   },
   "schedule_config": {
@@ -31849,17 +31859,17 @@
     "current_interval_minutes": 5,
     "is_paused": false,
     "night_mode_enabled": true,
-    "last_deal_post_time": 1795426351.0581596,
+    "last_deal_post_time": 1795429656.1569042,
     "night_start_hour_dz": 0,
     "night_end_hour_dz": 8,
     "night_pause_enabled": true,
-    "last_sweep_time": 1795429464.056747,
+    "last_sweep_time": 1795429659.5567288,
     "last_sweep_times": {
-      "algeria": 1795429461.395252,
-      "france": 1795429464.056747
+      "algeria": 1795429656.1070802,
+      "france": 1795429659.5567288
     },
     "last_deal_post_times": {
-      "algeria": 1795426351.0581596
+      "algeria": 1795429656.1569042
     }
   },
   "last_coin_reminder_time": 1795241331.112354,
@@ -32089,7 +32099,7 @@
     "1005011754993234": "zedstoreonline",
     "1005011735727412": "bnddeals",
     "1005013039644752": "aniscoupons",
-    "1005007916078341": "zedstoreonline",
+    "1005007916078341": "aniscoupons",
     "1005006506862816": "couponsglobal",
     "1005008072923842": "pcgamingpart",
     "1005013336240375": "pcgamingpart",
@@ -36383,18 +36393,6 @@
         "price": 33.3
       }
     ],
-    "1005004433755802": [
-      {
-        "channel": "aniscoupons",
-        "ts": 1795384487.0231092,
-        "price": 37.2
-      },
-      {
-        "channel": "aniscoupons",
-        "ts": 1795385782.3984296,
-        "price": 36.9
-      }
-    ],
     "1005008357913212": [
       {
         "channel": "bnddeals",
@@ -36424,6 +36422,13 @@
         "channel": "aniscoupons",
         "ts": 1795426712.4173203,
         "price": 16.7
+      }
+    ],
+    "1005007916078341": [
+      {
+        "channel": "aniscoupons",
+        "ts": 1795429649.8276114,
+        "price": 49.3
       }
     ]
   },
