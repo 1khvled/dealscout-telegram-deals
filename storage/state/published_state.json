@@ -1147,7 +1147,7 @@
     "1005012933967378": 1792103193.622027,
     "1005010812635861": 1792160246.020243,
     "1005008500550817": 1792025664.1703467,
-    "1005009834132291": 1795118650.494316,
+    "1005009834132291": 1795465795.9142118,
     "1005008077568655": 1794999150.7012253,
     "1005009774318553": 1793543777.6383033,
     "1005012585389764": 1792061322.5579543,
@@ -3327,7 +3327,7 @@
     "ماوس ألعاب سلكي خفيف الوزن من GameSir GM500 مزود بمستشعر بصري يصل إلى 12000 DPI": 1792025644.3094199,
     "Anker Nano 3 Pro 45W GaN + Cable": 1793467031.5081036,
     "محبوبة الجماهير controller🎮": 1792025664.1703467,
-    "EasySMX X05 Pro Wireless Gamepad": 1795118650.494316,
+    "EasySMX X05 Pro Wireless Gamepad": 1795465795.9142118,
     "MACHENIKE G5Pro Max SE Gaming Controller": 1792032611.9670143,
     "قرص تخزين خارجي محمول CUSU SSD سعة 512 جيجابايت": 1792050974.7243752,
     "CUSU SSD 512GB": 1793966691.5688944,
@@ -4262,7 +4262,6 @@
     "CUSU RAM DDR4 3200MHz 16GB": 1795465234.865786
   },
   "published_post_keys": [
-    "zedstoreonline:39948",
     "aniscoupons:34620",
     "aniscoupons:34621",
     "aniscoupons:34622",
@@ -5261,11 +5260,12 @@
     "aniscoupons:35525",
     "zedstoreonline:40591",
     "aniscoupons:35526",
-    "aniscoupons:35527"
+    "aniscoupons:35527",
+    "bnddeals:51395"
   ],
   "last_disclaimer_time": 1794524540.9476151,
   "last_calendar_time": 1795177633.1203737,
-  "last_run_time": 1795465234.865786,
+  "last_run_time": 1795465795.9142118,
   "monitored_channels": {
     "ecksdeal": {
       "last_message_id": 6125,
@@ -5300,8 +5300,8 @@
       "last_check_time": 1795465236.9417477
     },
     "bnddeals": {
-      "last_message_id": 51394,
-      "last_check_time": 1795462648.9068892
+      "last_message_id": 51395,
+      "last_check_time": 1795465798.0316038
     }
   },
   "published_product_prices": {
@@ -5390,7 +5390,7 @@
     "1005012285327063": 11.1,
     "1005006581583862": 18.4,
     "1005012816171978": 274.46,
-    "1005009834132291": 22.6,
+    "1005009834132291": 21.0,
     "1005010585654037": 22.78,
     "1005006248571160": 16.8,
     "1005009390995992": 29.33,
@@ -32106,6 +32106,16 @@
       "price": 82.6,
       "timestamp": 1795465234.865786,
       "status": "ACTIVE"
+    },
+    "bnddeals:51395": {
+      "channel_msg_id": 3520,
+      "product_id": "1005009834132291",
+      "title": "EasySMX X05 Pro Wireless Gamepad",
+      "channel": "bnddeals",
+      "source_msg_id": 51395,
+      "price": 21.0,
+      "timestamp": 1795465795.9142118,
+      "status": "ACTIVE"
     }
   },
   "schedule_config": {
@@ -32114,17 +32124,17 @@
     "current_interval_minutes": 5,
     "is_paused": false,
     "night_mode_enabled": true,
-    "last_deal_post_time": 1795465237.9799547,
+    "last_deal_post_time": 1795465798.1359513,
     "night_start_hour_dz": 0,
     "night_end_hour_dz": 8,
     "night_pause_enabled": true,
-    "last_sweep_time": 1795465616.0681934,
+    "last_sweep_time": 1795465800.7438438,
     "last_sweep_times": {
-      "algeria": 1795465612.672182,
-      "france": 1795465616.0681934
+      "algeria": 1795465798.0839362,
+      "france": 1795465800.7438438
     },
     "last_deal_post_times": {
-      "algeria": 1795465237.9799547
+      "algeria": 1795465798.1359513
     }
   },
   "last_coin_reminder_time": 1795433324.042843,
@@ -36634,21 +36644,6 @@
   "competitor_product_sightings": {
     "1005009313079431": [
       {
-        "channel": "zedstoreonline",
-        "ts": 1795422505.669385,
-        "price": 33.3
-      },
-      {
-        "channel": "aniscoupons",
-        "ts": 1795422515.0813465,
-        "price": 33.3
-      },
-      {
-        "channel": "aniscoupons",
-        "ts": 1795422518.3261929,
-        "price": 33.3
-      },
-      {
         "channel": "aniscoupons",
         "ts": 1795422684.0448792,
         "price": 33.3
@@ -36891,6 +36886,13 @@
         "channel": "aniscoupons",
         "ts": 1795464127.951118,
         "price": 79.6
+      }
+    ],
+    "1005009834132291": [
+      {
+        "channel": "bnddeals",
+        "ts": 1795465793.4990177,
+        "price": 21.0
       }
     ]
   },
