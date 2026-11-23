@@ -1692,7 +1692,7 @@
     "1005013485724377": 1795286867.9281676,
     "1005012783197164": 1794606646.2896297,
     "1005012993724126": 1794515920.3397443,
-    "1005012726037568": 1795267592.0773335,
+    "1005012726037568": 1795432233.0627322,
     "1005011940143389": 1795291139.3742876,
     "1005010374799328": 1794524370.7043138,
     "1005010487219975": 1794524381.8060858,
@@ -4047,7 +4047,7 @@
     "Portable Magnetic Phone": 1795291139.3742876,
     "QCY T13 ENC Earphone": 1794524375.306614,
     "Retro Bronze Embossed": 1794524381.8060858,
-    "تخزين Kootion X12 Sata SSD": 1794531406.8053942,
+    "تخزين Kootion X12 Sata SSD": 1795432233.0627322,
     "XUNYOU-LINK 4G Modem": 1794562333.914511,
     "HOCO W40 Bluetooth 5.3 Wireless Headphone Music Headset 40mm Drivers": 1794563997.9172754,
     "HOCO E201 ENC Calling": 1794568023.9427352,
@@ -4240,7 +4240,6 @@
     "KOOTION SATA 3 SSD": 1795426347.1170113
   },
   "published_post_keys": [
-    "zedstoreonline:39928",
     "aniscoupons:34600",
     "aniscoupons:34601",
     "aniscoupons:34602",
@@ -5239,15 +5238,16 @@
     "aniscoupons:35509",
     "aniscoupons:35510",
     "aniscoupons:35511",
-    "aniscoupons:35512"
+    "aniscoupons:35512",
+    "ecksdeal:6125"
   ],
   "last_disclaimer_time": 1794524540.9476151,
   "last_calendar_time": 1795177633.1203737,
-  "last_run_time": 1795431492.1213608,
+  "last_run_time": 1795432233.0627322,
   "monitored_channels": {
     "ecksdeal": {
-      "last_message_id": 6124,
-      "last_check_time": 1795384114.0235972
+      "last_message_id": 6125,
+      "last_check_time": 1795432235.194755
     },
     "lodydeals": {
       "last_message_id": 46815,
@@ -5949,7 +5949,7 @@
     "1005013485724377": 11.5,
     "1005012783197164": 36.46,
     "1005012993724126": 15.6,
-    "1005012726037568": 7.5,
+    "1005012726037568": 7.56,
     "1005011940143389": 3.89,
     "1005010374799328": 10.49,
     "1005010487219975": 5.49,
@@ -31881,6 +31881,16 @@
       "price": 203.3,
       "timestamp": 1795431492.1213608,
       "status": "ACTIVE"
+    },
+    "ecksdeal:6125": {
+      "channel_msg_id": 3498,
+      "product_id": "1005012726037568",
+      "title": "تخزين Kootion X12 Sata SSD",
+      "channel": "ecksdeal",
+      "source_msg_id": 6125,
+      "price": 7.56,
+      "timestamp": 1795432233.0627322,
+      "status": "ACTIVE"
     }
   },
   "schedule_config": {
@@ -31889,17 +31899,17 @@
     "current_interval_minutes": 5,
     "is_paused": false,
     "night_mode_enabled": true,
-    "last_deal_post_time": 1795431495.293132,
+    "last_deal_post_time": 1795432238.614385,
     "night_start_hour_dz": 0,
     "night_end_hour_dz": 8,
     "night_pause_enabled": true,
-    "last_sweep_time": 1795432042.0155823,
+    "last_sweep_time": 1795432241.4369643,
     "last_sweep_times": {
-      "algeria": 1795432039.4707043,
-      "france": 1795432042.0155823
+      "algeria": 1795432238.5563896,
+      "france": 1795432241.4369643
     },
     "last_deal_post_times": {
-      "algeria": 1795431495.293132
+      "algeria": 1795432238.614385
     }
   },
   "last_coin_reminder_time": 1795241331.112354,
@@ -32687,7 +32697,7 @@
     "1005013485724377": "aniscoupons",
     "1005012783197164": "lodydeals",
     "1005012993724126": "aniscoupons",
-    "1005012726037568": "aniscoupons",
+    "1005012726037568": "ecksdeal",
     "1005011940143389": "lodydeals",
     "1005010374799328": "lodydeals",
     "1005010487219975": "lodydeals",
@@ -36485,6 +36495,13 @@
         "channel": "aniscoupons",
         "ts": 1795431489.2937088,
         "price": 203.3
+      }
+    ],
+    "1005012726037568": [
+      {
+        "channel": "ecksdeal",
+        "ts": 1795432229.378667,
+        "price": 7.56
       }
     ]
   },
