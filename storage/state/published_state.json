@@ -1123,7 +1123,7 @@
     "1005011557896041": 1794845264.512838,
     "1005011754993234": 1795165118.405755,
     "1005011735727412": 1791943783.9162278,
-    "1005007916078341": 1795429652.6051064,
+    "1005007916078341": 1795462839.7331553,
     "1005006506862816": 1791947519.5815504,
     "1005008072923842": 1791968144.109348,
     "1005013336240375": 1791968149.7952893,
@@ -3219,7 +3219,7 @@
     "ATTACK SHARK L80PRO Ultralight": 1791107750.295487,
     "AMD Ryzen 7 5700X": 1795436902.7698905,
     "هاتف ينسيك في شارجور🤣🤣": 1791109857.5190113,
-    "CMF Smart Watch 3 pro AMOLED": 1795429652.6051064,
+    "CMF Smart Watch 3 pro AMOLED": 1795462839.7331553,
     "ATTACK SHARK V6 Tri-Mode": 1791110751.0808105,
     "POCO M7 (6/128)": 1791114651.412541,
     "OPPO A6 Pro 8/256GB": 1794340346.0747576,
@@ -4256,7 +4256,6 @@
     "OPPO Enco Buds3 Pro True Wireless Earbuds": 1795461354.838551
   },
   "published_post_keys": [
-    "aniscoupons:34617",
     "aniscoupons:34618",
     "aniscoupons:34619",
     "zedstoreonline:39947",
@@ -5255,11 +5254,12 @@
     "bnddeals:51392",
     "aniscoupons:35522",
     "aniscoupons:35523",
-    "aniscoupons:35524"
+    "aniscoupons:35524",
+    "aniscoupons:35525"
   ],
   "last_disclaimer_time": 1794524540.9476151,
   "last_calendar_time": 1795177633.1203737,
-  "last_run_time": 1795461354.838551,
+  "last_run_time": 1795462839.7331553,
   "monitored_channels": {
     "ecksdeal": {
       "last_message_id": 6125,
@@ -5290,8 +5290,8 @@
       "last_check_time": 1795457481.9027028
     },
     "aniscoupons": {
-      "last_message_id": 35524,
-      "last_check_time": 1795461356.952229
+      "last_message_id": 35525,
+      "last_check_time": 1795462841.8300862
     },
     "bnddeals": {
       "last_message_id": 51394,
@@ -32059,6 +32059,16 @@
       "price": 22.49,
       "timestamp": 1795461354.838551,
       "status": "ACTIVE"
+    },
+    "aniscoupons:35525": {
+      "channel_msg_id": 3516,
+      "product_id": "1005007916078341",
+      "title": "CMF Smart Watch 3 pro AMOLED",
+      "channel": "aniscoupons",
+      "source_msg_id": 35525,
+      "price": 49.3,
+      "timestamp": 1795462839.7331553,
+      "status": "ACTIVE"
     }
   },
   "schedule_config": {
@@ -32067,17 +32077,17 @@
     "current_interval_minutes": 5,
     "is_paused": false,
     "night_mode_enabled": true,
-    "last_deal_post_time": 1795461358.082564,
+    "last_deal_post_time": 1795462842.8430803,
     "night_start_hour_dz": 0,
     "night_end_hour_dz": 8,
     "night_pause_enabled": true,
-    "last_sweep_time": 1795462651.3819191,
+    "last_sweep_time": 1795462845.5297406,
     "last_sweep_times": {
-      "algeria": 1795462648.9467025,
-      "france": 1795462651.3819191
+      "algeria": 1795462842.807078,
+      "france": 1795462845.5297406
     },
     "last_deal_post_times": {
-      "algeria": 1795461358.082564
+      "algeria": 1795462842.8430803
     }
   },
   "last_coin_reminder_time": 1795433324.042843,
@@ -36679,6 +36689,11 @@
       {
         "channel": "lodydeals",
         "ts": 1795437447.9761786,
+        "price": 49.3
+      },
+      {
+        "channel": "aniscoupons",
+        "ts": 1795462837.0745003,
         "price": 49.3
       }
     ],
