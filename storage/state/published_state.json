@@ -906,7 +906,8 @@
     "1005013572353302",
     "1005012172081619",
     "1005007869625249",
-    "1005013572273568"
+    "1005013572273568",
+    "COUPONBULLETIN_lodydeals_46823"
   ],
   "published_product_timestamps": {
     "1005012973772517": 1794500732.7845657,
@@ -1832,7 +1833,8 @@
     "1005013572353302": 1795457306.5240903,
     "1005012172081619": 1795461354.838551,
     "1005007869625249": 1795465234.865786,
-    "1005013572273568": 1795472795.5793128
+    "1005013572273568": 1795472795.5793128,
+    "COUPONBULLETIN_lodydeals_46823": 1795474088.8029113
   },
   "published_titles": [
     "Wireless WiFi Repeater 300Mbps WiFi Extender Amplifier Booster Router",
@@ -3047,7 +3049,8 @@
     "CUSU RAM DDR4 3200MHz 16GB",
     "BOYA Mini 2 Wireless Lavalier Microphone",
     "عودة المايك الأسطوري ما تراطيش",
-    "ADATA XPG DDR4 8GBx2 3200Mhz"
+    "ADATA XPG DDR4 8GBx2 3200Mhz",
+    "أفضل مايك لصناعة المحتوى"
   ],
   "published_title_timestamps": {
     "Xiaomi Redmi Note 17 5G Global Version": 1790857823.0117362,
@@ -4267,10 +4270,10 @@
     "CUSU RAM DDR4 3200MHz 16GB": 1795465234.865786,
     "BOYA Mini 2 Wireless Lavalier Microphone": 1795466729.299068,
     "عودة المايك الأسطوري ما تراطيش": 1795467282.6052318,
-    "ADATA XPG DDR4 8GBx2 3200Mhz": 1795472795.5793128
+    "ADATA XPG DDR4 8GBx2 3200Mhz": 1795472795.5793128,
+    "أفضل مايك لصناعة المحتوى": 1795474088.8029113
   },
   "published_post_keys": [
-    "aniscoupons:34625",
     "aniscoupons:34626",
     "aniscoupons:34627",
     "aniscoupons:34628",
@@ -5269,19 +5272,20 @@
     "aniscoupons:35528",
     "aniscoupons:35535",
     "lodydeals:46821",
-    "bnddeals:51401"
+    "bnddeals:51401",
+    "lodydeals:46823"
   ],
   "last_disclaimer_time": 1794524540.9476151,
   "last_calendar_time": 1795177633.1203737,
-  "last_run_time": 1795473903.7335489,
+  "last_run_time": 1795474088.8029113,
   "monitored_channels": {
     "ecksdeal": {
       "last_message_id": 6125,
       "last_check_time": 1795432235.194755
     },
     "lodydeals": {
-      "last_message_id": 46822,
-      "last_check_time": 1795473710.1219153
+      "last_message_id": 46823,
+      "last_check_time": 1795474088.9395788
     },
     "test_channel": {
       "last_message_id": 1793967703,
@@ -5304,8 +5308,8 @@
       "last_check_time": 1795473533.1755981
     },
     "aniscoupons": {
-      "last_message_id": 35536,
-      "last_check_time": 1795472608.0620399
+      "last_message_id": 35537,
+      "last_check_time": 1795474091.223871
     },
     "bnddeals": {
       "last_message_id": 51401,
@@ -32185,6 +32189,16 @@
       "price": 27.5,
       "timestamp": 1795473903.7335489,
       "status": "ACTIVE"
+    },
+    "lodydeals:46823": {
+      "channel_msg_id": 3527,
+      "product_id": "COUPONBULLETIN_lodydeals_46823",
+      "title": "أفضل مايك لصناعة المحتوى",
+      "channel": "lodydeals",
+      "source_msg_id": 46823,
+      "price": null,
+      "timestamp": 1795474088.8029113,
+      "status": "ACTIVE"
     }
   },
   "schedule_config": {
@@ -32193,17 +32207,17 @@
     "current_interval_minutes": 5,
     "is_paused": false,
     "night_mode_enabled": true,
-    "last_deal_post_time": 1795473905.8813741,
+    "last_deal_post_time": 1795474091.96661,
     "night_start_hour_dz": 0,
     "night_end_hour_dz": 8,
     "night_pause_enabled": true,
-    "last_sweep_time": 1795473907.9765246,
+    "last_sweep_time": 1795474095.106773,
     "last_sweep_times": {
-      "algeria": 1795473905.8477228,
-      "france": 1795473907.9765246
+      "algeria": 1795474091.932783,
+      "france": 1795474095.106773
     },
     "last_deal_post_times": {
-      "algeria": 1795473905.8813741
+      "algeria": 1795474091.96661
     }
   },
   "last_coin_reminder_time": 1795433324.042843,
@@ -33124,7 +33138,8 @@
     "1005013572353302": "aniscoupons",
     "1005012172081619": "aniscoupons",
     "1005007869625249": "aniscoupons",
-    "1005013572273568": "lodydeals"
+    "1005013572273568": "lodydeals",
+    "COUPONBULLETIN_lodydeals_46823": "lodydeals"
   },
   "published_title_channels": {
     "Test Wrench Set": "test_channel",
@@ -34345,7 +34360,8 @@
     "CUSU RAM DDR4 3200MHz 16GB": "aniscoupons",
     "BOYA Mini 2 Wireless Lavalier Microphone": "bnddeals",
     "عودة المايك الأسطوري ما تراطيش": "bnddeals",
-    "ADATA XPG DDR4 8GBx2 3200Mhz": "lodydeals"
+    "ADATA XPG DDR4 8GBx2 3200Mhz": "lodydeals",
+    "أفضل مايك لصناعة المحتوى": "lodydeals"
   },
   "religious_reminders_history": {
     "mock_rem": "2026-10-02",
@@ -35143,8 +35159,6 @@
   "published_deals_history": {},
   "settings": {},
   "handled_post_keys": [
-    "aniscoupons:34717",
-    "lodydeals:46425",
     "zedstoreonline:40019",
     "zedstoreonline:40021",
     "zedstoreonline:40022",
@@ -36142,7 +36156,9 @@
     "aniscoupons:35536",
     "bnddeals:51400",
     "zedstoreonline:40592",
-    "lodydeals:46822"
+    "lodydeals:46822",
+    "lodydeals:46823",
+    "aniscoupons:35537"
   ],
   "last_france_cross_promo_time": 1795236239.730334,
   "next_france_cross_promo_interval_seconds": 209180,
