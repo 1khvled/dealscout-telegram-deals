@@ -1342,7 +1342,7 @@
     "1005010141682336": 1793399542.6698716,
     "1005006782790827": 1794993100.653145,
     "1005012938359476": 1793448722.5382965,
-    "1005012931209980": 1794678546.0543764,
+    "1005012931209980": 1795435353.7654994,
     "1005011820893973": 1793540051.7895243,
     "1005009073904302": 1795344827.810419,
     "1005009916208760": 1795249011.22468,
@@ -3028,7 +3028,8 @@
     "Walram SSD 500GB",
     "WALRAM SSD SATA 512GB",
     "KOOTION SATA3 SSD 256GB",
-    "KOOTION SATA 3 SSD"
+    "KOOTION SATA 3 SSD",
+    "OPPO A7 Pro Max 8/128"
   ],
   "published_title_timestamps": {
     "Xiaomi Redmi Note 17 5G Global Version": 1790857823.0117362,
@@ -4237,10 +4238,10 @@
     "Walram SSD 500GB": 1795382836.9089916,
     "WALRAM SSD SATA 512GB": 1795422508.1241443,
     "KOOTION SATA3 SSD 256GB": 1795424517.998026,
-    "KOOTION SATA 3 SSD": 1795426347.1170113
+    "KOOTION SATA 3 SSD": 1795426347.1170113,
+    "OPPO A7 Pro Max 8/128": 1795435353.7654994
   },
   "published_post_keys": [
-    "aniscoupons:34600",
     "aniscoupons:34601",
     "aniscoupons:34602",
     "zedstoreonline:39929",
@@ -5239,11 +5240,12 @@
     "aniscoupons:35510",
     "aniscoupons:35511",
     "aniscoupons:35512",
-    "ecksdeal:6125"
+    "ecksdeal:6125",
+    "zedstoreonline:40583"
   ],
   "last_disclaimer_time": 1794524540.9476151,
   "last_calendar_time": 1795177633.1203737,
-  "last_run_time": 1795432233.0627322,
+  "last_run_time": 1795435353.7654994,
   "monitored_channels": {
     "ecksdeal": {
       "last_message_id": 6125,
@@ -5270,8 +5272,8 @@
       "last_check_time": 1793599663.3444748
     },
     "zedstoreonline": {
-      "last_message_id": 40582,
-      "last_check_time": 1795434613.4320793
+      "last_message_id": 40583,
+      "last_check_time": 1795435355.8702857
     },
     "aniscoupons": {
       "last_message_id": 35512,
@@ -5632,7 +5634,7 @@
     "1005010141682336": 224.0,
     "1005006782790827": 47.5,
     "1005012938359476": 123.17,
-    "1005012931209980": 272.04,
+    "1005012931209980": 277.0,
     "1005011820893973": 690.0,
     "1005009073904302": 228.32,
     "1005009916208760": 84.35,
@@ -31891,6 +31893,16 @@
       "price": 7.56,
       "timestamp": 1795432233.0627322,
       "status": "ACTIVE"
+    },
+    "zedstoreonline:40583": {
+      "channel_msg_id": 3500,
+      "product_id": "1005012931209980",
+      "title": "OPPO A7 Pro Max 8/128",
+      "channel": "zedstoreonline",
+      "source_msg_id": 40583,
+      "price": 277.0,
+      "timestamp": 1795435353.7654994,
+      "status": "ACTIVE"
     }
   },
   "schedule_config": {
@@ -31899,17 +31911,17 @@
     "current_interval_minutes": 5,
     "is_paused": false,
     "night_mode_enabled": true,
-    "last_deal_post_time": 1795432238.614385,
+    "last_deal_post_time": 1795435357.8384075,
     "night_start_hour_dz": 0,
     "night_end_hour_dz": 8,
     "night_pause_enabled": true,
-    "last_sweep_time": 1795435170.546825,
+    "last_sweep_time": 1795435360.8701017,
     "last_sweep_times": {
-      "algeria": 1795435167.0508988,
-      "france": 1795435170.546825
+      "algeria": 1795435357.793757,
+      "france": 1795435360.8701017
     },
     "last_deal_post_times": {
-      "algeria": 1795432238.614385
+      "algeria": 1795435357.8384075
     }
   },
   "last_coin_reminder_time": 1795433324.042843,
@@ -32361,7 +32373,7 @@
     "1005010141682336": "aniscoupons",
     "1005006782790827": "aniscoupons",
     "1005012938359476": "aniscoupons",
-    "1005012931209980": "lodydeals",
+    "1005012931209980": "zedstoreonline",
     "1005011820893973": "megaphonna",
     "1005009073904302": "lodydeals",
     "1005009916208760": "lodydeals",
@@ -34036,7 +34048,8 @@
     "Walram SSD 500GB": "lodydeals",
     "WALRAM SSD SATA 512GB": "zedstoreonline",
     "KOOTION SATA3 SSD 256GB": "bnddeals",
-    "KOOTION SATA 3 SSD": "zedstoreonline"
+    "KOOTION SATA 3 SSD": "zedstoreonline",
+    "OPPO A7 Pro Max 8/128": "zedstoreonline"
   },
   "religious_reminders_history": {
     "mock_rem": "2026-10-02",
@@ -36507,6 +36520,13 @@
         "channel": "ecksdeal",
         "ts": 1795432229.378667,
         "price": 7.56
+      }
+    ],
+    "1005012931209980": [
+      {
+        "channel": "zedstoreonline",
+        "ts": 1795435351.1287897,
+        "price": 277.0
       }
     ]
   },
