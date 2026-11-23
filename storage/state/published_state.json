@@ -1586,7 +1586,7 @@
     "1005008077441711": 1795259816.8338442,
     "1005006411483066": 1794500381.7712336,
     "1005012925301774": 1795085801.1895535,
-    "1005012959738411": 1794658966.3702009,
+    "1005012959738411": 1795467282.6052318,
     "1005008357913212": 1795424517.998026,
     "1005008703989845": 1795337450.3762672,
     "1005007162099601": 1794524556.2538168,
@@ -3043,7 +3043,8 @@
     "OPPO Enco Buds3 Pro True Wireless Earbuds",
     "Zeblaze Btalk 4 Pro Voice Calling Amoled",
     "CUSU RAM DDR4 3200MHz 16GB",
-    "BOYA Mini 2 Wireless Lavalier Microphone"
+    "BOYA Mini 2 Wireless Lavalier Microphone",
+    "عودة المايك الأسطوري ما تراطيش"
   ],
   "published_title_timestamps": {
     "Xiaomi Redmi Note 17 5G Global Version": 1790857823.0117362,
@@ -4261,10 +4262,10 @@
     "OPPO Enco Buds3 Pro True Wireless Earbuds": 1795461354.838551,
     "Zeblaze Btalk 4 Pro Voice Calling Amoled": 1795463758.3094215,
     "CUSU RAM DDR4 3200MHz 16GB": 1795465234.865786,
-    "BOYA Mini 2 Wireless Lavalier Microphone": 1795466729.299068
+    "BOYA Mini 2 Wireless Lavalier Microphone": 1795466729.299068,
+    "عودة المايك الأسطوري ما تراطيش": 1795467282.6052318
   },
   "published_post_keys": [
-    "aniscoupons:34621",
     "aniscoupons:34622",
     "zedstoreonline:39950",
     "aniscoupons:34623",
@@ -5263,11 +5264,12 @@
     "aniscoupons:35526",
     "aniscoupons:35527",
     "bnddeals:51395",
-    "bnddeals:51397"
+    "bnddeals:51397",
+    "bnddeals:51398"
   ],
   "last_disclaimer_time": 1794524540.9476151,
   "last_calendar_time": 1795177633.1203737,
-  "last_run_time": 1795466729.299068,
+  "last_run_time": 1795467282.6052318,
   "monitored_channels": {
     "ecksdeal": {
       "last_message_id": 6125,
@@ -5302,8 +5304,8 @@
       "last_check_time": 1795465236.9417477
     },
     "bnddeals": {
-      "last_message_id": 51397,
-      "last_check_time": 1795466731.406465
+      "last_message_id": 51398,
+      "last_check_time": 1795467284.7153268
     }
   },
   "published_product_prices": {
@@ -5876,7 +5878,7 @@
     "1005010656922924": 20.4,
     "1005008077441711": 8.5,
     "1005012925301774": 10.5,
-    "1005012959738411": 68.79,
+    "1005012959738411": 70.0,
     "1005007162099601": 29.21,
     "1005007038130594": 13.43,
     "1005008248187128": 4.49,
@@ -32128,6 +32130,16 @@
       "price": 21.0,
       "timestamp": 1795466729.299068,
       "status": "ACTIVE"
+    },
+    "bnddeals:51398": {
+      "channel_msg_id": 3522,
+      "product_id": "1005012959738411",
+      "title": "عودة المايك الأسطوري ما تراطيش",
+      "channel": "bnddeals",
+      "source_msg_id": 51398,
+      "price": 70.0,
+      "timestamp": 1795467282.6052318,
+      "status": "ACTIVE"
     }
   },
   "schedule_config": {
@@ -32136,17 +32148,17 @@
     "current_interval_minutes": 5,
     "is_paused": false,
     "night_mode_enabled": true,
-    "last_deal_post_time": 1795466731.4915273,
+    "last_deal_post_time": 1795467284.8119411,
     "night_start_hour_dz": 0,
     "night_end_hour_dz": 8,
     "night_pause_enabled": true,
-    "last_sweep_time": 1795467091.7955363,
+    "last_sweep_time": 1795467288.507261,
     "last_sweep_times": {
-      "algeria": 1795467088.901385,
-      "france": 1795467091.7955363
+      "algeria": 1795467284.7637665,
+      "france": 1795467288.507261
     },
     "last_deal_post_times": {
-      "algeria": 1795466731.4915273
+      "algeria": 1795467284.8119411
     }
   },
   "last_coin_reminder_time": 1795433324.042843,
@@ -32827,7 +32839,7 @@
     "1005008077441711": "zedstoreonline",
     "1005006411483066": "lodydeals",
     "1005012925301774": "zedstoreonline",
-    "1005012959738411": "aniscoupons",
+    "1005012959738411": "bnddeals",
     "1005008357913212": "bnddeals",
     "1005008703989845": "aniscoupons",
     "1005007162099601": "lodydeals",
@@ -34285,7 +34297,8 @@
     "OPPO Enco Buds3 Pro True Wireless Earbuds": "aniscoupons",
     "Zeblaze Btalk 4 Pro Voice Calling Amoled": "zedstoreonline",
     "CUSU RAM DDR4 3200MHz 16GB": "aniscoupons",
-    "BOYA Mini 2 Wireless Lavalier Microphone": "bnddeals"
+    "BOYA Mini 2 Wireless Lavalier Microphone": "bnddeals",
+    "عودة المايك الأسطوري ما تراطيش": "bnddeals"
   },
   "religious_reminders_history": {
     "mock_rem": "2026-10-02",
@@ -36903,6 +36916,13 @@
         "channel": "bnddeals",
         "ts": 1795466726.1773283,
         "price": 21.0
+      }
+    ],
+    "1005012959738411": [
+      {
+        "channel": "bnddeals",
+        "ts": 1795467279.8895664,
+        "price": 70.0
       }
     ]
   },
