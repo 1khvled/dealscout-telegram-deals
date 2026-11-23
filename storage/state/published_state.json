@@ -1816,7 +1816,7 @@
     "1005009649241196": 1795290145.0386395,
     "1005007097015654": 1795290732.7583535,
     "1005007805749110": 1795290738.086464,
-    "1005009319376059": 1795342254.1571093,
+    "1005009319376059": 1795438553.6548152,
     "1005011974295002": 1795344836.3762915,
     "1005010063967666": 1795345550.2834108,
     "1005009873824892": 1795346646.0617936,
@@ -4223,7 +4223,7 @@
     "Electric Lint Remover": 1795290732.7583535,
     "500mL Water Bottle": 1795290738.086464,
     "WALRAM 2.5  sata 480GB": 1795294136.0974371,
-    "WALRAM  M.2 NVMe SSD 512GB": 1795342254.1571093,
+    "WALRAM  M.2 NVMe SSD 512GB": 1795438553.6548152,
     "VIVO X300 Ultra 12/256": 1795296883.1865098,
     "Lenovo Legion Y900 11 Tablet CN Version": 1795337128.5106091,
     "WALRAM 2.5  sata 480GB": 1795381363.7169378,
@@ -4244,7 +4244,6 @@
     "CMF Buds Neo Titanium": 1795437264.8543983
   },
   "published_post_keys": [
-    "aniscoupons:34606",
     "zedstoreonline:39934",
     "aniscoupons:34608",
     "aniscoupons:34607",
@@ -5243,11 +5242,12 @@
     "lodydeals:46816",
     "lodydeals:46817",
     "zedstoreonline:40585",
-    "aniscoupons:35515"
+    "aniscoupons:35515",
+    "aniscoupons:35517"
   ],
   "last_disclaimer_time": 1794524540.9476151,
   "last_calendar_time": 1795177633.1203737,
-  "last_run_time": 1795437459.3614366,
+  "last_run_time": 1795438553.6548152,
   "monitored_channels": {
     "ecksdeal": {
       "last_message_id": 6125,
@@ -5278,8 +5278,8 @@
       "last_check_time": 1795437455.270508
     },
     "aniscoupons": {
-      "last_message_id": 35516,
-      "last_check_time": 1795437997.344629
+      "last_message_id": 35517,
+      "last_check_time": 1795438555.724723
     },
     "bnddeals": {
       "last_message_id": 51391,
@@ -31955,6 +31955,16 @@
       "price": 271.59,
       "timestamp": 1795437459.3614366,
       "status": "ACTIVE"
+    },
+    "aniscoupons:35517": {
+      "channel_msg_id": 3506,
+      "product_id": "1005009319376059",
+      "title": "WALRAM  M.2 NVMe SSD 512GB",
+      "channel": "aniscoupons",
+      "source_msg_id": 35517,
+      "price": 49.5,
+      "timestamp": 1795438553.6548152,
+      "status": "ACTIVE"
     }
   },
   "schedule_config": {
@@ -31963,17 +31973,17 @@
     "current_interval_minutes": 5,
     "is_paused": false,
     "night_mode_enabled": true,
-    "last_deal_post_time": 1795437462.46005,
+    "last_deal_post_time": 1795438556.8210237,
     "night_start_hour_dz": 0,
     "night_end_hour_dz": 8,
     "night_pause_enabled": true,
-    "last_sweep_time": 1795438368.2972534,
+    "last_sweep_time": 1795438559.9690876,
     "last_sweep_times": {
-      "algeria": 1795438365.1259866,
-      "france": 1795438368.2972534
+      "algeria": 1795438556.7920065,
+      "france": 1795438559.9690876
     },
     "last_deal_post_times": {
-      "algeria": 1795437462.46005
+      "algeria": 1795438556.8210237
     }
   },
   "last_coin_reminder_time": 1795433324.042843,
@@ -36635,6 +36645,13 @@
         "channel": "aniscoupons",
         "ts": 1795437457.190353,
         "price": 271.59
+      }
+    ],
+    "1005009319376059": [
+      {
+        "channel": "aniscoupons",
+        "ts": 1795438551.00739,
+        "price": 49.5
       }
     ]
   },
