@@ -1552,7 +1552,7 @@
     "1005006972551834": 1793793774.6743867,
     "1005010169268165": 1793794440.9453664,
     "1005010702038861": 1794935200.9462438,
-    "1005009313079431": 1795422508.1241443,
+    "1005009313079431": 1795442235.6853206,
     "1005010702511858": 1795011758.367623,
     "1005008554218453": 1793908979.1776278,
     "1005012499433797": 1794683885.7547128,
@@ -3030,7 +3030,8 @@
     "KOOTION SATA3 SSD 256GB",
     "KOOTION SATA 3 SSD",
     "OPPO A7 Pro Max 8/128",
-    "CMF Buds Neo Titanium"
+    "CMF Buds Neo Titanium",
+    "WALRAM 2.5  sata 512GB"
   ],
   "published_title_timestamps": {
     "Xiaomi Redmi Note 17 5G Global Version": 1790857823.0117362,
@@ -4241,10 +4242,10 @@
     "KOOTION SATA3 SSD 256GB": 1795424517.998026,
     "KOOTION SATA 3 SSD": 1795426347.1170113,
     "OPPO A7 Pro Max 8/128": 1795435353.7654994,
-    "CMF Buds Neo Titanium": 1795437264.8543983
+    "CMF Buds Neo Titanium": 1795437264.8543983,
+    "WALRAM 2.5  sata 512GB": 1795442235.6853206
   },
   "published_post_keys": [
-    "aniscoupons:34607",
     "zedstoreonline:39935",
     "aniscoupons:34610",
     "zedstoreonline:39936",
@@ -5243,11 +5244,12 @@
     "aniscoupons:35515",
     "aniscoupons:35517",
     "aniscoupons:35518",
-    "zedstoreonline:40586"
+    "zedstoreonline:40586",
+    "aniscoupons:35519"
   ],
   "last_disclaimer_time": 1794524540.9476151,
   "last_calendar_time": 1795177633.1203737,
-  "last_run_time": 1795441304.587918,
+  "last_run_time": 1795442235.6853206,
   "monitored_channels": {
     "ecksdeal": {
       "last_message_id": 6125,
@@ -5278,8 +5280,8 @@
       "last_check_time": 1795441844.1558974
     },
     "aniscoupons": {
-      "last_message_id": 35518,
-      "last_check_time": 1795439284.718932
+      "last_message_id": 35519,
+      "last_check_time": 1795442237.7735147
     },
     "bnddeals": {
       "last_message_id": 51391,
@@ -31985,6 +31987,16 @@
       "price": 115.9,
       "timestamp": 1795441304.587918,
       "status": "ACTIVE"
+    },
+    "aniscoupons:35519": {
+      "channel_msg_id": 3509,
+      "product_id": "1005009313079431",
+      "title": "WALRAM 2.5  sata 512GB",
+      "channel": "aniscoupons",
+      "source_msg_id": 35519,
+      "price": 33.3,
+      "timestamp": 1795442235.6853206,
+      "status": "ACTIVE"
     }
   },
   "schedule_config": {
@@ -31993,17 +32005,17 @@
     "current_interval_minutes": 5,
     "is_paused": false,
     "night_mode_enabled": true,
-    "last_deal_post_time": 1795441308.6732998,
+    "last_deal_post_time": 1795442238.8724365,
     "night_start_hour_dz": 0,
     "night_end_hour_dz": 8,
     "night_pause_enabled": true,
-    "last_sweep_time": 1795442041.7669039,
+    "last_sweep_time": 1795442241.7527509,
     "last_sweep_times": {
-      "algeria": 1795442038.6065605,
-      "france": 1795442041.7669039
+      "algeria": 1795442238.8334758,
+      "france": 1795442241.7527509
     },
     "last_deal_post_times": {
-      "algeria": 1795441308.6732998
+      "algeria": 1795442238.8724365
     }
   },
   "last_coin_reminder_time": 1795433324.042843,
@@ -32653,7 +32665,7 @@
     "1005006972551834": "lodydeals",
     "1005010169268165": "lodydeals",
     "1005010702038861": "ecksdeal",
-    "1005009313079431": "zedstoreonline",
+    "1005009313079431": "aniscoupons",
     "1005010702511858": "lodydeals",
     "1005008554218453": "lodydeals",
     "1005012499433797": "aniscoupons",
@@ -34132,7 +34144,8 @@
     "KOOTION SATA3 SSD 256GB": "bnddeals",
     "KOOTION SATA 3 SSD": "zedstoreonline",
     "OPPO A7 Pro Max 8/128": "zedstoreonline",
-    "CMF Buds Neo Titanium": "lodydeals"
+    "CMF Buds Neo Titanium": "lodydeals",
+    "WALRAM 2.5  sata 512GB": "aniscoupons"
   },
   "religious_reminders_history": {
     "mock_rem": "2026-10-02",
@@ -36526,6 +36539,11 @@
       {
         "channel": "zedstoreonline",
         "ts": 1795423411.928895,
+        "price": 33.3
+      },
+      {
+        "channel": "aniscoupons",
+        "ts": 1795442233.1101317,
         "price": 33.3
       }
     ],
