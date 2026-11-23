@@ -920,7 +920,7 @@
     "9998887952": 1790887952.6119926,
     "9998887972": 1790887972.157133,
     "100500777666555": 1793956903.3513582,
-    "1005011778621042": 1795292660.5399654,
+    "1005011778621042": 1795436902.7698905,
     "9998888080": 1790888080.3099577,
     "1005009234854371": 1793543664.66204,
     "1005006533038973": 1791104468.758226,
@@ -3208,7 +3208,7 @@
     "ATTACK SHARK X5": 1791106544.154073,
     "ATTACK SHARK X2 Pro": 1791106853.9447496,
     "ATTACK SHARK L80PRO Ultralight": 1791107750.295487,
-    "AMD Ryzen 7 5700X": 1795292660.5399654,
+    "AMD Ryzen 7 5700X": 1795436902.7698905,
     "هاتف ينسيك في شارجور🤣🤣": 1791109857.5190113,
     "CMF Smart Watch 3 pro AMOLED": 1795429652.6051064,
     "ATTACK SHARK V6 Tri-Mode": 1791110751.0808105,
@@ -4242,7 +4242,6 @@
     "OPPO A7 Pro Max 8/128": 1795435353.7654994
   },
   "published_post_keys": [
-    "aniscoupons:34601",
     "aniscoupons:34602",
     "zedstoreonline:39929",
     "aniscoupons:34605",
@@ -5241,11 +5240,12 @@
     "aniscoupons:35511",
     "aniscoupons:35512",
     "ecksdeal:6125",
-    "zedstoreonline:40583"
+    "zedstoreonline:40583",
+    "zedstoreonline:40584"
   ],
   "last_disclaimer_time": 1794524540.9476151,
   "last_calendar_time": 1795177633.1203737,
-  "last_run_time": 1795435353.7654994,
+  "last_run_time": 1795436902.7698905,
   "monitored_channels": {
     "ecksdeal": {
       "last_message_id": 6125,
@@ -5272,12 +5272,12 @@
       "last_check_time": 1793599663.3444748
     },
     "zedstoreonline": {
-      "last_message_id": 40583,
-      "last_check_time": 1795435355.8702857
+      "last_message_id": 40584,
+      "last_check_time": 1795436904.8800046
     },
     "aniscoupons": {
-      "last_message_id": 35512,
-      "last_check_time": 1795431494.2077608
+      "last_message_id": 35513,
+      "last_check_time": 1795436909.7924974
     },
     "bnddeals": {
       "last_message_id": 51391,
@@ -31903,6 +31903,16 @@
       "price": 277.0,
       "timestamp": 1795435353.7654994,
       "status": "ACTIVE"
+    },
+    "zedstoreonline:40584": {
+      "channel_msg_id": 3501,
+      "product_id": "1005011778621042",
+      "title": "AMD Ryzen 7 5700X",
+      "channel": "zedstoreonline",
+      "source_msg_id": 40584,
+      "price": 119.5,
+      "timestamp": 1795436902.7698905,
+      "status": "ACTIVE"
     }
   },
   "schedule_config": {
@@ -31911,17 +31921,17 @@
     "current_interval_minutes": 5,
     "is_paused": false,
     "night_mode_enabled": true,
-    "last_deal_post_time": 1795435357.8384075,
+    "last_deal_post_time": 1795436910.8034785,
     "night_start_hour_dz": 0,
     "night_end_hour_dz": 8,
     "night_pause_enabled": true,
-    "last_sweep_time": 1795436714.9685712,
+    "last_sweep_time": 1795436914.1454773,
     "last_sweep_times": {
-      "algeria": 1795436712.8765519,
-      "france": 1795436714.9685712
+      "algeria": 1795436910.7550595,
+      "france": 1795436914.1454773
     },
     "last_deal_post_times": {
-      "algeria": 1795435357.8384075
+      "algeria": 1795436910.8034785
     }
   },
   "last_coin_reminder_time": 1795433324.042843,
@@ -34847,7 +34857,6 @@
   "published_deals_history": {},
   "settings": {},
   "handled_post_keys": [
-    "aniscoupons:34703",
     "zedstoreonline:40010",
     "zedstoreonline:40011",
     "aniscoupons:34707",
@@ -35846,7 +35855,8 @@
     "aniscoupons:35506",
     "aniscoupons:35508",
     "zedstoreonline:40581",
-    "zedstoreonline:40582"
+    "zedstoreonline:40582",
+    "aniscoupons:35513"
   ],
   "last_france_cross_promo_time": 1795236239.730334,
   "next_france_cross_promo_interval_seconds": 209180,
@@ -36527,6 +36537,18 @@
         "channel": "zedstoreonline",
         "ts": 1795435351.1287897,
         "price": 277.0
+      }
+    ],
+    "1005011778621042": [
+      {
+        "channel": "zedstoreonline",
+        "ts": 1795436899.5849977,
+        "price": 119.5
+      },
+      {
+        "channel": "aniscoupons",
+        "ts": 1795436909.6106482,
+        "price": 119.5
       }
     ]
   },
