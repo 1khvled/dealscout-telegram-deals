@@ -1420,7 +1420,7 @@
     "1005012790288780": 1793656271.0286891,
     "1005012345939726": 1793656202.4239671,
     "1005010722422210": 1794997865.6657422,
-    "1005012582348584": 1795426347.1170113,
+    "1005012582348584": 1795455837.2486,
     "1005012529582418": 1795352881.214854,
     "1005008605565544": 1793543812.9442995,
     "1005009508910625": 1793543817.982839,
@@ -3636,7 +3636,7 @@
     "Honor WIN RT 5G 12/256GB": 1793543733.1622994,
     "OnePlus 13T 5G 12/256GB": 1793543747.3776598,
     "OnePlus 13 5G 12/256GB": 1793543755.5335042,
-    "KOOTION SATA SSD 256GB": 1793543760.1113183,
+    "KOOTION SATA SSD 256GB": 1795455837.2486,
     "CUSU K5 External SSD 512GB": 1793543777.6383033,
     "لاتنسى تحويل دولة التطبيق الى كندا 🇨🇦": 1795352881.214854,
     "سماعات اذن فخمة Truthear x Crinacle Zero BLUE2 IEM'S": 1793543812.9442995,
@@ -4248,7 +4248,6 @@
     "Zeblaze Btalk 4 Pro": 1795446097.3435004
   },
   "published_post_keys": [
-    "zedstoreonline:39936",
     "aniscoupons:34614",
     "aniscoupons:34615",
     "aniscoupons:34617",
@@ -5247,11 +5246,12 @@
     "zedstoreonline:40586",
     "aniscoupons:35519",
     "zedstoreonline:40588",
-    "bnddeals:51392"
+    "bnddeals:51392",
+    "aniscoupons:35522"
   ],
   "last_disclaimer_time": 1794524540.9476151,
   "last_calendar_time": 1795177633.1203737,
-  "last_run_time": 1795446097.3435004,
+  "last_run_time": 1795455837.2486,
   "monitored_channels": {
     "ecksdeal": {
       "last_message_id": 6125,
@@ -5282,8 +5282,8 @@
       "last_check_time": 1795448479.359128
     },
     "aniscoupons": {
-      "last_message_id": 35521,
-      "last_check_time": 1795453996.4896786
+      "last_message_id": 35522,
+      "last_check_time": 1795455839.3612783
     },
     "bnddeals": {
       "last_message_id": 51392,
@@ -5712,7 +5712,7 @@
     "1005012790288780": 26.95,
     "1005012345939726": 18.62,
     "1005010722422210": 405.99,
-    "1005012582348584": 16.5,
+    "1005012582348584": 16.7,
     "1005012529582418": 12.6,
     "1005008605565544": 58.59,
     "1005009508910625": 46.26,
@@ -32019,6 +32019,16 @@
       "price": 17.8,
       "timestamp": 1795446097.3435004,
       "status": "ACTIVE"
+    },
+    "aniscoupons:35522": {
+      "channel_msg_id": 3513,
+      "product_id": "1005012582348584",
+      "title": "KOOTION SATA SSD 256GB",
+      "channel": "aniscoupons",
+      "source_msg_id": 35522,
+      "price": 16.7,
+      "timestamp": 1795455837.2486,
+      "status": "ACTIVE"
     }
   },
   "schedule_config": {
@@ -32027,17 +32037,17 @@
     "current_interval_minutes": 5,
     "is_paused": false,
     "night_mode_enabled": true,
-    "last_deal_post_time": 1795446099.553146,
+    "last_deal_post_time": 1795455840.5852249,
     "night_start_hour_dz": 0,
     "night_end_hour_dz": 8,
     "night_pause_enabled": true,
-    "last_sweep_time": 1795455654.2244968,
+    "last_sweep_time": 1795455843.6469295,
     "last_sweep_times": {
-      "algeria": 1795455651.078076,
-      "france": 1795455654.2244968
+      "algeria": 1795455840.5360074,
+      "france": 1795455843.6469295
     },
     "last_deal_post_times": {
-      "algeria": 1795446099.553146
+      "algeria": 1795455840.5852249
     }
   },
   "last_coin_reminder_time": 1795433324.042843,
@@ -32568,7 +32578,7 @@
     "1005012790288780": "lodydeals",
     "1005012345939726": "lodydeals",
     "1005010722422210": "aniscoupons",
-    "1005012582348584": "zedstoreonline",
+    "1005012582348584": "aniscoupons",
     "1005012529582418": "ecksdeal",
     "1005008605565544": "ecksdeal",
     "1005009508910625": "ecksdeal",
@@ -33564,7 +33574,7 @@
     "Honor WIN RT 5G 12/256GB": "lodydeals",
     "OnePlus 13T 5G 12/256GB": "lodydeals",
     "OnePlus 13 5G 12/256GB": "lodydeals",
-    "KOOTION SATA SSD 256GB": "lodydeals",
+    "KOOTION SATA SSD 256GB": "aniscoupons",
     "CUSU K5 External SSD 512GB": "lodydeals",
     "لاتنسى تحويل دولة التطبيق الى كندا 🇨🇦": "ecksdeal",
     "سماعات اذن فخمة Truthear x Crinacle Zero BLUE2 IEM'S": "ecksdeal",
@@ -36613,6 +36623,11 @@
       {
         "channel": "aniscoupons",
         "ts": 1795426712.4173203,
+        "price": 16.7
+      },
+      {
+        "channel": "aniscoupons",
+        "ts": 1795455834.612701,
         "price": 16.7
       }
     ],
