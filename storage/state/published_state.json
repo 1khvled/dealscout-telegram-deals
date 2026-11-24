@@ -1331,7 +1331,7 @@
     "1005012382148199": 1793500800.6950834,
     "1005010158485058": 1793543612.279949,
     "1005012910719451": 1795184387.5053294,
-    "1005006307798542": 1793467165.446982,
+    "1005006307798542": 1795547826.6655538,
     "1005011787296177": 1795543601.9781244,
     "1005007375332966": 1793467173.1692383,
     "1005012543970886": 1793467209.762414,
@@ -3116,7 +3116,8 @@
     "ULTRALIGHT TRAVEL HAMMOCK",
     "OPPO Enco Buds3 True Wireless Earbuds",
     "Digital weight scale",
-    "Lefon F35 Wireless Mouse Vertical"
+    "Lefon F35 Wireless Mouse Vertical",
+    "SoundPEATS Space Hybrid ANC"
   ],
   "published_title_timestamps": {
     "Xiaomi Redmi Note 17 5G Global Version": 1790857823.0117362,
@@ -4362,10 +4363,10 @@
     "ULTRALIGHT TRAVEL HAMMOCK": 1795540462.4924362,
     "OPPO Enco Buds3 True Wireless Earbuds": 1795540647.657338,
     "Digital weight scale": 1795546908.1570234,
-    "Lefon F35 Wireless Mouse Vertical": 1795547454.3449724
+    "Lefon F35 Wireless Mouse Vertical": 1795547454.3449724,
+    "SoundPEATS Space Hybrid ANC": 1795547826.6655538
   },
   "published_post_keys": [
-    "aniscoupons:34702",
     "aniscoupons:34704",
     "aniscoupons:34705",
     "aniscoupons:34706",
@@ -5364,19 +5365,20 @@
     "lodydeals:46849",
     "aniscoupons:35591",
     "zedstoreonline:40649",
-    "lodydeals:46852"
+    "lodydeals:46852",
+    "lodydeals:46853"
   ],
   "last_disclaimer_time": 1794524540.9476151,
   "last_calendar_time": 1795177633.1203737,
-  "last_run_time": 1795547454.3449724,
+  "last_run_time": 1795547826.6655538,
   "monitored_channels": {
     "ecksdeal": {
       "last_message_id": 6130,
       "last_check_time": 1795527393.9958658
     },
     "lodydeals": {
-      "last_message_id": 46852,
-      "last_check_time": 1795547456.4254143
+      "last_message_id": 46853,
+      "last_check_time": 1795547828.780978
     },
     "test_channel": {
       "last_message_id": 1793967703,
@@ -5719,7 +5721,7 @@
     "1005012382148199": 469.0,
     "1005010158485058": 66.5,
     "1005012910719451": 278.44,
-    "1005006307798542": 35.3,
+    "1005006307798542": 31.71,
     "1005011787296177": 28.7,
     "1005007375332966": 52.8,
     "1005012543970886": 12.3,
@@ -33108,6 +33110,16 @@
       "price": 10.09,
       "timestamp": 1795547454.3449724,
       "status": "ACTIVE"
+    },
+    "lodydeals:46853": {
+      "channel_msg_id": 3634,
+      "product_id": "1005006307798542",
+      "title": "SoundPEATS Space Hybrid ANC",
+      "channel": "lodydeals",
+      "source_msg_id": 46853,
+      "price": 31.71,
+      "timestamp": 1795547826.6655538,
+      "status": "ACTIVE"
     }
   },
   "schedule_config": {
@@ -33116,17 +33128,17 @@
     "current_interval_minutes": 5,
     "is_paused": false,
     "night_mode_enabled": true,
-    "last_deal_post_time": 1795547458.9485483,
+    "last_deal_post_time": 1795547832.4200943,
     "night_start_hour_dz": 0,
     "night_end_hour_dz": 8,
     "night_pause_enabled": true,
-    "last_sweep_time": 1795547638.9399238,
+    "last_sweep_time": 1795547834.908408,
     "last_sweep_times": {
-      "algeria": 1795547636.6745548,
-      "france": 1795547638.9399238
+      "algeria": 1795547832.3693924,
+      "france": 1795547834.908408
     },
     "last_deal_post_times": {
-      "algeria": 1795547458.9485483
+      "algeria": 1795547832.4200943
     }
   },
   "last_coin_reminder_time": 1795433324.042843,
@@ -33539,7 +33551,7 @@
     "1005012382148199": "megaphonna",
     "1005010158485058": "lodydeals",
     "1005012910719451": "lodydeals",
-    "1005006307798542": "aniscoupons",
+    "1005006307798542": "lodydeals",
     "1005011787296177": "zedstoreonline",
     "1005007375332966": "aniscoupons",
     "1005012543970886": "aniscoupons",
@@ -35315,7 +35327,8 @@
     "ULTRALIGHT TRAVEL HAMMOCK": "aniscoupons",
     "OPPO Enco Buds3 True Wireless Earbuds": "aniscoupons",
     "Digital weight scale": "zedstoreonline",
-    "Lefon F35 Wireless Mouse Vertical": "lodydeals"
+    "Lefon F35 Wireless Mouse Vertical": "lodydeals",
+    "SoundPEATS Space Hybrid ANC": "lodydeals"
   },
   "religious_reminders_history": {
     "mock_rem": "2026-10-02",
@@ -38293,6 +38306,13 @@
         "channel": "lodydeals",
         "ts": 1795546163.6175926,
         "price": 64.0
+      }
+    ],
+    "1005006307798542": [
+      {
+        "channel": "lodydeals",
+        "ts": 1795547824.3126018,
+        "price": 31.71
       }
     ]
   },
