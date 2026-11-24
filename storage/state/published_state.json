@@ -907,7 +907,8 @@
     "1005012172081619",
     "1005007869625249",
     "1005013572273568",
-    "COUPONBULLETIN_lodydeals_46823"
+    "COUPONBULLETIN_lodydeals_46823",
+    "1005006444231276"
   ],
   "published_product_timestamps": {
     "1005012973772517": 1794500732.7845657,
@@ -1425,7 +1426,7 @@
     "1005012790288780": 1793656271.0286891,
     "1005012345939726": 1793656202.4239671,
     "1005010722422210": 1794997865.6657422,
-    "1005012582348584": 1795455837.2486,
+    "1005012582348584": 1795501558.4890077,
     "1005012529582418": 1795352881.214854,
     "1005008605565544": 1793543812.9442995,
     "1005009508910625": 1793543817.982839,
@@ -1834,7 +1835,8 @@
     "1005012172081619": 1795461354.838551,
     "1005007869625249": 1795465234.865786,
     "1005013572273568": 1795476463.9675937,
-    "COUPONBULLETIN_lodydeals_46823": 1795474088.8029113
+    "COUPONBULLETIN_lodydeals_46823": 1795474088.8029113,
+    "1005006444231276": 1795501553.790957
   },
   "published_titles": [
     "Wireless WiFi Repeater 300Mbps WiFi Extender Amplifier Booster Router",
@@ -4080,7 +4082,7 @@
     "CUSU SSD CV3500 M2 1TB": 1794935207.3242974,
     "S80 Flash Drive USB 3.2 Type-A 128GB": 1794649534.468107,
     "ATK VXE Dragonfly V3 PRO": 1794733838.2777092,
-    "Kingston DataTraveler USB 128GB": 1794781664.5903678,
+    "Kingston DataTraveler USB 128GB": 1795501553.790957,
     "Honor X80 Pro Max 8/128": 1794955059.3960474,
     "ماوس فخم Logitech G502 Hero": 1794591008.1982286,
     "ماوس لاسلكي Delux M800 Mini Series": 1794591382.6548223,
@@ -4260,7 +4262,7 @@
     "Walram SSD 500GB": 1795382836.9089916,
     "WALRAM SSD SATA 512GB": 1795422508.1241443,
     "KOOTION SATA3 SSD 256GB": 1795424517.998026,
-    "KOOTION SATA 3 SSD": 1795426347.1170113,
+    "KOOTION SATA 3 SSD": 1795501558.4890077,
     "OPPO A7 Pro Max 8/128": 1795435353.7654994,
     "CMF Buds Neo Titanium": 1795437264.8543983,
     "WALRAM 2.5  sata 512GB": 1795467838.0597904,
@@ -4276,8 +4278,6 @@
     "ADATA XPG DDR4 Ram  8GB×2 3200MHZ": 1795476463.9675937
   },
   "published_post_keys": [
-    "aniscoupons:34627",
-    "aniscoupons:34628",
     "zedstoreonline:39955",
     "aniscoupons:34630",
     "aniscoupons:34632",
@@ -5275,11 +5275,13 @@
     "lodydeals:46821",
     "bnddeals:51401",
     "lodydeals:46823",
-    "aniscoupons:35539"
+    "aniscoupons:35539",
+    "zedstoreonline:40593",
+    "zedstoreonline:40594"
   ],
   "last_disclaimer_time": 1794524540.9476151,
   "last_calendar_time": 1795177633.1203737,
-  "last_run_time": 1795476463.9675937,
+  "last_run_time": 1795501558.4890077,
   "monitored_channels": {
     "ecksdeal": {
       "last_message_id": 6126,
@@ -5306,8 +5308,8 @@
       "last_check_time": 1793599663.3444748
     },
     "zedstoreonline": {
-      "last_message_id": 40592,
-      "last_check_time": 1795473533.1755981
+      "last_message_id": 40595,
+      "last_check_time": 1795501560.6482108
     },
     "aniscoupons": {
       "last_message_id": 35539,
@@ -6116,7 +6118,8 @@
     "1005013572353302": 13.18,
     "1005012172081619": 22.49,
     "1005007869625249": 82.6,
-    "1005013572273568": 76.8
+    "1005013572273568": 76.8,
+    "1005006444231276": 6.8
   },
   "channel_published_deals": {
     "aniscoupons:32590": {
@@ -32211,6 +32214,26 @@
       "price": 76.8,
       "timestamp": 1795476463.9675937,
       "status": "ACTIVE"
+    },
+    "zedstoreonline:40593": {
+      "channel_msg_id": 3530,
+      "product_id": "1005006444231276",
+      "title": "Kingston DataTraveler USB 128GB",
+      "channel": "zedstoreonline",
+      "source_msg_id": 40593,
+      "price": 6.8,
+      "timestamp": 1795501553.790957,
+      "status": "ACTIVE"
+    },
+    "zedstoreonline:40594": {
+      "channel_msg_id": 3531,
+      "product_id": "1005012582348584",
+      "title": "KOOTION SATA 3 SSD",
+      "channel": "zedstoreonline",
+      "source_msg_id": 40594,
+      "price": 16.7,
+      "timestamp": 1795501558.4890077,
+      "status": "ACTIVE"
     }
   },
   "schedule_config": {
@@ -32219,17 +32242,17 @@
     "current_interval_minutes": 5,
     "is_paused": false,
     "night_mode_enabled": true,
-    "last_deal_post_time": 1795476467.0771542,
+    "last_deal_post_time": 1795501562.4544415,
     "night_start_hour_dz": 0,
     "night_end_hour_dz": 8,
     "night_pause_enabled": true,
-    "last_sweep_time": 1795477018.3009114,
+    "last_sweep_time": 1795501565.1482878,
     "last_sweep_times": {
-      "algeria": 1795477015.2936766,
-      "france": 1795477018.3009114
+      "algeria": 1795501562.411455,
+      "france": 1795501565.1482878
     },
     "last_deal_post_times": {
-      "algeria": 1795476467.0771542
+      "algeria": 1795501562.4544415
     }
   },
   "last_coin_reminder_time": 1795433324.042843,
@@ -32760,7 +32783,7 @@
     "1005012790288780": "lodydeals",
     "1005012345939726": "lodydeals",
     "1005010722422210": "aniscoupons",
-    "1005012582348584": "aniscoupons",
+    "1005012582348584": "zedstoreonline",
     "1005012529582418": "ecksdeal",
     "1005008605565544": "ecksdeal",
     "1005009508910625": "ecksdeal",
@@ -33151,7 +33174,8 @@
     "1005012172081619": "aniscoupons",
     "1005007869625249": "aniscoupons",
     "1005013572273568": "aniscoupons",
-    "COUPONBULLETIN_lodydeals_46823": "lodydeals"
+    "COUPONBULLETIN_lodydeals_46823": "lodydeals",
+    "1005006444231276": "zedstoreonline"
   },
   "published_title_channels": {
     "Test Wrench Set": "test_channel",
@@ -35172,7 +35196,6 @@
   "published_deals_history": {},
   "settings": {},
   "handled_post_keys": [
-    "zedstoreonline:40022",
     "zedstoreonline:40023",
     "aniscoupons:34721",
     "aniscoupons:34723",
@@ -36171,11 +36194,12 @@
     "lodydeals:46823",
     "aniscoupons:35537",
     "ecksdeal:6126",
-    "aniscoupons:35538"
+    "aniscoupons:35538",
+    "zedstoreonline:40595"
   ],
-  "last_france_cross_promo_time": 1795236239.730334,
-  "next_france_cross_promo_interval_seconds": 209180,
-  "france_cross_promo_variant_idx": 0,
+  "last_france_cross_promo_time": 1795501542.8708572,
+  "next_france_cross_promo_interval_seconds": 208574,
+  "france_cross_promo_variant_idx": 1,
   "published_coupon_bulletins": [
     {
       "promo": "Test Event 2026",
@@ -36747,21 +36771,6 @@
     "1005009313079431": [
       {
         "channel": "aniscoupons",
-        "ts": 1795442233.1101317,
-        "price": 33.3
-      },
-      {
-        "channel": "zedstoreonline",
-        "ts": 1795448479.174958,
-        "price": 34.2
-      },
-      {
-        "channel": "aniscoupons",
-        "ts": 1795453996.3031979,
-        "price": 34.27
-      },
-      {
-        "channel": "aniscoupons",
         "ts": 1795467835.65292,
         "price": 34.27
       },
@@ -36781,16 +36790,6 @@
     "1005012582348584": [
       {
         "channel": "aniscoupons",
-        "ts": 1795455834.612701,
-        "price": 16.7
-      },
-      {
-        "channel": "zedstoreonline",
-        "ts": 1795457481.7147768,
-        "price": 16.7
-      },
-      {
-        "channel": "aniscoupons",
         "ts": 1795469125.4804215,
         "price": 43.6
       },
@@ -36798,123 +36797,21 @@
         "channel": "aniscoupons",
         "ts": 1795469672.221963,
         "price": 43.6
+      },
+      {
+        "channel": "zedstoreonline",
+        "ts": 1795501556.4989471,
+        "price": 16.7
       }
     ],
     "1005007916078341": [
-      {
-        "channel": "lodydeals",
-        "ts": 1795437447.9761786,
-        "price": 49.3
-      },
       {
         "channel": "aniscoupons",
         "ts": 1795462837.0745003,
         "price": 49.3
       }
     ],
-    "1005010210432531": [
-      {
-        "channel": "zedstoreonline",
-        "ts": 1795434613.245766,
-        "price": 133.8
-      }
-    ],
-    "1005012931209980": [
-      {
-        "channel": "zedstoreonline",
-        "ts": 1795435351.1287897,
-        "price": 277.0
-      },
-      {
-        "channel": "aniscoupons",
-        "ts": 1795437997.1465883,
-        "price": 275.0
-      }
-    ],
-    "1005011778621042": [
-      {
-        "channel": "zedstoreonline",
-        "ts": 1795436899.5849977,
-        "price": 119.5
-      },
-      {
-        "channel": "aniscoupons",
-        "ts": 1795436909.6106482,
-        "price": 119.5
-      },
-      {
-        "channel": "lodydeals",
-        "ts": 1795437627.813092,
-        "price": 119.59
-      }
-    ],
-    "1005010413332383": [
-      {
-        "channel": "lodydeals",
-        "ts": 1795437257.2612844,
-        "price": 338.22
-      }
-    ],
-    "1005013005786079": [
-      {
-        "channel": "lodydeals",
-        "ts": 1795437262.932726,
-        "price": 18.29
-      }
-    ],
-    "1005009073904302": [
-      {
-        "channel": "zedstoreonline",
-        "ts": 1795437450.8046215,
-        "price": 228.3
-      }
-    ],
-    "1005012524603100": [
-      {
-        "channel": "aniscoupons",
-        "ts": 1795437457.190353,
-        "price": 271.59
-      }
-    ],
-    "1005009319376059": [
-      {
-        "channel": "aniscoupons",
-        "ts": 1795438551.00739,
-        "price": 49.5
-      }
-    ],
-    "1005012191191893": [
-      {
-        "channel": "aniscoupons",
-        "ts": 1795439280.2912188,
-        "price": 228.3
-      }
-    ],
-    "1005003949106838": [
-      {
-        "channel": "zedstoreonline",
-        "ts": 1795441301.8348644,
-        "price": 115.9
-      }
-    ],
-    "1005008708333999": [
-      {
-        "channel": "zedstoreonline",
-        "ts": 1795442948.6989534,
-        "price": 138.0
-      },
-      {
-        "channel": "aniscoupons",
-        "ts": 1795447557.6768882,
-        "price": 138.7
-      }
-    ],
     "1005012773302941": [
-      {
-        "channel": "bnddeals",
-        "ts": 1795446094.5227206,
-        "price": 17.8
-      },
       {
         "channel": "zedstoreonline",
         "ts": 1795463755.7011483,
