@@ -1761,7 +1761,7 @@
     "1005010376374580": 1794935234.6883996,
     "1005010239860751": 1794689616.7178488,
     "1005009278862695": 1795535124.479775,
-    "1005013005786079": 1795521300.0702558,
+    "1005013005786079": 1795537887.5386431,
     "1005008627811107": 1794694594.377669,
     "1005012892577195": 1794732862.0085351,
     "1005012594430190": 1794741945.3108501,
@@ -4182,7 +4182,7 @@
     "FIFINE Wireless Lavalier Recording Microphone": 1794682951.3022494,
     "MCHOSE A7 V2 Ultra Gaming Mouse": 1794684619.3058665,
     "NETUM XL-P801 Thermal A4 Printer": 1794687391.0146728,
-    "Nothing Buds 2 Neo": 1795521300.0702558,
+    "Nothing Buds 2 Neo": 1795537887.5386431,
     "مقبس SONOFF ذكي بقوة 16A يتيح تشغيل وإيقاف الأجهزة الكهربائية عن": 1794689616.7178488,
     "Anker Soundcore P30i ANC": 1795249198.9372864,
     "Anker 735 GaN 3 Port 65W": 1795022632.7994065,
@@ -4349,7 +4349,6 @@
     "TCL Alcatel 1023": 1795536047.6290047
   },
   "published_post_keys": [
-    "aniscoupons:34688",
     "aniscoupons:34689",
     "aniscoupons:34690",
     "zedstoreonline:40000",
@@ -5348,11 +5347,12 @@
     "zedstoreonline:40640",
     "aniscoupons:35573",
     "zedstoreonline:40642",
-    "aniscoupons:35576"
+    "aniscoupons:35576",
+    "aniscoupons:35581"
   ],
   "last_disclaimer_time": 1794524540.9476151,
   "last_calendar_time": 1795177633.1203737,
-  "last_run_time": 1795536047.6290047,
+  "last_run_time": 1795537887.5386431,
   "monitored_channels": {
     "ecksdeal": {
       "last_message_id": 6130,
@@ -5383,8 +5383,8 @@
       "last_check_time": 1795535126.5626585
     },
     "aniscoupons": {
-      "last_message_id": 35580,
-      "last_check_time": 1795536974.0465593
+      "last_message_id": 35581,
+      "last_check_time": 1795537889.6256278
     },
     "bnddeals": {
       "last_message_id": 51405,
@@ -32948,6 +32948,16 @@
       "price": 5.85,
       "timestamp": 1795536047.6290047,
       "status": "ACTIVE"
+    },
+    "aniscoupons:35581": {
+      "channel_msg_id": 3619,
+      "product_id": "1005013005786079",
+      "title": "Nothing Buds 2 Neo",
+      "channel": "aniscoupons",
+      "source_msg_id": 35581,
+      "price": 18.29,
+      "timestamp": 1795537887.5386431,
+      "status": "ACTIVE"
     }
   },
   "schedule_config": {
@@ -32956,17 +32966,17 @@
     "current_interval_minutes": 5,
     "is_paused": false,
     "night_mode_enabled": true,
-    "last_deal_post_time": 1795536050.6721342,
+    "last_deal_post_time": 1795537890.6597953,
     "night_start_hour_dz": 0,
     "night_end_hour_dz": 8,
     "night_pause_enabled": true,
-    "last_sweep_time": 1795537697.1617303,
+    "last_sweep_time": 1795537893.5480325,
     "last_sweep_times": {
-      "algeria": 1795537694.6994443,
-      "france": 1795537697.1617303
+      "algeria": 1795537890.6226614,
+      "france": 1795537893.5480325
     },
     "last_deal_post_times": {
-      "algeria": 1795536050.6721342
+      "algeria": 1795537890.6597953
     }
   },
   "last_coin_reminder_time": 1795433324.042843,
@@ -37728,6 +37738,11 @@
         "channel": "zedstoreonline",
         "ts": 1795521744.7181487,
         "price": 18.2
+      },
+      {
+        "channel": "aniscoupons",
+        "ts": 1795537884.8476124,
+        "price": 18.29
       }
     ],
     "1005009120961416": [
