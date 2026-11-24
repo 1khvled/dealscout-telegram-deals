@@ -1847,7 +1847,7 @@
     "1005007805749110": 1795290738.086464,
     "1005009319376059": 1795521981.5119448,
     "1005011974295002": 1795521942.374168,
-    "1005010063967666": 1795345550.2834108,
+    "1005010063967666": 1795550775.9738038,
     "1005009873824892": 1795346646.0617936,
     "1005008248024782": 1795353977.3759387,
     "1005002292884528": 1795354738.6784947,
@@ -4325,7 +4325,7 @@
     "WALRAM 2.5  sata 480GB": 1795381363.7169378,
     "Blackview MEGA 5 8/256GB 4G": 1795344827.810419,
     "ViVO X300 Ultra 12/256GB": 1795344836.3762915,
-    "JGINYUE B650M PRO V2": 1795345550.2834108,
+    "JGINYUE B650M PRO V2": 1795550775.9738038,
     "لوووووووووووووووووووز MOTHERBOARD": 1795346646.0617936,
     "كابل USB Type C Coiled Cable 3M For Keyboard": 1795353977.3759387,
     "KingSpec DDR4 8GB 16GB Memoria Ram 2666Mhz 3200 Memory Module 8GBX2 16GBX2": 1795354738.6784947,
@@ -4379,7 +4379,6 @@
     "HONOR CHOICE Watch 6i": 1795549308.9617314
   },
   "published_post_keys": [
-    "lodydeals:46412",
     "lodydeals:46413",
     "lodydeals:46414",
     "lodydeals:46415",
@@ -5378,19 +5377,20 @@
     "aniscoupons:35594",
     "aniscoupons:35595",
     "aniscoupons:35596",
-    "aniscoupons:35597"
+    "aniscoupons:35597",
+    "aniscoupons:35599"
   ],
   "last_disclaimer_time": 1794524540.9476151,
   "last_calendar_time": 1795177633.1203737,
-  "last_run_time": 1795549858.5357745,
+  "last_run_time": 1795550775.9738038,
   "monitored_channels": {
     "ecksdeal": {
       "last_message_id": 6130,
       "last_check_time": 1795527393.9958658
     },
     "lodydeals": {
-      "last_message_id": 46861,
-      "last_check_time": 1795550241.9621081
+      "last_message_id": 46862,
+      "last_check_time": 1795550768.9273832
     },
     "test_channel": {
       "last_message_id": 1793967703,
@@ -5413,8 +5413,8 @@
       "last_check_time": 1795549854.8512368
     },
     "aniscoupons": {
-      "last_message_id": 35598,
-      "last_check_time": 1795550405.1330128
+      "last_message_id": 35599,
+      "last_check_time": 1795550778.0863748
     },
     "bnddeals": {
       "last_message_id": 51409,
@@ -33195,6 +33195,16 @@
       "price": 82.6,
       "timestamp": 1795549858.5357745,
       "status": "ACTIVE"
+    },
+    "aniscoupons:35599": {
+      "channel_msg_id": 3641,
+      "product_id": "1005010063967666",
+      "title": "JGINYUE B650M PRO V2",
+      "channel": "aniscoupons",
+      "source_msg_id": 35599,
+      "price": 111.68,
+      "timestamp": 1795550775.9738038,
+      "status": "ACTIVE"
     }
   },
   "schedule_config": {
@@ -33203,17 +33213,17 @@
     "current_interval_minutes": 5,
     "is_paused": false,
     "night_mode_enabled": true,
-    "last_deal_post_time": 1795549862.3923254,
+    "last_deal_post_time": 1795550779.4287784,
     "night_start_hour_dz": 0,
     "night_end_hour_dz": 8,
     "night_pause_enabled": true,
-    "last_sweep_time": 1795550602.4644246,
+    "last_sweep_time": 1795550782.9180546,
     "last_sweep_times": {
-      "algeria": 1795550599.808717,
-      "france": 1795550602.4644246
+      "algeria": 1795550779.3780124,
+      "france": 1795550782.9180546
     },
     "last_deal_post_times": {
-      "algeria": 1795549862.3923254
+      "algeria": 1795550779.4287784
     }
   },
   "last_coin_reminder_time": 1795433324.042843,
@@ -38433,6 +38443,13 @@
         "channel": "aniscoupons",
         "ts": 1795550404.930779,
         "price": 29.9
+      }
+    ],
+    "1005010063967666": [
+      {
+        "channel": "aniscoupons",
+        "ts": 1795550772.987783,
+        "price": 111.68
       }
     ]
   },
