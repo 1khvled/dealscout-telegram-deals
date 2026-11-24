@@ -1882,7 +1882,7 @@
     "33061115247": 1795547454.3449724,
     "1005012374298987": 1795548384.7413478,
     "1005013583987856": 1795548942.786371,
-    "1005013621783525": 1795549308.9617314,
+    "1005013621783525": 1795553721.2698648,
     "1005010637751071": 1795553355.383983
   },
   "published_titles": [
@@ -4379,11 +4379,10 @@
     "SoundPEATS Space Hybrid ANC": 1795547826.6655538,
     "Velec Tv Box 4/32GB": 1795548384.7413478,
     "HONOR Watch X5 Play": 1795548942.786371,
-    "HONOR CHOICE Watch 6i": 1795549308.9617314,
+    "HONOR CHOICE Watch 6i": 1795553721.2698648,
     "Godox C01 Kit 2 Microphone Lavalier": 1795553355.383983
   },
   "published_post_keys": [
-    "lodydeals:46415",
     "zedstoreonline:40013",
     "lodydeals:46417",
     "aniscoupons:34711",
@@ -5382,19 +5381,20 @@
     "aniscoupons:35597",
     "aniscoupons:35599",
     "zedstoreonline:40653",
-    "zedstoreonline:40654"
+    "zedstoreonline:40654",
+    "aniscoupons:35601"
   ],
   "last_disclaimer_time": 1794524540.9476151,
   "last_calendar_time": 1795177633.1203737,
-  "last_run_time": 1795553355.383983,
+  "last_run_time": 1795553721.2698648,
   "monitored_channels": {
     "ecksdeal": {
       "last_message_id": 6130,
       "last_check_time": 1795527393.9958658
     },
     "lodydeals": {
-      "last_message_id": 46868,
-      "last_check_time": 1795553537.3804684
+      "last_message_id": 46870,
+      "last_check_time": 1795553714.3433614
     },
     "test_channel": {
       "last_message_id": 1793967703,
@@ -5417,8 +5417,8 @@
       "last_check_time": 1795553357.5010974
     },
     "aniscoupons": {
-      "last_message_id": 35600,
-      "last_check_time": 1795551505.7407925
+      "last_message_id": 35601,
+      "last_check_time": 1795553723.4356306
     },
     "bnddeals": {
       "last_message_id": 51409,
@@ -33230,6 +33230,16 @@
       "price": 25.3,
       "timestamp": 1795553355.383983,
       "status": "ACTIVE"
+    },
+    "aniscoupons:35601": {
+      "channel_msg_id": 3644,
+      "product_id": "1005013621783525",
+      "title": "HONOR CHOICE Watch 6i",
+      "channel": "aniscoupons",
+      "source_msg_id": 35601,
+      "price": 29.9,
+      "timestamp": 1795553721.2698648,
+      "status": "ACTIVE"
     }
   },
   "schedule_config": {
@@ -33238,17 +33248,17 @@
     "current_interval_minutes": 5,
     "is_paused": false,
     "night_mode_enabled": true,
-    "last_deal_post_time": 1795553359.4388962,
+    "last_deal_post_time": 1795553724.5793188,
     "night_start_hour_dz": 0,
     "night_end_hour_dz": 8,
     "night_pause_enabled": true,
-    "last_sweep_time": 1795553543.3340685,
+    "last_sweep_time": 1795553727.084511,
     "last_sweep_times": {
-      "algeria": 1795553540.4381664,
-      "france": 1795553543.3340685
+      "algeria": 1795553724.5284584,
+      "france": 1795553727.084511
     },
     "last_deal_post_times": {
-      "algeria": 1795553359.4388962
+      "algeria": 1795553724.5793188
     }
   },
   "last_coin_reminder_time": 1795433324.042843,
@@ -38480,6 +38490,11 @@
         "channel": "zedstoreonline",
         "ts": 1795550962.8173146,
         "price": 29.9
+      },
+      {
+        "channel": "aniscoupons",
+        "ts": 1795553718.9471812,
+        "price": 29.9
       }
     ],
     "1005010063967666": [
@@ -38498,6 +38513,7 @@
     "1005010538481521": 1795088201.6241915,
     "32847542727": 1795274576.3657165,
     "1005013572273568": 1795476464.0167599,
-    "1005013497504096": 1795546908.2110746
+    "1005013497504096": 1795546908.2110746,
+    "1005013621783525": 1795553721.3213196
   }
 }
