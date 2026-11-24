@@ -923,7 +923,8 @@
     "1005007035077896",
     "COUPONBULLETIN_zedstoreonline_40639",
     "1005008304362437",
-    "1005006995294624"
+    "1005006995294624",
+    "1005012899783721"
   ],
   "published_product_timestamps": {
     "1005012973772517": 1794500732.7845657,
@@ -1865,7 +1866,8 @@
     "1005007035077896": 1795521964.5931118,
     "COUPONBULLETIN_zedstoreonline_40639": 1795525562.3674622,
     "1005008304362437": 1795526475.8421245,
-    "1005006995294624": 1795527391.8790212
+    "1005006995294624": 1795527391.8790212,
+    "1005012899783721": 1795536047.6290047
   },
   "published_titles": [
     "Wireless WiFi Repeater 300Mbps WiFi Extender Amplifier Booster Router",
@@ -3101,7 +3103,8 @@
     "Oppo Find X9 Ultra 12/256",
     "SomnAmbulist SSD 120Gb",
     "سماعات الاذن KZ EDX PRO X",
-    "طابعة XL-P801 الحرارية المتنقلة: طباعة A4 فورية، قابلة لإعادة"
+    "طابعة XL-P801 الحرارية المتنقلة: طباعة A4 فورية، قابلة لإعادة",
+    "TCL Alcatel 1023"
   ],
   "published_title_timestamps": {
     "Xiaomi Redmi Note 17 5G Global Version": 1790857823.0117362,
@@ -4342,10 +4345,10 @@
     "Oppo Find X9 Ultra 12/256": 1795521950.475793,
     "SomnAmbulist SSD 120Gb": 1795524460.0087192,
     "سماعات الاذن KZ EDX PRO X": 1795527391.8790212,
-    "طابعة XL-P801 الحرارية المتنقلة: طباعة A4 فورية، قابلة لإعادة": 1795535124.479775
+    "طابعة XL-P801 الحرارية المتنقلة: طباعة A4 فورية، قابلة لإعادة": 1795535124.479775,
+    "TCL Alcatel 1023": 1795536047.6290047
   },
   "published_post_keys": [
-    "aniscoupons:34687",
     "aniscoupons:34688",
     "aniscoupons:34689",
     "aniscoupons:34690",
@@ -5344,11 +5347,12 @@
     "ecksdeal:6130",
     "zedstoreonline:40640",
     "aniscoupons:35573",
-    "zedstoreonline:40642"
+    "zedstoreonline:40642",
+    "aniscoupons:35576"
   ],
   "last_disclaimer_time": 1794524540.9476151,
   "last_calendar_time": 1795177633.1203737,
-  "last_run_time": 1795535124.479775,
+  "last_run_time": 1795536047.6290047,
   "monitored_channels": {
     "ecksdeal": {
       "last_message_id": 6130,
@@ -5379,8 +5383,8 @@
       "last_check_time": 1795535126.5626585
     },
     "aniscoupons": {
-      "last_message_id": 35575,
-      "last_check_time": 1795531282.4304724
+      "last_message_id": 35576,
+      "last_check_time": 1795536049.6964366
     },
     "bnddeals": {
       "last_message_id": 51405,
@@ -6198,7 +6202,8 @@
     "1005013281520484": 694.3,
     "1005007035077896": 8.4,
     "1005008304362437": 26.26,
-    "1005006995294624": 12.87
+    "1005006995294624": 12.87,
+    "1005012899783721": 5.85
   },
   "channel_published_deals": {
     "aniscoupons:32590": {
@@ -32933,6 +32938,16 @@
       "price": 32.9,
       "timestamp": 1795535124.479775,
       "status": "ACTIVE"
+    },
+    "aniscoupons:35576": {
+      "channel_msg_id": 3618,
+      "product_id": "1005012899783721",
+      "title": "TCL Alcatel 1023",
+      "channel": "aniscoupons",
+      "source_msg_id": 35576,
+      "price": 5.85,
+      "timestamp": 1795536047.6290047,
+      "status": "ACTIVE"
     }
   },
   "schedule_config": {
@@ -32941,17 +32956,17 @@
     "current_interval_minutes": 5,
     "is_paused": false,
     "night_mode_enabled": true,
-    "last_deal_post_time": 1795535127.982955,
+    "last_deal_post_time": 1795536050.6721342,
     "night_start_hour_dz": 0,
     "night_end_hour_dz": 8,
     "night_pause_enabled": true,
-    "last_sweep_time": 1795535863.7196248,
+    "last_sweep_time": 1795536053.3040645,
     "last_sweep_times": {
-      "algeria": 1795535860.907147,
-      "france": 1795535863.7196248
+      "algeria": 1795536050.6431653,
+      "france": 1795536053.3040645
     },
     "last_deal_post_times": {
-      "algeria": 1795535127.982955
+      "algeria": 1795536050.6721342
     }
   },
   "last_coin_reminder_time": 1795433324.042843,
@@ -33888,7 +33903,8 @@
     "1005007035077896": "zedstoreonline",
     "COUPONBULLETIN_zedstoreonline_40639": "zedstoreonline",
     "1005008304362437": "ecksdeal",
-    "1005006995294624": "ecksdeal"
+    "1005006995294624": "ecksdeal",
+    "1005012899783721": "aniscoupons"
   },
   "published_title_channels": {
     "Test Wrench Set": "test_channel",
@@ -35130,7 +35146,8 @@
     "Oppo Find X9 Ultra 12/256": "zedstoreonline",
     "SomnAmbulist SSD 120Gb": "aniscoupons",
     "سماعات الاذن KZ EDX PRO X": "ecksdeal",
-    "طابعة XL-P801 الحرارية المتنقلة: طباعة A4 فورية، قابلة لإعادة": "zedstoreonline"
+    "طابعة XL-P801 الحرارية المتنقلة: طباعة A4 فورية، قابلة لإعادة": "zedstoreonline",
+    "TCL Alcatel 1023": "aniscoupons"
   },
   "religious_reminders_history": {
     "mock_rem": "2026-10-02",
