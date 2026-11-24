@@ -191,6 +191,10 @@
       {
         "tier": "4/25$",
         "code": "OTD1104"
+      },
+      {
+        "tier": "4/24$",
+        "code": "OTSBF04"
       }
     ],
     "coupon_tiers_fr": [],
