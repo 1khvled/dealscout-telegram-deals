@@ -1609,7 +1609,7 @@
     "1005010142208108": 1794753124.2973137,
     "1005008534907844": 1793987285.4130383,
     "1005009577554629": 1793987289.8200357,
-    "1005010656922924": 1794852924.3222039,
+    "1005010656922924": 1795558896.5588944,
     "1005008077441711": 1795259816.8338442,
     "1005006411483066": 1794500381.7712336,
     "1005012925301774": 1795085801.1895535,
@@ -3130,7 +3130,8 @@
     "HONOR Watch X5 Play",
     "HONOR CHOICE Watch 6i",
     "Godox C01 Kit 2 Microphone Lavalier",
-    "CMF Buds Neo 12.4 mm Titanium‑coated Driver"
+    "CMF Buds Neo 12.4 mm Titanium‑coated Driver",
+    "سماعات SOUNDPEATS C30"
   ],
   "published_title_timestamps": {
     "Xiaomi Redmi Note 17 5G Global Version": 1790857823.0117362,
@@ -4382,10 +4383,10 @@
     "HONOR Watch X5 Play": 1795548942.786371,
     "HONOR CHOICE Watch 6i": 1795553721.2698648,
     "Godox C01 Kit 2 Microphone Lavalier": 1795553355.383983,
-    "CMF Buds Neo 12.4 mm Titanium‑coated Driver": 1795555387.9747143
+    "CMF Buds Neo 12.4 mm Titanium‑coated Driver": 1795555387.9747143,
+    "سماعات SOUNDPEATS C30": 1795558896.5588944
   },
   "published_post_keys": [
-    "lodydeals:46419",
     "aniscoupons:34712",
     "aniscoupons:34713",
     "lodydeals:46420",
@@ -5384,11 +5385,12 @@
     "aniscoupons:35601",
     "aniscoupons:35602",
     "zedstoreonline:40655",
-    "zedstoreonline:40656"
+    "zedstoreonline:40656",
+    "bnddeals:51410"
   ],
   "last_disclaimer_time": 1794524540.9476151,
   "last_calendar_time": 1795177633.1203737,
-  "last_run_time": 1795555387.9747143,
+  "last_run_time": 1795558896.5588944,
   "monitored_channels": {
     "ecksdeal": {
       "last_message_id": 6130,
@@ -5423,8 +5425,8 @@
       "last_check_time": 1795556119.6584427
     },
     "bnddeals": {
-      "last_message_id": 51409,
-      "last_check_time": 1795549862.3267813
+      "last_message_id": 51410,
+      "last_check_time": 1795558898.6701965
     }
   },
   "published_product_prices": {
@@ -5994,7 +5996,7 @@
     "1005010142208108": 37.25,
     "1005008534907844": 50.86,
     "1005009577554629": 10.55,
-    "1005010656922924": 20.4,
+    "1005010656922924": 19.4,
     "1005008077441711": 8.5,
     "1005012925301774": 10.5,
     "1005012959738411": 70.0,
@@ -33272,6 +33274,16 @@
       "price": 18.2,
       "timestamp": 1795555387.9747143,
       "status": "ACTIVE"
+    },
+    "bnddeals:51410": {
+      "channel_msg_id": 3648,
+      "product_id": "1005010656922924",
+      "title": "سماعات SOUNDPEATS C30",
+      "channel": "bnddeals",
+      "source_msg_id": 51410,
+      "price": 19.4,
+      "timestamp": 1795558896.5588944,
+      "status": "ACTIVE"
     }
   },
   "schedule_config": {
@@ -33280,17 +33292,17 @@
     "current_interval_minutes": 5,
     "is_paused": false,
     "night_mode_enabled": true,
-    "last_deal_post_time": 1795555392.05105,
+    "last_deal_post_time": 1795558898.7680368,
     "night_start_hour_dz": 0,
     "night_end_hour_dz": 8,
     "night_pause_enabled": true,
-    "last_sweep_time": 1795558702.8913476,
+    "last_sweep_time": 1795558901.300484,
     "last_sweep_times": {
-      "algeria": 1795558700.152026,
-      "france": 1795558702.8913476
+      "algeria": 1795558898.7196941,
+      "france": 1795558901.300484
     },
     "last_deal_post_times": {
-      "algeria": 1795555392.05105
+      "algeria": 1795558898.7680368
     }
   },
   "last_coin_reminder_time": 1795433324.042843,
@@ -33967,7 +33979,7 @@
     "1005010142208108": "lodydeals",
     "1005008534907844": "lodydeals",
     "1005009577554629": "lodydeals",
-    "1005010656922924": "zedstoreonline",
+    "1005010656922924": "bnddeals",
     "1005008077441711": "zedstoreonline",
     "1005006411483066": "lodydeals",
     "1005012925301774": "zedstoreonline",
@@ -35489,7 +35501,8 @@
     "HONOR Watch X5 Play": "aniscoupons",
     "HONOR CHOICE Watch 6i": "aniscoupons",
     "Godox C01 Kit 2 Microphone Lavalier": "zedstoreonline",
-    "CMF Buds Neo 12.4 mm Titanium‑coated Driver": "zedstoreonline"
+    "CMF Buds Neo 12.4 mm Titanium‑coated Driver": "zedstoreonline",
+    "سماعات SOUNDPEATS C30": "bnddeals"
   },
   "religious_reminders_history": {
     "mock_rem": "2026-10-02",
@@ -38562,6 +38575,13 @@
         "channel": "zedstoreonline",
         "ts": 1795555756.8638082,
         "price": 67.7
+      }
+    ],
+    "1005010656922924": [
+      {
+        "channel": "bnddeals",
+        "ts": 1795558893.8784404,
+        "price": 19.4
       }
     ]
   },
