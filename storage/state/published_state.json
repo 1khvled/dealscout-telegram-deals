@@ -925,7 +925,8 @@
     "1005008304362437",
     "1005006995294624",
     "1005012899783721",
-    "1005013423776757"
+    "1005013423776757",
+    "1005012383444183"
   ],
   "published_product_timestamps": {
     "1005012973772517": 1794500732.7845657,
@@ -1869,7 +1870,8 @@
     "1005008304362437": 1795526475.8421245,
     "1005006995294624": 1795527391.8790212,
     "1005012899783721": 1795536047.6290047,
-    "1005013423776757": 1795540462.4924362
+    "1005013423776757": 1795540462.4924362,
+    "1005012383444183": 1795540647.657338
   },
   "published_titles": [
     "Wireless WiFi Repeater 300Mbps WiFi Extender Amplifier Booster Router",
@@ -3107,7 +3109,8 @@
     "سماعات الاذن KZ EDX PRO X",
     "طابعة XL-P801 الحرارية المتنقلة: طباعة A4 فورية، قابلة لإعادة",
     "TCL Alcatel 1023",
-    "ULTRALIGHT TRAVEL HAMMOCK"
+    "ULTRALIGHT TRAVEL HAMMOCK",
+    "OPPO Enco Buds3 True Wireless Earbuds"
   ],
   "published_title_timestamps": {
     "Xiaomi Redmi Note 17 5G Global Version": 1790857823.0117362,
@@ -4350,10 +4353,10 @@
     "سماعات الاذن KZ EDX PRO X": 1795527391.8790212,
     "طابعة XL-P801 الحرارية المتنقلة: طباعة A4 فورية، قابلة لإعادة": 1795535124.479775,
     "TCL Alcatel 1023": 1795536047.6290047,
-    "ULTRALIGHT TRAVEL HAMMOCK": 1795540462.4924362
+    "ULTRALIGHT TRAVEL HAMMOCK": 1795540462.4924362,
+    "OPPO Enco Buds3 True Wireless Earbuds": 1795540647.657338
   },
   "published_post_keys": [
-    "aniscoupons:34690",
     "zedstoreonline:40000",
     "zedstoreonline:40001",
     "aniscoupons:34692",
@@ -5352,11 +5355,12 @@
     "zedstoreonline:40642",
     "aniscoupons:35576",
     "aniscoupons:35581",
-    "aniscoupons:35583"
+    "aniscoupons:35583",
+    "aniscoupons:35585"
   ],
   "last_disclaimer_time": 1794524540.9476151,
   "last_calendar_time": 1795177633.1203737,
-  "last_run_time": 1795540462.4924362,
+  "last_run_time": 1795540647.657338,
   "monitored_channels": {
     "ecksdeal": {
       "last_message_id": 6130,
@@ -5387,8 +5391,8 @@
       "last_check_time": 1795535126.5626585
     },
     "aniscoupons": {
-      "last_message_id": 35583,
-      "last_check_time": 1795540464.6117973
+      "last_message_id": 35585,
+      "last_check_time": 1795540649.7776818
     },
     "bnddeals": {
       "last_message_id": 51405,
@@ -6208,7 +6212,8 @@
     "1005008304362437": 26.26,
     "1005006995294624": 12.87,
     "1005012899783721": 5.85,
-    "1005013423776757": 3.5
+    "1005013423776757": 3.5,
+    "1005012383444183": 22.35
   },
   "channel_published_deals": {
     "aniscoupons:32590": {
@@ -32973,6 +32978,16 @@
       "price": 3.5,
       "timestamp": 1795540462.4924362,
       "status": "ACTIVE"
+    },
+    "aniscoupons:35585": {
+      "channel_msg_id": 3621,
+      "product_id": "1005012383444183",
+      "title": "OPPO Enco Buds3 True Wireless Earbuds",
+      "channel": "aniscoupons",
+      "source_msg_id": 35585,
+      "price": 22.35,
+      "timestamp": 1795540647.657338,
+      "status": "ACTIVE"
     }
   },
   "schedule_config": {
@@ -32981,17 +32996,17 @@
     "current_interval_minutes": 5,
     "is_paused": false,
     "night_mode_enabled": true,
-    "last_deal_post_time": 1795540465.8174224,
+    "last_deal_post_time": 1795540651.0748398,
     "night_start_hour_dz": 0,
     "night_end_hour_dz": 8,
     "night_pause_enabled": true,
-    "last_sweep_time": 1795540468.4831913,
+    "last_sweep_time": 1795540654.0314732,
     "last_sweep_times": {
-      "algeria": 1795540465.762887,
-      "france": 1795540468.4831913
+      "algeria": 1795540651.0194628,
+      "france": 1795540654.0314732
     },
     "last_deal_post_times": {
-      "algeria": 1795540465.8174224
+      "algeria": 1795540651.0748398
     }
   },
   "last_coin_reminder_time": 1795433324.042843,
@@ -33930,7 +33945,8 @@
     "1005008304362437": "ecksdeal",
     "1005006995294624": "ecksdeal",
     "1005012899783721": "aniscoupons",
-    "1005013423776757": "aniscoupons"
+    "1005013423776757": "aniscoupons",
+    "1005012383444183": "aniscoupons"
   },
   "published_title_channels": {
     "Test Wrench Set": "test_channel",
@@ -35174,7 +35190,8 @@
     "سماعات الاذن KZ EDX PRO X": "ecksdeal",
     "طابعة XL-P801 الحرارية المتنقلة: طباعة A4 فورية، قابلة لإعادة": "zedstoreonline",
     "TCL Alcatel 1023": "aniscoupons",
-    "ULTRALIGHT TRAVEL HAMMOCK": "aniscoupons"
+    "ULTRALIGHT TRAVEL HAMMOCK": "aniscoupons",
+    "OPPO Enco Buds3 True Wireless Earbuds": "aniscoupons"
   },
   "religious_reminders_history": {
     "mock_rem": "2026-10-02",
