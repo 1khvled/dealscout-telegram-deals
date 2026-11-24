@@ -929,7 +929,8 @@
     "1005012383444183",
     "1005013519635614",
     "33061115247",
-    "1005012374298987"
+    "1005012374298987",
+    "1005013583987856"
   ],
   "published_product_timestamps": {
     "1005012973772517": 1794500732.7845657,
@@ -1877,7 +1878,8 @@
     "1005012383444183": 1795540647.657338,
     "1005013519635614": 1795546736.9831076,
     "33061115247": 1795547454.3449724,
-    "1005012374298987": 1795548384.7413478
+    "1005012374298987": 1795548384.7413478,
+    "1005013583987856": 1795548942.786371
   },
   "published_titles": [
     "Wireless WiFi Repeater 300Mbps WiFi Extender Amplifier Booster Router",
@@ -3120,7 +3122,8 @@
     "Digital weight scale",
     "Lefon F35 Wireless Mouse Vertical",
     "SoundPEATS Space Hybrid ANC",
-    "Velec Tv Box 4/32GB"
+    "Velec Tv Box 4/32GB",
+    "HONOR Watch X5 Play"
   ],
   "published_title_timestamps": {
     "Xiaomi Redmi Note 17 5G Global Version": 1790857823.0117362,
@@ -4368,10 +4371,10 @@
     "Digital weight scale": 1795546908.1570234,
     "Lefon F35 Wireless Mouse Vertical": 1795547454.3449724,
     "SoundPEATS Space Hybrid ANC": 1795547826.6655538,
-    "Velec Tv Box 4/32GB": 1795548384.7413478
+    "Velec Tv Box 4/32GB": 1795548384.7413478,
+    "HONOR Watch X5 Play": 1795548942.786371
   },
   "published_post_keys": [
-    "aniscoupons:34708",
     "aniscoupons:34709",
     "lodydeals:46407",
     "lodydeals:46412",
@@ -5370,19 +5373,20 @@
     "lodydeals:46853",
     "aniscoupons:35593",
     "zedstoreonline:40650",
-    "aniscoupons:35594"
+    "aniscoupons:35594",
+    "aniscoupons:35595"
   ],
   "last_disclaimer_time": 1794524540.9476151,
   "last_calendar_time": 1795177633.1203737,
-  "last_run_time": 1795548769.2740667,
+  "last_run_time": 1795548942.786371,
   "monitored_channels": {
     "ecksdeal": {
       "last_message_id": 6130,
       "last_check_time": 1795527393.9958658
     },
     "lodydeals": {
-      "last_message_id": 46856,
-      "last_check_time": 1795548762.5609965
+      "last_message_id": 46857,
+      "last_check_time": 1795548935.9558146
     },
     "test_channel": {
       "last_message_id": 1793967703,
@@ -5405,8 +5409,8 @@
       "last_check_time": 1795548386.8337548
     },
     "aniscoupons": {
-      "last_message_id": 35594,
-      "last_check_time": 1795548771.3560383
+      "last_message_id": 35595,
+      "last_check_time": 1795548944.8810024
     },
     "bnddeals": {
       "last_message_id": 51406,
@@ -6230,7 +6234,8 @@
     "1005012383444183": 22.35,
     "1005013519635614": 273.26,
     "33061115247": 10.09,
-    "1005012374298987": 26.6
+    "1005012374298987": 26.6,
+    "1005013583987856": 22.59
   },
   "channel_published_deals": {
     "aniscoupons:32590": {
@@ -33155,6 +33160,16 @@
       "price": 212.0,
       "timestamp": 1795548769.2740667,
       "status": "ACTIVE"
+    },
+    "aniscoupons:35595": {
+      "channel_msg_id": 3638,
+      "product_id": "1005013583987856",
+      "title": "HONOR Watch X5 Play",
+      "channel": "aniscoupons",
+      "source_msg_id": 35595,
+      "price": 22.59,
+      "timestamp": 1795548942.786371,
+      "status": "ACTIVE"
     }
   },
   "schedule_config": {
@@ -33163,17 +33178,17 @@
     "current_interval_minutes": 5,
     "is_paused": false,
     "night_mode_enabled": true,
-    "last_deal_post_time": 1795548772.48826,
+    "last_deal_post_time": 1795548946.1394742,
     "night_start_hour_dz": 0,
     "night_end_hour_dz": 8,
     "night_pause_enabled": true,
-    "last_sweep_time": 1795548775.8305066,
+    "last_sweep_time": 1795548949.31508,
     "last_sweep_times": {
-      "algeria": 1795548772.4531384,
-      "france": 1795548775.8305066
+      "algeria": 1795548946.0982935,
+      "france": 1795548949.31508
     },
     "last_deal_post_times": {
-      "algeria": 1795548772.48826
+      "algeria": 1795548946.1394742
     }
   },
   "last_coin_reminder_time": 1795433324.042843,
@@ -34116,7 +34131,8 @@
     "1005012383444183": "aniscoupons",
     "1005013519635614": "aniscoupons",
     "33061115247": "lodydeals",
-    "1005012374298987": "zedstoreonline"
+    "1005012374298987": "zedstoreonline",
+    "1005013583987856": "aniscoupons"
   },
   "published_title_channels": {
     "Test Wrench Set": "test_channel",
@@ -35365,7 +35381,8 @@
     "Digital weight scale": "zedstoreonline",
     "Lefon F35 Wireless Mouse Vertical": "lodydeals",
     "SoundPEATS Space Hybrid ANC": "lodydeals",
-    "Velec Tv Box 4/32GB": "zedstoreonline"
+    "Velec Tv Box 4/32GB": "zedstoreonline",
+    "HONOR Watch X5 Play": "aniscoupons"
   },
   "religious_reminders_history": {
     "mock_rem": "2026-10-02",
@@ -36163,7 +36180,6 @@
   "published_deals_history": {},
   "settings": {},
   "handled_post_keys": [
-    "aniscoupons:34764",
     "zedstoreonline:40052",
     "aniscoupons:34768",
     "aniscoupons:34769",
@@ -37162,7 +37178,8 @@
     "aniscoupons:35592",
     "lodydeals:46854",
     "lodydeals:46855",
-    "lodydeals:46856"
+    "lodydeals:46856",
+    "lodydeals:46857"
   ],
   "last_france_cross_promo_time": 1795501542.8708572,
   "next_france_cross_promo_interval_seconds": 208574,

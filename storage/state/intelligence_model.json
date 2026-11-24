@@ -40,8 +40,8 @@
       "ewma": 0.9849
     },
     "aniscoupons": {
-      "seen": 728,
-      "published": 631,
+      "seen": 729,
+      "published": 632,
       "skipped": 0,
       "ewma": 0.9994
     },
@@ -66,8 +66,8 @@
       "ewma": 0.9994
     },
     "phones": {
-      "seen": 471,
-      "published": 326,
+      "seen": 472,
+      "published": 327,
       "skipped": 0,
       "ewma": 0.9994
     },
@@ -1968,26 +1968,21 @@
     ],
     "1005012374298987": [
       26.6
+    ],
+    "1005013583987856": [
+      22.59
     ]
   },
   "counters": {
-    "scored": 1535,
-    "verdict_publish": 1470,
+    "scored": 1536,
+    "verdict_publish": 1471,
     "verdict_hold": 64,
     "verdict_skip": 1,
-    "published": 1221,
+    "published": 1222,
     "skipped": 0
   },
-  "score_sum": 112464.68,
+  "score_sum": 112545.27,
   "recent_decisions": [
-    {
-      "ts": 1795288899,
-      "channel": "aniscoupons",
-      "category": "pc",
-      "product_id": "1005008518280704",
-      "score": 67.54,
-      "verdict": "publish"
-    },
     {
       "ts": 1795290121,
       "channel": "lodydeals",
@@ -3579,7 +3574,15 @@
       "product_id": "1005009120961416",
       "score": 65.33,
       "verdict": "publish"
+    },
+    {
+      "ts": 1795548939,
+      "channel": "aniscoupons",
+      "category": "phones",
+      "product_id": "1005013583987856",
+      "score": 80.59,
+      "verdict": "publish"
     }
   ],
-  "updated_at": 1795548769.3350747
+  "updated_at": 1795548942.8582299
 }
