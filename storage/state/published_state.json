@@ -921,7 +921,8 @@
     "1005013266074956",
     "1005013281520484",
     "1005007035077896",
-    "COUPONBULLETIN_zedstoreonline_40639"
+    "COUPONBULLETIN_zedstoreonline_40639",
+    "1005008304362437"
   ],
   "published_product_timestamps": {
     "1005012973772517": 1794500732.7845657,
@@ -1861,7 +1862,8 @@
     "1005013266074956": 1795521910.0091946,
     "1005013281520484": 1795521926.0889337,
     "1005007035077896": 1795521964.5931118,
-    "COUPONBULLETIN_zedstoreonline_40639": 1795525562.3674622
+    "COUPONBULLETIN_zedstoreonline_40639": 1795525562.3674622,
+    "1005008304362437": 1795526475.8421245
   },
   "published_titles": [
     "Wireless WiFi Repeater 300Mbps WiFi Extender Amplifier Booster Router",
@@ -3676,7 +3678,7 @@
     "يد تحكم لاسلكية EasySMX X05 PRO RGB Wireless Hall Effect Ultimate": 1793542602.1938312,
     "كيبورد ميكانيكي Ajazz NK61 Red Switch": 1793542607.3688066,
     "كيبورد ميكانيكي لاسلكي فخم بشاشة Aula F75 Max Wireless": 1793542611.8880281,
-    "كيبورد مغناطيسي AULA Win68 HE 8K Magnetic Switch": 1793727358.6485991,
+    "كيبورد مغناطيسي AULA Win68 HE 8K Magnetic Switch": 1795526475.8421245,
     "سماعات لاسلكية Epomaker GX1 Wireless": 1795078106.4431038,
     "سماعات لاسلكية Aula G7 7.1 Wireless": 1793542626.5536122,
     "كيبورد مغناطيسي AULA Hero68 HE 8K Magnetic Switch": 1793542634.9331498,
@@ -4337,7 +4339,6 @@
     "SomnAmbulist SSD 120Gb": 1795524460.0087192
   },
   "published_post_keys": [
-    "aniscoupons:34676",
     "aniscoupons:34677",
     "zedstoreonline:39995",
     "zedstoreonline:39996",
@@ -5336,15 +5337,16 @@
     "zedstoreonline:40634",
     "zedstoreonline:40636",
     "aniscoupons:35571",
-    "zedstoreonline:40639"
+    "zedstoreonline:40639",
+    "ecksdeal:6129"
   ],
   "last_disclaimer_time": 1794524540.9476151,
   "last_calendar_time": 1795177633.1203737,
-  "last_run_time": 1795525562.3674622,
+  "last_run_time": 1795526475.8421245,
   "monitored_channels": {
     "ecksdeal": {
-      "last_message_id": 6128,
-      "last_check_time": 1795522997.9861877
+      "last_message_id": 6129,
+      "last_check_time": 1795526477.9038103
     },
     "lodydeals": {
       "last_message_id": 46846,
@@ -6188,7 +6190,8 @@
     "1005005543641427": 24.8,
     "1005013266074956": 888.0,
     "1005013281520484": 694.3,
-    "1005007035077896": 8.4
+    "1005007035077896": 8.4,
+    "1005008304362437": 26.26
   },
   "channel_published_deals": {
     "aniscoupons:32590": {
@@ -32873,6 +32876,16 @@
       "price": null,
       "timestamp": 1795525562.3674622,
       "status": "ACTIVE"
+    },
+    "ecksdeal:6129": {
+      "channel_msg_id": 3613,
+      "product_id": "1005008304362437",
+      "title": "كيبورد مغناطيسي AULA Win68 HE 8K Magnetic Switch",
+      "channel": "ecksdeal",
+      "source_msg_id": 6129,
+      "price": 26.26,
+      "timestamp": 1795526475.8421245,
+      "status": "ACTIVE"
     }
   },
   "schedule_config": {
@@ -32881,17 +32894,17 @@
     "current_interval_minutes": 5,
     "is_paused": false,
     "night_mode_enabled": true,
-    "last_deal_post_time": 1795525564.504492,
+    "last_deal_post_time": 1795526479.6421843,
     "night_start_hour_dz": 0,
     "night_end_hour_dz": 8,
     "night_pause_enabled": true,
-    "last_sweep_time": 1795526293.9287446,
+    "last_sweep_time": 1795526482.0660787,
     "last_sweep_times": {
-      "algeria": 1795526291.4620614,
-      "france": 1795526293.9287446
+      "algeria": 1795526479.6160283,
+      "france": 1795526482.0660787
     },
     "last_deal_post_times": {
-      "algeria": 1795525564.504492
+      "algeria": 1795526479.6421843
     }
   },
   "last_coin_reminder_time": 1795433324.042843,
@@ -33826,7 +33839,8 @@
     "1005013266074956": "zedstoreonline",
     "1005013281520484": "zedstoreonline",
     "1005007035077896": "zedstoreonline",
-    "COUPONBULLETIN_zedstoreonline_40639": "zedstoreonline"
+    "COUPONBULLETIN_zedstoreonline_40639": "zedstoreonline",
+    "1005008304362437": "ecksdeal"
   },
   "published_title_channels": {
     "Test Wrench Set": "test_channel",
