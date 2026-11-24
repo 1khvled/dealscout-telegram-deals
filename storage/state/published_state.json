@@ -920,7 +920,8 @@
     "1005012741634118",
     "1005013266074956",
     "1005013281520484",
-    "1005007035077896"
+    "1005007035077896",
+    "COUPONBULLETIN_zedstoreonline_40639"
   ],
   "published_product_timestamps": {
     "1005012973772517": 1794500732.7845657,
@@ -1859,7 +1860,8 @@
     "COUPONBULLETIN_zedstoreonline_40618": 1795521740.997882,
     "1005013266074956": 1795521910.0091946,
     "1005013281520484": 1795521926.0889337,
-    "1005007035077896": 1795521964.5931118
+    "1005007035077896": 1795521964.5931118,
+    "COUPONBULLETIN_zedstoreonline_40639": 1795525562.3674622
   },
   "published_titles": [
     "Wireless WiFi Repeater 300Mbps WiFi Extender Amplifier Booster Router",
@@ -4326,7 +4328,7 @@
     "Fifine H6 Dynamic RGB Gaming": 1795521330.5345721,
     "ميكسر صوت احترافي FIFINE AmpliGame SC3W مع 4 قنوات ومدخل XLR": 1795521718.768218,
     "FIFINE H3 Gaming Headset": 1795521730.5509472,
-    "🔥": 1795521740.997882,
+    "🔥": 1795525562.3674622,
     "vivo x500 pro max 12/256": 1795521901.9867668,
     "HUAWEI Pura 90s Pro 12/256": 1795521917.9575388,
     "Vivo X500 12/256": 1795521926.0889337,
@@ -4335,7 +4337,6 @@
     "SomnAmbulist SSD 120Gb": 1795524460.0087192
   },
   "published_post_keys": [
-    "zedstoreonline:39991",
     "aniscoupons:34676",
     "aniscoupons:34677",
     "zedstoreonline:39995",
@@ -5334,11 +5335,12 @@
     "zedstoreonline:40633",
     "zedstoreonline:40634",
     "zedstoreonline:40636",
-    "aniscoupons:35571"
+    "aniscoupons:35571",
+    "zedstoreonline:40639"
   ],
   "last_disclaimer_time": 1794524540.9476151,
   "last_calendar_time": 1795177633.1203737,
-  "last_run_time": 1795524460.0087192,
+  "last_run_time": 1795525562.3674622,
   "monitored_channels": {
     "ecksdeal": {
       "last_message_id": 6128,
@@ -5365,8 +5367,8 @@
       "last_check_time": 1793599663.3444748
     },
     "zedstoreonline": {
-      "last_message_id": 40638,
-      "last_check_time": 1795523726.11337
+      "last_message_id": 40639,
+      "last_check_time": 1795525562.5177152
     },
     "aniscoupons": {
       "last_message_id": 35571,
@@ -32861,6 +32863,16 @@
       "price": 9.7,
       "timestamp": 1795524460.0087192,
       "status": "ACTIVE"
+    },
+    "zedstoreonline:40639": {
+      "channel_msg_id": 3612,
+      "product_id": "COUPONBULLETIN_zedstoreonline_40639",
+      "title": "🔥",
+      "channel": "zedstoreonline",
+      "source_msg_id": 40639,
+      "price": null,
+      "timestamp": 1795525562.3674622,
+      "status": "ACTIVE"
     }
   },
   "schedule_config": {
@@ -32869,17 +32881,17 @@
     "current_interval_minutes": 5,
     "is_paused": false,
     "night_mode_enabled": true,
-    "last_deal_post_time": 1795524463.381239,
+    "last_deal_post_time": 1795525564.504492,
     "night_start_hour_dz": 0,
     "night_end_hour_dz": 8,
     "night_pause_enabled": true,
-    "last_sweep_time": 1795525374.4442813,
+    "last_sweep_time": 1795525567.8626,
     "last_sweep_times": {
-      "algeria": 1795525371.7715476,
-      "france": 1795525374.4442813
+      "algeria": 1795525564.4546793,
+      "france": 1795525567.8626
     },
     "last_deal_post_times": {
-      "algeria": 1795524463.381239
+      "algeria": 1795525564.504492
     }
   },
   "last_coin_reminder_time": 1795433324.042843,
@@ -33813,7 +33825,8 @@
     "COUPONBULLETIN_zedstoreonline_40618": "zedstoreonline",
     "1005013266074956": "zedstoreonline",
     "1005013281520484": "zedstoreonline",
-    "1005007035077896": "zedstoreonline"
+    "1005007035077896": "zedstoreonline",
+    "COUPONBULLETIN_zedstoreonline_40639": "zedstoreonline"
   },
   "published_title_channels": {
     "Test Wrench Set": "test_channel",
@@ -35851,7 +35864,6 @@
   "published_deals_history": {},
   "settings": {},
   "handled_post_keys": [
-    "aniscoupons:34751",
     "zedstoreonline:40042",
     "lodydeals:46444",
     "zedstoreonline:40043",
@@ -36850,7 +36862,8 @@
     "ecksdeal:6127",
     "ecksdeal:6128",
     "zedstoreonline:40637",
-    "zedstoreonline:40638"
+    "zedstoreonline:40638",
+    "zedstoreonline:40639"
   ],
   "last_france_cross_promo_time": 1795501542.8708572,
   "next_france_cross_promo_interval_seconds": 208574,
