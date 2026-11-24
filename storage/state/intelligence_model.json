@@ -22,8 +22,8 @@
   "flow_target": 24.0,
   "channel_stats": {
     "lodydeals": {
-      "seen": 189,
-      "published": 179,
+      "seen": 191,
+      "published": 181,
       "skipped": 0,
       "ewma": 0.9994
     },
@@ -60,8 +60,8 @@
       "ewma": 0.9994
     },
     "pc": {
-      "seen": 294,
-      "published": 224,
+      "seen": 296,
+      "published": 226,
       "skipped": 0,
       "ewma": 0.9994
     },
@@ -1576,7 +1576,8 @@
     "1005007027334636": [
       30.4,
       31.07,
-      9.7
+      9.7,
+      29.6
     ],
     "1005008723396190": [
       9.2
@@ -1777,7 +1778,8 @@
     ],
     "32847542727": [
       75.19,
-      75.19
+      75.19,
+      64.0
     ],
     "1005009200129898": [
       0.01
@@ -1953,31 +1955,15 @@
     ]
   },
   "counters": {
-    "scored": 1525,
-    "verdict_publish": 1462,
-    "verdict_hold": 62,
+    "scored": 1527,
+    "verdict_publish": 1463,
+    "verdict_hold": 63,
     "verdict_skip": 1,
-    "published": 1211,
+    "published": 1213,
     "skipped": 0
   },
-  "score_sum": 111759.85,
+  "score_sum": 111883.47,
   "recent_decisions": [
-    {
-      "ts": 1795282397,
-      "channel": "zedstoreonline",
-      "category": "phones",
-      "product_id": "1005003156756854",
-      "score": 73.57,
-      "verdict": "publish"
-    },
-    {
-      "ts": 1795282404,
-      "channel": "aniscoupons",
-      "category": "home",
-      "product_id": "1005012285327063",
-      "score": 66.65,
-      "verdict": "publish"
-    },
     {
       "ts": 1795282408,
       "channel": "aniscoupons",
@@ -3561,7 +3547,23 @@
       "product_id": "1005013277965369",
       "score": 80.73,
       "verdict": "publish"
+    },
+    {
+      "ts": 1795546163,
+      "channel": "lodydeals",
+      "category": "pc",
+      "product_id": "32847542727",
+      "score": 78.41,
+      "verdict": "publish"
+    },
+    {
+      "ts": 1795546169,
+      "channel": "lodydeals",
+      "category": "pc",
+      "product_id": "1005007027334636",
+      "score": 45.21,
+      "verdict": "hold"
     }
   ],
-  "updated_at": 1795543961.489128
+  "updated_at": 1795546171.359703
 }

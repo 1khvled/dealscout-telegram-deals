@@ -1044,7 +1044,7 @@
     "1005008144855522": 1791026444.9395418,
     "1005008486721357": 1791026452.368309,
     "1005012871566388": 1791026457.7236943,
-    "1005007027334636": 1795524460.0087192,
+    "1005007027334636": 1795546171.2788475,
     "1005006727600702": 1791027043.7332833,
     "1005009916278058": 1791027049.3509357,
     "1005009719082543": 1791027355.6595695,
@@ -1827,7 +1827,7 @@
     "1005013383203760": 1795338775.7608411,
     "1005010121796649": 1795339323.7288988,
     "1005008850261694": 1795251398.024725,
-    "32847542727": 1795274576.3351243,
+    "32847542727": 1795546166.1725361,
     "COUPONS_67c5d85c35f4": 1795275291.619781,
     "COUPONS_67c5d85c": 1795275291.651658,
     "COUPONS_Black Friday & Cyber Monday": 1795275291.651658,
@@ -4235,7 +4235,7 @@
     "تخزين CUSU K5 SATA Portable USB SSD": 1795022264.1116176,
     "تخزين CUSU C300 Sata SSD": 1795022269.6440833,
     "DOOV R77 4G Touch 3/32GB": 1795023205.68955,
-    "SOMNAMBULIST SSD 120GB": 1795249382.992338,
+    "SOMNAMBULIST SSD 120GB": 1795546171.2788475,
     "Kodak SD Card 128GB": 1795072599.5014904,
     "realme P4 Lite 4/128GB": 1795523002.56189,
     "12V Cordless Electric Angle Grinder": 1795077186.2578824,
@@ -4293,7 +4293,7 @@
     "لووووووووووووز HAYLOU": 1795251398.024725,
     "KOOTION X16 7100MB/s NVMe 512GB": 1795256330.146872,
     "GIGABYTE B550M K AM4 Motherboard": 1795265573.5780053,
-    "KingSpec DDR4 16GB 3200Mhz": 1795274576.3351243,
+    "KingSpec DDR4 16GB 3200Mhz": 1795546166.1725361,
     "ماوس لاسلكي Aula Kunlun L5 Magnetic": 1795282393.4390564,
     "ASROCK B850M STEEL LEGEND": 1795521305.8502784,
     "لوووووووووووووووووووز": 1795282419.1354063,
@@ -4359,8 +4359,6 @@
     "Digital weight scale": 1795541946.5670767
   },
   "published_post_keys": [
-    "zedstoreonline:40004",
-    "aniscoupons:34696",
     "zedstoreonline:40005",
     "aniscoupons:34699",
     "zedstoreonline:40009",
@@ -5358,19 +5356,21 @@
     "aniscoupons:35589",
     "zedstoreonline:40645",
     "zedstoreonline:40646",
-    "zedstoreonline:40647"
+    "zedstoreonline:40647",
+    "lodydeals:46847",
+    "lodydeals:46848"
   ],
   "last_disclaimer_time": 1794524540.9476151,
   "last_calendar_time": 1795177633.1203737,
-  "last_run_time": 1795543961.436148,
+  "last_run_time": 1795546171.2788475,
   "monitored_channels": {
     "ecksdeal": {
       "last_message_id": 6130,
       "last_check_time": 1795527393.9958658
     },
     "lodydeals": {
-      "last_message_id": 46846,
-      "last_check_time": 1795525742.9486582
+      "last_message_id": 46848,
+      "last_check_time": 1795546173.3816934
     },
     "test_channel": {
       "last_message_id": 1793967703,
@@ -5405,7 +5405,7 @@
     "1005012973772517": 217.8,
     "1005010219205081": 57.2,
     "1005007805638431": 22.23,
-    "1005007027334636": 9.7,
+    "1005007027334636": 29.6,
     "1005009054706827": 23.1,
     "1005007961216287": 20.26,
     "1005008233932899": 294.9,
@@ -6177,7 +6177,7 @@
     "1005013383203760": 186.7,
     "1005010121796649": 217.8,
     "1005008850261694": 30.3,
-    "32847542727": 75.19,
+    "32847542727": 64.0,
     "1005013612885095": 73.07,
     "1005009120961416": 212.0,
     "1005006460821282": 9.7,
@@ -33040,6 +33040,26 @@
       "price": 23.7,
       "timestamp": 1795543961.436148,
       "status": "ACTIVE"
+    },
+    "lodydeals:46847": {
+      "channel_msg_id": 3628,
+      "product_id": "32847542727",
+      "title": "KingSpec DDR4 16GB 3200Mhz",
+      "channel": "lodydeals",
+      "source_msg_id": 46847,
+      "price": 64.0,
+      "timestamp": 1795546166.1725361,
+      "status": "ACTIVE"
+    },
+    "lodydeals:46848": {
+      "channel_msg_id": 3629,
+      "product_id": "1005007027334636",
+      "title": "SOMNAMBULIST SSD 120GB",
+      "channel": "lodydeals",
+      "source_msg_id": 46848,
+      "price": 29.6,
+      "timestamp": 1795546171.2788475,
+      "status": "ACTIVE"
     }
   },
   "schedule_config": {
@@ -33048,17 +33068,17 @@
     "current_interval_minutes": 5,
     "is_paused": false,
     "night_mode_enabled": true,
-    "last_deal_post_time": 1795543965.1786988,
+    "last_deal_post_time": 1795546176.2749019,
     "night_start_hour_dz": 0,
     "night_end_hour_dz": 8,
     "night_pause_enabled": true,
-    "last_sweep_time": 1795545979.0094984,
+    "last_sweep_time": 1795546178.9397013,
     "last_sweep_times": {
-      "algeria": 1795545976.5865107,
-      "france": 1795545979.0094984
+      "algeria": 1795546176.2295403,
+      "france": 1795546178.9397013
     },
     "last_deal_post_times": {
-      "algeria": 1795543965.1786988
+      "algeria": 1795546176.2749019
     }
   },
   "last_coin_reminder_time": 1795433324.042843,
@@ -33067,7 +33087,7 @@
   "published_product_channels": {
     "999888104": "test_channel",
     "100500888999777": "lodydeals",
-    "1005007027334636": "aniscoupons",
+    "1005007027334636": "lodydeals",
     "1005009734653254": "lodydeals",
     "1005008333859881": "bnddeals",
     "1005009357018019": "bnddeals",
@@ -33956,7 +33976,7 @@
     "1005013383203760": "aniscoupons",
     "1005010121796649": "aniscoupons",
     "1005008850261694": "bnddeals",
-    "32847542727": "aniscoupons",
+    "32847542727": "lodydeals",
     "COUPONS_67c5d85c35f4": "aniscoupons",
     "1005013612885095": "ecksdeal",
     "1005009120961416": "aniscoupons",
@@ -35181,7 +35201,7 @@
     "لووووووووووووز HAYLOU": "bnddeals",
     "KOOTION X16 7100MB/s NVMe 512GB": "lodydeals",
     "GIGABYTE B550M K AM4 Motherboard": "zedstoreonline",
-    "KingSpec DDR4 16GB 3200Mhz": "aniscoupons",
+    "KingSpec DDR4 16GB 3200Mhz": "lodydeals",
     "ماوس لاسلكي Aula Kunlun L5 Magnetic": "ecksdeal",
     "ASROCK B850M STEEL LEGEND": "aniscoupons",
     "لوووووووووووووووووووز": "bnddeals",
@@ -37616,11 +37636,6 @@
   "competitor_product_sightings": {
     "1005012582348584": [
       {
-        "channel": "zedstoreonline",
-        "ts": 1795501556.4989471,
-        "price": 16.7
-      },
-      {
         "channel": "lodydeals",
         "ts": 1795521169.7798667,
         "price": 15.56
@@ -38100,6 +38115,11 @@
         "channel": "zedstoreonline",
         "ts": 1795533653.867633,
         "price": 9.7
+      },
+      {
+        "channel": "lodydeals",
+        "ts": 1795546169.3578148,
+        "price": 29.6
       }
     ],
     "1005011955602754": [
@@ -38195,6 +38215,13 @@
         "channel": "zedstoreonline",
         "ts": 1795543955.8581712,
         "price": 23.7
+      }
+    ],
+    "32847542727": [
+      {
+        "channel": "lodydeals",
+        "ts": 1795546163.6175926,
+        "price": 64.0
       }
     ]
   },
