@@ -1330,7 +1330,7 @@
     "1005010158485058": 1793543612.279949,
     "1005012910719451": 1795184387.5053294,
     "1005006307798542": 1793467165.446982,
-    "1005011787296177": 1793607070.347875,
+    "1005011787296177": 1795543601.9781244,
     "1005007375332966": 1793467173.1692383,
     "1005012543970886": 1793467209.762414,
     "1005013222073946": 1794492985.70064,
@@ -3536,7 +3536,7 @@
     "HONOR X80 PRO MAX (8/128)": 1793467357.4280431,
     "لووووززززز مع": 1793362071.3460114,
     "SoundPEATS Space Headphones": 1793467165.446982,
-    "Anker Nano 70W Ultra-Fast 3-Port USB-C Charger": 1793467094.7054691,
+    "Anker Nano 70W Ultra-Fast 3-Port USB-C Charger": 1795543601.9781244,
     "TicWatch Pro 5 Wear OS Smartwatch – 100+ Sports Modes, NFC & 5ATM Waterproof (Refurbished)": 1793380279.4675684,
     "Black Shark Neo2 Smartwatch – 2.01\" HD Display, Bluetooth Calling & IP68": 1793380284.94034,
     "HONOR CHOICE Watch 2i – 1.85\" AMOLED Smartwatch with Bluetooth Calling": 1793613395.2932215,
@@ -4359,7 +4359,6 @@
     "Digital weight scale": 1795541946.5670767
   },
   "published_post_keys": [
-    "aniscoupons:34692",
     "zedstoreonline:40002",
     "zedstoreonline:40003",
     "zedstoreonline:40004",
@@ -5358,11 +5357,12 @@
     "aniscoupons:35583",
     "aniscoupons:35585",
     "zedstoreonline:40644",
-    "aniscoupons:35589"
+    "aniscoupons:35589",
+    "zedstoreonline:40645"
   ],
   "last_disclaimer_time": 1794524540.9476151,
   "last_calendar_time": 1795177633.1203737,
-  "last_run_time": 1795542119.429888,
+  "last_run_time": 1795543601.9781244,
   "monitored_channels": {
     "ecksdeal": {
       "last_message_id": 6130,
@@ -5389,8 +5389,8 @@
       "last_check_time": 1793599663.3444748
     },
     "zedstoreonline": {
-      "last_message_id": 40644,
-      "last_check_time": 1795541948.6614752
+      "last_message_id": 40645,
+      "last_check_time": 1795543604.0794072
     },
     "aniscoupons": {
       "last_message_id": 35590,
@@ -5714,7 +5714,7 @@
     "1005010158485058": 66.5,
     "1005012910719451": 278.44,
     "1005006307798542": 35.3,
-    "1005011787296177": 29.76,
+    "1005011787296177": 28.7,
     "1005007375332966": 52.8,
     "1005012543970886": 12.3,
     "1005013222073946": 19.5,
@@ -33010,6 +33010,16 @@
       "price": 18.88,
       "timestamp": 1795542119.429888,
       "status": "ACTIVE"
+    },
+    "zedstoreonline:40645": {
+      "channel_msg_id": 3625,
+      "product_id": "1005011787296177",
+      "title": "Anker Nano 70W Ultra-Fast 3-Port USB-C Charger",
+      "channel": "zedstoreonline",
+      "source_msg_id": 40645,
+      "price": 28.7,
+      "timestamp": 1795543601.9781244,
+      "status": "ACTIVE"
     }
   },
   "schedule_config": {
@@ -33018,17 +33028,17 @@
     "current_interval_minutes": 5,
     "is_paused": false,
     "night_mode_enabled": true,
-    "last_deal_post_time": 1795542122.6993525,
+    "last_deal_post_time": 1795543606.0412629,
     "night_start_hour_dz": 0,
     "night_end_hour_dz": 8,
     "night_pause_enabled": true,
-    "last_sweep_time": 1795543379.3548465,
+    "last_sweep_time": 1795543609.2840567,
     "last_sweep_times": {
-      "algeria": 1795543376.7899108,
-      "france": 1795543379.3548465
+      "algeria": 1795543605.9970832,
+      "france": 1795543609.2840567
     },
     "last_deal_post_times": {
-      "algeria": 1795542122.6993525
+      "algeria": 1795543606.0412629
     }
   },
   "last_coin_reminder_time": 1795433324.042843,
@@ -33442,7 +33452,7 @@
     "1005010158485058": "lodydeals",
     "1005012910719451": "lodydeals",
     "1005006307798542": "aniscoupons",
-    "1005011787296177": "lodydeals",
+    "1005011787296177": "zedstoreonline",
     "1005007375332966": "aniscoupons",
     "1005012543970886": "aniscoupons",
     "1005013222073946": "zedstoreonline",
@@ -38144,6 +38154,13 @@
         "channel": "aniscoupons",
         "ts": 1795542117.0254173,
         "price": 18.88
+      }
+    ],
+    "1005011787296177": [
+      {
+        "channel": "zedstoreonline",
+        "ts": 1795543598.9803402,
+        "price": 28.7
       }
     ]
   },
