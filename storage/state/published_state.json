@@ -908,7 +908,12 @@
     "1005007869625249",
     "1005013572273568",
     "COUPONBULLETIN_lodydeals_46823",
-    "1005006444231276"
+    "1005006444231276",
+    "1005012841531067",
+    "1005012927159948",
+    "1005012971094543",
+    "1005012987957842",
+    "1005012172859239"
   ],
   "published_product_timestamps": {
     "1005012973772517": 1794500732.7845657,
@@ -1005,7 +1010,7 @@
     "1005008901941749": 1792785032.5334125,
     "1005010178295650": 1793743848.9735239,
     "1005006861002512": 1791151259.5667012,
-    "1005012285327063": 1795282406.1264048,
+    "1005012285327063": 1795521280.557895,
     "1005006581583862": 1794852936.201381,
     "1005012816171978": 1792157876.0860639,
     "1005006248571160": 1791012946.4110153,
@@ -1057,7 +1062,7 @@
     "1005010536089199": 1795180451.4710355,
     "1005012385221205": 1791102050.1835058,
     "1005012743092233": 1791104461.903693,
-    "1005007805497968": 1795004220.913512,
+    "1005007805497968": 1795521262.2513373,
     "1005007345108759": 1793542577.5838556,
     "1005007394197021": 1792103174.5720932,
     "1005013290515237": 1791110751.0808105,
@@ -1336,11 +1341,11 @@
     "1005012839355198": 1794822570.4027405,
     "1005010133081414": 1793467151.9364934,
     "1005005373032877": 1793600283.7397804,
-    "1005007869955343": 1795259266.1538367,
+    "1005007869955343": 1795521322.2145708,
     "1005012644570693": 1793441338.6619778,
     "1005003949106838": 1795441304.587918,
     "1005012436082838": 1793733101.535615,
-    "1005010716206374": 1794990167.2493267,
+    "1005010716206374": 1795521251.4780498,
     "1005012864273120": 1793399494.1323898,
     "1005006967218963": 1793448582.9150612,
     "1005012675968319": 1793399525.3383162,
@@ -1351,7 +1356,7 @@
     "1005012931209980": 1795435353.7654994,
     "1005011820893973": 1793540051.7895243,
     "1005009073904302": 1795437453.1973996,
-    "1005009916208760": 1795249011.22468,
+    "1005009916208760": 1795521256.5995085,
     "1005010033441204": 1795371614.0931513,
     "1005008356663932": 1793707052.9762022,
     "1005010074161953": 1793543659.5887568,
@@ -1382,7 +1387,7 @@
     "COUPONS_d131dda7a0e3": 1793478717.5768087,
     "COUPONS_d131dda7": 1793478717.5923967,
     "COUPONS_11.11 Global Shopping Festival Warm-Up": 1793478717.5923967,
-    "1005008518280704": 1795430754.1421003,
+    "1005008518280704": 1795521294.6576116,
     "1005010527736444": 1793478769.6023057,
     "1005013450996845": 1794995476.4520917,
     "1005013144753309": 1794771014.8038359,
@@ -1406,7 +1411,7 @@
     "1005011550075220": 1794847073.6855137,
     "1005009806856302": 1794779736.0691626,
     "1005009980316035": 1793542552.2730343,
-    "1005005905462505": 1795271439.2141373,
+    "1005005905462505": 1795521237.8669245,
     "1005008248133489": 1794475825.54016,
     "1005008684239370": 1795111968.5056303,
     "1005011583202464": 1794913864.041144,
@@ -1426,7 +1431,7 @@
     "1005012790288780": 1793656271.0286891,
     "1005012345939726": 1793656202.4239671,
     "1005010722422210": 1794997865.6657422,
-    "1005012582348584": 1795501558.4890077,
+    "1005012582348584": 1795521172.771073,
     "1005012529582418": 1795352881.214854,
     "1005008605565544": 1793543812.9442995,
     "1005009508910625": 1793543817.982839,
@@ -1469,7 +1474,7 @@
     "1005009569642817": 1794004758.429218,
     "1005013438789813": 1793569553.2022223,
     "1005012823102793": 1793569904.419889,
-    "1005012773302941": 1795463758.3094215,
+    "1005012773302941": 1795521209.4715214,
     "1005008430147176": 1795085991.192385,
     "1005011742851856": 1795290123.812915,
     "1005006304425302": 1793656107.995781,
@@ -1503,7 +1508,7 @@
     "1005010285419688": 1793613895.6129942,
     "1005007805750092": 1793613900.590816,
     "1005006966360399": 1793613905.8870661,
-    "1005010706590867": 1795371434.3132992,
+    "1005010706590867": 1795521204.0838814,
     "1005010428947440": 1795380257.6694264,
     "1005010585654037": 1795088190.1400514,
     "1005013137304827": 1793613926.9213502,
@@ -1556,7 +1561,7 @@
     "1005012946895000": 1793793714.105913,
     "1005012150344482": 1795078113.2768726,
     "1005006972551834": 1793793774.6743867,
-    "1005010169268165": 1795466729.299068,
+    "1005010169268165": 1795521161.7173738,
     "1005010702038861": 1794935200.9462438,
     "1005009313079431": 1795467838.0597904,
     "1005010702511858": 1795011758.367623,
@@ -1573,15 +1578,15 @@
     "9998887107": 1793967108.0014687,
     "9998887678": 1793967678.8184059,
     "9998887703": 1793967703.2348685,
-    "1005008708333999": 1795442951.2127218,
-    "1005012254132930": 1795202623.049966,
+    "1005008708333999": 1795521267.8857634,
+    "1005012254132930": 1795521273.1935027,
     "1005013028124905": 1793971934.3600886,
     "1005012691642623": 1794074230.5173922,
     "1005010266233059": 1793977272.9654846,
     "1005007469003552": 1795257430.9310815,
     "1005010041181003": 1794994376.6272743,
     "1005010265542567": 1794131426.95932,
-    "1005003156756854": 1795282399.424266,
+    "1005003156756854": 1795521231.978351,
     "1005010142208108": 1794753124.2973137,
     "1005008534907844": 1793987285.4130383,
     "1005009577554629": 1793987289.8200357,
@@ -1596,7 +1601,7 @@
     "1005007038130594": 1795291550.8320675,
     "1005008248187128": 1794057675.8729835,
     "1005013053381984": 1795184587.079662,
-    "1005008060391372": 1795182121.6502924,
+    "1005008060391372": 1795521330.5345721,
     "1005010209911111": 1794068056.674266,
     "1005008295555234": 1794073127.8664527,
     "1005008645323478": 1795338233.068368,
@@ -1695,10 +1700,10 @@
     "1005013422894128": 1794487083.9711623,
     "1005010297094897": 1794657082.5305285,
     "1005009012821000": 1794502225.0175712,
-    "1005013485724377": 1795286867.9281676,
+    "1005013485724377": 1795521288.1154358,
     "1005012783197164": 1794606646.2896297,
     "1005012993724126": 1794515920.3397443,
-    "1005012726037568": 1795432233.0627322,
+    "1005012726037568": 1795521223.426411,
     "1005011940143389": 1795291139.3742876,
     "1005010374799328": 1794524370.7043138,
     "1005010487219975": 1794524381.8060858,
@@ -1713,7 +1718,7 @@
     "1005010218815499": 1794845442.6108298,
     "1005011897409757": 1794593403.339319,
     "1005013203288194": 1795185828.2808123,
-    "1005010305059795": 1795250843.8103168,
+    "1005010305059795": 1795521243.6382682,
     "1005013078612320": 1795256152.5715585,
     "1005007010612283": 1794599454.461018,
     "1005010788231460": 1794604060.7762444,
@@ -1745,7 +1750,7 @@
     "1005010376374580": 1794935234.6883996,
     "1005010239860751": 1794689616.7178488,
     "1005009278862695": 1795079013.6206362,
-    "1005013005786079": 1795437264.8543983,
+    "1005013005786079": 1795521300.0702558,
     "1005008627811107": 1794694594.377669,
     "1005012892577195": 1794732862.0085351,
     "1005012594430190": 1794741945.3108501,
@@ -1791,7 +1796,7 @@
     "1005013603023857": 1795290161.6076646,
     "1005009693337727": 1795344822.4527907,
     "1005013497504096": 1795283264.8493018,
-    "1005013482874428": 1795464130.6239684,
+    "1005013482874428": 1795521313.381524,
     "1005013354356242": 1795182504.6024845,
     "1005013117620640": 1795183540.495267,
     "1005013048908707": 1795183557.3230655,
@@ -1814,7 +1819,7 @@
     "COUPONS_67c5d85c": 1795275291.651658,
     "COUPONS_Black Friday & Cyber Monday": 1795275291.651658,
     "1005013612885095": 1795282393.4390564,
-    "1005009120961416": 1795282412.584454,
+    "1005009120961416": 1795521305.8502784,
     "1005006460821282": 1795282419.1354063,
     "1005007038424043": 1795283249.1787498,
     "1005010439285778": 1795290129.2736075,
@@ -1833,10 +1838,15 @@
     "1005004433755802": 1795382836.9089916,
     "1005013572353302": 1795457306.5240903,
     "1005012172081619": 1795461354.838551,
-    "1005007869625249": 1795465234.865786,
+    "1005007869625249": 1795521167.1145995,
     "1005013572273568": 1795476463.9675937,
     "COUPONBULLETIN_lodydeals_46823": 1795474088.8029113,
-    "1005006444231276": 1795501553.790957
+    "1005006444231276": 1795501553.790957,
+    "1005012841531067": 1795521179.58605,
+    "1005012927159948": 1795521185.434005,
+    "1005012971094543": 1795521192.0364006,
+    "1005012987957842": 1795521197.5917315,
+    "1005012172859239": 1795521214.580526
   },
   "published_titles": [
     "Wireless WiFi Repeater 300Mbps WiFi Extender Amplifier Booster Router",
@@ -3053,7 +3063,15 @@
     "عودة المايك الأسطوري ما تراطيش",
     "ADATA XPG DDR4 8GBx2 3200Mhz",
     "أفضل مايك لصناعة المحتوى",
-    "ADATA XPG DDR4 Ram  8GB×2 3200MHZ"
+    "ADATA XPG DDR4 Ram  8GB×2 3200MHZ",
+    "CUSU DDR4 16GB 3200MHz",
+    "KOOTION SSD SATA3 256GB",
+    "iPhone 12  4/128GB",
+    "iPhone 13  4/128GB",
+    "iPhone 14  4/128GB",
+    "iPhone 15  6/128GB",
+    "POCO Pad X1 8/512",
+    "Fifine H6 Dynamic RGB Gaming"
   ],
   "published_title_timestamps": {
     "Xiaomi Redmi Note 17 5G Global Version": 1790857823.0117362,
@@ -3152,7 +3170,7 @@
     "Attack Shark X1": 1790972445.6591878,
     "KUULAA USB C Cable": 1790973051.970508,
     "Wireless WiFi Repeater 300Mbps WiFi Extender Amplifier Booster Router": 1790974856.4783835,
-    "HAYLOU Watch Faro": 1795282406.1264048,
+    "HAYLOU Watch Faro": 1795521280.557895,
     "HAYLOU S30": 1794852936.201381,
     "Lenovo XT88 TWS Wireless Earphones Bluetooth 5.3 Dual MIC Stereo Noise": 1790976654.120254,
     "VIVO Y600 Pro 8/128GB": 1793656161.7382708,
@@ -3492,7 +3510,7 @@
     "Anker 45W Smart Display USB-C Fast Charger – PD Quick Charge": 1793380335.1434295,
     "IQOO 15T": 1793380343.534803,
     "Soundcore by Anker Life Q30": 1793380356.1638675,
-    "FIFINE AM8 USB/XLR Dynamic Microphone": 1795271439.2141373,
+    "FIFINE AM8 USB/XLR Dynamic Microphone": 1795521237.8669245,
     "MAONO DGM20 USB Gaming Microphone": 1794577027.4515839,
     "MAONO PD100W USB Wireless Dynamic Microphone Cardioid Mic 50m Range": 1793380404.996831,
     "CUSU RAM DDR4 RGB 8x2 3200Mhz": 1793380414.784201,
@@ -3522,7 +3540,7 @@
     "GIGABYTE B550M AORUS ELITE Motherboard": 1793399464.4760919,
     "Redmi Pad 2  4/64": 1793399472.4016223,
     "MSI MAG X670E TOMAHAWK Motherboard": 1793399494.1323898,
-    "GameSir Nova Lite": 1795004220.913512,
+    "GameSir Nova Lite": 1795521262.2513373,
     "QCY Crossky C50i Open": 1793399525.3383162,
     "Magcubic HY350MAX": 1793399534.209787,
     "BLACKVIEW OSCAL TANK1": 1793399542.6698716,
@@ -3540,7 +3558,7 @@
     "OnePlus Turbo 6X Pro 8/128": 1793441350.359979,
     "Soundcore by Anker Life Q30 Hybrid Active Noise Cancelling Headphones": 1793448587.6507976,
     "بروجكتور Magcubic HY300 max – أوتو فوكس، Android 14، إضاءة 400 ANSI": 1793448612.7938895,
-    "MAONO PD100X Dynamic Microphone": 1795259266.1538367,
+    "MAONO PD100X Dynamic Microphone": 1795521322.2145708,
     "Soundcore by Anker P20i": 1795371614.0931513,
     "CUSU Memory DDR5  32GB(16GBX2) 5600MHz": 1793448632.7055113,
     "OPPO FIND X9 Pro": 1794486542.3386803,
@@ -3703,7 +3721,7 @@
     "OPPO A7 Pro Max 8/128GB": 1795185803.549076,
     "Realme P4 Power 5G 12/256GB": 1793566295.6489058,
     "iQOO Neo 11 Ultra 12/256": 1793566310.8398705,
-    "ATTACK SHARK V6 25000DPI": 1793566315.7447746,
+    "ATTACK SHARK V6 25000DPI": 1795521214.580526,
     "UGREEN FitBuds Bluetooth 6.0": 1793613871.2148516,
     "Ugreen Smart Display 45W": 1793913781.9155498,
     "Ugreen Nexode Air 100W": 1793566334.1942697,
@@ -3715,7 +3733,7 @@
     "Realme Neo 8  12/256GB": 1793569553.2022223,
     "Blackview MEGA 5 AI 8/256GB": 1793569904.419889,
     "Anker Nano Smart Display 45W": 1793570287.0210865,
-    "Zeblaze Btalk 4 Pro": 1794683510.1887808,
+    "Zeblaze Btalk 4 Pro": 1795521209.4715214,
     "Anker Soundcore 2": 1793571013.3288968,
     "MACHENIKE G5Pro Max SE": 1793571550.5645735,
     "MACHENIKE G1 Gaming": 1794822583.449546,
@@ -3813,7 +3831,7 @@
     "CMF Buds 2a ANC -42dB": 1794565826.9368062,
     "CUSU SSD 256GB M2 NVMe": 1793707081.0327315,
     "OPPO A6 PRO 12/256GB": 1793793726.6494405,
-    "Attack Shark R1 PAW3311": 1794848149.948447,
+    "Attack Shark R1 PAW3311": 1795521204.0838814,
     "GIGABYTE B550M K": 1793707102.1529818,
     "Black Shark Gaming Tab 12/255GB": 1795022829.6892593,
     "POCO F9 Pro 5G 12/256GB": 1793707119.4932482,
@@ -3843,7 +3861,7 @@
     "HAYLOU Solar Neo 2 AMOLED": 1793793748.870438,
     "ESSAGER 45W Car Charger": 1793793769.5631576,
     "Zeblaze Btalk 3 Plus": 1793793774.6743867,
-    "BOYA mini 2 Wireless": 1793794440.9453664,
+    "BOYA mini 2 Wireless": 1795521161.7173738,
     "سماعات فخمة HyperX Cloud 3": 1794935190.6045454,
     "سماعات HyperX Cloud Earbuds 2": 1794935200.9462438,
     "WALRAM SSD  512GB": 1793898336.7775517,
@@ -3876,7 +3894,7 @@
     "Vivo Y600 Pro": 1793969543.5771117,
     "MAONO PD100X USB/XL": 1793969903.1419857,
     "Realme C100D 4G 4/128GB": 1794913830.7898324,
-    "HAYLOU Flowbuds N50 ANC": 1795202623.049966,
+    "HAYLOU Flowbuds N50 ANC": 1795521273.1935027,
     "Honor 600 Pro 12/256": 1794131798.3098254,
     "HONOR Pad X8a (4/64GB)": 1794683885.7547128,
     "Magcubic HY350 Max 900ANSI": 1794476813.180707,
@@ -3887,7 +3905,7 @@
     "ميكروفون Ulanzi A100 لاسلكي صغير": 1795257430.9310815,
     "Lexar ARES PRO NVMe SSD PCle5.0x4 1TB": 1794994376.6272743,
     "Ulanzi A200 Mini Wireless Lavalier Microphone": 1794131426.95932,
-    "حامل هاتف Ulanzi ST-06S": 1795282399.424266,
+    "حامل هاتف Ulanzi ST-06S": 1795521231.978351,
     "AULA MINI60 HE PRO": 1794753124.2973137,
     "Maono Wave T5 Wireless Mic": 1793987285.4130383,
     "SAMSUNG DDR3 8GB 1600v": 1793987289.8200357,
@@ -3895,7 +3913,7 @@
     "SOUNDPEATS C30 ANC Wireless Earphones": 1794852924.3222039,
     "UGREEN 45W GaN Smart Display Charger": 1793995361.9589899,
     "Inphic PG1 PG9 RGB Wired Gaming Mouse": 1795259816.8338442,
-    "realme C100d 4/128GB": 1795442951.2127218,
+    "realme C100d 4/128GB": 1795521267.8857634,
     "Zeblaze GTS 3 Pro AMOLED": 1794500381.7712336,
     "شاحن سيارة ORICO بقوة 45W": 1795085801.1895535,
     "Hollyland LARK M2 DUO 2-Person": 1794658966.3702009,
@@ -4000,9 +4018,9 @@
     "Inphic YuanChuang Cyber Gaming Mouse": 1794320674.833981,
     "SIX PCIe 4.0 SSD (1TB) NVMe M2": 1794331533.1223195,
     "Kootion SSD SATA": 1795267592.0773335,
-    "KOOTION SATA SSD 128GB": 1794334097.945569,
+    "KOOTION SATA SSD 128GB": 1795521223.426411,
     "Kingston DataTraveler 128GB": 1795249207.7202265,
-    "CUSU CV3500  M.2 NVMe SSD (1tb)": 1795430754.1421003,
+    "CUSU CV3500  M.2 NVMe SSD (1tb)": 1795521294.6576116,
     "Kootion X15 M.2 NVMe 256GB": 1794346230.0535362,
     "Baseus BS2 Lite": 1794349536.4429784,
     "حجز وتجدد كوبونات 11.11": 1794363974.314961,
@@ -4066,7 +4084,7 @@
     "FANTECH SHOOTER III WGP13S": 1794501299.95393,
     "DITONG X3Plus  4K WIFI6": 1794502225.0175712,
     "Lenovo Legion Y900 11 Tablet CN Version MediaTek Dimensity 9500S": 1795000279.9355009,
-    "realme Original Adapter SUPERVOOC Charger 45W": 1795286867.9281676,
+    "realme Original Adapter SUPERVOOC Charger 45W": 1795521288.1154358,
     "EPOMAKER GX1 Tri-mode": 1794606646.2896297,
     "WALRAM M.2  128GB": 1794515920.3397443,
     "Portable Magnetic Phone": 1795291139.3742876,
@@ -4087,7 +4105,7 @@
     "ماوس فخم Logitech G502 Hero": 1794591008.1982286,
     "ماوس لاسلكي Delux M800 Mini Series": 1794591382.6548223,
     "Lexar V400 USB3.0 64GB": 1794593403.339319,
-    "HAYLOU S40 ANC Wireless": 1795250843.8103168,
+    "HAYLOU S40 ANC Wireless": 1795521243.6382682,
     "CUSU Memory DDR5 (16GB) 6000MHz": 1795080686.538359,
     "Realme 15 Pro (12/512GB)": 1794998227.2322433,
     "MAONO T1 Plus Dual-Capsule Wireless Lavalier Microphone Lapel Microphone": 1794599278.9506347,
@@ -4131,7 +4149,7 @@
     "FIFINE Wireless Lavalier Recording Microphone": 1794682951.3022494,
     "MCHOSE A7 V2 Ultra Gaming Mouse": 1794684619.3058665,
     "NETUM XL-P801 Thermal A4 Printer": 1794687391.0146728,
-    "Nothing Buds 2 Neo": 1795358932.2202182,
+    "Nothing Buds 2 Neo": 1795521300.0702558,
     "مقبس SONOFF ذكي بقوة 16A يتيح تشغيل وإيقاف الأجهزة الكهربائية عن": 1794689616.7178488,
     "Anker Soundcore P30i ANC": 1795249198.9372864,
     "Anker 735 GaN 3 Port 65W": 1795022632.7994065,
@@ -4209,7 +4227,7 @@
     "CUSU K5 Portable External SSD 512gb": 1795164006.096927,
     "UGREEN Nexode Air 65W GaN Charger": 1795341889.4915757,
     "Portable Wireless Electric Air Pump with LCD Display": 1795167145.0122104,
-    "Blackview Wave 7C": 1795464130.6239684,
+    "Blackview Wave 7C": 1795521313.381524,
     "لي يحوس على حاجة أصلية ومضمونة": 1795175430.73419,
     "Soundcore by Anker Q20i": 1795180451.4710355,
     "HUAWEI Pura 90s Pro": 1795261651.3173792,
@@ -4217,7 +4235,7 @@
     "ميزان ذكي يعمل بالبلوتوث لقياس الوزن": 1795182504.6024845,
     "TCL 60 NXTPAPER 8/256": 1795182900.2959979,
     "ماوس لاسلكي بألياف الكربون Attack Shark RS6 Ultra 8K Carbon": 1795183540.495267,
-    "بروجكتور Magcubic HY300 max": 1795183546.9104183,
+    "بروجكتور Magcubic HY300 max": 1795521256.5995085,
     "ViVO iQOO Z11  8/256": 1795184400.6197784,
     "Redmi Note 17 Pro 5G (6/128GB)": 1795184587.079662,
     "Honor 600 Lite 5G 8/256GB": 1795185596.5947275,
@@ -4237,7 +4255,7 @@
     "GIGABYTE B550M K AM4 Motherboard": 1795265573.5780053,
     "KingSpec DDR4 16GB 3200Mhz": 1795274576.3351243,
     "ماوس لاسلكي Aula Kunlun L5 Magnetic": 1795282393.4390564,
-    "ASROCK B850M STEEL LEGEND": 1795282412.584454,
+    "ASROCK B850M STEEL LEGEND": 1795521305.8502784,
     "لوووووووووووووووووووز": 1795282419.1354063,
     "Men's Watch Business": 1795290129.2736075,
     "LAXASFIT Men Watch": 1795290139.8130522,
@@ -4275,36 +4293,17 @@
     "عودة المايك الأسطوري ما تراطيش": 1795467282.6052318,
     "ADATA XPG DDR4 8GBx2 3200Mhz": 1795472795.5793128,
     "أفضل مايك لصناعة المحتوى": 1795474088.8029113,
-    "ADATA XPG DDR4 Ram  8GB×2 3200MHZ": 1795476463.9675937
+    "ADATA XPG DDR4 Ram  8GB×2 3200MHZ": 1795476463.9675937,
+    "CUSU DDR4 16GB 3200MHz": 1795521167.1145995,
+    "KOOTION SSD SATA3 256GB": 1795521172.771073,
+    "iPhone 12  4/128GB": 1795521179.58605,
+    "iPhone 13  4/128GB": 1795521185.434005,
+    "iPhone 14  4/128GB": 1795521192.0364006,
+    "iPhone 15  6/128GB": 1795521197.5917315,
+    "POCO Pad X1 8/512": 1795521251.4780498,
+    "Fifine H6 Dynamic RGB Gaming": 1795521330.5345721
   },
   "published_post_keys": [
-    "zedstoreonline:39955",
-    "aniscoupons:34630",
-    "aniscoupons:34632",
-    "lodydeals:46386",
-    "lodydeals:46387",
-    "lodydeals:46388",
-    "lodydeals:46390",
-    "lodydeals:46395",
-    "lodydeals:46396",
-    "lodydeals:46397",
-    "lodydeals:46399",
-    "lodydeals:46400",
-    "lodydeals:46403",
-    "lodydeals:46404",
-    "zedstoreonline:39958",
-    "aniscoupons:34633",
-    "zedstoreonline:39959",
-    "aniscoupons:34634",
-    "zedstoreonline:39960",
-    "zedstoreonline:39961",
-    "aniscoupons:34635",
-    "aniscoupons:34636",
-    "zedstoreonline:39962",
-    "aniscoupons:34639",
-    "zedstoreonline:39964",
-    "aniscoupons:34640",
-    "zedstoreonline:39963",
     "aniscoupons:34641",
     "aniscoupons:34643",
     "aniscoupons:34644",
@@ -5277,19 +5276,46 @@
     "lodydeals:46823",
     "aniscoupons:35539",
     "zedstoreonline:40593",
-    "zedstoreonline:40594"
+    "zedstoreonline:40594",
+    "lodydeals:46826",
+    "lodydeals:46827",
+    "lodydeals:46828",
+    "lodydeals:46831",
+    "lodydeals:46832",
+    "lodydeals:46833",
+    "lodydeals:46834",
+    "lodydeals:46836",
+    "lodydeals:46837",
+    "lodydeals:46838",
+    "zedstoreonline:40601",
+    "zedstoreonline:40602",
+    "zedstoreonline:40603",
+    "zedstoreonline:40604",
+    "zedstoreonline:40605",
+    "zedstoreonline:40606",
+    "zedstoreonline:40608",
+    "zedstoreonline:40609",
+    "zedstoreonline:40610",
+    "aniscoupons:35540",
+    "aniscoupons:35543",
+    "aniscoupons:35545",
+    "aniscoupons:35546",
+    "aniscoupons:35547",
+    "aniscoupons:35550",
+    "aniscoupons:35552",
+    "bnddeals:51402"
   ],
   "last_disclaimer_time": 1794524540.9476151,
   "last_calendar_time": 1795177633.1203737,
-  "last_run_time": 1795501558.4890077,
+  "last_run_time": 1795521330.5345721,
   "monitored_channels": {
     "ecksdeal": {
       "last_message_id": 6126,
       "last_check_time": 1795474626.695983
     },
     "lodydeals": {
-      "last_message_id": 46823,
-      "last_check_time": 1795474088.9395788
+      "last_message_id": 46838,
+      "last_check_time": 1795521216.661779
     },
     "test_channel": {
       "last_message_id": 1793967703,
@@ -5308,16 +5334,16 @@
       "last_check_time": 1793599663.3444748
     },
     "zedstoreonline": {
-      "last_message_id": 40595,
-      "last_check_time": 1795501560.6482108
+      "last_message_id": 40610,
+      "last_check_time": 1795521275.2754374
     },
     "aniscoupons": {
-      "last_message_id": 35539,
-      "last_check_time": 1795476466.1251192
+      "last_message_id": 35554,
+      "last_check_time": 1795521325.7696786
     },
     "bnddeals": {
-      "last_message_id": 51401,
-      "last_check_time": 1795473905.8129642
+      "last_message_id": 51402,
+      "last_check_time": 1795521332.621401
     }
   },
   "published_product_prices": {
@@ -5456,7 +5482,7 @@
     "1005012385221205": 13.27,
     "1005013223462188": 13.5,
     "1005012743092233": 24.37,
-    "1005007805497968": 18.7,
+    "1005007805497968": 21.0,
     "1005007345108759": 19.47,
     "1005007394197021": 14.88,
     "1005012571601398": 273.5,
@@ -5662,7 +5688,7 @@
     "1005012644570693": 558.0,
     "1005003949106838": 115.9,
     "1005012436082838": 123.6,
-    "1005010716206374": 304.39,
+    "1005010716206374": 307.0,
     "1005012864273120": 154.0,
     "1005006967218963": 17.3,
     "1005012675968319": 30.0,
@@ -5673,7 +5699,7 @@
     "1005012931209980": 277.0,
     "1005011820893973": 690.0,
     "1005009073904302": 228.3,
-    "1005009916208760": 84.35,
+    "1005009916208760": 81.9,
     "1005010033441204": 14.6,
     "1005008356663932": 355.5,
     "1005010074161953": 130.08,
@@ -5722,7 +5748,7 @@
     "1005011550075220": 124.53,
     "1005009806856302": 16.6,
     "1005009980316035": 25.85,
-    "1005005905462505": 52.4,
+    "1005005905462505": 48.4,
     "1005008248133489": 15.61,
     "1005008684239370": 9.2,
     "1005011583202464": 58.4,
@@ -5742,7 +5768,7 @@
     "1005012790288780": 26.95,
     "1005012345939726": 18.62,
     "1005010722422210": 405.99,
-    "1005012582348584": 16.7,
+    "1005012582348584": 15.56,
     "1005012529582418": 12.6,
     "1005008605565544": 58.59,
     "1005009508910625": 46.26,
@@ -5787,7 +5813,7 @@
     "1005009569642817": 28.43,
     "1005013438789813": 408.02,
     "1005012823102793": 226.25,
-    "1005012773302941": 17.8,
+    "1005012773302941": 17.3,
     "1005008430147176": 22.6,
     "1005011742851856": 4.89,
     "1005006304425302": 2.24,
@@ -5817,7 +5843,7 @@
     "1005007060644375": 3.2,
     "1005007805750092": 4.4,
     "1005006966360399": 6.5,
-    "1005010706590867": 16.0,
+    "1005010706590867": 16.08,
     "1005012648097890": 430.0,
     "1005012871436251": 200.96,
     "1005010385663278": 58.55,
@@ -5858,7 +5884,7 @@
     "1005005058037424": 34.67,
     "1005012946895000": 142.59,
     "1005006972551834": 31.07,
-    "1005010169268165": 21.0,
+    "1005010169268165": 19.4,
     "1005010702038861": 18.12,
     "1005009313079431": 34.27,
     "1005010702511858": 59.81,
@@ -5872,7 +5898,7 @@
     "1005008636930795": 31.5,
     "1005013083645836": 304.4,
     "1005008703989845": 41.8,
-    "1005008060391372": 31.78,
+    "1005008060391372": 27.7,
     "1005012593794312": 241.5,
     "1005008357913212": 34.8,
     "1005012254132930": 14.5,
@@ -5987,7 +6013,7 @@
     "1005013485724377": 11.5,
     "1005012783197164": 36.46,
     "1005012993724126": 15.6,
-    "1005012726037568": 7.56,
+    "1005012726037568": 7.5,
     "1005011940143389": 3.89,
     "1005010374799328": 10.49,
     "1005010487219975": 5.49,
@@ -6098,7 +6124,7 @@
     "1005008850261694": 30.3,
     "32847542727": 75.19,
     "1005013612885095": 73.07,
-    "1005009120961416": 211.5,
+    "1005009120961416": 212.0,
     "1005006460821282": 9.7,
     "1005007038424043": 2.71,
     "1005010439285778": 5.29,
@@ -6117,9 +6143,14 @@
     "1005004433755802": 36.95,
     "1005013572353302": 13.18,
     "1005012172081619": 22.49,
-    "1005007869625249": 82.6,
+    "1005007869625249": 82.86,
     "1005013572273568": 76.8,
-    "1005006444231276": 6.8
+    "1005006444231276": 6.8,
+    "1005012841531067": 171.97,
+    "1005012927159948": 188.71,
+    "1005012971094543": 199.98,
+    "1005012987957842": 272.41,
+    "1005012172859239": 22.1
   },
   "channel_published_deals": {
     "aniscoupons:32590": {
@@ -32234,6 +32265,276 @@
       "price": 16.7,
       "timestamp": 1795501558.4890077,
       "status": "ACTIVE"
+    },
+    "lodydeals:46826": {
+      "channel_msg_id": 3532,
+      "product_id": "1005010169268165",
+      "title": "BOYA mini 2 Wireless",
+      "channel": "lodydeals",
+      "source_msg_id": 46826,
+      "price": 19.4,
+      "timestamp": 1795521161.7173738,
+      "status": "ACTIVE"
+    },
+    "lodydeals:46827": {
+      "channel_msg_id": 3533,
+      "product_id": "1005007869625249",
+      "title": "CUSU DDR4 16GB 3200MHz",
+      "channel": "lodydeals",
+      "source_msg_id": 46827,
+      "price": 82.86,
+      "timestamp": 1795521167.1145995,
+      "status": "ACTIVE"
+    },
+    "lodydeals:46828": {
+      "channel_msg_id": 3534,
+      "product_id": "1005012582348584",
+      "title": "KOOTION SSD SATA3 256GB",
+      "channel": "lodydeals",
+      "source_msg_id": 46828,
+      "price": 15.56,
+      "timestamp": 1795521172.771073,
+      "status": "ACTIVE"
+    },
+    "lodydeals:46831": {
+      "channel_msg_id": 3535,
+      "product_id": "1005012841531067",
+      "title": "iPhone 12  4/128GB",
+      "channel": "lodydeals",
+      "source_msg_id": 46831,
+      "price": 171.97,
+      "timestamp": 1795521179.58605,
+      "status": "ACTIVE"
+    },
+    "lodydeals:46832": {
+      "channel_msg_id": 3536,
+      "product_id": "1005012927159948",
+      "title": "iPhone 13  4/128GB",
+      "channel": "lodydeals",
+      "source_msg_id": 46832,
+      "price": 188.71,
+      "timestamp": 1795521185.434005,
+      "status": "ACTIVE"
+    },
+    "lodydeals:46833": {
+      "channel_msg_id": 3537,
+      "product_id": "1005012971094543",
+      "title": "iPhone 14  4/128GB",
+      "channel": "lodydeals",
+      "source_msg_id": 46833,
+      "price": 199.98,
+      "timestamp": 1795521192.0364006,
+      "status": "ACTIVE"
+    },
+    "lodydeals:46834": {
+      "channel_msg_id": 3538,
+      "product_id": "1005012987957842",
+      "title": "iPhone 15  6/128GB",
+      "channel": "lodydeals",
+      "source_msg_id": 46834,
+      "price": 272.41,
+      "timestamp": 1795521197.5917315,
+      "status": "ACTIVE"
+    },
+    "lodydeals:46836": {
+      "channel_msg_id": 3539,
+      "product_id": "1005010706590867",
+      "title": "Attack Shark R1 PAW3311",
+      "channel": "lodydeals",
+      "source_msg_id": 46836,
+      "price": 16.08,
+      "timestamp": 1795521204.0838814,
+      "status": "ACTIVE"
+    },
+    "lodydeals:46837": {
+      "channel_msg_id": 3540,
+      "product_id": "1005012773302941",
+      "title": "Zeblaze Btalk 4 Pro",
+      "channel": "lodydeals",
+      "source_msg_id": 46837,
+      "price": 17.3,
+      "timestamp": 1795521209.4715214,
+      "status": "ACTIVE"
+    },
+    "lodydeals:46838": {
+      "channel_msg_id": 3541,
+      "product_id": "1005012172859239",
+      "title": "ATTACK SHARK V6 25000DPI",
+      "channel": "lodydeals",
+      "source_msg_id": 46838,
+      "price": 22.1,
+      "timestamp": 1795521214.580526,
+      "status": "ACTIVE"
+    },
+    "zedstoreonline:40601": {
+      "channel_msg_id": 3542,
+      "product_id": "1005012726037568",
+      "title": "KOOTION SATA SSD 128GB",
+      "channel": "zedstoreonline",
+      "source_msg_id": 40601,
+      "price": 7.5,
+      "timestamp": 1795521223.426411,
+      "status": "ACTIVE"
+    },
+    "zedstoreonline:40602": {
+      "channel_msg_id": 3543,
+      "product_id": "1005003156756854",
+      "title": "حامل هاتف Ulanzi ST-06S",
+      "channel": "zedstoreonline",
+      "source_msg_id": 40602,
+      "price": 11.2,
+      "timestamp": 1795521231.978351,
+      "status": "ACTIVE"
+    },
+    "zedstoreonline:40603": {
+      "channel_msg_id": 3544,
+      "product_id": "1005005905462505",
+      "title": "FIFINE AM8 USB/XLR Dynamic Microphone",
+      "channel": "zedstoreonline",
+      "source_msg_id": 40603,
+      "price": 48.4,
+      "timestamp": 1795521237.8669245,
+      "status": "ACTIVE"
+    },
+    "zedstoreonline:40604": {
+      "channel_msg_id": 3545,
+      "product_id": "1005010305059795",
+      "title": "HAYLOU S40 ANC Wireless",
+      "channel": "zedstoreonline",
+      "source_msg_id": 40604,
+      "price": 29.6,
+      "timestamp": 1795521243.6382682,
+      "status": "ACTIVE"
+    },
+    "zedstoreonline:40605": {
+      "channel_msg_id": 3546,
+      "product_id": "1005010716206374",
+      "title": "POCO Pad X1 8/512",
+      "channel": "zedstoreonline",
+      "source_msg_id": 40605,
+      "price": 307.0,
+      "timestamp": 1795521251.4780498,
+      "status": "ACTIVE"
+    },
+    "zedstoreonline:40606": {
+      "channel_msg_id": 3547,
+      "product_id": "1005009916208760",
+      "title": "بروجكتور Magcubic HY300 max",
+      "channel": "zedstoreonline",
+      "source_msg_id": 40606,
+      "price": 81.9,
+      "timestamp": 1795521256.5995085,
+      "status": "ACTIVE"
+    },
+    "zedstoreonline:40608": {
+      "channel_msg_id": 3548,
+      "product_id": "1005007805497968",
+      "title": "GameSir Nova Lite",
+      "channel": "zedstoreonline",
+      "source_msg_id": 40608,
+      "price": 21.0,
+      "timestamp": 1795521262.2513373,
+      "status": "ACTIVE"
+    },
+    "zedstoreonline:40609": {
+      "channel_msg_id": 3549,
+      "product_id": "1005008708333999",
+      "title": "realme C100d 4/128GB",
+      "channel": "zedstoreonline",
+      "source_msg_id": 40609,
+      "price": 138.0,
+      "timestamp": 1795521267.8857634,
+      "status": "ACTIVE"
+    },
+    "zedstoreonline:40610": {
+      "channel_msg_id": 3550,
+      "product_id": "1005012254132930",
+      "title": "HAYLOU Flowbuds N50 ANC",
+      "channel": "zedstoreonline",
+      "source_msg_id": 40610,
+      "price": 14.5,
+      "timestamp": 1795521273.1935027,
+      "status": "ACTIVE"
+    },
+    "aniscoupons:35540": {
+      "channel_msg_id": 3551,
+      "product_id": "1005012285327063",
+      "title": "HAYLOU Watch Faro",
+      "channel": "aniscoupons",
+      "source_msg_id": 35540,
+      "price": 11.1,
+      "timestamp": 1795521280.557895,
+      "status": "ACTIVE"
+    },
+    "aniscoupons:35543": {
+      "channel_msg_id": 3552,
+      "product_id": "1005013485724377",
+      "title": "realme Original Adapter SUPERVOOC Charger 45W",
+      "channel": "aniscoupons",
+      "source_msg_id": 35543,
+      "price": 11.5,
+      "timestamp": 1795521288.1154358,
+      "status": "ACTIVE"
+    },
+    "aniscoupons:35545": {
+      "channel_msg_id": 3553,
+      "product_id": "1005008518280704",
+      "title": "CUSU CV3500  M.2 NVMe SSD (1tb)",
+      "channel": "aniscoupons",
+      "source_msg_id": 35545,
+      "price": 177.3,
+      "timestamp": 1795521294.6576116,
+      "status": "ACTIVE"
+    },
+    "aniscoupons:35546": {
+      "channel_msg_id": 3554,
+      "product_id": "1005013005786079",
+      "title": "Nothing Buds 2 Neo",
+      "channel": "aniscoupons",
+      "source_msg_id": 35546,
+      "price": 18.29,
+      "timestamp": 1795521300.0702558,
+      "status": "ACTIVE"
+    },
+    "aniscoupons:35547": {
+      "channel_msg_id": 3555,
+      "product_id": "1005009120961416",
+      "title": "ASROCK B850M STEEL LEGEND",
+      "channel": "aniscoupons",
+      "source_msg_id": 35547,
+      "price": 212.0,
+      "timestamp": 1795521305.8502784,
+      "status": "ACTIVE"
+    },
+    "aniscoupons:35550": {
+      "channel_msg_id": 3556,
+      "product_id": "1005013482874428",
+      "title": "Blackview Wave 7C",
+      "channel": "aniscoupons",
+      "source_msg_id": 35550,
+      "price": 79.6,
+      "timestamp": 1795521313.381524,
+      "status": "ACTIVE"
+    },
+    "aniscoupons:35552": {
+      "channel_msg_id": 3557,
+      "product_id": "1005007869955343",
+      "title": "MAONO PD100X Dynamic Microphone",
+      "channel": "aniscoupons",
+      "source_msg_id": 35552,
+      "price": 37.5,
+      "timestamp": 1795521322.2145708,
+      "status": "ACTIVE"
+    },
+    "bnddeals:51402": {
+      "channel_msg_id": 3558,
+      "product_id": "1005008060391372",
+      "title": "Fifine H6 Dynamic RGB Gaming",
+      "channel": "bnddeals",
+      "source_msg_id": 51402,
+      "price": 27.7,
+      "timestamp": 1795521330.5345721,
+      "status": "ACTIVE"
     }
   },
   "schedule_config": {
@@ -32242,17 +32543,17 @@
     "current_interval_minutes": 5,
     "is_paused": false,
     "night_mode_enabled": true,
-    "last_deal_post_time": 1795501562.4544415,
+    "last_deal_post_time": 1795521332.7217703,
     "night_start_hour_dz": 0,
     "night_end_hour_dz": 8,
     "night_pause_enabled": true,
-    "last_sweep_time": 1795501565.1482878,
+    "last_sweep_time": 1795521335.817562,
     "last_sweep_times": {
-      "algeria": 1795501562.411455,
-      "france": 1795501565.1482878
+      "algeria": 1795521332.6604645,
+      "france": 1795521335.817562
     },
     "last_deal_post_times": {
-      "algeria": 1795501562.4544415
+      "algeria": 1795521332.7217703
     }
   },
   "last_coin_reminder_time": 1795433324.042843,
@@ -32696,7 +32997,7 @@
     "1005009118633225": "lodydeals",
     "1005003949106838": "zedstoreonline",
     "1005012436082838": "lodydeals",
-    "1005010716206374": "aniscoupons",
+    "1005010716206374": "zedstoreonline",
     "1005012864273120": "zedstoreonline",
     "1005006967218963": "zedstoreonline",
     "1005012675968319": "aniscoupons",
@@ -32707,7 +33008,7 @@
     "1005012931209980": "zedstoreonline",
     "1005011820893973": "megaphonna",
     "1005009073904302": "zedstoreonline",
-    "1005009916208760": "lodydeals",
+    "1005009916208760": "zedstoreonline",
     "1005010033441204": "aniscoupons",
     "1005008356663932": "lodydeals",
     "1005010074161953": "lodydeals",
@@ -32783,7 +33084,7 @@
     "1005012790288780": "lodydeals",
     "1005012345939726": "lodydeals",
     "1005010722422210": "aniscoupons",
-    "1005012582348584": "zedstoreonline",
+    "1005012582348584": "lodydeals",
     "1005012529582418": "ecksdeal",
     "1005008605565544": "ecksdeal",
     "1005009508910625": "ecksdeal",
@@ -32828,7 +33129,7 @@
     "1005009569642817": "lodydeals",
     "1005013438789813": "lodydeals",
     "1005012823102793": "lodydeals",
-    "1005012773302941": "zedstoreonline",
+    "1005012773302941": "lodydeals",
     "1005008430147176": "zedstoreonline",
     "1005011742851856": "lodydeals",
     "1005006304425302": "lodydeals",
@@ -32860,7 +33161,7 @@
     "1005007060644375": "zedstoreonline",
     "1005007805750092": "aniscoupons",
     "1005006966360399": "aniscoupons",
-    "1005010706590867": "aniscoupons",
+    "1005010706590867": "lodydeals",
     "1005012648097890": "aniscoupons",
     "1005012871436251": "lodydeals",
     "1005009504965110": "zedstoreonline",
@@ -32900,7 +33201,7 @@
     "1005005058037424": "lodydeals",
     "1005012946895000": "lodydeals",
     "1005006972551834": "lodydeals",
-    "1005010169268165": "bnddeals",
+    "1005010169268165": "lodydeals",
     "1005010702038861": "ecksdeal",
     "1005009313079431": "aniscoupons",
     "1005010702511858": "lodydeals",
@@ -32940,7 +33241,7 @@
     "1005007038130594": "lodydeals",
     "1005008248187128": "lodydeals",
     "1005013053381984": "aniscoupons",
-    "1005008060391372": "ecksdeal",
+    "1005008060391372": "bnddeals",
     "1005010209911111": "bnddeals",
     "1005008295555234": "lodydeals",
     "1005008645323478": "aniscoupons",
@@ -33040,7 +33341,7 @@
     "1005013485724377": "aniscoupons",
     "1005012783197164": "lodydeals",
     "1005012993724126": "aniscoupons",
-    "1005012726037568": "ecksdeal",
+    "1005012726037568": "zedstoreonline",
     "1005011940143389": "lodydeals",
     "1005010374799328": "lodydeals",
     "1005010487219975": "lodydeals",
@@ -33087,7 +33388,7 @@
     "1005010376374580": "zedstoreonline",
     "1005010239860751": "zedstoreonline",
     "1005009278862695": "bnddeals",
-    "1005013005786079": "lodydeals",
+    "1005013005786079": "aniscoupons",
     "1005008627811107": "ecksdeal",
     "1005012892577195": "lodydeals",
     "1005012594430190": "lodydeals",
@@ -33172,10 +33473,15 @@
     "1005004433755802": "lodydeals",
     "1005013572353302": "aniscoupons",
     "1005012172081619": "aniscoupons",
-    "1005007869625249": "aniscoupons",
+    "1005007869625249": "lodydeals",
     "1005013572273568": "aniscoupons",
     "COUPONBULLETIN_lodydeals_46823": "lodydeals",
-    "1005006444231276": "zedstoreonline"
+    "1005006444231276": "zedstoreonline",
+    "1005012841531067": "lodydeals",
+    "1005012927159948": "lodydeals",
+    "1005012971094543": "lodydeals",
+    "1005012987957842": "lodydeals",
+    "1005012172859239": "lodydeals"
   },
   "published_title_channels": {
     "Test Wrench Set": "test_channel",
@@ -34124,7 +34430,7 @@
     "Inphic YuanChuang Cyber Gaming Mouse": "zedstoreonline",
     "SIX PCIe 4.0 SSD (1TB) NVMe M2": "bnddeals",
     "Kootion SSD SATA": "aniscoupons",
-    "KOOTION SATA SSD 128GB": "lodydeals",
+    "KOOTION SATA SSD 128GB": "zedstoreonline",
     "Kingston DataTraveler 128GB": "lodydeals",
     "CUSU CV3500  M.2 NVMe SSD (1tb)": "aniscoupons",
     "Kootion X15 M.2 NVMe 256GB": "lodydeals",
@@ -34398,7 +34704,15 @@
     "عودة المايك الأسطوري ما تراطيش": "bnddeals",
     "ADATA XPG DDR4 8GBx2 3200Mhz": "lodydeals",
     "أفضل مايك لصناعة المحتوى": "lodydeals",
-    "ADATA XPG DDR4 Ram  8GB×2 3200MHZ": "aniscoupons"
+    "ADATA XPG DDR4 Ram  8GB×2 3200MHZ": "aniscoupons",
+    "CUSU DDR4 16GB 3200MHz": "lodydeals",
+    "KOOTION SSD SATA3 256GB": "lodydeals",
+    "iPhone 12  4/128GB": "lodydeals",
+    "iPhone 13  4/128GB": "lodydeals",
+    "iPhone 14  4/128GB": "lodydeals",
+    "iPhone 15  6/128GB": "lodydeals",
+    "POCO Pad X1 8/512": "zedstoreonline",
+    "Fifine H6 Dynamic RGB Gaming": "bnddeals"
   },
   "religious_reminders_history": {
     "mock_rem": "2026-10-02",
@@ -35196,25 +35510,6 @@
   "published_deals_history": {},
   "settings": {},
   "handled_post_keys": [
-    "zedstoreonline:40023",
-    "aniscoupons:34721",
-    "aniscoupons:34723",
-    "zedstoreonline:40024",
-    "aniscoupons:34727",
-    "aniscoupons:34728",
-    "zedstoreonline:40025",
-    "aniscoupons:34732",
-    "zedstoreonline:40030",
-    "zedstoreonline:40031",
-    "aniscoupons:34736",
-    "aniscoupons:34737",
-    "zedstoreonline:40033",
-    "aniscoupons:34738",
-    "zedstoreonline:40034",
-    "zedstoreonline:40035",
-    "zedstoreonline:40036",
-    "aniscoupons:34741",
-    "aniscoupons:34743",
     "zedstoreonline:40037",
     "zedstoreonline:40038",
     "zedstoreonline:40039",
@@ -36195,7 +36490,26 @@
     "aniscoupons:35537",
     "ecksdeal:6126",
     "aniscoupons:35538",
-    "zedstoreonline:40595"
+    "zedstoreonline:40595",
+    "lodydeals:46824",
+    "lodydeals:46825",
+    "lodydeals:46829",
+    "lodydeals:46830",
+    "lodydeals:46835",
+    "zedstoreonline:40596",
+    "zedstoreonline:40597",
+    "zedstoreonline:40598",
+    "zedstoreonline:40599",
+    "zedstoreonline:40600",
+    "zedstoreonline:40607",
+    "aniscoupons:35541",
+    "aniscoupons:35542",
+    "aniscoupons:35544",
+    "aniscoupons:35548",
+    "aniscoupons:35549",
+    "aniscoupons:35551",
+    "aniscoupons:35553",
+    "aniscoupons:35554"
   ],
   "last_france_cross_promo_time": 1795501542.8708572,
   "next_france_cross_promo_interval_seconds": 208574,
@@ -36768,145 +37082,215 @@
     "restock_alert": "2026-11-11"
   },
   "competitor_product_sightings": {
-    "1005009313079431": [
-      {
-        "channel": "aniscoupons",
-        "ts": 1795467835.65292,
-        "price": 34.27
-      },
-      {
-        "channel": "aniscoupons",
-        "ts": 1795467843.4658365,
-        "price": 34.27
-      }
-    ],
-    "1005008366962319": [
-      {
-        "channel": "bnddeals",
-        "ts": 1795473901.7499244,
-        "price": 27.5
-      }
-    ],
     "1005012582348584": [
-      {
-        "channel": "aniscoupons",
-        "ts": 1795469125.4804215,
-        "price": 43.6
-      },
-      {
-        "channel": "aniscoupons",
-        "ts": 1795469672.221963,
-        "price": 43.6
-      },
       {
         "channel": "zedstoreonline",
         "ts": 1795501556.4989471,
         "price": 16.7
-      }
-    ],
-    "1005007916078341": [
+      },
+      {
+        "channel": "lodydeals",
+        "ts": 1795521169.7798667,
+        "price": 15.56
+      },
+      {
+        "channel": "zedstoreonline",
+        "ts": 1795521219.9606495,
+        "price": 15.5
+      },
       {
         "channel": "aniscoupons",
-        "ts": 1795462837.0745003,
-        "price": 49.3
+        "ts": 1795521283.6739316,
+        "price": 15.5
+      },
+      {
+        "channel": "aniscoupons",
+        "ts": 1795521284.3960044,
+        "price": 15.5
+      }
+    ],
+    "1005010169268165": [
+      {
+        "channel": "lodydeals",
+        "ts": 1795521159.093494,
+        "price": 19.4
+      }
+    ],
+    "1005007869625249": [
+      {
+        "channel": "lodydeals",
+        "ts": 1795521164.7862136,
+        "price": 82.86
+      }
+    ],
+    "1005012726037568": [
+      {
+        "channel": "lodydeals",
+        "ts": 1795521175.5916348,
+        "price": 7.59
+      },
+      {
+        "channel": "zedstoreonline",
+        "ts": 1795521220.8704424,
+        "price": 7.5
+      },
+      {
+        "channel": "aniscoupons",
+        "ts": 1795521290.886613,
+        "price": 7.5
+      }
+    ],
+    "1005012987957842": [
+      {
+        "channel": "lodydeals",
+        "ts": 1795521200.7941518,
+        "price": 429.24
+      }
+    ],
+    "1005010706590867": [
+      {
+        "channel": "lodydeals",
+        "ts": 1795521201.5564437,
+        "price": 16.08
       }
     ],
     "1005012773302941": [
       {
+        "channel": "lodydeals",
+        "ts": 1795521206.8760748,
+        "price": 17.3
+      }
+    ],
+    "1005003156756854": [
+      {
         "channel": "zedstoreonline",
-        "ts": 1795463755.7011483,
-        "price": 17.8
+        "ts": 1795521229.3451312,
+        "price": 11.2
       },
       {
         "channel": "aniscoupons",
-        "ts": 1795471698.6051612,
-        "price": 17.5
+        "ts": 1795521318.9137375,
+        "price": 11.2
       }
     ],
-    "1005013572353302": [
+    "1005005905462505": [
       {
-        "channel": "bnddeals",
-        "ts": 1795458590.2014983,
-        "price": 2.0
-      }
-    ],
-    "1005012172081619": [
-      {
-        "channel": "bnddeals",
-        "ts": 1795462648.7591956,
-        "price": 22.49
+        "channel": "zedstoreonline",
+        "ts": 1795521234.83466,
+        "price": 48.4
       },
       {
         "channel": "aniscoupons",
-        "ts": 1795474630.9321542,
-        "price": 22.49
+        "ts": 1795521325.541949,
+        "price": 48.4
+      }
+    ],
+    "1005010305059795": [
+      {
+        "channel": "zedstoreonline",
+        "ts": 1795521240.9813893,
+        "price": 29.6
+      },
+      {
+        "channel": "aniscoupons",
+        "ts": 1795521308.5929973,
+        "price": 29.6
+      }
+    ],
+    "1005010716206374": [
+      {
+        "channel": "zedstoreonline",
+        "ts": 1795521248.9721549,
+        "price": 307.0
+      }
+    ],
+    "1005009916208760": [
+      {
+        "channel": "zedstoreonline",
+        "ts": 1795521254.2258065,
+        "price": 81.9
+      }
+    ],
+    "1005007805497968": [
+      {
+        "channel": "zedstoreonline",
+        "ts": 1795521259.7803998,
+        "price": 21.0
+      }
+    ],
+    "1005008708333999": [
+      {
+        "channel": "zedstoreonline",
+        "ts": 1795521265.2260935,
+        "price": 138.0
+      },
+      {
+        "channel": "aniscoupons",
+        "ts": 1795521310.0001588,
+        "price": 138.7
+      }
+    ],
+    "1005012254132930": [
+      {
+        "channel": "zedstoreonline",
+        "ts": 1795521270.5989764,
+        "price": 14.5
+      }
+    ],
+    "1005012285327063": [
+      {
+        "channel": "aniscoupons",
+        "ts": 1795521277.8272657,
+        "price": 11.1
+      }
+    ],
+    "1005013485724377": [
+      {
+        "channel": "aniscoupons",
+        "ts": 1795521285.6072462,
+        "price": 11.5
+      }
+    ],
+    "1005008518280704": [
+      {
+        "channel": "aniscoupons",
+        "ts": 1795521292.2071877,
+        "price": 177.3
+      }
+    ],
+    "1005013005786079": [
+      {
+        "channel": "aniscoupons",
+        "ts": 1795521297.7608664,
+        "price": 18.29
+      }
+    ],
+    "1005009120961416": [
+      {
+        "channel": "aniscoupons",
+        "ts": 1795521303.1496494,
+        "price": 212.0
       }
     ],
     "1005013482874428": [
       {
         "channel": "aniscoupons",
-        "ts": 1795464127.951118,
+        "ts": 1795521310.7099855,
         "price": 79.6
       }
     ],
-    "1005009834132291": [
-      {
-        "channel": "bnddeals",
-        "ts": 1795465793.4990177,
-        "price": 21.0
-      },
+    "1005007869955343": [
       {
         "channel": "aniscoupons",
-        "ts": 1795470595.3265622,
-        "price": 21.4
+        "ts": 1795521319.6414223,
+        "price": 37.5
       }
     ],
-    "1005010169268165": [
+    "1005008060391372": [
       {
         "channel": "bnddeals",
-        "ts": 1795466726.1773283,
-        "price": 21.0
-      }
-    ],
-    "1005012959738411": [
-      {
-        "channel": "bnddeals",
-        "ts": 1795467279.8895664,
-        "price": 70.0
-      }
-    ],
-    "1005008357913212": [
-      {
-        "channel": "aniscoupons",
-        "ts": 1795471877.3310616,
-        "price": 34.8
-      },
-      {
-        "channel": "zedstoreonline",
-        "ts": 1795473532.9852514,
-        "price": 34.8
-      },
-      {
-        "channel": "lodydeals",
-        "ts": 1795473709.9354007,
-        "price": 34.86
-      }
-    ],
-    "1005013572273568": [
-      {
-        "channel": "bnddeals",
-        "ts": 1795472801.3543432,
-        "price": 76.8
-      },
-      {
-        "channel": "ecksdeal",
-        "ts": 1795474626.5034087,
-        "price": 77.72
-      },
-      {
-        "channel": "aniscoupons",
-        "ts": 1795476461.5982141,
-        "price": 76.8
+        "ts": 1795521327.8010056,
+        "price": 27.7
       }
     ]
   },
