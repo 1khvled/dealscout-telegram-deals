@@ -1759,7 +1759,7 @@
     "1005010043969798": 1794679093.780596,
     "1005010376374580": 1794935234.6883996,
     "1005010239860751": 1794689616.7178488,
-    "1005009278862695": 1795079013.6206362,
+    "1005009278862695": 1795535124.479775,
     "1005013005786079": 1795521300.0702558,
     "1005008627811107": 1794694594.377669,
     "1005012892577195": 1794732862.0085351,
@@ -3100,7 +3100,8 @@
     "HONOR MAGIC 9 Pro Max 12/256",
     "Oppo Find X9 Ultra 12/256",
     "SomnAmbulist SSD 120Gb",
-    "سماعات الاذن KZ EDX PRO X"
+    "سماعات الاذن KZ EDX PRO X",
+    "طابعة XL-P801 الحرارية المتنقلة: طباعة A4 فورية، قابلة لإعادة"
   ],
   "published_title_timestamps": {
     "Xiaomi Redmi Note 17 5G Global Version": 1790857823.0117362,
@@ -4340,10 +4341,10 @@
     "HONOR MAGIC 9 Pro Max 12/256": 1795521933.931988,
     "Oppo Find X9 Ultra 12/256": 1795521950.475793,
     "SomnAmbulist SSD 120Gb": 1795524460.0087192,
-    "سماعات الاذن KZ EDX PRO X": 1795527391.8790212
+    "سماعات الاذن KZ EDX PRO X": 1795527391.8790212,
+    "طابعة XL-P801 الحرارية المتنقلة: طباعة A4 فورية، قابلة لإعادة": 1795535124.479775
   },
   "published_post_keys": [
-    "aniscoupons:34684",
     "aniscoupons:34687",
     "aniscoupons:34688",
     "aniscoupons:34689",
@@ -5342,11 +5343,12 @@
     "ecksdeal:6129",
     "ecksdeal:6130",
     "zedstoreonline:40640",
-    "aniscoupons:35573"
+    "aniscoupons:35573",
+    "zedstoreonline:40642"
   ],
   "last_disclaimer_time": 1794524540.9476151,
   "last_calendar_time": 1795177633.1203737,
-  "last_run_time": 1795530177.1943684,
+  "last_run_time": 1795535124.479775,
   "monitored_channels": {
     "ecksdeal": {
       "last_message_id": 6130,
@@ -5373,8 +5375,8 @@
       "last_check_time": 1793599663.3444748
     },
     "zedstoreonline": {
-      "last_message_id": 40641,
-      "last_check_time": 1795533654.0097468
+      "last_message_id": 40642,
+      "last_check_time": 1795535126.5626585
     },
     "aniscoupons": {
       "last_message_id": 35575,
@@ -32921,6 +32923,16 @@
       "price": 338.2,
       "timestamp": 1795530177.1943684,
       "status": "ACTIVE"
+    },
+    "zedstoreonline:40642": {
+      "channel_msg_id": 3617,
+      "product_id": "1005009278862695",
+      "title": "طابعة XL-P801 الحرارية المتنقلة: طباعة A4 فورية، قابلة لإعادة",
+      "channel": "zedstoreonline",
+      "source_msg_id": 40642,
+      "price": 32.9,
+      "timestamp": 1795535124.479775,
+      "status": "ACTIVE"
     }
   },
   "schedule_config": {
@@ -32929,17 +32941,17 @@
     "current_interval_minutes": 5,
     "is_paused": false,
     "night_mode_enabled": true,
-    "last_deal_post_time": 1795530180.6347399,
+    "last_deal_post_time": 1795535127.982955,
     "night_start_hour_dz": 0,
     "night_end_hour_dz": 8,
     "night_pause_enabled": true,
-    "last_sweep_time": 1795534961.2069438,
+    "last_sweep_time": 1795535130.3234868,
     "last_sweep_times": {
-      "algeria": 1795534958.11144,
-      "france": 1795534961.2069438
+      "algeria": 1795535127.9443865,
+      "france": 1795535130.3234868
     },
     "last_deal_post_times": {
-      "algeria": 1795530180.6347399
+      "algeria": 1795535127.982955
     }
   },
   "last_coin_reminder_time": 1795433324.042843,
@@ -33773,7 +33785,7 @@
     "1005010043969798": "zedstoreonline",
     "1005010376374580": "zedstoreonline",
     "1005010239860751": "zedstoreonline",
-    "1005009278862695": "bnddeals",
+    "1005009278862695": "zedstoreonline",
     "1005013005786079": "aniscoupons",
     "1005008627811107": "ecksdeal",
     "1005012892577195": "lodydeals",
@@ -35117,7 +35129,8 @@
     "HONOR MAGIC 9 Pro Max 12/256": "zedstoreonline",
     "Oppo Find X9 Ultra 12/256": "zedstoreonline",
     "SomnAmbulist SSD 120Gb": "aniscoupons",
-    "سماعات الاذن KZ EDX PRO X": "ecksdeal"
+    "سماعات الاذن KZ EDX PRO X": "ecksdeal",
+    "طابعة XL-P801 الحرارية المتنقلة: طباعة A4 فورية، قابلة لإعادة": "zedstoreonline"
   },
   "religious_reminders_history": {
     "mock_rem": "2026-10-02",
@@ -37982,6 +37995,13 @@
         "channel": "aniscoupons",
         "ts": 1795530174.507533,
         "price": 338.2
+      }
+    ],
+    "1005009278862695": [
+      {
+        "channel": "zedstoreonline",
+        "ts": 1795535121.9911842,
+        "price": 32.9
       }
     ]
   },
