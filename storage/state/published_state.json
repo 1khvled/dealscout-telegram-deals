@@ -922,7 +922,8 @@
     "1005013281520484",
     "1005007035077896",
     "COUPONBULLETIN_zedstoreonline_40639",
-    "1005008304362437"
+    "1005008304362437",
+    "1005006995294624"
   ],
   "published_product_timestamps": {
     "1005012973772517": 1794500732.7845657,
@@ -1863,7 +1864,8 @@
     "1005013281520484": 1795521926.0889337,
     "1005007035077896": 1795521964.5931118,
     "COUPONBULLETIN_zedstoreonline_40639": 1795525562.3674622,
-    "1005008304362437": 1795526475.8421245
+    "1005008304362437": 1795526475.8421245,
+    "1005006995294624": 1795527391.8790212
   },
   "published_titles": [
     "Wireless WiFi Repeater 300Mbps WiFi Extender Amplifier Booster Router",
@@ -3097,7 +3099,8 @@
     "Vivo X500 12/256",
     "HONOR MAGIC 9 Pro Max 12/256",
     "Oppo Find X9 Ultra 12/256",
-    "SomnAmbulist SSD 120Gb"
+    "SomnAmbulist SSD 120Gb",
+    "سماعات الاذن KZ EDX PRO X"
   ],
   "published_title_timestamps": {
     "Xiaomi Redmi Note 17 5G Global Version": 1790857823.0117362,
@@ -4336,10 +4339,10 @@
     "Vivo X500 12/256": 1795521926.0889337,
     "HONOR MAGIC 9 Pro Max 12/256": 1795521933.931988,
     "Oppo Find X9 Ultra 12/256": 1795521950.475793,
-    "SomnAmbulist SSD 120Gb": 1795524460.0087192
+    "SomnAmbulist SSD 120Gb": 1795524460.0087192,
+    "سماعات الاذن KZ EDX PRO X": 1795527391.8790212
   },
   "published_post_keys": [
-    "aniscoupons:34677",
     "zedstoreonline:39995",
     "zedstoreonline:39996",
     "aniscoupons:34684",
@@ -5338,15 +5341,16 @@
     "zedstoreonline:40636",
     "aniscoupons:35571",
     "zedstoreonline:40639",
-    "ecksdeal:6129"
+    "ecksdeal:6129",
+    "ecksdeal:6130"
   ],
   "last_disclaimer_time": 1794524540.9476151,
   "last_calendar_time": 1795177633.1203737,
-  "last_run_time": 1795526475.8421245,
+  "last_run_time": 1795527391.8790212,
   "monitored_channels": {
     "ecksdeal": {
-      "last_message_id": 6129,
-      "last_check_time": 1795526477.9038103
+      "last_message_id": 6130,
+      "last_check_time": 1795527393.9958658
     },
     "lodydeals": {
       "last_message_id": 46846,
@@ -6191,7 +6195,8 @@
     "1005013266074956": 888.0,
     "1005013281520484": 694.3,
     "1005007035077896": 8.4,
-    "1005008304362437": 26.26
+    "1005008304362437": 26.26,
+    "1005006995294624": 12.87
   },
   "channel_published_deals": {
     "aniscoupons:32590": {
@@ -32886,6 +32891,16 @@
       "price": 26.26,
       "timestamp": 1795526475.8421245,
       "status": "ACTIVE"
+    },
+    "ecksdeal:6130": {
+      "channel_msg_id": 3614,
+      "product_id": "1005006995294624",
+      "title": "سماعات الاذن KZ EDX PRO X",
+      "channel": "ecksdeal",
+      "source_msg_id": 6130,
+      "price": 12.87,
+      "timestamp": 1795527391.8790212,
+      "status": "ACTIVE"
     }
   },
   "schedule_config": {
@@ -32894,17 +32909,17 @@
     "current_interval_minutes": 5,
     "is_paused": false,
     "night_mode_enabled": true,
-    "last_deal_post_time": 1795526479.6421843,
+    "last_deal_post_time": 1795527396.8374364,
     "night_start_hour_dz": 0,
     "night_end_hour_dz": 8,
     "night_pause_enabled": true,
-    "last_sweep_time": 1795527215.636934,
+    "last_sweep_time": 1795527399.3460004,
     "last_sweep_times": {
-      "algeria": 1795527212.1060612,
-      "france": 1795527215.636934
+      "algeria": 1795527396.7851548,
+      "france": 1795527399.3460004
     },
     "last_deal_post_times": {
-      "algeria": 1795526479.6421843
+      "algeria": 1795527396.8374364
     }
   },
   "last_coin_reminder_time": 1795433324.042843,
@@ -33840,7 +33855,8 @@
     "1005013281520484": "zedstoreonline",
     "1005007035077896": "zedstoreonline",
     "COUPONBULLETIN_zedstoreonline_40639": "zedstoreonline",
-    "1005008304362437": "ecksdeal"
+    "1005008304362437": "ecksdeal",
+    "1005006995294624": "ecksdeal"
   },
   "published_title_channels": {
     "Test Wrench Set": "test_channel",
@@ -35080,7 +35096,8 @@
     "Vivo X500 12/256": "zedstoreonline",
     "HONOR MAGIC 9 Pro Max 12/256": "zedstoreonline",
     "Oppo Find X9 Ultra 12/256": "zedstoreonline",
-    "SomnAmbulist SSD 120Gb": "aniscoupons"
+    "SomnAmbulist SSD 120Gb": "aniscoupons",
+    "سماعات الاذن KZ EDX PRO X": "ecksdeal"
   },
   "religious_reminders_history": {
     "mock_rem": "2026-10-02",
