@@ -1334,7 +1334,7 @@
     "1005007375332966": 1793467173.1692383,
     "1005012543970886": 1793467209.762414,
     "1005013222073946": 1794492985.70064,
-    "1005010485068924": 1795249198.9372864,
+    "1005010485068924": 1795543786.6993494,
     "1005013245248248": 1793467100.7719579,
     "1005011790544318": 1793448745.105644,
     "1005010266614743": 1793380310.000534,
@@ -3540,7 +3540,7 @@
     "TicWatch Pro 5 Wear OS Smartwatch – 100+ Sports Modes, NFC & 5ATM Waterproof (Refurbished)": 1793380279.4675684,
     "Black Shark Neo2 Smartwatch – 2.01\" HD Display, Bluetooth Calling & IP68": 1793380284.94034,
     "HONOR CHOICE Watch 2i – 1.85\" AMOLED Smartwatch with Bluetooth Calling": 1793613395.2932215,
-    "Soundcore P30i by Anker Noise Cancelling": 1794935227.0372117,
+    "Soundcore P30i by Anker Noise Cancelling": 1795543786.6993494,
     "HONOR Watch X5i – 1.97\" AMOLED Smartwatch, Bluetooth Calling 21-Day Battery": 1793467100.7719579,
     "Anker 140W Max GaN Charger – 4-Port USB-C with Smart Display": 1793380304.2066164,
     "Anker Prime 200W GaN Charging Station – 6-Port USB-C Desktop Charger": 1793380310.000534,
@@ -4359,7 +4359,6 @@
     "Digital weight scale": 1795541946.5670767
   },
   "published_post_keys": [
-    "zedstoreonline:40002",
     "zedstoreonline:40003",
     "zedstoreonline:40004",
     "aniscoupons:34696",
@@ -5358,11 +5357,12 @@
     "aniscoupons:35585",
     "zedstoreonline:40644",
     "aniscoupons:35589",
-    "zedstoreonline:40645"
+    "zedstoreonline:40645",
+    "zedstoreonline:40646"
   ],
   "last_disclaimer_time": 1794524540.9476151,
   "last_calendar_time": 1795177633.1203737,
-  "last_run_time": 1795543601.9781244,
+  "last_run_time": 1795543786.6993494,
   "monitored_channels": {
     "ecksdeal": {
       "last_message_id": 6130,
@@ -5389,8 +5389,8 @@
       "last_check_time": 1793599663.3444748
     },
     "zedstoreonline": {
-      "last_message_id": 40645,
-      "last_check_time": 1795543604.0794072
+      "last_message_id": 40646,
+      "last_check_time": 1795543788.800828
     },
     "aniscoupons": {
       "last_message_id": 35590,
@@ -5718,7 +5718,7 @@
     "1005007375332966": 52.8,
     "1005012543970886": 12.3,
     "1005013222073946": 19.5,
-    "1005010485068924": 22.4,
+    "1005010485068924": 21.4,
     "1005013245248248": 18.5,
     "1005011790544318": 57.85,
     "1005010266614743": 57.8,
@@ -33020,6 +33020,16 @@
       "price": 28.7,
       "timestamp": 1795543601.9781244,
       "status": "ACTIVE"
+    },
+    "zedstoreonline:40646": {
+      "channel_msg_id": 3626,
+      "product_id": "1005010485068924",
+      "title": "Soundcore P30i by Anker Noise Cancelling",
+      "channel": "zedstoreonline",
+      "source_msg_id": 40646,
+      "price": 21.4,
+      "timestamp": 1795543786.6993494,
+      "status": "ACTIVE"
     }
   },
   "schedule_config": {
@@ -33028,17 +33038,17 @@
     "current_interval_minutes": 5,
     "is_paused": false,
     "night_mode_enabled": true,
-    "last_deal_post_time": 1795543606.0412629,
+    "last_deal_post_time": 1795543790.7902763,
     "night_start_hour_dz": 0,
     "night_end_hour_dz": 8,
     "night_pause_enabled": true,
-    "last_sweep_time": 1795543609.2840567,
+    "last_sweep_time": 1795543793.8819804,
     "last_sweep_times": {
-      "algeria": 1795543605.9970832,
-      "france": 1795543609.2840567
+      "algeria": 1795543790.7458713,
+      "france": 1795543793.8819804
     },
     "last_deal_post_times": {
-      "algeria": 1795543606.0412629
+      "algeria": 1795543790.7902763
     }
   },
   "last_coin_reminder_time": 1795433324.042843,
@@ -33456,7 +33466,7 @@
     "1005007375332966": "aniscoupons",
     "1005012543970886": "aniscoupons",
     "1005013222073946": "zedstoreonline",
-    "1005010485068924": "lodydeals",
+    "1005010485068924": "zedstoreonline",
     "1005013245248248": "zedstoreonline",
     "1005011790544318": "bnddeals",
     "1005010266614743": "zedstoreonline",
@@ -38161,6 +38171,13 @@
         "channel": "zedstoreonline",
         "ts": 1795543598.9803402,
         "price": 28.7
+      }
+    ],
+    "1005010485068924": [
+      {
+        "channel": "zedstoreonline",
+        "ts": 1795543784.160922,
+        "price": 21.4
       }
     ]
   },
