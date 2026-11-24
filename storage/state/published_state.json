@@ -1835,7 +1835,7 @@
     "COUPONS_67c5d85c": 1795275291.651658,
     "COUPONS_Black Friday & Cyber Monday": 1795275291.651658,
     "1005013612885095": 1795282393.4390564,
-    "1005009120961416": 1795521305.8502784,
+    "1005009120961416": 1795548769.2740667,
     "1005006460821282": 1795282419.1354063,
     "1005007038424043": 1795283249.1787498,
     "1005010439285778": 1795290129.2736075,
@@ -4304,7 +4304,7 @@
     "GIGABYTE B550M K AM4 Motherboard": 1795265573.5780053,
     "KingSpec DDR4 16GB 3200Mhz": 1795546166.1725361,
     "ماوس لاسلكي Aula Kunlun L5 Magnetic": 1795282393.4390564,
-    "ASROCK B850M STEEL LEGEND": 1795521305.8502784,
+    "ASROCK B850M STEEL LEGEND": 1795548769.2740667,
     "لوووووووووووووووووووز": 1795282419.1354063,
     "Men's Watch Business": 1795290129.2736075,
     "LAXASFIT Men Watch": 1795290139.8130522,
@@ -4371,7 +4371,6 @@
     "Velec Tv Box 4/32GB": 1795548384.7413478
   },
   "published_post_keys": [
-    "aniscoupons:34706",
     "aniscoupons:34708",
     "aniscoupons:34709",
     "lodydeals:46407",
@@ -5370,19 +5369,20 @@
     "lodydeals:46852",
     "lodydeals:46853",
     "aniscoupons:35593",
-    "zedstoreonline:40650"
+    "zedstoreonline:40650",
+    "aniscoupons:35594"
   ],
   "last_disclaimer_time": 1794524540.9476151,
   "last_calendar_time": 1795177633.1203737,
-  "last_run_time": 1795548384.7413478,
+  "last_run_time": 1795548769.2740667,
   "monitored_channels": {
     "ecksdeal": {
       "last_message_id": 6130,
       "last_check_time": 1795527393.9958658
     },
     "lodydeals": {
-      "last_message_id": 46855,
-      "last_check_time": 1795548379.3402975
+      "last_message_id": 46856,
+      "last_check_time": 1795548762.5609965
     },
     "test_channel": {
       "last_message_id": 1793967703,
@@ -5405,8 +5405,8 @@
       "last_check_time": 1795548386.8337548
     },
     "aniscoupons": {
-      "last_message_id": 35593,
-      "last_check_time": 1795548195.9671834
+      "last_message_id": 35594,
+      "last_check_time": 1795548771.3560383
     },
     "bnddeals": {
       "last_message_id": 51406,
@@ -33145,6 +33145,16 @@
       "price": 26.6,
       "timestamp": 1795548384.7413478,
       "status": "ACTIVE"
+    },
+    "aniscoupons:35594": {
+      "channel_msg_id": 3637,
+      "product_id": "1005009120961416",
+      "title": "ASROCK B850M STEEL LEGEND",
+      "channel": "aniscoupons",
+      "source_msg_id": 35594,
+      "price": 212.0,
+      "timestamp": 1795548769.2740667,
+      "status": "ACTIVE"
     }
   },
   "schedule_config": {
@@ -33153,17 +33163,17 @@
     "current_interval_minutes": 5,
     "is_paused": false,
     "night_mode_enabled": true,
-    "last_deal_post_time": 1795548388.7749043,
+    "last_deal_post_time": 1795548772.48826,
     "night_start_hour_dz": 0,
     "night_end_hour_dz": 8,
     "night_pause_enabled": true,
-    "last_sweep_time": 1795548564.0061476,
+    "last_sweep_time": 1795548775.8305066,
     "last_sweep_times": {
-      "algeria": 1795548561.2922752,
-      "france": 1795548564.0061476
+      "algeria": 1795548772.4531384,
+      "france": 1795548775.8305066
     },
     "last_deal_post_times": {
-      "algeria": 1795548388.7749043
+      "algeria": 1795548772.48826
     }
   },
   "last_coin_reminder_time": 1795433324.042843,
@@ -36153,7 +36163,6 @@
   "published_deals_history": {},
   "settings": {},
   "handled_post_keys": [
-    "zedstoreonline:40050",
     "aniscoupons:34764",
     "zedstoreonline:40052",
     "aniscoupons:34768",
@@ -37152,7 +37161,8 @@
     "lodydeals:46851",
     "aniscoupons:35592",
     "lodydeals:46854",
-    "lodydeals:46855"
+    "lodydeals:46855",
+    "lodydeals:46856"
   ],
   "last_france_cross_promo_time": 1795501542.8708572,
   "next_france_cross_promo_interval_seconds": 208574,
@@ -37942,6 +37952,11 @@
       {
         "channel": "aniscoupons",
         "ts": 1795521303.1496494,
+        "price": 212.0
+      },
+      {
+        "channel": "aniscoupons",
+        "ts": 1795548766.4453688,
         "price": 212.0
       }
     ],
