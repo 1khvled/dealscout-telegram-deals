@@ -1808,7 +1808,7 @@
     "1005012274502051": 1795341889.4915757,
     "1005013603023857": 1795290161.6076646,
     "1005009693337727": 1795344822.4527907,
-    "1005013497504096": 1795283264.8493018,
+    "1005013497504096": 1795541946.5670767,
     "1005013482874428": 1795521313.381524,
     "1005013354356242": 1795182504.6024845,
     "1005013117620640": 1795183540.495267,
@@ -3110,7 +3110,8 @@
     "طابعة XL-P801 الحرارية المتنقلة: طباعة A4 فورية، قابلة لإعادة",
     "TCL Alcatel 1023",
     "ULTRALIGHT TRAVEL HAMMOCK",
-    "OPPO Enco Buds3 True Wireless Earbuds"
+    "OPPO Enco Buds3 True Wireless Earbuds",
+    "Digital weight scale"
   ],
   "published_title_timestamps": {
     "Xiaomi Redmi Note 17 5G Global Version": 1790857823.0117362,
@@ -4354,10 +4355,10 @@
     "طابعة XL-P801 الحرارية المتنقلة: طباعة A4 فورية، قابلة لإعادة": 1795535124.479775,
     "TCL Alcatel 1023": 1795536047.6290047,
     "ULTRALIGHT TRAVEL HAMMOCK": 1795540462.4924362,
-    "OPPO Enco Buds3 True Wireless Earbuds": 1795540647.657338
+    "OPPO Enco Buds3 True Wireless Earbuds": 1795540647.657338,
+    "Digital weight scale": 1795541946.5670767
   },
   "published_post_keys": [
-    "zedstoreonline:40000",
     "zedstoreonline:40001",
     "aniscoupons:34692",
     "zedstoreonline:40002",
@@ -5356,11 +5357,12 @@
     "aniscoupons:35576",
     "aniscoupons:35581",
     "aniscoupons:35583",
-    "aniscoupons:35585"
+    "aniscoupons:35585",
+    "zedstoreonline:40644"
   ],
   "last_disclaimer_time": 1794524540.9476151,
   "last_calendar_time": 1795177633.1203737,
-  "last_run_time": 1795540647.657338,
+  "last_run_time": 1795541946.5670767,
   "monitored_channels": {
     "ecksdeal": {
       "last_message_id": 6130,
@@ -5387,8 +5389,8 @@
       "last_check_time": 1793599663.3444748
     },
     "zedstoreonline": {
-      "last_message_id": 40642,
-      "last_check_time": 1795535126.5626585
+      "last_message_id": 40644,
+      "last_check_time": 1795541948.6614752
     },
     "aniscoupons": {
       "last_message_id": 35586,
@@ -6156,7 +6158,7 @@
     "1005012274502051": 20.9,
     "1005013603023857": 42.14,
     "1005009693337727": 113.1,
-    "1005013497504096": 3.2,
+    "1005013497504096": 3.5,
     "1005013482874428": 79.6,
     "1005013354356242": 11.8,
     "1005013117620640": 61.51,
@@ -32988,6 +32990,16 @@
       "price": 22.35,
       "timestamp": 1795540647.657338,
       "status": "ACTIVE"
+    },
+    "zedstoreonline:40644": {
+      "channel_msg_id": 3623,
+      "product_id": "1005013497504096",
+      "title": "Digital weight scale",
+      "channel": "zedstoreonline",
+      "source_msg_id": 40644,
+      "price": 3.5,
+      "timestamp": 1795541946.5670767,
+      "status": "ACTIVE"
     }
   },
   "schedule_config": {
@@ -32996,17 +33008,17 @@
     "current_interval_minutes": 5,
     "is_paused": false,
     "night_mode_enabled": true,
-    "last_deal_post_time": 1795540651.0748398,
+    "last_deal_post_time": 1795541950.6712034,
     "night_start_hour_dz": 0,
     "night_end_hour_dz": 8,
     "night_pause_enabled": true,
-    "last_sweep_time": 1795541760.1818345,
+    "last_sweep_time": 1795541953.820121,
     "last_sweep_times": {
-      "algeria": 1795541756.7769318,
-      "france": 1795541760.1818345
+      "algeria": 1795541950.631655,
+      "france": 1795541953.820121
     },
     "last_deal_post_times": {
-      "algeria": 1795540651.0748398
+      "algeria": 1795541950.6712034
     }
   },
   "last_coin_reminder_time": 1795433324.042843,
@@ -33885,7 +33897,7 @@
     "1005012274502051": "aniscoupons",
     "1005013603023857": "lodydeals",
     "1005009693337727": "lodydeals",
-    "1005013497504096": "aniscoupons",
+    "1005013497504096": "zedstoreonline",
     "1005013482874428": "aniscoupons",
     "1005013354356242": "zedstoreonline",
     "1005013117620640": "ecksdeal",
@@ -35191,7 +35203,8 @@
     "طابعة XL-P801 الحرارية المتنقلة: طباعة A4 فورية، قابلة لإعادة": "zedstoreonline",
     "TCL Alcatel 1023": "aniscoupons",
     "ULTRALIGHT TRAVEL HAMMOCK": "aniscoupons",
-    "OPPO Enco Buds3 True Wireless Earbuds": "aniscoupons"
+    "OPPO Enco Buds3 True Wireless Earbuds": "aniscoupons",
+    "Digital weight scale": "zedstoreonline"
   },
   "religious_reminders_history": {
     "mock_rem": "2026-10-02",
@@ -35989,7 +36002,6 @@
   "published_deals_history": {},
   "settings": {},
   "handled_post_keys": [
-    "aniscoupons:34757",
     "lodydeals:46445",
     "zedstoreonline:40047",
     "zedstoreonline:40048",
@@ -36988,7 +37000,8 @@
     "aniscoupons:35579",
     "aniscoupons:35580",
     "aniscoupons:35582",
-    "aniscoupons:35586"
+    "aniscoupons:35586",
+    "zedstoreonline:40643"
   ],
   "last_france_cross_promo_time": 1795501542.8708572,
   "next_france_cross_promo_interval_seconds": 208574,
@@ -38097,6 +38110,13 @@
         "channel": "aniscoupons",
         "ts": 1795541210.3263452,
         "price": 22.35
+      }
+    ],
+    "1005013497504096": [
+      {
+        "channel": "zedstoreonline",
+        "ts": 1795541943.6233346,
+        "price": 3.5
       }
     ]
   },
