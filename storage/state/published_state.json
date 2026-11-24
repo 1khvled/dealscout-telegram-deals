@@ -924,7 +924,8 @@
     "COUPONBULLETIN_zedstoreonline_40639",
     "1005008304362437",
     "1005006995294624",
-    "1005012899783721"
+    "1005012899783721",
+    "1005013423776757"
   ],
   "published_product_timestamps": {
     "1005012973772517": 1794500732.7845657,
@@ -1867,7 +1868,8 @@
     "COUPONBULLETIN_zedstoreonline_40639": 1795525562.3674622,
     "1005008304362437": 1795526475.8421245,
     "1005006995294624": 1795527391.8790212,
-    "1005012899783721": 1795536047.6290047
+    "1005012899783721": 1795536047.6290047,
+    "1005013423776757": 1795540462.4924362
   },
   "published_titles": [
     "Wireless WiFi Repeater 300Mbps WiFi Extender Amplifier Booster Router",
@@ -3104,7 +3106,8 @@
     "SomnAmbulist SSD 120Gb",
     "سماعات الاذن KZ EDX PRO X",
     "طابعة XL-P801 الحرارية المتنقلة: طباعة A4 فورية، قابلة لإعادة",
-    "TCL Alcatel 1023"
+    "TCL Alcatel 1023",
+    "ULTRALIGHT TRAVEL HAMMOCK"
   ],
   "published_title_timestamps": {
     "Xiaomi Redmi Note 17 5G Global Version": 1790857823.0117362,
@@ -4346,10 +4349,10 @@
     "SomnAmbulist SSD 120Gb": 1795524460.0087192,
     "سماعات الاذن KZ EDX PRO X": 1795527391.8790212,
     "طابعة XL-P801 الحرارية المتنقلة: طباعة A4 فورية، قابلة لإعادة": 1795535124.479775,
-    "TCL Alcatel 1023": 1795536047.6290047
+    "TCL Alcatel 1023": 1795536047.6290047,
+    "ULTRALIGHT TRAVEL HAMMOCK": 1795540462.4924362
   },
   "published_post_keys": [
-    "aniscoupons:34689",
     "aniscoupons:34690",
     "zedstoreonline:40000",
     "zedstoreonline:40001",
@@ -5348,11 +5351,12 @@
     "aniscoupons:35573",
     "zedstoreonline:40642",
     "aniscoupons:35576",
-    "aniscoupons:35581"
+    "aniscoupons:35581",
+    "aniscoupons:35583"
   ],
   "last_disclaimer_time": 1794524540.9476151,
   "last_calendar_time": 1795177633.1203737,
-  "last_run_time": 1795537887.5386431,
+  "last_run_time": 1795540462.4924362,
   "monitored_channels": {
     "ecksdeal": {
       "last_message_id": 6130,
@@ -5383,8 +5387,8 @@
       "last_check_time": 1795535126.5626585
     },
     "aniscoupons": {
-      "last_message_id": 35582,
-      "last_check_time": 1795539727.4054837
+      "last_message_id": 35583,
+      "last_check_time": 1795540464.6117973
     },
     "bnddeals": {
       "last_message_id": 51405,
@@ -6203,7 +6207,8 @@
     "1005007035077896": 8.4,
     "1005008304362437": 26.26,
     "1005006995294624": 12.87,
-    "1005012899783721": 5.85
+    "1005012899783721": 5.85,
+    "1005013423776757": 3.5
   },
   "channel_published_deals": {
     "aniscoupons:32590": {
@@ -32958,6 +32963,16 @@
       "price": 18.29,
       "timestamp": 1795537887.5386431,
       "status": "ACTIVE"
+    },
+    "aniscoupons:35583": {
+      "channel_msg_id": 3620,
+      "product_id": "1005013423776757",
+      "title": "ULTRALIGHT TRAVEL HAMMOCK",
+      "channel": "aniscoupons",
+      "source_msg_id": 35583,
+      "price": 3.5,
+      "timestamp": 1795540462.4924362,
+      "status": "ACTIVE"
     }
   },
   "schedule_config": {
@@ -32966,17 +32981,17 @@
     "current_interval_minutes": 5,
     "is_paused": false,
     "night_mode_enabled": true,
-    "last_deal_post_time": 1795537890.6597953,
+    "last_deal_post_time": 1795540465.8174224,
     "night_start_hour_dz": 0,
     "night_end_hour_dz": 8,
     "night_pause_enabled": true,
-    "last_sweep_time": 1795540275.0206144,
+    "last_sweep_time": 1795540468.4831913,
     "last_sweep_times": {
-      "algeria": 1795540272.4729435,
-      "france": 1795540275.0206144
+      "algeria": 1795540465.762887,
+      "france": 1795540468.4831913
     },
     "last_deal_post_times": {
-      "algeria": 1795537890.6597953
+      "algeria": 1795540465.8174224
     }
   },
   "last_coin_reminder_time": 1795433324.042843,
@@ -33914,7 +33929,8 @@
     "COUPONBULLETIN_zedstoreonline_40639": "zedstoreonline",
     "1005008304362437": "ecksdeal",
     "1005006995294624": "ecksdeal",
-    "1005012899783721": "aniscoupons"
+    "1005012899783721": "aniscoupons",
+    "1005013423776757": "aniscoupons"
   },
   "published_title_channels": {
     "Test Wrench Set": "test_channel",
@@ -35157,7 +35173,8 @@
     "SomnAmbulist SSD 120Gb": "aniscoupons",
     "سماعات الاذن KZ EDX PRO X": "ecksdeal",
     "طابعة XL-P801 الحرارية المتنقلة: طباعة A4 فورية، قابلة لإعادة": "zedstoreonline",
-    "TCL Alcatel 1023": "aniscoupons"
+    "TCL Alcatel 1023": "aniscoupons",
+    "ULTRALIGHT TRAVEL HAMMOCK": "aniscoupons"
   },
   "religious_reminders_history": {
     "mock_rem": "2026-10-02",
