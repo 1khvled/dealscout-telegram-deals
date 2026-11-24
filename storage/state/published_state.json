@@ -1380,7 +1380,7 @@
     "1005010384976635": 1793448786.1863484,
     "1005012341203600": 1793448820.6517296,
     "1005011825891016": 1794130143.129755,
-    "1005013277965369": 1793467031.5081036,
+    "1005013277965369": 1795543961.436148,
     "1005010749192036": 1793467039.5413008,
     "1005011851389082": 1793467058.6031225,
     "1005013104807077": 1793467066.6592104,
@@ -3394,7 +3394,7 @@
     "HOCO E91 Smart Airtag GPS Positioning Pet Anti-Lost": 1792017769.7299333,
     "Smart Body Fat Scale Accurate": 1792017774.247927,
     "ماوس ألعاب سلكي خفيف الوزن من GameSir GM500 مزود بمستشعر بصري يصل إلى 12000 DPI": 1792025644.3094199,
-    "Anker Nano 3 Pro 45W GaN + Cable": 1793467031.5081036,
+    "Anker Nano 3 Pro 45W GaN + Cable": 1795543961.436148,
     "محبوبة الجماهير controller🎮": 1792025664.1703467,
     "EasySMX X05 Pro Wireless Gamepad": 1795465795.9142118,
     "MACHENIKE G5Pro Max SE Gaming Controller": 1792032611.9670143,
@@ -4359,7 +4359,6 @@
     "Digital weight scale": 1795541946.5670767
   },
   "published_post_keys": [
-    "zedstoreonline:40003",
     "zedstoreonline:40004",
     "aniscoupons:34696",
     "zedstoreonline:40005",
@@ -5358,11 +5357,12 @@
     "zedstoreonline:40644",
     "aniscoupons:35589",
     "zedstoreonline:40645",
-    "zedstoreonline:40646"
+    "zedstoreonline:40646",
+    "zedstoreonline:40647"
   ],
   "last_disclaimer_time": 1794524540.9476151,
   "last_calendar_time": 1795177633.1203737,
-  "last_run_time": 1795543786.6993494,
+  "last_run_time": 1795543961.436148,
   "monitored_channels": {
     "ecksdeal": {
       "last_message_id": 6130,
@@ -5389,8 +5389,8 @@
       "last_check_time": 1793599663.3444748
     },
     "zedstoreonline": {
-      "last_message_id": 40646,
-      "last_check_time": 1795543788.800828
+      "last_message_id": 40647,
+      "last_check_time": 1795543963.5104315
     },
     "aniscoupons": {
       "last_message_id": 35590,
@@ -5765,7 +5765,7 @@
     "1005010384976635": 30.55,
     "1005012341203600": 478.0,
     "1005011825891016": 414.57,
-    "1005013277965369": 23.4,
+    "1005013277965369": 23.7,
     "1005010749192036": 263.6,
     "1005011851389082": 361.0,
     "1005013104807077": 397.0,
@@ -33030,6 +33030,16 @@
       "price": 21.4,
       "timestamp": 1795543786.6993494,
       "status": "ACTIVE"
+    },
+    "zedstoreonline:40647": {
+      "channel_msg_id": 3627,
+      "product_id": "1005013277965369",
+      "title": "Anker Nano 3 Pro 45W GaN + Cable",
+      "channel": "zedstoreonline",
+      "source_msg_id": 40647,
+      "price": 23.7,
+      "timestamp": 1795543961.436148,
+      "status": "ACTIVE"
     }
   },
   "schedule_config": {
@@ -33038,17 +33048,17 @@
     "current_interval_minutes": 5,
     "is_paused": false,
     "night_mode_enabled": true,
-    "last_deal_post_time": 1795543790.7902763,
+    "last_deal_post_time": 1795543965.1786988,
     "night_start_hour_dz": 0,
     "night_end_hour_dz": 8,
     "night_pause_enabled": true,
-    "last_sweep_time": 1795543793.8819804,
+    "last_sweep_time": 1795543967.613262,
     "last_sweep_times": {
-      "algeria": 1795543790.7458713,
-      "france": 1795543793.8819804
+      "algeria": 1795543965.1450284,
+      "france": 1795543967.613262
     },
     "last_deal_post_times": {
-      "algeria": 1795543790.7902763
+      "algeria": 1795543965.1786988
     }
   },
   "last_coin_reminder_time": 1795433324.042843,
@@ -38178,6 +38188,13 @@
         "channel": "zedstoreonline",
         "ts": 1795543784.160922,
         "price": 21.4
+      }
+    ],
+    "1005013277965369": [
+      {
+        "channel": "zedstoreonline",
+        "ts": 1795543955.8581712,
+        "price": 23.7
       }
     ]
   },
