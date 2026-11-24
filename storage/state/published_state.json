@@ -931,7 +931,8 @@
     "33061115247",
     "1005012374298987",
     "1005013583987856",
-    "1005013621783525"
+    "1005013621783525",
+    "1005010637751071"
   ],
   "published_product_timestamps": {
     "1005012973772517": 1794500732.7845657,
@@ -1881,7 +1882,8 @@
     "33061115247": 1795547454.3449724,
     "1005012374298987": 1795548384.7413478,
     "1005013583987856": 1795548942.786371,
-    "1005013621783525": 1795549308.9617314
+    "1005013621783525": 1795549308.9617314,
+    "1005010637751071": 1795553355.383983
   },
   "published_titles": [
     "Wireless WiFi Repeater 300Mbps WiFi Extender Amplifier Booster Router",
@@ -3126,7 +3128,8 @@
     "SoundPEATS Space Hybrid ANC",
     "Velec Tv Box 4/32GB",
     "HONOR Watch X5 Play",
-    "HONOR CHOICE Watch 6i"
+    "HONOR CHOICE Watch 6i",
+    "Godox C01 Kit 2 Microphone Lavalier"
   ],
   "published_title_timestamps": {
     "Xiaomi Redmi Note 17 5G Global Version": 1790857823.0117362,
@@ -4376,10 +4379,10 @@
     "SoundPEATS Space Hybrid ANC": 1795547826.6655538,
     "Velec Tv Box 4/32GB": 1795548384.7413478,
     "HONOR Watch X5 Play": 1795548942.786371,
-    "HONOR CHOICE Watch 6i": 1795549308.9617314
+    "HONOR CHOICE Watch 6i": 1795549308.9617314,
+    "Godox C01 Kit 2 Microphone Lavalier": 1795553355.383983
   },
   "published_post_keys": [
-    "lodydeals:46414",
     "lodydeals:46415",
     "zedstoreonline:40013",
     "lodydeals:46417",
@@ -5378,11 +5381,12 @@
     "aniscoupons:35596",
     "aniscoupons:35597",
     "aniscoupons:35599",
-    "zedstoreonline:40653"
+    "zedstoreonline:40653",
+    "zedstoreonline:40654"
   ],
   "last_disclaimer_time": 1794524540.9476151,
   "last_calendar_time": 1795177633.1203737,
-  "last_run_time": 1795552248.6887472,
+  "last_run_time": 1795553355.383983,
   "monitored_channels": {
     "ecksdeal": {
       "last_message_id": 6130,
@@ -5409,8 +5413,8 @@
       "last_check_time": 1793599663.3444748
     },
     "zedstoreonline": {
-      "last_message_id": 40653,
-      "last_check_time": 1795552250.790624
+      "last_message_id": 40654,
+      "last_check_time": 1795553357.5010974
     },
     "aniscoupons": {
       "last_message_id": 35600,
@@ -6240,7 +6244,8 @@
     "33061115247": 10.09,
     "1005012374298987": 26.6,
     "1005013583987856": 22.59,
-    "1005013621783525": 29.9
+    "1005013621783525": 29.9,
+    "1005010637751071": 25.3
   },
   "channel_published_deals": {
     "aniscoupons:32590": {
@@ -33215,6 +33220,16 @@
       "price": 138.0,
       "timestamp": 1795552248.6887472,
       "status": "ACTIVE"
+    },
+    "zedstoreonline:40654": {
+      "channel_msg_id": 3643,
+      "product_id": "1005010637751071",
+      "title": "Godox C01 Kit 2 Microphone Lavalier",
+      "channel": "zedstoreonline",
+      "source_msg_id": 40654,
+      "price": 25.3,
+      "timestamp": 1795553355.383983,
+      "status": "ACTIVE"
     }
   },
   "schedule_config": {
@@ -33223,17 +33238,17 @@
     "current_interval_minutes": 5,
     "is_paused": false,
     "night_mode_enabled": true,
-    "last_deal_post_time": 1795552252.5152287,
+    "last_deal_post_time": 1795553359.4388962,
     "night_start_hour_dz": 0,
     "night_end_hour_dz": 8,
     "night_pause_enabled": true,
-    "last_sweep_time": 1795553163.0094907,
+    "last_sweep_time": 1795553361.9792,
     "last_sweep_times": {
-      "algeria": 1795553160.6070068,
-      "france": 1795553163.0094907
+      "algeria": 1795553359.3877,
+      "france": 1795553361.9792
     },
     "last_deal_post_times": {
-      "algeria": 1795552252.5152287
+      "algeria": 1795553359.4388962
     }
   },
   "last_coin_reminder_time": 1795433324.042843,
@@ -34178,7 +34193,8 @@
     "33061115247": "lodydeals",
     "1005012374298987": "zedstoreonline",
     "1005013583987856": "aniscoupons",
-    "1005013621783525": "aniscoupons"
+    "1005013621783525": "aniscoupons",
+    "1005010637751071": "zedstoreonline"
   },
   "published_title_channels": {
     "Test Wrench Set": "test_channel",
@@ -35429,7 +35445,8 @@
     "SoundPEATS Space Hybrid ANC": "lodydeals",
     "Velec Tv Box 4/32GB": "zedstoreonline",
     "HONOR Watch X5 Play": "aniscoupons",
-    "HONOR CHOICE Watch 6i": "aniscoupons"
+    "HONOR CHOICE Watch 6i": "aniscoupons",
+    "Godox C01 Kit 2 Microphone Lavalier": "zedstoreonline"
   },
   "religious_reminders_history": {
     "mock_rem": "2026-10-02",
