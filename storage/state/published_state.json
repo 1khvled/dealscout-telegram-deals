@@ -927,7 +927,8 @@
     "1005012899783721",
     "1005013423776757",
     "1005012383444183",
-    "1005013519635614"
+    "1005013519635614",
+    "33061115247"
   ],
   "published_product_timestamps": {
     "1005012973772517": 1794500732.7845657,
@@ -1873,7 +1874,8 @@
     "1005012899783721": 1795536047.6290047,
     "1005013423776757": 1795540462.4924362,
     "1005012383444183": 1795540647.657338,
-    "1005013519635614": 1795546736.9831076
+    "1005013519635614": 1795546736.9831076,
+    "33061115247": 1795547454.3449724
   },
   "published_titles": [
     "Wireless WiFi Repeater 300Mbps WiFi Extender Amplifier Booster Router",
@@ -3113,7 +3115,8 @@
     "TCL Alcatel 1023",
     "ULTRALIGHT TRAVEL HAMMOCK",
     "OPPO Enco Buds3 True Wireless Earbuds",
-    "Digital weight scale"
+    "Digital weight scale",
+    "Lefon F35 Wireless Mouse Vertical"
   ],
   "published_title_timestamps": {
     "Xiaomi Redmi Note 17 5G Global Version": 1790857823.0117362,
@@ -4358,10 +4361,10 @@
     "TCL Alcatel 1023": 1795536047.6290047,
     "ULTRALIGHT TRAVEL HAMMOCK": 1795540462.4924362,
     "OPPO Enco Buds3 True Wireless Earbuds": 1795540647.657338,
-    "Digital weight scale": 1795546908.1570234
+    "Digital weight scale": 1795546908.1570234,
+    "Lefon F35 Wireless Mouse Vertical": 1795547454.3449724
   },
   "published_post_keys": [
-    "ecksdeal:6057",
     "aniscoupons:34702",
     "aniscoupons:34704",
     "aniscoupons:34705",
@@ -5360,19 +5363,20 @@
     "lodydeals:46848",
     "lodydeals:46849",
     "aniscoupons:35591",
-    "zedstoreonline:40649"
+    "zedstoreonline:40649",
+    "lodydeals:46852"
   ],
   "last_disclaimer_time": 1794524540.9476151,
   "last_calendar_time": 1795177633.1203737,
-  "last_run_time": 1795546908.1570234,
+  "last_run_time": 1795547454.3449724,
   "monitored_channels": {
     "ecksdeal": {
       "last_message_id": 6130,
       "last_check_time": 1795527393.9958658
     },
     "lodydeals": {
-      "last_message_id": 46851,
-      "last_check_time": 1795547268.9485478
+      "last_message_id": 46852,
+      "last_check_time": 1795547456.4254143
     },
     "test_channel": {
       "last_message_id": 1793967703,
@@ -6218,7 +6222,8 @@
     "1005012899783721": 5.85,
     "1005013423776757": 3.5,
     "1005012383444183": 22.35,
-    "1005013519635614": 273.26
+    "1005013519635614": 273.26,
+    "33061115247": 10.09
   },
   "channel_published_deals": {
     "aniscoupons:32590": {
@@ -33093,6 +33098,16 @@
       "price": 3.5,
       "timestamp": 1795546908.1570234,
       "status": "ACTIVE"
+    },
+    "lodydeals:46852": {
+      "channel_msg_id": 3633,
+      "product_id": "33061115247",
+      "title": "Lefon F35 Wireless Mouse Vertical",
+      "channel": "lodydeals",
+      "source_msg_id": 46852,
+      "price": 10.09,
+      "timestamp": 1795547454.3449724,
+      "status": "ACTIVE"
     }
   },
   "schedule_config": {
@@ -33101,17 +33116,17 @@
     "current_interval_minutes": 5,
     "is_paused": false,
     "night_mode_enabled": true,
-    "last_deal_post_time": 1795546912.5496137,
+    "last_deal_post_time": 1795547458.9485483,
     "night_start_hour_dz": 0,
     "night_end_hour_dz": 8,
     "night_pause_enabled": true,
-    "last_sweep_time": 1795547274.557163,
+    "last_sweep_time": 1795547461.641674,
     "last_sweep_times": {
-      "algeria": 1795547271.9124954,
-      "france": 1795547274.557163
+      "algeria": 1795547458.912878,
+      "france": 1795547461.641674
     },
     "last_deal_post_times": {
-      "algeria": 1795546912.5496137
+      "algeria": 1795547458.9485483
     }
   },
   "last_coin_reminder_time": 1795433324.042843,
@@ -34052,7 +34067,8 @@
     "1005012899783721": "aniscoupons",
     "1005013423776757": "aniscoupons",
     "1005012383444183": "aniscoupons",
-    "1005013519635614": "aniscoupons"
+    "1005013519635614": "aniscoupons",
+    "33061115247": "lodydeals"
   },
   "published_title_channels": {
     "Test Wrench Set": "test_channel",
@@ -35298,7 +35314,8 @@
     "TCL Alcatel 1023": "aniscoupons",
     "ULTRALIGHT TRAVEL HAMMOCK": "aniscoupons",
     "OPPO Enco Buds3 True Wireless Earbuds": "aniscoupons",
-    "Digital weight scale": "zedstoreonline"
+    "Digital weight scale": "zedstoreonline",
+    "Lefon F35 Wireless Mouse Vertical": "lodydeals"
   },
   "religious_reminders_history": {
     "mock_rem": "2026-10-02",
