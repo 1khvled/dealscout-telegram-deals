@@ -1809,7 +1809,7 @@
     "1005012274502051": 1795341889.4915757,
     "1005013603023857": 1795290161.6076646,
     "1005009693337727": 1795344822.4527907,
-    "1005013497504096": 1795541946.5670767,
+    "1005013497504096": 1795546908.1570234,
     "1005013482874428": 1795521313.381524,
     "1005013354356242": 1795182504.6024845,
     "1005013117620640": 1795183540.495267,
@@ -4358,10 +4358,9 @@
     "TCL Alcatel 1023": 1795536047.6290047,
     "ULTRALIGHT TRAVEL HAMMOCK": 1795540462.4924362,
     "OPPO Enco Buds3 True Wireless Earbuds": 1795540647.657338,
-    "Digital weight scale": 1795541946.5670767
+    "Digital weight scale": 1795546908.1570234
   },
   "published_post_keys": [
-    "zedstoreonline:40009",
     "ecksdeal:6057",
     "aniscoupons:34702",
     "aniscoupons:34704",
@@ -5360,19 +5359,20 @@
     "lodydeals:46847",
     "lodydeals:46848",
     "lodydeals:46849",
-    "aniscoupons:35591"
+    "aniscoupons:35591",
+    "zedstoreonline:40649"
   ],
   "last_disclaimer_time": 1794524540.9476151,
   "last_calendar_time": 1795177633.1203737,
-  "last_run_time": 1795546736.9831076,
+  "last_run_time": 1795546908.1570234,
   "monitored_channels": {
     "ecksdeal": {
       "last_message_id": 6130,
       "last_check_time": 1795527393.9958658
     },
     "lodydeals": {
-      "last_message_id": 46849,
-      "last_check_time": 1795546727.3823738
+      "last_message_id": 46850,
+      "last_check_time": 1795546902.3233416
     },
     "test_channel": {
       "last_message_id": 1793967703,
@@ -5391,8 +5391,8 @@
       "last_check_time": 1793599663.3444748
     },
     "zedstoreonline": {
-      "last_message_id": 40648,
-      "last_check_time": 1795546366.54503
+      "last_message_id": 40649,
+      "last_check_time": 1795546910.3318434
     },
     "aniscoupons": {
       "last_message_id": 35591,
@@ -33083,6 +33083,16 @@
       "price": 273.26,
       "timestamp": 1795546736.9831076,
       "status": "ACTIVE"
+    },
+    "zedstoreonline:40649": {
+      "channel_msg_id": 3632,
+      "product_id": "1005013497504096",
+      "title": "Digital weight scale",
+      "channel": "zedstoreonline",
+      "source_msg_id": 40649,
+      "price": 3.5,
+      "timestamp": 1795546908.1570234,
+      "status": "ACTIVE"
     }
   },
   "schedule_config": {
@@ -33091,17 +33101,17 @@
     "current_interval_minutes": 5,
     "is_paused": false,
     "night_mode_enabled": true,
-    "last_deal_post_time": 1795546740.2170074,
+    "last_deal_post_time": 1795546912.5496137,
     "night_start_hour_dz": 0,
     "night_end_hour_dz": 8,
     "night_pause_enabled": true,
-    "last_sweep_time": 1795546743.3094182,
+    "last_sweep_time": 1795546915.6684692,
     "last_sweep_times": {
-      "algeria": 1795546740.17447,
-      "france": 1795546743.3094182
+      "algeria": 1795546912.4964583,
+      "france": 1795546915.6684692
     },
     "last_deal_post_times": {
-      "algeria": 1795546740.2170074
+      "algeria": 1795546912.5496137
     }
   },
   "last_coin_reminder_time": 1795433324.042843,
@@ -36086,7 +36096,6 @@
   "published_deals_history": {},
   "settings": {},
   "handled_post_keys": [
-    "lodydeals:46446",
     "lodydeals:46447",
     "lodydeals:46449",
     "lodydeals:46450",
@@ -37085,7 +37094,8 @@
     "zedstoreonline:40643",
     "aniscoupons:35590",
     "bnddeals:51406",
-    "zedstoreonline:40648"
+    "zedstoreonline:40648",
+    "lodydeals:46850"
   ],
   "last_france_cross_promo_time": 1795501542.8708572,
   "next_france_cross_promo_interval_seconds": 208574,
@@ -38216,6 +38226,16 @@
         "channel": "aniscoupons",
         "ts": 1795542671.8887277,
         "price": 3.5
+      },
+      {
+        "channel": "lodydeals",
+        "ts": 1795546902.126514,
+        "price": 3.29
+      },
+      {
+        "channel": "zedstoreonline",
+        "ts": 1795546905.5658627,
+        "price": 3.5
       }
     ],
     "1005011774259648": [
@@ -38261,6 +38281,7 @@
     "1005010210432531": 1795082866.566105,
     "1005010538481521": 1795088201.6241915,
     "32847542727": 1795274576.3657165,
-    "1005013572273568": 1795476464.0167599
+    "1005013572273568": 1795476464.0167599,
+    "1005013497504096": 1795546908.2110746
   }
 }
