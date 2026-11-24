@@ -926,7 +926,8 @@
     "1005006995294624",
     "1005012899783721",
     "1005013423776757",
-    "1005012383444183"
+    "1005012383444183",
+    "1005013519635614"
   ],
   "published_product_timestamps": {
     "1005012973772517": 1794500732.7845657,
@@ -1143,7 +1144,7 @@
     "1005007345151855": 1791942667.867043,
     "1005010345227483": 1793299548.5548651,
     "1005011557896041": 1794845264.512838,
-    "1005011754993234": 1795522625.8887634,
+    "1005011754993234": 1795546725.2743013,
     "1005011735727412": 1791943783.9162278,
     "1005007916078341": 1795521764.6197999,
     "1005006506862816": 1791947519.5815504,
@@ -1871,7 +1872,8 @@
     "1005006995294624": 1795527391.8790212,
     "1005012899783721": 1795536047.6290047,
     "1005013423776757": 1795540462.4924362,
-    "1005012383444183": 1795540647.657338
+    "1005012383444183": 1795540647.657338,
+    "1005013519635614": 1795546736.9831076
   },
   "published_titles": [
     "Wireless WiFi Repeater 300Mbps WiFi Extender Amplifier Booster Router",
@@ -3144,7 +3146,7 @@
     "Attack Shark x AJAZZ AJ159P Gaming Mouse With Magnetic Charging Dock, PAW3395 Sensor": 1790888886.4062796,
     "OPPO A6 Pro 8/256": 1794299257.6397457,
     "realme P3 5G 8/256": 1793613419.7534997,
-    "OnePlus Turbo 6X Pro 5G": 1794499077.363209,
+    "OnePlus Turbo 6X Pro 5G": 1795546736.9831076,
     "Xiaomi Pad 7  12/256GB": 1790897106.449474,
     "ATTACK SHARK L90 Flodable Gaming Headset": 1791104165.8542082,
     "SomnAmbulist SSD  120GB": 1791104047.0967803,
@@ -3367,7 +3369,7 @@
     "لووووووووووووز controller 🎮": 1791942667.867043,
     "جديد علامة ©️©️©️©️🆕": 1791942676.1983886,
     "AMD Ryzen 7 7800X3D": 1794845264.512838,
-    "AMD Ryzen 5 8400F": 1795522625.8887634,
+    "AMD Ryzen 5 8400F": 1795546725.2743013,
     "Disco Duro SSD CUSU 1TB 512GB 240GB 480GB SATA 2.5'' SATA3 Disco SSD 128GB": 1791943777.8506553,
     "🔝 مانات قووووة ل جماعة mobile gaming 🎮": 1792017738.3981204,
     "Honor Choice Infowear Watch 2i Smartwatch AMOLED": 1791943825.002781,
@@ -4359,8 +4361,6 @@
     "Digital weight scale": 1795541946.5670767
   },
   "published_post_keys": [
-    "zedstoreonline:40005",
-    "aniscoupons:34699",
     "zedstoreonline:40009",
     "ecksdeal:6057",
     "aniscoupons:34702",
@@ -5358,19 +5358,21 @@
     "zedstoreonline:40646",
     "zedstoreonline:40647",
     "lodydeals:46847",
-    "lodydeals:46848"
+    "lodydeals:46848",
+    "lodydeals:46849",
+    "aniscoupons:35591"
   ],
   "last_disclaimer_time": 1794524540.9476151,
   "last_calendar_time": 1795177633.1203737,
-  "last_run_time": 1795546171.2788475,
+  "last_run_time": 1795546736.9831076,
   "monitored_channels": {
     "ecksdeal": {
       "last_message_id": 6130,
       "last_check_time": 1795527393.9958658
     },
     "lodydeals": {
-      "last_message_id": 46848,
-      "last_check_time": 1795546173.3816934
+      "last_message_id": 46849,
+      "last_check_time": 1795546727.3823738
     },
     "test_channel": {
       "last_message_id": 1793967703,
@@ -5393,8 +5395,8 @@
       "last_check_time": 1795546366.54503
     },
     "aniscoupons": {
-      "last_message_id": 35590,
-      "last_check_time": 1795542672.0848913
+      "last_message_id": 35591,
+      "last_check_time": 1795546739.098173
     },
     "bnddeals": {
       "last_message_id": 51406,
@@ -6215,7 +6217,8 @@
     "1005006995294624": 12.87,
     "1005012899783721": 5.85,
     "1005013423776757": 3.5,
-    "1005012383444183": 22.35
+    "1005012383444183": 22.35,
+    "1005013519635614": 273.26
   },
   "channel_published_deals": {
     "aniscoupons:32590": {
@@ -33060,6 +33063,26 @@
       "price": 29.6,
       "timestamp": 1795546171.2788475,
       "status": "ACTIVE"
+    },
+    "lodydeals:46849": {
+      "channel_msg_id": 3630,
+      "product_id": "1005011754993234",
+      "title": "AMD Ryzen 5 8400F",
+      "channel": "lodydeals",
+      "source_msg_id": 46849,
+      "price": 82.5,
+      "timestamp": 1795546725.2743013,
+      "status": "ACTIVE"
+    },
+    "aniscoupons:35591": {
+      "channel_msg_id": 3631,
+      "product_id": "1005013519635614",
+      "title": "OnePlus Turbo 6X Pro 5G",
+      "channel": "aniscoupons",
+      "source_msg_id": 35591,
+      "price": 273.26,
+      "timestamp": 1795546736.9831076,
+      "status": "ACTIVE"
     }
   },
   "schedule_config": {
@@ -33068,17 +33091,17 @@
     "current_interval_minutes": 5,
     "is_paused": false,
     "night_mode_enabled": true,
-    "last_deal_post_time": 1795546176.2749019,
+    "last_deal_post_time": 1795546740.2170074,
     "night_start_hour_dz": 0,
     "night_end_hour_dz": 8,
     "night_pause_enabled": true,
-    "last_sweep_time": 1795546545.2586186,
+    "last_sweep_time": 1795546743.3094182,
     "last_sweep_times": {
-      "algeria": 1795546541.8958,
-      "france": 1795546545.2586186
+      "algeria": 1795546740.17447,
+      "france": 1795546743.3094182
     },
     "last_deal_post_times": {
-      "algeria": 1795546176.2749019
+      "algeria": 1795546740.2170074
     }
   },
   "last_coin_reminder_time": 1795433324.042843,
@@ -33305,7 +33328,7 @@
     "1005007345151855": "bnddeals",
     "1005010345227483": "megaphonna",
     "1005011557896041": "zedstoreonline",
-    "1005011754993234": "zedstoreonline",
+    "1005011754993234": "lodydeals",
     "1005011735727412": "bnddeals",
     "1005013039644752": "aniscoupons",
     "1005007916078341": "aniscoupons",
@@ -34018,7 +34041,8 @@
     "1005006995294624": "ecksdeal",
     "1005012899783721": "aniscoupons",
     "1005013423776757": "aniscoupons",
-    "1005012383444183": "aniscoupons"
+    "1005012383444183": "aniscoupons",
+    "1005013519635614": "aniscoupons"
   },
   "published_title_channels": {
     "Test Wrench Set": "test_channel",
@@ -34274,7 +34298,7 @@
     "ATTACK SHARK X11SE Wireless Gaming Mouse PixArt PAW3311": "pcgamingpart",
     "لووووووووووووز controller 🎮": "bnddeals",
     "جديد علامة ©️©️©️©️🆕": "megaphonna",
-    "AMD Ryzen 5 8400F": "zedstoreonline",
+    "AMD Ryzen 5 8400F": "lodydeals",
     "Disco Duro SSD CUSU 1TB 512GB 240GB 480GB SATA 2.5'' SATA3 Disco SSD 128GB": "pcgamingpart",
     "🔝 مانات قووووة ل جماعة mobile gaming 🎮": "bnddeals",
     "جديد ال ©️©️ ببطارية عملاقة💪💪": "megaphonna",
@@ -38088,6 +38112,11 @@
       {
         "channel": "zedstoreonline",
         "ts": 1795522623.295904,
+        "price": 82.5
+      },
+      {
+        "channel": "lodydeals",
+        "ts": 1795546722.6389284,
         "price": 82.5
       }
     ],
