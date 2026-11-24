@@ -1744,7 +1744,7 @@
     "1005010706574985": 1794731908.1908314,
     "1005006904640542": 1794672105.0502174,
     "1005010155229810": 1794672468.775835,
-    "1005011774259648": 1794732676.4991515,
+    "1005011774259648": 1795542119.429888,
     "1005012479648570": 1794672652.7192543,
     "1005006727799127": 1794673385.4725633,
     "1005006882359473": 1794673572.3773744,
@@ -4166,7 +4166,7 @@
     "Baseus Bass EP10 NC": 1794731908.1908314,
     "Kemei KM-679 Professional Hair Trimmer Electric Hair Clipper": 1794672105.0502174,
     "Kemei KM-6630 6631 6632 trimmer": 1794672468.775835,
-    "MCHOSE G3 V2 Wireless Gaming Mouse": 1794732676.4991515,
+    "MCHOSE G3 V2 Wireless Gaming Mouse": 1795542119.429888,
     "مجموعة ENCHEN Beardo 3 للعناية الشخصية": 1794672652.7192543,
     "ريموت MX3 لاسلكي 2.4GHz مع ماوس هوائي ولوحة مفاتيح صغيرة": 1794673385.4725633,
     "CHENXI Automatic Mechanical Watch": 1794673572.3773744,
@@ -4359,7 +4359,6 @@
     "Digital weight scale": 1795541946.5670767
   },
   "published_post_keys": [
-    "zedstoreonline:40001",
     "aniscoupons:34692",
     "zedstoreonline:40002",
     "zedstoreonline:40003",
@@ -5358,11 +5357,12 @@
     "aniscoupons:35581",
     "aniscoupons:35583",
     "aniscoupons:35585",
-    "zedstoreonline:40644"
+    "zedstoreonline:40644",
+    "aniscoupons:35589"
   ],
   "last_disclaimer_time": 1794524540.9476151,
   "last_calendar_time": 1795177633.1203737,
-  "last_run_time": 1795541946.5670767,
+  "last_run_time": 1795542119.429888,
   "monitored_channels": {
     "ecksdeal": {
       "last_message_id": 6130,
@@ -5393,8 +5393,8 @@
       "last_check_time": 1795541948.6614752
     },
     "aniscoupons": {
-      "last_message_id": 35586,
-      "last_check_time": 1795541210.4584825
+      "last_message_id": 35589,
+      "last_check_time": 1795542121.5456145
     },
     "bnddeals": {
       "last_message_id": 51405,
@@ -33000,6 +33000,16 @@
       "price": 3.5,
       "timestamp": 1795541946.5670767,
       "status": "ACTIVE"
+    },
+    "aniscoupons:35589": {
+      "channel_msg_id": 3624,
+      "product_id": "1005011774259648",
+      "title": "MCHOSE G3 V2 Wireless Gaming Mouse",
+      "channel": "aniscoupons",
+      "source_msg_id": 35589,
+      "price": 18.88,
+      "timestamp": 1795542119.429888,
+      "status": "ACTIVE"
     }
   },
   "schedule_config": {
@@ -33008,17 +33018,17 @@
     "current_interval_minutes": 5,
     "is_paused": false,
     "night_mode_enabled": true,
-    "last_deal_post_time": 1795541950.6712034,
+    "last_deal_post_time": 1795542122.6993525,
     "night_start_hour_dz": 0,
     "night_end_hour_dz": 8,
     "night_pause_enabled": true,
-    "last_sweep_time": 1795541953.820121,
+    "last_sweep_time": 1795542125.2204216,
     "last_sweep_times": {
-      "algeria": 1795541950.631655,
-      "france": 1795541953.820121
+      "algeria": 1795542122.6468816,
+      "france": 1795542125.2204216
     },
     "last_deal_post_times": {
-      "algeria": 1795541950.6712034
+      "algeria": 1795542122.6993525
     }
   },
   "last_coin_reminder_time": 1795433324.042843,
@@ -38117,6 +38127,13 @@
         "channel": "zedstoreonline",
         "ts": 1795541943.6233346,
         "price": 3.5
+      }
+    ],
+    "1005011774259648": [
+      {
+        "channel": "aniscoupons",
+        "ts": 1795542117.0254173,
+        "price": 18.88
       }
     ]
   },
