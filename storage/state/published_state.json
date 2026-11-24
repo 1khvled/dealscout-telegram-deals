@@ -1769,7 +1769,7 @@
     "1005010376374580": 1794935234.6883996,
     "1005010239860751": 1794689616.7178488,
     "1005009278862695": 1795535124.479775,
-    "1005013005786079": 1795537887.5386431,
+    "1005013005786079": 1795555387.9747143,
     "1005008627811107": 1794694594.377669,
     "1005012892577195": 1794732862.0085351,
     "1005012594430190": 1794741945.3108501,
@@ -3129,7 +3129,8 @@
     "Velec Tv Box 4/32GB",
     "HONOR Watch X5 Play",
     "HONOR CHOICE Watch 6i",
-    "Godox C01 Kit 2 Microphone Lavalier"
+    "Godox C01 Kit 2 Microphone Lavalier",
+    "CMF Buds Neo 12.4 mm Titanium‑coated Driver"
   ],
   "published_title_timestamps": {
     "Xiaomi Redmi Note 17 5G Global Version": 1790857823.0117362,
@@ -4380,10 +4381,10 @@
     "Velec Tv Box 4/32GB": 1795548384.7413478,
     "HONOR Watch X5 Play": 1795548942.786371,
     "HONOR CHOICE Watch 6i": 1795553721.2698648,
-    "Godox C01 Kit 2 Microphone Lavalier": 1795553355.383983
+    "Godox C01 Kit 2 Microphone Lavalier": 1795553355.383983,
+    "CMF Buds Neo 12.4 mm Titanium‑coated Driver": 1795555387.9747143
   },
   "published_post_keys": [
-    "aniscoupons:34711",
     "lodydeals:46419",
     "aniscoupons:34712",
     "aniscoupons:34713",
@@ -5382,11 +5383,12 @@
     "zedstoreonline:40654",
     "aniscoupons:35601",
     "aniscoupons:35602",
-    "zedstoreonline:40655"
+    "zedstoreonline:40655",
+    "zedstoreonline:40656"
   ],
   "last_disclaimer_time": 1794524540.9476151,
   "last_calendar_time": 1795177633.1203737,
-  "last_run_time": 1795554457.4988177,
+  "last_run_time": 1795555387.9747143,
   "monitored_channels": {
     "ecksdeal": {
       "last_message_id": 6130,
@@ -5413,8 +5415,8 @@
       "last_check_time": 1793599663.3444748
     },
     "zedstoreonline": {
-      "last_message_id": 40655,
-      "last_check_time": 1795554459.619061
+      "last_message_id": 40656,
+      "last_check_time": 1795555390.0944989
     },
     "aniscoupons": {
       "last_message_id": 35602,
@@ -6139,7 +6141,7 @@
     "1005010376374580": 20.4,
     "1005010239860751": 4.8,
     "1005009278862695": 32.9,
-    "1005013005786079": 18.29,
+    "1005013005786079": 18.2,
     "1005008627811107": 10.5,
     "1005012892577195": 16.27,
     "1005012594430190": 5.89,
@@ -33260,6 +33262,16 @@
       "price": 37.5,
       "timestamp": 1795554457.4988177,
       "status": "ACTIVE"
+    },
+    "zedstoreonline:40656": {
+      "channel_msg_id": 3647,
+      "product_id": "1005013005786079",
+      "title": "CMF Buds Neo 12.4 mm Titanium‑coated Driver",
+      "channel": "zedstoreonline",
+      "source_msg_id": 40656,
+      "price": 18.2,
+      "timestamp": 1795555387.9747143,
+      "status": "ACTIVE"
     }
   },
   "schedule_config": {
@@ -33268,17 +33280,17 @@
     "current_interval_minutes": 5,
     "is_paused": false,
     "night_mode_enabled": true,
-    "last_deal_post_time": 1795554461.6438832,
+    "last_deal_post_time": 1795555392.05105,
     "night_start_hour_dz": 0,
     "night_end_hour_dz": 8,
     "night_pause_enabled": true,
-    "last_sweep_time": 1795555204.5289764,
+    "last_sweep_time": 1795555394.5802255,
     "last_sweep_times": {
-      "algeria": 1795555201.9707208,
-      "france": 1795555204.5289764
+      "algeria": 1795555391.9985187,
+      "france": 1795555394.5802255
     },
     "last_deal_post_times": {
-      "algeria": 1795554461.6438832
+      "algeria": 1795555392.05105
     }
   },
   "last_coin_reminder_time": 1795433324.042843,
@@ -34113,7 +34125,7 @@
     "1005010376374580": "zedstoreonline",
     "1005010239860751": "zedstoreonline",
     "1005009278862695": "zedstoreonline",
-    "1005013005786079": "aniscoupons",
+    "1005013005786079": "zedstoreonline",
     "1005008627811107": "ecksdeal",
     "1005012892577195": "lodydeals",
     "1005012594430190": "lodydeals",
@@ -35476,7 +35488,8 @@
     "Velec Tv Box 4/32GB": "zedstoreonline",
     "HONOR Watch X5 Play": "aniscoupons",
     "HONOR CHOICE Watch 6i": "aniscoupons",
-    "Godox C01 Kit 2 Microphone Lavalier": "zedstoreonline"
+    "Godox C01 Kit 2 Microphone Lavalier": "zedstoreonline",
+    "CMF Buds Neo 12.4 mm Titanium‑coated Driver": "zedstoreonline"
   },
   "religious_reminders_history": {
     "mock_rem": "2026-10-02",
@@ -38067,6 +38080,11 @@
         "channel": "aniscoupons",
         "ts": 1795537884.8476124,
         "price": 18.29
+      },
+      {
+        "channel": "zedstoreonline",
+        "ts": 1795555385.859633,
+        "price": 18.2
       }
     ],
     "1005009120961416": [
