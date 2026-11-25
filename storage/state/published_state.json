@@ -938,7 +938,8 @@
     "1005008660082872",
     "1005006994616533",
     "TAJMI3AT_aniscoupons_35628",
-    "TAJMI3AT_aniscoupons_35637"
+    "TAJMI3AT_aniscoupons_35637",
+    "1005013418407141"
   ],
   "published_product_timestamps": {
     "1005012973772517": 1794500732.7845657,
@@ -1895,7 +1896,8 @@
     "1005008660082872": 1795603029.6819038,
     "1005006994616533": 1795603036.3181872,
     "TAJMI3AT_aniscoupons_35628": 1795611185.428156,
-    "TAJMI3AT_aniscoupons_35637": 1795620241.490416
+    "TAJMI3AT_aniscoupons_35637": 1795620241.490416,
+    "1005013418407141": 1795620610.006522
   },
   "published_titles": [
     "Wireless WiFi Repeater 300Mbps WiFi Extender Amplifier Booster Router",
@@ -3152,7 +3154,8 @@
     "2.4G 300Mbps WiFi Repeater",
     "Adapter 7 in 1 Type C Hub",
     "SoundPEATS C30 ANC -52dB",
-    "📢"
+    "📢",
+    "Soundpeats Q3 Pro ANC"
   ],
   "published_title_timestamps": {
     "Xiaomi Redmi Note 17 5G Global Version": 1790857823.0117362,
@@ -4414,10 +4417,10 @@
     "2.4G 300Mbps WiFi Repeater": 1795603029.6819038,
     "Adapter 7 in 1 Type C Hub": 1795603036.3181872,
     "SoundPEATS C30 ANC -52dB": 1795603223.504592,
-    "📢": 1795620241.490416
+    "📢": 1795620241.490416,
+    "Soundpeats Q3 Pro ANC": 1795620610.006522
   },
   "published_post_keys": [
-    "aniscoupons:34790",
     "zedstoreonline:40058",
     "aniscoupons:34791",
     "zedstoreonline:40060",
@@ -5416,19 +5419,20 @@
     "aniscoupons:35633",
     "zedstoreonline:40697",
     "aniscoupons:35635",
-    "aniscoupons:35637"
+    "aniscoupons:35637",
+    "lodydeals:46901"
   ],
   "last_disclaimer_time": 1794524540.9476151,
   "last_calendar_time": 1795177633.1203737,
-  "last_run_time": 1795620241.490416,
+  "last_run_time": 1795620610.006522,
   "monitored_channels": {
     "ecksdeal": {
       "last_message_id": 6130,
       "last_check_time": 1795527393.9958658
     },
     "lodydeals": {
-      "last_message_id": 46900,
-      "last_check_time": 1795610628.2586572
+      "last_message_id": 46901,
+      "last_check_time": 1795620612.1224346
     },
     "test_channel": {
       "last_message_id": 1793967703,
@@ -6282,7 +6286,8 @@
     "1005010637751071": 25.3,
     "1005006678271047": 6.09,
     "1005008660082872": 3.49,
-    "1005006994616533": 3.89
+    "1005006994616533": 3.89,
+    "1005013418407141": 9.18
   },
   "channel_published_deals": {
     "aniscoupons:32590": {
@@ -33917,6 +33922,16 @@
       "price": null,
       "timestamp": 1795620241.490416,
       "status": "ACTIVE"
+    },
+    "lodydeals:46901": {
+      "channel_msg_id": 3709,
+      "product_id": "1005013418407141",
+      "title": "Soundpeats Q3 Pro ANC",
+      "channel": "lodydeals",
+      "source_msg_id": 46901,
+      "price": 9.18,
+      "timestamp": 1795620610.006522,
+      "status": "ACTIVE"
     }
   },
   "schedule_config": {
@@ -33925,17 +33940,17 @@
     "current_interval_minutes": 5,
     "is_paused": false,
     "night_mode_enabled": true,
-    "last_deal_post_time": 1795620242.8412547,
+    "last_deal_post_time": 1795620615.9683778,
     "night_start_hour_dz": 0,
     "night_end_hour_dz": 8,
     "night_pause_enabled": true,
-    "last_sweep_time": 1795620424.439384,
+    "last_sweep_time": 1795620618.8476999,
     "last_sweep_times": {
-      "algeria": 1795620421.6118798,
-      "france": 1795620424.439384
+      "algeria": 1795620615.9153779,
+      "france": 1795620618.8476999
     },
     "last_deal_post_times": {
-      "algeria": 1795620242.8412547
+      "algeria": 1795620615.9683778
     }
   },
   "last_coin_reminder_time": 1795433324.042843,
@@ -34887,7 +34902,8 @@
     "1005008660082872": "lodydeals",
     "1005006994616533": "lodydeals",
     "TAJMI3AT_aniscoupons_35628": "aniscoupons",
-    "TAJMI3AT_aniscoupons_35637": "aniscoupons"
+    "TAJMI3AT_aniscoupons_35637": "aniscoupons",
+    "1005013418407141": "lodydeals"
   },
   "published_title_channels": {
     "Test Wrench Set": "test_channel",
@@ -36151,7 +36167,8 @@
     "2.4G 300Mbps WiFi Repeater": "lodydeals",
     "Adapter 7 in 1 Type C Hub": "lodydeals",
     "SoundPEATS C30 ANC -52dB": "lodydeals",
-    "📢": "aniscoupons"
+    "📢": "aniscoupons",
+    "Soundpeats Q3 Pro ANC": "lodydeals"
   },
   "religious_reminders_history": {
     "mock_rem": "2026-10-02",
