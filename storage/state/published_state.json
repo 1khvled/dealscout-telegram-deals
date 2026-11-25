@@ -936,7 +936,8 @@
     "COUPONBULLETIN_zedstoreonline_40658",
     "1005006678271047",
     "1005008660082872",
-    "1005006994616533"
+    "1005006994616533",
+    "TAJMI3AT_aniscoupons_35628"
   ],
   "published_product_timestamps": {
     "1005012973772517": 1794500732.7845657,
@@ -1891,7 +1892,8 @@
     "COUPONBULLETIN_zedstoreonline_40658": 1795561391.491517,
     "1005006678271047": 1795603024.1222618,
     "1005008660082872": 1795603029.6819038,
-    "1005006994616533": 1795603036.3181872
+    "1005006994616533": 1795603036.3181872,
+    "TAJMI3AT_aniscoupons_35628": 1795611185.428156
   },
   "published_titles": [
     "Wireless WiFi Repeater 300Mbps WiFi Extender Amplifier Booster Router",
@@ -3147,7 +3149,8 @@
     "HOMEFISH Vertical Mouse",
     "2.4G 300Mbps WiFi Repeater",
     "Adapter 7 in 1 Type C Hub",
-    "SoundPEATS C30 ANC -52dB"
+    "SoundPEATS C30 ANC -52dB",
+    "📢"
   ],
   "published_title_timestamps": {
     "Xiaomi Redmi Note 17 5G Global Version": 1790857823.0117362,
@@ -4408,10 +4411,10 @@
     "HOMEFISH Vertical Mouse": 1795603024.1222618,
     "2.4G 300Mbps WiFi Repeater": 1795603029.6819038,
     "Adapter 7 in 1 Type C Hub": 1795603036.3181872,
-    "SoundPEATS C30 ANC -52dB": 1795603223.504592
+    "SoundPEATS C30 ANC -52dB": 1795603223.504592,
+    "📢": 1795611185.428156
   },
   "published_post_keys": [
-    "aniscoupons:34775",
     "aniscoupons:34777",
     "lodydeals:46452",
     "aniscoupons:34778",
@@ -5410,11 +5413,12 @@
     "aniscoupons:35627",
     "zedstoreonline:40689",
     "lodydeals:46895",
-    "lodydeals:46900"
+    "lodydeals:46900",
+    "aniscoupons:35628"
   ],
   "last_disclaimer_time": 1794524540.9476151,
   "last_calendar_time": 1795177633.1203737,
-  "last_run_time": 1795610626.1677105,
+  "last_run_time": 1795611185.428156,
   "monitored_channels": {
     "ecksdeal": {
       "last_message_id": 6130,
@@ -5445,8 +5449,8 @@
       "last_check_time": 1795608981.9812813
     },
     "aniscoupons": {
-      "last_message_id": 35627,
-      "last_check_time": 1795608438.855143
+      "last_message_id": 35628,
+      "last_check_time": 1795611185.6443472
     },
     "bnddeals": {
       "last_message_id": 51411,
@@ -33791,6 +33795,16 @@
       "price": 16.56,
       "timestamp": 1795610626.1677105,
       "status": "ACTIVE"
+    },
+    "aniscoupons:35628": {
+      "channel_msg_id": 3697,
+      "product_id": "TAJMI3AT_aniscoupons_35628",
+      "title": "📢",
+      "channel": "aniscoupons",
+      "source_msg_id": 35628,
+      "price": null,
+      "timestamp": 1795611185.428156,
+      "status": "ACTIVE"
     }
   },
   "schedule_config": {
@@ -33799,17 +33813,17 @@
     "current_interval_minutes": 5,
     "is_paused": false,
     "night_mode_enabled": true,
-    "last_deal_post_time": 1795610631.277767,
+    "last_deal_post_time": 1795611186.6875596,
     "night_start_hour_dz": 0,
     "night_end_hour_dz": 8,
     "night_pause_enabled": true,
-    "last_sweep_time": 1795611002.2928839,
+    "last_sweep_time": 1795611189.8701577,
     "last_sweep_times": {
-      "algeria": 1795610999.3247454,
-      "france": 1795611002.2928839
+      "algeria": 1795611186.6341703,
+      "france": 1795611189.8701577
     },
     "last_deal_post_times": {
-      "algeria": 1795610631.277767
+      "algeria": 1795611186.6875596
     }
   },
   "last_coin_reminder_time": 1795433324.042843,
@@ -34759,7 +34773,8 @@
     "COUPONBULLETIN_zedstoreonline_40658": "zedstoreonline",
     "1005006678271047": "lodydeals",
     "1005008660082872": "lodydeals",
-    "1005006994616533": "lodydeals"
+    "1005006994616533": "lodydeals",
+    "TAJMI3AT_aniscoupons_35628": "aniscoupons"
   },
   "published_title_channels": {
     "Test Wrench Set": "test_channel",
@@ -36022,7 +36037,8 @@
     "HOMEFISH Vertical Mouse": "lodydeals",
     "2.4G 300Mbps WiFi Repeater": "lodydeals",
     "Adapter 7 in 1 Type C Hub": "lodydeals",
-    "SoundPEATS C30 ANC -52dB": "lodydeals"
+    "SoundPEATS C30 ANC -52dB": "lodydeals",
+    "📢": "aniscoupons"
   },
   "religious_reminders_history": {
     "mock_rem": "2026-10-02",
@@ -36820,7 +36836,6 @@
   "published_deals_history": {},
   "settings": {},
   "handled_post_keys": [
-    "zedstoreonline:40083",
     "zedstoreonline:40088",
     "aniscoupons:34814",
     "zedstoreonline:40093",
@@ -37819,7 +37834,8 @@
     "lodydeals:46896",
     "lodydeals:46897",
     "lodydeals:46898",
-    "lodydeals:46899"
+    "lodydeals:46899",
+    "aniscoupons:35628"
   ],
   "last_france_cross_promo_time": 1795501542.8708572,
   "next_france_cross_promo_interval_seconds": 208574,
@@ -38786,5 +38802,15 @@
     "1005013572273568": 1795476464.0167599,
     "1005013497504096": 1795546908.2110746,
     "1005013621783525": 1795553721.3213196
-  }
+  },
+  "published_tajmi3at": [
+    {
+      "title": "📢",
+      "links": [
+        "https://s.click.aliexpress.com/e/_c32MG3GH",
+        "https://s.click.aliexpress.com/e/_c45opjx7"
+      ],
+      "timestamp": 1795611185.480698
+    }
+  ]
 }
