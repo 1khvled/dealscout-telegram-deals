@@ -1647,7 +1647,7 @@
     "1005009738356108": 1794473432.2937162,
     "1005012953027259": 1794133977.9005425,
     "1005012048332402": 1794136369.073103,
-    "1005011665465731": 1794137638.8201442,
+    "1005011665465731": 1795627464.675503,
     "1005012377459743": 1795184432.291171,
     "1005009460475870": 1794496858.1106308,
     "1005009649079564": 1794145536.5317988,
@@ -4037,7 +4037,7 @@
     "Machenike G7 Gaming Mouse USB Wired 2.4GHz Wireless Mouse": 1794476801.4817152,
     "Ulanzi A100 Wireless Lavalier Microphone": 1794130707.0577464,
     "Kootion X15 M.2 SSD NVMe 256GB": 1795601339.5201154,
-    "Lenovo LE257 Headphones": 1794137638.8201442,
+    "Lenovo LE257 Headphones": 1795627464.675503,
     "Honor 600s CN (8/256)": 1795184432.291171,
     "ويبكام OBSBOT MEET 2 Webcam 4K": 1794140022.1412559,
     "Blackview Mega 5": 1795439282.605692,
@@ -4425,7 +4425,6 @@
     "Q86 WIRELESS EARBUDS": 1795623753.9870079
   },
   "published_post_keys": [
-    "aniscoupons:34794",
     "zedstoreonline:40062",
     "aniscoupons:34796",
     "aniscoupons:34797",
@@ -5424,19 +5423,20 @@
     "aniscoupons:35638",
     "aniscoupons:35639",
     "aniscoupons:35644",
-    "lodydeals:46902"
+    "lodydeals:46902",
+    "lodydeals:46903"
   ],
   "last_disclaimer_time": 1794524540.9476151,
   "last_calendar_time": 1795177633.1203737,
-  "last_run_time": 1795626901.9106421,
+  "last_run_time": 1795627464.675503,
   "monitored_channels": {
     "ecksdeal": {
       "last_message_id": 6130,
       "last_check_time": 1795527393.9958658
     },
     "lodydeals": {
-      "last_message_id": 46902,
-      "last_check_time": 1795626904.0245044
+      "last_message_id": 46903,
+      "last_check_time": 1795627466.7837439
     },
     "test_channel": {
       "last_message_id": 1793967703,
@@ -6057,7 +6057,7 @@
     "1005009851407234": 149.44,
     "1005012953027259": 279.32,
     "1005012048332402": 193.1,
-    "1005011665465731": 5.38,
+    "1005011665465731": 2.9,
     "1005012377459743": 313.59,
     "1005009460475870": 6.7,
     "1005009649079564": 19.4,
@@ -33977,6 +33977,16 @@
       "price": 20.96,
       "timestamp": 1795626901.9106421,
       "status": "ACTIVE"
+    },
+    "lodydeals:46903": {
+      "channel_msg_id": 3714,
+      "product_id": "1005011665465731",
+      "title": "Lenovo LE257 Headphones",
+      "channel": "lodydeals",
+      "source_msg_id": 46903,
+      "price": 2.9,
+      "timestamp": 1795627464.675503,
+      "status": "ACTIVE"
     }
   },
   "schedule_config": {
@@ -33985,17 +33995,17 @@
     "current_interval_minutes": 5,
     "is_paused": false,
     "night_mode_enabled": true,
-    "last_deal_post_time": 1795626907.7281945,
+    "last_deal_post_time": 1795627474.0369542,
     "night_start_hour_dz": 0,
     "night_end_hour_dz": 8,
     "night_pause_enabled": true,
-    "last_sweep_time": 1795627277.4182923,
+    "last_sweep_time": 1795627477.2736845,
     "last_sweep_times": {
-      "algeria": 1795627274.6167505,
-      "france": 1795627277.4182923
+      "algeria": 1795627473.9950397,
+      "france": 1795627477.2736845
     },
     "last_deal_post_times": {
-      "algeria": 1795626907.7281945
+      "algeria": 1795627474.0369542
     }
   },
   "last_coin_reminder_time": 1795433324.042843,
@@ -39113,6 +39123,13 @@
         "channel": "zedstoreonline",
         "ts": 1795625613.6769109,
         "price": 2.5
+      }
+    ],
+    "1005011665465731": [
+      {
+        "channel": "lodydeals",
+        "ts": 1795627461.6878948,
+        "price": 2.9
       }
     ]
   },
