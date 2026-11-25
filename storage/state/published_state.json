@@ -1886,7 +1886,7 @@
     "33061115247": 1795547454.3449724,
     "1005012374298987": 1795548384.7413478,
     "1005013583987856": 1795548942.786371,
-    "1005013621783525": 1795553721.2698648,
+    "1005013621783525": 1795606940.870554,
     "1005010637751071": 1795553355.383983,
     "COUPONBULLETIN_zedstoreonline_40658": 1795561391.491517,
     "1005006678271047": 1795603024.1222618,
@@ -4397,7 +4397,7 @@
     "SoundPEATS Space Hybrid ANC": 1795547826.6655538,
     "Velec Tv Box 4/32GB": 1795548384.7413478,
     "HONOR Watch X5 Play": 1795548942.786371,
-    "HONOR CHOICE Watch 6i": 1795553721.2698648,
+    "HONOR CHOICE Watch 6i": 1795606940.870554,
     "Godox C01 Kit 2 Microphone Lavalier": 1795553355.383983,
     "CMF Buds Neo 12.4 mm Titanium‑coated Driver": 1795555387.9747143,
     "سماعات SOUNDPEATS C30": 1795558896.5588944,
@@ -4411,7 +4411,6 @@
     "SoundPEATS C30 ANC -52dB": 1795603223.504592
   },
   "published_post_keys": [
-    "aniscoupons:34766",
     "aniscoupons:34767",
     "aniscoupons:34770",
     "aniscoupons:34771",
@@ -5410,11 +5409,12 @@
     "zedstoreonline:40683",
     "zedstoreonline:40684",
     "aniscoupons:35623",
-    "aniscoupons:35624"
+    "aniscoupons:35624",
+    "aniscoupons:35625"
   ],
   "last_disclaimer_time": 1794524540.9476151,
   "last_calendar_time": 1795177633.1203737,
-  "last_run_time": 1795606573.6678197,
+  "last_run_time": 1795606940.870554,
   "monitored_channels": {
     "ecksdeal": {
       "last_message_id": 6130,
@@ -5445,8 +5445,8 @@
       "last_check_time": 1795606023.2637777
     },
     "aniscoupons": {
-      "last_message_id": 35624,
-      "last_check_time": 1795606575.7525294
+      "last_message_id": 35625,
+      "last_check_time": 1795606942.989816
     },
     "bnddeals": {
       "last_message_id": 51411,
@@ -33731,6 +33731,16 @@
       "price": 212.1,
       "timestamp": 1795606573.6678197,
       "status": "ACTIVE"
+    },
+    "aniscoupons:35625": {
+      "channel_msg_id": 3691,
+      "product_id": "1005013621783525",
+      "title": "HONOR CHOICE Watch 6i",
+      "channel": "aniscoupons",
+      "source_msg_id": 35625,
+      "price": 29.9,
+      "timestamp": 1795606940.870554,
+      "status": "ACTIVE"
     }
   },
   "schedule_config": {
@@ -33739,17 +33749,17 @@
     "current_interval_minutes": 5,
     "is_paused": false,
     "night_mode_enabled": true,
-    "last_deal_post_time": 1795606576.5944726,
+    "last_deal_post_time": 1795606944.261019,
     "night_start_hour_dz": 0,
     "night_end_hour_dz": 8,
     "night_pause_enabled": true,
-    "last_sweep_time": 1795606762.9258819,
+    "last_sweep_time": 1795606946.8181005,
     "last_sweep_times": {
-      "algeria": 1795606759.6490035,
-      "france": 1795606762.9258819
+      "algeria": 1795606944.2044852,
+      "france": 1795606946.8181005
     },
     "last_deal_post_times": {
-      "algeria": 1795606576.5944726
+      "algeria": 1795606944.261019
     }
   },
   "last_coin_reminder_time": 1795433324.042843,
@@ -38646,6 +38656,13 @@
         "channel": "aniscoupons",
         "ts": 1795606571.7036827,
         "price": 212.1
+      }
+    ],
+    "1005013621783525": [
+      {
+        "channel": "aniscoupons",
+        "ts": 1795606938.7743552,
+        "price": 29.9
       }
     ]
   },
