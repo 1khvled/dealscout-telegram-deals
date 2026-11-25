@@ -1618,7 +1618,7 @@
     "1005010142208108": 1794753124.2973137,
     "1005008534907844": 1793987285.4130383,
     "1005009577554629": 1793987289.8200357,
-    "1005010656922924": 1795603223.504592,
+    "1005010656922924": 1795631730.9372938,
     "1005008077441711": 1795259816.8338442,
     "1005006411483066": 1794500381.7712336,
     "1005012925301774": 1795085801.1895535,
@@ -4423,7 +4423,7 @@
     "HOMEFISH Vertical Mouse": 1795603024.1222618,
     "2.4G 300Mbps WiFi Repeater": 1795603029.6819038,
     "Adapter 7 in 1 Type C Hub": 1795603036.3181872,
-    "SoundPEATS C30 ANC -52dB": 1795603223.504592,
+    "SoundPEATS C30 ANC -52dB": 1795631730.9372938,
     "📢": 1795620241.490416,
     "Soundpeats Q3 Pro ANC": 1795620610.006522,
     "Q86 WIRELESS EARBUDS": 1795623753.9870079,
@@ -4431,7 +4431,6 @@
     "Anker 100W USB C Charger": 1795631548.7472386
   },
   "published_post_keys": [
-    "zedstoreonline:40066",
     "aniscoupons:34799",
     "zedstoreonline:40067",
     "aniscoupons:34804",
@@ -5430,19 +5429,20 @@
     "zedstoreonline:40700",
     "aniscoupons:35645",
     "lodydeals:46904",
-    "lodydeals:46905"
+    "lodydeals:46905",
+    "lodydeals:46908"
   ],
   "last_disclaimer_time": 1794524540.9476151,
   "last_calendar_time": 1795177633.1203737,
-  "last_run_time": 1795631548.7472386,
+  "last_run_time": 1795631730.9372938,
   "monitored_channels": {
     "ecksdeal": {
       "last_message_id": 6130,
       "last_check_time": 1795527393.9958658
     },
     "lodydeals": {
-      "last_message_id": 46907,
-      "last_check_time": 1795631551.7357128
+      "last_message_id": 46908,
+      "last_check_time": 1795631733.0093648
     },
     "test_channel": {
       "last_message_id": 1793967703,
@@ -6040,7 +6040,7 @@
     "1005010142208108": 37.25,
     "1005008534907844": 50.86,
     "1005009577554629": 10.55,
-    "1005010656922924": 20.46,
+    "1005010656922924": 19.46,
     "1005008077441711": 8.5,
     "1005012925301774": 10.5,
     "1005012959738411": 70.0,
@@ -34033,6 +34033,16 @@
       "price": 51.11,
       "timestamp": 1795631548.7472386,
       "status": "ACTIVE"
+    },
+    "lodydeals:46908": {
+      "channel_msg_id": 3720,
+      "product_id": "1005010656922924",
+      "title": "SoundPEATS C30 ANC -52dB",
+      "channel": "lodydeals",
+      "source_msg_id": 46908,
+      "price": 19.46,
+      "timestamp": 1795631730.9372938,
+      "status": "ACTIVE"
     }
   },
   "schedule_config": {
@@ -34041,17 +34051,17 @@
     "current_interval_minutes": 5,
     "is_paused": false,
     "night_mode_enabled": true,
-    "last_deal_post_time": 1795631554.7000487,
+    "last_deal_post_time": 1795631736.241524,
     "night_start_hour_dz": 0,
     "night_end_hour_dz": 8,
     "night_pause_enabled": true,
-    "last_sweep_time": 1795631557.2008083,
+    "last_sweep_time": 1795631739.0182416,
     "last_sweep_times": {
-      "algeria": 1795631554.6527524,
-      "france": 1795631557.2008083
+      "algeria": 1795631736.2147799,
+      "france": 1795631739.0182416
     },
     "last_deal_post_times": {
-      "algeria": 1795631554.7000487
+      "algeria": 1795631736.241524
     }
   },
   "last_coin_reminder_time": 1795433324.042843,
@@ -38959,6 +38969,11 @@
         "channel": "lodydeals",
         "ts": 1795603220.9885597,
         "price": 20.46
+      },
+      {
+        "channel": "lodydeals",
+        "ts": 1795631728.4678986,
+        "price": 19.46
       }
     ],
     "1005010620269829": [
