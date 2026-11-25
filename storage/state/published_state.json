@@ -1668,7 +1668,7 @@
     "1005007820092290": 1794224654.527678,
     "1005012329021334": 1794494280.7112553,
     "1005013218893010": 1794226314.627466,
-    "1005013480169843": 1795608436.771717,
+    "1005013480169843": 1795635777.7463026,
     "1005013226454479": 1794227594.9699965,
     "1005005548265076": 1794231079.407264,
     "1005012555450345": 1794232557.0275722,
@@ -3454,7 +3454,7 @@
     "Ⓜ ONEPLUS TURBO 6X PRO 5G (8/128)": 1792156501.818011,
     "Redmi Pad 2 9.7": 1792061322.5579543,
     "Redmi Note 12 5G Global (4/128GB)": 1792156524.878074,
-    "Blackview Wave 10C": 1795608436.771717,
+    "Blackview Wave 10C": 1795635777.7463026,
     "متوسط سعره حالياً 82000دج": 1793276237.692456,
     "iQOO Z11s 5G (8/128GB)": 1795185813.1399975,
     "realme Watch 5 Smart Watch 1.97\" AMOLED Display Sports & Health Monitoring": 1793966861.2399917,
@@ -4431,7 +4431,6 @@
     "Anker 100W USB C Charger": 1795631548.7472386
   },
   "published_post_keys": [
-    "zedstoreonline:40073",
     "ecksdeal:6060",
     "ecksdeal:6061",
     "lodydeals:46459",
@@ -5430,11 +5429,12 @@
     "aniscoupons:35647",
     "aniscoupons:35648",
     "zedstoreonline:40702",
-    "aniscoupons:35650"
+    "aniscoupons:35650",
+    "aniscoupons:35651"
   ],
   "last_disclaimer_time": 1794524540.9476151,
   "last_calendar_time": 1795177633.1203737,
-  "last_run_time": 1795635237.0793135,
+  "last_run_time": 1795635777.7463026,
   "monitored_channels": {
     "ecksdeal": {
       "last_message_id": 6130,
@@ -5465,8 +5465,8 @@
       "last_check_time": 1795634509.4645517
     },
     "aniscoupons": {
-      "last_message_id": 35650,
-      "last_check_time": 1795635239.19613
+      "last_message_id": 35651,
+      "last_check_time": 1795635779.8528733
     },
     "bnddeals": {
       "last_message_id": 51414,
@@ -34103,6 +34103,16 @@
       "price": 9.7,
       "timestamp": 1795635237.0793135,
       "status": "ACTIVE"
+    },
+    "aniscoupons:35651": {
+      "channel_msg_id": 3727,
+      "product_id": "1005013480169843",
+      "title": "Blackview Wave 10C",
+      "channel": "aniscoupons",
+      "source_msg_id": 35651,
+      "price": 67.7,
+      "timestamp": 1795635777.7463026,
+      "status": "ACTIVE"
     }
   },
   "schedule_config": {
@@ -34111,17 +34121,17 @@
     "current_interval_minutes": 5,
     "is_paused": false,
     "night_mode_enabled": true,
-    "last_deal_post_time": 1795635240.6411989,
+    "last_deal_post_time": 1795635781.082239,
     "night_start_hour_dz": 0,
     "night_end_hour_dz": 8,
     "night_pause_enabled": true,
-    "last_sweep_time": 1795635604.407326,
+    "last_sweep_time": 1795635783.8307023,
     "last_sweep_times": {
-      "algeria": 1795635600.8432052,
-      "france": 1795635604.407326
+      "algeria": 1795635781.0390272,
+      "france": 1795635783.8307023
     },
     "last_deal_post_times": {
-      "algeria": 1795635240.6411989
+      "algeria": 1795635781.082239
     }
   },
   "last_coin_reminder_time": 1795433324.042843,
@@ -39154,6 +39164,11 @@
         "channel": "lodydeals",
         "ts": 1795610266.9948483,
         "price": 67.1
+      },
+      {
+        "channel": "aniscoupons",
+        "ts": 1795635775.2795808,
+        "price": 67.7
       }
     ],
     "1005012374298987": [
