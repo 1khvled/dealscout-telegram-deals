@@ -1085,7 +1085,7 @@
     "1005010536089199": 1795180451.4710355,
     "1005012385221205": 1791102050.1835058,
     "1005012743092233": 1791104461.903693,
-    "1005007805497968": 1795521262.2513373,
+    "1005007805497968": 1795607691.890236,
     "1005007345108759": 1793542577.5838556,
     "1005007394197021": 1792103174.5720932,
     "1005013290515237": 1791110751.0808105,
@@ -3616,7 +3616,7 @@
     "GIGABYTE B550M AORUS ELITE Motherboard": 1793399464.4760919,
     "Redmi Pad 2  4/64": 1793399472.4016223,
     "MSI MAG X670E TOMAHAWK Motherboard": 1793399494.1323898,
-    "GameSir Nova Lite": 1795521262.2513373,
+    "GameSir Nova Lite": 1795607691.890236,
     "QCY Crossky C50i Open": 1793399525.3383162,
     "Magcubic HY350MAX": 1793399534.209787,
     "BLACKVIEW OSCAL TANK1": 1793399542.6698716,
@@ -4411,7 +4411,6 @@
     "SoundPEATS C30 ANC -52dB": 1795603223.504592
   },
   "published_post_keys": [
-    "aniscoupons:34767",
     "aniscoupons:34770",
     "aniscoupons:34771",
     "bnddeals:51298",
@@ -5410,11 +5409,12 @@
     "zedstoreonline:40684",
     "aniscoupons:35623",
     "aniscoupons:35624",
-    "aniscoupons:35625"
+    "aniscoupons:35625",
+    "zedstoreonline:40687"
   ],
   "last_disclaimer_time": 1794524540.9476151,
   "last_calendar_time": 1795177633.1203737,
-  "last_run_time": 1795606940.870554,
+  "last_run_time": 1795607691.890236,
   "monitored_channels": {
     "ecksdeal": {
       "last_message_id": 6130,
@@ -5441,8 +5441,8 @@
       "last_check_time": 1793599663.3444748
     },
     "zedstoreonline": {
-      "last_message_id": 40686,
-      "last_check_time": 1795607310.0391684
+      "last_message_id": 40687,
+      "last_check_time": 1795607694.0166285
     },
     "aniscoupons": {
       "last_message_id": 35626,
@@ -33741,6 +33741,16 @@
       "price": 29.9,
       "timestamp": 1795606940.870554,
       "status": "ACTIVE"
+    },
+    "zedstoreonline:40687": {
+      "channel_msg_id": 3692,
+      "product_id": "1005007805497968",
+      "title": "GameSir Nova Lite",
+      "channel": "zedstoreonline",
+      "source_msg_id": 40687,
+      "price": 21.0,
+      "timestamp": 1795607691.890236,
+      "status": "ACTIVE"
     }
   },
   "schedule_config": {
@@ -33749,17 +33759,17 @@
     "current_interval_minutes": 5,
     "is_paused": false,
     "night_mode_enabled": true,
-    "last_deal_post_time": 1795606944.261019,
+    "last_deal_post_time": 1795607695.9123242,
     "night_start_hour_dz": 0,
     "night_end_hour_dz": 8,
     "night_pause_enabled": true,
-    "last_sweep_time": 1795607505.778808,
+    "last_sweep_time": 1795607698.4726567,
     "last_sweep_times": {
-      "algeria": 1795607503.2139316,
-      "france": 1795607505.778808
+      "algeria": 1795607695.8659375,
+      "france": 1795607698.4726567
     },
     "last_deal_post_times": {
-      "algeria": 1795606944.261019
+      "algeria": 1795607695.9123242
     }
   },
   "last_coin_reminder_time": 1795433324.042843,
@@ -38673,6 +38683,13 @@
         "channel": "aniscoupons",
         "ts": 1795606938.7743552,
         "price": 29.9
+      }
+    ],
+    "1005007805497968": [
+      {
+        "channel": "zedstoreonline",
+        "ts": 1795607689.7786698,
+        "price": 21.0
       }
     ]
   },
