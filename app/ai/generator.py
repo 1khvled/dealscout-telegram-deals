@@ -1004,6 +1004,20 @@ def format_competitor_to_lody_1to1(raw_text: str, affiliate_url: str, coupon_cod
         if m_total:
             bundle_total = m_total.group(1)
 
+    # Preserve variant/capacity label from the price line (e.g. "سعر نسخة 256 جيغا : 15.5$")
+    # when it is not already present in the extracted title.
+    variant_match = re.search(
+        r'(?:سعر|السعر)\s+(نسخة\s+[^\n:$]{2,35}?)\s*:',
+        clean_raw,
+        re.I,
+    )
+    variant_label = variant_match.group(1).strip() if variant_match else ""
+    if variant_label:
+        cap_digits = re.search(r'(\d+)\s*(?:جيغا|جيجا|gb|tb)', variant_label, re.I)
+        already_in_title = bool(cap_digits and re.search(rf'\b{cap_digits.group(1)}\s*(?:gb|tb|جيغا|جيجا)\b', title, re.I))
+        if not already_in_title and variant_label.lower() not in title.lower():
+            title = f"{title} ({variant_label})"
+
     price_line = ""
     if price_str:
         suffix = ""
@@ -1018,12 +1032,20 @@ def format_competitor_to_lody_1to1(raw_text: str, affiliate_url: str, coupon_cod
         else:
             price_line = f"السعر : {price_str}${suffix} 🔥"
 
-    # 3. Store Coupon (قسيمة البائع)
+    # 3. Store Coupon (قسيمة البائع) — preserve optional voucher code (e.g. "قسيمة البائع 45$ LJK947C")
     store_coupon = ""
-    m_store = re.search(r'(?:قسيمة\s*البائع|قسيمــة\s*البــائع|قسيمة\s*المتجر|قسيمة\s*بائع|قسيمة\s*متجر)[^\n\d]*(\$?\d+(?:\.\d+)?\$?)', clean_raw)
+    m_store = re.search(
+        r'(?:قسيمة\s*البائع|قسيمــة\s*البــائع|قسيمة\s*المتجر|قسيمة\s*بائع|قسيمة\s*متجر)'
+        r'[^\n\d]*(\$?\d+(?:\.\d+)?\$?)(?:[ \t]+([A-Z0-9]{4,14}))?',
+        clean_raw,
+    )
     if m_store:
         sc_val = re.sub(r'[\$ ]', '', m_store.group(1).strip())
-        store_coupon = f"🎫 احجز قسيمة البائع: {sc_val}$"
+        sc_code = (m_store.group(2) or "").strip()
+        if sc_code:
+            store_coupon = f"🎫 احجز قسيمة البائع: {sc_val}$ <code>{sc_code}</code>"
+        else:
+            store_coupon = f"🎫 احجز قسيمة البائع: {sc_val}$"
 
     # 4. Promo Coupon
     code = coupon_code or ""
@@ -1046,10 +1068,16 @@ def format_competitor_to_lody_1to1(raw_text: str, affiliate_url: str, coupon_cod
         country = "ضع البلد كندا من الإعدادات 🇨🇦"
     elif any(k in clean_raw for k in ["استراليا", "أستراليا", "australia"]):
         country = "ضع البلد استراليا من الإعدادات 🇦🇺"
+    elif any(k in clean_raw for k in ["السعودية", "saudi"]):
+        country = "ضع البلد السعودية من الإعدادات 🇸🇦"
     elif any(k in clean_raw for k in ["فرنسا", "france"]):
         country = "ضع البلد فرنسا من الإعدادات 🇫🇷"
     elif any(k in clean_raw for k in ["كوريا", "korea"]):
         country = "ضع البلد كوريا من الإعدادات 🇰🇷"
+    elif any(k in clean_raw for k in ["أمريكا", "امريكا", "usa"]):
+        country = "ضع البلد أمريكا من الإعدادات 🇺🇸"
+    elif any(k in clean_raw for k in ["البرازيل", "brazil"]):
+        country = "ضع البلد البرازيل من الإعدادات 🇧🇷"
     elif any(k in clean_raw for k in ["الجزائر", "algeria"]) or "ضع البلد الجزائر" in clean_raw or is_bundle:
         country = "🇩🇿 ضع البلد الجزائر"
 

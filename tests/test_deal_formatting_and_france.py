@@ -912,3 +912,44 @@ t.me/LodyCouponsBot"""
     )
     assert dup2 is True
     assert "Duplicate Tajmi3at" in reason2
+
+
+def test_competitor_1to1_preserves_variant_capacity_store_code_and_country():
+    from app.ai.generator import format_competitor_to_lody_1to1
+    from app.ai.validator import caption_validator
+
+    raw = """الحححححق لافار من جديد 🎊
+خلي البلـــد السعودية 🇸🇦
+✅ Kootion SSD SATA
+💰 سعر نسخة 256 جيغا : 15.5$ 💎
+🎫 قسيمة البائع 2$ STORE22
+🎟️ كوبـــون 4/24$ : OTSBF04
+📎 رابط العملات : ⬇️
+https://s.click.aliexpress.com/e/_c3cLaI2d
+🔸 قناتنا : https://t.me/aniscoupons
+🔸 البوت : https://t.me/CoinsDiscountBot"""
+
+    aff = "https://s.click.aliexpress.com/e/_cOurAff"
+    cap = format_competitor_to_lody_1to1(
+        raw_text=raw,
+        affiliate_url=aff,
+        coupon_code="OTSBF04",
+        extracted_title="Kootion SSD SATA",
+        deal_type="coin",
+        usd_price=15.5,
+        eur_price=14.26,
+    )
+    assert "نسخة 256 جيغا" in cap
+    assert "STORE22" in cap
+    assert "السعودية" in cap
+    vr = caption_validator.validate(
+        caption=cap,
+        expected_title="Kootion SSD SATA",
+        expected_usd_price=15.5,
+        expected_eur_price=14.26,
+        expected_affiliate_url=aff,
+        expected_coupon="OTSBF04",
+        expected_points=True,
+        is_coupon_list=False,
+    )
+    assert vr.approved is True, vr.errors
