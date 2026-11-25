@@ -1778,7 +1778,7 @@
     "1005012892577195": 1794732862.0085351,
     "1005012594430190": 1795603018.6183126,
     "1005010044062473": 1794741950.275824,
-    "1005007096934754": 1794741957.1892588,
+    "1005007096934754": 1795610626.1677105,
     "1005009508881738": 1794741969.1318233,
     "1005006678149338": 1794741974.3299906,
     "1005006995973090": 1794741980.2334778,
@@ -4234,7 +4234,7 @@
     "Ajazz  AJ179 V2 PAW3311": 1794732848.3286283,
     "Backpack With Rod Holder": 1794732862.0085351,
     "Basues Encok HZ11": 1794741950.275824,
-    "WiFi Extender 2.4G 300Mbps": 1794741957.1892588,
+    "WiFi Extender 2.4G 300Mbps": 1795610626.1677105,
     "Toocki 65W Car Charger": 1794741969.1318233,
     "8IN 2 USB +Type C HUB": 1794741974.3299906,
     "FENVI WIFI 6 USB Adapter": 1794741980.2334778,
@@ -4411,7 +4411,6 @@
     "SoundPEATS C30 ANC -52dB": 1795603223.504592
   },
   "published_post_keys": [
-    "aniscoupons:34772",
     "aniscoupons:34775",
     "aniscoupons:34777",
     "lodydeals:46452",
@@ -5410,19 +5409,20 @@
     "zedstoreonline:40687",
     "aniscoupons:35627",
     "zedstoreonline:40689",
-    "lodydeals:46895"
+    "lodydeals:46895",
+    "lodydeals:46900"
   ],
   "last_disclaimer_time": 1794524540.9476151,
   "last_calendar_time": 1795177633.1203737,
-  "last_run_time": 1795610082.5383825,
+  "last_run_time": 1795610626.1677105,
   "monitored_channels": {
     "ecksdeal": {
       "last_message_id": 6130,
       "last_check_time": 1795527393.9958658
     },
     "lodydeals": {
-      "last_message_id": 46899,
-      "last_check_time": 1795610267.917575
+      "last_message_id": 46900,
+      "last_check_time": 1795610628.2586572
     },
     "test_channel": {
       "last_message_id": 1793967703,
@@ -6172,7 +6172,7 @@
     "1005012892577195": 16.27,
     "1005012594430190": 5.69,
     "1005010044062473": 3.27,
-    "1005007096934754": 5.09,
+    "1005007096934754": 16.56,
     "1005009508881738": 3.69,
     "1005006678149338": 3.69,
     "1005006995973090": 3.09,
@@ -33781,6 +33781,16 @@
       "price": 99.7,
       "timestamp": 1795610082.5383825,
       "status": "ACTIVE"
+    },
+    "lodydeals:46900": {
+      "channel_msg_id": 3696,
+      "product_id": "1005007096934754",
+      "title": "WiFi Extender 2.4G 300Mbps",
+      "channel": "lodydeals",
+      "source_msg_id": 46900,
+      "price": 16.56,
+      "timestamp": 1795610626.1677105,
+      "status": "ACTIVE"
     }
   },
   "schedule_config": {
@@ -33789,17 +33799,17 @@
     "current_interval_minutes": 5,
     "is_paused": false,
     "night_mode_enabled": true,
-    "last_deal_post_time": 1795610089.0106423,
+    "last_deal_post_time": 1795610631.277767,
     "night_start_hour_dz": 0,
     "night_end_hour_dz": 8,
     "night_pause_enabled": true,
-    "last_sweep_time": 1795610449.1450121,
+    "last_sweep_time": 1795610633.8171296,
     "last_sweep_times": {
-      "algeria": 1795610446.6421368,
-      "france": 1795610449.1450121
+      "algeria": 1795610631.2394314,
+      "france": 1795610633.8171296
     },
     "last_deal_post_times": {
-      "algeria": 1795610089.0106423
+      "algeria": 1795610631.277767
     }
   },
   "last_coin_reminder_time": 1795433324.042843,
@@ -38756,6 +38766,13 @@
         "channel": "lodydeals",
         "ts": 1795610080.1433437,
         "price": 99.7
+      }
+    ],
+    "1005007096934754": [
+      {
+        "channel": "lodydeals",
+        "ts": 1795610623.6296165,
+        "price": 16.56
       }
     ]
   },
