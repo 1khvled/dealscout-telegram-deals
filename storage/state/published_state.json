@@ -1341,7 +1341,7 @@
     "1005010158485058": 1793543612.279949,
     "1005012910719451": 1795184387.5053294,
     "1005006307798542": 1795547826.6655538,
-    "1005011787296177": 1795543601.9781244,
+    "1005011787296177": 1795615767.5098379,
     "1005007375332966": 1793467173.1692383,
     "1005012543970886": 1793467209.762414,
     "1005013222073946": 1794492985.70064,
@@ -3575,7 +3575,7 @@
     "HONOR X80 PRO MAX (8/128)": 1793467357.4280431,
     "لووووززززز مع": 1793362071.3460114,
     "SoundPEATS Space Headphones": 1793467165.446982,
-    "Anker Nano 70W Ultra-Fast 3-Port USB-C Charger": 1795543601.9781244,
+    "Anker Nano 70W Ultra-Fast 3-Port USB-C Charger": 1795615767.5098379,
     "TicWatch Pro 5 Wear OS Smartwatch – 100+ Sports Modes, NFC & 5ATM Waterproof (Refurbished)": 1793380279.4675684,
     "Black Shark Neo2 Smartwatch – 2.01\" HD Display, Bluetooth Calling & IP68": 1793380284.94034,
     "HONOR CHOICE Watch 2i – 1.85\" AMOLED Smartwatch with Bluetooth Calling": 1793613395.2932215,
@@ -4415,7 +4415,6 @@
     "📢": 1795611185.428156
   },
   "published_post_keys": [
-    "zedstoreonline:40053",
     "aniscoupons:34780",
     "aniscoupons:34782",
     "aniscoupons:34784",
@@ -5414,11 +5413,12 @@
     "aniscoupons:35628",
     "zedstoreonline:40690",
     "zedstoreonline:40691",
-    "zedstoreonline:40692"
+    "zedstoreonline:40692",
+    "zedstoreonline:40694"
   ],
   "last_disclaimer_time": 1794524540.9476151,
   "last_calendar_time": 1795177633.1203737,
-  "last_run_time": 1795612840.4787066,
+  "last_run_time": 1795615767.5098379,
   "monitored_channels": {
     "ecksdeal": {
       "last_message_id": 6130,
@@ -5445,8 +5445,8 @@
       "last_check_time": 1793599663.3444748
     },
     "zedstoreonline": {
-      "last_message_id": 40693,
-      "last_check_time": 1795613203.4779499
+      "last_message_id": 40694,
+      "last_check_time": 1795615769.5939987
     },
     "aniscoupons": {
       "last_message_id": 35630,
@@ -33835,6 +33835,16 @@
       "price": 313.0,
       "timestamp": 1795612840.4787066,
       "status": "ACTIVE"
+    },
+    "zedstoreonline:40694": {
+      "channel_msg_id": 3701,
+      "product_id": "1005011787296177",
+      "title": "Anker Nano 70W Ultra-Fast 3-Port USB-C Charger",
+      "channel": "zedstoreonline",
+      "source_msg_id": 40694,
+      "price": 28.7,
+      "timestamp": 1795615767.5098379,
+      "status": "ACTIVE"
     }
   },
   "schedule_config": {
@@ -33843,17 +33853,17 @@
     "current_interval_minutes": 5,
     "is_paused": false,
     "night_mode_enabled": true,
-    "last_deal_post_time": 1795612844.6888165,
+    "last_deal_post_time": 1795615771.0471659,
     "night_start_hour_dz": 0,
     "night_end_hour_dz": 8,
     "night_pause_enabled": true,
-    "last_sweep_time": 1795615589.4351132,
+    "last_sweep_time": 1795615773.3929276,
     "last_sweep_times": {
-      "algeria": 1795615586.7446036,
-      "france": 1795615589.4351132
+      "algeria": 1795615771.0112164,
+      "france": 1795615773.3929276
     },
     "last_deal_post_times": {
-      "algeria": 1795612844.6888165
+      "algeria": 1795615771.0471659
     }
   },
   "last_coin_reminder_time": 1795433324.042843,
@@ -38850,6 +38860,13 @@
         "channel": "zedstoreonline",
         "ts": 1795612838.2216208,
         "price": 313.0
+      }
+    ],
+    "1005011787296177": [
+      {
+        "channel": "zedstoreonline",
+        "ts": 1795615763.953876,
+        "price": 28.7
       }
     ]
   },
