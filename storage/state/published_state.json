@@ -939,7 +939,8 @@
     "1005006994616533",
     "TAJMI3AT_aniscoupons_35628",
     "TAJMI3AT_aniscoupons_35637",
-    "1005013418407141"
+    "1005013418407141",
+    "1005010653156898"
   ],
   "published_product_timestamps": {
     "1005012973772517": 1794500732.7845657,
@@ -1897,7 +1898,8 @@
     "1005006994616533": 1795603036.3181872,
     "TAJMI3AT_aniscoupons_35628": 1795611185.428156,
     "TAJMI3AT_aniscoupons_35637": 1795620241.490416,
-    "1005013418407141": 1795620610.006522
+    "1005013418407141": 1795620610.006522,
+    "1005010653156898": 1795623753.9870079
   },
   "published_titles": [
     "Wireless WiFi Repeater 300Mbps WiFi Extender Amplifier Booster Router",
@@ -3155,7 +3157,8 @@
     "Adapter 7 in 1 Type C Hub",
     "SoundPEATS C30 ANC -52dB",
     "📢",
-    "Soundpeats Q3 Pro ANC"
+    "Soundpeats Q3 Pro ANC",
+    "Q86 WIRELESS EARBUDS"
   ],
   "published_title_timestamps": {
     "Xiaomi Redmi Note 17 5G Global Version": 1790857823.0117362,
@@ -4418,10 +4421,10 @@
     "Adapter 7 in 1 Type C Hub": 1795603036.3181872,
     "SoundPEATS C30 ANC -52dB": 1795603223.504592,
     "📢": 1795620241.490416,
-    "Soundpeats Q3 Pro ANC": 1795620610.006522
+    "Soundpeats Q3 Pro ANC": 1795620610.006522,
+    "Q86 WIRELESS EARBUDS": 1795623753.9870079
   },
   "published_post_keys": [
-    "aniscoupons:34791",
     "zedstoreonline:40060",
     "aniscoupons:34793",
     "aniscoupons:34794",
@@ -5420,11 +5423,12 @@
     "aniscoupons:35635",
     "aniscoupons:35637",
     "lodydeals:46901",
-    "aniscoupons:35638"
+    "aniscoupons:35638",
+    "aniscoupons:35639"
   ],
   "last_disclaimer_time": 1794524540.9476151,
   "last_calendar_time": 1795177633.1203737,
-  "last_run_time": 1795623320.9110665,
+  "last_run_time": 1795623753.9870079,
   "monitored_channels": {
     "ecksdeal": {
       "last_message_id": 6130,
@@ -5455,8 +5459,8 @@
       "last_check_time": 1795623316.9643426
     },
     "aniscoupons": {
-      "last_message_id": 35638,
-      "last_check_time": 1795623323.0051477
+      "last_message_id": 35639,
+      "last_check_time": 1795623756.1073074
     },
     "bnddeals": {
       "last_message_id": 51412,
@@ -6287,7 +6291,8 @@
     "1005006678271047": 6.09,
     "1005008660082872": 3.49,
     "1005006994616533": 3.89,
-    "1005013418407141": 9.18
+    "1005013418407141": 9.18,
+    "1005010653156898": 3.0
   },
   "channel_published_deals": {
     "aniscoupons:32590": {
@@ -33942,6 +33947,16 @@
       "price": 6.84,
       "timestamp": 1795623320.9110665,
       "status": "ACTIVE"
+    },
+    "aniscoupons:35639": {
+      "channel_msg_id": 3711,
+      "product_id": "1005010653156898",
+      "title": "Q86 WIRELESS EARBUDS",
+      "channel": "aniscoupons",
+      "source_msg_id": 35639,
+      "price": 3.0,
+      "timestamp": 1795623753.9870079,
+      "status": "ACTIVE"
     }
   },
   "schedule_config": {
@@ -33950,17 +33965,17 @@
     "current_interval_minutes": 5,
     "is_paused": false,
     "night_mode_enabled": true,
-    "last_deal_post_time": 1795623324.047921,
+    "last_deal_post_time": 1795623757.4353294,
     "night_start_hour_dz": 0,
     "night_end_hour_dz": 8,
     "night_pause_enabled": true,
-    "last_sweep_time": 1795623556.5545447,
+    "last_sweep_time": 1795623759.9700415,
     "last_sweep_times": {
-      "algeria": 1795623553.0325382,
-      "france": 1795623556.5545447
+      "algeria": 1795623757.3828776,
+      "france": 1795623759.9700415
     },
     "last_deal_post_times": {
-      "algeria": 1795623324.047921
+      "algeria": 1795623757.4353294
     }
   },
   "last_coin_reminder_time": 1795433324.042843,
@@ -34913,7 +34928,8 @@
     "1005006994616533": "lodydeals",
     "TAJMI3AT_aniscoupons_35628": "aniscoupons",
     "TAJMI3AT_aniscoupons_35637": "aniscoupons",
-    "1005013418407141": "lodydeals"
+    "1005013418407141": "lodydeals",
+    "1005010653156898": "aniscoupons"
   },
   "published_title_channels": {
     "Test Wrench Set": "test_channel",
@@ -36178,7 +36194,8 @@
     "Adapter 7 in 1 Type C Hub": "lodydeals",
     "SoundPEATS C30 ANC -52dB": "lodydeals",
     "📢": "aniscoupons",
-    "Soundpeats Q3 Pro ANC": "lodydeals"
+    "Soundpeats Q3 Pro ANC": "lodydeals",
+    "Q86 WIRELESS EARBUDS": "aniscoupons"
   },
   "religious_reminders_history": {
     "mock_rem": "2026-10-02",
