@@ -943,7 +943,8 @@
     "1005010653156898",
     "TAJMI3AT_lodydeals_46904",
     "1005013311318316",
-    "TAJMI3AT_lodydeals_46911"
+    "TAJMI3AT_lodydeals_46911",
+    "1005013511994544"
   ],
   "published_product_timestamps": {
     "1005012973772517": 1794500732.7845657,
@@ -1341,7 +1342,7 @@
     "1005010529440901": 1793361918.107678,
     "1005010035309013": 1793554752.7954907,
     "1005010385472500": 1793448762.165183,
-    "1005011779814585": 1795522633.6280665,
+    "1005011779814585": 1795650488.5499628,
     "1005013090910574": 1794340346.0747576,
     "1005012382148199": 1793500800.6950834,
     "1005010158485058": 1793543612.279949,
@@ -1443,7 +1444,7 @@
     "1005009980316035": 1793542552.2730343,
     "1005005905462505": 1795601143.9181204,
     "1005008248133489": 1794475825.54016,
-    "1005008684239370": 1795111968.5056303,
+    "1005008684239370": 1795650503.7249205,
     "1005011583202464": 1794913864.041144,
     "1005009921069024": 1793542597.6187797,
     "1005009916209766": 1794167239.3538153,
@@ -1905,7 +1906,8 @@
     "1005010653156898": 1795623753.9870079,
     "TAJMI3AT_lodydeals_46904": 1795630463.6559675,
     "1005013311318316": 1795642207.2861652,
-    "TAJMI3AT_lodydeals_46911": 1795642940.4631746
+    "TAJMI3AT_lodydeals_46911": 1795642940.4631746,
+    "1005013511994544": 1795650497.61249
   },
   "published_titles": [
     "Wireless WiFi Repeater 300Mbps WiFi Extender Amplifier Booster Router",
@@ -3646,13 +3648,13 @@
     "OPPO A7 PRO MAX  (8/128)": 1793399619.8124897,
     "وحش الأخر": 1793448843.5220337,
     "OnePlus ACE 6T 12/256": 1793613338.6107306,
-    "AMD Ryzen 7 9700X": 1795522633.6280665,
+    "AMD Ryzen 7 9700X": 1795650488.5499628,
     "JUHOR DDR5 RAM 6000MHz 16GBx2": 1793441297.4632108,
     "KingSpec DDR5 RGB RAM 16GBX2 6000 MHz": 1793441302.3527575,
     "ViVO iQOO Neo 11 Ultra 12/256": 1793971934.3600886,
     "VIVO X200 Pro 12/256": 1793441338.6619778,
     "HONOR 600S 8/256": 1793441343.47375,
-    "OnePlus Turbo 6X Pro 8/128": 1793441350.359979,
+    "OnePlus Turbo 6X Pro 8/128": 1795650497.61249,
     "Soundcore by Anker Life Q30 Hybrid Active Noise Cancelling Headphones": 1793448587.6507976,
     "بروجكتور Magcubic HY300 max – أوتو فوكس، Android 14، إضاءة 400 ANSI": 1793448612.7938895,
     "MAONO PD100X Dynamic Microphone": 1795604607.1627202,
@@ -3996,7 +3998,7 @@
     "HONOR Pad X8a (4/64GB)": 1794683885.7547128,
     "Magcubic HY350 Max 900ANSI": 1794476813.180707,
     "Honor X9d (no charger)": 1794990160.20343,
-    "MAONO Wave T1 Mini Pro Wireless Lavalier Microphone": 1795004027.2503812,
+    "MAONO Wave T1 Mini Pro Wireless Lavalier Microphone": 1795650503.7249205,
     "ميكروفون MAONO DGM20W لاسلكي للألعاب – تقليل الضوضاء مع إضاءة RGB، مثالي للبث المباشر والتسجيل والأل": 1793976348.7503736,
     "Ulanzi A21 Wireless Lavalier Microphone": 1793977272.9654846,
     "ميكروفون Ulanzi A100 لاسلكي صغير": 1795257430.9310815,
@@ -4439,9 +4441,6 @@
     "تجميعة عروض هواتف iPhone مستعملة": 1795642940.4631746
   },
   "published_post_keys": [
-    "zedstoreonline:40091",
-    "zedstoreonline:40092",
-    "aniscoupons:34813",
     "zedstoreonline:40094",
     "zedstoreonline:40095",
     "aniscoupons:34815",
@@ -5438,11 +5437,14 @@
     "ecksdeal:6140",
     "lodydeals:46911",
     "aniscoupons:35658",
-    "zedstoreonline:40706"
+    "zedstoreonline:40706",
+    "zedstoreonline:40707",
+    "zedstoreonline:40708",
+    "zedstoreonline:40709"
   ],
   "last_disclaimer_time": 1794524540.9476151,
   "last_calendar_time": 1795177633.1203737,
-  "last_run_time": 1795649593.3261847,
+  "last_run_time": 1795650503.7249205,
   "monitored_channels": {
     "ecksdeal": {
       "last_message_id": 6140,
@@ -5469,8 +5471,8 @@
       "last_check_time": 1793599663.3444748
     },
     "zedstoreonline": {
-      "last_message_id": 40706,
-      "last_check_time": 1795649598.6036024
+      "last_message_id": 40709,
+      "last_check_time": 1795650505.8412228
     },
     "aniscoupons": {
       "last_message_id": 35659,
@@ -5788,7 +5790,7 @@
     "1005010529440901": 59.8,
     "1005010035309013": 72.89,
     "1005010385472500": 40.0,
-    "1005011779814585": 179.0,
+    "1005011779814585": 191.0,
     "1005013090910574": 192.7,
     "1005012382148199": 469.0,
     "1005010158485058": 66.5,
@@ -5885,7 +5887,7 @@
     "1005009980316035": 25.85,
     "1005005905462505": 49.4,
     "1005008248133489": 15.61,
-    "1005008684239370": 9.2,
+    "1005008684239370": 10.2,
     "1005011583202464": 58.4,
     "1005009921069024": 12.85,
     "1005009916209766": 27.14,
@@ -6307,7 +6309,8 @@
     "1005006994616533": 3.89,
     "1005013418407141": 9.18,
     "1005010653156898": 3.0,
-    "1005013311318316": 20.79
+    "1005013311318316": 20.79,
+    "1005013511994544": 248.8
   },
   "channel_published_deals": {
     "aniscoupons:32590": {
@@ -34272,6 +34275,36 @@
       "price": 79.6,
       "timestamp": 1795649593.3261847,
       "status": "ACTIVE"
+    },
+    "zedstoreonline:40707": {
+      "channel_msg_id": 3744,
+      "product_id": "1005011779814585",
+      "title": "AMD Ryzen 7 9700X",
+      "channel": "zedstoreonline",
+      "source_msg_id": 40707,
+      "price": 191.0,
+      "timestamp": 1795650488.5499628,
+      "status": "ACTIVE"
+    },
+    "zedstoreonline:40708": {
+      "channel_msg_id": 3745,
+      "product_id": "1005013511994544",
+      "title": "OnePlus Turbo 6X Pro 8/128",
+      "channel": "zedstoreonline",
+      "source_msg_id": 40708,
+      "price": 248.8,
+      "timestamp": 1795650497.61249,
+      "status": "ACTIVE"
+    },
+    "zedstoreonline:40709": {
+      "channel_msg_id": 3746,
+      "product_id": "1005008684239370",
+      "title": "MAONO Wave T1 Mini Pro Wireless Lavalier Microphone",
+      "channel": "zedstoreonline",
+      "source_msg_id": 40709,
+      "price": 10.2,
+      "timestamp": 1795650503.7249205,
+      "status": "ACTIVE"
     }
   },
   "schedule_config": {
@@ -34280,17 +34313,17 @@
     "current_interval_minutes": 5,
     "is_paused": false,
     "night_mode_enabled": true,
-    "last_deal_post_time": 1795649600.37184,
+    "last_deal_post_time": 1795650508.1954665,
     "night_start_hour_dz": 0,
     "night_end_hour_dz": 8,
     "night_pause_enabled": true,
-    "last_sweep_time": 1795649602.9489613,
+    "last_sweep_time": 1795650511.4821656,
     "last_sweep_times": {
-      "algeria": 1795649600.329371,
-      "france": 1795649602.9489613
+      "algeria": 1795650508.1443932,
+      "france": 1795650511.4821656
     },
     "last_deal_post_times": {
-      "algeria": 1795649600.37184
+      "algeria": 1795650508.1954665
     }
   },
   "last_coin_reminder_time": 1795648937.9274871,
@@ -34803,7 +34836,7 @@
     "1005009980316035": "ecksdeal",
     "1005005905462505": "zedstoreonline",
     "1005008248133489": "lodydeals",
-    "1005008684239370": "bnddeals",
+    "1005008684239370": "zedstoreonline",
     "1005011583202464": "zedstoreonline",
     "1005009921069024": "ecksdeal",
     "1005009916209766": "aniscoupons",
@@ -35247,7 +35280,8 @@
     "1005010653156898": "aniscoupons",
     "TAJMI3AT_lodydeals_46904": "lodydeals",
     "1005013311318316": "ecksdeal",
-    "TAJMI3AT_lodydeals_46911": "lodydeals"
+    "TAJMI3AT_lodydeals_46911": "lodydeals",
+    "1005013511994544": "zedstoreonline"
   },
   "published_title_channels": {
     "Test Wrench Set": "test_channel",
@@ -39032,19 +39066,7 @@
         "price": 18.2
       }
     ],
-    "1005009120961416": [
-      {
-        "channel": "aniscoupons",
-        "ts": 1795606571.7036827,
-        "price": 212.1
-      }
-    ],
     "1005013621783525": [
-      {
-        "channel": "aniscoupons",
-        "ts": 1795606938.7743552,
-        "price": 29.9
-      },
       {
         "channel": "aniscoupons",
         "ts": 1795632661.5607011,
@@ -39309,6 +39331,20 @@
         "channel": "aniscoupons",
         "ts": 1795643304.7223053,
         "price": 10.6
+      }
+    ],
+    "1005011779814585": [
+      {
+        "channel": "zedstoreonline",
+        "ts": 1795650485.5824804,
+        "price": 191.0
+      }
+    ],
+    "1005008684239370": [
+      {
+        "channel": "zedstoreonline",
+        "ts": 1795650500.9118867,
+        "price": 10.2
       }
     ]
   },
