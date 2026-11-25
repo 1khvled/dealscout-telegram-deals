@@ -1882,7 +1882,7 @@
     "COUPONBULLETIN_zedstoreonline_40639": 1795525562.3674622,
     "1005008304362437": 1795526475.8421245,
     "1005006995294624": 1795527391.8790212,
-    "1005012899783721": 1795601162.9467356,
+    "1005012899783721": 1795623320.9110665,
     "1005013423776757": 1795603012.8186684,
     "1005012383444183": 1795601102.9143867,
     "1005013519635614": 1795546736.9831076,
@@ -4397,7 +4397,7 @@
     "SomnAmbulist SSD 120Gb": 1795524460.0087192,
     "سماعات الاذن KZ EDX PRO X": 1795527391.8790212,
     "طابعة XL-P801 الحرارية المتنقلة: طباعة A4 فورية، قابلة لإعادة": 1795535124.479775,
-    "TCL Alcatel 1023": 1795601162.9467356,
+    "TCL Alcatel 1023": 1795623320.9110665,
     "ULTRALIGHT TRAVEL HAMMOCK": 1795540462.4924362,
     "OPPO Enco Buds3 True Wireless Earbuds": 1795540647.657338,
     "Digital weight scale": 1795546908.1570234,
@@ -4421,7 +4421,6 @@
     "Soundpeats Q3 Pro ANC": 1795620610.006522
   },
   "published_post_keys": [
-    "zedstoreonline:40058",
     "aniscoupons:34791",
     "zedstoreonline:40060",
     "aniscoupons:34793",
@@ -5420,11 +5419,12 @@
     "zedstoreonline:40697",
     "aniscoupons:35635",
     "aniscoupons:35637",
-    "lodydeals:46901"
+    "lodydeals:46901",
+    "aniscoupons:35638"
   ],
   "last_disclaimer_time": 1794524540.9476151,
   "last_calendar_time": 1795177633.1203737,
-  "last_run_time": 1795620610.006522,
+  "last_run_time": 1795623320.9110665,
   "monitored_channels": {
     "ecksdeal": {
       "last_message_id": 6130,
@@ -5451,12 +5451,12 @@
       "last_check_time": 1793599663.3444748
     },
     "zedstoreonline": {
-      "last_message_id": 40697,
-      "last_check_time": 1795618167.7235138
+      "last_message_id": 40698,
+      "last_check_time": 1795623316.9643426
     },
     "aniscoupons": {
-      "last_message_id": 35637,
-      "last_check_time": 1795620241.7099805
+      "last_message_id": 35638,
+      "last_check_time": 1795623323.0051477
     },
     "bnddeals": {
       "last_message_id": 51412,
@@ -6275,7 +6275,7 @@
     "1005007035077896": 8.4,
     "1005008304362437": 26.26,
     "1005006995294624": 12.87,
-    "1005012899783721": 5.85,
+    "1005012899783721": 6.84,
     "1005013423776757": 3.52,
     "1005012383444183": 22.3,
     "1005013519635614": 273.26,
@@ -33932,6 +33932,16 @@
       "price": 9.18,
       "timestamp": 1795620610.006522,
       "status": "ACTIVE"
+    },
+    "aniscoupons:35638": {
+      "channel_msg_id": 3710,
+      "product_id": "1005012899783721",
+      "title": "TCL Alcatel 1023",
+      "channel": "aniscoupons",
+      "source_msg_id": 35638,
+      "price": 6.84,
+      "timestamp": 1795623320.9110665,
+      "status": "ACTIVE"
     }
   },
   "schedule_config": {
@@ -33940,17 +33950,17 @@
     "current_interval_minutes": 5,
     "is_paused": false,
     "night_mode_enabled": true,
-    "last_deal_post_time": 1795620615.9683778,
+    "last_deal_post_time": 1795623324.047921,
     "night_start_hour_dz": 0,
     "night_end_hour_dz": 8,
     "night_pause_enabled": true,
-    "last_sweep_time": 1795621345.5340245,
+    "last_sweep_time": 1795623326.5083823,
     "last_sweep_times": {
-      "algeria": 1795621342.8940237,
-      "france": 1795621345.5340245
+      "algeria": 1795623324.006178,
+      "france": 1795623326.5083823
     },
     "last_deal_post_times": {
-      "algeria": 1795620615.9683778
+      "algeria": 1795623324.047921
     }
   },
   "last_coin_reminder_time": 1795433324.042843,
@@ -36966,7 +36976,6 @@
   "published_deals_history": {},
   "settings": {},
   "handled_post_keys": [
-    "lodydeals:46466",
     "lodydeals:46467",
     "lodydeals:46469",
     "lodydeals:46470",
@@ -37965,7 +37974,8 @@
     "aniscoupons:35631",
     "aniscoupons:35634",
     "aniscoupons:35636",
-    "aniscoupons:35637"
+    "aniscoupons:35637",
+    "zedstoreonline:40698"
   ],
   "last_france_cross_promo_time": 1795501542.8708572,
   "next_france_cross_promo_interval_seconds": 208574,
@@ -38641,6 +38651,11 @@
         "channel": "lodydeals",
         "ts": 1795603219.7382743,
         "price": 5.85
+      },
+      {
+        "channel": "aniscoupons",
+        "ts": 1795623318.791891,
+        "price": 6.84
       }
     ],
     "1005012172081619": [
