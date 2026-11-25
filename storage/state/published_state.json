@@ -1245,7 +1245,7 @@
     "1005011904443903": 1792191309.9832015,
     "1005013137396211": 1792191325.4876726,
     "1005012575455222": 1795182900.2959979,
-    "1005013096683979": 1792200008.0113943,
+    "1005013096683979": 1795639824.2945144,
     "1005012398164621": 1792200023.6138296,
     "9998883879": 1792283879.5049274,
     "9998884227": 1792284227.7376266,
@@ -3487,7 +3487,7 @@
     "HAYLOU FlowLoop S33 Wireless Headphones 45dB ANC Hi-Res LDAC 100h Playtime": 1792180560.6961818,
     "HAYLOU Solar Neo 2 Voice Calling Smartwatch  AMOLED": 1792181063.4419804,
     "K500-B61 Machenike  Mechanical Keybaord 61Keys Gaming RGB": 1792181648.7159212,
-    "يد تحكم  GameSir Tarantula 8K TMR": 1792200008.0113943,
+    "يد تحكم  GameSir Tarantula 8K TMR": 1795639824.2945144,
     "HONOR 600S (8/256)": 1793362040.355753,
     "HONOR WIN TURBO (12/256)": 1793467325.6103923,
     "Latest USB‑Charged Smart Body Fat Scale Accurate Household Mini Digital": 1792233107.1523154,
@@ -4431,7 +4431,6 @@
     "Anker 100W USB C Charger": 1795631548.7472386
   },
   "published_post_keys": [
-    "aniscoupons:34809",
     "zedstoreonline:40081",
     "zedstoreonline:40082",
     "aniscoupons:34810",
@@ -5430,15 +5429,16 @@
     "aniscoupons:35651",
     "aniscoupons:35652",
     "aniscoupons:35653",
-    "zedstoreonline:40703"
+    "zedstoreonline:40703",
+    "ecksdeal:6132"
   ],
   "last_disclaimer_time": 1794524540.9476151,
   "last_calendar_time": 1795177633.1203737,
-  "last_run_time": 1795638901.367554,
+  "last_run_time": 1795639824.2945144,
   "monitored_channels": {
     "ecksdeal": {
-      "last_message_id": 6131,
-      "last_check_time": 1795639074.5166137
+      "last_message_id": 6132,
+      "last_check_time": 1795639826.3979955
     },
     "lodydeals": {
       "last_message_id": 46910,
@@ -5636,7 +5636,7 @@
     "1005013052800596": 1.45,
     "1005007331316456": 17.6,
     "1005007822635375": 20.9,
-    "1005013096683979": 54.68,
+    "1005013096683979": 80.0,
     "1005006838055260": 1.81,
     "1005006923518929": 0.84,
     "1005008379012998": 38.98,
@@ -34143,6 +34143,16 @@
       "price": 49.3,
       "timestamp": 1795638901.367554,
       "status": "ACTIVE"
+    },
+    "ecksdeal:6132": {
+      "channel_msg_id": 3731,
+      "product_id": "1005013096683979",
+      "title": "يد تحكم  GameSir Tarantula 8K TMR",
+      "channel": "ecksdeal",
+      "source_msg_id": 6132,
+      "price": 80.0,
+      "timestamp": 1795639824.2945144,
+      "status": "ACTIVE"
     }
   },
   "schedule_config": {
@@ -34151,17 +34161,17 @@
     "current_interval_minutes": 5,
     "is_paused": false,
     "night_mode_enabled": true,
-    "last_deal_post_time": 1795638905.4511375,
+    "last_deal_post_time": 1795639828.7876525,
     "night_start_hour_dz": 0,
     "night_end_hour_dz": 8,
     "night_pause_enabled": true,
-    "last_sweep_time": 1795639631.7008963,
+    "last_sweep_time": 1795639831.5730658,
     "last_sweep_times": {
-      "algeria": 1795639629.3391855,
-      "france": 1795639631.7008963
+      "algeria": 1795639828.7440152,
+      "france": 1795639831.5730658
     },
     "last_deal_post_times": {
-      "algeria": 1795638905.4511375
+      "algeria": 1795639828.7876525
     }
   },
   "last_coin_reminder_time": 1795433324.042843,
@@ -39379,6 +39389,13 @@
         "channel": "aniscoupons",
         "ts": 1795636332.5080545,
         "price": 41.8
+      }
+    ],
+    "1005013096683979": [
+      {
+        "channel": "ecksdeal",
+        "ts": 1795639821.65594,
+        "price": 80.0
       }
     ]
   },
