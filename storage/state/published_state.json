@@ -34009,10 +34009,10 @@
     "night_start_hour_dz": 0,
     "night_end_hour_dz": 8,
     "night_pause_enabled": true,
-    "last_sweep_time": 1795628030.7198884,
+    "last_sweep_time": 1795628219.2598433,
     "last_sweep_times": {
-      "algeria": 1795628027.7012446,
-      "france": 1795628030.7198884
+      "algeria": 1795628216.335958,
+      "france": 1795628219.2598433
     },
     "last_deal_post_times": {
       "algeria": 1795627859.4162617
@@ -37027,8 +37027,8 @@
     "END_ALERT_11.11_202611",
     "LAUNCH_ALERT_black_friday_and_cyber_monday_202611"
   ],
-  "last_card_affiliate_time_dz": 1795541745.4339943,
-  "card_affiliate_variant_idx_dz": 2,
+  "last_card_affiliate_time_dz": 1795628204.5835056,
+  "card_affiliate_variant_idx_dz": 0,
   "last_tajmi3at_published_time": 1793910650.2404215,
   "published_deals_history": {},
   "settings": {},
