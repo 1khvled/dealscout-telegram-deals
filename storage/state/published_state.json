@@ -1554,7 +1554,7 @@
     "1005012267973092": 1793649078.2559402,
     "1005010289640412": 1793649086.527061,
     "1005012287238561": 1793649096.7166712,
-    "1005012533449539": 1794845255.0683267,
+    "1005012533449539": 1795640742.5593226,
     "1005009178167326": 1793650772.8370051,
     "1005011742640729": 1794845615.4252245,
     "1005013154935332": 1795640555.0898597,
@@ -3900,7 +3900,7 @@
     "ماوسباد زجاجي Attack Shark CM05SE Tempred Glass": 1793649078.2559402,
     "يد تحكم فخمة  Flydigi Direwolf 4 Wireless Hall Effect": 1793649086.527061,
     "يد تحكم بالذكاء الاصطناعي 😂  LeadJoy Xeno Plus AI TMR": 1793649096.7166712,
-    "كيبورد ميكانيكي لاسلكي فخم  EPOMAKER x Aproz TH108 Wireless": 1794845255.0683267,
+    "كيبورد ميكانيكي لاسلكي فخم  EPOMAKER x Aproz TH108 Wireless": 1795640742.5593226,
     "كيبورد مغناطيسي فخم Epomaker HE68 Lite Magnetic 8K": 1793650772.8370051,
     "كيبورد مغناطيسي لاسلكي فخم Epomaker HE108 Wireless Magnetic 8K": 1794845615.4252245,
     "ماوسباد زجاجي Epomaker GP1 Tempered Glass": 1795640555.0898597,
@@ -4431,7 +4431,6 @@
     "Anker 100W USB C Charger": 1795631548.7472386
   },
   "published_post_keys": [
-    "zedstoreonline:40084",
     "zedstoreonline:40085",
     "zedstoreonline:40086",
     "aniscoupons:34811",
@@ -5430,15 +5429,16 @@
     "ecksdeal:6132",
     "aniscoupons:35654",
     "ecksdeal:6133",
-    "ecksdeal:6136"
+    "ecksdeal:6136",
+    "ecksdeal:6137"
   ],
   "last_disclaimer_time": 1794524540.9476151,
   "last_calendar_time": 1795177633.1203737,
-  "last_run_time": 1795640555.0898597,
+  "last_run_time": 1795640742.5593226,
   "monitored_channels": {
     "ecksdeal": {
-      "last_message_id": 6136,
-      "last_check_time": 1795640557.1608698
+      "last_message_id": 6137,
+      "last_check_time": 1795640744.6514328
     },
     "lodydeals": {
       "last_message_id": 46910,
@@ -5979,7 +5979,7 @@
     "1005013359761139": 75.6,
     "1005012267973092": 58.3,
     "1005012287238561": 44.5,
-    "1005012533449539": 40.71,
+    "1005012533449539": 38.91,
     "1005009178167326": 36.96,
     "1005011742640729": 75.8,
     "1005013154935332": 32.41,
@@ -34183,6 +34183,16 @@
       "price": 32.41,
       "timestamp": 1795640555.0898597,
       "status": "ACTIVE"
+    },
+    "ecksdeal:6137": {
+      "channel_msg_id": 3735,
+      "product_id": "1005012533449539",
+      "title": "كيبورد ميكانيكي لاسلكي فخم  EPOMAKER x Aproz TH108 Wireless",
+      "channel": "ecksdeal",
+      "source_msg_id": 6137,
+      "price": 38.91,
+      "timestamp": 1795640742.5593226,
+      "status": "ACTIVE"
     }
   },
   "schedule_config": {
@@ -34191,17 +34201,17 @@
     "current_interval_minutes": 5,
     "is_paused": false,
     "night_mode_enabled": true,
-    "last_deal_post_time": 1795640559.110227,
+    "last_deal_post_time": 1795640747.2962081,
     "night_start_hour_dz": 0,
     "night_end_hour_dz": 8,
     "night_pause_enabled": true,
-    "last_sweep_time": 1795640561.8169703,
+    "last_sweep_time": 1795640750.257113,
     "last_sweep_times": {
-      "algeria": 1795640559.0812082,
-      "france": 1795640561.8169703
+      "algeria": 1795640747.2549083,
+      "france": 1795640750.257113
     },
     "last_deal_post_times": {
-      "algeria": 1795640559.110227
+      "algeria": 1795640747.2962081
     }
   },
   "last_coin_reminder_time": 1795433324.042843,
@@ -39450,6 +39460,13 @@
         "channel": "ecksdeal",
         "ts": 1795640552.7133205,
         "price": 32.41
+      }
+    ],
+    "1005012533449539": [
+      {
+        "channel": "ecksdeal",
+        "ts": 1795640739.9654183,
+        "price": 38.91
       }
     ]
   },
