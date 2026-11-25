@@ -954,7 +954,7 @@
     "9998887952": 1790887952.6119926,
     "9998887972": 1790887972.157133,
     "100500777666555": 1793956903.3513582,
-    "1005011778621042": 1795521989.5259736,
+    "1005011778621042": 1795605667.9035742,
     "9998888080": 1790888080.3099577,
     "1005009234854371": 1793543664.66204,
     "1005006533038973": 1791104468.758226,
@@ -1773,7 +1773,7 @@
     "1005010376374580": 1794935234.6883996,
     "1005010239860751": 1794689616.7178488,
     "1005009278862695": 1795535124.479775,
-    "1005013005786079": 1795555387.9747143,
+    "1005013005786079": 1795605674.8363175,
     "1005008627811107": 1794694594.377669,
     "1005012892577195": 1794732862.0085351,
     "1005012594430190": 1795603018.6183126,
@@ -3326,7 +3326,7 @@
     "ATTACK SHARK X5": 1791106544.154073,
     "ATTACK SHARK X2 Pro": 1791106853.9447496,
     "ATTACK SHARK L80PRO Ultralight": 1791107750.295487,
-    "AMD Ryzen 7 5700X": 1795436902.7698905,
+    "AMD Ryzen 7 5700X": 1795605667.9035742,
     "هاتف ينسيك في شارجور🤣🤣": 1791109857.5190113,
     "CMF Smart Watch 3 pro AMOLED": 1795521764.6197999,
     "ATTACK SHARK V6 Tri-Mode": 1791110751.0808105,
@@ -4225,7 +4225,7 @@
     "FIFINE Wireless Lavalier Recording Microphone": 1794682951.3022494,
     "MCHOSE A7 V2 Ultra Gaming Mouse": 1794684619.3058665,
     "NETUM XL-P801 Thermal A4 Printer": 1794687391.0146728,
-    "Nothing Buds 2 Neo": 1795537887.5386431,
+    "Nothing Buds 2 Neo": 1795605674.8363175,
     "مقبس SONOFF ذكي بقوة 16A يتيح تشغيل وإيقاف الأجهزة الكهربائية عن": 1794689616.7178488,
     "Anker Soundcore P30i ANC": 1795249198.9372864,
     "Anker 735 GaN 3 Port 65W": 1795022632.7994065,
@@ -4411,8 +4411,6 @@
     "SoundPEATS C30 ANC -52dB": 1795603223.504592
   },
   "published_post_keys": [
-    "aniscoupons:34763",
-    "zedstoreonline:40051",
     "aniscoupons:34765",
     "aniscoupons:34766",
     "aniscoupons:34767",
@@ -5410,11 +5408,13 @@
     "lodydeals:46891",
     "zedstoreonline:40682",
     "aniscoupons:35621",
-    "zedstoreonline:40683"
+    "zedstoreonline:40683",
+    "zedstoreonline:40684",
+    "aniscoupons:35623"
   ],
   "last_disclaimer_time": 1794524540.9476151,
   "last_calendar_time": 1795177633.1203737,
-  "last_run_time": 1795605118.3528702,
+  "last_run_time": 1795605674.8363175,
   "monitored_channels": {
     "ecksdeal": {
       "last_message_id": 6130,
@@ -5441,12 +5441,12 @@
       "last_check_time": 1793599663.3444748
     },
     "zedstoreonline": {
-      "last_message_id": 40683,
-      "last_check_time": 1795605120.4353878
+      "last_message_id": 40684,
+      "last_check_time": 1795605670.0192666
     },
     "aniscoupons": {
-      "last_message_id": 35622,
-      "last_check_time": 1795605122.6811047
+      "last_message_id": 35623,
+      "last_check_time": 1795605676.9506788
     },
     "bnddeals": {
       "last_message_id": 51411,
@@ -6167,7 +6167,7 @@
     "1005010376374580": 20.4,
     "1005010239860751": 4.8,
     "1005009278862695": 32.9,
-    "1005013005786079": 18.2,
+    "1005013005786079": 18.29,
     "1005008627811107": 10.5,
     "1005012892577195": 16.27,
     "1005012594430190": 5.69,
@@ -33701,6 +33701,26 @@
       "price": 20.9,
       "timestamp": 1795605118.3528702,
       "status": "ACTIVE"
+    },
+    "zedstoreonline:40684": {
+      "channel_msg_id": 3688,
+      "product_id": "1005011778621042",
+      "title": "AMD Ryzen 7 5700X",
+      "channel": "zedstoreonline",
+      "source_msg_id": 40684,
+      "price": 119.5,
+      "timestamp": 1795605667.9035742,
+      "status": "ACTIVE"
+    },
+    "aniscoupons:35623": {
+      "channel_msg_id": 3689,
+      "product_id": "1005013005786079",
+      "title": "Nothing Buds 2 Neo",
+      "channel": "aniscoupons",
+      "source_msg_id": 35623,
+      "price": 18.29,
+      "timestamp": 1795605674.8363175,
+      "status": "ACTIVE"
     }
   },
   "schedule_config": {
@@ -33709,17 +33729,17 @@
     "current_interval_minutes": 5,
     "is_paused": false,
     "night_mode_enabled": true,
-    "last_deal_post_time": 1795605123.4778616,
+    "last_deal_post_time": 1795605678.1550424,
     "night_start_hour_dz": 0,
     "night_end_hour_dz": 8,
     "night_pause_enabled": true,
-    "last_sweep_time": 1795605480.1752162,
+    "last_sweep_time": 1795605681.6898263,
     "last_sweep_times": {
-      "algeria": 1795605477.0483491,
-      "france": 1795605480.1752162
+      "algeria": 1795605678.1090639,
+      "france": 1795605681.6898263
     },
     "last_deal_post_times": {
-      "algeria": 1795605123.4778616
+      "algeria": 1795605678.1550424
     }
   },
   "last_coin_reminder_time": 1795433324.042843,
@@ -33872,7 +33892,7 @@
     "1005007345108759": "ecksdeal",
     "1005007394028808": "lodydeals",
     "1005007394197021": "lodydeals",
-    "1005011778621042": "aniscoupons",
+    "1005011778621042": "zedstoreonline",
     "1005012571601398": "aniscoupons",
     "1005013290515237": "aniscoupons",
     "1005012264415744": "megaphonna",
@@ -34554,7 +34574,7 @@
     "1005010376374580": "zedstoreonline",
     "1005010239860751": "zedstoreonline",
     "1005009278862695": "zedstoreonline",
-    "1005013005786079": "zedstoreonline",
+    "1005013005786079": "aniscoupons",
     "1005008627811107": "ecksdeal",
     "1005012892577195": "lodydeals",
     "1005012594430190": "lodydeals",
@@ -38590,6 +38610,20 @@
         "channel": "zedstoreonline",
         "ts": 1795605115.6655,
         "price": 20.9
+      }
+    ],
+    "1005011778621042": [
+      {
+        "channel": "zedstoreonline",
+        "ts": 1795605665.002092,
+        "price": 119.5
+      }
+    ],
+    "1005013005786079": [
+      {
+        "channel": "aniscoupons",
+        "ts": 1795605672.2774715,
+        "price": 18.29
       }
     ]
   },
