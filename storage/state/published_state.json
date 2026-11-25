@@ -942,7 +942,8 @@
     "1005013418407141",
     "1005010653156898",
     "TAJMI3AT_lodydeals_46904",
-    "1005013311318316"
+    "1005013311318316",
+    "TAJMI3AT_lodydeals_46911"
   ],
   "published_product_timestamps": {
     "1005012973772517": 1794500732.7845657,
@@ -1903,7 +1904,8 @@
     "1005013418407141": 1795620610.006522,
     "1005010653156898": 1795623753.9870079,
     "TAJMI3AT_lodydeals_46904": 1795630463.6559675,
-    "1005013311318316": 1795642207.2861652
+    "1005013311318316": 1795642207.2861652,
+    "TAJMI3AT_lodydeals_46911": 1795642940.4631746
   },
   "published_titles": [
     "Wireless WiFi Repeater 300Mbps WiFi Extender Amplifier Booster Router",
@@ -3165,7 +3167,8 @@
     "Q86 WIRELESS EARBUDS",
     "من أفضل عروض هذه التخفيضات",
     "Anker 100W USB C Charger",
-    "سماعات اذن فخمة  Moondrop Position IEM"
+    "سماعات اذن فخمة  Moondrop Position IEM",
+    "تجميعة عروض هواتف iPhone مستعملة"
   ],
   "published_title_timestamps": {
     "Xiaomi Redmi Note 17 5G Global Version": 1790857823.0117362,
@@ -4432,10 +4435,10 @@
     "Q86 WIRELESS EARBUDS": 1795623753.9870079,
     "من أفضل عروض هذه التخفيضات": 1795630463.6559675,
     "Anker 100W USB C Charger": 1795631548.7472386,
-    "سماعات اذن فخمة  Moondrop Position IEM": 1795642207.2861652
+    "سماعات اذن فخمة  Moondrop Position IEM": 1795642207.2861652,
+    "تجميعة عروض هواتف iPhone مستعملة": 1795642940.4631746
   },
   "published_post_keys": [
-    "zedstoreonline:40087",
     "zedstoreonline:40089",
     "zedstoreonline:40090",
     "zedstoreonline:40091",
@@ -5434,19 +5437,20 @@
     "ecksdeal:6138",
     "aniscoupons:35655",
     "ecksdeal:6139",
-    "ecksdeal:6140"
+    "ecksdeal:6140",
+    "lodydeals:46911"
   ],
   "last_disclaimer_time": 1794524540.9476151,
   "last_calendar_time": 1795177633.1203737,
-  "last_run_time": 1795642207.2861652,
+  "last_run_time": 1795642940.4631746,
   "monitored_channels": {
     "ecksdeal": {
       "last_message_id": 6140,
       "last_check_time": 1795642209.5104144
     },
     "lodydeals": {
-      "last_message_id": 46910,
-      "last_check_time": 1795633214.3824077
+      "last_message_id": 46911,
+      "last_check_time": 1795642940.6737163
     },
     "test_channel": {
       "last_message_id": 1793967703,
@@ -34238,6 +34242,16 @@
       "price": 20.79,
       "timestamp": 1795642207.2861652,
       "status": "ACTIVE"
+    },
+    "lodydeals:46911": {
+      "channel_msg_id": 3740,
+      "product_id": "TAJMI3AT_lodydeals_46911",
+      "title": "تجميعة عروض هواتف iPhone مستعملة",
+      "channel": "lodydeals",
+      "source_msg_id": 46911,
+      "price": null,
+      "timestamp": 1795642940.4631746,
+      "status": "ACTIVE"
     }
   },
   "schedule_config": {
@@ -34246,17 +34260,17 @@
     "current_interval_minutes": 5,
     "is_paused": false,
     "night_mode_enabled": true,
-    "last_deal_post_time": 1795642212.2935839,
+    "last_deal_post_time": 1795642944.7932422,
     "night_start_hour_dz": 0,
     "night_end_hour_dz": 8,
     "night_pause_enabled": true,
-    "last_sweep_time": 1795642758.2531693,
+    "last_sweep_time": 1795642948.0491824,
     "last_sweep_times": {
-      "algeria": 1795642755.2393548,
-      "france": 1795642758.2531693
+      "algeria": 1795642944.740936,
+      "france": 1795642948.0491824
     },
     "last_deal_post_times": {
-      "algeria": 1795642212.2935839
+      "algeria": 1795642944.7932422
     }
   },
   "last_coin_reminder_time": 1795433324.042843,
@@ -35212,7 +35226,8 @@
     "1005013418407141": "lodydeals",
     "1005010653156898": "aniscoupons",
     "TAJMI3AT_lodydeals_46904": "lodydeals",
-    "1005013311318316": "ecksdeal"
+    "1005013311318316": "ecksdeal",
+    "TAJMI3AT_lodydeals_46911": "lodydeals"
   },
   "published_title_channels": {
     "Test Wrench Set": "test_channel",
@@ -36481,7 +36496,8 @@
     "Q86 WIRELESS EARBUDS": "aniscoupons",
     "من أفضل عروض هذه التخفيضات": "lodydeals",
     "Anker 100W USB C Charger": "lodydeals",
-    "سماعات اذن فخمة  Moondrop Position IEM": "ecksdeal"
+    "سماعات اذن فخمة  Moondrop Position IEM": "ecksdeal",
+    "تجميعة عروض هواتف iPhone مستعملة": "lodydeals"
   },
   "religious_reminders_history": {
     "mock_rem": "2026-10-02",
@@ -37279,7 +37295,6 @@
   "published_deals_history": {},
   "settings": {},
   "handled_post_keys": [
-    "aniscoupons:34825",
     "lodydeals:46483",
     "zedstoreonline:40104",
     "aniscoupons:34826",
@@ -38278,7 +38293,8 @@
     "ecksdeal:6135",
     "zedstoreonline:40704",
     "aniscoupons:35656",
-    "aniscoupons:35657"
+    "aniscoupons:35657",
+    "lodydeals:46911"
   ],
   "last_france_cross_promo_time": 1795501542.8708572,
   "next_france_cross_promo_interval_seconds": 208574,
@@ -39579,6 +39595,17 @@
         "https://s.click.aliexpress.com/e/_c4WwmKC1"
       ],
       "timestamp": 1795630463.6935716
+    },
+    {
+      "title": "تجميعة عروض هواتف iPhone مستعملة",
+      "links": [
+        "https://s.click.aliexpress.com/e/_c4O5qMH3",
+        "https://t.me/DzAliexpress0/3535",
+        "https://t.me/DzAliexpress0/3536",
+        "https://t.me/DzAliexpress0/3537",
+        "https://t.me/DzAliexpress0/3538"
+      ],
+      "timestamp": 1795642940.5161245
     }
   ]
 }
