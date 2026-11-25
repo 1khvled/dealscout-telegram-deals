@@ -944,7 +944,8 @@
     "TAJMI3AT_lodydeals_46904",
     "1005013311318316",
     "TAJMI3AT_lodydeals_46911",
-    "1005013511994544"
+    "1005013511994544",
+    "TAJMI3AT_aniscoupons_35659"
   ],
   "published_product_timestamps": {
     "1005012973772517": 1794500732.7845657,
@@ -1907,7 +1908,8 @@
     "TAJMI3AT_lodydeals_46904": 1795630463.6559675,
     "1005013311318316": 1795642207.2861652,
     "TAJMI3AT_lodydeals_46911": 1795642940.4631746,
-    "1005013511994544": 1795650497.61249
+    "1005013511994544": 1795650497.61249,
+    "TAJMI3AT_aniscoupons_35659": 1795651154.4471684
   },
   "published_titles": [
     "Wireless WiFi Repeater 300Mbps WiFi Extender Amplifier Booster Router",
@@ -3170,7 +3172,8 @@
     "من أفضل عروض هذه التخفيضات",
     "Anker 100W USB C Charger",
     "سماعات اذن فخمة  Moondrop Position IEM",
-    "تجميعة عروض هواتف iPhone مستعملة"
+    "تجميعة عروض هواتف iPhone مستعملة",
+    "😍"
   ],
   "published_title_timestamps": {
     "Xiaomi Redmi Note 17 5G Global Version": 1790857823.0117362,
@@ -4438,10 +4441,10 @@
     "من أفضل عروض هذه التخفيضات": 1795630463.6559675,
     "Anker 100W USB C Charger": 1795631548.7472386,
     "سماعات اذن فخمة  Moondrop Position IEM": 1795642207.2861652,
-    "تجميعة عروض هواتف iPhone مستعملة": 1795642940.4631746
+    "تجميعة عروض هواتف iPhone مستعملة": 1795642940.4631746,
+    "😍": 1795651154.4471684
   },
   "published_post_keys": [
-    "zedstoreonline:40094",
     "zedstoreonline:40095",
     "aniscoupons:34815",
     "zedstoreonline:40096",
@@ -5440,11 +5443,12 @@
     "zedstoreonline:40706",
     "zedstoreonline:40707",
     "zedstoreonline:40708",
-    "zedstoreonline:40709"
+    "zedstoreonline:40709",
+    "aniscoupons:35659"
   ],
   "last_disclaimer_time": 1794524540.9476151,
   "last_calendar_time": 1795177633.1203737,
-  "last_run_time": 1795650503.7249205,
+  "last_run_time": 1795651154.4471684,
   "monitored_channels": {
     "ecksdeal": {
       "last_message_id": 6140,
@@ -5476,7 +5480,7 @@
     },
     "aniscoupons": {
       "last_message_id": 35659,
-      "last_check_time": 1795646070.3165953
+      "last_check_time": 1795651154.4471684
     },
     "bnddeals": {
       "last_message_id": 51414,
@@ -34305,6 +34309,16 @@
       "price": 10.2,
       "timestamp": 1795650503.7249205,
       "status": "ACTIVE"
+    },
+    "aniscoupons:35659": {
+      "channel_msg_id": 3747,
+      "product_id": "TAJMI3AT_aniscoupons_35659",
+      "title": "😍",
+      "channel": "aniscoupons",
+      "source_msg_id": 35659,
+      "price": null,
+      "timestamp": 1795651154.4471684,
+      "status": "ACTIVE"
     }
   },
   "schedule_config": {
@@ -35281,7 +35295,8 @@
     "TAJMI3AT_lodydeals_46904": "lodydeals",
     "1005013311318316": "ecksdeal",
     "TAJMI3AT_lodydeals_46911": "lodydeals",
-    "1005013511994544": "zedstoreonline"
+    "1005013511994544": "zedstoreonline",
+    "TAJMI3AT_aniscoupons_35659": "aniscoupons"
   },
   "published_title_channels": {
     "Test Wrench Set": "test_channel",
@@ -36551,7 +36566,8 @@
     "من أفضل عروض هذه التخفيضات": "lodydeals",
     "Anker 100W USB C Charger": "lodydeals",
     "سماعات اذن فخمة  Moondrop Position IEM": "ecksdeal",
-    "تجميعة عروض هواتف iPhone مستعملة": "lodydeals"
+    "تجميعة عروض هواتف iPhone مستعملة": "lodydeals",
+    "😍": "aniscoupons"
   },
   "religious_reminders_history": {
     "mock_rem": "2026-10-02",
@@ -39395,6 +39411,19 @@
         "https://t.me/DzAliexpress0/3538"
       ],
       "timestamp": 1795642940.5161245
+    },
+    {
+      "title": "😍",
+      "links": [
+        "https://s.click.aliexpress.com/e/_c3s2PkXr",
+        "https://s.click.aliexpress.com/e/_c4E0tyG1",
+        "https://s.click.aliexpress.com/e/_c4EnTkTP",
+        "https://t.me/DzAliexpress0/3391",
+        "https://t.me/DzAliexpress0/3523",
+        "https://t.me/DzAliexpress0/3664",
+        "https://t.me/DzAliexpress0/3697"
+      ],
+      "timestamp": 1795651154.7069952
     }
   ]
 }
