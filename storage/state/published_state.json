@@ -1890,7 +1890,7 @@
     "1005013519635614": 1795546736.9831076,
     "33061115247": 1795547454.3449724,
     "1005012374298987": 1795608979.8632379,
-    "1005013583987856": 1795612099.1821136,
+    "1005013583987856": 1795633394.62872,
     "1005013621783525": 1795632663.7228992,
     "1005010637751071": 1795553355.383983,
     "COUPONBULLETIN_zedstoreonline_40658": 1795561391.491517,
@@ -4411,7 +4411,7 @@
     "Lefon F35 Wireless Mouse Vertical": 1795547454.3449724,
     "SoundPEATS Space Hybrid ANC": 1795547826.6655538,
     "Velec Tv Box 4/32GB": 1795608979.8632379,
-    "HONOR Watch X5 Play": 1795612099.1821136,
+    "HONOR Watch X5 Play": 1795633394.62872,
     "HONOR CHOICE Watch 6i": 1795632663.7228992,
     "Godox C01 Kit 2 Microphone Lavalier": 1795553355.383983,
     "CMF Buds Neo 12.4 mm Titanium‑coated Driver": 1795555387.9747143,
@@ -4431,7 +4431,6 @@
     "Anker 100W USB C Charger": 1795631548.7472386
   },
   "published_post_keys": [
-    "aniscoupons:34804",
     "lodydeals:46458",
     "zedstoreonline:40070",
     "zedstoreonline:40071",
@@ -5430,11 +5429,12 @@
     "lodydeals:46905",
     "lodydeals:46908",
     "aniscoupons:35646",
-    "lodydeals:46910"
+    "lodydeals:46910",
+    "aniscoupons:35647"
   ],
   "last_disclaimer_time": 1794524540.9476151,
   "last_calendar_time": 1795177633.1203737,
-  "last_run_time": 1795633212.2650673,
+  "last_run_time": 1795633394.62872,
   "monitored_channels": {
     "ecksdeal": {
       "last_message_id": 6130,
@@ -5465,8 +5465,8 @@
       "last_check_time": 1795631932.9271302
     },
     "aniscoupons": {
-      "last_message_id": 35646,
-      "last_check_time": 1795632665.8477342
+      "last_message_id": 35647,
+      "last_check_time": 1795633396.6999085
     },
     "bnddeals": {
       "last_message_id": 51414,
@@ -6291,7 +6291,7 @@
     "1005013519635614": 273.26,
     "33061115247": 10.09,
     "1005012374298987": 26.6,
-    "1005013583987856": 22.6,
+    "1005013583987856": 22.59,
     "1005013621783525": 29.9,
     "1005010637751071": 25.3,
     "1005006678271047": 6.09,
@@ -34063,6 +34063,16 @@
       "price": 71.99,
       "timestamp": 1795633212.2650673,
       "status": "ACTIVE"
+    },
+    "aniscoupons:35647": {
+      "channel_msg_id": 3723,
+      "product_id": "1005013583987856",
+      "title": "HONOR Watch X5 Play",
+      "channel": "aniscoupons",
+      "source_msg_id": 35647,
+      "price": 22.59,
+      "timestamp": 1795633394.62872,
+      "status": "ACTIVE"
     }
   },
   "schedule_config": {
@@ -34071,17 +34081,17 @@
     "current_interval_minutes": 5,
     "is_paused": false,
     "night_mode_enabled": true,
-    "last_deal_post_time": 1795633218.3132362,
+    "last_deal_post_time": 1795633397.7289572,
     "night_start_hour_dz": 0,
     "night_end_hour_dz": 8,
     "night_pause_enabled": true,
-    "last_sweep_time": 1795633221.3128517,
+    "last_sweep_time": 1795633400.1767392,
     "last_sweep_times": {
-      "algeria": 1795633218.2571256,
-      "france": 1795633221.3128517
+      "algeria": 1795633397.6953185,
+      "france": 1795633400.1767392
     },
     "last_deal_post_times": {
-      "algeria": 1795633218.3132362
+      "algeria": 1795633397.7289572
     }
   },
   "last_coin_reminder_time": 1795433324.042843,
@@ -35025,7 +35035,7 @@
     "1005013519635614": "aniscoupons",
     "33061115247": "lodydeals",
     "1005012374298987": "zedstoreonline",
-    "1005013583987856": "zedstoreonline",
+    "1005013583987856": "aniscoupons",
     "1005013621783525": "aniscoupons",
     "1005010637751071": "zedstoreonline",
     "COUPONBULLETIN_zedstoreonline_40658": "zedstoreonline",
@@ -36286,7 +36296,7 @@
     "Lefon F35 Wireless Mouse Vertical": "lodydeals",
     "SoundPEATS Space Hybrid ANC": "lodydeals",
     "Velec Tv Box 4/32GB": "zedstoreonline",
-    "HONOR Watch X5 Play": "zedstoreonline",
+    "HONOR Watch X5 Play": "aniscoupons",
     "HONOR CHOICE Watch 6i": "aniscoupons",
     "Godox C01 Kit 2 Microphone Lavalier": "zedstoreonline",
     "CMF Buds Neo 12.4 mm Titanium‑coated Driver": "zedstoreonline",
@@ -39122,6 +39132,11 @@
         "channel": "zedstoreonline",
         "ts": 1795612096.967841,
         "price": 22.6
+      },
+      {
+        "channel": "aniscoupons",
+        "ts": 1795633392.1694703,
+        "price": 22.59
       }
     ],
     "1005011754993234": [
