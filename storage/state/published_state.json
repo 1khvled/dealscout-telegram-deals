@@ -1864,7 +1864,7 @@
     "1005010680777854": 1795376024.6586418,
     "1005007893508418": 1795381174.309368,
     "1005004433755802": 1795382836.9089916,
-    "1005013572353302": 1795601186.566498,
+    "1005013572353302": 1795637251.147661,
     "1005012172081619": 1795601168.6454124,
     "1005007869625249": 1795629157.6468024,
     "1005013572273568": 1795633212.2650673,
@@ -4376,7 +4376,7 @@
     "CMF Buds Neo Titanium": 1795437264.8543983,
     "WALRAM 2.5  sata 512GB": 1795467838.0597904,
     "Zeblaze Btalk 4 Pro": 1795446097.3435004,
-    "HONOR Earbuds X10 Play": 1795601186.566498,
+    "HONOR Earbuds X10 Play": 1795637251.147661,
     "OPPO Enco Buds3 Pro True Wireless Earbuds": 1795601168.6454124,
     "Zeblaze Btalk 4 Pro Voice Calling Amoled": 1795463758.3094215,
     "CUSU RAM DDR4 3200MHz 16GB": 1795629157.6468024,
@@ -4431,7 +4431,6 @@
     "Anker 100W USB C Charger": 1795631548.7472386
   },
   "published_post_keys": [
-    "ecksdeal:6061",
     "lodydeals:46459",
     "aniscoupons:34809",
     "zedstoreonline:40081",
@@ -5430,11 +5429,12 @@
     "zedstoreonline:40702",
     "aniscoupons:35650",
     "aniscoupons:35651",
-    "aniscoupons:35652"
+    "aniscoupons:35652",
+    "aniscoupons:35653"
   ],
   "last_disclaimer_time": 1794524540.9476151,
   "last_calendar_time": 1795177633.1203737,
-  "last_run_time": 1795636334.8324802,
+  "last_run_time": 1795637251.147661,
   "monitored_channels": {
     "ecksdeal": {
       "last_message_id": 6130,
@@ -5465,8 +5465,8 @@
       "last_check_time": 1795634509.4645517
     },
     "aniscoupons": {
-      "last_message_id": 35652,
-      "last_check_time": 1795636336.9249172
+      "last_message_id": 35653,
+      "last_check_time": 1795637253.2638507
     },
     "bnddeals": {
       "last_message_id": 51414,
@@ -34123,6 +34123,16 @@
       "price": 41.8,
       "timestamp": 1795636334.8324802,
       "status": "ACTIVE"
+    },
+    "aniscoupons:35653": {
+      "channel_msg_id": 3729,
+      "product_id": "1005013572353302",
+      "title": "HONOR Earbuds X10 Play",
+      "channel": "aniscoupons",
+      "source_msg_id": 35653,
+      "price": 13.18,
+      "timestamp": 1795637251.147661,
+      "status": "ACTIVE"
     }
   },
   "schedule_config": {
@@ -34131,17 +34141,17 @@
     "current_interval_minutes": 5,
     "is_paused": false,
     "night_mode_enabled": true,
-    "last_deal_post_time": 1795636337.9664793,
+    "last_deal_post_time": 1795637254.5403605,
     "night_start_hour_dz": 0,
     "night_end_hour_dz": 8,
     "night_pause_enabled": true,
-    "last_sweep_time": 1795637062.4023802,
+    "last_sweep_time": 1795637257.2171907,
     "last_sweep_times": {
-      "algeria": 1795637059.6738188,
-      "france": 1795637062.4023802
+      "algeria": 1795637254.4809592,
+      "france": 1795637257.2171907
     },
     "last_deal_post_times": {
-      "algeria": 1795636337.9664793
+      "algeria": 1795637254.5403605
     }
   },
   "last_coin_reminder_time": 1795433324.042843,
@@ -38909,6 +38919,11 @@
       {
         "channel": "aniscoupons",
         "ts": 1795601183.6919909,
+        "price": 13.18
+      },
+      {
+        "channel": "aniscoupons",
+        "ts": 1795637248.7656364,
         "price": 13.18
       }
     ],
