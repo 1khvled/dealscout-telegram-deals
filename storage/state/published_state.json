@@ -1867,7 +1867,7 @@
     "1005013572353302": 1795601186.566498,
     "1005012172081619": 1795601168.6454124,
     "1005007869625249": 1795629157.6468024,
-    "1005013572273568": 1795476463.9675937,
+    "1005013572273568": 1795633212.2650673,
     "COUPONBULLETIN_lodydeals_46823": 1795474088.8029113,
     "1005006444231276": 1795501553.790957,
     "1005012841531067": 1795521179.58605,
@@ -4382,7 +4382,7 @@
     "CUSU RAM DDR4 3200MHz 16GB": 1795629157.6468024,
     "BOYA Mini 2 Wireless Lavalier Microphone": 1795466729.299068,
     "عودة المايك الأسطوري ما تراطيش": 1795467282.6052318,
-    "ADATA XPG DDR4 8GBx2 3200Mhz": 1795472795.5793128,
+    "ADATA XPG DDR4 8GBx2 3200Mhz": 1795633212.2650673,
     "أفضل مايك لصناعة المحتوى": 1795474088.8029113,
     "ADATA XPG DDR4 Ram  8GB×2 3200MHZ": 1795476463.9675937,
     "CUSU DDR4 16GB 3200MHz": 1795521167.1145995,
@@ -4431,7 +4431,6 @@
     "Anker 100W USB C Charger": 1795631548.7472386
   },
   "published_post_keys": [
-    "zedstoreonline:40067",
     "aniscoupons:34804",
     "lodydeals:46458",
     "zedstoreonline:40070",
@@ -5430,19 +5429,20 @@
     "lodydeals:46904",
     "lodydeals:46905",
     "lodydeals:46908",
-    "aniscoupons:35646"
+    "aniscoupons:35646",
+    "lodydeals:46910"
   ],
   "last_disclaimer_time": 1794524540.9476151,
   "last_calendar_time": 1795177633.1203737,
-  "last_run_time": 1795632663.7228992,
+  "last_run_time": 1795633212.2650673,
   "monitored_channels": {
     "ecksdeal": {
       "last_message_id": 6130,
       "last_check_time": 1795527393.9958658
     },
     "lodydeals": {
-      "last_message_id": 46908,
-      "last_check_time": 1795631733.0093648
+      "last_message_id": 46910,
+      "last_check_time": 1795633214.3824077
     },
     "test_channel": {
       "last_message_id": 1793967703,
@@ -6271,7 +6271,7 @@
     "1005013572353302": 13.18,
     "1005012172081619": 22.49,
     "1005007869625249": 82.7,
-    "1005013572273568": 76.8,
+    "1005013572273568": 71.99,
     "1005006444231276": 6.8,
     "1005012841531067": 171.97,
     "1005012927159948": 188.71,
@@ -34053,6 +34053,16 @@
       "price": 29.9,
       "timestamp": 1795632663.7228992,
       "status": "ACTIVE"
+    },
+    "lodydeals:46910": {
+      "channel_msg_id": 3722,
+      "product_id": "1005013572273568",
+      "title": "ADATA XPG DDR4 8GBx2 3200Mhz",
+      "channel": "lodydeals",
+      "source_msg_id": 46910,
+      "price": 71.99,
+      "timestamp": 1795633212.2650673,
+      "status": "ACTIVE"
     }
   },
   "schedule_config": {
@@ -34061,17 +34071,17 @@
     "current_interval_minutes": 5,
     "is_paused": false,
     "night_mode_enabled": true,
-    "last_deal_post_time": 1795632667.0217907,
+    "last_deal_post_time": 1795633218.3132362,
     "night_start_hour_dz": 0,
     "night_end_hour_dz": 8,
     "night_pause_enabled": true,
-    "last_sweep_time": 1795633027.881001,
+    "last_sweep_time": 1795633221.3128517,
     "last_sweep_times": {
-      "algeria": 1795633024.702141,
-      "france": 1795633027.881001
+      "algeria": 1795633218.2571256,
+      "france": 1795633221.3128517
     },
     "last_deal_post_times": {
-      "algeria": 1795632667.0217907
+      "algeria": 1795633218.3132362
     }
   },
   "last_coin_reminder_time": 1795433324.042843,
@@ -34992,7 +35002,7 @@
     "1005013572353302": "aniscoupons",
     "1005012172081619": "aniscoupons",
     "1005007869625249": "aniscoupons",
-    "1005013572273568": "aniscoupons",
+    "1005013572273568": "lodydeals",
     "COUPONBULLETIN_lodydeals_46823": "lodydeals",
     "1005006444231276": "zedstoreonline",
     "1005012841531067": "lodydeals",
@@ -39235,6 +39245,13 @@
         "channel": "lodydeals",
         "ts": 1795631546.47282,
         "price": 51.11
+      }
+    ],
+    "1005013572273568": [
+      {
+        "channel": "lodydeals",
+        "ts": 1795633209.6659276,
+        "price": 71.99
       }
     ]
   },
