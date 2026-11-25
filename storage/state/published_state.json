@@ -1819,7 +1819,7 @@
     "1005012408109331": 1795102336.0045958,
     "1005013304783085": 1795103262.750217,
     "1005013633649876": 1795104359.6206825,
-    "1005012274502051": 1795605118.3528702,
+    "1005012274502051": 1795626901.9106421,
     "1005013603023857": 1795290161.6076646,
     "1005009693337727": 1795344822.4527907,
     "1005013497504096": 1795546908.1570234,
@@ -3758,7 +3758,7 @@
     "Redmi Note 17 4G 4/128GB": 1793793714.105913,
     "OnePlus Turbo 6V  8/256GB": 1795184387.5053294,
     "QCY VN200 Pro 7.1 Wired": 1793656271.0286891,
-    "UGREEN Nexode Air 65W GaN": 1795111028.5315912,
+    "UGREEN Nexode Air 65W GaN": 1795626901.9106421,
     "Honor WIN RT 5G 12/256GB": 1793543733.1622994,
     "OnePlus 13T 5G 12/256GB": 1793543747.3776598,
     "OnePlus 13 5G 12/256GB": 1793543755.5335042,
@@ -4425,7 +4425,6 @@
     "Q86 WIRELESS EARBUDS": 1795623753.9870079
   },
   "published_post_keys": [
-    "aniscoupons:34793",
     "aniscoupons:34794",
     "zedstoreonline:40062",
     "aniscoupons:34796",
@@ -5424,19 +5423,20 @@
     "lodydeals:46901",
     "aniscoupons:35638",
     "aniscoupons:35639",
-    "aniscoupons:35644"
+    "aniscoupons:35644",
+    "lodydeals:46902"
   ],
   "last_disclaimer_time": 1794524540.9476151,
   "last_calendar_time": 1795177633.1203737,
-  "last_run_time": 1795625617.7668018,
+  "last_run_time": 1795626901.9106421,
   "monitored_channels": {
     "ecksdeal": {
       "last_message_id": 6130,
       "last_check_time": 1795527393.9958658
     },
     "lodydeals": {
-      "last_message_id": 46901,
-      "last_check_time": 1795620612.1224346
+      "last_message_id": 46902,
+      "last_check_time": 1795626904.0245044
     },
     "test_channel": {
       "last_message_id": 1793967703,
@@ -6221,7 +6221,7 @@
     "1005012408109331": 661.2,
     "1005013304783085": 597.9,
     "1005013633649876": 12.9,
-    "1005012274502051": 20.9,
+    "1005012274502051": 20.96,
     "1005013603023857": 42.14,
     "1005009693337727": 113.1,
     "1005013497504096": 3.5,
@@ -33967,6 +33967,16 @@
       "price": 11.1,
       "timestamp": 1795625617.7668018,
       "status": "ACTIVE"
+    },
+    "lodydeals:46902": {
+      "channel_msg_id": 3713,
+      "product_id": "1005012274502051",
+      "title": "UGREEN Nexode Air 65W GaN",
+      "channel": "lodydeals",
+      "source_msg_id": 46902,
+      "price": 20.96,
+      "timestamp": 1795626901.9106421,
+      "status": "ACTIVE"
     }
   },
   "schedule_config": {
@@ -33975,17 +33985,17 @@
     "current_interval_minutes": 5,
     "is_paused": false,
     "night_mode_enabled": true,
-    "last_deal_post_time": 1795625620.8210347,
+    "last_deal_post_time": 1795626907.7281945,
     "night_start_hour_dz": 0,
     "night_end_hour_dz": 8,
     "night_pause_enabled": true,
-    "last_sweep_time": 1795626725.7524333,
+    "last_sweep_time": 1795626910.3477368,
     "last_sweep_times": {
-      "algeria": 1795626723.601328,
-      "france": 1795626725.7524333
+      "algeria": 1795626907.6788561,
+      "france": 1795626910.3477368
     },
     "last_deal_post_times": {
-      "algeria": 1795625620.8210347
+      "algeria": 1795626907.7281945
     }
   },
   "last_coin_reminder_time": 1795433324.042843,
@@ -34861,7 +34871,7 @@
     "1005012408109331": "aniscoupons",
     "1005013304783085": "aniscoupons",
     "1005013633649876": "aniscoupons",
-    "1005012274502051": "zedstoreonline",
+    "1005012274502051": "lodydeals",
     "1005013603023857": "lodydeals",
     "1005009693337727": "lodydeals",
     "1005013497504096": "zedstoreonline",
@@ -38923,6 +38933,11 @@
         "channel": "aniscoupons",
         "ts": 1795618528.7891934,
         "price": 20.9
+      },
+      {
+        "channel": "lodydeals",
+        "ts": 1795626899.71011,
+        "price": 20.96
       }
     ],
     "1005011778621042": [
