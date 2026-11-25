@@ -22,8 +22,8 @@
   "flow_target": 24.0,
   "channel_stats": {
     "lodydeals": {
-      "seen": 206,
-      "published": 196,
+      "seen": 207,
+      "published": 197,
       "skipped": 0,
       "ewma": 0.9994
     },
@@ -78,10 +78,10 @@
       "ewma": 0.9988
     },
     "accessories": {
-      "seen": 56,
-      "published": 41,
+      "seen": 57,
+      "published": 42,
       "skipped": 0,
-      "ewma": 0.9836
+      "ewma": 0.9849
     },
     "audio": {
       "seen": 59,
@@ -1240,7 +1240,8 @@
       51.15,
       51.15,
       51.15,
-      51.15
+      51.15,
+      51.11
     ],
     "1005006782790827": [
       47.5,
@@ -2050,23 +2051,15 @@
     ]
   },
   "counters": {
-    "scored": 1611,
-    "verdict_publish": 1539,
+    "scored": 1612,
+    "verdict_publish": 1540,
     "verdict_hold": 71,
     "verdict_skip": 1,
-    "published": 1297,
+    "published": 1298,
     "skipped": 0
   },
-  "score_sum": 117749.11,
+  "score_sum": 117825.41,
   "recent_decisions": [
-    {
-      "ts": 1795372534,
-      "channel": "aniscoupons",
-      "category": "other",
-      "product_id": "1005006990064696",
-      "score": 81.38,
-      "verdict": "publish"
-    },
     {
       "ts": 1795376022,
       "channel": "bnddeals",
@@ -3658,7 +3651,15 @@
       "product_id": "1005007869625249",
       "score": 65.18,
       "verdict": "publish"
+    },
+    {
+      "ts": 1795631546,
+      "channel": "lodydeals",
+      "category": "accessories",
+      "product_id": "1005010498953493",
+      "score": 76.3,
+      "verdict": "publish"
     }
   ],
-  "updated_at": 1795629157.7090497
+  "updated_at": 1795631548.8301826
 }

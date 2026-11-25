@@ -1388,7 +1388,7 @@
     "1005010033441204": 1795371614.0931513,
     "1005008356663932": 1793707052.9762022,
     "1005010074161953": 1793543659.5887568,
-    "1005010498953493": 1794948087.9126022,
+    "1005010498953493": 1795631548.7472386,
     "1005010535660141": 1795022632.7994065,
     "1005010472570391": 1793571013.3288968,
     "1005012864293264": 1793570287.0210865,
@@ -3161,7 +3161,8 @@
     "📢",
     "Soundpeats Q3 Pro ANC",
     "Q86 WIRELESS EARBUDS",
-    "من أفضل عروض هذه التخفيضات"
+    "من أفضل عروض هذه التخفيضات",
+    "Anker 100W USB C Charger"
   ],
   "published_title_timestamps": {
     "Xiaomi Redmi Note 17 5G Global Version": 1790857823.0117362,
@@ -4426,10 +4427,10 @@
     "📢": 1795620241.490416,
     "Soundpeats Q3 Pro ANC": 1795620610.006522,
     "Q86 WIRELESS EARBUDS": 1795623753.9870079,
-    "من أفضل عروض هذه التخفيضات": 1795630463.6559675
+    "من أفضل عروض هذه التخفيضات": 1795630463.6559675,
+    "Anker 100W USB C Charger": 1795631548.7472386
   },
   "published_post_keys": [
-    "aniscoupons:34798",
     "zedstoreonline:40066",
     "aniscoupons:34799",
     "zedstoreonline:40067",
@@ -5428,19 +5429,20 @@
     "lodydeals:46903",
     "zedstoreonline:40700",
     "aniscoupons:35645",
-    "lodydeals:46904"
+    "lodydeals:46904",
+    "lodydeals:46905"
   ],
   "last_disclaimer_time": 1794524540.9476151,
   "last_calendar_time": 1795177633.1203737,
-  "last_run_time": 1795630463.6559675,
+  "last_run_time": 1795631548.7472386,
   "monitored_channels": {
     "ecksdeal": {
       "last_message_id": 6130,
       "last_check_time": 1795527393.9958658
     },
     "lodydeals": {
-      "last_message_id": 46904,
-      "last_check_time": 1795630463.8036637
+      "last_message_id": 46907,
+      "last_check_time": 1795631551.7357128
     },
     "test_channel": {
       "last_message_id": 1793967703,
@@ -5828,7 +5830,7 @@
     "1005010033441204": 14.6,
     "1005008356663932": 355.5,
     "1005010074161953": 130.08,
-    "1005010498953493": 51.15,
+    "1005010498953493": 51.11,
     "1005010535660141": 20.89,
     "1005010472570391": 25.77,
     "1005012864293264": 28.96,
@@ -34021,6 +34023,16 @@
       "price": null,
       "timestamp": 1795630463.6559675,
       "status": "ACTIVE"
+    },
+    "lodydeals:46905": {
+      "channel_msg_id": 3719,
+      "product_id": "1005010498953493",
+      "title": "Anker 100W USB C Charger",
+      "channel": "lodydeals",
+      "source_msg_id": 46905,
+      "price": 51.11,
+      "timestamp": 1795631548.7472386,
+      "status": "ACTIVE"
     }
   },
   "schedule_config": {
@@ -34029,17 +34041,17 @@
     "current_interval_minutes": 5,
     "is_paused": false,
     "night_mode_enabled": true,
-    "last_deal_post_time": 1795630467.1954515,
+    "last_deal_post_time": 1795631554.7000487,
     "night_start_hour_dz": 0,
     "night_end_hour_dz": 8,
     "night_pause_enabled": true,
-    "last_sweep_time": 1795631370.1102316,
+    "last_sweep_time": 1795631557.2008083,
     "last_sweep_times": {
-      "algeria": 1795631367.9013364,
-      "france": 1795631370.1102316
+      "algeria": 1795631554.6527524,
+      "france": 1795631557.2008083
     },
     "last_deal_post_times": {
-      "algeria": 1795630467.1954515
+      "algeria": 1795631554.7000487
     }
   },
   "last_coin_reminder_time": 1795433324.042843,
@@ -34498,7 +34510,7 @@
     "1005010033441204": "aniscoupons",
     "1005008356663932": "lodydeals",
     "1005010074161953": "lodydeals",
-    "1005010498953493": "aniscoupons",
+    "1005010498953493": "lodydeals",
     "1005010535660141": "lodydeals",
     "1005010472570391": "lodydeals",
     "1005012864293264": "lodydeals",
@@ -36261,7 +36273,8 @@
     "📢": "aniscoupons",
     "Soundpeats Q3 Pro ANC": "lodydeals",
     "Q86 WIRELESS EARBUDS": "aniscoupons",
-    "من أفضل عروض هذه التخفيضات": "lodydeals"
+    "من أفضل عروض هذه التخفيضات": "lodydeals",
+    "Anker 100W USB C Charger": "lodydeals"
   },
   "religious_reminders_history": {
     "mock_rem": "2026-10-02",
@@ -37059,8 +37072,6 @@
   "published_deals_history": {},
   "settings": {},
   "handled_post_keys": [
-    "lodydeals:46478",
-    "aniscoupons:34819",
     "lodydeals:46480",
     "lodydeals:46481",
     "aniscoupons:34821",
@@ -38058,7 +38069,9 @@
     "zedstoreonline:40699",
     "bnddeals:51413",
     "bnddeals:51414",
-    "lodydeals:46904"
+    "lodydeals:46904",
+    "lodydeals:46906",
+    "lodydeals:46907"
   ],
   "last_france_cross_promo_time": 1795501542.8708572,
   "next_france_cross_promo_interval_seconds": 208574,
@@ -39180,6 +39193,18 @@
         "channel": "aniscoupons",
         "ts": 1795629155.0476303,
         "price": 82.7
+      },
+      {
+        "channel": "lodydeals",
+        "ts": 1795631551.572021,
+        "price": 82.86
+      }
+    ],
+    "1005010498953493": [
+      {
+        "channel": "lodydeals",
+        "ts": 1795631546.47282,
+        "price": 51.11
       }
     ]
   },
