@@ -1557,7 +1557,7 @@
     "1005012533449539": 1794845255.0683267,
     "1005009178167326": 1793650772.8370051,
     "1005011742640729": 1794845615.4252245,
-    "1005013154935332": 1795027119.0070791,
+    "1005013154935332": 1795640555.0898597,
     "1005012774075728": 1793656103.0944026,
     "1005006783028347": 1794771190.3471751,
     "1005007010104970": 1793656134.827825,
@@ -3903,7 +3903,7 @@
     "كيبورد ميكانيكي لاسلكي فخم  EPOMAKER x Aproz TH108 Wireless": 1794845255.0683267,
     "كيبورد مغناطيسي فخم Epomaker HE68 Lite Magnetic 8K": 1793650772.8370051,
     "كيبورد مغناطيسي لاسلكي فخم Epomaker HE108 Wireless Magnetic 8K": 1794845615.4252245,
-    "ماوسباد زجاجي Epomaker GP1 Tempered Glass": 1795027119.0070791,
+    "ماوسباد زجاجي Epomaker GP1 Tempered Glass": 1795640555.0898597,
     "TCL Alcatel 3023": 1793656103.0944026,
     "Toocki PD Cable 100W": 1793656107.995781,
     "Toocki 60W Car Charger": 1793656112.890115,
@@ -4431,7 +4431,6 @@
     "Anker 100W USB C Charger": 1795631548.7472386
   },
   "published_post_keys": [
-    "aniscoupons:34810",
     "zedstoreonline:40084",
     "zedstoreonline:40085",
     "zedstoreonline:40086",
@@ -5430,15 +5429,16 @@
     "zedstoreonline:40703",
     "ecksdeal:6132",
     "aniscoupons:35654",
-    "ecksdeal:6133"
+    "ecksdeal:6133",
+    "ecksdeal:6136"
   ],
   "last_disclaimer_time": 1794524540.9476151,
   "last_calendar_time": 1795177633.1203737,
-  "last_run_time": 1795640366.561605,
+  "last_run_time": 1795640555.0898597,
   "monitored_channels": {
     "ecksdeal": {
-      "last_message_id": 6133,
-      "last_check_time": 1795640368.6469285
+      "last_message_id": 6136,
+      "last_check_time": 1795640557.1608698
     },
     "lodydeals": {
       "last_message_id": 46910,
@@ -5461,8 +5461,8 @@
       "last_check_time": 1793599663.3444748
     },
     "zedstoreonline": {
-      "last_message_id": 40703,
-      "last_check_time": 1795638903.4865174
+      "last_message_id": 40704,
+      "last_check_time": 1795640558.0372844
     },
     "aniscoupons": {
       "last_message_id": 35654,
@@ -5982,7 +5982,7 @@
     "1005012533449539": 40.71,
     "1005009178167326": 36.96,
     "1005011742640729": 75.8,
-    "1005013154935332": 33.75,
+    "1005013154935332": 32.41,
     "1005012774075728": 6.81,
     "1005006783028347": 2.7,
     "1005007010104970": 6.81,
@@ -34173,6 +34173,16 @@
       "price": 12.73,
       "timestamp": 1795640366.561605,
       "status": "ACTIVE"
+    },
+    "ecksdeal:6136": {
+      "channel_msg_id": 3734,
+      "product_id": "1005013154935332",
+      "title": "ماوسباد زجاجي Epomaker GP1 Tempered Glass",
+      "channel": "ecksdeal",
+      "source_msg_id": 6136,
+      "price": 32.41,
+      "timestamp": 1795640555.0898597,
+      "status": "ACTIVE"
     }
   },
   "schedule_config": {
@@ -34181,17 +34191,17 @@
     "current_interval_minutes": 5,
     "is_paused": false,
     "night_mode_enabled": true,
-    "last_deal_post_time": 1795640370.6493883,
+    "last_deal_post_time": 1795640559.110227,
     "night_start_hour_dz": 0,
     "night_end_hour_dz": 8,
     "night_pause_enabled": true,
-    "last_sweep_time": 1795640373.0446477,
+    "last_sweep_time": 1795640561.8169703,
     "last_sweep_times": {
-      "algeria": 1795640370.612385,
-      "france": 1795640373.0446477
+      "algeria": 1795640559.0812082,
+      "france": 1795640561.8169703
     },
     "last_deal_post_times": {
-      "algeria": 1795640370.6493883
+      "algeria": 1795640559.110227
     }
   },
   "last_coin_reminder_time": 1795433324.042843,
@@ -37212,8 +37222,6 @@
   "published_deals_history": {},
   "settings": {},
   "handled_post_keys": [
-    "lodydeals:46482",
-    "aniscoupons:34822",
     "zedstoreonline:40101",
     "zedstoreonline:40103",
     "aniscoupons:34825",
@@ -38211,7 +38219,9 @@
     "lodydeals:46907",
     "zedstoreonline:40701",
     "aniscoupons:35649",
-    "ecksdeal:6131"
+    "ecksdeal:6131",
+    "ecksdeal:6135",
+    "zedstoreonline:40704"
   ],
   "last_france_cross_promo_time": 1795501542.8708572,
   "next_france_cross_promo_interval_seconds": 208574,
@@ -39428,6 +39438,18 @@
         "channel": "ecksdeal",
         "ts": 1795640364.3819177,
         "price": 12.73
+      },
+      {
+        "channel": "ecksdeal",
+        "ts": 1795640550.0905864,
+        "price": 12.73
+      }
+    ],
+    "1005013154935332": [
+      {
+        "channel": "ecksdeal",
+        "ts": 1795640552.7133205,
+        "price": 32.41
       }
     ]
   },
