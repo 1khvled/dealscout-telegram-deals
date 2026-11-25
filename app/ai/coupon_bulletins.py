@@ -9,7 +9,7 @@ supplied by the caller; nothing about a specific campaign is stored here.
 import re
 from typing import Iterable, List, Optional, Sequence, Tuple
 
-from app.aliexpress.parser import extract_coupon_list
+from app.aliexpress.parser import extract_coupon_list, extract_prices
 
 # (tier, code) — read from the source post, e.g. ("90/689$", "AEBBF10")
 Coupon = Tuple[str, str]
@@ -47,6 +47,15 @@ def detect_bulletin_kind(raw_text: str) -> Optional[str]:
     lower = raw_text.lower()
     if any(m in lower for m in BUSINESS_MARKERS):
         return "business"
+    # A product deal with variant coupons (e.g. "128 GB 7.56$ -> OTSBF03,
+    # 240 GB 14.98$ -> OTSBF04") quotes a product price and/or product deal header;
+    # never hijack it into a fake coupon bulletin.
+    distinct_codes = {code.upper() for _, code in coupons if code}
+    if len(distinct_codes) < 2:
+        return None
+    usd_price, _ = extract_prices(raw_text)
+    if usd_price is not None or "السعر" in lower or re.search(r'(?:تخفيض|عرض)\s+لـ', raw_text):
+        return None
     if any(m in lower for m in NORMAL_MARKERS):
         return "normal"
     return None

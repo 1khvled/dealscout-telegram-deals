@@ -117,3 +117,21 @@ def test_event_name_is_read_from_post_not_hardcoded():
     assert "Party Ready Sale" in other
     assert "الجمعة البيضاء" not in other and "Black Friday" not in other
     assert "PARTY5" in other and "PARTY10" in other
+
+
+def test_variant_coupon_product_post_is_not_classified_as_bulletin():
+    """Regression (#3649 / ECKSDEAL #6125): a product deal with per-variant
+    prices and multiple coupons must NEVER be hijacked into a coupon bulletin."""
+    variant_product_post = """❗️ حول دولة التطبيق الى كندا 🇨🇦
+تخفيض لـــ  : تخزين Kootion X12 Sata SSD
+السعــــر💲 :
+✅ 128 GB 7.56 $
+🎟 كوبون 03/15$ :  OTSBF03
+✅ 240 GB 14.98 $
+🎟 كوبون 04/24$ :  OTSBF04
+✅ 256 GB 16.73 $
+🎟 كوبون 04/24$ :  OTSBF04
+الرابـــــط 🔗: https://s.click.aliexpress.com/e/_c3CbKaZ5"""
+
+    assert detect_bulletin_kind(variant_product_post) is None
+    assert build_bulletin_caption(variant_product_post, ["https://s.click.aliexpress.com/e/_OUR1"]) is None

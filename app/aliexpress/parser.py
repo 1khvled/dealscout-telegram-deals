@@ -1628,14 +1628,16 @@ def is_coupon_claim_post(text: str) -> bool:
     usd_price, _ = extract_prices(text)
     has_item_link = any("/item/" in u.lower() for u in ali_urls)
     has_coupon_center = any("coupon" in u.lower() or "300003448" in u.lower() for u in ali_urls)
-    # A single-product deal with a seller voucher ("احجز قسيمة البائع 1$") is NOT a
-    # coupon-center claim. The bare action word "احجز" used to make every such post
-    # look like a coupon reservation and get skipped before extraction.
-    seller_voucher_only = bool(re.search(
-        r'(?:احجز|احجزوا|حجز)\s*(?:قسيمـ?ة|كوبون|كود)\s*(?:البـ?ائع|المتجر|خاصة\s*بالمتجر|store|seller)',
-        lower,
-    ))
-    if usd_price is not None and not has_coupon_center and (has_item_link or seller_voucher_only):
+    # A single-product deal with a price (e.g. "قسيمة البائع 3$ احجزها" or
+    # "رجعت للستوك" + "كوبون 3/15$") is NOT a coupon-center claim unless it
+    # explicitly links to or names the coupon center / coupon restock.
+    explicit_claim_phrase = any(k in lower for k in [
+        "صفحة الكوبونات", "رابط الحجز", "رابط الكوبونات",
+        "تجددت الكوبونات", "توفرت الكوبونات", "رجعت الكوبونات",
+        "رجعت الكويونات", "عودة الكوبونات", "حجز الكوبون",
+        "حجز الكوبونات", "حجز قسائم", "glo-coupon-center", "coupon-center",
+    ])
+    if usd_price is not None and not has_coupon_center and not explicit_claim_phrase:
         return False
 
     return True

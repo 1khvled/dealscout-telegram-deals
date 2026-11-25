@@ -120,3 +120,18 @@ def test_coupon_restock_time_window():
     # 07:00 AM Algerian Time -> outside window
     t_7am = datetime(2026, 11, 10, 7, 0, tzinfo=dz_tz)
     assert is_coupon_restock_time_window(t_7am) is False
+
+
+def test_seller_voucher_after_noun_is_not_coupon_claim_post():
+    """Regression (lodydeals #46885/#46886): 'قسيمة البائع 3$ احجزها' on a
+    priced product deal must NOT be flagged as a coupon-center claim post."""
+    from app.aliexpress.parser import is_coupon_claim_post
+
+    lody_deal = (
+        "تخفيض لـ Teclast P50 4/128GB\n"
+        "السعر : 118.50$ (108.32€) 🔥\n"
+        "رابط s.click.aliexpress.com/e/_c37Zvxxj\n"
+        "قسيمة البائع 3$ احجزها \n"
+        "كوبون 19/115$ : OTSBF19"
+    )
+    assert is_coupon_claim_post(lody_deal) is False
