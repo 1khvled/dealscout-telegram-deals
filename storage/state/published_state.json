@@ -1286,7 +1286,7 @@
     "1005013479172067": 1793448884.6592717,
     "1005012199872142": 1794487833.0095515,
     "9998886358": 1793276358.3466215,
-    "1005013170854617": 1795186378.654721,
+    "1005013170854617": 1795618165.6172407,
     "1005010172572484": 1793521744.753259,
     "1005012167596439": 1794394415.6108775,
     "1005005209037696": 1793399509.450536,
@@ -3511,7 +3511,7 @@
     "Honor Power 2 12/256": 1795521894.3866673,
     "OnePlus Turbo 6x  6/128GB": 1794662824.2051413,
     "Oneplus ACE 6 Ultra 12/256GB": 1794487833.0095515,
-    "VIVO Y600 Pro 8/128": 1793278959.3832097,
+    "VIVO Y600 Pro 8/128": 1795618165.6172407,
     "Oppo Find X9 12/256": 1793521744.753259,
     "Oppo Find X9s Pro 12/256": 1794437860.4294534,
     "POCO F7  12/256": 1793399509.450536,
@@ -4415,7 +4415,6 @@
     "📢": 1795611185.428156
   },
   "published_post_keys": [
-    "aniscoupons:34786",
     "aniscoupons:34788",
     "lodydeals:46454",
     "aniscoupons:34790",
@@ -5414,11 +5413,12 @@
     "zedstoreonline:40695",
     "zedstoreonline:40696",
     "aniscoupons:35632",
-    "aniscoupons:35633"
+    "aniscoupons:35633",
+    "zedstoreonline:40697"
   ],
   "last_disclaimer_time": 1794524540.9476151,
   "last_calendar_time": 1795177633.1203737,
-  "last_run_time": 1795617612.1707497,
+  "last_run_time": 1795618165.6172407,
   "monitored_channels": {
     "ecksdeal": {
       "last_message_id": 6130,
@@ -5445,8 +5445,8 @@
       "last_check_time": 1793599663.3444748
     },
     "zedstoreonline": {
-      "last_message_id": 40696,
-      "last_check_time": 1795616503.7414503
+      "last_message_id": 40697,
+      "last_check_time": 1795618167.7235138
     },
     "aniscoupons": {
       "last_message_id": 35634,
@@ -5721,7 +5721,7 @@
     "1005012399830182": 443.3,
     "1005013479172067": 218.0,
     "1005012199872142": 438.5,
-    "1005013170854617": 260.8,
+    "1005013170854617": 260.0,
     "1005010172572484": 513.7,
     "1005012167596439": 553.5,
     "1005005209037696": 328.0,
@@ -33885,6 +33885,16 @@
       "price": 338.2,
       "timestamp": 1795617612.1707497,
       "status": "ACTIVE"
+    },
+    "zedstoreonline:40697": {
+      "channel_msg_id": 3706,
+      "product_id": "1005013170854617",
+      "title": "VIVO Y600 Pro 8/128",
+      "channel": "zedstoreonline",
+      "source_msg_id": 40697,
+      "price": 260.0,
+      "timestamp": 1795618165.6172407,
+      "status": "ACTIVE"
     }
   },
   "schedule_config": {
@@ -33893,17 +33903,17 @@
     "current_interval_minutes": 5,
     "is_paused": false,
     "night_mode_enabled": true,
-    "last_deal_post_time": 1795617615.5373683,
+    "last_deal_post_time": 1795618169.4657705,
     "night_start_hour_dz": 0,
     "night_end_hour_dz": 8,
     "night_pause_enabled": true,
-    "last_sweep_time": 1795617991.9037251,
+    "last_sweep_time": 1795618172.0329475,
     "last_sweep_times": {
-      "algeria": 1795617988.681578,
-      "france": 1795617991.9037251
+      "algeria": 1795618169.4196134,
+      "france": 1795618172.0329475
     },
     "last_deal_post_times": {
-      "algeria": 1795617615.5373683
+      "algeria": 1795618169.4657705
     }
   },
   "last_coin_reminder_time": 1795433324.042843,
@@ -34264,7 +34274,7 @@
     "1005013479172067": "megaphonna",
     "1005012199872142": "aniscoupons",
     "9998886358": "test_channel",
-    "1005013170854617": "aniscoupons",
+    "1005013170854617": "zedstoreonline",
     "1005010172572484": "zedstoreonline",
     "1005012167596439": "bnddeals",
     "1005005209037696": "zedstoreonline",
@@ -38943,6 +38953,13 @@
         "channel": "aniscoupons",
         "ts": 1795617610.0279124,
         "price": 338.2
+      }
+    ],
+    "1005013170854617": [
+      {
+        "channel": "zedstoreonline",
+        "ts": 1795618163.2853496,
+        "price": 260.0
       }
     ]
   },
