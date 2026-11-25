@@ -1190,7 +1190,7 @@
     "9998883549": 1792073549.4615705,
     "9998883836": 1792073836.8176863,
     "9998883963": 1792073963.7339156,
-    "1005010620269829": 1795256521.0477176,
+    "1005010620269829": 1795603472.1647038,
     "9998886219": 1792086219.2668676,
     "1005005875379717": 1795116404.8944776,
     "9998887185": 1792087185.8637784,
@@ -3903,7 +3903,7 @@
     "ماوس لاسلكي بألياف الكربون Attack Shark X11 Ultimate 8K Carbon": 1793706864.9165008,
     "Leaven X3 RGB Magnetic 1600DPI": 1793707047.5983977,
     "CUSU DDR5 32GB(16GBX2) 5600MHz": 1793707052.9762022,
-    "HONOR X70 5G 8/128GB": 1793707067.6841128,
+    "HONOR X70 5G 8/128GB": 1795603472.1647038,
     "CMF Buds 2a ANC -42dB": 1794565826.9368062,
     "CUSU SSD 256GB M2 NVMe": 1793707081.0327315,
     "OPPO A6 PRO 12/256GB": 1793793726.6494405,
@@ -4411,7 +4411,6 @@
     "SoundPEATS C30 ANC -52dB": 1795603223.504592
   },
   "published_post_keys": [
-    "aniscoupons:34760",
     "lodydeals:46448",
     "aniscoupons:34761",
     "aniscoupons:34762",
@@ -5410,19 +5409,20 @@
     "lodydeals:46874",
     "lodydeals:46876",
     "zedstoreonline:40678",
-    "lodydeals:46889"
+    "lodydeals:46889",
+    "lodydeals:46891"
   ],
   "last_disclaimer_time": 1794524540.9476151,
   "last_calendar_time": 1795177633.1203737,
-  "last_run_time": 1795603223.504592,
+  "last_run_time": 1795603472.1647038,
   "monitored_channels": {
     "ecksdeal": {
       "last_message_id": 6130,
       "last_check_time": 1795527393.9958658
     },
     "lodydeals": {
-      "last_message_id": 46890,
-      "last_check_time": 1795603225.5997307
+      "last_message_id": 46891,
+      "last_check_time": 1795603474.2686405
     },
     "test_channel": {
       "last_message_id": 1793967703,
@@ -5670,7 +5670,7 @@
     "1005012585389764": 153.9,
     "1005011997237872": 92.15,
     "1005011908654312": 122.6,
-    "1005010620269829": 231.2,
+    "1005010620269829": 232.81,
     "1005010149868688": 191.1,
     "1005005875379717": 21.2,
     "1005013137396211": 316.0,
@@ -33661,6 +33661,16 @@
       "price": 20.46,
       "timestamp": 1795603223.504592,
       "status": "ACTIVE"
+    },
+    "lodydeals:46891": {
+      "channel_msg_id": 3684,
+      "product_id": "1005010620269829",
+      "title": "HONOR X70 5G 8/128GB",
+      "channel": "lodydeals",
+      "source_msg_id": 46891,
+      "price": 232.81,
+      "timestamp": 1795603472.1647038,
+      "status": "ACTIVE"
     }
   },
   "schedule_config": {
@@ -33669,17 +33679,17 @@
     "current_interval_minutes": 5,
     "is_paused": false,
     "night_mode_enabled": true,
-    "last_deal_post_time": 1795603232.5734444,
+    "last_deal_post_time": 1795603477.7063475,
     "night_start_hour_dz": 0,
     "night_end_hour_dz": 8,
     "night_pause_enabled": true,
-    "last_sweep_time": 1795603235.219057,
+    "last_sweep_time": 1795603480.3711462,
     "last_sweep_times": {
-      "algeria": 1795603232.5316246,
-      "france": 1795603235.219057
+      "algeria": 1795603477.654357,
+      "france": 1795603480.3711462
     },
     "last_deal_post_times": {
-      "algeria": 1795603232.5734444
+      "algeria": 1795603477.7063475
     }
   },
   "last_coin_reminder_time": 1795433324.042843,
@@ -33941,7 +33951,7 @@
     "9998883549": "test_channel",
     "9998883836": "test_channel",
     "9998883963": "test_channel",
-    "1005010620269829": "zedstoreonline",
+    "1005010620269829": "lodydeals",
     "1005010149868688": "aniscoupons",
     "9998886219": "test_channel",
     "1005005875379717": "aniscoupons",
@@ -38517,6 +38527,13 @@
         "channel": "lodydeals",
         "ts": 1795603220.9885597,
         "price": 20.46
+      }
+    ],
+    "1005010620269829": [
+      {
+        "channel": "lodydeals",
+        "ts": 1795603469.7689426,
+        "price": 232.81
       }
     ]
   },
