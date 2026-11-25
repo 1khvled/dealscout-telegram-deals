@@ -1842,7 +1842,7 @@
     "COUPONS_67c5d85c": 1795275291.651658,
     "COUPONS_Black Friday & Cyber Monday": 1795275291.651658,
     "1005013612885095": 1795282393.4390564,
-    "1005009120961416": 1795548769.2740667,
+    "1005009120961416": 1795606573.6678197,
     "1005006460821282": 1795282419.1354063,
     "1005007038424043": 1795283249.1787498,
     "1005010439285778": 1795290129.2736075,
@@ -4331,7 +4331,7 @@
     "GIGABYTE B550M K AM4 Motherboard": 1795265573.5780053,
     "KingSpec DDR4 16GB 3200Mhz": 1795546166.1725361,
     "ماوس لاسلكي Aula Kunlun L5 Magnetic": 1795282393.4390564,
-    "ASROCK B850M STEEL LEGEND": 1795548769.2740667,
+    "ASROCK B850M STEEL LEGEND": 1795606573.6678197,
     "لوووووووووووووووووووز": 1795282419.1354063,
     "Men's Watch Business": 1795290129.2736075,
     "LAXASFIT Men Watch": 1795290139.8130522,
@@ -4411,7 +4411,6 @@
     "SoundPEATS C30 ANC -52dB": 1795603223.504592
   },
   "published_post_keys": [
-    "aniscoupons:34765",
     "aniscoupons:34766",
     "aniscoupons:34767",
     "aniscoupons:34770",
@@ -5410,11 +5409,12 @@
     "aniscoupons:35621",
     "zedstoreonline:40683",
     "zedstoreonline:40684",
-    "aniscoupons:35623"
+    "aniscoupons:35623",
+    "aniscoupons:35624"
   ],
   "last_disclaimer_time": 1794524540.9476151,
   "last_calendar_time": 1795177633.1203737,
-  "last_run_time": 1795605674.8363175,
+  "last_run_time": 1795606573.6678197,
   "monitored_channels": {
     "ecksdeal": {
       "last_message_id": 6130,
@@ -5445,8 +5445,8 @@
       "last_check_time": 1795606023.2637777
     },
     "aniscoupons": {
-      "last_message_id": 35623,
-      "last_check_time": 1795605676.9506788
+      "last_message_id": 35624,
+      "last_check_time": 1795606575.7525294
     },
     "bnddeals": {
       "last_message_id": 51411,
@@ -6231,7 +6231,7 @@
     "1005008850261694": 30.3,
     "32847542727": 64.0,
     "1005013612885095": 73.07,
-    "1005009120961416": 212.0,
+    "1005009120961416": 212.1,
     "1005006460821282": 9.7,
     "1005007038424043": 2.71,
     "1005010439285778": 5.29,
@@ -33721,6 +33721,16 @@
       "price": 18.29,
       "timestamp": 1795605674.8363175,
       "status": "ACTIVE"
+    },
+    "aniscoupons:35624": {
+      "channel_msg_id": 3690,
+      "product_id": "1005009120961416",
+      "title": "ASROCK B850M STEEL LEGEND",
+      "channel": "aniscoupons",
+      "source_msg_id": 35624,
+      "price": 212.1,
+      "timestamp": 1795606573.6678197,
+      "status": "ACTIVE"
     }
   },
   "schedule_config": {
@@ -33729,17 +33739,17 @@
     "current_interval_minutes": 5,
     "is_paused": false,
     "night_mode_enabled": true,
-    "last_deal_post_time": 1795605678.1550424,
+    "last_deal_post_time": 1795606576.5944726,
     "night_start_hour_dz": 0,
     "night_end_hour_dz": 8,
     "night_pause_enabled": true,
-    "last_sweep_time": 1795606391.7220316,
+    "last_sweep_time": 1795606578.7436311,
     "last_sweep_times": {
-      "algeria": 1795606389.172582,
-      "france": 1795606391.7220316
+      "algeria": 1795606576.5619252,
+      "france": 1795606578.7436311
     },
     "last_deal_post_times": {
-      "algeria": 1795605678.1550424
+      "algeria": 1795606576.5944726
     }
   },
   "last_coin_reminder_time": 1795433324.042843,
@@ -38629,6 +38639,13 @@
         "channel": "aniscoupons",
         "ts": 1795605672.2774715,
         "price": 18.29
+      }
+    ],
+    "1005009120961416": [
+      {
+        "channel": "aniscoupons",
+        "ts": 1795606571.7036827,
+        "price": 212.1
       }
     ]
   },
