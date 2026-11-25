@@ -1500,7 +1500,7 @@
     "1005012823102793": 1793569904.419889,
     "1005012773302941": 1795521209.4715214,
     "1005008430147176": 1795085991.192385,
-    "1005011742851856": 1795290123.812915,
+    "1005011742851856": 1795618355.4654787,
     "1005006304425302": 1793656107.995781,
     "1005010487426245": 1793573558.2913802,
     "1005012865939059": 1793573742.8007863,
@@ -3938,7 +3938,7 @@
     "HyperX Cloud 3 DTS": 1794677799.9420233,
     "KOOTION X15 M.2 Nvme 512GB": 1793969920.9023197,
     "HAYLOU Solar Neo 2 AMOLED": 1793793748.870438,
-    "ESSAGER 45W Car Charger": 1793793769.5631576,
+    "ESSAGER 45W Car Charger": 1795618355.4654787,
     "Zeblaze Btalk 3 Plus": 1793793774.6743867,
     "BOYA mini 2 Wireless": 1795521161.7173738,
     "سماعات فخمة HyperX Cloud 3": 1794935190.6045454,
@@ -4415,7 +4415,6 @@
     "📢": 1795611185.428156
   },
   "published_post_keys": [
-    "aniscoupons:34788",
     "lodydeals:46454",
     "aniscoupons:34790",
     "zedstoreonline:40058",
@@ -5414,11 +5413,12 @@
     "zedstoreonline:40696",
     "aniscoupons:35632",
     "aniscoupons:35633",
-    "zedstoreonline:40697"
+    "zedstoreonline:40697",
+    "aniscoupons:35635"
   ],
   "last_disclaimer_time": 1794524540.9476151,
   "last_calendar_time": 1795177633.1203737,
-  "last_run_time": 1795618165.6172407,
+  "last_run_time": 1795618355.4654787,
   "monitored_channels": {
     "ecksdeal": {
       "last_message_id": 6130,
@@ -5449,8 +5449,8 @@
       "last_check_time": 1795618167.7235138
     },
     "aniscoupons": {
-      "last_message_id": 35634,
-      "last_check_time": 1795617793.6480138
+      "last_message_id": 35635,
+      "last_check_time": 1795618357.5881956
     },
     "bnddeals": {
       "last_message_id": 51412,
@@ -5926,7 +5926,7 @@
     "1005012823102793": 226.25,
     "1005012773302941": 17.3,
     "1005008430147176": 22.6,
-    "1005011742851856": 4.89,
+    "1005011742851856": 4.0,
     "1005006304425302": 2.24,
     "1005010487426245": 7.74,
     "1005012865939059": 14.89,
@@ -33895,6 +33895,16 @@
       "price": 260.0,
       "timestamp": 1795618165.6172407,
       "status": "ACTIVE"
+    },
+    "aniscoupons:35635": {
+      "channel_msg_id": 3707,
+      "product_id": "1005011742851856",
+      "title": "ESSAGER 45W Car Charger",
+      "channel": "aniscoupons",
+      "source_msg_id": 35635,
+      "price": 4.0,
+      "timestamp": 1795618355.4654787,
+      "status": "ACTIVE"
     }
   },
   "schedule_config": {
@@ -33903,17 +33913,17 @@
     "current_interval_minutes": 5,
     "is_paused": false,
     "night_mode_enabled": true,
-    "last_deal_post_time": 1795618169.4657705,
+    "last_deal_post_time": 1795618358.9442859,
     "night_start_hour_dz": 0,
     "night_end_hour_dz": 8,
     "night_pause_enabled": true,
-    "last_sweep_time": 1795618172.0329475,
+    "last_sweep_time": 1795618361.8829615,
     "last_sweep_times": {
-      "algeria": 1795618169.4196134,
-      "france": 1795618172.0329475
+      "algeria": 1795618358.8864737,
+      "france": 1795618361.8829615
     },
     "last_deal_post_times": {
-      "algeria": 1795618169.4657705
+      "algeria": 1795618358.9442859
     }
   },
   "last_coin_reminder_time": 1795433324.042843,
@@ -34491,7 +34501,7 @@
     "1005012823102793": "lodydeals",
     "1005012773302941": "lodydeals",
     "1005008430147176": "zedstoreonline",
-    "1005011742851856": "lodydeals",
+    "1005011742851856": "aniscoupons",
     "1005006304425302": "lodydeals",
     "1005010487426245": "lodydeals",
     "1005012865939059": "lodydeals",
@@ -35652,7 +35662,7 @@
     "HyperX Cloud 3 DTS": "lodydeals",
     "KOOTION X15 M.2 Nvme 512GB": "lodydeals",
     "HAYLOU Solar Neo 2 AMOLED": "lodydeals",
-    "ESSAGER 45W Car Charger": "lodydeals",
+    "ESSAGER 45W Car Charger": "aniscoupons",
     "Zeblaze Btalk 3 Plus": "lodydeals",
     "BOYA mini 2 Wireless": "lodydeals",
     "سماعات فخمة HyperX Cloud 3": "ecksdeal",
@@ -38960,6 +38970,13 @@
         "channel": "zedstoreonline",
         "ts": 1795618163.2853496,
         "price": 260.0
+      }
+    ],
+    "1005011742851856": [
+      {
+        "channel": "aniscoupons",
+        "ts": 1795618352.9016507,
+        "price": 4.0
       }
     ]
   },
