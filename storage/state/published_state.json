@@ -1364,7 +1364,7 @@
     "1005012839355198": 1794822570.4027405,
     "1005010133081414": 1793467151.9364934,
     "1005005373032877": 1793600283.7397804,
-    "1005007869955343": 1795554457.4988177,
+    "1005007869955343": 1795604607.1627202,
     "1005012644570693": 1793441338.6619778,
     "1005003949106838": 1795601346.1632485,
     "1005012436082838": 1793733101.535615,
@@ -1723,7 +1723,7 @@
     "1005013422894128": 1794487083.9711623,
     "1005010297094897": 1794657082.5305285,
     "1005009012821000": 1794502225.0175712,
-    "1005013485724377": 1795521288.1154358,
+    "1005013485724377": 1795604614.0904353,
     "1005012783197164": 1794606646.2896297,
     "1005012993724126": 1794515920.3397443,
     "1005012726037568": 1795521223.426411,
@@ -3634,7 +3634,7 @@
     "OnePlus Turbo 6X Pro 8/128": 1793441350.359979,
     "Soundcore by Anker Life Q30 Hybrid Active Noise Cancelling Headphones": 1793448587.6507976,
     "بروجكتور Magcubic HY300 max – أوتو فوكس، Android 14، إضاءة 400 ANSI": 1793448612.7938895,
-    "MAONO PD100X Dynamic Microphone": 1795554457.4988177,
+    "MAONO PD100X Dynamic Microphone": 1795604607.1627202,
     "Soundcore by Anker P20i": 1795371614.0931513,
     "CUSU Memory DDR5  32GB(16GBX2) 5600MHz": 1793448632.7055113,
     "OPPO FIND X9 Pro": 1794486542.3386803,
@@ -4160,7 +4160,7 @@
     "FANTECH SHOOTER III WGP13S": 1794501299.95393,
     "DITONG X3Plus  4K WIFI6": 1794502225.0175712,
     "Lenovo Legion Y900 11 Tablet CN Version MediaTek Dimensity 9500S": 1795000279.9355009,
-    "realme Original Adapter SUPERVOOC Charger 45W": 1795521288.1154358,
+    "realme Original Adapter SUPERVOOC Charger 45W": 1795604614.0904353,
     "EPOMAKER GX1 Tri-mode": 1794606646.2896297,
     "WALRAM M.2  128GB": 1794515920.3397443,
     "Portable Magnetic Phone": 1795291139.3742876,
@@ -4411,8 +4411,6 @@
     "SoundPEATS C30 ANC -52dB": 1795603223.504592
   },
   "published_post_keys": [
-    "lodydeals:46448",
-    "aniscoupons:34761",
     "aniscoupons:34762",
     "aniscoupons:34763",
     "zedstoreonline:40051",
@@ -5410,11 +5408,13 @@
     "lodydeals:46876",
     "zedstoreonline:40678",
     "lodydeals:46889",
-    "lodydeals:46891"
+    "lodydeals:46891",
+    "zedstoreonline:40682",
+    "aniscoupons:35621"
   ],
   "last_disclaimer_time": 1794524540.9476151,
   "last_calendar_time": 1795177633.1203737,
-  "last_run_time": 1795603472.1647038,
+  "last_run_time": 1795604614.0904353,
   "monitored_channels": {
     "ecksdeal": {
       "last_message_id": 6130,
@@ -5441,12 +5441,12 @@
       "last_check_time": 1793599663.3444748
     },
     "zedstoreonline": {
-      "last_message_id": 40681,
-      "last_check_time": 1795603047.258251
+      "last_message_id": 40682,
+      "last_check_time": 1795604609.2464964
     },
     "aniscoupons": {
-      "last_message_id": 35620,
-      "last_check_time": 1795603231.7012424
+      "last_message_id": 35621,
+      "last_check_time": 1795604616.1734142
     },
     "bnddeals": {
       "last_message_id": 51411,
@@ -33671,6 +33671,26 @@
       "price": 232.81,
       "timestamp": 1795603472.1647038,
       "status": "ACTIVE"
+    },
+    "zedstoreonline:40682": {
+      "channel_msg_id": 3685,
+      "product_id": "1005007869955343",
+      "title": "MAONO PD100X Dynamic Microphone",
+      "channel": "zedstoreonline",
+      "source_msg_id": 40682,
+      "price": 37.5,
+      "timestamp": 1795604607.1627202,
+      "status": "ACTIVE"
+    },
+    "aniscoupons:35621": {
+      "channel_msg_id": 3686,
+      "product_id": "1005013485724377",
+      "title": "realme Original Adapter SUPERVOOC Charger 45W",
+      "channel": "aniscoupons",
+      "source_msg_id": 35621,
+      "price": 11.5,
+      "timestamp": 1795604614.0904353,
+      "status": "ACTIVE"
     }
   },
   "schedule_config": {
@@ -33679,17 +33699,17 @@
     "current_interval_minutes": 5,
     "is_paused": false,
     "night_mode_enabled": true,
-    "last_deal_post_time": 1795603477.7063475,
+    "last_deal_post_time": 1795604617.3504329,
     "night_start_hour_dz": 0,
     "night_end_hour_dz": 8,
     "night_pause_enabled": true,
-    "last_sweep_time": 1795604387.2961469,
+    "last_sweep_time": 1795604620.5645192,
     "last_sweep_times": {
-      "algeria": 1795604385.2039876,
-      "france": 1795604387.2961469
+      "algeria": 1795604617.3140225,
+      "france": 1795604620.5645192
     },
     "last_deal_post_times": {
-      "algeria": 1795603477.7063475
+      "algeria": 1795604617.3504329
     }
   },
   "last_coin_reminder_time": 1795433324.042843,
@@ -38534,6 +38554,20 @@
         "channel": "lodydeals",
         "ts": 1795603469.7689426,
         "price": 232.81
+      }
+    ],
+    "1005007869955343": [
+      {
+        "channel": "zedstoreonline",
+        "ts": 1795604604.4024777,
+        "price": 37.5
+      }
+    ],
+    "1005013485724377": [
+      {
+        "channel": "aniscoupons",
+        "ts": 1795604611.4391248,
+        "price": 11.5
       }
     ]
   },
