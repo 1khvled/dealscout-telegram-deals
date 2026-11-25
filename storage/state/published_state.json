@@ -1447,7 +1447,7 @@
     "1005009916209766": 1794167239.3538153,
     "1005012537594921": 1793542611.8880281,
     "1005009963377960": 1794312953.1830955,
-    "1005012790844974": 1795078106.4431038,
+    "1005012790844974": 1795641837.6292286,
     "1005010354926803": 1793542626.5536122,
     "1005009621100138": 1793542634.9331498,
     "1005004905380908": 1793542639.2483642,
@@ -3744,7 +3744,7 @@
     "كيبورد ميكانيكي Ajazz NK61 Red Switch": 1793542607.3688066,
     "كيبورد ميكانيكي لاسلكي فخم بشاشة Aula F75 Max Wireless": 1793542611.8880281,
     "كيبورد مغناطيسي AULA Win68 HE 8K Magnetic Switch": 1795526475.8421245,
-    "سماعات لاسلكية Epomaker GX1 Wireless": 1795078106.4431038,
+    "سماعات لاسلكية Epomaker GX1 Wireless": 1795641837.6292286,
     "سماعات لاسلكية Aula G7 7.1 Wireless": 1793542626.5536122,
     "كيبورد مغناطيسي AULA Hero68 HE 8K Magnetic Switch": 1793542634.9331498,
     "سماعات الاذن  TANGZU WAN'ER S.G  IEM": 1793542639.2483642,
@@ -4431,7 +4431,6 @@
     "Anker 100W USB C Charger": 1795631548.7472386
   },
   "published_post_keys": [
-    "aniscoupons:34811",
     "aniscoupons:34812",
     "zedstoreonline:40087",
     "zedstoreonline:40089",
@@ -5430,15 +5429,16 @@
     "ecksdeal:6136",
     "ecksdeal:6137",
     "ecksdeal:6138",
-    "aniscoupons:35655"
+    "aniscoupons:35655",
+    "ecksdeal:6139"
   ],
   "last_disclaimer_time": 1794524540.9476151,
   "last_calendar_time": 1795177633.1203737,
-  "last_run_time": 1795641471.3173022,
+  "last_run_time": 1795641837.6292286,
   "monitored_channels": {
     "ecksdeal": {
-      "last_message_id": 6138,
-      "last_check_time": 1795640922.867693
+      "last_message_id": 6139,
+      "last_check_time": 1795641839.743224
     },
     "lodydeals": {
       "last_message_id": 46910,
@@ -34213,6 +34213,16 @@
       "price": 21.1,
       "timestamp": 1795641471.3173022,
       "status": "ACTIVE"
+    },
+    "ecksdeal:6139": {
+      "channel_msg_id": 3738,
+      "product_id": "1005012790844974",
+      "title": "سماعات لاسلكية Epomaker GX1 Wireless",
+      "channel": "ecksdeal",
+      "source_msg_id": 6139,
+      "price": 35.46,
+      "timestamp": 1795641837.6292286,
+      "status": "ACTIVE"
     }
   },
   "schedule_config": {
@@ -34221,17 +34231,17 @@
     "current_interval_minutes": 5,
     "is_paused": false,
     "night_mode_enabled": true,
-    "last_deal_post_time": 1795641474.4967053,
+    "last_deal_post_time": 1795641842.4519515,
     "night_start_hour_dz": 0,
     "night_end_hour_dz": 8,
     "night_pause_enabled": true,
-    "last_sweep_time": 1795641657.1100185,
+    "last_sweep_time": 1795641845.9451454,
     "last_sweep_times": {
-      "algeria": 1795641654.4350846,
-      "france": 1795641657.1100185
+      "algeria": 1795641842.4020112,
+      "france": 1795641845.9451454
     },
     "last_deal_post_times": {
-      "algeria": 1795641474.4967053
+      "algeria": 1795641842.4519515
     }
   },
   "last_coin_reminder_time": 1795433324.042843,
@@ -39501,6 +39511,13 @@
         "channel": "aniscoupons",
         "ts": 1795641469.0290806,
         "price": 21.1
+      }
+    ],
+    "1005012790844974": [
+      {
+        "channel": "ecksdeal",
+        "ts": 1795641834.7448993,
+        "price": 35.46
       }
     ]
   },
