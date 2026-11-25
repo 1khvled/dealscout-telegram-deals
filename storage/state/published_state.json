@@ -1865,7 +1865,7 @@
     "1005004433755802": 1795382836.9089916,
     "1005013572353302": 1795601186.566498,
     "1005012172081619": 1795601168.6454124,
-    "1005007869625249": 1795549858.5357745,
+    "1005007869625249": 1795629157.6468024,
     "1005013572273568": 1795476463.9675937,
     "COUPONBULLETIN_lodydeals_46823": 1795474088.8029113,
     "1005006444231276": 1795501553.790957,
@@ -4375,7 +4375,7 @@
     "HONOR Earbuds X10 Play": 1795601186.566498,
     "OPPO Enco Buds3 Pro True Wireless Earbuds": 1795601168.6454124,
     "Zeblaze Btalk 4 Pro Voice Calling Amoled": 1795463758.3094215,
-    "CUSU RAM DDR4 3200MHz 16GB": 1795549858.5357745,
+    "CUSU RAM DDR4 3200MHz 16GB": 1795629157.6468024,
     "BOYA Mini 2 Wireless Lavalier Microphone": 1795466729.299068,
     "عودة المايك الأسطوري ما تراطيش": 1795467282.6052318,
     "ADATA XPG DDR4 8GBx2 3200Mhz": 1795472795.5793128,
@@ -4425,7 +4425,6 @@
     "Q86 WIRELESS EARBUDS": 1795623753.9870079
   },
   "published_post_keys": [
-    "aniscoupons:34796",
     "aniscoupons:34797",
     "aniscoupons:34798",
     "zedstoreonline:40066",
@@ -5424,11 +5423,12 @@
     "aniscoupons:35644",
     "lodydeals:46902",
     "lodydeals:46903",
-    "zedstoreonline:40700"
+    "zedstoreonline:40700",
+    "aniscoupons:35645"
   ],
   "last_disclaimer_time": 1794524540.9476151,
   "last_calendar_time": 1795177633.1203737,
-  "last_run_time": 1795627855.495774,
+  "last_run_time": 1795629157.6468024,
   "monitored_channels": {
     "ecksdeal": {
       "last_message_id": 6130,
@@ -5459,8 +5459,8 @@
       "last_check_time": 1795627857.5927134
     },
     "aniscoupons": {
-      "last_message_id": 35644,
-      "last_check_time": 1795625619.8407605
+      "last_message_id": 35645,
+      "last_check_time": 1795629159.729838
     },
     "bnddeals": {
       "last_message_id": 51414,
@@ -6264,7 +6264,7 @@
     "1005004433755802": 36.95,
     "1005013572353302": 13.18,
     "1005012172081619": 22.49,
-    "1005007869625249": 82.6,
+    "1005007869625249": 82.7,
     "1005013572273568": 76.8,
     "1005006444231276": 6.8,
     "1005012841531067": 171.97,
@@ -33997,6 +33997,16 @@
       "price": 272.0,
       "timestamp": 1795627855.495774,
       "status": "ACTIVE"
+    },
+    "aniscoupons:35645": {
+      "channel_msg_id": 3717,
+      "product_id": "1005007869625249",
+      "title": "CUSU RAM DDR4 3200MHz 16GB",
+      "channel": "aniscoupons",
+      "source_msg_id": 35645,
+      "price": 82.7,
+      "timestamp": 1795629157.6468024,
+      "status": "ACTIVE"
     }
   },
   "schedule_config": {
@@ -34005,17 +34015,17 @@
     "current_interval_minutes": 5,
     "is_paused": false,
     "night_mode_enabled": true,
-    "last_deal_post_time": 1795627859.4162617,
+    "last_deal_post_time": 1795629160.872115,
     "night_start_hour_dz": 0,
     "night_end_hour_dz": 8,
     "night_pause_enabled": true,
-    "last_sweep_time": 1795628962.0927918,
+    "last_sweep_time": 1795629164.050868,
     "last_sweep_times": {
-      "algeria": 1795628959.82276,
-      "france": 1795628962.0927918
+      "algeria": 1795629160.8366344,
+      "france": 1795629164.050868
     },
     "last_deal_post_times": {
-      "algeria": 1795627859.4162617
+      "algeria": 1795629160.872115
     }
   },
   "last_coin_reminder_time": 1795433324.042843,
@@ -39147,6 +39157,13 @@
         "channel": "zedstoreonline",
         "ts": 1795627852.8516667,
         "price": 272.0
+      }
+    ],
+    "1005007869625249": [
+      {
+        "channel": "aniscoupons",
+        "ts": 1795629155.0476303,
+        "price": 82.7
       }
     ]
   },
