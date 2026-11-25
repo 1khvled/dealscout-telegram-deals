@@ -1539,11 +1539,13 @@ def extract_telegram_html_text(text_div) -> str:
     # Replace block breaks and emoji container breaks with newlines
     html = re.sub(r'<(?:br|/p|/div|/blockquote|/tg-emoji|tg-emoji)[^>]*>', '\n', html, flags=re.IGNORECASE)
     soup = BeautifulSoup(html, "html.parser")
-    # Preserve inline links if the URL is not already in the anchor text
+    # Preserve inline links (AliExpress or Telegram post links) if URL is not already in anchor text
     for a in soup.find_all("a", href=True):
         href = a["href"].strip()
         a_text = a.get_text().strip()
-        if ("aliexpress.com" in href or "s.click" in href) and href not in a_text:
+        is_ali_href = ("aliexpress.com" in href or "s.click" in href)
+        is_tg_post_href = bool(re.search(r't\.me/[A-Za-z0-9_]+/\d+', href, re.I))
+        if (is_ali_href or is_tg_post_href) and href not in a_text:
             a.replace_with(f"{a_text}\n{href}")
     import html as html_lib
     text = html_lib.unescape(soup.get_text())
@@ -1561,13 +1563,14 @@ def is_multi_deal_compilation(text: str) -> bool:
     """
     if not text:
         return False
-    # 1. Obvious roundup/compilation headers
+    # 1. Obvious roundup/compilation headers (strip Arabic tatweel so 'تــجميعة' matches 'تجميعة')
+    norm_text = text.replace("\u0640", "")
     roundup_keywords = [
         "أفضل العروض في", "افضل العروض في", "تجميعة عروض", "تجميعة تخفيضات",
         "تجميعة", "فهرس العروض", "فهرس عروض", "فهرس التخفيضات", "عروض التخزين",
         "عروض الهواتف", "عروض الحواسيب", "عروض الساعات"
     ]
-    if any(kw in text for kw in roundup_keywords):
+    if any(kw in norm_text for kw in roundup_keywords):
         return True
 
     # 2. Multiple explicit deal headers (e.g. تخفيض لـ / عرض لـ >= 2)

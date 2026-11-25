@@ -953,3 +953,21 @@ https://s.click.aliexpress.com/e/_c3cLaI2d
         is_coupon_list=False,
     )
     assert vr.approved is True, vr.errors
+
+
+def test_extract_telegram_html_preserves_tg_post_links_and_tatweel_tajmi3a():
+    from bs4 import BeautifulSoup
+    from app.aliexpress.parser import extract_telegram_html_text, is_multi_deal_compilation
+
+    html = (
+        '<div class="tgme_widget_message_text">'
+        '<b>تــجميعة عــروض SSD SATA</b><br/><br/>'
+        '✅ <a href="https://t.me/aniscoupons/35611">SomnAmbulist 120GB</a> 29💲<br/>'
+        '✅ <a href="https://t.me/aniscoupons/35628">KOOTION SSD 128GB</a> 7.5💲'
+        '</div>'
+    )
+    div = BeautifulSoup(html, "html.parser").find("div")
+    text = extract_telegram_html_text(div)
+    assert "https://t.me/aniscoupons/35611" in text
+    assert "https://t.me/aniscoupons/35628" in text
+    assert is_multi_deal_compilation(text) is True
