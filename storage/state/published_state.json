@@ -941,7 +941,8 @@
     "TAJMI3AT_aniscoupons_35637",
     "1005013418407141",
     "1005010653156898",
-    "TAJMI3AT_lodydeals_46904"
+    "TAJMI3AT_lodydeals_46904",
+    "1005013311318316"
   ],
   "published_product_timestamps": {
     "1005012973772517": 1794500732.7845657,
@@ -1901,7 +1902,8 @@
     "TAJMI3AT_aniscoupons_35637": 1795620241.490416,
     "1005013418407141": 1795620610.006522,
     "1005010653156898": 1795623753.9870079,
-    "TAJMI3AT_lodydeals_46904": 1795630463.6559675
+    "TAJMI3AT_lodydeals_46904": 1795630463.6559675,
+    "1005013311318316": 1795642207.2861652
   },
   "published_titles": [
     "Wireless WiFi Repeater 300Mbps WiFi Extender Amplifier Booster Router",
@@ -3162,7 +3164,8 @@
     "Soundpeats Q3 Pro ANC",
     "Q86 WIRELESS EARBUDS",
     "من أفضل عروض هذه التخفيضات",
-    "Anker 100W USB C Charger"
+    "Anker 100W USB C Charger",
+    "سماعات اذن فخمة  Moondrop Position IEM"
   ],
   "published_title_timestamps": {
     "Xiaomi Redmi Note 17 5G Global Version": 1790857823.0117362,
@@ -4428,10 +4431,10 @@
     "Soundpeats Q3 Pro ANC": 1795620610.006522,
     "Q86 WIRELESS EARBUDS": 1795623753.9870079,
     "من أفضل عروض هذه التخفيضات": 1795630463.6559675,
-    "Anker 100W USB C Charger": 1795631548.7472386
+    "Anker 100W USB C Charger": 1795631548.7472386,
+    "سماعات اذن فخمة  Moondrop Position IEM": 1795642207.2861652
   },
   "published_post_keys": [
-    "aniscoupons:34812",
     "zedstoreonline:40087",
     "zedstoreonline:40089",
     "zedstoreonline:40090",
@@ -5430,15 +5433,16 @@
     "ecksdeal:6137",
     "ecksdeal:6138",
     "aniscoupons:35655",
-    "ecksdeal:6139"
+    "ecksdeal:6139",
+    "ecksdeal:6140"
   ],
   "last_disclaimer_time": 1794524540.9476151,
   "last_calendar_time": 1795177633.1203737,
-  "last_run_time": 1795641837.6292286,
+  "last_run_time": 1795642207.2861652,
   "monitored_channels": {
     "ecksdeal": {
-      "last_message_id": 6139,
-      "last_check_time": 1795641839.743224
+      "last_message_id": 6140,
+      "last_check_time": 1795642209.5104144
     },
     "lodydeals": {
       "last_message_id": 46910,
@@ -6298,7 +6302,8 @@
     "1005008660082872": 3.49,
     "1005006994616533": 3.89,
     "1005013418407141": 9.18,
-    "1005010653156898": 3.0
+    "1005010653156898": 3.0,
+    "1005013311318316": 20.79
   },
   "channel_published_deals": {
     "aniscoupons:32590": {
@@ -34223,6 +34228,16 @@
       "price": 35.46,
       "timestamp": 1795641837.6292286,
       "status": "ACTIVE"
+    },
+    "ecksdeal:6140": {
+      "channel_msg_id": 3739,
+      "product_id": "1005013311318316",
+      "title": "سماعات اذن فخمة  Moondrop Position IEM",
+      "channel": "ecksdeal",
+      "source_msg_id": 6140,
+      "price": 20.79,
+      "timestamp": 1795642207.2861652,
+      "status": "ACTIVE"
     }
   },
   "schedule_config": {
@@ -34231,17 +34246,17 @@
     "current_interval_minutes": 5,
     "is_paused": false,
     "night_mode_enabled": true,
-    "last_deal_post_time": 1795641842.4519515,
+    "last_deal_post_time": 1795642212.2935839,
     "night_start_hour_dz": 0,
     "night_end_hour_dz": 8,
     "night_pause_enabled": true,
-    "last_sweep_time": 1795642021.3567967,
+    "last_sweep_time": 1795642215.6366353,
     "last_sweep_times": {
-      "algeria": 1795642019.1530461,
-      "france": 1795642021.3567967
+      "algeria": 1795642212.2478716,
+      "france": 1795642215.6366353
     },
     "last_deal_post_times": {
-      "algeria": 1795641842.4519515
+      "algeria": 1795642212.2935839
     }
   },
   "last_coin_reminder_time": 1795433324.042843,
@@ -35196,7 +35211,8 @@
     "TAJMI3AT_aniscoupons_35637": "aniscoupons",
     "1005013418407141": "lodydeals",
     "1005010653156898": "aniscoupons",
-    "TAJMI3AT_lodydeals_46904": "lodydeals"
+    "TAJMI3AT_lodydeals_46904": "lodydeals",
+    "1005013311318316": "ecksdeal"
   },
   "published_title_channels": {
     "Test Wrench Set": "test_channel",
@@ -36464,7 +36480,8 @@
     "Soundpeats Q3 Pro ANC": "lodydeals",
     "Q86 WIRELESS EARBUDS": "aniscoupons",
     "من أفضل عروض هذه التخفيضات": "lodydeals",
-    "Anker 100W USB C Charger": "lodydeals"
+    "Anker 100W USB C Charger": "lodydeals",
+    "سماعات اذن فخمة  Moondrop Position IEM": "ecksdeal"
   },
   "religious_reminders_history": {
     "mock_rem": "2026-10-02",
