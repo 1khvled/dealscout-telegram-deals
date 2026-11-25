@@ -1160,7 +1160,7 @@
     "1005011557896041": 1794845264.512838,
     "1005011754993234": 1795612289.48763,
     "1005011735727412": 1791943783.9162278,
-    "1005007916078341": 1795601108.6546407,
+    "1005007916078341": 1795638901.367554,
     "1005006506862816": 1791947519.5815504,
     "1005008072923842": 1791968144.109348,
     "1005013336240375": 1791968149.7952893,
@@ -3965,7 +3965,7 @@
     "Haylou Solar NEO 2 Amoled": 1795078113.2768726,
     "HAYLOU S30 Wireless Bluetooth 5.4 Headphones": 1794313321.761044,
     "HAYLOU Solar Ultra GPS": 1794735713.9376893,
-    "NOTHING Watch 3 Pro": 1795601108.6546407,
+    "NOTHING Watch 3 Pro": 1795638901.367554,
     "مشترك كهربائي ORICO PD25W – محطة شحن مكتبية تضم منفذي Type-C ومنفذي USB-A ومقبسين AC لشحن الأجهزة وت": 1793966711.2525856,
     "Baseus Mouse Bluetooth Wireless Computer 1600DPI": 1793966716.198834,
     "Soundcore by Anker Q20i Hybrid Active Noise Cancelling Headphones Wireless": 1794658033.5242174,
@@ -4431,7 +4431,6 @@
     "Anker 100W USB C Charger": 1795631548.7472386
   },
   "published_post_keys": [
-    "lodydeals:46459",
     "aniscoupons:34809",
     "zedstoreonline:40081",
     "zedstoreonline:40082",
@@ -5430,11 +5429,12 @@
     "aniscoupons:35650",
     "aniscoupons:35651",
     "aniscoupons:35652",
-    "aniscoupons:35653"
+    "aniscoupons:35653",
+    "zedstoreonline:40703"
   ],
   "last_disclaimer_time": 1794524540.9476151,
   "last_calendar_time": 1795177633.1203737,
-  "last_run_time": 1795637251.147661,
+  "last_run_time": 1795638901.367554,
   "monitored_channels": {
     "ecksdeal": {
       "last_message_id": 6130,
@@ -5461,8 +5461,8 @@
       "last_check_time": 1793599663.3444748
     },
     "zedstoreonline": {
-      "last_message_id": 40702,
-      "last_check_time": 1795634509.4645517
+      "last_message_id": 40703,
+      "last_check_time": 1795638903.4865174
     },
     "aniscoupons": {
       "last_message_id": 35653,
@@ -34133,6 +34133,16 @@
       "price": 13.18,
       "timestamp": 1795637251.147661,
       "status": "ACTIVE"
+    },
+    "zedstoreonline:40703": {
+      "channel_msg_id": 3730,
+      "product_id": "1005007916078341",
+      "title": "NOTHING Watch 3 Pro",
+      "channel": "zedstoreonline",
+      "source_msg_id": 40703,
+      "price": 49.3,
+      "timestamp": 1795638901.367554,
+      "status": "ACTIVE"
     }
   },
   "schedule_config": {
@@ -34141,17 +34151,17 @@
     "current_interval_minutes": 5,
     "is_paused": false,
     "night_mode_enabled": true,
-    "last_deal_post_time": 1795637254.5403605,
+    "last_deal_post_time": 1795638905.4511375,
     "night_start_hour_dz": 0,
     "night_end_hour_dz": 8,
     "night_pause_enabled": true,
-    "last_sweep_time": 1795638762.8330724,
+    "last_sweep_time": 1795638908.1860654,
     "last_sweep_times": {
-      "algeria": 1795638760.0479403,
-      "france": 1795638762.8330724
+      "algeria": 1795638905.3991787,
+      "france": 1795638908.1860654
     },
     "last_deal_post_times": {
-      "algeria": 1795637254.5403605
+      "algeria": 1795638905.4511375
     }
   },
   "last_coin_reminder_time": 1795433324.042843,
@@ -38775,6 +38785,11 @@
       {
         "channel": "aniscoupons",
         "ts": 1795611909.2369518,
+        "price": 49.3
+      },
+      {
+        "channel": "zedstoreonline",
+        "ts": 1795638898.9775066,
         "price": 49.3
       }
     ],
