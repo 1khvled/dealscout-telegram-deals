@@ -1742,7 +1742,7 @@
     "1005010218815499": 1794845442.6108298,
     "1005011897409757": 1794593403.339319,
     "1005013203288194": 1795185828.2808123,
-    "1005010305059795": 1795521243.6382682,
+    "1005010305059795": 1795616138.7414243,
     "1005013078612320": 1795256152.5715585,
     "1005007010612283": 1794599454.461018,
     "1005010788231460": 1794604060.7762444,
@@ -4184,7 +4184,7 @@
     "ماوس فخم Logitech G502 Hero": 1794591008.1982286,
     "ماوس لاسلكي Delux M800 Mini Series": 1794591382.6548223,
     "Lexar V400 USB3.0 64GB": 1794593403.339319,
-    "HAYLOU S40 ANC Wireless": 1795521243.6382682,
+    "HAYLOU S40 ANC Wireless": 1795616138.7414243,
     "CUSU Memory DDR5 (16GB) 6000MHz": 1795080686.538359,
     "Realme 15 Pro (12/512GB)": 1794998227.2322433,
     "MAONO T1 Plus Dual-Capsule Wireless Lavalier Microphone Lapel Microphone": 1794599278.9506347,
@@ -4415,7 +4415,6 @@
     "📢": 1795611185.428156
   },
   "published_post_keys": [
-    "aniscoupons:34780",
     "aniscoupons:34782",
     "aniscoupons:34784",
     "aniscoupons:34785",
@@ -5414,11 +5413,12 @@
     "zedstoreonline:40690",
     "zedstoreonline:40691",
     "zedstoreonline:40692",
-    "zedstoreonline:40694"
+    "zedstoreonline:40694",
+    "zedstoreonline:40695"
   ],
   "last_disclaimer_time": 1794524540.9476151,
   "last_calendar_time": 1795177633.1203737,
-  "last_run_time": 1795615767.5098379,
+  "last_run_time": 1795616138.7414243,
   "monitored_channels": {
     "ecksdeal": {
       "last_message_id": 6130,
@@ -5445,12 +5445,12 @@
       "last_check_time": 1793599663.3444748
     },
     "zedstoreonline": {
-      "last_message_id": 40694,
-      "last_check_time": 1795615769.5939987
+      "last_message_id": 40695,
+      "last_check_time": 1795616140.8283775
     },
     "aniscoupons": {
-      "last_message_id": 35630,
-      "last_check_time": 1795614299.235385
+      "last_message_id": 35631,
+      "last_check_time": 1795616145.1998363
     },
     "bnddeals": {
       "last_message_id": 51412,
@@ -33845,6 +33845,16 @@
       "price": 28.7,
       "timestamp": 1795615767.5098379,
       "status": "ACTIVE"
+    },
+    "zedstoreonline:40695": {
+      "channel_msg_id": 3702,
+      "product_id": "1005010305059795",
+      "title": "HAYLOU S40 ANC Wireless",
+      "channel": "zedstoreonline",
+      "source_msg_id": 40695,
+      "price": 29.6,
+      "timestamp": 1795616138.7414243,
+      "status": "ACTIVE"
     }
   },
   "schedule_config": {
@@ -33853,17 +33863,17 @@
     "current_interval_minutes": 5,
     "is_paused": false,
     "night_mode_enabled": true,
-    "last_deal_post_time": 1795615771.0471659,
+    "last_deal_post_time": 1795616146.0475333,
     "night_start_hour_dz": 0,
     "night_end_hour_dz": 8,
     "night_pause_enabled": true,
-    "last_sweep_time": 1795615966.2945154,
+    "last_sweep_time": 1795616149.1246746,
     "last_sweep_times": {
-      "algeria": 1795615962.9243715,
-      "france": 1795615966.2945154
+      "algeria": 1795616146.0108807,
+      "france": 1795616149.1246746
     },
     "last_deal_post_times": {
-      "algeria": 1795615771.0471659
+      "algeria": 1795616146.0475333
     }
   },
   "last_coin_reminder_time": 1795433324.042843,
@@ -36876,7 +36886,6 @@
   "published_deals_history": {},
   "settings": {},
   "handled_post_keys": [
-    "zedstoreonline:40098",
     "zedstoreonline:40100",
     "lodydeals:46464",
     "lodydeals:46465",
@@ -37875,7 +37884,8 @@
     "bnddeals:51412",
     "aniscoupons:35629",
     "zedstoreonline:40693",
-    "aniscoupons:35630"
+    "aniscoupons:35630",
+    "aniscoupons:35631"
   ],
   "last_france_cross_promo_time": 1795501542.8708572,
   "next_france_cross_promo_interval_seconds": 208574,
@@ -38773,6 +38783,11 @@
         "channel": "zedstoreonline",
         "ts": 1795605665.002092,
         "price": 119.5
+      },
+      {
+        "channel": "aniscoupons",
+        "ts": 1795616145.0729733,
+        "price": 119.5
       }
     ],
     "1005013005786079": [
@@ -38867,6 +38882,13 @@
         "channel": "zedstoreonline",
         "ts": 1795615763.953876,
         "price": 28.7
+      }
+    ],
+    "1005010305059795": [
+      {
+        "channel": "zedstoreonline",
+        "ts": 1795616135.8637154,
+        "price": 29.6
       }
     ]
   },
