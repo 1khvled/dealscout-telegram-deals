@@ -937,7 +937,8 @@
     "1005006678271047",
     "1005008660082872",
     "1005006994616533",
-    "TAJMI3AT_aniscoupons_35628"
+    "TAJMI3AT_aniscoupons_35628",
+    "TAJMI3AT_aniscoupons_35637"
   ],
   "published_product_timestamps": {
     "1005012973772517": 1794500732.7845657,
@@ -1893,7 +1894,8 @@
     "1005006678271047": 1795603024.1222618,
     "1005008660082872": 1795603029.6819038,
     "1005006994616533": 1795603036.3181872,
-    "TAJMI3AT_aniscoupons_35628": 1795611185.428156
+    "TAJMI3AT_aniscoupons_35628": 1795611185.428156,
+    "TAJMI3AT_aniscoupons_35637": 1795620241.490416
   },
   "published_titles": [
     "Wireless WiFi Repeater 300Mbps WiFi Extender Amplifier Booster Router",
@@ -4412,10 +4414,9 @@
     "2.4G 300Mbps WiFi Repeater": 1795603029.6819038,
     "Adapter 7 in 1 Type C Hub": 1795603036.3181872,
     "SoundPEATS C30 ANC -52dB": 1795603223.504592,
-    "📢": 1795611185.428156
+    "📢": 1795620241.490416
   },
   "published_post_keys": [
-    "lodydeals:46454",
     "aniscoupons:34790",
     "zedstoreonline:40058",
     "aniscoupons:34791",
@@ -5414,11 +5415,12 @@
     "aniscoupons:35632",
     "aniscoupons:35633",
     "zedstoreonline:40697",
-    "aniscoupons:35635"
+    "aniscoupons:35635",
+    "aniscoupons:35637"
   ],
   "last_disclaimer_time": 1794524540.9476151,
   "last_calendar_time": 1795177633.1203737,
-  "last_run_time": 1795618355.4654787,
+  "last_run_time": 1795620241.490416,
   "monitored_channels": {
     "ecksdeal": {
       "last_message_id": 6130,
@@ -5449,8 +5451,8 @@
       "last_check_time": 1795618167.7235138
     },
     "aniscoupons": {
-      "last_message_id": 35636,
-      "last_check_time": 1795618528.9929104
+      "last_message_id": 35637,
+      "last_check_time": 1795620241.7099805
     },
     "bnddeals": {
       "last_message_id": 51412,
@@ -33905,6 +33907,16 @@
       "price": 4.0,
       "timestamp": 1795618355.4654787,
       "status": "ACTIVE"
+    },
+    "aniscoupons:35637": {
+      "channel_msg_id": 3708,
+      "product_id": "TAJMI3AT_aniscoupons_35637",
+      "title": "📢",
+      "channel": "aniscoupons",
+      "source_msg_id": 35637,
+      "price": null,
+      "timestamp": 1795620241.490416,
+      "status": "ACTIVE"
     }
   },
   "schedule_config": {
@@ -33913,17 +33925,17 @@
     "current_interval_minutes": 5,
     "is_paused": false,
     "night_mode_enabled": true,
-    "last_deal_post_time": 1795618358.9442859,
+    "last_deal_post_time": 1795620242.8412547,
     "night_start_hour_dz": 0,
     "night_end_hour_dz": 8,
     "night_pause_enabled": true,
-    "last_sweep_time": 1795620068.4790006,
+    "last_sweep_time": 1795620245.4432054,
     "last_sweep_times": {
-      "algeria": 1795620065.099141,
-      "france": 1795620068.4790006
+      "algeria": 1795620242.7857032,
+      "france": 1795620245.4432054
     },
     "last_deal_post_times": {
-      "algeria": 1795618358.9442859
+      "algeria": 1795620242.8412547
     }
   },
   "last_coin_reminder_time": 1795433324.042843,
@@ -34874,7 +34886,8 @@
     "1005006678271047": "lodydeals",
     "1005008660082872": "lodydeals",
     "1005006994616533": "lodydeals",
-    "TAJMI3AT_aniscoupons_35628": "aniscoupons"
+    "TAJMI3AT_aniscoupons_35628": "aniscoupons",
+    "TAJMI3AT_aniscoupons_35637": "aniscoupons"
   },
   "published_title_channels": {
     "Test Wrench Set": "test_channel",
@@ -36936,7 +36949,6 @@
   "published_deals_history": {},
   "settings": {},
   "handled_post_keys": [
-    "lodydeals:46465",
     "lodydeals:46466",
     "lodydeals:46467",
     "lodydeals:46469",
@@ -37935,7 +37947,8 @@
     "aniscoupons:35630",
     "aniscoupons:35631",
     "aniscoupons:35634",
-    "aniscoupons:35636"
+    "aniscoupons:35636",
+    "aniscoupons:35637"
   ],
   "last_france_cross_promo_time": 1795501542.8708572,
   "next_france_cross_promo_interval_seconds": 208574,
@@ -39004,6 +39017,14 @@
         "https://s.click.aliexpress.com/e/_c45opjx7"
       ],
       "timestamp": 1795611185.480698
+    },
+    {
+      "title": "📢",
+      "links": [
+        "https://s.click.aliexpress.com/e/_c3dzCr1n",
+        "https://s.click.aliexpress.com/e/_c40kdelb"
+      ],
+      "timestamp": 1795620241.54354
     }
   ]
 }
