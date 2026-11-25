@@ -869,3 +869,46 @@ t.me/LodyCouponsBot
 
     # 4. No coin lines injected for bundle deals
     assert "خصم النقاط 🪙" not in cap
+
+
+def test_tajmi3at_1to1_maps_internal_post_links_and_dedupes(tmp_path, monkeypatch):
+    from app.ai.generator import format_multi_deal_tajmi3at_1to1
+    from app.publisher import state_tracker
+
+    raw_tajmi3a = """تجميعة عروض هواتف iPhone مستعملة 🔥
+
+ـ الـ iPhone 12 بـ 171$ هنا ⤵️
+ـ t.me/lodydeals/46831
+
+ـ الـ iPhone 13 بـ 188$ هنا ⤵️
+ـ t.me/lodydeals/46832
+
+لا تنسى استخدام البوت للشراء بأقل الأسعار :
+t.me/LodyCouponsBot"""
+
+    mapping = {
+        "t.me/lodydeals/46831": "https://t.me/DzAliexpress0/3640",
+        "t.me/lodydeals/46832": "https://t.me/DzAliexpress0/3641",
+    }
+    cap = format_multi_deal_tajmi3at_1to1(raw_tajmi3a, mapping)
+    assert "https://t.me/DzAliexpress0/3640" in cap
+    assert "https://t.me/DzAliexpress0/3641" in cap
+    assert "lodydeals" not in cap.lower()
+    assert "lodycouponsbot" not in cap.lower()
+    assert "Alilo07BOT" in cap
+
+    # Dedup check in isolated temp state
+    monkeypatch.setattr(state_tracker, "STATE_FILE_PATH", str(tmp_path / "state.json"))
+    dup1, _ = state_tracker.is_recent_tajmi3at_duplicate(
+        "تجميعة عروض هواتف iPhone مستعملة", list(mapping.values())
+    )
+    assert dup1 is False
+
+    state_tracker.record_tajmi3at_published(
+        "تجميعة عروض هواتف iPhone مستعملة", list(mapping.values())
+    )
+    dup2, reason2 = state_tracker.is_recent_tajmi3at_duplicate(
+        "تجميعة عروض هواتف iPhone مستعملة", list(mapping.values())
+    )
+    assert dup2 is True
+    assert "Duplicate Tajmi3at" in reason2

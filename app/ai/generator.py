@@ -743,6 +743,12 @@ def format_multi_deal_tajmi3at_1to1(raw_text: str, link_mapping: Dict[str, str])
             clean_lines.append("")
             continue
 
+        # Substitute mapped internal post links (e.g. t.me/lodydeals/46831 -> https://t.me/DzAliexpress0/3640)
+        # BEFORE stripping bare competitor channel promo lines.
+        for orig_u, mapped_u in link_mapping.items():
+            if orig_u in line:
+                line = line.replace(orig_u, mapped_u)
+
         # Skip direct competitor channel links & scam disclaimers
         if any(b in line.lower() for b in ["t.me/lodydeals", "t.me/ecksdeal", "t.me/zedstoreonline", "t.me/aniscoupons", "t.me/bnddeals"]):
             continue

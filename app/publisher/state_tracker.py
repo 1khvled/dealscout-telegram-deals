@@ -1525,5 +1525,57 @@ def record_pre_11_11_advisory_published(variant_idx: int):
     save_persistent_state(state)
 
 
+def get_published_channel_msg_id(source_channel: str, source_msg_id: int) -> Optional[int]:
+    """Return the published @DzAliexpress0 message_id for a given source channel:msg_id, if any."""
+    state = load_persistent_state()
+    key = f"{source_channel.lower().lstrip('@')}:{source_msg_id}"
+    entry = state.get("channel_published_deals", {}).get(key)
+    if isinstance(entry, dict) and entry.get("channel_msg_id"):
+        try:
+            return int(entry["channel_msg_id"])
+        except (TypeError, ValueError):
+            return None
+    return None
+
+
+def is_recent_tajmi3at_duplicate(
+    title: str,
+    link_targets: List[str],
+    cooldown_hours: float = 24.0,
+) -> Tuple[bool, str]:
+    """Block duplicate incoming Tajmi3at roundups by title similarity or link overlap."""
+    state = load_persistent_state()
+    now = time.time()
+    cutoff = now - cooldown_hours * 3600
+    target_set = {u.strip().lower() for u in (link_targets or []) if u and u.strip()}
+    for prev in state.get("published_tajmi3at", []):
+        if not isinstance(prev, dict):
+            continue
+        if prev.get("timestamp", 0.0) < cutoff:
+            continue
+        prev_title = prev.get("title", "")
+        if title and prev_title and is_same_deal_title(title, prev_title):
+            return True, f"Duplicate Tajmi3at title '{prev_title}'"
+        prev_links = {u.strip().lower() for u in prev.get("links", []) if u and u.strip()}
+        if target_set and prev_links:
+            overlap = len(target_set & prev_links) / max(len(target_set), len(prev_links))
+            if overlap >= 0.5:
+                return True, f"Duplicate Tajmi3at link overlap ({overlap:.0%})"
+    return False, ""
+
+
+def record_tajmi3at_published(title: str, link_targets: List[str]) -> None:
+    """Record a published incoming Tajmi3at roundup for cross-channel deduplication."""
+    state = load_persistent_state()
+    entries = state.setdefault("published_tajmi3at", [])
+    entries.append({
+        "title": (title or "")[:120],
+        "links": sorted({u.strip() for u in (link_targets or []) if u and u.strip()})[:30],
+        "timestamp": time.time(),
+    })
+    state["published_tajmi3at"] = entries[-100:]
+    save_persistent_state(state)
+
+
 
 

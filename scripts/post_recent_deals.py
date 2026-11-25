@@ -71,14 +71,21 @@ async def publish_incoming_multi_deal_post(raw_text: str, source_channel: str, s
         from app.aliexpress.affiliate import affiliate_service
         from api.coin_bot import ensure_affiliate
         from app.ai.generator import format_multi_deal_tajmi3at_1to1
-        from app.publisher.state_tracker import record_post_published
+        from app.publisher.state_tracker import (
+            record_post_published,
+            get_published_channel_msg_id,
+            is_recent_tajmi3at_duplicate,
+            record_tajmi3at_published,
+        )
 
         urls = extract_all_urls(raw_text)
         ali_urls = [u for u in urls if is_aliexpress_url(u) or is_potential_shortener(u)]
-        if not ali_urls:
-            return False
 
-        # Monetize all unique AliExpress URLs 1:1
+        # Also resolve internal Telegram post links (e.g. t.me/lodydeals/46831)
+        # to our own published @DzAliexpress0 post (or fallback to monetized AliExpress link).
+        tg_refs = re.findall(r'((?:https?://)?t\.me/([A-Za-z0-9_]+)/(\d+))', raw_text, re.IGNORECASE)
+        monitored_set = {c.lower() for c in CHANNELS}
+
         link_mapping = {}
         for u in ali_urls:
             clean_u = u.rstrip('.,;)"\'')
@@ -89,6 +96,40 @@ async def publish_incoming_multi_deal_post(raw_text: str, source_channel: str, s
                 except Exception as aff_err:
                     logger.warning(f"Failed monetizing link {clean_u}: {aff_err}")
                     link_mapping[clean_u] = clean_u
+
+        target_chat_handle = (getattr(settings, "TARGET_CHANNEL_ID", None) or "@DzAliexpress0").lstrip("@")
+        async with httpx.AsyncClient(timeout=15.0) as ref_client:
+            for full_ref, ref_ch, ref_id_str in tg_refs:
+                if ref_ch.lower() not in monitored_set:
+                    continue
+                our_mid = get_published_channel_msg_id(ref_ch, int(ref_id_str))
+                if our_mid:
+                    link_mapping[full_ref] = f"https://t.me/{target_chat_handle}/{our_mid}"
+                    continue
+                # Fallback: fetch the referenced post and monetize its first AliExpress URL
+                try:
+                    r_ref = await ref_client.get(f"https://t.me/{ref_ch}/{ref_id_str}?embed=1")
+                    m_ref = re.search(r'<div class="tgme_widget_message_text[^"]*"[^>]*>(.*?)</div>', r_ref.text, re.S)
+                    if m_ref:
+                        ref_text = re.sub(r"<[^>]+>", " ", re.sub(r"<br\s*/?>", "\n", m_ref.group(1)))
+                        ref_ali = [
+                            u.rstrip('.,;)"\'') for u in extract_all_urls(ref_text)
+                            if is_aliexpress_url(u) or is_potential_shortener(u)
+                        ]
+                        if ref_ali:
+                            monetized = await affiliate_service.create_affiliate_link(ref_ali[0])
+                            link_mapping[full_ref] = ensure_affiliate(monetized)
+                except Exception as ref_err:
+                    logger.warning(f"Failed resolving tajmi3a ref {full_ref}: {ref_err}")
+
+        if not link_mapping:
+            return False
+
+        first_line = raw_text.splitlines()[0].strip() if raw_text.splitlines() else "تجميعة عروض"
+        is_dup, dup_reason = is_recent_tajmi3at_duplicate(first_line, list(link_mapping.values()), cooldown_hours=24.0)
+        if is_dup:
+            print(f"  [TAJMI3AT DUPLICATE BLOCKED] {source_channel} #{source_msg_id}: {dup_reason}")
+            return False
 
         # Format caption preserving items, structure, and monetizing all links
         caption = format_multi_deal_tajmi3at_1to1(raw_text, link_mapping)
@@ -131,6 +172,7 @@ async def publish_incoming_multi_deal_post(raw_text: str, source_channel: str, s
                     title=first_line[:60],
                     channel_msg_id=new_msg_id
                 )
+                record_tajmi3at_published(first_line, list(link_mapping.values()))
                 print(f"  [TAJMI3AT PUBLISHED] Successfully published multi-deal roundup {source_channel} #{source_msg_id} -> DzAliexpress0 #{new_msg_id}!")
 
                 # Facebook auto-post if enabled
@@ -804,27 +846,20 @@ async def collect_and_post_last_10_deals(force: bool = False, force_tajmi3at: bo
                             continue
 
                     # Check: Multi-Deal Roundup / Tajmi3at Compilation (e.g. SSD compilation, phones roundup)
+                    # Publish incoming competitor Tajmi3at 1:1 (deduped against recent roundups).
                     if is_multi_deal_compilation(raw_text):
-                        if force_tajmi3at:
-                            published_multi = await publish_incoming_multi_deal_post(
-                                raw_text=raw_text,
-                                source_channel=ch,
-                                source_msg_id=msg_id
-                            )
-                            if published_multi:
-                                deals_published_this_run += 1
-                                published_deals.append(f"TAJMI3AT_{ch}_{msg_id}")
-                                max_processed_id = max(max_processed_id, msg_id)
-                                record_monitored_channel_last_id(ch, msg_id)
-                                record_post_handled(ch, msg_id)
-                                continue
-                        else:
-                            # User strictly wants single deals only, skip incoming multi-deal roundups
-                            logger.info(f"Skipping multi-deal compilation / Tajmi3at {ch} #{msg_id} (single deals only)")
-                            max_processed_id = max(max_processed_id, msg_id)
-                            record_monitored_channel_last_id(ch, msg_id)
-                            record_post_handled(ch, msg_id)
-                            continue
+                        published_multi = await publish_incoming_multi_deal_post(
+                            raw_text=raw_text,
+                            source_channel=ch,
+                            source_msg_id=msg_id
+                        )
+                        if published_multi:
+                            deals_published_this_run += 1
+                            published_deals.append(f"TAJMI3AT_{ch}_{msg_id}")
+                        max_processed_id = max(max_processed_id, msg_id)
+                        record_monitored_channel_last_id(ch, msg_id)
+                        record_post_handled(ch, msg_id)
+                        continue
 
                     # Check: Coupon Claim / Reservation Post (e.g. 09:00 AM restock links, claim center)
                     # Opt-in only: a coupon wall is not a deal. When disabled we mark the
