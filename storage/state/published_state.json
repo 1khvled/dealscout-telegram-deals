@@ -1223,7 +1223,7 @@
     "9998882360": 1792162360.6633363,
     "9998882475": 1793282475.663889,
     "9998882568": 1792162568.078144,
-    "1005010369693975": 1795251391.6121745,
+    "1005010369693975": 1795643307.8339655,
     "1005006442452857": 1792166326.0335298,
     "9998886462": 1792166462.200491,
     "1005009948598802": 1793500786.1935658,
@@ -4110,7 +4110,7 @@
     "AULA WIN68 HE Gaming Mechanical Keyboard": 1794312953.1830955,
     "CMF Buds 2a ANC -42dB  السعر: 11.7": 1794312964.1163073,
     "MACHENIKE G1 Wireless Gaming Controller": 1795085991.192385,
-    "HAYLOU Mori Pro": 1794992721.2661278,
+    "HAYLOU Mori Pro": 1795643307.8339655,
     "KOOTION SATA3 SSD 128GB": 1794585682.0605152,
     "Inphic YuanChuang Cyber Gaming Mouse": 1794320674.833981,
     "SIX PCIe 4.0 SSD (1TB) NVMe M2": 1794331533.1223195,
@@ -4439,7 +4439,6 @@
     "تجميعة عروض هواتف iPhone مستعملة": 1795642940.4631746
   },
   "published_post_keys": [
-    "zedstoreonline:40089",
     "zedstoreonline:40090",
     "zedstoreonline:40091",
     "zedstoreonline:40092",
@@ -5438,11 +5437,12 @@
     "aniscoupons:35655",
     "ecksdeal:6139",
     "ecksdeal:6140",
-    "lodydeals:46911"
+    "lodydeals:46911",
+    "aniscoupons:35658"
   ],
   "last_disclaimer_time": 1794524540.9476151,
   "last_calendar_time": 1795177633.1203737,
-  "last_run_time": 1795642940.4631746,
+  "last_run_time": 1795643307.8339655,
   "monitored_channels": {
     "ecksdeal": {
       "last_message_id": 6140,
@@ -5473,8 +5473,8 @@
       "last_check_time": 1795640558.0372844
     },
     "aniscoupons": {
-      "last_message_id": 35657,
-      "last_check_time": 1795642018.4705338
+      "last_message_id": 35658,
+      "last_check_time": 1795643309.9007108
     },
     "bnddeals": {
       "last_message_id": 51414,
@@ -5710,7 +5710,7 @@
     "1005012671337268": 4.02,
     "1005012331836106": 268.0,
     "1005007760080474": 75.0,
-    "1005010369693975": 10.9,
+    "1005010369693975": 10.6,
     "1005006442452857": 24.7,
     "1005012751475098": 2.28,
     "1005012545304504": 123.1,
@@ -34252,6 +34252,16 @@
       "price": null,
       "timestamp": 1795642940.4631746,
       "status": "ACTIVE"
+    },
+    "aniscoupons:35658": {
+      "channel_msg_id": 3741,
+      "product_id": "1005010369693975",
+      "title": "HAYLOU Mori Pro",
+      "channel": "aniscoupons",
+      "source_msg_id": 35658,
+      "price": 10.6,
+      "timestamp": 1795643307.8339655,
+      "status": "ACTIVE"
     }
   },
   "schedule_config": {
@@ -34260,17 +34270,17 @@
     "current_interval_minutes": 5,
     "is_paused": false,
     "night_mode_enabled": true,
-    "last_deal_post_time": 1795642944.7932422,
+    "last_deal_post_time": 1795643310.8141844,
     "night_start_hour_dz": 0,
     "night_end_hour_dz": 8,
     "night_pause_enabled": true,
-    "last_sweep_time": 1795643122.497313,
+    "last_sweep_time": 1795643313.7059605,
     "last_sweep_times": {
-      "algeria": 1795643120.0184543,
-      "france": 1795643122.497313
+      "algeria": 1795643310.7867231,
+      "france": 1795643313.7059605
     },
     "last_deal_post_times": {
-      "algeria": 1795642944.7932422
+      "algeria": 1795643310.8141844
     }
   },
   "last_coin_reminder_time": 1795433324.042843,
@@ -34564,7 +34574,7 @@
     "9998882360": "test_channel",
     "9998882475": "test_channel",
     "9998882568": "test_channel",
-    "1005010369693975": "zedstoreonline",
+    "1005010369693975": "aniscoupons",
     "1005006442452857": "zedstoreonline",
     "9998886462": "test_channel",
     "1005012751475098": "couponsglobal",
@@ -39556,6 +39566,13 @@
         "channel": "ecksdeal",
         "ts": 1795641834.7448993,
         "price": 35.46
+      }
+    ],
+    "1005010369693975": [
+      {
+        "channel": "aniscoupons",
+        "ts": 1795643304.7223053,
+        "price": 10.6
       }
     ]
   },
