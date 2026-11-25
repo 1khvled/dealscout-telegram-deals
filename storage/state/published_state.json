@@ -34274,18 +34274,18 @@
     "night_start_hour_dz": 0,
     "night_end_hour_dz": 8,
     "night_pause_enabled": true,
-    "last_sweep_time": 1795648773.709826,
+    "last_sweep_time": 1795648951.0400517,
     "last_sweep_times": {
-      "algeria": 1795648770.55587,
-      "france": 1795648773.709826
+      "algeria": 1795648948.3724203,
+      "france": 1795648951.0400517
     },
     "last_deal_post_times": {
       "algeria": 1795643310.8141844
     }
   },
-  "last_coin_reminder_time": 1795433324.042843,
-  "next_reminder_interval_seconds": 215487,
-  "coin_reminder_variant_idx": 0,
+  "last_coin_reminder_time": 1795648937.9274871,
+  "next_reminder_interval_seconds": 179771,
+  "coin_reminder_variant_idx": 1,
   "published_product_channels": {
     "999888104": "test_channel",
     "100500888999777": "lodydeals",
