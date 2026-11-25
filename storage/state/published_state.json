@@ -1613,7 +1613,7 @@
     "1005010142208108": 1794753124.2973137,
     "1005008534907844": 1793987285.4130383,
     "1005009577554629": 1793987289.8200357,
-    "1005010656922924": 1795558896.5588944,
+    "1005010656922924": 1795603223.504592,
     "1005008077441711": 1795259816.8338442,
     "1005006411483066": 1794500381.7712336,
     "1005012925301774": 1795085801.1895535,
@@ -3146,7 +3146,8 @@
     "Outdoor Camping Hammock",
     "HOMEFISH Vertical Mouse",
     "2.4G 300Mbps WiFi Repeater",
-    "Adapter 7 in 1 Type C Hub"
+    "Adapter 7 in 1 Type C Hub",
+    "SoundPEATS C30 ANC -52dB"
   ],
   "published_title_timestamps": {
     "Xiaomi Redmi Note 17 5G Global Version": 1790857823.0117362,
@@ -4406,10 +4407,10 @@
     "Outdoor Camping Hammock": 1795603012.8186684,
     "HOMEFISH Vertical Mouse": 1795603024.1222618,
     "2.4G 300Mbps WiFi Repeater": 1795603029.6819038,
-    "Adapter 7 in 1 Type C Hub": 1795603036.3181872
+    "Adapter 7 in 1 Type C Hub": 1795603036.3181872,
+    "SoundPEATS C30 ANC -52dB": 1795603223.504592
   },
   "published_post_keys": [
-    "aniscoupons:34759",
     "aniscoupons:34760",
     "lodydeals:46448",
     "aniscoupons:34761",
@@ -5408,11 +5409,12 @@
     "lodydeals:46873",
     "lodydeals:46874",
     "lodydeals:46876",
-    "zedstoreonline:40678"
+    "zedstoreonline:40678",
+    "lodydeals:46889"
   ],
   "last_disclaimer_time": 1794524540.9476151,
   "last_calendar_time": 1795177633.1203737,
-  "last_run_time": 1795603047.258251,
+  "last_run_time": 1795603223.504592,
   "monitored_channels": {
     "ecksdeal": {
       "last_message_id": 6130,
@@ -5420,7 +5422,7 @@
     },
     "lodydeals": {
       "last_message_id": 46890,
-      "last_check_time": 1795603039.6008546
+      "last_check_time": 1795603225.5997307
     },
     "test_channel": {
       "last_message_id": 1793967703,
@@ -5443,8 +5445,8 @@
       "last_check_time": 1795603047.258251
     },
     "aniscoupons": {
-      "last_message_id": 35619,
-      "last_check_time": 1795602815.7427979
+      "last_message_id": 35620,
+      "last_check_time": 1795603231.7012424
     },
     "bnddeals": {
       "last_message_id": 51411,
@@ -6018,7 +6020,7 @@
     "1005010142208108": 37.25,
     "1005008534907844": 50.86,
     "1005009577554629": 10.55,
-    "1005010656922924": 19.4,
+    "1005010656922924": 20.46,
     "1005008077441711": 8.5,
     "1005012925301774": 10.5,
     "1005012959738411": 70.0,
@@ -33649,6 +33651,16 @@
       "price": 277.0,
       "timestamp": 1795603047.258251,
       "status": "ACTIVE"
+    },
+    "lodydeals:46889": {
+      "channel_msg_id": 3683,
+      "product_id": "1005010656922924",
+      "title": "SoundPEATS C30 ANC -52dB",
+      "channel": "lodydeals",
+      "source_msg_id": 46889,
+      "price": 20.46,
+      "timestamp": 1795603223.504592,
+      "status": "ACTIVE"
     }
   },
   "schedule_config": {
@@ -33657,17 +33669,17 @@
     "current_interval_minutes": 5,
     "is_paused": false,
     "night_mode_enabled": true,
-    "last_deal_post_time": 1795603051.175402,
+    "last_deal_post_time": 1795603232.5734444,
     "night_start_hour_dz": 0,
     "night_end_hour_dz": 8,
     "night_pause_enabled": true,
-    "last_sweep_time": 1795603054.11688,
+    "last_sweep_time": 1795603235.219057,
     "last_sweep_times": {
-      "algeria": 1795603051.1303985,
-      "france": 1795603054.11688
+      "algeria": 1795603232.5316246,
+      "france": 1795603235.219057
     },
     "last_deal_post_times": {
-      "algeria": 1795603051.175402
+      "algeria": 1795603232.5734444
     }
   },
   "last_coin_reminder_time": 1795433324.042843,
@@ -34344,7 +34356,7 @@
     "1005010142208108": "lodydeals",
     "1005008534907844": "lodydeals",
     "1005009577554629": "lodydeals",
-    "1005010656922924": "bnddeals",
+    "1005010656922924": "lodydeals",
     "1005008077441711": "zedstoreonline",
     "1005006411483066": "lodydeals",
     "1005012925301774": "zedstoreonline",
@@ -35879,7 +35891,8 @@
     "Outdoor Camping Hammock": "lodydeals",
     "HOMEFISH Vertical Mouse": "lodydeals",
     "2.4G 300Mbps WiFi Repeater": "lodydeals",
-    "Adapter 7 in 1 Type C Hub": "lodydeals"
+    "Adapter 7 in 1 Type C Hub": "lodydeals",
+    "SoundPEATS C30 ANC -52dB": "lodydeals"
   },
   "religious_reminders_history": {
     "mock_rem": "2026-10-02",
@@ -36677,14 +36690,6 @@
   "published_deals_history": {},
   "settings": {},
   "handled_post_keys": [
-    "aniscoupons:34800",
-    "aniscoupons:34801",
-    "zedstoreonline:40068",
-    "aniscoupons:34802",
-    "aniscoupons:34803",
-    "zedstoreonline:40069",
-    "aniscoupons:34805",
-    "zedstoreonline:40072",
     "aniscoupons:34806",
     "zedstoreonline:40074",
     "zedstoreonline:40075",
@@ -37676,7 +37681,15 @@
     "lodydeals:46875",
     "lodydeals:46877",
     "lodydeals:46878",
-    "lodydeals:46879"
+    "lodydeals:46879",
+    "lodydeals:46880",
+    "lodydeals:46881",
+    "lodydeals:46883",
+    "lodydeals:46885",
+    "lodydeals:46886",
+    "lodydeals:46888",
+    "lodydeals:46890",
+    "aniscoupons:35620"
   ],
   "last_france_cross_promo_time": 1795501542.8708572,
   "next_france_cross_promo_interval_seconds": 208574,
@@ -38313,6 +38326,11 @@
         "channel": "aniscoupons",
         "ts": 1795601182.8892064,
         "price": 9.7
+      },
+      {
+        "channel": "lodydeals",
+        "ts": 1795603217.2263322,
+        "price": 29.6
       }
     ],
     "1005012325373696": [
@@ -38320,12 +38338,22 @@
         "channel": "zedstoreonline",
         "ts": 1795601152.150306,
         "price": 203.3
+      },
+      {
+        "channel": "aniscoupons",
+        "ts": 1795603231.547253,
+        "price": 203.3
       }
     ],
     "1005012899783721": [
       {
         "channel": "aniscoupons",
         "ts": 1795601160.1519446,
+        "price": 5.85
+      },
+      {
+        "channel": "lodydeals",
+        "ts": 1795603219.7382743,
         "price": 5.85
       }
     ],
@@ -38482,6 +38510,13 @@
         "channel": "zedstoreonline",
         "ts": 1795603044.9475782,
         "price": 277.0
+      }
+    ],
+    "1005010656922924": [
+      {
+        "channel": "lodydeals",
+        "ts": 1795603220.9885597,
+        "price": 20.46
       }
     ]
   },
