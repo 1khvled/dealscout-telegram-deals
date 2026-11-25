@@ -1886,7 +1886,7 @@
     "1005006995294624": 1795527391.8790212,
     "1005012899783721": 1795623320.9110665,
     "1005013423776757": 1795603012.8186684,
-    "1005012383444183": 1795601102.9143867,
+    "1005012383444183": 1795634507.3860261,
     "1005013519635614": 1795546736.9831076,
     "33061115247": 1795547454.3449724,
     "1005012374298987": 1795608979.8632379,
@@ -4416,7 +4416,7 @@
     "Godox C01 Kit 2 Microphone Lavalier": 1795553355.383983,
     "CMF Buds Neo 12.4 mm Titanium‑coated Driver": 1795555387.9747143,
     "سماعات SOUNDPEATS C30": 1795558896.5588944,
-    "OPPO Enco Buds 3": 1795601102.9143867,
+    "OPPO Enco Buds 3": 1795634507.3860261,
     "realme P4  8/256": 1795601155.086321,
     "ATTACK SHARK V6": 1795601892.3750827,
     "Outdoor Camping Hammock": 1795603012.8186684,
@@ -4431,7 +4431,6 @@
     "Anker 100W USB C Charger": 1795631548.7472386
   },
   "published_post_keys": [
-    "zedstoreonline:40070",
     "zedstoreonline:40071",
     "zedstoreonline:40073",
     "ecksdeal:6060",
@@ -5430,11 +5429,12 @@
     "aniscoupons:35646",
     "lodydeals:46910",
     "aniscoupons:35647",
-    "aniscoupons:35648"
+    "aniscoupons:35648",
+    "zedstoreonline:40702"
   ],
   "last_disclaimer_time": 1794524540.9476151,
   "last_calendar_time": 1795177633.1203737,
-  "last_run_time": 1795633946.180254,
+  "last_run_time": 1795634507.3860261,
   "monitored_channels": {
     "ecksdeal": {
       "last_message_id": 6130,
@@ -5461,12 +5461,12 @@
       "last_check_time": 1793599663.3444748
     },
     "zedstoreonline": {
-      "last_message_id": 40701,
-      "last_check_time": 1795631932.9271302
+      "last_message_id": 40702,
+      "last_check_time": 1795634509.4645517
     },
     "aniscoupons": {
-      "last_message_id": 35648,
-      "last_check_time": 1795633948.2917025
+      "last_message_id": 35649,
+      "last_check_time": 1795634512.340741
     },
     "bnddeals": {
       "last_message_id": 51414,
@@ -34083,6 +34083,16 @@
       "price": 79.6,
       "timestamp": 1795633946.180254,
       "status": "ACTIVE"
+    },
+    "zedstoreonline:40702": {
+      "channel_msg_id": 3725,
+      "product_id": "1005012383444183",
+      "title": "OPPO Enco Buds 3",
+      "channel": "zedstoreonline",
+      "source_msg_id": 40702,
+      "price": 22.3,
+      "timestamp": 1795634507.3860261,
+      "status": "ACTIVE"
     }
   },
   "schedule_config": {
@@ -34091,17 +34101,17 @@
     "current_interval_minutes": 5,
     "is_paused": false,
     "night_mode_enabled": true,
-    "last_deal_post_time": 1795633949.505277,
+    "last_deal_post_time": 1795634513.4125648,
     "night_start_hour_dz": 0,
     "night_end_hour_dz": 8,
     "night_pause_enabled": true,
-    "last_sweep_time": 1795634318.559654,
+    "last_sweep_time": 1795634516.8070853,
     "last_sweep_times": {
-      "algeria": 1795634315.791804,
-      "france": 1795634318.559654
+      "algeria": 1795634513.3775728,
+      "france": 1795634516.8070853
     },
     "last_deal_post_times": {
-      "algeria": 1795633949.505277
+      "algeria": 1795634513.4125648
     }
   },
   "last_coin_reminder_time": 1795433324.042843,
@@ -37122,7 +37132,6 @@
   "published_deals_history": {},
   "settings": {},
   "handled_post_keys": [
-    "lodydeals:46481",
     "aniscoupons:34821",
     "lodydeals:46482",
     "aniscoupons:34822",
@@ -38121,7 +38130,8 @@
     "lodydeals:46904",
     "lodydeals:46906",
     "lodydeals:46907",
-    "zedstoreonline:40701"
+    "zedstoreonline:40701",
+    "aniscoupons:35649"
   ],
   "last_france_cross_promo_time": 1795501542.8708572,
   "next_france_cross_promo_interval_seconds": 208574,
@@ -38703,6 +38713,16 @@
       {
         "channel": "aniscoupons",
         "ts": 1795601158.9829373,
+        "price": 22.35
+      },
+      {
+        "channel": "zedstoreonline",
+        "ts": 1795634504.762407,
+        "price": 22.3
+      },
+      {
+        "channel": "aniscoupons",
+        "ts": 1795634512.2112026,
         "price": 22.35
       }
     ],
