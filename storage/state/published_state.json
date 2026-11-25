@@ -1866,7 +1866,7 @@
     "1005012927159948": 1795521185.434005,
     "1005012971094543": 1795521192.0364006,
     "1005012987957842": 1795521197.5917315,
-    "1005012172859239": 1795521214.580526,
+    "1005012172859239": 1795601892.3750827,
     "1005006648408257": 1795521718.768218,
     "1005005543641427": 1795601124.2950418,
     "COUPONBULLETIN_zedstoreonline_40618": 1795521740.997882,
@@ -3135,7 +3135,8 @@
     "CMF Buds Neo 12.4 mm Titanium‑coated Driver",
     "سماعات SOUNDPEATS C30",
     "OPPO Enco Buds 3",
-    "realme P4  8/256"
+    "realme P4  8/256",
+    "ATTACK SHARK V6"
   ],
   "published_title_timestamps": {
     "Xiaomi Redmi Note 17 5G Global Version": 1790857823.0117362,
@@ -4390,10 +4391,10 @@
     "CMF Buds Neo 12.4 mm Titanium‑coated Driver": 1795555387.9747143,
     "سماعات SOUNDPEATS C30": 1795558896.5588944,
     "OPPO Enco Buds 3": 1795601102.9143867,
-    "realme P4  8/256": 1795601155.086321
+    "realme P4  8/256": 1795601155.086321,
+    "ATTACK SHARK V6": 1795601892.3750827
   },
   "published_post_keys": [
-    "aniscoupons:34742",
     "aniscoupons:34744",
     "lodydeals:46432",
     "lodydeals:46433",
@@ -5392,11 +5393,12 @@
     "zedstoreonline:40676",
     "zedstoreonline:40677",
     "aniscoupons:35616",
-    "aniscoupons:35617"
+    "aniscoupons:35617",
+    "zedstoreonline:40679"
   ],
   "last_disclaimer_time": 1794524540.9476151,
   "last_calendar_time": 1795177633.1203737,
-  "last_run_time": 1795601381.5771883,
+  "last_run_time": 1795601892.3750827,
   "monitored_channels": {
     "ecksdeal": {
       "last_message_id": 6130,
@@ -5423,8 +5425,8 @@
       "last_check_time": 1793599663.3444748
     },
     "zedstoreonline": {
-      "last_message_id": 40677,
-      "last_check_time": 1795601372.7167711
+      "last_message_id": 40679,
+      "last_check_time": 1795601894.4504476
     },
     "aniscoupons": {
       "last_message_id": 35617,
@@ -33530,6 +33532,16 @@
       "price": 18.88,
       "timestamp": 1795601381.5771883,
       "status": "ACTIVE"
+    },
+    "zedstoreonline:40679": {
+      "channel_msg_id": 3673,
+      "product_id": "1005012172859239",
+      "title": "ATTACK SHARK V6",
+      "channel": "zedstoreonline",
+      "source_msg_id": 40679,
+      "price": 22.1,
+      "timestamp": 1795601892.3750827,
+      "status": "ACTIVE"
     }
   },
   "schedule_config": {
@@ -33538,17 +33550,17 @@
     "current_interval_minutes": 5,
     "is_paused": false,
     "night_mode_enabled": true,
-    "last_deal_post_time": 1795601384.5325322,
+    "last_deal_post_time": 1795601895.7072935,
     "night_start_hour_dz": 0,
     "night_end_hour_dz": 8,
     "night_pause_enabled": true,
-    "last_sweep_time": 1795601662.1563258,
+    "last_sweep_time": 1795601897.8771863,
     "last_sweep_times": {
-      "algeria": 1795601659.9278512,
-      "france": 1795601662.1563258
+      "algeria": 1795601895.6755588,
+      "france": 1795601897.8771863
     },
     "last_deal_post_times": {
-      "algeria": 1795601384.5325322
+      "algeria": 1795601895.7072935
     }
   },
   "last_coin_reminder_time": 1795433324.042843,
@@ -34476,7 +34488,7 @@
     "1005012927159948": "lodydeals",
     "1005012971094543": "lodydeals",
     "1005012987957842": "lodydeals",
-    "1005012172859239": "lodydeals",
+    "1005012172859239": "zedstoreonline",
     "1005006648408257": "zedstoreonline",
     "1005005543641427": "zedstoreonline",
     "COUPONBULLETIN_zedstoreonline_40618": "zedstoreonline",
@@ -35752,7 +35764,8 @@
     "سماعات SOUNDPEATS C30": "bnddeals",
     "OPPO Enco Buds 3": "zedstoreonline",
     "SomnAmbulist SSD 2.5 120GB": "zedstoreonline",
-    "realme P4  8/256": "zedstoreonline"
+    "realme P4  8/256": "zedstoreonline",
+    "ATTACK SHARK V6": "zedstoreonline"
   },
   "religious_reminders_history": {
     "mock_rem": "2026-10-02",
@@ -38303,6 +38316,13 @@
         "channel": "aniscoupons",
         "ts": 1795601379.517239,
         "price": 18.88
+      }
+    ],
+    "1005012172859239": [
+      {
+        "channel": "zedstoreonline",
+        "ts": 1795601890.4973485,
+        "price": 22.1
       }
     ]
   },
