@@ -1055,7 +1055,7 @@
     "1005008144855522": 1791026444.9395418,
     "1005008486721357": 1791026452.368309,
     "1005012871566388": 1791026457.7236943,
-    "1005007027334636": 1795601149.1777518,
+    "1005007027334636": 1795616501.6710856,
     "1005006727600702": 1791027043.7332833,
     "1005009916278058": 1791027049.3509357,
     "1005009719082543": 1791027355.6595695,
@@ -1538,7 +1538,7 @@
     "1005013137304827": 1793613926.9213502,
     "1005010355409000": 1793613934.9347482,
     "1005012648097890": 1793613942.3770478,
-    "1005012524603100": 1795521789.8512266,
+    "1005012524603100": 1795616508.1402018,
     "1005012770405022": 1795337128.5106091,
     "1005012171521680": 1794246148.3838613,
     "1005010758512904": 1793613961.7877593,
@@ -3163,7 +3163,7 @@
     "SomnAmbulist SSD 2.5 128GB": 1790884187.7542295,
     "Machenike G3 V2 PC Gaming Controller Hall Effect": 1791194142.1753953,
     "ATTACK SHARK L90": 1790884206.6605399,
-    "SomnAmbulist SSD 2.5 120GB": 1795601149.1777518,
+    "SomnAmbulist SSD 2.5 120GB": 1795616501.6710856,
     "Realme 15 Pro Global (8/256)": 1790884233.6428,
     "Poco C71 3/64GB": 1791192360.1916943,
     "سماعات لاسلكية Attack Shark L80 PRO Wireless": 1791206142.4737842,
@@ -3872,7 +3872,7 @@
     "HONOR 600s 8/256GB": 1793613926.9213502,
     "Realme GT8 Pro": 1793613934.9347482,
     "Oppo Find X8s+": 1793613942.3770478,
-    "Xiaoxin Pad Pro 13 (8/128)": 1795521789.8512266,
+    "Xiaoxin Pad Pro 13 (8/128)": 1795616508.1402018,
     "Lenovo Legion Y900 11 Tablet CN Version MediaTek Dimensity 9500S CPU 11.1\" 4K 144Hz LCD Display 1100": 1793613951.963987,
     "Honor Pad V9 (8/256)": 1794945692.2706501,
     "HONOR Pad X8b (LTE 6/128GB)": 1794136369.073103,
@@ -4415,8 +4415,6 @@
     "📢": 1795611185.428156
   },
   "published_post_keys": [
-    "aniscoupons:34782",
-    "aniscoupons:34784",
     "aniscoupons:34785",
     "aniscoupons:34786",
     "aniscoupons:34788",
@@ -5414,11 +5412,13 @@
     "zedstoreonline:40691",
     "zedstoreonline:40692",
     "zedstoreonline:40694",
-    "zedstoreonline:40695"
+    "zedstoreonline:40695",
+    "zedstoreonline:40696",
+    "aniscoupons:35632"
   ],
   "last_disclaimer_time": 1794524540.9476151,
   "last_calendar_time": 1795177633.1203737,
-  "last_run_time": 1795616138.7414243,
+  "last_run_time": 1795616508.1402018,
   "monitored_channels": {
     "ecksdeal": {
       "last_message_id": 6130,
@@ -5445,12 +5445,12 @@
       "last_check_time": 1793599663.3444748
     },
     "zedstoreonline": {
-      "last_message_id": 40695,
-      "last_check_time": 1795616140.8283775
+      "last_message_id": 40696,
+      "last_check_time": 1795616503.7414503
     },
     "aniscoupons": {
-      "last_message_id": 35631,
-      "last_check_time": 1795616145.1998363
+      "last_message_id": 35632,
+      "last_check_time": 1795616510.209415
     },
     "bnddeals": {
       "last_message_id": 51412,
@@ -5886,7 +5886,7 @@
     "1005010114569881": 23.08,
     "1005013053122560": 53.59,
     "1005012322822595": 266.19,
-    "1005012524603100": 271.59,
+    "1005012524603100": 271.5,
     "1005009662812027": 78.4,
     "1005005975560350": 30.9,
     "1005011752891197": 119.3,
@@ -33855,6 +33855,26 @@
       "price": 29.6,
       "timestamp": 1795616138.7414243,
       "status": "ACTIVE"
+    },
+    "zedstoreonline:40696": {
+      "channel_msg_id": 3703,
+      "product_id": "1005007027334636",
+      "title": "SomnAmbulist SSD 2.5 120GB",
+      "channel": "zedstoreonline",
+      "source_msg_id": 40696,
+      "price": 9.7,
+      "timestamp": 1795616501.6710856,
+      "status": "ACTIVE"
+    },
+    "aniscoupons:35632": {
+      "channel_msg_id": 3704,
+      "product_id": "1005012524603100",
+      "title": "Xiaoxin Pad Pro 13 (8/128)",
+      "channel": "aniscoupons",
+      "source_msg_id": 35632,
+      "price": 271.5,
+      "timestamp": 1795616508.1402018,
+      "status": "ACTIVE"
     }
   },
   "schedule_config": {
@@ -33863,17 +33883,17 @@
     "current_interval_minutes": 5,
     "is_paused": false,
     "night_mode_enabled": true,
-    "last_deal_post_time": 1795616146.0475333,
+    "last_deal_post_time": 1795616511.297697,
     "night_start_hour_dz": 0,
     "night_end_hour_dz": 8,
     "night_pause_enabled": true,
-    "last_sweep_time": 1795616323.028529,
+    "last_sweep_time": 1795616513.9095895,
     "last_sweep_times": {
-      "algeria": 1795616320.457216,
-      "france": 1795616323.028529
+      "algeria": 1795616511.265616,
+      "france": 1795616513.9095895
     },
     "last_deal_post_times": {
-      "algeria": 1795616146.0475333
+      "algeria": 1795616511.297697
     }
   },
   "last_coin_reminder_time": 1795433324.042843,
@@ -38532,6 +38552,11 @@
         "channel": "lodydeals",
         "ts": 1795603217.2263322,
         "price": 29.6
+      },
+      {
+        "channel": "zedstoreonline",
+        "ts": 1795616499.3675988,
+        "price": 9.7
       }
     ],
     "1005012325373696": [
@@ -38889,6 +38914,13 @@
         "channel": "zedstoreonline",
         "ts": 1795616135.8637154,
         "price": 29.6
+      }
+    ],
+    "1005012524603100": [
+      {
+        "channel": "aniscoupons",
+        "ts": 1795616505.8340838,
+        "price": 271.5
       }
     ]
   },
