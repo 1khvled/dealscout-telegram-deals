@@ -933,7 +933,10 @@
     "1005013583987856",
     "1005013621783525",
     "1005010637751071",
-    "COUPONBULLETIN_zedstoreonline_40658"
+    "COUPONBULLETIN_zedstoreonline_40658",
+    "1005006678271047",
+    "1005008660082872",
+    "1005006994616533"
   ],
   "published_product_timestamps": {
     "1005012973772517": 1794500732.7845657,
@@ -1373,7 +1376,7 @@
     "1005010141682336": 1793399542.6698716,
     "1005006782790827": 1794993100.653145,
     "1005012938359476": 1793448722.5382965,
-    "1005012931209980": 1795521973.4983754,
+    "1005012931209980": 1795603047.258251,
     "1005011820893973": 1793540051.7895243,
     "1005009073904302": 1795521735.7300296,
     "1005009916208760": 1795521256.5995085,
@@ -1773,7 +1776,7 @@
     "1005013005786079": 1795555387.9747143,
     "1005008627811107": 1794694594.377669,
     "1005012892577195": 1794732862.0085351,
-    "1005012594430190": 1794741945.3108501,
+    "1005012594430190": 1795603018.6183126,
     "1005010044062473": 1794741950.275824,
     "1005007096934754": 1794741957.1892588,
     "1005009508881738": 1794741969.1318233,
@@ -1877,7 +1880,7 @@
     "1005008304362437": 1795526475.8421245,
     "1005006995294624": 1795527391.8790212,
     "1005012899783721": 1795601162.9467356,
-    "1005013423776757": 1795540462.4924362,
+    "1005013423776757": 1795603012.8186684,
     "1005012383444183": 1795601102.9143867,
     "1005013519635614": 1795546736.9831076,
     "33061115247": 1795547454.3449724,
@@ -1885,7 +1888,10 @@
     "1005013583987856": 1795548942.786371,
     "1005013621783525": 1795553721.2698648,
     "1005010637751071": 1795553355.383983,
-    "COUPONBULLETIN_zedstoreonline_40658": 1795561391.491517
+    "COUPONBULLETIN_zedstoreonline_40658": 1795561391.491517,
+    "1005006678271047": 1795603024.1222618,
+    "1005008660082872": 1795603029.6819038,
+    "1005006994616533": 1795603036.3181872
   },
   "published_titles": [
     "Wireless WiFi Repeater 300Mbps WiFi Extender Amplifier Booster Router",
@@ -3136,7 +3142,11 @@
     "سماعات SOUNDPEATS C30",
     "OPPO Enco Buds 3",
     "realme P4  8/256",
-    "ATTACK SHARK V6"
+    "ATTACK SHARK V6",
+    "Outdoor Camping Hammock",
+    "HOMEFISH Vertical Mouse",
+    "2.4G 300Mbps WiFi Repeater",
+    "Adapter 7 in 1 Type C Hub"
   ],
   "published_title_timestamps": {
     "Xiaomi Redmi Note 17 5G Global Version": 1790857823.0117362,
@@ -3267,7 +3277,7 @@
     "Electric Groin Hair Trimmer": 1791026745.7640984,
     "3 Layers Shaker Protein": 1791027043.7332833,
     "Shaking Cup Fitness Sports": 1791027049.3509357,
-    "HTC NE79 TWS Bluetooth 6.0": 1794741945.3108501,
+    "HTC NE79 TWS Bluetooth 6.0": 1795603018.6183126,
     "P50 LED Flashlight": 1791027355.6595695,
     "Original Samsung Charger 45W": 1791027941.9208312,
     "FENVI FV-2.5G PCIE Network Card": 1791027947.9506829,
@@ -4346,7 +4356,7 @@
     "WALRAM SSD SATA 512GB": 1795422508.1241443,
     "KOOTION SATA3 SSD 256GB": 1795424517.998026,
     "KOOTION SATA 3 SSD": 1795501558.4890077,
-    "OPPO A7 Pro Max 8/128": 1795435353.7654994,
+    "OPPO A7 Pro Max 8/128": 1795603047.258251,
     "CMF Buds Neo Titanium": 1795437264.8543983,
     "WALRAM 2.5  sata 512GB": 1795467838.0597904,
     "Zeblaze Btalk 4 Pro": 1795446097.3435004,
@@ -4392,15 +4402,13 @@
     "سماعات SOUNDPEATS C30": 1795558896.5588944,
     "OPPO Enco Buds 3": 1795601102.9143867,
     "realme P4  8/256": 1795601155.086321,
-    "ATTACK SHARK V6": 1795601892.3750827
+    "ATTACK SHARK V6": 1795601892.3750827,
+    "Outdoor Camping Hammock": 1795603012.8186684,
+    "HOMEFISH Vertical Mouse": 1795603024.1222618,
+    "2.4G 300Mbps WiFi Repeater": 1795603029.6819038,
+    "Adapter 7 in 1 Type C Hub": 1795603036.3181872
   },
   "published_post_keys": [
-    "lodydeals:46434",
-    "lodydeals:46435",
-    "lodydeals:46436",
-    "lodydeals:46440",
-    "ecksdeal:6059",
-    "aniscoupons:34758",
     "aniscoupons:34759",
     "aniscoupons:34760",
     "lodydeals:46448",
@@ -5394,11 +5402,17 @@
     "zedstoreonline:40679",
     "zedstoreonline:40680",
     "aniscoupons:35618",
-    "zedstoreonline:40681"
+    "zedstoreonline:40681",
+    "lodydeals:46870",
+    "lodydeals:46872",
+    "lodydeals:46873",
+    "lodydeals:46874",
+    "lodydeals:46876",
+    "zedstoreonline:40678"
   ],
   "last_disclaimer_time": 1794524540.9476151,
   "last_calendar_time": 1795177633.1203737,
-  "last_run_time": 1795602544.9001727,
+  "last_run_time": 1795603047.258251,
   "monitored_channels": {
     "ecksdeal": {
       "last_message_id": 6130,
@@ -5406,7 +5420,7 @@
     },
     "lodydeals": {
       "last_message_id": 46890,
-      "last_check_time": 1795601096.3417509
+      "last_check_time": 1795603039.6008546
     },
     "test_channel": {
       "last_message_id": 1793967703,
@@ -5426,7 +5440,7 @@
     },
     "zedstoreonline": {
       "last_message_id": 40681,
-      "last_check_time": 1795602546.992787
+      "last_check_time": 1795603047.258251
     },
     "aniscoupons": {
       "last_message_id": 35619,
@@ -5787,7 +5801,7 @@
     "1005010141682336": 224.0,
     "1005006782790827": 47.5,
     "1005012938359476": 123.17,
-    "1005012931209980": 275.0,
+    "1005012931209980": 277.0,
     "1005011820893973": 690.0,
     "1005009073904302": 228.3,
     "1005009916208760": 81.9,
@@ -6154,7 +6168,7 @@
     "1005013005786079": 18.2,
     "1005008627811107": 10.5,
     "1005012892577195": 16.27,
-    "1005012594430190": 5.89,
+    "1005012594430190": 5.69,
     "1005010044062473": 3.27,
     "1005007096934754": 5.09,
     "1005009508881738": 3.69,
@@ -6250,14 +6264,17 @@
     "1005008304362437": 26.26,
     "1005006995294624": 12.87,
     "1005012899783721": 5.85,
-    "1005013423776757": 3.5,
+    "1005013423776757": 3.52,
     "1005012383444183": 22.3,
     "1005013519635614": 273.26,
     "33061115247": 10.09,
     "1005012374298987": 26.6,
     "1005013583987856": 22.59,
     "1005013621783525": 29.9,
-    "1005010637751071": 25.3
+    "1005010637751071": 25.3,
+    "1005006678271047": 6.09,
+    "1005008660082872": 3.49,
+    "1005006994616533": 3.89
   },
   "channel_published_deals": {
     "aniscoupons:32590": {
@@ -33572,6 +33589,66 @@
       "price": 133.8,
       "timestamp": 1795602544.9001727,
       "status": "ACTIVE"
+    },
+    "lodydeals:46870": {
+      "channel_msg_id": 3677,
+      "product_id": "1005013423776757",
+      "title": "Outdoor Camping Hammock",
+      "channel": "lodydeals",
+      "source_msg_id": 46870,
+      "price": 3.52,
+      "timestamp": 1795603012.8186684,
+      "status": "ACTIVE"
+    },
+    "lodydeals:46872": {
+      "channel_msg_id": 3678,
+      "product_id": "1005012594430190",
+      "title": "HTC NE79 TWS Bluetooth 6.0",
+      "channel": "lodydeals",
+      "source_msg_id": 46872,
+      "price": 5.69,
+      "timestamp": 1795603018.6183126,
+      "status": "ACTIVE"
+    },
+    "lodydeals:46873": {
+      "channel_msg_id": 3679,
+      "product_id": "1005006678271047",
+      "title": "HOMEFISH Vertical Mouse",
+      "channel": "lodydeals",
+      "source_msg_id": 46873,
+      "price": 6.09,
+      "timestamp": 1795603024.1222618,
+      "status": "ACTIVE"
+    },
+    "lodydeals:46874": {
+      "channel_msg_id": 3680,
+      "product_id": "1005008660082872",
+      "title": "2.4G 300Mbps WiFi Repeater",
+      "channel": "lodydeals",
+      "source_msg_id": 46874,
+      "price": 3.49,
+      "timestamp": 1795603029.6819038,
+      "status": "ACTIVE"
+    },
+    "lodydeals:46876": {
+      "channel_msg_id": 3681,
+      "product_id": "1005006994616533",
+      "title": "Adapter 7 in 1 Type C Hub",
+      "channel": "lodydeals",
+      "source_msg_id": 46876,
+      "price": 3.89,
+      "timestamp": 1795603036.3181872,
+      "status": "ACTIVE"
+    },
+    "zedstoreonline:40678": {
+      "channel_msg_id": 3682,
+      "product_id": "1005012931209980",
+      "title": "OPPO A7 Pro Max 8/128",
+      "channel": "zedstoreonline",
+      "source_msg_id": 40678,
+      "price": 277.0,
+      "timestamp": 1795603047.258251,
+      "status": "ACTIVE"
     }
   },
   "schedule_config": {
@@ -33580,17 +33657,17 @@
     "current_interval_minutes": 5,
     "is_paused": false,
     "night_mode_enabled": true,
-    "last_deal_post_time": 1795602548.5268095,
+    "last_deal_post_time": 1795603051.175402,
     "night_start_hour_dz": 0,
     "night_end_hour_dz": 8,
     "night_pause_enabled": true,
-    "last_sweep_time": 1795602818.5222118,
+    "last_sweep_time": 1795603054.11688,
     "last_sweep_times": {
-      "algeria": 1795602816.422856,
-      "france": 1795602818.5222118
+      "algeria": 1795603051.1303985,
+      "france": 1795603054.11688
     },
     "last_deal_post_times": {
-      "algeria": 1795602548.5268095
+      "algeria": 1795603051.175402
     }
   },
   "last_coin_reminder_time": 1795433324.042843,
@@ -34042,7 +34119,7 @@
     "1005010141682336": "aniscoupons",
     "1005006782790827": "aniscoupons",
     "1005012938359476": "aniscoupons",
-    "1005012931209980": "aniscoupons",
+    "1005012931209980": "zedstoreonline",
     "1005011820893973": "megaphonna",
     "1005009073904302": "zedstoreonline",
     "1005009916208760": "zedstoreonline",
@@ -34529,7 +34606,7 @@
     "1005008304362437": "ecksdeal",
     "1005006995294624": "ecksdeal",
     "1005012899783721": "aniscoupons",
-    "1005013423776757": "aniscoupons",
+    "1005013423776757": "lodydeals",
     "1005012383444183": "zedstoreonline",
     "1005013519635614": "aniscoupons",
     "33061115247": "lodydeals",
@@ -34537,7 +34614,10 @@
     "1005013583987856": "aniscoupons",
     "1005013621783525": "aniscoupons",
     "1005010637751071": "zedstoreonline",
-    "COUPONBULLETIN_zedstoreonline_40658": "zedstoreonline"
+    "COUPONBULLETIN_zedstoreonline_40658": "zedstoreonline",
+    "1005006678271047": "lodydeals",
+    "1005008660082872": "lodydeals",
+    "1005006994616533": "lodydeals"
   },
   "published_title_channels": {
     "Test Wrench Set": "test_channel",
@@ -35795,7 +35875,11 @@
     "OPPO Enco Buds 3": "zedstoreonline",
     "SomnAmbulist SSD 2.5 120GB": "zedstoreonline",
     "realme P4  8/256": "zedstoreonline",
-    "ATTACK SHARK V6": "zedstoreonline"
+    "ATTACK SHARK V6": "zedstoreonline",
+    "Outdoor Camping Hammock": "lodydeals",
+    "HOMEFISH Vertical Mouse": "lodydeals",
+    "2.4G 300Mbps WiFi Repeater": "lodydeals",
+    "Adapter 7 in 1 Type C Hub": "lodydeals"
   },
   "religious_reminders_history": {
     "mock_rem": "2026-10-02",
@@ -36593,11 +36677,6 @@
   "published_deals_history": {},
   "settings": {},
   "handled_post_keys": [
-    "lodydeals:46457",
-    "zedstoreonline:40061",
-    "aniscoupons:34795",
-    "zedstoreonline:40064",
-    "zedstoreonline:40065",
     "aniscoupons:34800",
     "aniscoupons:34801",
     "zedstoreonline:40068",
@@ -37592,7 +37671,12 @@
     "zedstoreonline:40674",
     "aniscoupons:35615",
     "bnddeals:51411",
-    "aniscoupons:35619"
+    "aniscoupons:35619",
+    "lodydeals:46871",
+    "lodydeals:46875",
+    "lodydeals:46877",
+    "lodydeals:46878",
+    "lodydeals:46879"
   ],
   "last_france_cross_promo_time": 1795501542.8708572,
   "next_france_cross_promo_interval_seconds": 208574,
@@ -38250,6 +38334,11 @@
         "channel": "aniscoupons",
         "ts": 1795601165.7281299,
         "price": 22.49
+      },
+      {
+        "channel": "lodydeals",
+        "ts": 1795603039.5332327,
+        "price": 22.49
       }
     ],
     "1005012285327063": [
@@ -38372,6 +38461,27 @@
         "channel": "aniscoupons",
         "ts": 1795602815.609789,
         "price": 133.8
+      }
+    ],
+    "1005013423776757": [
+      {
+        "channel": "lodydeals",
+        "ts": 1795603010.4281218,
+        "price": 3.52
+      }
+    ],
+    "1005012594430190": [
+      {
+        "channel": "lodydeals",
+        "ts": 1795603016.0744698,
+        "price": 5.69
+      }
+    ],
+    "1005012931209980": [
+      {
+        "channel": "zedstoreonline",
+        "ts": 1795603044.9475782,
+        "price": 277.0
       }
     ]
   },
