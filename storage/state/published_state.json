@@ -996,7 +996,7 @@
     "9998883531": 1790943531.551938,
     "1005010111014453": 1790943633.9774187,
     "1005009828161174": 1791031550.2120771,
-    "1005009281115306": 1795249016.9005632,
+    "1005009281115306": 1795640366.561605,
     "1005011797801269": 1791203753.790013,
     "1005007168829266": 1795081619.0346873,
     "1005012406142215": 1795023191.9944189,
@@ -4322,7 +4322,7 @@
     "لي يحوس على حاجة أصلية ومضمونة": 1795175430.73419,
     "Soundcore by Anker Q20i": 1795180451.4710355,
     "HUAWEI Pura 90s Pro": 1795261651.3173792,
-    "ماوس لاسلكي Attack Shark X11SE Wireless": 1795182497.0644763,
+    "ماوس لاسلكي Attack Shark X11SE Wireless": 1795640366.561605,
     "ميزان ذكي يعمل بالبلوتوث لقياس الوزن": 1795182504.6024845,
     "TCL 60 NXTPAPER 8/256": 1795182900.2959979,
     "ماوس لاسلكي بألياف الكربون Attack Shark RS6 Ultra 8K Carbon": 1795183540.495267,
@@ -4431,7 +4431,6 @@
     "Anker 100W USB C Charger": 1795631548.7472386
   },
   "published_post_keys": [
-    "zedstoreonline:40082",
     "aniscoupons:34810",
     "zedstoreonline:40084",
     "zedstoreonline:40085",
@@ -5430,15 +5429,16 @@
     "aniscoupons:35653",
     "zedstoreonline:40703",
     "ecksdeal:6132",
-    "aniscoupons:35654"
+    "aniscoupons:35654",
+    "ecksdeal:6133"
   ],
   "last_disclaimer_time": 1794524540.9476151,
   "last_calendar_time": 1795177633.1203737,
-  "last_run_time": 1795640189.56983,
+  "last_run_time": 1795640366.561605,
   "monitored_channels": {
     "ecksdeal": {
-      "last_message_id": 6132,
-      "last_check_time": 1795639826.3979955
+      "last_message_id": 6133,
+      "last_check_time": 1795640368.6469285
     },
     "lodydeals": {
       "last_message_id": 46910,
@@ -5524,7 +5524,7 @@
     "1005012968221708": 20.2,
     "1005010111014453": 6.09,
     "1005009828161174": 7.62,
-    "1005009281115306": 13.61,
+    "1005009281115306": 12.73,
     "1005011797801269": 55.78,
     "1005007168829266": 16.5,
     "1005012406142215": 366.31,
@@ -34163,6 +34163,16 @@
       "price": 15.5,
       "timestamp": 1795640189.56983,
       "status": "ACTIVE"
+    },
+    "ecksdeal:6133": {
+      "channel_msg_id": 3733,
+      "product_id": "1005009281115306",
+      "title": "ماوس لاسلكي Attack Shark X11SE Wireless",
+      "channel": "ecksdeal",
+      "source_msg_id": 6133,
+      "price": 12.73,
+      "timestamp": 1795640366.561605,
+      "status": "ACTIVE"
     }
   },
   "schedule_config": {
@@ -34171,17 +34181,17 @@
     "current_interval_minutes": 5,
     "is_paused": false,
     "night_mode_enabled": true,
-    "last_deal_post_time": 1795640192.985667,
+    "last_deal_post_time": 1795640370.6493883,
     "night_start_hour_dz": 0,
     "night_end_hour_dz": 8,
     "night_pause_enabled": true,
-    "last_sweep_time": 1795640196.0926447,
+    "last_sweep_time": 1795640373.0446477,
     "last_sweep_times": {
-      "algeria": 1795640192.935399,
-      "france": 1795640196.0926447
+      "algeria": 1795640370.612385,
+      "france": 1795640373.0446477
     },
     "last_deal_post_times": {
-      "algeria": 1795640192.985667
+      "algeria": 1795640370.6493883
     }
   },
   "last_coin_reminder_time": 1795433324.042843,
@@ -34212,7 +34222,7 @@
     "9998883531": "test_channel",
     "1005010111014453": "lodydeals",
     "1005009828161174": "couponsglobal",
-    "1005009281115306": "lodydeals",
+    "1005009281115306": "ecksdeal",
     "1005011797801269": "couponsglobal",
     "1005012973772517": "lodydeals",
     "1005007168829266": "bnddeals",
@@ -39411,6 +39421,13 @@
         "channel": "ecksdeal",
         "ts": 1795639821.65594,
         "price": 80.0
+      }
+    ],
+    "1005009281115306": [
+      {
+        "channel": "ecksdeal",
+        "ts": 1795640364.3819177,
+        "price": 12.73
       }
     ]
   },
