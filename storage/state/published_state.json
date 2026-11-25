@@ -1884,7 +1884,7 @@
     "1005012383444183": 1795601102.9143867,
     "1005013519635614": 1795546736.9831076,
     "33061115247": 1795547454.3449724,
-    "1005012374298987": 1795548384.7413478,
+    "1005012374298987": 1795608979.8632379,
     "1005013583987856": 1795548942.786371,
     "1005013621783525": 1795606940.870554,
     "1005010637751071": 1795553355.383983,
@@ -4395,7 +4395,7 @@
     "Digital weight scale": 1795546908.1570234,
     "Lefon F35 Wireless Mouse Vertical": 1795547454.3449724,
     "SoundPEATS Space Hybrid ANC": 1795547826.6655538,
-    "Velec Tv Box 4/32GB": 1795548384.7413478,
+    "Velec Tv Box 4/32GB": 1795608979.8632379,
     "HONOR Watch X5 Play": 1795548942.786371,
     "HONOR CHOICE Watch 6i": 1795606940.870554,
     "Godox C01 Kit 2 Microphone Lavalier": 1795553355.383983,
@@ -4411,7 +4411,6 @@
     "SoundPEATS C30 ANC -52dB": 1795603223.504592
   },
   "published_post_keys": [
-    "aniscoupons:34771",
     "bnddeals:51298",
     "aniscoupons:34772",
     "aniscoupons:34775",
@@ -5410,11 +5409,12 @@
     "aniscoupons:35624",
     "aniscoupons:35625",
     "zedstoreonline:40687",
-    "aniscoupons:35627"
+    "aniscoupons:35627",
+    "zedstoreonline:40689"
   ],
   "last_disclaimer_time": 1794524540.9476151,
   "last_calendar_time": 1795177633.1203737,
-  "last_run_time": 1795608436.771717,
+  "last_run_time": 1795608979.8632379,
   "monitored_channels": {
     "ecksdeal": {
       "last_message_id": 6130,
@@ -5441,8 +5441,8 @@
       "last_check_time": 1793599663.3444748
     },
     "zedstoreonline": {
-      "last_message_id": 40688,
-      "last_check_time": 1795608612.918162
+      "last_message_id": 40689,
+      "last_check_time": 1795608981.9812813
     },
     "aniscoupons": {
       "last_message_id": 35627,
@@ -33761,6 +33761,16 @@
       "price": 67.7,
       "timestamp": 1795608436.771717,
       "status": "ACTIVE"
+    },
+    "zedstoreonline:40689": {
+      "channel_msg_id": 3694,
+      "product_id": "1005012374298987",
+      "title": "Velec Tv Box 4/32GB",
+      "channel": "zedstoreonline",
+      "source_msg_id": 40689,
+      "price": 26.6,
+      "timestamp": 1795608979.8632379,
+      "status": "ACTIVE"
     }
   },
   "schedule_config": {
@@ -33769,17 +33779,17 @@
     "current_interval_minutes": 5,
     "is_paused": false,
     "night_mode_enabled": true,
-    "last_deal_post_time": 1795608440.0295749,
+    "last_deal_post_time": 1795608983.833046,
     "night_start_hour_dz": 0,
     "night_end_hour_dz": 8,
     "night_pause_enabled": true,
-    "last_sweep_time": 1795608793.1330924,
+    "last_sweep_time": 1795608986.6063354,
     "last_sweep_times": {
-      "algeria": 1795608790.7714782,
-      "france": 1795608793.1330924
+      "algeria": 1795608983.7877588,
+      "france": 1795608986.6063354
     },
     "last_deal_post_times": {
-      "algeria": 1795608440.0295749
+      "algeria": 1795608983.833046
     }
   },
   "last_coin_reminder_time": 1795433324.042843,
@@ -38712,6 +38722,13 @@
         "channel": "aniscoupons",
         "ts": 1795608433.9505684,
         "price": 67.7
+      }
+    ],
+    "1005012374298987": [
+      {
+        "channel": "zedstoreonline",
+        "ts": 1795608977.710057,
+        "price": 26.6
       }
     ]
   },
