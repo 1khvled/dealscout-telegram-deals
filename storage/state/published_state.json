@@ -1824,7 +1824,7 @@
     "1005013354356242": 1795182504.6024845,
     "1005013117620640": 1795183540.495267,
     "1005013048908707": 1795183557.3230655,
-    "1005011955602754": 1795528687.9167056,
+    "1005011955602754": 1795612840.4787066,
     "1005012484548468": 1795185596.5947275,
     "1005013052070984": 1795185803.549076,
     "1005010340916961": 1795185821.1731942,
@@ -4315,7 +4315,7 @@
     "TCL 60 NXTPAPER 8/256": 1795182900.2959979,
     "ماوس لاسلكي بألياف الكربون Attack Shark RS6 Ultra 8K Carbon": 1795183540.495267,
     "بروجكتور Magcubic HY300 max": 1795521256.5995085,
-    "ViVO iQOO Z11  8/256": 1795528687.9167056,
+    "ViVO iQOO Z11  8/256": 1795612840.4787066,
     "Redmi Note 17 Pro 5G (6/128GB)": 1795184587.079662,
     "Honor 600 Lite 5G 8/256GB": 1795185596.5947275,
     "Vivo Y500 Pro (8/128GB)": 1795186378.654721,
@@ -4415,7 +4415,6 @@
     "📢": 1795611185.428156
   },
   "published_post_keys": [
-    "aniscoupons:34778",
     "zedstoreonline:40053",
     "aniscoupons:34780",
     "aniscoupons:34782",
@@ -5414,11 +5413,12 @@
     "lodydeals:46900",
     "aniscoupons:35628",
     "zedstoreonline:40690",
-    "zedstoreonline:40691"
+    "zedstoreonline:40691",
+    "zedstoreonline:40692"
   ],
   "last_disclaimer_time": 1794524540.9476151,
   "last_calendar_time": 1795177633.1203737,
-  "last_run_time": 1795612289.48763,
+  "last_run_time": 1795612840.4787066,
   "monitored_channels": {
     "ecksdeal": {
       "last_message_id": 6130,
@@ -5445,8 +5445,8 @@
       "last_check_time": 1793599663.3444748
     },
     "zedstoreonline": {
-      "last_message_id": 40691,
-      "last_check_time": 1795612291.6017635
+      "last_message_id": 40692,
+      "last_check_time": 1795612842.5979824
     },
     "aniscoupons": {
       "last_message_id": 35629,
@@ -33825,6 +33825,16 @@
       "price": 82.5,
       "timestamp": 1795612289.48763,
       "status": "ACTIVE"
+    },
+    "zedstoreonline:40692": {
+      "channel_msg_id": 3700,
+      "product_id": "1005011955602754",
+      "title": "ViVO iQOO Z11  8/256",
+      "channel": "zedstoreonline",
+      "source_msg_id": 40692,
+      "price": 313.0,
+      "timestamp": 1795612840.4787066,
+      "status": "ACTIVE"
     }
   },
   "schedule_config": {
@@ -33833,17 +33843,17 @@
     "current_interval_minutes": 5,
     "is_paused": false,
     "night_mode_enabled": true,
-    "last_deal_post_time": 1795612293.9712074,
+    "last_deal_post_time": 1795612844.6888165,
     "night_start_hour_dz": 0,
     "night_end_hour_dz": 8,
     "night_pause_enabled": true,
-    "last_sweep_time": 1795612662.798805,
+    "last_sweep_time": 1795612847.3811994,
     "last_sweep_times": {
-      "algeria": 1795612659.5863454,
-      "france": 1795612662.798805
+      "algeria": 1795612844.635722,
+      "france": 1795612847.3811994
     },
     "last_deal_post_times": {
-      "algeria": 1795612293.9712074
+      "algeria": 1795612844.6888165
     }
   },
   "last_coin_reminder_time": 1795433324.042843,
@@ -38833,6 +38843,13 @@
         "channel": "zedstoreonline",
         "ts": 1795612286.4332988,
         "price": 82.5
+      }
+    ],
+    "1005011955602754": [
+      {
+        "channel": "zedstoreonline",
+        "ts": 1795612838.2216208,
+        "price": 313.0
       }
     ]
   },
