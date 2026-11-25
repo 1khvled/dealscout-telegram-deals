@@ -1815,7 +1815,7 @@
     "1005012408109331": 1795102336.0045958,
     "1005013304783085": 1795103262.750217,
     "1005013633649876": 1795104359.6206825,
-    "1005012274502051": 1795341889.4915757,
+    "1005012274502051": 1795605118.3528702,
     "1005013603023857": 1795290161.6076646,
     "1005009693337727": 1795344822.4527907,
     "1005013497504096": 1795546908.1570234,
@@ -4301,7 +4301,7 @@
     "MAGCUBIC HY300 PRO Projector": 1795112692.4915283,
     "DIGITAL BATHROOM SCALE": 1795283264.8493018,
     "CUSU K5 Portable External SSD 512gb": 1795164006.096927,
-    "UGREEN Nexode Air 65W GaN Charger": 1795341889.4915757,
+    "UGREEN Nexode Air 65W GaN Charger": 1795605118.3528702,
     "Portable Wireless Electric Air Pump with LCD Display": 1795167145.0122104,
     "Blackview Wave 7C": 1795548193.89056,
     "لي يحوس على حاجة أصلية ومضمونة": 1795175430.73419,
@@ -4411,7 +4411,6 @@
     "SoundPEATS C30 ANC -52dB": 1795603223.504592
   },
   "published_post_keys": [
-    "aniscoupons:34762",
     "aniscoupons:34763",
     "zedstoreonline:40051",
     "aniscoupons:34765",
@@ -5410,11 +5409,12 @@
     "lodydeals:46889",
     "lodydeals:46891",
     "zedstoreonline:40682",
-    "aniscoupons:35621"
+    "aniscoupons:35621",
+    "zedstoreonline:40683"
   ],
   "last_disclaimer_time": 1794524540.9476151,
   "last_calendar_time": 1795177633.1203737,
-  "last_run_time": 1795604614.0904353,
+  "last_run_time": 1795605118.3528702,
   "monitored_channels": {
     "ecksdeal": {
       "last_message_id": 6130,
@@ -5441,12 +5441,12 @@
       "last_check_time": 1793599663.3444748
     },
     "zedstoreonline": {
-      "last_message_id": 40682,
-      "last_check_time": 1795604609.2464964
+      "last_message_id": 40683,
+      "last_check_time": 1795605120.4353878
     },
     "aniscoupons": {
-      "last_message_id": 35621,
-      "last_check_time": 1795604616.1734142
+      "last_message_id": 35622,
+      "last_check_time": 1795605122.6811047
     },
     "bnddeals": {
       "last_message_id": 51411,
@@ -33691,6 +33691,16 @@
       "price": 11.5,
       "timestamp": 1795604614.0904353,
       "status": "ACTIVE"
+    },
+    "zedstoreonline:40683": {
+      "channel_msg_id": 3687,
+      "product_id": "1005012274502051",
+      "title": "UGREEN Nexode Air 65W GaN Charger",
+      "channel": "zedstoreonline",
+      "source_msg_id": 40683,
+      "price": 20.9,
+      "timestamp": 1795605118.3528702,
+      "status": "ACTIVE"
     }
   },
   "schedule_config": {
@@ -33699,17 +33709,17 @@
     "current_interval_minutes": 5,
     "is_paused": false,
     "night_mode_enabled": true,
-    "last_deal_post_time": 1795604617.3504329,
+    "last_deal_post_time": 1795605123.4778616,
     "night_start_hour_dz": 0,
     "night_end_hour_dz": 8,
     "night_pause_enabled": true,
-    "last_sweep_time": 1795604923.031304,
+    "last_sweep_time": 1795605126.6437724,
     "last_sweep_times": {
-      "algeria": 1795604920.1649914,
-      "france": 1795604923.031304
+      "algeria": 1795605123.4438295,
+      "france": 1795605126.6437724
     },
     "last_deal_post_times": {
-      "algeria": 1795604617.3504329
+      "algeria": 1795605123.4778616
     }
   },
   "last_coin_reminder_time": 1795433324.042843,
@@ -34585,7 +34595,7 @@
     "1005012408109331": "aniscoupons",
     "1005013304783085": "aniscoupons",
     "1005013633649876": "aniscoupons",
-    "1005012274502051": "aniscoupons",
+    "1005012274502051": "zedstoreonline",
     "1005013603023857": "lodydeals",
     "1005009693337727": "lodydeals",
     "1005013497504096": "zedstoreonline",
@@ -35815,7 +35825,7 @@
     "MAGCUBIC HY300 PRO Projector": "zedstoreonline",
     "DIGITAL BATHROOM SCALE": "aniscoupons",
     "CUSU K5 Portable External SSD 512gb": "bnddeals",
-    "UGREEN Nexode Air 65W GaN Charger": "aniscoupons",
+    "UGREEN Nexode Air 65W GaN Charger": "zedstoreonline",
     "Portable Wireless Electric Air Pump with LCD Display": "bnddeals",
     "لي يحوس على حاجة أصلية ومضمونة": "bnddeals",
     "Soundcore by Anker Q20i": "bnddeals",
@@ -36720,7 +36730,6 @@
   "published_deals_history": {},
   "settings": {},
   "handled_post_keys": [
-    "zedstoreonline:40076",
     "zedstoreonline:40077",
     "zedstoreonline:40078",
     "zedstoreonline:40080",
@@ -37719,7 +37728,8 @@
     "aniscoupons:35620",
     "lodydeals:46892",
     "lodydeals:46893",
-    "lodydeals:46894"
+    "lodydeals:46894",
+    "aniscoupons:35622"
   ],
   "last_france_cross_promo_time": 1795501542.8708572,
   "next_france_cross_promo_interval_seconds": 208574,
@@ -38479,6 +38489,11 @@
         "channel": "aniscoupons",
         "ts": 1795601374.3389604,
         "price": 177.3
+      },
+      {
+        "channel": "aniscoupons",
+        "ts": 1795605122.5518417,
+        "price": 177.8
       }
     ],
     "1005011774259648": [
@@ -38568,6 +38583,13 @@
         "channel": "aniscoupons",
         "ts": 1795604611.4391248,
         "price": 11.5
+      }
+    ],
+    "1005012274502051": [
+      {
+        "channel": "zedstoreonline",
+        "ts": 1795605115.6655,
+        "price": 20.9
       }
     ]
   },
