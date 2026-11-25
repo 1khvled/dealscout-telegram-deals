@@ -1312,7 +1312,7 @@
     "1005010266487244": 1795249027.928314,
     "1005010207075594": 1793299454.8390412,
     "1005013351519067": 1793448628.3734028,
-    "1005012484784752": 1795119213.875791,
+    "1005012484784752": 1795610082.5383825,
     "1005013222140851": 1794732855.3959744,
     "1005013438245033": 1794996403.594225,
     "1005008986635164": 1793314892.9200466,
@@ -3705,7 +3705,7 @@
     "مدعومة ب Hall effect في Joysticks": 1793542392.5669472,
     "Realme 15 Pro 5G 12/256GB": 1794131420.4163597,
     ".شاشة AMOLED 6.57″ بدقة FHD+": 1793542420.8525836,
-    "AMD Ryzen 5 5600XT": 1795119213.875791,
+    "AMD Ryzen 5 5600XT": 1795610082.5383825,
     "POCO M7 6/128GB": 1793707060.393079,
     "Blackview Wave 10C  4/32GB": 1793542445.2859337,
     "COLMI i28 Ultra AI  AMOLED": 1793542450.420599,
@@ -4411,7 +4411,6 @@
     "SoundPEATS C30 ANC -52dB": 1795603223.504592
   },
   "published_post_keys": [
-    "bnddeals:51298",
     "aniscoupons:34772",
     "aniscoupons:34775",
     "aniscoupons:34777",
@@ -5410,19 +5409,20 @@
     "aniscoupons:35625",
     "zedstoreonline:40687",
     "aniscoupons:35627",
-    "zedstoreonline:40689"
+    "zedstoreonline:40689",
+    "lodydeals:46895"
   ],
   "last_disclaimer_time": 1794524540.9476151,
   "last_calendar_time": 1795177633.1203737,
-  "last_run_time": 1795608979.8632379,
+  "last_run_time": 1795610082.5383825,
   "monitored_channels": {
     "ecksdeal": {
       "last_message_id": 6130,
       "last_check_time": 1795527393.9958658
     },
     "lodydeals": {
-      "last_message_id": 46894,
-      "last_check_time": 1795604917.0794413
+      "last_message_id": 46897,
+      "last_check_time": 1795610085.5097978
     },
     "test_channel": {
       "last_message_id": 1793967703,
@@ -33771,6 +33771,16 @@
       "price": 26.6,
       "timestamp": 1795608979.8632379,
       "status": "ACTIVE"
+    },
+    "lodydeals:46895": {
+      "channel_msg_id": 3695,
+      "product_id": "1005012484784752",
+      "title": "AMD Ryzen 5 5600XT",
+      "channel": "lodydeals",
+      "source_msg_id": 46895,
+      "price": 99.7,
+      "timestamp": 1795610082.5383825,
+      "status": "ACTIVE"
     }
   },
   "schedule_config": {
@@ -33779,17 +33789,17 @@
     "current_interval_minutes": 5,
     "is_paused": false,
     "night_mode_enabled": true,
-    "last_deal_post_time": 1795608983.833046,
+    "last_deal_post_time": 1795610089.0106423,
     "night_start_hour_dz": 0,
     "night_end_hour_dz": 8,
     "night_pause_enabled": true,
-    "last_sweep_time": 1795609907.2912922,
+    "last_sweep_time": 1795610091.5052783,
     "last_sweep_times": {
-      "algeria": 1795609904.3304083,
-      "france": 1795609907.2912922
+      "algeria": 1795610088.9576082,
+      "france": 1795610091.5052783
     },
     "last_deal_post_times": {
-      "algeria": 1795608983.833046
+      "algeria": 1795610089.0106423
     }
   },
   "last_coin_reminder_time": 1795433324.042843,
@@ -34176,7 +34186,7 @@
     "1005011638526553": "lodydeals",
     "1005010207075594": "aniscoupons",
     "1005013351519067": "aniscoupons",
-    "1005012484784752": "zedstoreonline",
+    "1005012484784752": "lodydeals",
     "1005013222140851": "lodydeals",
     "1005010355409000": "aniscoupons",
     "1005013438245033": "aniscoupons",
@@ -35304,7 +35314,7 @@
     "مدعومة ب Hall effect في Joysticks": "lodydeals",
     "Realme 15 Pro 5G 12/256GB": "lodydeals",
     ".شاشة AMOLED 6.57″ بدقة FHD+": "lodydeals",
-    "AMD Ryzen 5 5600XT": "zedstoreonline",
+    "AMD Ryzen 5 5600XT": "lodydeals",
     "POCO M7 6/128GB": "lodydeals",
     "Blackview Wave 10C  4/32GB": "lodydeals",
     "COLMI i28 Ultra AI  AMOLED": "lodydeals",
@@ -36800,8 +36810,6 @@
   "published_deals_history": {},
   "settings": {},
   "handled_post_keys": [
-    "lodydeals:46460",
-    "lodydeals:46461",
     "lodydeals:46462",
     "aniscoupons:34808",
     "zedstoreonline:40083",
@@ -37799,7 +37807,9 @@
     "zedstoreonline:40685",
     "zedstoreonline:40686",
     "aniscoupons:35626",
-    "zedstoreonline:40688"
+    "zedstoreonline:40688",
+    "lodydeals:46896",
+    "lodydeals:46897"
   ],
   "last_france_cross_promo_time": 1795501542.8708572,
   "next_france_cross_promo_interval_seconds": 208574,
@@ -38729,6 +38739,13 @@
         "channel": "zedstoreonline",
         "ts": 1795608977.710057,
         "price": 26.6
+      }
+    ],
+    "1005012484784752": [
+      {
+        "channel": "lodydeals",
+        "ts": 1795610080.1433437,
+        "price": 99.7
       }
     ]
   },
