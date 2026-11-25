@@ -1824,7 +1824,7 @@
     "1005013603023857": 1795290161.6076646,
     "1005009693337727": 1795344822.4527907,
     "1005013497504096": 1795546908.1570234,
-    "1005013482874428": 1795601130.0146036,
+    "1005013482874428": 1795633946.180254,
     "1005013354356242": 1795182504.6024845,
     "1005013117620640": 1795183540.495267,
     "1005013048908707": 1795183557.3230655,
@@ -4318,7 +4318,7 @@
     "CUSU K5 Portable External SSD 512gb": 1795164006.096927,
     "UGREEN Nexode Air 65W GaN Charger": 1795605118.3528702,
     "Portable Wireless Electric Air Pump with LCD Display": 1795167145.0122104,
-    "Blackview Wave 7C": 1795548193.89056,
+    "Blackview Wave 7C": 1795633946.180254,
     "لي يحوس على حاجة أصلية ومضمونة": 1795175430.73419,
     "Soundcore by Anker Q20i": 1795180451.4710355,
     "HUAWEI Pura 90s Pro": 1795261651.3173792,
@@ -4431,7 +4431,6 @@
     "Anker 100W USB C Charger": 1795631548.7472386
   },
   "published_post_keys": [
-    "lodydeals:46458",
     "zedstoreonline:40070",
     "zedstoreonline:40071",
     "zedstoreonline:40073",
@@ -5430,11 +5429,12 @@
     "lodydeals:46908",
     "aniscoupons:35646",
     "lodydeals:46910",
-    "aniscoupons:35647"
+    "aniscoupons:35647",
+    "aniscoupons:35648"
   ],
   "last_disclaimer_time": 1794524540.9476151,
   "last_calendar_time": 1795177633.1203737,
-  "last_run_time": 1795633394.62872,
+  "last_run_time": 1795633946.180254,
   "monitored_channels": {
     "ecksdeal": {
       "last_message_id": 6130,
@@ -5465,8 +5465,8 @@
       "last_check_time": 1795631932.9271302
     },
     "aniscoupons": {
-      "last_message_id": 35647,
-      "last_check_time": 1795633396.6999085
+      "last_message_id": 35648,
+      "last_check_time": 1795633948.2917025
     },
     "bnddeals": {
       "last_message_id": 51414,
@@ -34073,6 +34073,16 @@
       "price": 22.59,
       "timestamp": 1795633394.62872,
       "status": "ACTIVE"
+    },
+    "aniscoupons:35648": {
+      "channel_msg_id": 3724,
+      "product_id": "1005013482874428",
+      "title": "Blackview Wave 7C",
+      "channel": "aniscoupons",
+      "source_msg_id": 35648,
+      "price": 79.6,
+      "timestamp": 1795633946.180254,
+      "status": "ACTIVE"
     }
   },
   "schedule_config": {
@@ -34081,17 +34091,17 @@
     "current_interval_minutes": 5,
     "is_paused": false,
     "night_mode_enabled": true,
-    "last_deal_post_time": 1795633397.7289572,
+    "last_deal_post_time": 1795633949.505277,
     "night_start_hour_dz": 0,
     "night_end_hour_dz": 8,
     "night_pause_enabled": true,
-    "last_sweep_time": 1795633761.3284013,
+    "last_sweep_time": 1795633952.2026057,
     "last_sweep_times": {
-      "algeria": 1795633758.6741014,
-      "france": 1795633761.3284013
+      "algeria": 1795633949.4480822,
+      "france": 1795633952.2026057
     },
     "last_deal_post_times": {
-      "algeria": 1795633397.7289572
+      "algeria": 1795633949.505277
     }
   },
   "last_coin_reminder_time": 1795433324.042843,
@@ -34971,7 +34981,7 @@
     "1005013603023857": "lodydeals",
     "1005009693337727": "lodydeals",
     "1005013497504096": "zedstoreonline",
-    "1005013482874428": "zedstoreonline",
+    "1005013482874428": "aniscoupons",
     "1005013354356242": "zedstoreonline",
     "1005013117620640": "ecksdeal",
     "1005013048908707": "aniscoupons",
@@ -38726,6 +38736,11 @@
       {
         "channel": "zedstoreonline",
         "ts": 1795601127.0030437,
+        "price": 79.6
+      },
+      {
+        "channel": "aniscoupons",
+        "ts": 1795633943.8028028,
         "price": 79.6
       }
     ],
