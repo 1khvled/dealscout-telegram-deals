@@ -1154,7 +1154,7 @@
     "1005007345151855": 1791942667.867043,
     "1005010345227483": 1793299548.5548651,
     "1005011557896041": 1794845264.512838,
-    "1005011754993234": 1795546725.2743013,
+    "1005011754993234": 1795612289.48763,
     "1005011735727412": 1791943783.9162278,
     "1005007916078341": 1795601108.6546407,
     "1005006506862816": 1791947519.5815504,
@@ -3406,7 +3406,7 @@
     "لووووووووووووز controller 🎮": 1791942667.867043,
     "جديد علامة ©️©️©️©️🆕": 1791942676.1983886,
     "AMD Ryzen 7 7800X3D": 1794845264.512838,
-    "AMD Ryzen 5 8400F": 1795546725.2743013,
+    "AMD Ryzen 5 8400F": 1795612289.48763,
     "Disco Duro SSD CUSU 1TB 512GB 240GB 480GB SATA 2.5'' SATA3 Disco SSD 128GB": 1791943777.8506553,
     "🔝 مانات قووووة ل جماعة mobile gaming 🎮": 1792017738.3981204,
     "Honor Choice Infowear Watch 2i Smartwatch AMOLED": 1791943825.002781,
@@ -4415,7 +4415,6 @@
     "📢": 1795611185.428156
   },
   "published_post_keys": [
-    "lodydeals:46452",
     "aniscoupons:34778",
     "zedstoreonline:40053",
     "aniscoupons:34780",
@@ -5414,11 +5413,12 @@
     "lodydeals:46895",
     "lodydeals:46900",
     "aniscoupons:35628",
-    "zedstoreonline:40690"
+    "zedstoreonline:40690",
+    "zedstoreonline:40691"
   ],
   "last_disclaimer_time": 1794524540.9476151,
   "last_calendar_time": 1795177633.1203737,
-  "last_run_time": 1795612099.1821136,
+  "last_run_time": 1795612289.48763,
   "monitored_channels": {
     "ecksdeal": {
       "last_message_id": 6130,
@@ -5445,8 +5445,8 @@
       "last_check_time": 1793599663.3444748
     },
     "zedstoreonline": {
-      "last_message_id": 40690,
-      "last_check_time": 1795612101.3007839
+      "last_message_id": 40691,
+      "last_check_time": 1795612291.6017635
     },
     "aniscoupons": {
       "last_message_id": 35629,
@@ -33815,6 +33815,16 @@
       "price": 22.6,
       "timestamp": 1795612099.1821136,
       "status": "ACTIVE"
+    },
+    "zedstoreonline:40691": {
+      "channel_msg_id": 3699,
+      "product_id": "1005011754993234",
+      "title": "AMD Ryzen 5 8400F",
+      "channel": "zedstoreonline",
+      "source_msg_id": 40691,
+      "price": 82.5,
+      "timestamp": 1795612289.48763,
+      "status": "ACTIVE"
     }
   },
   "schedule_config": {
@@ -33823,17 +33833,17 @@
     "current_interval_minutes": 5,
     "is_paused": false,
     "night_mode_enabled": true,
-    "last_deal_post_time": 1795612103.4017222,
+    "last_deal_post_time": 1795612293.9712074,
     "night_start_hour_dz": 0,
     "night_end_hour_dz": 8,
     "night_pause_enabled": true,
-    "last_sweep_time": 1795612106.1031187,
+    "last_sweep_time": 1795612297.5456963,
     "last_sweep_times": {
-      "algeria": 1795612103.349638,
-      "france": 1795612106.1031187
+      "algeria": 1795612293.917753,
+      "france": 1795612297.5456963
     },
     "last_deal_post_times": {
-      "algeria": 1795612103.4017222
+      "algeria": 1795612293.9712074
     }
   },
   "last_coin_reminder_time": 1795433324.042843,
@@ -34060,7 +34070,7 @@
     "1005007345151855": "bnddeals",
     "1005010345227483": "megaphonna",
     "1005011557896041": "zedstoreonline",
-    "1005011754993234": "lodydeals",
+    "1005011754993234": "zedstoreonline",
     "1005011735727412": "bnddeals",
     "1005013039644752": "aniscoupons",
     "1005007916078341": "zedstoreonline",
@@ -35040,7 +35050,7 @@
     "ATTACK SHARK X11SE Wireless Gaming Mouse PixArt PAW3311": "pcgamingpart",
     "لووووووووووووز controller 🎮": "bnddeals",
     "جديد علامة ©️©️©️©️🆕": "megaphonna",
-    "AMD Ryzen 5 8400F": "lodydeals",
+    "AMD Ryzen 5 8400F": "zedstoreonline",
     "Disco Duro SSD CUSU 1TB 512GB 240GB 480GB SATA 2.5'' SATA3 Disco SSD 128GB": "pcgamingpart",
     "🔝 مانات قووووة ل جماعة mobile gaming 🎮": "bnddeals",
     "جديد ال ©️©️ ببطارية عملاقة💪💪": "megaphonna",
@@ -38816,6 +38826,13 @@
         "channel": "zedstoreonline",
         "ts": 1795612096.967841,
         "price": 22.6
+      }
+    ],
+    "1005011754993234": [
+      {
+        "channel": "zedstoreonline",
+        "ts": 1795612286.4332988,
+        "price": 82.5
       }
     ]
   },
