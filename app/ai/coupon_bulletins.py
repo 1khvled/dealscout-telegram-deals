@@ -31,6 +31,10 @@ SINGLE_COUPON_MARKERS = (
     "دخلو في المنتج", "دخله في المنتج", "لتثبيته", "طبق الكوبون", "طبّق الكوبون",
     "احجز الكوبون",
 )
+ANNOUNCEMENT_MARKERS = (
+    "مفاجأة", "غدا", "غدوة", "الموعد", "الساعة", "عدد الاستخدامات",
+    "مرات", "سلاتكم", "في السلة", "جمعة السوبر", "أخبار", "وكيل",
+)
 
 FOOTER = """لا تنسى استخدام البوت للشراء بأقل الأسعار :
 https://t.me/Alilo07BOT
@@ -54,13 +58,14 @@ def single_coupon_from_text(raw_text: str) -> Optional[Coupon]:
     norm = re.sub(r'\u0640', '', raw_text)
     m_val = re.search(
         r'(?:كوبون|كود|coupon|code|قسيمة)[^\r\n:\d$€]{0,30}'
-        r'([$€]?\s*\d+(?:\.\d+)?(?:\s*/\s*\d+(?:\.\d+)?)?\s*[$€]?)'
+        r'([$€]?\s*\d+(?:\.\d+)?\s*[$€]?(?:\s*/\s*[$€]?\s*\d+(?:\.\d+)?)?\s*[$€]?)'
         r'[^\r\n:]{0,30}[:：]\s*([A-Z][A-Z0-9_-]{3,19})\b',
         norm,
         re.IGNORECASE,
     )
     if m_val:
         raw_val = re.sub(r'\s+', '', m_val.group(1) or "")
+        raw_val = re.sub(r'[$€](?=/)', '', raw_val)
         code = m_val.group(2).strip().upper()
         if is_competitor_branded_code(code):
             return None
@@ -101,6 +106,8 @@ def detect_bulletin_kind(raw_text: str) -> Optional[str]:
         single = single_coupon_from_text(raw_text)
         if not single:
             return None
+        if any(m in lower for m in ANNOUNCEMENT_MARKERS):
+            return "announcement"
         if any(m in lower for m in SINGLE_COUPON_MARKERS) or extract_clean_title(raw_text) is None:
             return "single"
         return None
@@ -234,6 +241,50 @@ def format_single_coupon_bulletin(
     ]).strip()
 
 
+def format_coupon_announcement_bulletin(
+    tier: str,
+    code: str,
+    raw_text: str,
+    apply_url: str,
+) -> str:
+    """Linkless coupon/promo news announcement (e.g. Super Friday 5x usage alert)."""
+    if not code:
+        raise ValueError("announcement bulletin needs code")
+    norm = re.sub(r'\u0640', '', raw_text or "")
+    lines = []
+    first = next((l.strip() for l in norm.splitlines() if l.strip()), "")
+    headline = re.sub(r'^[📢🔥🚨⚡\s]+', '', first).strip() or "تحديث مهم حول كوبونات AliExpress!"
+    lines.append(f"📢 <b>{headline}</b> 🔥")
+
+    tier_clean = tier.replace("$", "").strip()
+    if "/" in tier_clean:
+        disc, min_sp = [p.strip() for p in tier_clean.split("/", 1)]
+        lines.append(f"🎟️ <b>الكوبون ({disc}$/{min_sp}$) :</b> <code>{code}</code>\n💰 الخصم: <b>{disc}$</b> على طلبات <b>{min_sp}$</b> فما فوق.")
+    elif tier_clean:
+        lines.append(f"🎟️ <b>الكوبون ({tier_clean}$) :</b> <code>{code}</code>")
+    else:
+        lines.append(f"🎟️ <b>الكوبون :</b> <code>{code}</code>")
+
+    details = []
+    m_uses = re.search(r'(?:حتى\s*)?(\d+)\s*مرات', norm)
+    if m_uses:
+        details.append(f"↗️ <b>عدد الاستخدامات:</b> حتى {m_uses.group(1)} مرات لكل حساب")
+    m_date = re.search(r'الموعد\s*[:：]\s*([^\r\n]+)', norm)
+    if m_date:
+        details.append(f"🗓 <b>الموعد:</b> {m_date.group(1).strip()}")
+    m_time = re.search(r'الساعة\s*[:：]\s*([^\r\n]+)', norm)
+    if m_time:
+        details.append(f"⏰ <b>الساعة:</b> {m_time.group(1).strip()}")
+    if details:
+        lines.append("\n".join(details))
+
+    lines.append(
+        f"🛒 <b>جهّزوا سلاتكم مسبقاً وادخلوا عبر الرابط في الموعد المحدد ⤵️</b>\n{apply_url}"
+    )
+    lines.append(FOOTER)
+    return "\n\n".join(lines).strip()
+
+
 def build_bulletin_caption(raw_text: str, our_links: Sequence[str]) -> Optional[str]:
     """Detect + render in one call. ``our_links`` must be our own monetized URLs."""
     kind = detect_bulletin_kind(raw_text)
@@ -245,6 +296,12 @@ def build_bulletin_caption(raw_text: str, our_links: Sequence[str]) -> Optional[
             return None
         tier, code = single
         return format_single_coupon_bulletin(tier=tier, code=code, apply_url=our_links[0])
+    if kind == "announcement":
+        single = single_coupon_from_text(raw_text)
+        if not single:
+            return None
+        tier, code = single
+        return format_coupon_announcement_bulletin(tier=tier, code=code, raw_text=raw_text, apply_url=our_links[0])
     coupons = coupons_from_text(raw_text)
     if not coupons:
         return None
@@ -282,6 +339,7 @@ def compact_photo_caption(caption: str, limit: int = 1000) -> str:
 
 __all__ = [
     "Coupon", "coupons_from_text", "single_coupon_from_text", "detect_bulletin_kind", "event_from_text",
-    "format_business_coupon_bulletin", "format_normal_coupon_bulletin", "format_single_coupon_bulletin",
+    "format_business_coupon_bulletin", "format_normal_coupon_bulletin",
+    "format_single_coupon_bulletin", "format_coupon_announcement_bulletin",
     "build_bulletin_caption", "compact_photo_caption",
 ]

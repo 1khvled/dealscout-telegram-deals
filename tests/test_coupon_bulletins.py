@@ -163,3 +163,30 @@ def test_single_coupon_drop_post_not_misread_as_30_dollar_product():
     assert our[0] in cap
     assert "سارع بحجزه من هنا" not in cap
     assert "_c3eYYZWZ" not in cap
+
+
+def test_linkless_coupon_news_announcement_is_detected_and_formatted():
+    """Regression (aniscoupons #35693): linkless Super Friday OTSBF66 news post
+    must be detected as 'announcement' and formatted with code, timing, and our link."""
+    from app.ai.coupon_bulletins import single_coupon_from_text
+
+    raw = (
+        "📢 مفاجأة جمعة السوبر من علي إكسبريس!\n"
+        "وصلتنا أخبار من وكيل علي اكسبريس أنه غدا إن شاء الله، "
+        "راح يكون بإمكانكم استعمال كوبون OTSBF66 حتى 5 مرات لكل مستخدم!\n"
+        "🎫 الكوبون 66$/405$: OTSBF66\n"
+        "الخصم: 66$ على طلبات 405$ فما فوق.\n"
+        "🗓 الموعد: الجمعة 27 نوفمبر.\n"
+        "⏰ الساعة: 09:00 صباحًا بتوقيت الجزائر."
+    )
+    assert single_coupon_from_text(raw) == ("66/405$", "OTSBF66")
+    assert detect_bulletin_kind(raw) == "announcement"
+
+    our = ["https://s.click.aliexpress.com/e/_c3OOlDBD"]
+    cap = build_bulletin_caption(raw, our)
+    assert cap is not None
+    assert "<code>OTSBF66</code>" in cap
+    assert "66$" in cap and "405$" in cap
+    assert "5 مرات" in cap
+    assert "الجمعة 27 نوفمبر" in cap
+    assert our[0] in cap

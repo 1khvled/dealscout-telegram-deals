@@ -343,7 +343,7 @@ async def publish_coupon_bulletin(raw_text: str, source_channel: str, source_msg
         kind = detect_bulletin_kind(raw_text)
         if kind is None:
             return False
-        if kind == "single":
+        if kind in ("single", "announcement"):
             single = single_coupon_from_text(raw_text)
             if not single:
                 return False
@@ -373,7 +373,10 @@ async def publish_coupon_bulletin(raw_text: str, source_channel: str, source_msg
             except Exception as aff_err:
                 logger.warning(f"Failed monetizing coupon bulletin link {clean_u}: {aff_err}")
         if not our_links:
-            return False
+            if kind == "announcement":
+                our_links = ["https://s.click.aliexpress.com/e/_c3OOlDBD"]
+            else:
+                return False
 
         caption = build_bulletin_caption(raw_text, our_links)
         if not caption:
@@ -400,12 +403,12 @@ async def publish_coupon_bulletin(raw_text: str, source_channel: str, source_msg
         except Exception as render_err:
             logger.warning(f"Coupon bulletin card render failed, sending text only: {render_err}")
 
-        parse_kw = {"parse_mode": "HTML"} if "<code>" in caption else {}
+        parse_kw = {"parse_mode": "HTML"} if ("<code>" in caption or "<b>" in caption) else {}
         async with httpx.AsyncClient(timeout=25.0) as client:
             if card_path and os.path.exists(str(card_path)):
                 photo_caption = compact_photo_caption(caption)
                 photo_data = {"chat_id": target_chat, "caption": photo_caption}
-                if "<code>" in photo_caption:
+                if "<code>" in photo_caption or "<b>" in photo_caption:
                     photo_data["parse_mode"] = "HTML"
                 with open(card_path, "rb") as f_img:
                     resp = await client.post(

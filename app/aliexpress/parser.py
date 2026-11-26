@@ -528,8 +528,8 @@ def extract_prices(text: str) -> Tuple[Optional[float], Optional[float]]:
         # Skip coupon tier lines like 'كوبون 2/15$ : OTPRD02' or 'code 5/30$' unless the line also has an explicit price indicator
         if re.search(r'\d+\s*/\s*\d+', lc) and not any(p in lc for p in ["السعر", "سعر", "القطعة", "الحبة", "prix", "price"]):
             continue
-        # Skip single-value coupon / code announcement lines like 'كوبون جديد 30$ شغال : OTSBF30'
-        if re.search(r'(?:كوبون|كود|coupon|code|قسيمة)', lc) and not any(p in lc for p in ["السعر", "سعر", "القطعة", "الحبة", "prix", "price"]):
+        # Skip single-value coupon / code / discount-rule lines like 'كوبون جديد 30$ شغال : OTSBF30' or 'الخصم: 66$ على طلبات 405$'
+        if re.search(r'(?:كوبون|كود|coupon|code|قسيمة|^\s*الخصم\b)', lc) and not any(p in lc for p in ["السعر", "سعر", "القطعة", "الحبة", "prix", "price"]):
             continue
         # Skip store discount promo tier lines like 'تخفيض 1$ على 6 منتجات'
         if re.search(r'^\s*(?:تخفيض|خصم|وفر|توفير)\s*[\$💲€]?[0-9]+(?:\.[0-9]+)?[\$💲€]?\s*(?:على|لكل|pour|sur)', lc):
