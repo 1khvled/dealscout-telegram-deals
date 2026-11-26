@@ -1926,7 +1926,7 @@
     "TAJMI3AT_aniscoupons_35659": 1795651154.4471684,
     "1005013126607681": 1795651532.6317441,
     "TAJMI3AT_lodydeals_46912": 1795687609.2309065,
-    "1005007398627941": 1795687633.3463068,
+    "1005007398627941": 1795720922.1005394,
     "1005006860970176": 1795687649.9178689,
     "1005011859459973": 1795688271.3921025,
     "TAJMI3AT_aniscoupons_35676": 1795689543.3716838,
@@ -3529,7 +3529,7 @@
     "RYZEN 7 5700X": 1795521989.5259736,
     "Ⓜ BLACKVIEW WAVE 10C (4/32)": 1792160262.8028278,
     "Ⓜ  TCL 60 NXT PAPER 8/256📱": 1792160269.0502243,
-    "HAYLOU Mori Pro ANC": 1795687633.3463068,
+    "HAYLOU Mori Pro ANC": 1795720922.1005394,
     "HAYLOU S30 Wireless Bluetooth 5.4 Headphones 43dB Adaptive Noise": 1792166326.0335298,
     "HAYLOU Watch Faro Voice Calling Smart Watch": 1792360422.5608404,
     "Redmi Note 12 5G 4/128": 1793543770.1912897,
@@ -4499,7 +4499,6 @@
     "يد تحكم   Flydigi Dune Wireless Hall Effect": 1795717019.2725039
   },
   "published_post_keys": [
-    "zedstoreonline:40147",
     "zedstoreonline:40148",
     "aniscoupons:34881",
     "zedstoreonline:40149",
@@ -5498,11 +5497,12 @@
     "aniscoupons:35707",
     "aniscoupons:35708",
     "zedstoreonline:40746",
-    "aniscoupons:35710"
+    "aniscoupons:35710",
+    "zedstoreonline:40747"
   ],
   "last_disclaimer_time": 1794524540.9476151,
   "last_calendar_time": 1795177633.1203737,
-  "last_run_time": 1795719720.92823,
+  "last_run_time": 1795720922.1005394,
   "monitored_channels": {
     "ecksdeal": {
       "last_message_id": 6142,
@@ -5529,8 +5529,8 @@
       "last_check_time": 1793599663.3444748
     },
     "zedstoreonline": {
-      "last_message_id": 40746,
-      "last_check_time": 1795718890.3365686
+      "last_message_id": 40747,
+      "last_check_time": 1795720924.2169936
     },
     "aniscoupons": {
       "last_message_id": 35710,
@@ -35054,6 +35054,16 @@
       "price": 138.7,
       "timestamp": 1795719720.92823,
       "status": "ACTIVE"
+    },
+    "zedstoreonline:40747": {
+      "channel_msg_id": 3818,
+      "product_id": "1005007398627941",
+      "title": "HAYLOU Mori Pro ANC",
+      "channel": "zedstoreonline",
+      "source_msg_id": 40747,
+      "price": 10.6,
+      "timestamp": 1795720922.1005394,
+      "status": "ACTIVE"
     }
   },
   "schedule_config": {
@@ -35062,17 +35072,17 @@
     "current_interval_minutes": 5,
     "is_paused": false,
     "night_mode_enabled": true,
-    "last_deal_post_time": 1795719724.3322918,
+    "last_deal_post_time": 1795720926.5133955,
     "night_start_hour_dz": 0,
     "night_end_hour_dz": 8,
     "night_pause_enabled": true,
-    "last_sweep_time": 1795720320.7739377,
+    "last_sweep_time": 1795720931.6405675,
     "last_sweep_times": {
-      "algeria": 1795720315.7342463,
-      "france": 1795720320.7739377
+      "algeria": 1795720926.4615278,
+      "france": 1795720931.6405675
     },
     "last_deal_post_times": {
-      "algeria": 1795719724.3322918
+      "algeria": 1795720926.5133955
     }
   },
   "last_coin_reminder_time": 1795648937.9274871,
@@ -40144,6 +40154,13 @@
         "channel": "aniscoupons",
         "ts": 1795716839.303028,
         "price": 13.18
+      }
+    ],
+    "1005007398627941": [
+      {
+        "channel": "zedstoreonline",
+        "ts": 1795720919.3401384,
+        "price": 10.6
       }
     ]
   },
