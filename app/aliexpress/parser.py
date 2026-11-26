@@ -528,6 +528,9 @@ def extract_prices(text: str) -> Tuple[Optional[float], Optional[float]]:
         # Skip coupon tier lines like 'كوبون 2/15$ : OTPRD02' or 'code 5/30$' unless the line also has an explicit price indicator
         if re.search(r'\d+\s*/\s*\d+', lc) and not any(p in lc for p in ["السعر", "سعر", "القطعة", "الحبة", "prix", "price"]):
             continue
+        # Skip single-value coupon / code announcement lines like 'كوبون جديد 30$ شغال : OTSBF30'
+        if re.search(r'(?:كوبون|كود|coupon|code|قسيمة)', lc) and not any(p in lc for p in ["السعر", "سعر", "القطعة", "الحبة", "prix", "price"]):
+            continue
         # Skip store discount promo tier lines like 'تخفيض 1$ على 6 منتجات'
         if re.search(r'^\s*(?:تخفيض|خصم|وفر|توفير)\s*[\$💲€]?[0-9]+(?:\.[0-9]+)?[\$💲€]?\s*(?:على|لكل|pour|sur)', lc):
             continue
@@ -1128,7 +1131,8 @@ def extract_clean_title(text: str) -> Optional[str]:
         "عمرو السلة", "عمّروا السلة", "البيع يبدأ", "البيع يبدا", "يوم الأحد", "يوم الاحد",
         "يوم 1 نوفمبر", "نهار التخفيضات", "تسخينات", "تسخينات 11.11", "سعر أرض", "سعر ارض",
         "متوسط سعره", "سعره حالياً", "سعره حاليا", "سعرو حالياً", "سعرو حاليا", "في البلاد",
-        "السوق الجزائرية", "السوق الجزائري", "عليه طلب", "أستخدمها شخصيا", "استخدمها شخصيا", "للتسجيل من", "السماعات المفقودة", "الاكثر طلبا", "الأكثر طلباً", "الاكثر طلباً"
+        "السوق الجزائرية", "السوق الجزائري", "عليه طلب", "أستخدمها شخصيا", "استخدمها شخصيا", "للتسجيل من", "السماعات المفقودة", "الاكثر طلبا", "الأكثر طلباً", "الاكثر طلباً",
+        "سارع بحجز", "سارع بالحجز", "احجزه من هنا", "انسخ الكود", "دخلو في المنتج", "بصحتك", "دخله في المنتج"
     ]
 
     # Normalize tatweel and remove multiple exclamation/fire emojis
@@ -1546,7 +1550,7 @@ def extract_telegram_html_text(text_div) -> str:
         is_ali_href = ("aliexpress.com" in href or "s.click" in href)
         is_tg_post_href = bool(re.search(r't\.me/[A-Za-z0-9_]+/\d+', href, re.I))
         if (is_ali_href or is_tg_post_href) and href not in a_text:
-            a.replace_with(f"{a_text}\n{href}")
+            a.replace_with(f"{a_text}\n{href} ")
     import html as html_lib
     text = html_lib.unescape(soup.get_text())
     # Normalize excessive newlines

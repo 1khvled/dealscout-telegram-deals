@@ -9,7 +9,12 @@ supplied by the caller; nothing about a specific campaign is stored here.
 import re
 from typing import Iterable, List, Optional, Sequence, Tuple
 
-from app.aliexpress.parser import extract_coupon_list, extract_prices
+from app.aliexpress.parser import (
+    extract_clean_title,
+    extract_coupon_list,
+    extract_prices,
+    is_competitor_branded_code,
+)
 
 # (tier, code) — read from the source post, e.g. ("90/689$", "AEBBF10")
 Coupon = Tuple[str, str]
@@ -20,6 +25,11 @@ BUSINESS_MARKERS = (
 )
 NORMAL_MARKERS = (
     "كوبونات خاصة", "كوبونات", "كوبون", "كود", "تخفيضات", "عروض", "مهرجان",
+)
+SINGLE_COUPON_MARKERS = (
+    "كوبون جديد", "كود جديد", "شغال", "سارع بحجز", "انسخ الكود",
+    "دخلو في المنتج", "دخله في المنتج", "لتثبيته", "طبق الكوبون", "طبّق الكوبون",
+    "احجز الكوبون",
 )
 
 FOOTER = """لا تنسى استخدام البوت للشراء بأقل الأسعار :
@@ -37,14 +47,63 @@ def coupons_from_text(raw_text: str) -> List[Coupon]:
             for i in items if i.get("code")]
 
 
+def single_coupon_from_text(raw_text: str) -> Optional[Coupon]:
+    """Read a standalone single-coupon announcement like 'كوبون جديد 30$ شغال : OTSBF30'."""
+    if not raw_text:
+        return None
+    norm = re.sub(r'\u0640', '', raw_text)
+    m_val = re.search(
+        r'(?:كوبون|كود|coupon|code|قسيمة)[^\r\n:\d$€]{0,30}'
+        r'([$€]?\s*\d+(?:\.\d+)?(?:\s*/\s*\d+(?:\.\d+)?)?\s*[$€]?)'
+        r'[^\r\n:]{0,30}[:：]\s*([A-Z][A-Z0-9_-]{3,19})\b',
+        norm,
+        re.IGNORECASE,
+    )
+    if m_val:
+        raw_val = re.sub(r'\s+', '', m_val.group(1) or "")
+        code = m_val.group(2).strip().upper()
+        if is_competitor_branded_code(code):
+            return None
+        if raw_val and not re.search(r'[$€]', raw_val):
+            raw_val = f"{raw_val}$"
+        return (raw_val, code)
+
+    pairs = coupons_from_text(norm)
+    if len(pairs) == 1 and pairs[0][1] and not is_competitor_branded_code(pairs[0][1]):
+        return pairs[0]
+
+    m_plain = re.search(
+        r'(?:كوبون|كود|coupon|code|قسيمة)[^\r\n:]{0,40}[:：]\s*([A-Z][A-Z0-9_-]{3,19})\b',
+        norm,
+        re.IGNORECASE,
+    )
+    if m_plain:
+        code = m_plain.group(1).strip().upper()
+        if not is_competitor_branded_code(code):
+            return ("", code)
+    return None
+
+
 def detect_bulletin_kind(raw_text: str) -> Optional[str]:
-    """Return 'business', 'normal', or None for a coupon bulletin situation."""
+    """Return 'business', 'normal', 'single', or None for a coupon bulletin situation."""
     if not raw_text:
         return None
     coupons = coupons_from_text(raw_text)
-    if len(coupons) < 2:  # a single coupon belongs to a normal product deal
-        return None
     lower = raw_text.lower()
+    if len(coupons) < 2:
+        # Check for standalone single-coupon drop announcements (e.g. aniscoupons #35674):
+        # NO product price, NO product deal header, explicit single coupon + claim wording.
+        if re.search(r'(?:تخفيض|عرض)\s+لـ', raw_text) or any(w in lower for w in ("السعر", "prix", "price")):
+            return None
+        usd_price, _ = extract_prices(raw_text)
+        if usd_price is not None:
+            return None
+        single = single_coupon_from_text(raw_text)
+        if not single:
+            return None
+        if any(m in lower for m in SINGLE_COUPON_MARKERS) or extract_clean_title(raw_text) is None:
+            return "single"
+        return None
     if any(m in lower for m in BUSINESS_MARKERS):
         return "business"
     # A product deal with variant coupons (e.g. "128 GB 7.56$ -> OTSBF03,
@@ -158,11 +217,36 @@ def format_normal_coupon_bulletin(
     ]).strip()
 
 
+def format_single_coupon_bulletin(
+    tier: str,
+    code: str,
+    apply_url: str,
+) -> str:
+    """Standalone single-coupon announcement (e.g. 'كوبون جديد 30$ شغال : OTSBF30')."""
+    if not code:
+        raise ValueError("single coupon bulletin needs code")
+    val_label = f"بقيمة {tier} " if tier else ""
+    return "\n\n".join([
+        f"🎟️ كوبون جديد {val_label}شغال الآن : <code>{code}</code> 🔥\n"
+        "⏰ سارع بنسخ الكود وتطبيقه الآن على هذا المنتج لتثبيته في حسابك قبل انتهاء الكمية! 🏃💨",
+        f"🔹 طبّق الكوبون مباشرة من هنا ⤵️\n{apply_url}",
+        FOOTER,
+    ]).strip()
+
+
 def build_bulletin_caption(raw_text: str, our_links: Sequence[str]) -> Optional[str]:
     """Detect + render in one call. ``our_links`` must be our own monetized URLs."""
     kind = detect_bulletin_kind(raw_text)
+    if not kind or not our_links:
+        return None
+    if kind == "single":
+        single = single_coupon_from_text(raw_text)
+        if not single:
+            return None
+        tier, code = single
+        return format_single_coupon_bulletin(tier=tier, code=code, apply_url=our_links[0])
     coupons = coupons_from_text(raw_text)
-    if not kind or not coupons or not our_links:
+    if not coupons:
         return None
     if kind == "business":
         return format_business_coupon_bulletin(
@@ -197,7 +281,7 @@ def compact_photo_caption(caption: str, limit: int = 1000) -> str:
 
 
 __all__ = [
-    "Coupon", "coupons_from_text", "detect_bulletin_kind", "event_from_text",
-    "format_business_coupon_bulletin", "format_normal_coupon_bulletin",
+    "Coupon", "coupons_from_text", "single_coupon_from_text", "detect_bulletin_kind", "event_from_text",
+    "format_business_coupon_bulletin", "format_normal_coupon_bulletin", "format_single_coupon_bulletin",
     "build_bulletin_caption", "compact_photo_caption",
 ]

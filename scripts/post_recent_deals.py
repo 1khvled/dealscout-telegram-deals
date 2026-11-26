@@ -332,8 +332,8 @@ async def publish_coupon_bulletin(raw_text: str, source_channel: str, source_msg
         from app.aliexpress.affiliate import affiliate_service
         from api.coin_bot import ensure_affiliate
         from app.ai.coupon_bulletins import (
-            detect_bulletin_kind, coupons_from_text, build_bulletin_caption,
-            event_from_text, compact_photo_caption,
+            detect_bulletin_kind, coupons_from_text, single_coupon_from_text,
+            build_bulletin_caption, event_from_text, compact_photo_caption,
         )
         from app.publisher.state_tracker import (
             is_coupon_bulletin_already_published, record_post_published,
@@ -343,7 +343,13 @@ async def publish_coupon_bulletin(raw_text: str, source_channel: str, source_msg
         kind = detect_bulletin_kind(raw_text)
         if kind is None:
             return False
-        coupons = coupons_from_text(raw_text)
+        if kind == "single":
+            single = single_coupon_from_text(raw_text)
+            if not single:
+                return False
+            coupons = [single]
+        else:
+            coupons = coupons_from_text(raw_text)
 
         is_dup, reason = is_coupon_bulletin_already_published(
             coupon_list=[{"tier": t, "code": c} for t, c in coupons],
@@ -383,10 +389,10 @@ async def publish_coupon_bulletin(raw_text: str, source_channel: str, source_msg
         event = event_from_text(raw_text) or ""
         # PIL fonts have no Arabic shaping — keep the image title Latin-only.
         promo_title = event if event and not any('\u0600' <= ch <= '\u06ff' for ch in event) \
-            else ("Business" if kind == "business" else "Coupon Wall")
+            else ("Business" if kind == "business" else ("New Coupon" if kind == "single" else "Coupon Wall"))
         try:
             card_path = media_renderer.render_coupon_bulletin_card(
-                [{"tier": t, "code": c} for t, c in coupons],
+                [{"tier": t or "PROMO", "code": c} for t, c in coupons],
                 promo_title=promo_title,
                 channel_handle="@DzAliexpress0",
                 is_french=False,
@@ -394,13 +400,17 @@ async def publish_coupon_bulletin(raw_text: str, source_channel: str, source_msg
         except Exception as render_err:
             logger.warning(f"Coupon bulletin card render failed, sending text only: {render_err}")
 
+        parse_kw = {"parse_mode": "HTML"} if "<code>" in caption else {}
         async with httpx.AsyncClient(timeout=25.0) as client:
             if card_path and os.path.exists(str(card_path)):
                 photo_caption = compact_photo_caption(caption)
+                photo_data = {"chat_id": target_chat, "caption": photo_caption}
+                if "<code>" in photo_caption:
+                    photo_data["parse_mode"] = "HTML"
                 with open(card_path, "rb") as f_img:
                     resp = await client.post(
                         f"https://api.telegram.org/bot{bot_token}/sendPhoto",
-                        data={"chat_id": target_chat, "caption": photo_caption},
+                        data=photo_data,
                         files={"photo": (
                             os.path.basename(str(card_path)), f_img,
                             mimetypes.guess_type(str(card_path))[0] or "image/png",
@@ -415,12 +425,13 @@ async def publish_coupon_bulletin(raw_text: str, source_channel: str, source_msg
                             "text": caption,
                             "reply_to_message_id": resp.json().get("result", {}).get("message_id"),
                             "disable_web_page_preview": True,
+                            **parse_kw,
                         },
                     )
             else:
                 resp = await client.post(
                     f"https://api.telegram.org/bot{bot_token}/sendMessage",
-                    json={"chat_id": target_chat, "text": caption, "disable_web_page_preview": True},
+                    json={"chat_id": target_chat, "text": caption, "disable_web_page_preview": True, **parse_kw},
                 )
         if resp.status_code == 200 and resp.json().get("ok"):
             new_msg_id = resp.json().get("result", {}).get("message_id")
@@ -837,13 +848,15 @@ async def collect_and_post_last_10_deals(force: bool = False, force_tajmi3at: bo
 
                     # 3.5. One dynamic coupon mechanism for all monitored channels:
                     # detect the situation, use the post's own coupons, publish our version.
-                    if await publish_coupon_bulletin(raw_text, ch, msg_id):
+                    from app.ai.coupon_bulletins import detect_bulletin_kind
+                    if detect_bulletin_kind(raw_text) is not None:
+                        if await publish_coupon_bulletin(raw_text, ch, msg_id):
                             deals_published_this_run += 1
                             published_deals.append(f"COUPONBULLETIN_{ch}_{msg_id}")
-                            max_processed_id = max(max_processed_id, msg_id)
-                            record_monitored_channel_last_id(ch, msg_id)
-                            record_post_handled(ch, msg_id)
-                            continue
+                        max_processed_id = max(max_processed_id, msg_id)
+                        record_monitored_channel_last_id(ch, msg_id)
+                        record_post_handled(ch, msg_id)
+                        continue
 
                     # Check: Multi-Deal Roundup / Tajmi3at Compilation (e.g. SSD compilation, phones roundup)
                     # Publish incoming competitor Tajmi3at 1:1 (deduped against recent roundups).

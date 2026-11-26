@@ -135,3 +135,31 @@ def test_variant_coupon_product_post_is_not_classified_as_bulletin():
 
     assert detect_bulletin_kind(variant_product_post) is None
     assert build_bulletin_caption(variant_product_post, ["https://s.click.aliexpress.com/e/_OUR1"]) is None
+
+
+def test_single_coupon_drop_post_not_misread_as_30_dollar_product():
+    """Regression (@DzAliexpress0/3772 / aniscoupons #35674): 'كوبون جديد 30$ شغال : OTSBF30'
+    must NEVER have 30$ read as product price or 'سارع بحجزه من هنا' as title;
+    it must be routed as a clean 'single' coupon post with code OTSBF30."""
+    from app.ai.coupon_bulletins import single_coupon_from_text
+    from app.aliexpress.parser import extract_clean_title, extract_prices
+
+    raw = (
+        "الححححححححق كوبون جديد 30$ شغال : OTSBF30\n"
+        "سارع بحجزه من هنا \n"
+        "https://s.click.aliexpress.com/e/_c3eYYZWZ\n\n"
+        "انسخ الكود و دخلو في المنتج هذا و بصحتك"
+    )
+    assert extract_prices(raw) == (None, None)
+    assert extract_clean_title(raw) is None
+    assert single_coupon_from_text(raw) == ("30$", "OTSBF30")
+    assert detect_bulletin_kind(raw) == "single"
+
+    our = ["https://s.click.aliexpress.com/e/_cOURCOUPON"]
+    cap = build_bulletin_caption(raw, our)
+    assert cap is not None
+    assert "<code>OTSBF30</code>" in cap
+    assert "30$" in cap
+    assert our[0] in cap
+    assert "سارع بحجزه من هنا" not in cap
+    assert "_c3eYYZWZ" not in cap
