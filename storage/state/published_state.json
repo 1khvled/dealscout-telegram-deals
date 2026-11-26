@@ -1914,7 +1914,7 @@
     "TAJMI3AT_aniscoupons_35628": 1795611185.428156,
     "TAJMI3AT_aniscoupons_35637": 1795620241.490416,
     "1005013418407141": 1795620610.006522,
-    "1005010653156898": 1795623753.9870079,
+    "1005010653156898": 1795705775.3535938,
     "TAJMI3AT_lodydeals_46904": 1795630463.6559675,
     "1005013311318316": 1795642207.2861652,
     "TAJMI3AT_lodydeals_46911": 1795642940.4631746,
@@ -4467,7 +4467,7 @@
     "SoundPEATS C30 ANC -52dB": 1795631730.9372938,
     "📢": 1795689543.3716838,
     "Soundpeats Q3 Pro ANC": 1795620610.006522,
-    "Q86 WIRELESS EARBUDS": 1795623753.9870079,
+    "Q86 WIRELESS EARBUDS": 1795705775.3535938,
     "من أفضل عروض هذه التخفيضات": 1795630463.6559675,
     "Anker 100W USB C Charger": 1795631548.7472386,
     "سماعات اذن فخمة  Moondrop Position IEM": 1795642207.2861652,
@@ -4485,7 +4485,6 @@
     "NETUM L5 / NT-L8": 1795695716.5576735
   },
   "published_post_keys": [
-    "aniscoupons:34855",
     "aniscoupons:34856",
     "aniscoupons:34858",
     "aniscoupons:34860",
@@ -5484,11 +5483,12 @@
     "aniscoupons:35687",
     "aniscoupons:35689",
     "zedstoreonline:40738",
-    "aniscoupons:35690"
+    "aniscoupons:35690",
+    "aniscoupons:35691"
   ],
   "last_disclaimer_time": 1794524540.9476151,
   "last_calendar_time": 1795177633.1203737,
-  "last_run_time": 1795703519.4115026,
+  "last_run_time": 1795705775.3535938,
   "monitored_channels": {
     "ecksdeal": {
       "last_message_id": 6140,
@@ -5519,8 +5519,8 @@
       "last_check_time": 1795703512.308126
     },
     "aniscoupons": {
-      "last_message_id": 35690,
-      "last_check_time": 1795703521.5325077
+      "last_message_id": 35691,
+      "last_check_time": 1795705777.4391782
     },
     "bnddeals": {
       "last_message_id": 51415,
@@ -6352,7 +6352,7 @@
     "1005008660082872": 3.49,
     "1005006994616533": 3.89,
     "1005013418407141": 9.18,
-    "1005010653156898": 3.0,
+    "1005010653156898": 2.5,
     "1005013311318316": 20.79,
     "1005013511994544": 249.4,
     "1005013126607681": 24.5,
@@ -34807,6 +34807,16 @@
       "price": 249.4,
       "timestamp": 1795703519.4115026,
       "status": "ACTIVE"
+    },
+    "aniscoupons:35691": {
+      "channel_msg_id": 3793,
+      "product_id": "1005010653156898",
+      "title": "Q86 WIRELESS EARBUDS",
+      "channel": "aniscoupons",
+      "source_msg_id": 35691,
+      "price": 2.5,
+      "timestamp": 1795705775.3535938,
+      "status": "ACTIVE"
     }
   },
   "schedule_config": {
@@ -34815,17 +34825,17 @@
     "current_interval_minutes": 5,
     "is_paused": false,
     "night_mode_enabled": true,
-    "last_deal_post_time": 1795703522.9733636,
+    "last_deal_post_time": 1795705778.6195707,
     "night_start_hour_dz": 0,
     "night_end_hour_dz": 8,
     "night_pause_enabled": true,
-    "last_sweep_time": 1795704514.0569966,
+    "last_sweep_time": 1795705783.16479,
     "last_sweep_times": {
-      "algeria": 1795704511.6944022,
-      "france": 1795704514.0569966
+      "algeria": 1795705778.5830786,
+      "france": 1795705783.16479
     },
     "last_deal_post_times": {
-      "algeria": 1795703522.9733636
+      "algeria": 1795705778.6195707
     }
   },
   "last_coin_reminder_time": 1795648937.9274871,
@@ -39763,6 +39773,13 @@
         "channel": "aniscoupons",
         "ts": 1795703516.9090648,
         "price": 249.4
+      }
+    ],
+    "1005010653156898": [
+      {
+        "channel": "aniscoupons",
+        "ts": 1795705772.4554596,
+        "price": 2.5
       }
     ]
   },
