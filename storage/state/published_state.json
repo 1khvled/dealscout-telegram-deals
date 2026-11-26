@@ -1396,7 +1396,7 @@
     "1005012938359476": 1793448722.5382965,
     "1005012931209980": 1795603047.258251,
     "1005011820893973": 1793540051.7895243,
-    "1005009073904302": 1795521735.7300296,
+    "1005009073904302": 1795696532.6089103,
     "1005009916208760": 1795521256.5995085,
     "1005010033441204": 1795371614.0931513,
     "1005008356663932": 1793707052.9762022,
@@ -3258,7 +3258,7 @@
     "Blackview Zeno 10 5G  8/128": 1790941207.5310047,
     "Honor Power 2  12/256": 1790941214.6756065,
     "Honor X70 5G 8/128": 1795256521.0477176,
-    "Blackview MEGA 5  8/256": 1795521735.7300296,
+    "Blackview MEGA 5  8/256": 1795696532.6089103,
     "سماعات اذن فخمة  Moondrop Chu 3 IEM": 1795352874.1785383,
     "4G LTE Wireless USB 150Mbps": 1794057675.8729835,
     "Curren 8455 Men's Quartz": 1790943640.1460688,
@@ -4483,7 +4483,6 @@
     "NETUM L5 / NT-L8": 1795695716.5576735
   },
   "published_post_keys": [
-    "lodydeals:46485",
     "zedstoreonline:40128",
     "aniscoupons:34852",
     "zedstoreonline:40130",
@@ -5482,11 +5481,12 @@
     "aniscoupons:35683",
     "zedstoreonline:40732",
     "zedstoreonline:40735",
-    "zedstoreonline:40736"
+    "zedstoreonline:40736",
+    "zedstoreonline:40737"
   ],
   "last_disclaimer_time": 1794524540.9476151,
   "last_calendar_time": 1795177633.1203737,
-  "last_run_time": 1795695716.5576735,
+  "last_run_time": 1795696532.6089103,
   "monitored_channels": {
     "ecksdeal": {
       "last_message_id": 6140,
@@ -5513,12 +5513,12 @@
       "last_check_time": 1793599663.3444748
     },
     "zedstoreonline": {
-      "last_message_id": 40736,
-      "last_check_time": 1795695718.6584675
+      "last_message_id": 40737,
+      "last_check_time": 1795696534.7050586
     },
     "aniscoupons": {
-      "last_message_id": 35683,
-      "last_check_time": 1795693886.7740924
+      "last_message_id": 35685,
+      "last_check_time": 1795696542.1674812
     },
     "bnddeals": {
       "last_message_id": 51415,
@@ -34734,6 +34734,16 @@
       "price": 5.0,
       "timestamp": 1795695716.5576735,
       "status": "ACTIVE"
+    },
+    "zedstoreonline:40737": {
+      "channel_msg_id": 3786,
+      "product_id": "1005009073904302",
+      "title": "Blackview MEGA 5  8/256",
+      "channel": "zedstoreonline",
+      "source_msg_id": 40737,
+      "price": 228.3,
+      "timestamp": 1795696532.6089103,
+      "status": "ACTIVE"
     }
   },
   "schedule_config": {
@@ -34742,17 +34752,17 @@
     "current_interval_minutes": 5,
     "is_paused": false,
     "night_mode_enabled": true,
-    "last_deal_post_time": 1795695720.8436058,
+    "last_deal_post_time": 1795696543.2363417,
     "night_start_hour_dz": 0,
     "night_end_hour_dz": 8,
     "night_pause_enabled": true,
-    "last_sweep_time": 1795695724.2031536,
+    "last_sweep_time": 1795696545.8456206,
     "last_sweep_times": {
-      "algeria": 1795695720.800188,
-      "france": 1795695724.2031536
+      "algeria": 1795696543.194215,
+      "france": 1795696545.8456206
     },
     "last_deal_post_times": {
-      "algeria": 1795695720.8436058
+      "algeria": 1795696543.2363417
     }
   },
   "last_coin_reminder_time": 1795648937.9274871,
@@ -37799,7 +37809,6 @@
   "published_deals_history": {},
   "settings": {},
   "handled_post_keys": [
-    "aniscoupons:34842",
     "aniscoupons:34843",
     "aniscoupons:34844",
     "zedstoreonline:40122",
@@ -38798,7 +38807,8 @@
     "zedstoreonline:40730",
     "aniscoupons:35681",
     "zedstoreonline:40733",
-    "zedstoreonline:40734"
+    "zedstoreonline:40734",
+    "aniscoupons:35685"
   ],
   "last_france_cross_promo_time": 1795501542.8708572,
   "next_france_cross_promo_interval_seconds": 208574,
@@ -39540,6 +39550,11 @@
         "channel": "zedstoreonline",
         "ts": 1795688020.9630883,
         "price": 138.0
+      },
+      {
+        "channel": "aniscoupons",
+        "ts": 1795696542.011032,
+        "price": 138.7
       }
     ],
     "1005010039614599": [
@@ -39632,6 +39647,13 @@
         "channel": "zedstoreonline",
         "ts": 1795695706.3634841,
         "price": 9.7
+      }
+    ],
+    "1005009073904302": [
+      {
+        "channel": "zedstoreonline",
+        "ts": 1795696530.02295,
+        "price": 228.3
       }
     ]
   },
