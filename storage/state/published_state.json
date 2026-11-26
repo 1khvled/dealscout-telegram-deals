@@ -1880,7 +1880,7 @@
     "1005004433755802": 1795382836.9089916,
     "1005013572353302": 1795637251.147661,
     "1005012172081619": 1795601168.6454124,
-    "1005007869625249": 1795629157.6468024,
+    "1005007869625249": 1795712765.4516559,
     "1005013572273568": 1795633212.2650673,
     "COUPONBULLETIN_lodydeals_46823": 1795474088.8029113,
     "1005006444231276": 1795501553.790957,
@@ -1905,7 +1905,7 @@
     "33061115247": 1795547454.3449724,
     "1005012374298987": 1795608979.8632379,
     "1005013583987856": 1795687621.1284592,
-    "1005013621783525": 1795632663.7228992,
+    "1005013621783525": 1795712770.773982,
     "1005010637751071": 1795553355.383983,
     "COUPONBULLETIN_zedstoreonline_40658": 1795561391.491517,
     "1005006678271047": 1795603024.1222618,
@@ -4420,7 +4420,7 @@
     "HONOR Earbuds X10 Play": 1795637251.147661,
     "OPPO Enco Buds3 Pro True Wireless Earbuds": 1795601168.6454124,
     "Zeblaze Btalk 4 Pro Voice Calling Amoled": 1795463758.3094215,
-    "CUSU RAM DDR4 3200MHz 16GB": 1795629157.6468024,
+    "CUSU RAM DDR4 3200MHz 16GB": 1795712765.4516559,
     "BOYA Mini 2 Wireless Lavalier Microphone": 1795466729.299068,
     "عودة المايك الأسطوري ما تراطيش": 1795467282.6052318,
     "ADATA XPG DDR4 8GBx2 3200Mhz": 1795633212.2650673,
@@ -4453,7 +4453,7 @@
     "SoundPEATS Space Hybrid ANC": 1795547826.6655538,
     "Velec Tv Box 4/32GB": 1795608979.8632379,
     "HONOR Watch X5 Play": 1795687621.1284592,
-    "HONOR CHOICE Watch 6i": 1795632663.7228992,
+    "HONOR CHOICE Watch 6i": 1795712770.773982,
     "Godox C01 Kit 2 Microphone Lavalier": 1795553355.383983,
     "CMF Buds Neo 12.4 mm Titanium‑coated Driver": 1795555387.9747143,
     "سماعات SOUNDPEATS C30": 1795558896.5588944,
@@ -4485,8 +4485,6 @@
     "NETUM L5 / NT-L8": 1795695716.5576735
   },
   "published_post_keys": [
-    "aniscoupons:34860",
-    "aniscoupons:34862",
     "aniscoupons:34863",
     "aniscoupons:34864",
     "aniscoupons:34865",
@@ -5484,11 +5482,13 @@
     "aniscoupons:35690",
     "aniscoupons:35691",
     "aniscoupons:35694",
-    "aniscoupons:35695"
+    "aniscoupons:35695",
+    "aniscoupons:35696",
+    "aniscoupons:35697"
   ],
   "last_disclaimer_time": 1794524540.9476151,
   "last_calendar_time": 1795177633.1203737,
-  "last_run_time": 1795711543.4166002,
+  "last_run_time": 1795712770.773982,
   "monitored_channels": {
     "ecksdeal": {
       "last_message_id": 6140,
@@ -5519,8 +5519,8 @@
       "last_check_time": 1795710259.0190666
     },
     "aniscoupons": {
-      "last_message_id": 35695,
-      "last_check_time": 1795711545.497061
+      "last_message_id": 35697,
+      "last_check_time": 1795712773.018648
     },
     "bnddeals": {
       "last_message_id": 51415,
@@ -34837,6 +34837,26 @@
       "price": 11.1,
       "timestamp": 1795711543.4166002,
       "status": "ACTIVE"
+    },
+    "aniscoupons:35696": {
+      "channel_msg_id": 3797,
+      "product_id": "1005007869625249",
+      "title": "CUSU RAM DDR4 3200MHz 16GB",
+      "channel": "aniscoupons",
+      "source_msg_id": 35696,
+      "price": 82.7,
+      "timestamp": 1795712765.4516559,
+      "status": "ACTIVE"
+    },
+    "aniscoupons:35697": {
+      "channel_msg_id": 3798,
+      "product_id": "1005013621783525",
+      "title": "HONOR CHOICE Watch 6i",
+      "channel": "aniscoupons",
+      "source_msg_id": 35697,
+      "price": 29.9,
+      "timestamp": 1795712770.773982,
+      "status": "ACTIVE"
     }
   },
   "schedule_config": {
@@ -34845,17 +34865,17 @@
     "current_interval_minutes": 5,
     "is_paused": false,
     "night_mode_enabled": true,
-    "last_deal_post_time": 1795711546.6267076,
+    "last_deal_post_time": 1795712774.2824714,
     "night_start_hour_dz": 0,
     "night_end_hour_dz": 8,
     "night_pause_enabled": true,
-    "last_sweep_time": 1795711727.1530519,
+    "last_sweep_time": 1795712779.2522986,
     "last_sweep_times": {
-      "algeria": 1795711721.9479084,
-      "france": 1795711727.1530519
+      "algeria": 1795712774.233167,
+      "france": 1795712779.2522986
     },
     "last_deal_post_times": {
-      "algeria": 1795711546.6267076
+      "algeria": 1795712774.2824714
     }
   },
   "last_coin_reminder_time": 1795648937.9274871,
@@ -39810,6 +39830,20 @@
         "channel": "aniscoupons",
         "ts": 1795705772.4554596,
         "price": 2.5
+      }
+    ],
+    "1005007869625249": [
+      {
+        "channel": "aniscoupons",
+        "ts": 1795712762.914143,
+        "price": 82.7
+      }
+    ],
+    "1005013621783525": [
+      {
+        "channel": "aniscoupons",
+        "ts": 1795712768.3887224,
+        "price": 29.9
       }
     ]
   },
