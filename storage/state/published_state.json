@@ -1239,7 +1239,7 @@
     "9998882360": 1792162360.6633363,
     "9998882475": 1793282475.663889,
     "9998882568": 1792162568.078144,
-    "1005010369693975": 1795693879.166197,
+    "1005010369693975": 1795718691.1341007,
     "1005006442452857": 1792166326.0335298,
     "9998886462": 1792166462.200491,
     "1005009948598802": 1793500786.1935658,
@@ -1661,7 +1661,7 @@
     "1005008384277561": 1794128872.1451216,
     "1005010155263623": 1794129971.1690388,
     "1005011572208218": 1794471958.5920799,
-    "1005012374550298": 1795687669.7598422,
+    "1005012374550298": 1795718696.2522883,
     "1005009851407234": 1794852909.5572178,
     "1005009738356108": 1794473432.2937162,
     "1005012953027259": 1794133977.9005425,
@@ -4156,7 +4156,7 @@
     "AULA WIN68 HE Gaming Mechanical Keyboard": 1794312953.1830955,
     "CMF Buds 2a ANC -42dB  السعر: 11.7": 1794312964.1163073,
     "MACHENIKE G1 Wireless Gaming Controller": 1795085991.192385,
-    "HAYLOU Mori Pro": 1795693879.166197,
+    "HAYLOU Mori Pro": 1795718691.1341007,
     "KOOTION SATA3 SSD 128GB": 1794585682.0605152,
     "Inphic YuanChuang Cyber Gaming Mouse": 1794320674.833981,
     "SIX PCIe 4.0 SSD (1TB) NVMe M2": 1794331533.1223195,
@@ -4388,7 +4388,7 @@
     "1More HQ20 SonoFlow MINI Hearing": 1795196136.7491949,
     "JGINYUE B650M AURORA": 1795200031.7838972,
     "Redmi Note 17 4G (6/128GB)": 1795338775.7608411,
-    "Machenike G7 Gaming Mouse": 1795687669.7598422,
+    "Machenike G7 Gaming Mouse": 1795718696.2522883,
     "Anker P20i TWS": 1795249022.7985642,
     "Onn 4K Android 13 TV Box": 1795249213.3989208,
     "1More  HQ20 Headphones": 1795249218.8314788,
@@ -4499,8 +4499,6 @@
     "يد تحكم   Flydigi Dune Wireless Hall Effect": 1795717019.2725039
   },
   "published_post_keys": [
-    "aniscoupons:34877",
-    "aniscoupons:34879",
     "aniscoupons:34880",
     "zedstoreonline:40146",
     "zedstoreonline:40147",
@@ -5498,11 +5496,13 @@
     "aniscoupons:35704",
     "aniscoupons:35705",
     "ecksdeal:6142",
-    "aniscoupons:35706"
+    "aniscoupons:35706",
+    "aniscoupons:35707",
+    "aniscoupons:35708"
   ],
   "last_disclaimer_time": 1794524540.9476151,
   "last_calendar_time": 1795177633.1203737,
-  "last_run_time": 1795717412.2268028,
+  "last_run_time": 1795718696.2522883,
   "monitored_channels": {
     "ecksdeal": {
       "last_message_id": 6142,
@@ -5529,12 +5529,12 @@
       "last_check_time": 1793599663.3444748
     },
     "zedstoreonline": {
-      "last_message_id": 40744,
-      "last_check_time": 1795716836.2076159
+      "last_message_id": 40745,
+      "last_check_time": 1795718685.9972422
     },
     "aniscoupons": {
-      "last_message_id": 35706,
-      "last_check_time": 1795717414.3474052
+      "last_message_id": 35708,
+      "last_check_time": 1795718698.3399699
     },
     "bnddeals": {
       "last_message_id": 51416,
@@ -35014,6 +35014,26 @@
       "price": 21.1,
       "timestamp": 1795717412.2268028,
       "status": "ACTIVE"
+    },
+    "aniscoupons:35707": {
+      "channel_msg_id": 3814,
+      "product_id": "1005010369693975",
+      "title": "HAYLOU Mori Pro",
+      "channel": "aniscoupons",
+      "source_msg_id": 35707,
+      "price": 10.6,
+      "timestamp": 1795718691.1341007,
+      "status": "ACTIVE"
+    },
+    "aniscoupons:35708": {
+      "channel_msg_id": 3815,
+      "product_id": "1005012374550298",
+      "title": "Machenike G7 Gaming Mouse",
+      "channel": "aniscoupons",
+      "source_msg_id": 35708,
+      "price": 15.85,
+      "timestamp": 1795718696.2522883,
+      "status": "ACTIVE"
     }
   },
   "schedule_config": {
@@ -35022,17 +35042,17 @@
     "current_interval_minutes": 5,
     "is_paused": false,
     "night_mode_enabled": true,
-    "last_deal_post_time": 1795717415.7988517,
+    "last_deal_post_time": 1795718699.4859545,
     "night_start_hour_dz": 0,
     "night_end_hour_dz": 8,
     "night_pause_enabled": true,
-    "last_sweep_time": 1795718040.8495026,
+    "last_sweep_time": 1795718703.8598957,
     "last_sweep_times": {
-      "algeria": 1795718035.9719188,
-      "france": 1795718040.8495026
+      "algeria": 1795718699.447505,
+      "france": 1795718703.8598957
     },
     "last_deal_post_times": {
-      "algeria": 1795717415.7988517
+      "algeria": 1795718699.4859545
     }
   },
   "last_coin_reminder_time": 1795648937.9274871,
@@ -39770,6 +39790,11 @@
         "channel": "zedstoreonline",
         "ts": 1795695193.1397154,
         "price": 15.8
+      },
+      {
+        "channel": "aniscoupons",
+        "ts": 1795718693.8066273,
+        "price": 15.85
       }
     ],
     "1005012285327063": [
@@ -39953,6 +39978,11 @@
       {
         "channel": "aniscoupons",
         "ts": 1795693876.630763,
+        "price": 10.6
+      },
+      {
+        "channel": "aniscoupons",
+        "ts": 1795718688.2907283,
         "price": 10.6
       }
     ],
