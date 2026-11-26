@@ -1796,7 +1796,7 @@
     "1005010376374580": 1794935234.6883996,
     "1005010239860751": 1794689616.7178488,
     "1005009278862695": 1795535124.479775,
-    "1005013005786079": 1795687706.4564328,
+    "1005013005786079": 1795718888.2253578,
     "1005008627811107": 1794694594.377669,
     "1005012892577195": 1794732862.0085351,
     "1005012594430190": 1795690585.1949098,
@@ -4466,7 +4466,7 @@
     "HONOR Watch X5 Play": 1795713163.1769862,
     "HONOR CHOICE Watch 6i": 1795712770.773982,
     "Godox C01 Kit 2 Microphone Lavalier": 1795553355.383983,
-    "CMF Buds Neo 12.4 mm Titanium‑coated Driver": 1795555387.9747143,
+    "CMF Buds Neo 12.4 mm Titanium‑coated Driver": 1795718888.2253578,
     "سماعات SOUNDPEATS C30": 1795558896.5588944,
     "OPPO Enco Buds 3": 1795693872.7808363,
     "realme P4  8/256": 1795601155.086321,
@@ -4499,7 +4499,6 @@
     "يد تحكم   Flydigi Dune Wireless Hall Effect": 1795717019.2725039
   },
   "published_post_keys": [
-    "aniscoupons:34880",
     "zedstoreonline:40146",
     "zedstoreonline:40147",
     "zedstoreonline:40148",
@@ -5498,11 +5497,12 @@
     "ecksdeal:6142",
     "aniscoupons:35706",
     "aniscoupons:35707",
-    "aniscoupons:35708"
+    "aniscoupons:35708",
+    "zedstoreonline:40746"
   ],
   "last_disclaimer_time": 1794524540.9476151,
   "last_calendar_time": 1795177633.1203737,
-  "last_run_time": 1795718696.2522883,
+  "last_run_time": 1795718888.2253578,
   "monitored_channels": {
     "ecksdeal": {
       "last_message_id": 6142,
@@ -5529,8 +5529,8 @@
       "last_check_time": 1793599663.3444748
     },
     "zedstoreonline": {
-      "last_message_id": 40745,
-      "last_check_time": 1795718685.9972422
+      "last_message_id": 40746,
+      "last_check_time": 1795718890.3365686
     },
     "aniscoupons": {
       "last_message_id": 35708,
@@ -6255,7 +6255,7 @@
     "1005010376374580": 20.4,
     "1005010239860751": 4.8,
     "1005009278862695": 32.9,
-    "1005013005786079": 18.29,
+    "1005013005786079": 18.2,
     "1005008627811107": 10.5,
     "1005012892577195": 16.27,
     "1005012594430190": 3.0,
@@ -35034,6 +35034,16 @@
       "price": 15.85,
       "timestamp": 1795718696.2522883,
       "status": "ACTIVE"
+    },
+    "zedstoreonline:40746": {
+      "channel_msg_id": 3816,
+      "product_id": "1005013005786079",
+      "title": "CMF Buds Neo 12.4 mm Titanium‑coated Driver",
+      "channel": "zedstoreonline",
+      "source_msg_id": 40746,
+      "price": 18.2,
+      "timestamp": 1795718888.2253578,
+      "status": "ACTIVE"
     }
   },
   "schedule_config": {
@@ -35042,17 +35052,17 @@
     "current_interval_minutes": 5,
     "is_paused": false,
     "night_mode_enabled": true,
-    "last_deal_post_time": 1795718699.4859545,
+    "last_deal_post_time": 1795718892.2158406,
     "night_start_hour_dz": 0,
     "night_end_hour_dz": 8,
     "night_pause_enabled": true,
-    "last_sweep_time": 1795718703.8598957,
+    "last_sweep_time": 1795718897.0269773,
     "last_sweep_times": {
-      "algeria": 1795718699.447505,
-      "france": 1795718703.8598957
+      "algeria": 1795718892.166238,
+      "france": 1795718897.0269773
     },
     "last_deal_post_times": {
-      "algeria": 1795718699.4859545
+      "algeria": 1795718892.2158406
     }
   },
   "last_coin_reminder_time": 1795648937.9274871,
@@ -35887,7 +35897,7 @@
     "1005010376374580": "zedstoreonline",
     "1005010239860751": "zedstoreonline",
     "1005009278862695": "zedstoreonline",
-    "1005013005786079": "aniscoupons",
+    "1005013005786079": "zedstoreonline",
     "1005008627811107": "ecksdeal",
     "1005012892577195": "lodydeals",
     "1005012594430190": "bnddeals",
@@ -39871,6 +39881,11 @@
       {
         "channel": "zedstoreonline",
         "ts": 1795690562.0124464,
+        "price": 18.2
+      },
+      {
+        "channel": "zedstoreonline",
+        "ts": 1795718885.8912177,
         "price": 18.2
       }
     ],
