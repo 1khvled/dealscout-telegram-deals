@@ -963,7 +963,8 @@
     "1005013406777246",
     "TAJMI3AT_lodydeals_46922",
     "TAJMI3AT_lodydeals_46923",
-    "1005012649756781"
+    "1005012649756781",
+    "TAJMI3AT_lodydeals_46931"
   ],
   "published_product_timestamps": {
     "1005012973772517": 1794500732.7845657,
@@ -1317,7 +1318,7 @@
     "1005012167596439": 1794394415.6108775,
     "1005005209037696": 1793399509.450536,
     "1005007145755647": 1794312958.7225254,
-    "1005011559072337": 1793613486.2912338,
+    "1005011559072337": 1795725723.7734144,
     "1005008430504420": 1794486549.7011836,
     "1005012483491590": 1794499077.363209,
     "1005009234880101": 1793441297.4632108,
@@ -1393,7 +1394,7 @@
     "1005005373032877": 1793600283.7397804,
     "1005007869955343": 1795689538.1907728,
     "1005012644570693": 1793441338.6619778,
-    "1005003949106838": 1795695190.457308,
+    "1005003949106838": 1795725741.2879992,
     "1005012436082838": 1793733101.535615,
     "1005010716206374": 1795521251.4780498,
     "1005012864273120": 1793399494.1323898,
@@ -1709,7 +1710,7 @@
     "1005012083833079": 1794432872.6767933,
     "1005012292809645": 1795087819.176533,
     "1005007495712340": 1794475814.3090613,
-    "1005009104334975": 1795344849.625043,
+    "1005009104334975": 1795725728.980878,
     "1005012474727998": 1794320674.833981,
     "1005006807619368": 1795195549.9206557,
     "1005010653559191": 1794349536.4429784,
@@ -1725,7 +1726,7 @@
     "1005008774483451": 1794735713.9376893,
     "1005012639349629": 1794579990.5893576,
     "1005010153422760": 1794487260.3295033,
-    "1005012809141747": 1795186207.2341003,
+    "1005012809141747": 1795725764.1692784,
     "1005012912160949": 1794914057.3065243,
     "1005012167744546": 1794437860.4294534,
     "1005009582538267": 1794439531.0399334,
@@ -1767,7 +1768,7 @@
     "1005012840419521": 1794591008.1982286,
     "1005010218815499": 1794845442.6108298,
     "1005011897409757": 1794593403.339319,
-    "1005013203288194": 1795185828.2808123,
+    "1005013203288194": 1795725757.071366,
     "1005010305059795": 1795688041.9897308,
     "1005013078612320": 1795256152.5715585,
     "1005007010612283": 1794599454.461018,
@@ -1877,7 +1878,7 @@
     "1005009649241196": 1795290145.0386395,
     "1005007097015654": 1795290732.7583535,
     "1005007805749110": 1795290738.086464,
-    "1005009319376059": 1795601195.4363291,
+    "1005009319376059": 1795725749.4645073,
     "1005011974295002": 1795521942.374168,
     "1005010063967666": 1795550775.9738038,
     "1005009873824892": 1795346646.0617936,
@@ -1911,7 +1912,7 @@
     "1005012383444183": 1795710915.2604535,
     "1005013519635614": 1795546736.9831076,
     "33061115247": 1795547454.3449724,
-    "1005012374298987": 1795608979.8632379,
+    "1005012374298987": 1795725779.0574965,
     "1005013583987856": 1795713163.1769862,
     "1005013621783525": 1795712770.773982,
     "1005010637751071": 1795553355.383983,
@@ -1940,12 +1941,13 @@
     "1005010099024201": 1795703510.182712,
     "1005009566266039": 1795714790.201703,
     "TAJMI3AT_lodydeals_46917": 1795714990.9149463,
-    "1005013097951450": 1795716834.125829,
+    "1005013097951450": 1795725734.3254902,
     "1005008413359329": 1795717019.2725039,
     "1005013406777246": 1795722914.6443748,
     "TAJMI3AT_lodydeals_46922": 1795723341.8747523,
     "TAJMI3AT_lodydeals_46923": 1795723348.1432872,
-    "1005012649756781": 1795723352.671799
+    "1005012649756781": 1795723352.671799,
+    "TAJMI3AT_lodydeals_46931": 1795725772.5983655
   },
   "published_titles": [
     "Wireless WiFi Repeater 300Mbps WiFi Extender Amplifier Booster Router",
@@ -3226,7 +3228,10 @@
     "Realme Adapter SUPERVOOC Charger",
     "يد تحكم لاسلكية مع شاحن GameSir G7 PRO 8K Global Version",
     "تخفيض AMD Ryzen 5 9600X",
-    "يد تحكم للهاتف GameSir Pocket Taco"
+    "يد تحكم للهاتف GameSir Pocket Taco",
+    "WALRAM SSD M2 512GBx2",
+    "OPPO K15 (12/256GB)",
+    "يأتي ببطارية عملاقة 8000mAh"
   ],
   "published_title_timestamps": {
     "Xiaomi Redmi Note 17 5G Global Version": 1790857823.0117362,
@@ -3541,7 +3546,7 @@
     "RYZEN 7 5700X": 1795521989.5259736,
     "Ⓜ BLACKVIEW WAVE 10C (4/32)": 1792160262.8028278,
     "Ⓜ  TCL 60 NXT PAPER 8/256📱": 1792160269.0502243,
-    "HAYLOU Mori Pro ANC": 1795720922.1005394,
+    "HAYLOU Mori Pro ANC": 1795725728.980878,
     "HAYLOU S30 Wireless Bluetooth 5.4 Headphones 43dB Adaptive Noise": 1792166326.0335298,
     "HAYLOU Watch Faro Voice Calling Smart Watch": 1792360422.5608404,
     "Redmi Note 12 5G 4/128": 1793543770.1912897,
@@ -3592,7 +3597,7 @@
     "Oppo Find X9s Pro 12/256": 1794437860.4294534,
     "POCO F7  12/256": 1793399509.450536,
     "KingSpec Memory DDR5  32GB(16GBX2) 6000MHz": 1794312958.7225254,
-    "AMD Ryzen 9 9900X": 1793555278.3251228,
+    "AMD Ryzen 9 9900X": 1795725723.7734144,
     "ONEPLUS 13 (12/256)": 1793448854.438805,
     "الأكثر طلباً في فترات سابقة": 1793467365.3420117,
     "CUSU SSD 480GB": 1793279429.2056015,
@@ -3789,7 +3794,7 @@
     "Blackview Wave 10C  4/32GB": 1793542445.2859337,
     "COLMI i28 Ultra AI  AMOLED": 1793542450.420599,
     "GIGABYTE B650M GAMING WIFI": 1793542466.6850684,
-    "Netac NV7000-T M.2 Gen4 1TB": 1793899614.3022053,
+    "Netac NV7000-T M.2 Gen4 1TB": 1795725741.2879992,
     "UGREEN HiTune S3 Earbuds": 1793542479.8362749,
     "OnePlus Ace 6T 5G 12/256GB": 1795033757.827376,
     "Attack Shark X11 PAW3311": 1794869801.3485081,
@@ -3974,7 +3979,7 @@
     "Baseus USB C Charger 25W": 1793656134.827825,
     "KingSpec ONEBOOM DDR5 RGB 16GBx2 6000MHz": 1793656139.993081,
     "Netac 3500MB/s NVMe 500GB": 1793656145.7068295,
-    "OPPO Reno 16F 5G 8/256GB": 1793656169.3204844,
+    "OPPO Reno 16F 5G 8/256GB": 1795725757.071366,
     "HONOR Pad X9a 8/256GB Global": 1793656173.8785615,
     "CUSU RAM DDR5 16GB 6000Mhz": 1794475875.1316102,
     "UGREEN MAX5S ANC -45dB": 1793656197.5558417,
@@ -4474,7 +4479,7 @@
     "Digital weight scale": 1795546908.1570234,
     "Lefon F35 Wireless Mouse Vertical": 1795547454.3449724,
     "SoundPEATS Space Hybrid ANC": 1795547826.6655538,
-    "Velec Tv Box 4/32GB": 1795608979.8632379,
+    "Velec Tv Box 4/32GB": 1795725779.0574965,
     "HONOR Watch X5 Play": 1795713163.1769862,
     "HONOR CHOICE Watch 6i": 1795712770.773982,
     "Godox C01 Kit 2 Microphone Lavalier": 1795553355.383983,
@@ -4507,23 +4512,17 @@
     "Ulanzi MA35 MagSafe Smartphone Camera": 1795695709.9643443,
     "NETUM L5 / NT-L8": 1795695716.5576735,
     "العرض الأكثر طلباً": 1795714990.9149463,
-    "16.8V Cordless Drill Driver": 1795716834.125829,
+    "16.8V Cordless Drill Driver": 1795725734.3254902,
     "يد تحكم   Flydigi Dune Wireless Hall Effect": 1795717019.2725039,
     "Realme Adapter SUPERVOOC Charger": 1795722522.4327238,
     "يد تحكم لاسلكية مع شاحن GameSir G7 PRO 8K Global Version": 1795722914.6443748,
     "تخفيض AMD Ryzen 5 9600X": 1795723341.8747523,
-    "يد تحكم للهاتف GameSir Pocket Taco": 1795723352.671799
+    "يد تحكم للهاتف GameSir Pocket Taco": 1795723352.671799,
+    "WALRAM SSD M2 512GBx2": 1795725749.4645073,
+    "OPPO K15 (12/256GB)": 1795725764.1692784,
+    "يأتي ببطارية عملاقة 8000mAh": 1795725772.5983655
   },
   "published_post_keys": [
-    "zedstoreonline:40152",
-    "aniscoupons:34888",
-    "lodydeals:46492",
-    "lodydeals:46494",
-    "aniscoupons:34891",
-    "ecksdeal:6062",
-    "aniscoupons:34893",
-    "zedstoreonline:40154",
-    "aniscoupons:34894",
     "aniscoupons:34896",
     "aniscoupons:34897",
     "zedstoreonline:40157",
@@ -5514,19 +5513,28 @@
     "lodydeals:46922",
     "lodydeals:46923",
     "ecksdeal:6144",
-    "aniscoupons:35711"
+    "aniscoupons:35711",
+    "lodydeals:46921",
+    "lodydeals:46924",
+    "lodydeals:46925",
+    "lodydeals:46926",
+    "lodydeals:46927",
+    "lodydeals:46929",
+    "lodydeals:46930",
+    "lodydeals:46931",
+    "zedstoreonline:40748"
   ],
   "last_disclaimer_time": 1794524540.9476151,
   "last_calendar_time": 1795177633.1203737,
-  "last_run_time": 1795723359.9076257,
+  "last_run_time": 1795725779.0574965,
   "monitored_channels": {
     "ecksdeal": {
       "last_message_id": 6144,
       "last_check_time": 1795723354.8341777
     },
     "lodydeals": {
-      "last_message_id": 46923,
-      "last_check_time": 1795723348.3648384
+      "last_message_id": 46932,
+      "last_check_time": 1795725774.129197
     },
     "test_channel": {
       "last_message_id": 1793967703,
@@ -5545,8 +5553,8 @@
       "last_check_time": 1793599663.3444748
     },
     "zedstoreonline": {
-      "last_message_id": 40747,
-      "last_check_time": 1795720924.2169936
+      "last_message_id": 40748,
+      "last_check_time": 1795725781.1344786
     },
     "aniscoupons": {
       "last_message_id": 35711,
@@ -5826,7 +5834,7 @@
     "1005012167596439": 553.5,
     "1005005209037696": 328.0,
     "1005007145755647": 356.9,
-    "1005011559072337": 313.9,
+    "1005011559072337": 316.2,
     "1005008430504420": 440.3,
     "1005012483491590": 244.8,
     "1005009234880101": 355.0,
@@ -5897,7 +5905,7 @@
     "1005005373032877": 61.03,
     "1005007869955343": 37.5,
     "1005012644570693": 558.0,
-    "1005003949106838": 115.9,
+    "1005003949106838": 115.99,
     "1005012436082838": 123.6,
     "1005010716206374": 307.0,
     "1005012864273120": 154.0,
@@ -6198,7 +6206,7 @@
     "1005007477084001": 18.78,
     "1005012639349629": 378.14,
     "1005010153422760": 58.7,
-    "1005012809141747": 352.4,
+    "1005012809141747": 353.37,
     "1005012912160949": 370.5,
     "1005012167744546": 558.49,
     "1005009582538267": 25.1,
@@ -6238,7 +6246,7 @@
     "1005012840419521": 31.63,
     "1005010218815499": 13.94,
     "1005011897409757": 7.07,
-    "1005013203288194": 346.3,
+    "1005013203288194": 346.22,
     "1005010305059795": 29.6,
     "1005013078612320": 23.6,
     "1005007010612283": 23.2,
@@ -6343,7 +6351,7 @@
     "1005009649241196": 3.29,
     "1005007097015654": 5.69,
     "1005007805749110": 4.09,
-    "1005009319376059": 50.7,
+    "1005009319376059": 45.0,
     "1005011974295002": 876.6,
     "1005010063967666": 111.68,
     "1005009873824892": 211.5,
@@ -6394,7 +6402,7 @@
     "1005005099575844": 5.0,
     "1005010099024201": 256.8,
     "1005009566266039": 115.6,
-    "1005013097951450": 17.5,
+    "1005013097951450": 17.55,
     "1005008413359329": 25.95,
     "1005013406777246": 96.0,
     "1005012649756781": 24.96
@@ -35142,6 +35150,96 @@
       "price": 16.0,
       "timestamp": 1795723359.9076257,
       "status": "ACTIVE"
+    },
+    "lodydeals:46921": {
+      "channel_msg_id": 3825,
+      "product_id": "1005011559072337",
+      "title": "AMD Ryzen 9 9900X",
+      "channel": "lodydeals",
+      "source_msg_id": 46921,
+      "price": 316.2,
+      "timestamp": 1795725723.7734144,
+      "status": "ACTIVE"
+    },
+    "lodydeals:46924": {
+      "channel_msg_id": 3826,
+      "product_id": "1005009104334975",
+      "title": "HAYLOU Mori Pro ANC",
+      "channel": "lodydeals",
+      "source_msg_id": 46924,
+      "price": 10.59,
+      "timestamp": 1795725728.980878,
+      "status": "ACTIVE"
+    },
+    "lodydeals:46925": {
+      "channel_msg_id": 3827,
+      "product_id": "1005013097951450",
+      "title": "16.8V Cordless Drill Driver",
+      "channel": "lodydeals",
+      "source_msg_id": 46925,
+      "price": 17.55,
+      "timestamp": 1795725734.3254902,
+      "status": "ACTIVE"
+    },
+    "lodydeals:46926": {
+      "channel_msg_id": 3828,
+      "product_id": "1005003949106838",
+      "title": "Netac NV7000-T M.2 Gen4 1TB",
+      "channel": "lodydeals",
+      "source_msg_id": 46926,
+      "price": 115.99,
+      "timestamp": 1795725741.2879992,
+      "status": "ACTIVE"
+    },
+    "lodydeals:46927": {
+      "channel_msg_id": 3829,
+      "product_id": "1005009319376059",
+      "title": "WALRAM SSD M2 512GBx2",
+      "channel": "lodydeals",
+      "source_msg_id": 46927,
+      "price": 45.0,
+      "timestamp": 1795725749.4645073,
+      "status": "ACTIVE"
+    },
+    "lodydeals:46929": {
+      "channel_msg_id": 3830,
+      "product_id": "1005013203288194",
+      "title": "OPPO Reno 16F 5G 8/256GB",
+      "channel": "lodydeals",
+      "source_msg_id": 46929,
+      "price": 346.22,
+      "timestamp": 1795725757.071366,
+      "status": "ACTIVE"
+    },
+    "lodydeals:46930": {
+      "channel_msg_id": 3831,
+      "product_id": "1005012809141747",
+      "title": "OPPO K15 (12/256GB)",
+      "channel": "lodydeals",
+      "source_msg_id": 46930,
+      "price": 353.37,
+      "timestamp": 1795725764.1692784,
+      "status": "ACTIVE"
+    },
+    "lodydeals:46931": {
+      "channel_msg_id": 3832,
+      "product_id": "TAJMI3AT_lodydeals_46931",
+      "title": "يأتي ببطارية عملاقة 8000mAh",
+      "channel": "lodydeals",
+      "source_msg_id": 46931,
+      "price": null,
+      "timestamp": 1795725772.5983655,
+      "status": "ACTIVE"
+    },
+    "zedstoreonline:40748": {
+      "channel_msg_id": 3833,
+      "product_id": "1005012374298987",
+      "title": "Velec Tv Box 4/32GB",
+      "channel": "zedstoreonline",
+      "source_msg_id": 40748,
+      "price": 26.6,
+      "timestamp": 1795725779.0574965,
+      "status": "ACTIVE"
     }
   },
   "schedule_config": {
@@ -35150,17 +35248,17 @@
     "current_interval_minutes": 5,
     "is_paused": false,
     "night_mode_enabled": true,
-    "last_deal_post_time": 1795723363.2636693,
+    "last_deal_post_time": 1795725782.8376846,
     "night_start_hour_dz": 0,
     "night_end_hour_dz": 8,
     "night_pause_enabled": true,
-    "last_sweep_time": 1795723367.0597622,
+    "last_sweep_time": 1795725788.8061626,
     "last_sweep_times": {
-      "algeria": 1795723363.2079585,
-      "france": 1795723367.0597622
+      "algeria": 1795725782.80219,
+      "france": 1795725788.8061626
     },
     "last_deal_post_times": {
-      "algeria": 1795723363.2636693
+      "algeria": 1795725782.8376846
     }
   },
   "last_coin_reminder_time": 1795648937.9274871,
@@ -35526,7 +35624,7 @@
     "1005012167596439": "bnddeals",
     "1005005209037696": "zedstoreonline",
     "1005007145755647": "aniscoupons",
-    "1005011559072337": "zedstoreonline",
+    "1005011559072337": "lodydeals",
     "1005008430504420": "aniscoupons",
     "1005012483491590": "aniscoupons",
     "1005009234880101": "zedstoreonline",
@@ -35602,7 +35700,7 @@
     "1005007869955343": "aniscoupons",
     "1005012644570693": "zedstoreonline",
     "1005009118633225": "lodydeals",
-    "1005003949106838": "zedstoreonline",
+    "1005003949106838": "lodydeals",
     "1005012436082838": "lodydeals",
     "1005010716206374": "zedstoreonline",
     "1005012864273120": "zedstoreonline",
@@ -35922,7 +36020,7 @@
     "1005008774483451": "zedstoreonline",
     "1005012639349629": "aniscoupons",
     "1005010153422760": "zedstoreonline",
-    "1005012809141747": "aniscoupons",
+    "1005012809141747": "lodydeals",
     "1005012912160949": "aniscoupons",
     "1005012167744546": "aniscoupons",
     "1005009582538267": "zedstoreonline",
@@ -35962,7 +36060,7 @@
     "1005012840419521": "ecksdeal",
     "1005010218815499": "aniscoupons",
     "1005011897409757": "lodydeals",
-    "1005013203288194": "aniscoupons",
+    "1005013203288194": "lodydeals",
     "1005010305059795": "aniscoupons",
     "1005013078612320": "zedstoreonline",
     "1005007010612283": "zedstoreonline",
@@ -36069,7 +36167,7 @@
     "1005009649241196": "lodydeals",
     "1005007097015654": "lodydeals",
     "1005007805749110": "lodydeals",
-    "1005009319376059": "aniscoupons",
+    "1005009319376059": "lodydeals",
     "1005011974295002": "zedstoreonline",
     "1005010063967666": "aniscoupons",
     "1005009873824892": "bnddeals",
@@ -36132,12 +36230,13 @@
     "1005010099024201": "zedstoreonline",
     "1005009566266039": "zedstoreonline",
     "TAJMI3AT_lodydeals_46917": "lodydeals",
-    "1005013097951450": "zedstoreonline",
+    "1005013097951450": "lodydeals",
     "1005008413359329": "ecksdeal",
     "1005013406777246": "ecksdeal",
     "TAJMI3AT_lodydeals_46922": "lodydeals",
     "TAJMI3AT_lodydeals_46923": "lodydeals",
-    "1005012649756781": "ecksdeal"
+    "1005012649756781": "ecksdeal",
+    "TAJMI3AT_lodydeals_46931": "lodydeals"
   },
   "published_title_channels": {
     "Test Wrench Set": "test_channel",
@@ -36456,7 +36555,7 @@
     "MACHENIKE G5Pro Max SE Gaming Controller With Charging Dock": "aniscoupons",
     "Ⓜ BLACKVIEW WAVE 10C (4/32)": "megaphonna",
     "RYZEN 7 5700X": "aniscoupons",
-    "HAYLOU Mori Pro ANC": "zedstoreonline",
+    "HAYLOU Mori Pro ANC": "lodydeals",
     "HAYLOU S30 Wireless Bluetooth 5.4 Headphones 43dB Adaptive Noise": "zedstoreonline",
     "HAYLOU Watch Faro Voice Calling Smart Watch": "couponsglobal",
     "Redmi Note 12 5G 4/128": "lodydeals",
@@ -37420,12 +37519,15 @@
     "Ulanzi MA35 MagSafe Smartphone Camera": "zedstoreonline",
     "NETUM L5 / NT-L8": "zedstoreonline",
     "العرض الأكثر طلباً": "lodydeals",
-    "16.8V Cordless Drill Driver": "zedstoreonline",
+    "16.8V Cordless Drill Driver": "lodydeals",
     "يد تحكم   Flydigi Dune Wireless Hall Effect": "ecksdeal",
     "Realme Adapter SUPERVOOC Charger": "lodydeals",
     "يد تحكم لاسلكية مع شاحن GameSir G7 PRO 8K Global Version": "ecksdeal",
     "تخفيض AMD Ryzen 5 9600X": "lodydeals",
-    "يد تحكم للهاتف GameSir Pocket Taco": "ecksdeal"
+    "يد تحكم للهاتف GameSir Pocket Taco": "ecksdeal",
+    "WALRAM SSD M2 512GBx2": "lodydeals",
+    "OPPO K15 (12/256GB)": "lodydeals",
+    "يأتي ببطارية عملاقة 8000mAh": "lodydeals"
   },
   "religious_reminders_history": {
     "mock_rem": "2026-10-02",
@@ -38223,9 +38325,6 @@
   "published_deals_history": {},
   "settings": {},
   "handled_post_keys": [
-    "zedstoreonline:40138",
-    "aniscoupons:34869",
-    "zedstoreonline:40139",
     "aniscoupons:34870",
     "zedstoreonline:40140",
     "aniscoupons:34876",
@@ -39222,7 +39321,10 @@
     "aniscoupons:35709",
     "lodydeals:46919",
     "lodydeals:46922",
-    "lodydeals:46923"
+    "lodydeals:46923",
+    "lodydeals:46928",
+    "lodydeals:46931",
+    "lodydeals:46932"
   ],
   "last_france_cross_promo_time": 1795501542.8708572,
   "next_france_cross_promo_interval_seconds": 208574,
@@ -39916,6 +40018,11 @@
         "channel": "aniscoupons",
         "ts": 1795718693.8066273,
         "price": 15.85
+      },
+      {
+        "channel": "lodydeals",
+        "ts": 1795725774.0007036,
+        "price": 15.6
       }
     ],
     "1005012285327063": [
@@ -40144,6 +40251,11 @@
         "channel": "zedstoreonline",
         "ts": 1795695187.9221125,
         "price": 115.9
+      },
+      {
+        "channel": "lodydeals",
+        "ts": 1795725738.9784958,
+        "price": 115.99
       }
     ],
     "1005006460821282": [
@@ -40243,6 +40355,11 @@
         "channel": "bnddeals",
         "ts": 1795717204.8060272,
         "price": 17.5
+      },
+      {
+        "channel": "lodydeals",
+        "ts": 1795725732.13147,
+        "price": 17.55
       }
     ],
     "1005013572353302": [
@@ -40258,6 +40375,48 @@
         "ts": 1795720919.3401384,
         "price": 10.6
       }
+    ],
+    "1005011559072337": [
+      {
+        "channel": "lodydeals",
+        "ts": 1795725721.0467088,
+        "price": 316.2
+      }
+    ],
+    "1005009104334975": [
+      {
+        "channel": "lodydeals",
+        "ts": 1795725726.530483,
+        "price": 10.59
+      }
+    ],
+    "1005009319376059": [
+      {
+        "channel": "lodydeals",
+        "ts": 1795725747.1493607,
+        "price": 45.0
+      }
+    ],
+    "1005013203288194": [
+      {
+        "channel": "lodydeals",
+        "ts": 1795725754.7412128,
+        "price": 346.22
+      }
+    ],
+    "1005012809141747": [
+      {
+        "channel": "lodydeals",
+        "ts": 1795725761.93691,
+        "price": 353.37
+      }
+    ],
+    "1005012374298987": [
+      {
+        "channel": "zedstoreonline",
+        "ts": 1795725776.40877,
+        "price": 26.6
+      }
     ]
   },
   "hot_repost_timestamps": {
@@ -40269,7 +40428,8 @@
     "32847542727": 1795274576.3657165,
     "1005013572273568": 1795476464.0167599,
     "1005013497504096": 1795546908.2110746,
-    "1005013621783525": 1795553721.3213196
+    "1005013621783525": 1795553721.3213196,
+    "1005013097951450": 1795725734.4250946
   },
   "published_tajmi3at": [
     {
@@ -40368,6 +40528,16 @@
         "https://s.click.aliexpress.com/e/_c4sJyrED"
       ],
       "timestamp": 1795723348.1986165
+    },
+    {
+      "title": "يأتي ببطارية عملاقة 8000mAh",
+      "links": [
+        "https://s.click.aliexpress.com/e/_c3P95orr",
+        "https://s.click.aliexpress.com/e/_c3XVJMbn",
+        "https://s.click.aliexpress.com/e/_c3adBiAz",
+        "https://s.click.aliexpress.com/e/_c3cb6UUt"
+      ],
+      "timestamp": 1795725772.6325905
     }
   ]
 }
