@@ -982,7 +982,7 @@
     "9998887952": 1790887952.6119926,
     "9998887972": 1790887972.157133,
     "100500777666555": 1793956903.3513582,
-    "1005011778621042": 1795605667.9035742,
+    "1005011778621042": 1795728341.4401183,
     "9998888080": 1790888080.3099577,
     "1005009234854371": 1793543664.66204,
     "1005006533038973": 1791104468.758226,
@@ -3616,7 +3616,7 @@
     "Realme GT8": 1794996403.594225,
     "Realme C100  6/128GB": 1793448628.3734028,
     "معالج Ryzen 5 5600XT": 1793299476.5930903,
-    "معالج Ryzen 7 5700X": 1795080299.0000596,
+    "معالج Ryzen 7 5700X": 1795728341.4401183,
     "ASRock B550 Phantom Gaming 4 Motherboard": 1793467234.8425448,
     "الوحش الأكبر من": 1793299528.9348502,
     "نسخة صينية": 1793299536.9978156,
@@ -4523,7 +4523,6 @@
     "يأتي ببطارية عملاقة 8000mAh": 1795725772.5983655
   },
   "published_post_keys": [
-    "aniscoupons:34897",
     "zedstoreonline:40157",
     "aniscoupons:34898",
     "aniscoupons:34901",
@@ -5522,15 +5521,16 @@
     "lodydeals:46930",
     "lodydeals:46931",
     "zedstoreonline:40748",
-    "zedstoreonline:40750"
+    "zedstoreonline:40750",
+    "ecksdeal:6145"
   ],
   "last_disclaimer_time": 1794524540.9476151,
   "last_calendar_time": 1795177633.1203737,
-  "last_run_time": 1795727521.715381,
+  "last_run_time": 1795728341.4401183,
   "monitored_channels": {
     "ecksdeal": {
-      "last_message_id": 6144,
-      "last_check_time": 1795723354.8341777
+      "last_message_id": 6145,
+      "last_check_time": 1795728343.5378609
     },
     "lodydeals": {
       "last_message_id": 46932,
@@ -5553,8 +5553,8 @@
       "last_check_time": 1793599663.3444748
     },
     "zedstoreonline": {
-      "last_message_id": 40750,
-      "last_check_time": 1795727523.8140147
+      "last_message_id": 40751,
+      "last_check_time": 1795728345.8338277
     },
     "aniscoupons": {
       "last_message_id": 35713,
@@ -5579,7 +5579,7 @@
     "1005007279793099": 13.7,
     "1005008829227075": 24.76,
     "100500777666555": 20.0,
-    "1005011778621042": 119.5,
+    "1005011778621042": 119.59,
     "1005012312990781": 92.31,
     "1005009234854371": 13.3,
     "1005006533038973": 21.81,
@@ -35250,6 +35250,16 @@
       "price": 37.5,
       "timestamp": 1795727521.715381,
       "status": "ACTIVE"
+    },
+    "ecksdeal:6145": {
+      "channel_msg_id": 3835,
+      "product_id": "1005011778621042",
+      "title": "معالج Ryzen 7 5700X",
+      "channel": "ecksdeal",
+      "source_msg_id": 6145,
+      "price": 119.59,
+      "timestamp": 1795728341.4401183,
+      "status": "ACTIVE"
     }
   },
   "schedule_config": {
@@ -35258,17 +35268,17 @@
     "current_interval_minutes": 5,
     "is_paused": false,
     "night_mode_enabled": true,
-    "last_deal_post_time": 1795727525.509587,
+    "last_deal_post_time": 1795728347.5381367,
     "night_start_hour_dz": 0,
     "night_end_hour_dz": 8,
     "night_pause_enabled": true,
-    "last_sweep_time": 1795727728.246462,
+    "last_sweep_time": 1795728353.2199938,
     "last_sweep_times": {
-      "algeria": 1795727721.309993,
-      "france": 1795727728.246462
+      "algeria": 1795728347.49414,
+      "france": 1795728353.2199938
     },
     "last_deal_post_times": {
-      "algeria": 1795727525.509587
+      "algeria": 1795728347.5381367
     }
   },
   "last_coin_reminder_time": 1795648937.9274871,
@@ -35421,7 +35431,7 @@
     "1005007345108759": "ecksdeal",
     "1005007394028808": "lodydeals",
     "1005007394197021": "lodydeals",
-    "1005011778621042": "zedstoreonline",
+    "1005011778621042": "ecksdeal",
     "1005012571601398": "aniscoupons",
     "1005013290515237": "aniscoupons",
     "1005012264415744": "megaphonna",
@@ -38335,7 +38345,6 @@
   "published_deals_history": {},
   "settings": {},
   "handled_post_keys": [
-    "aniscoupons:34876",
     "aniscoupons:34878",
     "zedstoreonline:40144",
     "zedstoreonline:40145",
@@ -39334,7 +39343,8 @@
     "lodydeals:46931",
     "lodydeals:46932",
     "zedstoreonline:40749",
-    "aniscoupons:35713"
+    "aniscoupons:35713",
+    "zedstoreonline:40751"
   ],
   "last_france_cross_promo_time": 1795501542.8708572,
   "next_france_cross_promo_interval_seconds": 208574,
@@ -40156,6 +40166,11 @@
         "channel": "aniscoupons",
         "ts": 1795719717.8255382,
         "price": 138.7
+      },
+      {
+        "channel": "zedstoreonline",
+        "ts": 1795728345.6570652,
+        "price": 138.0
       }
     ],
     "1005010039614599": [
@@ -40436,6 +40451,13 @@
         "channel": "zedstoreonline",
         "ts": 1795725776.40877,
         "price": 26.6
+      }
+    ],
+    "1005011778621042": [
+      {
+        "channel": "ecksdeal",
+        "ts": 1795728338.4560518,
+        "price": 119.59
       }
     ]
   },
