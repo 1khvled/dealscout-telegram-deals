@@ -951,7 +951,9 @@
     "1005007398627941",
     "1005006860970176",
     "1005011859459973",
-    "TAJMI3AT_aniscoupons_35676"
+    "TAJMI3AT_aniscoupons_35676",
+    "1005004504846008",
+    "1005006150092990"
   ],
   "published_product_timestamps": {
     "1005012973772517": 1794500732.7845657,
@@ -1791,7 +1793,7 @@
     "1005013005786079": 1795687706.4564328,
     "1005008627811107": 1794694594.377669,
     "1005012892577195": 1794732862.0085351,
-    "1005012594430190": 1795603018.6183126,
+    "1005012594430190": 1795690585.1949098,
     "1005010044062473": 1794741950.275824,
     "1005007096934754": 1795610626.1677105,
     "1005009508881738": 1794741969.1318233,
@@ -1921,7 +1923,9 @@
     "1005007398627941": 1795687633.3463068,
     "1005006860970176": 1795687649.9178689,
     "1005011859459973": 1795688271.3921025,
-    "TAJMI3AT_aniscoupons_35676": 1795689543.3716838
+    "TAJMI3AT_aniscoupons_35676": 1795689543.3716838,
+    "1005004504846008": 1795690569.2720664,
+    "1005006150092990": 1795690577.381119
   },
   "published_titles": [
     "Wireless WiFi Repeater 300Mbps WiFi Extender Amplifier Booster Router",
@@ -3190,7 +3194,10 @@
     "تخفيض لـ  ASROCK B850M X WiFi",
     "خوذة حماية للأطفال مصممة للدراجات",
     "Anker Life Q30",
-    "سارع بحجزه من هنا"
+    "سارع بحجزه من هنا",
+    "WALRAM SSD M2 512GB",
+    "SomnAmbulist HDD 2.5Inch Portable External Hard Drive 320Gb",
+    "لووووووووووووز HTC"
   ],
   "published_title_timestamps": {
     "Xiaomi Redmi Note 17 5G Global Version": 1790857823.0117362,
@@ -4464,12 +4471,12 @@
     "تخفيض لـ  ASROCK B850M X WiFi": 1795687609.2309065,
     "خوذة حماية للأطفال مصممة للدراجات": 1795687649.9178689,
     "Anker Life Q30": 1795688028.1630735,
-    "سارع بحجزه من هنا": 1795688271.3921025
+    "سارع بحجزه من هنا": 1795688271.3921025,
+    "WALRAM SSD M2 512GB": 1795690569.2720664,
+    "SomnAmbulist HDD 2.5Inch Portable External Hard Drive 320Gb": 1795690577.381119,
+    "لووووووووووووز HTC": 1795690585.1949098
   },
   "published_post_keys": [
-    "zedstoreonline:40121",
-    "aniscoupons:34845",
-    "aniscoupons:34846",
     "aniscoupons:34847",
     "zedstoreonline:40124",
     "zedstoreonline:40126",
@@ -5466,11 +5473,14 @@
     "aniscoupons:35674",
     "aniscoupons:35675",
     "aniscoupons:35676",
-    "zedstoreonline:40726"
+    "zedstoreonline:40726",
+    "zedstoreonline:40729",
+    "aniscoupons:35679",
+    "bnddeals:51415"
   ],
   "last_disclaimer_time": 1794524540.9476151,
   "last_calendar_time": 1795177633.1203737,
-  "last_run_time": 1795689954.676591,
+  "last_run_time": 1795690585.1949098,
   "monitored_channels": {
     "ecksdeal": {
       "last_message_id": 6140,
@@ -5497,16 +5507,16 @@
       "last_check_time": 1793599663.3444748
     },
     "zedstoreonline": {
-      "last_message_id": 40727,
-      "last_check_time": 1795689957.5715823
+      "last_message_id": 40729,
+      "last_check_time": 1795690571.4304316
     },
     "aniscoupons": {
-      "last_message_id": 35677,
-      "last_check_time": 1795689960.0184903
+      "last_message_id": 35679,
+      "last_check_time": 1795690579.4824958
     },
     "bnddeals": {
-      "last_message_id": 51414,
-      "last_check_time": 1795626170.7119682
+      "last_message_id": 51415,
+      "last_check_time": 1795690587.390957
     }
   },
   "published_product_prices": {
@@ -6226,7 +6236,7 @@
     "1005013005786079": 18.29,
     "1005008627811107": 10.5,
     "1005012892577195": 16.27,
-    "1005012594430190": 5.69,
+    "1005012594430190": 3.0,
     "1005010044062473": 3.27,
     "1005007096934754": 16.56,
     "1005009508881738": 3.69,
@@ -6340,7 +6350,9 @@
     "1005013126607681": 24.5,
     "1005007398627941": 10.6,
     "1005006860970176": 18.7,
-    "1005011859459973": 30.0
+    "1005011859459973": 30.0,
+    "1005004504846008": 49.0,
+    "1005006150092990": 11.55
   },
   "channel_published_deals": {
     "aniscoupons:32590": {
@@ -34625,6 +34637,36 @@
       "price": 16.1,
       "timestamp": 1795689954.676591,
       "status": "ACTIVE"
+    },
+    "zedstoreonline:40729": {
+      "channel_msg_id": 3777,
+      "product_id": "1005004504846008",
+      "title": "WALRAM SSD M2 512GB",
+      "channel": "zedstoreonline",
+      "source_msg_id": 40729,
+      "price": 49.0,
+      "timestamp": 1795690569.2720664,
+      "status": "ACTIVE"
+    },
+    "aniscoupons:35679": {
+      "channel_msg_id": 3778,
+      "product_id": "1005006150092990",
+      "title": "SomnAmbulist HDD 2.5Inch Portable External Hard Drive 320Gb",
+      "channel": "aniscoupons",
+      "source_msg_id": 35679,
+      "price": 11.55,
+      "timestamp": 1795690577.381119,
+      "status": "ACTIVE"
+    },
+    "bnddeals:51415": {
+      "channel_msg_id": 3779,
+      "product_id": "1005012594430190",
+      "title": "لووووووووووووز HTC",
+      "channel": "bnddeals",
+      "source_msg_id": 51415,
+      "price": 3.0,
+      "timestamp": 1795690585.1949098,
+      "status": "ACTIVE"
     }
   },
   "schedule_config": {
@@ -34633,17 +34675,17 @@
     "current_interval_minutes": 5,
     "is_paused": false,
     "night_mode_enabled": true,
-    "last_deal_post_time": 1795689961.0923064,
+    "last_deal_post_time": 1795690587.466337,
     "night_start_hour_dz": 0,
     "night_end_hour_dz": 8,
     "night_pause_enabled": true,
-    "last_sweep_time": 1795690162.0917044,
+    "last_sweep_time": 1795690590.853795,
     "last_sweep_times": {
-      "algeria": 1795690158.6270697,
-      "france": 1795690162.0917044
+      "algeria": 1795690587.4292102,
+      "france": 1795690590.853795
     },
     "last_deal_post_times": {
-      "algeria": 1795689961.0923064
+      "algeria": 1795690587.466337
     }
   },
   "last_coin_reminder_time": 1795648937.9274871,
@@ -35481,7 +35523,7 @@
     "1005013005786079": "aniscoupons",
     "1005008627811107": "ecksdeal",
     "1005012892577195": "lodydeals",
-    "1005012594430190": "lodydeals",
+    "1005012594430190": "bnddeals",
     "1005010044062473": "lodydeals",
     "1005007096934754": "lodydeals",
     "1005009508881738": "lodydeals",
@@ -35608,7 +35650,9 @@
     "1005007398627941": "zedstoreonline",
     "1005006860970176": "zedstoreonline",
     "1005011859459973": "aniscoupons",
-    "TAJMI3AT_aniscoupons_35676": "aniscoupons"
+    "TAJMI3AT_aniscoupons_35676": "aniscoupons",
+    "1005004504846008": "zedstoreonline",
+    "1005006150092990": "aniscoupons"
   },
   "published_title_channels": {
     "Test Wrench Set": "test_channel",
@@ -36884,7 +36928,10 @@
     "تخفيض لـ  ASROCK B850M X WiFi": "lodydeals",
     "خوذة حماية للأطفال مصممة للدراجات": "zedstoreonline",
     "Anker Life Q30": "zedstoreonline",
-    "سارع بحجزه من هنا": "aniscoupons"
+    "سارع بحجزه من هنا": "aniscoupons",
+    "WALRAM SSD M2 512GB": "zedstoreonline",
+    "SomnAmbulist HDD 2.5Inch Portable External Hard Drive 320Gb": "aniscoupons",
+    "لووووووووووووز HTC": "bnddeals"
   },
   "religious_reminders_history": {
     "mock_rem": "2026-10-02",
@@ -37682,8 +37729,6 @@
   "published_deals_history": {},
   "settings": {},
   "handled_post_keys": [
-    "zedstoreonline:40118",
-    "zedstoreonline:40119",
     "zedstoreonline:40120",
     "aniscoupons:34837",
     "aniscoupons:34839",
@@ -38681,7 +38726,9 @@
     "aniscoupons:35676",
     "zedstoreonline:40727",
     "aniscoupons:35677",
-    "lodydeals:46915"
+    "lodydeals:46915",
+    "zedstoreonline:40728",
+    "aniscoupons:35678"
   ],
   "last_france_cross_promo_time": 1795501542.8708572,
   "next_france_cross_promo_interval_seconds": 208574,
@@ -39384,6 +39431,11 @@
         "channel": "zedstoreonline",
         "ts": 1795689957.3767076,
         "price": 177.0
+      },
+      {
+        "channel": "aniscoupons",
+        "ts": 1795690573.5001192,
+        "price": 168.3
       }
     ],
     "1005013005786079": [
@@ -39396,6 +39448,11 @@
         "channel": "lodydeals",
         "ts": 1795688010.2201457,
         "price": 18.29
+      },
+      {
+        "channel": "zedstoreonline",
+        "ts": 1795690562.0124464,
+        "price": 18.2
       }
     ],
     "1005009120961416": [
@@ -39467,6 +39524,13 @@
         "channel": "lodydeals",
         "ts": 1795690154.3176637,
         "price": 16.08
+      }
+    ],
+    "1005012594430190": [
+      {
+        "channel": "bnddeals",
+        "ts": 1795690582.1673293,
+        "price": 3.0
       }
     ]
   },
