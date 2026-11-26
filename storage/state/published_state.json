@@ -1233,7 +1233,7 @@
     "9998882360": 1792162360.6633363,
     "9998882475": 1793282475.663889,
     "9998882568": 1792162568.078144,
-    "1005010369693975": 1795643307.8339655,
+    "1005010369693975": 1795693879.166197,
     "1005006442452857": 1792166326.0335298,
     "9998886462": 1792166462.200491,
     "1005009948598802": 1793500786.1935658,
@@ -1554,7 +1554,7 @@
     "1005013137304827": 1793613926.9213502,
     "1005010355409000": 1793613934.9347482,
     "1005012648097890": 1793613942.3770478,
-    "1005012524603100": 1795616508.1402018,
+    "1005012524603100": 1795693884.6862667,
     "1005012770405022": 1795337128.5106091,
     "1005012171521680": 1794246148.3838613,
     "1005010758512904": 1793613961.7877593,
@@ -1898,7 +1898,7 @@
     "1005006995294624": 1795527391.8790212,
     "1005012899783721": 1795623320.9110665,
     "1005013423776757": 1795603012.8186684,
-    "1005012383444183": 1795634507.3860261,
+    "1005012383444183": 1795693872.7808363,
     "1005013519635614": 1795546736.9831076,
     "33061115247": 1795547454.3449724,
     "1005012374298987": 1795608979.8632379,
@@ -3919,7 +3919,7 @@
     "HONOR 600s 8/256GB": 1793613926.9213502,
     "Realme GT8 Pro": 1793613934.9347482,
     "Oppo Find X8s+": 1793613942.3770478,
-    "Xiaoxin Pad Pro 13 (8/128)": 1795616508.1402018,
+    "Xiaoxin Pad Pro 13 (8/128)": 1795693884.6862667,
     "Lenovo Legion Y900 11 Tablet CN Version MediaTek Dimensity 9500S CPU 11.1\" 4K 144Hz LCD Display 1100": 1793613951.963987,
     "Honor Pad V9 (8/256)": 1794945692.2706501,
     "HONOR Pad X8b (LTE 6/128GB)": 1794136369.073103,
@@ -4139,7 +4139,7 @@
     "AULA WIN68 HE Gaming Mechanical Keyboard": 1794312953.1830955,
     "CMF Buds 2a ANC -42dB  السعر: 11.7": 1794312964.1163073,
     "MACHENIKE G1 Wireless Gaming Controller": 1795085991.192385,
-    "HAYLOU Mori Pro": 1795643307.8339655,
+    "HAYLOU Mori Pro": 1795693879.166197,
     "KOOTION SATA3 SSD 128GB": 1794585682.0605152,
     "Inphic YuanChuang Cyber Gaming Mouse": 1794320674.833981,
     "SIX PCIe 4.0 SSD (1TB) NVMe M2": 1794331533.1223195,
@@ -4451,7 +4451,7 @@
     "Godox C01 Kit 2 Microphone Lavalier": 1795553355.383983,
     "CMF Buds Neo 12.4 mm Titanium‑coated Driver": 1795555387.9747143,
     "سماعات SOUNDPEATS C30": 1795558896.5588944,
-    "OPPO Enco Buds 3": 1795634507.3860261,
+    "OPPO Enco Buds 3": 1795693872.7808363,
     "realme P4  8/256": 1795601155.086321,
     "ATTACK SHARK V6": 1795601892.3750827,
     "Outdoor Camping Hammock": 1795603012.8186684,
@@ -4477,9 +4477,6 @@
     "لووووووووووووز HTC": 1795690585.1949098
   },
   "published_post_keys": [
-    "aniscoupons:34847",
-    "zedstoreonline:40124",
-    "zedstoreonline:40126",
     "zedstoreonline:40127",
     "aniscoupons:34849",
     "aniscoupons:34850",
@@ -5476,11 +5473,14 @@
     "zedstoreonline:40726",
     "zedstoreonline:40729",
     "aniscoupons:35679",
-    "bnddeals:51415"
+    "bnddeals:51415",
+    "zedstoreonline:40731",
+    "aniscoupons:35682",
+    "aniscoupons:35683"
   ],
   "last_disclaimer_time": 1794524540.9476151,
   "last_calendar_time": 1795177633.1203737,
-  "last_run_time": 1795690585.1949098,
+  "last_run_time": 1795693884.6862667,
   "monitored_channels": {
     "ecksdeal": {
       "last_message_id": 6140,
@@ -5507,12 +5507,12 @@
       "last_check_time": 1793599663.3444748
     },
     "zedstoreonline": {
-      "last_message_id": 40730,
-      "last_check_time": 1795691763.2118075
+      "last_message_id": 40731,
+      "last_check_time": 1795693874.879694
     },
     "aniscoupons": {
-      "last_message_id": 35681,
-      "last_check_time": 1795692180.6736245
+      "last_message_id": 35683,
+      "last_check_time": 1795693886.7740924
     },
     "bnddeals": {
       "last_message_id": 51415,
@@ -34667,6 +34667,36 @@
       "price": 3.0,
       "timestamp": 1795690585.1949098,
       "status": "ACTIVE"
+    },
+    "zedstoreonline:40731": {
+      "channel_msg_id": 3780,
+      "product_id": "1005012383444183",
+      "title": "OPPO Enco Buds 3",
+      "channel": "zedstoreonline",
+      "source_msg_id": 40731,
+      "price": 22.3,
+      "timestamp": 1795693872.7808363,
+      "status": "ACTIVE"
+    },
+    "aniscoupons:35682": {
+      "channel_msg_id": 3781,
+      "product_id": "1005010369693975",
+      "title": "HAYLOU Mori Pro",
+      "channel": "aniscoupons",
+      "source_msg_id": 35682,
+      "price": 10.6,
+      "timestamp": 1795693879.166197,
+      "status": "ACTIVE"
+    },
+    "aniscoupons:35683": {
+      "channel_msg_id": 3782,
+      "product_id": "1005012524603100",
+      "title": "Xiaoxin Pad Pro 13 (8/128)",
+      "channel": "aniscoupons",
+      "source_msg_id": 35683,
+      "price": 271.5,
+      "timestamp": 1795693884.6862667,
+      "status": "ACTIVE"
     }
   },
   "schedule_config": {
@@ -34675,17 +34705,17 @@
     "current_interval_minutes": 5,
     "is_paused": false,
     "night_mode_enabled": true,
-    "last_deal_post_time": 1795690587.466337,
+    "last_deal_post_time": 1795693887.7793784,
     "night_start_hour_dz": 0,
     "night_end_hour_dz": 8,
     "night_pause_enabled": true,
-    "last_sweep_time": 1795692185.2258422,
+    "last_sweep_time": 1795693890.8332283,
     "last_sweep_times": {
-      "algeria": 1795692181.7382038,
-      "france": 1795692185.2258422
+      "algeria": 1795693887.7414408,
+      "france": 1795693890.8332283
     },
     "last_deal_post_times": {
-      "algeria": 1795690587.466337
+      "algeria": 1795693887.7793784
     }
   },
   "last_coin_reminder_time": 1795648937.9274871,
@@ -39315,11 +39345,6 @@
     ],
     "1005013482874428": [
       {
-        "channel": "zedstoreonline",
-        "ts": 1795649591.191583,
-        "price": 79.6
-      },
-      {
         "channel": "aniscoupons",
         "ts": 1795688050.390618,
         "price": 79.6
@@ -39335,20 +39360,6 @@
         "channel": "aniscoupons",
         "ts": 1795687672.8123364,
         "price": 10.5
-      }
-    ],
-    "1005011779814585": [
-      {
-        "channel": "zedstoreonline",
-        "ts": 1795650485.5824804,
-        "price": 191.0
-      }
-    ],
-    "1005008684239370": [
-      {
-        "channel": "zedstoreonline",
-        "ts": 1795650500.9118867,
-        "price": 10.2
       }
     ],
     "1005013583987856": [
@@ -39541,6 +39552,27 @@
         "channel": "bnddeals",
         "ts": 1795690582.1673293,
         "price": 3.0
+      }
+    ],
+    "1005012383444183": [
+      {
+        "channel": "zedstoreonline",
+        "ts": 1795693869.7474043,
+        "price": 22.3
+      }
+    ],
+    "1005010369693975": [
+      {
+        "channel": "aniscoupons",
+        "ts": 1795693876.630763,
+        "price": 10.6
+      }
+    ],
+    "1005012524603100": [
+      {
+        "channel": "aniscoupons",
+        "ts": 1795693881.8317354,
+        "price": 271.5
       }
     ]
   },
