@@ -955,7 +955,8 @@
     "1005004504846008",
     "1005006150092990",
     "1005005099575844",
-    "1005010099024201"
+    "1005010099024201",
+    "1005009566266039"
   ],
   "published_product_timestamps": {
     "1005012973772517": 1794500732.7845657,
@@ -1929,7 +1930,8 @@
     "1005004504846008": 1795690569.2720664,
     "1005006150092990": 1795690577.381119,
     "1005005099575844": 1795695716.5576735,
-    "1005010099024201": 1795703510.182712
+    "1005010099024201": 1795703510.182712,
+    "1005009566266039": 1795714790.201703
   },
   "published_titles": [
     "Wireless WiFi Repeater 300Mbps WiFi Extender Amplifier Booster Router",
@@ -3900,7 +3902,7 @@
     "realme 14 Pro 5G 12/512": 1793613385.3577175,
     "GIGABYTE B650M GAMING WIFi": 1793613389.897003,
     "vivo X300 Pro 12/256": 1793613403.4444478,
-    "Blackview WAVE 10  4/128": 1793613424.8373997,
+    "Blackview WAVE 10  4/128": 1795714790.201703,
     "HONOR 600 8/256": 1793613430.959157,
     "realme Pad 3 5G 8/256": 1793613460.6520321,
     "Xiaomi Redmi 17 Smartphone 128G 256G ROM 120Hz 6.9\" Display 50MP 45W Turbo": 1793613465.8475375,
@@ -4485,7 +4487,6 @@
     "NETUM L5 / NT-L8": 1795695716.5576735
   },
   "published_post_keys": [
-    "aniscoupons:34867",
     "aniscoupons:34868",
     "aniscoupons:34871",
     "aniscoupons:34872",
@@ -5484,11 +5485,12 @@
     "aniscoupons:35699",
     "ecksdeal:6141",
     "zedstoreonline:40740",
-    "aniscoupons:35700"
+    "aniscoupons:35700",
+    "zedstoreonline:40741"
   ],
   "last_disclaimer_time": 1794524540.9476151,
   "last_calendar_time": 1795177633.1203737,
-  "last_run_time": 1795714416.3904457,
+  "last_run_time": 1795714790.201703,
   "monitored_channels": {
     "ecksdeal": {
       "last_message_id": 6141,
@@ -5515,8 +5517,8 @@
       "last_check_time": 1793599663.3444748
     },
     "zedstoreonline": {
-      "last_message_id": 40740,
-      "last_check_time": 1795714412.176162
+      "last_message_id": 40741,
+      "last_check_time": 1795714792.330664
     },
     "aniscoupons": {
       "last_message_id": 35700,
@@ -6362,7 +6364,8 @@
     "1005004504846008": 49.0,
     "1005006150092990": 11.55,
     "1005005099575844": 5.0,
-    "1005010099024201": 256.8
+    "1005010099024201": 256.8,
+    "1005009566266039": 115.6
   },
   "channel_published_deals": {
     "aniscoupons:32590": {
@@ -34907,6 +34910,16 @@
       "price": 9.7,
       "timestamp": 1795714416.3904457,
       "status": "ACTIVE"
+    },
+    "zedstoreonline:40741": {
+      "channel_msg_id": 3805,
+      "product_id": "1005009566266039",
+      "title": "Blackview WAVE 10  4/128",
+      "channel": "zedstoreonline",
+      "source_msg_id": 40741,
+      "price": 115.6,
+      "timestamp": 1795714790.201703,
+      "status": "ACTIVE"
     }
   },
   "schedule_config": {
@@ -34915,17 +34928,17 @@
     "current_interval_minutes": 5,
     "is_paused": false,
     "night_mode_enabled": true,
-    "last_deal_post_time": 1795714419.4716215,
+    "last_deal_post_time": 1795714794.38334,
     "night_start_hour_dz": 0,
     "night_end_hour_dz": 8,
     "night_pause_enabled": true,
-    "last_sweep_time": 1795714425.5582078,
+    "last_sweep_time": 1795714798.6037264,
     "last_sweep_times": {
-      "algeria": 1795714419.4377494,
-      "france": 1795714425.5582078
+      "algeria": 1795714794.3337474,
+      "france": 1795714798.6037264
     },
     "last_deal_post_times": {
-      "algeria": 1795714419.4716215
+      "algeria": 1795714794.38334
     }
   },
   "last_coin_reminder_time": 1795648937.9274871,
@@ -35894,7 +35907,8 @@
     "1005004504846008": "zedstoreonline",
     "1005006150092990": "aniscoupons",
     "1005005099575844": "zedstoreonline",
-    "1005010099024201": "zedstoreonline"
+    "1005010099024201": "zedstoreonline",
+    "1005009566266039": "zedstoreonline"
   },
   "published_title_channels": {
     "Test Wrench Set": "test_channel",
@@ -37967,8 +37981,8 @@
     "END_ALERT_11.11_202611",
     "LAUNCH_ALERT_black_friday_and_cyber_monday_202611"
   ],
-  "last_card_affiliate_time_dz": 1795628204.5835056,
-  "card_affiliate_variant_idx_dz": 0,
+  "last_card_affiliate_time_dz": 1795714781.3402867,
+  "card_affiliate_variant_idx_dz": 1,
   "last_tajmi3at_published_time": 1793910650.2404215,
   "published_deals_history": {},
   "settings": {},
