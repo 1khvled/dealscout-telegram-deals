@@ -272,6 +272,83 @@ class MediaRenderer:
             channel_handle = "@francedealsdz" if is_french else "@DzAliexpress0"
         elif is_french and channel_handle == "@DzAliexpress0":
             channel_handle = "@francedealsdz"
+        if len(coupon_list) == 1:
+            try:
+                c0 = coupon_list[0]
+                tier_raw = str(c0.get("tier", "")).strip()
+                code_raw = str(c0.get("code", "")).strip().upper()
+
+                if "/" in tier_raw:
+                    parts = tier_raw.replace("$", "").replace("€", "").split("/")
+                    amt = parts[0].strip()
+                    min_sp = parts[1].strip()
+                    headline = f"{amt}€ off" if is_french else f"US ${amt} off"
+                    sub_line = f"dès {min_sp}€ d'achat (Articles sélectionnés)" if is_french else f"orders US ${min_sp}+ (Select items only)"
+                else:
+                    amt = tier_raw.replace("$", "").replace("€", "").strip()
+                    if amt:
+                        headline = f"{amt}€ off" if is_french else f"US ${amt} off"
+                    else:
+                        headline = "Code Promo" if is_french else "Promo Coupon"
+                    sub_line = "Articles sélectionnés · Quantité limitée" if is_french else "Select items · Limited quantity"
+
+                cw, ch = 1080, 560
+                scard = Image.new("RGB", (cw, ch), (255, 255, 255))
+                sdraw = ImageDraw.Draw(scard)
+
+                # Soft AliExpress blush-pink coupon ticket container
+                sdraw.rounded_rectangle(
+                    (36, 36, cw - 36, ch - 86),
+                    radius=28,
+                    fill=(255, 241, 242),
+                    outline=(254, 205, 211),
+                    width=2,
+                )
+                # Perforated divider line inside ticket
+                sdraw.line([(48, ch - 196), (cw - 48, ch - 196)], fill=(254, 205, 211), width=2)
+
+                f_hero = _get_system_font(["arialbd.ttf", "segoeuib.ttf", "DejaVuSans-Bold.ttf"], 72)
+                f_sub = _get_system_font(["arial.ttf", "segoeui.ttf", "DejaVuSans.ttf"], 28)
+                f_label = _get_system_font(["arialbd.ttf", "segoeuib.ttf", "DejaVuSans-Bold.ttf"], 28)
+                f_btn = _get_system_font(["arialbd.ttf", "segoeuib.ttf", "DejaVuSans-Bold.ttf"], 30)
+                f_code = _get_system_font(["consolab.ttf", "arialbd.ttf", "DejaVuSansMono-Bold.ttf"], 38)
+                f_foot = _get_system_font(["arialbd.ttf", "segoeuib.ttf", "DejaVuSans-Bold.ttf"], 22)
+
+                # Left: discount headline + condition
+                sdraw.text((88, 130), headline, fill=(225, 29, 72), font=f_hero, anchor="lm")
+                sdraw.text((90, 210), sub_line, fill=(190, 18, 60), font=f_sub, anchor="lm")
+
+                # Right: "Shop more" pill + code box
+                btn_box = (cw - 330, 82, cw - 80, 152)
+                sdraw.rounded_rectangle(btn_box, radius=35, fill=(225, 29, 72))
+                sdraw.text(((btn_box[0] + btn_box[2]) // 2, (btn_box[1] + btn_box[3]) // 2),
+                           "Profiter" if is_french else "Shop more", fill=(255, 255, 255), font=f_btn, anchor="mm")
+
+                code_box = (cw - 330, 174, cw - 80, 248)
+                sdraw.rounded_rectangle(code_box, radius=14, fill=(255, 255, 255), outline=(254, 205, 211), width=2)
+                sdraw.text(((code_box[0] + code_box[2]) // 2, (code_box[1] + code_box[3]) // 2),
+                           code_raw, fill=(15, 23, 42), font=f_code, anchor="mm")
+
+                # Bottom ticket strip
+                sdraw.text((88, ch - 140),
+                           "Codes promo AliExpress" if is_french else "AliExpress coupon codes",
+                           fill=(225, 29, 72), font=f_label, anchor="lm")
+                sdraw.text((cw - 84, ch - 140),
+                           "Active now · Limited stock",
+                           fill=(100, 116, 139), font=f_sub, anchor="rm")
+
+                # Brand footer
+                sdraw.text((cw // 2, ch - 42),
+                           f"{channel_handle}   •   @Alilo07BOT   •   dealscoutgreen.vercel.app",
+                           fill=(71, 85, 105), font=f_foot, anchor="mm")
+
+                h_sig = hashlib.sha256(f"{tier_raw}:{code_raw}:{is_french}".encode()).hexdigest()[:8]
+                out_file = self.output_dir / f"coupon_single_{h_sig}_{'fr' if is_french else 'dz'}.png"
+                scard.save(out_file, "PNG")
+                return out_file
+            except Exception as se:
+                logger.warning(f"Single-coupon card render failed, falling back to full card: {se}")
+
         # 1. Check for 5-coupon poster template (custom high-res neon Choice Day / Brand Day template)
         template_5_path = Path(settings.BASE_DIR) / "storage" / "assets" / "coupon_5_template.png"
         if not template_5_path.exists():
