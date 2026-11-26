@@ -957,7 +957,8 @@
     "1005005099575844",
     "1005010099024201",
     "1005009566266039",
-    "TAJMI3AT_lodydeals_46917"
+    "TAJMI3AT_lodydeals_46917",
+    "1005013097951450"
   ],
   "published_product_timestamps": {
     "1005012973772517": 1794500732.7845657,
@@ -1475,7 +1476,7 @@
     "1005012790288780": 1793656271.0286891,
     "1005012345939726": 1793656202.4239671,
     "1005010722422210": 1794997865.6657422,
-    "1005012582348584": 1795640189.56983,
+    "1005012582348584": 1795716846.7283542,
     "1005012529582418": 1795352881.214854,
     "1005008605565544": 1793543812.9442995,
     "1005009508910625": 1793543817.982839,
@@ -1880,7 +1881,7 @@
     "1005010680777854": 1795376024.6586418,
     "1005007893508418": 1795381174.309368,
     "1005004433755802": 1795382836.9089916,
-    "1005013572353302": 1795637251.147661,
+    "1005013572353302": 1795716841.451203,
     "1005012172081619": 1795601168.6454124,
     "1005007869625249": 1795712765.4516559,
     "1005013572273568": 1795633212.2650673,
@@ -1933,7 +1934,8 @@
     "1005005099575844": 1795695716.5576735,
     "1005010099024201": 1795703510.182712,
     "1005009566266039": 1795714790.201703,
-    "TAJMI3AT_lodydeals_46917": 1795714990.9149463
+    "TAJMI3AT_lodydeals_46917": 1795714990.9149463,
+    "1005013097951450": 1795716834.125829
   },
   "published_titles": [
     "Wireless WiFi Repeater 300Mbps WiFi Extender Amplifier Booster Router",
@@ -3208,7 +3210,8 @@
     "لووووووووووووز HTC",
     "Ulanzi MA35 MagSafe Smartphone Camera",
     "NETUM L5 / NT-L8",
-    "العرض الأكثر طلباً"
+    "العرض الأكثر طلباً",
+    "16.8V Cordless Drill Driver"
   ],
   "published_title_timestamps": {
     "Xiaomi Redmi Note 17 5G Global Version": 1790857823.0117362,
@@ -4154,7 +4157,7 @@
     "KOOTION SATA3 SSD 128GB": 1794585682.0605152,
     "Inphic YuanChuang Cyber Gaming Mouse": 1794320674.833981,
     "SIX PCIe 4.0 SSD (1TB) NVMe M2": 1794331533.1223195,
-    "Kootion SSD SATA": 1795640189.56983,
+    "Kootion SSD SATA": 1795716846.7283542,
     "KOOTION SATA SSD 128GB": 1795521223.426411,
     "Kingston DataTraveler 128GB": 1795249207.7202265,
     "CUSU CV3500  M.2 NVMe SSD (1tb)": 1795687700.6632907,
@@ -4422,7 +4425,7 @@
     "CMF Buds Neo Titanium": 1795437264.8543983,
     "WALRAM 2.5  sata 512GB": 1795467838.0597904,
     "Zeblaze Btalk 4 Pro": 1795446097.3435004,
-    "HONOR Earbuds X10 Play": 1795637251.147661,
+    "HONOR Earbuds X10 Play": 1795716841.451203,
     "OPPO Enco Buds3 Pro True Wireless Earbuds": 1795601168.6454124,
     "Zeblaze Btalk 4 Pro Voice Calling Amoled": 1795463758.3094215,
     "CUSU RAM DDR4 3200MHz 16GB": 1795712765.4516559,
@@ -4488,12 +4491,10 @@
     "لووووووووووووز HTC": 1795690585.1949098,
     "Ulanzi MA35 MagSafe Smartphone Camera": 1795695709.9643443,
     "NETUM L5 / NT-L8": 1795695716.5576735,
-    "العرض الأكثر طلباً": 1795714990.9149463
+    "العرض الأكثر طلباً": 1795714990.9149463,
+    "16.8V Cordless Drill Driver": 1795716834.125829
   },
   "published_post_keys": [
-    "aniscoupons:34873",
-    "aniscoupons:34874",
-    "zedstoreonline:40142",
     "aniscoupons:34875",
     "zedstoreonline:40143",
     "aniscoupons:34877",
@@ -5490,19 +5491,22 @@
     "zedstoreonline:40741",
     "lodydeals:46917",
     "aniscoupons:35701",
-    "aniscoupons:35702"
+    "aniscoupons:35702",
+    "zedstoreonline:40744",
+    "aniscoupons:35704",
+    "aniscoupons:35705"
   ],
   "last_disclaimer_time": 1794524540.9476151,
   "last_calendar_time": 1795177633.1203737,
-  "last_run_time": 1795715784.7375562,
+  "last_run_time": 1795716846.7283542,
   "monitored_channels": {
     "ecksdeal": {
       "last_message_id": 6141,
       "last_check_time": 1795714406.2836664
     },
     "lodydeals": {
-      "last_message_id": 46917,
-      "last_check_time": 1795714991.1308103
+      "last_message_id": 46918,
+      "last_check_time": 1795716825.1222868
     },
     "test_channel": {
       "last_message_id": 1793967703,
@@ -5521,12 +5525,12 @@
       "last_check_time": 1793599663.3444748
     },
     "zedstoreonline": {
-      "last_message_id": 40742,
-      "last_check_time": 1795715193.0814064
+      "last_message_id": 40744,
+      "last_check_time": 1795716836.2076159
     },
     "aniscoupons": {
-      "last_message_id": 35702,
-      "last_check_time": 1795715786.8466089
+      "last_message_id": 35705,
+      "last_check_time": 1795716848.8094022
     },
     "bnddeals": {
       "last_message_id": 51415,
@@ -6369,7 +6373,8 @@
     "1005006150092990": 11.55,
     "1005005099575844": 5.0,
     "1005010099024201": 256.8,
-    "1005009566266039": 115.6
+    "1005009566266039": 115.6,
+    "1005013097951450": 17.5
   },
   "channel_published_deals": {
     "aniscoupons:32590": {
@@ -34954,6 +34959,36 @@
       "price": 41.8,
       "timestamp": 1795715784.7375562,
       "status": "ACTIVE"
+    },
+    "zedstoreonline:40744": {
+      "channel_msg_id": 3809,
+      "product_id": "1005013097951450",
+      "title": "16.8V Cordless Drill Driver",
+      "channel": "zedstoreonline",
+      "source_msg_id": 40744,
+      "price": 17.5,
+      "timestamp": 1795716834.125829,
+      "status": "ACTIVE"
+    },
+    "aniscoupons:35704": {
+      "channel_msg_id": 3810,
+      "product_id": "1005013572353302",
+      "title": "HONOR Earbuds X10 Play",
+      "channel": "aniscoupons",
+      "source_msg_id": 35704,
+      "price": 13.18,
+      "timestamp": 1795716841.451203,
+      "status": "ACTIVE"
+    },
+    "aniscoupons:35705": {
+      "channel_msg_id": 3811,
+      "product_id": "1005012582348584",
+      "title": "Kootion SSD SATA",
+      "channel": "aniscoupons",
+      "source_msg_id": 35705,
+      "price": 15.5,
+      "timestamp": 1795716846.7283542,
+      "status": "ACTIVE"
     }
   },
   "schedule_config": {
@@ -34962,17 +34997,17 @@
     "current_interval_minutes": 5,
     "is_paused": false,
     "night_mode_enabled": true,
-    "last_deal_post_time": 1795715788.0549064,
+    "last_deal_post_time": 1795716849.8423162,
     "night_start_hour_dz": 0,
     "night_end_hour_dz": 8,
     "night_pause_enabled": true,
-    "last_sweep_time": 1795715792.251238,
+    "last_sweep_time": 1795716854.6338964,
     "last_sweep_times": {
-      "algeria": 1795715788.007922,
-      "france": 1795715792.251238
+      "algeria": 1795716849.806132,
+      "france": 1795716854.6338964
     },
     "last_deal_post_times": {
-      "algeria": 1795715788.0549064
+      "algeria": 1795716849.8423162
     }
   },
   "last_coin_reminder_time": 1795648937.9274871,
@@ -35943,7 +35978,8 @@
     "1005005099575844": "zedstoreonline",
     "1005010099024201": "zedstoreonline",
     "1005009566266039": "zedstoreonline",
-    "TAJMI3AT_lodydeals_46917": "lodydeals"
+    "TAJMI3AT_lodydeals_46917": "lodydeals",
+    "1005013097951450": "zedstoreonline"
   },
   "published_title_channels": {
     "Test Wrench Set": "test_channel",
@@ -37225,7 +37261,8 @@
     "لووووووووووووز HTC": "bnddeals",
     "Ulanzi MA35 MagSafe Smartphone Camera": "zedstoreonline",
     "NETUM L5 / NT-L8": "zedstoreonline",
-    "العرض الأكثر طلباً": "lodydeals"
+    "العرض الأكثر طلباً": "lodydeals",
+    "16.8V Cordless Drill Driver": "zedstoreonline"
   },
   "religious_reminders_history": {
     "mock_rem": "2026-10-02",
@@ -38023,9 +38060,6 @@
   "published_deals_history": {},
   "settings": {},
   "handled_post_keys": [
-    "aniscoupons:34853",
-    "zedstoreonline:40133",
-    "zedstoreonline:40134",
     "aniscoupons:34857",
     "aniscoupons:34859",
     "aniscoupons:34861",
@@ -39022,7 +39056,10 @@
     "aniscoupons:35693",
     "zedstoreonline:40739",
     "lodydeals:46917",
-    "zedstoreonline:40742"
+    "zedstoreonline:40742",
+    "lodydeals:46918",
+    "zedstoreonline:40743",
+    "aniscoupons:35703"
   ],
   "last_france_cross_promo_time": 1795501542.8708572,
   "next_france_cross_promo_interval_seconds": 208574,
@@ -39634,6 +39671,11 @@
         "channel": "aniscoupons",
         "ts": 1795714414.2662125,
         "price": 9.7
+      },
+      {
+        "channel": "zedstoreonline",
+        "ts": 1795716830.747641,
+        "price": 9.7
       }
     ],
     "1005013583987856": [
@@ -39719,6 +39761,11 @@
       {
         "channel": "aniscoupons",
         "ts": 1795687689.9432788,
+        "price": 15.5
+      },
+      {
+        "channel": "aniscoupons",
+        "ts": 1795716844.2655137,
         "price": 15.5
       }
     ],
@@ -39981,6 +40028,20 @@
         "channel": "aniscoupons",
         "ts": 1795713796.035396,
         "price": 79.6
+      }
+    ],
+    "1005013097951450": [
+      {
+        "channel": "aniscoupons",
+        "ts": 1795716838.2429056,
+        "price": 17.5
+      }
+    ],
+    "1005013572353302": [
+      {
+        "channel": "aniscoupons",
+        "ts": 1795716839.303028,
+        "price": 13.18
       }
     ]
   },
