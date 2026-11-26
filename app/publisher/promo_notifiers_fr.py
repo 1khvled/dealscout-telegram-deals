@@ -257,7 +257,8 @@ async def send_france_promo_alert(
     # If no explicit image_path provided, resolve dynamically based on content
     if not card_path:
         if any(kw in text for kw in ["Fin des soldes", "Dernières 24 Heures", "Cesseront de fonctionner", "Fin de l'événement"]):
-            card_path = get_event_ended_image_path()
+            fr_end_poster = Path(settings.BASE_DIR) / "assets" / "france_event_ended.png"
+            card_path = str(fr_end_poster) if fr_end_poster.exists() else get_event_ended_image_path()
         elif coupon_list:
             card_path = media_renderer.render_coupon_bulletin_card(
                 coupon_list,
