@@ -1746,7 +1746,7 @@
     "1005013422894128": 1794487083.9711623,
     "1005010297094897": 1794657082.5305285,
     "1005009012821000": 1794502225.0175712,
-    "1005013485724377": 1795687694.0019987,
+    "1005013485724377": 1795722522.4327238,
     "1005012783197164": 1794606646.2896297,
     "1005012993724126": 1794515920.3397443,
     "1005012726037568": 1795714404.1422307,
@@ -3214,7 +3214,8 @@
     "NETUM L5 / NT-L8",
     "العرض الأكثر طلباً",
     "16.8V Cordless Drill Driver",
-    "يد تحكم   Flydigi Dune Wireless Hall Effect"
+    "يد تحكم   Flydigi Dune Wireless Hall Effect",
+    "Realme Adapter SUPERVOOC Charger"
   ],
   "published_title_timestamps": {
     "Xiaomi Redmi Note 17 5G Global Version": 1790857823.0117362,
@@ -4496,10 +4497,10 @@
     "NETUM L5 / NT-L8": 1795695716.5576735,
     "العرض الأكثر طلباً": 1795714990.9149463,
     "16.8V Cordless Drill Driver": 1795716834.125829,
-    "يد تحكم   Flydigi Dune Wireless Hall Effect": 1795717019.2725039
+    "يد تحكم   Flydigi Dune Wireless Hall Effect": 1795717019.2725039,
+    "Realme Adapter SUPERVOOC Charger": 1795722522.4327238
   },
   "published_post_keys": [
-    "zedstoreonline:40148",
     "aniscoupons:34881",
     "zedstoreonline:40149",
     "zedstoreonline:40151",
@@ -5498,19 +5499,20 @@
     "aniscoupons:35708",
     "zedstoreonline:40746",
     "aniscoupons:35710",
-    "zedstoreonline:40747"
+    "zedstoreonline:40747",
+    "lodydeals:46920"
   ],
   "last_disclaimer_time": 1794524540.9476151,
   "last_calendar_time": 1795177633.1203737,
-  "last_run_time": 1795720922.1005394,
+  "last_run_time": 1795722522.4327238,
   "monitored_channels": {
     "ecksdeal": {
       "last_message_id": 6142,
       "last_check_time": 1795717021.3502557
     },
     "lodydeals": {
-      "last_message_id": 46919,
-      "last_check_time": 1795721727.6355953
+      "last_message_id": 46920,
+      "last_check_time": 1795722524.508699
     },
     "test_channel": {
       "last_message_id": 1793967703,
@@ -6205,7 +6207,7 @@
     "1005013422894128": 499.5,
     "1005010297094897": 44.8,
     "1005009012821000": 87.8,
-    "1005013485724377": 11.5,
+    "1005013485724377": 11.38,
     "1005012783197164": 36.46,
     "1005012993724126": 15.6,
     "1005012726037568": 7.54,
@@ -35064,6 +35066,16 @@
       "price": 10.6,
       "timestamp": 1795720922.1005394,
       "status": "ACTIVE"
+    },
+    "lodydeals:46920": {
+      "channel_msg_id": 3819,
+      "product_id": "1005013485724377",
+      "title": "Realme Adapter SUPERVOOC Charger",
+      "channel": "lodydeals",
+      "source_msg_id": 46920,
+      "price": 11.38,
+      "timestamp": 1795722522.4327238,
+      "status": "ACTIVE"
     }
   },
   "schedule_config": {
@@ -35072,17 +35084,17 @@
     "current_interval_minutes": 5,
     "is_paused": false,
     "night_mode_enabled": true,
-    "last_deal_post_time": 1795720926.5133955,
+    "last_deal_post_time": 1795722527.3245876,
     "night_start_hour_dz": 0,
     "night_end_hour_dz": 8,
     "night_pause_enabled": true,
-    "last_sweep_time": 1795722138.451222,
+    "last_sweep_time": 1795722531.326898,
     "last_sweep_times": {
-      "algeria": 1795722132.9734967,
-      "france": 1795722138.451222
+      "algeria": 1795722527.2925434,
+      "france": 1795722531.326898
     },
     "last_deal_post_times": {
-      "algeria": 1795720926.5133955
+      "algeria": 1795722527.3245876
     }
   },
   "last_coin_reminder_time": 1795648937.9274871,
@@ -35867,7 +35879,7 @@
     "1005013422894128": "aniscoupons",
     "1005010297094897": "aniscoupons",
     "1005009012821000": "lodydeals",
-    "1005013485724377": "aniscoupons",
+    "1005013485724377": "lodydeals",
     "1005012783197164": "lodydeals",
     "1005012993724126": "aniscoupons",
     "1005012726037568": "ecksdeal",
@@ -37339,7 +37351,8 @@
     "NETUM L5 / NT-L8": "zedstoreonline",
     "العرض الأكثر طلباً": "lodydeals",
     "16.8V Cordless Drill Driver": "zedstoreonline",
-    "يد تحكم   Flydigi Dune Wireless Hall Effect": "ecksdeal"
+    "يد تحكم   Flydigi Dune Wireless Hall Effect": "ecksdeal",
+    "Realme Adapter SUPERVOOC Charger": "lodydeals"
   },
   "religious_reminders_history": {
     "mock_rem": "2026-10-02",
@@ -39861,6 +39874,11 @@
         "channel": "aniscoupons",
         "ts": 1795687691.1482973,
         "price": 11.5
+      },
+      {
+        "channel": "lodydeals",
+        "ts": 1795722520.2043023,
+        "price": 11.38
       }
     ],
     "1005012726037568": [
