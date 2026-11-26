@@ -953,7 +953,8 @@
     "1005011859459973",
     "TAJMI3AT_aniscoupons_35676",
     "1005004504846008",
-    "1005006150092990"
+    "1005006150092990",
+    "1005005099575844"
   ],
   "published_product_timestamps": {
     "1005012973772517": 1794500732.7845657,
@@ -1860,7 +1861,7 @@
     "COUPONS_Black Friday & Cyber Monday": 1795275291.651658,
     "1005013612885095": 1795282393.4390564,
     "1005009120961416": 1795687712.9032266,
-    "1005006460821282": 1795282419.1354063,
+    "1005006460821282": 1795695709.9643443,
     "1005007038424043": 1795283249.1787498,
     "1005010439285778": 1795290129.2736075,
     "1005010089091939": 1795290139.8130522,
@@ -1925,7 +1926,8 @@
     "1005011859459973": 1795688271.3921025,
     "TAJMI3AT_aniscoupons_35676": 1795689543.3716838,
     "1005004504846008": 1795690569.2720664,
-    "1005006150092990": 1795690577.381119
+    "1005006150092990": 1795690577.381119,
+    "1005005099575844": 1795695716.5576735
   },
   "published_titles": [
     "Wireless WiFi Repeater 300Mbps WiFi Extender Amplifier Booster Router",
@@ -3197,7 +3199,9 @@
     "سارع بحجزه من هنا",
     "WALRAM SSD M2 512GB",
     "SomnAmbulist HDD 2.5Inch Portable External Hard Drive 320Gb",
-    "لووووووووووووز HTC"
+    "لووووووووووووز HTC",
+    "Ulanzi MA35 MagSafe Smartphone Camera",
+    "NETUM L5 / NT-L8"
   ],
   "published_title_timestamps": {
     "Xiaomi Redmi Note 17 5G Global Version": 1790857823.0117362,
@@ -4474,11 +4478,11 @@
     "سارع بحجزه من هنا": 1795688271.3921025,
     "WALRAM SSD M2 512GB": 1795690569.2720664,
     "SomnAmbulist HDD 2.5Inch Portable External Hard Drive 320Gb": 1795690577.381119,
-    "لووووووووووووز HTC": 1795690585.1949098
+    "لووووووووووووز HTC": 1795690585.1949098,
+    "Ulanzi MA35 MagSafe Smartphone Camera": 1795695709.9643443,
+    "NETUM L5 / NT-L8": 1795695716.5576735
   },
   "published_post_keys": [
-    "aniscoupons:34849",
-    "aniscoupons:34850",
     "lodydeals:46485",
     "zedstoreonline:40128",
     "aniscoupons:34852",
@@ -5476,11 +5480,13 @@
     "zedstoreonline:40731",
     "aniscoupons:35682",
     "aniscoupons:35683",
-    "zedstoreonline:40732"
+    "zedstoreonline:40732",
+    "zedstoreonline:40735",
+    "zedstoreonline:40736"
   ],
   "last_disclaimer_time": 1794524540.9476151,
   "last_calendar_time": 1795177633.1203737,
-  "last_run_time": 1795695190.457308,
+  "last_run_time": 1795695716.5576735,
   "monitored_channels": {
     "ecksdeal": {
       "last_message_id": 6140,
@@ -5507,8 +5513,8 @@
       "last_check_time": 1793599663.3444748
     },
     "zedstoreonline": {
-      "last_message_id": 40734,
-      "last_check_time": 1795695194.0552025
+      "last_message_id": 40736,
+      "last_check_time": 1795695718.6584675
     },
     "aniscoupons": {
       "last_message_id": 35683,
@@ -6352,7 +6358,8 @@
     "1005006860970176": 18.7,
     "1005011859459973": 30.0,
     "1005004504846008": 49.0,
-    "1005006150092990": 11.55
+    "1005006150092990": 11.55,
+    "1005005099575844": 5.0
   },
   "channel_published_deals": {
     "aniscoupons:32590": {
@@ -34707,6 +34714,26 @@
       "price": 115.9,
       "timestamp": 1795695190.457308,
       "status": "ACTIVE"
+    },
+    "zedstoreonline:40735": {
+      "channel_msg_id": 3784,
+      "product_id": "1005006460821282",
+      "title": "Ulanzi MA35 MagSafe Smartphone Camera",
+      "channel": "zedstoreonline",
+      "source_msg_id": 40735,
+      "price": 9.7,
+      "timestamp": 1795695709.9643443,
+      "status": "ACTIVE"
+    },
+    "zedstoreonline:40736": {
+      "channel_msg_id": 3785,
+      "product_id": "1005005099575844",
+      "title": "NETUM L5 / NT-L8",
+      "channel": "zedstoreonline",
+      "source_msg_id": 40736,
+      "price": 5.0,
+      "timestamp": 1795695716.5576735,
+      "status": "ACTIVE"
     }
   },
   "schedule_config": {
@@ -34715,17 +34742,17 @@
     "current_interval_minutes": 5,
     "is_paused": false,
     "night_mode_enabled": true,
-    "last_deal_post_time": 1795695195.7678597,
+    "last_deal_post_time": 1795695720.8436058,
     "night_start_hour_dz": 0,
     "night_end_hour_dz": 8,
     "night_pause_enabled": true,
-    "last_sweep_time": 1795695292.4850163,
+    "last_sweep_time": 1795695724.2031536,
     "last_sweep_times": {
-      "algeria": 1795695289.9649613,
-      "france": 1795695292.4850163
+      "algeria": 1795695720.800188,
+      "france": 1795695724.2031536
     },
     "last_deal_post_times": {
-      "algeria": 1795695195.7678597
+      "algeria": 1795695720.8436058
     }
   },
   "last_coin_reminder_time": 1795648937.9274871,
@@ -35627,7 +35654,7 @@
     "COUPONS_67c5d85c35f4": "aniscoupons",
     "1005013612885095": "ecksdeal",
     "1005009120961416": "aniscoupons",
-    "1005006460821282": "bnddeals",
+    "1005006460821282": "zedstoreonline",
     "1005007038424043": "lodydeals",
     "1005010439285778": "lodydeals",
     "1005010089091939": "lodydeals",
@@ -35692,7 +35719,8 @@
     "1005011859459973": "aniscoupons",
     "TAJMI3AT_aniscoupons_35676": "aniscoupons",
     "1005004504846008": "zedstoreonline",
-    "1005006150092990": "aniscoupons"
+    "1005006150092990": "aniscoupons",
+    "1005005099575844": "zedstoreonline"
   },
   "published_title_channels": {
     "Test Wrench Set": "test_channel",
@@ -36971,7 +36999,9 @@
     "سارع بحجزه من هنا": "aniscoupons",
     "WALRAM SSD M2 512GB": "zedstoreonline",
     "SomnAmbulist HDD 2.5Inch Portable External Hard Drive 320Gb": "aniscoupons",
-    "لووووووووووووز HTC": "bnddeals"
+    "لووووووووووووز HTC": "bnddeals",
+    "Ulanzi MA35 MagSafe Smartphone Camera": "zedstoreonline",
+    "NETUM L5 / NT-L8": "zedstoreonline"
   },
   "religious_reminders_history": {
     "mock_rem": "2026-10-02",
@@ -39595,6 +39625,13 @@
         "channel": "zedstoreonline",
         "ts": 1795695187.9221125,
         "price": 115.9
+      }
+    ],
+    "1005006460821282": [
+      {
+        "channel": "zedstoreonline",
+        "ts": 1795695706.3634841,
+        "price": 9.7
       }
     ]
   },
