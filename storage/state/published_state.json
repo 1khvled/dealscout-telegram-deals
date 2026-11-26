@@ -1900,7 +1900,7 @@
     "1005006995294624": 1795527391.8790212,
     "1005012899783721": 1795701094.6472647,
     "1005013423776757": 1795603012.8186684,
-    "1005012383444183": 1795693872.7808363,
+    "1005012383444183": 1795710915.2604535,
     "1005013519635614": 1795546736.9831076,
     "33061115247": 1795547454.3449724,
     "1005012374298987": 1795608979.8632379,
@@ -4447,7 +4447,7 @@
     "طابعة XL-P801 الحرارية المتنقلة: طباعة A4 فورية، قابلة لإعادة": 1795535124.479775,
     "TCL Alcatel 1023": 1795701094.6472647,
     "ULTRALIGHT TRAVEL HAMMOCK": 1795540462.4924362,
-    "OPPO Enco Buds3 True Wireless Earbuds": 1795540647.657338,
+    "OPPO Enco Buds3 True Wireless Earbuds": 1795710915.2604535,
     "Digital weight scale": 1795546908.1570234,
     "Lefon F35 Wireless Mouse Vertical": 1795547454.3449724,
     "SoundPEATS Space Hybrid ANC": 1795547826.6655538,
@@ -4485,7 +4485,6 @@
     "NETUM L5 / NT-L8": 1795695716.5576735
   },
   "published_post_keys": [
-    "aniscoupons:34856",
     "aniscoupons:34858",
     "aniscoupons:34860",
     "aniscoupons:34862",
@@ -5484,11 +5483,12 @@
     "aniscoupons:35689",
     "zedstoreonline:40738",
     "aniscoupons:35690",
-    "aniscoupons:35691"
+    "aniscoupons:35691",
+    "aniscoupons:35694"
   ],
   "last_disclaimer_time": 1794524540.9476151,
   "last_calendar_time": 1795177633.1203737,
-  "last_run_time": 1795705775.3535938,
+  "last_run_time": 1795710915.2604535,
   "monitored_channels": {
     "ecksdeal": {
       "last_message_id": 6140,
@@ -5519,8 +5519,8 @@
       "last_check_time": 1795710259.0190666
     },
     "aniscoupons": {
-      "last_message_id": 35693,
-      "last_check_time": 1795709039.3672757
+      "last_message_id": 35694,
+      "last_check_time": 1795710917.3664873
     },
     "bnddeals": {
       "last_message_id": 51415,
@@ -6341,7 +6341,7 @@
     "1005006995294624": 12.87,
     "1005012899783721": 6.84,
     "1005013423776757": 3.52,
-    "1005012383444183": 22.3,
+    "1005012383444183": 22.35,
     "1005013519635614": 273.26,
     "33061115247": 10.09,
     "1005012374298987": 26.6,
@@ -34817,6 +34817,16 @@
       "price": 2.5,
       "timestamp": 1795705775.3535938,
       "status": "ACTIVE"
+    },
+    "aniscoupons:35694": {
+      "channel_msg_id": 3795,
+      "product_id": "1005012383444183",
+      "title": "OPPO Enco Buds3 True Wireless Earbuds",
+      "channel": "aniscoupons",
+      "source_msg_id": 35694,
+      "price": 22.35,
+      "timestamp": 1795710915.2604535,
+      "status": "ACTIVE"
     }
   },
   "schedule_config": {
@@ -34825,17 +34835,17 @@
     "current_interval_minutes": 5,
     "is_paused": false,
     "night_mode_enabled": true,
-    "last_deal_post_time": 1795705778.6195707,
+    "last_deal_post_time": 1795710918.55653,
     "night_start_hour_dz": 0,
     "night_end_hour_dz": 8,
     "night_pause_enabled": true,
-    "last_sweep_time": 1795710264.979314,
+    "last_sweep_time": 1795710924.1892133,
     "last_sweep_times": {
-      "algeria": 1795710260.3323505,
-      "france": 1795710264.979314
+      "algeria": 1795710918.5090315,
+      "france": 1795710924.1892133
     },
     "last_deal_post_times": {
-      "algeria": 1795705778.6195707
+      "algeria": 1795710918.55653
     }
   },
   "last_coin_reminder_time": 1795648937.9274871,
@@ -35775,7 +35785,7 @@
     "1005006995294624": "ecksdeal",
     "1005012899783721": "aniscoupons",
     "1005013423776757": "lodydeals",
-    "1005012383444183": "zedstoreonline",
+    "1005012383444183": "aniscoupons",
     "1005013519635614": "aniscoupons",
     "33061115247": "lodydeals",
     "1005012374298987": "zedstoreonline",
@@ -39698,6 +39708,11 @@
         "channel": "zedstoreonline",
         "ts": 1795693869.7474043,
         "price": 22.3
+      },
+      {
+        "channel": "aniscoupons",
+        "ts": 1795710912.9699466,
+        "price": 22.35
       }
     ],
     "1005010369693975": [
