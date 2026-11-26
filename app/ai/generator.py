@@ -790,16 +790,25 @@ def format_multi_deal_tajmi3at_1to1(raw_text: str, link_mapping: Dict[str, str])
     # 4. Fix BiDi inverted price parentheses: 'السعر : (36.97€) $41.56' -> 'السعر : 41.56$ \u200e(36.97€) 🔥'
     caption = re.sub(r'السعر[ \t]*:[^\n]+', lambda m: normalize_deal_price_line(m.group(0)), caption)
 
-    # 5. Fix coupon format and wrap in code tags
+    # 5. Fix coupon format and wrap in code tags (collapse tatweel in 'كوبون' only, keep 'لـ' intact)
+    caption = re.sub(r'كوب\u0640+ون', 'كوبون', caption)
     caption = re.sub(r'\$(\d+/\d+)', r'\1$', caption)
-    caption = re.sub(r'(?<!🎟️[ \t])كوبون[ \t]*(\d+/\d+\$?)[ \t]*:[ \t]*([A-Za-z0-9_-]+)', r'🎟️ كوبون \1 : <code>\2</code>', caption)
+    caption = re.sub(
+        r'(?:🎟️|🎫|📎)?[ \t]*كوبون[ \t]*(\d+/\d+\$?)[ \t]*:[ \t]*([A-Za-z0-9_-]+)[ \t]*(?:📎|🎟️|🎫)?',
+        r'🎟️ كوبون \1 : <code>\2</code>',
+        caption,
+    )
     code_matches = re.findall(r"\b([A-Z0-9]{4,12})\b", caption)
     for c in code_matches:
-        if any(c.startswith(prefix) for prefix in ["OTD", "AE", "AL", "DZ", "FR", "SUN", "ESD", "IFP", "BEST"]) and any(ch.isdigit() for ch in c):
+        if any(c.startswith(prefix) for prefix in ["OTD", "OTS", "AE", "AL", "DZ", "FR", "SUN", "ESD", "IFP", "BEST"]) and any(ch.isdigit() for ch in c):
             caption = re.sub(rf"(?<!<code>)\b{c}\b(?!</code>)", f"<code>{c}</code>", caption)
 
-    # 6. Fix store coupon format
+    # 6. Fix store coupon format & clean up stray '🔸 🔸 t.me/Alilo07BOT' / leading dots
     caption = re.sub(r'(?<!🎫[ \t])(?:احجز|اجمع|إحجز|حصّل|حصل)\s*(?:قسيمة\s*(?:البائع|المتجر))\s*:?\s*\$?\s*(\d+(?:\.\d+)?)\s*\$?', r'🎫 احجز قسيمة البائع: \1$', caption)
+    caption = re.sub(r'^(?:[🔸🔹•\.\-\s]*)(?:https?://)?t\.me/Alilo07BOT.*$', '🤖 بوت تخفيض النقاط: https://t.me/Alilo07BOT', caption, flags=re.MULTILINE | re.IGNORECASE)
+    caption = re.sub(r'^[\.\s]+(?=[\u0600-\u06FF])', '', caption, flags=re.MULTILINE)
+    # Tighten blank lines inside a single item block (between title and price)
+    caption = re.sub(r'\n{2,}(?=(?:السعر|قسيمة|🎫|🎟️|رابط))', '\n', caption)
 
     # 7. Modify generic roundup header slightly with engaging styling
     caption = re.sub(r'^(?:أفضل|افضل)\s+العروض\s+في\s+التخزين\s+SSD.*', r'🔥 أقوى عروض وحدات التخزين SSD 💥\n', caption, flags=re.MULTILINE)

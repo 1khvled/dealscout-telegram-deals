@@ -1583,21 +1583,25 @@ def is_multi_deal_compilation(text: str) -> bool:
         return True
 
     # 3. Multiple bullet points paired with multiple price declarations and multiple links
-    # NOTE: variation selectors (U+FE0F) must not count as bullets on their own, otherwise
-    # any emoji (❗️, 🏃‍♂️, ...) inflates the bullet count and a single product with
-    # per-variant prices gets misread as a roundup.
-    bullets = len(re.findall(r'[\u25c0\u25b6\u25aa\u25ab\U0001F539\U0001F538\U0001F534]\ufe0f?', text))
+    # Strip footer channel/bot lines (e.g. '🔸 قناتنا ... 🔸 البوت ...') so footer
+    # diamond emojis never inflate the bullet count on a 2-variant product deal.
+    body_lines = [
+        ln for ln in text.splitlines()
+        if not any(fk in ln.lower() for fk in ("قناتنا", "البوت", "t.me/"))
+    ]
+    body_text = "\n".join(body_lines)
+    bullets = len(re.findall(r'[\u25c0\u25b6\u25aa\u25ab\U0001F539\U0001F538\U0001F534]\ufe0f?', body_text))
     # Coupon tiers ("4/25$") are not product prices.
-    price_source = re.sub(r'\d+\s*/\s*\d+\s*\$', ' ', text)
+    price_source = re.sub(r'\d+\s*/\s*\d+\s*\$', ' ', body_text)
     prices = len(re.findall(r'\$\s*\d+(?:\.\d+)?|\d+(?:\.\d+)?\s*\$', price_source))
     from app.aliexpress.urls import extract_all_urls, is_aliexpress_url, is_potential_shortener
-    urls = extract_all_urls(text)
+    urls = extract_all_urls(body_text)
     ali_urls = [u for u in urls if is_aliexpress_url(u) or is_potential_shortener(u)]
 
-    if bullets >= 2 and prices >= 2 and len(ali_urls) >= 2:
+    if bullets >= 3 and prices >= 3 and len(ali_urls) >= 3:
         return True
 
-    if len(ali_urls) >= 3 and prices >= 2:
+    if len(ali_urls) >= 3 and prices >= 3:
         return True
 
     return False

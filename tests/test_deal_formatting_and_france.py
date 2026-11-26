@@ -971,3 +971,26 @@ def test_extract_telegram_html_preserves_tg_post_links_and_tatweel_tajmi3a():
     assert "https://t.me/aniscoupons/35611" in text
     assert "https://t.me/aniscoupons/35628" in text
     assert is_multi_deal_compilation(text) is True
+
+
+def test_two_variant_ssd_post_is_not_classified_as_tajmi3a():
+    """Regression (@DzAliexpress0/3775): a 2-capacity SSD deal (128GB + 256GB)
+    with footer '🔸' bullets must NOT be misclassified as a Tajmi3a roundup."""
+    from app.aliexpress.parser import is_multi_deal_compilation
+
+    two_ssds = """لي مشراش ليوم يبات يلوم SSD راه باطل 📢
+خلي البلـــد أستراليا 🇦🇺
+
+✅ KOOTION SATA SSD 128GB 💰
+السعر : 7.5$ 🔥
+كوبـــون 3/15$ : OTSBF03
+https://s.click.aliexpress.com/e/_c4qKKAyv
+
+✅ KOOTION SATA SSD 256GB 💰
+السعر : 16.7$ 🔥
+كوبـــون 4/24$ : OTSBF04
+https://s.click.aliexpress.com/e/_c45HeOwd
+🔸 قناتنا : https://t.me/aniscoupons
+🔸 البوت : https://t.me/CoinsDiscountBot"""
+
+    assert is_multi_deal_compilation(two_ssds) is False
