@@ -58,18 +58,17 @@ DZ_VARIANTS = [
         "id": "dz_bybit_card_free",
         "title": "Bybit Free Card (Algeria)",
         "image_path": None,
-        "caption": """<blockquote>💳 <b>بطاقة Bybit ماستركارد مجانية 100% للشراء من AliExpress 🇩🇿⚡</b></blockquote>
+        "cta_text": "💳 اطلب بطاقة Bybit المجانية",
+        "cta_url": BYBIT_URL,
+        "caption": """<blockquote>💳 <b>بطاقة Bybit ماستركارد — مجانية 100% للشراء من AliExpress 🇩🇿</b></blockquote>
 
-1️⃣ <b>مجانية تماماً :</b> 0 دج مصاريف فتح وبدون أي اشتراك شهري.
-2️⃣ <b>شحن فوري بـ BaridiMob :</b> اشحن رصيدك بالدينار عبر P2P في دقيقتين.
-3️⃣ <b>مقبولة عالمياً :</b> للشراء من AliExpress وربط PayPal بأفضل سعر صرف!
+بدون مصاريف فتح وبدون اشتراك شهري — تفتحها في دقائق وتشحنها بالدينار عبر BaridiMob.
 
-🎁 <b>كـود البونص الحصري :</b> <code>L9LLRP5</code>
-🔗 <b>اطلب بطاقتك المجانية ⤵️</b>
-{bybit_url}
+• <b>0 دج رسوم:</b> بطاقة افتراضية مجانية مقبولة في AliExpress وPayPal
+• <b>شحن فوري:</b> عبر BaridiMob أو CCP من قسم P2P بأفضل سعر صرف
+• <b>كود الدعوة:</b> <code>L9LLRP5</code>
 
-━━━━━━━━━━━━━━━━━
-📢 <b>قناة الصفقات للمزيد :</b> @DzAliexpress0""".format(bybit_url=BYBIT_URL)
+📢 @DzAliexpress0  ·  🤖 @Alilo07BOT""",
     },
 
     # Variant 1: RedotPay Card (Instant Virtual Visa + $5 Welcome Bonus)
@@ -77,17 +76,17 @@ DZ_VARIANTS = [
         "id": "dz_redotpay_visa",
         "title": "RedotPay Visa Card (Algeria)",
         "image_path": str(REDOTPAY_IMG) if REDOTPAY_IMG.exists() else None,
-        "caption": """<blockquote>💳 <b>بطاقة فيزا RedotPay الافتراضية مع بونص 5$ هدية! 🎁⚡</b></blockquote>
+        "cta_text": "🎁 سجّل واحصل على بونص 5$",
+        "cta_url": REDOTPAY_URL,
+        "caption": """<blockquote>💳 <b>بطاقة RedotPay Visa + بونص 5$ هدية ترحيبية 🎁</b></blockquote>
 
-1️⃣ <b>بونص 5$ مجاناً :</b> رصيد ترحيبي يوصلك فوراً بكود <code>djbt3</code>
-2️⃣ <b>جاهزة في ثوانٍ :</b> بطاقة فيزا افتراضية مقبولة للشراء من AliExpress فوراً.
-3️⃣ <b>شحن سهل :</b> تشحن بـ USDT وتدعم ربط وتفعيل PayPal بأمان.
+بطاقة فيزا افتراضية جاهزة في ثوانٍ للشراء المباشر من AliExpress وتفعيل PayPal بدون تعقيدات.
 
-🔗 <b>سجل وفعّل بطاقتك مع الـ 5$ ⤵️</b>
-{redotpay_url}
+• <b>بونص 5$ فوري:</b> عند التسجيل بكود <code>djbt3</code>
+• <b>قبول عالمي:</b> AliExpress، Amazon، PayPal، واشتراكات الإنترنت
+• <b>شحن مرن:</b> عبر USDT في أي وقت
 
-━━━━━━━━━━━━━━━━━
-📢 <b>قناة الصفقات للمزيد :</b> @DzAliexpress0""".format(redotpay_url=REDOTPAY_URL)
+📢 @DzAliexpress0  ·  🤖 @Alilo07BOT""",
     },
 
     # Variant 2: Complete Toolkit - Binance P2P BaridiMob + Cards
@@ -95,18 +94,18 @@ DZ_VARIANTS = [
         "id": "dz_binance_p2p_guide",
         "title": "Binance P2P BaridiMob Guide (Algeria)",
         "image_path": str(BINANCE_IMG) if BINANCE_IMG.exists() else None,
-        "caption": """<blockquote>🛒 <b>دليل الشراء من AliExpress بـ BaridiMob 🇩🇿⚡</b></blockquote>
+        "cta_text": "🔗 فتح حساب Binance",
+        "cta_url": BINANCE_URL,
+        "caption": """<blockquote>🛒 <b>كيفاش تشري من AliExpress بـ BaridiMob بأقل سعر؟ 🇩🇿</b></blockquote>
 
-1️⃣ <b>افتح حساب Binance :</b> وسجل بكود البونص <code>GRO_28502_3WGQR</code>
-2️⃣ <b>اشري دولار (USDT) بـ BaridiMob :</b> من قسم P2P في دقيقتين وبسعر رسمي مضمون 🛡️
-3️⃣ <b>اشحن بطاقتك (RedotPay / Bybit) :</b> واشري مباشرة من AliExpress بدون وسطاء وبأقل سعر صرف! 💳
+بدل ما تشري الرصيد غالي عند الوسطاء، تقدر تشحن بطاقتك وحدك في دقيقتين:
 
-🔗 <b>رابط التسجيل في Binance ⤵️</b>
-{binance_url}
+1. افتح حساب <b>Binance</b> وسجّل بكود <code>GRO_28502_3WGQR</code>
+2. اشري <b>USDT</b> مباشرة بـ <b>BaridiMob</b> من قسم P2P
+3. حوّل الرصيد لبطاقتك (<b>Bybit</b> أو <b>RedotPay</b>) واشري مباشرة من AliExpress
 
-━━━━━━━━━━━━━━━━━
-📢 <b>قناة الصفقات للمزيد :</b> @DzAliexpress0""".format(binance_url=BINANCE_URL)
-    }
+📢 @DzAliexpress0  ·  🤖 @Alilo07BOT""",
+    },
 ]
 
 
@@ -120,18 +119,18 @@ FR_VARIANTS = [
         "id": "fr_bybit_card_cashback",
         "title": "Carte Bybit Cashback & 0€ Frais (France)",
         "image_path": None,
-        "caption": """<blockquote>💳 <b>Carte Bybit 100% GRATUITE & Jusqu'à 10% de Cashback ! 🔥🇪🇺</b></blockquote>
+        "cta_text": "💳 Commander ma carte Bybit gratuite",
+        "cta_url": BYBIT_URL,
+        "caption": """<blockquote>💳 <b>Carte Bybit 100% Gratuite — 0€ de frais & jusqu'à 10% de Cashback 🇪🇺</b></blockquote>
 
-1️⃣ <b>0€ de Frais :</b> 100% Gratuite, 0€ d'abonnement et 0% de frais de change bancaires.
-2️⃣ <b>Jusqu'à 10% de Cashback :</b> Économisez sur tous vos achats AliExpress et tech.
-3️⃣ <b>Apple Pay & Google Pay :</b> Carte virtuelle instantanée utilisable immédiatement.
+Évitez les frais de change bancaires et récupérez du cashback sur vos commandes AliExpress et achats en ligne.
 
-🎁 <b>Code Parrainage Exclusif :</b> <code>L9LLRP5</code>
-🔗 <b>Commandez votre carte gratuite en 2 min ⤵️</b>
-{bybit_url}
+• <b>0€ de frais :</b> sans abonnement mensuel et sans frais de conversion
+• <b>Cashback :</b> jusqu'à 10% sur vos achats éligibles
+• <b>Apple Pay & Google Pay :</b> carte virtuelle utilisable immédiatement
+• <b>Code parrainage :</b> <code>L9LLRP5</code>
 
-━━━━━━━━━━━━━━━━━
-📢 <b>Bons Plans & Codes Promo France :</b> @francedealsdz""".format(bybit_url=BYBIT_URL)
+📢 @francedealsdz""",
     },
 
     # Variant 1: RedotPay Crypto Visa Card (5$ Welcome Gift)
@@ -139,17 +138,17 @@ FR_VARIANTS = [
         "id": "fr_redotpay_visa",
         "title": "Carte Visa RedotPay 5$ Offerts (France)",
         "image_path": str(REDOTPAY_IMG) if REDOTPAY_IMG.exists() else None,
-        "caption": """<blockquote>💳 <b>Carte Visa RedotPay | 5$ Offerts pour vos Achats en Ligne ! 🎁⚡</b></blockquote>
+        "cta_text": "🎁 Activer ma carte (+5$ offerts)",
+        "cta_url": REDOTPAY_URL,
+        "caption": """<blockquote>💳 <b>Carte Visa RedotPay — 5$ offerts à l'ouverture 🎁</b></blockquote>
 
-1️⃣ <b>5$ de Bienvenue :</b> Crédit offert immédiatement avec le code <code>djbt3</code>
-2️⃣ <b>Instantanée & Sans Paperasse :</b> Carte Visa virtuelle prête en quelques secondes.
-3️⃣ <b>Paiement Universel :</b> Fonctionne à 100% sur AliExpress, Amazon et PayPal.
+Une carte Visa virtuelle prête en quelques secondes pour payer sans friction sur AliExpress, Amazon et PayPal.
 
-🔗 <b>Activez votre carte et recevez vos 5$ ⤵️</b>
-{redotpay_url}
+• <b>5$ de bienvenue :</b> crédités avec le code <code>djbt3</code>
+• <b>Instantanée :</b> activation rapide sans paperasse
+• <b>Compatibilité :</b> AliExpress, Amazon, PayPal et paiements internationaux
 
-━━━━━━━━━━━━━━━━━
-📢 <b>Bons Plans France :</b> @francedealsdz""".format(redotpay_url=REDOTPAY_URL)
+📢 @francedealsdz""",
     },
 
     # Variant 2: Binance Europe (Invest in Crypto + Stocks, P2P, Secured, 0€ SEPA)
@@ -157,19 +156,18 @@ FR_VARIANTS = [
         "id": "fr_binance_invest_crypto_stocks",
         "title": "Binance Invest Crypto, Stocks & P2P (France)",
         "image_path": str(BINANCE_IMG) if BINANCE_IMG.exists() else None,
-        "caption": """<blockquote>🚀 <b>Binance | N°1 Mondial Crypto, Actions & P2P Sécurisé ! 🇪🇺⚡</b></blockquote>
+        "cta_text": "🔗 Créer un compte Binance",
+        "cta_url": BINANCE_URL,
+        "caption": """<blockquote>🚀 <b>Binance Europe — Dépôts SEPA 0€ & P2P sécurisé 🇪🇺</b></blockquote>
 
-1️⃣ <b>Crypto & Actions :</b> Investissez et gérez vos actifs facilement au meilleur taux.
-2️⃣ <b>0€ Frais SEPA & P2P :</b> Dépôts gratuits en Euros et achats P2P directs entre particuliers.
-3️⃣ <b>Sécurité Maximale :</b> Fonds protégés (garantie SAFU) et plateforme régulée PSAN.
+La plateforme de référence pour gérer vos actifs, recharger vos cartes et profiter de dépôts en euros sans frais.
 
-🎁 <b>Code Référent Exclusif :</b> <code>GRO_28502_3WGQR</code>
-🔗 <b>Inscrivez-vous sur Binance et débloquez votre bonus ⤵️</b>
-{binance_url}
+• <b>0€ frais SEPA :</b> virements en euros rapides et P2P direct
+• <b>Sécurité :</b> fonds protégés (fonds SAFU) et plateforme régulée
+• <b>Code référent :</b> <code>GRO_28502_3WGQR</code>
 
-━━━━━━━━━━━━━━━━━
-📢 <b>Bons Plans & Tech France :</b> @francedealsdz""".format(binance_url=BINANCE_URL)
-    }
+📢 @francedealsdz""",
+    },
 ]
 
 
@@ -286,9 +284,11 @@ def record_card_affiliate_published_fr(variant_idx: int):
 async def publish_card_affiliate_post(
     chat_id: str,
     caption: str,
-    image_path: Optional[str] = None
+    image_path: Optional[str] = None,
+    cta_text: Optional[str] = None,
+    cta_url: Optional[str] = None,
 ) -> Tuple[bool, Optional[str], Optional[int]]:
-    """Publishes a photo or text post with HTML caption to Telegram."""
+    """Publishes a photo or text post with HTML caption and inline CTA button to Telegram."""
     enforce_ipv4()
     bot_token = (
         getattr(settings, "TELEGRAM_BOT_TOKEN", None)
@@ -299,6 +299,11 @@ async def publish_card_affiliate_post(
         return False, "Missing TELEGRAM_BOT_TOKEN", None
 
     api_url = f"https://api.telegram.org/bot{bot_token}"
+    reply_markup = (
+        json.dumps({"inline_keyboard": [[{"text": cta_text, "url": cta_url}]]})
+        if cta_text and cta_url
+        else None
+    )
 
     async with httpx.AsyncClient(timeout=25.0) as client:
         # If an image exists, publish via sendPhoto
@@ -311,6 +316,8 @@ async def publish_card_affiliate_post(
                         "caption": caption,
                         "parse_mode": "HTML"
                     }
+                    if reply_markup:
+                        data["reply_markup"] = reply_markup
                     resp = await client.post(f"{api_url}/sendPhoto", data=data, files=files)
                 if resp.status_code == 200 and resp.json().get("ok"):
                     msg_id = resp.json().get("result", {}).get("message_id")
@@ -320,14 +327,16 @@ async def publish_card_affiliate_post(
             except Exception as e:
                 logger.warning(f"sendPhoto error: {e}. Falling back to sendMessage.")
 
-        # Fallback to sendMessage
+        # Fallback to sendMessage (disable raw URL web preview for a clean card look)
         try:
             data = {
                 "chat_id": chat_id,
                 "text": caption,
                 "parse_mode": "HTML",
-                "disable_web_page_preview": False
+                "disable_web_page_preview": True,
             }
+            if reply_markup:
+                data["reply_markup"] = reply_markup
             resp = await client.post(f"{api_url}/sendMessage", data=data)
             if resp.status_code == 200 and resp.json().get("ok"):
                 msg_id = resp.json().get("result", {}).get("message_id")
@@ -362,7 +371,9 @@ async def post_card_affiliate_algeria(force: bool = False, variant_idx: Optional
     success, err, msg_id = await publish_card_affiliate_post(
         chat_id=chat_id,
         caption=variant["caption"],
-        image_path=variant.get("image_path")
+        image_path=variant.get("image_path"),
+        cta_text=variant.get("cta_text"),
+        cta_url=variant.get("cta_url"),
     )
 
     if success:
@@ -404,7 +415,9 @@ async def post_card_affiliate_france(force: bool = False, variant_idx: Optional[
     success, err, msg_id = await publish_card_affiliate_post(
         chat_id=chat_id,
         caption=variant["caption"],
-        image_path=variant.get("image_path")
+        image_path=variant.get("image_path"),
+        cta_text=variant.get("cta_text"),
+        cta_url=variant.get("cta_url"),
     )
 
     if success:
