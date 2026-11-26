@@ -934,6 +934,63 @@ async def collect_and_post_last_10_deals(force: bool = False, force_tajmi3at: bo
                                                 print(f"  [ANNOUNCEMENT PUBLISHED] Auto-posted '{ann_tag}' announcement to {settings.TARGET_CHANNEL_ID}")
                                     except Exception as e:
                                         print(f"  [!] Failed to publish announcement: {e}")
+
+                        # General Ad-Hoc / Surprise AliExpress news, coins tips, or shipping notices
+                        if not (is_ann and ann_tag):
+                            try:
+                                from app.ai.adhoc_posts import classify_adhoc_post, format_adhoc_post
+                                from app.publisher.state_tracker import is_recent_adhoc_duplicate, record_adhoc_published, record_post_published
+                                from app.aliexpress.urls import extract_all_urls, is_aliexpress_url, is_potential_shortener
+                                from app.aliexpress.affiliate import affiliate_service
+                                from api.coin_bot import ensure_affiliate
+
+                                adhoc_kind = classify_adhoc_post(raw_text)
+                                if adhoc_kind:
+                                    first_line = next((l.strip() for l in raw_text.splitlines() if l.strip()), "")
+                                    is_adhoc_dup, adhoc_dup_reason = is_recent_adhoc_duplicate(first_line, cooldown_hours=24.0)
+                                    if is_adhoc_dup:
+                                        print(f"  [ADHOC DUPLICATE BLOCKED] {ch} #{msg_id}: {adhoc_dup_reason}")
+                                        max_processed_id = max(max_processed_id, msg_id)
+                                        record_monitored_channel_last_id(ch, msg_id)
+                                        record_post_handled(ch, msg_id)
+                                        continue
+                                    adhoc_map = {}
+                                    for u in extract_all_urls(raw_text):
+                                        if is_aliexpress_url(u) or is_potential_shortener(u):
+                                            cu = u.rstrip('.,;)"\'')
+                                            if cu not in adhoc_map:
+                                                try:
+                                                    adhoc_map[cu] = ensure_affiliate(await affiliate_service.create_affiliate_link(cu))
+                                                except Exception:
+                                                    adhoc_map[cu] = cu
+                                    adhoc_text = format_adhoc_post(
+                                        raw_text,
+                                        adhoc_kind,
+                                        link_mapping=adhoc_map,
+                                        fallback_url="https://s.click.aliexpress.com/e/_c3OOlDBD",
+                                    )
+                                    token_ah = get_bot_token()
+                                    if token_ah:
+                                        target_chat_ah = getattr(settings, "TARGET_CHANNEL_ID", None) or os.getenv("TARGET_CHANNEL_ID", "@DzAliexpress0")
+                                        async with httpx.AsyncClient(timeout=15.0) as ah_client:
+                                            r_ah = await ah_client.post(
+                                                f"https://api.telegram.org/bot{token_ah}/sendMessage",
+                                                json={"chat_id": target_chat_ah, "text": adhoc_text, "parse_mode": "HTML", "disable_web_page_preview": True},
+                                            )
+                                        if r_ah.status_code == 200 and r_ah.json().get("ok"):
+                                            ah_mid = r_ah.json().get("result", {}).get("message_id")
+                                            record_adhoc_published(first_line)
+                                            record_post_published(ch, msg_id, f"ADHOC_{ch}_{msg_id}", first_line[:60], channel_msg_id=ah_mid)
+                                            deals_published_this_run += 1
+                                            published_deals.append(f"ADHOC_{ch}_{msg_id}")
+                                            print(f"  [ADHOC {adhoc_kind.upper()} PUBLISHED] {ch} #{msg_id} -> DzAliexpress0 #{ah_mid}!")
+                                            max_processed_id = max(max_processed_id, msg_id)
+                                            record_monitored_channel_last_id(ch, msg_id)
+                                            record_post_handled(ch, msg_id)
+                                            continue
+                            except Exception as ah_err:
+                                logger.warning(f"Adhoc post check failed for {ch} #{msg_id}: {ah_err}")
+
                         has_ali_link = bool(re.search(r'(?:aliexpress\.(?:com|ru)|s\.click\.aliexpress\.com)', raw_text, re.IGNORECASE))
                         if has_ali_link and not (is_ann and ann_tag):
                             print(f"  [TRANSIENT EXTRACTION FAILURE] Post #{msg_id} has AliExpress link but extraction was incomplete. Leaving for retry.")

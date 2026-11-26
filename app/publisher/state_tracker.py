@@ -1577,5 +1577,29 @@ def record_tajmi3at_published(title: str, link_targets: List[str]) -> None:
     save_persistent_state(state)
 
 
+def is_recent_adhoc_duplicate(title: str, cooldown_hours: float = 24.0) -> Tuple[bool, str]:
+    """Block duplicate ad-hoc news/tips posts across monitored channels within 24h."""
+    if not title:
+        return False, ""
+    state = load_persistent_state()
+    cutoff = time.time() - cooldown_hours * 3600
+    for prev in state.get("published_adhoc_posts", []):
+        if not isinstance(prev, dict) or prev.get("timestamp", 0.0) < cutoff:
+            continue
+        prev_title = prev.get("title", "")
+        if prev_title and is_same_deal_title(title, prev_title):
+            return True, f"Duplicate adhoc post '{prev_title}'"
+    return False, ""
+
+
+def record_adhoc_published(title: str) -> None:
+    """Record a published ad-hoc news/tip post for 24h cross-channel dedup."""
+    state = load_persistent_state()
+    entries = state.setdefault("published_adhoc_posts", [])
+    entries.append({"title": (title or "")[:120], "timestamp": time.time()})
+    state["published_adhoc_posts"] = entries[-100:]
+    save_persistent_state(state)
+
+
 
 
