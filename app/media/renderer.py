@@ -434,35 +434,26 @@ class MediaRenderer:
             except Exception as te:
                 logger.warning(f"7-coupon template rendering failed: {te}")
 
+        # Clean white + AliExpress blush-pink multi-coupon ticket card (2..7 coupons)
         w, h = 1080, 1080
-        card = Image.new("RGB", (w, h), (15, 23, 42))  # Deep luxury slate/obsidian
+        card = Image.new("RGB", (w, h), (255, 255, 255))
         draw = ImageDraw.Draw(card)
 
-        # 1. Header Gradient: Rich AliExpress Crimson to Burgundy (#DC2626 to #881337) fading into body
-        header_h = 240
-        for y in range(header_h):
-            prog = y / float(header_h)
-            r = int(220 * (1 - prog) + 15 * prog)
-            g = int(38 * (1 - prog) + 23 * prog)
-            b = int(38 * (1 - prog) + 42 * prog)
-            draw.line([(0, y), (w, y)], fill=(r, g, b))
-
-        # Thin elegant accent line under header
-        draw.line([(40, header_h), (w - 40, header_h)], fill=(245, 158, 11), width=2)
+        # Top header band (soft blush with crimson accent)
+        header_h = 200
+        draw.rectangle((0, 0, w, header_h), fill=(255, 241, 242))
+        draw.line([(0, header_h), (w, header_h)], fill=(254, 205, 211), width=2)
 
         font_title = _get_system_font(["arialbd.ttf", "segoeuib.ttf", "DejaVuSans-Bold.ttf"], 44)
-        font_sub = _get_system_font(["arialbd.ttf", "segoeuib.ttf", "DejaVuSans-Bold.ttf"], 23)
-        font_badge = _get_system_font(["arialbd.ttf", "segoeuib.ttf", "DejaVuSans-Bold.ttf"], 18)
-        font_amount = _get_system_font(["arialbd.ttf", "segoeuib.ttf", "DejaVuSans-Bold.ttf"], 40)
-        font_amount_sub = _get_system_font(["arialbd.ttf", "segoeuib.ttf", "DejaVuSans-Bold.ttf"], 13)
-        font_cond = _get_system_font(["arialbd.ttf", "segoeuib.ttf", "DejaVuSans-Bold.ttf"], 25)
-        font_cond_sub = _get_system_font(["arial.ttf", "segoeui.ttf", "DejaVuSans.ttf"], 16)
-        font_code = _get_system_font(["consola.ttf", "consolab.ttf", "arialbd.ttf", "DejaVuSansMono-Bold.ttf"], 35)
-        font_code_label = _get_system_font(["arialbd.ttf", "segoeuib.ttf", "DejaVuSans-Bold.ttf"], 13)
+        font_sub = _get_system_font(["arial.ttf", "segoeui.ttf", "DejaVuSans.ttf"], 22)
+        font_badge = _get_system_font(["arialbd.ttf", "segoeuib.ttf", "DejaVuSans-Bold.ttf"], 17)
+        font_amount = _get_system_font(["arialbd.ttf", "segoeuib.ttf", "DejaVuSans-Bold.ttf"], 36)
+        font_cond = _get_system_font(["arial.ttf", "segoeui.ttf", "DejaVuSans.ttf"], 20)
+        font_btn = _get_system_font(["arialbd.ttf", "segoeuib.ttf", "DejaVuSans-Bold.ttf"], 20)
+        font_code = _get_system_font(["consolab.ttf", "arialbd.ttf", "DejaVuSansMono-Bold.ttf"], 30)
         font_footer = _get_system_font(["arialbd.ttf", "segoeuib.ttf", "DejaVuSans-Bold.ttf"], 21)
-        font_tip = _get_system_font(["arialbd.ttf", "segoeuib.ttf", "DejaVuSans-Bold.ttf"], 18)
 
-        # Header Badge & Titles
+        # Header campaign badge
         if not date_range_str:
             try:
                 from app.aliexpress.promos import promo_tracker
@@ -480,214 +471,126 @@ class MediaRenderer:
             except Exception:
                 pass
 
-        badge_text = date_range_str or ("CHOICE DAY • CODES OFFICIELS" if is_french else "COUPON WALL • OFFICIAL CODES")
+        badge_text = date_range_str or ("CODES PROMO OFFICIELS" if is_french else "OFFICIAL PROMO CODES")
         full_badge = f"•  {badge_text.upper()}  •"
         badge_bbox = font_badge.getbbox(full_badge)
         badge_text_w = badge_bbox[2] - badge_bbox[0]
-        badge_w = max(420, badge_text_w + 48)
+        badge_w = max(380, badge_text_w + 44)
         badge_x1 = (w - badge_w) // 2
-        draw.rounded_rectangle((badge_x1, 22, badge_x1 + badge_w, 58), radius=18, fill=(254, 240, 138), outline=(245, 158, 11), width=1)
-        draw.text((w // 2, 40), full_badge, fill=(146, 64, 14), font=font_badge, anchor="mm")
+        draw.rounded_rectangle((badge_x1, 22, badge_x1 + badge_w, 56), radius=17, fill=(225, 29, 72))
+        draw.text((w // 2, 39), full_badge, fill=(255, 255, 255), font=font_badge, anchor="mm")
 
-        # Main Title (with dynamic font scaling to prevent overlapping logo)
-        title_text = f"ALIEXPRESS {promo_title.upper()} (FR)" if is_french else f"ALIEXPRESS {promo_title.upper()}"
+        # Main Title
+        title_text = (
+            f"ALIEXPRESS {promo_title.upper()} (FR)" if is_french else f"ALIEXPRESS {promo_title.upper()}"
+        )
         t_font = font_title
-        max_title_w = w - 270 if self.logo_path.exists() else w - 80
         bbox = t_font.getbbox(title_text)
-        if (bbox[2] - bbox[0]) > max_title_w:
+        if (bbox[2] - bbox[0]) > w - 100:
             for sz in [38, 34, 30, 26]:
                 cand = _get_system_font(["arialbd.ttf", "segoeuib.ttf", "DejaVuSans-Bold.ttf"], sz)
                 b = cand.getbbox(title_text)
-                if (b[2] - b[0]) <= max_title_w or sz == 26:
+                if (b[2] - b[0]) <= w - 100 or sz == 26:
                     t_font = cand
                     break
-        draw.text((w // 2 + 2, 98), title_text, fill=(0, 0, 0), font=t_font, anchor="mm")
-        draw.text((w // 2, 96), title_text, fill=(255, 255, 255), font=t_font, anchor="mm")
+        draw.text((w // 2, 102), title_text, fill=(225, 29, 72), font=t_font, anchor="mm")
 
-        # Subtitle
-        sub_text = "CODES PROMO OFFICIELS" if is_french else "OFFICIAL PROMO CODES"
-        draw.text((w // 2, 146), sub_text, fill=(253, 224, 71), font=font_sub, anchor="mm")
+        notice_text = (
+            "Codes promo AliExpress • Actifs dès 09h00 (Paris)"
+            if is_french else "AliExpress coupon codes • Limited quantities"
+        )
+        draw.text((w // 2, 156), notice_text, fill=(100, 116, 139), font=font_sub, anchor="mm")
 
-        # Notice
-        notice_text = ("• Actifs dès 09h00 (Heure de Paris) • Valables sur tout le site •"
-                       if is_french else "• Active from 08:00 (Algeria time) • Limited quantities •")
-        draw.text((w // 2, 184), notice_text, fill=(241, 245, 249), font=font_badge, anchor="mm")
-
-        # Circular Logo top right in header
-        if self.logo_path.exists():
-            try:
-                with Image.open(self.logo_path) as logo_raw:
-                    logo = logo_raw.convert("RGBA").resize((92, 92), Image.Resampling.LANCZOS)
-                    draw.ellipse((w - 128, 20, w - 32, 116), fill=(245, 158, 11))
-                    card.paste(logo, (w - 126, 22), logo)
-            except Exception:
-                pass
-
-        # Coupon Rows calculation & vertical centering
+        # Ticket rows
         num_coupons = min(len(coupon_list), 7)
         card_w = 1000
         card_x = (w - card_w) // 2
-
-        footer_y = h - 95
-        avail_area_y = 250
-        avail_area_h = footer_y - avail_area_y - 15  # space between header and footer
+        footer_y = h - 72
+        avail_area_y = header_h + 18
+        avail_area_h = footer_y - avail_area_y - 14
 
         if num_coupons <= 4:
-            row_h = 114
-            gap = 22
+            row_h, gap = 136, 22
         elif num_coupons == 5:
-            row_h = 108
-            gap = 18
+            row_h, gap = 126, 18
         elif num_coupons == 6:
-            row_h = 96
-            gap = 14
+            row_h, gap = 108, 14
         else:
-            row_h = 84
-            gap = 12
+            row_h, gap = 94, 12
 
         total_coupons_h = (num_coupons * row_h) + max(0, (num_coupons - 1) * gap)
-        start_y = avail_area_y + max(10, (avail_area_h - total_coupons_h) // 2)
+        start_y = avail_area_y + max(8, (avail_area_h - total_coupons_h) // 2)
 
         for i, c in enumerate(coupon_list[:num_coupons]):
             tier_raw = str(c.get("tier", "")).strip()
             code_raw = str(c.get("code", "")).strip().upper()
 
-            # Parse amount & condition
             if is_french:
                 if "dès" in tier_raw.lower():
                     parts = tier_raw.split("dès")
-                    amount_str = parts[0].strip()
-                    if not amount_str.startswith("-"):
-                        amount_str = f"-{amount_str}"
+                    amt = parts[0].strip().lstrip("-")
+                    headline = f"{amt}€ off" if "€" not in amt else f"{amt} off"
                     cond_str = f"Dès {parts[1].strip()}"
                 elif "/" in tier_raw:
                     parts = tier_raw.replace("€", "").split("/")
-                    amount_str = f"-{parts[0].strip()}€"
-                    cond_str = f"Dès {parts[1].strip()}€ d'achat"
+                    headline = f"{parts[0].strip()}€ off"
+                    cond_str = f"dès {parts[1].strip()}€ d'achat"
                 else:
-                    amount_str = tier_raw
-                    cond_str = "Sur tout le panier"
+                    amt = tier_raw.replace("€", "").strip()
+                    headline = f"{amt}€ off" if amt else "Code Promo"
+                    cond_str = "Articles sélectionnés"
             else:
                 if "/" in tier_raw:
                     parts = tier_raw.replace("$", "").split("/")
-                    amount_str = f"-${parts[0].strip()}"
-                    cond_str = f"Min. ${parts[1].strip()} spend"
+                    headline = f"US ${parts[0].strip()} off"
+                    cond_str = f"orders US ${parts[1].strip()}+ (Select items only)"
                 else:
-                    amount_str = f"-${tier_raw.replace('$', '')}"
-                    cond_str = "Sitewide"
+                    amt = tier_raw.replace("$", "").strip()
+                    headline = f"US ${amt} off" if amt else "Promo Coupon"
+                    cond_str = "Select items · Limited quantity"
 
             cy = start_y + i * (row_h + gap)
-
-            # Outer row container
             draw.rounded_rectangle(
                 (card_x, cy, card_x + card_w, cy + row_h),
-                radius=16,
-                fill=(30, 41, 59),
-                outline=(51, 65, 85),
-                width=2
+                radius=20,
+                fill=(255, 241, 242),
+                outline=(254, 205, 211),
+                width=2,
             )
 
-            # Left: Discount Badge
-            badge_w = 210
-            draw.rounded_rectangle(
-                (card_x + 8, cy + 8, card_x + 8 + badge_w, cy + row_h - 8),
-                radius=12,
-                fill=(239, 68, 68)
-            )
-            draw.text(
-                (card_x + 8 + badge_w // 2, cy + (row_h // 2) - 8),
-                amount_str,
-                fill=(255, 255, 255),
-                font=font_amount,
-                anchor="mm"
-            )
-            draw.text(
-                (card_x + 8 + badge_w // 2, cy + (row_h // 2) + 22),
-                "ÉCONOMIE" if is_french else "OFF",
-                fill=(254, 202, 202),
-                font=font_amount_sub,
-                anchor="mm"
-            )
+            # Left: bold crimson discount + spend condition
+            draw.text((card_x + 36, cy + (row_h // 2) - 16), headline, fill=(225, 29, 72), font=font_amount, anchor="lm")
+            draw.text((card_x + 38, cy + (row_h // 2) + 20), cond_str, fill=(190, 18, 60), font=font_cond, anchor="lm")
 
-            # Dashed Ticket Perforation
-            divider_x = card_x + badge_w + 22
-            for dy in range(cy + 14, cy + row_h - 14, 10):
-                draw.line([(divider_x, dy), (divider_x, dy + 5)], fill=(71, 85, 105), width=2)
+            # Right: "Shop more" pill + white code box
+            right_w = 240
+            rx1 = card_x + card_w - right_w - 22
+            rx2 = card_x + card_w - 22
+            pill_h = max(32, (row_h - 32) // 2)
+            pill_y1 = cy + 12
+            pill_y2 = pill_y1 + pill_h
+            draw.rounded_rectangle((rx1, pill_y1, rx2, pill_y2), radius=pill_h // 2, fill=(225, 29, 72))
+            draw.text(((rx1 + rx2) // 2, (pill_y1 + pill_y2) // 2),
+                      "Profiter" if is_french else "Shop more", fill=(255, 255, 255), font=font_btn, anchor="mm")
 
-            # Middle: Condition
-            cond_x = divider_x + 24
-            draw.text(
-                (cond_x, cy + (row_h // 2) - 10),
-                cond_str,
-                fill=(248, 250, 252),
-                font=font_cond,
-                anchor="lm"
-            )
-            draw.text(
-                (cond_x, cy + (row_h // 2) + 18),
-                "Valable sur tous les articles éligibles" if is_french else "Valid on all eligible items",
-                fill=(148, 163, 184),
-                font=font_cond_sub,
-                anchor="lm"
-            )
+            code_y1 = pill_y2 + 8
+            code_y2 = cy + row_h - 12
+            draw.rounded_rectangle((rx1, code_y1, rx2, code_y2), radius=12, fill=(255, 255, 255), outline=(254, 205, 211), width=2)
+            draw.text(((rx1 + rx2) // 2, (code_y1 + code_y2) // 2), code_raw, fill=(15, 23, 42), font=font_code, anchor="mm")
 
-            # Right: Promo Code Voucher Box
-            code_box_w = 310
-            code_x = card_x + card_w - code_box_w - 10
-            draw.rounded_rectangle(
-                (code_x, cy + 10, code_x + code_box_w, cy + row_h - 10),
-                radius=12,
-                fill=(15, 23, 42),
-                outline=(245, 158, 11),
-                width=2
-            )
-            draw.text(
-                (code_x + code_box_w // 2, cy + 24),
-                "CODE PROMO" if is_french else "PROMO CODE",
-                fill=(245, 158, 11),
-                font=font_code_label,
-                anchor="mm"
-            )
-            draw.text(
-                (code_x + code_box_w // 2, cy + (row_h // 2) + 10),
-                code_raw,
-                fill=(254, 240, 138),
-                font=font_code,
-                anchor="mm"
-            )
-
-        # Footer
-        footer_y = h - 95
-        draw.rectangle((0, footer_y, w, h), fill=(11, 15, 25))
-        draw.line([(0, footer_y), (w, footer_y)], fill=(245, 158, 11), width=2)
+        # Clean Footer
+        draw.line([(40, footer_y), (w - 40, footer_y)], fill=(226, 232, 240), width=2)
         draw.text(
-            (w // 2, footer_y + 35),
-            (f"Canal officiel : {channel_handle}   •   Bot Réductions : @Alilo07BOT"
-             if is_french else f"Official channel: {channel_handle}   •   Deals bot: @Alilo07BOT"),
-            fill=(226, 232, 240),
+            (w // 2, footer_y + 36),
+            f"{channel_handle}   •   @Alilo07BOT   •   dealscoutgreen.vercel.app",
+            fill=(71, 85, 105),
             font=font_footer,
-            anchor="mm"
+            anchor="mm",
         )
-        if is_french:
-            draw.text(
-                (w // 2, footer_y + 68),
-                "Astuce : Réduction PayPal cumulable jusqu'à -33€ supplémentaires au paiement !",
-                fill=(253, 224, 71),
-                font=font_tip,
-                anchor="mm"
-            )
-        else:
-            draw.text(
-                (w // 2, footer_y + 68),
-                "Tip: use @Alilo07BOT to stack up to 70% extra Coins discount!",
-                fill=(253, 224, 71),
-                font=font_tip,
-                anchor="mm"
-            )
 
         h_sig = hashlib.sha256(str(coupon_list).encode()).hexdigest()[:8]
-        out_file = self.output_dir / f"coupons_card_{h_sig}_{'fr' if is_french else 'dz'}.jpg"
-        card.save(out_file, "JPEG", quality=95)
+        out_file = self.output_dir / f"coupons_card_{h_sig}_{'fr' if is_french else 'dz'}.png"
+        card.save(out_file, "PNG")
         return out_file
 
 media_renderer = MediaRenderer()
