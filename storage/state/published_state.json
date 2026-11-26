@@ -1546,7 +1546,7 @@
     "1005010285419688": 1793613895.6129942,
     "1005007805750092": 1793613900.590816,
     "1005006966360399": 1793613905.8870661,
-    "1005010706590867": 1795601357.1274612,
+    "1005010706590867": 1795689954.676591,
     "1005010428947440": 1795601370.637946,
     "1005010585654037": 1795088190.1400514,
     "1005013137304827": 1793613926.9213502,
@@ -3906,7 +3906,7 @@
     "MEN SQUARE QUARTZ WATCH": 1793613895.6129942,
     "ONEPLUS 80W CHARGER": 1793613900.590816,
     "GAMINJA WIRELESS CONTROLLER": 1793613905.8870661,
-    "ATTACK SHARK R1": 1795601357.1274612,
+    "ATTACK SHARK R1": 1795689954.676591,
     "Soundcore Select 4 Go": 1795601370.637946,
     "Mortal Android TV Box": 1793613921.841963,
     "HONOR 600s 8/256GB": 1793613926.9213502,
@@ -4467,7 +4467,6 @@
     "سارع بحجزه من هنا": 1795688271.3921025
   },
   "published_post_keys": [
-    "aniscoupons:34838",
     "zedstoreonline:40121",
     "aniscoupons:34845",
     "aniscoupons:34846",
@@ -5466,11 +5465,12 @@
     "aniscoupons:35672",
     "aniscoupons:35674",
     "aniscoupons:35675",
-    "aniscoupons:35676"
+    "aniscoupons:35676",
+    "zedstoreonline:40726"
   ],
   "last_disclaimer_time": 1794524540.9476151,
   "last_calendar_time": 1795177633.1203737,
-  "last_run_time": 1795689543.3716838,
+  "last_run_time": 1795689954.676591,
   "monitored_channels": {
     "ecksdeal": {
       "last_message_id": 6140,
@@ -5497,12 +5497,12 @@
       "last_check_time": 1793599663.3444748
     },
     "zedstoreonline": {
-      "last_message_id": 40725,
-      "last_check_time": 1795688260.2840328
+      "last_message_id": 40727,
+      "last_check_time": 1795689957.5715823
     },
     "aniscoupons": {
-      "last_message_id": 35676,
-      "last_check_time": 1795689543.5934453
+      "last_message_id": 35677,
+      "last_check_time": 1795689960.0184903
     },
     "bnddeals": {
       "last_message_id": 51414,
@@ -34615,6 +34615,16 @@
       "price": null,
       "timestamp": 1795689543.3716838,
       "status": "ACTIVE"
+    },
+    "zedstoreonline:40726": {
+      "channel_msg_id": 3776,
+      "product_id": "1005010706590867",
+      "title": "ATTACK SHARK R1",
+      "channel": "zedstoreonline",
+      "source_msg_id": 40726,
+      "price": 16.1,
+      "timestamp": 1795689954.676591,
+      "status": "ACTIVE"
     }
   },
   "schedule_config": {
@@ -34623,17 +34633,17 @@
     "current_interval_minutes": 5,
     "is_paused": false,
     "night_mode_enabled": true,
-    "last_deal_post_time": 1795689544.936638,
+    "last_deal_post_time": 1795689961.0923064,
     "night_start_hour_dz": 0,
     "night_end_hour_dz": 8,
     "night_pause_enabled": true,
-    "last_sweep_time": 1795689547.5193317,
+    "last_sweep_time": 1795689964.4694366,
     "last_sweep_times": {
-      "algeria": 1795689544.879098,
-      "france": 1795689547.5193317
+      "algeria": 1795689961.039812,
+      "france": 1795689964.4694366
     },
     "last_deal_post_times": {
-      "algeria": 1795689544.936638
+      "algeria": 1795689961.0923064
     }
   },
   "last_coin_reminder_time": 1795648937.9274871,
@@ -37672,8 +37682,6 @@
   "published_deals_history": {},
   "settings": {},
   "handled_post_keys": [
-    "zedstoreonline:40113",
-    "zedstoreonline:40115",
     "zedstoreonline:40116",
     "zedstoreonline:40118",
     "zedstoreonline:40119",
@@ -38671,7 +38679,9 @@
     "aniscoupons:35671",
     "zedstoreonline:40725",
     "aniscoupons:35673",
-    "aniscoupons:35676"
+    "aniscoupons:35676",
+    "zedstoreonline:40727",
+    "aniscoupons:35677"
   ],
   "last_france_cross_promo_time": 1795501542.8708572,
   "next_france_cross_promo_interval_seconds": 208574,
@@ -39249,6 +39259,11 @@
         "channel": "zedstoreonline",
         "ts": 1795687611.9604158,
         "price": 49.3
+      },
+      {
+        "channel": "aniscoupons",
+        "ts": 1795689959.8222713,
+        "price": 49.3
       }
     ],
     "1005013482874428": [
@@ -39364,6 +39379,11 @@
         "channel": "aniscoupons",
         "ts": 1795687697.9379172,
         "price": 177.6
+      },
+      {
+        "channel": "zedstoreonline",
+        "ts": 1795689957.3767076,
+        "price": 177.0
       }
     ],
     "1005013005786079": [
@@ -39435,6 +39455,13 @@
         "channel": "aniscoupons",
         "ts": 1795689536.025031,
         "price": 37.5
+      }
+    ],
+    "1005010706590867": [
+      {
+        "channel": "zedstoreonline",
+        "ts": 1795689951.745096,
+        "price": 16.1
       }
     ]
   },
