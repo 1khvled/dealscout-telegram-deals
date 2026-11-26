@@ -949,7 +949,8 @@
     "1005013126607681",
     "TAJMI3AT_lodydeals_46912",
     "1005007398627941",
-    "1005006860970176"
+    "1005006860970176",
+    "1005011859459973"
   ],
   "published_product_timestamps": {
     "1005012973772517": 1794500732.7845657,
@@ -1917,7 +1918,8 @@
     "1005013126607681": 1795651532.6317441,
     "TAJMI3AT_lodydeals_46912": 1795687609.2309065,
     "1005007398627941": 1795687633.3463068,
-    "1005006860970176": 1795687649.9178689
+    "1005006860970176": 1795687649.9178689,
+    "1005011859459973": 1795688271.3921025
   },
   "published_titles": [
     "Wireless WiFi Repeater 300Mbps WiFi Extender Amplifier Booster Router",
@@ -3185,7 +3187,8 @@
     "Baseus 45dB ANC Wireless Headphones Over Ear Bluetooth Earphones Active",
     "تخفيض لـ  ASROCK B850M X WiFi",
     "خوذة حماية للأطفال مصممة للدراجات",
-    "Anker Life Q30"
+    "Anker Life Q30",
+    "سارع بحجزه من هنا"
   ],
   "published_title_timestamps": {
     "Xiaomi Redmi Note 17 5G Global Version": 1790857823.0117362,
@@ -4458,10 +4461,10 @@
     "Baseus 45dB ANC Wireless Headphones Over Ear Bluetooth Earphones Active": 1795651532.6317441,
     "تخفيض لـ  ASROCK B850M X WiFi": 1795687609.2309065,
     "خوذة حماية للأطفال مصممة للدراجات": 1795687649.9178689,
-    "Anker Life Q30": 1795688028.1630735
+    "Anker Life Q30": 1795688028.1630735,
+    "سارع بحجزه من هنا": 1795688271.3921025
   },
   "published_post_keys": [
-    "zedstoreonline:40117",
     "aniscoupons:34835",
     "aniscoupons:34836",
     "aniscoupons:34838",
@@ -5460,11 +5463,12 @@
     "zedstoreonline:40723",
     "aniscoupons:35663",
     "aniscoupons:35670",
-    "aniscoupons:35672"
+    "aniscoupons:35672",
+    "aniscoupons:35674"
   ],
   "last_disclaimer_time": 1794524540.9476151,
   "last_calendar_time": 1795177633.1203737,
-  "last_run_time": 1795688052.6540208,
+  "last_run_time": 1795688271.3921025,
   "monitored_channels": {
     "ecksdeal": {
       "last_message_id": 6140,
@@ -5491,12 +5495,12 @@
       "last_check_time": 1793599663.3444748
     },
     "zedstoreonline": {
-      "last_message_id": 40724,
-      "last_check_time": 1795688030.5160089
+      "last_message_id": 40725,
+      "last_check_time": 1795688260.2840328
     },
     "aniscoupons": {
-      "last_message_id": 35672,
-      "last_check_time": 1795688054.762532
+      "last_message_id": 35674,
+      "last_check_time": 1795688273.5281453
     },
     "bnddeals": {
       "last_message_id": 51414,
@@ -6333,7 +6337,8 @@
     "1005013511994544": 248.8,
     "1005013126607681": 24.5,
     "1005007398627941": 10.6,
-    "1005006860970176": 18.7
+    "1005006860970176": 18.7,
+    "1005011859459973": 30.0
   },
   "channel_published_deals": {
     "aniscoupons:32590": {
@@ -34578,6 +34583,16 @@
       "price": 79.6,
       "timestamp": 1795688052.6540208,
       "status": "ACTIVE"
+    },
+    "aniscoupons:35674": {
+      "channel_msg_id": 3772,
+      "product_id": "1005011859459973",
+      "title": "سارع بحجزه من هنا",
+      "channel": "aniscoupons",
+      "source_msg_id": 35674,
+      "price": 30.0,
+      "timestamp": 1795688271.3921025,
+      "status": "ACTIVE"
     }
   },
   "schedule_config": {
@@ -34586,17 +34601,17 @@
     "current_interval_minutes": 5,
     "is_paused": false,
     "night_mode_enabled": true,
-    "last_deal_post_time": 1795688055.8030016,
+    "last_deal_post_time": 1795688274.9102263,
     "night_start_hour_dz": 0,
     "night_end_hour_dz": 8,
     "night_pause_enabled": true,
-    "last_sweep_time": 1795688058.4781415,
+    "last_sweep_time": 1795688278.2119136,
     "last_sweep_times": {
-      "algeria": 1795688055.7556605,
-      "france": 1795688058.4781415
+      "algeria": 1795688274.8567557,
+      "france": 1795688278.2119136
     },
     "last_deal_post_times": {
-      "algeria": 1795688055.8030016
+      "algeria": 1795688274.9102263
     }
   },
   "last_coin_reminder_time": 1795648937.9274871,
@@ -35559,7 +35574,8 @@
     "1005013126607681": "zedstoreonline",
     "TAJMI3AT_lodydeals_46912": "lodydeals",
     "1005007398627941": "zedstoreonline",
-    "1005006860970176": "zedstoreonline"
+    "1005006860970176": "zedstoreonline",
+    "1005011859459973": "aniscoupons"
   },
   "published_title_channels": {
     "Test Wrench Set": "test_channel",
@@ -36834,7 +36850,8 @@
     "Baseus 45dB ANC Wireless Headphones Over Ear Bluetooth Earphones Active": "zedstoreonline",
     "تخفيض لـ  ASROCK B850M X WiFi": "lodydeals",
     "خوذة حماية للأطفال مصممة للدراجات": "zedstoreonline",
-    "Anker Life Q30": "zedstoreonline"
+    "Anker Life Q30": "zedstoreonline",
+    "سارع بحجزه من هنا": "aniscoupons"
   },
   "religious_reminders_history": {
     "mock_rem": "2026-10-02",
@@ -37632,8 +37649,6 @@
   "published_deals_history": {},
   "settings": {},
   "handled_post_keys": [
-    "aniscoupons:34833",
-    "aniscoupons:34834",
     "zedstoreonline:40111",
     "zedstoreonline:40113",
     "zedstoreonline:40115",
@@ -38631,7 +38646,9 @@
     "aniscoupons:35666",
     "lodydeals:46914",
     "zedstoreonline:40724",
-    "aniscoupons:35671"
+    "aniscoupons:35671",
+    "zedstoreonline:40725",
+    "aniscoupons:35673"
   ],
   "last_france_cross_promo_time": 1795501542.8708572,
   "next_france_cross_promo_interval_seconds": 208574,
@@ -39350,6 +39367,11 @@
         "channel": "zedstoreonline",
         "ts": 1795688015.4878428,
         "price": 11.2
+      },
+      {
+        "channel": "aniscoupons",
+        "ts": 1795688265.328599,
+        "price": 11.2
       }
     ],
     "1005008708333999": [
@@ -39377,6 +39399,11 @@
       {
         "channel": "aniscoupons",
         "ts": 1795688039.5456555,
+        "price": 29.6
+      },
+      {
+        "channel": "zedstoreonline",
+        "ts": 1795688260.0650573,
         "price": 29.6
       }
     ]
