@@ -1897,7 +1897,7 @@
     "COUPONBULLETIN_zedstoreonline_40639": 1795525562.3674622,
     "1005008304362437": 1795526475.8421245,
     "1005006995294624": 1795527391.8790212,
-    "1005012899783721": 1795623320.9110665,
+    "1005012899783721": 1795701094.6472647,
     "1005013423776757": 1795603012.8186684,
     "1005012383444183": 1795693872.7808363,
     "1005013519635614": 1795546736.9831076,
@@ -4443,7 +4443,7 @@
     "SomnAmbulist SSD 120Gb": 1795687675.5725474,
     "سماعات الاذن KZ EDX PRO X": 1795527391.8790212,
     "طابعة XL-P801 الحرارية المتنقلة: طباعة A4 فورية، قابلة لإعادة": 1795535124.479775,
-    "TCL Alcatel 1023": 1795623320.9110665,
+    "TCL Alcatel 1023": 1795701094.6472647,
     "ULTRALIGHT TRAVEL HAMMOCK": 1795540462.4924362,
     "OPPO Enco Buds3 True Wireless Earbuds": 1795540647.657338,
     "Digital weight scale": 1795546908.1570234,
@@ -4483,7 +4483,6 @@
     "NETUM L5 / NT-L8": 1795695716.5576735
   },
   "published_post_keys": [
-    "aniscoupons:34854",
     "zedstoreonline:40131",
     "zedstoreonline:40132",
     "aniscoupons:34855",
@@ -5482,11 +5481,12 @@
     "zedstoreonline:40737",
     "aniscoupons:35684",
     "aniscoupons:35686",
-    "aniscoupons:35687"
+    "aniscoupons:35687",
+    "aniscoupons:35689"
   ],
   "last_disclaimer_time": 1794524540.9476151,
   "last_calendar_time": 1795177633.1203737,
-  "last_run_time": 1795697529.8133786,
+  "last_run_time": 1795701094.6472647,
   "monitored_channels": {
     "ecksdeal": {
       "last_message_id": 6140,
@@ -5517,8 +5517,8 @@
       "last_check_time": 1795696534.7050586
     },
     "aniscoupons": {
-      "last_message_id": 35688,
-      "last_check_time": 1795698757.5236273
+      "last_message_id": 35689,
+      "last_check_time": 1795701096.745608
     },
     "bnddeals": {
       "last_message_id": 51415,
@@ -34774,6 +34774,16 @@
       "price": 21.1,
       "timestamp": 1795697529.8133786,
       "status": "ACTIVE"
+    },
+    "aniscoupons:35689": {
+      "channel_msg_id": 3790,
+      "product_id": "1005012899783721",
+      "title": "TCL Alcatel 1023",
+      "channel": "aniscoupons",
+      "source_msg_id": 35689,
+      "price": 6.84,
+      "timestamp": 1795701094.6472647,
+      "status": "ACTIVE"
     }
   },
   "schedule_config": {
@@ -34782,17 +34792,17 @@
     "current_interval_minutes": 5,
     "is_paused": false,
     "night_mode_enabled": true,
-    "last_deal_post_time": 1795697532.8653126,
+    "last_deal_post_time": 1795701098.1788545,
     "night_start_hour_dz": 0,
     "night_end_hour_dz": 8,
     "night_pause_enabled": true,
-    "last_sweep_time": 1795700472.291994,
+    "last_sweep_time": 1795701101.5792744,
     "last_sweep_times": {
-      "algeria": 1795700469.5191233,
-      "france": 1795700472.291994
+      "algeria": 1795701098.1000443,
+      "france": 1795701101.5792744
     },
     "last_deal_post_times": {
-      "algeria": 1795697532.8653126
+      "algeria": 1795701098.1788545
     }
   },
   "last_coin_reminder_time": 1795648937.9274871,
@@ -39715,6 +39725,13 @@
         "channel": "aniscoupons",
         "ts": 1795697527.422522,
         "price": 21.1
+      }
+    ],
+    "1005012899783721": [
+      {
+        "channel": "aniscoupons",
+        "ts": 1795701091.539101,
+        "price": 6.84
       }
     ]
   },
