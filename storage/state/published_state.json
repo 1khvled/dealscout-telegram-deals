@@ -960,7 +960,10 @@
     "TAJMI3AT_lodydeals_46917",
     "1005013097951450",
     "1005008413359329",
-    "1005013406777246"
+    "1005013406777246",
+    "TAJMI3AT_lodydeals_46922",
+    "TAJMI3AT_lodydeals_46923",
+    "1005012649756781"
   ],
   "published_product_timestamps": {
     "1005012973772517": 1794500732.7845657,
@@ -1555,7 +1558,7 @@
     "1005010285419688": 1793613895.6129942,
     "1005007805750092": 1793613900.590816,
     "1005006966360399": 1793613905.8870661,
-    "1005010706590867": 1795689954.676591,
+    "1005010706590867": 1795723359.9076257,
     "1005010428947440": 1795601370.637946,
     "1005010585654037": 1795088190.1400514,
     "1005013137304827": 1793613926.9213502,
@@ -1939,7 +1942,10 @@
     "TAJMI3AT_lodydeals_46917": 1795714990.9149463,
     "1005013097951450": 1795716834.125829,
     "1005008413359329": 1795717019.2725039,
-    "1005013406777246": 1795722914.6443748
+    "1005013406777246": 1795722914.6443748,
+    "TAJMI3AT_lodydeals_46922": 1795723341.8747523,
+    "TAJMI3AT_lodydeals_46923": 1795723348.1432872,
+    "1005012649756781": 1795723352.671799
   },
   "published_titles": [
     "Wireless WiFi Repeater 300Mbps WiFi Extender Amplifier Booster Router",
@@ -3218,7 +3224,9 @@
     "16.8V Cordless Drill Driver",
     "يد تحكم   Flydigi Dune Wireless Hall Effect",
     "Realme Adapter SUPERVOOC Charger",
-    "يد تحكم لاسلكية مع شاحن GameSir G7 PRO 8K Global Version"
+    "يد تحكم لاسلكية مع شاحن GameSir G7 PRO 8K Global Version",
+    "تخفيض AMD Ryzen 5 9600X",
+    "يد تحكم للهاتف GameSir Pocket Taco"
   ],
   "published_title_timestamps": {
     "Xiaomi Redmi Note 17 5G Global Version": 1790857823.0117362,
@@ -3934,7 +3942,7 @@
     "MEN SQUARE QUARTZ WATCH": 1793613895.6129942,
     "ONEPLUS 80W CHARGER": 1793613900.590816,
     "GAMINJA WIRELESS CONTROLLER": 1793613905.8870661,
-    "ATTACK SHARK R1": 1795689954.676591,
+    "ATTACK SHARK R1": 1795723359.9076257,
     "Soundcore Select 4 Go": 1795601370.637946,
     "Mortal Android TV Box": 1793613921.841963,
     "HONOR 600s 8/256GB": 1793613926.9213502,
@@ -4451,7 +4459,7 @@
     "Fifine H6 Dynamic RGB Gaming": 1795521330.5345721,
     "ميكسر صوت احترافي FIFINE AmpliGame SC3W مع 4 قنوات ومدخل XLR": 1795521718.768218,
     "FIFINE H3 Gaming Headset": 1795601124.2950418,
-    "🔥": 1795561391.491517,
+    "🔥": 1795723348.1432872,
     "vivo x500 pro max 12/256": 1795521901.9867668,
     "HUAWEI Pura 90s Pro 12/256": 1795521917.9575388,
     "Vivo X500 12/256": 1795521926.0889337,
@@ -4502,13 +4510,11 @@
     "16.8V Cordless Drill Driver": 1795716834.125829,
     "يد تحكم   Flydigi Dune Wireless Hall Effect": 1795717019.2725039,
     "Realme Adapter SUPERVOOC Charger": 1795722522.4327238,
-    "يد تحكم لاسلكية مع شاحن GameSir G7 PRO 8K Global Version": 1795722914.6443748
+    "يد تحكم لاسلكية مع شاحن GameSir G7 PRO 8K Global Version": 1795722914.6443748,
+    "تخفيض AMD Ryzen 5 9600X": 1795723341.8747523,
+    "يد تحكم للهاتف GameSir Pocket Taco": 1795723352.671799
   },
   "published_post_keys": [
-    "zedstoreonline:40149",
-    "zedstoreonline:40151",
-    "aniscoupons:34885",
-    "aniscoupons:34887",
     "zedstoreonline:40152",
     "aniscoupons:34888",
     "lodydeals:46492",
@@ -5504,19 +5510,23 @@
     "aniscoupons:35710",
     "zedstoreonline:40747",
     "lodydeals:46920",
-    "ecksdeal:6143"
+    "ecksdeal:6143",
+    "lodydeals:46922",
+    "lodydeals:46923",
+    "ecksdeal:6144",
+    "aniscoupons:35711"
   ],
   "last_disclaimer_time": 1794524540.9476151,
   "last_calendar_time": 1795177633.1203737,
-  "last_run_time": 1795722914.6443748,
+  "last_run_time": 1795723359.9076257,
   "monitored_channels": {
     "ecksdeal": {
-      "last_message_id": 6143,
-      "last_check_time": 1795722916.8150063
+      "last_message_id": 6144,
+      "last_check_time": 1795723354.8341777
     },
     "lodydeals": {
-      "last_message_id": 46920,
-      "last_check_time": 1795722524.508699
+      "last_message_id": 46923,
+      "last_check_time": 1795723348.3648384
     },
     "test_channel": {
       "last_message_id": 1793967703,
@@ -5539,8 +5549,8 @@
       "last_check_time": 1795720924.2169936
     },
     "aniscoupons": {
-      "last_message_id": 35710,
-      "last_check_time": 1795719723.0257082
+      "last_message_id": 35711,
+      "last_check_time": 1795723362.0308301
     },
     "bnddeals": {
       "last_message_id": 51416,
@@ -6044,7 +6054,7 @@
     "1005007060644375": 3.2,
     "1005007805750092": 4.4,
     "1005006966360399": 6.5,
-    "1005010706590867": 16.1,
+    "1005010706590867": 16.0,
     "1005012648097890": 430.0,
     "1005012871436251": 200.96,
     "1005010385663278": 58.55,
@@ -6386,7 +6396,8 @@
     "1005009566266039": 115.6,
     "1005013097951450": 17.5,
     "1005008413359329": 25.95,
-    "1005013406777246": 96.0
+    "1005013406777246": 96.0,
+    "1005012649756781": 24.96
   },
   "channel_published_deals": {
     "aniscoupons:32590": {
@@ -35091,6 +35102,46 @@
       "price": 96.0,
       "timestamp": 1795722914.6443748,
       "status": "ACTIVE"
+    },
+    "lodydeals:46922": {
+      "channel_msg_id": 3821,
+      "product_id": "TAJMI3AT_lodydeals_46922",
+      "title": "تخفيض AMD Ryzen 5 9600X",
+      "channel": "lodydeals",
+      "source_msg_id": 46922,
+      "price": null,
+      "timestamp": 1795723341.8747523,
+      "status": "ACTIVE"
+    },
+    "lodydeals:46923": {
+      "channel_msg_id": 3822,
+      "product_id": "TAJMI3AT_lodydeals_46923",
+      "title": "🔥",
+      "channel": "lodydeals",
+      "source_msg_id": 46923,
+      "price": null,
+      "timestamp": 1795723348.1432872,
+      "status": "ACTIVE"
+    },
+    "ecksdeal:6144": {
+      "channel_msg_id": 3823,
+      "product_id": "1005012649756781",
+      "title": "يد تحكم للهاتف GameSir Pocket Taco",
+      "channel": "ecksdeal",
+      "source_msg_id": 6144,
+      "price": 24.96,
+      "timestamp": 1795723352.671799,
+      "status": "ACTIVE"
+    },
+    "aniscoupons:35711": {
+      "channel_msg_id": 3824,
+      "product_id": "1005010706590867",
+      "title": "ATTACK SHARK R1",
+      "channel": "aniscoupons",
+      "source_msg_id": 35711,
+      "price": 16.0,
+      "timestamp": 1795723359.9076257,
+      "status": "ACTIVE"
     }
   },
   "schedule_config": {
@@ -35099,17 +35150,17 @@
     "current_interval_minutes": 5,
     "is_paused": false,
     "night_mode_enabled": true,
-    "last_deal_post_time": 1795722919.601872,
+    "last_deal_post_time": 1795723363.2636693,
     "night_start_hour_dz": 0,
     "night_end_hour_dz": 8,
     "night_pause_enabled": true,
-    "last_sweep_time": 1795722924.7802527,
+    "last_sweep_time": 1795723367.0597622,
     "last_sweep_times": {
-      "algeria": 1795722919.5509734,
-      "france": 1795722924.7802527
+      "algeria": 1795723363.2079585,
+      "france": 1795723367.0597622
     },
     "last_deal_post_times": {
-      "algeria": 1795722919.601872
+      "algeria": 1795723363.2636693
     }
   },
   "last_coin_reminder_time": 1795648937.9274871,
@@ -35717,7 +35768,7 @@
     "1005007060644375": "zedstoreonline",
     "1005007805750092": "aniscoupons",
     "1005006966360399": "aniscoupons",
-    "1005010706590867": "zedstoreonline",
+    "1005010706590867": "aniscoupons",
     "1005012648097890": "aniscoupons",
     "1005012871436251": "lodydeals",
     "1005009504965110": "zedstoreonline",
@@ -36083,7 +36134,10 @@
     "TAJMI3AT_lodydeals_46917": "lodydeals",
     "1005013097951450": "zedstoreonline",
     "1005008413359329": "ecksdeal",
-    "1005013406777246": "ecksdeal"
+    "1005013406777246": "ecksdeal",
+    "TAJMI3AT_lodydeals_46922": "lodydeals",
+    "TAJMI3AT_lodydeals_46923": "lodydeals",
+    "1005012649756781": "ecksdeal"
   },
   "published_title_channels": {
     "Test Wrench Set": "test_channel",
@@ -36802,7 +36856,7 @@
     "MEN SQUARE QUARTZ WATCH": "aniscoupons",
     "ONEPLUS 80W CHARGER": "aniscoupons",
     "GAMINJA WIRELESS CONTROLLER": "aniscoupons",
-    "ATTACK SHARK R1": "zedstoreonline",
+    "ATTACK SHARK R1": "aniscoupons",
     "Mortal Android TV Box": "aniscoupons",
     "HONOR 600s 8/256GB": "aniscoupons",
     "Oppo Find X8s+": "aniscoupons",
@@ -37317,7 +37371,7 @@
     "Fifine H6 Dynamic RGB Gaming": "bnddeals",
     "ميكسر صوت احترافي FIFINE AmpliGame SC3W مع 4 قنوات ومدخل XLR": "zedstoreonline",
     "FIFINE H3 Gaming Headset": "zedstoreonline",
-    "🔥": "zedstoreonline",
+    "🔥": "lodydeals",
     "vivo x500 pro max 12/256": "zedstoreonline",
     "HUAWEI Pura 90s Pro 12/256": "zedstoreonline",
     "Vivo X500 12/256": "zedstoreonline",
@@ -37369,7 +37423,9 @@
     "16.8V Cordless Drill Driver": "zedstoreonline",
     "يد تحكم   Flydigi Dune Wireless Hall Effect": "ecksdeal",
     "Realme Adapter SUPERVOOC Charger": "lodydeals",
-    "يد تحكم لاسلكية مع شاحن GameSir G7 PRO 8K Global Version": "ecksdeal"
+    "يد تحكم لاسلكية مع شاحن GameSir G7 PRO 8K Global Version": "ecksdeal",
+    "تخفيض AMD Ryzen 5 9600X": "lodydeals",
+    "يد تحكم للهاتف GameSir Pocket Taco": "ecksdeal"
   },
   "religious_reminders_history": {
     "mock_rem": "2026-10-02",
@@ -38167,8 +38223,6 @@
   "published_deals_history": {},
   "settings": {},
   "handled_post_keys": [
-    "zedstoreonline:40135",
-    "zedstoreonline:40136",
     "zedstoreonline:40138",
     "aniscoupons:34869",
     "zedstoreonline:40139",
@@ -39166,7 +39220,9 @@
     "aniscoupons:35703",
     "bnddeals:51416",
     "aniscoupons:35709",
-    "lodydeals:46919"
+    "lodydeals:46919",
+    "lodydeals:46922",
+    "lodydeals:46923"
   ],
   "last_france_cross_promo_time": 1795501542.8708572,
   "next_france_cross_promo_interval_seconds": 208574,
@@ -40028,6 +40084,11 @@
         "channel": "lodydeals",
         "ts": 1795690154.3176637,
         "price": 16.08
+      },
+      {
+        "channel": "aniscoupons",
+        "ts": 1795723357.9557745,
+        "price": 16.0
       }
     ],
     "1005012594430190": [
@@ -40287,6 +40348,26 @@
         "https://s.click.aliexpress.com/e/_c4WfvTCN"
       ],
       "timestamp": 1795714990.9701226
+    },
+    {
+      "title": "تخفيض AMD Ryzen 5 9600X",
+      "links": [
+        "https://s.click.aliexpress.com/e/_c30kbxVr",
+        "https://s.click.aliexpress.com/e/_c38pmS2N",
+        "https://s.click.aliexpress.com/e/_c3TZk88v",
+        "https://s.click.aliexpress.com/e/_c4UgpAFB"
+      ],
+      "timestamp": 1795723341.9620488
+    },
+    {
+      "title": "🔥",
+      "links": [
+        "https://s.click.aliexpress.com/e/_c4DZlXLj",
+        "https://s.click.aliexpress.com/e/_c4KFdrMH",
+        "https://s.click.aliexpress.com/e/_c4W8C6Fn",
+        "https://s.click.aliexpress.com/e/_c4sJyrED"
+      ],
+      "timestamp": 1795723348.1986165
     }
   ]
 }
