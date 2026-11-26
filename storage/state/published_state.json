@@ -1064,7 +1064,7 @@
     "1005008144855522": 1791026444.9395418,
     "1005008486721357": 1791026452.368309,
     "1005012871566388": 1791026457.7236943,
-    "1005007027334636": 1795635237.0793135,
+    "1005007027334636": 1795651952.7229023,
     "1005006727600702": 1791027043.7332833,
     "1005009916278058": 1791027049.3509357,
     "1005009719082543": 1791027355.6595695,
@@ -3189,7 +3189,7 @@
     "SomnAmbulist SSD 2.5 128GB": 1790884187.7542295,
     "Machenike G3 V2 PC Gaming Controller Hall Effect": 1791194142.1753953,
     "ATTACK SHARK L90": 1790884206.6605399,
-    "SomnAmbulist SSD 2.5 120GB": 1795616501.6710856,
+    "SomnAmbulist SSD 2.5 120GB": 1795651952.7229023,
     "Realme 15 Pro Global (8/256)": 1790884233.6428,
     "Poco C71 3/64GB": 1791192360.1916943,
     "سماعات لاسلكية Attack Shark L80 PRO Wireless": 1791206142.4737842,
@@ -4449,7 +4449,6 @@
     "Baseus 45dB ANC Wireless Headphones Over Ear Bluetooth Earphones Active": 1795651532.6317441
   },
   "published_post_keys": [
-    "aniscoupons:34815",
     "zedstoreonline:40096",
     "aniscoupons:34816",
     "aniscoupons:34817",
@@ -5448,11 +5447,12 @@
     "zedstoreonline:40708",
     "zedstoreonline:40709",
     "aniscoupons:35659",
-    "zedstoreonline:40710"
+    "zedstoreonline:40710",
+    "zedstoreonline:40711"
   ],
   "last_disclaimer_time": 1794524540.9476151,
   "last_calendar_time": 1795177633.1203737,
-  "last_run_time": 1795651532.6317441,
+  "last_run_time": 1795651952.7229023,
   "monitored_channels": {
     "ecksdeal": {
       "last_message_id": 6140,
@@ -5479,8 +5479,8 @@
       "last_check_time": 1793599663.3444748
     },
     "zedstoreonline": {
-      "last_message_id": 40710,
-      "last_check_time": 1795651534.7527075
+      "last_message_id": 40711,
+      "last_check_time": 1795651954.7955625
     },
     "aniscoupons": {
       "last_message_id": 35659,
@@ -34334,6 +34334,16 @@
       "price": 24.5,
       "timestamp": 1795651532.6317441,
       "status": "ACTIVE"
+    },
+    "zedstoreonline:40711": {
+      "channel_msg_id": 3749,
+      "product_id": "1005007027334636",
+      "title": "SomnAmbulist SSD 2.5 120GB",
+      "channel": "zedstoreonline",
+      "source_msg_id": 40711,
+      "price": 9.7,
+      "timestamp": 1795651952.7229023,
+      "status": "ACTIVE"
     }
   },
   "schedule_config": {
@@ -34342,17 +34352,17 @@
     "current_interval_minutes": 5,
     "is_paused": false,
     "night_mode_enabled": true,
-    "last_deal_post_time": 1795651536.7599266,
+    "last_deal_post_time": 1795651956.3397186,
     "night_start_hour_dz": 0,
     "night_end_hour_dz": 8,
     "night_pause_enabled": true,
-    "last_sweep_time": 1795651540.1226313,
+    "last_sweep_time": 1795651958.6105614,
     "last_sweep_times": {
-      "algeria": 1795651536.7137308,
-      "france": 1795651540.1226313
+      "algeria": 1795651956.3070285,
+      "france": 1795651958.6105614
     },
     "last_deal_post_times": {
-      "algeria": 1795651536.7599266
+      "algeria": 1795651956.3397186
     }
   },
   "last_coin_reminder_time": 1795648937.9274871,
@@ -34361,7 +34371,7 @@
   "published_product_channels": {
     "999888104": "test_channel",
     "100500888999777": "lodydeals",
-    "1005007027334636": "aniscoupons",
+    "1005007027334636": "zedstoreonline",
     "1005009734653254": "lodydeals",
     "1005008333859881": "bnddeals",
     "1005009357018019": "bnddeals",
@@ -39000,6 +39010,11 @@
         "channel": "aniscoupons",
         "ts": 1795635234.4315138,
         "price": 9.7
+      },
+      {
+        "channel": "zedstoreonline",
+        "ts": 1795651950.800804,
+        "price": 9.7
       }
     ],
     "1005012899783721": [
@@ -39040,20 +39055,6 @@
         "price": 13.18
       }
     ],
-    "1005008366962319": [
-      {
-        "channel": "aniscoupons",
-        "ts": 1795607502.037579,
-        "price": 30.0
-      }
-    ],
-    "1005008708333999": [
-      {
-        "channel": "zedstoreonline",
-        "ts": 1795608612.731398,
-        "price": 138.0
-      }
-    ],
     "1005012594430190": [
       {
         "channel": "lodydeals",
@@ -39092,13 +39093,6 @@
         "price": 119.5
       }
     ],
-    "1005013005786079": [
-      {
-        "channel": "zedstoreonline",
-        "ts": 1795607309.8816926,
-        "price": 18.2
-      }
-    ],
     "1005013621783525": [
       {
         "channel": "aniscoupons",
@@ -39106,19 +39100,7 @@
         "price": 29.9
       }
     ],
-    "1005007805497968": [
-      {
-        "channel": "zedstoreonline",
-        "ts": 1795607689.7786698,
-        "price": 21.0
-      }
-    ],
     "1005013480169843": [
-      {
-        "channel": "aniscoupons",
-        "ts": 1795608433.9505684,
-        "price": 67.7
-      },
       {
         "channel": "lodydeals",
         "ts": 1795610266.9948483,
