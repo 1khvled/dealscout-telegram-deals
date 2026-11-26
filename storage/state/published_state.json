@@ -945,7 +945,8 @@
     "1005013311318316",
     "TAJMI3AT_lodydeals_46911",
     "1005013511994544",
-    "TAJMI3AT_aniscoupons_35659"
+    "TAJMI3AT_aniscoupons_35659",
+    "1005013126607681"
   ],
   "published_product_timestamps": {
     "1005012973772517": 1794500732.7845657,
@@ -1909,7 +1910,8 @@
     "1005013311318316": 1795642207.2861652,
     "TAJMI3AT_lodydeals_46911": 1795642940.4631746,
     "1005013511994544": 1795650497.61249,
-    "TAJMI3AT_aniscoupons_35659": 1795651154.4471684
+    "TAJMI3AT_aniscoupons_35659": 1795651154.4471684,
+    "1005013126607681": 1795651532.6317441
   },
   "published_titles": [
     "Wireless WiFi Repeater 300Mbps WiFi Extender Amplifier Booster Router",
@@ -3173,7 +3175,8 @@
     "Anker 100W USB C Charger",
     "سماعات اذن فخمة  Moondrop Position IEM",
     "تجميعة عروض هواتف iPhone مستعملة",
-    "😍"
+    "😍",
+    "Baseus 45dB ANC Wireless Headphones Over Ear Bluetooth Earphones Active"
   ],
   "published_title_timestamps": {
     "Xiaomi Redmi Note 17 5G Global Version": 1790857823.0117362,
@@ -4442,10 +4445,10 @@
     "Anker 100W USB C Charger": 1795631548.7472386,
     "سماعات اذن فخمة  Moondrop Position IEM": 1795642207.2861652,
     "تجميعة عروض هواتف iPhone مستعملة": 1795642940.4631746,
-    "😍": 1795651154.4471684
+    "😍": 1795651154.4471684,
+    "Baseus 45dB ANC Wireless Headphones Over Ear Bluetooth Earphones Active": 1795651532.6317441
   },
   "published_post_keys": [
-    "zedstoreonline:40095",
     "aniscoupons:34815",
     "zedstoreonline:40096",
     "aniscoupons:34816",
@@ -5444,11 +5447,12 @@
     "zedstoreonline:40707",
     "zedstoreonline:40708",
     "zedstoreonline:40709",
-    "aniscoupons:35659"
+    "aniscoupons:35659",
+    "zedstoreonline:40710"
   ],
   "last_disclaimer_time": 1794524540.9476151,
   "last_calendar_time": 1795177633.1203737,
-  "last_run_time": 1795651154.4471684,
+  "last_run_time": 1795651532.6317441,
   "monitored_channels": {
     "ecksdeal": {
       "last_message_id": 6140,
@@ -5475,8 +5479,8 @@
       "last_check_time": 1793599663.3444748
     },
     "zedstoreonline": {
-      "last_message_id": 40709,
-      "last_check_time": 1795650505.8412228
+      "last_message_id": 40710,
+      "last_check_time": 1795651534.7527075
     },
     "aniscoupons": {
       "last_message_id": 35659,
@@ -6314,7 +6318,8 @@
     "1005013418407141": 9.18,
     "1005010653156898": 3.0,
     "1005013311318316": 20.79,
-    "1005013511994544": 248.8
+    "1005013511994544": 248.8,
+    "1005013126607681": 24.5
   },
   "channel_published_deals": {
     "aniscoupons:32590": {
@@ -34319,6 +34324,16 @@
       "price": null,
       "timestamp": 1795651154.4471684,
       "status": "ACTIVE"
+    },
+    "zedstoreonline:40710": {
+      "channel_msg_id": 3748,
+      "product_id": "1005013126607681",
+      "title": "Baseus 45dB ANC Wireless Headphones Over Ear Bluetooth Earphones Active",
+      "channel": "zedstoreonline",
+      "source_msg_id": 40710,
+      "price": 24.5,
+      "timestamp": 1795651532.6317441,
+      "status": "ACTIVE"
     }
   },
   "schedule_config": {
@@ -34327,17 +34342,17 @@
     "current_interval_minutes": 5,
     "is_paused": false,
     "night_mode_enabled": true,
-    "last_deal_post_time": 1795650508.1954665,
+    "last_deal_post_time": 1795651536.7599266,
     "night_start_hour_dz": 0,
     "night_end_hour_dz": 8,
     "night_pause_enabled": true,
-    "last_sweep_time": 1795650511.4821656,
+    "last_sweep_time": 1795651540.1226313,
     "last_sweep_times": {
-      "algeria": 1795650508.1443932,
-      "france": 1795650511.4821656
+      "algeria": 1795651536.7137308,
+      "france": 1795651540.1226313
     },
     "last_deal_post_times": {
-      "algeria": 1795650508.1954665
+      "algeria": 1795651536.7599266
     }
   },
   "last_coin_reminder_time": 1795648937.9274871,
@@ -35296,7 +35311,8 @@
     "1005013311318316": "ecksdeal",
     "TAJMI3AT_lodydeals_46911": "lodydeals",
     "1005013511994544": "zedstoreonline",
-    "TAJMI3AT_aniscoupons_35659": "aniscoupons"
+    "TAJMI3AT_aniscoupons_35659": "aniscoupons",
+    "1005013126607681": "zedstoreonline"
   },
   "published_title_channels": {
     "Test Wrench Set": "test_channel",
@@ -36567,7 +36583,8 @@
     "Anker 100W USB C Charger": "lodydeals",
     "سماعات اذن فخمة  Moondrop Position IEM": "ecksdeal",
     "تجميعة عروض هواتف iPhone مستعملة": "lodydeals",
-    "😍": "aniscoupons"
+    "😍": "aniscoupons",
+    "Baseus 45dB ANC Wireless Headphones Over Ear Bluetooth Earphones Active": "zedstoreonline"
   },
   "religious_reminders_history": {
     "mock_rem": "2026-10-02",
