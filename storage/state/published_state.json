@@ -1383,7 +1383,7 @@
     "1005005373032877": 1793600283.7397804,
     "1005007869955343": 1795689538.1907728,
     "1005012644570693": 1793441338.6619778,
-    "1005003949106838": 1795601346.1632485,
+    "1005003949106838": 1795695190.457308,
     "1005012436082838": 1793733101.535615,
     "1005010716206374": 1795521251.4780498,
     "1005012864273120": 1793399494.1323898,
@@ -3662,7 +3662,7 @@
     "Machenike G3 V2 PC Gaming Controller": 1794307249.1472638,
     "⭐️ 🎟️": 1793384286.409923,
     "Vivo X200s (12/255GB)": 1793384294.3328166,
-    "Netac 7400MB/s SSD NVMe 1TB": 1795601346.1632485,
+    "Netac 7400MB/s SSD NVMe 1TB": 1795695190.457308,
     "GIGABYTE B550M AORUS ELITE Motherboard": 1793399464.4760919,
     "Redmi Pad 2  4/64": 1793399472.4016223,
     "MSI MAG X670E TOMAHAWK Motherboard": 1793399494.1323898,
@@ -4477,7 +4477,6 @@
     "لووووووووووووز HTC": 1795690585.1949098
   },
   "published_post_keys": [
-    "zedstoreonline:40127",
     "aniscoupons:34849",
     "aniscoupons:34850",
     "lodydeals:46485",
@@ -5476,11 +5475,12 @@
     "bnddeals:51415",
     "zedstoreonline:40731",
     "aniscoupons:35682",
-    "aniscoupons:35683"
+    "aniscoupons:35683",
+    "zedstoreonline:40732"
   ],
   "last_disclaimer_time": 1794524540.9476151,
   "last_calendar_time": 1795177633.1203737,
-  "last_run_time": 1795693884.6862667,
+  "last_run_time": 1795695190.457308,
   "monitored_channels": {
     "ecksdeal": {
       "last_message_id": 6140,
@@ -5507,8 +5507,8 @@
       "last_check_time": 1793599663.3444748
     },
     "zedstoreonline": {
-      "last_message_id": 40731,
-      "last_check_time": 1795693874.879694
+      "last_message_id": 40734,
+      "last_check_time": 1795695194.0552025
     },
     "aniscoupons": {
       "last_message_id": 35683,
@@ -34697,6 +34697,16 @@
       "price": 271.5,
       "timestamp": 1795693884.6862667,
       "status": "ACTIVE"
+    },
+    "zedstoreonline:40732": {
+      "channel_msg_id": 3783,
+      "product_id": "1005003949106838",
+      "title": "Netac 7400MB/s SSD NVMe 1TB",
+      "channel": "zedstoreonline",
+      "source_msg_id": 40732,
+      "price": 115.9,
+      "timestamp": 1795695190.457308,
+      "status": "ACTIVE"
     }
   },
   "schedule_config": {
@@ -34705,17 +34715,17 @@
     "current_interval_minutes": 5,
     "is_paused": false,
     "night_mode_enabled": true,
-    "last_deal_post_time": 1795693887.7793784,
+    "last_deal_post_time": 1795695195.7678597,
     "night_start_hour_dz": 0,
     "night_end_hour_dz": 8,
     "night_pause_enabled": true,
-    "last_sweep_time": 1795693890.8332283,
+    "last_sweep_time": 1795695198.3027773,
     "last_sweep_times": {
-      "algeria": 1795693887.7414408,
-      "france": 1795693890.8332283
+      "algeria": 1795695195.7332108,
+      "france": 1795695198.3027773
     },
     "last_deal_post_times": {
-      "algeria": 1795693887.7793784
+      "algeria": 1795695195.7678597
     }
   },
   "last_coin_reminder_time": 1795648937.9274871,
@@ -37759,8 +37769,6 @@
   "published_deals_history": {},
   "settings": {},
   "handled_post_keys": [
-    "aniscoupons:34840",
-    "aniscoupons:34841",
     "aniscoupons:34842",
     "aniscoupons:34843",
     "aniscoupons:34844",
@@ -38758,7 +38766,9 @@
     "aniscoupons:35678",
     "aniscoupons:35680",
     "zedstoreonline:40730",
-    "aniscoupons:35681"
+    "aniscoupons:35681",
+    "zedstoreonline:40733",
+    "zedstoreonline:40734"
   ],
   "last_france_cross_promo_time": 1795501542.8708572,
   "next_france_cross_promo_interval_seconds": 208574,
@@ -39352,11 +39362,6 @@
     ],
     "1005007027334636": [
       {
-        "channel": "zedstoreonline",
-        "ts": 1795651950.800804,
-        "price": 9.7
-      },
-      {
         "channel": "aniscoupons",
         "ts": 1795687672.8123364,
         "price": 10.5
@@ -39412,6 +39417,11 @@
         "channel": "aniscoupons",
         "ts": 1795687666.9407883,
         "price": 15.85
+      },
+      {
+        "channel": "zedstoreonline",
+        "ts": 1795695193.1397154,
+        "price": 15.8
       }
     ],
     "1005012285327063": [
@@ -39573,6 +39583,18 @@
         "channel": "aniscoupons",
         "ts": 1795693881.8317354,
         "price": 271.5
+      },
+      {
+        "channel": "zedstoreonline",
+        "ts": 1795695193.8852806,
+        "price": 271.5
+      }
+    ],
+    "1005003949106838": [
+      {
+        "channel": "zedstoreonline",
+        "ts": 1795695187.9221125,
+        "price": 115.9
       }
     ]
   },
