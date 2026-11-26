@@ -1543,14 +1543,20 @@ def extract_telegram_html_text(text_div) -> str:
     # Replace block breaks and emoji container breaks with newlines
     html = re.sub(r'<(?:br|/p|/div|/blockquote|/tg-emoji|tg-emoji)[^>]*>', '\n', html, flags=re.IGNORECASE)
     soup = BeautifulSoup(html, "html.parser")
-    # Preserve inline links (AliExpress or Telegram post links) if URL is not already in anchor text
+    # Preserve inline links (AliExpress or Telegram post links) without duplicating bare scheme-less URLs
     for a in soup.find_all("a", href=True):
         href = a["href"].strip()
         a_text = a.get_text().strip()
         is_ali_href = ("aliexpress.com" in href or "s.click" in href)
         is_tg_post_href = bool(re.search(r't\.me/[A-Za-z0-9_]+/\d+', href, re.I))
-        if (is_ali_href or is_tg_post_href) and href not in a_text:
-            a.replace_with(f"{a_text}\n{href} ")
+        if is_ali_href or is_tg_post_href:
+            bare_href = re.sub(r'^https?://', '', href, flags=re.I).rstrip('/')
+            bare_text = re.sub(r'^https?://', '', a_text, flags=re.I).rstrip('/')
+            if bare_href and bare_href in bare_text:
+                clean_href = re.sub(r'^http://', 'https://', href, flags=re.I)
+                a.replace_with(f"{clean_href} ")
+            elif href not in a_text:
+                a.replace_with(f"{a_text}\n{href} ")
     import html as html_lib
     text = html_lib.unescape(soup.get_text())
     # Normalize excessive newlines
@@ -1591,17 +1597,26 @@ def is_multi_deal_compilation(text: str) -> bool:
     ]
     body_text = "\n".join(body_lines)
     bullets = len(re.findall(r'[\u25c0\u25b6\u25aa\u25ab\U0001F539\U0001F538\U0001F534]\ufe0f?', body_text))
-    # Coupon tiers ("4/25$") are not product prices.
-    price_source = re.sub(r'\d+\s*/\s*\d+\s*\$', ' ', body_text)
+    # Coupon tiers ("4/25$" or "$19/115") and seller vouchers ("قسيمة البائع 1$") are not product prices.
+    price_source = re.sub(r'[$€]?\s*\d+\s*/\s*\d+\s*[$€]?', ' ', body_text)
+    price_source = re.sub(r'(?:احجز\s*)?(?:قسيمة|كوبون)\s*(?:البائع|المتجر)[^\r\n]*', ' ', price_source)
     prices = len(re.findall(r'\$\s*\d+(?:\.\d+)?|\d+(?:\.\d+)?\s*\$', price_source))
     from app.aliexpress.urls import extract_all_urls, is_aliexpress_url, is_potential_shortener
     urls = extract_all_urls(body_text)
-    ali_urls = [u for u in urls if is_aliexpress_url(u) or is_potential_shortener(u)]
+    # Deduplicate by scheme-stripped URL so 'http://s.click...' and 's.click...' count once
+    unique_ali_urls = []
+    seen_bare = set()
+    for u in urls:
+        if is_aliexpress_url(u) or is_potential_shortener(u):
+            bare = re.sub(r'^https?://', '', u, flags=re.I).rstrip('/').lower()
+            if bare not in seen_bare:
+                seen_bare.add(bare)
+                unique_ali_urls.append(u)
 
-    if bullets >= 3 and prices >= 3 and len(ali_urls) >= 3:
+    if bullets >= 3 and prices >= 3 and len(unique_ali_urls) >= 3:
         return True
 
-    if len(ali_urls) >= 3 and prices >= 3:
+    if len(unique_ali_urls) >= 3 and prices >= 3:
         return True
 
     return False

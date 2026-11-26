@@ -737,22 +737,38 @@ def format_multi_deal_tajmi3at_1to1(raw_text: str, link_mapping: Dict[str, str])
     raw_lines = [l.strip() for l in raw_text.splitlines()]
     clean_lines = []
 
+    # Build scheme-insensitive lookup so http://, https://, and bare s.click.aliexpress.com/...
+    # ALL map cleanly and a competitor URL can NEVER leak alongside our monetized URL.
+    norm_link_map = {}
+    mapped_values_bare = set()
+    for k, v in (link_mapping or {}).items():
+        clean_k = k.rstrip('.,;)"\'')
+        bare_k = re.sub(r'^https?://', '', clean_k, flags=re.IGNORECASE).rstrip('/').lower()
+        norm_link_map[clean_k.lower()] = v
+        norm_link_map[bare_k] = v
+        if v:
+            mapped_values_bare.add(re.sub(r'^https?://', '', v.rstrip('.,;)"\''), flags=re.IGNORECASE).rstrip('/').lower())
+
     # 1. Filter competitor mentions and substitute monetized URLs
+    last_mapped_url = None
     for line in raw_lines:
         if not line:
+            last_mapped_url = None
             clean_lines.append("")
             continue
 
-        # Substitute mapped internal post links (e.g. t.me/lodydeals/46831 -> https://t.me/DzAliexpress0/3640)
+        # Substitute mapped internal Telegram post links (e.g. t.me/lodydeals/46831 -> https://t.me/DzAliexpress0/3640)
         # BEFORE stripping bare competitor channel promo lines.
         for orig_u, mapped_u in link_mapping.items():
-            if orig_u in line:
+            if "t.me/" in orig_u.lower() and orig_u in line:
                 line = line.replace(orig_u, mapped_u)
 
         # Skip direct competitor channel links & scam disclaimers
         if any(b in line.lower() for b in ["t.me/lodydeals", "t.me/ecksdeal", "t.me/zedstoreonline", "t.me/aniscoupons", "t.me/bnddeals"]):
             continue
         if any(w in line.lower() for w in ["ابلوكيه", "نصاب", "zed store", "zedstore"]):
+            continue
+        if "لا تنسى استخدام البوت" in line or "استخدام البوت للشراء" in line:
             continue
 
         # Rewrite competitor channel mentions
@@ -765,16 +781,31 @@ def format_multi_deal_tajmi3at_1to1(raw_text: str, link_mapping: Dict[str, str])
             "dzgamingcoinbot", "bnd_hot_deals_coins_bot"
         ]
         if any(b in line.lower() for b in competitor_bot_keywords):
-            clean_lines.append("t.me/Alilo07BOT")
+            clean_lines.append("https://t.me/Alilo07BOT")
             continue
 
-        # Replace AliExpress URLs with verified monetized links
+        # Replace AliExpress URLs with verified monetized links (single scheme-insensitive pass)
         urls = ALIEXPRESS_URL_RE.findall(line)
         if urls:
+            skip_dup_line = False
             for u in urls:
                 clean_u = u.rstrip('.,;)"\'')
-                new_u = link_mapping.get(clean_u, link_mapping.get(u, u))
-                line = line.replace(u, new_u)
+                bare_u = re.sub(r'^https?://', '', clean_u, flags=re.IGNORECASE).rstrip('/').lower()
+                new_u = norm_link_map.get(clean_u.lower()) or norm_link_map.get(bare_u)
+                if new_u:
+                    if bare_u == last_mapped_url and line.strip() == clean_u:
+                        skip_dup_line = True
+                        break
+                    last_mapped_url = bare_u
+                    line = line.replace(u, new_u)
+                elif bare_u in mapped_values_bare:
+                    # Already our own mapped affiliate URL (e.g. substituted from t.me/ post link)
+                    last_mapped_url = bare_u
+                elif "s.click.aliexpress.com" in bare_u and norm_link_map:
+                    # Never emit an unmapped competitor shortlink verbatim
+                    line = line.replace(u, "").strip()
+            if skip_dup_line or not line:
+                continue
 
         clean_lines.append(line)
 

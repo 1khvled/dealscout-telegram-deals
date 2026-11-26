@@ -994,3 +994,36 @@ https://s.click.aliexpress.com/e/_c45HeOwd
 🔸 البوت : https://t.me/CoinsDiscountBot"""
 
     assert is_multi_deal_compilation(two_ssds) is False
+
+
+def test_lody_ryzen_with_bare_http_links_is_not_tajmi3a_and_no_competitor_url_leak():
+    """Regression (@DzAliexpress0/3821 & #3822): Lody HTML links where a_text omits 'http://'
+    must not duplicate URLs, '$19/115' / '1$' must not inflate price count into Tajmi3a,
+    and scheme-less competitor shortlinks must never leak next to our monetized links."""
+    from bs4 import BeautifulSoup
+    from app.aliexpress.parser import extract_telegram_html_text, is_multi_deal_compilation
+    from app.ai.generator import format_multi_deal_tajmi3at_1to1
+
+    html = (
+        '<div class="tgme_widget_message_text">'
+        'تخفيض AMD Ryzen 5 9600X<br/>'
+        'السعر : 150.36$ (137.10€) 🔥<br/>'
+        'رابط <a href="http://s.click.aliexpress.com/e/_c2vQMpvn">s.click.aliexpress.com/e/_c2vQMpvn</a><br/>'
+        'مباشر <a href="http://s.click.aliexpress.com/e/_c41swT1X">s.click.aliexpress.com/e/_c41swT1X</a><br/>'
+        'احجز قسيمة البائع 1$<br/>'
+        'كوبون $19/115 : OTSBF19'
+        '</div>'
+    )
+    txt = extract_telegram_html_text(BeautifulSoup(html, "html.parser").find("div"))
+    assert txt.count("_c2vQMpvn") == 1
+    assert txt.count("_c41swT1X") == 1
+    assert is_multi_deal_compilation(txt) is False
+
+    # Even if bare URLs hit format_multi_deal_tajmi3at_1to1, competitor codes never leak
+    raw_leaked = "رابط s.click.aliexpress.com/e/_c3vRnYrJ\nhttp://s.click.aliexpress.com/e/_c3vRnYrJ"
+    cap = format_multi_deal_tajmi3at_1to1(
+        raw_leaked,
+        {"https://s.click.aliexpress.com/e/_c3vRnYrJ": "https://s.click.aliexpress.com/e/_cOUR7600"},
+    )
+    assert "_c3vRnYrJ" not in cap
+    assert cap.count("https://s.click.aliexpress.com/e/_cOUR7600") == 1
