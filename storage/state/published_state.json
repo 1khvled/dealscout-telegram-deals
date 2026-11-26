@@ -1073,7 +1073,7 @@
     "1005008144855522": 1791026444.9395418,
     "1005008486721357": 1791026452.368309,
     "1005012871566388": 1791026457.7236943,
-    "1005007027334636": 1795687675.5725474,
+    "1005007027334636": 1795714416.3904457,
     "1005006727600702": 1791027043.7332833,
     "1005009916278058": 1791027049.3509357,
     "1005009719082543": 1791027355.6595695,
@@ -1174,7 +1174,7 @@
     "1005011557896041": 1794845264.512838,
     "1005011754993234": 1795612289.48763,
     "1005011735727412": 1791943783.9162278,
-    "1005007916078341": 1795687615.0173059,
+    "1005007916078341": 1795714410.10214,
     "1005006506862816": 1791947519.5815504,
     "1005008072923842": 1791968144.109348,
     "1005013336240375": 1791968149.7952893,
@@ -1745,7 +1745,7 @@
     "1005013485724377": 1795687694.0019987,
     "1005012783197164": 1794606646.2896297,
     "1005012993724126": 1794515920.3397443,
-    "1005012726037568": 1795521223.426411,
+    "1005012726037568": 1795714404.1422307,
     "1005011940143389": 1795291139.3742876,
     "1005010374799328": 1794524370.7043138,
     "1005010487219975": 1794524381.8060858,
@@ -4006,7 +4006,7 @@
     "Haylou Solar NEO 2 Amoled": 1795078113.2768726,
     "HAYLOU S30 Wireless Bluetooth 5.4 Headphones": 1794313321.761044,
     "HAYLOU Solar Ultra GPS": 1794735713.9376893,
-    "NOTHING Watch 3 Pro": 1795687615.0173059,
+    "NOTHING Watch 3 Pro": 1795714410.10214,
     "مشترك كهربائي ORICO PD25W – محطة شحن مكتبية تضم منفذي Type-C ومنفذي USB-A ومقبسين AC لشحن الأجهزة وت": 1793966711.2525856,
     "Baseus Mouse Bluetooth Wireless Computer 1600DPI": 1793966716.198834,
     "Soundcore by Anker Q20i Hybrid Active Noise Cancelling Headphones Wireless": 1794658033.5242174,
@@ -4222,7 +4222,7 @@
     "Portable Magnetic Phone": 1795291139.3742876,
     "QCY T13 ENC Earphone": 1794524375.306614,
     "Retro Bronze Embossed": 1794524381.8060858,
-    "تخزين Kootion X12 Sata SSD": 1795432233.0627322,
+    "تخزين Kootion X12 Sata SSD": 1795714404.1422307,
     "XUNYOU-LINK 4G Modem": 1794562333.914511,
     "HOCO W40 Bluetooth 5.3 Wireless Headphone Music Headset 40mm Drivers": 1794563997.9172754,
     "HOCO E201 ENC Calling": 1794568023.9427352,
@@ -4442,7 +4442,7 @@
     "Vivo X500 12/256": 1795521926.0889337,
     "HONOR MAGIC 9 Pro Max 12/256": 1795521933.931988,
     "Oppo Find X9 Ultra 12/256": 1795521950.475793,
-    "SomnAmbulist SSD 120Gb": 1795687675.5725474,
+    "SomnAmbulist SSD 120Gb": 1795714416.3904457,
     "سماعات الاذن KZ EDX PRO X": 1795527391.8790212,
     "طابعة XL-P801 الحرارية المتنقلة: طباعة A4 فورية، قابلة لإعادة": 1795535124.479775,
     "TCL Alcatel 1023": 1795701094.6472647,
@@ -4485,9 +4485,6 @@
     "NETUM L5 / NT-L8": 1795695716.5576735
   },
   "published_post_keys": [
-    "aniscoupons:34865",
-    "zedstoreonline:40137",
-    "aniscoupons:34866",
     "aniscoupons:34867",
     "aniscoupons:34868",
     "aniscoupons:34871",
@@ -5484,15 +5481,18 @@
     "aniscoupons:35696",
     "aniscoupons:35697",
     "aniscoupons:35698",
-    "aniscoupons:35699"
+    "aniscoupons:35699",
+    "ecksdeal:6141",
+    "zedstoreonline:40740",
+    "aniscoupons:35700"
   ],
   "last_disclaimer_time": 1794524540.9476151,
   "last_calendar_time": 1795177633.1203737,
-  "last_run_time": 1795713798.525022,
+  "last_run_time": 1795714416.3904457,
   "monitored_channels": {
     "ecksdeal": {
-      "last_message_id": 6140,
-      "last_check_time": 1795642209.5104144
+      "last_message_id": 6141,
+      "last_check_time": 1795714406.2836664
     },
     "lodydeals": {
       "last_message_id": 46916,
@@ -5515,12 +5515,12 @@
       "last_check_time": 1793599663.3444748
     },
     "zedstoreonline": {
-      "last_message_id": 40739,
-      "last_check_time": 1795710259.0190666
+      "last_message_id": 40740,
+      "last_check_time": 1795714412.176162
     },
     "aniscoupons": {
-      "last_message_id": 35699,
-      "last_check_time": 1795713800.6436863
+      "last_message_id": 35700,
+      "last_check_time": 1795714418.4667711
     },
     "bnddeals": {
       "last_message_id": 51415,
@@ -5531,7 +5531,7 @@
     "1005012973772517": 217.8,
     "1005010219205081": 57.2,
     "1005007805638431": 22.23,
-    "1005007027334636": 10.5,
+    "1005007027334636": 9.7,
     "1005009054706827": 23.1,
     "1005007961216287": 20.26,
     "1005008233932899": 294.9,
@@ -6194,7 +6194,7 @@
     "1005013485724377": 11.5,
     "1005012783197164": 36.46,
     "1005012993724126": 15.6,
-    "1005012726037568": 7.5,
+    "1005012726037568": 7.54,
     "1005011940143389": 3.89,
     "1005010374799328": 10.49,
     "1005010487219975": 5.49,
@@ -34877,6 +34877,36 @@
       "price": 79.6,
       "timestamp": 1795713798.525022,
       "status": "ACTIVE"
+    },
+    "ecksdeal:6141": {
+      "channel_msg_id": 3801,
+      "product_id": "1005012726037568",
+      "title": "تخزين Kootion X12 Sata SSD",
+      "channel": "ecksdeal",
+      "source_msg_id": 6141,
+      "price": 7.54,
+      "timestamp": 1795714404.1422307,
+      "status": "ACTIVE"
+    },
+    "zedstoreonline:40740": {
+      "channel_msg_id": 3802,
+      "product_id": "1005007916078341",
+      "title": "NOTHING Watch 3 Pro",
+      "channel": "zedstoreonline",
+      "source_msg_id": 40740,
+      "price": 49.3,
+      "timestamp": 1795714410.10214,
+      "status": "ACTIVE"
+    },
+    "aniscoupons:35700": {
+      "channel_msg_id": 3803,
+      "product_id": "1005007027334636",
+      "title": "SomnAmbulist SSD 120Gb",
+      "channel": "aniscoupons",
+      "source_msg_id": 35700,
+      "price": 9.7,
+      "timestamp": 1795714416.3904457,
+      "status": "ACTIVE"
     }
   },
   "schedule_config": {
@@ -34885,17 +34915,17 @@
     "current_interval_minutes": 5,
     "is_paused": false,
     "night_mode_enabled": true,
-    "last_deal_post_time": 1795713801.975147,
+    "last_deal_post_time": 1795714419.4716215,
     "night_start_hour_dz": 0,
     "night_end_hour_dz": 8,
     "night_pause_enabled": true,
-    "last_sweep_time": 1795713806.0550642,
+    "last_sweep_time": 1795714425.5582078,
     "last_sweep_times": {
-      "algeria": 1795713801.9217541,
-      "france": 1795713806.0550642
+      "algeria": 1795714419.4377494,
+      "france": 1795714425.5582078
     },
     "last_deal_post_times": {
-      "algeria": 1795713801.975147
+      "algeria": 1795714419.4716215
     }
   },
   "last_coin_reminder_time": 1795648937.9274871,
@@ -35683,7 +35713,7 @@
     "1005013485724377": "aniscoupons",
     "1005012783197164": "lodydeals",
     "1005012993724126": "aniscoupons",
-    "1005012726037568": "zedstoreonline",
+    "1005012726037568": "ecksdeal",
     "1005011940143389": "lodydeals",
     "1005010374799328": "lodydeals",
     "1005010487219975": "lodydeals",
@@ -39525,6 +39555,11 @@
         "channel": "aniscoupons",
         "ts": 1795689959.8222713,
         "price": 49.3
+      },
+      {
+        "channel": "zedstoreonline",
+        "ts": 1795714407.9718256,
+        "price": 49.3
       }
     ],
     "1005013482874428": [
@@ -39543,6 +39578,11 @@
       {
         "channel": "aniscoupons",
         "ts": 1795698757.3685956,
+        "price": 9.7
+      },
+      {
+        "channel": "aniscoupons",
+        "ts": 1795714414.2662125,
         "price": 9.7
       }
     ],
@@ -39639,6 +39679,11 @@
         "channel": "aniscoupons",
         "ts": 1795687697.1527152,
         "price": 7.5
+      },
+      {
+        "channel": "ecksdeal",
+        "ts": 1795714401.4964662,
+        "price": 7.54
       }
     ],
     "1005008518280704": [
