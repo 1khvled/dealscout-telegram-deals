@@ -964,7 +964,8 @@
     "TAJMI3AT_lodydeals_46922",
     "TAJMI3AT_lodydeals_46923",
     "1005012649756781",
-    "TAJMI3AT_lodydeals_46931"
+    "TAJMI3AT_lodydeals_46931",
+    "TAJMI3AT_aniscoupons_35714"
   ],
   "published_product_timestamps": {
     "1005012973772517": 1794500732.7845657,
@@ -1947,7 +1948,8 @@
     "TAJMI3AT_lodydeals_46922": 1795723341.8747523,
     "TAJMI3AT_lodydeals_46923": 1795723348.1432872,
     "1005012649756781": 1795723352.671799,
-    "TAJMI3AT_lodydeals_46931": 1795725772.5983655
+    "TAJMI3AT_lodydeals_46931": 1795725772.5983655,
+    "TAJMI3AT_aniscoupons_35714": 1795735545.167229
   },
   "published_titles": [
     "Wireless WiFi Repeater 300Mbps WiFi Extender Amplifier Booster Router",
@@ -4500,7 +4502,7 @@
     "Anker 100W USB C Charger": 1795631548.7472386,
     "سماعات اذن فخمة  Moondrop Position IEM": 1795642207.2861652,
     "تجميعة عروض هواتف iPhone مستعملة": 1795642940.4631746,
-    "😍": 1795651154.4471684,
+    "😍": 1795735545.167229,
     "Baseus 45dB ANC Wireless Headphones Over Ear Bluetooth Earphones Active": 1795651532.6317441,
     "تخفيض لـ  ASROCK B850M X WiFi": 1795687609.2309065,
     "خوذة حماية للأطفال مصممة للدراجات": 1795687649.9178689,
@@ -4523,7 +4525,6 @@
     "يأتي ببطارية عملاقة 8000mAh": 1795725772.5983655
   },
   "published_post_keys": [
-    "aniscoupons:34898",
     "aniscoupons:34901",
     "zedstoreonline:40158",
     "aniscoupons:34902",
@@ -5522,11 +5523,12 @@
     "zedstoreonline:40748",
     "zedstoreonline:40750",
     "ecksdeal:6145",
-    "zedstoreonline:40752"
+    "zedstoreonline:40752",
+    "aniscoupons:35714"
   ],
-  "last_disclaimer_time": 1794524540.9476151,
+  "last_disclaimer_time": 1795735529.6558404,
   "last_calendar_time": 1795177633.1203737,
-  "last_run_time": 1795734101.9813778,
+  "last_run_time": 1795735545.167229,
   "monitored_channels": {
     "ecksdeal": {
       "last_message_id": 6146,
@@ -5553,12 +5555,12 @@
       "last_check_time": 1793599663.3444748
     },
     "zedstoreonline": {
-      "last_message_id": 40752,
-      "last_check_time": 1795734104.106567
+      "last_message_id": 40753,
+      "last_check_time": 1795735537.4622455
     },
     "aniscoupons": {
-      "last_message_id": 35713,
-      "last_check_time": 1795726914.0217283
+      "last_message_id": 35714,
+      "last_check_time": 1795735545.3417344
     },
     "bnddeals": {
       "last_message_id": 51416,
@@ -35270,6 +35272,16 @@
       "price": 9.7,
       "timestamp": 1795734101.9813778,
       "status": "ACTIVE"
+    },
+    "aniscoupons:35714": {
+      "channel_msg_id": 3839,
+      "product_id": "TAJMI3AT_aniscoupons_35714",
+      "title": "😍",
+      "channel": "aniscoupons",
+      "source_msg_id": 35714,
+      "price": null,
+      "timestamp": 1795735545.167229,
+      "status": "ACTIVE"
     }
   },
   "schedule_config": {
@@ -35278,17 +35290,17 @@
     "current_interval_minutes": 5,
     "is_paused": false,
     "night_mode_enabled": true,
-    "last_deal_post_time": 1795734106.3920815,
+    "last_deal_post_time": 1795735546.5184715,
     "night_start_hour_dz": 0,
     "night_end_hour_dz": 8,
     "night_pause_enabled": true,
-    "last_sweep_time": 1795734111.5551991,
+    "last_sweep_time": 1795735550.6563802,
     "last_sweep_times": {
-      "algeria": 1795734106.3362126,
-      "france": 1795734111.5551991
+      "algeria": 1795735546.4758394,
+      "france": 1795735550.6563802
     },
     "last_deal_post_times": {
-      "algeria": 1795734106.3920815
+      "algeria": 1795735546.5184715
     }
   },
   "last_coin_reminder_time": 1795648937.9274871,
@@ -36266,7 +36278,8 @@
     "TAJMI3AT_lodydeals_46922": "lodydeals",
     "TAJMI3AT_lodydeals_46923": "lodydeals",
     "1005012649756781": "ecksdeal",
-    "TAJMI3AT_lodydeals_46931": "lodydeals"
+    "TAJMI3AT_lodydeals_46931": "lodydeals",
+    "TAJMI3AT_aniscoupons_35714": "aniscoupons"
   },
   "published_title_channels": {
     "Test Wrench Set": "test_channel",
@@ -38355,8 +38368,6 @@
   "published_deals_history": {},
   "settings": {},
   "handled_post_keys": [
-    "zedstoreonline:40144",
-    "zedstoreonline:40145",
     "lodydeals:46486",
     "lodydeals:46487",
     "lodydeals:46488",
@@ -39354,7 +39365,9 @@
     "zedstoreonline:40749",
     "aniscoupons:35713",
     "zedstoreonline:40751",
-    "ecksdeal:6146"
+    "ecksdeal:6146",
+    "zedstoreonline:40753",
+    "aniscoupons:35714"
   ],
   "last_france_cross_promo_time": 1795501542.8708572,
   "next_france_cross_promo_interval_seconds": 208574,
@@ -40419,6 +40432,20 @@
         "https://s.click.aliexpress.com/e/_c3cb6UUt"
       ],
       "timestamp": 1795725772.6325905
+    },
+    {
+      "title": "😍",
+      "links": [
+        "https://s.click.aliexpress.com/e/_c3DSa9b3",
+        "https://s.click.aliexpress.com/e/_c4T1M6VT",
+        "https://s.click.aliexpress.com/e/_c4aTah8d",
+        "https://s.click.aliexpress.com/e/_c4lbw0HL",
+        "https://t.me/DzAliexpress0/3523",
+        "https://t.me/DzAliexpress0/3664",
+        "https://t.me/DzAliexpress0/3697",
+        "https://t.me/DzAliexpress0/3803"
+      ],
+      "timestamp": 1795735545.2111962
     }
   ]
 }
