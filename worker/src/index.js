@@ -905,30 +905,23 @@ async function generateDeal(pid, rawText, lang, env, deadline) {
 
     text = `🔥 <b>${safeTitle}</b>
 
-${priceLine}🪙 Avec les Coins : jusqu'à <b>70%</b> de réduction en plus
-
-👇 <b>Commandez au meilleur prix :</b>
+${priceLine}🔸 <b>Lien Coins (réduction max) :</b>
 ${links.coin}
+↳ Le produit apparaît en haut avec la remise Coins maximale
 
-━━━━━━━━━━━━━
-⏳ Stock limité — ne traînez pas
+🔸 <b>Lien direct du produit :</b>
+${links.direct}
+
+🔸 <b>Offre Bundle :</b>
+${links.bundle}
+
+🔸 <b>SuperDeals :</b>
+${links.super}
+
 📢 Bons plans du jour : @francedealsdz`;
 
     markup = {
       inline_keyboard: [
-        [
-          { text: "🪙 Meilleur prix (Coins)", url: links.coin },
-          { text: "🛒 Produit", url: links.direct },
-        ],
-        [
-          { text: "⚡ SuperDeals", url: links.super },
-          { text: "📦 Bundle", url: links.bundle },
-        ],
-        [{ text: "⏳ Offre limitée", url: links.limited }],
-        [
-          { text: "🇫🇷 Canal Bons Plans France 🇪🇺", url: CH_FR },
-          { text: "🇩🇿 Canal Bons Plans Algérie 🇩🇿", url: CH_DZ },
-        ],
         [
           {
             text: "🔄 Partager le bot",
@@ -946,30 +939,23 @@ ${links.coin}
 
     text = `🔥 <b>${safeTitle}</b>
 
-${priceLine}🪙 مع تخفيض العملات: خصم إضافي يصل إلى <b>70%</b>
-
-👇 <b>اطلب بأرخص سعر من هنا:</b>
+${priceLine}🔸 <b>رابط المنتج في صفحة العملات :</b>
 ${links.coin}
+↳ تجد المنتج في أعلى الصفحة بأكبر خصم نقاط ممكن
 
-━━━━━━━━━━━━━
-⏳ الكمية محدودة — لا تتأخر
-📢 صفقات مختارة يومياً: @DzAliexpress0`;
+🔸 <b>رابط مباشر للمنتج :</b>
+${links.direct}
+
+🔸 <b>عرض Bundle بدولة الجزائر :</b>
+${links.bundle}
+
+🔸 <b>سوبر ديلز :</b>
+${links.super}
+
+📢 صفقات يومياً : @DzAliexpress0`;
 
     markup = {
       inline_keyboard: [
-        [
-          { text: "🪙 أرخص سعر (عملات)", url: links.coin },
-          { text: "🛒 المنتج مباشرة", url: links.direct },
-        ],
-        [
-          { text: "⚡ سوبر ديلز", url: links.super },
-          { text: "📦 حزمة التوفير", url: links.bundle },
-        ],
-        [{ text: "⏳ عرض محدود", url: links.limited }],
-        [
-          { text: "📢 قناة صفقات الجزائر 🇩🇿", url: CH_DZ },
-          { text: "🇫🇷 قناة صفقات فرنسا 🇪🇺", url: CH_FR },
-        ],
         [
           {
             text: "🔄 مشاركة البوت مع أصدقائك",
