@@ -958,7 +958,8 @@
     "1005010099024201",
     "1005009566266039",
     "TAJMI3AT_lodydeals_46917",
-    "1005013097951450"
+    "1005013097951450",
+    "1005008413359329"
   ],
   "published_product_timestamps": {
     "1005012973772517": 1794500732.7845657,
@@ -1935,7 +1936,8 @@
     "1005010099024201": 1795703510.182712,
     "1005009566266039": 1795714790.201703,
     "TAJMI3AT_lodydeals_46917": 1795714990.9149463,
-    "1005013097951450": 1795716834.125829
+    "1005013097951450": 1795716834.125829,
+    "1005008413359329": 1795717019.2725039
   },
   "published_titles": [
     "Wireless WiFi Repeater 300Mbps WiFi Extender Amplifier Booster Router",
@@ -3211,7 +3213,8 @@
     "Ulanzi MA35 MagSafe Smartphone Camera",
     "NETUM L5 / NT-L8",
     "العرض الأكثر طلباً",
-    "16.8V Cordless Drill Driver"
+    "16.8V Cordless Drill Driver",
+    "يد تحكم   Flydigi Dune Wireless Hall Effect"
   ],
   "published_title_timestamps": {
     "Xiaomi Redmi Note 17 5G Global Version": 1790857823.0117362,
@@ -4492,10 +4495,10 @@
     "Ulanzi MA35 MagSafe Smartphone Camera": 1795695709.9643443,
     "NETUM L5 / NT-L8": 1795695716.5576735,
     "العرض الأكثر طلباً": 1795714990.9149463,
-    "16.8V Cordless Drill Driver": 1795716834.125829
+    "16.8V Cordless Drill Driver": 1795716834.125829,
+    "يد تحكم   Flydigi Dune Wireless Hall Effect": 1795717019.2725039
   },
   "published_post_keys": [
-    "aniscoupons:34875",
     "zedstoreonline:40143",
     "aniscoupons:34877",
     "aniscoupons:34879",
@@ -5494,15 +5497,16 @@
     "aniscoupons:35702",
     "zedstoreonline:40744",
     "aniscoupons:35704",
-    "aniscoupons:35705"
+    "aniscoupons:35705",
+    "ecksdeal:6142"
   ],
   "last_disclaimer_time": 1794524540.9476151,
   "last_calendar_time": 1795177633.1203737,
-  "last_run_time": 1795716846.7283542,
+  "last_run_time": 1795717019.2725039,
   "monitored_channels": {
     "ecksdeal": {
-      "last_message_id": 6141,
-      "last_check_time": 1795714406.2836664
+      "last_message_id": 6142,
+      "last_check_time": 1795717021.3502557
     },
     "lodydeals": {
       "last_message_id": 46918,
@@ -6374,7 +6378,8 @@
     "1005005099575844": 5.0,
     "1005010099024201": 256.8,
     "1005009566266039": 115.6,
-    "1005013097951450": 17.5
+    "1005013097951450": 17.5,
+    "1005008413359329": 25.95
   },
   "channel_published_deals": {
     "aniscoupons:32590": {
@@ -34989,6 +34994,16 @@
       "price": 15.5,
       "timestamp": 1795716846.7283542,
       "status": "ACTIVE"
+    },
+    "ecksdeal:6142": {
+      "channel_msg_id": 3812,
+      "product_id": "1005008413359329",
+      "title": "يد تحكم   Flydigi Dune Wireless Hall Effect",
+      "channel": "ecksdeal",
+      "source_msg_id": 6142,
+      "price": 25.95,
+      "timestamp": 1795717019.2725039,
+      "status": "ACTIVE"
     }
   },
   "schedule_config": {
@@ -34997,17 +35012,17 @@
     "current_interval_minutes": 5,
     "is_paused": false,
     "night_mode_enabled": true,
-    "last_deal_post_time": 1795716849.8423162,
+    "last_deal_post_time": 1795717023.6039064,
     "night_start_hour_dz": 0,
     "night_end_hour_dz": 8,
     "night_pause_enabled": true,
-    "last_sweep_time": 1795716854.6338964,
+    "last_sweep_time": 1795717027.3508174,
     "last_sweep_times": {
-      "algeria": 1795716849.806132,
-      "france": 1795716854.6338964
+      "algeria": 1795717023.5717652,
+      "france": 1795717027.3508174
     },
     "last_deal_post_times": {
-      "algeria": 1795716849.8423162
+      "algeria": 1795717023.6039064
     }
   },
   "last_coin_reminder_time": 1795648937.9274871,
@@ -35979,7 +35994,8 @@
     "1005010099024201": "zedstoreonline",
     "1005009566266039": "zedstoreonline",
     "TAJMI3AT_lodydeals_46917": "lodydeals",
-    "1005013097951450": "zedstoreonline"
+    "1005013097951450": "zedstoreonline",
+    "1005008413359329": "ecksdeal"
   },
   "published_title_channels": {
     "Test Wrench Set": "test_channel",
@@ -37262,7 +37278,8 @@
     "Ulanzi MA35 MagSafe Smartphone Camera": "zedstoreonline",
     "NETUM L5 / NT-L8": "zedstoreonline",
     "العرض الأكثر طلباً": "lodydeals",
-    "16.8V Cordless Drill Driver": "zedstoreonline"
+    "16.8V Cordless Drill Driver": "zedstoreonline",
+    "يد تحكم   Flydigi Dune Wireless Hall Effect": "ecksdeal"
   },
   "religious_reminders_history": {
     "mock_rem": "2026-10-02",
