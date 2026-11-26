@@ -950,7 +950,8 @@
     "TAJMI3AT_lodydeals_46912",
     "1005007398627941",
     "1005006860970176",
-    "1005011859459973"
+    "1005011859459973",
+    "TAJMI3AT_aniscoupons_35676"
   ],
   "published_product_timestamps": {
     "1005012973772517": 1794500732.7845657,
@@ -1378,7 +1379,7 @@
     "1005012839355198": 1794822570.4027405,
     "1005010133081414": 1793467151.9364934,
     "1005005373032877": 1793600283.7397804,
-    "1005007869955343": 1795604607.1627202,
+    "1005007869955343": 1795689538.1907728,
     "1005012644570693": 1793441338.6619778,
     "1005003949106838": 1795601346.1632485,
     "1005012436082838": 1793733101.535615,
@@ -1919,7 +1920,8 @@
     "TAJMI3AT_lodydeals_46912": 1795687609.2309065,
     "1005007398627941": 1795687633.3463068,
     "1005006860970176": 1795687649.9178689,
-    "1005011859459973": 1795688271.3921025
+    "1005011859459973": 1795688271.3921025,
+    "TAJMI3AT_aniscoupons_35676": 1795689543.3716838
   },
   "published_titles": [
     "Wireless WiFi Repeater 300Mbps WiFi Extender Amplifier Booster Router",
@@ -3675,7 +3677,7 @@
     "OnePlus Turbo 6X Pro 8/128": 1795650497.61249,
     "Soundcore by Anker Life Q30 Hybrid Active Noise Cancelling Headphones": 1793448587.6507976,
     "بروجكتور Magcubic HY300 max – أوتو فوكس، Android 14، إضاءة 400 ANSI": 1793448612.7938895,
-    "MAONO PD100X Dynamic Microphone": 1795604607.1627202,
+    "MAONO PD100X Dynamic Microphone": 1795689538.1907728,
     "Soundcore by Anker P20i": 1795371614.0931513,
     "CUSU Memory DDR5  32GB(16GBX2) 5600MHz": 1793448632.7055113,
     "OPPO FIND X9 Pro": 1794486542.3386803,
@@ -4450,7 +4452,7 @@
     "2.4G 300Mbps WiFi Repeater": 1795603029.6819038,
     "Adapter 7 in 1 Type C Hub": 1795603036.3181872,
     "SoundPEATS C30 ANC -52dB": 1795631730.9372938,
-    "📢": 1795620241.490416,
+    "📢": 1795689543.3716838,
     "Soundpeats Q3 Pro ANC": 1795620610.006522,
     "Q86 WIRELESS EARBUDS": 1795623753.9870079,
     "من أفضل عروض هذه التخفيضات": 1795630463.6559675,
@@ -4465,8 +4467,6 @@
     "سارع بحجزه من هنا": 1795688271.3921025
   },
   "published_post_keys": [
-    "aniscoupons:34835",
-    "aniscoupons:34836",
     "aniscoupons:34838",
     "zedstoreonline:40121",
     "aniscoupons:34845",
@@ -5464,11 +5464,13 @@
     "aniscoupons:35663",
     "aniscoupons:35670",
     "aniscoupons:35672",
-    "aniscoupons:35674"
+    "aniscoupons:35674",
+    "aniscoupons:35675",
+    "aniscoupons:35676"
   ],
   "last_disclaimer_time": 1794524540.9476151,
   "last_calendar_time": 1795177633.1203737,
-  "last_run_time": 1795688271.3921025,
+  "last_run_time": 1795689543.3716838,
   "monitored_channels": {
     "ecksdeal": {
       "last_message_id": 6140,
@@ -5499,8 +5501,8 @@
       "last_check_time": 1795688260.2840328
     },
     "aniscoupons": {
-      "last_message_id": 35674,
-      "last_check_time": 1795688273.5281453
+      "last_message_id": 35676,
+      "last_check_time": 1795689543.5934453
     },
     "bnddeals": {
       "last_message_id": 51414,
@@ -34593,6 +34595,26 @@
       "price": 30.0,
       "timestamp": 1795688271.3921025,
       "status": "ACTIVE"
+    },
+    "aniscoupons:35675": {
+      "channel_msg_id": 3774,
+      "product_id": "1005007869955343",
+      "title": "MAONO PD100X Dynamic Microphone",
+      "channel": "aniscoupons",
+      "source_msg_id": 35675,
+      "price": 37.5,
+      "timestamp": 1795689538.1907728,
+      "status": "ACTIVE"
+    },
+    "aniscoupons:35676": {
+      "channel_msg_id": 3775,
+      "product_id": "TAJMI3AT_aniscoupons_35676",
+      "title": "📢",
+      "channel": "aniscoupons",
+      "source_msg_id": 35676,
+      "price": null,
+      "timestamp": 1795689543.3716838,
+      "status": "ACTIVE"
     }
   },
   "schedule_config": {
@@ -34601,17 +34623,17 @@
     "current_interval_minutes": 5,
     "is_paused": false,
     "night_mode_enabled": true,
-    "last_deal_post_time": 1795688274.9102263,
+    "last_deal_post_time": 1795689544.936638,
     "night_start_hour_dz": 0,
     "night_end_hour_dz": 8,
     "night_pause_enabled": true,
-    "last_sweep_time": 1795688678.6367502,
+    "last_sweep_time": 1795689547.5193317,
     "last_sweep_times": {
-      "algeria": 1795688676.0019848,
-      "france": 1795688678.6367502
+      "algeria": 1795689544.879098,
+      "france": 1795689547.5193317
     },
     "last_deal_post_times": {
-      "algeria": 1795688274.9102263
+      "algeria": 1795689544.936638
     }
   },
   "last_coin_reminder_time": 1795648937.9274871,
@@ -35050,7 +35072,7 @@
     "1005012839355198": "lodydeals",
     "1005010133081414": "aniscoupons",
     "1005005373032877": "lodydeals",
-    "1005007869955343": "zedstoreonline",
+    "1005007869955343": "aniscoupons",
     "1005012644570693": "zedstoreonline",
     "1005009118633225": "lodydeals",
     "1005003949106838": "zedstoreonline",
@@ -35575,7 +35597,8 @@
     "TAJMI3AT_lodydeals_46912": "lodydeals",
     "1005007398627941": "zedstoreonline",
     "1005006860970176": "zedstoreonline",
-    "1005011859459973": "aniscoupons"
+    "1005011859459973": "aniscoupons",
+    "TAJMI3AT_aniscoupons_35676": "aniscoupons"
   },
   "published_title_channels": {
     "Test Wrench Set": "test_channel",
@@ -36068,7 +36091,7 @@
     "HONOR 600S 8/256": "zedstoreonline",
     "Soundcore by Anker Life Q30 Hybrid Active Noise Cancelling Headphones": "zedstoreonline",
     "بروجكتور Magcubic HY300 max – أوتو فوكس، Android 14، إضاءة 400 ANSI": "zedstoreonline",
-    "MAONO PD100X Dynamic Microphone": "zedstoreonline",
+    "MAONO PD100X Dynamic Microphone": "aniscoupons",
     "Soundcore by Anker P20i": "aniscoupons",
     "CUSU Memory DDR5  32GB(16GBX2) 5600MHz": "aniscoupons",
     "OPPO FIND X9 Pro": "aniscoupons",
@@ -37649,7 +37672,6 @@
   "published_deals_history": {},
   "settings": {},
   "handled_post_keys": [
-    "zedstoreonline:40111",
     "zedstoreonline:40113",
     "zedstoreonline:40115",
     "zedstoreonline:40116",
@@ -38648,7 +38670,8 @@
     "zedstoreonline:40724",
     "aniscoupons:35671",
     "zedstoreonline:40725",
-    "aniscoupons:35673"
+    "aniscoupons:35673",
+    "aniscoupons:35676"
   ],
   "last_france_cross_promo_time": 1795501542.8708572,
   "next_france_cross_promo_interval_seconds": 208574,
@@ -39406,6 +39429,13 @@
         "ts": 1795688260.0650573,
         "price": 29.6
       }
+    ],
+    "1005007869955343": [
+      {
+        "channel": "aniscoupons",
+        "ts": 1795689536.025031,
+        "price": 37.5
+      }
     ]
   },
   "hot_repost_timestamps": {
@@ -39478,6 +39508,14 @@
         "https://s.click.aliexpress.com/e/_c3axtrwv"
       ],
       "timestamp": 1795687609.267915
+    },
+    {
+      "title": "📢",
+      "links": [
+        "https://s.click.aliexpress.com/e/_c45HeOwd",
+        "https://s.click.aliexpress.com/e/_c4qKKAyv"
+      ],
+      "timestamp": 1795689543.4272208
     }
   ]
 }
