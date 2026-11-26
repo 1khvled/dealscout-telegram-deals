@@ -959,7 +959,8 @@
     "1005009566266039",
     "TAJMI3AT_lodydeals_46917",
     "1005013097951450",
-    "1005008413359329"
+    "1005008413359329",
+    "1005013406777246"
   ],
   "published_product_timestamps": {
     "1005012973772517": 1794500732.7845657,
@@ -1937,7 +1938,8 @@
     "1005009566266039": 1795714790.201703,
     "TAJMI3AT_lodydeals_46917": 1795714990.9149463,
     "1005013097951450": 1795716834.125829,
-    "1005008413359329": 1795717019.2725039
+    "1005008413359329": 1795717019.2725039,
+    "1005013406777246": 1795722914.6443748
   },
   "published_titles": [
     "Wireless WiFi Repeater 300Mbps WiFi Extender Amplifier Booster Router",
@@ -3215,7 +3217,8 @@
     "العرض الأكثر طلباً",
     "16.8V Cordless Drill Driver",
     "يد تحكم   Flydigi Dune Wireless Hall Effect",
-    "Realme Adapter SUPERVOOC Charger"
+    "Realme Adapter SUPERVOOC Charger",
+    "يد تحكم لاسلكية مع شاحن GameSir G7 PRO 8K Global Version"
   ],
   "published_title_timestamps": {
     "Xiaomi Redmi Note 17 5G Global Version": 1790857823.0117362,
@@ -4498,10 +4501,10 @@
     "العرض الأكثر طلباً": 1795714990.9149463,
     "16.8V Cordless Drill Driver": 1795716834.125829,
     "يد تحكم   Flydigi Dune Wireless Hall Effect": 1795717019.2725039,
-    "Realme Adapter SUPERVOOC Charger": 1795722522.4327238
+    "Realme Adapter SUPERVOOC Charger": 1795722522.4327238,
+    "يد تحكم لاسلكية مع شاحن GameSir G7 PRO 8K Global Version": 1795722914.6443748
   },
   "published_post_keys": [
-    "aniscoupons:34881",
     "zedstoreonline:40149",
     "zedstoreonline:40151",
     "aniscoupons:34885",
@@ -5500,15 +5503,16 @@
     "zedstoreonline:40746",
     "aniscoupons:35710",
     "zedstoreonline:40747",
-    "lodydeals:46920"
+    "lodydeals:46920",
+    "ecksdeal:6143"
   ],
   "last_disclaimer_time": 1794524540.9476151,
   "last_calendar_time": 1795177633.1203737,
-  "last_run_time": 1795722522.4327238,
+  "last_run_time": 1795722914.6443748,
   "monitored_channels": {
     "ecksdeal": {
-      "last_message_id": 6142,
-      "last_check_time": 1795717021.3502557
+      "last_message_id": 6143,
+      "last_check_time": 1795722916.8150063
     },
     "lodydeals": {
       "last_message_id": 46920,
@@ -6381,7 +6385,8 @@
     "1005010099024201": 256.8,
     "1005009566266039": 115.6,
     "1005013097951450": 17.5,
-    "1005008413359329": 25.95
+    "1005008413359329": 25.95,
+    "1005013406777246": 96.0
   },
   "channel_published_deals": {
     "aniscoupons:32590": {
@@ -35076,6 +35081,16 @@
       "price": 11.38,
       "timestamp": 1795722522.4327238,
       "status": "ACTIVE"
+    },
+    "ecksdeal:6143": {
+      "channel_msg_id": 3820,
+      "product_id": "1005013406777246",
+      "title": "يد تحكم لاسلكية مع شاحن GameSir G7 PRO 8K Global Version",
+      "channel": "ecksdeal",
+      "source_msg_id": 6143,
+      "price": 96.0,
+      "timestamp": 1795722914.6443748,
+      "status": "ACTIVE"
     }
   },
   "schedule_config": {
@@ -35084,17 +35099,17 @@
     "current_interval_minutes": 5,
     "is_paused": false,
     "night_mode_enabled": true,
-    "last_deal_post_time": 1795722527.3245876,
+    "last_deal_post_time": 1795722919.601872,
     "night_start_hour_dz": 0,
     "night_end_hour_dz": 8,
     "night_pause_enabled": true,
-    "last_sweep_time": 1795722531.326898,
+    "last_sweep_time": 1795722924.7802527,
     "last_sweep_times": {
-      "algeria": 1795722527.2925434,
-      "france": 1795722531.326898
+      "algeria": 1795722919.5509734,
+      "france": 1795722924.7802527
     },
     "last_deal_post_times": {
-      "algeria": 1795722527.3245876
+      "algeria": 1795722919.601872
     }
   },
   "last_coin_reminder_time": 1795648937.9274871,
@@ -36067,7 +36082,8 @@
     "1005009566266039": "zedstoreonline",
     "TAJMI3AT_lodydeals_46917": "lodydeals",
     "1005013097951450": "zedstoreonline",
-    "1005008413359329": "ecksdeal"
+    "1005008413359329": "ecksdeal",
+    "1005013406777246": "ecksdeal"
   },
   "published_title_channels": {
     "Test Wrench Set": "test_channel",
@@ -37352,7 +37368,8 @@
     "العرض الأكثر طلباً": "lodydeals",
     "16.8V Cordless Drill Driver": "zedstoreonline",
     "يد تحكم   Flydigi Dune Wireless Hall Effect": "ecksdeal",
-    "Realme Adapter SUPERVOOC Charger": "lodydeals"
+    "Realme Adapter SUPERVOOC Charger": "lodydeals",
+    "يد تحكم لاسلكية مع شاحن GameSir G7 PRO 8K Global Version": "ecksdeal"
   },
   "religious_reminders_history": {
     "mock_rem": "2026-10-02",
