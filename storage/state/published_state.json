@@ -954,7 +954,8 @@
     "TAJMI3AT_aniscoupons_35676",
     "1005004504846008",
     "1005006150092990",
-    "1005005099575844"
+    "1005005099575844",
+    "1005010099024201"
   ],
   "published_product_timestamps": {
     "1005012973772517": 1794500732.7845657,
@@ -1917,7 +1918,7 @@
     "TAJMI3AT_lodydeals_46904": 1795630463.6559675,
     "1005013311318316": 1795642207.2861652,
     "TAJMI3AT_lodydeals_46911": 1795642940.4631746,
-    "1005013511994544": 1795650497.61249,
+    "1005013511994544": 1795703519.4115026,
     "TAJMI3AT_aniscoupons_35659": 1795651154.4471684,
     "1005013126607681": 1795651532.6317441,
     "TAJMI3AT_lodydeals_46912": 1795687609.2309065,
@@ -1927,7 +1928,8 @@
     "TAJMI3AT_aniscoupons_35676": 1795689543.3716838,
     "1005004504846008": 1795690569.2720664,
     "1005006150092990": 1795690577.381119,
-    "1005005099575844": 1795695716.5576735
+    "1005005099575844": 1795695716.5576735,
+    "1005010099024201": 1795703510.182712
   },
   "published_titles": [
     "Wireless WiFi Repeater 300Mbps WiFi Extender Amplifier Booster Router",
@@ -3234,7 +3236,7 @@
     "Attack Shark x AJAZZ AJ159P Gaming Mouse With Magnetic Charging Dock, PAW3395 Sensor": 1790888886.4062796,
     "OPPO A6 Pro 8/256": 1794299257.6397457,
     "realme P3 5G 8/256": 1793613419.7534997,
-    "OnePlus Turbo 6X Pro 5G": 1795546736.9831076,
+    "OnePlus Turbo 6X Pro 5G": 1795703519.4115026,
     "Xiaomi Pad 7  12/256GB": 1790897106.449474,
     "ATTACK SHARK L90 Flodable Gaming Headset": 1791104165.8542082,
     "SomnAmbulist SSD  120GB": 1791104047.0967803,
@@ -3904,7 +3906,7 @@
     "Xiaomi Redmi 17 Smartphone 128G 256G ROM 120Hz 6.9\" Display 50MP 45W Turbo": 1793613465.8475375,
     "AMD Ryzen 5 7500F": 1793613478.3592212,
     "AMD Ryzen R9 9900X": 1793613486.2912338,
-    "Lenovo Xiaoxin Pad Pro GT  8/256": 1795341706.1859498,
+    "Lenovo Xiaoxin Pad Pro GT  8/256": 1795703510.182712,
     "China Version Xiaomi WiFi Router Amplifier Pro": 1793613515.3490868,
     "SMAILWOLF RS7 Bluetooth wireless gaming mouse PAW3311 macro driver laptop": 1793613519.9635994,
     "Original Xiaomi Mi Small Backpack": 1793613524.8970137,
@@ -4483,8 +4485,6 @@
     "NETUM L5 / NT-L8": 1795695716.5576735
   },
   "published_post_keys": [
-    "zedstoreonline:40131",
-    "zedstoreonline:40132",
     "aniscoupons:34855",
     "aniscoupons:34856",
     "aniscoupons:34858",
@@ -5482,11 +5482,13 @@
     "aniscoupons:35684",
     "aniscoupons:35686",
     "aniscoupons:35687",
-    "aniscoupons:35689"
+    "aniscoupons:35689",
+    "zedstoreonline:40738",
+    "aniscoupons:35690"
   ],
   "last_disclaimer_time": 1794524540.9476151,
   "last_calendar_time": 1795177633.1203737,
-  "last_run_time": 1795701094.6472647,
+  "last_run_time": 1795703519.4115026,
   "monitored_channels": {
     "ecksdeal": {
       "last_message_id": 6140,
@@ -5513,12 +5515,12 @@
       "last_check_time": 1793599663.3444748
     },
     "zedstoreonline": {
-      "last_message_id": 40737,
-      "last_check_time": 1795696534.7050586
+      "last_message_id": 40738,
+      "last_check_time": 1795703512.308126
     },
     "aniscoupons": {
-      "last_message_id": 35689,
-      "last_check_time": 1795701096.745608
+      "last_message_id": 35690,
+      "last_check_time": 1795703521.5325077
     },
     "bnddeals": {
       "last_message_id": 51415,
@@ -6352,14 +6354,15 @@
     "1005013418407141": 9.18,
     "1005010653156898": 3.0,
     "1005013311318316": 20.79,
-    "1005013511994544": 248.8,
+    "1005013511994544": 249.4,
     "1005013126607681": 24.5,
     "1005007398627941": 10.6,
     "1005006860970176": 18.7,
     "1005011859459973": 30.0,
     "1005004504846008": 49.0,
     "1005006150092990": 11.55,
-    "1005005099575844": 5.0
+    "1005005099575844": 5.0,
+    "1005010099024201": 256.8
   },
   "channel_published_deals": {
     "aniscoupons:32590": {
@@ -34784,6 +34787,26 @@
       "price": 6.84,
       "timestamp": 1795701094.6472647,
       "status": "ACTIVE"
+    },
+    "zedstoreonline:40738": {
+      "channel_msg_id": 3791,
+      "product_id": "1005010099024201",
+      "title": "Lenovo Xiaoxin Pad Pro GT  8/256",
+      "channel": "zedstoreonline",
+      "source_msg_id": 40738,
+      "price": 256.8,
+      "timestamp": 1795703510.182712,
+      "status": "ACTIVE"
+    },
+    "aniscoupons:35690": {
+      "channel_msg_id": 3792,
+      "product_id": "1005013511994544",
+      "title": "OnePlus Turbo 6X Pro 5G",
+      "channel": "aniscoupons",
+      "source_msg_id": 35690,
+      "price": 249.4,
+      "timestamp": 1795703519.4115026,
+      "status": "ACTIVE"
     }
   },
   "schedule_config": {
@@ -34792,17 +34815,17 @@
     "current_interval_minutes": 5,
     "is_paused": false,
     "night_mode_enabled": true,
-    "last_deal_post_time": 1795701098.1788545,
+    "last_deal_post_time": 1795703522.9733636,
     "night_start_hour_dz": 0,
     "night_end_hour_dz": 8,
     "night_pause_enabled": true,
-    "last_sweep_time": 1795702866.871923,
+    "last_sweep_time": 1795703526.104511,
     "last_sweep_times": {
-      "algeria": 1795702864.5407016,
-      "france": 1795702866.871923
+      "algeria": 1795703522.9172761,
+      "france": 1795703526.104511
     },
     "last_deal_post_times": {
-      "algeria": 1795701098.1788545
+      "algeria": 1795703522.9733636
     }
   },
   "last_coin_reminder_time": 1795648937.9274871,
@@ -35760,7 +35783,7 @@
     "TAJMI3AT_lodydeals_46904": "lodydeals",
     "1005013311318316": "ecksdeal",
     "TAJMI3AT_lodydeals_46911": "lodydeals",
-    "1005013511994544": "zedstoreonline",
+    "1005013511994544": "aniscoupons",
     "TAJMI3AT_aniscoupons_35659": "aniscoupons",
     "1005013126607681": "zedstoreonline",
     "TAJMI3AT_lodydeals_46912": "lodydeals",
@@ -35770,7 +35793,8 @@
     "TAJMI3AT_aniscoupons_35676": "aniscoupons",
     "1005004504846008": "zedstoreonline",
     "1005006150092990": "aniscoupons",
-    "1005005099575844": "zedstoreonline"
+    "1005005099575844": "zedstoreonline",
+    "1005010099024201": "zedstoreonline"
   },
   "published_title_channels": {
     "Test Wrench Set": "test_channel",
@@ -39732,6 +39756,13 @@
         "channel": "aniscoupons",
         "ts": 1795701091.539101,
         "price": 6.84
+      }
+    ],
+    "1005013511994544": [
+      {
+        "channel": "aniscoupons",
+        "ts": 1795703516.9090648,
+        "price": 249.4
       }
     ]
   },
