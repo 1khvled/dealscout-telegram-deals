@@ -82,8 +82,9 @@ async def publish_incoming_multi_deal_post(raw_text: str, source_channel: str, s
         ali_urls = [u for u in urls if is_aliexpress_url(u) or is_potential_shortener(u)]
 
         # Also resolve internal Telegram post links (e.g. t.me/lodydeals/46831)
-        # to our own published @DzAliexpress0 post (or fallback to monetized AliExpress link).
-        tg_refs = re.findall(r'((?:https?://)?t\.me/([A-Za-z0-9_]+)/(\d+))', raw_text, re.IGNORECASE)
+        # Strip any malformed '%D9%80' / tatweel glued onto t.me URLs first.
+        clean_for_refs = re.sub(r'(?:https?://)?(?:%D9%80|\u0640)+((?:https?://)?t\.me/)', r'\1', raw_text, flags=re.IGNORECASE)
+        tg_refs = re.findall(r'((?:https?://)?t\.me/([A-Za-z0-9_]+)/(\d+))', clean_for_refs, re.IGNORECASE)
         monitored_set = {c.lower() for c in CHANNELS}
 
         link_mapping = {}
@@ -336,7 +337,7 @@ async def publish_coupon_bulletin(raw_text: str, source_channel: str, source_msg
             build_bulletin_caption, event_from_text, compact_photo_caption,
         )
         from app.publisher.state_tracker import (
-            is_coupon_bulletin_already_published, record_post_published,
+            is_coupon_bulletin_already_published, record_coupon_bulletin_published, record_post_published,
         )
         from app.media.renderer import media_renderer
 
@@ -445,6 +446,12 @@ async def publish_coupon_bulletin(raw_text: str, source_channel: str, source_msg
                 product_id=f"COUPONBULLETIN_{source_channel}_{source_msg_id}",
                 title=first_line[:60],
                 channel_msg_id=new_msg_id,
+            )
+            record_coupon_bulletin_published(
+                promo_name=event_from_text(raw_text) or "coupon bulletin",
+                coupon_list=[{"tier": t, "code": c} for t, c in coupons],
+                channel_msg_id=new_msg_id,
+                channel_id=target_chat,
             )
             print(f"  [COUPON BULLETIN PUBLISHED] {source_channel} #{source_msg_id} -> DzAliexpress0 #{new_msg_id}!")
             return True
@@ -1046,10 +1053,11 @@ async def collect_and_post_last_10_deals(force: bool = False, force_tajmi3at: bo
                         record_post_handled(ch, msg_id)
                         continue
 
-                    # 5.5. Coupon walls are not products. Without this guard a coupon
-                    # bulletin gets a fake product price and is published as a real deal.
-                    if not extracted.is_coupon_list and (
-                        is_coupon_bulletin_post(extracted.title or "", raw_text)
+                    # 5.5. Coupon walls are not single product deals (handled exclusively by 3.5).
+                    # Without this guard a 2-variant deal misread as COUPONS_* turns into a fake $15 post.
+                    if (
+                        extracted.is_coupon_list
+                        or is_coupon_bulletin_post(extracted.title or "", raw_text)
                         or str(extracted.product_id or "").startswith("COUPONS_")
                     ):
                         print(f"  [NOT A PRODUCT] Coupon wall misread as a deal: #{msg_id} from {ch} -> '{extracted.title}'")
@@ -1378,19 +1386,7 @@ async def collect_and_post_last_10_deals(force: bool = False, force_tajmi3at: bo
                                 except Exception:
                                     post_msg_id = None
 
-                            # Auto-pin coupon bulletins
-                            if extracted.is_coupon_list and post_msg_id:
-                                try:
-                                    bot_tok = get_bot_token()
-                                    target_ch = getattr(settings, "TARGET_CHANNEL_ID", None) or getattr(settings, "TELEGRAM_CHANNEL", None) or os.getenv("TARGET_CHANNEL_ID", "@DzAliexpress0")
-                                    async with httpx.AsyncClient(timeout=10.0) as pc:
-                                        await pc.post(
-                                            f"https://api.telegram.org/bot{bot_tok}/pinChatMessage",
-                                            json={"chat_id": target_ch, "message_id": post_msg_id, "disable_notification": True}
-                                        )
-                                except Exception as pe:
-                                    logger.warning(f"Failed to auto-pin coupon bulletin {post_msg_id}: {pe}")
-
+                            target_ch = getattr(settings, "TARGET_CHANNEL_ID", None) or getattr(settings, "TELEGRAM_CHANNEL", None) or os.getenv("TARGET_CHANNEL_ID", "@DzAliexpress0")
                             record_post_published(
                                 ch, msg_id, deal.product_id, deal.title,
                                 channel_msg_id=post_msg_id,

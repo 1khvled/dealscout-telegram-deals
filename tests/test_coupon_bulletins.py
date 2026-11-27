@@ -190,3 +190,21 @@ def test_linkless_coupon_news_announcement_is_detected_and_formatted():
     assert "5 مرات" in cap
     assert "الجمعة 27 نوفمبر" in cap
     assert our[0] in cap
+
+
+def test_ecksdeal_6147_https_is_never_extracted_as_coupon_code():
+    from app.ai.coupon_bulletins import single_coupon_from_text
+
+    text = "احجزها من هنا : https://s.click.aliexpress.com/e/_c4rA2E3J"
+    assert single_coupon_from_text(text) is None
+
+
+def test_coupon_announcement_omits_scheduled_phrase_without_date_or_time():
+    from app.ai.coupon_bulletins import format_coupon_announcement_bulletin
+
+    raw = "يمكن حجز الكوبونات 5 مرات\nhttps://s.click.aliexpress.com/e/_c4rA2E3J"
+    apply_url = "https://s.click.aliexpress.com/e/_c3mHO3JF"
+    cap = format_coupon_announcement_bulletin("66/405$", "OTSBF66", raw, apply_url)
+    assert "في الموعد المحدد" not in cap
+    assert "طبّق الكوبون مباشرة في صفحة الدفع عبر هذا الرابط" in cap
+    assert apply_url in cap

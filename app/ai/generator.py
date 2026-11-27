@@ -662,7 +662,7 @@ def merge_floating_emoji_lines(lines: List[str]) -> List[str]:
             continue
 
         if is_symbol_only(line):
-            if any(b in line for b in ["◀️", "▶️", "▫️", "▪️", "🔹", "🔸", "🔴", "📌", "✅", "🏷️", "📦"]):
+            if any(b in line for b in ["◀️", "▶️", "▫️", "▪️", "🔹", "🔸", "🔴", "📌", "✅", "🏷️", "📦", "📣"]):
                 j = i + 1
                 while j < len(lines) and not lines[j].strip():
                     j += 1
@@ -757,11 +757,17 @@ def format_multi_deal_tajmi3at_1to1(raw_text: str, link_mapping: Dict[str, str])
             clean_lines.append("")
             continue
 
+        # Strip malformed URL-encoded/Arabic tatweel glued onto URLs (e.g. 'http://%D9%80t.me/...' or 'ـt.me/...')
+        line = re.sub(r'(?:https?://)?(?:%D9%80|\u0640)+((?:https?://)?(?:t\.me|s\.click))', r'\1', line, flags=re.IGNORECASE)
+
         # Substitute mapped internal Telegram post links (e.g. t.me/lodydeals/46831 -> https://t.me/DzAliexpress0/3640)
         # BEFORE stripping bare competitor channel promo lines.
         for orig_u, mapped_u in link_mapping.items():
             if "t.me/" in orig_u.lower() and orig_u in line:
                 line = line.replace(orig_u, mapped_u)
+
+        # Clean any leftover tatweel glued to a mapped https:// URL ('ـhttps://...')
+        line = re.sub(r'(^|\s)\u0640+(https?://)', r'\1\2', line)
 
         # Skip direct competitor channel links & scam disclaimers
         if any(b in line.lower() for b in ["t.me/lodydeals", "t.me/ecksdeal", "t.me/zedstoreonline", "t.me/aniscoupons", "t.me/bnddeals"]):
@@ -800,6 +806,9 @@ def format_multi_deal_tajmi3at_1to1(raw_text: str, link_mapping: Dict[str, str])
                     line = line.replace(u, new_u)
                 elif bare_u in mapped_values_bare:
                     # Already our own mapped affiliate URL (e.g. substituted from t.me/ post link)
+                    if bare_u == last_mapped_url and line.strip() == clean_u:
+                        skip_dup_line = True
+                        break
                     last_mapped_url = bare_u
                 elif "s.click.aliexpress.com" in bare_u and norm_link_map:
                     # Never emit an unmapped competitor shortlink verbatim
@@ -845,8 +854,8 @@ def format_multi_deal_tajmi3at_1to1(raw_text: str, link_mapping: Dict[str, str])
     caption = re.sub(r'^(?:أفضل|افضل)\s+العروض\s+في\s+التخزين\s+SSD.*', r'🔥 أقوى عروض وحدات التخزين SSD 💥\n', caption, flags=re.MULTILINE)
     caption = re.sub(r'^(?:أفضل|افضل)\s+العروض\s+في\s+(.*)', r'🔥 أقوى عروض \1 💥\n', caption, flags=re.MULTILINE)
 
-    # 8. Separate product blocks with a blank line before ◀️
-    caption = re.sub(r'([^\n])\n(◀️[^\n]+)', r'\1\n\n\2', caption)
+    # 8. Separate product blocks with a blank line before ◀️ / 📣 / ✅
+    caption = re.sub(r'([^\n])\n((?:◀️|📣|✅)[^\n]+)', r'\1\n\n\2', caption)
 
     # 9. Ensure official footer attribution
     if "Alilo07BOT" not in caption:
@@ -964,7 +973,7 @@ def format_competitor_to_lody_1to1(raw_text: str, affiliate_url: str, coupon_cod
             continue
         if any(w in l_str for w in ["فالبلاد", "السوق", "محلي", "بطارية", "شاشة", "معالج", "كاميرا", "صوت", "عزل", "نزول", "هبوط", "تصفية", "باطل", "لافار", "فرصة", "أقوى", "اقوى"]):
             mod = modify_deal_hooks_and_phrasing(l_str)
-            cleaned_hook = re.sub(r'^[🚨🔥⚡✨💥\:\-\|\t\s]+|[🚨🔥⚡✨💥\:\-\|\t\s]+$', '', mod).strip()
+            cleaned_hook = re.sub(r'^[🚨🔥⚡✨💥\:\-\|\t\s\.]+|[🚨🔥⚡✨💥\:\-\|\t\s]+$', '', mod).strip()
             cleaned_hook = re.sub(r'[\:\-\|\t]+', ' ', cleaned_hook).strip()
             if len(cleaned_hook) >= 4:
                 if "دج" in cleaned_hook:
@@ -977,7 +986,9 @@ def format_competitor_to_lody_1to1(raw_text: str, affiliate_url: str, coupon_cod
     def _sanitize_title(t: str) -> str:
         if not t:
             return "AliExpress Deal"
-        t = re.sub(r'^[🚨🔥⚡⭐⭐️✅💎🎫🎟️📎🔗🔸▪️🔹❗️😮😍🙏🌷\-\s:]+', '', t).strip()
+        t = re.sub(r'^[🚨🔥⚡⭐⭐️✅💎🎫🎟️📎🔗🔸▪️🔹❗️😮😍🙏🌷\-\s:\.]+', '', t).strip()
+        t = re.sub(r'^(?:ال|الـ)\s+(?=[A-Za-z])', '', t).strip()
+        t = re.sub(r'\s+بـ?\s*\d+(?:[\.,]\d+)?\s*$', '', t).strip()
         t = re.sub(r'[\$€💵].*$', '', t).strip()
         for sep in [' – ', ' — ', ' | ', ' - ', ' –', ' —', ' |']:
             if sep in t:

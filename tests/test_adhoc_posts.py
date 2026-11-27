@@ -42,3 +42,10 @@ def test_adhoc_dedup_prevents_cross_channel_reposts(tmp_path, monkeypatch):
     is_dup, reason = state_tracker.is_recent_adhoc_duplicate(title)
     assert is_dup is True
     assert "Duplicate adhoc" in reason
+
+
+def test_zedstoreonline_40754_short_link_tease_is_rejected_by_classify_adhoc_post():
+    from app.ai.adhoc_posts import classify_adhoc_post
+
+    text = "الححححححححق قم بالحجز من هنا\nhttps://s.click.aliexpress.com/e/_c37eVVtf"
+    assert classify_adhoc_post(text) is None

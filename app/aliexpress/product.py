@@ -96,8 +96,9 @@ class ProductExtractor:
             return False
 
         normalized = re.sub(r'[\u0640]', '', text or "")
-        has_price_label = bool(re.search(r'السعر|price\s*[:：]', normalized, re.IGNORECASE))
-        if not (usd_price or eur_price) or not has_price_label:
+        has_price_label = bool(re.search(r'السعر|price\s*[:：]|💵', normalized, re.IGNORECASE))
+        has_product_specs = bool(re.search(r'\b\d+\s*(?:GB|TB|MB|W|mAh|Hz)\b', normalized, re.IGNORECASE))
+        if not (usd_price or eur_price):
             return True
 
         for cand_url in ali_urls:
@@ -110,6 +111,8 @@ class ProductExtractor:
                 continue
             if probe and probe.product_id:
                 return False
+        if not has_price_label and not has_product_specs:
+            return True
         return True
 
     async def extract_from_message(

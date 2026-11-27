@@ -1545,13 +1545,13 @@ def extract_telegram_html_text(text_div) -> str:
     soup = BeautifulSoup(html, "html.parser")
     # Preserve inline links (AliExpress or Telegram post links) without duplicating bare scheme-less URLs
     for a in soup.find_all("a", href=True):
-        href = a["href"].strip()
+        href = re.sub(r'(?:%D9%80|\u0640)+', '', a["href"].strip(), flags=re.IGNORECASE)
         a_text = a.get_text().strip()
         is_ali_href = ("aliexpress.com" in href or "s.click" in href)
         is_tg_post_href = bool(re.search(r't\.me/[A-Za-z0-9_]+/\d+', href, re.I))
         if is_ali_href or is_tg_post_href:
             bare_href = re.sub(r'^https?://', '', href, flags=re.I).rstrip('/')
-            bare_text = re.sub(r'^https?://', '', a_text, flags=re.I).rstrip('/')
+            bare_text = re.sub(r'^https?://', '', re.sub(r'\u0640+', '', a_text), flags=re.I).rstrip('/')
             if bare_href and bare_href in bare_text:
                 clean_href = re.sub(r'^http://', 'https://', href, flags=re.I)
                 a.replace_with(f"{clean_href} ")

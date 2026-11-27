@@ -56,6 +56,20 @@ def single_coupon_from_text(raw_text: str) -> Optional[Coupon]:
     if not raw_text:
         return None
     norm = re.sub(r'\u0640', '', raw_text)
+    COUPON_CODE_BLACKLIST = {
+        "HTTP", "HTTPS", "S.CLICK", "ALIEXPRESS", "HTML", "HTML5",
+        "LINK", "URL", "TELEGRAM", "NONE", "NULL", "TRUE", "FALSE",
+    }
+
+    def _valid_code(cand: str, end_pos: int) -> bool:
+        c = cand.strip().upper()
+        if not c or c in COUPON_CODE_BLACKLIST or is_competitor_branded_code(c):
+            return False
+        # Never treat a URL scheme ('https://...') as a coupon code
+        if norm[end_pos:end_pos + 3] == "://":
+            return False
+        return bool(re.search(r'\d', c))
+
     m_val = re.search(
         r'(?:كوبون|كود|coupon|code|قسيمة)[^\r\n:\d$€]{0,30}'
         r'([$€]?\s*\d+(?:\.\d+)?\s*[$€]?(?:\s*/\s*[$€]?\s*\d+(?:\.\d+)?)?\s*[$€]?)'
@@ -63,18 +77,16 @@ def single_coupon_from_text(raw_text: str) -> Optional[Coupon]:
         norm,
         re.IGNORECASE,
     )
-    if m_val:
+    if m_val and _valid_code(m_val.group(2), m_val.end(2)):
         raw_val = re.sub(r'\s+', '', m_val.group(1) or "")
         raw_val = re.sub(r'[$€](?=/)', '', raw_val)
         code = m_val.group(2).strip().upper()
-        if is_competitor_branded_code(code):
-            return None
         if raw_val and not re.search(r'[$€]', raw_val):
             raw_val = f"{raw_val}$"
         return (raw_val, code)
 
     pairs = coupons_from_text(norm)
-    if len(pairs) == 1 and pairs[0][1] and not is_competitor_branded_code(pairs[0][1]):
+    if len(pairs) == 1 and pairs[0][1] and pairs[0][1].upper() not in COUPON_CODE_BLACKLIST and not is_competitor_branded_code(pairs[0][1]):
         return pairs[0]
 
     m_plain = re.search(
@@ -82,10 +94,8 @@ def single_coupon_from_text(raw_text: str) -> Optional[Coupon]:
         norm,
         re.IGNORECASE,
     )
-    if m_plain:
-        code = m_plain.group(1).strip().upper()
-        if not is_competitor_branded_code(code):
-            return ("", code)
+    if m_plain and _valid_code(m_plain.group(1), m_plain.end(1)):
+        return ("", m_plain.group(1).strip().upper())
     return None
 
 
@@ -278,9 +288,14 @@ def format_coupon_announcement_bulletin(
     if details:
         lines.append("\n".join(details))
 
-    lines.append(
-        f"🛒 <b>جهّزوا سلاتكم مسبقاً وادخلوا عبر الرابط في الموعد المحدد ⤵️</b>\n{apply_url}"
-    )
+    if m_date or m_time:
+        lines.append(
+            f"🛒 <b>جهّزوا سلاتكم مسبقاً وادخلوا عبر الرابط في الموعد المحدد ⤵️</b>\n{apply_url}"
+        )
+    else:
+        lines.append(
+            f"🔹 <b>طبّق الكوبون مباشرة في صفحة الدفع عبر هذا الرابط ⤵️</b>\n{apply_url}"
+        )
     lines.append(FOOTER)
     return "\n\n".join(lines).strip()
 

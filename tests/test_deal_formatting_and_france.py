@@ -1027,3 +1027,93 @@ def test_lody_ryzen_with_bare_http_links_is_not_tajmi3a_and_no_competitor_url_le
     )
     assert "_c3vRnYrJ" not in cap
     assert cap.count("https://s.click.aliexpress.com/e/_cOUR7600") == 1
+
+
+def test_lody_46950_kashida_url_and_megaphone_and_duplicate_links_cleaned():
+    from bs4 import BeautifulSoup
+    from app.aliexpress.parser import extract_telegram_html_text
+    from app.ai.generator import format_multi_deal_tajmi3at_1to1
+
+    html = (
+        '<div class="tgme_widget_message_text">'
+        '📣 عرض لـ Kootion X15 M.2 SSD 256G<br/>'
+        'بسعر: 27.52$<br/>'
+        '<a href="https://s.click.aliexpress.com/e/_cCOMP1">https://s.click.aliexpress.com/e/_cCOMP1</a><br/>'
+        '📣 عرض لـ KOOTION SSD 256GB<br/>'
+        'بسعر: 15.56$<br/>'
+        '<a href="http://%D9%80t.me/lodydeals/46871">ـt.me/lodydeals/46871</a><br/>'
+        '📣 عرض لـ KOOTION SSD 128GB<br/>'
+        'بسعر: 7.5$<br/>'
+        '<a href="http://%D9%80t.me/lodydeals/46871">ـt.me/lodydeals/46871</a>'
+        '</div>'
+    )
+    soup = BeautifulSoup(html, "html.parser")
+    extracted_text = extract_telegram_html_text(soup.find("div"))
+    assert "%D9%80" not in extracted_text
+    assert "\u0640t.me" not in extracted_text
+    assert extracted_text.count("t.me/lodydeals/46871") == 2
+
+    cap = format_multi_deal_tajmi3at_1to1(
+        extracted_text,
+        {
+            "https://s.click.aliexpress.com/e/_cCOMP1": "https://s.click.aliexpress.com/e/_c3ejpGaV",
+            "http://t.me/lodydeals/46871": "https://s.click.aliexpress.com/e/_c4Sr5BVR",
+            "t.me/lodydeals/46871": "https://s.click.aliexpress.com/e/_c4Sr5BVR",
+        },
+    )
+    assert "\u0640https://" not in cap
+    assert "%D9%80" not in cap
+    assert "t.me/lodydeals" not in cap
+    assert "https://s.click.aliexpress.com/e/_c3ejpGaV" in cap
+    assert "https://s.click.aliexpress.com/e/_c4Sr5BVR" in cap
+
+
+def test_lody_sanitize_title_and_hook_dot_cleanup():
+    from app.ai.generator import format_competitor_to_lody_1to1
+
+    cap = format_competitor_to_lody_1to1(
+        raw_text=". لي مشراش ليوم يبات يلوم SSD راه باطل 🔥\nKOOTION SSD 256GB\n15.56$",
+        affiliate_url="https://s.click.aliexpress.com/e/_c3j6fkxB",
+        extracted_title="ال KOOTION SSD 256GB ب 15.56",
+        usd_price=15.56,
+    )
+    assert "ال KOOTION" not in cap
+    assert "KOOTION SSD 256GB" in cap
+    assert "ب 15.56" not in cap
+    assert not any(line.strip().startswith(".") for line in cap.splitlines())
+
+
+def test_zed_40759_priced_two_ssd_variants_not_treated_as_coupon_bulletin():
+    import asyncio
+    from unittest.mock import AsyncMock, MagicMock
+    from app.aliexpress.product import ProductExtractor
+
+    mock_resolver = MagicMock()
+    mock_probe = MagicMock()
+    mock_probe.product_id = "1005009999999999"
+    mock_resolver.resolve = AsyncMock(return_value=mock_probe)
+
+    extractor = ProductExtractor()
+    extractor.resolver = mock_resolver
+    text = (
+        "✅ KOOTION SATA SSD 128GB 7.5 💵\n"
+        "كوبون OTSBF03 ($3/15)\n"
+        "https://s.click.aliexpress.com/e/_cONE\n\n"
+        "✅ KOOTION SATA SSD 256GB 15.5 💵\n"
+        "كوبون OTSBF04 ($4/24)\n"
+        "https://s.click.aliexpress.com/e/_cTWO"
+    )
+    res = asyncio.run(
+        extractor._is_coupon_bulletin(
+            text,
+            ali_urls=[
+                "https://s.click.aliexpress.com/e/_cONE",
+                "https://s.click.aliexpress.com/e/_cTWO",
+            ],
+            coupon_items=[{"code": "OTSBF03"}, {"code": "OTSBF04"}],
+            multi_codes_count=2,
+            usd_price=7.5,
+            eur_price=None,
+        )
+    )
+    assert res is False

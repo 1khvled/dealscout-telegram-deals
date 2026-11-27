@@ -41,19 +41,24 @@ SHIPPING_KWS = ("شحن", "جمارك", "توصيل", "طرد", "طرود", "ب�
 
 def classify_adhoc_post(raw_text: str) -> Optional[str]:
     """Return 'coins_tip', 'shipping_notice', 'promo_news', or None."""
-    if not raw_text or len(raw_text.strip()) < 35:
+    if not raw_text:
         return None
     is_spam, _ = is_spam_or_non_deal(raw_text)
     if is_spam:
         return None
 
+    # Strip URLs BEFORE length/relevance checks so 'https://s.click.aliexpress.com/...'
+    # inside a short 4-word booking stub ('الحق قم بالحجز من هنا') never matches 'aliexpress'.
     norm = re.sub(r'\u0640', '', raw_text).strip()
-    lower = norm.lower()
+    non_url = re.sub(r'https?://\S+|s\.click\.\S+|t\.me/\S+', '', norm, flags=re.IGNORECASE).strip()
+    if len(non_url) < 40:
+        return None
+    lower = non_url.lower()
 
     if any(k in lower for k in IGNORE_CH_NOISE):
         return None
     # Never hijack priced product deals
-    if re.search(r'(?:تخفيض|عرض)\s+لـ', norm) or any(w in lower for w in ("السعر", "prix", "price")):
+    if re.search(r'(?:تخفيض|عرض)\s+لـ', non_url) or any(w in lower for w in ("السعر", "prix", "price")):
         return None
     usd_price, _ = extract_prices(norm)
     if usd_price is not None:
@@ -62,8 +67,8 @@ def classify_adhoc_post(raw_text: str) -> Optional[str]:
     if not any(k in lower for k in ALI_RELEVANCE_KWS):
         return None
 
-    words = [w for w in re.split(r'\s+', norm) if len(w) >= 2]
-    if len(words) < 7:
+    words = [w for w in re.split(r'\s+', non_url) if len(w) >= 2]
+    if len(words) < 8:
         return None
 
     if any(k in lower for k in SHIPPING_KWS):
