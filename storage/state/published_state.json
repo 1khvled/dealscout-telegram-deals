@@ -1412,7 +1412,7 @@
     "1005012938359476": 1793448722.5382965,
     "1005012931209980": 1795603047.258251,
     "1005011820893973": 1793540051.7895243,
-    "1005009073904302": 1795696532.6089103,
+    "1005009073904302": 1795771902.8905568,
     "1005009916208760": 1795521256.5995085,
     "1005010033441204": 1795371614.0931513,
     "1005008356663932": 1793707052.9762022,
@@ -1853,7 +1853,7 @@
     "1005013603023857": 1795290161.6076646,
     "1005009693337727": 1795344822.4527907,
     "1005013497504096": 1795546908.1570234,
-    "1005013482874428": 1795688052.6540208,
+    "1005013482874428": 1795771921.621391,
     "1005013354356242": 1795182504.6024845,
     "1005013117620640": 1795183540.495267,
     "1005013048908707": 1795183557.3230655,
@@ -3306,7 +3306,7 @@
     "Blackview Zeno 10 5G  8/128": 1790941207.5310047,
     "Honor Power 2  12/256": 1790941214.6756065,
     "Honor X70 5G 8/128": 1795256521.0477176,
-    "Blackview MEGA 5  8/256": 1795696532.6089103,
+    "Blackview MEGA 5  8/256": 1795771902.8905568,
     "سماعات اذن فخمة  Moondrop Chu 3 IEM": 1795352874.1785383,
     "4G LTE Wireless USB 150Mbps": 1794057675.8729835,
     "Curren 8455 Men's Quartz": 1790943640.1460688,
@@ -4405,7 +4405,7 @@
     "CUSU K5 Portable External SSD 512gb": 1795164006.096927,
     "UGREEN Nexode Air 65W GaN Charger": 1795605118.3528702,
     "Portable Wireless Electric Air Pump with LCD Display": 1795167145.0122104,
-    "Blackview Wave 7C": 1795713798.525022,
+    "Blackview Wave 7C": 1795771921.621391,
     "لي يحوس على حاجة أصلية ومضمونة": 1795175430.73419,
     "Soundcore by Anker Q20i": 1795180451.4710355,
     "HUAWEI Pura 90s Pro": 1795261651.3173792,
@@ -4547,8 +4547,6 @@
     "ال KOOTION SSD 256GB ب 15.56": 1795768399.4567664
   },
   "published_post_keys": [
-    "zedstoreonline:40174",
-    "aniscoupons:34913",
     "zedstoreonline:40175",
     "aniscoupons:34914",
     "zedstoreonline:40176",
@@ -5546,11 +5544,13 @@
     "aniscoupons:35728",
     "lodydeals:46948",
     "aniscoupons:35729",
-    "aniscoupons:35730"
+    "aniscoupons:35730",
+    "zedstoreonline:40766",
+    "aniscoupons:35731"
   ],
   "last_disclaimer_time": 1795735529.6558404,
   "last_calendar_time": 1795177633.1203737,
-  "last_run_time": 1795771385.3272967,
+  "last_run_time": 1795771921.621391,
   "monitored_channels": {
     "ecksdeal": {
       "last_message_id": 6148,
@@ -5577,12 +5577,12 @@
       "last_check_time": 1793599663.3444748
     },
     "zedstoreonline": {
-      "last_message_id": 40765,
-      "last_check_time": 1795771362.743872
+      "last_message_id": 40767,
+      "last_check_time": 1795771906.8084896
     },
     "aniscoupons": {
-      "last_message_id": 35730,
-      "last_check_time": 1795771387.4348307
+      "last_message_id": 35731,
+      "last_check_time": 1795771923.6994553
     },
     "bnddeals": {
       "last_message_id": 51423,
@@ -35474,6 +35474,26 @@
       "price": 29.6,
       "timestamp": 1795771385.3272967,
       "status": "ACTIVE"
+    },
+    "zedstoreonline:40766": {
+      "channel_msg_id": 3860,
+      "product_id": "1005009073904302",
+      "title": "Blackview MEGA 5  8/256",
+      "channel": "zedstoreonline",
+      "source_msg_id": 40766,
+      "price": 228.3,
+      "timestamp": 1795771902.8905568,
+      "status": "ACTIVE"
+    },
+    "aniscoupons:35731": {
+      "channel_msg_id": 3861,
+      "product_id": "1005013482874428",
+      "title": "Blackview Wave 7C",
+      "channel": "aniscoupons",
+      "source_msg_id": 35731,
+      "price": 79.6,
+      "timestamp": 1795771921.621391,
+      "status": "ACTIVE"
     }
   },
   "schedule_config": {
@@ -35482,17 +35502,17 @@
     "current_interval_minutes": 5,
     "is_paused": false,
     "night_mode_enabled": true,
-    "last_deal_post_time": 1795771397.8047247,
+    "last_deal_post_time": 1795771936.4598522,
     "night_start_hour_dz": 0,
     "night_end_hour_dz": 8,
     "night_pause_enabled": true,
-    "last_sweep_time": 1795771706.0684185,
+    "last_sweep_time": 1795771941.8361804,
     "last_sweep_times": {
-      "algeria": 1795771701.7123876,
-      "france": 1795771706.0684185
+      "algeria": 1795771936.424677,
+      "france": 1795771941.8361804
     },
     "last_deal_post_times": {
-      "algeria": 1795771397.8047247
+      "algeria": 1795771936.4598522
     }
   },
   "last_coin_reminder_time": 1795648937.9274871,
@@ -38571,7 +38591,6 @@
   "published_deals_history": {},
   "settings": {},
   "handled_post_keys": [
-    "zedstoreonline:40165",
     "aniscoupons:34906",
     "zedstoreonline:40168",
     "aniscoupons:34910",
@@ -39570,7 +39589,8 @@
     "zedstoreonline:40764",
     "aniscoupons:35727",
     "lodydeals:46949",
-    "zedstoreonline:40765"
+    "zedstoreonline:40765",
+    "zedstoreonline:40767"
   ],
   "last_france_cross_promo_time": 1795757211.9224837,
   "next_france_cross_promo_interval_seconds": 197705,
@@ -40158,6 +40178,11 @@
         "channel": "lodydeals",
         "ts": 1795771344.8281405,
         "price": 29.2
+      },
+      {
+        "channel": "zedstoreonline",
+        "ts": 1795771906.6724002,
+        "price": 9.7
       }
     ],
     "1005010788149535": [
@@ -40591,6 +40616,20 @@
         "channel": "aniscoupons",
         "ts": 1795771382.7714837,
         "price": 29.6
+      }
+    ],
+    "1005009073904302": [
+      {
+        "channel": "zedstoreonline",
+        "ts": 1795771900.3482852,
+        "price": 228.3
+      }
+    ],
+    "1005013482874428": [
+      {
+        "channel": "aniscoupons",
+        "ts": 1795771919.5901132,
+        "price": 79.6
       }
     ]
   },
