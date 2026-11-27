@@ -1951,7 +1951,7 @@
     "1005010099024201": 1795703510.182712,
     "1005009566266039": 1795714790.201703,
     "TAJMI3AT_lodydeals_46917": 1795714990.9149463,
-    "1005013097951450": 1795725734.3254902,
+    "1005013097951450": 1795776652.4223523,
     "1005008413359329": 1795717019.2725039,
     "1005013406777246": 1795722914.6443748,
     "TAJMI3AT_lodydeals_46922": 1795723341.8747523,
@@ -3259,7 +3259,8 @@
     "يمكن حجز الكوبونات 5 مرات",
     "ال KOOTION SSD 256GB ب 15.56",
     "ليكيب أفضل عروض هذه التخفيضات",
-    "Honor WIN Turbo 2 12/256"
+    "Honor WIN Turbo 2 12/256",
+    "16.8V Cordless Drill Driver Rechargeable Electric Screwdriver"
   ],
   "published_title_timestamps": {
     "Xiaomi Redmi Note 17 5G Global Version": 1790857823.0117362,
@@ -4556,10 +4557,10 @@
     "يمكن حجز الكوبونات 5 مرات": 1795767105.1242795,
     "ال KOOTION SSD 256GB ب 15.56": 1795768399.4567664,
     "ليكيب أفضل عروض هذه التخفيضات": 1795773003.57561,
-    "Honor WIN Turbo 2 12/256": 1795776529.3127697
+    "Honor WIN Turbo 2 12/256": 1795776529.3127697,
+    "16.8V Cordless Drill Driver Rechargeable Electric Screwdriver": 1795776652.4223523
   },
   "published_post_keys": [
-    "zedstoreonline:40186",
     "lodydeals:46514",
     "lodydeals:46516",
     "aniscoupons:34932",
@@ -5558,11 +5559,12 @@
     "zedstoreonline:40762",
     "zedstoreonline:40775",
     "aniscoupons:35732",
-    "aniscoupons:35740"
+    "aniscoupons:35740",
+    "aniscoupons:35745"
   ],
   "last_disclaimer_time": 1795735529.6558404,
   "last_calendar_time": 1795177633.1203737,
-  "last_run_time": 1795776554.1362615,
+  "last_run_time": 1795776652.4223523,
   "monitored_channels": {
     "ecksdeal": {
       "last_message_id": 6148,
@@ -5590,11 +5592,11 @@
     },
     "zedstoreonline": {
       "last_message_id": 40775,
-      "last_check_time": 1795776538.5429566
+      "last_check_time": 1795776646.8947825
     },
     "aniscoupons": {
-      "last_message_id": 35744,
-      "last_check_time": 1795776554.1362615
+      "last_message_id": 35745,
+      "last_check_time": 1795776654.5007143
     },
     "bnddeals": {
       "last_message_id": 51425,
@@ -6438,7 +6440,7 @@
     "1005005099575844": 5.0,
     "1005010099024201": 256.8,
     "1005009566266039": 115.6,
-    "1005013097951450": 17.55,
+    "1005013097951450": 17.5,
     "1005008413359329": 25.95,
     "1005013406777246": 96.0,
     "1005012649756781": 24.96,
@@ -35729,6 +35731,16 @@
       "price": 338.2,
       "timestamp": 1795776554.1362615,
       "status": "ACTIVE"
+    },
+    "aniscoupons:35745": {
+      "channel_msg_id": 3884,
+      "product_id": "1005013097951450",
+      "title": "16.8V Cordless Drill Driver Rechargeable Electric Screwdriver",
+      "channel": "aniscoupons",
+      "source_msg_id": 35745,
+      "price": 17.5,
+      "timestamp": 1795776652.4223523,
+      "status": "ACTIVE"
     }
   },
   "schedule_config": {
@@ -35737,17 +35749,17 @@
     "current_interval_minutes": 5,
     "is_paused": false,
     "night_mode_enabled": true,
-    "last_deal_post_time": 1795776568.1392164,
+    "last_deal_post_time": 1795776655.589883,
     "night_start_hour_dz": 0,
     "night_end_hour_dz": 8,
     "night_pause_enabled": true,
-    "last_sweep_time": 1795776574.3193762,
+    "last_sweep_time": 1795776660.315476,
     "last_sweep_times": {
-      "algeria": 1795776568.080764,
-      "france": 1795776574.3193762
+      "algeria": 1795776655.5560575,
+      "france": 1795776660.315476
     },
     "last_deal_post_times": {
-      "algeria": 1795776568.1392164
+      "algeria": 1795776655.589883
     }
   },
   "last_coin_reminder_time": 1795648937.9274871,
@@ -36719,7 +36731,7 @@
     "1005010099024201": "zedstoreonline",
     "1005009566266039": "zedstoreonline",
     "TAJMI3AT_lodydeals_46917": "lodydeals",
-    "1005013097951450": "lodydeals",
+    "1005013097951450": "aniscoupons",
     "1005008413359329": "ecksdeal",
     "1005013406777246": "ecksdeal",
     "TAJMI3AT_lodydeals_46922": "lodydeals",
@@ -38034,7 +38046,8 @@
     "يمكن حجز الكوبونات 5 مرات": "ecksdeal",
     "ال KOOTION SSD 256GB ب 15.56": "lodydeals",
     "ليكيب أفضل عروض هذه التخفيضات": "lodydeals",
-    "Honor WIN Turbo 2 12/256": "zedstoreonline"
+    "Honor WIN Turbo 2 12/256": "zedstoreonline",
+    "16.8V Cordless Drill Driver Rechargeable Electric Screwdriver": "aniscoupons"
   },
   "religious_reminders_history": {
     "mock_rem": "2026-10-02",
@@ -38832,7 +38845,6 @@
   "published_deals_history": {},
   "settings": {},
   "handled_post_keys": [
-    "aniscoupons:34921",
     "aniscoupons:34922",
     "lodydeals:46503",
     "lodydeals:46504",
@@ -39831,7 +39843,8 @@
     "zedstoreonline:40761",
     "bnddeals:51422",
     "bnddeals:51424",
-    "bnddeals:51425"
+    "bnddeals:51425",
+    "zedstoreonline:40756"
   ],
   "last_france_cross_promo_time": 1795757211.9224837,
   "next_france_cross_promo_interval_seconds": 197705,
@@ -40607,11 +40620,6 @@
     ],
     "1005012406142215": [
       {
-        "channel": "aniscoupons",
-        "ts": 1795767481.1953487,
-        "price": 356.0
-      },
-      {
         "channel": "zedstoreonline",
         "ts": 1795767656.121639,
         "price": 356.0
@@ -40755,6 +40763,11 @@
         "channel": "lodydeals",
         "ts": 1795776480.6756213,
         "price": 356.87
+      },
+      {
+        "channel": "zedstoreonline",
+        "ts": 1795776646.8294036,
+        "price": 356.0
       }
     ],
     "1005010575865619": [
@@ -41238,6 +41251,13 @@
         "channel": "aniscoupons",
         "ts": 1795776551.4824212,
         "price": 338.2
+      }
+    ],
+    "1005013097951450": [
+      {
+        "channel": "aniscoupons",
+        "ts": 1795776649.9023442,
+        "price": 17.5
       }
     ]
   },
