@@ -1067,7 +1067,7 @@
     "1005008901941749": 1792785032.5334125,
     "1005010178295650": 1793743848.9735239,
     "1005006861002512": 1791151259.5667012,
-    "1005012285327063": 1795711543.4166002,
+    "1005012285327063": 1795769724.109199,
     "1005006581583862": 1794852936.201381,
     "1005012816171978": 1792157876.0860639,
     "1005006248571160": 1791012946.4110153,
@@ -1088,7 +1088,7 @@
     "1005008144855522": 1791026444.9395418,
     "1005008486721357": 1791026452.368309,
     "1005012871566388": 1791026457.7236943,
-    "1005007027334636": 1795734101.9813778,
+    "1005007027334636": 1795769718.4779239,
     "1005006727600702": 1791027043.7332833,
     "1005009916278058": 1791027049.3509357,
     "1005009719082543": 1791027355.6595695,
@@ -3348,7 +3348,7 @@
     "Attack Shark X1": 1790972445.6591878,
     "KUULAA USB C Cable": 1790973051.970508,
     "Wireless WiFi Repeater 300Mbps WiFi Extender Amplifier Booster Router": 1790974856.4783835,
-    "HAYLOU Watch Faro": 1795711543.4166002,
+    "HAYLOU Watch Faro": 1795769724.109199,
     "HAYLOU S30": 1794852936.201381,
     "Lenovo XT88 TWS Wireless Earphones Bluetooth 5.3 Dual MIC Stereo Noise": 1790976654.120254,
     "VIVO Y600 Pro 8/128GB": 1793656161.7382708,
@@ -4488,7 +4488,7 @@
     "Vivo X500 12/256": 1795521926.0889337,
     "HONOR MAGIC 9 Pro Max 12/256": 1795521933.931988,
     "Oppo Find X9 Ultra 12/256": 1795521950.475793,
-    "SomnAmbulist SSD 120Gb": 1795714416.3904457,
+    "SomnAmbulist SSD 120Gb": 1795769718.4779239,
     "سماعات الاذن KZ EDX PRO X": 1795527391.8790212,
     "طابعة XL-P801 الحرارية المتنقلة: طباعة A4 فورية، قابلة لإعادة": 1795535124.479775,
     "TCL Alcatel 1023": 1795701094.6472647,
@@ -4547,8 +4547,6 @@
     "ال KOOTION SSD 256GB ب 15.56": 1795768399.4567664
   },
   "published_post_keys": [
-    "zedstoreonline:40167",
-    "aniscoupons:34908",
     "aniscoupons:34909",
     "zedstoreonline:40169",
     "zedstoreonline:40170",
@@ -5546,19 +5544,21 @@
     "lodydeals:46942",
     "zedstoreonline:40759",
     "aniscoupons:35719",
-    "aniscoupons:35721"
+    "aniscoupons:35721",
+    "aniscoupons:35724",
+    "aniscoupons:35725"
   ],
   "last_disclaimer_time": 1795735529.6558404,
   "last_calendar_time": 1795177633.1203737,
-  "last_run_time": 1795768795.3843074,
+  "last_run_time": 1795769724.109199,
   "monitored_channels": {
     "ecksdeal": {
       "last_message_id": 6148,
       "last_check_time": 1795767105.275191
     },
     "lodydeals": {
-      "last_message_id": 46942,
-      "last_check_time": 1795768408.2199707
+      "last_message_id": 46947,
+      "last_check_time": 1795769686.2519746
     },
     "test_channel": {
       "last_message_id": 1793967703,
@@ -5581,8 +5581,8 @@
       "last_check_time": 1795769334.7522295
     },
     "aniscoupons": {
-      "last_message_id": 35721,
-      "last_check_time": 1795768797.469578
+      "last_message_id": 35725,
+      "last_check_time": 1795769726.2274554
     },
     "bnddeals": {
       "last_message_id": 51423,
@@ -35404,6 +35404,26 @@
       "price": 7.5,
       "timestamp": 1795768795.3843074,
       "status": "ACTIVE"
+    },
+    "aniscoupons:35724": {
+      "channel_msg_id": 3853,
+      "product_id": "1005007027334636",
+      "title": "SomnAmbulist SSD 120Gb",
+      "channel": "aniscoupons",
+      "source_msg_id": 35724,
+      "price": 9.7,
+      "timestamp": 1795769718.4779239,
+      "status": "ACTIVE"
+    },
+    "aniscoupons:35725": {
+      "channel_msg_id": 3854,
+      "product_id": "1005012285327063",
+      "title": "HAYLOU Watch Faro",
+      "channel": "aniscoupons",
+      "source_msg_id": 35725,
+      "price": 11.1,
+      "timestamp": 1795769724.109199,
+      "status": "ACTIVE"
     }
   },
   "schedule_config": {
@@ -35412,17 +35432,17 @@
     "current_interval_minutes": 5,
     "is_paused": false,
     "night_mode_enabled": true,
-    "last_deal_post_time": 1795768806.067465,
+    "last_deal_post_time": 1795769736.2629168,
     "night_start_hour_dz": 0,
     "night_end_hour_dz": 8,
     "night_pause_enabled": true,
-    "last_sweep_time": 1795769507.1545172,
+    "last_sweep_time": 1795769741.3799515,
     "last_sweep_times": {
-      "algeria": 1795769501.8207085,
-      "france": 1795769507.1545172
+      "algeria": 1795769736.2087798,
+      "france": 1795769741.3799515
     },
     "last_deal_post_times": {
-      "algeria": 1795768806.067465
+      "algeria": 1795769736.2629168
     }
   },
   "last_coin_reminder_time": 1795648937.9274871,
@@ -35431,7 +35451,7 @@
   "published_product_channels": {
     "999888104": "test_channel",
     "100500888999777": "lodydeals",
-    "1005007027334636": "zedstoreonline",
+    "1005007027334636": "aniscoupons",
     "1005009734653254": "lodydeals",
     "1005008333859881": "bnddeals",
     "1005009357018019": "bnddeals",
@@ -38501,8 +38521,6 @@
   "published_deals_history": {},
   "settings": {},
   "handled_post_keys": [
-    "zedstoreonline:40156",
-    "aniscoupons:34899",
     "aniscoupons:34900",
     "zedstoreonline:40159",
     "zedstoreonline:40160",
@@ -39500,7 +39518,9 @@
     "lodydeals:46941",
     "zedstoreonline:40758",
     "bnddeals:51423",
-    "zedstoreonline:40763"
+    "zedstoreonline:40763",
+    "lodydeals:46946",
+    "lodydeals:46947"
   ],
   "last_france_cross_promo_time": 1795757211.9224837,
   "next_france_cross_promo_interval_seconds": 197705,
@@ -40078,6 +40098,11 @@
         "channel": "zedstoreonline",
         "ts": 1795734099.4316454,
         "price": 9.7
+      },
+      {
+        "channel": "aniscoupons",
+        "ts": 1795769715.5302331,
+        "price": 9.7
       }
     ],
     "1005008708333999": [
@@ -40092,13 +40117,6 @@
         "channel": "zedstoreonline",
         "ts": 1795727519.5259767,
         "price": 37.5
-      }
-    ],
-    "1005013572353302": [
-      {
-        "channel": "zedstoreonline",
-        "ts": 1795726355.449224,
-        "price": 13.2
       }
     ],
     "1005011778621042": [
@@ -40315,6 +40333,11 @@
         "channel": "bnddeals",
         "ts": 1795768448.2308707,
         "price": 374.0
+      },
+      {
+        "channel": "lodydeals",
+        "ts": 1795769686.0497434,
+        "price": 374.54
       }
     ],
     "1005012726037568": [
@@ -40322,6 +40345,13 @@
         "channel": "aniscoupons",
         "ts": 1795768793.3495755,
         "price": 7.5
+      }
+    ],
+    "1005012285327063": [
+      {
+        "channel": "aniscoupons",
+        "ts": 1795769721.1488795,
+        "price": 11.1
       }
     ]
   },
