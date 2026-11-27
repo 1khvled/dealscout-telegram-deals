@@ -984,7 +984,8 @@
     "TAJMI3AT_lodydeals_46962",
     "1005008356945283",
     "1005013572719987",
-    "1005011755232439"
+    "1005011755232439",
+    "TAJMI3AT_aniscoupons_35814"
   ],
   "published_product_timestamps": {
     "1005012973772517": 1794500732.7845657,
@@ -1484,7 +1485,7 @@
     "1005009980316035": 1793542552.2730343,
     "1005005905462505": 1795601143.9181204,
     "1005008248133489": 1794475825.54016,
-    "1005008684239370": 1795797190.5808842,
+    "1005008684239370": 1795809702.6702113,
     "1005011583202464": 1794913864.041144,
     "1005009921069024": 1793542597.6187797,
     "1005009916209766": 1794167239.3538153,
@@ -1989,7 +1990,8 @@
     "TAJMI3AT_lodydeals_46962": 1795801439.8246608,
     "1005008356945283": 1795801448.6490834,
     "1005013572719987": 1795804373.6204817,
-    "1005011755232439": 1795806014.123944
+    "1005011755232439": 1795806014.123944,
+    "TAJMI3AT_aniscoupons_35814": 1795809725.380671
   },
   "published_titles": [
     "Wireless WiFi Repeater 300Mbps WiFi Extender Amplifier Booster Router",
@@ -3876,7 +3878,7 @@
     "ماوس لاسلكي ATK VXE Dragonfly R1 SE Wireless": 1793542566.1256328,
     "مايكروفون Maono DGM20 Condenser USB Mic": 1793542571.5615325,
     "مايكروفون Fifine Ampligame A2 Condenser USB Mic": 1793542577.5838556,
-    "مايكروفون لاسلكي Maono T1 Mini Wireless": 1793542582.419509,
+    "مايكروفون لاسلكي Maono T1 Mini Wireless": 1795809702.6702113,
     "مايكروفون ديناميكي لاسلكي Maono PD100W Dynamic Wireless USB Mic": 1793809046.6886706,
     "مايكروفون لاسلكي BOYA BM V10": 1793542597.6187797,
     "يد تحكم لاسلكية EasySMX X05 PRO RGB Wireless Hall Effect Ultimate": 1793542602.1938312,
@@ -4570,7 +4572,7 @@
     "Anker 100W USB C Charger": 1795631548.7472386,
     "سماعات اذن فخمة  Moondrop Position IEM": 1795642207.2861652,
     "تجميعة عروض هواتف iPhone مستعملة": 1795801439.8246608,
-    "😍": 1795735545.167229,
+    "😍": 1795809725.380671,
     "Baseus 45dB ANC Wireless Headphones Over Ear Bluetooth Earphones Active": 1795651532.6317441,
     "تخفيض لـ  ASROCK B850M X WiFi": 1795687609.2309065,
     "خوذة حماية للأطفال مصممة للدراجات": 1795687649.9178689,
@@ -4621,8 +4623,6 @@
     "KOOTION SATA SSD 128GB   6.5": 1795808592.9813356
   },
   "published_post_keys": [
-    "aniscoupons:34974",
-    "aniscoupons:34976",
     "aniscoupons:34977",
     "aniscoupons:34981",
     "aniscoupons:34982",
@@ -5620,15 +5620,17 @@
     "bnddeals:51439",
     "zedstoreonline:40812",
     "zedstoreonline:40813",
-    "zedstoreonline:40814"
+    "zedstoreonline:40814",
+    "ecksdeal:6151",
+    "aniscoupons:35814"
   ],
   "last_disclaimer_time": 1795735529.6558404,
   "last_calendar_time": 1795782506.7435975,
-  "last_run_time": 1795808969.6852784,
+  "last_run_time": 1795809725.380671,
   "monitored_channels": {
     "ecksdeal": {
-      "last_message_id": 6150,
-      "last_check_time": 1795805638.141808
+      "last_message_id": 6151,
+      "last_check_time": 1795809704.8011205
     },
     "lodydeals": {
       "last_message_id": 46983,
@@ -5655,8 +5657,8 @@
       "last_check_time": 1795809149.257048
     },
     "aniscoupons": {
-      "last_message_id": 35812,
-      "last_check_time": 1795808777.7826686
+      "last_message_id": 35814,
+      "last_check_time": 1795809725.5221076
     },
     "bnddeals": {
       "last_message_id": 51449,
@@ -6067,7 +6069,7 @@
     "1005009980316035": 25.85,
     "1005005905462505": 49.4,
     "1005008248133489": 15.61,
-    "1005008684239370": 10.2,
+    "1005008684239370": 7.47,
     "1005011583202464": 58.4,
     "1005009921069024": 12.85,
     "1005009916209766": 27.14,
@@ -36487,6 +36489,26 @@
       "price": 7.1,
       "timestamp": 1795808969.6852784,
       "status": "ACTIVE"
+    },
+    "ecksdeal:6151": {
+      "channel_msg_id": 3959,
+      "product_id": "1005008684239370",
+      "title": "مايكروفون لاسلكي Maono T1 Mini Wireless",
+      "channel": "ecksdeal",
+      "source_msg_id": 6151,
+      "price": 7.47,
+      "timestamp": 1795809702.6702113,
+      "status": "ACTIVE"
+    },
+    "aniscoupons:35814": {
+      "channel_msg_id": 3960,
+      "product_id": "TAJMI3AT_aniscoupons_35814",
+      "title": "😍",
+      "channel": "aniscoupons",
+      "source_msg_id": 35814,
+      "price": null,
+      "timestamp": 1795809725.380671,
+      "status": "ACTIVE"
     }
   },
   "schedule_config": {
@@ -36495,17 +36517,17 @@
     "current_interval_minutes": 5,
     "is_paused": false,
     "night_mode_enabled": true,
-    "last_deal_post_time": 1795808975.0007389,
+    "last_deal_post_time": 1795809726.5960093,
     "night_start_hour_dz": 0,
     "night_end_hour_dz": 8,
     "night_pause_enabled": true,
-    "last_sweep_time": 1795809521.9869812,
+    "last_sweep_time": 1795809731.4785528,
     "last_sweep_times": {
-      "algeria": 1795809517.295676,
-      "france": 1795809521.9869812
+      "algeria": 1795809726.5607777,
+      "france": 1795809731.4785528
     },
     "last_deal_post_times": {
-      "algeria": 1795808975.0007389
+      "algeria": 1795809726.5960093
     }
   },
   "last_coin_reminder_time": 1795648937.9274871,
@@ -37018,7 +37040,7 @@
     "1005009980316035": "ecksdeal",
     "1005005905462505": "zedstoreonline",
     "1005008248133489": "lodydeals",
-    "1005008684239370": "zedstoreonline",
+    "1005008684239370": "ecksdeal",
     "1005011583202464": "zedstoreonline",
     "1005009921069024": "ecksdeal",
     "1005009916209766": "aniscoupons",
@@ -37503,7 +37525,8 @@
     "TAJMI3AT_lodydeals_46962": "lodydeals",
     "1005008356945283": "lodydeals",
     "1005013572719987": "bnddeals",
-    "1005011755232439": "bnddeals"
+    "1005011755232439": "bnddeals",
+    "TAJMI3AT_aniscoupons_35814": "aniscoupons"
   },
   "published_title_channels": {
     "Test Wrench Set": "test_channel",
@@ -39620,7 +39643,6 @@
   "published_deals_history": {},
   "settings": {},
   "handled_post_keys": [
-    "aniscoupons:35002",
     "aniscoupons:35003",
     "lodydeals:46558",
     "lodydeals:46559",
@@ -40619,7 +40641,8 @@
     "aniscoupons:35812",
     "bnddeals:51448",
     "zedstoreonline:40815",
-    "bnddeals:51449"
+    "bnddeals:51449",
+    "aniscoupons:35814"
   ],
   "last_france_cross_promo_time": 1795757211.9224837,
   "next_france_cross_promo_interval_seconds": 197705,
@@ -42460,6 +42483,11 @@
         "channel": "bnddeals",
         "ts": 1795809152.406896,
         "price": 8.4
+      },
+      {
+        "channel": "ecksdeal",
+        "ts": 1795809700.4147468,
+        "price": 7.47
       }
     ],
     "1005011559022232": [
@@ -42660,7 +42688,8 @@
     "1005013621783525": 1795553721.3213196,
     "1005013097951450": 1795725734.4250946,
     "1005010369693975": 1795805645.0945106,
-    "1005012285327063": 1795805830.5186098
+    "1005012285327063": 1795805830.5186098,
+    "1005008684239370": 1795809702.708236
   },
   "published_tajmi3at": [
     {
@@ -42833,6 +42862,25 @@
         "https://t.me/DzAliexpress0/3887"
       ],
       "timestamp": 1795801439.8623273
+    },
+    {
+      "title": "😍",
+      "links": [
+        "https://s.click.aliexpress.com/e/_c2vxLZED",
+        "https://s.click.aliexpress.com/e/_c30dL7cH",
+        "https://s.click.aliexpress.com/e/_c35whzGl",
+        "https://s.click.aliexpress.com/e/_c3Cofk2z",
+        "https://s.click.aliexpress.com/e/_c3Lp15gH",
+        "https://s.click.aliexpress.com/e/_c3N018RB",
+        "https://s.click.aliexpress.com/e/_c3TijNED",
+        "https://s.click.aliexpress.com/e/_c3gR7juN",
+        "https://s.click.aliexpress.com/e/_c3lBeUGD",
+        "https://s.click.aliexpress.com/e/_c3rIM5tn",
+        "https://s.click.aliexpress.com/e/_c45T8kIN",
+        "https://s.click.aliexpress.com/e/_c4XLOH1P",
+        "https://t.me/DzAliexpress0/3942"
+      ],
+      "timestamp": 1795809725.415636
     }
   ],
   "published_adhoc_posts": [
