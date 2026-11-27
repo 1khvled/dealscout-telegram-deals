@@ -1251,7 +1251,7 @@
     "9998882360": 1792162360.6633363,
     "9998882475": 1793282475.663889,
     "9998882568": 1792162568.078144,
-    "1005010369693975": 1795718691.1341007,
+    "1005010369693975": 1795773784.7052648,
     "1005006442452857": 1792166326.0335298,
     "9998886462": 1792166462.200491,
     "1005009948598802": 1793500786.1935658,
@@ -1698,7 +1698,7 @@
     "1005007820092290": 1794224654.527678,
     "1005012329021334": 1794494280.7112553,
     "1005013218893010": 1794226314.627466,
-    "1005013480169843": 1795714997.5830915,
+    "1005013480169843": 1795773765.847727,
     "1005013226454479": 1794227594.9699965,
     "1005005548265076": 1794231079.407264,
     "1005012555450345": 1794232557.0275722,
@@ -3544,7 +3544,7 @@
     "Ⓜ ONEPLUS TURBO 6X PRO 5G (8/128)": 1792156501.818011,
     "Redmi Pad 2 9.7": 1792061322.5579543,
     "Redmi Note 12 5G Global (4/128GB)": 1792156524.878074,
-    "Blackview Wave 10C": 1795714997.5830915,
+    "Blackview Wave 10C": 1795773765.847727,
     "متوسط سعره حالياً 82000دج": 1793276237.692456,
     "iQOO Z11s 5G (8/128GB)": 1795185813.1399975,
     "realme Watch 5 Smart Watch 1.97\" AMOLED Display Sports & Health Monitoring": 1793966861.2399917,
@@ -4194,7 +4194,7 @@
     "AULA WIN68 HE Gaming Mechanical Keyboard": 1794312953.1830955,
     "CMF Buds 2a ANC -42dB  السعر: 11.7": 1794312964.1163073,
     "MACHENIKE G1 Wireless Gaming Controller": 1795085991.192385,
-    "HAYLOU Mori Pro": 1795718691.1341007,
+    "HAYLOU Mori Pro": 1795773784.7052648,
     "KOOTION SATA3 SSD 128GB": 1794585682.0605152,
     "Inphic YuanChuang Cyber Gaming Mouse": 1794320674.833981,
     "SIX PCIe 4.0 SSD (1TB) NVMe M2": 1794331533.1223195,
@@ -4551,8 +4551,6 @@
     "ليكيب أفضل عروض هذه التخفيضات": 1795773003.57561
   },
   "published_post_keys": [
-    "zedstoreonline:40177",
-    "aniscoupons:34917",
     "lodydeals:46495",
     "aniscoupons:34918",
     "lodydeals:46500",
@@ -5550,11 +5548,13 @@
     "aniscoupons:35734",
     "aniscoupons:35736",
     "aniscoupons:35737",
-    "zedstoreonline:40770"
+    "zedstoreonline:40770",
+    "zedstoreonline:40771",
+    "aniscoupons:35738"
   ],
   "last_disclaimer_time": 1795735529.6558404,
   "last_calendar_time": 1795177633.1203737,
-  "last_run_time": 1795773184.735738,
+  "last_run_time": 1795773784.7052648,
   "monitored_channels": {
     "ecksdeal": {
       "last_message_id": 6148,
@@ -5581,12 +5581,12 @@
       "last_check_time": 1793599663.3444748
     },
     "zedstoreonline": {
-      "last_message_id": 40770,
-      "last_check_time": 1795773186.8482852
+      "last_message_id": 40773,
+      "last_check_time": 1795773769.2355325
     },
     "aniscoupons": {
-      "last_message_id": 35737,
-      "last_check_time": 1795773055.1827307
+      "last_message_id": 35738,
+      "last_check_time": 1795773786.781838
     },
     "bnddeals": {
       "last_message_id": 51423,
@@ -35558,6 +35558,26 @@
       "price": 138.0,
       "timestamp": 1795773184.735738,
       "status": "ACTIVE"
+    },
+    "zedstoreonline:40771": {
+      "channel_msg_id": 3868,
+      "product_id": "1005013480169843",
+      "title": "Blackview Wave 10C",
+      "channel": "zedstoreonline",
+      "source_msg_id": 40771,
+      "price": 67.7,
+      "timestamp": 1795773765.847727,
+      "status": "ACTIVE"
+    },
+    "aniscoupons:35738": {
+      "channel_msg_id": 3869,
+      "product_id": "1005010369693975",
+      "title": "HAYLOU Mori Pro",
+      "channel": "aniscoupons",
+      "source_msg_id": 35738,
+      "price": 10.6,
+      "timestamp": 1795773784.7052648,
+      "status": "ACTIVE"
     }
   },
   "schedule_config": {
@@ -35566,17 +35586,17 @@
     "current_interval_minutes": 5,
     "is_paused": false,
     "night_mode_enabled": true,
-    "last_deal_post_time": 1795773216.2934453,
+    "last_deal_post_time": 1795773800.342803,
     "night_start_hour_dz": 0,
     "night_end_hour_dz": 8,
     "night_pause_enabled": true,
-    "last_sweep_time": 1795773540.3577936,
+    "last_sweep_time": 1795773806.8023438,
     "last_sweep_times": {
-      "algeria": 1795773535.3844666,
-      "france": 1795773540.3577936
+      "algeria": 1795773800.3063185,
+      "france": 1795773806.8023438
     },
     "last_deal_post_times": {
-      "algeria": 1795773216.2934453
+      "algeria": 1795773800.342803
     }
   },
   "last_coin_reminder_time": 1795648937.9274871,
@@ -36304,7 +36324,7 @@
     "1005007820092290": "zedstoreonline",
     "1005012329021334": "aniscoupons",
     "1005013218893010": "zedstoreonline",
-    "1005013480169843": "aniscoupons",
+    "1005013480169843": "zedstoreonline",
     "1005013226454479": "zedstoreonline",
     "1005005548265076": "lodydeals",
     "1005012555450345": "lodydeals",
@@ -36855,7 +36875,7 @@
     "Ⓜ ONEPLUS TURBO 6X PRO 5G (8/128)": "megaphonna",
     "Redmi Pad 2 9.7": "aniscoupons",
     "Redmi Note 12 5G Global (4/128GB)": "aniscoupons",
-    "Blackview Wave 10C": "aniscoupons",
+    "Blackview Wave 10C": "zedstoreonline",
     "متوسط سعره حالياً 82000دج": "megaphonna",
     "realme 15T 5G Smartphone NFC Dimensity 6400 Max Chipset Dual 50MP AI": "aniscoupons",
     "iQOO Z11s 5G (8/128GB)": "aniscoupons",
@@ -38657,7 +38677,6 @@
   "published_deals_history": {},
   "settings": {},
   "handled_post_keys": [
-    "zedstoreonline:40173",
     "aniscoupons:34912",
     "lodydeals:46496",
     "lodydeals:46497",
@@ -39656,7 +39675,8 @@
     "zedstoreonline:40768",
     "lodydeals:46950",
     "zedstoreonline:40769",
-    "aniscoupons:35735"
+    "aniscoupons:35735",
+    "zedstoreonline:40773"
   ],
   "last_france_cross_promo_time": 1795757211.9224837,
   "next_france_cross_promo_interval_seconds": 197705,
@@ -40800,6 +40820,11 @@
         "channel": "aniscoupons",
         "ts": 1795771377.196054,
         "price": 18.29
+      },
+      {
+        "channel": "zedstoreonline",
+        "ts": 1795773769.0984826,
+        "price": 18.2
       }
     ],
     "1005010305059795": [
@@ -40854,6 +40879,20 @@
         "channel": "zedstoreonline",
         "ts": 1795773182.2697797,
         "price": 138.0
+      }
+    ],
+    "1005013480169843": [
+      {
+        "channel": "zedstoreonline",
+        "ts": 1795773742.9724226,
+        "price": 67.7
+      }
+    ],
+    "1005010369693975": [
+      {
+        "channel": "aniscoupons",
+        "ts": 1795773781.8552494,
+        "price": 10.6
       }
     ]
   },
