@@ -5583,8 +5583,8 @@
       "last_check_time": 1795767481.3426857
     },
     "bnddeals": {
-      "last_message_id": 51417,
-      "last_check_time": 1795767485.9525344
+      "last_message_id": 51420,
+      "last_check_time": 1795767670.4268181
     }
   },
   "published_product_prices": {
@@ -35374,10 +35374,10 @@
     "night_start_hour_dz": 0,
     "night_end_hour_dz": 8,
     "night_pause_enabled": true,
-    "last_sweep_time": 1795767493.559019,
+    "last_sweep_time": 1795767674.7545168,
     "last_sweep_times": {
-      "algeria": 1795767489.50916,
-      "france": 1795767493.559019
+      "algeria": 1795767670.4753873,
+      "france": 1795767674.7545168
     },
     "last_deal_post_times": {
       "algeria": 1795767311.515785
@@ -38458,9 +38458,6 @@
   "published_deals_history": {},
   "settings": {},
   "handled_post_keys": [
-    "aniscoupons:34889",
-    "zedstoreonline:40153",
-    "lodydeals:46493",
     "aniscoupons:34890",
     "aniscoupons:34892",
     "ecksdeal:6063",
@@ -39457,7 +39454,10 @@
     "ecksdeal:6148",
     "lodydeals:46939",
     "aniscoupons:35717",
-    "bnddeals:51417"
+    "bnddeals:51417",
+    "bnddeals:51418",
+    "bnddeals:51419",
+    "bnddeals:51420"
   ],
   "last_france_cross_promo_time": 1795757211.9224837,
   "next_france_cross_promo_interval_seconds": 197705,
@@ -40148,6 +40148,11 @@
         "channel": "bnddeals",
         "ts": 1795767485.894282,
         "price": 356.7
+      },
+      {
+        "channel": "lodydeals",
+        "ts": 1795767650.9150686,
+        "price": 356.59
       }
     ],
     "1005011557016158": [
@@ -40155,6 +40160,11 @@
         "channel": "aniscoupons",
         "ts": 1795767302.8978882,
         "price": 289.79
+      },
+      {
+        "channel": "bnddeals",
+        "ts": 1795767670.2453873,
+        "price": 289.0
       }
     ],
     "1005012406142215": [
@@ -40167,12 +40177,32 @@
         "channel": "aniscoupons",
         "ts": 1795767481.1953487,
         "price": 356.0
+      },
+      {
+        "channel": "zedstoreonline",
+        "ts": 1795767656.121639,
+        "price": 356.0
+      },
+      {
+        "channel": "bnddeals",
+        "ts": 1795767669.1325622,
+        "price": 356.0
       }
     ],
     "1005010575865619": [
       {
         "channel": "bnddeals",
         "ts": 1795767489.0992165,
+        "price": 365.0
+      },
+      {
+        "channel": "aniscoupons",
+        "ts": 1795767660.2722843,
+        "price": 363.4
+      },
+      {
+        "channel": "bnddeals",
+        "ts": 1795767665.9846468,
         "price": 365.0
       }
     ]
