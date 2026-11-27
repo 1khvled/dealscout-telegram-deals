@@ -1413,7 +1413,7 @@
     "1005012839355198": 1794822570.4027405,
     "1005010133081414": 1793467151.9364934,
     "1005005373032877": 1793600283.7397804,
-    "1005007869955343": 1795773040.685341,
+    "1005007869955343": 1795810074.8482933,
     "1005012644570693": 1793441338.6619778,
     "1005003949106838": 1795790218.8535633,
     "1005012436082838": 1793733101.535615,
@@ -1486,7 +1486,7 @@
     "1005005905462505": 1795601143.9181204,
     "1005008248133489": 1794475825.54016,
     "1005008684239370": 1795809702.6702113,
-    "1005011583202464": 1794913864.041144,
+    "1005011583202464": 1795810080.2769432,
     "1005009921069024": 1793542597.6187797,
     "1005009916209766": 1794167239.3538153,
     "1005012537594921": 1793542611.8880281,
@@ -3303,7 +3303,8 @@
     "HAYLOU Solar Lite 2 AMOLED",
     "HAYLOU Watch 4S GPS Smartwatch",
     "HAYLOU Solar Ultra GPS AMOLED",
-    "KOOTION SATA SSD 128GB   6.5"
+    "KOOTION SATA SSD 128GB   6.5",
+    "مايكروفون ديناميكي Maono PD100X Dynamic USB/XLR Mic"
   ],
   "published_title_timestamps": {
     "Xiaomi Redmi Note 17 5G Global Version": 1790857823.0117362,
@@ -3879,7 +3880,7 @@
     "مايكروفون Maono DGM20 Condenser USB Mic": 1795809885.8334615,
     "مايكروفون Fifine Ampligame A2 Condenser USB Mic": 1793542577.5838556,
     "مايكروفون لاسلكي Maono T1 Mini Wireless": 1795809702.6702113,
-    "مايكروفون ديناميكي لاسلكي Maono PD100W Dynamic Wireless USB Mic": 1793809046.6886706,
+    "مايكروفون ديناميكي لاسلكي Maono PD100W Dynamic Wireless USB Mic": 1795810080.2769432,
     "مايكروفون لاسلكي BOYA BM V10": 1793542597.6187797,
     "يد تحكم لاسلكية EasySMX X05 PRO RGB Wireless Hall Effect Ultimate": 1793542602.1938312,
     "كيبورد ميكانيكي Ajazz NK61 Red Switch": 1793542607.3688066,
@@ -4620,11 +4621,10 @@
     "HAYLOU Solar Lite 2 AMOLED": 1795806410.735781,
     "HAYLOU Watch 4S GPS Smartwatch": 1795806576.0435193,
     "HAYLOU Solar Ultra GPS AMOLED": 1795806581.609375,
-    "KOOTION SATA SSD 128GB   6.5": 1795808592.9813356
+    "KOOTION SATA SSD 128GB   6.5": 1795808592.9813356,
+    "مايكروفون ديناميكي Maono PD100X Dynamic USB/XLR Mic": 1795810074.8482933
   },
   "published_post_keys": [
-    "aniscoupons:34981",
-    "aniscoupons:34982",
     "lodydeals:46557",
     "zedstoreonline:40232",
     "zedstoreonline:40234",
@@ -5622,15 +5622,17 @@
     "zedstoreonline:40814",
     "ecksdeal:6151",
     "aniscoupons:35814",
-    "ecksdeal:6152"
+    "ecksdeal:6152",
+    "ecksdeal:6153",
+    "ecksdeal:6154"
   ],
   "last_disclaimer_time": 1795735529.6558404,
   "last_calendar_time": 1795782506.7435975,
-  "last_run_time": 1795809885.8334615,
+  "last_run_time": 1795810080.2769432,
   "monitored_channels": {
     "ecksdeal": {
-      "last_message_id": 6152,
-      "last_check_time": 1795809887.96128
+      "last_message_id": 6154,
+      "last_check_time": 1795810082.401333
     },
     "lodydeals": {
       "last_message_id": 46983,
@@ -6003,7 +6005,7 @@
     "1005012839355198": 157.29,
     "1005010133081414": 715.0,
     "1005005373032877": 61.03,
-    "1005007869955343": 37.5,
+    "1005007869955343": 34.92,
     "1005012644570693": 558.0,
     "1005003949106838": 115.9,
     "1005012436082838": 123.6,
@@ -6070,7 +6072,7 @@
     "1005005905462505": 49.4,
     "1005008248133489": 15.61,
     "1005008684239370": 7.47,
-    "1005011583202464": 58.4,
+    "1005011583202464": 57.09,
     "1005009921069024": 12.85,
     "1005009916209766": 27.14,
     "1005012537594921": 45.74,
@@ -36519,6 +36521,26 @@
       "price": 27.41,
       "timestamp": 1795809885.8334615,
       "status": "ACTIVE"
+    },
+    "ecksdeal:6153": {
+      "channel_msg_id": 3962,
+      "product_id": "1005007869955343",
+      "title": "مايكروفون ديناميكي Maono PD100X Dynamic USB/XLR Mic",
+      "channel": "ecksdeal",
+      "source_msg_id": 6153,
+      "price": 34.92,
+      "timestamp": 1795810074.8482933,
+      "status": "ACTIVE"
+    },
+    "ecksdeal:6154": {
+      "channel_msg_id": 3963,
+      "product_id": "1005011583202464",
+      "title": "مايكروفون ديناميكي لاسلكي Maono PD100W Dynamic Wireless USB Mic",
+      "channel": "ecksdeal",
+      "source_msg_id": 6154,
+      "price": 57.09,
+      "timestamp": 1795810080.2769432,
+      "status": "ACTIVE"
     }
   },
   "schedule_config": {
@@ -36527,17 +36549,17 @@
     "current_interval_minutes": 5,
     "is_paused": false,
     "night_mode_enabled": true,
-    "last_deal_post_time": 1795809891.2794497,
+    "last_deal_post_time": 1795810085.739903,
     "night_start_hour_dz": 0,
     "night_end_hour_dz": 8,
     "night_pause_enabled": true,
-    "last_sweep_time": 1795809895.954385,
+    "last_sweep_time": 1795810091.508259,
     "last_sweep_times": {
-      "algeria": 1795809891.2212596,
-      "france": 1795809895.954385
+      "algeria": 1795810085.6839414,
+      "france": 1795810091.508259
     },
     "last_deal_post_times": {
-      "algeria": 1795809891.2794497
+      "algeria": 1795810085.739903
     }
   },
   "last_coin_reminder_time": 1795648937.9274871,
@@ -36976,7 +36998,7 @@
     "1005012839355198": "lodydeals",
     "1005010133081414": "aniscoupons",
     "1005005373032877": "lodydeals",
-    "1005007869955343": "aniscoupons",
+    "1005007869955343": "ecksdeal",
     "1005012644570693": "zedstoreonline",
     "1005009118633225": "lodydeals",
     "1005003949106838": "zedstoreonline",
@@ -37051,7 +37073,7 @@
     "1005005905462505": "zedstoreonline",
     "1005008248133489": "lodydeals",
     "1005008684239370": "ecksdeal",
-    "1005011583202464": "zedstoreonline",
+    "1005011583202464": "ecksdeal",
     "1005009921069024": "ecksdeal",
     "1005009916209766": "aniscoupons",
     "1005012537594921": "ecksdeal",
@@ -38855,7 +38877,8 @@
     "HAYLOU Solar Lite 2 AMOLED": "bnddeals",
     "HAYLOU Watch 4S GPS Smartwatch": "bnddeals",
     "HAYLOU Solar Ultra GPS AMOLED": "bnddeals",
-    "KOOTION SATA SSD 128GB   6.5": "zedstoreonline"
+    "KOOTION SATA SSD 128GB   6.5": "zedstoreonline",
+    "مايكروفون ديناميكي Maono PD100X Dynamic USB/XLR Mic": "ecksdeal"
   },
   "religious_reminders_history": {
     "mock_rem": "2026-10-02",
@@ -42030,6 +42053,11 @@
         "channel": "aniscoupons",
         "ts": 1795773038.7761679,
         "price": 37.5
+      },
+      {
+        "channel": "ecksdeal",
+        "ts": 1795810072.2931433,
+        "price": 34.92
       }
     ],
     "1005008366962319": [
@@ -42690,6 +42718,13 @@
         "channel": "ecksdeal",
         "ts": 1795809882.9426844,
         "price": 27.41
+      }
+    ],
+    "1005011583202464": [
+      {
+        "channel": "ecksdeal",
+        "ts": 1795810077.8233943,
+        "price": 57.09
       }
     ]
   },

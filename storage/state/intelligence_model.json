@@ -46,10 +46,10 @@
       "ewma": 0.9994
     },
     "ecksdeal": {
-      "seen": 63,
-      "published": 60,
+      "seen": 65,
+      "published": 62,
       "skipped": 0,
-      "ewma": 0.9966
+      "ewma": 0.9971
     }
   },
   "category_stats": {
@@ -84,10 +84,10 @@
       "ewma": 0.9882
     },
     "audio": {
-      "seen": 67,
-      "published": 63,
+      "seen": 69,
+      "published": 65,
       "skipped": 0,
-      "ewma": 0.9973
+      "ewma": 0.9977
     }
   },
   "product_prices": {
@@ -726,7 +726,7 @@
       37.5,
       37.5,
       37.5,
-      37.5
+      34.92
     ],
     "1005007805638431": [
       21.2,
@@ -833,7 +833,8 @@
       58.4,
       58.4,
       58.4,
-      58.4
+      58.4,
+      57.09
     ],
     "1005008513502995": [
       35.12
@@ -2253,31 +2254,15 @@
     ]
   },
   "counters": {
-    "scored": 1932,
-    "verdict_publish": 1856,
+    "scored": 1934,
+    "verdict_publish": 1858,
     "verdict_hold": 75,
     "verdict_skip": 1,
-    "published": 1506,
+    "published": 1508,
     "skipped": 0
   },
-  "score_sum": 141750.97,
+  "score_sum": 141915.72,
   "recent_decisions": [
-    {
-      "ts": 1795768026,
-      "channel": "aniscoupons",
-      "category": "phones",
-      "product_id": "1005010575865619",
-      "score": 85.34,
-      "verdict": "publish"
-    },
-    {
-      "ts": 1795768032,
-      "channel": "bnddeals",
-      "category": "phones",
-      "product_id": "1005013438245033",
-      "score": 80.73,
-      "verdict": "publish"
-    },
     {
       "ts": 1795768204,
       "channel": "lodydeals",
@@ -3861,7 +3846,23 @@
       "product_id": "1005006495503659",
       "score": 84.93,
       "verdict": "publish"
+    },
+    {
+      "ts": 1795810072,
+      "channel": "ecksdeal",
+      "category": "audio",
+      "product_id": "1005007869955343",
+      "score": 83.71,
+      "verdict": "publish"
+    },
+    {
+      "ts": 1795810077,
+      "channel": "ecksdeal",
+      "category": "audio",
+      "product_id": "1005011583202464",
+      "score": 81.04,
+      "verdict": "publish"
     }
   ],
-  "updated_at": 1795809885.930963
+  "updated_at": 1795810080.3711677
 }
