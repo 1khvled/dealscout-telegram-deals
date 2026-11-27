@@ -1341,7 +1341,7 @@
     "999888261": 1793280261.0669627,
     "1005008785149427": 1793281845.5693822,
     "1005012766583284": 1793448708.2553535,
-    "1005011557016158": 1795772107.4521573,
+    "1005011557016158": 1795790225.3636506,
     "1005013451224718": 1793281883.4004252,
     "1005009120899585": 1793613389.897003,
     "1005010620332784": 1793467334.18714,
@@ -1408,7 +1408,7 @@
     "1005005373032877": 1793600283.7397804,
     "1005007869955343": 1795773040.685341,
     "1005012644570693": 1793441338.6619778,
-    "1005003949106838": 1795725741.2879992,
+    "1005003949106838": 1795790218.8535633,
     "1005012436082838": 1793733101.535615,
     "1005010716206374": 1795521251.4780498,
     "1005012864273120": 1793399494.1323898,
@@ -3738,7 +3738,7 @@
     "Machenike G3 V2 PC Gaming Controller": 1794307249.1472638,
     "⭐️ 🎟️": 1793384286.409923,
     "Vivo X200s (12/255GB)": 1793384294.3328166,
-    "Netac 7400MB/s SSD NVMe 1TB": 1795695190.457308,
+    "Netac 7400MB/s SSD NVMe 1TB": 1795790218.8535633,
     "GIGABYTE B550M AORUS ELITE Motherboard": 1793399464.4760919,
     "Redmi Pad 2  4/64": 1793399472.4016223,
     "MSI MAG X670E TOMAHAWK Motherboard": 1793399494.1323898,
@@ -4240,7 +4240,7 @@
     "SoundPEATS C30 Hybrid ANC -52dB": 1794407013.7230165,
     "Somnambulist SSD 120GB": 1794524556.2538168,
     "Lexar ARES PRO NVMe SSD PCle5.0x4 M.2 1TB": 1794492627.75024,
-    "Realme P4 Power 8/256GB": 1795772107.4521573,
+    "Realme P4 Power 8/256GB": 1795790225.3636506,
     "ASROCK X570M PRO4 MOTHERBOARD": 1794562340.4789197,
     "EASYSMX X05 PRO Controller": 1795776319.073989,
     "ONEPLUS 16 12/256GB": 1795521997.8103201,
@@ -4577,8 +4577,6 @@
     "TCL alcatel 1023": 1795782882.6064954
   },
   "published_post_keys": [
-    "ecksdeal:6065",
-    "aniscoupons:34941",
     "aniscoupons:34942",
     "lodydeals:46522",
     "zedstoreonline:40199",
@@ -5576,11 +5574,13 @@
     "zedstoreonline:40781",
     "zedstoreonline:40782",
     "zedstoreonline:40784",
-    "aniscoupons:35756"
+    "aniscoupons:35756",
+    "zedstoreonline:40785",
+    "aniscoupons:35757"
   ],
   "last_disclaimer_time": 1795735529.6558404,
   "last_calendar_time": 1795782506.7435975,
-  "last_run_time": 1795789868.1519487,
+  "last_run_time": 1795790225.3636506,
   "monitored_channels": {
     "ecksdeal": {
       "last_message_id": 6149,
@@ -5607,12 +5607,12 @@
       "last_check_time": 1793599663.3444748
     },
     "zedstoreonline": {
-      "last_message_id": 40784,
-      "last_check_time": 1795789862.8980536
+      "last_message_id": 40785,
+      "last_check_time": 1795790220.939653
     },
     "aniscoupons": {
-      "last_message_id": 35756,
-      "last_check_time": 1795789870.2498033
+      "last_message_id": 35757,
+      "last_check_time": 1795790227.443992
     },
     "bnddeals": {
       "last_message_id": 51425,
@@ -5959,7 +5959,7 @@
     "1005005373032877": 61.03,
     "1005007869955343": 37.5,
     "1005012644570693": 558.0,
-    "1005003949106838": 115.99,
+    "1005003949106838": 115.9,
     "1005012436082838": 123.6,
     "1005010716206374": 307.0,
     "1005012864273120": 154.0,
@@ -35859,6 +35859,26 @@
       "price": 133.8,
       "timestamp": 1795789868.1519487,
       "status": "ACTIVE"
+    },
+    "zedstoreonline:40785": {
+      "channel_msg_id": 3900,
+      "product_id": "1005003949106838",
+      "title": "Netac 7400MB/s SSD NVMe 1TB",
+      "channel": "zedstoreonline",
+      "source_msg_id": 40785,
+      "price": 115.9,
+      "timestamp": 1795790218.8535633,
+      "status": "ACTIVE"
+    },
+    "aniscoupons:35757": {
+      "channel_msg_id": 3901,
+      "product_id": "1005011557016158",
+      "title": "Realme P4 Power 8/256GB",
+      "channel": "aniscoupons",
+      "source_msg_id": 35757,
+      "price": 289.79,
+      "timestamp": 1795790225.3636506,
+      "status": "ACTIVE"
     }
   },
   "schedule_config": {
@@ -35867,17 +35887,17 @@
     "current_interval_minutes": 5,
     "is_paused": false,
     "night_mode_enabled": true,
-    "last_deal_post_time": 1795789871.679599,
+    "last_deal_post_time": 1795790228.6986697,
     "night_start_hour_dz": 0,
     "night_end_hour_dz": 8,
     "night_pause_enabled": true,
-    "last_sweep_time": 1795790037.6051786,
+    "last_sweep_time": 1795790230.9045277,
     "last_sweep_times": {
-      "algeria": 1795790035.9243827,
-      "france": 1795790037.6051786
+      "algeria": 1795790228.660269,
+      "france": 1795790230.9045277
     },
     "last_deal_post_times": {
-      "algeria": 1795789871.679599
+      "algeria": 1795790228.6986697
     }
   },
   "last_coin_reminder_time": 1795648937.9274871,
@@ -36319,7 +36339,7 @@
     "1005007869955343": "aniscoupons",
     "1005012644570693": "zedstoreonline",
     "1005009118633225": "lodydeals",
-    "1005003949106838": "lodydeals",
+    "1005003949106838": "zedstoreonline",
     "1005012436082838": "lodydeals",
     "1005010716206374": "zedstoreonline",
     "1005012864273120": "zedstoreonline",
@@ -40747,6 +40767,11 @@
         "channel": "aniscoupons",
         "ts": 1795772104.7244473,
         "price": 289.79
+      },
+      {
+        "channel": "aniscoupons",
+        "ts": 1795790222.966391,
+        "price": 289.79
       }
     ],
     "1005012406142215": [
@@ -41471,6 +41496,13 @@
         "channel": "zedstoreonline",
         "ts": 1795789858.1001751,
         "price": 21.0
+      }
+    ],
+    "1005003949106838": [
+      {
+        "channel": "zedstoreonline",
+        "ts": 1795790216.0754306,
+        "price": 115.9
       }
     ]
   },
