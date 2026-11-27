@@ -975,7 +975,8 @@
     "1005012395059515",
     "1005012196932716",
     "1005013416923881",
-    "TAJMI3AT_lodydeals_46953"
+    "TAJMI3AT_lodydeals_46953",
+    "1005013465406234"
   ],
   "published_product_timestamps": {
     "1005012973772517": 1794500732.7845657,
@@ -1969,7 +1970,8 @@
     "1005012395059515": 1795776490.6380856,
     "1005012196932716": 1795776506.4757638,
     "1005013416923881": 1795776529.3127697,
-    "TAJMI3AT_lodydeals_46953": 1795779486.0734122
+    "TAJMI3AT_lodydeals_46953": 1795779486.0734122,
+    "1005013465406234": 1795779586.365553
   },
   "published_titles": [
     "Wireless WiFi Repeater 300Mbps WiFi Extender Amplifier Booster Router",
@@ -3263,7 +3265,8 @@
     "ليكيب أفضل عروض هذه التخفيضات",
     "Honor WIN Turbo 2 12/256",
     "16.8V Cordless Drill Driver Rechargeable Electric Screwdriver",
-    "أفضل عروض الهواتف بكوبون 66$"
+    "أفضل عروض الهواتف بكوبون 66$",
+    "IPhone 14 Pro Max 6/128GB"
   ],
   "published_title_timestamps": {
     "Xiaomi Redmi Note 17 5G Global Version": 1790857823.0117362,
@@ -4562,10 +4565,10 @@
     "ليكيب أفضل عروض هذه التخفيضات": 1795773003.57561,
     "Honor WIN Turbo 2 12/256": 1795776529.3127697,
     "16.8V Cordless Drill Driver Rechargeable Electric Screwdriver": 1795776652.4223523,
-    "أفضل عروض الهواتف بكوبون 66$": 1795779486.0734122
+    "أفضل عروض الهواتف بكوبون 66$": 1795779486.0734122,
+    "IPhone 14 Pro Max 6/128GB": 1795779586.365553
   },
   "published_post_keys": [
-    "aniscoupons:34932",
     "aniscoupons:34933",
     "zedstoreonline:40189",
     "lodydeals:46518",
@@ -5564,19 +5567,20 @@
     "aniscoupons:35740",
     "aniscoupons:35745",
     "zedstoreonline:40776",
-    "lodydeals:46953"
+    "lodydeals:46953",
+    "lodydeals:46954"
   ],
   "last_disclaimer_time": 1795735529.6558404,
   "last_calendar_time": 1795177633.1203737,
-  "last_run_time": 1795779486.0734122,
+  "last_run_time": 1795779586.365553,
   "monitored_channels": {
     "ecksdeal": {
       "last_message_id": 6148,
       "last_check_time": 1795767105.275191
     },
     "lodydeals": {
-      "last_message_id": 46953,
-      "last_check_time": 1795779026.6566927
+      "last_message_id": 46954,
+      "last_check_time": 1795779588.4496286
     },
     "test_channel": {
       "last_message_id": 1793967703,
@@ -6450,7 +6454,8 @@
     "1005012649756781": 24.96,
     "1005012395059515": 423.58,
     "1005012196932716": 472.03,
-    "1005013416923881": 380.0
+    "1005013416923881": 380.0,
+    "1005013465406234": 371.6
   },
   "channel_published_deals": {
     "aniscoupons:32590": {
@@ -35765,6 +35770,16 @@
       "price": null,
       "timestamp": 1795779486.0734122,
       "status": "ACTIVE"
+    },
+    "lodydeals:46954": {
+      "channel_msg_id": 3887,
+      "product_id": "1005013465406234",
+      "title": "IPhone 14 Pro Max 6/128GB",
+      "channel": "lodydeals",
+      "source_msg_id": 46954,
+      "price": 371.6,
+      "timestamp": 1795779586.365553,
+      "status": "ACTIVE"
     }
   },
   "schedule_config": {
@@ -35773,17 +35788,17 @@
     "current_interval_minutes": 5,
     "is_paused": false,
     "night_mode_enabled": true,
-    "last_deal_post_time": 1795776835.3537977,
+    "last_deal_post_time": 1795779591.3333542,
     "night_start_hour_dz": 0,
     "night_end_hour_dz": 8,
     "night_pause_enabled": true,
-    "last_sweep_time": 1795779400.9104962,
+    "last_sweep_time": 1795779595.481898,
     "last_sweep_times": {
-      "algeria": 1795779394.3604078,
-      "france": 1795779400.9104962
+      "algeria": 1795779591.300602,
+      "france": 1795779595.481898
     },
     "last_deal_post_times": {
-      "algeria": 1795776835.3537977
+      "algeria": 1795779591.3333542
     }
   },
   "last_coin_reminder_time": 1795648937.9274871,
@@ -36772,7 +36787,8 @@
     "1005012395059515": "lodydeals",
     "1005012196932716": "lodydeals",
     "1005013416923881": "zedstoreonline",
-    "TAJMI3AT_lodydeals_46953": "lodydeals"
+    "TAJMI3AT_lodydeals_46953": "lodydeals",
+    "1005013465406234": "lodydeals"
   },
   "published_title_channels": {
     "Test Wrench Set": "test_channel",
@@ -38073,7 +38089,8 @@
     "ليكيب أفضل عروض هذه التخفيضات": "lodydeals",
     "Honor WIN Turbo 2 12/256": "zedstoreonline",
     "16.8V Cordless Drill Driver Rechargeable Electric Screwdriver": "aniscoupons",
-    "أفضل عروض الهواتف بكوبون 66$": "lodydeals"
+    "أفضل عروض الهواتف بكوبون 66$": "lodydeals",
+    "IPhone 14 Pro Max 6/128GB": "lodydeals"
   },
   "religious_reminders_history": {
     "mock_rem": "2026-10-02",
