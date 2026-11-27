@@ -1929,7 +1929,7 @@
     "1005012374298987": 1795725779.0574965,
     "1005013583987856": 1795713163.1769862,
     "1005013621783525": 1795712770.773982,
-    "1005010637751071": 1795553355.383983,
+    "1005010637751071": 1795791144.906784,
     "COUPONBULLETIN_zedstoreonline_40658": 1795561391.491517,
     "1005006678271047": 1795603024.1222618,
     "1005008660082872": 1795603029.6819038,
@@ -4524,7 +4524,7 @@
     "Velec Tv Box 4/32GB": 1795725779.0574965,
     "HONOR Watch X5 Play": 1795713163.1769862,
     "HONOR CHOICE Watch 6i": 1795712770.773982,
-    "Godox C01 Kit 2 Microphone Lavalier": 1795553355.383983,
+    "Godox C01 Kit 2 Microphone Lavalier": 1795791144.906784,
     "CMF Buds Neo 12.4 mm Titanium‑coated Driver": 1795718888.2253578,
     "سماعات SOUNDPEATS C30": 1795558896.5588944,
     "OPPO Enco Buds 3": 1795786182.5869348,
@@ -4577,7 +4577,6 @@
     "TCL alcatel 1023": 1795782882.6064954
   },
   "published_post_keys": [
-    "aniscoupons:34943",
     "zedstoreonline:40203",
     "aniscoupons:34944",
     "zedstoreonline:40204",
@@ -5576,11 +5575,12 @@
     "aniscoupons:35757",
     "zedstoreonline:40786",
     "aniscoupons:35758",
-    "zedstoreonline:40787"
+    "zedstoreonline:40787",
+    "zedstoreonline:40788"
   ],
   "last_disclaimer_time": 1795735529.6558404,
   "last_calendar_time": 1795782506.7435975,
-  "last_run_time": 1795790775.502236,
+  "last_run_time": 1795791144.906784,
   "monitored_channels": {
     "ecksdeal": {
       "last_message_id": 6149,
@@ -5607,8 +5607,8 @@
       "last_check_time": 1793599663.3444748
     },
     "zedstoreonline": {
-      "last_message_id": 40787,
-      "last_check_time": 1795790777.605544
+      "last_message_id": 40788,
+      "last_check_time": 1795791147.0262938
     },
     "aniscoupons": {
       "last_message_id": 35759,
@@ -35909,6 +35909,16 @@
       "price": 313.0,
       "timestamp": 1795790775.502236,
       "status": "ACTIVE"
+    },
+    "zedstoreonline:40788": {
+      "channel_msg_id": 3905,
+      "product_id": "1005010637751071",
+      "title": "Godox C01 Kit 2 Microphone Lavalier",
+      "channel": "zedstoreonline",
+      "source_msg_id": 40788,
+      "price": 25.3,
+      "timestamp": 1795791144.906784,
+      "status": "ACTIVE"
     }
   },
   "schedule_config": {
@@ -35917,17 +35927,17 @@
     "current_interval_minutes": 5,
     "is_paused": false,
     "night_mode_enabled": true,
-    "last_deal_post_time": 1795790783.55199,
+    "last_deal_post_time": 1795791149.1895156,
     "night_start_hour_dz": 0,
     "night_end_hour_dz": 8,
     "night_pause_enabled": true,
-    "last_sweep_time": 1795790955.085565,
+    "last_sweep_time": 1795791151.4472961,
     "last_sweep_times": {
-      "algeria": 1795790952.9289603,
-      "france": 1795790955.085565
+      "algeria": 1795791149.138024,
+      "france": 1795791151.4472961
     },
     "last_deal_post_times": {
-      "algeria": 1795790783.55199
+      "algeria": 1795791149.1895156
     }
   },
   "last_coin_reminder_time": 1795648937.9274871,
@@ -41554,6 +41564,13 @@
         "channel": "zedstoreonline",
         "ts": 1795790772.8459187,
         "price": 313.0
+      }
+    ],
+    "1005010637751071": [
+      {
+        "channel": "zedstoreonline",
+        "ts": 1795791142.2089398,
+        "price": 25.3
       }
     ]
   },
