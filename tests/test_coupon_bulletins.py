@@ -250,6 +250,8 @@ def test_anis_35749_combined_normal_business_and_auto_reserve_fits_cleanly():
     assert cap is not None
     compact = compact_photo_caption(cap)
     assert len(compact) <= 1024
+    assert "انطلاق تخفيضات" not in compact
+    assert "قائمة كوبونات الجمعة البيضاء الشغالة الآن" in compact
     for code in ["OTSBF03", "OTSBF66", "AEBBF10", "AEBBF32"]:
         assert f"<code>{code}</code>" in compact
     assert "البزنيس" in compact

@@ -263,7 +263,11 @@ def format_normal_coupon_bulletin(
     else:
         coupons_block = _coupon_lines(coupons)
 
-    has_auto_reserve_tip = bool(re.search(r'(?:تلقائياً|تلقائيا|طريقة\s+حجز|صفحة\s+الدفع)', raw_text or ""))
+    norm_raw = re.sub(r'\u0640', '', raw_text or "")
+    has_launch_cue = bool(
+        re.search(r'(?:انطلاق|انطلقت|إطلاق|بدأت|ظهور|تشتغل\s+على\s+الساعة|0[789]:00)', norm_raw)
+    )
+    has_auto_reserve_tip = bool(re.search(r'(?:تلقائياً|تلقائيا|طريقة\s+حجز|صفحة\s+الدفع)', norm_raw))
     if has_auto_reserve_tip:
         reserve_block = (
             "⭕️ <b>طريقة تثبيت الكوبونات تلقائياً:</b>\n"
@@ -279,10 +283,17 @@ def format_normal_coupon_bulletin(
             f"{apply_url}"
         )
 
-    header = (
-        f"🚀 انطلاق تخفيضات {event} رسمياً الآن! 🛍️🔥{until_line}\n"
-        f"⏰ سارعوا بحجزها قبل نفاد الكمية{when} 🏃💨"
-    )
+    if has_launch_cue:
+        header = (
+            f"🚀 انطلاق تخفيضات {event} رسمياً الآن! 🛍️🔥{until_line}\n"
+            f"⏰ سارعوا بحجزها قبل نفاد الكمية{when} 🏃💨"
+        )
+    else:
+        ev_label = f"قائمة كوبونات {event} الشغالة الآن" if event_name else "قائمة الكوبونات الشغالة الآن"
+        header = (
+            f"🔥 <b>{ev_label}!</b> 🛍️{until_line}\n"
+            "⏰ الكوبونات متوفرة وشغالة الآن، احجزها في حسابك قبل نفاد الكمية 🏃💨"
+        )
     return "\n\n".join([
         header,
         coupons_block,
@@ -404,7 +415,7 @@ def compact_photo_caption(caption: str, limit: int = 1000) -> str:
         s = line.strip()
         if not s:
             continue
-        if (s.startswith("🎟️ كوبون") or s.startswith("🚀") or s.startswith("🗓")
+        if (s.startswith("🎟️ كوبون") or s.startswith("🚀") or s.startswith("🔥 <b>قائمة") or s.startswith("🗓")
                 or s.startswith("✅") or s.startswith("💼") or s.startswith("⭕️")
                 or s.startswith("ادخل للرابط") or s.startswith("🔗")
                 or s.startswith("https://s.click.aliexpress.com")
@@ -419,7 +430,7 @@ def compact_photo_caption(caption: str, limit: int = 1000) -> str:
         if idx > 0 and not (
             (s.startswith("🎟️") and prev.startswith(("🎟️", "✅", "💼")))
             or (s.startswith(("ادخل للرابط", "🔗", "https://s.click.")) and prev.startswith(("⭕️", "ادخل للرابط")))
-            or (s.startswith("🗓") and prev.startswith("🚀"))
+            or (s.startswith("🗓") and prev.startswith(("🚀", "🔥 <b>قائمة")))
             or ("@DzAliexpress0" in s and "dealscoutgreen" in prev)
         ):
             out_lines.append("")
