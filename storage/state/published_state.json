@@ -1577,7 +1577,7 @@
     "1005010285419688": 1793613895.6129942,
     "1005007805750092": 1793613900.590816,
     "1005006966360399": 1793613905.8870661,
-    "1005010706590867": 1795776831.3018806,
+    "1005010706590867": 1795802687.845825,
     "1005010428947440": 1795601370.637946,
     "1005010585654037": 1795088190.1400514,
     "1005013137304827": 1793613926.9213502,
@@ -4004,7 +4004,7 @@
     "MEN SQUARE QUARTZ WATCH": 1793613895.6129942,
     "ONEPLUS 80W CHARGER": 1793613900.590816,
     "GAMINJA WIRELESS CONTROLLER": 1793613905.8870661,
-    "ATTACK SHARK R1": 1795776831.3018806,
+    "ATTACK SHARK R1": 1795802687.845825,
     "Soundcore Select 4 Go": 1795601370.637946,
     "Mortal Android TV Box": 1793613921.841963,
     "HONOR 600s 8/256GB": 1793613926.9213502,
@@ -4599,7 +4599,6 @@
     "CUSU DDR5 16GB 6000MHz": 1795801448.6490834
   },
   "published_post_keys": [
-    "lodydeals:46539",
     "lodydeals:46540",
     "lodydeals:46541",
     "lodydeals:46542",
@@ -5598,11 +5597,12 @@
     "lodydeals:46965",
     "lodydeals:46966",
     "lodydeals:46967",
-    "aniscoupons:35776"
+    "aniscoupons:35776",
+    "aniscoupons:35777"
   ],
   "last_disclaimer_time": 1795735529.6558404,
   "last_calendar_time": 1795782506.7435975,
-  "last_run_time": 1795801960.9411502,
+  "last_run_time": 1795802687.845825,
   "monitored_channels": {
     "ecksdeal": {
       "last_message_id": 6149,
@@ -5633,8 +5633,8 @@
       "last_check_time": 1795799763.1799657
     },
     "aniscoupons": {
-      "last_message_id": 35776,
-      "last_check_time": 1795801963.0732183
+      "last_message_id": 35777,
+      "last_check_time": 1795802689.9440048
     },
     "bnddeals": {
       "last_message_id": 51427,
@@ -6138,7 +6138,7 @@
     "1005007060644375": 3.2,
     "1005007805750092": 4.4,
     "1005006966360399": 6.5,
-    "1005010706590867": 16.1,
+    "1005010706590867": 16.0,
     "1005012648097890": 430.0,
     "1005012871436251": 200.96,
     "1005010385663278": 58.55,
@@ -36263,6 +36263,16 @@
       "price": 138.7,
       "timestamp": 1795801960.9411502,
       "status": "ACTIVE"
+    },
+    "aniscoupons:35777": {
+      "channel_msg_id": 3939,
+      "product_id": "1005010706590867",
+      "title": "ATTACK SHARK R1",
+      "channel": "aniscoupons",
+      "source_msg_id": 35777,
+      "price": 16.0,
+      "timestamp": 1795802687.845825,
+      "status": "ACTIVE"
     }
   },
   "schedule_config": {
@@ -36271,17 +36281,17 @@
     "current_interval_minutes": 5,
     "is_paused": false,
     "night_mode_enabled": true,
-    "last_deal_post_time": 1795801964.4864533,
+    "last_deal_post_time": 1795802691.0645623,
     "night_start_hour_dz": 0,
     "night_end_hour_dz": 8,
     "night_pause_enabled": true,
-    "last_sweep_time": 1795802512.582059,
+    "last_sweep_time": 1795802696.141702,
     "last_sweep_times": {
-      "algeria": 1795802506.9712107,
-      "france": 1795802512.582059
+      "algeria": 1795802691.0223906,
+      "france": 1795802696.141702
     },
     "last_deal_post_times": {
-      "algeria": 1795801964.4864533
+      "algeria": 1795802691.0645623
     }
   },
   "last_coin_reminder_time": 1795648937.9274871,
@@ -36889,7 +36899,7 @@
     "1005007060644375": "zedstoreonline",
     "1005007805750092": "aniscoupons",
     "1005006966360399": "aniscoupons",
-    "1005010706590867": "zedstoreonline",
+    "1005010706590867": "aniscoupons",
     "1005012648097890": "aniscoupons",
     "1005012871436251": "lodydeals",
     "1005009504965110": "zedstoreonline",
@@ -37996,7 +38006,7 @@
     "MEN SQUARE QUARTZ WATCH": "aniscoupons",
     "ONEPLUS 80W CHARGER": "aniscoupons",
     "GAMINJA WIRELESS CONTROLLER": "aniscoupons",
-    "ATTACK SHARK R1": "zedstoreonline",
+    "ATTACK SHARK R1": "aniscoupons",
     "Mortal Android TV Box": "aniscoupons",
     "HONOR 600s 8/256GB": "aniscoupons",
     "Oppo Find X8s+": "aniscoupons",
@@ -41926,6 +41936,11 @@
         "channel": "lodydeals",
         "ts": 1795778485.7579703,
         "price": 16.08
+      },
+      {
+        "channel": "aniscoupons",
+        "ts": 1795802685.509585,
+        "price": 16.0
       }
     ],
     "1005012899783721": [
