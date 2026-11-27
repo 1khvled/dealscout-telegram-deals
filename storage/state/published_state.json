@@ -1858,7 +1858,7 @@
     "1005012408109331": 1795102336.0045958,
     "1005013304783085": 1795103262.750217,
     "1005013633649876": 1795104359.6206825,
-    "1005012274502051": 1795626901.9106421,
+    "1005012274502051": 1795799390.9531388,
     "1005013603023857": 1795290161.6076646,
     "1005009693337727": 1795344822.4527907,
     "1005013497504096": 1795546908.1570234,
@@ -4433,7 +4433,7 @@
     "MAGCUBIC HY300 PRO Projector": 1795112692.4915283,
     "DIGITAL BATHROOM SCALE": 1795283264.8493018,
     "CUSU K5 Portable External SSD 512gb": 1795164006.096927,
-    "UGREEN Nexode Air 65W GaN Charger": 1795605118.3528702,
+    "UGREEN Nexode Air 65W GaN Charger": 1795799390.9531388,
     "Portable Wireless Electric Air Pump with LCD Display": 1795167145.0122104,
     "Blackview Wave 7C": 1795771921.621391,
     "لي يحوس على حاجة أصلية ومضمونة": 1795175430.73419,
@@ -4587,7 +4587,6 @@
     "ATTACK SHARK L30Pro Wireless Gaming Headset": 1795795910.8631444
   },
   "published_post_keys": [
-    "aniscoupons:34955",
     "aniscoupons:34957",
     "zedstoreonline:40214",
     "aniscoupons:34958",
@@ -5586,11 +5585,12 @@
     "zedstoreonline:40796",
     "aniscoupons:35768",
     "aniscoupons:35770",
-    "aniscoupons:35771"
+    "aniscoupons:35771",
+    "zedstoreonline:40798"
   ],
   "last_disclaimer_time": 1795735529.6558404,
   "last_calendar_time": 1795782506.7435975,
-  "last_run_time": 1795799215.7546494,
+  "last_run_time": 1795799390.9531388,
   "monitored_channels": {
     "ecksdeal": {
       "last_message_id": 6149,
@@ -5617,8 +5617,8 @@
       "last_check_time": 1793599663.3444748
     },
     "zedstoreonline": {
-      "last_message_id": 40797,
-      "last_check_time": 1795798477.0151567
+      "last_message_id": 40798,
+      "last_check_time": 1795799393.083543
     },
     "aniscoupons": {
       "last_message_id": 35771,
@@ -6383,7 +6383,7 @@
     "1005012408109331": 661.2,
     "1005013304783085": 597.9,
     "1005013633649876": 12.9,
-    "1005012274502051": 20.96,
+    "1005012274502051": 20.9,
     "1005013603023857": 42.14,
     "1005009693337727": 113.1,
     "1005013497504096": 3.5,
@@ -36100,6 +36100,16 @@
       "price": 15.5,
       "timestamp": 1795799215.7546494,
       "status": "ACTIVE"
+    },
+    "zedstoreonline:40798": {
+      "channel_msg_id": 3923,
+      "product_id": "1005012274502051",
+      "title": "UGREEN Nexode Air 65W GaN Charger",
+      "channel": "zedstoreonline",
+      "source_msg_id": 40798,
+      "price": 20.9,
+      "timestamp": 1795799390.9531388,
+      "status": "ACTIVE"
     }
   },
   "schedule_config": {
@@ -36108,17 +36118,17 @@
     "current_interval_minutes": 5,
     "is_paused": false,
     "night_mode_enabled": true,
-    "last_deal_post_time": 1795799219.0408201,
+    "last_deal_post_time": 1795799395.3364153,
     "night_start_hour_dz": 0,
     "night_end_hour_dz": 8,
     "night_pause_enabled": true,
-    "last_sweep_time": 1795799221.5348604,
+    "last_sweep_time": 1795799397.4265535,
     "last_sweep_times": {
-      "algeria": 1795799219.0030425,
-      "france": 1795799221.5348604
+      "algeria": 1795799395.279087,
+      "france": 1795799397.4265535
     },
     "last_deal_post_times": {
-      "algeria": 1795799219.0408201
+      "algeria": 1795799395.3364153
     }
   },
   "last_coin_reminder_time": 1795648937.9274871,
@@ -36994,7 +37004,7 @@
     "1005012408109331": "aniscoupons",
     "1005013304783085": "aniscoupons",
     "1005013633649876": "aniscoupons",
-    "1005012274502051": "lodydeals",
+    "1005012274502051": "zedstoreonline",
     "1005013603023857": "lodydeals",
     "1005009693337727": "lodydeals",
     "1005013497504096": "zedstoreonline",
@@ -41875,6 +41885,13 @@
         "channel": "aniscoupons",
         "ts": 1795798282.7149456,
         "price": 13.18
+      }
+    ],
+    "1005012274502051": [
+      {
+        "channel": "zedstoreonline",
+        "ts": 1795799388.7169497,
+        "price": 20.9
       }
     ]
   },
