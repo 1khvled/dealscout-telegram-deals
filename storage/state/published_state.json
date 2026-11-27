@@ -977,7 +977,8 @@
     "1005013416923881",
     "TAJMI3AT_lodydeals_46953",
     "1005013465406234",
-    "COUPONBULLETIN_aniscoupons_35749"
+    "COUPONBULLETIN_aniscoupons_35749",
+    "1005013491059196"
   ],
   "published_product_timestamps": {
     "1005012973772517": 1794500732.7845657,
@@ -1975,7 +1976,8 @@
     "1005013465406234": 1795779586.365553,
     "COUPONBULLETIN_aniscoupons_35749": 1795785843.9353843,
     "COUPONS_a5ca09fa": 1795785844.034309,
-    "COUPONS_الجمعة البيضاء": 1795785844.034309
+    "COUPONS_الجمعة البيضاء": 1795785844.034309,
+    "1005013491059196": 1795785995.6120148
   },
   "published_titles": [
     "Wireless WiFi Repeater 300Mbps WiFi Extender Amplifier Booster Router",
@@ -4005,7 +4007,7 @@
     "بطاقة الأم Asrock X570M PRO4": 1794936461.8541727,
     "بطاقة الأم GIGABYTE B550M K": 1793649062.201711,
     "بطاقة الأم MSI A520M A PRO": 1794936466.9727015,
-    "ماوس لاسلكي Aula Kunlun X5 Magnetic 8K Wireless": 1793649073.112849,
+    "ماوس لاسلكي Aula Kunlun X5 Magnetic 8K Wireless": 1795785995.6120148,
     "ماوسباد زجاجي Attack Shark CM05SE Tempred Glass": 1793649078.2559402,
     "يد تحكم فخمة  Flydigi Direwolf 4 Wireless Hall Effect": 1793649086.527061,
     "يد تحكم بالذكاء الاصطناعي 😂  LeadJoy Xeno Plus AI TMR": 1793649096.7166712,
@@ -4575,7 +4577,6 @@
     "TCL alcatel 1023": 1795782882.6064954
   },
   "published_post_keys": [
-    "lodydeals:46518",
     "lodydeals:46519",
     "aniscoupons:34935",
     "aniscoupons:34936",
@@ -5574,15 +5575,16 @@
     "lodydeals:46953",
     "lodydeals:46954",
     "lodydeals:46955",
-    "aniscoupons:35748"
+    "aniscoupons:35748",
+    "ecksdeal:6149"
   ],
   "last_disclaimer_time": 1795735529.6558404,
   "last_calendar_time": 1795782506.7435975,
-  "last_run_time": 1795785046.596957,
+  "last_run_time": 1795785995.6120148,
   "monitored_channels": {
     "ecksdeal": {
-      "last_message_id": 6148,
-      "last_check_time": 1795767105.275191
+      "last_message_id": 6149,
+      "last_check_time": 1795785997.6745925
     },
     "lodydeals": {
       "last_message_id": 46961,
@@ -5609,8 +5611,8 @@
       "last_check_time": 1795785636.9387984
     },
     "aniscoupons": {
-      "last_message_id": 35749,
-      "last_check_time": 1795785265.248751
+      "last_message_id": 35750,
+      "last_check_time": 1795786000.452729
     },
     "bnddeals": {
       "last_message_id": 51425,
@@ -6461,7 +6463,8 @@
     "1005012395059515": 423.58,
     "1005012196932716": 472.03,
     "1005013416923881": 380.0,
-    "1005013465406234": 371.6
+    "1005013465406234": 371.6,
+    "1005013491059196": 74.6
   },
   "channel_published_deals": {
     "aniscoupons:32590": {
@@ -35806,6 +35809,16 @@
       "price": 119.5,
       "timestamp": 1795785046.596957,
       "status": "ACTIVE"
+    },
+    "ecksdeal:6149": {
+      "channel_msg_id": 3894,
+      "product_id": "1005013491059196",
+      "title": "ماوس لاسلكي Aula Kunlun X5 Magnetic 8K Wireless",
+      "channel": "ecksdeal",
+      "source_msg_id": 6149,
+      "price": 74.6,
+      "timestamp": 1795785995.6120148,
+      "status": "ACTIVE"
     }
   },
   "schedule_config": {
@@ -35814,17 +35827,17 @@
     "current_interval_minutes": 5,
     "is_paused": false,
     "night_mode_enabled": true,
-    "last_deal_post_time": 1795785050.0605967,
+    "last_deal_post_time": 1795786001.0170603,
     "night_start_hour_dz": 0,
     "night_end_hour_dz": 8,
     "night_pause_enabled": true,
-    "last_sweep_time": 1795785820.335643,
+    "last_sweep_time": 1795786003.3624566,
     "last_sweep_times": {
-      "algeria": 1795785817.3925915,
-      "france": 1795785820.335643
+      "algeria": 1795786000.9892879,
+      "france": 1795786003.3624566
     },
     "last_deal_post_times": {
-      "algeria": 1795785050.0605967
+      "algeria": 1795786001.0170603
     }
   },
   "last_coin_reminder_time": 1795648937.9274871,
@@ -36815,7 +36828,8 @@
     "1005013416923881": "zedstoreonline",
     "TAJMI3AT_lodydeals_46953": "lodydeals",
     "1005013465406234": "lodydeals",
-    "COUPONBULLETIN_aniscoupons_35749": "aniscoupons"
+    "COUPONBULLETIN_aniscoupons_35749": "aniscoupons",
+    "1005013491059196": "ecksdeal"
   },
   "published_title_channels": {
     "Test Wrench Set": "test_channel",
@@ -38916,7 +38930,6 @@
   "published_deals_history": {},
   "settings": {},
   "handled_post_keys": [
-    "bnddeals:51302",
     "aniscoupons:34928",
     "zedstoreonline:40187",
     "bnddeals:51303",
@@ -39915,7 +39928,8 @@
     "zedstoreonline:40778",
     "zedstoreonline:40779",
     "aniscoupons:35749",
-    "zedstoreonline:40780"
+    "zedstoreonline:40780",
+    "aniscoupons:35750"
   ],
   "last_france_cross_promo_time": 1795757211.9224837,
   "next_france_cross_promo_interval_seconds": 197705,
@@ -41223,6 +41237,11 @@
       {
         "channel": "aniscoupons",
         "ts": 1795775402.4673264,
+        "price": 138.7
+      },
+      {
+        "channel": "aniscoupons",
+        "ts": 1795786000.3576283,
         "price": 138.7
       }
     ],
