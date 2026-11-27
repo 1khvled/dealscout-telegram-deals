@@ -141,18 +141,21 @@ def is_recent_france_duplicate(
     title: str = "",
     raw_text: str = "",
     cooldown_hours: float = 24.0,
-    state: Optional[Dict] = None
+    state: Optional[Dict] = None,
+    region: Optional[str] = None,
 ) -> Tuple[bool, Optional[str], bool]:
     """
-    Evaluates whether a France deal is a recent duplicate or qualifies for an exception:
+    Evaluates whether a France & Europe deal is a recent duplicate within the same region
+    (france / spain / italy / europe) or qualifies for an exception:
     1. Restock / Return Exception: If seller restocked, always allow re-posting.
-    2. Price-Drop Exception: If price dropped by >= 4% or >= 3€, allow with is_price_drop=True.
-    3. 24h Cooldown: If older than cooldown_hours, allow re-posting fresh.
+    2. Price-Drop Exception: If price dropped significantly, allow with is_price_drop=True.
+    3. 24h Cooldown: Scoped per-region so a Spain/Italy deal is never blocked by a France post.
     """
     if not product_id or str(product_id).strip() == "":
         return False, None, False
 
     pid = str(product_id).strip()
+    reg = (region or "france").strip().lower()
 
     # 1. Restock Exception
     from app.aliexpress.parser import detect_restock_deal
@@ -165,10 +168,14 @@ def is_recent_france_duplicate(
     deals_history = state.get("published_deals_history", {})
     record = None
     if isinstance(deals_history, dict):
-        record = deals_history.get(pid)
+        record = deals_history.get(f"{pid}:{reg}")
+        if record is None:
+            legacy = deals_history.get(pid)
+            if legacy and str(legacy.get("region") or "france").lower() == reg:
+                record = legacy
     elif isinstance(deals_history, list):
         for item in reversed(deals_history):
-            if str(item.get("product_id")) == pid:
+            if str(item.get("product_id")) == pid and str(item.get("region") or "france").lower() == reg:
                 record = item
                 break
 
@@ -182,15 +189,13 @@ def is_recent_france_duplicate(
 
     # 2. Cooldown check
     if age_hours < cooldown_hours:
-        # Check price drop exception: require at least 5.00€ AND 5% drop, or a substantial 10.00€+ drop,
-        # to strictly prevent minor price/cent adjustments from reposting yesterday's deals
         if current_price_eur and prev_price and prev_price > 0:
             diff = prev_price - current_price_eur
             pct_drop = (diff / prev_price) * 100.0
             if (diff >= 5.0 and pct_drop >= 5.0) or (diff >= 10.0) or (pct_drop >= 15.0 and diff >= 3.0):
                 return False, f"Price drop exception: {prev_price}€ -> {current_price_eur}€ (-{pct_drop:.1f}%, -{diff:.2f}€)", True
 
-        return True, f"Product {pid} already posted to France {age_hours:.1f}h ago (< {cooldown_hours}h cooldown)", False
+        return True, f"Product {pid} ({reg}) already posted {age_hours:.1f}h ago (< {cooldown_hours}h cooldown)", False
 
     return False, None, False
 
@@ -209,6 +214,7 @@ def record_france_deal_published(
         state["published_post_keys"] = list(dict.fromkeys(state["published_post_keys"]))[-1000:]
     if product_id:
         pid = str(product_id).strip()
+        reg = (region or "france").strip().lower()
         state.setdefault("published_product_ids", []).append(pid)
         state["published_product_ids"] = list(dict.fromkeys(state["published_product_ids"]))[-1000:]
         entry = {
@@ -216,10 +222,9 @@ def record_france_deal_published(
             "title": title,
             "price_eur": price_eur,
             "channel_msg_id": channel_msg_id,
+            "region": reg,
         }
-        if region:
-            entry["region"] = region
-        state.setdefault("published_deals_history", {})[pid] = entry
+        state.setdefault("published_deals_history", {})[f"{pid}:{reg}"] = entry
     state["last_deal_post_time"] = now
 
 def save_france_state(state: Dict):
@@ -356,8 +361,15 @@ async def publish_extracted_deal_to_france(
         logger.info(f"[FRANCE ROUTER] Rejected non-France deal: {fr_reason}")
         return False
 
-    from app.aliexpress.parser import detect_restock_deal
+    from app.aliexpress.parser import detect_restock_deal, detect_europe_region
     is_restock = detect_restock_deal(raw_text)
+    region = detect_europe_region(
+        raw_text,
+        channel_username=clean_ch or channel_username,
+        url=f"{extracted.original_url} {extracted.canonical_url}",
+        coupon_code=extracted.coupon_code or "",
+        country_info=getattr(extracted, 'country_info', None),
+    )
 
     if extracted.product_id and not extracted.is_coupon_list:
         is_dup, dup_reason, is_price_drop = is_recent_france_duplicate(
@@ -366,7 +378,8 @@ async def publish_extracted_deal_to_france(
             title=extracted.title or "",
             raw_text=raw_text,
             cooldown_hours=24.0,
-            state=state
+            state=state,
+            region=region,
         )
         if is_dup:
             logger.info(f"[FRANCE ROUTER] Duplicate product ID blocked: {dup_reason}")
@@ -397,14 +410,6 @@ async def publish_extracted_deal_to_france(
     )
 
     # Region & Caption
-    from app.aliexpress.parser import detect_europe_region
-    region = detect_europe_region(
-        raw_text,
-        channel_username=channel_username,
-        url=f"{extracted.original_url} {extracted.canonical_url}",
-        coupon_code=extracted.coupon_code or "",
-        country_info=getattr(extracted, 'country_info', None),
-    )
     caption = await france_caption_generator.generate(
         title=extracted.title or "AliExpress Deal",
         eur_price=extracted.current_price_eur,
@@ -587,40 +592,50 @@ async def probe_direct_channel_posts(
     max_id = last_seen_id or 0
     now_utc = datetime.now(timezone.utc)
 
-    async def _collect_pid(pid: int, resp: httpx.Response):
+    async def _collect_pid(pid: int, resp: httpx.Response) -> str:
+        """Returns 'collected', 'stale', or 'skip'."""
         key = f"{clean_ch}:{pid}"
         if key in published_keys or key in handled:
-            return
+            return "skip"
         soup_p = BeautifulSoup(resp.text, "html.parser")
         desc_m = soup_p.find("meta", property="og:description")
         img_m = soup_p.find("meta", property="og:image")
-        if not desc_m or not desc_m.get("content"):
-            return
         msg_dt = await _fetch_embed_post_datetime(client, clean_ch, pid)
         if msg_dt is not None:
             age_h = (now_utc - msg_dt).total_seconds() / 3600.0
             if age_h > max_age_hours:
                 stale_keys.append(key)
-                return
+                return "stale"
+        if not desc_m or not desc_m.get("content"):
+            return "skip"
         found_candidates.append({
             "msg_id": pid,
             "raw_text": desc_m["content"],
             "source_photo_url": img_m["content"] if img_m else None,
             "msg_dt": msg_dt or now_utc,
         })
+        return "collected"
 
     if last_seen_id is None:
         current_max = await find_channel_max_id(client, clean_ch)
         max_id = current_max
-        probe_start = max(1, current_max - 5)
-        for pid in range(probe_start, current_max + 1):
+        probe_floor = max(1, current_max - 39)
+        consecutive_stale = 0
+        for pid in range(current_max, probe_floor - 1, -1):
             pr = await _probe_post_exists(client, clean_ch, pid)
             if pr is not None:
-                await _collect_pid(pid, pr)
+                status = await _collect_pid(pid, pr)
+                if status == "stale":
+                    consecutive_stale += 1
+                    if consecutive_stale >= 3:
+                        break
+                else:
+                    consecutive_stale = 0
+        found_candidates.sort(key=lambda x: x["msg_id"])
     else:
         consecutive_misses = 0
         cur_pid = last_seen_id + 1
-        while consecutive_misses < 5 and cur_pid <= last_seen_id + 25:
+        while consecutive_misses < 5 and cur_pid <= last_seen_id + 40:
             pr = await _probe_post_exists(client, clean_ch, cur_pid)
             if pr is not None:
                 consecutive_misses = 0
@@ -647,7 +662,7 @@ async def probe_alifrdrop_direct_posts(
     items, max_id, _ = await probe_direct_channel_posts(client, "alifrdrop", last_seen_id, published_keys)
     return items, max_id
 
-async def collect_and_post_france_deals(force: bool = False, force_tajmi3at: bool = False) -> int:
+async def collect_and_post_france_deals(force: bool = False, force_tajmi3at: bool = False, catchup: bool = False) -> int:
     print("=" * 70)
     print("ALIEXPRESS FRANCE & EUROPE DEALS PUBLISHER (FR / ES / IT)")
     print(f"Target Channel: {TARGET_FRANCE_CHANNEL}")
@@ -702,9 +717,9 @@ async def collect_and_post_france_deals(force: bool = False, force_tajmi3at: boo
     }
 
     published_count = 0
-    # Balanced pacing across FR / ES / IT sources: 2 deals per channel, up to 6 per run
-    MAX_DEALS_PER_RUN = 6
-    MAX_DEALS_PER_CHANNEL = 2
+    # Balanced pacing across FR / ES / IT sources without starving later country channels
+    MAX_DEALS_PER_RUN = 30 if catchup else 15
+    MAX_DEALS_PER_CHANNEL = 15 if catchup else 3
 
     async with httpx.AsyncClient(headers=headers, timeout=20.0, follow_redirects=True) as client:
         for ch in FRANCE_SOURCE_CHANNELS:
@@ -739,7 +754,7 @@ async def collect_and_post_france_deals(force: bool = False, force_tajmi3at: boo
                     block_items.append((int(dp.split("/")[-1]), b))
 
             to_process_items = []
-            max_age_hours = 14.0
+            max_age_hours = 24.0
 
             if not block_items:
                 print(f"  [@{ch}] Web preview redirected/empty. Probing direct post metadata...")
@@ -751,28 +766,26 @@ async def collect_and_post_france_deals(force: bool = False, force_tajmi3at: boo
                 if stale_keys:
                     state.setdefault("handled_post_keys", []).extend(stale_keys)
                     state["handled_post_keys"] = list(dict.fromkeys(state["handled_post_keys"]))[-1500:]
-                if current_max_id > (last_seen_id or 0) and (last_seen_id is None or not probed_items):
+                # Only advance watermark to current_max_id when NO unqueued fresh candidates remain;
+                # otherwise process chronologically (FIFO) so deferred items run on the next sweep.
+                if current_max_id > (last_seen_id or 0) and not probed_items:
                     monitored.setdefault(clean_ch, {})["last_message_id"] = current_max_id
                     monitored[clean_ch]["last_check_time"] = time.time()
                     state["monitored_channels"] = monitored
                 save_france_state(state)
-                to_process_items = probed_items[-MAX_DEALS_PER_CHANNEL:]
-                print(f"  [@{ch}] Selected {len(to_process_items)} fresh candidate(s) to process (max ID #{current_max_id})")
+                to_process_items = probed_items[:MAX_DEALS_PER_CHANNEL]
+                print(f"  [@{ch}] Selected {len(to_process_items)}/{len(probed_items)} fresh candidate(s) FIFO (max ID #{current_max_id})")
             elif block_items:
                 current_max_id = max(b_id for b_id, _ in block_items)
                 last_seen_id = monitored.get(clean_ch, {}).get("last_message_id")
                 block_items.sort(key=lambda x: x[0])
 
                 if last_seen_id is None:
-                    monitored.setdefault(clean_ch, {})["last_message_id"] = current_max_id
-                    monitored[clean_ch]["last_check_time"] = time.time()
-                    state["monitored_channels"] = monitored
-                    save_france_state(state)
                     new_blocks = [
-                        (b_id, b) for b_id, b in block_items[-3:]
+                        (b_id, b) for b_id, b in block_items
                         if f"{clean_ch}:{b_id}" not in published_keys
                     ]
-                    print(f"  [FIRST RUN BASELINE] @{ch} baseline set to #{current_max_id}. Evaluating {len(new_blocks)} most recent candidate(s).")
+                    print(f"  [FIRST RUN BASELINE] @{ch} max #{current_max_id}. Evaluating {len(new_blocks)} fresh candidate(s) FIFO.")
                 else:
                     handled_keys = set(state.get("handled_post_keys", []))
                     lookback_cutoff = max(0, last_seen_id - 20)
@@ -783,7 +796,6 @@ async def collect_and_post_france_deals(force: bool = False, force_tajmi3at: boo
                     ]
 
                 fresh_blocks = []
-                max_age_hours = 14.0
                 for b_id, b in new_blocks:
                     time_el = b.find("time")
                     msg_dt = None
@@ -924,9 +936,16 @@ async def collect_and_post_france_deals(force: bool = False, force_tajmi3at: boo
                         max_processed_id = max(max_processed_id, msg_id)
                         continue
 
-                # 6. Deduplicate by product ID within France channel (24h cooldown, restock & price drop exceptions)
-                from app.aliexpress.parser import detect_restock_deal
+                # 6. Deduplicate by product ID + region within France & Europe channel (24h cooldown)
+                from app.aliexpress.parser import detect_restock_deal, detect_europe_region
                 is_restock = detect_restock_deal(raw_text)
+                region = detect_europe_region(
+                    raw_text,
+                    channel_username=clean_ch,
+                    url=f"{extracted.original_url} {extracted.canonical_url}",
+                    coupon_code=extracted.coupon_code or "",
+                    country_info=getattr(extracted, 'country_info', None),
+                )
 
                 if extracted.product_id and not extracted.is_coupon_list:
                     is_dup, dup_reason, is_price_drop = is_recent_france_duplicate(
@@ -935,7 +954,8 @@ async def collect_and_post_france_deals(force: bool = False, force_tajmi3at: boo
                         title=extracted.title or "",
                         raw_text=raw_text,
                         cooldown_hours=24.0,
-                        state=state
+                        state=state,
+                        region=region,
                     )
                     if is_dup:
                         print(f"  [DUPLICATE BLOCKED] {dup_reason}")
@@ -966,14 +986,6 @@ async def collect_and_post_france_deals(force: bool = False, force_tajmi3at: boo
                 )
 
                 # 9. Generate French & Europe caption (region-aware for FR / ES / IT)
-                from app.aliexpress.parser import detect_europe_region
-                region = detect_europe_region(
-                    raw_text,
-                    channel_username=clean_ch,
-                    url=f"{extracted.original_url} {extracted.canonical_url}",
-                    coupon_code=extracted.coupon_code or "",
-                    country_info=getattr(extracted, 'country_info', None),
-                )
                 if clean_ch == "alifrdrop":
                     from app.ai.generator_fr import format_alifrdrop_caption_1to1
                     caption = format_alifrdrop_caption_1to1(raw_text, aff_link, extracted.coupon_code)
@@ -1137,6 +1149,7 @@ async def run_france_deals_loop(duration: int, interval: int, force: bool = Fals
 if __name__ == "__main__":
     force_run = "--force" in sys.argv or "-f" in sys.argv
     force_tajmi3at = "--tajmi3at" in sys.argv or "--force-tajmi3at" in sys.argv
+    catchup_run = "--catchup" in sys.argv or "--all" in sys.argv
 
     duration = None
     if "--duration" in sys.argv:
@@ -1158,7 +1171,7 @@ if __name__ == "__main__":
         if duration:
             res = asyncio.run(run_france_deals_loop(duration=duration, interval=interval, force=force_run, force_tajmi3at=force_tajmi3at))
         else:
-            res = asyncio.run(collect_and_post_france_deals(force=force_run, force_tajmi3at=force_tajmi3at))
+            res = asyncio.run(collect_and_post_france_deals(force=force_run, force_tajmi3at=force_tajmi3at, catchup=catchup_run))
         sys.exit(0)
     except Exception as e:
         logger.critical(f"FATAL ERROR in France deals publisher: {e}", exc_info=True)

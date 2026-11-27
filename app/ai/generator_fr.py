@@ -353,7 +353,7 @@ class FranceDealCaptionGenerator:
             )
             return self.format_event_campaign(raw_text, affiliate_url, region=resolved_reg)
 
-        clean_title = title.strip() if title else "Produit sélectionné sur AliExpress"
+        clean_title = re.sub(r'\s+', ' ', title).strip() if title else "Produit sélectionné sur AliExpress"
         eur_val = eur_price or (round(usd_price * (settings.EUR_USD_RATE or 0.92), 2) if usd_price else 0.0)
         usd_val = usd_price or 0.0
 

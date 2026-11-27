@@ -1341,3 +1341,82 @@ async def test_universal_france_and_europe_captions_and_direct_probe():
     assert [it["msg_id"] for it in items] == [120]
     assert "firascopon:118" in stale
 
+
+@pytest.mark.asyncio
+async def test_first_run_prober_catches_all_today_deals_fifo_and_region_dedup():
+    import time
+    from datetime import datetime, timezone, timedelta
+    from scripts.post_france_deals import (
+        is_recent_france_duplicate,
+        probe_direct_channel_posts,
+        record_france_deal_published,
+    )
+
+    # 1. Per-region dedup: same PID posted in France must NOT suppress Spain or Italy,
+    # while repeat Spain within 24h IS suppressed.
+    state = {"published_deals_history": {}}
+    record_france_deal_published(
+        state=state,
+        product_id="1005013288906281",
+        title="REALME 16 PRO",
+        price_eur=238.0,
+        channel_msg_id=380,
+        region="france",
+    )
+    dup_fr, _, _ = is_recent_france_duplicate("1005013288906281", 238.0, state=state, region="france")
+    dup_es, _, _ = is_recent_france_duplicate("1005013288906281", 193.0, state=state, region="spain")
+    dup_it, _, _ = is_recent_france_duplicate("1005013288906281", 210.0, state=state, region="italy")
+    assert dup_fr is True
+    assert dup_es is False
+    assert dup_it is False
+
+    record_france_deal_published(
+        state=state,
+        product_id="1005013288906281",
+        title="Realme 16 Pro",
+        price_eur=193.0,
+        channel_msg_id=385,
+        region="spain",
+    )
+    dup_es_again, _, _ = is_recent_france_duplicate("1005013288906281", 193.0, state=state, region="spain")
+    assert dup_es_again is True
+
+    # 1.5 PayPal price label ("Prix réduit via PayPal") must NOT trigger false "Baisse de Prix" alert
+    from app.aliexpress.parser import detect_price_drop_deal
+    assert detect_price_drop_deal("✔️ Prix réduit via PayPal : 271€") is False
+    assert detect_price_drop_deal("Baisse de prix importante !") is True
+
+    # 2. Initial first-run probe (last_seen_id=None) captures ALL fresh posts (> 6 posts back) in ascending FIFO order
+    now_dt = datetime.now(timezone.utc)
+    fresh_iso = (now_dt - timedelta(hours=3)).strftime("%Y-%m-%dT%H:%M:%S+00:00")
+    old_iso = (now_dt - timedelta(hours=40)).strftime("%Y-%m-%dT%H:%M:%S+00:00")
+
+    class FakeResp:
+        def __init__(self, text):
+            self.status_code = 200
+            self.text = text
+
+    class FakeBacklogClient:
+        async def get(self, url):
+            if "?embed=1" in url:
+                pid = int(url.split("/")[-1].split("?")[0])
+                dt = fresh_iso if pid >= 110 else old_iso
+                return FakeResp(f'<html><time datetime="{dt}"></time></html>')
+            m_id = url.rsplit("/", 1)[-1]
+            if m_id.isdigit():
+                pid = int(m_id)
+                if 1 <= pid <= 120:
+                    return FakeResp(
+                        f'<div data-telegram-post="firascopon/{pid}"></div>'
+                        f'<meta property="og:description" content="✔️Deal {pid} 🇪🇸 200€ https://s.click.aliexpress.com/e/_a">'
+                    )
+            return FakeResp("<html></html>")
+
+    items, got_max, stale = await probe_direct_channel_posts(
+        FakeBacklogClient(), "firascopon", None, set(), max_age_hours=24.0
+    )
+    assert got_max == 120
+    assert [it["msg_id"] for it in items] == list(range(110, 121))
+    assert all(f"firascopon:{old}" in stale for old in (107, 108, 109))
+
+

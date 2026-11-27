@@ -279,7 +279,8 @@ async def get_recent_france_published_deals(max_age_hours: float = 24.0) -> List
 
     from app.aliexpress.promos import promo_tracker
     target_clean = TARGET_FRANCE_CHANNEL.replace("@", "")
-    for pid, info in deals_history.items():
+    for hist_key, info in deals_history.items():
+        pid = str(hist_key).split(":")[0]
         status = str(info.get("status") or "").upper()
         if status in ("DELETED", "EXPIRED", "DEAD", "ENDED"):
             continue

@@ -1569,7 +1569,8 @@ def detect_price_drop_deal(text: str) -> bool:
     """
     if not text:
         return False
-    t = text.lower()
+    # Ignore standard PayPal payment-label phrasing ("Prix réduit via PayPal : 271€")
+    t = re.sub(r'prix\s+r[ée]duit\s+(?:via|avec|par)\s+paypal', '', text.lower())
     price_drop_keywords = [
         # French
         "baisse de prix", "prix en baisse", "nouveau prix", "prix réduit", "prix cassé",
