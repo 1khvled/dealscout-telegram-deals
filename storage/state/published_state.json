@@ -1910,7 +1910,7 @@
     "1005007893508418": 1795381174.309368,
     "1005004433755802": 1795382836.9089916,
     "1005013572353302": 1795798285.2566552,
-    "1005012172081619": 1795601168.6454124,
+    "1005012172081619": 1795813948.5309904,
     "1005007869625249": 1795794071.5091987,
     "1005013572273568": 1795633212.2650673,
     "COUPONBULLETIN_lodydeals_46823": 1795474088.8029113,
@@ -4522,7 +4522,7 @@
     "WALRAM 2.5  sata 512GB": 1795467838.0597904,
     "Zeblaze Btalk 4 Pro": 1795446097.3435004,
     "HONOR Earbuds X10 Play": 1795798285.2566552,
-    "OPPO Enco Buds3 Pro True Wireless Earbuds": 1795601168.6454124,
+    "OPPO Enco Buds3 Pro True Wireless Earbuds": 1795813948.5309904,
     "Zeblaze Btalk 4 Pro Voice Calling Amoled": 1795463758.3094215,
     "CUSU RAM DDR4 3200MHz 16GB": 1795794071.5091987,
     "BOYA Mini 2 Wireless Lavalier Microphone": 1795466729.299068,
@@ -4629,7 +4629,6 @@
     "نقاط راهم نادرين أكثر من بطاطا وزيت كاش واحد عندو": 1795811369.389761
   },
   "published_post_keys": [
-    "aniscoupons:34990",
     "aniscoupons:34991",
     "aniscoupons:34992",
     "zedstoreonline:40235",
@@ -5628,11 +5627,12 @@
     "aniscoupons:35819",
     "aniscoupons:35820",
     "aniscoupons:35822",
-    "ecksdeal:6156"
+    "ecksdeal:6156",
+    "aniscoupons:35823"
   ],
   "last_disclaimer_time": 1795735529.6558404,
   "last_calendar_time": 1795782506.7435975,
-  "last_run_time": 1795813581.6281943,
+  "last_run_time": 1795813948.5309904,
   "monitored_channels": {
     "ecksdeal": {
       "last_message_id": 6156,
@@ -5663,8 +5663,8 @@
       "last_check_time": 1795813011.4891174
     },
     "aniscoupons": {
-      "last_message_id": 35822,
-      "last_check_time": 1795813389.3309586
+      "last_message_id": 35823,
+      "last_check_time": 1795813950.6490595
     },
     "bnddeals": {
       "last_message_id": 51449,
@@ -36615,6 +36615,16 @@
       "price": 6.54,
       "timestamp": 1795813581.6281943,
       "status": "ACTIVE"
+    },
+    "aniscoupons:35823": {
+      "channel_msg_id": 3971,
+      "product_id": "1005012172081619",
+      "title": "OPPO Enco Buds3 Pro True Wireless Earbuds",
+      "channel": "aniscoupons",
+      "source_msg_id": 35823,
+      "price": 22.49,
+      "timestamp": 1795813948.5309904,
+      "status": "ACTIVE"
     }
   },
   "schedule_config": {
@@ -36623,17 +36633,17 @@
     "current_interval_minutes": 5,
     "is_paused": false,
     "night_mode_enabled": true,
-    "last_deal_post_time": 1795813586.5619788,
+    "last_deal_post_time": 1795813951.8894608,
     "night_start_hour_dz": 0,
     "night_end_hour_dz": 8,
     "night_pause_enabled": true,
-    "last_sweep_time": 1795813761.5944302,
+    "last_sweep_time": 1795813957.4786723,
     "last_sweep_times": {
-      "algeria": 1795813757.167481,
-      "france": 1795813761.5944302
+      "algeria": 1795813951.8432138,
+      "france": 1795813957.4786723
     },
     "last_deal_post_times": {
-      "algeria": 1795813586.5619788
+      "algeria": 1795813951.8894608
     }
   },
   "last_coin_reminder_time": 1795648937.9274871,
@@ -41360,16 +41370,6 @@
     "1005010788149535": [
       {
         "channel": "lodydeals",
-        "ts": 1795770407.959612,
-        "price": 356.59
-      },
-      {
-        "channel": "lodydeals",
-        "ts": 1795770590.822948,
-        "price": 356.59
-      },
-      {
-        "channel": "lodydeals",
         "ts": 1795770953.0966754,
         "price": 356.59
       },
@@ -41484,16 +41484,6 @@
     "1005012406142215": [
       {
         "channel": "zedstoreonline",
-        "ts": 1795770413.3077316,
-        "price": 356.0
-      },
-      {
-        "channel": "zedstoreonline",
-        "ts": 1795770596.3865337,
-        "price": 356.0
-      },
-      {
-        "channel": "zedstoreonline",
         "ts": 1795770958.7041743,
         "price": 356.0
       },
@@ -41601,16 +41591,6 @@
     "1005010575865619": [
       {
         "channel": "aniscoupons",
-        "ts": 1795770418.0118406,
-        "price": 363.4
-      },
-      {
-        "channel": "aniscoupons",
-        "ts": 1795770601.7260258,
-        "price": 363.4
-      },
-      {
-        "channel": "aniscoupons",
         "ts": 1795770963.259089,
         "price": 363.4
       },
@@ -41656,16 +41636,6 @@
       }
     ],
     "1005013438245033": [
-      {
-        "channel": "bnddeals",
-        "ts": 1795770422.9998388,
-        "price": 413.0
-      },
-      {
-        "channel": "bnddeals",
-        "ts": 1795770607.637713,
-        "price": 413.0
-      },
       {
         "channel": "bnddeals",
         "ts": 1795770968.4430544,
@@ -42640,6 +42610,13 @@
         "channel": "aniscoupons",
         "ts": 1795812664.0320587,
         "price": 16.19
+      }
+    ],
+    "1005012172081619": [
+      {
+        "channel": "aniscoupons",
+        "ts": 1795813945.7129135,
+        "price": 22.49
       }
     ]
   },
