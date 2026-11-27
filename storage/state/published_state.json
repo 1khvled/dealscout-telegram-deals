@@ -1632,7 +1632,7 @@
     "1005008429979494": 1793741666.9686077,
     "1005004795387201": 1793742770.1634803,
     "1005010702983351": 1794998780.0409262,
-    "1005008366962319": 1795773047.8510172,
+    "1005008366962319": 1795816329.4585314,
     "1005005058037424": 1793779907.9964287,
     "1005012946895000": 1793793714.105913,
     "1005012150344482": 1795806213.269179,
@@ -4279,7 +4279,7 @@
     "Vivo X300  12/256GB": 1794394604.3664222,
     "CMF Buds 2a Bluetooth 5.4 Up to 31H of playback 12.4mm Driver 42dB ANC 4HD": 1794396619.5833008,
     "Electronic Body Scale": 1794400568.4819298,
-    "Kootiion X15 M.2 SSD NVMe 256GB": 1795773047.8510172,
+    "Kootiion X15 M.2 SSD NVMe 256GB": 1795816329.4585314,
     "SoundPEATS C30 Hybrid ANC -52dB": 1794407013.7230165,
     "Somnambulist SSD 120GB": 1794524556.2538168,
     "Lexar ARES PRO NVMe SSD PCle5.0x4 M.2 1TB": 1794492627.75024,
@@ -4641,7 +4641,6 @@
     "OnePlus Ace7 12/256GB": 1795815969.7768242
   },
   "published_post_keys": [
-    "aniscoupons:35000",
     "zedstoreonline:40243",
     "zedstoreonline:40245",
     "aniscoupons:35001",
@@ -5640,11 +5639,12 @@
     "aniscoupons:35825",
     "lodydeals:46987",
     "aniscoupons:35826",
-    "aniscoupons:35827"
+    "aniscoupons:35827",
+    "aniscoupons:35828"
   ],
   "last_disclaimer_time": 1795735529.6558404,
   "last_calendar_time": 1795782506.7435975,
-  "last_run_time": 1795815975.1774561,
+  "last_run_time": 1795816329.4585314,
   "monitored_channels": {
     "ecksdeal": {
       "last_message_id": 6156,
@@ -5675,8 +5675,8 @@
       "last_check_time": 1795815962.7238836
     },
     "aniscoupons": {
-      "last_message_id": 35827,
-      "last_check_time": 1795815977.284383
+      "last_message_id": 35828,
+      "last_check_time": 1795816331.5862675
     },
     "bnddeals": {
       "last_message_id": 51449,
@@ -36729,6 +36729,16 @@
       "price": 9.7,
       "timestamp": 1795815975.1774561,
       "status": "ACTIVE"
+    },
+    "aniscoupons:35828": {
+      "channel_msg_id": 3981,
+      "product_id": "1005008366962319",
+      "title": "Kootiion X15 M.2 SSD NVMe 256GB",
+      "channel": "aniscoupons",
+      "source_msg_id": 35828,
+      "price": 30.0,
+      "timestamp": 1795816329.4585314,
+      "status": "ACTIVE"
     }
   },
   "schedule_config": {
@@ -36737,17 +36747,17 @@
     "current_interval_minutes": 5,
     "is_paused": false,
     "night_mode_enabled": true,
-    "last_deal_post_time": 1795815978.3058493,
+    "last_deal_post_time": 1795816332.8151941,
     "night_start_hour_dz": 0,
     "night_end_hour_dz": 8,
     "night_pause_enabled": true,
-    "last_sweep_time": 1795816154.944489,
+    "last_sweep_time": 1795816337.054291,
     "last_sweep_times": {
-      "algeria": 1795816148.9047644,
-      "france": 1795816154.944489
+      "algeria": 1795816332.757036,
+      "france": 1795816337.054291
     },
     "last_deal_post_times": {
-      "algeria": 1795815978.3058493
+      "algeria": 1795816332.8151941
     }
   },
   "last_coin_reminder_time": 1795648937.9274871,
@@ -41475,11 +41485,6 @@
     "1005010788149535": [
       {
         "channel": "lodydeals",
-        "ts": 1795772787.9108603,
-        "price": 356.59
-      },
-      {
-        "channel": "lodydeals",
         "ts": 1795773348.111487,
         "price": 356.59
       },
@@ -41549,11 +41554,6 @@
     "1005012406142215": [
       {
         "channel": "zedstoreonline",
-        "ts": 1795772793.2228084,
-        "price": 356.0
-      },
-      {
-        "channel": "zedstoreonline",
         "ts": 1795773353.6184375,
         "price": 356.0
       },
@@ -41620,22 +41620,12 @@
     ],
     "1005010575865619": [
       {
-        "channel": "aniscoupons",
-        "ts": 1795772797.187335,
-        "price": 363.4
-      },
-      {
         "channel": "lodydeals",
         "ts": 1795776472.4638479,
         "price": 363.46
       }
     ],
     "1005013438245033": [
-      {
-        "channel": "bnddeals",
-        "ts": 1795772802.6902041,
-        "price": 413.0
-      },
       {
         "channel": "bnddeals",
         "ts": 1795773362.6762934,
@@ -41773,11 +41763,6 @@
     "1005007916078341": [
       {
         "channel": "aniscoupons",
-        "ts": 1795773043.3896878,
-        "price": 49.3
-      },
-      {
-        "channel": "aniscoupons",
         "ts": 1795801231.0211947,
         "price": 49.3
       }
@@ -41791,11 +41776,6 @@
     ],
     "1005010305059795": [
       {
-        "channel": "zedstoreonline",
-        "ts": 1795773022.4695354,
-        "price": 29.6
-      },
-      {
         "channel": "aniscoupons",
         "ts": 1795805822.1855235,
         "price": 27.59
@@ -41808,11 +41788,6 @@
     ],
     "1005007869955343": [
       {
-        "channel": "aniscoupons",
-        "ts": 1795773038.7761679,
-        "price": 37.5
-      },
-      {
         "channel": "ecksdeal",
         "ts": 1795810072.2931433,
         "price": 34.92
@@ -41821,16 +41796,11 @@
     "1005008366962319": [
       {
         "channel": "aniscoupons",
-        "ts": 1795773045.6865783,
+        "ts": 1795816327.2913837,
         "price": 30.0
       }
     ],
     "1005010210432531": [
-      {
-        "channel": "aniscoupons",
-        "ts": 1795773051.1040218,
-        "price": 133.8
-      },
       {
         "channel": "zedstoreonline",
         "ts": 1795785264.2604988,
