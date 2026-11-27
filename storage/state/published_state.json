@@ -1189,7 +1189,7 @@
     "1005011557896041": 1794845264.512838,
     "1005011754993234": 1795612289.48763,
     "1005011735727412": 1791943783.9162278,
-    "1005007916078341": 1795714410.10214,
+    "1005007916078341": 1795771340.3515534,
     "1005006506862816": 1791947519.5815504,
     "1005008072923842": 1791968144.109348,
     "1005013336240375": 1791968149.7952893,
@@ -1775,7 +1775,7 @@
     "1005010218815499": 1794845442.6108298,
     "1005011897409757": 1794593403.339319,
     "1005013203288194": 1795725757.071366,
-    "1005010305059795": 1795688041.9897308,
+    "1005010305059795": 1795771385.3272967,
     "1005013078612320": 1795256152.5715585,
     "1005007010612283": 1794599454.461018,
     "1005010788231460": 1794604060.7762444,
@@ -1807,7 +1807,7 @@
     "1005010376374580": 1794935234.6883996,
     "1005010239860751": 1794689616.7178488,
     "1005009278862695": 1795535124.479775,
-    "1005013005786079": 1795718888.2253578,
+    "1005013005786079": 1795771379.9658713,
     "1005008627811107": 1794694594.377669,
     "1005012892577195": 1794732862.0085351,
     "1005012594430190": 1795690585.1949098,
@@ -3311,7 +3311,7 @@
     "4G LTE Wireless USB 150Mbps": 1794057675.8729835,
     "Curren 8455 Men's Quartz": 1790943640.1460688,
     "ATTACK SHARK X11SE": 1795249016.9005632,
-    "CMF Watch 3 Pro AMOLED": 1794067316.3057165,
+    "CMF Watch 3 Pro AMOLED": 1795771340.3515534,
     "Redmi Note 17 5G   6/256": 1790943667.90417,
     "Baseus USB Type C Charger 20W": 1791102355.4991398,
     "Honor Win Turbo 12/256BG": 1790943705.796801,
@@ -4327,7 +4327,7 @@
     "FIFINE Wireless Lavalier Recording Microphone": 1794682951.3022494,
     "MCHOSE A7 V2 Ultra Gaming Mouse": 1794684619.3058665,
     "NETUM XL-P801 Thermal A4 Printer": 1794687391.0146728,
-    "Nothing Buds 2 Neo": 1795687706.4564328,
+    "Nothing Buds 2 Neo": 1795771379.9658713,
     "مقبس SONOFF ذكي بقوة 16A يتيح تشغيل وإيقاف الأجهزة الكهربائية عن": 1794689616.7178488,
     "Anker Soundcore P30i ANC": 1795249198.9372864,
     "Anker 735 GaN 3 Port 65W": 1795022632.7994065,
@@ -4363,7 +4363,7 @@
     "Magcubic C Pro Projector": 1794863018.2939777,
     "MSI PRO B650-P WIFI 6E USED": 1794863026.9329176,
     "MSI PRO B850M-VC WIFI 6E": 1794863220.9848075,
-    "HAYLOU S40 ANC": 1795688041.9897308,
+    "HAYLOU S40 ANC": 1795771385.3272967,
     "معالج Ryzen 7 5600XT": 1794936833.9811888,
     "معالج بكرت شاشة مدمج Ryzen 5 3400G": 1794936842.146349,
     "QY6 0082 Printhead for Canon IP7210 IP7250 IP7280 MG5420 MG5460": 1794996958.0314968,
@@ -4547,9 +4547,6 @@
     "ال KOOTION SSD 256GB ب 15.56": 1795768399.4567664
   },
   "published_post_keys": [
-    "zedstoreonline:40170",
-    "aniscoupons:34911",
-    "zedstoreonline:40172",
     "zedstoreonline:40174",
     "aniscoupons:34913",
     "zedstoreonline:40175",
@@ -5546,19 +5543,22 @@
     "aniscoupons:35724",
     "aniscoupons:35725",
     "aniscoupons:35726",
-    "aniscoupons:35728"
+    "aniscoupons:35728",
+    "lodydeals:46948",
+    "aniscoupons:35729",
+    "aniscoupons:35730"
   ],
   "last_disclaimer_time": 1795735529.6558404,
   "last_calendar_time": 1795177633.1203737,
-  "last_run_time": 1795770826.4866548,
+  "last_run_time": 1795771385.3272967,
   "monitored_channels": {
     "ecksdeal": {
       "last_message_id": 6148,
       "last_check_time": 1795767105.275191
     },
     "lodydeals": {
-      "last_message_id": 46947,
-      "last_check_time": 1795769686.2519746
+      "last_message_id": 46949,
+      "last_check_time": 1795771345.0331943
     },
     "test_channel": {
       "last_message_id": 1793967703,
@@ -5577,12 +5577,12 @@
       "last_check_time": 1793599663.3444748
     },
     "zedstoreonline": {
-      "last_message_id": 40764,
-      "last_check_time": 1795770804.4955876
+      "last_message_id": 40765,
+      "last_check_time": 1795771362.743872
     },
     "aniscoupons": {
-      "last_message_id": 35728,
-      "last_check_time": 1795770828.5698862
+      "last_message_id": 35730,
+      "last_check_time": 1795771387.4348307
     },
     "bnddeals": {
       "last_message_id": 51423,
@@ -6303,7 +6303,7 @@
     "1005010376374580": 20.4,
     "1005010239860751": 4.8,
     "1005009278862695": 32.9,
-    "1005013005786079": 18.2,
+    "1005013005786079": 18.29,
     "1005008627811107": 10.5,
     "1005012892577195": 16.27,
     "1005012594430190": 3.0,
@@ -35444,6 +35444,36 @@
       "price": 177.7,
       "timestamp": 1795770826.4866548,
       "status": "ACTIVE"
+    },
+    "lodydeals:46948": {
+      "channel_msg_id": 3857,
+      "product_id": "1005007916078341",
+      "title": "CMF Watch 3 Pro AMOLED",
+      "channel": "lodydeals",
+      "source_msg_id": 46948,
+      "price": 49.3,
+      "timestamp": 1795771340.3515534,
+      "status": "ACTIVE"
+    },
+    "aniscoupons:35729": {
+      "channel_msg_id": 3858,
+      "product_id": "1005013005786079",
+      "title": "Nothing Buds 2 Neo",
+      "channel": "aniscoupons",
+      "source_msg_id": 35729,
+      "price": 18.29,
+      "timestamp": 1795771379.9658713,
+      "status": "ACTIVE"
+    },
+    "aniscoupons:35730": {
+      "channel_msg_id": 3859,
+      "product_id": "1005010305059795",
+      "title": "HAYLOU S40 ANC",
+      "channel": "aniscoupons",
+      "source_msg_id": 35730,
+      "price": 29.6,
+      "timestamp": 1795771385.3272967,
+      "status": "ACTIVE"
     }
   },
   "schedule_config": {
@@ -35452,17 +35482,17 @@
     "current_interval_minutes": 5,
     "is_paused": false,
     "night_mode_enabled": true,
-    "last_deal_post_time": 1795770837.8191872,
+    "last_deal_post_time": 1795771397.8047247,
     "night_start_hour_dz": 0,
     "night_end_hour_dz": 8,
     "night_pause_enabled": true,
-    "last_sweep_time": 1795771168.7779443,
+    "last_sweep_time": 1795771402.5056114,
     "last_sweep_times": {
-      "algeria": 1795771163.1062784,
-      "france": 1795771168.7779443
+      "algeria": 1795771397.7554965,
+      "france": 1795771402.5056114
     },
     "last_deal_post_times": {
-      "algeria": 1795770837.8191872
+      "algeria": 1795771397.8047247
     }
   },
   "last_coin_reminder_time": 1795648937.9274871,
@@ -35692,7 +35722,7 @@
     "1005011754993234": "zedstoreonline",
     "1005011735727412": "bnddeals",
     "1005013039644752": "aniscoupons",
-    "1005007916078341": "zedstoreonline",
+    "1005007916078341": "lodydeals",
     "1005006506862816": "couponsglobal",
     "1005008072923842": "pcgamingpart",
     "1005013336240375": "pcgamingpart",
@@ -36297,7 +36327,7 @@
     "1005010376374580": "zedstoreonline",
     "1005010239860751": "zedstoreonline",
     "1005009278862695": "zedstoreonline",
-    "1005013005786079": "zedstoreonline",
+    "1005013005786079": "aniscoupons",
     "1005008627811107": "ecksdeal",
     "1005012892577195": "lodydeals",
     "1005012594430190": "bnddeals",
@@ -38541,8 +38571,6 @@
   "published_deals_history": {},
   "settings": {},
   "handled_post_keys": [
-    "zedstoreonline:40160",
-    "aniscoupons:34903",
     "zedstoreonline:40165",
     "aniscoupons:34906",
     "zedstoreonline:40168",
@@ -39540,7 +39568,9 @@
     "lodydeals:46946",
     "lodydeals:46947",
     "zedstoreonline:40764",
-    "aniscoupons:35727"
+    "aniscoupons:35727",
+    "lodydeals:46949",
+    "zedstoreonline:40765"
   ],
   "last_france_cross_promo_time": 1795757211.9224837,
   "next_france_cross_promo_interval_seconds": 197705,
@@ -40123,6 +40153,11 @@
         "channel": "aniscoupons",
         "ts": 1795769715.5302331,
         "price": 9.7
+      },
+      {
+        "channel": "lodydeals",
+        "ts": 1795771344.8281405,
+        "price": 29.2
       }
     ],
     "1005008708333999": [
@@ -40504,6 +40539,32 @@
         "channel": "aniscoupons",
         "ts": 1795770824.388572,
         "price": 177.7
+      }
+    ],
+    "1005007916078341": [
+      {
+        "channel": "lodydeals",
+        "ts": 1795771337.6008017,
+        "price": 49.3
+      },
+      {
+        "channel": "zedstoreonline",
+        "ts": 1795771362.5412157,
+        "price": 49.3
+      }
+    ],
+    "1005013005786079": [
+      {
+        "channel": "aniscoupons",
+        "ts": 1795771377.196054,
+        "price": 18.29
+      }
+    ],
+    "1005010305059795": [
+      {
+        "channel": "aniscoupons",
+        "ts": 1795771382.7714837,
+        "price": 29.6
       }
     ]
   },
