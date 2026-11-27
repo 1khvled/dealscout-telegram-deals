@@ -986,7 +986,8 @@
     "1005013572719987",
     "1005011755232439",
     "TAJMI3AT_aniscoupons_35814",
-    "ADHOC_aniscoupons_35818"
+    "ADHOC_aniscoupons_35818",
+    "TAJMI3AT_lodydeals_46985"
   ],
   "published_product_timestamps": {
     "1005012973772517": 1794500732.7845657,
@@ -1480,7 +1481,7 @@
     "1005012135177627": 1795080686.538359,
     "1005013455514231": 1793542445.2859337,
     "1005009578274758": 1793542479.8362749,
-    "1005010413332383": 1795776554.1362615,
+    "1005010413332383": 1795814501.292568,
     "1005011550075220": 1794847073.6855137,
     "1005009806856302": 1794779736.0691626,
     "1005009980316035": 1793542552.2730343,
@@ -1993,7 +1994,8 @@
     "1005013572719987": 1795804373.6204817,
     "1005011755232439": 1795806014.123944,
     "TAJMI3AT_aniscoupons_35814": 1795809725.380671,
-    "ADHOC_aniscoupons_35818": 1795811369.389761
+    "ADHOC_aniscoupons_35818": 1795811369.389761,
+    "TAJMI3AT_lodydeals_46985": 1795814491.8646457
   },
   "published_titles": [
     "Wireless WiFi Repeater 300Mbps WiFi Extender Amplifier Booster Router",
@@ -3307,7 +3309,8 @@
     "HAYLOU Solar Ultra GPS AMOLED",
     "KOOTION SATA SSD 128GB   6.5",
     "مايكروفون ديناميكي Maono PD100X Dynamic USB/XLR Mic",
-    "نقاط راهم نادرين أكثر من بطاطا وزيت كاش واحد عندو"
+    "نقاط راهم نادرين أكثر من بطاطا وزيت كاش واحد عندو",
+    "الحححححق باآآآآاطل"
   ],
   "published_title_timestamps": {
     "Xiaomi Redmi Note 17 5G Global Version": 1790857823.0117362,
@@ -4226,7 +4229,7 @@
     "Honor Win Turbo 2": 1794230539.4652834,
     "THINKCAR THINKDIAG OBD2 Scanner": 1794231079.407264,
     "Honor X70 Pro Max  8/256GB": 1794232557.0275722,
-    "AMD Ryzen 7 9800X3D": 1795776554.1362615,
+    "AMD Ryzen 7 9800X3D": 1795814501.292568,
     "FeiyuTech VB4 3-Axis Gimbal Stabilizer": 1794242485.418005,
     "AOCHUAN Handheld Gimbal V8": 1794242679.099279,
     "hohem X3 SE Gimbal Phone Stabilizer": 1794243215.3426878,
@@ -4626,11 +4629,10 @@
     "HAYLOU Solar Ultra GPS AMOLED": 1795806581.609375,
     "KOOTION SATA SSD 128GB   6.5": 1795808592.9813356,
     "مايكروفون ديناميكي Maono PD100X Dynamic USB/XLR Mic": 1795810074.8482933,
-    "نقاط راهم نادرين أكثر من بطاطا وزيت كاش واحد عندو": 1795811369.389761
+    "نقاط راهم نادرين أكثر من بطاطا وزيت كاش واحد عندو": 1795811369.389761,
+    "الحححححق باآآآآاطل": 1795814491.8646457
   },
   "published_post_keys": [
-    "aniscoupons:34991",
-    "aniscoupons:34992",
     "zedstoreonline:40235",
     "zedstoreonline:40237",
     "zedstoreonline:40238",
@@ -5628,19 +5630,21 @@
     "aniscoupons:35820",
     "aniscoupons:35822",
     "ecksdeal:6156",
-    "aniscoupons:35823"
+    "aniscoupons:35823",
+    "lodydeals:46985",
+    "aniscoupons:35824"
   ],
   "last_disclaimer_time": 1795735529.6558404,
   "last_calendar_time": 1795782506.7435975,
-  "last_run_time": 1795813948.5309904,
+  "last_run_time": 1795814501.292568,
   "monitored_channels": {
     "ecksdeal": {
       "last_message_id": 6156,
       "last_check_time": 1795813583.7609448
     },
     "lodydeals": {
-      "last_message_id": 46984,
-      "last_check_time": 1795814300.4571307
+      "last_message_id": 46985,
+      "last_check_time": 1795814492.0530493
     },
     "test_channel": {
       "last_message_id": 1793967703,
@@ -5659,12 +5663,12 @@
       "last_check_time": 1793599663.3444748
     },
     "zedstoreonline": {
-      "last_message_id": 40819,
-      "last_check_time": 1795813011.4891174
+      "last_message_id": 40820,
+      "last_check_time": 1795814494.6671033
     },
     "aniscoupons": {
-      "last_message_id": 35823,
-      "last_check_time": 1795813950.6490595
+      "last_message_id": 35824,
+      "last_check_time": 1795814503.3958073
     },
     "bnddeals": {
       "last_message_id": 51449,
@@ -36625,6 +36629,26 @@
       "price": 22.49,
       "timestamp": 1795813948.5309904,
       "status": "ACTIVE"
+    },
+    "lodydeals:46985": {
+      "channel_msg_id": 3972,
+      "product_id": "TAJMI3AT_lodydeals_46985",
+      "title": "الحححححق باآآآآاطل",
+      "channel": "lodydeals",
+      "source_msg_id": 46985,
+      "price": null,
+      "timestamp": 1795814491.8646457,
+      "status": "ACTIVE"
+    },
+    "aniscoupons:35824": {
+      "channel_msg_id": 3973,
+      "product_id": "1005010413332383",
+      "title": "AMD Ryzen 7 9800X3D",
+      "channel": "aniscoupons",
+      "source_msg_id": 35824,
+      "price": 338.2,
+      "timestamp": 1795814501.292568,
+      "status": "ACTIVE"
     }
   },
   "schedule_config": {
@@ -36633,17 +36657,17 @@
     "current_interval_minutes": 5,
     "is_paused": false,
     "night_mode_enabled": true,
-    "last_deal_post_time": 1795813951.8894608,
+    "last_deal_post_time": 1795814504.5440052,
     "night_start_hour_dz": 0,
     "night_end_hour_dz": 8,
     "night_pause_enabled": true,
-    "last_sweep_time": 1795814307.8213515,
+    "last_sweep_time": 1795814509.4394453,
     "last_sweep_times": {
-      "algeria": 1795814303.1619036,
-      "france": 1795814307.8213515
+      "algeria": 1795814504.466823,
+      "france": 1795814509.4394453
     },
     "last_deal_post_times": {
-      "algeria": 1795813951.8894608
+      "algeria": 1795814504.5440052
     }
   },
   "last_coin_reminder_time": 1795648937.9274871,
@@ -37643,7 +37667,8 @@
     "1005013572719987": "bnddeals",
     "1005011755232439": "bnddeals",
     "TAJMI3AT_aniscoupons_35814": "aniscoupons",
-    "ADHOC_aniscoupons_35818": "aniscoupons"
+    "ADHOC_aniscoupons_35818": "aniscoupons",
+    "TAJMI3AT_lodydeals_46985": "lodydeals"
   },
   "published_title_channels": {
     "Test Wrench Set": "test_channel",
@@ -38964,7 +38989,8 @@
     "HAYLOU Solar Ultra GPS AMOLED": "bnddeals",
     "KOOTION SATA SSD 128GB   6.5": "zedstoreonline",
     "مايكروفون ديناميكي Maono PD100X Dynamic USB/XLR Mic": "ecksdeal",
-    "نقاط راهم نادرين أكثر من بطاطا وزيت كاش واحد عندو": "aniscoupons"
+    "نقاط راهم نادرين أكثر من بطاطا وزيت كاش واحد عندو": "aniscoupons",
+    "الحححححق باآآآآاطل": "lodydeals"
   },
   "religious_reminders_history": {
     "mock_rem": "2026-10-02",
@@ -39762,8 +39788,6 @@
   "published_deals_history": {},
   "settings": {},
   "handled_post_keys": [
-    "lodydeals:46563",
-    "aniscoupons:35007",
     "aniscoupons:35008",
     "zedstoreonline:40254",
     "lodydeals:46565",
@@ -40761,7 +40785,9 @@
     "zedstoreonline:40818",
     "zedstoreonline:40819",
     "aniscoupons:35821",
-    "lodydeals:46984"
+    "lodydeals:46984",
+    "lodydeals:46985",
+    "zedstoreonline:40820"
   ],
   "last_france_cross_promo_time": 1795757211.9224837,
   "next_france_cross_promo_interval_seconds": 197705,
@@ -41370,11 +41396,6 @@
     "1005010788149535": [
       {
         "channel": "lodydeals",
-        "ts": 1795771145.7468498,
-        "price": 356.59
-      },
-      {
-        "channel": "lodydeals",
         "ts": 1795771505.5450997,
         "price": 356.59
       },
@@ -41479,11 +41500,6 @@
     "1005012406142215": [
       {
         "channel": "zedstoreonline",
-        "ts": 1795771152.441027,
-        "price": 356.0
-      },
-      {
-        "channel": "zedstoreonline",
         "ts": 1795771510.6957858,
         "price": 356.0
       },
@@ -41581,11 +41597,6 @@
     "1005010575865619": [
       {
         "channel": "aniscoupons",
-        "ts": 1795771157.6604087,
-        "price": 363.4
-      },
-      {
-        "channel": "aniscoupons",
         "ts": 1795771515.0881996,
         "price": 363.4
       },
@@ -41621,11 +41632,6 @@
       }
     ],
     "1005013438245033": [
-      {
-        "channel": "bnddeals",
-        "ts": 1795771162.4631908,
-        "price": 413.0
-      },
       {
         "channel": "bnddeals",
         "ts": 1795771520.3872108,
@@ -41733,6 +41739,11 @@
       {
         "channel": "lodydeals",
         "ts": 1795814300.3063362,
+        "price": 6.5
+      },
+      {
+        "channel": "zedstoreonline",
+        "ts": 1795814494.4901428,
         "price": 6.5
       }
     ],
@@ -42139,6 +42150,11 @@
       {
         "channel": "aniscoupons",
         "ts": 1795776551.4824212,
+        "price": 338.2
+      },
+      {
+        "channel": "aniscoupons",
+        "ts": 1795814498.7112002,
         "price": 338.2
       }
     ],
@@ -42793,6 +42809,13 @@
         "https://t.me/DzAliexpress0/3942"
       ],
       "timestamp": 1795809725.415636
+    },
+    {
+      "title": "الحححححق باآآآآاطل",
+      "links": [
+        "https://s.click.aliexpress.com/e/_c3n3kQKl"
+      ],
+      "timestamp": 1795814491.9108765
     }
   ],
   "published_adhoc_posts": [
