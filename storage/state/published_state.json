@@ -994,7 +994,7 @@
     "9998887952": 1790887952.6119926,
     "9998887972": 1790887972.157133,
     "100500777666555": 1793956903.3513582,
-    "1005011778621042": 1795728341.4401183,
+    "1005011778621042": 1795785046.596957,
     "9998888080": 1790888080.3099577,
     "1005009234854371": 1793543664.66204,
     "1005006533038973": 1791104468.758226,
@@ -3579,7 +3579,7 @@
     "Honor X60 GT 12/256GB": 1792157902.7999656,
     "EasySMX X05 Pro Wireless Gamepad PC Controller": 1792157910.2543087,
     "MACHENIKE G5Pro Max SE Gaming Controller With Charging Dock": 1792157933.6814291,
-    "RYZEN 7 5700X": 1795521989.5259736,
+    "RYZEN 7 5700X": 1795785046.596957,
     "Ⓜ BLACKVIEW WAVE 10C (4/32)": 1792160262.8028278,
     "Ⓜ  TCL 60 NXT PAPER 8/256📱": 1792160269.0502243,
     "HAYLOU Mori Pro ANC": 1795725728.980878,
@@ -4571,7 +4571,6 @@
     "TCL alcatel 1023": 1795782882.6064954
   },
   "published_post_keys": [
-    "zedstoreonline:40189",
     "lodydeals:46518",
     "lodydeals:46519",
     "aniscoupons:34935",
@@ -5570,19 +5569,20 @@
     "zedstoreonline:40776",
     "lodydeals:46953",
     "lodydeals:46954",
-    "lodydeals:46955"
+    "lodydeals:46955",
+    "aniscoupons:35748"
   ],
   "last_disclaimer_time": 1795735529.6558404,
   "last_calendar_time": 1795782506.7435975,
-  "last_run_time": 1795782882.6064954,
+  "last_run_time": 1795785046.596957,
   "monitored_channels": {
     "ecksdeal": {
       "last_message_id": 6148,
       "last_check_time": 1795767105.275191
     },
     "lodydeals": {
-      "last_message_id": 46960,
-      "last_check_time": 1795784900.3698816
+      "last_message_id": 46961,
+      "last_check_time": 1795785037.0105236
     },
     "test_channel": {
       "last_message_id": 1793967703,
@@ -5605,8 +5605,8 @@
       "last_check_time": 1795783430.86177
     },
     "aniscoupons": {
-      "last_message_id": 35747,
-      "last_check_time": 1795782889.1337674
+      "last_message_id": 35748,
+      "last_check_time": 1795785048.7235866
     },
     "bnddeals": {
       "last_message_id": 51425,
@@ -5627,7 +5627,7 @@
     "1005007279793099": 13.7,
     "1005008829227075": 24.76,
     "100500777666555": 20.0,
-    "1005011778621042": 119.59,
+    "1005011778621042": 119.5,
     "1005012312990781": 92.31,
     "1005009234854371": 13.3,
     "1005006533038973": 21.81,
@@ -35792,6 +35792,16 @@
       "price": 6.85,
       "timestamp": 1795782882.6064954,
       "status": "ACTIVE"
+    },
+    "aniscoupons:35748": {
+      "channel_msg_id": 3890,
+      "product_id": "1005011778621042",
+      "title": "RYZEN 7 5700X",
+      "channel": "aniscoupons",
+      "source_msg_id": 35748,
+      "price": 119.5,
+      "timestamp": 1795785046.596957,
+      "status": "ACTIVE"
     }
   },
   "schedule_config": {
@@ -35800,17 +35810,17 @@
     "current_interval_minutes": 5,
     "is_paused": false,
     "night_mode_enabled": true,
-    "last_deal_post_time": 1795782890.4480293,
+    "last_deal_post_time": 1795785050.0605967,
     "night_start_hour_dz": 0,
     "night_end_hour_dz": 8,
     "night_pause_enabled": true,
-    "last_sweep_time": 1795784910.1331098,
+    "last_sweep_time": 1795785053.2558742,
     "last_sweep_times": {
-      "algeria": 1795784906.8822362,
-      "france": 1795784910.1331098
+      "algeria": 1795785050.0051818,
+      "france": 1795785053.2558742
     },
     "last_deal_post_times": {
-      "algeria": 1795782890.4480293
+      "algeria": 1795785050.0605967
     }
   },
   "last_coin_reminder_time": 1795648937.9274871,
@@ -35963,7 +35973,7 @@
     "1005007345108759": "ecksdeal",
     "1005007394028808": "lodydeals",
     "1005007394197021": "lodydeals",
-    "1005011778621042": "ecksdeal",
+    "1005011778621042": "aniscoupons",
     "1005012571601398": "aniscoupons",
     "1005013290515237": "aniscoupons",
     "1005012264415744": "megaphonna",
@@ -41343,6 +41353,13 @@
         "channel": "aniscoupons",
         "ts": 1795782888.9224148,
         "price": 6.84
+      }
+    ],
+    "1005011778621042": [
+      {
+        "channel": "aniscoupons",
+        "ts": 1795785044.2127788,
+        "price": 119.5
       }
     ]
   },
