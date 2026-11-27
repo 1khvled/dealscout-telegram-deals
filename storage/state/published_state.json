@@ -969,7 +969,8 @@
     "COUPONBULLETIN_aniscoupons_35715",
     "ADHOC_zedstoreonline_40754",
     "COUPONBULLETIN_ECKSDEAL_6147",
-    "COUPONBULLETIN_zedstoreonline_40755"
+    "COUPONBULLETIN_zedstoreonline_40755",
+    "COUPONBULLETIN_ECKSDEAL_6148"
   ],
   "published_product_timestamps": {
     "1005012973772517": 1794500732.7845657,
@@ -1957,7 +1958,8 @@
     "COUPONBULLETIN_aniscoupons_35715": 1795766374.1148407,
     "ADHOC_zedstoreonline_40754": 1795766551.2326825,
     "COUPONBULLETIN_ECKSDEAL_6147": 1795766739.4020066,
-    "COUPONBULLETIN_zedstoreonline_40755": 1795766741.3190055
+    "COUPONBULLETIN_zedstoreonline_40755": 1795766741.3190055,
+    "COUPONBULLETIN_ECKSDEAL_6148": 1795767105.1242795
   },
   "published_titles": [
     "Wireless WiFi Repeater 300Mbps WiFi Extender Amplifier Booster Router",
@@ -3245,7 +3247,8 @@
     "الححححححححق اجمع الكوبون من هنا",
     "الححححححححق قم بالحجز من هنا",
     "إلحق عودة جميع الكوبونات احجزها من هنا : https://s.click.ali",
-    "الحححححق قم يحجز الكوبوم على هذا العرض"
+    "الحححححق قم يحجز الكوبوم على هذا العرض",
+    "يمكن حجز الكوبونات 5 مرات"
   ],
   "published_title_timestamps": {
     "Xiaomi Redmi Note 17 5G Global Version": 1790857823.0117362,
@@ -4538,10 +4541,10 @@
     "الححححححححق اجمع الكوبون من هنا": 1795766374.1148407,
     "الححححححححق قم بالحجز من هنا": 1795766551.2326825,
     "إلحق عودة جميع الكوبونات احجزها من هنا : https://s.click.ali": 1795766739.4020066,
-    "الحححححق قم يحجز الكوبوم على هذا العرض": 1795766741.3190055
+    "الحححححق قم يحجز الكوبوم على هذا العرض": 1795766741.3190055,
+    "يمكن حجز الكوبونات 5 مرات": 1795767105.1242795
   },
   "published_post_keys": [
-    "zedstoreonline:40162",
     "aniscoupons:34904",
     "zedstoreonline:40164",
     "aniscoupons:34905",
@@ -5540,15 +5543,16 @@
     "aniscoupons:35715",
     "zedstoreonline:40754",
     "ecksdeal:6147",
-    "zedstoreonline:40755"
+    "zedstoreonline:40755",
+    "ecksdeal:6148"
   ],
   "last_disclaimer_time": 1795735529.6558404,
   "last_calendar_time": 1795177633.1203737,
-  "last_run_time": 1795766741.3190055,
+  "last_run_time": 1795767105.1242795,
   "monitored_channels": {
     "ecksdeal": {
-      "last_message_id": 6147,
-      "last_check_time": 1795766739.516637
+      "last_message_id": 6148,
+      "last_check_time": 1795767105.275191
     },
     "lodydeals": {
       "last_message_id": 46935,
@@ -35338,6 +35342,16 @@
       "price": null,
       "timestamp": 1795766741.3190055,
       "status": "ACTIVE"
+    },
+    "ecksdeal:6148": {
+      "channel_msg_id": 3846,
+      "product_id": "COUPONBULLETIN_ECKSDEAL_6148",
+      "title": "يمكن حجز الكوبونات 5 مرات",
+      "channel": "ecksdeal",
+      "source_msg_id": 6148,
+      "price": null,
+      "timestamp": 1795767105.1242795,
+      "status": "ACTIVE"
     }
   },
   "schedule_config": {
@@ -35346,17 +35360,17 @@
     "current_interval_minutes": 5,
     "is_paused": false,
     "night_mode_enabled": true,
-    "last_deal_post_time": 1795766742.808957,
+    "last_deal_post_time": 1795767107.7323968,
     "night_start_hour_dz": 0,
     "night_end_hour_dz": 8,
     "night_pause_enabled": true,
-    "last_sweep_time": 1795766923.4571714,
+    "last_sweep_time": 1795767112.1947427,
     "last_sweep_times": {
-      "algeria": 1795766919.4824965,
-      "france": 1795766923.4571714
+      "algeria": 1795767107.682979,
+      "france": 1795767112.1947427
     },
     "last_deal_post_times": {
-      "algeria": 1795766742.808957
+      "algeria": 1795767107.7323968
     }
   },
   "last_coin_reminder_time": 1795648937.9274871,
@@ -36339,7 +36353,8 @@
     "COUPONBULLETIN_aniscoupons_35715": "aniscoupons",
     "ADHOC_zedstoreonline_40754": "zedstoreonline",
     "COUPONBULLETIN_ECKSDEAL_6147": "ecksdeal",
-    "COUPONBULLETIN_zedstoreonline_40755": "zedstoreonline"
+    "COUPONBULLETIN_zedstoreonline_40755": "zedstoreonline",
+    "COUPONBULLETIN_ECKSDEAL_6148": "ecksdeal"
   },
   "published_title_channels": {
     "Test Wrench Set": "test_channel",
@@ -37634,7 +37649,8 @@
     "الححححححححق اجمع الكوبون من هنا": "aniscoupons",
     "الححححححححق قم بالحجز من هنا": "zedstoreonline",
     "إلحق عودة جميع الكوبونات احجزها من هنا : https://s.click.ali": "ecksdeal",
-    "الحححححق قم يحجز الكوبوم على هذا العرض": "zedstoreonline"
+    "الحححححق قم يحجز الكوبوم على هذا العرض": "zedstoreonline",
+    "يمكن حجز الكوبونات 5 مرات": "ecksdeal"
   },
   "religious_reminders_history": {
     "mock_rem": "2026-10-02",
@@ -38432,7 +38448,6 @@
   "published_deals_history": {},
   "settings": {},
   "handled_post_keys": [
-    "lodydeals:46490",
     "aniscoupons:34884",
     "aniscoupons:34886",
     "lodydeals:46491",
@@ -39431,7 +39446,8 @@
     "zedstoreonline:40754",
     "lodydeals:46935",
     "ecksdeal:6147",
-    "zedstoreonline:40755"
+    "zedstoreonline:40755",
+    "ecksdeal:6148"
   ],
   "last_france_cross_promo_time": 1795757211.9224837,
   "next_france_cross_promo_interval_seconds": 197705,
@@ -40106,6 +40122,11 @@
       {
         "channel": "lodydeals",
         "ts": 1795766916.0785003,
+        "price": 356.59
+      },
+      {
+        "channel": "lodydeals",
+        "ts": 1795767102.4072926,
         "price": 356.59
       }
     ]
