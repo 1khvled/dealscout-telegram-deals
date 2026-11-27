@@ -1569,7 +1569,7 @@
     "1005010285419688": 1793613895.6129942,
     "1005007805750092": 1793613900.590816,
     "1005006966360399": 1793613905.8870661,
-    "1005010706590867": 1795723359.9076257,
+    "1005010706590867": 1795776831.3018806,
     "1005010428947440": 1795601370.637946,
     "1005010585654037": 1795088190.1400514,
     "1005013137304827": 1793613926.9213502,
@@ -3976,7 +3976,7 @@
     "MEN SQUARE QUARTZ WATCH": 1793613895.6129942,
     "ONEPLUS 80W CHARGER": 1793613900.590816,
     "GAMINJA WIRELESS CONTROLLER": 1793613905.8870661,
-    "ATTACK SHARK R1": 1795723359.9076257,
+    "ATTACK SHARK R1": 1795776831.3018806,
     "Soundcore Select 4 Go": 1795601370.637946,
     "Mortal Android TV Box": 1793613921.841963,
     "HONOR 600s 8/256GB": 1793613926.9213502,
@@ -4561,7 +4561,6 @@
     "16.8V Cordless Drill Driver Rechargeable Electric Screwdriver": 1795776652.4223523
   },
   "published_post_keys": [
-    "lodydeals:46514",
     "lodydeals:46516",
     "aniscoupons:34932",
     "aniscoupons:34933",
@@ -5560,11 +5559,12 @@
     "zedstoreonline:40775",
     "aniscoupons:35732",
     "aniscoupons:35740",
-    "aniscoupons:35745"
+    "aniscoupons:35745",
+    "zedstoreonline:40776"
   ],
   "last_disclaimer_time": 1795735529.6558404,
   "last_calendar_time": 1795177633.1203737,
-  "last_run_time": 1795776652.4223523,
+  "last_run_time": 1795776831.3018806,
   "monitored_channels": {
     "ecksdeal": {
       "last_message_id": 6148,
@@ -5591,8 +5591,8 @@
       "last_check_time": 1793599663.3444748
     },
     "zedstoreonline": {
-      "last_message_id": 40775,
-      "last_check_time": 1795776646.8947825
+      "last_message_id": 40776,
+      "last_check_time": 1795776833.4060385
     },
     "aniscoupons": {
       "last_message_id": 35745,
@@ -6100,7 +6100,7 @@
     "1005007060644375": 3.2,
     "1005007805750092": 4.4,
     "1005006966360399": 6.5,
-    "1005010706590867": 16.0,
+    "1005010706590867": 16.1,
     "1005012648097890": 430.0,
     "1005012871436251": 200.96,
     "1005010385663278": 58.55,
@@ -35741,6 +35741,16 @@
       "price": 17.5,
       "timestamp": 1795776652.4223523,
       "status": "ACTIVE"
+    },
+    "zedstoreonline:40776": {
+      "channel_msg_id": 3885,
+      "product_id": "1005010706590867",
+      "title": "ATTACK SHARK R1",
+      "channel": "zedstoreonline",
+      "source_msg_id": 40776,
+      "price": 16.1,
+      "timestamp": 1795776831.3018806,
+      "status": "ACTIVE"
     }
   },
   "schedule_config": {
@@ -35749,17 +35759,17 @@
     "current_interval_minutes": 5,
     "is_paused": false,
     "night_mode_enabled": true,
-    "last_deal_post_time": 1795776655.589883,
+    "last_deal_post_time": 1795776835.3537977,
     "night_start_hour_dz": 0,
     "night_end_hour_dz": 8,
     "night_pause_enabled": true,
-    "last_sweep_time": 1795776660.315476,
+    "last_sweep_time": 1795776839.6922271,
     "last_sweep_times": {
-      "algeria": 1795776655.5560575,
-      "france": 1795776660.315476
+      "algeria": 1795776835.299074,
+      "france": 1795776839.6922271
     },
     "last_deal_post_times": {
-      "algeria": 1795776655.589883
+      "algeria": 1795776835.3537977
     }
   },
   "last_coin_reminder_time": 1795648937.9274871,
@@ -36367,7 +36377,7 @@
     "1005007060644375": "zedstoreonline",
     "1005007805750092": "aniscoupons",
     "1005006966360399": "aniscoupons",
-    "1005010706590867": "aniscoupons",
+    "1005010706590867": "zedstoreonline",
     "1005012648097890": "aniscoupons",
     "1005012871436251": "lodydeals",
     "1005009504965110": "zedstoreonline",
@@ -37466,7 +37476,7 @@
     "MEN SQUARE QUARTZ WATCH": "aniscoupons",
     "ONEPLUS 80W CHARGER": "aniscoupons",
     "GAMINJA WIRELESS CONTROLLER": "aniscoupons",
-    "ATTACK SHARK R1": "aniscoupons",
+    "ATTACK SHARK R1": "zedstoreonline",
     "Mortal Android TV Box": "aniscoupons",
     "HONOR 600s 8/256GB": "aniscoupons",
     "Oppo Find X8s+": "aniscoupons",
@@ -41258,6 +41268,13 @@
         "channel": "aniscoupons",
         "ts": 1795776649.9023442,
         "price": 17.5
+      }
+    ],
+    "1005010706590867": [
+      {
+        "channel": "zedstoreonline",
+        "ts": 1795776829.021947,
+        "price": 16.1
       }
     ]
   },
