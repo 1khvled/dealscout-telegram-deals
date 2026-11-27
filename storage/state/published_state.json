@@ -1403,7 +1403,7 @@
     "1005013224329670": 1793380335.1434295,
     "1005010039614599": 1795688028.1630735,
     "1005004828097942": 1793380362.9885337,
-    "1005006495503659": 1794577027.4515839,
+    "1005006495503659": 1795809885.8334615,
     "1005013205488777": 1793380404.996831,
     "1005011961308530": 1793380460.5377874,
     "1005012994490034": 1793441317.3934674,
@@ -3876,7 +3876,7 @@
     "يد تحكم لاسلكية  GameSir Nova 2 Lite Hall Effect Ultimate": 1793542552.2730343,
     "مايكروفون  Fifine AM8 Dynamic Mic USB/XLR": 1795182116.060049,
     "ماوس لاسلكي ATK VXE Dragonfly R1 SE Wireless": 1793542566.1256328,
-    "مايكروفون Maono DGM20 Condenser USB Mic": 1793542571.5615325,
+    "مايكروفون Maono DGM20 Condenser USB Mic": 1795809885.8334615,
     "مايكروفون Fifine Ampligame A2 Condenser USB Mic": 1793542577.5838556,
     "مايكروفون لاسلكي Maono T1 Mini Wireless": 1795809702.6702113,
     "مايكروفون ديناميكي لاسلكي Maono PD100W Dynamic Wireless USB Mic": 1793809046.6886706,
@@ -4623,7 +4623,6 @@
     "KOOTION SATA SSD 128GB   6.5": 1795808592.9813356
   },
   "published_post_keys": [
-    "aniscoupons:34977",
     "aniscoupons:34981",
     "aniscoupons:34982",
     "lodydeals:46557",
@@ -5622,15 +5621,16 @@
     "zedstoreonline:40813",
     "zedstoreonline:40814",
     "ecksdeal:6151",
-    "aniscoupons:35814"
+    "aniscoupons:35814",
+    "ecksdeal:6152"
   ],
   "last_disclaimer_time": 1795735529.6558404,
   "last_calendar_time": 1795782506.7435975,
-  "last_run_time": 1795809725.380671,
+  "last_run_time": 1795809885.8334615,
   "monitored_channels": {
     "ecksdeal": {
-      "last_message_id": 6151,
-      "last_check_time": 1795809704.8011205
+      "last_message_id": 6152,
+      "last_check_time": 1795809887.96128
     },
     "lodydeals": {
       "last_message_id": 46983,
@@ -5993,7 +5993,7 @@
     "1005013224329670": 21.1,
     "1005010039614599": 42.2,
     "1005004828097942": 58.4,
-    "1005006495503659": 29.4,
+    "1005006495503659": 27.41,
     "1005013205488777": 57.3,
     "1005011961308530": 313.7,
     "1005012994490034": 458.0,
@@ -36509,6 +36509,16 @@
       "price": null,
       "timestamp": 1795809725.380671,
       "status": "ACTIVE"
+    },
+    "ecksdeal:6152": {
+      "channel_msg_id": 3961,
+      "product_id": "1005006495503659",
+      "title": "مايكروفون Maono DGM20 Condenser USB Mic",
+      "channel": "ecksdeal",
+      "source_msg_id": 6152,
+      "price": 27.41,
+      "timestamp": 1795809885.8334615,
+      "status": "ACTIVE"
     }
   },
   "schedule_config": {
@@ -36517,17 +36527,17 @@
     "current_interval_minutes": 5,
     "is_paused": false,
     "night_mode_enabled": true,
-    "last_deal_post_time": 1795809726.5960093,
+    "last_deal_post_time": 1795809891.2794497,
     "night_start_hour_dz": 0,
     "night_end_hour_dz": 8,
     "night_pause_enabled": true,
-    "last_sweep_time": 1795809731.4785528,
+    "last_sweep_time": 1795809895.954385,
     "last_sweep_times": {
-      "algeria": 1795809726.5607777,
-      "france": 1795809731.4785528
+      "algeria": 1795809891.2212596,
+      "france": 1795809895.954385
     },
     "last_deal_post_times": {
-      "algeria": 1795809726.5960093
+      "algeria": 1795809891.2794497
     }
   },
   "last_coin_reminder_time": 1795648937.9274871,
@@ -36956,7 +36966,7 @@
     "1005013224329670": "zedstoreonline",
     "1005010039614599": "zedstoreonline",
     "1005004828097942": "aniscoupons",
-    "1005006495503659": "aniscoupons",
+    "1005006495503659": "ecksdeal",
     "1005013205488777": "aniscoupons",
     "1005011961308530": "megaphonna",
     "1005012994490034": "zedstoreonline",
@@ -42673,6 +42683,13 @@
         "channel": "zedstoreonline",
         "ts": 1795808967.444553,
         "price": 7.1
+      }
+    ],
+    "1005006495503659": [
+      {
+        "channel": "ecksdeal",
+        "ts": 1795809882.9426844,
+        "price": 27.41
       }
     ]
   },
