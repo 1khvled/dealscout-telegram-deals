@@ -59,25 +59,37 @@ def get_bot_token() -> str:
 
 def select_tajmi3at_banner_path(raw_text: str, base_dir: Optional[Path] = None) -> Path:
     """
-    Selects the dedicated phones Tajmi3a banner when a roundup is about smartphones,
-    falling back to the general tajmi3at_banner.png otherwise.
+    Selects category-specific Tajmi3a banners (SSD, iPhones, or generic phones),
+    falling back to tajmi3at_banner.png for other categories or mixed accessories.
     """
     root = Path(base_dir) if base_dir is not None else Path(settings.BASE_DIR)
+    ssd_banner = root / "assets" / "tajmi3at_ssd_banner.jpg"
+    iphones_banner = root / "assets" / "tajmi3at_iphones_banner.jpg"
     phones_banner = root / "assets" / "tajmi3at_phones_banner.jpg"
     default_banner = root / "assets" / "tajmi3at_banner.png"
-    if not phones_banner.exists():
-        return default_banner
 
     norm = re.sub(r"[\u0640]", "", raw_text or "")
+    has_ssd = bool(re.search(r"(?:\bSSD\b|\bNVMe\b|\bM\.2\b|وحدات\s*التخزين|عروض\s*التخزين|قرص\s*صلب)", norm, re.IGNORECASE))
     has_phone_header = bool(re.search(r"(?:هواتف|الهواتف|جوالات|تلفونات|smartphones?|phones?)", norm, re.IGNORECASE))
-    has_non_phone_header = bool(re.search(r"(?:كابل|شاحن|سماعات?|ساعات?|أغطية|كفرات|إكسسوارات|تخزين|\bSSD\b)", norm, re.IGNORECASE))
-    brand_hits = len(set(re.findall(
-        r"\b(?:iQOO|OnePlus|Realme|HONOR|Xiaomi|Redmi|POCO|Samsung|iPhone|OPPO|Vivo|Motorola|Nothing)\b",
+    has_accessory_header = bool(re.search(r"(?:كابل|شاحن|سماعات?|ساعات?|أغطية|كفرات|إكسسوارات)", norm, re.IGNORECASE))
+
+    if has_ssd and not has_phone_header and ssd_banner.exists():
+        return ssd_banner
+
+    android_hits = len(set(re.findall(
+        r"\b(?:iQOO|OnePlus|Realme|HONOR|Xiaomi|Redmi|POCO|Samsung|OPPO|Vivo|Motorola|Nothing)\b",
         norm,
         re.IGNORECASE,
     )))
-    if has_phone_header or (brand_hits >= 2 and not has_non_phone_header):
+    has_iphone_header = bool(re.search(r"(?:عروض|تجميعة|أقوى|أفضل)[^\n]*(?:آيفون|ايفون|\biPhone\b)", norm, re.IGNORECASE))
+    iphone_mentions = len(re.findall(r"(?:آيفون|ايفون|\biPhone\b)", norm, re.IGNORECASE))
+    if (has_iphone_header or iphone_mentions >= 2) and android_hits == 0 and not has_accessory_header and iphones_banner.exists():
+        return iphones_banner
+
+    brand_hits = android_hits + (1 if iphone_mentions > 0 else 0)
+    if (has_phone_header or (brand_hits >= 2 and not has_accessory_header and not has_ssd)) and phones_banner.exists():
         return phones_banner
+
     return default_banner
 
 

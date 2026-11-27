@@ -1164,7 +1164,15 @@ def test_select_tajmi3at_banner_path_prefers_phones_banner_for_phone_roundups():
     assert p1.exists()
 
     p2 = select_tajmi3at_banner_path("عروض التخزين SSD\nKOOTION SSD 256GB\nSOMNAMBULIST SSD 120GB")
-    assert p2.name == "tajmi3at_banner.png"
+    assert p2.name == "tajmi3at_ssd_banner.jpg"
+    assert p2.exists()
 
     p3 = select_tajmi3at_banner_path("أفضل عروض شاحن و كابل Xiaomi و Samsung")
     assert p3.name == "tajmi3at_banner.png"
+
+    p4 = select_tajmi3at_banner_path("أفضل عروض الآيفون\n⚡ iPhone 15\n⚡ iPhone 16")
+    assert p4.name == "tajmi3at_iphones_banner.jpg"
+    assert p4.exists()
+
+    p5 = select_tajmi3at_banner_path("أفضل عروض الهواتف\n⚡ iPhone 16\n⚡ OnePlus 13")
+    assert p5.name == "tajmi3at_phones_banner.jpg"
