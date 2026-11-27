@@ -1844,7 +1844,7 @@
     "COUPONS_d400dc9b6d2c": 1794935378.986234,
     "COUPONS_d400dc9b": 1794935379.010957,
     "1005011551172448": 1794936842.146349,
-    "1005013401121405": 1794996958.0314968,
+    "1005013401121405": 1795812098.2787094,
     "1005003624789670": 1794996764.6923764,
     "1005008644346729": 1795256894.3631735,
     "1005008723396190": 1795072599.5014904,
@@ -4424,7 +4424,7 @@
     "HAYLOU S40 ANC": 1795806202.6138108,
     "معالج Ryzen 7 5600XT": 1794936833.9811888,
     "معالج بكرت شاشة مدمج Ryzen 5 3400G": 1794936842.146349,
-    "QY6 0082 Printhead for Canon IP7210 IP7250 IP7280 MG5420 MG5460": 1794996958.0314968,
+    "QY6 0082 Printhead for Canon IP7210 IP7250 IP7280 MG5420 MG5460": 1795812098.2787094,
     "Print Head QY6 0089 for Canon TS5060 TS5080 TS6020 TS6080 TS6120": 1794996764.6923764,
     "HONOR X9D 12/256GB": 1795004960.4540246,
     "HyperX Cloud Earbuds 2 II": 1795011758.367623,
@@ -4629,7 +4629,6 @@
     "نقاط راهم نادرين أكثر من بطاطا وزيت كاش واحد عندو": 1795811369.389761
   },
   "published_post_keys": [
-    "aniscoupons:34985",
     "aniscoupons:34987",
     "aniscoupons:34988",
     "aniscoupons:34989",
@@ -5628,11 +5627,12 @@
     "ecksdeal:6154",
     "aniscoupons:35815",
     "ecksdeal:6155",
-    "aniscoupons:35818"
+    "aniscoupons:35818",
+    "aniscoupons:35819"
   ],
   "last_disclaimer_time": 1795735529.6558404,
   "last_calendar_time": 1795782506.7435975,
-  "last_run_time": 1795811369.389761,
+  "last_run_time": 1795812098.2787094,
   "monitored_channels": {
     "ecksdeal": {
       "last_message_id": 6155,
@@ -5663,8 +5663,8 @@
       "last_check_time": 1795811367.5599492
     },
     "aniscoupons": {
-      "last_message_id": 35818,
-      "last_check_time": 1795811369.5655909
+      "last_message_id": 35819,
+      "last_check_time": 1795812100.376391
     },
     "bnddeals": {
       "last_message_id": 51449,
@@ -6404,7 +6404,7 @@
     "1005009982675898": 17.1,
     "1005013565686677": 12.03,
     "1005011551172448": 58.29,
-    "1005013401121405": 18.23,
+    "1005013401121405": 16.11,
     "1005003624789670": 18.33,
     "1005008644346729": 115.9,
     "1005008723396190": 9.2,
@@ -36575,6 +36575,16 @@
       "price": null,
       "timestamp": 1795811369.389761,
       "status": "ACTIVE"
+    },
+    "aniscoupons:35819": {
+      "channel_msg_id": 3967,
+      "product_id": "1005013401121405",
+      "title": "QY6 0082 Printhead for Canon IP7210 IP7250 IP7280 MG5420 MG5460",
+      "channel": "aniscoupons",
+      "source_msg_id": 35819,
+      "price": 16.11,
+      "timestamp": 1795812098.2787094,
+      "status": "ACTIVE"
     }
   },
   "schedule_config": {
@@ -36583,17 +36593,17 @@
     "current_interval_minutes": 5,
     "is_paused": false,
     "night_mode_enabled": true,
-    "last_deal_post_time": 1795811370.6698458,
+    "last_deal_post_time": 1795812101.465137,
     "night_start_hour_dz": 0,
     "night_end_hour_dz": 8,
     "night_pause_enabled": true,
-    "last_sweep_time": 1795811911.50887,
+    "last_sweep_time": 1795812106.3316247,
     "last_sweep_times": {
-      "algeria": 1795811906.4725165,
-      "france": 1795811911.50887
+      "algeria": 1795812101.4229174,
+      "france": 1795812106.3316247
     },
     "last_deal_post_times": {
-      "algeria": 1795811370.6698458
+      "algeria": 1795812101.465137
     }
   },
   "last_coin_reminder_time": 1795648937.9274871,
@@ -41325,16 +41335,6 @@
     "1005010788149535": [
       {
         "channel": "lodydeals",
-        "ts": 1795768204.7586849,
-        "price": 356.59
-      },
-      {
-        "channel": "lodydeals",
-        "ts": 1795768570.7822518,
-        "price": 356.59
-      },
-      {
-        "channel": "lodydeals",
         "ts": 1795769486.79476,
         "price": 356.59
       },
@@ -41451,16 +41451,6 @@
     ],
     "1005011557016158": [
       {
-        "channel": "lodydeals",
-        "ts": 1795768395.7901158,
-        "price": 289.79
-      },
-      {
-        "channel": "zedstoreonline",
-        "ts": 1795768418.3731132,
-        "price": 289.7
-      },
-      {
         "channel": "aniscoupons",
         "ts": 1795772104.7244473,
         "price": 289.79
@@ -41482,16 +41472,6 @@
       }
     ],
     "1005012406142215": [
-      {
-        "channel": "zedstoreonline",
-        "ts": 1795768211.2826235,
-        "price": 356.0
-      },
-      {
-        "channel": "zedstoreonline",
-        "ts": 1795768576.577604,
-        "price": 356.0
-      },
       {
         "channel": "zedstoreonline",
         "ts": 1795769491.9158177,
@@ -41626,16 +41606,6 @@
     "1005010575865619": [
       {
         "channel": "aniscoupons",
-        "ts": 1795768216.2621439,
-        "price": 363.4
-      },
-      {
-        "channel": "aniscoupons",
-        "ts": 1795768580.657502,
-        "price": 363.4
-      },
-      {
-        "channel": "aniscoupons",
         "ts": 1795769496.047533,
         "price": 363.4
       },
@@ -41706,16 +41676,6 @@
       }
     ],
     "1005013438245033": [
-      {
-        "channel": "bnddeals",
-        "ts": 1795768221.2256317,
-        "price": 413.0
-      },
-      {
-        "channel": "bnddeals",
-        "ts": 1795768585.6935499,
-        "price": 413.0
-      },
       {
         "channel": "bnddeals",
         "ts": 1795769501.3211408,
@@ -41814,11 +41774,6 @@
     ],
     "1005012582348584": [
       {
-        "channel": "lodydeals",
-        "ts": 1795768397.0167603,
-        "price": 15.56
-      },
-      {
         "channel": "aniscoupons",
         "ts": 1795799212.9911327,
         "price": 15.5
@@ -41826,27 +41781,12 @@
     ],
     "1005012912160949": [
       {
-        "channel": "aniscoupons",
-        "ts": 1795768431.7496963,
-        "price": 374.5
-      },
-      {
-        "channel": "bnddeals",
-        "ts": 1795768448.2308707,
-        "price": 374.0
-      },
-      {
         "channel": "lodydeals",
         "ts": 1795769686.0497434,
         "price": 374.54
       }
     ],
     "1005012726037568": [
-      {
-        "channel": "aniscoupons",
-        "ts": 1795768793.3495755,
-        "price": 7.5
-      },
       {
         "channel": "aniscoupons",
         "ts": 1795770823.1656647,
@@ -42708,6 +42648,13 @@
         "channel": "ecksdeal",
         "ts": 1795810991.4503815,
         "price": 12.92
+      }
+    ],
+    "1005013401121405": [
+      {
+        "channel": "aniscoupons",
+        "ts": 1795812095.8435814,
+        "price": 16.11
       }
     ]
   },
