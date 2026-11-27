@@ -1050,7 +1050,7 @@
     "1005009281115306": 1795806386.7187529,
     "1005011797801269": 1791203753.790013,
     "1005007168829266": 1795081619.0346873,
-    "1005012406142215": 1795792426.240089,
+    "1005012406142215": 1795823674.3432262,
     "1005007345398413": 1790943717.3545928,
     "1005012504076921": 1791236011.4353654,
     "1005008715050858": 1791033345.3970714,
@@ -3326,7 +3326,8 @@
     "OnePlus ACE 6 12/256",
     "VA VA VOOM Sports Watch",
     "HTMCK Smart TV Box 8/128GB",
-    "Tanix TX1 Mini 2/16GB"
+    "Tanix TX1 Mini 2/16GB",
+    "Honor Win Turbo 12/256"
   ],
   "published_title_timestamps": {
     "Xiaomi Redmi Note 17 5G Global Version": 1790857823.0117362,
@@ -4652,10 +4653,10 @@
     "OnePlus ACE 6 12/256": 1795817442.1410594,
     "VA VA VOOM Sports Watch": 1795818897.6959238,
     "HTMCK Smart TV Box 8/128GB": 1795819829.0642247,
-    "Tanix TX1 Mini 2/16GB": 1795820013.4851985
+    "Tanix TX1 Mini 2/16GB": 1795820013.4851985,
+    "Honor Win Turbo 12/256": 1795823674.3432262
   },
   "published_post_keys": [
-    "zedstoreonline:40250",
     "zedstoreonline:40251",
     "lodydeals:46562",
     "aniscoupons:35006",
@@ -5654,11 +5655,12 @@
     "zedstoreonline:40825",
     "zedstoreonline:40826",
     "zedstoreonline:40828",
-    "zedstoreonline:40829"
+    "zedstoreonline:40829",
+    "zedstoreonline:40833"
   ],
   "last_disclaimer_time": 1795735529.6558404,
   "last_calendar_time": 1795782506.7435975,
-  "last_run_time": 1795820013.4851985,
+  "last_run_time": 1795823674.3432262,
   "monitored_channels": {
     "ecksdeal": {
       "last_message_id": 6156,
@@ -5685,8 +5687,8 @@
       "last_check_time": 1793599663.3444748
     },
     "zedstoreonline": {
-      "last_message_id": 40831,
-      "last_check_time": 1795821286.8087652
+      "last_message_id": 40833,
+      "last_check_time": 1795823676.424526
     },
     "aniscoupons": {
       "last_message_id": 35833,
@@ -36816,6 +36818,16 @@
       "price": 16.1,
       "timestamp": 1795820013.4851985,
       "status": "ACTIVE"
+    },
+    "zedstoreonline:40833": {
+      "channel_msg_id": 3988,
+      "product_id": "1005012406142215",
+      "title": "Honor Win Turbo 12/256",
+      "channel": "zedstoreonline",
+      "source_msg_id": 40833,
+      "price": 356.0,
+      "timestamp": 1795823674.3432262,
+      "status": "ACTIVE"
     }
   },
   "schedule_config": {
@@ -36824,17 +36836,17 @@
     "current_interval_minutes": 5,
     "is_paused": false,
     "night_mode_enabled": true,
-    "last_deal_post_time": 1795820017.682469,
+    "last_deal_post_time": 1795823677.8999593,
     "night_start_hour_dz": 0,
     "night_end_hour_dz": 8,
     "night_pause_enabled": true,
-    "last_sweep_time": 1795823500.0902429,
+    "last_sweep_time": 1795823682.0961998,
     "last_sweep_times": {
-      "algeria": 1795823493.2707422,
-      "france": 1795823500.0902429
+      "algeria": 1795823677.8657224,
+      "france": 1795823682.0961998
     },
     "last_deal_post_times": {
-      "algeria": 1795820017.682469
+      "algeria": 1795823677.8999593
     }
   },
   "last_coin_reminder_time": 1795648937.9274871,
@@ -39168,7 +39180,8 @@
     "OnePlus ACE 6 12/256": "zedstoreonline",
     "VA VA VOOM Sports Watch": "zedstoreonline",
     "HTMCK Smart TV Box 8/128GB": "zedstoreonline",
-    "Tanix TX1 Mini 2/16GB": "zedstoreonline"
+    "Tanix TX1 Mini 2/16GB": "zedstoreonline",
+    "Honor Win Turbo 12/256": "zedstoreonline"
   },
   "religious_reminders_history": {
     "mock_rem": "2026-10-02",
@@ -41597,6 +41610,11 @@
       {
         "channel": "zedstoreonline",
         "ts": 1795792423.8352213,
+        "price": 356.0
+      },
+      {
+        "channel": "zedstoreonline",
+        "ts": 1795823672.3872025,
         "price": 356.0
       }
     ],
