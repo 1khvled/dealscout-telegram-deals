@@ -1033,7 +1033,7 @@
     "9998883531": 1790943531.551938,
     "1005010111014453": 1790943633.9774187,
     "1005009828161174": 1791031550.2120771,
-    "1005009281115306": 1795640366.561605,
+    "1005009281115306": 1795791688.6423583,
     "1005011797801269": 1791203753.790013,
     "1005007168829266": 1795081619.0346873,
     "1005012406142215": 1795776482.9066448,
@@ -3273,7 +3273,8 @@
     "16.8V Cordless Drill Driver Rechargeable Electric Screwdriver",
     "أفضل عروض الهواتف بكوبون 66$",
     "IPhone 14 Pro Max 6/128GB",
-    "TCL alcatel 1023"
+    "TCL alcatel 1023",
+    "الmouse لوووووووووووز🖱️"
   ],
   "published_title_timestamps": {
     "Xiaomi Redmi Note 17 5G Global Version": 1790857823.0117362,
@@ -4574,10 +4575,10 @@
     "16.8V Cordless Drill Driver Rechargeable Electric Screwdriver": 1795776652.4223523,
     "أفضل عروض الهواتف بكوبون 66$": 1795779486.0734122,
     "IPhone 14 Pro Max 6/128GB": 1795779586.365553,
-    "TCL alcatel 1023": 1795782882.6064954
+    "TCL alcatel 1023": 1795782882.6064954,
+    "الmouse لوووووووووووز🖱️": 1795791688.6423583
   },
   "published_post_keys": [
-    "aniscoupons:34944",
     "zedstoreonline:40204",
     "zedstoreonline:40205",
     "aniscoupons:34946",
@@ -5576,11 +5577,12 @@
     "aniscoupons:35758",
     "zedstoreonline:40787",
     "zedstoreonline:40788",
-    "zedstoreonline:40789"
+    "zedstoreonline:40789",
+    "bnddeals:51426"
   ],
   "last_disclaimer_time": 1795735529.6558404,
   "last_calendar_time": 1795782506.7435975,
-  "last_run_time": 1795791500.987218,
+  "last_run_time": 1795791688.6423583,
   "monitored_channels": {
     "ecksdeal": {
       "last_message_id": 6149,
@@ -5615,8 +5617,8 @@
       "last_check_time": 1795790782.5849316
     },
     "bnddeals": {
-      "last_message_id": 51425,
-      "last_check_time": 1795776568.0215666
+      "last_message_id": 51426,
+      "last_check_time": 1795791690.7600455
     }
   },
   "published_product_prices": {
@@ -5670,7 +5672,7 @@
     "1005012968221708": 20.2,
     "1005010111014453": 6.09,
     "1005009828161174": 7.62,
-    "1005009281115306": 12.73,
+    "1005009281115306": 13.64,
     "1005011797801269": 55.78,
     "1005007168829266": 16.5,
     "1005012406142215": 356.87,
@@ -35929,6 +35931,16 @@
       "price": 81.9,
       "timestamp": 1795791500.987218,
       "status": "ACTIVE"
+    },
+    "bnddeals:51426": {
+      "channel_msg_id": 3907,
+      "product_id": "1005009281115306",
+      "title": "الmouse لوووووووووووز🖱️",
+      "channel": "bnddeals",
+      "source_msg_id": 51426,
+      "price": 13.64,
+      "timestamp": 1795791688.6423583,
+      "status": "ACTIVE"
     }
   },
   "schedule_config": {
@@ -35937,17 +35949,17 @@
     "current_interval_minutes": 5,
     "is_paused": false,
     "night_mode_enabled": true,
-    "last_deal_post_time": 1795791505.012918,
+    "last_deal_post_time": 1795791690.8610637,
     "night_start_hour_dz": 0,
     "night_end_hour_dz": 8,
     "night_pause_enabled": true,
-    "last_sweep_time": 1795791506.8342867,
+    "last_sweep_time": 1795791692.9130976,
     "last_sweep_times": {
-      "algeria": 1795791504.9687,
-      "france": 1795791506.8342867
+      "algeria": 1795791690.8108883,
+      "france": 1795791692.9130976
     },
     "last_deal_post_times": {
-      "algeria": 1795791505.012918
+      "algeria": 1795791690.8610637
     }
   },
   "last_coin_reminder_time": 1795648937.9274871,
@@ -35978,7 +35990,7 @@
     "9998883531": "test_channel",
     "1005010111014453": "lodydeals",
     "1005009828161174": "couponsglobal",
-    "1005009281115306": "ecksdeal",
+    "1005009281115306": "bnddeals",
     "1005011797801269": "couponsglobal",
     "1005012973772517": "lodydeals",
     "1005007168829266": "bnddeals",
@@ -38242,7 +38254,8 @@
     "16.8V Cordless Drill Driver Rechargeable Electric Screwdriver": "aniscoupons",
     "أفضل عروض الهواتف بكوبون 66$": "lodydeals",
     "IPhone 14 Pro Max 6/128GB": "lodydeals",
-    "TCL alcatel 1023": "lodydeals"
+    "TCL alcatel 1023": "lodydeals",
+    "الmouse لوووووووووووز🖱️": "bnddeals"
   },
   "religious_reminders_history": {
     "mock_rem": "2026-10-02",
@@ -41588,6 +41601,13 @@
         "channel": "zedstoreonline",
         "ts": 1795791498.6864142,
         "price": 81.9
+      }
+    ],
+    "1005009281115306": [
+      {
+        "channel": "bnddeals",
+        "ts": 1795791686.3898993,
+        "price": 13.64
       }
     ]
   },
