@@ -1127,7 +1127,7 @@
     "1005010536089199": 1795180451.4710355,
     "1005012385221205": 1791102050.1835058,
     "1005012743092233": 1791104461.903693,
-    "1005007805497968": 1795607691.890236,
+    "1005007805497968": 1795789860.7986147,
     "1005007345108759": 1793542577.5838556,
     "1005007394197021": 1792103174.5720932,
     "1005013290515237": 1791110751.0808105,
@@ -1761,7 +1761,7 @@
     "1005013288890301": 1794477157.5349603,
     "1005013089015192": 1795185813.1399975,
     "1005009278114794": 1794647237.7084959,
-    "1005010210432531": 1795773053.096413,
+    "1005010210432531": 1795789868.1519487,
     "1005013422894128": 1794487083.9711623,
     "1005010297094897": 1794657082.5305285,
     "1005009012821000": 1794502225.0175712,
@@ -3742,7 +3742,7 @@
     "GIGABYTE B550M AORUS ELITE Motherboard": 1793399464.4760919,
     "Redmi Pad 2  4/64": 1793399472.4016223,
     "MSI MAG X670E TOMAHAWK Motherboard": 1793399494.1323898,
-    "GameSir Nova Lite": 1795607691.890236,
+    "GameSir Nova Lite": 1795789860.7986147,
     "QCY Crossky C50i Open": 1793399525.3383162,
     "Magcubic HY350MAX": 1793399534.209787,
     "BLACKVIEW OSCAL TANK1": 1793399542.6698716,
@@ -4278,7 +4278,7 @@
     "FIFINE 1440p Full HD PC Webcam with Microphone": 1794650936.0000904,
     "iQOO Z11S 8/128": 1794647055.558841,
     "Inphic A9 PRO MAX Wireless Gaming Mouse": 1794647237.7084959,
-    "realme P4 Lite Smartphone NFC 6300mAh Battery": 1795773053.096413,
+    "realme P4 Lite Smartphone NFC 6300mAh Battery": 1795789868.1519487,
     "Honor Win RT2": 1794487083.9711623,
     "MCHOSE A7 V3 Pro": 1794657082.5305285,
     "سماعات Fifine Ampligame H6 7.1 RGB": 1795182121.6502924,
@@ -4577,8 +4577,6 @@
     "TCL alcatel 1023": 1795782882.6064954
   },
   "published_post_keys": [
-    "aniscoupons:34936",
-    "zedstoreonline:40192",
     "ecksdeal:6065",
     "aniscoupons:34941",
     "aniscoupons:34942",
@@ -5576,11 +5574,13 @@
     "aniscoupons:35748",
     "ecksdeal:6149",
     "zedstoreonline:40781",
-    "zedstoreonline:40782"
+    "zedstoreonline:40782",
+    "zedstoreonline:40784",
+    "aniscoupons:35756"
   ],
   "last_disclaimer_time": 1795735529.6558404,
   "last_calendar_time": 1795782506.7435975,
-  "last_run_time": 1795788020.6389072,
+  "last_run_time": 1795789868.1519487,
   "monitored_channels": {
     "ecksdeal": {
       "last_message_id": 6149,
@@ -5607,12 +5607,12 @@
       "last_check_time": 1793599663.3444748
     },
     "zedstoreonline": {
-      "last_message_id": 40783,
-      "last_check_time": 1795789300.2323918
+      "last_message_id": 40784,
+      "last_check_time": 1795789862.8980536
     },
     "aniscoupons": {
-      "last_message_id": 35755,
-      "last_check_time": 1795788756.8195896
+      "last_message_id": 35756,
+      "last_check_time": 1795789870.2498033
     },
     "bnddeals": {
       "last_message_id": 51425,
@@ -35839,6 +35839,26 @@
       "price": 272.0,
       "timestamp": 1795788020.6389072,
       "status": "ACTIVE"
+    },
+    "zedstoreonline:40784": {
+      "channel_msg_id": 3898,
+      "product_id": "1005007805497968",
+      "title": "GameSir Nova Lite",
+      "channel": "zedstoreonline",
+      "source_msg_id": 40784,
+      "price": 21.0,
+      "timestamp": 1795789860.7986147,
+      "status": "ACTIVE"
+    },
+    "aniscoupons:35756": {
+      "channel_msg_id": 3899,
+      "product_id": "1005010210432531",
+      "title": "realme P4 Lite Smartphone NFC 6300mAh Battery",
+      "channel": "aniscoupons",
+      "source_msg_id": 35756,
+      "price": 133.8,
+      "timestamp": 1795789868.1519487,
+      "status": "ACTIVE"
     }
   },
   "schedule_config": {
@@ -35847,17 +35867,17 @@
     "current_interval_minutes": 5,
     "is_paused": false,
     "night_mode_enabled": true,
-    "last_deal_post_time": 1795788025.7514675,
+    "last_deal_post_time": 1795789871.679599,
     "night_start_hour_dz": 0,
     "night_end_hour_dz": 8,
     "night_pause_enabled": true,
-    "last_sweep_time": 1795789673.994108,
+    "last_sweep_time": 1795789874.2617247,
     "last_sweep_times": {
-      "algeria": 1795789671.690051,
-      "france": 1795789673.994108
+      "algeria": 1795789871.636021,
+      "france": 1795789874.2617247
     },
     "last_deal_post_times": {
-      "algeria": 1795788025.7514675
+      "algeria": 1795789871.679599
     }
   },
   "last_coin_reminder_time": 1795648937.9274871,
@@ -38162,7 +38182,7 @@
     "test_rem_d0b156d9": "2026-10-02",
     "test_rem_35271d74": "2026-10-02",
     "test_rem_308fc3d4": "2026-10-02",
-    "jumuah_asr": "2026-11-20",
+    "jumuah_asr": "2026-11-27",
     "test_rem_668cf761": "2026-10-02",
     "test_rem_4160aaaf": "2026-10-02",
     "test_rem_961ddded": "2026-10-02",
@@ -41246,6 +41266,11 @@
         "channel": "zedstoreonline",
         "ts": 1795785264.2604988,
         "price": 133.8
+      },
+      {
+        "channel": "aniscoupons",
+        "ts": 1795789865.2783444,
+        "price": 133.8
       }
     ],
     "1005008708333999": [
@@ -41439,6 +41464,13 @@
         "channel": "zedstoreonline",
         "ts": 1795788018.1701705,
         "price": 272.0
+      }
+    ],
+    "1005007805497968": [
+      {
+        "channel": "zedstoreonline",
+        "ts": 1795789858.1001751,
+        "price": 21.0
       }
     ]
   },
