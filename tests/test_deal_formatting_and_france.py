@@ -1154,3 +1154,17 @@ def test_lody_46953_smartphone_roundup_lightning_kashida_and_header():
     assert "lodycouponsbot" not in cap.lower()
     assert "@Alilo07BOT" in cap or "t.me/Alilo07BOT" in cap
     assert "@DzAliexpress0" in cap
+
+
+def test_select_tajmi3at_banner_path_prefers_phones_banner_for_phone_roundups():
+    from scripts.post_recent_deals import select_tajmi3at_banner_path
+
+    p1 = select_tajmi3at_banner_path("أفضل عروض الهواتف بكوبون 66$\n⚡ iQOO Z11 Turbo\n⚡ OnePlus Ace 6T")
+    assert p1.name == "tajmi3at_phones_banner.jpg"
+    assert p1.exists()
+
+    p2 = select_tajmi3at_banner_path("عروض التخزين SSD\nKOOTION SSD 256GB\nSOMNAMBULIST SSD 120GB")
+    assert p2.name == "tajmi3at_banner.png"
+
+    p3 = select_tajmi3at_banner_path("أفضل عروض شاحن و كابل Xiaomi و Samsung")
+    assert p3.name == "tajmi3at_banner.png"

@@ -57,6 +57,30 @@ def get_bot_token() -> str:
         or ""
     )
 
+def select_tajmi3at_banner_path(raw_text: str, base_dir: Optional[Path] = None) -> Path:
+    """
+    Selects the dedicated phones Tajmi3a banner when a roundup is about smartphones,
+    falling back to the general tajmi3at_banner.png otherwise.
+    """
+    root = Path(base_dir) if base_dir is not None else Path(settings.BASE_DIR)
+    phones_banner = root / "assets" / "tajmi3at_phones_banner.jpg"
+    default_banner = root / "assets" / "tajmi3at_banner.png"
+    if not phones_banner.exists():
+        return default_banner
+
+    norm = re.sub(r"[\u0640]", "", raw_text or "")
+    has_phone_header = bool(re.search(r"(?:هواتف|الهواتف|جوالات|تلفونات|smartphones?|phones?)", norm, re.IGNORECASE))
+    has_non_phone_header = bool(re.search(r"(?:كابل|شاحن|سماعات?|ساعات?|أغطية|كفرات|إكسسوارات|تخزين|\bSSD\b)", norm, re.IGNORECASE))
+    brand_hits = len(set(re.findall(
+        r"\b(?:iQOO|OnePlus|Realme|HONOR|Xiaomi|Redmi|POCO|Samsung|iPhone|OPPO|Vivo|Motorola|Nothing)\b",
+        norm,
+        re.IGNORECASE,
+    )))
+    if has_phone_header or (brand_hits >= 2 and not has_non_phone_header):
+        return phones_banner
+    return default_banner
+
+
 async def publish_incoming_multi_deal_post(raw_text: str, source_channel: str, source_msg_id: int) -> bool:
     """
     Publishes incoming multi-deal roundup / Tajmi3at posts from monitored channels:
@@ -136,7 +160,8 @@ async def publish_incoming_multi_deal_post(raw_text: str, source_channel: str, s
         caption = format_multi_deal_tajmi3at_1to1(raw_text, link_mapping)
 
         # Official branded banner ONLY - NEVER leak competitor mascot/logos
-        banner_path = settings.BASE_DIR / "assets" / "tajmi3at_banner.png"
+        banner_path = select_tajmi3at_banner_path(raw_text, base_dir=settings.BASE_DIR)
+        banner_mime = "image/jpeg" if banner_path.suffix.lower() in (".jpg", ".jpeg") else "image/png"
 
         bot_token = get_bot_token()
         target_chat = getattr(settings, "TARGET_CHANNEL_ID", None) or os.getenv("TARGET_CHANNEL_ID", "@DzAliexpress0")
@@ -150,7 +175,7 @@ async def publish_incoming_multi_deal_post(raw_text: str, source_channel: str, s
                     resp = await client.post(
                         f"https://api.telegram.org/bot{bot_token}/sendPhoto",
                         data={"chat_id": target_chat, "caption": caption, "parse_mode": "HTML"},
-                        files={"photo": ("tajmi3at_banner.png", f_img, "image/png")}
+                        files={"photo": (banner_path.name, f_img, banner_mime)}
                     )
             if not resp or resp.status_code != 200 or not resp.json().get("ok"):
                 resp = await client.post(
