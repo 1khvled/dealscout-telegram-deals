@@ -1488,7 +1488,7 @@
     "1005012790288780": 1793656271.0286891,
     "1005012345939726": 1793656202.4239671,
     "1005010722422210": 1794997865.6657422,
-    "1005012582348584": 1795716846.7283542,
+    "1005012582348584": 1795768399.4567664,
     "1005012529582418": 1795352881.214854,
     "1005008605565544": 1793543812.9442995,
     "1005009508910625": 1793543817.982839,
@@ -1733,7 +1733,7 @@
     "1005012639349629": 1794579990.5893576,
     "1005010153422760": 1794487260.3295033,
     "1005012809141747": 1795725764.1692784,
-    "1005012912160949": 1794914057.3065243,
+    "1005012912160949": 1795768434.4875724,
     "1005012167744546": 1794437860.4294534,
     "1005009582538267": 1794439531.0399334,
     "1005005471311412": 1794475858.8069391,
@@ -1872,9 +1872,9 @@
     "1005010121796649": 1795339323.7288988,
     "1005008850261694": 1795251398.024725,
     "32847542727": 1795546166.1725361,
-    "COUPONS_67c5d85c35f4": 1795275291.619781,
-    "COUPONS_67c5d85c": 1795275291.651658,
-    "COUPONS_Black Friday & Cyber Monday": 1795275291.651658,
+    "COUPONS_67c5d85c35f4": 1795768421.2739522,
+    "COUPONS_67c5d85c": 1795768421.328644,
+    "COUPONS_Black Friday & Cyber Monday": 1795768421.328644,
     "1005013612885095": 1795282393.4390564,
     "1005009120961416": 1795687712.9032266,
     "1005006460821282": 1795695709.9643443,
@@ -3248,7 +3248,8 @@
     "الححححححححق قم بالحجز من هنا",
     "إلحق عودة جميع الكوبونات احجزها من هنا : https://s.click.ali",
     "الحححححق قم يحجز الكوبوم على هذا العرض",
-    "يمكن حجز الكوبونات 5 مرات"
+    "يمكن حجز الكوبونات 5 مرات",
+    "ال KOOTION SSD 256GB ب 15.56"
   ],
   "published_title_timestamps": {
     "Xiaomi Redmi Note 17 5G Global Version": 1790857823.0117362,
@@ -3479,7 +3480,7 @@
     "CMF by Nothing Buds 2A 12.4mm Driver 42dB ANC 4HD MicsLong Battery Life Up": 1791968180.0253317,
     "REALME 15 5G (12/512)": 1792172104.7239766,
     "Electronic Scale Smart": 1795093445.0153434,
-    "أحدث كوبونات وتخفيضات AliExpress": 1795275291.619781,
+    "أحدث كوبونات وتخفيضات AliExpress": 1795768421.2739522,
     "قرص صلب SSD من CUSU بسعات 1 تيرابايت، 512 جيجابايت، 240 جيجابايت، 480": 1791626816.0179322,
     "مايكروفون ديناميكي Fifine K688": 1793546757.4916894,
     "Walram SATA3 SSD 512GB": 1791638441.843642,
@@ -4229,7 +4230,7 @@
     "HONOR X80 PRO MAX": 1795688036.8050838,
     "DJI Osmo mobile": 1794487260.3295033,
     "OPPO K15 12/256GB": 1795186207.2341003,
-    "Lenovo Legion Y70 2026 Gamin(12/512GB)": 1794914057.3065243,
+    "Lenovo Legion Y70 2026 Gamin(12/512GB)": 1795768434.4875724,
     "KINGSTON DATA TRAVELER USB3.2 (128G)": 1794438803.0185766,
     "Essager Mini 30W Type C Charger PD": 1794438972.1864517,
     "X96Q TV BOX 2/16GB": 1794599454.461018,
@@ -4542,12 +4543,10 @@
     "الححححححححق قم بالحجز من هنا": 1795766551.2326825,
     "إلحق عودة جميع الكوبونات احجزها من هنا : https://s.click.ali": 1795766739.4020066,
     "الحححححق قم يحجز الكوبوم على هذا العرض": 1795766741.3190055,
-    "يمكن حجز الكوبونات 5 مرات": 1795767105.1242795
+    "يمكن حجز الكوبونات 5 مرات": 1795767105.1242795,
+    "ال KOOTION SSD 256GB ب 15.56": 1795768399.4567664
   },
   "published_post_keys": [
-    "zedstoreonline:40164",
-    "aniscoupons:34905",
-    "zedstoreonline:40166",
     "aniscoupons:34907",
     "zedstoreonline:40167",
     "aniscoupons:34908",
@@ -5544,19 +5543,22 @@
     "ecksdeal:6147",
     "zedstoreonline:40755",
     "ecksdeal:6148",
-    "aniscoupons:35716"
+    "aniscoupons:35716",
+    "lodydeals:46942",
+    "zedstoreonline:40759",
+    "aniscoupons:35719"
   ],
   "last_disclaimer_time": 1795735529.6558404,
   "last_calendar_time": 1795177633.1203737,
-  "last_run_time": 1795767305.1928673,
+  "last_run_time": 1795768434.4875724,
   "monitored_channels": {
     "ecksdeal": {
       "last_message_id": 6148,
       "last_check_time": 1795767105.275191
     },
     "lodydeals": {
-      "last_message_id": 46939,
-      "last_check_time": 1795767296.3713915
+      "last_message_id": 46942,
+      "last_check_time": 1795768408.2199707
     },
     "test_channel": {
       "last_message_id": 1793967703,
@@ -5575,16 +5577,16 @@
       "last_check_time": 1793599663.3444748
     },
     "zedstoreonline": {
-      "last_message_id": 40755,
-      "last_check_time": 1795766741.4302952
+      "last_message_id": 40759,
+      "last_check_time": 1795768426.7558172
     },
     "aniscoupons": {
-      "last_message_id": 35717,
-      "last_check_time": 1795767481.3426857
+      "last_message_id": 35719,
+      "last_check_time": 1795768440.5817392
     },
     "bnddeals": {
-      "last_message_id": 51420,
-      "last_check_time": 1795767670.4268181
+      "last_message_id": 51423,
+      "last_check_time": 1795768451.47595
     }
   },
   "published_product_prices": {
@@ -6009,7 +6011,7 @@
     "1005012790288780": 26.95,
     "1005012345939726": 18.62,
     "1005010722422210": 405.99,
-    "1005012582348584": 15.5,
+    "1005012582348584": 15.56,
     "1005012529582418": 12.6,
     "1005008605565544": 58.59,
     "1005009508910625": 46.26,
@@ -6229,7 +6231,7 @@
     "1005012639349629": 378.14,
     "1005010153422760": 58.7,
     "1005012809141747": 353.37,
-    "1005012912160949": 370.5,
+    "1005012912160949": 374.5,
     "1005012167744546": 558.49,
     "1005009582538267": 25.1,
     "1005005471311412": 7.77,
@@ -35362,6 +35364,36 @@
       "price": 289.79,
       "timestamp": 1795767305.1928673,
       "status": "ACTIVE"
+    },
+    "lodydeals:46942": {
+      "channel_msg_id": 3848,
+      "product_id": "1005012582348584",
+      "title": "ال KOOTION SSD 256GB ب 15.56",
+      "channel": "lodydeals",
+      "source_msg_id": 46942,
+      "price": 15.56,
+      "timestamp": 1795768399.4567664,
+      "status": "ACTIVE"
+    },
+    "zedstoreonline:40759": {
+      "channel_msg_id": 3849,
+      "product_id": "COUPONS_67c5d85c35f4",
+      "title": "أحدث كوبونات وتخفيضات AliExpress",
+      "channel": "zedstoreonline",
+      "source_msg_id": 40759,
+      "price": null,
+      "timestamp": 1795768421.2739522,
+      "status": "ACTIVE"
+    },
+    "aniscoupons:35719": {
+      "channel_msg_id": 3851,
+      "product_id": "1005012912160949",
+      "title": "Lenovo Legion Y70 2026 Gamin(12/512GB)",
+      "channel": "aniscoupons",
+      "source_msg_id": 35719,
+      "price": 374.5,
+      "timestamp": 1795768434.4875724,
+      "status": "ACTIVE"
     }
   },
   "schedule_config": {
@@ -35370,17 +35402,17 @@
     "current_interval_minutes": 5,
     "is_paused": false,
     "night_mode_enabled": true,
-    "last_deal_post_time": 1795767311.515785,
+    "last_deal_post_time": 1795768451.5859175,
     "night_start_hour_dz": 0,
     "night_end_hour_dz": 8,
     "night_pause_enabled": true,
-    "last_sweep_time": 1795768226.8964014,
+    "last_sweep_time": 1795768456.739746,
     "last_sweep_times": {
-      "algeria": 1795768221.8619158,
-      "france": 1795768226.8964014
+      "algeria": 1795768451.5311134,
+      "france": 1795768456.739746
     },
     "last_deal_post_times": {
-      "algeria": 1795767311.515785
+      "algeria": 1795768451.5859175
     }
   },
   "last_coin_reminder_time": 1795648937.9274871,
@@ -35911,7 +35943,7 @@
     "1005012790288780": "lodydeals",
     "1005012345939726": "lodydeals",
     "1005010722422210": "aniscoupons",
-    "1005012582348584": "aniscoupons",
+    "1005012582348584": "lodydeals",
     "1005012529582418": "ecksdeal",
     "1005008605565544": "ecksdeal",
     "1005009508910625": "ecksdeal",
@@ -36279,7 +36311,7 @@
     "1005010121796649": "aniscoupons",
     "1005008850261694": "bnddeals",
     "32847542727": "lodydeals",
-    "COUPONS_67c5d85c35f4": "aniscoupons",
+    "COUPONS_67c5d85c35f4": "zedstoreonline",
     "1005013612885095": "ecksdeal",
     "1005009120961416": "aniscoupons",
     "1005006460821282": "zedstoreonline",
@@ -36539,7 +36571,7 @@
     "HTC NE79 TWS Wireless Bluetooth Earphones: AI": "couponsglobal",
     "Nail Scissors Set Household High End": "couponsglobal",
     "Baseus 30W Car Charger Dual Port USB Type-C Fast": "couponsglobal",
-    "أحدث كوبونات وتخفيضات AliExpress": "aniscoupons",
+    "أحدث كوبونات وتخفيضات AliExpress": "zedstoreonline",
     "XUNYOU-LINK 4G SIM WiFi Router 300Mbps High Speed WiFi6": "aniscoupons",
     "SMAILWOLF M3 Ergonomic Gaming Mouse Tri-Mode": "aniscoupons",
     "Xprinter H10 Handheld POS Thermal": "lodydeals",
@@ -37660,7 +37692,8 @@
     "الححححححححق قم بالحجز من هنا": "zedstoreonline",
     "إلحق عودة جميع الكوبونات احجزها من هنا : https://s.click.ali": "ecksdeal",
     "الحححححق قم يحجز الكوبوم على هذا العرض": "zedstoreonline",
-    "يمكن حجز الكوبونات 5 مرات": "ecksdeal"
+    "يمكن حجز الكوبونات 5 مرات": "ecksdeal",
+    "ال KOOTION SSD 256GB ب 15.56": "lodydeals"
   },
   "religious_reminders_history": {
     "mock_rem": "2026-10-02",
@@ -38458,10 +38491,6 @@
   "published_deals_history": {},
   "settings": {},
   "handled_post_keys": [
-    "aniscoupons:34890",
-    "aniscoupons:34892",
-    "ecksdeal:6063",
-    "zedstoreonline:40155",
     "aniscoupons:34895",
     "zedstoreonline:40156",
     "aniscoupons:34899",
@@ -39457,23 +39486,16 @@
     "bnddeals:51417",
     "bnddeals:51418",
     "bnddeals:51419",
-    "bnddeals:51420"
+    "bnddeals:51420",
+    "lodydeals:46940",
+    "lodydeals:46941",
+    "zedstoreonline:40758",
+    "bnddeals:51423"
   ],
   "last_france_cross_promo_time": 1795757211.9224837,
   "next_france_cross_promo_interval_seconds": 197705,
   "france_cross_promo_variant_idx": 2,
   "published_coupon_bulletins": [
-    {
-      "promo": "Test Event 2026",
-      "hash": "d9b8b196",
-      "codes": [
-        "TEST04",
-        "TEST06"
-      ],
-      "channel_msg_id": 9999,
-      "channel": "@DzAliexpress0",
-      "timestamp": 1792172184.3475661
-    },
     {
       "promo": "Test Event 2026",
       "hash": "d9b8b196",
@@ -40013,6 +40035,17 @@
       "channel_msg_id": 3410,
       "channel": "@DzAliexpress0",
       "timestamp": 1795275291.651658
+    },
+    {
+      "promo": "Black Friday & Cyber Monday",
+      "hash": "67c5d85c",
+      "codes": [
+        "OTSBF03",
+        "OTSBF04"
+      ],
+      "channel_msg_id": 3849,
+      "channel": "@DzAliexpress0",
+      "timestamp": 1795768421.328644
     }
   ],
   "last_pre_11_11_advisory_time": 1794277956.9993703,
@@ -40180,6 +40213,16 @@
         "channel": "bnddeals",
         "ts": 1795767670.2453873,
         "price": 289.0
+      },
+      {
+        "channel": "lodydeals",
+        "ts": 1795768395.7901158,
+        "price": 289.79
+      },
+      {
+        "channel": "zedstoreonline",
+        "ts": 1795768418.3731132,
+        "price": 289.7
       }
     ],
     "1005012406142215": [
@@ -40266,6 +40309,25 @@
         "channel": "bnddeals",
         "ts": 1795768221.2256317,
         "price": 413.0
+      }
+    ],
+    "1005012582348584": [
+      {
+        "channel": "lodydeals",
+        "ts": 1795768397.0167603,
+        "price": 15.56
+      }
+    ],
+    "1005012912160949": [
+      {
+        "channel": "aniscoupons",
+        "ts": 1795768431.7496963,
+        "price": 374.5
+      },
+      {
+        "channel": "bnddeals",
+        "ts": 1795768448.2308707,
+        "price": 374.0
       }
     ]
   },
