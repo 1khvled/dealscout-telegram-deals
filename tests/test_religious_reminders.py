@@ -49,3 +49,25 @@ def test_fajr_variants():
         assert "الصلاة خيرٌ من النوم" in text or "الصلاة خير من النوم" in text
         assert "الفجر" in text
         assert "inline_keyboard" in v["keyboard"]
+
+
+def test_jumuah_grammar_and_emoji_hygiene():
+    for txt in (JUMUAH_MORNING_TEXT, JUMUAH_ASR_TEXT):
+        assert "يوم الجمعة المباركة" not in txt
+        assert "</blockquote> " not in txt
+        assert "🧴" not in txt
+        assert "|" not in txt
+
+
+def test_france_cross_promo_variants_natural_arabic():
+    from app.publisher.france_cross_promo import FRANCE_CROSS_VARIANTS
+
+    assert len(FRANCE_CROSS_VARIANTS) == 4
+    for v in FRANCE_CROSS_VARIANTS:
+        txt = v["text"]
+        assert "@francedealsdz" in txt
+        assert "|" not in txt
+        assert "Entrepôt France" not in txt
+        assert "FR Codes" not in txt
+        assert "الأراضي الفرنسية والأوروبية" not in txt
+        assert "تابـع" not in txt

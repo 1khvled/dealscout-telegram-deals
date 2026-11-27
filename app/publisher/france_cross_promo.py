@@ -41,58 +41,55 @@ _candidate_paths = [
 ]
 FRANCE_LOGO_PATH = next((p for p in _candidate_paths if p.exists()), None)
 
-# 4 High-Converting, Authentic Algerian Copywriting Variants
+# 4 Authentic Algerian Copywriting Variants
 FRANCE_CROSS_VARIANTS: List[Dict[str, Any]] = [
     {
         "id": "family_diaspora",
         "title": "Family & Diaspora in France",
         "text": (
-            "<blockquote>🇫🇷 <b>عندك فاميليا ولا صحابك عايشين في فرنسا؟</b></blockquote>\n\n"
-            "بزاف من متابعينا يسقسونا على عروض وتخفيضات AliExpress الخاصة بفرنسا وأوروبا "
-            "(كودات تخفيض حصرية، وتوصيل سريع في 3 إلى 5 أيام داخل أوروبا) 📦⚡\n\n"
-            "خصصنالكم قناة رسمية ثانية غير لصفقات وتخفيضات فرنسا وأوروبا:\n"
-            "👉 <b>@francedealsdz</b>\n\n"
-            "بارطاجيوها مع لافامي لي راهم تما يستفادوا من التخفيضات والكوبونات القوية 🛍️🔥"
+            "<blockquote>🇫🇷 <b>عندك فاميليا ولا صحاب عايشين في فرنسا؟</b></blockquote>\n\n"
+            "في أوروبا كاين عروض وكوبونات حصرية في AliExpress ما تبانش عندنا، "
+            "مع توصيل سريع خلال <b>3 إلى 5 أيام</b> داخل أوروبا 📦\n\n"
+            "درنالكم قناة خاصة تنشر صفقات فرنسا وأوروبا يومياً:\n"
+            "👈 <b>@francedealsdz</b>\n\n"
+            "بارطاجيها معاهم يستفادوا من أحسن التخفيضات 🛍️"
         ),
-        "button_text": "🇫🇷 انضم لقناة صفقات فرنسا وأوروبا"
+        "button_text": "🇫🇷 تصفح صفقات فرنسا وأوروبا"
     },
     {
         "id": "caba_euro_orders",
         "title": "Caba & Euro Card Shoppers",
         "text": (
-            "<blockquote>📦 <b>للناس لي تشري من فرنسا وتبعث كابة أو تسكن في أوروبا 🇪🇺</b></blockquote>\n\n"
-            "كاين تخفيضات وكوبونات في AliExpress تخدم <b>فقط في فرنسا وأوروبا</b> (تخفيضات ما تمشيش في الجزائر).\n\n"
-            "إذا كنت تشري ببطاقة بنكية أوروبية أو عندك شكون يجيبلك السلعة من فرنسا:\n"
-            "تابـع قناتنا الثانية المخصصة لصفقات فرنسا 👇\n"
-            "👉 <b>@francedealsdz</b>\n\n"
-            "عروض حصرية، أكواد برومو فورية وتوصيل سريع جداً 🏃‍♂️💨"
+            "<blockquote>📦 <b>تشري من فرنسا ولا تبعث كابة؟</b></blockquote>\n\n"
+            "كاين تخفيضات وكوبونات في AliExpress تمشي غير في فرنسا وأوروبا ببطاقة أورو، "
+            "وبأسعار هايلة مقارنة بالسوق 🇪🇺\n\n"
+            "تابع قناتنا المخصصة لصفقات فرنسا وأوروبا:\n"
+            "👈 <b>@francedealsdz</b>"
         ),
-        "button_text": "📦 تصفح صفقات فرنسا (@francedealsdz)"
+        "button_text": "📦 دخول قناة فرنسا (@francedealsdz)"
     },
     {
         "id": "secret_euro_codes",
         "title": "Secret European Warehouses & Fast Shipping",
         "text": (
-            "<blockquote>⚡ <b>معلومة للمتسوقين | تخفيضات AliExpress في فرنسا مختلفة تماماً!</b></blockquote>\n\n"
-            "في فرنسا كاين عروض مستودعات أوروبية (Entrepôt France) السلعة توصل في 3 إلى 5 أيام وبدون جمارك، "
-            "مع كوبونات خاصة (FR Codes) تخفض حتى 60€ و 80€ 💶🔥\n\n"
-            "إذا عندك شخص مقيم في فرنسا أو رايح لتما، انصحه يتابع قناتنا الخاصة بفرنسا:\n"
-            "👉 <b>@francedealsdz</b>\n\n"
-            "صفقات يومية حصرية مخصصة فقط للأراضي الفرنسية والأوروبية 🇫🇷"
+            "<blockquote>⚡ <b>ميزة الشراء من مستودعات فرنسا وأوروبا</b></blockquote>\n\n"
+            "في فرنسا وأوروبا، الطلبية توصل خلال <b>3 إلى 5 أيام بدون جمارك</b>، "
+            "ومع الكوبونات الأوروبية يوصل التخفيض حتى <b>80€</b> 💶\n\n"
+            "إذا عندك شخص مقيم في فرنسا أو تشري من أوروبا، تابع قناتنا الخاصة:\n"
+            "👈 <b>@francedealsdz</b>"
         ),
-        "button_text": "💶 فتح قناة تخفيضات فرنسا"
+        "button_text": "💶 تصفح عروض فرنسا (@francedealsdz)"
     },
     {
         "id": "quiet_night_reminder",
         "title": "Late Night Diaspora Reminder",
         "text": (
-            "<blockquote>🌙 <b>تذكير لخاوتنا في الغربة والمقيمين بفرنسا 🇫🇷🇩🇿</b></blockquote>\n\n"
-            "بما أن التخفيضات والكوبونات تنطلق في أوروبا بأكواد خاصة بالجالية، "
-            "خصصنالكم قناة خاصة تتبع صفقات وتخفيضات فرنسا لحظة بلحظة:\n"
-            "👉 <b>@francedealsdz</b>\n\n"
-            "فيها كل العروض القوية مع كودات التخفيض لي تخدم في فرنسا وأوروبا فقط 🛍️✨"
+            "<blockquote>🌙 <b>لجاليتنا في فرنسا وأوروبا</b></blockquote>\n\n"
+            "باش ما تراطو حتى عرض ولا كوبون أوروبي في AliExpress، "
+            "تابعوا قناتنا الخاصة بصفقات فرنسا لحظة بلحظة:\n"
+            "👈 <b>@francedealsdz</b>"
         ),
-        "button_text": "✨ اضغط هنا للانضمام إلى @francedealsdz"
+        "button_text": "✨ الانضمام إلى @francedealsdz"
     }
 ]
 
