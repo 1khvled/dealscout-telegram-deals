@@ -1891,7 +1891,7 @@
     "COUPONS_Black Friday & Cyber Monday": 1795768421.328644,
     "1005013612885095": 1795282393.4390564,
     "1005009120961416": 1795687712.9032266,
-    "1005006460821282": 1795695709.9643443,
+    "1005006460821282": 1795808969.6852784,
     "1005007038424043": 1795283249.1787498,
     "1005010439285778": 1795290129.2736075,
     "1005010089091939": 1795290139.8130522,
@@ -1957,7 +1957,7 @@
     "TAJMI3AT_aniscoupons_35676": 1795689543.3716838,
     "1005004504846008": 1795776536.3979676,
     "1005006150092990": 1795690577.381119,
-    "1005005099575844": 1795695716.5576735,
+    "1005005099575844": 1795808964.2742283,
     "1005010099024201": 1795703510.182712,
     "1005009566266039": 1795714790.201703,
     "TAJMI3AT_lodydeals_46917": 1795714990.9149463,
@@ -4579,8 +4579,8 @@
     "WALRAM SSD M2 512GB": 1795776536.3979676,
     "SomnAmbulist HDD 2.5Inch Portable External Hard Drive 320Gb": 1795690577.381119,
     "لووووووووووووز HTC": 1795690585.1949098,
-    "Ulanzi MA35 MagSafe Smartphone Camera": 1795695709.9643443,
-    "NETUM L5 / NT-L8": 1795695716.5576735,
+    "Ulanzi MA35 MagSafe Smartphone Camera": 1795808969.6852784,
+    "NETUM L5 / NT-L8": 1795808964.2742283,
     "العرض الأكثر طلباً": 1795714990.9149463,
     "16.8V Cordless Drill Driver": 1795792055.4432795,
     "يد تحكم   Flydigi Dune Wireless Hall Effect": 1795717019.2725039,
@@ -4621,8 +4621,6 @@
     "KOOTION SATA SSD 128GB   6.5": 1795808592.9813356
   },
   "published_post_keys": [
-    "aniscoupons:34971",
-    "aniscoupons:34973",
     "aniscoupons:34974",
     "aniscoupons:34976",
     "aniscoupons:34977",
@@ -5620,11 +5618,13 @@
     "bnddeals:51437",
     "bnddeals:51438",
     "bnddeals:51439",
-    "zedstoreonline:40812"
+    "zedstoreonline:40812",
+    "zedstoreonline:40813",
+    "zedstoreonline:40814"
   ],
   "last_disclaimer_time": 1795735529.6558404,
   "last_calendar_time": 1795782506.7435975,
-  "last_run_time": 1795808592.9813356,
+  "last_run_time": 1795808969.6852784,
   "monitored_channels": {
     "ecksdeal": {
       "last_message_id": 6150,
@@ -5651,16 +5651,16 @@
       "last_check_time": 1793599663.3444748
     },
     "zedstoreonline": {
-      "last_message_id": 40812,
-      "last_check_time": 1795808595.0720043
+      "last_message_id": 40814,
+      "last_check_time": 1795808971.7890162
     },
     "aniscoupons": {
       "last_message_id": 35812,
       "last_check_time": 1795808777.7826686
     },
     "bnddeals": {
-      "last_message_id": 51447,
-      "last_check_time": 1795808597.914648
+      "last_message_id": 51448,
+      "last_check_time": 1795808974.9087374
     }
   },
   "published_product_prices": {
@@ -6442,7 +6442,7 @@
     "32847542727": 64.0,
     "1005013612885095": 73.07,
     "1005009120961416": 212.0,
-    "1005006460821282": 9.7,
+    "1005006460821282": 7.1,
     "1005007038424043": 2.71,
     "1005010439285778": 5.29,
     "1005010089091939": 5.29,
@@ -6497,7 +6497,7 @@
     "1005011859459973": 30.0,
     "1005004504846008": 49.0,
     "1005006150092990": 11.55,
-    "1005005099575844": 5.0,
+    "1005005099575844": 3.1,
     "1005010099024201": 256.8,
     "1005009566266039": 115.6,
     "1005013097951450": 17.5,
@@ -36467,6 +36467,26 @@
       "price": 6.5,
       "timestamp": 1795808592.9813356,
       "status": "ACTIVE"
+    },
+    "zedstoreonline:40813": {
+      "channel_msg_id": 3957,
+      "product_id": "1005005099575844",
+      "title": "NETUM L5 / NT-L8",
+      "channel": "zedstoreonline",
+      "source_msg_id": 40813,
+      "price": 3.1,
+      "timestamp": 1795808964.2742283,
+      "status": "ACTIVE"
+    },
+    "zedstoreonline:40814": {
+      "channel_msg_id": 3958,
+      "product_id": "1005006460821282",
+      "title": "Ulanzi MA35 MagSafe Smartphone Camera",
+      "channel": "zedstoreonline",
+      "source_msg_id": 40814,
+      "price": 7.1,
+      "timestamp": 1795808969.6852784,
+      "status": "ACTIVE"
     }
   },
   "schedule_config": {
@@ -36475,17 +36495,17 @@
     "current_interval_minutes": 5,
     "is_paused": false,
     "night_mode_enabled": true,
-    "last_deal_post_time": 1795808597.9915516,
+    "last_deal_post_time": 1795808975.0007389,
     "night_start_hour_dz": 0,
     "night_end_hour_dz": 8,
     "night_pause_enabled": true,
-    "last_sweep_time": 1795808785.1557465,
+    "last_sweep_time": 1795808979.282195,
     "last_sweep_times": {
-      "algeria": 1795808778.5488508,
-      "france": 1795808785.1557465
+      "algeria": 1795808974.9548354,
+      "france": 1795808979.282195
     },
     "last_deal_post_times": {
-      "algeria": 1795808597.9915516
+      "algeria": 1795808975.0007389
     }
   },
   "last_coin_reminder_time": 1795648937.9274871,
@@ -39600,7 +39620,6 @@
   "published_deals_history": {},
   "settings": {},
   "handled_post_keys": [
-    "zedstoreonline:40242",
     "zedstoreonline:40244",
     "zedstoreonline:40246",
     "aniscoupons:35002",
@@ -40599,7 +40618,8 @@
     "aniscoupons:35809",
     "aniscoupons:35811",
     "bnddeals:51447",
-    "aniscoupons:35812"
+    "aniscoupons:35812",
+    "bnddeals:51448"
   ],
   "last_france_cross_promo_time": 1795757211.9224837,
   "next_france_cross_promo_interval_seconds": 197705,
@@ -42589,6 +42609,11 @@
         "channel": "bnddeals",
         "ts": 1795808597.7732167,
         "price": 28.1
+      },
+      {
+        "channel": "bnddeals",
+        "ts": 1795808974.7377234,
+        "price": 28.1
       }
     ],
     "1005008774483451": [
@@ -42596,6 +42621,20 @@
         "channel": "bnddeals",
         "ts": 1795806579.2417598,
         "price": 39.0
+      }
+    ],
+    "1005005099575844": [
+      {
+        "channel": "zedstoreonline",
+        "ts": 1795808962.0591779,
+        "price": 3.1
+      }
+    ],
+    "1005006460821282": [
+      {
+        "channel": "zedstoreonline",
+        "ts": 1795808967.444553,
+        "price": 7.1
       }
     ]
   },
