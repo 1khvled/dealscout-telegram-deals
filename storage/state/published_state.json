@@ -1263,7 +1263,7 @@
     "9998882360": 1792162360.6633363,
     "9998882475": 1793282475.663889,
     "9998882568": 1792162568.078144,
-    "1005010369693975": 1795800126.7809575,
+    "1005010369693975": 1795805645.0436924,
     "1005006442452857": 1792166326.0335298,
     "9998886462": 1792166462.200491,
     "1005009948598802": 1793500786.1935658,
@@ -3291,7 +3291,8 @@
     "الحـــــق عــروض ممتازة للعناوين الفــرنـسية",
     "XUNYOU-LINK 4G 300Mpbs WiFi Router",
     "CUSU DDR5 16GB 6000MHz",
-    "جودة عالية PROJECTOR 📽️"
+    "جودة عالية PROJECTOR 📽️",
+    "سماعات ذات جودة عالية مزودة ب 6 ميكرفون لمكالمات أكثر نقاوة"
   ],
   "published_title_timestamps": {
     "Xiaomi Redmi Note 17 5G Global Version": 1790857823.0117362,
@@ -4600,10 +4601,10 @@
     "الحـــــق عــروض ممتازة للعناوين الفــرنـسية": 1795801413.6913135,
     "XUNYOU-LINK 4G 300Mpbs WiFi Router": 1795801443.4018373,
     "CUSU DDR5 16GB 6000MHz": 1795801448.6490834,
-    "جودة عالية PROJECTOR 📽️": 1795804373.6204817
+    "جودة عالية PROJECTOR 📽️": 1795804373.6204817,
+    "سماعات ذات جودة عالية مزودة ب 6 ميكرفون لمكالمات أكثر نقاوة": 1795805645.0436924
   },
   "published_post_keys": [
-    "lodydeals:46541",
     "lodydeals:46542",
     "lodydeals:46543",
     "lodydeals:46544",
@@ -5602,19 +5603,20 @@
     "lodydeals:46967",
     "aniscoupons:35776",
     "aniscoupons:35777",
-    "bnddeals:51428"
+    "bnddeals:51428",
+    "bnddeals:51429"
   ],
   "last_disclaimer_time": 1795735529.6558404,
   "last_calendar_time": 1795782506.7435975,
-  "last_run_time": 1795804373.6204817,
+  "last_run_time": 1795805645.0436924,
   "monitored_channels": {
     "ecksdeal": {
-      "last_message_id": 6149,
-      "last_check_time": 1795785997.6745925
+      "last_message_id": 6150,
+      "last_check_time": 1795805638.141808
     },
     "lodydeals": {
-      "last_message_id": 46972,
-      "last_check_time": 1795805265.9509425
+      "last_message_id": 46976,
+      "last_check_time": 1795805634.6823766
     },
     "test_channel": {
       "last_message_id": 1793967703,
@@ -5637,12 +5639,12 @@
       "last_check_time": 1795799763.1799657
     },
     "aniscoupons": {
-      "last_message_id": 35786,
-      "last_check_time": 1795805456.8789892
+      "last_message_id": 35788,
+      "last_check_time": 1795805640.1416886
     },
     "bnddeals": {
-      "last_message_id": 51428,
-      "last_check_time": 1795804375.7471704
+      "last_message_id": 51429,
+      "last_check_time": 1795805647.2107491
     }
   },
   "published_product_prices": {
@@ -5874,7 +5876,7 @@
     "1005012671337268": 4.02,
     "1005012331836106": 268.0,
     "1005007760080474": 75.0,
-    "1005010369693975": 10.6,
+    "1005010369693975": 8.7,
     "1005006442452857": 24.7,
     "1005012751475098": 2.28,
     "1005012545304504": 123.1,
@@ -36288,6 +36290,16 @@
       "price": 69.0,
       "timestamp": 1795804373.6204817,
       "status": "ACTIVE"
+    },
+    "bnddeals:51429": {
+      "channel_msg_id": 3941,
+      "product_id": "1005010369693975",
+      "title": "سماعات ذات جودة عالية مزودة ب 6 ميكرفون لمكالمات أكثر نقاوة",
+      "channel": "bnddeals",
+      "source_msg_id": 51429,
+      "price": 8.7,
+      "timestamp": 1795805645.0436924,
+      "status": "ACTIVE"
     }
   },
   "schedule_config": {
@@ -36296,17 +36308,17 @@
     "current_interval_minutes": 5,
     "is_paused": false,
     "night_mode_enabled": true,
-    "last_deal_post_time": 1795804375.8629255,
+    "last_deal_post_time": 1795805647.3140953,
     "night_start_hour_dz": 0,
     "night_end_hour_dz": 8,
     "night_pause_enabled": true,
-    "last_sweep_time": 1795805462.3476155,
+    "last_sweep_time": 1795805651.5866325,
     "last_sweep_times": {
-      "algeria": 1795805457.9448528,
-      "france": 1795805462.3476155
+      "algeria": 1795805647.2619574,
+      "france": 1795805651.5866325
     },
     "last_deal_post_times": {
-      "algeria": 1795804375.8629255
+      "algeria": 1795805647.3140953
     }
   },
   "last_coin_reminder_time": 1795648937.9274871,
@@ -36600,7 +36612,7 @@
     "9998882360": "test_channel",
     "9998882475": "test_channel",
     "9998882568": "test_channel",
-    "1005010369693975": "aniscoupons",
+    "1005010369693975": "bnddeals",
     "1005006442452857": "zedstoreonline",
     "9998886462": "test_channel",
     "1005012751475098": "couponsglobal",
@@ -38614,7 +38626,8 @@
     "الحـــــق عــروض ممتازة للعناوين الفــرنـسية": "lodydeals",
     "XUNYOU-LINK 4G 300Mpbs WiFi Router": "lodydeals",
     "CUSU DDR5 16GB 6000MHz": "lodydeals",
-    "جودة عالية PROJECTOR 📽️": "bnddeals"
+    "جودة عالية PROJECTOR 📽️": "bnddeals",
+    "سماعات ذات جودة عالية مزودة ب 6 ميكرفون لمكالمات أكثر نقاوة": "bnddeals"
   },
   "religious_reminders_history": {
     "mock_rem": "2026-10-02",
@@ -39412,9 +39425,6 @@
   "published_deals_history": {},
   "settings": {},
   "handled_post_keys": [
-    "zedstoreonline:40201",
-    "aniscoupons:34945",
-    "aniscoupons:34947",
     "bnddeals:51305",
     "zedstoreonline:40207",
     "lodydeals:46523",
@@ -40411,7 +40421,10 @@
     "aniscoupons:35783",
     "aniscoupons:35784",
     "aniscoupons:35785",
-    "aniscoupons:35786"
+    "aniscoupons:35786",
+    "ecksdeal:6150",
+    "aniscoupons:35787",
+    "aniscoupons:35788"
   ],
   "last_france_cross_promo_time": 1795757211.9224837,
   "next_france_cross_promo_interval_seconds": 197705,
@@ -41834,6 +41847,11 @@
         "channel": "aniscoupons",
         "ts": 1795805271.6645346,
         "price": 8.7
+      },
+      {
+        "channel": "bnddeals",
+        "ts": 1795805642.7235312,
+        "price": 8.7
       }
     ],
     "1005012524603100": [
@@ -42107,6 +42125,11 @@
         "channel": "aniscoupons",
         "ts": 1795803058.7554083,
         "price": 13.64
+      },
+      {
+        "channel": "ecksdeal",
+        "ts": 1795805637.9203215,
+        "price": 10.84
       }
     ],
     "1005012172859239": [
@@ -42218,7 +42241,8 @@
     "1005013572273568": 1795476464.0167599,
     "1005013497504096": 1795546908.2110746,
     "1005013621783525": 1795553721.3213196,
-    "1005013097951450": 1795725734.4250946
+    "1005013097951450": 1795725734.4250946,
+    "1005010369693975": 1795805645.0945106
   },
   "published_tajmi3at": [
     {
