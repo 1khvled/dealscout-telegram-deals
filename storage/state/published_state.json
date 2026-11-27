@@ -35486,10 +35486,10 @@
     "night_start_hour_dz": 0,
     "night_end_hour_dz": 8,
     "night_pause_enabled": true,
-    "last_sweep_time": 1795771402.5056114,
+    "last_sweep_time": 1795771525.440303,
     "last_sweep_times": {
-      "algeria": 1795771397.7554965,
-      "france": 1795771402.5056114
+      "algeria": 1795771520.9280202,
+      "france": 1795771525.440303
     },
     "last_deal_post_times": {
       "algeria": 1795771397.8047247
@@ -40254,6 +40254,11 @@
         "channel": "lodydeals",
         "ts": 1795771145.7468498,
         "price": 356.59
+      },
+      {
+        "channel": "lodydeals",
+        "ts": 1795771505.5450997,
+        "price": 356.59
       }
     ],
     "1005011557016158": [
@@ -40353,6 +40358,11 @@
         "channel": "zedstoreonline",
         "ts": 1795771152.441027,
         "price": 356.0
+      },
+      {
+        "channel": "zedstoreonline",
+        "ts": 1795771510.6957858,
+        "price": 356.0
       }
     ],
     "1005010575865619": [
@@ -40425,6 +40435,11 @@
         "channel": "aniscoupons",
         "ts": 1795771157.6604087,
         "price": 363.4
+      },
+      {
+        "channel": "aniscoupons",
+        "ts": 1795771515.0881996,
+        "price": 363.4
       }
     ],
     "1005013438245033": [
@@ -40481,6 +40496,11 @@
       {
         "channel": "bnddeals",
         "ts": 1795771162.4631908,
+        "price": 413.0
+      },
+      {
+        "channel": "bnddeals",
+        "ts": 1795771520.3872108,
         "price": 413.0
       }
     ],
