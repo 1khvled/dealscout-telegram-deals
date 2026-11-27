@@ -1479,7 +1479,7 @@
     "1005009980316035": 1793542552.2730343,
     "1005005905462505": 1795601143.9181204,
     "1005008248133489": 1794475825.54016,
-    "1005008684239370": 1795650503.7249205,
+    "1005008684239370": 1795797190.5808842,
     "1005011583202464": 1794913864.041144,
     "1005009921069024": 1793542597.6187797,
     "1005009916209766": 1794167239.3538153,
@@ -1706,7 +1706,7 @@
     "1005007820092290": 1794224654.527678,
     "1005012329021334": 1794494280.7112553,
     "1005013218893010": 1794226314.627466,
-    "1005013480169843": 1795773765.847727,
+    "1005013480169843": 1795797196.923402,
     "1005013226454479": 1794227594.9699965,
     "1005005548265076": 1794231079.407264,
     "1005012555450345": 1794232557.0275722,
@@ -3571,7 +3571,7 @@
     "Ⓜ ONEPLUS TURBO 6X PRO 5G (8/128)": 1792156501.818011,
     "Redmi Pad 2 9.7": 1792061322.5579543,
     "Redmi Note 12 5G Global (4/128GB)": 1792156524.878074,
-    "Blackview Wave 10C": 1795773765.847727,
+    "Blackview Wave 10C": 1795797196.923402,
     "متوسط سعره حالياً 82000دج": 1793276237.692456,
     "iQOO Z11s 5G (8/128GB)": 1795185813.1399975,
     "realme Watch 5 Smart Watch 1.97\" AMOLED Display Sports & Health Monitoring": 1793966861.2399917,
@@ -4107,7 +4107,7 @@
     "HONOR Pad X8a (4/64GB)": 1794683885.7547128,
     "Magcubic HY350 Max 900ANSI": 1794476813.180707,
     "Honor X9d (no charger)": 1794990160.20343,
-    "MAONO Wave T1 Mini Pro Wireless Lavalier Microphone": 1795650503.7249205,
+    "MAONO Wave T1 Mini Pro Wireless Lavalier Microphone": 1795797190.5808842,
     "ميكروفون MAONO DGM20W لاسلكي للألعاب – تقليل الضوضاء مع إضاءة RGB، مثالي للبث المباشر والتسجيل والأل": 1793976348.7503736,
     "Ulanzi A21 Wireless Lavalier Microphone": 1793977272.9654846,
     "ميكروفون Ulanzi A100 لاسلكي صغير": 1795257430.9310815,
@@ -4587,8 +4587,6 @@
     "ATTACK SHARK L30Pro Wireless Gaming Headset": 1795795910.8631444
   },
   "published_post_keys": [
-    "zedstoreonline:40210",
-    "aniscoupons:34953",
     "zedstoreonline:40212",
     "aniscoupons:34954",
     "aniscoupons:34955",
@@ -5586,11 +5584,13 @@
     "zedstoreonline:40795",
     "aniscoupons:35765",
     "aniscoupons:35766",
-    "aniscoupons:35767"
+    "aniscoupons:35767",
+    "zedstoreonline:40796",
+    "aniscoupons:35768"
   ],
   "last_disclaimer_time": 1795735529.6558404,
   "last_calendar_time": 1795782506.7435975,
-  "last_run_time": 1795796453.3264363,
+  "last_run_time": 1795797196.923402,
   "monitored_channels": {
     "ecksdeal": {
       "last_message_id": 6149,
@@ -5617,12 +5617,12 @@
       "last_check_time": 1793599663.3444748
     },
     "zedstoreonline": {
-      "last_message_id": 40795,
-      "last_check_time": 1795795535.4116886
+      "last_message_id": 40796,
+      "last_check_time": 1795797192.7101693
     },
     "aniscoupons": {
-      "last_message_id": 35767,
-      "last_check_time": 1795796455.4317625
+      "last_message_id": 35768,
+      "last_check_time": 1795797199.0517704
     },
     "bnddeals": {
       "last_message_id": 51426,
@@ -36060,6 +36060,26 @@
       "price": 9.7,
       "timestamp": 1795796453.3264363,
       "status": "ACTIVE"
+    },
+    "zedstoreonline:40796": {
+      "channel_msg_id": 3919,
+      "product_id": "1005008684239370",
+      "title": "MAONO Wave T1 Mini Pro Wireless Lavalier Microphone",
+      "channel": "zedstoreonline",
+      "source_msg_id": 40796,
+      "price": 10.2,
+      "timestamp": 1795797190.5808842,
+      "status": "ACTIVE"
+    },
+    "aniscoupons:35768": {
+      "channel_msg_id": 3920,
+      "product_id": "1005013480169843",
+      "title": "Blackview Wave 10C",
+      "channel": "aniscoupons",
+      "source_msg_id": 35768,
+      "price": 67.7,
+      "timestamp": 1795797196.923402,
+      "status": "ACTIVE"
     }
   },
   "schedule_config": {
@@ -36068,17 +36088,17 @@
     "current_interval_minutes": 5,
     "is_paused": false,
     "night_mode_enabled": true,
-    "last_deal_post_time": 1795796456.582293,
+    "last_deal_post_time": 1795797200.468396,
     "night_start_hour_dz": 0,
     "night_end_hour_dz": 8,
     "night_pause_enabled": true,
-    "last_sweep_time": 1795797008.8354228,
+    "last_sweep_time": 1795797202.9153311,
     "last_sweep_times": {
-      "algeria": 1795797006.5142791,
-      "france": 1795797008.8354228
+      "algeria": 1795797200.40903,
+      "france": 1795797202.9153311
     },
     "last_deal_post_times": {
-      "algeria": 1795796456.582293
+      "algeria": 1795797200.468396
     }
   },
   "last_coin_reminder_time": 1795648937.9274871,
@@ -36806,7 +36826,7 @@
     "1005007820092290": "zedstoreonline",
     "1005012329021334": "aniscoupons",
     "1005013218893010": "zedstoreonline",
-    "1005013480169843": "zedstoreonline",
+    "1005013480169843": "aniscoupons",
     "1005013226454479": "zedstoreonline",
     "1005005548265076": "lodydeals",
     "1005012555450345": "lodydeals",
@@ -37365,7 +37385,7 @@
     "Ⓜ ONEPLUS TURBO 6X PRO 5G (8/128)": "megaphonna",
     "Redmi Pad 2 9.7": "aniscoupons",
     "Redmi Note 12 5G Global (4/128GB)": "aniscoupons",
-    "Blackview Wave 10C": "zedstoreonline",
+    "Blackview Wave 10C": "aniscoupons",
     "متوسط سعره حالياً 82000دج": "megaphonna",
     "realme 15T 5G Smartphone NFC Dimensity 6400 Max Chipset Dual 50MP AI": "aniscoupons",
     "iQOO Z11s 5G (8/128GB)": "aniscoupons",
@@ -41526,6 +41546,11 @@
         "channel": "zedstoreonline",
         "ts": 1795773742.9724226,
         "price": 67.7
+      },
+      {
+        "channel": "aniscoupons",
+        "ts": 1795797194.938472,
+        "price": 67.7
       }
     ],
     "1005010369693975": [
@@ -41794,6 +41819,13 @@
         "channel": "aniscoupons",
         "ts": 1795795538.7208245,
         "price": 22.59
+      }
+    ],
+    "1005008684239370": [
+      {
+        "channel": "zedstoreonline",
+        "ts": 1795797188.2987835,
+        "price": 10.2
       }
     ]
   },
