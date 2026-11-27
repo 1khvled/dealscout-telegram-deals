@@ -1333,7 +1333,7 @@
     "999888261": 1793280261.0669627,
     "1005008785149427": 1793281845.5693822,
     "1005012766583284": 1793448708.2553535,
-    "1005011557016158": 1795767305.1928673,
+    "1005011557016158": 1795772107.4521573,
     "1005013451224718": 1793281883.4004252,
     "1005009120899585": 1793613389.897003,
     "1005010620332784": 1793467334.18714,
@@ -4216,7 +4216,7 @@
     "SoundPEATS C30 Hybrid ANC -52dB": 1794407013.7230165,
     "Somnambulist SSD 120GB": 1794524556.2538168,
     "Lexar ARES PRO NVMe SSD PCle5.0x4 M.2 1TB": 1794492627.75024,
-    "Realme P4 Power 8/256GB": 1795767305.1928673,
+    "Realme P4 Power 8/256GB": 1795772107.4521573,
     "ASROCK X570M PRO4 MOTHERBOARD": 1794562340.4789197,
     "EASYSMX X05 PRO Controller": 1795717412.2268028,
     "ONEPLUS 16 12/256GB": 1795521997.8103201,
@@ -4547,7 +4547,6 @@
     "ال KOOTION SSD 256GB ب 15.56": 1795768399.4567664
   },
   "published_post_keys": [
-    "zedstoreonline:40175",
     "aniscoupons:34914",
     "zedstoreonline:40176",
     "aniscoupons:34915",
@@ -5546,11 +5545,12 @@
     "aniscoupons:35729",
     "aniscoupons:35730",
     "zedstoreonline:40766",
-    "aniscoupons:35731"
+    "aniscoupons:35731",
+    "aniscoupons:35733"
   ],
   "last_disclaimer_time": 1795735529.6558404,
   "last_calendar_time": 1795177633.1203737,
-  "last_run_time": 1795771921.621391,
+  "last_run_time": 1795772107.4521573,
   "monitored_channels": {
     "ecksdeal": {
       "last_message_id": 6148,
@@ -5577,12 +5577,12 @@
       "last_check_time": 1793599663.3444748
     },
     "zedstoreonline": {
-      "last_message_id": 40767,
-      "last_check_time": 1795771906.8084896
+      "last_message_id": 40768,
+      "last_check_time": 1795772086.8693793
     },
     "aniscoupons": {
-      "last_message_id": 35731,
-      "last_check_time": 1795771923.6994553
+      "last_message_id": 35733,
+      "last_check_time": 1795772109.5917609
     },
     "bnddeals": {
       "last_message_id": 51423,
@@ -35494,6 +35494,16 @@
       "price": 79.6,
       "timestamp": 1795771921.621391,
       "status": "ACTIVE"
+    },
+    "aniscoupons:35733": {
+      "channel_msg_id": 3862,
+      "product_id": "1005011557016158",
+      "title": "Realme P4 Power 8/256GB",
+      "channel": "aniscoupons",
+      "source_msg_id": 35733,
+      "price": 289.79,
+      "timestamp": 1795772107.4521573,
+      "status": "ACTIVE"
     }
   },
   "schedule_config": {
@@ -35502,17 +35512,17 @@
     "current_interval_minutes": 5,
     "is_paused": false,
     "night_mode_enabled": true,
-    "last_deal_post_time": 1795771936.4598522,
+    "last_deal_post_time": 1795772122.77612,
     "night_start_hour_dz": 0,
     "night_end_hour_dz": 8,
     "night_pause_enabled": true,
-    "last_sweep_time": 1795771941.8361804,
+    "last_sweep_time": 1795772127.812005,
     "last_sweep_times": {
-      "algeria": 1795771936.424677,
-      "france": 1795771941.8361804
+      "algeria": 1795772122.7314794,
+      "france": 1795772127.812005
     },
     "last_deal_post_times": {
-      "algeria": 1795771936.4598522
+      "algeria": 1795772122.77612
     }
   },
   "last_coin_reminder_time": 1795648937.9274871,
@@ -38591,7 +38601,6 @@
   "published_deals_history": {},
   "settings": {},
   "handled_post_keys": [
-    "aniscoupons:34906",
     "zedstoreonline:40168",
     "aniscoupons:34910",
     "zedstoreonline:40171",
@@ -39590,7 +39599,8 @@
     "aniscoupons:35727",
     "lodydeals:46949",
     "zedstoreonline:40765",
-    "zedstoreonline:40767"
+    "zedstoreonline:40767",
+    "zedstoreonline:40768"
   ],
   "last_france_cross_promo_time": 1795757211.9224837,
   "next_france_cross_promo_interval_seconds": 197705,
@@ -40297,6 +40307,11 @@
         "channel": "zedstoreonline",
         "ts": 1795768418.3731132,
         "price": 289.7
+      },
+      {
+        "channel": "aniscoupons",
+        "ts": 1795772104.7244473,
+        "price": 289.79
       }
     ],
     "1005012406142215": [
@@ -40590,6 +40605,11 @@
         "channel": "aniscoupons",
         "ts": 1795770824.388572,
         "price": 177.7
+      },
+      {
+        "channel": "zedstoreonline",
+        "ts": 1795772086.69715,
+        "price": 177.0
       }
     ],
     "1005007916078341": [
@@ -40636,7 +40656,7 @@
   "hot_repost_timestamps": {
     "1005012726037568": 1795083794.6937497,
     "1005008708333999": 1794613227.9043555,
-    "1005011557016158": 1794769611.840472,
+    "1005011557016158": 1795772107.4954236,
     "1005010210432531": 1795082866.566105,
     "1005010538481521": 1795088201.6241915,
     "32847542727": 1795274576.3657165,
