@@ -1636,7 +1636,7 @@
     "9998887107": 1793967108.0014687,
     "9998887678": 1793967678.8184059,
     "9998887703": 1793967703.2348685,
-    "1005008708333999": 1795719720.92823,
+    "1005008708333999": 1795773184.735738,
     "1005012254132930": 1795601364.2609103,
     "1005013028124905": 1793971934.3600886,
     "1005012691642623": 1794074230.5173922,
@@ -4094,7 +4094,7 @@
     "SOUNDPEATS C30 ANC Wireless Earphones": 1794852924.3222039,
     "UGREEN 45W GaN Smart Display Charger": 1793995361.9589899,
     "Inphic PG1 PG9 RGB Wired Gaming Mouse": 1795521964.5931118,
-    "realme C100d 4/128GB": 1795688023.2862134,
+    "realme C100d 4/128GB": 1795773184.735738,
     "Zeblaze GTS 3 Pro AMOLED": 1794500381.7712336,
     "شاحن سيارة ORICO بقوة 45W": 1795085801.1895535,
     "Hollyland LARK M2 DUO 2-Person": 1794658966.3702009,
@@ -4551,7 +4551,6 @@
     "ليكيب أفضل عروض هذه التخفيضات": 1795773003.57561
   },
   "published_post_keys": [
-    "aniscoupons:34916",
     "zedstoreonline:40177",
     "aniscoupons:34917",
     "lodydeals:46495",
@@ -5550,11 +5549,12 @@
     "lodydeals:46950",
     "aniscoupons:35734",
     "aniscoupons:35736",
-    "aniscoupons:35737"
+    "aniscoupons:35737",
+    "zedstoreonline:40770"
   ],
   "last_disclaimer_time": 1795735529.6558404,
   "last_calendar_time": 1795177633.1203737,
-  "last_run_time": 1795773053.096413,
+  "last_run_time": 1795773184.735738,
   "monitored_channels": {
     "ecksdeal": {
       "last_message_id": 6148,
@@ -5581,8 +5581,8 @@
       "last_check_time": 1793599663.3444748
     },
     "zedstoreonline": {
-      "last_message_id": 40769,
-      "last_check_time": 1795773022.6122973
+      "last_message_id": 40770,
+      "last_check_time": 1795773186.8482852
     },
     "aniscoupons": {
       "last_message_id": 35737,
@@ -6149,7 +6149,7 @@
     "1005012593794312": 241.5,
     "1005008357913212": 34.8,
     "1005012254132930": 14.5,
-    "1005008708333999": 138.7,
+    "1005008708333999": 138.0,
     "1005013028124905": 438.6,
     "1005012691642623": 37.1,
     "1005010266233059": 17.1,
@@ -35548,6 +35548,16 @@
       "price": 133.8,
       "timestamp": 1795773053.096413,
       "status": "ACTIVE"
+    },
+    "zedstoreonline:40770": {
+      "channel_msg_id": 3867,
+      "product_id": "1005008708333999",
+      "title": "realme C100d 4/128GB",
+      "channel": "zedstoreonline",
+      "source_msg_id": 40770,
+      "price": 138.0,
+      "timestamp": 1795773184.735738,
+      "status": "ACTIVE"
     }
   },
   "schedule_config": {
@@ -35556,17 +35566,17 @@
     "current_interval_minutes": 5,
     "is_paused": false,
     "night_mode_enabled": true,
-    "last_deal_post_time": 1795773067.9933233,
+    "last_deal_post_time": 1795773216.2934453,
     "night_start_hour_dz": 0,
     "night_end_hour_dz": 8,
     "night_pause_enabled": true,
-    "last_sweep_time": 1795773072.9130738,
+    "last_sweep_time": 1795773221.5281606,
     "last_sweep_times": {
-      "algeria": 1795773067.9537697,
-      "france": 1795773072.9130738
+      "algeria": 1795773216.2436376,
+      "france": 1795773221.5281606
     },
     "last_deal_post_times": {
-      "algeria": 1795773067.9933233
+      "algeria": 1795773216.2934453
     }
   },
   "last_coin_reminder_time": 1795648937.9274871,
@@ -36231,7 +36241,7 @@
     "9998887107": "test_channel",
     "9998887678": "test_channel",
     "9998887703": "test_channel",
-    "1005008708333999": "aniscoupons",
+    "1005008708333999": "zedstoreonline",
     "1005012254132930": "zedstoreonline",
     "1005013028124905": "zedstoreonline",
     "1005012691642623": "zedstoreonline",
@@ -40807,6 +40817,13 @@
         "channel": "aniscoupons",
         "ts": 1795773051.1040218,
         "price": 133.8
+      }
+    ],
+    "1005008708333999": [
+      {
+        "channel": "zedstoreonline",
+        "ts": 1795773182.2697797,
+        "price": 138.0
       }
     ]
   },
