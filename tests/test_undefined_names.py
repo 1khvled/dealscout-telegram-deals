@@ -65,11 +65,10 @@ def test_no_undefined_names_in_shipped_code():
 
     undefined = [
         line for line in (result.stdout or "").splitlines()
-        if "undefined name" in line
+        if "undefined name" in line or "referenced before assignment" in line
     ]
 
     assert not undefined, (
-        "Undefined names found in shipped code. Each one is a latent "
-        "NameError that will be swallowed by the try/except blocks in the "
-        "publisher loops:\n  " + "\n  ".join(undefined)
+        "Undefined or uninitialized names found in shipped code. Each one is a "
+        "latent NameError/UnboundLocalError in publisher loops:\n  " + "\n  ".join(undefined)
     )
