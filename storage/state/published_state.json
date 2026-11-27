@@ -1764,7 +1764,7 @@
     "1005011936109841": 1794475842.5666552,
     "1005012333024137": 1794649534.468107,
     "1005007822635375": 1794852953.5188413,
-    "1005001849536579": 1795790594.8681092,
+    "1005001849536579": 1795813387.1989696,
     "1005006967391791": 1794476797.164376,
     "1005013288890301": 1794477157.5349603,
     "1005013089015192": 1795185813.1399975,
@@ -4219,7 +4219,7 @@
     "طابعة D2 Mini محمولة لطباعة الصور والملصقات والبطاقات على الورق": 1794223934.5228841,
     "قفازات سبايدرمان للأطفال مع 15 سهماً للعب والتسلية": 1794224474.0767472,
     "طابعة حرارية محمولة بحجم الجيب لطباعة النصوص والصور والملصقات": 1794224654.527678,
-    "MAONO PM360TR Condenser Microphone XLR Podcast Microphone": 1795790594.8681092,
+    "MAONO PM360TR Condenser Microphone XLR Podcast Microphone": 1795813387.1989696,
     "لوووووووووووووووز": 1794226314.627466,
     "شاحنة ألعاب صغيرة بالتحكم عن بُعد": 1794227594.9699965,
     "Mortal T1+ 2/16GB Wifi 4K": 1795088190.1400514,
@@ -4629,7 +4629,6 @@
     "نقاط راهم نادرين أكثر من بطاطا وزيت كاش واحد عندو": 1795811369.389761
   },
   "published_post_keys": [
-    "aniscoupons:34988",
     "aniscoupons:34989",
     "aniscoupons:34990",
     "aniscoupons:34991",
@@ -5628,11 +5627,12 @@
     "ecksdeal:6155",
     "aniscoupons:35818",
     "aniscoupons:35819",
-    "aniscoupons:35820"
+    "aniscoupons:35820",
+    "aniscoupons:35822"
   ],
   "last_disclaimer_time": 1795735529.6558404,
   "last_calendar_time": 1795782506.7435975,
-  "last_run_time": 1795812667.0298257,
+  "last_run_time": 1795813387.1989696,
   "monitored_channels": {
     "ecksdeal": {
       "last_message_id": 6155,
@@ -5663,8 +5663,8 @@
       "last_check_time": 1795813011.4891174
     },
     "aniscoupons": {
-      "last_message_id": 35821,
-      "last_check_time": 1795813014.841083
+      "last_message_id": 35822,
+      "last_check_time": 1795813389.3309586
     },
     "bnddeals": {
       "last_message_id": 51449,
@@ -36595,6 +36595,16 @@
       "price": 16.19,
       "timestamp": 1795812667.0298257,
       "status": "ACTIVE"
+    },
+    "aniscoupons:35822": {
+      "channel_msg_id": 3969,
+      "product_id": "1005001849536579",
+      "title": "MAONO PM360TR Condenser Microphone XLR Podcast Microphone",
+      "channel": "aniscoupons",
+      "source_msg_id": 35822,
+      "price": 21.5,
+      "timestamp": 1795813387.1989696,
+      "status": "ACTIVE"
     }
   },
   "schedule_config": {
@@ -36603,17 +36613,17 @@
     "current_interval_minutes": 5,
     "is_paused": false,
     "night_mode_enabled": true,
-    "last_deal_post_time": 1795812670.5961518,
+    "last_deal_post_time": 1795813390.5927737,
     "night_start_hour_dz": 0,
     "night_end_hour_dz": 8,
     "night_pause_enabled": true,
-    "last_sweep_time": 1795813209.8276465,
+    "last_sweep_time": 1795813398.1335664,
     "last_sweep_times": {
-      "algeria": 1795813205.4942725,
-      "france": 1795813209.8276465
+      "algeria": 1795813390.5345042,
+      "france": 1795813398.1335664
     },
     "last_deal_post_times": {
-      "algeria": 1795812670.5961518
+      "algeria": 1795813390.5927737
     }
   },
   "last_coin_reminder_time": 1795648937.9274871,
@@ -41340,11 +41350,6 @@
     "1005010788149535": [
       {
         "channel": "lodydeals",
-        "ts": 1795770045.25408,
-        "price": 356.59
-      },
-      {
-        "channel": "lodydeals",
         "ts": 1795770221.4329813,
         "price": 356.59
       },
@@ -41474,11 +41479,6 @@
     "1005012406142215": [
       {
         "channel": "zedstoreonline",
-        "ts": 1795770051.0598729,
-        "price": 356.0
-      },
-      {
-        "channel": "zedstoreonline",
         "ts": 1795770226.664712,
         "price": 356.0
       },
@@ -41601,11 +41601,6 @@
     "1005010575865619": [
       {
         "channel": "aniscoupons",
-        "ts": 1795770055.8807247,
-        "price": 363.4
-      },
-      {
-        "channel": "aniscoupons",
         "ts": 1795770231.0943742,
         "price": 363.4
       },
@@ -41666,11 +41661,6 @@
       }
     ],
     "1005013438245033": [
-      {
-        "channel": "bnddeals",
-        "ts": 1795770061.5697367,
-        "price": 413.0
-      },
       {
         "channel": "bnddeals",
         "ts": 1795770235.4678643,
@@ -42331,6 +42321,11 @@
       {
         "channel": "aniscoupons",
         "ts": 1795790592.8046458,
+        "price": 21.5
+      },
+      {
+        "channel": "aniscoupons",
+        "ts": 1795813384.7994828,
         "price": 21.5
       }
     ],
