@@ -989,7 +989,8 @@
     "ADHOC_aniscoupons_35818",
     "TAJMI3AT_lodydeals_46985",
     "1005005429986681",
-    "1005013516945692"
+    "1005013516945692",
+    "1005007792189142"
   ],
   "published_product_timestamps": {
     "1005012973772517": 1794500732.7845657,
@@ -1999,7 +2000,8 @@
     "ADHOC_aniscoupons_35818": 1795811369.389761,
     "TAJMI3AT_lodydeals_46985": 1795814491.8646457,
     "1005005429986681": 1795815415.2610617,
-    "1005013516945692": 1795815969.7768242
+    "1005013516945692": 1795815969.7768242,
+    "1005007792189142": 1795818897.6959238
   },
   "published_titles": [
     "Wireless WiFi Repeater 300Mbps WiFi Extender Amplifier Booster Router",
@@ -3317,7 +3319,8 @@
     "الحححححق باآآآآاطل",
     "Kingston USB Pen Drive",
     "OnePlus Ace7 12/256GB",
-    "OnePlus ACE 6 12/256"
+    "OnePlus ACE 6 12/256",
+    "VA VA VOOM Sports Watch"
   ],
   "published_title_timestamps": {
     "Xiaomi Redmi Note 17 5G Global Version": 1790857823.0117362,
@@ -4640,10 +4643,10 @@
     "الحححححق باآآآآاطل": 1795814491.8646457,
     "Kingston USB Pen Drive": 1795815415.2610617,
     "OnePlus Ace7 12/256GB": 1795815969.7768242,
-    "OnePlus ACE 6 12/256": 1795817442.1410594
+    "OnePlus ACE 6 12/256": 1795817442.1410594,
+    "VA VA VOOM Sports Watch": 1795818897.6959238
   },
   "published_post_keys": [
-    "lodydeals:46560",
     "zedstoreonline:40247",
     "zedstoreonline:40248",
     "zedstoreonline:40250",
@@ -5642,11 +5645,12 @@
     "aniscoupons:35828",
     "zedstoreonline:40822",
     "zedstoreonline:40823",
-    "zedstoreonline:40825"
+    "zedstoreonline:40825",
+    "zedstoreonline:40826"
   ],
   "last_disclaimer_time": 1795735529.6558404,
   "last_calendar_time": 1795782506.7435975,
-  "last_run_time": 1795818721.3205683,
+  "last_run_time": 1795818897.6959238,
   "monitored_channels": {
     "ecksdeal": {
       "last_message_id": 6156,
@@ -5673,8 +5677,8 @@
       "last_check_time": 1793599663.3444748
     },
     "zedstoreonline": {
-      "last_message_id": 40825,
-      "last_check_time": 1795818723.4538465
+      "last_message_id": 40826,
+      "last_check_time": 1795818899.786772
     },
     "aniscoupons": {
       "last_message_id": 35830,
@@ -6536,7 +6540,8 @@
     "1005013572719987": 69.0,
     "1005011755232439": 13.3,
     "1005005429986681": 7.15,
-    "1005013516945692": 487.7
+    "1005013516945692": 487.7,
+    "1005007792189142": 5.2
   },
   "channel_published_deals": {
     "aniscoupons:32590": {
@@ -36771,6 +36776,16 @@
       "price": 2.7,
       "timestamp": 1795818721.3205683,
       "status": "ACTIVE"
+    },
+    "zedstoreonline:40826": {
+      "channel_msg_id": 3985,
+      "product_id": "1005007792189142",
+      "title": "VA VA VOOM Sports Watch",
+      "channel": "zedstoreonline",
+      "source_msg_id": 40826,
+      "price": 5.2,
+      "timestamp": 1795818897.6959238,
+      "status": "ACTIVE"
     }
   },
   "schedule_config": {
@@ -36779,17 +36794,17 @@
     "current_interval_minutes": 5,
     "is_paused": false,
     "night_mode_enabled": true,
-    "last_deal_post_time": 1795818725.6288853,
+    "last_deal_post_time": 1795818901.3230844,
     "night_start_hour_dz": 0,
     "night_end_hour_dz": 8,
     "night_pause_enabled": true,
-    "last_sweep_time": 1795818729.961948,
+    "last_sweep_time": 1795818906.135388,
     "last_sweep_times": {
-      "algeria": 1795818725.5697174,
-      "france": 1795818729.961948
+      "algeria": 1795818901.2838092,
+      "france": 1795818906.135388
     },
     "last_deal_post_times": {
-      "algeria": 1795818725.6288853
+      "algeria": 1795818901.3230844
     }
   },
   "last_coin_reminder_time": 1795648937.9274871,
@@ -37792,7 +37807,8 @@
     "ADHOC_aniscoupons_35818": "aniscoupons",
     "TAJMI3AT_lodydeals_46985": "lodydeals",
     "1005005429986681": "lodydeals",
-    "1005013516945692": "aniscoupons"
+    "1005013516945692": "aniscoupons",
+    "1005007792189142": "zedstoreonline"
   },
   "published_title_channels": {
     "Test Wrench Set": "test_channel",
@@ -39117,7 +39133,8 @@
     "الحححححق باآآآآاطل": "lodydeals",
     "Kingston USB Pen Drive": "lodydeals",
     "OnePlus Ace7 12/256GB": "aniscoupons",
-    "OnePlus ACE 6 12/256": "zedstoreonline"
+    "OnePlus ACE 6 12/256": "zedstoreonline",
+    "VA VA VOOM Sports Watch": "zedstoreonline"
   },
   "religious_reminders_history": {
     "mock_rem": "2026-10-02",
