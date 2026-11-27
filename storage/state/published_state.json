@@ -1980,7 +1980,7 @@
     "COUPONBULLETIN_zedstoreonline_40755": 1795766741.3190055,
     "COUPONBULLETIN_ECKSDEAL_6148": 1795767105.1242795,
     "TAJMI3AT_lodydeals_46950": 1795773003.57561,
-    "1005012395059515": 1795776490.6380856,
+    "1005012395059515": 1795817442.1410594,
     "1005012196932716": 1795776506.4757638,
     "1005013416923881": 1795776529.3127697,
     "TAJMI3AT_lodydeals_46953": 1795779486.0734122,
@@ -3316,7 +3316,8 @@
     "نقاط راهم نادرين أكثر من بطاطا وزيت كاش واحد عندو",
     "الحححححق باآآآآاطل",
     "Kingston USB Pen Drive",
-    "OnePlus Ace7 12/256GB"
+    "OnePlus Ace7 12/256GB",
+    "OnePlus ACE 6 12/256"
   ],
   "published_title_timestamps": {
     "Xiaomi Redmi Note 17 5G Global Version": 1790857823.0117362,
@@ -4638,10 +4639,10 @@
     "نقاط راهم نادرين أكثر من بطاطا وزيت كاش واحد عندو": 1795811369.389761,
     "الحححححق باآآآآاطل": 1795814491.8646457,
     "Kingston USB Pen Drive": 1795815415.2610617,
-    "OnePlus Ace7 12/256GB": 1795815969.7768242
+    "OnePlus Ace7 12/256GB": 1795815969.7768242,
+    "OnePlus ACE 6 12/256": 1795817442.1410594
   },
   "published_post_keys": [
-    "zedstoreonline:40243",
     "zedstoreonline:40245",
     "aniscoupons:35001",
     "lodydeals:46560",
@@ -5640,19 +5641,20 @@
     "lodydeals:46987",
     "aniscoupons:35826",
     "aniscoupons:35827",
-    "aniscoupons:35828"
+    "aniscoupons:35828",
+    "zedstoreonline:40822"
   ],
   "last_disclaimer_time": 1795735529.6558404,
   "last_calendar_time": 1795782506.7435975,
-  "last_run_time": 1795816329.4585314,
+  "last_run_time": 1795817442.1410594,
   "monitored_channels": {
     "ecksdeal": {
       "last_message_id": 6156,
       "last_check_time": 1795813583.7609448
     },
     "lodydeals": {
-      "last_message_id": 46989,
-      "last_check_time": 1795815415.2610617
+      "last_message_id": 46990,
+      "last_check_time": 1795817434.1401095
     },
     "test_channel": {
       "last_message_id": 1793967703,
@@ -5671,12 +5673,12 @@
       "last_check_time": 1793599663.3444748
     },
     "zedstoreonline": {
-      "last_message_id": 40821,
-      "last_check_time": 1795815962.7238836
+      "last_message_id": 40822,
+      "last_check_time": 1795817444.274782
     },
     "aniscoupons": {
-      "last_message_id": 35828,
-      "last_check_time": 1795816331.5862675
+      "last_message_id": 35830,
+      "last_check_time": 1795817447.9299314
     },
     "bnddeals": {
       "last_message_id": 51449,
@@ -6524,7 +6526,7 @@
     "1005008413359329": 25.95,
     "1005013406777246": 96.0,
     "1005012649756781": 24.96,
-    "1005012395059515": 423.58,
+    "1005012395059515": 423.0,
     "1005012196932716": 472.03,
     "1005013416923881": 380.0,
     "1005013465406234": 371.6,
@@ -36739,6 +36741,16 @@
       "price": 30.0,
       "timestamp": 1795816329.4585314,
       "status": "ACTIVE"
+    },
+    "zedstoreonline:40822": {
+      "channel_msg_id": 3982,
+      "product_id": "1005012395059515",
+      "title": "OnePlus ACE 6 12/256",
+      "channel": "zedstoreonline",
+      "source_msg_id": 40822,
+      "price": 423.0,
+      "timestamp": 1795817442.1410594,
+      "status": "ACTIVE"
     }
   },
   "schedule_config": {
@@ -36747,17 +36759,17 @@
     "current_interval_minutes": 5,
     "is_paused": false,
     "night_mode_enabled": true,
-    "last_deal_post_time": 1795816332.8151941,
+    "last_deal_post_time": 1795817448.9581964,
     "night_start_hour_dz": 0,
     "night_end_hour_dz": 8,
     "night_pause_enabled": true,
-    "last_sweep_time": 1795817253.731988,
+    "last_sweep_time": 1795817453.5596013,
     "last_sweep_times": {
-      "algeria": 1795817243.6669028,
-      "france": 1795817253.731988
+      "algeria": 1795817448.8979423,
+      "france": 1795817453.5596013
     },
     "last_deal_post_times": {
-      "algeria": 1795816332.8151941
+      "algeria": 1795817448.9581964
     }
   },
   "last_coin_reminder_time": 1795648937.9274871,
@@ -37743,7 +37755,7 @@
     "COUPONBULLETIN_zedstoreonline_40755": "zedstoreonline",
     "COUPONBULLETIN_ECKSDEAL_6148": "ecksdeal",
     "TAJMI3AT_lodydeals_46950": "lodydeals",
-    "1005012395059515": "lodydeals",
+    "1005012395059515": "zedstoreonline",
     "1005012196932716": "lodydeals",
     "1005013416923881": "zedstoreonline",
     "TAJMI3AT_lodydeals_46953": "lodydeals",
@@ -39084,7 +39096,8 @@
     "نقاط راهم نادرين أكثر من بطاطا وزيت كاش واحد عندو": "aniscoupons",
     "الحححححق باآآآآاطل": "lodydeals",
     "Kingston USB Pen Drive": "lodydeals",
-    "OnePlus Ace7 12/256GB": "aniscoupons"
+    "OnePlus Ace7 12/256GB": "aniscoupons",
+    "OnePlus ACE 6 12/256": "zedstoreonline"
   },
   "religious_reminders_history": {
     "mock_rem": "2026-10-02",
@@ -39882,9 +39895,6 @@
   "published_deals_history": {},
   "settings": {},
   "handled_post_keys": [
-    "zedstoreonline:40254",
-    "lodydeals:46565",
-    "zedstoreonline:40256",
     "zedstoreonline:40257",
     "zedstoreonline:40258",
     "zedstoreonline:40260",
@@ -40881,7 +40891,10 @@
     "lodydeals:46984",
     "lodydeals:46985",
     "zedstoreonline:40820",
-    "zedstoreonline:40821"
+    "zedstoreonline:40821",
+    "lodydeals:46990",
+    "aniscoupons:35829",
+    "aniscoupons:35830"
   ],
   "last_france_cross_promo_time": 1795757211.9224837,
   "next_france_cross_promo_interval_seconds": 197705,
@@ -41485,21 +41498,6 @@
     "1005010788149535": [
       {
         "channel": "lodydeals",
-        "ts": 1795773348.111487,
-        "price": 356.59
-      },
-      {
-        "channel": "lodydeals",
-        "ts": 1795773521.200173,
-        "price": 356.59
-      },
-      {
-        "channel": "lodydeals",
-        "ts": 1795773889.8625572,
-        "price": 356.59
-      },
-      {
-        "channel": "lodydeals",
         "ts": 1795774439.8714259,
         "price": 356.59
       },
@@ -41552,21 +41550,6 @@
       }
     ],
     "1005012406142215": [
-      {
-        "channel": "zedstoreonline",
-        "ts": 1795773353.6184375,
-        "price": 356.0
-      },
-      {
-        "channel": "zedstoreonline",
-        "ts": 1795773526.716834,
-        "price": 356.0
-      },
-      {
-        "channel": "zedstoreonline",
-        "ts": 1795773895.9474652,
-        "price": 356.0
-      },
       {
         "channel": "zedstoreonline",
         "ts": 1795774445.5536275,
@@ -41626,21 +41609,6 @@
       }
     ],
     "1005013438245033": [
-      {
-        "channel": "bnddeals",
-        "ts": 1795773362.6762934,
-        "price": 413.0
-      },
-      {
-        "channel": "bnddeals",
-        "ts": 1795773534.7856698,
-        "price": 413.0
-      },
-      {
-        "channel": "bnddeals",
-        "ts": 1795773904.775903,
-        "price": 413.0
-      },
       {
         "channel": "bnddeals",
         "ts": 1795774454.9992232,
@@ -41709,6 +41677,21 @@
         "channel": "zedstoreonline",
         "ts": 1795814494.4901428,
         "price": 6.5
+      },
+      {
+        "channel": "lodydeals",
+        "ts": 1795817433.9215002,
+        "price": 6.5
+      },
+      {
+        "channel": "aniscoupons",
+        "ts": 1795817446.117235,
+        "price": 6.5
+      },
+      {
+        "channel": "aniscoupons",
+        "ts": 1795817447.7165818,
+        "price": 6.5
       }
     ],
     "1005012285327063": [
@@ -41767,13 +41750,6 @@
         "price": 49.3
       }
     ],
-    "1005013005786079": [
-      {
-        "channel": "zedstoreonline",
-        "ts": 1795773769.0984826,
-        "price": 18.2
-      }
-    ],
     "1005010305059795": [
       {
         "channel": "aniscoupons",
@@ -41829,11 +41805,6 @@
     ],
     "1005008708333999": [
       {
-        "channel": "zedstoreonline",
-        "ts": 1795773182.2697797,
-        "price": 138.0
-      },
-      {
         "channel": "aniscoupons",
         "ts": 1795775402.4673264,
         "price": 138.7
@@ -41851,22 +41822,12 @@
     ],
     "1005013480169843": [
       {
-        "channel": "zedstoreonline",
-        "ts": 1795773742.9724226,
-        "price": 67.7
-      },
-      {
         "channel": "aniscoupons",
         "ts": 1795797194.938472,
         "price": 67.7
       }
     ],
     "1005010369693975": [
-      {
-        "channel": "aniscoupons",
-        "ts": 1795773781.8552494,
-        "price": 10.6
-      },
       {
         "channel": "aniscoupons",
         "ts": 1795800124.3904,
@@ -41936,13 +41897,6 @@
         "channel": "aniscoupons",
         "ts": 1795813014.6946344,
         "price": 8.7
-      }
-    ],
-    "1005012524603100": [
-      {
-        "channel": "aniscoupons",
-        "ts": 1795774126.9180503,
-        "price": 271.5
       }
     ],
     "1005012374550298": [
@@ -42051,6 +42005,11 @@
       {
         "channel": "bnddeals",
         "ts": 1795776564.3914235,
+        "price": 423.0
+      },
+      {
+        "channel": "zedstoreonline",
+        "ts": 1795817439.9239278,
         "price": 423.0
       }
     ],
