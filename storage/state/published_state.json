@@ -965,7 +965,8 @@
     "TAJMI3AT_lodydeals_46923",
     "1005012649756781",
     "TAJMI3AT_lodydeals_46931",
-    "TAJMI3AT_aniscoupons_35714"
+    "TAJMI3AT_aniscoupons_35714",
+    "COUPONBULLETIN_aniscoupons_35715"
   ],
   "published_product_timestamps": {
     "1005012973772517": 1794500732.7845657,
@@ -1949,7 +1950,8 @@
     "TAJMI3AT_lodydeals_46923": 1795723348.1432872,
     "1005012649756781": 1795723352.671799,
     "TAJMI3AT_lodydeals_46931": 1795725772.5983655,
-    "TAJMI3AT_aniscoupons_35714": 1795735545.167229
+    "TAJMI3AT_aniscoupons_35714": 1795735545.167229,
+    "COUPONBULLETIN_aniscoupons_35715": 1795766374.1148407
   },
   "published_titles": [
     "Wireless WiFi Repeater 300Mbps WiFi Extender Amplifier Booster Router",
@@ -3233,7 +3235,8 @@
     "يد تحكم للهاتف GameSir Pocket Taco",
     "WALRAM SSD M2 512GBx2",
     "OPPO K15 (12/256GB)",
-    "يأتي ببطارية عملاقة 8000mAh"
+    "يأتي ببطارية عملاقة 8000mAh",
+    "الححححححححق اجمع الكوبون من هنا"
   ],
   "published_title_timestamps": {
     "Xiaomi Redmi Note 17 5G Global Version": 1790857823.0117362,
@@ -4522,10 +4525,10 @@
     "يد تحكم للهاتف GameSir Pocket Taco": 1795723352.671799,
     "WALRAM SSD M2 512GBx2": 1795725749.4645073,
     "OPPO K15 (12/256GB)": 1795725764.1692784,
-    "يأتي ببطارية عملاقة 8000mAh": 1795725772.5983655
+    "يأتي ببطارية عملاقة 8000mAh": 1795725772.5983655,
+    "الححححححححق اجمع الكوبون من هنا": 1795766374.1148407
   },
   "published_post_keys": [
-    "aniscoupons:34901",
     "zedstoreonline:40158",
     "aniscoupons:34902",
     "zedstoreonline:40161",
@@ -5524,19 +5527,20 @@
     "zedstoreonline:40750",
     "ecksdeal:6145",
     "zedstoreonline:40752",
-    "aniscoupons:35714"
+    "aniscoupons:35714",
+    "aniscoupons:35715"
   ],
   "last_disclaimer_time": 1795735529.6558404,
   "last_calendar_time": 1795177633.1203737,
-  "last_run_time": 1795735545.167229,
+  "last_run_time": 1795766374.1148407,
   "monitored_channels": {
     "ecksdeal": {
       "last_message_id": 6146,
       "last_check_time": 1795734097.1215222
     },
     "lodydeals": {
-      "last_message_id": 46932,
-      "last_check_time": 1795725774.129197
+      "last_message_id": 46934,
+      "last_check_time": 1795766369.967961
     },
     "test_channel": {
       "last_message_id": 1793967703,
@@ -5559,8 +5563,8 @@
       "last_check_time": 1795735537.4622455
     },
     "aniscoupons": {
-      "last_message_id": 35714,
-      "last_check_time": 1795735545.3417344
+      "last_message_id": 35715,
+      "last_check_time": 1795766374.2911627
     },
     "bnddeals": {
       "last_message_id": 51416,
@@ -35282,6 +35286,16 @@
       "price": null,
       "timestamp": 1795735545.167229,
       "status": "ACTIVE"
+    },
+    "aniscoupons:35715": {
+      "channel_msg_id": 3842,
+      "product_id": "COUPONBULLETIN_aniscoupons_35715",
+      "title": "الححححححححق اجمع الكوبون من هنا",
+      "channel": "aniscoupons",
+      "source_msg_id": 35715,
+      "price": null,
+      "timestamp": 1795766374.1148407,
+      "status": "ACTIVE"
     }
   },
   "schedule_config": {
@@ -35290,17 +35304,17 @@
     "current_interval_minutes": 5,
     "is_paused": false,
     "night_mode_enabled": true,
-    "last_deal_post_time": 1795735546.5184715,
+    "last_deal_post_time": 1795766375.3967843,
     "night_start_hour_dz": 0,
     "night_end_hour_dz": 8,
     "night_pause_enabled": true,
-    "last_sweep_time": 1795766195.3087618,
+    "last_sweep_time": 1795766379.6187592,
     "last_sweep_times": {
-      "algeria": 1795766190.1750207,
-      "france": 1795766195.3087618
+      "algeria": 1795766375.341539,
+      "france": 1795766379.6187592
     },
     "last_deal_post_times": {
-      "algeria": 1795735546.5184715
+      "algeria": 1795766375.3967843
     }
   },
   "last_coin_reminder_time": 1795648937.9274871,
@@ -36279,7 +36293,8 @@
     "TAJMI3AT_lodydeals_46923": "lodydeals",
     "1005012649756781": "ecksdeal",
     "TAJMI3AT_lodydeals_46931": "lodydeals",
-    "TAJMI3AT_aniscoupons_35714": "aniscoupons"
+    "TAJMI3AT_aniscoupons_35714": "aniscoupons",
+    "COUPONBULLETIN_aniscoupons_35715": "aniscoupons"
   },
   "published_title_channels": {
     "Test Wrench Set": "test_channel",
@@ -37570,7 +37585,8 @@
     "يد تحكم للهاتف GameSir Pocket Taco": "ecksdeal",
     "WALRAM SSD M2 512GBx2": "lodydeals",
     "OPPO K15 (12/256GB)": "lodydeals",
-    "يأتي ببطارية عملاقة 8000mAh": "lodydeals"
+    "يأتي ببطارية عملاقة 8000mAh": "lodydeals",
+    "الححححححححق اجمع الكوبون من هنا": "aniscoupons"
   },
   "religious_reminders_history": {
     "mock_rem": "2026-10-02",
@@ -38368,9 +38384,6 @@
   "published_deals_history": {},
   "settings": {},
   "handled_post_keys": [
-    "lodydeals:46486",
-    "lodydeals:46487",
-    "lodydeals:46488",
     "zedstoreonline:40150",
     "aniscoupons:34882",
     "lodydeals:46489",
@@ -39367,7 +39380,10 @@
     "zedstoreonline:40751",
     "ecksdeal:6146",
     "zedstoreonline:40753",
-    "aniscoupons:35714"
+    "aniscoupons:35714",
+    "lodydeals:46933",
+    "lodydeals:46934",
+    "aniscoupons:35715"
   ],
   "last_france_cross_promo_time": 1795757211.9224837,
   "next_france_cross_promo_interval_seconds": 197705,
