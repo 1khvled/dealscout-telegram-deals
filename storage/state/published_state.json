@@ -1036,7 +1036,7 @@
     "1005009281115306": 1795791688.6423583,
     "1005011797801269": 1791203753.790013,
     "1005007168829266": 1795081619.0346873,
-    "1005012406142215": 1795776482.9066448,
+    "1005012406142215": 1795792426.240089,
     "1005007345398413": 1790943717.3545928,
     "1005012504076921": 1791236011.4353654,
     "1005008715050858": 1791033345.3970714,
@@ -3274,7 +3274,8 @@
     "أفضل عروض الهواتف بكوبون 66$",
     "IPhone 14 Pro Max 6/128GB",
     "TCL alcatel 1023",
-    "الmouse لوووووووووووز🖱️"
+    "الmouse لوووووووووووز🖱️",
+    "Honor Win Turbo 12/25"
   ],
   "published_title_timestamps": {
     "Xiaomi Redmi Note 17 5G Global Version": 1790857823.0117362,
@@ -4576,10 +4577,10 @@
     "أفضل عروض الهواتف بكوبون 66$": 1795779486.0734122,
     "IPhone 14 Pro Max 6/128GB": 1795779586.365553,
     "TCL alcatel 1023": 1795782882.6064954,
-    "الmouse لوووووووووووز🖱️": 1795791688.6423583
+    "الmouse لوووووووووووز🖱️": 1795791688.6423583,
+    "Honor Win Turbo 12/25": 1795792426.240089
   },
   "published_post_keys": [
-    "aniscoupons:34946",
     "zedstoreonline:40206",
     "aniscoupons:34948",
     "zedstoreonline:40208",
@@ -5578,11 +5579,12 @@
     "zedstoreonline:40789",
     "bnddeals:51426",
     "zedstoreonline:40790",
-    "zedstoreonline:40791"
+    "zedstoreonline:40791",
+    "zedstoreonline:40792"
   ],
   "last_disclaimer_time": 1795735529.6558404,
   "last_calendar_time": 1795782506.7435975,
-  "last_run_time": 1795792055.4432795,
+  "last_run_time": 1795792426.240089,
   "monitored_channels": {
     "ecksdeal": {
       "last_message_id": 6149,
@@ -5609,12 +5611,12 @@
       "last_check_time": 1793599663.3444748
     },
     "zedstoreonline": {
-      "last_message_id": 40791,
-      "last_check_time": 1795792057.547089
+      "last_message_id": 40792,
+      "last_check_time": 1795792428.32387
     },
     "aniscoupons": {
-      "last_message_id": 35759,
-      "last_check_time": 1795790782.5849316
+      "last_message_id": 35760,
+      "last_check_time": 1795792429.4115222
     },
     "bnddeals": {
       "last_message_id": 51426,
@@ -5675,7 +5677,7 @@
     "1005009281115306": 13.64,
     "1005011797801269": 55.78,
     "1005007168829266": 16.5,
-    "1005012406142215": 356.87,
+    "1005012406142215": 356.0,
     "1005008390562391": 11.79,
     "1005007345398413": 14.3,
     "1005012504076921": 257.4,
@@ -35961,6 +35963,16 @@
       "price": 17.5,
       "timestamp": 1795792055.4432795,
       "status": "ACTIVE"
+    },
+    "zedstoreonline:40792": {
+      "channel_msg_id": 3910,
+      "product_id": "1005012406142215",
+      "title": "Honor Win Turbo 12/25",
+      "channel": "zedstoreonline",
+      "source_msg_id": 40792,
+      "price": 356.0,
+      "timestamp": 1795792426.240089,
+      "status": "ACTIVE"
     }
   },
   "schedule_config": {
@@ -35969,17 +35981,17 @@
     "current_interval_minutes": 5,
     "is_paused": false,
     "night_mode_enabled": true,
-    "last_deal_post_time": 1795792059.7639656,
+    "last_deal_post_time": 1795792430.3963304,
     "night_start_hour_dz": 0,
     "night_end_hour_dz": 8,
     "night_pause_enabled": true,
-    "last_sweep_time": 1795792236.3610153,
+    "last_sweep_time": 1795792432.389135,
     "last_sweep_times": {
-      "algeria": 1795792234.317261,
-      "france": 1795792236.3610153
+      "algeria": 1795792430.3582962,
+      "france": 1795792432.389135
     },
     "last_deal_post_times": {
-      "algeria": 1795792059.7639656
+      "algeria": 1795792430.3963304
     }
   },
   "last_coin_reminder_time": 1795648937.9274871,
@@ -36016,7 +36028,7 @@
     "1005007168829266": "bnddeals",
     "1005008880082336": "zedstoreonline",
     "1005010453516983": "megaphonna",
-    "1005012406142215": "lodydeals",
+    "1005012406142215": "zedstoreonline",
     "1005008390562391": "lodydeals",
     "1005007345398413": "bnddeals",
     "1005012504076921": "megaphonna",
@@ -38275,7 +38287,8 @@
     "أفضل عروض الهواتف بكوبون 66$": "lodydeals",
     "IPhone 14 Pro Max 6/128GB": "lodydeals",
     "TCL alcatel 1023": "lodydeals",
-    "الmouse لوووووووووووز🖱️": "bnddeals"
+    "الmouse لوووووووووووز🖱️": "bnddeals",
+    "Honor Win Turbo 12/25": "zedstoreonline"
   },
   "religious_reminders_history": {
     "mock_rem": "2026-10-02",
@@ -39073,7 +39086,6 @@
   "published_deals_history": {},
   "settings": {},
   "handled_post_keys": [
-    "zedstoreonline:40188",
     "aniscoupons:34930",
     "aniscoupons:34931",
     "lodydeals:46515",
@@ -40072,7 +40084,8 @@
     "aniscoupons:35754",
     "aniscoupons:35755",
     "zedstoreonline:40783",
-    "aniscoupons:35759"
+    "aniscoupons:35759",
+    "aniscoupons:35760"
   ],
   "last_france_cross_promo_time": 1795757211.9224837,
   "next_france_cross_promo_interval_seconds": 197705,
@@ -40859,11 +40872,6 @@
     ],
     "1005012406142215": [
       {
-        "channel": "bnddeals",
-        "ts": 1795767669.1325622,
-        "price": 356.0
-      },
-      {
         "channel": "zedstoreonline",
         "ts": 1795767843.0335298,
         "price": 356.0
@@ -41006,6 +41014,11 @@
       {
         "channel": "aniscoupons",
         "ts": 1795790782.4187803,
+        "price": 356.0
+      },
+      {
+        "channel": "zedstoreonline",
+        "ts": 1795792423.8352213,
         "price": 356.0
       }
     ],
