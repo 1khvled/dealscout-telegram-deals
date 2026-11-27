@@ -1117,3 +1117,40 @@ def test_zed_40759_priced_two_ssd_variants_not_treated_as_coupon_bulletin():
         )
     )
     assert res is False
+
+
+def test_lody_46953_smartphone_roundup_lightning_kashida_and_header():
+    from app.ai.generator import format_multi_deal_tajmi3at_1to1
+    from scripts.post_recent_deals import is_multi_deal_compilation
+
+    raw = (
+        "أفضل عروض الهواتف بكوبون 66$ \n"
+        "🚨\n"
+        "⚡\n"
+        " الـ iQOO Z11 Turbo بـ 356$ \n"
+        "⤵️\n\n"
+        "ـ https://t.me/lodydeals/46936 \n"
+        "⚡\n"
+        "الـ OnePlus Ace 6T بـ 363$ \n"
+        "⤵️\n\n"
+        "ـ https://t.me/lodydeals/46937 \n"
+        "البوت : t.me/LodyCouponsBot\n"
+        "قناتنا : t.me/lodydeals"
+    )
+    assert is_multi_deal_compilation(raw) is True
+    cap = format_multi_deal_tajmi3at_1to1(
+        raw,
+        {
+            "https://t.me/lodydeals/46936": "https://t.me/DzAliexpress0/3874",
+            "https://t.me/lodydeals/46937": "https://t.me/DzAliexpress0/3875",
+        },
+    )
+    assert "\nـ " not in cap and not cap.startswith("ـ ")
+    assert "3874 ⚡" not in cap
+    assert "⚡ iQOO Z11 Turbo بـ 356$ ⤵️" in cap
+    assert "⚡ OnePlus Ace 6T بـ 363$ ⤵️" in cap
+    assert "الـ iQOO" not in cap and "الـ OnePlus" not in cap
+    assert "lodydeals" not in cap.lower()
+    assert "lodycouponsbot" not in cap.lower()
+    assert "@Alilo07BOT" in cap or "t.me/Alilo07BOT" in cap
+    assert "@DzAliexpress0" in cap

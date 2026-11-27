@@ -974,7 +974,8 @@
     "TAJMI3AT_lodydeals_46950",
     "1005012395059515",
     "1005012196932716",
-    "1005013416923881"
+    "1005013416923881",
+    "TAJMI3AT_lodydeals_46953"
   ],
   "published_product_timestamps": {
     "1005012973772517": 1794500732.7845657,
@@ -1967,7 +1968,8 @@
     "TAJMI3AT_lodydeals_46950": 1795773003.57561,
     "1005012395059515": 1795776490.6380856,
     "1005012196932716": 1795776506.4757638,
-    "1005013416923881": 1795776529.3127697
+    "1005013416923881": 1795776529.3127697,
+    "TAJMI3AT_lodydeals_46953": 1795779486.0734122
   },
   "published_titles": [
     "Wireless WiFi Repeater 300Mbps WiFi Extender Amplifier Booster Router",
@@ -3260,7 +3262,8 @@
     "ال KOOTION SSD 256GB ب 15.56",
     "ليكيب أفضل عروض هذه التخفيضات",
     "Honor WIN Turbo 2 12/256",
-    "16.8V Cordless Drill Driver Rechargeable Electric Screwdriver"
+    "16.8V Cordless Drill Driver Rechargeable Electric Screwdriver",
+    "أفضل عروض الهواتف بكوبون 66$"
   ],
   "published_title_timestamps": {
     "Xiaomi Redmi Note 17 5G Global Version": 1790857823.0117362,
@@ -4558,10 +4561,10 @@
     "ال KOOTION SSD 256GB ب 15.56": 1795768399.4567664,
     "ليكيب أفضل عروض هذه التخفيضات": 1795773003.57561,
     "Honor WIN Turbo 2 12/256": 1795776529.3127697,
-    "16.8V Cordless Drill Driver Rechargeable Electric Screwdriver": 1795776652.4223523
+    "16.8V Cordless Drill Driver Rechargeable Electric Screwdriver": 1795776652.4223523,
+    "أفضل عروض الهواتف بكوبون 66$": 1795779486.0734122
   },
   "published_post_keys": [
-    "lodydeals:46516",
     "aniscoupons:34932",
     "aniscoupons:34933",
     "zedstoreonline:40189",
@@ -5560,11 +5563,12 @@
     "aniscoupons:35732",
     "aniscoupons:35740",
     "aniscoupons:35745",
-    "zedstoreonline:40776"
+    "zedstoreonline:40776",
+    "lodydeals:46953"
   ],
   "last_disclaimer_time": 1795735529.6558404,
   "last_calendar_time": 1795177633.1203737,
-  "last_run_time": 1795776831.3018806,
+  "last_run_time": 1795779486.0734122,
   "monitored_channels": {
     "ecksdeal": {
       "last_message_id": 6148,
@@ -35751,6 +35755,16 @@
       "price": 16.1,
       "timestamp": 1795776831.3018806,
       "status": "ACTIVE"
+    },
+    "lodydeals:46953": {
+      "channel_msg_id": 3886,
+      "product_id": "TAJMI3AT_lodydeals_46953",
+      "title": "أفضل عروض الهواتف بكوبون 66$",
+      "channel": "lodydeals",
+      "source_msg_id": 46953,
+      "price": null,
+      "timestamp": 1795779486.0734122,
+      "status": "ACTIVE"
     }
   },
   "schedule_config": {
@@ -36757,7 +36771,8 @@
     "TAJMI3AT_lodydeals_46950": "lodydeals",
     "1005012395059515": "lodydeals",
     "1005012196932716": "lodydeals",
-    "1005013416923881": "zedstoreonline"
+    "1005013416923881": "zedstoreonline",
+    "TAJMI3AT_lodydeals_46953": "lodydeals"
   },
   "published_title_channels": {
     "Test Wrench Set": "test_channel",
@@ -38057,7 +38072,8 @@
     "ال KOOTION SSD 256GB ب 15.56": "lodydeals",
     "ليكيب أفضل عروض هذه التخفيضات": "lodydeals",
     "Honor WIN Turbo 2 12/256": "zedstoreonline",
-    "16.8V Cordless Drill Driver Rechargeable Electric Screwdriver": "aniscoupons"
+    "16.8V Cordless Drill Driver Rechargeable Electric Screwdriver": "aniscoupons",
+    "أفضل عروض الهواتف بكوبون 66$": "lodydeals"
   },
   "religious_reminders_history": {
     "mock_rem": "2026-10-02",
@@ -41432,6 +41448,20 @@
         "https://s.click.aliexpress.com/e/_c4t9RToH"
       ],
       "timestamp": 1795773003.6139092
+    },
+    {
+      "title": "أفضل عروض الهواتف بكوبون 66$",
+      "links": [
+        "https://s.click.aliexpress.com/e/_c2xXEjzX",
+        "https://s.click.aliexpress.com/e/_c3WORMMt",
+        "https://t.me/DzAliexpress0/3874",
+        "https://t.me/DzAliexpress0/3875",
+        "https://t.me/DzAliexpress0/3876",
+        "https://t.me/DzAliexpress0/3877",
+        "https://t.me/DzAliexpress0/3878",
+        "https://t.me/DzAliexpress0/3879"
+      ],
+      "timestamp": 1795779486.1783187
     }
   ],
   "published_adhoc_posts": [

@@ -662,7 +662,7 @@ def merge_floating_emoji_lines(lines: List[str]) -> List[str]:
             continue
 
         if is_symbol_only(line):
-            if any(b in line for b in ["◀️", "▶️", "▫️", "▪️", "🔹", "🔸", "🔴", "📌", "✅", "🏷️", "📦", "📣"]):
+            if any(b in line for b in ["◀️", "▶️", "▫️", "▪️", "🔹", "🔸", "🔴", "📌", "✅", "🏷️", "📦", "📣", "⚡"]):
                 j = i + 1
                 while j < len(lines) and not lines[j].strip():
                     j += 1
@@ -766,8 +766,11 @@ def format_multi_deal_tajmi3at_1to1(raw_text: str, link_mapping: Dict[str, str])
             if "t.me/" in orig_u.lower() and orig_u in line:
                 line = line.replace(orig_u, mapped_u)
 
-        # Clean any leftover tatweel glued to a mapped https:// URL ('ـhttps://...')
-        line = re.sub(r'(^|\s)\u0640+(https?://)', r'\1\2', line)
+        # Clean any leftover tatweel + optional space glued to a mapped URL ('ـ https://...')
+        if re.fullmatch(r'[\u0640\s]+', line):
+            continue
+        line = re.sub(r'(^|\s)\u0640+[ \t]*(https?://)', r'\1\2', line)
+        line = re.sub(r'(^|[\s⚡◀️📣✅▫️])\u200f?الـ?\s+(?=[A-Za-z])', r'\1', line)
 
         # Skip direct competitor channel links & scam disclaimers
         if any(b in line.lower() for b in ["t.me/lodydeals", "t.me/ecksdeal", "t.me/zedstoreonline", "t.me/aniscoupons", "t.me/bnddeals"]):
@@ -847,20 +850,30 @@ def format_multi_deal_tajmi3at_1to1(raw_text: str, link_mapping: Dict[str, str])
     caption = re.sub(r'(?<!🎫[ \t])(?:احجز|اجمع|إحجز|حصّل|حصل)\s*(?:قسيمة\s*(?:البائع|المتجر))\s*:?\s*\$?\s*(\d+(?:\.\d+)?)\s*\$?', r'🎫 احجز قسيمة البائع: \1$', caption)
     caption = re.sub(r'^(?:[🔸🔹•\.\-\s]*)(?:https?://)?t\.me/Alilo07BOT.*$', '🤖 بوت تخفيض النقاط: https://t.me/Alilo07BOT', caption, flags=re.MULTILINE | re.IGNORECASE)
     caption = re.sub(r'^[\.\s]+(?=[\u0600-\u06FF])', '', caption, flags=re.MULTILINE)
-    # Tighten blank lines inside a single item block (between title and price)
-    caption = re.sub(r'\n{2,}(?=(?:السعر|قسيمة|🎫|🎟️|رابط))', '\n', caption)
+    # Tighten blank lines inside a single item block (between title, price, and its link)
+    caption = re.sub(r'\n{2,}(?=(?:السعر|قسيمة|🎫|🎟️|رابط|https?://))', '\n', caption)
 
     # 7. Modify generic roundup header slightly with engaging styling
-    caption = re.sub(r'^(?:أفضل|افضل)\s+العروض\s+في\s+التخزين\s+SSD.*', r'🔥 أقوى عروض وحدات التخزين SSD 💥\n', caption, flags=re.MULTILINE)
-    caption = re.sub(r'^(?:أفضل|افضل)\s+العروض\s+في\s+(.*)', r'🔥 أقوى عروض \1 💥\n', caption, flags=re.MULTILINE)
+    caption = re.sub(r'^(?:أفضل|افضل)\s+(?:العروض\s+في\s+|عروض\s+)التخزين\s+SSD.*', r'🔥 <b>أقوى عروض وحدات التخزين SSD</b> 💥\n', caption, flags=re.MULTILINE)
+    caption = re.sub(
+        r'^(?:أفضل|افضل)\s+(?:العروض\s+في\s+|عروض\s+)(.*?)[ \t]*[🔥🚨💥✨⚡]*$',
+        r'🔥 <b>أقوى عروض \1</b> 💥\n',
+        caption,
+        flags=re.MULTILINE,
+    )
 
-    # 8. Separate product blocks with a blank line before ◀️ / 📣 / ✅
-    caption = re.sub(r'([^\n])\n((?:◀️|📣|✅)[^\n]+)', r'\1\n\n\2', caption)
+    # 8. Separate product blocks with a blank line before ◀️ / 📣 / ✅ / ⚡ and before bot footer
+    caption = re.sub(r'([^\n])\n((?:◀️|📣|✅|⚡)[^\n]+)', r'\1\n\n\2', caption)
+    caption = re.sub(r'([^\n])\n(🤖\s*بوت تخفيض النقاط:)', r'\1\n\n\2', caption)
 
-    # 9. Ensure official footer attribution
+    # 9. Ensure official footer attribution (post links like t.me/DzAliexpress0/1234 don't satisfy the channel footer)
+    has_channel_footer = bool(
+        "@DzAliexpress0" in caption
+        or re.search(r't\.me/DzAliexpress0(?:$|\s)', caption, re.IGNORECASE)
+    )
     if "Alilo07BOT" not in caption:
         caption += "\n\n🤖 بوت تخفيض النقاط: @Alilo07BOT\nhttps://t.me/Alilo07BOT"
-    if "@DzAliexpress0" not in caption and "DzAliexpress0" not in caption:
+    if not has_channel_footer:
         caption += "\n\nقناة التيليغرام للمزيد من العروض : @DzAliexpress0\nhttps://t.me/DzAliexpress0"
 
     # Deduplicate repeated emojis on the same line (e.g. 🔥 🔥 -> 🔥)
