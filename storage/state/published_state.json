@@ -1216,7 +1216,7 @@
     "1005007767322935": 1791975934.9659944,
     "1005012571601398": 1794657860.5278585,
     "1005013054007275": 1794946431.3978004,
-    "1005011899097443": 1794643910.1118689,
+    "1005011899097443": 1795814681.7777693,
     "1005012865117890": 1793613385.3577175,
     "1005010733227481": 1792156757.9443583,
     "1005006281667276": 1792157892.9621794,
@@ -3583,7 +3583,7 @@
     "ماوس لاسلكي فخم Scyrox V8S Wireless 8K": 1794946431.3978004,
     "Used AMD Ryzen 5 7600X R5 7600X 4.7GHz CPU Processor 6-Core 12-Thread 5NM": 1791992945.451545,
     "Rocoren 100W Type-C to USB Fast Charging 0.5M": 1791992975.2913277,
-    "Acinaci J11 Gaming Headset": 1794643910.1118689,
+    "Acinaci J11 Gaming Headset": 1795814681.7777693,
     "Realme 14 Pro Global (12/256)": 1792007168.2612865,
     "Anker Soundcore Select 4 Go Bluetooth Speaker": 1792007180.6836498,
     "OnePlus Turbo 6V  8/256": 1793380262.1330528,
@@ -4633,7 +4633,6 @@
     "الحححححق باآآآآاطل": 1795814491.8646457
   },
   "published_post_keys": [
-    "zedstoreonline:40235",
     "zedstoreonline:40237",
     "zedstoreonline:40238",
     "zedstoreonline:40239",
@@ -5632,19 +5631,20 @@
     "ecksdeal:6156",
     "aniscoupons:35823",
     "lodydeals:46985",
-    "aniscoupons:35824"
+    "aniscoupons:35824",
+    "lodydeals:46986"
   ],
   "last_disclaimer_time": 1795735529.6558404,
   "last_calendar_time": 1795782506.7435975,
-  "last_run_time": 1795814501.292568,
+  "last_run_time": 1795814681.7777693,
   "monitored_channels": {
     "ecksdeal": {
       "last_message_id": 6156,
       "last_check_time": 1795813583.7609448
     },
     "lodydeals": {
-      "last_message_id": 46985,
-      "last_check_time": 1795814492.0530493
+      "last_message_id": 46986,
+      "last_check_time": 1795814683.891613
     },
     "test_channel": {
       "last_message_id": 1793967703,
@@ -5875,7 +5875,7 @@
     "1005009275536960": 14.72,
     "1005007767322935": 21.61,
     "1005013054007275": 53.59,
-    "1005011899097443": 10.16,
+    "1005011899097443": 8.72,
     "1005010428947440": 20.2,
     "1005010733227481": 285.4,
     "1005006281667276": 33.2,
@@ -36649,6 +36649,16 @@
       "price": 338.2,
       "timestamp": 1795814501.292568,
       "status": "ACTIVE"
+    },
+    "lodydeals:46986": {
+      "channel_msg_id": 3974,
+      "product_id": "1005011899097443",
+      "title": "Acinaci J11 Gaming Headset",
+      "channel": "lodydeals",
+      "source_msg_id": 46986,
+      "price": 8.72,
+      "timestamp": 1795814681.7777693,
+      "status": "ACTIVE"
     }
   },
   "schedule_config": {
@@ -36657,17 +36667,17 @@
     "current_interval_minutes": 5,
     "is_paused": false,
     "night_mode_enabled": true,
-    "last_deal_post_time": 1795814504.5440052,
+    "last_deal_post_time": 1795814687.2025378,
     "night_start_hour_dz": 0,
     "night_end_hour_dz": 8,
     "night_pause_enabled": true,
-    "last_sweep_time": 1795814509.4394453,
+    "last_sweep_time": 1795814692.6914575,
     "last_sweep_times": {
-      "algeria": 1795814504.466823,
-      "france": 1795814509.4394453
+      "algeria": 1795814687.1500392,
+      "france": 1795814692.6914575
     },
     "last_deal_post_times": {
-      "algeria": 1795814504.5440052
+      "algeria": 1795814687.2025378
     }
   },
   "last_coin_reminder_time": 1795648937.9274871,
@@ -36906,7 +36916,7 @@
     "1005009275536960": "lodydeals",
     "1005007767322935": "lodydeals",
     "1005013054007275": "ecksdeal",
-    "1005011899097443": "bnddeals",
+    "1005011899097443": "lodydeals",
     "1005010428947440": "zedstoreonline",
     "1005010733227481": "megaphonna",
     "1005006281667276": "zedstoreonline",
@@ -37942,7 +37952,7 @@
     "ماوس لاسلكي فخم Scyrox V8S Wireless 8K": "ecksdeal",
     "Used AMD Ryzen 5 7600X R5 7600X 4.7GHz CPU Processor 6-Core 12-Thread 5NM": "pcgamingpart",
     "Rocoren 100W Type-C to USB Fast Charging 0.5M": "couponsglobal",
-    "Acinaci J11 Gaming Headset": "bnddeals",
+    "Acinaci J11 Gaming Headset": "lodydeals",
     "Realme 14 Pro Global (12/256)": "aniscoupons",
     "Anker Soundcore Select 4 Go Bluetooth Speaker": "couponsglobal",
     "OnePlus Turbo 6V  8/256": "zedstoreonline",
@@ -41373,11 +41383,6 @@
   "competitor_product_sightings": {
     "1005007027334636": [
       {
-        "channel": "lodydeals",
-        "ts": 1795771344.8281405,
-        "price": 29.2
-      },
-      {
         "channel": "zedstoreonline",
         "ts": 1795771906.6724002,
         "price": 9.7
@@ -41798,16 +41803,6 @@
     ],
     "1005007916078341": [
       {
-        "channel": "lodydeals",
-        "ts": 1795771337.6008017,
-        "price": 49.3
-      },
-      {
-        "channel": "zedstoreonline",
-        "ts": 1795771362.5412157,
-        "price": 49.3
-      },
-      {
         "channel": "aniscoupons",
         "ts": 1795773043.3896878,
         "price": 49.3
@@ -41820,22 +41815,12 @@
     ],
     "1005013005786079": [
       {
-        "channel": "aniscoupons",
-        "ts": 1795771377.196054,
-        "price": 18.29
-      },
-      {
         "channel": "zedstoreonline",
         "ts": 1795773769.0984826,
         "price": 18.2
       }
     ],
     "1005010305059795": [
-      {
-        "channel": "aniscoupons",
-        "ts": 1795771382.7714837,
-        "price": 29.6
-      },
       {
         "channel": "zedstoreonline",
         "ts": 1795773022.4695354,
@@ -42601,6 +42586,13 @@
         "channel": "aniscoupons",
         "ts": 1795813945.7129135,
         "price": 22.49
+      }
+    ],
+    "1005011899097443": [
+      {
+        "channel": "lodydeals",
+        "ts": 1795814679.008754,
+        "price": 8.72
       }
     ]
   },
