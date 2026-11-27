@@ -1463,7 +1463,7 @@
     "1005006968874168": 1793490102.028307,
     "1005010770983388": 1794213670.2477903,
     "1005010146801356": 1794394604.3664222,
-    "1005012536471204": 1795601116.6914964,
+    "1005012536471204": 1795799761.0828497,
     "9998881104": 1793541104.8228326,
     "9998881403": 1793541403.922986,
     "1005010243337678": 1794390388.8432028,
@@ -3634,7 +3634,7 @@
     "Honor 600s (8/255GB)": 1793270736.6516862,
     "CUSU RAM DDR4 3200MHz 8GBx2": 1794993277.79399,
     "Realme P3 (No Charger)": 1793399519.0209813,
-    "Oppo Find X9 Pro 12/256": 1795601116.6914964,
+    "Oppo Find X9 Pro 12/256": 1795799761.0828497,
     "Vivo X200S 12/256": 1793448596.0702198,
     "IQOO 15T 12/256": 1794392587.3539767,
     "Honor Power 2 12/256": 1795521894.3866673,
@@ -4587,7 +4587,6 @@
     "ATTACK SHARK L30Pro Wireless Gaming Headset": 1795795910.8631444
   },
   "published_post_keys": [
-    "zedstoreonline:40214",
     "aniscoupons:34958",
     "aniscoupons:34959",
     "zedstoreonline:40216",
@@ -5586,11 +5585,12 @@
     "aniscoupons:35770",
     "aniscoupons:35771",
     "zedstoreonline:40798",
-    "aniscoupons:35772"
+    "aniscoupons:35772",
+    "zedstoreonline:40799"
   ],
   "last_disclaimer_time": 1795735529.6558404,
   "last_calendar_time": 1795782506.7435975,
-  "last_run_time": 1795799582.844073,
+  "last_run_time": 1795799761.0828497,
   "monitored_channels": {
     "ecksdeal": {
       "last_message_id": 6149,
@@ -5617,8 +5617,8 @@
       "last_check_time": 1793599663.3444748
     },
     "zedstoreonline": {
-      "last_message_id": 40798,
-      "last_check_time": 1795799393.083543
+      "last_message_id": 40799,
+      "last_check_time": 1795799763.1799657
     },
     "aniscoupons": {
       "last_message_id": 35772,
@@ -36120,6 +36120,16 @@
       "price": 21.1,
       "timestamp": 1795799582.844073,
       "status": "ACTIVE"
+    },
+    "zedstoreonline:40799": {
+      "channel_msg_id": 3925,
+      "product_id": "1005012536471204",
+      "title": "Oppo Find X9 Pro 12/256",
+      "channel": "zedstoreonline",
+      "source_msg_id": 40799,
+      "price": 631.9,
+      "timestamp": 1795799761.0828497,
+      "status": "ACTIVE"
     }
   },
   "schedule_config": {
@@ -36128,17 +36138,17 @@
     "current_interval_minutes": 5,
     "is_paused": false,
     "night_mode_enabled": true,
-    "last_deal_post_time": 1795799586.3999743,
+    "last_deal_post_time": 1795799764.7554545,
     "night_start_hour_dz": 0,
     "night_end_hour_dz": 8,
     "night_pause_enabled": true,
-    "last_sweep_time": 1795799588.8063993,
+    "last_sweep_time": 1795799766.5493324,
     "last_sweep_times": {
-      "algeria": 1795799586.3431163,
-      "france": 1795799588.8063993
+      "algeria": 1795799764.7226486,
+      "france": 1795799766.5493324
     },
     "last_deal_post_times": {
-      "algeria": 1795799586.3999743
+      "algeria": 1795799764.7554545
     }
   },
   "last_coin_reminder_time": 1795648937.9274871,
@@ -41907,6 +41917,13 @@
         "channel": "zedstoreonline",
         "ts": 1795799388.7169497,
         "price": 20.9
+      }
+    ],
+    "1005012536471204": [
+      {
+        "channel": "zedstoreonline",
+        "ts": 1795799758.8477404,
+        "price": 631.9
       }
     ]
   },
