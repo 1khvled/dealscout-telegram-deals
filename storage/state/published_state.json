@@ -1681,7 +1681,7 @@
     "1005008384277561": 1794128872.1451216,
     "1005010155263623": 1794129971.1690388,
     "1005011572208218": 1794471958.5920799,
-    "1005012374550298": 1795774313.5696547,
+    "1005012374550298": 1795800866.0251257,
     "1005009851407234": 1794852909.5572178,
     "1005009738356108": 1794473432.2937162,
     "1005012953027259": 1794133977.9005425,
@@ -4453,7 +4453,7 @@
     "1More HQ20 SonoFlow MINI Hearing": 1795196136.7491949,
     "JGINYUE B650M AURORA": 1795200031.7838972,
     "Redmi Note 17 4G (6/128GB)": 1795338775.7608411,
-    "Machenike G7 Gaming Mouse": 1795718696.2522883,
+    "Machenike G7 Gaming Mouse": 1795800866.0251257,
     "Anker P20i TWS": 1795249022.7985642,
     "Onn 4K Android 13 TV Box": 1795249213.3989208,
     "1More  HQ20 Headphones": 1795249218.8314788,
@@ -4587,7 +4587,6 @@
     "ATTACK SHARK L30Pro Wireless Gaming Headset": 1795795910.8631444
   },
   "published_post_keys": [
-    "aniscoupons:34959",
     "zedstoreonline:40216",
     "aniscoupons:34960",
     "zedstoreonline:40218",
@@ -5586,11 +5585,12 @@
     "zedstoreonline:40798",
     "aniscoupons:35772",
     "zedstoreonline:40799",
-    "aniscoupons:35773"
+    "aniscoupons:35773",
+    "aniscoupons:35774"
   ],
   "last_disclaimer_time": 1795735529.6558404,
   "last_calendar_time": 1795782506.7435975,
-  "last_run_time": 1795800126.7809575,
+  "last_run_time": 1795800866.0251257,
   "monitored_channels": {
     "ecksdeal": {
       "last_message_id": 6149,
@@ -5621,8 +5621,8 @@
       "last_check_time": 1795799763.1799657
     },
     "aniscoupons": {
-      "last_message_id": 35773,
-      "last_check_time": 1795800128.897686
+      "last_message_id": 35774,
+      "last_check_time": 1795800868.118257
     },
     "bnddeals": {
       "last_message_id": 51427,
@@ -6215,7 +6215,7 @@
     "1005008384277561": 7.3,
     "1005010155263623": 2.4,
     "1005011572208218": 217.8,
-    "1005012374550298": 16.1,
+    "1005012374550298": 15.85,
     "1005009851407234": 149.44,
     "1005012953027259": 279.32,
     "1005012048332402": 193.1,
@@ -36140,6 +36140,16 @@
       "price": 10.6,
       "timestamp": 1795800126.7809575,
       "status": "ACTIVE"
+    },
+    "aniscoupons:35774": {
+      "channel_msg_id": 3927,
+      "product_id": "1005012374550298",
+      "title": "Machenike G7 Gaming Mouse",
+      "channel": "aniscoupons",
+      "source_msg_id": 35774,
+      "price": 15.85,
+      "timestamp": 1795800866.0251257,
+      "status": "ACTIVE"
     }
   },
   "schedule_config": {
@@ -36148,17 +36158,17 @@
     "current_interval_minutes": 5,
     "is_paused": false,
     "night_mode_enabled": true,
-    "last_deal_post_time": 1795800129.9434123,
+    "last_deal_post_time": 1795800869.3470602,
     "night_start_hour_dz": 0,
     "night_end_hour_dz": 8,
     "night_pause_enabled": true,
-    "last_sweep_time": 1795800672.3428686,
+    "last_sweep_time": 1795800871.8282158,
     "last_sweep_times": {
-      "algeria": 1795800670.4602857,
-      "france": 1795800672.3428686
+      "algeria": 1795800869.3079557,
+      "france": 1795800871.8282158
     },
     "last_deal_post_times": {
-      "algeria": 1795800129.9434123
+      "algeria": 1795800869.3470602
     }
   },
   "last_coin_reminder_time": 1795648937.9274871,
@@ -36860,7 +36870,7 @@
     "1005008384277561": "zedstoreonline",
     "1005010155263623": "zedstoreonline",
     "1005011572208218": "aniscoupons",
-    "1005012374550298": "zedstoreonline",
+    "1005012374550298": "aniscoupons",
     "1005009851407234": "lodydeals",
     "1005009738356108": "zedstoreonline",
     "1005012953027259": "aniscoupons",
@@ -41647,6 +41657,11 @@
         "channel": "zedstoreonline",
         "ts": 1795774302.5224276,
         "price": 16.1
+      },
+      {
+        "channel": "aniscoupons",
+        "ts": 1795800863.4156568,
+        "price": 15.85
       }
     ],
     "1005008645323478": [
