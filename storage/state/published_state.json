@@ -988,7 +988,8 @@
     "TAJMI3AT_aniscoupons_35814",
     "ADHOC_aniscoupons_35818",
     "TAJMI3AT_lodydeals_46985",
-    "1005005429986681"
+    "1005005429986681",
+    "1005013516945692"
   ],
   "published_product_timestamps": {
     "1005012973772517": 1794500732.7845657,
@@ -1106,7 +1107,7 @@
     "1005008144855522": 1791026444.9395418,
     "1005008486721357": 1791026452.368309,
     "1005012871566388": 1791026457.7236943,
-    "1005007027334636": 1795796453.3264363,
+    "1005007027334636": 1795815975.1774561,
     "1005006727600702": 1791027043.7332833,
     "1005009916278058": 1791027049.3509357,
     "1005009719082543": 1791027355.6595695,
@@ -1997,7 +1998,8 @@
     "TAJMI3AT_aniscoupons_35814": 1795809725.380671,
     "ADHOC_aniscoupons_35818": 1795811369.389761,
     "TAJMI3AT_lodydeals_46985": 1795814491.8646457,
-    "1005005429986681": 1795815415.2610617
+    "1005005429986681": 1795815415.2610617,
+    "1005013516945692": 1795815969.7768242
   },
   "published_titles": [
     "Wireless WiFi Repeater 300Mbps WiFi Extender Amplifier Booster Router",
@@ -3313,7 +3315,8 @@
     "مايكروفون ديناميكي Maono PD100X Dynamic USB/XLR Mic",
     "نقاط راهم نادرين أكثر من بطاطا وزيت كاش واحد عندو",
     "الحححححق باآآآآاطل",
-    "Kingston USB Pen Drive"
+    "Kingston USB Pen Drive",
+    "OnePlus Ace7 12/256GB"
   ],
   "published_title_timestamps": {
     "Xiaomi Redmi Note 17 5G Global Version": 1790857823.0117362,
@@ -4552,7 +4555,7 @@
     "Vivo X500 12/256": 1795521926.0889337,
     "HONOR MAGIC 9 Pro Max 12/256": 1795521933.931988,
     "Oppo Find X9 Ultra 12/256": 1795521950.475793,
-    "SomnAmbulist SSD 120Gb": 1795796453.3264363,
+    "SomnAmbulist SSD 120Gb": 1795815975.1774561,
     "سماعات الاذن KZ EDX PRO X": 1795527391.8790212,
     "طابعة XL-P801 الحرارية المتنقلة: طباعة A4 فورية، قابلة لإعادة": 1795535124.479775,
     "TCL Alcatel 1023": 1795701094.6472647,
@@ -4634,11 +4637,10 @@
     "مايكروفون ديناميكي Maono PD100X Dynamic USB/XLR Mic": 1795810074.8482933,
     "نقاط راهم نادرين أكثر من بطاطا وزيت كاش واحد عندو": 1795811369.389761,
     "الحححححق باآآآآاطل": 1795814491.8646457,
-    "Kingston USB Pen Drive": 1795815415.2610617
+    "Kingston USB Pen Drive": 1795815415.2610617,
+    "OnePlus Ace7 12/256GB": 1795815969.7768242
   },
   "published_post_keys": [
-    "zedstoreonline:40240",
-    "aniscoupons:34998",
     "aniscoupons:35000",
     "zedstoreonline:40243",
     "zedstoreonline:40245",
@@ -5636,11 +5638,13 @@
     "lodydeals:46988",
     "lodydeals:46989",
     "aniscoupons:35825",
-    "lodydeals:46987"
+    "lodydeals:46987",
+    "aniscoupons:35826",
+    "aniscoupons:35827"
   ],
   "last_disclaimer_time": 1795735529.6558404,
   "last_calendar_time": 1795782506.7435975,
-  "last_run_time": 1795815415.2610617,
+  "last_run_time": 1795815975.1774561,
   "monitored_channels": {
     "ecksdeal": {
       "last_message_id": 6156,
@@ -5667,12 +5671,12 @@
       "last_check_time": 1793599663.3444748
     },
     "zedstoreonline": {
-      "last_message_id": 40820,
-      "last_check_time": 1795814494.6671033
+      "last_message_id": 40821,
+      "last_check_time": 1795815962.7238836
     },
     "aniscoupons": {
-      "last_message_id": 35825,
-      "last_check_time": 1795815246.0171845
+      "last_message_id": 35827,
+      "last_check_time": 1795815977.284383
     },
     "bnddeals": {
       "last_message_id": 51449,
@@ -6529,7 +6533,8 @@
     "1005008356945283": 173.9,
     "1005013572719987": 69.0,
     "1005011755232439": 13.3,
-    "1005005429986681": 7.15
+    "1005005429986681": 7.15,
+    "1005013516945692": 487.7
   },
   "channel_published_deals": {
     "aniscoupons:32590": {
@@ -36704,6 +36709,26 @@
       "price": 7.15,
       "timestamp": 1795815415.2610617,
       "status": "ACTIVE"
+    },
+    "aniscoupons:35826": {
+      "channel_msg_id": 3979,
+      "product_id": "1005013516945692",
+      "title": "OnePlus Ace7 12/256GB",
+      "channel": "aniscoupons",
+      "source_msg_id": 35826,
+      "price": 487.7,
+      "timestamp": 1795815969.7768242,
+      "status": "ACTIVE"
+    },
+    "aniscoupons:35827": {
+      "channel_msg_id": 3980,
+      "product_id": "1005007027334636",
+      "title": "SomnAmbulist SSD 120Gb",
+      "channel": "aniscoupons",
+      "source_msg_id": 35827,
+      "price": 9.7,
+      "timestamp": 1795815975.1774561,
+      "status": "ACTIVE"
     }
   },
   "schedule_config": {
@@ -36712,17 +36737,17 @@
     "current_interval_minutes": 5,
     "is_paused": false,
     "night_mode_enabled": true,
-    "last_deal_post_time": 1795815421.2021627,
+    "last_deal_post_time": 1795815978.3058493,
     "night_start_hour_dz": 0,
     "night_end_hour_dz": 8,
     "night_pause_enabled": true,
-    "last_sweep_time": 1795815791.6044805,
+    "last_sweep_time": 1795815982.5837264,
     "last_sweep_times": {
-      "algeria": 1795815779.126847,
-      "france": 1795815791.6044805
+      "algeria": 1795815978.258849,
+      "france": 1795815982.5837264
     },
     "last_deal_post_times": {
-      "algeria": 1795815421.2021627
+      "algeria": 1795815978.3058493
     }
   },
   "last_coin_reminder_time": 1795648937.9274871,
@@ -37724,7 +37749,8 @@
     "TAJMI3AT_aniscoupons_35814": "aniscoupons",
     "ADHOC_aniscoupons_35818": "aniscoupons",
     "TAJMI3AT_lodydeals_46985": "lodydeals",
-    "1005005429986681": "lodydeals"
+    "1005005429986681": "lodydeals",
+    "1005013516945692": "aniscoupons"
   },
   "published_title_channels": {
     "Test Wrench Set": "test_channel",
@@ -39047,7 +39073,8 @@
     "مايكروفون ديناميكي Maono PD100X Dynamic USB/XLR Mic": "ecksdeal",
     "نقاط راهم نادرين أكثر من بطاطا وزيت كاش واحد عندو": "aniscoupons",
     "الحححححق باآآآآاطل": "lodydeals",
-    "Kingston USB Pen Drive": "lodydeals"
+    "Kingston USB Pen Drive": "lodydeals",
+    "OnePlus Ace7 12/256GB": "aniscoupons"
   },
   "religious_reminders_history": {
     "mock_rem": "2026-10-02",
@@ -39845,7 +39872,6 @@
   "published_deals_history": {},
   "settings": {},
   "handled_post_keys": [
-    "aniscoupons:35008",
     "zedstoreonline:40254",
     "lodydeals:46565",
     "zedstoreonline:40256",
@@ -40844,7 +40870,8 @@
     "aniscoupons:35821",
     "lodydeals:46984",
     "lodydeals:46985",
-    "zedstoreonline:40820"
+    "zedstoreonline:40820",
+    "zedstoreonline:40821"
   ],
   "last_france_cross_promo_time": 1795757211.9224837,
   "next_france_cross_promo_interval_seconds": 197705,
@@ -41438,24 +41465,14 @@
         "channel": "zedstoreonline",
         "ts": 1795798476.8144934,
         "price": 9.7
+      },
+      {
+        "channel": "aniscoupons",
+        "ts": 1795815973.1722527,
+        "price": 9.7
       }
     ],
     "1005010788149535": [
-      {
-        "channel": "lodydeals",
-        "ts": 1795772242.468362,
-        "price": 356.59
-      },
-      {
-        "channel": "lodydeals",
-        "ts": 1795772431.1272063,
-        "price": 356.59
-      },
-      {
-        "channel": "lodydeals",
-        "ts": 1795772608.1075215,
-        "price": 356.59
-      },
       {
         "channel": "lodydeals",
         "ts": 1795772787.9108603,
@@ -41515,11 +41532,6 @@
     "1005011557016158": [
       {
         "channel": "aniscoupons",
-        "ts": 1795772104.7244473,
-        "price": 289.79
-      },
-      {
-        "channel": "aniscoupons",
         "ts": 1795790222.966391,
         "price": 289.79
       },
@@ -41535,21 +41547,6 @@
       }
     ],
     "1005012406142215": [
-      {
-        "channel": "zedstoreonline",
-        "ts": 1795772248.391645,
-        "price": 356.0
-      },
-      {
-        "channel": "zedstoreonline",
-        "ts": 1795772436.5214305,
-        "price": 356.0
-      },
-      {
-        "channel": "zedstoreonline",
-        "ts": 1795772613.6140807,
-        "price": 356.0
-      },
       {
         "channel": "zedstoreonline",
         "ts": 1795772793.2228084,
@@ -41624,21 +41621,6 @@
     "1005010575865619": [
       {
         "channel": "aniscoupons",
-        "ts": 1795772252.293061,
-        "price": 363.4
-      },
-      {
-        "channel": "aniscoupons",
-        "ts": 1795772442.517947,
-        "price": 363.4
-      },
-      {
-        "channel": "aniscoupons",
-        "ts": 1795772618.0626378,
-        "price": 363.4
-      },
-      {
-        "channel": "aniscoupons",
         "ts": 1795772797.187335,
         "price": 363.4
       },
@@ -41649,21 +41631,6 @@
       }
     ],
     "1005013438245033": [
-      {
-        "channel": "bnddeals",
-        "ts": 1795772257.4534786,
-        "price": 413.0
-      },
-      {
-        "channel": "bnddeals",
-        "ts": 1795772447.6932056,
-        "price": 413.0
-      },
-      {
-        "channel": "bnddeals",
-        "ts": 1795772623.1810646,
-        "price": 413.0
-      },
       {
         "channel": "bnddeals",
         "ts": 1795772802.6902041,
@@ -41798,11 +41765,6 @@
     ],
     "1005008518280704": [
       {
-        "channel": "zedstoreonline",
-        "ts": 1795772086.69715,
-        "price": 177.0
-      },
-      {
         "channel": "aniscoupons",
         "ts": 1795815241.8027873,
         "price": 177.7
@@ -41887,6 +41849,11 @@
       {
         "channel": "aniscoupons",
         "ts": 1795810253.0509703,
+        "price": 133.8
+      },
+      {
+        "channel": "zedstoreonline",
+        "ts": 1795815962.5509253,
         "price": 133.8
       }
     ],
