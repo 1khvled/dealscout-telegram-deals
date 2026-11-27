@@ -1421,7 +1421,7 @@
     "1005012931209980": 1795603047.258251,
     "1005011820893973": 1793540051.7895243,
     "1005009073904302": 1795771902.8905568,
-    "1005009916208760": 1795521256.5995085,
+    "1005009916208760": 1795791500.987218,
     "1005010033441204": 1795371614.0931513,
     "1005008356663932": 1793707052.9762022,
     "1005010074161953": 1793543659.5887568,
@@ -4437,7 +4437,7 @@
     "ميزان ذكي يعمل بالبلوتوث لقياس الوزن": 1795182504.6024845,
     "TCL 60 NXTPAPER 8/256": 1795182900.2959979,
     "ماوس لاسلكي بألياف الكربون Attack Shark RS6 Ultra 8K Carbon": 1795183540.495267,
-    "بروجكتور Magcubic HY300 max": 1795521256.5995085,
+    "بروجكتور Magcubic HY300 max": 1795791500.987218,
     "ViVO iQOO Z11  8/256": 1795790775.502236,
     "Redmi Note 17 Pro 5G (6/128GB)": 1795184587.079662,
     "Honor 600 Lite 5G 8/256GB": 1795185596.5947275,
@@ -4577,7 +4577,6 @@
     "TCL alcatel 1023": 1795782882.6064954
   },
   "published_post_keys": [
-    "zedstoreonline:40203",
     "aniscoupons:34944",
     "zedstoreonline:40204",
     "zedstoreonline:40205",
@@ -5576,11 +5575,12 @@
     "zedstoreonline:40786",
     "aniscoupons:35758",
     "zedstoreonline:40787",
-    "zedstoreonline:40788"
+    "zedstoreonline:40788",
+    "zedstoreonline:40789"
   ],
   "last_disclaimer_time": 1795735529.6558404,
   "last_calendar_time": 1795782506.7435975,
-  "last_run_time": 1795791144.906784,
+  "last_run_time": 1795791500.987218,
   "monitored_channels": {
     "ecksdeal": {
       "last_message_id": 6149,
@@ -5607,8 +5607,8 @@
       "last_check_time": 1793599663.3444748
     },
     "zedstoreonline": {
-      "last_message_id": 40788,
-      "last_check_time": 1795791147.0262938
+      "last_message_id": 40789,
+      "last_check_time": 1795791503.0911608
     },
     "aniscoupons": {
       "last_message_id": 35759,
@@ -35919,6 +35919,16 @@
       "price": 25.3,
       "timestamp": 1795791144.906784,
       "status": "ACTIVE"
+    },
+    "zedstoreonline:40789": {
+      "channel_msg_id": 3906,
+      "product_id": "1005009916208760",
+      "title": "بروجكتور Magcubic HY300 max",
+      "channel": "zedstoreonline",
+      "source_msg_id": 40789,
+      "price": 81.9,
+      "timestamp": 1795791500.987218,
+      "status": "ACTIVE"
     }
   },
   "schedule_config": {
@@ -35927,17 +35937,17 @@
     "current_interval_minutes": 5,
     "is_paused": false,
     "night_mode_enabled": true,
-    "last_deal_post_time": 1795791149.1895156,
+    "last_deal_post_time": 1795791505.012918,
     "night_start_hour_dz": 0,
     "night_end_hour_dz": 8,
     "night_pause_enabled": true,
-    "last_sweep_time": 1795791318.0620756,
+    "last_sweep_time": 1795791506.8342867,
     "last_sweep_times": {
-      "algeria": 1795791316.0837336,
-      "france": 1795791318.0620756
+      "algeria": 1795791504.9687,
+      "france": 1795791506.8342867
     },
     "last_deal_post_times": {
-      "algeria": 1795791149.1895156
+      "algeria": 1795791505.012918
     }
   },
   "last_coin_reminder_time": 1795648937.9274871,
@@ -41571,6 +41581,13 @@
         "channel": "zedstoreonline",
         "ts": 1795791142.2089398,
         "price": 25.3
+      }
+    ],
+    "1005009916208760": [
+      {
+        "channel": "zedstoreonline",
+        "ts": 1795791498.6864142,
+        "price": 81.9
       }
     ]
   },
