@@ -28,8 +28,8 @@
       "ewma": 0.9994
     },
     "zedstoreonline": {
-      "seen": 616,
-      "published": 419,
+      "seen": 617,
+      "published": 420,
       "skipped": 0,
       "ewma": 0.9994
     },
@@ -54,8 +54,8 @@
   },
   "category_stats": {
     "other": {
-      "seen": 729,
-      "published": 627,
+      "seen": 730,
+      "published": 628,
       "skipped": 0,
       "ewma": 0.9994
     },
@@ -2055,7 +2055,8 @@
     "1005012172859239": [
       22.1,
       22.1,
-      22.1
+      22.1,
+      20.2
     ],
     "1005006648408257": [
       39.8
@@ -2271,23 +2272,15 @@
     ]
   },
   "counters": {
-    "scored": 1951,
-    "verdict_publish": 1875,
+    "scored": 1952,
+    "verdict_publish": 1876,
     "verdict_hold": 75,
     "verdict_skip": 1,
-    "published": 1525,
+    "published": 1526,
     "skipped": 0
   },
-  "score_sum": 143215.21,
+  "score_sum": 143281.54,
   "recent_decisions": [
-    {
-      "ts": 1795769721,
-      "channel": "aniscoupons",
-      "category": "home",
-      "product_id": "1005012285327063",
-      "score": 69.74,
-      "verdict": "publish"
-    },
     {
       "ts": 1795770045,
       "channel": "lodydeals",
@@ -3879,7 +3872,15 @@
       "product_id": "1005012395059515",
       "score": 71.98,
       "verdict": "publish"
+    },
+    {
+      "ts": 1795818167,
+      "channel": "zedstoreonline",
+      "category": "other",
+      "product_id": "1005012172859239",
+      "score": 66.33,
+      "verdict": "publish"
     }
   ],
-  "updated_at": 1795817442.242728
+  "updated_at": 1795818169.6949518
 }
