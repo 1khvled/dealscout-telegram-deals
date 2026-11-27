@@ -1221,7 +1221,7 @@
     "1005012933967378": 1792103193.622027,
     "1005010812635861": 1795713798.525022,
     "1005008500550817": 1792025664.1703467,
-    "1005009834132291": 1795776319.073989,
+    "1005009834132291": 1795799582.844073,
     "1005008077568655": 1794999150.7012253,
     "1005009774318553": 1793543777.6383033,
     "1005012585389764": 1792061322.5579543,
@@ -4248,7 +4248,7 @@
     "Lexar ARES PRO NVMe SSD PCle5.0x4 M.2 1TB": 1794492627.75024,
     "Realme P4 Power 8/256GB": 1795790225.3636506,
     "ASROCK X570M PRO4 MOTHERBOARD": 1794562340.4789197,
-    "EASYSMX X05 PRO Controller": 1795776319.073989,
+    "EASYSMX X05 PRO Controller": 1795799582.844073,
     "ONEPLUS 16 12/256GB": 1795521997.8103201,
     "Fifine H9 USB Gaming Headset": 1795601351.5019817,
     "Honor 600 5G Global 8/256GB": 1794993460.3042686,
@@ -4587,7 +4587,6 @@
     "ATTACK SHARK L30Pro Wireless Gaming Headset": 1795795910.8631444
   },
   "published_post_keys": [
-    "aniscoupons:34957",
     "zedstoreonline:40214",
     "aniscoupons:34958",
     "aniscoupons:34959",
@@ -5586,11 +5585,12 @@
     "aniscoupons:35768",
     "aniscoupons:35770",
     "aniscoupons:35771",
-    "zedstoreonline:40798"
+    "zedstoreonline:40798",
+    "aniscoupons:35772"
   ],
   "last_disclaimer_time": 1795735529.6558404,
   "last_calendar_time": 1795782506.7435975,
-  "last_run_time": 1795799390.9531388,
+  "last_run_time": 1795799582.844073,
   "monitored_channels": {
     "ecksdeal": {
       "last_message_id": 6149,
@@ -5621,8 +5621,8 @@
       "last_check_time": 1795799393.083543
     },
     "aniscoupons": {
-      "last_message_id": 35771,
-      "last_check_time": 1795799217.8437986
+      "last_message_id": 35772,
+      "last_check_time": 1795799584.9692643
     },
     "bnddeals": {
       "last_message_id": 51427,
@@ -36110,6 +36110,16 @@
       "price": 20.9,
       "timestamp": 1795799390.9531388,
       "status": "ACTIVE"
+    },
+    "aniscoupons:35772": {
+      "channel_msg_id": 3924,
+      "product_id": "1005009834132291",
+      "title": "EASYSMX X05 PRO Controller",
+      "channel": "aniscoupons",
+      "source_msg_id": 35772,
+      "price": 21.1,
+      "timestamp": 1795799582.844073,
+      "status": "ACTIVE"
     }
   },
   "schedule_config": {
@@ -36118,17 +36128,17 @@
     "current_interval_minutes": 5,
     "is_paused": false,
     "night_mode_enabled": true,
-    "last_deal_post_time": 1795799395.3364153,
+    "last_deal_post_time": 1795799586.3999743,
     "night_start_hour_dz": 0,
     "night_end_hour_dz": 8,
     "night_pause_enabled": true,
-    "last_sweep_time": 1795799397.4265535,
+    "last_sweep_time": 1795799588.8063993,
     "last_sweep_times": {
-      "algeria": 1795799395.279087,
-      "france": 1795799397.4265535
+      "algeria": 1795799586.3431163,
+      "france": 1795799588.8063993
     },
     "last_deal_post_times": {
-      "algeria": 1795799395.3364153
+      "algeria": 1795799586.3999743
     }
   },
   "last_coin_reminder_time": 1795648937.9274871,
@@ -41667,6 +41677,11 @@
       {
         "channel": "aniscoupons",
         "ts": 1795776316.828411,
+        "price": 21.1
+      },
+      {
+        "channel": "aniscoupons",
+        "ts": 1795799580.0592427,
         "price": 21.1
       }
     ],
