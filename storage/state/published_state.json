@@ -967,7 +967,9 @@
     "TAJMI3AT_lodydeals_46931",
     "TAJMI3AT_aniscoupons_35714",
     "COUPONBULLETIN_aniscoupons_35715",
-    "ADHOC_zedstoreonline_40754"
+    "ADHOC_zedstoreonline_40754",
+    "COUPONBULLETIN_ECKSDEAL_6147",
+    "COUPONBULLETIN_zedstoreonline_40755"
   ],
   "published_product_timestamps": {
     "1005012973772517": 1794500732.7845657,
@@ -1953,7 +1955,9 @@
     "TAJMI3AT_lodydeals_46931": 1795725772.5983655,
     "TAJMI3AT_aniscoupons_35714": 1795735545.167229,
     "COUPONBULLETIN_aniscoupons_35715": 1795766374.1148407,
-    "ADHOC_zedstoreonline_40754": 1795766551.2326825
+    "ADHOC_zedstoreonline_40754": 1795766551.2326825,
+    "COUPONBULLETIN_ECKSDEAL_6147": 1795766739.4020066,
+    "COUPONBULLETIN_zedstoreonline_40755": 1795766741.3190055
   },
   "published_titles": [
     "Wireless WiFi Repeater 300Mbps WiFi Extender Amplifier Booster Router",
@@ -3239,7 +3243,9 @@
     "OPPO K15 (12/256GB)",
     "يأتي ببطارية عملاقة 8000mAh",
     "الححححححححق اجمع الكوبون من هنا",
-    "الححححححححق قم بالحجز من هنا"
+    "الححححححححق قم بالحجز من هنا",
+    "إلحق عودة جميع الكوبونات احجزها من هنا : https://s.click.ali",
+    "الحححححق قم يحجز الكوبوم على هذا العرض"
   ],
   "published_title_timestamps": {
     "Xiaomi Redmi Note 17 5G Global Version": 1790857823.0117362,
@@ -4530,11 +4536,11 @@
     "OPPO K15 (12/256GB)": 1795725764.1692784,
     "يأتي ببطارية عملاقة 8000mAh": 1795725772.5983655,
     "الححححححححق اجمع الكوبون من هنا": 1795766374.1148407,
-    "الححححححححق قم بالحجز من هنا": 1795766551.2326825
+    "الححححححححق قم بالحجز من هنا": 1795766551.2326825,
+    "إلحق عودة جميع الكوبونات احجزها من هنا : https://s.click.ali": 1795766739.4020066,
+    "الحححححق قم يحجز الكوبوم على هذا العرض": 1795766741.3190055
   },
   "published_post_keys": [
-    "aniscoupons:34902",
-    "zedstoreonline:40161",
     "zedstoreonline:40162",
     "aniscoupons:34904",
     "zedstoreonline:40164",
@@ -5532,19 +5538,21 @@
     "zedstoreonline:40752",
     "aniscoupons:35714",
     "aniscoupons:35715",
-    "zedstoreonline:40754"
+    "zedstoreonline:40754",
+    "ecksdeal:6147",
+    "zedstoreonline:40755"
   ],
   "last_disclaimer_time": 1795735529.6558404,
   "last_calendar_time": 1795177633.1203737,
-  "last_run_time": 1795766551.2326825,
+  "last_run_time": 1795766741.3190055,
   "monitored_channels": {
     "ecksdeal": {
-      "last_message_id": 6146,
-      "last_check_time": 1795734097.1215222
+      "last_message_id": 6147,
+      "last_check_time": 1795766739.516637
     },
     "lodydeals": {
-      "last_message_id": 46934,
-      "last_check_time": 1795766369.967961
+      "last_message_id": 46935,
+      "last_check_time": 1795766737.1601844
     },
     "test_channel": {
       "last_message_id": 1793967703,
@@ -5563,8 +5571,8 @@
       "last_check_time": 1793599663.3444748
     },
     "zedstoreonline": {
-      "last_message_id": 40754,
-      "last_check_time": 1795766551.396819
+      "last_message_id": 40755,
+      "last_check_time": 1795766741.4302952
     },
     "aniscoupons": {
       "last_message_id": 35715,
@@ -35310,6 +35318,26 @@
       "price": null,
       "timestamp": 1795766551.2326825,
       "status": "ACTIVE"
+    },
+    "ecksdeal:6147": {
+      "channel_msg_id": 3844,
+      "product_id": "COUPONBULLETIN_ECKSDEAL_6147",
+      "title": "إلحق عودة جميع الكوبونات احجزها من هنا : https://s.click.ali",
+      "channel": "ecksdeal",
+      "source_msg_id": 6147,
+      "price": null,
+      "timestamp": 1795766739.4020066,
+      "status": "ACTIVE"
+    },
+    "zedstoreonline:40755": {
+      "channel_msg_id": 3845,
+      "product_id": "COUPONBULLETIN_zedstoreonline_40755",
+      "title": "الحححححق قم يحجز الكوبوم على هذا العرض",
+      "channel": "zedstoreonline",
+      "source_msg_id": 40755,
+      "price": null,
+      "timestamp": 1795766741.3190055,
+      "status": "ACTIVE"
     }
   },
   "schedule_config": {
@@ -35318,17 +35346,17 @@
     "current_interval_minutes": 5,
     "is_paused": false,
     "night_mode_enabled": true,
-    "last_deal_post_time": 1795766553.2092288,
+    "last_deal_post_time": 1795766742.808957,
     "night_start_hour_dz": 0,
     "night_end_hour_dz": 8,
     "night_pause_enabled": true,
-    "last_sweep_time": 1795766556.7023363,
+    "last_sweep_time": 1795766746.9452336,
     "last_sweep_times": {
-      "algeria": 1795766553.1556954,
-      "france": 1795766556.7023363
+      "algeria": 1795766742.7708476,
+      "france": 1795766746.9452336
     },
     "last_deal_post_times": {
-      "algeria": 1795766553.2092288
+      "algeria": 1795766742.808957
     }
   },
   "last_coin_reminder_time": 1795648937.9274871,
@@ -36309,7 +36337,9 @@
     "TAJMI3AT_lodydeals_46931": "lodydeals",
     "TAJMI3AT_aniscoupons_35714": "aniscoupons",
     "COUPONBULLETIN_aniscoupons_35715": "aniscoupons",
-    "ADHOC_zedstoreonline_40754": "zedstoreonline"
+    "ADHOC_zedstoreonline_40754": "zedstoreonline",
+    "COUPONBULLETIN_ECKSDEAL_6147": "ecksdeal",
+    "COUPONBULLETIN_zedstoreonline_40755": "zedstoreonline"
   },
   "published_title_channels": {
     "Test Wrench Set": "test_channel",
@@ -37602,7 +37632,9 @@
     "OPPO K15 (12/256GB)": "lodydeals",
     "يأتي ببطارية عملاقة 8000mAh": "lodydeals",
     "الححححححححق اجمع الكوبون من هنا": "aniscoupons",
-    "الححححححححق قم بالحجز من هنا": "zedstoreonline"
+    "الححححححححق قم بالحجز من هنا": "zedstoreonline",
+    "إلحق عودة جميع الكوبونات احجزها من هنا : https://s.click.ali": "ecksdeal",
+    "الحححححق قم يحجز الكوبوم على هذا العرض": "zedstoreonline"
   },
   "religious_reminders_history": {
     "mock_rem": "2026-10-02",
@@ -38400,9 +38432,6 @@
   "published_deals_history": {},
   "settings": {},
   "handled_post_keys": [
-    "aniscoupons:34882",
-    "lodydeals:46489",
-    "aniscoupons:34883",
     "lodydeals:46490",
     "aniscoupons:34884",
     "aniscoupons:34886",
@@ -39399,7 +39428,10 @@
     "lodydeals:46933",
     "lodydeals:46934",
     "aniscoupons:35715",
-    "zedstoreonline:40754"
+    "zedstoreonline:40754",
+    "lodydeals:46935",
+    "ecksdeal:6147",
+    "zedstoreonline:40755"
   ],
   "last_france_cross_promo_time": 1795757211.9224837,
   "next_france_cross_promo_interval_seconds": 197705,
