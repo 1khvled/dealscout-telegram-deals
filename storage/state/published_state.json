@@ -5571,7 +5571,7 @@
     "lodydeals:46954"
   ],
   "last_disclaimer_time": 1795735529.6558404,
-  "last_calendar_time": 1795177633.1203737,
+  "last_calendar_time": 1795782506.7435975,
   "last_run_time": 1795779586.365553,
   "monitored_channels": {
     "ecksdeal": {
@@ -35792,10 +35792,10 @@
     "night_start_hour_dz": 0,
     "night_end_hour_dz": 8,
     "night_pause_enabled": true,
-    "last_sweep_time": 1795782342.2449646,
+    "last_sweep_time": 1795782522.5547578,
     "last_sweep_times": {
-      "algeria": 1795782336.8594806,
-      "france": 1795782342.2449646
+      "algeria": 1795782515.8350792,
+      "france": 1795782522.5547578
     },
     "last_deal_post_times": {
       "algeria": 1795779591.3333542
