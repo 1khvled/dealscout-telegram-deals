@@ -34,10 +34,10 @@
       "ewma": 0.9994
     },
     "bnddeals": {
-      "seen": 117,
-      "published": 55,
+      "seen": 119,
+      "published": 57,
       "skipped": 0,
-      "ewma": 0.9948
+      "ewma": 0.9956
     },
     "aniscoupons": {
       "seen": 870,
@@ -72,8 +72,8 @@
       "ewma": 0.9994
     },
     "home": {
-      "seen": 98,
-      "published": 90,
+      "seen": 100,
+      "published": 92,
       "skipped": 0,
       "ewma": 0.9994
     },
@@ -626,7 +626,8 @@
       40.1,
       40.1,
       40.1,
-      40.1
+      40.1,
+      39.0
     ],
     "1005008327980403": [
       83.31,
@@ -1877,7 +1878,8 @@
       217.8
     ],
     "1005008850261694": [
-      30.3
+      30.3,
+      22.8
     ],
     "32847542727": [
       75.19,
@@ -2247,31 +2249,15 @@
     ]
   },
   "counters": {
-    "scored": 1925,
-    "verdict_publish": 1849,
+    "scored": 1927,
+    "verdict_publish": 1851,
     "verdict_hold": 75,
     "verdict_skip": 1,
-    "published": 1499,
+    "published": 1501,
     "skipped": 0
   },
-  "score_sum": 141183.42,
+  "score_sum": 141342.42,
   "recent_decisions": [
-    {
-      "ts": 1795767660,
-      "channel": "aniscoupons",
-      "category": "phones",
-      "product_id": "1005010575865619",
-      "score": 85.43,
-      "verdict": "publish"
-    },
-    {
-      "ts": 1795767838,
-      "channel": "lodydeals",
-      "category": "other",
-      "product_id": "1005010788149535",
-      "score": 81.26,
-      "verdict": "publish"
-    },
     {
       "ts": 1795767843,
       "channel": "zedstoreonline",
@@ -3855,7 +3841,23 @@
       "product_id": "1005010470699571",
       "score": 77.57,
       "verdict": "publish"
+    },
+    {
+      "ts": 1795806573,
+      "channel": "bnddeals",
+      "category": "home",
+      "product_id": "1005008850261694",
+      "score": 87.26,
+      "verdict": "publish"
+    },
+    {
+      "ts": 1795806579,
+      "channel": "bnddeals",
+      "category": "home",
+      "product_id": "1005008774483451",
+      "score": 71.74,
+      "verdict": "publish"
     }
   ],
-  "updated_at": 1795806410.798662
+  "updated_at": 1795806581.6864552
 }

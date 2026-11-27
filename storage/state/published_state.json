@@ -1743,7 +1743,7 @@
     "1005006257950849": 1794420680.672656,
     "1005013391950901": 1794420685.287832,
     "1005007477084001": 1794420689.8352551,
-    "1005008774483451": 1794735713.9376893,
+    "1005008774483451": 1795806581.609375,
     "1005012639349629": 1794579990.5893576,
     "1005010153422760": 1794487260.3295033,
     "1005012809141747": 1795725764.1692784,
@@ -1884,7 +1884,7 @@
     "1005012663205752": 1795249213.3989208,
     "1005013383203760": 1795338775.7608411,
     "1005010121796649": 1795339323.7288988,
-    "1005008850261694": 1795251398.024725,
+    "1005008850261694": 1795806576.0435193,
     "32847542727": 1795546166.1725361,
     "COUPONS_67c5d85c35f4": 1795768421.2739522,
     "COUPONS_67c5d85c": 1795768421.328644,
@@ -3298,7 +3298,9 @@
     "جننننننننننننننننننننننننننننننننننننننح HAYLOU",
     "HAYLOU Flowbuds N55 54dB ANC BT 6.0 LDAC Hi-Res Audio 6-Mic HD",
     "HAYLOU Solar Neo 2 1.43'' HD AMOLED",
-    "HAYLOU Solar Lite 2 AMOLED"
+    "HAYLOU Solar Lite 2 AMOLED",
+    "HAYLOU Watch 4S GPS Smartwatch",
+    "HAYLOU Solar Ultra GPS AMOLED"
   ],
   "published_title_timestamps": {
     "Xiaomi Redmi Note 17 5G Global Version": 1790857823.0117362,
@@ -4612,11 +4614,11 @@
     "جننننننننننننننننننننننننننننننننننننننح HAYLOU": 1795805836.1998806,
     "HAYLOU Flowbuds N55 54dB ANC BT 6.0 LDAC Hi-Res Audio 6-Mic HD": 1795806014.123944,
     "HAYLOU Solar Neo 2 1.43'' HD AMOLED": 1795806213.269179,
-    "HAYLOU Solar Lite 2 AMOLED": 1795806410.735781
+    "HAYLOU Solar Lite 2 AMOLED": 1795806410.735781,
+    "HAYLOU Watch 4S GPS Smartwatch": 1795806576.0435193,
+    "HAYLOU Solar Ultra GPS AMOLED": 1795806581.609375
   },
   "published_post_keys": [
-    "aniscoupons:34968",
-    "aniscoupons:34969",
     "aniscoupons:34970",
     "aniscoupons:34971",
     "aniscoupons:34973",
@@ -5614,19 +5616,21 @@
     "lodydeals:46969",
     "lodydeals:46971",
     "lodydeals:46973",
-    "bnddeals:51437"
+    "bnddeals:51437",
+    "bnddeals:51438",
+    "bnddeals:51439"
   ],
   "last_disclaimer_time": 1795735529.6558404,
   "last_calendar_time": 1795782506.7435975,
-  "last_run_time": 1795806410.735781,
+  "last_run_time": 1795806581.609375,
   "monitored_channels": {
     "ecksdeal": {
       "last_message_id": 6150,
       "last_check_time": 1795805638.141808
     },
     "lodydeals": {
-      "last_message_id": 46978,
-      "last_check_time": 1795806402.690572
+      "last_message_id": 46980,
+      "last_check_time": 1795806567.412176
     },
     "test_channel": {
       "last_message_id": 1793967703,
@@ -5645,16 +5649,16 @@
       "last_check_time": 1793599663.3444748
     },
     "zedstoreonline": {
-      "last_message_id": 40802,
-      "last_check_time": 1795806404.017316
+      "last_message_id": 40803,
+      "last_check_time": 1795806570.4735417
     },
     "aniscoupons": {
-      "last_message_id": 35794,
-      "last_check_time": 1795806407.1179035
+      "last_message_id": 35795,
+      "last_check_time": 1795806571.5879493
     },
     "bnddeals": {
-      "last_message_id": 51437,
-      "last_check_time": 1795806412.8164995
+      "last_message_id": 51439,
+      "last_check_time": 1795806583.7118933
     }
   },
   "published_product_prices": {
@@ -6201,7 +6205,7 @@
     "1005010702511858": 59.81,
     "1005008554218453": 52.55,
     "1005012499433797": 134.3,
-    "1005008774483451": 40.1,
+    "1005008774483451": 39.0,
     "1005010635850450": 21.1,
     "1005006782986446": 6.7,
     "1005006411483066": 13.24,
@@ -6432,7 +6436,7 @@
     "1005012663205752": 31.05,
     "1005013383203760": 186.7,
     "1005010121796649": 217.8,
-    "1005008850261694": 30.3,
+    "1005008850261694": 22.8,
     "32847542727": 64.0,
     "1005013612885095": 73.07,
     "1005009120961416": 212.0,
@@ -36431,6 +36435,26 @@
       "price": 16.0,
       "timestamp": 1795806410.735781,
       "status": "ACTIVE"
+    },
+    "bnddeals:51438": {
+      "channel_msg_id": 3954,
+      "product_id": "1005008850261694",
+      "title": "HAYLOU Watch 4S GPS Smartwatch",
+      "channel": "bnddeals",
+      "source_msg_id": 51438,
+      "price": 22.8,
+      "timestamp": 1795806576.0435193,
+      "status": "ACTIVE"
+    },
+    "bnddeals:51439": {
+      "channel_msg_id": 3955,
+      "product_id": "1005008774483451",
+      "title": "HAYLOU Solar Ultra GPS AMOLED",
+      "channel": "bnddeals",
+      "source_msg_id": 51439,
+      "price": 39.0,
+      "timestamp": 1795806581.609375,
+      "status": "ACTIVE"
     }
   },
   "schedule_config": {
@@ -36439,17 +36463,17 @@
     "current_interval_minutes": 5,
     "is_paused": false,
     "night_mode_enabled": true,
-    "last_deal_post_time": 1795806412.9318233,
+    "last_deal_post_time": 1795806583.8057837,
     "night_start_hour_dz": 0,
     "night_end_hour_dz": 8,
     "night_pause_enabled": true,
-    "last_sweep_time": 1795806416.864061,
+    "last_sweep_time": 1795806588.8018758,
     "last_sweep_times": {
-      "algeria": 1795806412.8528788,
-      "france": 1795806416.864061
+      "algeria": 1795806583.7589974,
+      "france": 1795806588.8018758
     },
     "last_deal_post_times": {
-      "algeria": 1795806412.9318233
+      "algeria": 1795806583.8057837
     }
   },
   "last_coin_reminder_time": 1795648937.9274871,
@@ -37208,7 +37232,7 @@
     "1005006257950849": "lodydeals",
     "1005013391950901": "lodydeals",
     "1005007477084001": "lodydeals",
-    "1005008774483451": "zedstoreonline",
+    "1005008774483451": "bnddeals",
     "1005012639349629": "aniscoupons",
     "1005010153422760": "zedstoreonline",
     "1005012809141747": "lodydeals",
@@ -38763,7 +38787,9 @@
     "جننننننننننننننننننننننننننننننننننننننح HAYLOU": "bnddeals",
     "HAYLOU Flowbuds N55 54dB ANC BT 6.0 LDAC Hi-Res Audio 6-Mic HD": "bnddeals",
     "HAYLOU Solar Neo 2 1.43'' HD AMOLED": "bnddeals",
-    "HAYLOU Solar Lite 2 AMOLED": "bnddeals"
+    "HAYLOU Solar Lite 2 AMOLED": "bnddeals",
+    "HAYLOU Watch 4S GPS Smartwatch": "bnddeals",
+    "HAYLOU Solar Ultra GPS AMOLED": "bnddeals"
   },
   "religious_reminders_history": {
     "mock_rem": "2026-10-02",
@@ -39561,10 +39587,6 @@
   "published_deals_history": {},
   "settings": {},
   "handled_post_keys": [
-    "aniscoupons:34961",
-    "aniscoupons:34963",
-    "zedstoreonline:40220",
-    "zedstoreonline:40221",
     "lodydeals:46536",
     "lodydeals:46538",
     "lodydeals:46545",
@@ -40560,7 +40582,11 @@
     "aniscoupons:35791",
     "aniscoupons:35792",
     "aniscoupons:35793",
-    "aniscoupons:35794"
+    "aniscoupons:35794",
+    "lodydeals:46979",
+    "lodydeals:46980",
+    "zedstoreonline:40803",
+    "aniscoupons:35795"
   ],
   "last_france_cross_promo_time": 1795757211.9224837,
   "next_france_cross_promo_interval_seconds": 197705,
@@ -41897,6 +41923,11 @@
         "channel": "aniscoupons",
         "ts": 1795805822.1855235,
         "price": 27.59
+      },
+      {
+        "channel": "zedstoreonline",
+        "ts": 1795806570.3002331,
+        "price": 27.5
       }
     ],
     "1005009073904302": [
@@ -42449,12 +42480,22 @@
         "channel": "bnddeals",
         "ts": 1795806211.1038356,
         "price": 15.2
+      },
+      {
+        "channel": "lodydeals",
+        "ts": 1795806567.232202,
+        "price": 16.82
       }
     ],
     "1005009104334975": [
       {
         "channel": "lodydeals",
         "ts": 1795806395.0373366,
+        "price": 8.7
+      },
+      {
+        "channel": "lodydeals",
+        "ts": 1795806566.3689919,
         "price": 8.7
       }
     ],
@@ -42463,6 +42504,20 @@
         "channel": "bnddeals",
         "ts": 1795806408.7466486,
         "price": 16.0
+      }
+    ],
+    "1005008850261694": [
+      {
+        "channel": "bnddeals",
+        "ts": 1795806573.4587805,
+        "price": 22.8
+      }
+    ],
+    "1005008774483451": [
+      {
+        "channel": "bnddeals",
+        "ts": 1795806579.2417598,
+        "price": 39.0
       }
     ]
   },
