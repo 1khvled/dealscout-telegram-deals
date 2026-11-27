@@ -1333,7 +1333,7 @@
     "999888261": 1793280261.0669627,
     "1005008785149427": 1793281845.5693822,
     "1005012766583284": 1793448708.2553535,
-    "1005011557016158": 1794998417.7582605,
+    "1005011557016158": 1795767305.1928673,
     "1005013451224718": 1793281883.4004252,
     "1005009120899585": 1793613389.897003,
     "1005010620332784": 1793467334.18714,
@@ -4215,7 +4215,7 @@
     "SoundPEATS C30 Hybrid ANC -52dB": 1794407013.7230165,
     "Somnambulist SSD 120GB": 1794524556.2538168,
     "Lexar ARES PRO NVMe SSD PCle5.0x4 M.2 1TB": 1794492627.75024,
-    "Realme P4 Power 8/256GB": 1794998417.7582605,
+    "Realme P4 Power 8/256GB": 1795767305.1928673,
     "ASROCK X570M PRO4 MOTHERBOARD": 1794562340.4789197,
     "EASYSMX X05 PRO Controller": 1795717412.2268028,
     "ONEPLUS 16 12/256GB": 1795521997.8103201,
@@ -4545,7 +4545,6 @@
     "يمكن حجز الكوبونات 5 مرات": 1795767105.1242795
   },
   "published_post_keys": [
-    "aniscoupons:34904",
     "zedstoreonline:40164",
     "aniscoupons:34905",
     "zedstoreonline:40166",
@@ -5544,19 +5543,20 @@
     "zedstoreonline:40754",
     "ecksdeal:6147",
     "zedstoreonline:40755",
-    "ecksdeal:6148"
+    "ecksdeal:6148",
+    "aniscoupons:35716"
   ],
   "last_disclaimer_time": 1795735529.6558404,
   "last_calendar_time": 1795177633.1203737,
-  "last_run_time": 1795767105.1242795,
+  "last_run_time": 1795767305.1928673,
   "monitored_channels": {
     "ecksdeal": {
       "last_message_id": 6148,
       "last_check_time": 1795767105.275191
     },
     "lodydeals": {
-      "last_message_id": 46935,
-      "last_check_time": 1795766737.1601844
+      "last_message_id": 46939,
+      "last_check_time": 1795767296.3713915
     },
     "test_channel": {
       "last_message_id": 1793967703,
@@ -5579,8 +5579,8 @@
       "last_check_time": 1795766741.4302952
     },
     "aniscoupons": {
-      "last_message_id": 35715,
-      "last_check_time": 1795766374.2911627
+      "last_message_id": 35716,
+      "last_check_time": 1795767307.277668
     },
     "bnddeals": {
       "last_message_id": 51416,
@@ -5863,7 +5863,7 @@
     "1005012853585903": 119.28,
     "1005008785149427": 100.0,
     "1005012766583284": 88.7,
-    "1005011557016158": 285.79,
+    "1005011557016158": 289.79,
     "1005013451224718": 527.0,
     "1005009120899585": 123.1,
     "1005010620332784": 480.0,
@@ -35352,6 +35352,16 @@
       "price": null,
       "timestamp": 1795767105.1242795,
       "status": "ACTIVE"
+    },
+    "aniscoupons:35716": {
+      "channel_msg_id": 3847,
+      "product_id": "1005011557016158",
+      "title": "Realme P4 Power 8/256GB",
+      "channel": "aniscoupons",
+      "source_msg_id": 35716,
+      "price": 289.79,
+      "timestamp": 1795767305.1928673,
+      "status": "ACTIVE"
     }
   },
   "schedule_config": {
@@ -35360,17 +35370,17 @@
     "current_interval_minutes": 5,
     "is_paused": false,
     "night_mode_enabled": true,
-    "last_deal_post_time": 1795767107.7323968,
+    "last_deal_post_time": 1795767311.515785,
     "night_start_hour_dz": 0,
     "night_end_hour_dz": 8,
     "night_pause_enabled": true,
-    "last_sweep_time": 1795767112.1947427,
+    "last_sweep_time": 1795767316.7293894,
     "last_sweep_times": {
-      "algeria": 1795767107.682979,
-      "france": 1795767112.1947427
+      "algeria": 1795767311.4773104,
+      "france": 1795767316.7293894
     },
     "last_deal_post_times": {
-      "algeria": 1795767107.7323968
+      "algeria": 1795767311.515785
     }
   },
   "last_coin_reminder_time": 1795648937.9274871,
@@ -38448,7 +38458,6 @@
   "published_deals_history": {},
   "settings": {},
   "handled_post_keys": [
-    "aniscoupons:34884",
     "aniscoupons:34886",
     "lodydeals:46491",
     "aniscoupons:34889",
@@ -39447,7 +39456,8 @@
     "lodydeals:46935",
     "ecksdeal:6147",
     "zedstoreonline:40755",
-    "ecksdeal:6148"
+    "ecksdeal:6148",
+    "lodydeals:46939"
   ],
   "last_france_cross_promo_time": 1795757211.9224837,
   "next_france_cross_promo_interval_seconds": 197705,
@@ -40128,6 +40138,13 @@
         "channel": "lodydeals",
         "ts": 1795767102.4072926,
         "price": 356.59
+      }
+    ],
+    "1005011557016158": [
+      {
+        "channel": "aniscoupons",
+        "ts": 1795767302.8978882,
+        "price": 289.79
       }
     ]
   },
