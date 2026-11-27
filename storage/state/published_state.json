@@ -991,7 +991,8 @@
     "1005005429986681",
     "1005013516945692",
     "1005007792189142",
-    "1005010572861466"
+    "1005010572861466",
+    "1005011568295224"
   ],
   "published_product_timestamps": {
     "1005012973772517": 1794500732.7845657,
@@ -2003,7 +2004,8 @@
     "1005005429986681": 1795815415.2610617,
     "1005013516945692": 1795815969.7768242,
     "1005007792189142": 1795818897.6959238,
-    "1005010572861466": 1795819829.0642247
+    "1005010572861466": 1795819829.0642247,
+    "1005011568295224": 1795820013.4851985
   },
   "published_titles": [
     "Wireless WiFi Repeater 300Mbps WiFi Extender Amplifier Booster Router",
@@ -3323,7 +3325,8 @@
     "OnePlus Ace7 12/256GB",
     "OnePlus ACE 6 12/256",
     "VA VA VOOM Sports Watch",
-    "HTMCK Smart TV Box 8/128GB"
+    "HTMCK Smart TV Box 8/128GB",
+    "Tanix TX1 Mini 2/16GB"
   ],
   "published_title_timestamps": {
     "Xiaomi Redmi Note 17 5G Global Version": 1790857823.0117362,
@@ -4648,10 +4651,10 @@
     "OnePlus Ace7 12/256GB": 1795815969.7768242,
     "OnePlus ACE 6 12/256": 1795817442.1410594,
     "VA VA VOOM Sports Watch": 1795818897.6959238,
-    "HTMCK Smart TV Box 8/128GB": 1795819829.0642247
+    "HTMCK Smart TV Box 8/128GB": 1795819829.0642247,
+    "Tanix TX1 Mini 2/16GB": 1795820013.4851985
   },
   "published_post_keys": [
-    "zedstoreonline:40248",
     "zedstoreonline:40250",
     "zedstoreonline:40251",
     "lodydeals:46562",
@@ -5650,11 +5653,12 @@
     "zedstoreonline:40823",
     "zedstoreonline:40825",
     "zedstoreonline:40826",
-    "zedstoreonline:40828"
+    "zedstoreonline:40828",
+    "zedstoreonline:40829"
   ],
   "last_disclaimer_time": 1795735529.6558404,
   "last_calendar_time": 1795782506.7435975,
-  "last_run_time": 1795819829.0642247,
+  "last_run_time": 1795820013.4851985,
   "monitored_channels": {
     "ecksdeal": {
       "last_message_id": 6156,
@@ -5681,8 +5685,8 @@
       "last_check_time": 1793599663.3444748
     },
     "zedstoreonline": {
-      "last_message_id": 40828,
-      "last_check_time": 1795819831.1784189
+      "last_message_id": 40829,
+      "last_check_time": 1795820015.5952086
     },
     "aniscoupons": {
       "last_message_id": 35830,
@@ -6546,7 +6550,8 @@
     "1005005429986681": 7.15,
     "1005013516945692": 487.7,
     "1005007792189142": 5.2,
-    "1005010572861466": 19.9
+    "1005010572861466": 19.9,
+    "1005011568295224": 16.1
   },
   "channel_published_deals": {
     "aniscoupons:32590": {
@@ -36801,6 +36806,16 @@
       "price": 19.9,
       "timestamp": 1795819829.0642247,
       "status": "ACTIVE"
+    },
+    "zedstoreonline:40829": {
+      "channel_msg_id": 3987,
+      "product_id": "1005011568295224",
+      "title": "Tanix TX1 Mini 2/16GB",
+      "channel": "zedstoreonline",
+      "source_msg_id": 40829,
+      "price": 16.1,
+      "timestamp": 1795820013.4851985,
+      "status": "ACTIVE"
     }
   },
   "schedule_config": {
@@ -36809,17 +36824,17 @@
     "current_interval_minutes": 5,
     "is_paused": false,
     "night_mode_enabled": true,
-    "last_deal_post_time": 1795819832.94766,
+    "last_deal_post_time": 1795820017.682469,
     "night_start_hour_dz": 0,
     "night_end_hour_dz": 8,
     "night_pause_enabled": true,
-    "last_sweep_time": 1795819837.8514643,
+    "last_sweep_time": 1795820024.2339432,
     "last_sweep_times": {
-      "algeria": 1795819832.8966393,
-      "france": 1795819837.8514643
+      "algeria": 1795820017.6353886,
+      "france": 1795820024.2339432
     },
     "last_deal_post_times": {
-      "algeria": 1795819832.94766
+      "algeria": 1795820017.682469
     }
   },
   "last_coin_reminder_time": 1795648937.9274871,
@@ -37824,7 +37839,8 @@
     "1005005429986681": "lodydeals",
     "1005013516945692": "aniscoupons",
     "1005007792189142": "zedstoreonline",
-    "1005010572861466": "zedstoreonline"
+    "1005010572861466": "zedstoreonline",
+    "1005011568295224": "zedstoreonline"
   },
   "published_title_channels": {
     "Test Wrench Set": "test_channel",
@@ -39151,7 +39167,8 @@
     "OnePlus Ace7 12/256GB": "aniscoupons",
     "OnePlus ACE 6 12/256": "zedstoreonline",
     "VA VA VOOM Sports Watch": "zedstoreonline",
-    "HTMCK Smart TV Box 8/128GB": "zedstoreonline"
+    "HTMCK Smart TV Box 8/128GB": "zedstoreonline",
+    "Tanix TX1 Mini 2/16GB": "zedstoreonline"
   },
   "religious_reminders_history": {
     "mock_rem": "2026-10-02",
