@@ -1787,7 +1787,7 @@
     "1005011887425776": 1794733838.2777092,
     "1005012547730772": 1795017869.777643,
     "1005012840419521": 1794591008.1982286,
-    "1005010218815499": 1794845442.6108298,
+    "1005010218815499": 1795810993.7904139,
     "1005011897409757": 1794593403.339319,
     "1005013203288194": 1795725757.071366,
     "1005010305059795": 1795805824.6749244,
@@ -4336,7 +4336,7 @@
     "Kingston DataTraveler USB 128GB": 1795501553.790957,
     "Honor X80 Pro Max 8/128": 1795788020.6389072,
     "ماوس فخم Logitech G502 Hero": 1794591008.1982286,
-    "ماوس لاسلكي Delux M800 Mini Series": 1794591382.6548223,
+    "ماوس لاسلكي Delux M800 Mini Series": 1795810993.7904139,
     "Lexar V400 USB3.0 64GB": 1794593403.339319,
     "HAYLOU S40 ANC Wireless": 1795616138.7414243,
     "CUSU Memory DDR5 (16GB) 6000MHz": 1795080686.538359,
@@ -4625,7 +4625,6 @@
     "مايكروفون ديناميكي Maono PD100X Dynamic USB/XLR Mic": 1795810074.8482933
   },
   "published_post_keys": [
-    "zedstoreonline:40232",
     "zedstoreonline:40234",
     "aniscoupons:34985",
     "aniscoupons:34987",
@@ -5624,15 +5623,16 @@
     "ecksdeal:6152",
     "ecksdeal:6153",
     "ecksdeal:6154",
-    "aniscoupons:35815"
+    "aniscoupons:35815",
+    "ecksdeal:6155"
   ],
   "last_disclaimer_time": 1795735529.6558404,
   "last_calendar_time": 1795782506.7435975,
-  "last_run_time": 1795810255.476485,
+  "last_run_time": 1795810993.7904139,
   "monitored_channels": {
     "ecksdeal": {
-      "last_message_id": 6154,
-      "last_check_time": 1795810082.401333
+      "last_message_id": 6155,
+      "last_check_time": 1795810995.868494
     },
     "lodydeals": {
       "last_message_id": 46983,
@@ -6346,7 +6346,7 @@
     "1005011887425776": 20.48,
     "1005012547730772": 273.5,
     "1005012840419521": 31.63,
-    "1005010218815499": 13.94,
+    "1005010218815499": 12.92,
     "1005011897409757": 7.07,
     "1005013203288194": 346.22,
     "1005010305059795": 27.59,
@@ -36551,6 +36551,16 @@
       "price": 133.8,
       "timestamp": 1795810255.476485,
       "status": "ACTIVE"
+    },
+    "ecksdeal:6155": {
+      "channel_msg_id": 3965,
+      "product_id": "1005010218815499",
+      "title": "ماوس لاسلكي Delux M800 Mini Series",
+      "channel": "ecksdeal",
+      "source_msg_id": 6155,
+      "price": 12.92,
+      "timestamp": 1795810993.7904139,
+      "status": "ACTIVE"
     }
   },
   "schedule_config": {
@@ -36559,17 +36569,17 @@
     "current_interval_minutes": 5,
     "is_paused": false,
     "night_mode_enabled": true,
-    "last_deal_post_time": 1795810258.5527048,
+    "last_deal_post_time": 1795810998.4424405,
     "night_start_hour_dz": 0,
     "night_end_hour_dz": 8,
     "night_pause_enabled": true,
-    "last_sweep_time": 1795810817.4266245,
+    "last_sweep_time": 1795811003.4375856,
     "last_sweep_times": {
-      "algeria": 1795810813.0884721,
-      "france": 1795810817.4266245
+      "algeria": 1795810998.2979124,
+      "france": 1795811003.4375856
     },
     "last_deal_post_times": {
-      "algeria": 1795810258.5527048
+      "algeria": 1795810998.4424405
     }
   },
   "last_coin_reminder_time": 1795648937.9274871,
@@ -37369,7 +37379,7 @@
     "1005011887425776": "aniscoupons",
     "1005012547730772": "aniscoupons",
     "1005012840419521": "ecksdeal",
-    "1005010218815499": "aniscoupons",
+    "1005010218815499": "ecksdeal",
     "1005011897409757": "lodydeals",
     "1005013203288194": "lodydeals",
     "1005010305059795": "aniscoupons",
@@ -41299,11 +41309,6 @@
     "1005010788149535": [
       {
         "channel": "lodydeals",
-        "ts": 1795767650.9150686,
-        "price": 356.59
-      },
-      {
-        "channel": "lodydeals",
         "ts": 1795767838.0728033,
         "price": 356.59
       },
@@ -41439,11 +41444,6 @@
       }
     ],
     "1005011557016158": [
-      {
-        "channel": "bnddeals",
-        "ts": 1795767670.2453873,
-        "price": 289.0
-      },
       {
         "channel": "lodydeals",
         "ts": 1795768395.7901158,
@@ -41628,16 +41628,6 @@
       }
     ],
     "1005010575865619": [
-      {
-        "channel": "aniscoupons",
-        "ts": 1795767660.2722843,
-        "price": 363.4
-      },
-      {
-        "channel": "bnddeals",
-        "ts": 1795767665.9846468,
-        "price": 365.0
-      },
       {
         "channel": "aniscoupons",
         "ts": 1795767848.1306205,
@@ -42730,6 +42720,13 @@
         "channel": "ecksdeal",
         "ts": 1795810077.8233943,
         "price": 57.09
+      }
+    ],
+    "1005010218815499": [
+      {
+        "channel": "ecksdeal",
+        "ts": 1795810991.4503815,
+        "price": 12.92
       }
     ]
   },
