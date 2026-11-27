@@ -982,7 +982,8 @@
     "1005011559022232",
     "TAJMI3AT_lodydeals_46956",
     "TAJMI3AT_lodydeals_46962",
-    "1005008356945283"
+    "1005008356945283",
+    "1005013572719987"
   ],
   "published_product_timestamps": {
     "1005012973772517": 1794500732.7845657,
@@ -1985,7 +1986,8 @@
     "1005011559022232": 1795795910.8631444,
     "TAJMI3AT_lodydeals_46956": 1795801413.6913135,
     "TAJMI3AT_lodydeals_46962": 1795801439.8246608,
-    "1005008356945283": 1795801448.6490834
+    "1005008356945283": 1795801448.6490834,
+    "1005013572719987": 1795804373.6204817
   },
   "published_titles": [
     "Wireless WiFi Repeater 300Mbps WiFi Extender Amplifier Booster Router",
@@ -3288,7 +3290,8 @@
     "ATTACK SHARK L30Pro Wireless Gaming Headset",
     "الحـــــق عــروض ممتازة للعناوين الفــرنـسية",
     "XUNYOU-LINK 4G 300Mpbs WiFi Router",
-    "CUSU DDR5 16GB 6000MHz"
+    "CUSU DDR5 16GB 6000MHz",
+    "جودة عالية PROJECTOR 📽️"
   ],
   "published_title_timestamps": {
     "Xiaomi Redmi Note 17 5G Global Version": 1790857823.0117362,
@@ -4596,10 +4599,10 @@
     "ATTACK SHARK L30Pro Wireless Gaming Headset": 1795795910.8631444,
     "الحـــــق عــروض ممتازة للعناوين الفــرنـسية": 1795801413.6913135,
     "XUNYOU-LINK 4G 300Mpbs WiFi Router": 1795801443.4018373,
-    "CUSU DDR5 16GB 6000MHz": 1795801448.6490834
+    "CUSU DDR5 16GB 6000MHz": 1795801448.6490834,
+    "جودة عالية PROJECTOR 📽️": 1795804373.6204817
   },
   "published_post_keys": [
-    "lodydeals:46540",
     "lodydeals:46541",
     "lodydeals:46542",
     "lodydeals:46543",
@@ -5598,11 +5601,12 @@
     "lodydeals:46966",
     "lodydeals:46967",
     "aniscoupons:35776",
-    "aniscoupons:35777"
+    "aniscoupons:35777",
+    "bnddeals:51428"
   ],
   "last_disclaimer_time": 1795735529.6558404,
   "last_calendar_time": 1795782506.7435975,
-  "last_run_time": 1795802687.845825,
+  "last_run_time": 1795804373.6204817,
   "monitored_channels": {
     "ecksdeal": {
       "last_message_id": 6149,
@@ -5637,8 +5641,8 @@
       "last_check_time": 1795803795.800899
     },
     "bnddeals": {
-      "last_message_id": 51427,
-      "last_check_time": 1795797745.9218397
+      "last_message_id": 51428,
+      "last_check_time": 1795804375.7471704
     }
   },
   "published_product_prices": {
@@ -6488,7 +6492,8 @@
     "1005013465406234": 371.6,
     "1005013491059196": 74.6,
     "1005011559022232": 35.79,
-    "1005008356945283": 173.9
+    "1005008356945283": 173.9,
+    "1005013572719987": 69.0
   },
   "channel_published_deals": {
     "aniscoupons:32590": {
@@ -36273,6 +36278,16 @@
       "price": 16.0,
       "timestamp": 1795802687.845825,
       "status": "ACTIVE"
+    },
+    "bnddeals:51428": {
+      "channel_msg_id": 3940,
+      "product_id": "1005013572719987",
+      "title": "جودة عالية PROJECTOR 📽️",
+      "channel": "bnddeals",
+      "source_msg_id": 51428,
+      "price": 69.0,
+      "timestamp": 1795804373.6204817,
+      "status": "ACTIVE"
     }
   },
   "schedule_config": {
@@ -36281,17 +36296,17 @@
     "current_interval_minutes": 5,
     "is_paused": false,
     "night_mode_enabled": true,
-    "last_deal_post_time": 1795802691.0645623,
+    "last_deal_post_time": 1795804375.8629255,
     "night_start_hour_dz": 0,
     "night_end_hour_dz": 8,
     "night_pause_enabled": true,
-    "last_sweep_time": 1795804180.433103,
+    "last_sweep_time": 1795804380.3956368,
     "last_sweep_times": {
-      "algeria": 1795804173.9724715,
-      "france": 1795804180.433103
+      "algeria": 1795804375.8056784,
+      "france": 1795804380.3956368
     },
     "last_deal_post_times": {
-      "algeria": 1795802691.0645623
+      "algeria": 1795804375.8629255
     }
   },
   "last_coin_reminder_time": 1795648937.9274871,
@@ -37287,7 +37302,8 @@
     "1005011559022232": "aniscoupons",
     "TAJMI3AT_lodydeals_46956": "lodydeals",
     "TAJMI3AT_lodydeals_46962": "lodydeals",
-    "1005008356945283": "lodydeals"
+    "1005008356945283": "lodydeals",
+    "1005013572719987": "bnddeals"
   },
   "published_title_channels": {
     "Test Wrench Set": "test_channel",
@@ -38597,7 +38613,8 @@
     "ATTACK SHARK L30Pro Wireless Gaming Headset": "aniscoupons",
     "الحـــــق عــروض ممتازة للعناوين الفــرنـسية": "lodydeals",
     "XUNYOU-LINK 4G 300Mpbs WiFi Router": "lodydeals",
-    "CUSU DDR5 16GB 6000MHz": "lodydeals"
+    "CUSU DDR5 16GB 6000MHz": "lodydeals",
+    "جودة عالية PROJECTOR 📽️": "bnddeals"
   },
   "religious_reminders_history": {
     "mock_rem": "2026-10-02",
