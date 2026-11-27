@@ -1461,7 +1461,7 @@
     "COUPONS_d131dda7a0e3": 1793478717.5768087,
     "COUPONS_d131dda7": 1793478717.5923967,
     "COUPONS_11.11 Global Shopping Festival Warm-Up": 1793478717.5923967,
-    "1005008518280704": 1795770826.4866548,
+    "1005008518280704": 1795815243.9016066,
     "1005010527736444": 1793478769.6023057,
     "1005013450996845": 1794995476.4520917,
     "1005013144753309": 1794771014.8038359,
@@ -1550,7 +1550,7 @@
     "1005012823102793": 1793569904.419889,
     "1005012773302941": 1795521209.4715214,
     "1005008430147176": 1795085991.192385,
-    "1005011742851856": 1795618355.4654787,
+    "1005011742851856": 1795815229.3219752,
     "1005006304425302": 1793656107.995781,
     "1005010487426245": 1793573558.2913802,
     "1005012865939059": 1793573742.8007863,
@@ -1561,7 +1561,7 @@
     "1005012479560861": 1793599553.1122265,
     "1005011867856141": 1793599912.232469,
     "1005006515379868": 1793600128.145566,
-    "1005007792223934": 1793600288.3908339,
+    "1005007792223934": 1795815236.3676462,
     "1005010707075064": 1793600466.7601562,
     "1005007010692093": 1793601389.0047116,
     "1005006994466968": 1793601744.1664062,
@@ -3976,7 +3976,7 @@
     "Anker Soundcore 2": 1793571013.3288968,
     "MACHENIKE G5Pro Max SE": 1793571550.5645735,
     "MACHENIKE G1 Gaming": 1794822583.449546,
-    "Essager 45W Retractable Car": 1795290123.812915,
+    "Essager 45W Retractable Car": 1795815229.3219752,
     "Essager 240W USB Type C To USB C Cable 100W PD 3.1 Fast Charging Charger": 1793572474.8860087,
     "SMAILWOLF RS8 1000Hz": 1793573558.2913802,
     "HILDA 2 Lines Laser": 1793573945.0580306,
@@ -3987,7 +3987,7 @@
     "Mortal T1 2/16GB Wifi 4K": 1793993517.4065924,
     "POEDAGAR 896 Men's Watches": 1793599912.232469,
     "بطاقة تسجيل Ugreen HDMI 1080p USB Capture Card": 1793600128.145566,
-    "POEDAGAR 680 Men's Quartz": 1793600288.3908339,
+    "POEDAGAR 680 Men's Quartz": 1795815236.3676462,
     "QCY Buds 6 Mics ANC": 1794524370.7043138,
     "Vxe Dragonfly R1 SE": 1794475825.54016,
     "Baseus 240W Type-C Cable 1m": 1793601389.0047116,
@@ -4259,7 +4259,7 @@
     "Kootion SSD SATA": 1795799215.7546494,
     "KOOTION SATA SSD 128GB": 1795768795.3843074,
     "Kingston DataTraveler 128GB": 1795249207.7202265,
-    "CUSU CV3500  M.2 NVMe SSD (1tb)": 1795770826.4866548,
+    "CUSU CV3500  M.2 NVMe SSD (1tb)": 1795815243.9016066,
     "Kootion X15 M.2 NVMe 256GB": 1794346230.0535362,
     "Baseus BS2 Lite": 1794349536.4429784,
     "حجز وتجدد كوبونات 11.11": 1794363974.314961,
@@ -4633,9 +4633,6 @@
     "الحححححق باآآآآاطل": 1795814491.8646457
   },
   "published_post_keys": [
-    "zedstoreonline:40237",
-    "zedstoreonline:40238",
-    "zedstoreonline:40239",
     "aniscoupons:34997",
     "zedstoreonline:40240",
     "aniscoupons:34998",
@@ -5632,19 +5629,22 @@
     "aniscoupons:35823",
     "lodydeals:46985",
     "aniscoupons:35824",
-    "lodydeals:46986"
+    "lodydeals:46986",
+    "lodydeals:46988",
+    "lodydeals:46989",
+    "aniscoupons:35825"
   ],
   "last_disclaimer_time": 1795735529.6558404,
   "last_calendar_time": 1795782506.7435975,
-  "last_run_time": 1795814681.7777693,
+  "last_run_time": 1795815243.9016066,
   "monitored_channels": {
     "ecksdeal": {
       "last_message_id": 6156,
       "last_check_time": 1795813583.7609448
     },
     "lodydeals": {
-      "last_message_id": 46986,
-      "last_check_time": 1795814683.891613
+      "last_message_id": 46989,
+      "last_check_time": 1795815238.487294
     },
     "test_channel": {
       "last_message_id": 1793967703,
@@ -5667,8 +5667,8 @@
       "last_check_time": 1795814494.6671033
     },
     "aniscoupons": {
-      "last_message_id": 35824,
-      "last_check_time": 1795814503.3958073
+      "last_message_id": 35825,
+      "last_check_time": 1795815246.0171845
     },
     "bnddeals": {
       "last_message_id": 51449,
@@ -6144,7 +6144,7 @@
     "1005012823102793": 226.25,
     "1005012773302941": 17.3,
     "1005008430147176": 22.6,
-    "1005011742851856": 4.0,
+    "1005011742851856": 5.25,
     "1005006304425302": 2.24,
     "1005010487426245": 7.74,
     "1005012865939059": 14.89,
@@ -6154,7 +6154,7 @@
     "1005012479560861": 12.98,
     "1005011867856141": 7.82,
     "1005006515379868": 9.37,
-    "1005007792223934": 7.34,
+    "1005007792223934": 7.85,
     "1005010707075064": 10.3,
     "1005007010692093": 2.88,
     "1005006994466968": 4.99,
@@ -36659,6 +36659,36 @@
       "price": 8.72,
       "timestamp": 1795814681.7777693,
       "status": "ACTIVE"
+    },
+    "lodydeals:46988": {
+      "channel_msg_id": 3975,
+      "product_id": "1005011742851856",
+      "title": "Essager 45W Retractable Car",
+      "channel": "lodydeals",
+      "source_msg_id": 46988,
+      "price": 5.25,
+      "timestamp": 1795815229.3219752,
+      "status": "ACTIVE"
+    },
+    "lodydeals:46989": {
+      "channel_msg_id": 3976,
+      "product_id": "1005007792223934",
+      "title": "POEDAGAR 680 Men's Quartz",
+      "channel": "lodydeals",
+      "source_msg_id": 46989,
+      "price": 7.85,
+      "timestamp": 1795815236.3676462,
+      "status": "ACTIVE"
+    },
+    "aniscoupons:35825": {
+      "channel_msg_id": 3977,
+      "product_id": "1005008518280704",
+      "title": "CUSU CV3500  M.2 NVMe SSD (1tb)",
+      "channel": "aniscoupons",
+      "source_msg_id": 35825,
+      "price": 177.7,
+      "timestamp": 1795815243.9016066,
+      "status": "ACTIVE"
     }
   },
   "schedule_config": {
@@ -36667,17 +36697,17 @@
     "current_interval_minutes": 5,
     "is_paused": false,
     "night_mode_enabled": true,
-    "last_deal_post_time": 1795814687.2025378,
+    "last_deal_post_time": 1795815247.153163,
     "night_start_hour_dz": 0,
     "night_end_hour_dz": 8,
     "night_pause_enabled": true,
-    "last_sweep_time": 1795815047.818897,
+    "last_sweep_time": 1795815251.867459,
     "last_sweep_times": {
-      "algeria": 1795815043.2253065,
-      "france": 1795815047.818897
+      "algeria": 1795815247.1014576,
+      "france": 1795815251.867459
     },
     "last_deal_post_times": {
-      "algeria": 1795814687.2025378
+      "algeria": 1795815247.153163
     }
   },
   "last_coin_reminder_time": 1795648937.9274871,
@@ -37255,7 +37285,7 @@
     "1005012823102793": "lodydeals",
     "1005012773302941": "lodydeals",
     "1005008430147176": "zedstoreonline",
-    "1005011742851856": "aniscoupons",
+    "1005011742851856": "lodydeals",
     "1005006304425302": "lodydeals",
     "1005010487426245": "lodydeals",
     "1005012865939059": "lodydeals",
@@ -41383,11 +41413,6 @@
   "competitor_product_sightings": {
     "1005007027334636": [
       {
-        "channel": "zedstoreonline",
-        "ts": 1795771906.6724002,
-        "price": 9.7
-      },
-      {
         "channel": "aniscoupons",
         "ts": 1795796451.2919846,
         "price": 9.7
@@ -41399,16 +41424,6 @@
       }
     ],
     "1005010788149535": [
-      {
-        "channel": "lodydeals",
-        "ts": 1795771505.5450997,
-        "price": 356.59
-      },
-      {
-        "channel": "lodydeals",
-        "ts": 1795771687.5846713,
-        "price": 356.59
-      },
       {
         "channel": "lodydeals",
         "ts": 1795772242.468362,
@@ -41505,16 +41520,6 @@
     "1005012406142215": [
       {
         "channel": "zedstoreonline",
-        "ts": 1795771510.6957858,
-        "price": 356.0
-      },
-      {
-        "channel": "zedstoreonline",
-        "ts": 1795771692.1864393,
-        "price": 356.0
-      },
-      {
-        "channel": "zedstoreonline",
         "ts": 1795772248.391645,
         "price": 356.0
       },
@@ -41602,16 +41607,6 @@
     "1005010575865619": [
       {
         "channel": "aniscoupons",
-        "ts": 1795771515.0881996,
-        "price": 363.4
-      },
-      {
-        "channel": "aniscoupons",
-        "ts": 1795771695.913159,
-        "price": 363.4
-      },
-      {
-        "channel": "aniscoupons",
         "ts": 1795772252.293061,
         "price": 363.4
       },
@@ -41637,16 +41632,6 @@
       }
     ],
     "1005013438245033": [
-      {
-        "channel": "bnddeals",
-        "ts": 1795771520.3872108,
-        "price": 413.0
-      },
-      {
-        "channel": "bnddeals",
-        "ts": 1795771701.247625,
-        "price": 413.0
-      },
       {
         "channel": "bnddeals",
         "ts": 1795772257.4534786,
@@ -41799,6 +41784,11 @@
         "channel": "zedstoreonline",
         "ts": 1795772086.69715,
         "price": 177.0
+      },
+      {
+        "channel": "aniscoupons",
+        "ts": 1795815241.8027873,
+        "price": 177.7
       }
     ],
     "1005007916078341": [
@@ -41835,20 +41825,6 @@
         "channel": "zedstoreonline",
         "ts": 1795806570.3002331,
         "price": 27.5
-      }
-    ],
-    "1005009073904302": [
-      {
-        "channel": "zedstoreonline",
-        "ts": 1795771900.3482852,
-        "price": 228.3
-      }
-    ],
-    "1005013482874428": [
-      {
-        "channel": "aniscoupons",
-        "ts": 1795771919.5901132,
-        "price": 79.6
       }
     ],
     "1005007869955343": [
@@ -42593,6 +42569,20 @@
         "channel": "lodydeals",
         "ts": 1795814679.008754,
         "price": 8.72
+      }
+    ],
+    "1005011742851856": [
+      {
+        "channel": "lodydeals",
+        "ts": 1795815226.7682102,
+        "price": 5.25
+      }
+    ],
+    "1005007792223934": [
+      {
+        "channel": "lodydeals",
+        "ts": 1795815234.0090988,
+        "price": 7.85
       }
     ]
   },
