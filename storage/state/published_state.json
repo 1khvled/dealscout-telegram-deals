@@ -983,7 +983,8 @@
     "TAJMI3AT_lodydeals_46956",
     "TAJMI3AT_lodydeals_46962",
     "1005008356945283",
-    "1005013572719987"
+    "1005013572719987",
+    "1005011755232439"
   ],
   "published_product_timestamps": {
     "1005012973772517": 1794500732.7845657,
@@ -1090,7 +1091,7 @@
     "1005012297674623": 1791103551.065819,
     "1005007097205322": 1791014755.488723,
     "1005010470699571": 1795081607.1753583,
-    "1005012741634118": 1795521803.7445633,
+    "1005012741634118": 1795806019.78376,
     "1005010453516983": 1792172109.913469,
     "1005008554596598": 1794165031.7231321,
     "1005012925826589": 1791752930.9846199,
@@ -1987,7 +1988,8 @@
     "TAJMI3AT_lodydeals_46956": 1795801413.6913135,
     "TAJMI3AT_lodydeals_46962": 1795801439.8246608,
     "1005008356945283": 1795801448.6490834,
-    "1005013572719987": 1795804373.6204817
+    "1005013572719987": 1795804373.6204817,
+    "1005011755232439": 1795806014.123944
   },
   "published_titles": [
     "Wireless WiFi Repeater 300Mbps WiFi Extender Amplifier Booster Router",
@@ -3293,7 +3295,8 @@
     "CUSU DDR5 16GB 6000MHz",
     "جودة عالية PROJECTOR 📽️",
     "سماعات ذات جودة عالية مزودة ب 6 ميكرفون لمكالمات أكثر نقاوة",
-    "جننننننننننننننننننننننننننننننننننننننح HAYLOU"
+    "جننننننننننننننننننننننننننننننننننننننح HAYLOU",
+    "HAYLOU Flowbuds N55 54dB ANC BT 6.0 LDAC Hi-Res Audio 6-Mic HD"
   ],
   "published_title_timestamps": {
     "Xiaomi Redmi Note 17 5G Global Version": 1790857823.0117362,
@@ -3407,7 +3410,7 @@
     "Baseus-Bowie E5x": 1791014145.8727648,
     "Affichage tête haute GPS pour voiture – compteur de vitesse numérique km/h, police LED grande, compa": 1791014755.488723,
     "HAYLOU Solar Lite 2": 1795081607.1753583,
-    "HAYLOU FlowLoop S33": 1795521803.7445633,
+    "HAYLOU FlowLoop S33": 1795806019.78376,
     "OPPO A6 Pro 4G Smartphone MediaTek Helio G100 Processor 7000mAh Battery": 1791015953.484505,
     "WiFi 6 USB3.0 Adapter 1800Mbps 5G/2.4GHz": 1791017145.537471,
     "CUSU 512GB": 1792158003.7032418,
@@ -4604,11 +4607,10 @@
     "CUSU DDR5 16GB 6000MHz": 1795801448.6490834,
     "جودة عالية PROJECTOR 📽️": 1795804373.6204817,
     "سماعات ذات جودة عالية مزودة ب 6 ميكرفون لمكالمات أكثر نقاوة": 1795805645.0436924,
-    "جننننننننننننننننننننننننننننننننننننننح HAYLOU": 1795805836.1998806
+    "جننننننننننننننننننننننننننننننننننننننح HAYLOU": 1795805836.1998806,
+    "HAYLOU Flowbuds N55 54dB ANC BT 6.0 LDAC Hi-Res Audio 6-Mic HD": 1795806014.123944
   },
   "published_post_keys": [
-    "lodydeals:46546",
-    "lodydeals:46547",
     "lodydeals:46548",
     "lodydeals:46550",
     "ecksdeal:6066",
@@ -5606,19 +5608,21 @@
     "bnddeals:51429",
     "aniscoupons:35789",
     "bnddeals:51430",
-    "bnddeals:51431"
+    "bnddeals:51431",
+    "bnddeals:51432",
+    "bnddeals:51433"
   ],
   "last_disclaimer_time": 1795735529.6558404,
   "last_calendar_time": 1795782506.7435975,
-  "last_run_time": 1795805836.1998806,
+  "last_run_time": 1795806019.78376,
   "monitored_channels": {
     "ecksdeal": {
       "last_message_id": 6150,
       "last_check_time": 1795805638.141808
     },
     "lodydeals": {
-      "last_message_id": 46977,
-      "last_check_time": 1795805818.6668675
+      "last_message_id": 46978,
+      "last_check_time": 1795806004.9929423
     },
     "test_channel": {
       "last_message_id": 1793967703,
@@ -5641,12 +5645,12 @@
       "last_check_time": 1795799763.1799657
     },
     "aniscoupons": {
-      "last_message_id": 35789,
-      "last_check_time": 1795805826.7506642
+      "last_message_id": 35790,
+      "last_check_time": 1795806009.063496
     },
     "bnddeals": {
-      "last_message_id": 51431,
-      "last_check_time": 1795805838.2723565
+      "last_message_id": 51433,
+      "last_check_time": 1795806021.8652024
     }
   },
   "published_product_prices": {
@@ -5744,7 +5748,7 @@
     "1005012297674623": 6.89,
     "1005007097205322": 15.1,
     "1005010470699571": 17.8,
-    "1005012741634118": 21.5,
+    "1005012741634118": 19.5,
     "1005008554596598": 13.96,
     "1005008776714223": 74.47,
     "1005010306498953": 1.46,
@@ -6497,7 +6501,8 @@
     "1005013491059196": 74.6,
     "1005011559022232": 35.79,
     "1005008356945283": 173.9,
-    "1005013572719987": 69.0
+    "1005013572719987": 69.0,
+    "1005011755232439": 13.3
   },
   "channel_published_deals": {
     "aniscoupons:32590": {
@@ -36332,6 +36337,26 @@
       "price": 12.4,
       "timestamp": 1795805836.1998806,
       "status": "ACTIVE"
+    },
+    "bnddeals:51432": {
+      "channel_msg_id": 3945,
+      "product_id": "1005011755232439",
+      "title": "HAYLOU Flowbuds N55 54dB ANC BT 6.0 LDAC Hi-Res Audio 6-Mic HD",
+      "channel": "bnddeals",
+      "source_msg_id": 51432,
+      "price": 13.3,
+      "timestamp": 1795806014.123944,
+      "status": "ACTIVE"
+    },
+    "bnddeals:51433": {
+      "channel_msg_id": 3946,
+      "product_id": "1005012741634118",
+      "title": "HAYLOU FlowLoop S33",
+      "channel": "bnddeals",
+      "source_msg_id": 51433,
+      "price": 19.5,
+      "timestamp": 1795806019.78376,
+      "status": "ACTIVE"
     }
   },
   "schedule_config": {
@@ -36340,17 +36365,17 @@
     "current_interval_minutes": 5,
     "is_paused": false,
     "night_mode_enabled": true,
-    "last_deal_post_time": 1795805838.334732,
+    "last_deal_post_time": 1795806021.9377263,
     "night_start_hour_dz": 0,
     "night_end_hour_dz": 8,
     "night_pause_enabled": true,
-    "last_sweep_time": 1795805843.2300537,
+    "last_sweep_time": 1795806027.1551912,
     "last_sweep_times": {
-      "algeria": 1795805838.3042097,
-      "france": 1795805843.2300537
+      "algeria": 1795806021.9016013,
+      "france": 1795806027.1551912
     },
     "last_deal_post_times": {
-      "algeria": 1795805838.334732
+      "algeria": 1795806021.9377263
     }
   },
   "last_coin_reminder_time": 1795648937.9274871,
@@ -37347,7 +37372,8 @@
     "TAJMI3AT_lodydeals_46956": "lodydeals",
     "TAJMI3AT_lodydeals_46962": "lodydeals",
     "1005008356945283": "lodydeals",
-    "1005013572719987": "bnddeals"
+    "1005013572719987": "bnddeals",
+    "1005011755232439": "bnddeals"
   },
   "published_title_channels": {
     "Test Wrench Set": "test_channel",
@@ -38660,7 +38686,8 @@
     "CUSU DDR5 16GB 6000MHz": "lodydeals",
     "جودة عالية PROJECTOR 📽️": "bnddeals",
     "سماعات ذات جودة عالية مزودة ب 6 ميكرفون لمكالمات أكثر نقاوة": "bnddeals",
-    "جننننننننننننننننننننننننننننننننننننننح HAYLOU": "bnddeals"
+    "جننننننننننننننننننننننننننننننننننننننح HAYLOU": "bnddeals",
+    "HAYLOU Flowbuds N55 54dB ANC BT 6.0 LDAC Hi-Res Audio 6-Mic HD": "bnddeals"
   },
   "religious_reminders_history": {
     "mock_rem": "2026-10-02",
@@ -39458,7 +39485,6 @@
   "published_deals_history": {},
   "settings": {},
   "handled_post_keys": [
-    "bnddeals:51305",
     "zedstoreonline:40207",
     "lodydeals:46523",
     "lodydeals:46527",
@@ -40457,7 +40483,8 @@
     "aniscoupons:35786",
     "ecksdeal:6150",
     "aniscoupons:35787",
-    "aniscoupons:35788"
+    "aniscoupons:35788",
+    "aniscoupons:35790"
   ],
   "last_france_cross_promo_time": 1795757211.9224837,
   "next_france_cross_promo_interval_seconds": 197705,
@@ -41895,6 +41922,11 @@
         "channel": "bnddeals",
         "ts": 1795805642.7235312,
         "price": 8.7
+      },
+      {
+        "channel": "aniscoupons",
+        "ts": 1795806008.924529,
+        "price": 8.7
       }
     ],
     "1005012524603100": [
@@ -42278,6 +42310,13 @@
         "channel": "bnddeals",
         "ts": 1795805833.749827,
         "price": 12.4
+      }
+    ],
+    "1005012741634118": [
+      {
+        "channel": "bnddeals",
+        "ts": 1795806017.3352044,
+        "price": 19.5
       }
     ]
   },

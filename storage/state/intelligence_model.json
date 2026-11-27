@@ -34,10 +34,10 @@
       "ewma": 0.9994
     },
     "bnddeals": {
-      "seen": 111,
-      "published": 49,
+      "seen": 113,
+      "published": 51,
       "skipped": 0,
-      "ewma": 0.9915
+      "ewma": 0.9928
     },
     "aniscoupons": {
       "seen": 870,
@@ -54,8 +54,8 @@
   },
   "category_stats": {
     "other": {
-      "seen": 715,
-      "published": 613,
+      "seen": 716,
+      "published": 614,
       "skipped": 0,
       "ewma": 0.9994
     },
@@ -84,10 +84,10 @@
       "ewma": 0.9882
     },
     "audio": {
-      "seen": 65,
-      "published": 61,
+      "seen": 66,
+      "published": 62,
       "skipped": 0,
-      "ewma": 0.9969
+      "ewma": 0.9971
     }
   },
   "product_prices": {
@@ -2045,7 +2045,8 @@
       25.8
     ],
     "1005012741634118": [
-      21.5
+      21.5,
+      19.5
     ],
     "1005013266074956": [
       888.0
@@ -2233,34 +2234,21 @@
     ],
     "1005013572719987": [
       69.0
+    ],
+    "1005011755232439": [
+      13.3
     ]
   },
   "counters": {
-    "scored": 1916,
-    "verdict_publish": 1840,
+    "scored": 1918,
+    "verdict_publish": 1842,
     "verdict_hold": 75,
     "verdict_skip": 1,
-    "published": 1490,
+    "published": 1492,
     "skipped": 0
   },
-  "score_sum": 140527.78,
+  "score_sum": 140687.86,
   "recent_decisions": [
-    {
-      "ts": 1795734099,
-      "channel": "zedstoreonline",
-      "category": "pc",
-      "product_id": "1005007027334636",
-      "score": 65.48,
-      "verdict": "publish"
-    },
-    {
-      "ts": 1795766916,
-      "channel": "lodydeals",
-      "category": "other",
-      "product_id": "1005010788149535",
-      "score": 81.93,
-      "verdict": "publish"
-    },
     {
       "ts": 1795767102,
       "channel": "lodydeals",
@@ -3844,7 +3832,23 @@
       "product_id": "1005012254132930",
       "score": 79.41,
       "verdict": "publish"
+    },
+    {
+      "ts": 1795806010,
+      "channel": "bnddeals",
+      "category": "audio",
+      "product_id": "1005011755232439",
+      "score": 81.33,
+      "verdict": "publish"
+    },
+    {
+      "ts": 1795806017,
+      "channel": "bnddeals",
+      "category": "other",
+      "product_id": "1005012741634118",
+      "score": 78.75,
+      "verdict": "publish"
     }
   ],
-  "updated_at": 1795805836.256586
+  "updated_at": 1795806019.8439028
 }
