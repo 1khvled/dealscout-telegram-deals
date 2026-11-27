@@ -976,7 +976,8 @@
     "1005012196932716",
     "1005013416923881",
     "TAJMI3AT_lodydeals_46953",
-    "1005013465406234"
+    "1005013465406234",
+    "COUPONBULLETIN_aniscoupons_35749"
   ],
   "published_product_timestamps": {
     "1005012973772517": 1794500732.7845657,
@@ -1971,7 +1972,10 @@
     "1005012196932716": 1795776506.4757638,
     "1005013416923881": 1795776529.3127697,
     "TAJMI3AT_lodydeals_46953": 1795779486.0734122,
-    "1005013465406234": 1795779586.365553
+    "1005013465406234": 1795779586.365553,
+    "COUPONBULLETIN_aniscoupons_35749": 1795785843.9353843,
+    "COUPONS_a5ca09fa": 1795785844.034309,
+    "COUPONS_الجمعة البيضاء": 1795785844.034309
   },
   "published_titles": [
     "Wireless WiFi Repeater 300Mbps WiFi Extender Amplifier Booster Router",
@@ -4500,7 +4504,7 @@
     "Fifine H6 Dynamic RGB Gaming": 1795521330.5345721,
     "ميكسر صوت احترافي FIFINE AmpliGame SC3W مع 4 قنوات ومدخل XLR": 1795521718.768218,
     "FIFINE H3 Gaming Headset": 1795601124.2950418,
-    "🔥": 1795723348.1432872,
+    "🔥": 1795785843.9353843,
     "vivo x500 pro max 12/256": 1795521901.9867668,
     "HUAWEI Pura 90s Pro 12/256": 1795521917.9575388,
     "Vivo X500 12/256": 1795521926.0889337,
@@ -36810,7 +36814,8 @@
     "1005012196932716": "lodydeals",
     "1005013416923881": "zedstoreonline",
     "TAJMI3AT_lodydeals_46953": "lodydeals",
-    "1005013465406234": "lodydeals"
+    "1005013465406234": "lodydeals",
+    "COUPONBULLETIN_aniscoupons_35749": "aniscoupons"
   },
   "published_title_channels": {
     "Test Wrench Set": "test_channel",
@@ -38044,7 +38049,7 @@
     "Fifine H6 Dynamic RGB Gaming": "bnddeals",
     "ميكسر صوت احترافي FIFINE AmpliGame SC3W مع 4 قنوات ومدخل XLR": "zedstoreonline",
     "FIFINE H3 Gaming Headset": "zedstoreonline",
-    "🔥": "lodydeals",
+    "🔥": "aniscoupons",
     "vivo x500 pro max 12/256": "zedstoreonline",
     "HUAWEI Pura 90s Pro 12/256": "zedstoreonline",
     "Vivo X500 12/256": "zedstoreonline",
@@ -40457,15 +40462,26 @@
       "timestamp": 1795275291.651658
     },
     {
-      "promo": "Black Friday & Cyber Monday",
-      "hash": "67c5d85c",
+      "promo": "الجمعة البيضاء",
+      "hash": "a5ca09fa",
       "codes": [
         "OTSBF03",
-        "OTSBF04"
+        "OTSBF04",
+        "OTSBF08",
+        "OTSBF19",
+        "OTSBF30",
+        "OTSBF34",
+        "OTSBF79",
+        "OTSBF66",
+        "AEBBF10",
+        "AEBBF11",
+        "AEBBF12",
+        "AEBBF31",
+        "AEBBF32"
       ],
-      "channel_msg_id": 3849,
+      "channel_msg_id": 3891,
       "channel": "@DzAliexpress0",
-      "timestamp": 1795768421.328644
+      "timestamp": 1795785844.034309
     }
   ],
   "last_pre_11_11_advisory_time": 1794277956.9993703,

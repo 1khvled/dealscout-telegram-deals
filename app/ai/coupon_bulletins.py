@@ -142,7 +142,16 @@ def event_from_text(raw_text: str) -> Optional[str]:
     if not raw_text:
         return None
     norm = re.sub(r'\u0640', '', raw_text)  # Arabic tatweel
-    first = next((l.strip() for l in norm.splitlines() if l.strip()), "")
+    # Skip floating emoji/symbol-only lines (e.g. '🔥\n كوبونات خاصة بمناسبة \nتخفيضات الجمعة البيضاء')
+    text_lines = [
+        l.strip() for l in norm.splitlines()
+        if l.strip() and re.search(r'[\u0600-\u06FFA-Za-z0-9]', l)
+    ]
+    if not text_lines:
+        return None
+    first = text_lines[0]
+    if len(text_lines) >= 2 and re.search(r'(?:بمناسبة|لـ|تخفيضات|خاصة)$', first):
+        first = f"{first} {text_lines[1]}"
     first = re.sub(r'^[^\u0600-\u06FFA-Za-z0-9]+', '', first).strip()
     # Cut at the first emoji or explicit date — the event phrase sits before those.
     first = re.split(
@@ -162,7 +171,28 @@ def event_from_text(raw_text: str) -> Optional[str]:
 
 
 def _coupon_lines(coupons: Iterable[Coupon]) -> str:
-    return "\n".join(f"🎟️ كوبون {tier} : {code}" for tier, code in coupons)
+    return "\n".join(f"🎟️ كوبون {tier} : <code>{code}</code>" for tier, code in coupons)
+
+
+def _split_normal_and_business_coupons(coupons: Sequence[Coupon], raw_text: str = "") -> Tuple[List[Coupon], List[Coupon]]:
+    """Splits combined coupon walls (like aniscoupons #35749) into normal vs Business tiers."""
+    norm = re.sub(r'\u0640', '', raw_text or "")
+    biz_codes_in_section: set = set()
+    m_biz = re.search(r'(?:قائمة\s+كوبونات\s+البزنيس|كوبونات\s+البزنيس|business)(.*)', norm, re.IGNORECASE | re.S)
+    if m_biz:
+        biz_section = re.split(r'(?:طريقة\s+حجز|🔗|https?://)', m_biz.group(1), maxsplit=1)[0]
+        for _, c in coupons_from_text(biz_section):
+            biz_codes_in_section.add(c.upper())
+
+    normal_list: List[Coupon] = []
+    biz_list: List[Coupon] = []
+    for tier, code in coupons:
+        cu = code.upper()
+        if cu in biz_codes_in_section or cu.startswith("AEBBF"):
+            biz_list.append((tier, code))
+        else:
+            normal_list.append((tier, code))
+    return normal_list, biz_list
 
 
 def _max_spend(coupons: Sequence[Coupon]) -> str:
@@ -214,22 +244,49 @@ def format_normal_coupon_bulletin(
     apply_url: str,
     event_name: Optional[str] = None,
     start_time: Optional[str] = None,
+    valid_until: Optional[str] = None,
+    raw_text: str = "",
 ) -> str:
-    """Our NORMAL coupon-wall layout, filled from the source post."""
+    """Our NORMAL (and combined Normal + Business) coupon-wall layout, filled from the source post."""
     if not coupons:
         raise ValueError("normal bulletin needs coupons")
     event = event_name or "كوبونات AliExpress"
     when = f" ({start_time})" if start_time else ""
+    until_line = f"\n🗓 <b>تعمل الآن إلى غاية {valid_until}</b>" if valid_until else ""
+
+    normal_list, biz_list = _split_normal_and_business_coupons(coupons, raw_text=raw_text)
+    if normal_list and biz_list:
+        coupons_block = (
+            "✅ <b>قائمة الكوبونات العامة:</b>\n" + _coupon_lines(normal_list)
+            + "\n\n💼 <b>قائمة كوبونات البزنيس:</b>\n" + _coupon_lines(biz_list)
+        )
+    else:
+        coupons_block = _coupon_lines(coupons)
+
+    has_auto_reserve_tip = bool(re.search(r'(?:تلقائياً|تلقائيا|طريقة\s+حجز|صفحة\s+الدفع)', raw_text or ""))
+    if has_auto_reserve_tip:
+        reserve_block = (
+            "⭕️ <b>طريقة تثبيت الكوبونات تلقائياً:</b>\n"
+            f"ادخل للرابط ← اضغط «دفع» ← طبّق كل كود (ابدأ بـ ${_max_spend(coupons)}) لتثبيته في حسابك ✅\n"
+            f"🔗 {apply_url}"
+        )
+    else:
+        reserve_block = (
+            "⭕️ طريقة حجز الكوبونات وتثبيتها في حسابك الآن 🔥👌🏽:\n"
+            f"⚠️ ابدأ دائماً بالكوبونات الكبيرة (${_max_spend(coupons)} ...) ثم البقية واحداً تلو الآخر "
+            "باه يبقاو في حسابك طيلة التخفيضات وما يهربلكش الستوك ✅\n"
+            "🔹 طبّقوا الآن كامل الكوبونات على هذا المنتج باه تبقالكم في الحساب ⤵️\n"
+            f"{apply_url}"
+        )
+
+    header = (
+        f"🚀 انطلاق تخفيضات {event} رسمياً الآن! 🛍️🔥{until_line}\n"
+        f"⏰ سارعوا بحجزها قبل نفاد الكمية{when} 🏃💨"
+    )
     return "\n\n".join([
-        f"🚀 انطلاق تخفيضات {event} رسمياً الآن! 🛍️🔥\n"
-        f"⏰ الكوبونات اشتغلت وبدأت بالعمل في هذه اللحظات{when}:\n"
-        "سارعوا بحجزها وتطبيقها فوراً في حساباتكم قبل نفاد الكميات المحدودة! 🏃💨",
-        _coupon_lines(coupons),
-        "⭕️ طريقة حجز الكوبونات وتثبيتها في حسابك الآن 🔥👌🏽:\n"
-        f"⚠️ ابدأ دائماً بالكوبونات الكبيرة (${_max_spend(coupons)} ...) ثم البقية واحداً تلو الآخر "
-        "باه يبقاو في حسابك طيلة التخفيضات وما يهربلكش الستوك ✅\n"
-        "🔹 طبّقوا الآن كامل الكوبونات على هذا المنتج باه تبقالكم في الحساب ⤵️\n"
-        f"{apply_url}",
+        header,
+        coupons_block,
+        reserve_block,
         FOOTER,
     ]).strip()
 
@@ -326,15 +383,20 @@ def build_bulletin_caption(raw_text: str, our_links: Sequence[str]) -> Optional[
             apply_url=our_links[1] if len(our_links) > 1 else our_links[0],
         )
     event = event_from_text(raw_text)
-    m_time = re.search(r'([0-9]{1,2}:[0-9]{2}\s*(?:صباحاً|مساءً)?)', raw_text)
+    norm_raw = re.sub(r'\u0640', '', raw_text)
+    m_time = re.search(r'([0-9]{1,2}:[0-9]{2}\s*(?:صباحاً|مساءً)?)', norm_raw)
+    m_until = re.search(r'إلى\s+غاية\s+([^\r\n📢🗓]+)', norm_raw)
     return format_normal_coupon_bulletin(
         coupons, apply_url=our_links[0],
-        event_name=event, start_time=m_time.group(1) if m_time else None,
+        event_name=event,
+        start_time=m_time.group(1) if m_time else None,
+        valid_until=m_until.group(1).strip() if m_until else None,
+        raw_text=raw_text,
     )
 
 
 def compact_photo_caption(caption: str, limit: int = 1000) -> str:
-    """Photo captions cap at 1024 chars — keep the essentials when longer."""
+    """Photo captions cap at 1024 chars — keep coupons & booking essentials cleanly when longer."""
     if len(caption) <= limit:
         return caption
     kept = []
@@ -342,14 +404,30 @@ def compact_photo_caption(caption: str, limit: int = 1000) -> str:
         s = line.strip()
         if not s:
             continue
-        if (s.startswith("🎟️ كوبون") or s.startswith("🚀")
+        if (s.startswith("🎟️ كوبون") or s.startswith("🚀") or s.startswith("🗓")
+                or s.startswith("✅") or s.startswith("💼") or s.startswith("⭕️")
+                or s.startswith("ادخل للرابط") or s.startswith("🔗")
                 or s.startswith("https://s.click.aliexpress.com")
                 or s.startswith("https://t.me/Alilo07BOT")
                 or "@DzAliexpress0" in s
                 or "dealscoutgreen.vercel.app" in s):
             kept.append(s)
-    out = "\n\n".join(kept)
-    return out[:limit].rsplit("\n", 1)[0] if len(out) > limit else out
+    # Single newlines keep 13+ coupons + reservation guide well under Telegram's 1024-char limit
+    out_lines = []
+    for idx, s in enumerate(kept):
+        prev = kept[idx - 1] if idx > 0 else ""
+        if idx > 0 and not (
+            (s.startswith("🎟️") and prev.startswith(("🎟️", "✅", "💼")))
+            or (s.startswith(("ادخل للرابط", "🔗", "https://s.click.")) and prev.startswith(("⭕️", "ادخل للرابط")))
+            or (s.startswith("🗓") and prev.startswith("🚀"))
+            or ("@DzAliexpress0" in s and "dealscoutgreen" in prev)
+        ):
+            out_lines.append("")
+        out_lines.append(s)
+    out = "\n".join(out_lines)
+    if len(out) <= limit:
+        return out
+    return out[:limit].rsplit("\n", 1)[0] if "\n" in out[:limit] else out[:limit]
 
 
 __all__ = [

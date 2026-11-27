@@ -208,3 +208,81 @@ def test_coupon_announcement_omits_scheduled_phrase_without_date_or_time():
     assert "في الموعد المحدد" not in cap
     assert "طبّق الكوبون مباشرة في صفحة الدفع عبر هذا الرابط" in cap
     assert apply_url in cap
+
+
+def test_anis_35749_combined_normal_business_and_auto_reserve_fits_cleanly():
+    from app.ai.coupon_bulletins import (
+        build_bulletin_caption,
+        compact_photo_caption,
+        coupons_from_text,
+        detect_bulletin_kind,
+        event_from_text,
+    )
+
+    raw = (
+        "🔥\n كوبونــات خاصـــة بمناسبــة \nتخفيضات الجمعـــة البيضـــاء\n"
+        "🗓 تعمـــل الان إلى غاية 3 ديسمبـــر 📢\n"
+        "✅ قــــــائمة الكـــــــــوبونات ⬇️⬇️\n"
+        "🎟️ كوبـــون 3/15$ : OTSBF03\n"
+        "🎟️ كوبـــون 4/24$ : OTSBF04\n"
+        "🎟️ كوبـــون 8/60$ : OTSBF08\n"
+        "🎟️ كوبـــون 19/115$ : OTSBF19\n"
+        "🎟️ كوبـــون 30/200$ : OTSBF30\n"
+        "🎟️ كوبـــون 34/209$ : OTSBF34\n"
+        "🎟️ كوبـــون 50/305$ : OTSBF79\n"
+        "🎟️ كوبـــون 66/405$ : OTSBF66\n"
+        "✅ قــــــائمة كـــــــــوبونات البــــــــزنيس ⬇️⬇️\n"
+        "🎟️ كوبـــون 90/689$ : AEBBF10\n"
+        "🎟️ كوبـــون 115/899$ : AEBBF11\n"
+        "🎟️ كوبـــون 125/1000$ : AEBBF12\n"
+        "🎟️ كوبـــون 185/1500$ : AEBBF31\n"
+        "🎟️ كوبـــون 185/1500$ : AEBBF32\n"
+        "طريقة حجز الكوبونات هي بالدخول لرابط المنتج ⬇️⬇️\n"
+        "https://s.click.aliexpress.com/e/_c3eYYZWZ\n"
+        "يعمل تلقائيا بدون اعادة نسخه مرة اخرى\n"
+    )
+    assert detect_bulletin_kind(raw) == "normal"
+    assert event_from_text(raw) == "الجمعة البيضاء"
+    assert len(coupons_from_text(raw)) == 13
+
+    our = ["https://s.click.aliexpress.com/e/_cOURRESERVE"]
+    cap = build_bulletin_caption(raw, our)
+    assert cap is not None
+    compact = compact_photo_caption(cap)
+    assert len(compact) <= 1024
+    for code in ["OTSBF03", "OTSBF66", "AEBBF10", "AEBBF32"]:
+        assert f"<code>{code}</code>" in compact
+    assert "البزنيس" in compact
+    assert "3 ديسمبر" in compact
+    assert our[0] in compact
+    assert "_c3eYYZWZ" not in compact
+
+
+def test_full_coupon_wall_not_blocked_by_small_partial_or_single_bulletin(tmp_path, monkeypatch):
+    import time
+    from app.publisher import state_tracker
+
+    state_file = str(tmp_path / "pub_state.json")
+    monkeypatch.setattr(state_tracker, "STATE_FILE_PATH", state_file)
+    monkeypatch.setattr(state_tracker, "_CACHED_CHANNEL_TEXTS", [])
+    state_tracker.save_persistent_state({
+        "published_coupon_bulletins": [{
+            "promo": "Black Friday & Cyber Monday",
+            "hash": "67c5d85c",
+            "codes": ["OTSBF03", "OTSBF04"],
+            "channel_msg_id": 3849,
+            "channel": "@DzAliexpress0",
+            "timestamp": time.time(),
+        }],
+        "published_product_timestamps": {"COUPONS_67c5d85c": time.time()},
+    })
+
+    full_wall = [{"tier": f"{i}/10$", "code": c} for i, c in enumerate(
+        ["OTSBF03", "OTSBF04", "OTSBF08", "OTSBF19", "OTSBF66", "AEBBF10", "AEBBF11"], 1
+    )]
+    is_dup, _ = state_tracker.is_coupon_bulletin_already_published(
+        coupon_list=full_wall,
+        promo_name="الجمعة البيضاء",
+        channel_id="@DzAliexpress0",
+    )
+    assert is_dup is False

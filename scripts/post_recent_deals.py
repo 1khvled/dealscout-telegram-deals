@@ -429,8 +429,16 @@ async def publish_coupon_bulletin(raw_text: str, source_channel: str, source_msg
         card_path = None
         event = event_from_text(raw_text) or ""
         # PIL fonts have no Arabic shaping — keep the image title Latin-only.
-        promo_title = event if event and not any('\u0600' <= ch <= '\u06ff' for ch in event) \
-            else ("Business" if kind == "business" else ("New Coupon" if kind == "single" else "Coupon Wall"))
+        if event and not any('\u0600' <= ch <= '\u06ff' for ch in event):
+            promo_title = event
+        elif "الجمعة" in event or "black friday" in event.lower():
+            promo_title = "Black Friday"
+        elif "سايبر" in event or "cyber" in event.lower():
+            promo_title = "Cyber Monday"
+        elif "Business" if kind == "business" else "":
+            promo_title = "Business"
+        else:
+            promo_title = "New Coupon" if kind == "single" else "Coupon Wall"
         try:
             card_path = media_renderer.render_coupon_bulletin_card(
                 [{"tier": t or "PROMO", "code": c} for t, c in coupons],
@@ -457,8 +465,9 @@ async def publish_coupon_bulletin(raw_text: str, source_channel: str, source_msg
                             mimetypes.guess_type(str(card_path))[0] or "image/png",
                         )},
                     )
-                # Long captions: post the full version as a threaded follow-up.
-                if resp.status_code == 200 and resp.json().get("ok") and photo_caption != caption:
+                # Long captions: only post a threaded follow-up when Business steps or coupons were omitted.
+                needs_followup = (kind == "business" or any(c not in photo_caption for _, c in coupons))
+                if resp.status_code == 200 and resp.json().get("ok") and photo_caption != caption and needs_followup:
                     await client.post(
                         f"https://api.telegram.org/bot{bot_token}/sendMessage",
                         json={

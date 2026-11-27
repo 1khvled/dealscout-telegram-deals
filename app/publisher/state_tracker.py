@@ -375,14 +375,23 @@ def is_coupon_bulletin_already_published(
     active_promo_name = promo_name or (active_p.name if active_p else None)
 
     bulletin_history = state.get("published_coupon_bulletins", [])
+    incoming_codes = {
+        c.get("code", "").strip().upper()
+        for c in (coupon_list or [])
+        if c.get("code")
+    }
+
     if active_promo_name:
         norm_promo = active_promo_name.lower().replace(" ", "").replace("_", "")
         for b in bulletin_history:
             b_promo = str(b.get("promo", "")).lower().replace(" ", "").replace("_", "")
             if norm_promo in b_promo or b_promo in norm_promo:
                 b_age = now - b.get("timestamp", 0)
-                # Within promo duration (e.g. 5 days = 120h)
                 if b_age < 120 * 3600:
+                    prev_codes = {str(x).strip().upper() for x in (b.get("codes") or []) if x}
+                    # Allow a richer coupon wall (e.g. full 8-13 tier Normal+Business list) if it adds >= 3 new codes
+                    if incoming_codes and prev_codes and len(incoming_codes - prev_codes) >= 3:
+                        continue
                     return True, f"A coupon bulletin for '{active_promo_name}' was already published {b_age/3600:.1f}h ago (Post #{b.get('channel_msg_id', 'active')})"
 
     # Check 2: Global timestamp cooldown across all published coupon bulletins (min 48h)
@@ -391,6 +400,14 @@ def is_coupon_bulletin_already_published(
         if p_key.startswith("COUPONS_") or p_key.startswith("EVENT_"):
             c_age = now - p_ts
             if c_age < cooldown_seconds:
+                if incoming_codes and len(incoming_codes) >= 4:
+                    # Do not let a single-code drop or 2-code snippet block a full coupon wall with unseen codes
+                    prev_union = set()
+                    for b in bulletin_history:
+                        if (now - b.get("timestamp", 0)) < cooldown_seconds:
+                            prev_union.update(str(x).strip().upper() for x in (b.get("codes") or []) if x)
+                    if len(incoming_codes - prev_union) >= 3:
+                        continue
                 return True, f"A coupon bulletin ({p_key}) was already published {c_age/3600:.1f}h ago (< {cooldown_hours:.0f}h cooldown)"
 
     # Check 3: Check cached live channel texts

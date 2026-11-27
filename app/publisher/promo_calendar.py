@@ -25,83 +25,144 @@ from app.aliexpress.promos import promo_tracker, PromoEvent
 from app.utils.logger import logger
 from app.utils.network import enforce_ipv4
 
-# Official AliExpress 2026 Promotion Calendar Image
-LOCAL_CALENDAR_PATH = os.path.join(os.path.dirname(__file__), "..", "assets", "official_calendar_november_2026.jpg")
-if not os.path.exists(LOCAL_CALENDAR_PATH):
-    LOCAL_CALENDAR_PATH = os.path.join(os.path.dirname(__file__), "..", "assets", "official_calendar_october_2026.jpg")
-if not os.path.exists(LOCAL_CALENDAR_PATH):
-    LOCAL_CALENDAR_PATH = r"C:\Users\Abdelli\Downloads\photo_2026-09-25_18-41-05.jpg"
+from pathlib import Path
 
+DZ_TZ = timezone(timedelta(hours=1))
+
+_ARABIC_MONTHS = {
+    1: "جانفي", 2: "فيفري", 3: "مارس", 4: "أفريل", 5: "ماي", 6: "جوان",
+    7: "جويلية", 8: "أوت", 9: "سبتمبر", 10: "أكتوبر", 11: "نوفمبر", 12: "ديسمبر",
+}
+
+_ASSETS_DIR = Path(settings.BASE_DIR) / "assets"
+LOCAL_CALENDAR_PATH = str(
+    next(
+        (p for p in [
+            _ASSETS_DIR / "dealscout_event_started.png",
+            _ASSETS_DIR / "official_calendar_november_2026.jpg",
+            _ASSETS_DIR / "official_calendar_october_2026.jpg",
+        ] if p.exists()),
+        _ASSETS_DIR / "dealscout_event_started.png",
+    )
+)
 CALENDAR_BANNER_IMG = "https://ae-pic-a1.aliexpress-media.com/kf/HTB18eCBQXXXXXXfXXXX760XFXXXa.png"
 
+
+def _format_ar_range(start_dt: datetime, end_dt: datetime) -> str:
+    s = start_dt.astimezone(DZ_TZ)
+    e = end_dt.astimezone(DZ_TZ)
+    # Cutoffs stored at 06:59 UTC / 07:59 DZ end on the previous calendar evening if < 08:00
+    s_m = _ARABIC_MONTHS.get(s.month, "")
+    e_m = _ARABIC_MONTHS.get(e.month, "")
+    if s.month == e.month:
+        return f"من {s.day} إلى {e.day} {e_m}"
+    return f"من {s.day} {s_m} إلى {e.day} {e_m}"
+
+
+def _active_and_upcoming_events(now: datetime, horizon_days: int = 21):
+    """Returns deduplicated active + upcoming PromoEvents (never already-ended ones)."""
+    from app.publisher.promo_notifiers import _campaign_key, _is_shadowed_placeholder
+
+    now_utc = now.astimezone(timezone.utc) if now.tzinfo else now.replace(tzinfo=timezone.utc)
+    horizon_end = now_utc + timedelta(days=horizon_days)
+    calendar = promo_tracker.calendar
+
+    candidates = []
+    for p in calendar:
+        if _is_shadowed_placeholder(p, calendar):
+            continue
+        if p.end_date < now_utc:
+            continue  # Skip already-ended sales
+        in_current_month = (
+            (p.start_date.year == now_utc.year and p.start_date.month == now_utc.month)
+            or (p.end_date.year == now_utc.year and p.end_date.month == now_utc.month)
+        )
+        starts_soon = p.start_date <= horizon_end
+        if in_current_month or starts_soon:
+            candidates.append(p)
+
+    # Sort chronologically and deduplicate identical campaign/date windows
+    candidates.sort(key=lambda e: (e.start_date, e.end_date))
+    deduped = []
+    seen_keys = set()
+    for p in candidates:
+        sig = (_campaign_key(p), p.start_date.date(), p.end_date.date())
+        if sig in seen_keys:
+            continue
+        seen_keys.add(sig)
+        deduped.append(p)
+    return deduped
+
+
+def _format_days_ar(n: int) -> str:
+    if n <= 1:
+        return "يوم واحد"
+    if n == 2:
+        return "يومين"
+    if 3 <= n <= 10:
+        return f"{n} أيام"
+    return f"{n} يوماً"
+
+
 def build_promo_calendar_post(now: Optional[datetime] = None) -> Tuple[str, Dict[str, Any]]:
-    """Builds a clean, high-impact monthly sales calendar post under 500 chars (fits Telegram photo captions)."""
+    """
+    Builds a live, time-aware promo calendar post under 600 chars:
+    - Never marks ended/past events as active.
+    - Shows currently running sales and upcoming sales within the next 21 days
+      (including next month when in the final days of the current month).
+    """
     if now is None:
         now = datetime.now(timezone.utc)
+    now_utc = now.astimezone(timezone.utc) if now.tzinfo else now.replace(tzinfo=timezone.utc)
+    now_dz = now_utc.astimezone(DZ_TZ)
 
-    # In late October (after Oct 17) or November, focus on the November blockbuster shopping season
-    if (now.month == 10 and now.day >= 18) or now.month == 11:
-        lines = [
-            "<blockquote>❗️ <b>رزنامة تخفيضات علي اكسبرس شهر نوفمبر 2026</b></blockquote>",
-            "",
-            "🎉 <b>شهر كامل من التخفيضات</b>",
-            "",
-            "✅ <b>من 1 الى 18 نوفمبر :</b> التخفيضات الكبرى 11.11",
-            "",
-            "✅ <b>من 19 الى 30 نوفمبر :</b> التخفيضات الكبرى Black Friday",
-            "",
-            "✅ <b>من 30 نوفمبر الى 3 ديسمبر :</b> تخفيضات Cyber Monday",
-            "",
-            "🔥 <b>إجمع العملات التي تحتاجها في العروض من هنا :</b>",
-            "https://s.click.aliexpress.com/e/_c4l391NX",
-            "",
-            "🤖 <b>البوت لتخفيض الاسعار :</b> https://t.me/Alilo07BOT",
-            "",
-            "📢 <b>قناة التيليجرام :</b> https://t.me/DzAliexpress0"
-        ]
-        return "\n".join(lines), {}
-
-    arabic_months = {
-        1: "جانفي", 2: "فيفري", 3: "مارس", 4: "أفريل", 5: "ماي", 6: "جوان",
-        7: "جويلية", 8: "أوت", 9: "سبتمبر", 10: "أكتوبر", 11: "نوفمبر", 12: "ديسمبر"
-    }
-    month_name = arabic_months.get(now.month, "")
-    year_str = str(now.year)
+    month_name = _ARABIC_MONTHS.get(now_dz.month, "")
+    events = _active_and_upcoming_events(now_utc)
+    # Check if events span into next month (e.g. Nov 27 -> shows Dec Choice Day)
+    next_month_dt = (now_dz.replace(day=28) + timedelta(days=4))
+    spans_next = any(e.start_date.astimezone(DZ_TZ).month == next_month_dt.month for e in events)
+    header_title = (
+        f"رزنامة تخفيضات علي إكسبريس ({month_name} - {_ARABIC_MONTHS.get(next_month_dt.month, '')} {next_month_dt.year})"
+        if spans_next
+        else f"رزنامة تخفيضات علي إكسبريس شهر {month_name} {now_dz.year}"
+    )
 
     lines = [
-        f"<blockquote>📅 <b>رزنامة تخفيضات علي اكسبرس شهر {month_name} {year_str} 🔥</b></blockquote>",
-        ""
+        f"<blockquote>📅 <b>{header_title}</b></blockquote>",
+        "",
     ]
 
-    # Filter events for current month
-    month_events = []
-    for p in promo_tracker.calendar:
-        if (p.start_date.year == now.year and p.start_date.month == now.month) or \
-           (p.end_date.year == now.year and p.end_date.month == now.month):
-            if p not in month_events:
-                month_events.append(p)
+    if events:
+        lines.append("🔔 <b>العروض الشغالة حالياً والقادمة قريباً:</b>")
+        for p in events:
+            label = p.name_ar or p.name
+            date_range = _format_ar_range(p.start_date, p.end_date)
+            if p.start_date <= now_utc <= p.end_date:
+                days_left = max(0, (p.end_date.astimezone(DZ_TZ).date() - now_dz.date()).days)
+                if days_left == 0:
+                    status = "تنتهي غداً صباحاً"
+                else:
+                    status = f"شغالة الآن • يتبقى {_format_days_ar(days_left)}"
+                icon = "🟢"
+            else:
+                days_to_start = max(1, (p.start_date.astimezone(DZ_TZ).date() - now_dz.date()).days)
+                status = "تنطلق غداً" if days_to_start == 1 else f"تنطلق بعد {_format_days_ar(days_to_start)}"
+                icon = "⏳"
 
-    for p in month_events:
-        s_day = p.start_date.day
-        e_day = p.end_date.day
-        if p.end_date < now:
-            status = "(انتهت)"
-        elif p.start_date <= now <= p.end_date:
-            status = "(شغالة الآن 🟢)"
-        elif (p.start_date - now).total_seconds() <= 86400:
-            status = "(تنطلق غداً ⏳)"
-        else:
-            days = (p.start_date - now).days
-            status = f"(بعد {days} أيام)"
+            lines.append("")
+            lines.append(f"{icon} <b>{label}</b>")
+            lines.append(f"   🗓 {date_range} ({status})")
+    else:
+        lines.append("✨ <b>ترقبوا إعلان مواعيد التخفيضات القادمة قريباً</b>")
 
-        lines.append(f"✅ <b>من {s_day} إلى {e_day} {month_name} :</b> {p.name} {status}")
-
-    lines.append("")
-    lines.append("🔥 <b>إجمع العملات التي تحتاجها في العروض من هنا :</b>")
-    lines.append("👉 https://s.click.aliexpress.com/e/_c4l391NX")
-    lines.append("")
-    lines.append("🤖 <b>البوت لتخفيض الأسعار :</b> @Alilo07BOT")
-    lines.append("📢 <b>قناة الصفقات المعتمدة :</b> @DzAliexpress0")
+    lines.extend([
+        "",
+        "🪙 <b>اجمع العملات التي تحتاجها في العروض من هنا :</b>",
+        "https://s.click.aliexpress.com/e/_c4l391NX",
+        "",
+        "🤖 <b>البوت لتخفيض الأسعار :</b> https://t.me/Alilo07BOT",
+        "📢 <b>قناة التيليجرام :</b> https://t.me/DzAliexpress0",
+    ])
 
     caption = "\n".join(lines)
     return caption, {}
@@ -168,14 +229,14 @@ async def publish_calendar_to_channel(bot_token: Optional[str] = None, channel_i
     api_url = f"https://api.telegram.org/bot{token}"
     try:
         async with httpx.AsyncClient(timeout=20.0) as client:
-            banner_img = os.path.join(os.path.dirname(__file__), "..", "assets", "dealscout_event_started.png")
+            banner_img = str(_ASSETS_DIR / "dealscout_event_started.png")
             if not os.path.exists(banner_img):
                 banner_img = LOCAL_CALENDAR_PATH
 
             if os.path.exists(banner_img):
                 with open(banner_img, "rb") as f:
                     mime = "image/png" if banner_img.endswith(".png") else "image/jpeg"
-                    files = {"photo": ("official_calendar.png", f, mime)}
+                    files = {"photo": (os.path.basename(banner_img), f, mime)}
                     data = {
                         "chat_id": target,
                         "caption": caption[:1024],

@@ -125,3 +125,17 @@ def test_promo_calendar_and_announcement_rejection():
     # Verify user_site.py has calendar filter in parseDealPost
     assert "isCalendarOrPromoNotice" in USER_WEBSITE_HTML
     assert "رزنامة" in USER_WEBSITE_HTML
+
+
+def test_promo_calendar_post_excludes_ended_events_and_includes_upcoming_december():
+    from datetime import datetime, timezone
+    from app.publisher.promo_calendar import build_promo_calendar_post
+
+    now = datetime(2026, 11, 27, 13, 0, tzinfo=timezone.utc)
+    cap, _ = build_promo_calendar_post(now)
+    assert "11.11" not in cap
+    assert "من 1 الى 18 نوفمبر" not in cap
+    assert "Black Friday" in cap
+    assert "Choice Day" in cap
+    assert "شغالة الآن" in cap
+    assert "تنطلق بعد" in cap
