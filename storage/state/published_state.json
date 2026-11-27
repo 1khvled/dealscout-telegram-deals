@@ -1444,7 +1444,7 @@
     "COUPONS_d131dda7a0e3": 1793478717.5768087,
     "COUPONS_d131dda7": 1793478717.5923967,
     "COUPONS_11.11 Global Shopping Festival Warm-Up": 1793478717.5923967,
-    "1005008518280704": 1795687700.6632907,
+    "1005008518280704": 1795770826.4866548,
     "1005010527736444": 1793478769.6023057,
     "1005013450996845": 1794995476.4520917,
     "1005013144753309": 1794771014.8038359,
@@ -1757,7 +1757,7 @@
     "1005013422894128": 1794487083.9711623,
     "1005010297094897": 1794657082.5305285,
     "1005009012821000": 1794502225.0175712,
-    "1005013485724377": 1795722522.4327238,
+    "1005013485724377": 1795770820.4616446,
     "1005012783197164": 1794606646.2896297,
     "1005012993724126": 1794515920.3397443,
     "1005012726037568": 1795768795.3843074,
@@ -4198,7 +4198,7 @@
     "Kootion SSD SATA": 1795716846.7283542,
     "KOOTION SATA SSD 128GB": 1795768795.3843074,
     "Kingston DataTraveler 128GB": 1795249207.7202265,
-    "CUSU CV3500  M.2 NVMe SSD (1tb)": 1795687700.6632907,
+    "CUSU CV3500  M.2 NVMe SSD (1tb)": 1795770826.4866548,
     "Kootion X15 M.2 NVMe 256GB": 1794346230.0535362,
     "Baseus BS2 Lite": 1794349536.4429784,
     "حجز وتجدد كوبونات 11.11": 1794363974.314961,
@@ -4262,7 +4262,7 @@
     "FANTECH SHOOTER III WGP13S": 1794501299.95393,
     "DITONG X3Plus  4K WIFI6": 1794502225.0175712,
     "Lenovo Legion Y900 11 Tablet CN Version MediaTek Dimensity 9500S": 1795000279.9355009,
-    "realme Original Adapter SUPERVOOC Charger 45W": 1795687694.0019987,
+    "realme Original Adapter SUPERVOOC Charger 45W": 1795770820.4616446,
     "EPOMAKER GX1 Tri-mode": 1794606646.2896297,
     "WALRAM M.2  128GB": 1794515920.3397443,
     "Portable Magnetic Phone": 1795291139.3742876,
@@ -4547,8 +4547,6 @@
     "ال KOOTION SSD 256GB ب 15.56": 1795768399.4567664
   },
   "published_post_keys": [
-    "aniscoupons:34909",
-    "zedstoreonline:40169",
     "zedstoreonline:40170",
     "aniscoupons:34911",
     "zedstoreonline:40172",
@@ -5546,11 +5544,13 @@
     "aniscoupons:35719",
     "aniscoupons:35721",
     "aniscoupons:35724",
-    "aniscoupons:35725"
+    "aniscoupons:35725",
+    "aniscoupons:35726",
+    "aniscoupons:35728"
   ],
   "last_disclaimer_time": 1795735529.6558404,
   "last_calendar_time": 1795177633.1203737,
-  "last_run_time": 1795769724.109199,
+  "last_run_time": 1795770826.4866548,
   "monitored_channels": {
     "ecksdeal": {
       "last_message_id": 6148,
@@ -5577,12 +5577,12 @@
       "last_check_time": 1793599663.3444748
     },
     "zedstoreonline": {
-      "last_message_id": 40763,
-      "last_check_time": 1795769334.7522295
+      "last_message_id": 40764,
+      "last_check_time": 1795770804.4955876
     },
     "aniscoupons": {
-      "last_message_id": 35725,
-      "last_check_time": 1795769726.2274554
+      "last_message_id": 35728,
+      "last_check_time": 1795770828.5698862
     },
     "bnddeals": {
       "last_message_id": 51423,
@@ -5970,7 +5970,7 @@
     "1005013037972159": 85.7,
     "1005013081860728": 111.1,
     "1005013045114640": 100.4,
-    "1005008518280704": 177.6,
+    "1005008518280704": 177.7,
     "1005010527736444": 298.0,
     "1005013450996845": 212.48,
     "1005012171521680": 277.26,
@@ -6253,7 +6253,7 @@
     "1005013422894128": 499.5,
     "1005010297094897": 44.8,
     "1005009012821000": 87.8,
-    "1005013485724377": 11.38,
+    "1005013485724377": 11.5,
     "1005012783197164": 36.46,
     "1005012993724126": 15.6,
     "1005012726037568": 7.5,
@@ -35424,6 +35424,26 @@
       "price": 11.1,
       "timestamp": 1795769724.109199,
       "status": "ACTIVE"
+    },
+    "aniscoupons:35726": {
+      "channel_msg_id": 3855,
+      "product_id": "1005013485724377",
+      "title": "realme Original Adapter SUPERVOOC Charger 45W",
+      "channel": "aniscoupons",
+      "source_msg_id": 35726,
+      "price": 11.5,
+      "timestamp": 1795770820.4616446,
+      "status": "ACTIVE"
+    },
+    "aniscoupons:35728": {
+      "channel_msg_id": 3856,
+      "product_id": "1005008518280704",
+      "title": "CUSU CV3500  M.2 NVMe SSD (1tb)",
+      "channel": "aniscoupons",
+      "source_msg_id": 35728,
+      "price": 177.7,
+      "timestamp": 1795770826.4866548,
+      "status": "ACTIVE"
     }
   },
   "schedule_config": {
@@ -35432,17 +35452,17 @@
     "current_interval_minutes": 5,
     "is_paused": false,
     "night_mode_enabled": true,
-    "last_deal_post_time": 1795769736.2629168,
+    "last_deal_post_time": 1795770837.8191872,
     "night_start_hour_dz": 0,
     "night_end_hour_dz": 8,
     "night_pause_enabled": true,
-    "last_sweep_time": 1795770615.875535,
+    "last_sweep_time": 1795770841.6394181,
     "last_sweep_times": {
-      "algeria": 1795770608.2770176,
-      "france": 1795770615.875535
+      "algeria": 1795770837.7814105,
+      "france": 1795770841.6394181
     },
     "last_deal_post_times": {
-      "algeria": 1795769736.2629168
+      "algeria": 1795770837.8191872
     }
   },
   "last_coin_reminder_time": 1795648937.9274871,
@@ -36227,7 +36247,7 @@
     "1005013422894128": "aniscoupons",
     "1005010297094897": "aniscoupons",
     "1005009012821000": "lodydeals",
-    "1005013485724377": "lodydeals",
+    "1005013485724377": "aniscoupons",
     "1005012783197164": "lodydeals",
     "1005012993724126": "aniscoupons",
     "1005012726037568": "aniscoupons",
@@ -38521,8 +38541,6 @@
   "published_deals_history": {},
   "settings": {},
   "handled_post_keys": [
-    "aniscoupons:34900",
-    "zedstoreonline:40159",
     "zedstoreonline:40160",
     "aniscoupons:34903",
     "zedstoreonline:40165",
@@ -39520,7 +39538,9 @@
     "bnddeals:51423",
     "zedstoreonline:40763",
     "lodydeals:46946",
-    "lodydeals:46947"
+    "lodydeals:46947",
+    "zedstoreonline:40764",
+    "aniscoupons:35727"
   ],
   "last_france_cross_promo_time": 1795757211.9224837,
   "next_france_cross_promo_interval_seconds": 197705,
@@ -40112,13 +40132,6 @@
         "price": 138.0
       }
     ],
-    "1005007869955343": [
-      {
-        "channel": "zedstoreonline",
-        "ts": 1795727519.5259767,
-        "price": 37.5
-      }
-    ],
     "1005011778621042": [
       {
         "channel": "ecksdeal",
@@ -40425,6 +40438,11 @@
         "channel": "aniscoupons",
         "ts": 1795768793.3495755,
         "price": 7.5
+      },
+      {
+        "channel": "aniscoupons",
+        "ts": 1795770823.1656647,
+        "price": 7.5
       }
     ],
     "1005012285327063": [
@@ -40432,6 +40450,20 @@
         "channel": "aniscoupons",
         "ts": 1795769721.1488795,
         "price": 11.1
+      }
+    ],
+    "1005013485724377": [
+      {
+        "channel": "aniscoupons",
+        "ts": 1795770818.3952138,
+        "price": 11.5
+      }
+    ],
+    "1005008518280704": [
+      {
+        "channel": "aniscoupons",
+        "ts": 1795770824.388572,
+        "price": 177.7
       }
     ]
   },
