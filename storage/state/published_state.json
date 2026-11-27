@@ -1768,7 +1768,7 @@
     "1005013485724377": 1795770820.4616446,
     "1005012783197164": 1794606646.2896297,
     "1005012993724126": 1794515920.3397443,
-    "1005012726037568": 1795768795.3843074,
+    "1005012726037568": 1795792607.7185977,
     "1005011940143389": 1795291139.3742876,
     "1005010374799328": 1794524370.7043138,
     "1005010487219975": 1794524381.8060858,
@@ -3275,7 +3275,8 @@
     "IPhone 14 Pro Max 6/128GB",
     "TCL alcatel 1023",
     "الmouse لوووووووووووز🖱️",
-    "Honor Win Turbo 12/25"
+    "Honor Win Turbo 12/25",
+    "KOOTION SATA SSD 128GB   7.5"
   ],
   "published_title_timestamps": {
     "Xiaomi Redmi Note 17 5G Global Version": 1790857823.0117362,
@@ -4578,10 +4579,10 @@
     "IPhone 14 Pro Max 6/128GB": 1795779586.365553,
     "TCL alcatel 1023": 1795782882.6064954,
     "الmouse لوووووووووووز🖱️": 1795791688.6423583,
-    "Honor Win Turbo 12/25": 1795792426.240089
+    "Honor Win Turbo 12/25": 1795792426.240089,
+    "KOOTION SATA SSD 128GB   7.5": 1795792607.7185977
   },
   "published_post_keys": [
-    "zedstoreonline:40206",
     "aniscoupons:34948",
     "zedstoreonline:40208",
     "aniscoupons:34949",
@@ -5580,11 +5581,12 @@
     "bnddeals:51426",
     "zedstoreonline:40790",
     "zedstoreonline:40791",
-    "zedstoreonline:40792"
+    "zedstoreonline:40792",
+    "zedstoreonline:40793"
   ],
   "last_disclaimer_time": 1795735529.6558404,
   "last_calendar_time": 1795782506.7435975,
-  "last_run_time": 1795792426.240089,
+  "last_run_time": 1795792607.7185977,
   "monitored_channels": {
     "ecksdeal": {
       "last_message_id": 6149,
@@ -5611,8 +5613,8 @@
       "last_check_time": 1793599663.3444748
     },
     "zedstoreonline": {
-      "last_message_id": 40792,
-      "last_check_time": 1795792428.32387
+      "last_message_id": 40793,
+      "last_check_time": 1795792609.8253012
     },
     "aniscoupons": {
       "last_message_id": 35760,
@@ -35973,6 +35975,16 @@
       "price": 356.0,
       "timestamp": 1795792426.240089,
       "status": "ACTIVE"
+    },
+    "zedstoreonline:40793": {
+      "channel_msg_id": 3911,
+      "product_id": "1005012726037568",
+      "title": "KOOTION SATA SSD 128GB   7.5",
+      "channel": "zedstoreonline",
+      "source_msg_id": 40793,
+      "price": 7.5,
+      "timestamp": 1795792607.7185977,
+      "status": "ACTIVE"
     }
   },
   "schedule_config": {
@@ -35981,17 +35993,17 @@
     "current_interval_minutes": 5,
     "is_paused": false,
     "night_mode_enabled": true,
-    "last_deal_post_time": 1795792430.3963304,
+    "last_deal_post_time": 1795792611.9968407,
     "night_start_hour_dz": 0,
     "night_end_hour_dz": 8,
     "night_pause_enabled": true,
-    "last_sweep_time": 1795792432.389135,
+    "last_sweep_time": 1795792614.3318808,
     "last_sweep_times": {
-      "algeria": 1795792430.3582962,
-      "france": 1795792432.389135
+      "algeria": 1795792611.9506445,
+      "france": 1795792614.3318808
     },
     "last_deal_post_times": {
-      "algeria": 1795792430.3963304
+      "algeria": 1795792611.9968407
     }
   },
   "last_coin_reminder_time": 1795648937.9274871,
@@ -36779,7 +36791,7 @@
     "1005013485724377": "aniscoupons",
     "1005012783197164": "lodydeals",
     "1005012993724126": "aniscoupons",
-    "1005012726037568": "aniscoupons",
+    "1005012726037568": "zedstoreonline",
     "1005011940143389": "lodydeals",
     "1005010374799328": "lodydeals",
     "1005010487219975": "lodydeals",
@@ -38288,7 +38300,8 @@
     "IPhone 14 Pro Max 6/128GB": "lodydeals",
     "TCL alcatel 1023": "lodydeals",
     "الmouse لوووووووووووز🖱️": "bnddeals",
-    "Honor Win Turbo 12/25": "zedstoreonline"
+    "Honor Win Turbo 12/25": "zedstoreonline",
+    "KOOTION SATA SSD 128GB   7.5": "zedstoreonline"
   },
   "religious_reminders_history": {
     "mock_rem": "2026-10-02",
@@ -41279,6 +41292,11 @@
       {
         "channel": "aniscoupons",
         "ts": 1795770823.1656647,
+        "price": 7.5
+      },
+      {
+        "channel": "zedstoreonline",
+        "ts": 1795792604.988694,
         "price": 7.5
       }
     ],
