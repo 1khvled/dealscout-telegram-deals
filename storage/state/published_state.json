@@ -1919,7 +1919,7 @@
     "COUPONBULLETIN_zedstoreonline_40639": 1795525562.3674622,
     "1005008304362437": 1795526475.8421245,
     "1005006995294624": 1795527391.8790212,
-    "1005012899783721": 1795701094.6472647,
+    "1005012899783721": 1795782882.6064954,
     "1005013423776757": 1795603012.8186684,
     "1005012383444183": 1795710915.2604535,
     "1005013519635614": 1795546736.9831076,
@@ -3266,7 +3266,8 @@
     "Honor WIN Turbo 2 12/256",
     "16.8V Cordless Drill Driver Rechargeable Electric Screwdriver",
     "أفضل عروض الهواتف بكوبون 66$",
-    "IPhone 14 Pro Max 6/128GB"
+    "IPhone 14 Pro Max 6/128GB",
+    "TCL alcatel 1023"
   ],
   "published_title_timestamps": {
     "Xiaomi Redmi Note 17 5G Global Version": 1790857823.0117362,
@@ -4566,10 +4567,10 @@
     "Honor WIN Turbo 2 12/256": 1795776529.3127697,
     "16.8V Cordless Drill Driver Rechargeable Electric Screwdriver": 1795776652.4223523,
     "أفضل عروض الهواتف بكوبون 66$": 1795779486.0734122,
-    "IPhone 14 Pro Max 6/128GB": 1795779586.365553
+    "IPhone 14 Pro Max 6/128GB": 1795779586.365553,
+    "TCL alcatel 1023": 1795782882.6064954
   },
   "published_post_keys": [
-    "aniscoupons:34933",
     "zedstoreonline:40189",
     "lodydeals:46518",
     "lodydeals:46519",
@@ -5568,19 +5569,20 @@
     "aniscoupons:35745",
     "zedstoreonline:40776",
     "lodydeals:46953",
-    "lodydeals:46954"
+    "lodydeals:46954",
+    "lodydeals:46955"
   ],
   "last_disclaimer_time": 1795735529.6558404,
   "last_calendar_time": 1795782506.7435975,
-  "last_run_time": 1795779586.365553,
+  "last_run_time": 1795782882.6064954,
   "monitored_channels": {
     "ecksdeal": {
       "last_message_id": 6148,
       "last_check_time": 1795767105.275191
     },
     "lodydeals": {
-      "last_message_id": 46954,
-      "last_check_time": 1795779588.4496286
+      "last_message_id": 46955,
+      "last_check_time": 1795782884.7619567
     },
     "test_channel": {
       "last_message_id": 1793967703,
@@ -5603,8 +5605,8 @@
       "last_check_time": 1795777016.814921
     },
     "aniscoupons": {
-      "last_message_id": 35746,
-      "last_check_time": 1795780873.5997026
+      "last_message_id": 35747,
+      "last_check_time": 1795782889.1337674
     },
     "bnddeals": {
       "last_message_id": 51425,
@@ -6423,7 +6425,7 @@
     "1005007035077896": 8.4,
     "1005008304362437": 26.26,
     "1005006995294624": 12.87,
-    "1005012899783721": 6.84,
+    "1005012899783721": 6.85,
     "1005013423776757": 3.52,
     "1005012383444183": 22.35,
     "1005013519635614": 273.26,
@@ -35780,6 +35782,16 @@
       "price": 371.6,
       "timestamp": 1795779586.365553,
       "status": "ACTIVE"
+    },
+    "lodydeals:46955": {
+      "channel_msg_id": 3889,
+      "product_id": "1005012899783721",
+      "title": "TCL alcatel 1023",
+      "channel": "lodydeals",
+      "source_msg_id": 46955,
+      "price": 6.85,
+      "timestamp": 1795782882.6064954,
+      "status": "ACTIVE"
     }
   },
   "schedule_config": {
@@ -35788,17 +35800,17 @@
     "current_interval_minutes": 5,
     "is_paused": false,
     "night_mode_enabled": true,
-    "last_deal_post_time": 1795779591.3333542,
+    "last_deal_post_time": 1795782890.4480293,
     "night_start_hour_dz": 0,
     "night_end_hour_dz": 8,
     "night_pause_enabled": true,
-    "last_sweep_time": 1795782707.9858394,
+    "last_sweep_time": 1795782896.262665,
     "last_sweep_times": {
-      "algeria": 1795782703.3609982,
-      "france": 1795782707.9858394
+      "algeria": 1795782890.3892736,
+      "france": 1795782896.262665
     },
     "last_deal_post_times": {
-      "algeria": 1795779591.3333542
+      "algeria": 1795782890.4480293
     }
   },
   "last_coin_reminder_time": 1795648937.9274871,
@@ -36736,7 +36748,7 @@
     "COUPONBULLETIN_zedstoreonline_40639": "zedstoreonline",
     "1005008304362437": "ecksdeal",
     "1005006995294624": "ecksdeal",
-    "1005012899783721": "aniscoupons",
+    "1005012899783721": "lodydeals",
     "1005013423776757": "lodydeals",
     "1005012383444183": "aniscoupons",
     "1005013519635614": "aniscoupons",
@@ -38090,7 +38102,8 @@
     "Honor WIN Turbo 2 12/256": "zedstoreonline",
     "16.8V Cordless Drill Driver Rechargeable Electric Screwdriver": "aniscoupons",
     "أفضل عروض الهواتف بكوبون 66$": "lodydeals",
-    "IPhone 14 Pro Max 6/128GB": "lodydeals"
+    "IPhone 14 Pro Max 6/128GB": "lodydeals",
+    "TCL alcatel 1023": "lodydeals"
   },
   "religious_reminders_history": {
     "mock_rem": "2026-10-02",
@@ -38888,7 +38901,6 @@
   "published_deals_history": {},
   "settings": {},
   "handled_post_keys": [
-    "zedstoreonline:40182",
     "lodydeals:46507",
     "zedstoreonline:40185",
     "lodydeals:46510",
@@ -39887,7 +39899,8 @@
     "lodydeals:46951",
     "lodydeals:46952",
     "lodydeals:46953",
-    "aniscoupons:35746"
+    "aniscoupons:35746",
+    "aniscoupons:35747"
   ],
   "last_france_cross_promo_time": 1795757211.9224837,
   "next_france_cross_promo_interval_seconds": 197705,
@@ -41318,6 +41331,18 @@
         "channel": "lodydeals",
         "ts": 1795778485.7579703,
         "price": 16.08
+      }
+    ],
+    "1005012899783721": [
+      {
+        "channel": "lodydeals",
+        "ts": 1795782879.7250383,
+        "price": 6.85
+      },
+      {
+        "channel": "aniscoupons",
+        "ts": 1795782888.9224148,
+        "price": 6.84
       }
     ]
   },
