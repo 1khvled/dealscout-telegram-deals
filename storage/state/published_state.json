@@ -1865,7 +1865,7 @@
     "1005013354356242": 1795182504.6024845,
     "1005013117620640": 1795183540.495267,
     "1005013048908707": 1795183557.3230655,
-    "1005011955602754": 1795612840.4787066,
+    "1005011955602754": 1795790775.502236,
     "1005012484548468": 1795185596.5947275,
     "1005013052070984": 1795185803.549076,
     "1005010340916961": 1795185821.1731942,
@@ -4438,7 +4438,7 @@
     "TCL 60 NXTPAPER 8/256": 1795182900.2959979,
     "ماوس لاسلكي بألياف الكربون Attack Shark RS6 Ultra 8K Carbon": 1795183540.495267,
     "بروجكتور Magcubic HY300 max": 1795521256.5995085,
-    "ViVO iQOO Z11  8/256": 1795612840.4787066,
+    "ViVO iQOO Z11  8/256": 1795790775.502236,
     "Redmi Note 17 Pro 5G (6/128GB)": 1795184587.079662,
     "Honor 600 Lite 5G 8/256GB": 1795185596.5947275,
     "Vivo Y500 Pro (8/128GB)": 1795186378.654721,
@@ -4577,7 +4577,6 @@
     "TCL alcatel 1023": 1795782882.6064954
   },
   "published_post_keys": [
-    "zedstoreonline:40199",
     "aniscoupons:34943",
     "zedstoreonline:40203",
     "aniscoupons:34944",
@@ -5576,11 +5575,12 @@
     "zedstoreonline:40785",
     "aniscoupons:35757",
     "zedstoreonline:40786",
-    "aniscoupons:35758"
+    "aniscoupons:35758",
+    "zedstoreonline:40787"
   ],
   "last_disclaimer_time": 1795735529.6558404,
   "last_calendar_time": 1795782506.7435975,
-  "last_run_time": 1795790594.8681092,
+  "last_run_time": 1795790775.502236,
   "monitored_channels": {
     "ecksdeal": {
       "last_message_id": 6149,
@@ -5607,12 +5607,12 @@
       "last_check_time": 1793599663.3444748
     },
     "zedstoreonline": {
-      "last_message_id": 40786,
-      "last_check_time": 1795790590.824621
+      "last_message_id": 40787,
+      "last_check_time": 1795790777.605544
     },
     "aniscoupons": {
-      "last_message_id": 35758,
-      "last_check_time": 1795790596.9906938
+      "last_message_id": 35759,
+      "last_check_time": 1795790782.5849316
     },
     "bnddeals": {
       "last_message_id": 51425,
@@ -35899,6 +35899,16 @@
       "price": 21.5,
       "timestamp": 1795790594.8681092,
       "status": "ACTIVE"
+    },
+    "zedstoreonline:40787": {
+      "channel_msg_id": 3904,
+      "product_id": "1005011955602754",
+      "title": "ViVO iQOO Z11  8/256",
+      "channel": "zedstoreonline",
+      "source_msg_id": 40787,
+      "price": 313.0,
+      "timestamp": 1795790775.502236,
+      "status": "ACTIVE"
     }
   },
   "schedule_config": {
@@ -35907,17 +35917,17 @@
     "current_interval_minutes": 5,
     "is_paused": false,
     "night_mode_enabled": true,
-    "last_deal_post_time": 1795790598.43319,
+    "last_deal_post_time": 1795790783.55199,
     "night_start_hour_dz": 0,
     "night_end_hour_dz": 8,
     "night_pause_enabled": true,
-    "last_sweep_time": 1795790600.4747212,
+    "last_sweep_time": 1795790785.5013607,
     "last_sweep_times": {
-      "algeria": 1795790598.3765483,
-      "france": 1795790600.4747212
+      "algeria": 1795790783.5077105,
+      "france": 1795790785.5013607
     },
     "last_deal_post_times": {
-      "algeria": 1795790598.43319
+      "algeria": 1795790783.55199
     }
   },
   "last_coin_reminder_time": 1795648937.9274871,
@@ -39010,7 +39020,6 @@
   "published_deals_history": {},
   "settings": {},
   "handled_post_keys": [
-    "aniscoupons:34929",
     "zedstoreonline:40188",
     "aniscoupons:34930",
     "aniscoupons:34931",
@@ -40009,7 +40018,8 @@
     "aniscoupons:35753",
     "aniscoupons:35754",
     "aniscoupons:35755",
-    "zedstoreonline:40783"
+    "zedstoreonline:40783",
+    "aniscoupons:35759"
   ],
   "last_france_cross_promo_time": 1795757211.9224837,
   "next_france_cross_promo_interval_seconds": 197705,
@@ -40796,11 +40806,6 @@
     ],
     "1005012406142215": [
       {
-        "channel": "zedstoreonline",
-        "ts": 1795767656.121639,
-        "price": 356.0
-      },
-      {
         "channel": "bnddeals",
         "ts": 1795767669.1325622,
         "price": 356.0
@@ -40943,6 +40948,11 @@
       {
         "channel": "zedstoreonline",
         "ts": 1795776646.8294036,
+        "price": 356.0
+      },
+      {
+        "channel": "aniscoupons",
+        "ts": 1795790782.4187803,
         "price": 356.0
       }
     ],
@@ -41537,6 +41547,13 @@
         "channel": "aniscoupons",
         "ts": 1795790592.8046458,
         "price": 21.5
+      }
+    ],
+    "1005011955602754": [
+      {
+        "channel": "zedstoreonline",
+        "ts": 1795790772.8459187,
+        "price": 313.0
       }
     ]
   },
