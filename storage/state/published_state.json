@@ -5590,7 +5590,7 @@
     },
     "bnddeals": {
       "last_message_id": 51423,
-      "last_check_time": 1795768451.47595
+      "last_check_time": 1795775008.0032594
     }
   },
   "published_product_prices": {
@@ -35610,10 +35610,10 @@
     "night_start_hour_dz": 0,
     "night_end_hour_dz": 8,
     "night_pause_enabled": true,
-    "last_sweep_time": 1795774867.2260292,
+    "last_sweep_time": 1795775016.369738,
     "last_sweep_times": {
-      "algeria": 1795774860.807686,
-      "france": 1795774867.2260292
+      "algeria": 1795775011.5746944,
+      "france": 1795775016.369738
     },
     "last_deal_post_times": {
       "algeria": 1795774342.2310011
@@ -38697,7 +38697,6 @@
   "published_deals_history": {},
   "settings": {},
   "handled_post_keys": [
-    "aniscoupons:34912",
     "lodydeals:46496",
     "lodydeals:46497",
     "lodydeals:46498",
@@ -39696,7 +39695,8 @@
     "lodydeals:46950",
     "zedstoreonline:40769",
     "aniscoupons:35735",
-    "zedstoreonline:40773"
+    "zedstoreonline:40773",
+    "bnddeals:51421"
   ],
   "last_france_cross_promo_time": 1795757211.9224837,
   "next_france_cross_promo_interval_seconds": 197705,
@@ -40421,6 +40421,11 @@
         "channel": "lodydeals",
         "ts": 1795774439.8714259,
         "price": 356.59
+      },
+      {
+        "channel": "lodydeals",
+        "ts": 1795774991.1728554,
+        "price": 356.59
       }
     ],
     "1005011557016158": [
@@ -40574,6 +40579,11 @@
       {
         "channel": "zedstoreonline",
         "ts": 1795774445.5536275,
+        "price": 356.0
+      },
+      {
+        "channel": "zedstoreonline",
+        "ts": 1795774997.3227577,
         "price": 356.0
       }
     ],
@@ -40783,6 +40793,16 @@
       {
         "channel": "bnddeals",
         "ts": 1795774454.9992232,
+        "price": 413.0
+      },
+      {
+        "channel": "aniscoupons",
+        "ts": 1795775002.7693837,
+        "price": 413.9
+      },
+      {
+        "channel": "bnddeals",
+        "ts": 1795775007.9255483,
         "price": 413.0
       }
     ],
