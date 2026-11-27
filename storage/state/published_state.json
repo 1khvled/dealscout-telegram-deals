@@ -966,7 +966,8 @@
     "1005012649756781",
     "TAJMI3AT_lodydeals_46931",
     "TAJMI3AT_aniscoupons_35714",
-    "COUPONBULLETIN_aniscoupons_35715"
+    "COUPONBULLETIN_aniscoupons_35715",
+    "ADHOC_zedstoreonline_40754"
   ],
   "published_product_timestamps": {
     "1005012973772517": 1794500732.7845657,
@@ -1951,7 +1952,8 @@
     "1005012649756781": 1795723352.671799,
     "TAJMI3AT_lodydeals_46931": 1795725772.5983655,
     "TAJMI3AT_aniscoupons_35714": 1795735545.167229,
-    "COUPONBULLETIN_aniscoupons_35715": 1795766374.1148407
+    "COUPONBULLETIN_aniscoupons_35715": 1795766374.1148407,
+    "ADHOC_zedstoreonline_40754": 1795766551.2326825
   },
   "published_titles": [
     "Wireless WiFi Repeater 300Mbps WiFi Extender Amplifier Booster Router",
@@ -3236,7 +3238,8 @@
     "WALRAM SSD M2 512GBx2",
     "OPPO K15 (12/256GB)",
     "يأتي ببطارية عملاقة 8000mAh",
-    "الححححححححق اجمع الكوبون من هنا"
+    "الححححححححق اجمع الكوبون من هنا",
+    "الححححححححق قم بالحجز من هنا"
   ],
   "published_title_timestamps": {
     "Xiaomi Redmi Note 17 5G Global Version": 1790857823.0117362,
@@ -4526,10 +4529,10 @@
     "WALRAM SSD M2 512GBx2": 1795725749.4645073,
     "OPPO K15 (12/256GB)": 1795725764.1692784,
     "يأتي ببطارية عملاقة 8000mAh": 1795725772.5983655,
-    "الححححححححق اجمع الكوبون من هنا": 1795766374.1148407
+    "الححححححححق اجمع الكوبون من هنا": 1795766374.1148407,
+    "الححححححححق قم بالحجز من هنا": 1795766551.2326825
   },
   "published_post_keys": [
-    "zedstoreonline:40158",
     "aniscoupons:34902",
     "zedstoreonline:40161",
     "zedstoreonline:40162",
@@ -5528,11 +5531,12 @@
     "ecksdeal:6145",
     "zedstoreonline:40752",
     "aniscoupons:35714",
-    "aniscoupons:35715"
+    "aniscoupons:35715",
+    "zedstoreonline:40754"
   ],
   "last_disclaimer_time": 1795735529.6558404,
   "last_calendar_time": 1795177633.1203737,
-  "last_run_time": 1795766374.1148407,
+  "last_run_time": 1795766551.2326825,
   "monitored_channels": {
     "ecksdeal": {
       "last_message_id": 6146,
@@ -5559,8 +5563,8 @@
       "last_check_time": 1793599663.3444748
     },
     "zedstoreonline": {
-      "last_message_id": 40753,
-      "last_check_time": 1795735537.4622455
+      "last_message_id": 40754,
+      "last_check_time": 1795766551.396819
     },
     "aniscoupons": {
       "last_message_id": 35715,
@@ -35296,6 +35300,16 @@
       "price": null,
       "timestamp": 1795766374.1148407,
       "status": "ACTIVE"
+    },
+    "zedstoreonline:40754": {
+      "channel_msg_id": 3843,
+      "product_id": "ADHOC_zedstoreonline_40754",
+      "title": "الححححححححق قم بالحجز من هنا",
+      "channel": "zedstoreonline",
+      "source_msg_id": 40754,
+      "price": null,
+      "timestamp": 1795766551.2326825,
+      "status": "ACTIVE"
     }
   },
   "schedule_config": {
@@ -35304,17 +35318,17 @@
     "current_interval_minutes": 5,
     "is_paused": false,
     "night_mode_enabled": true,
-    "last_deal_post_time": 1795766375.3967843,
+    "last_deal_post_time": 1795766553.2092288,
     "night_start_hour_dz": 0,
     "night_end_hour_dz": 8,
     "night_pause_enabled": true,
-    "last_sweep_time": 1795766379.6187592,
+    "last_sweep_time": 1795766556.7023363,
     "last_sweep_times": {
-      "algeria": 1795766375.341539,
-      "france": 1795766379.6187592
+      "algeria": 1795766553.1556954,
+      "france": 1795766556.7023363
     },
     "last_deal_post_times": {
-      "algeria": 1795766375.3967843
+      "algeria": 1795766553.2092288
     }
   },
   "last_coin_reminder_time": 1795648937.9274871,
@@ -36294,7 +36308,8 @@
     "1005012649756781": "ecksdeal",
     "TAJMI3AT_lodydeals_46931": "lodydeals",
     "TAJMI3AT_aniscoupons_35714": "aniscoupons",
-    "COUPONBULLETIN_aniscoupons_35715": "aniscoupons"
+    "COUPONBULLETIN_aniscoupons_35715": "aniscoupons",
+    "ADHOC_zedstoreonline_40754": "zedstoreonline"
   },
   "published_title_channels": {
     "Test Wrench Set": "test_channel",
@@ -37586,7 +37601,8 @@
     "WALRAM SSD M2 512GBx2": "lodydeals",
     "OPPO K15 (12/256GB)": "lodydeals",
     "يأتي ببطارية عملاقة 8000mAh": "lodydeals",
-    "الححححححححق اجمع الكوبون من هنا": "aniscoupons"
+    "الححححححححق اجمع الكوبون من هنا": "aniscoupons",
+    "الححححححححق قم بالحجز من هنا": "zedstoreonline"
   },
   "religious_reminders_history": {
     "mock_rem": "2026-10-02",
@@ -38384,7 +38400,6 @@
   "published_deals_history": {},
   "settings": {},
   "handled_post_keys": [
-    "zedstoreonline:40150",
     "aniscoupons:34882",
     "lodydeals:46489",
     "aniscoupons:34883",
@@ -39383,7 +39398,8 @@
     "aniscoupons:35714",
     "lodydeals:46933",
     "lodydeals:46934",
-    "aniscoupons:35715"
+    "aniscoupons:35715",
+    "zedstoreonline:40754"
   ],
   "last_france_cross_promo_time": 1795757211.9224837,
   "next_france_cross_promo_interval_seconds": 197705,
@@ -40462,6 +40478,12 @@
         "https://t.me/DzAliexpress0/3803"
       ],
       "timestamp": 1795735545.2111962
+    }
+  ],
+  "published_adhoc_posts": [
+    {
+      "title": "الححححححححق قم بالحجز من هنا",
+      "timestamp": 1795766551.1784754
     }
   ]
 }
