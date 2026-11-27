@@ -978,7 +978,8 @@
     "TAJMI3AT_lodydeals_46953",
     "1005013465406234",
     "COUPONBULLETIN_aniscoupons_35749",
-    "1005013491059196"
+    "1005013491059196",
+    "1005011559022232"
   ],
   "published_product_timestamps": {
     "1005012973772517": 1794500732.7845657,
@@ -1977,7 +1978,8 @@
     "COUPONBULLETIN_aniscoupons_35749": 1795785843.9353843,
     "COUPONS_a5ca09fa": 1795785844.034309,
     "COUPONS_الجمعة البيضاء": 1795785844.034309,
-    "1005013491059196": 1795785995.6120148
+    "1005013491059196": 1795785995.6120148,
+    "1005011559022232": 1795795910.8631444
   },
   "published_titles": [
     "Wireless WiFi Repeater 300Mbps WiFi Extender Amplifier Booster Router",
@@ -3276,7 +3278,8 @@
     "TCL alcatel 1023",
     "الmouse لوووووووووووز🖱️",
     "Honor Win Turbo 12/25",
-    "KOOTION SATA SSD 128GB   7.5"
+    "KOOTION SATA SSD 128GB   7.5",
+    "ATTACK SHARK L30Pro Wireless Gaming Headset"
   ],
   "published_title_timestamps": {
     "Xiaomi Redmi Note 17 5G Global Version": 1790857823.0117362,
@@ -4580,10 +4583,10 @@
     "TCL alcatel 1023": 1795782882.6064954,
     "الmouse لوووووووووووز🖱️": 1795791688.6423583,
     "Honor Win Turbo 12/25": 1795792426.240089,
-    "KOOTION SATA SSD 128GB   7.5": 1795792607.7185977
+    "KOOTION SATA SSD 128GB   7.5": 1795792607.7185977,
+    "ATTACK SHARK L30Pro Wireless Gaming Headset": 1795795910.8631444
   },
   "published_post_keys": [
-    "lodydeals:46525",
     "lodydeals:46526",
     "zedstoreonline:40210",
     "aniscoupons:34953",
@@ -5582,11 +5585,12 @@
     "aniscoupons:35763",
     "aniscoupons:35764",
     "zedstoreonline:40795",
-    "aniscoupons:35765"
+    "aniscoupons:35765",
+    "aniscoupons:35766"
   ],
   "last_disclaimer_time": 1795735529.6558404,
   "last_calendar_time": 1795782506.7435975,
-  "last_run_time": 1795795541.0312004,
+  "last_run_time": 1795795910.8631444,
   "monitored_channels": {
     "ecksdeal": {
       "last_message_id": 6149,
@@ -5617,8 +5621,8 @@
       "last_check_time": 1795795535.4116886
     },
     "aniscoupons": {
-      "last_message_id": 35765,
-      "last_check_time": 1795795543.1072183
+      "last_message_id": 35766,
+      "last_check_time": 1795795912.9789598
     },
     "bnddeals": {
       "last_message_id": 51426,
@@ -6470,7 +6474,8 @@
     "1005012196932716": 472.03,
     "1005013416923881": 380.0,
     "1005013465406234": 371.6,
-    "1005013491059196": 74.6
+    "1005013491059196": 74.6,
+    "1005011559022232": 35.79
   },
   "channel_published_deals": {
     "aniscoupons:32590": {
@@ -36035,6 +36040,16 @@
       "price": 22.59,
       "timestamp": 1795795541.0312004,
       "status": "ACTIVE"
+    },
+    "aniscoupons:35766": {
+      "channel_msg_id": 3917,
+      "product_id": "1005011559022232",
+      "title": "ATTACK SHARK L30Pro Wireless Gaming Headset",
+      "channel": "aniscoupons",
+      "source_msg_id": 35766,
+      "price": 35.79,
+      "timestamp": 1795795910.8631444,
+      "status": "ACTIVE"
     }
   },
   "schedule_config": {
@@ -36043,17 +36058,17 @@
     "current_interval_minutes": 5,
     "is_paused": false,
     "night_mode_enabled": true,
-    "last_deal_post_time": 1795795544.1202776,
+    "last_deal_post_time": 1795795914.0935233,
     "night_start_hour_dz": 0,
     "night_end_hour_dz": 8,
     "night_pause_enabled": true,
-    "last_sweep_time": 1795795724.4905777,
+    "last_sweep_time": 1795795916.2921524,
     "last_sweep_times": {
-      "algeria": 1795795722.7464805,
-      "france": 1795795724.4905777
+      "algeria": 1795795914.0421822,
+      "france": 1795795916.2921524
     },
     "last_deal_post_times": {
-      "algeria": 1795795544.1202776
+      "algeria": 1795795914.0935233
     }
   },
   "last_coin_reminder_time": 1795648937.9274871,
@@ -37045,7 +37060,8 @@
     "TAJMI3AT_lodydeals_46953": "lodydeals",
     "1005013465406234": "lodydeals",
     "COUPONBULLETIN_aniscoupons_35749": "aniscoupons",
-    "1005013491059196": "ecksdeal"
+    "1005013491059196": "ecksdeal",
+    "1005011559022232": "aniscoupons"
   },
   "published_title_channels": {
     "Test Wrench Set": "test_channel",
@@ -38351,7 +38367,8 @@
     "TCL alcatel 1023": "lodydeals",
     "الmouse لوووووووووووز🖱️": "bnddeals",
     "Honor Win Turbo 12/25": "zedstoreonline",
-    "KOOTION SATA SSD 128GB   7.5": "zedstoreonline"
+    "KOOTION SATA SSD 128GB   7.5": "zedstoreonline",
+    "ATTACK SHARK L30Pro Wireless Gaming Headset": "aniscoupons"
   },
   "religious_reminders_history": {
     "mock_rem": "2026-10-02",
