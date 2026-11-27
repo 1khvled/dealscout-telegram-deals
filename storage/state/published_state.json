@@ -1955,7 +1955,7 @@
     "1005010099024201": 1795703510.182712,
     "1005009566266039": 1795714790.201703,
     "TAJMI3AT_lodydeals_46917": 1795714990.9149463,
-    "1005013097951450": 1795776652.4223523,
+    "1005013097951450": 1795792055.4432795,
     "1005008413359329": 1795717019.2725039,
     "1005013406777246": 1795722914.6443748,
     "TAJMI3AT_lodydeals_46922": 1795723341.8747523,
@@ -4555,7 +4555,7 @@
     "Ulanzi MA35 MagSafe Smartphone Camera": 1795695709.9643443,
     "NETUM L5 / NT-L8": 1795695716.5576735,
     "العرض الأكثر طلباً": 1795714990.9149463,
-    "16.8V Cordless Drill Driver": 1795725734.3254902,
+    "16.8V Cordless Drill Driver": 1795792055.4432795,
     "يد تحكم   Flydigi Dune Wireless Hall Effect": 1795717019.2725039,
     "Realme Adapter SUPERVOOC Charger": 1795722522.4327238,
     "يد تحكم لاسلكية مع شاحن GameSir G7 PRO 8K Global Version": 1795722914.6443748,
@@ -4579,7 +4579,6 @@
     "الmouse لوووووووووووز🖱️": 1795791688.6423583
   },
   "published_post_keys": [
-    "zedstoreonline:40205",
     "aniscoupons:34946",
     "zedstoreonline:40206",
     "aniscoupons:34948",
@@ -5578,11 +5577,12 @@
     "zedstoreonline:40788",
     "zedstoreonline:40789",
     "bnddeals:51426",
-    "zedstoreonline:40790"
+    "zedstoreonline:40790",
+    "zedstoreonline:40791"
   ],
   "last_disclaimer_time": 1795735529.6558404,
   "last_calendar_time": 1795782506.7435975,
-  "last_run_time": 1795791876.582097,
+  "last_run_time": 1795792055.4432795,
   "monitored_channels": {
     "ecksdeal": {
       "last_message_id": 6149,
@@ -5609,8 +5609,8 @@
       "last_check_time": 1793599663.3444748
     },
     "zedstoreonline": {
-      "last_message_id": 40790,
-      "last_check_time": 1795791878.6859925
+      "last_message_id": 40791,
+      "last_check_time": 1795792057.547089
     },
     "aniscoupons": {
       "last_message_id": 35759,
@@ -35951,6 +35951,16 @@
       "price": 22.1,
       "timestamp": 1795791876.582097,
       "status": "ACTIVE"
+    },
+    "zedstoreonline:40791": {
+      "channel_msg_id": 3909,
+      "product_id": "1005013097951450",
+      "title": "16.8V Cordless Drill Driver",
+      "channel": "zedstoreonline",
+      "source_msg_id": 40791,
+      "price": 17.5,
+      "timestamp": 1795792055.4432795,
+      "status": "ACTIVE"
     }
   },
   "schedule_config": {
@@ -35959,17 +35969,17 @@
     "current_interval_minutes": 5,
     "is_paused": false,
     "night_mode_enabled": true,
-    "last_deal_post_time": 1795791880.5677717,
+    "last_deal_post_time": 1795792059.7639656,
     "night_start_hour_dz": 0,
     "night_end_hour_dz": 8,
     "night_pause_enabled": true,
-    "last_sweep_time": 1795791882.9934406,
+    "last_sweep_time": 1795792062.1670177,
     "last_sweep_times": {
-      "algeria": 1795791880.5246246,
-      "france": 1795791882.9934406
+      "algeria": 1795792059.722885,
+      "france": 1795792062.1670177
     },
     "last_deal_post_times": {
-      "algeria": 1795791880.5677717
+      "algeria": 1795792059.7639656
     }
   },
   "last_coin_reminder_time": 1795648937.9274871,
@@ -36941,7 +36951,7 @@
     "1005010099024201": "zedstoreonline",
     "1005009566266039": "zedstoreonline",
     "TAJMI3AT_lodydeals_46917": "lodydeals",
-    "1005013097951450": "aniscoupons",
+    "1005013097951450": "zedstoreonline",
     "1005008413359329": "ecksdeal",
     "1005013406777246": "ecksdeal",
     "TAJMI3AT_lodydeals_46922": "lodydeals",
@@ -38244,7 +38254,7 @@
     "Ulanzi MA35 MagSafe Smartphone Camera": "zedstoreonline",
     "NETUM L5 / NT-L8": "zedstoreonline",
     "العرض الأكثر طلباً": "lodydeals",
-    "16.8V Cordless Drill Driver": "lodydeals",
+    "16.8V Cordless Drill Driver": "zedstoreonline",
     "يد تحكم   Flydigi Dune Wireless Hall Effect": "ecksdeal",
     "Realme Adapter SUPERVOOC Charger": "lodydeals",
     "يد تحكم لاسلكية مع شاحن GameSir G7 PRO 8K Global Version": "ecksdeal",
@@ -41511,6 +41521,11 @@
       {
         "channel": "aniscoupons",
         "ts": 1795776649.9023442,
+        "price": 17.5
+      },
+      {
+        "channel": "zedstoreonline",
+        "ts": 1795792052.7851892,
         "price": 17.5
       }
     ],
