@@ -1902,7 +1902,7 @@
     "1005010680777854": 1795376024.6586418,
     "1005007893508418": 1795381174.309368,
     "1005004433755802": 1795382836.9089916,
-    "1005013572353302": 1795716841.451203,
+    "1005013572353302": 1795798285.2566552,
     "1005012172081619": 1795601168.6454124,
     "1005007869625249": 1795794071.5091987,
     "1005013572273568": 1795633212.2650673,
@@ -4493,7 +4493,7 @@
     "CMF Buds Neo Titanium": 1795437264.8543983,
     "WALRAM 2.5  sata 512GB": 1795467838.0597904,
     "Zeblaze Btalk 4 Pro": 1795446097.3435004,
-    "HONOR Earbuds X10 Play": 1795716841.451203,
+    "HONOR Earbuds X10 Play": 1795798285.2566552,
     "OPPO Enco Buds3 Pro True Wireless Earbuds": 1795601168.6454124,
     "Zeblaze Btalk 4 Pro Voice Calling Amoled": 1795463758.3094215,
     "CUSU RAM DDR4 3200MHz 16GB": 1795794071.5091987,
@@ -4587,7 +4587,6 @@
     "ATTACK SHARK L30Pro Wireless Gaming Headset": 1795795910.8631444
   },
   "published_post_keys": [
-    "zedstoreonline:40212",
     "aniscoupons:34954",
     "aniscoupons:34955",
     "aniscoupons:34957",
@@ -5586,11 +5585,12 @@
     "aniscoupons:35766",
     "aniscoupons:35767",
     "zedstoreonline:40796",
-    "aniscoupons:35768"
+    "aniscoupons:35768",
+    "aniscoupons:35770"
   ],
   "last_disclaimer_time": 1795735529.6558404,
   "last_calendar_time": 1795782506.7435975,
-  "last_run_time": 1795797196.923402,
+  "last_run_time": 1795798285.2566552,
   "monitored_channels": {
     "ecksdeal": {
       "last_message_id": 6149,
@@ -5621,8 +5621,8 @@
       "last_check_time": 1795797192.7101693
     },
     "aniscoupons": {
-      "last_message_id": 35769,
-      "last_check_time": 1795797743.5799294
+      "last_message_id": 35770,
+      "last_check_time": 1795798287.3317432
     },
     "bnddeals": {
       "last_message_id": 51427,
@@ -36080,6 +36080,16 @@
       "price": 67.7,
       "timestamp": 1795797196.923402,
       "status": "ACTIVE"
+    },
+    "aniscoupons:35770": {
+      "channel_msg_id": 3921,
+      "product_id": "1005013572353302",
+      "title": "HONOR Earbuds X10 Play",
+      "channel": "aniscoupons",
+      "source_msg_id": 35770,
+      "price": 13.18,
+      "timestamp": 1795798285.2566552,
+      "status": "ACTIVE"
     }
   },
   "schedule_config": {
@@ -36088,17 +36098,17 @@
     "current_interval_minutes": 5,
     "is_paused": false,
     "night_mode_enabled": true,
-    "last_deal_post_time": 1795797200.468396,
+    "last_deal_post_time": 1795798288.4153047,
     "night_start_hour_dz": 0,
     "night_end_hour_dz": 8,
     "night_pause_enabled": true,
-    "last_sweep_time": 1795798105.2015562,
+    "last_sweep_time": 1795798290.4693017,
     "last_sweep_times": {
-      "algeria": 1795798102.8589203,
-      "france": 1795798105.2015562
+      "algeria": 1795798288.3819602,
+      "france": 1795798290.4693017
     },
     "last_deal_post_times": {
-      "algeria": 1795797200.468396
+      "algeria": 1795798288.4153047
     }
   },
   "last_coin_reminder_time": 1795648937.9274871,
@@ -41838,6 +41848,13 @@
         "channel": "bnddeals",
         "ts": 1795797745.7094831,
         "price": 35.79
+      }
+    ],
+    "1005013572353302": [
+      {
+        "channel": "aniscoupons",
+        "ts": 1795798282.7149456,
+        "price": 13.18
       }
     ]
   },
