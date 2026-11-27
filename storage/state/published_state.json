@@ -1075,7 +1075,7 @@
     "1005008901941749": 1792785032.5334125,
     "1005010178295650": 1793743848.9735239,
     "1005006861002512": 1791151259.5667012,
-    "1005012285327063": 1795769724.109199,
+    "1005012285327063": 1795793708.8489182,
     "1005006581583862": 1794852936.201381,
     "1005012816171978": 1792157876.0860639,
     "1005006248571160": 1791012946.4110153,
@@ -3375,7 +3375,7 @@
     "Attack Shark X1": 1790972445.6591878,
     "KUULAA USB C Cable": 1790973051.970508,
     "Wireless WiFi Repeater 300Mbps WiFi Extender Amplifier Booster Router": 1790974856.4783835,
-    "HAYLOU Watch Faro": 1795769724.109199,
+    "HAYLOU Watch Faro": 1795793708.8489182,
     "HAYLOU S30": 1794852936.201381,
     "Lenovo XT88 TWS Wireless Earphones Bluetooth 5.3 Dual MIC Stereo Noise": 1790976654.120254,
     "VIVO Y600 Pro 8/128GB": 1793656161.7382708,
@@ -4583,7 +4583,6 @@
     "KOOTION SATA SSD 128GB   7.5": 1795792607.7185977
   },
   "published_post_keys": [
-    "aniscoupons:34948",
     "zedstoreonline:40208",
     "aniscoupons:34949",
     "aniscoupons:34950",
@@ -5582,11 +5581,12 @@
     "zedstoreonline:40790",
     "zedstoreonline:40791",
     "zedstoreonline:40792",
-    "zedstoreonline:40793"
+    "zedstoreonline:40793",
+    "aniscoupons:35762"
   ],
   "last_disclaimer_time": 1795735529.6558404,
   "last_calendar_time": 1795782506.7435975,
-  "last_run_time": 1795792607.7185977,
+  "last_run_time": 1795793708.8489182,
   "monitored_channels": {
     "ecksdeal": {
       "last_message_id": 6149,
@@ -5613,12 +5613,12 @@
       "last_check_time": 1793599663.3444748
     },
     "zedstoreonline": {
-      "last_message_id": 40793,
-      "last_check_time": 1795792609.8253012
+      "last_message_id": 40794,
+      "last_check_time": 1795793704.0789413
     },
     "aniscoupons": {
-      "last_message_id": 35761,
-      "last_check_time": 1795792970.876567
+      "last_message_id": 35762,
+      "last_check_time": 1795793710.9320571
     },
     "bnddeals": {
       "last_message_id": 51426,
@@ -35985,6 +35985,16 @@
       "price": 7.5,
       "timestamp": 1795792607.7185977,
       "status": "ACTIVE"
+    },
+    "aniscoupons:35762": {
+      "channel_msg_id": 3912,
+      "product_id": "1005012285327063",
+      "title": "HAYLOU Watch Faro",
+      "channel": "aniscoupons",
+      "source_msg_id": 35762,
+      "price": 11.1,
+      "timestamp": 1795793708.8489182,
+      "status": "ACTIVE"
     }
   },
   "schedule_config": {
@@ -35993,17 +36003,17 @@
     "current_interval_minutes": 5,
     "is_paused": false,
     "night_mode_enabled": true,
-    "last_deal_post_time": 1795792611.9968407,
+    "last_deal_post_time": 1795793712.078791,
     "night_start_hour_dz": 0,
     "night_end_hour_dz": 8,
     "night_pause_enabled": true,
-    "last_sweep_time": 1795793526.1959836,
+    "last_sweep_time": 1795793714.3981435,
     "last_sweep_times": {
-      "algeria": 1795793523.8612964,
-      "france": 1795793526.1959836
+      "algeria": 1795793712.0436554,
+      "france": 1795793714.3981435
     },
     "last_deal_post_times": {
-      "algeria": 1795792611.9968407
+      "algeria": 1795793712.078791
     }
   },
   "last_coin_reminder_time": 1795648937.9274871,
@@ -39099,7 +39109,6 @@
   "published_deals_history": {},
   "settings": {},
   "handled_post_keys": [
-    "aniscoupons:34931",
     "lodydeals:46515",
     "lodydeals:46517",
     "aniscoupons:34934",
@@ -40098,7 +40107,8 @@
     "zedstoreonline:40783",
     "aniscoupons:35759",
     "aniscoupons:35760",
-    "aniscoupons:35761"
+    "aniscoupons:35761",
+    "zedstoreonline:40794"
   ],
   "last_france_cross_promo_time": 1795757211.9224837,
   "next_france_cross_promo_interval_seconds": 197705,
@@ -40881,6 +40891,11 @@
         "channel": "aniscoupons",
         "ts": 1795790222.966391,
         "price": 289.79
+      },
+      {
+        "channel": "zedstoreonline",
+        "ts": 1795793703.9380474,
+        "price": 289.7
       }
     ],
     "1005012406142215": [
@@ -41304,6 +41319,11 @@
       {
         "channel": "aniscoupons",
         "ts": 1795769721.1488795,
+        "price": 11.1
+      },
+      {
+        "channel": "aniscoupons",
+        "ts": 1795793706.0063941,
         "price": 11.1
       }
     ],
