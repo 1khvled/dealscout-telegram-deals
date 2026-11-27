@@ -5651,16 +5651,16 @@
       "last_check_time": 1793599663.3444748
     },
     "zedstoreonline": {
-      "last_message_id": 40814,
-      "last_check_time": 1795808971.7890162
+      "last_message_id": 40815,
+      "last_check_time": 1795809149.257048
     },
     "aniscoupons": {
       "last_message_id": 35812,
       "last_check_time": 1795808777.7826686
     },
     "bnddeals": {
-      "last_message_id": 51448,
-      "last_check_time": 1795808974.9087374
+      "last_message_id": 51449,
+      "last_check_time": 1795809152.6236737
     }
   },
   "published_product_prices": {
@@ -36499,10 +36499,10 @@
     "night_start_hour_dz": 0,
     "night_end_hour_dz": 8,
     "night_pause_enabled": true,
-    "last_sweep_time": 1795808979.282195,
+    "last_sweep_time": 1795809162.4753695,
     "last_sweep_times": {
-      "algeria": 1795808974.9548354,
-      "france": 1795808979.282195
+      "algeria": 1795809152.682615,
+      "france": 1795809162.4753695
     },
     "last_deal_post_times": {
       "algeria": 1795808975.0007389
@@ -39620,8 +39620,6 @@
   "published_deals_history": {},
   "settings": {},
   "handled_post_keys": [
-    "zedstoreonline:40244",
-    "zedstoreonline:40246",
     "aniscoupons:35002",
     "aniscoupons:35003",
     "lodydeals:46558",
@@ -40619,7 +40617,9 @@
     "aniscoupons:35811",
     "bnddeals:51447",
     "aniscoupons:35812",
-    "bnddeals:51448"
+    "bnddeals:51448",
+    "zedstoreonline:40815",
+    "bnddeals:51449"
   ],
   "last_france_cross_promo_time": 1795757211.9224837,
   "next_france_cross_promo_interval_seconds": 197705,
@@ -42122,6 +42122,11 @@
         "channel": "aniscoupons",
         "ts": 1795808229.7176814,
         "price": 8.7
+      },
+      {
+        "channel": "zedstoreonline",
+        "ts": 1795809149.0426664,
+        "price": 8.7
       }
     ],
     "1005012524603100": [
@@ -42449,6 +42454,11 @@
       {
         "channel": "zedstoreonline",
         "ts": 1795808044.0127761,
+        "price": 8.4
+      },
+      {
+        "channel": "bnddeals",
+        "ts": 1795809152.406896,
         "price": 8.4
       }
     ],
