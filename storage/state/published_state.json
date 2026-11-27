@@ -1097,7 +1097,7 @@
     "1005008144855522": 1791026444.9395418,
     "1005008486721357": 1791026452.368309,
     "1005012871566388": 1791026457.7236943,
-    "1005007027334636": 1795769718.4779239,
+    "1005007027334636": 1795796453.3264363,
     "1005006727600702": 1791027043.7332833,
     "1005009916278058": 1791027049.3509357,
     "1005009719082543": 1791027355.6595695,
@@ -4518,7 +4518,7 @@
     "Vivo X500 12/256": 1795521926.0889337,
     "HONOR MAGIC 9 Pro Max 12/256": 1795521933.931988,
     "Oppo Find X9 Ultra 12/256": 1795521950.475793,
-    "SomnAmbulist SSD 120Gb": 1795769718.4779239,
+    "SomnAmbulist SSD 120Gb": 1795796453.3264363,
     "سماعات الاذن KZ EDX PRO X": 1795527391.8790212,
     "طابعة XL-P801 الحرارية المتنقلة: طباعة A4 فورية، قابلة لإعادة": 1795535124.479775,
     "TCL Alcatel 1023": 1795701094.6472647,
@@ -4587,7 +4587,6 @@
     "ATTACK SHARK L30Pro Wireless Gaming Headset": 1795795910.8631444
   },
   "published_post_keys": [
-    "lodydeals:46526",
     "zedstoreonline:40210",
     "aniscoupons:34953",
     "zedstoreonline:40212",
@@ -5586,11 +5585,12 @@
     "aniscoupons:35764",
     "zedstoreonline:40795",
     "aniscoupons:35765",
-    "aniscoupons:35766"
+    "aniscoupons:35766",
+    "aniscoupons:35767"
   ],
   "last_disclaimer_time": 1795735529.6558404,
   "last_calendar_time": 1795782506.7435975,
-  "last_run_time": 1795795910.8631444,
+  "last_run_time": 1795796453.3264363,
   "monitored_channels": {
     "ecksdeal": {
       "last_message_id": 6149,
@@ -5621,8 +5621,8 @@
       "last_check_time": 1795795535.4116886
     },
     "aniscoupons": {
-      "last_message_id": 35766,
-      "last_check_time": 1795795912.9789598
+      "last_message_id": 35767,
+      "last_check_time": 1795796455.4317625
     },
     "bnddeals": {
       "last_message_id": 51426,
@@ -36050,6 +36050,16 @@
       "price": 35.79,
       "timestamp": 1795795910.8631444,
       "status": "ACTIVE"
+    },
+    "aniscoupons:35767": {
+      "channel_msg_id": 3918,
+      "product_id": "1005007027334636",
+      "title": "SomnAmbulist SSD 120Gb",
+      "channel": "aniscoupons",
+      "source_msg_id": 35767,
+      "price": 9.7,
+      "timestamp": 1795796453.3264363,
+      "status": "ACTIVE"
     }
   },
   "schedule_config": {
@@ -36058,17 +36068,17 @@
     "current_interval_minutes": 5,
     "is_paused": false,
     "night_mode_enabled": true,
-    "last_deal_post_time": 1795795914.0935233,
+    "last_deal_post_time": 1795796456.582293,
     "night_start_hour_dz": 0,
     "night_end_hour_dz": 8,
     "night_pause_enabled": true,
-    "last_sweep_time": 1795796277.0169766,
+    "last_sweep_time": 1795796458.551959,
     "last_sweep_times": {
-      "algeria": 1795796274.8258984,
-      "france": 1795796277.0169766
+      "algeria": 1795796456.5355701,
+      "france": 1795796458.551959
     },
     "last_deal_post_times": {
-      "algeria": 1795795914.0935233
+      "algeria": 1795796456.582293
     }
   },
   "last_coin_reminder_time": 1795648937.9274871,
@@ -40763,6 +40773,11 @@
       {
         "channel": "zedstoreonline",
         "ts": 1795771906.6724002,
+        "price": 9.7
+      },
+      {
+        "channel": "aniscoupons",
+        "ts": 1795796451.2919846,
         "price": 9.7
       }
     ],
