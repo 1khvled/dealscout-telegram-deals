@@ -1669,7 +1669,7 @@
     "1005008060391372": 1795521330.5345721,
     "1005010209911111": 1794068056.674266,
     "1005008295555234": 1794073127.8664527,
-    "1005008645323478": 1795775598.0875943,
+    "1005008645323478": 1795795533.3366177,
     "1005008636930795": 1795169898.6012874,
     "1005006260870758": 1794250569.5221198,
     "1005009759580502": 1794331533.1223195,
@@ -1927,7 +1927,7 @@
     "1005013519635614": 1795546736.9831076,
     "33061115247": 1795547454.3449724,
     "1005012374298987": 1795725779.0574965,
-    "1005013583987856": 1795713163.1769862,
+    "1005013583987856": 1795795541.0312004,
     "1005013621783525": 1795794807.4233444,
     "1005010637751071": 1795791144.906784,
     "COUPONBULLETIN_zedstoreonline_40658": 1795561391.491517,
@@ -4139,7 +4139,7 @@
     "1MORE SonoFlow Pro HQ51": 1794073127.8664527,
     "Ulanzi ST-06S Vertical Shooting": 1794130692.4786665,
     "ميكروفون MAONO DGM20W لاسلكي للألعاب": 1794074230.5173922,
-    "CUSU 512GB External SSD Drive": 1795775598.0875943,
+    "CUSU 512GB External SSD Drive": 1795795533.3366177,
     "Netac M.2 NVME 250GB": 1795169898.6012874,
     "EPOMAKER X AULA F87 Pro": 1794250569.5221198,
     "SIX PCIe 4.0 7350MB/s  1TB": 1794079741.7808652,
@@ -4525,7 +4525,7 @@
     "Lefon F35 Wireless Mouse Vertical": 1795547454.3449724,
     "SoundPEATS Space Hybrid ANC": 1795547826.6655538,
     "Velec Tv Box 4/32GB": 1795725779.0574965,
-    "HONOR Watch X5 Play": 1795713163.1769862,
+    "HONOR Watch X5 Play": 1795795541.0312004,
     "HONOR CHOICE Watch 6i": 1795794807.4233444,
     "Godox C01 Kit 2 Microphone Lavalier": 1795791144.906784,
     "CMF Buds Neo 12.4 mm Titanium‑coated Driver": 1795718888.2253578,
@@ -4583,8 +4583,6 @@
     "KOOTION SATA SSD 128GB   7.5": 1795792607.7185977
   },
   "published_post_keys": [
-    "aniscoupons:34950",
-    "lodydeals:46524",
     "lodydeals:46525",
     "lodydeals:46526",
     "zedstoreonline:40210",
@@ -5582,11 +5580,13 @@
     "zedstoreonline:40793",
     "aniscoupons:35762",
     "aniscoupons:35763",
-    "aniscoupons:35764"
+    "aniscoupons:35764",
+    "zedstoreonline:40795",
+    "aniscoupons:35765"
   ],
   "last_disclaimer_time": 1795735529.6558404,
   "last_calendar_time": 1795782506.7435975,
-  "last_run_time": 1795794807.4233444,
+  "last_run_time": 1795795541.0312004,
   "monitored_channels": {
     "ecksdeal": {
       "last_message_id": 6149,
@@ -5613,12 +5613,12 @@
       "last_check_time": 1793599663.3444748
     },
     "zedstoreonline": {
-      "last_message_id": 40794,
-      "last_check_time": 1795793704.0789413
+      "last_message_id": 40795,
+      "last_check_time": 1795795535.4116886
     },
     "aniscoupons": {
-      "last_message_id": 35764,
-      "last_check_time": 1795794809.508013
+      "last_message_id": 35765,
+      "last_check_time": 1795795543.1072183
     },
     "bnddeals": {
       "last_message_id": 51426,
@@ -36015,6 +36015,26 @@
       "price": 29.9,
       "timestamp": 1795794807.4233444,
       "status": "ACTIVE"
+    },
+    "zedstoreonline:40795": {
+      "channel_msg_id": 3915,
+      "product_id": "1005008645323478",
+      "title": "CUSU 512GB External SSD Drive",
+      "channel": "zedstoreonline",
+      "source_msg_id": 40795,
+      "price": 41.8,
+      "timestamp": 1795795533.3366177,
+      "status": "ACTIVE"
+    },
+    "aniscoupons:35765": {
+      "channel_msg_id": 3916,
+      "product_id": "1005013583987856",
+      "title": "HONOR Watch X5 Play",
+      "channel": "aniscoupons",
+      "source_msg_id": 35765,
+      "price": 22.59,
+      "timestamp": 1795795541.0312004,
+      "status": "ACTIVE"
     }
   },
   "schedule_config": {
@@ -36023,17 +36043,17 @@
     "current_interval_minutes": 5,
     "is_paused": false,
     "night_mode_enabled": true,
-    "last_deal_post_time": 1795794810.5715628,
+    "last_deal_post_time": 1795795544.1202776,
     "night_start_hour_dz": 0,
     "night_end_hour_dz": 8,
     "night_pause_enabled": true,
-    "last_sweep_time": 1795795361.429738,
+    "last_sweep_time": 1795795546.2422743,
     "last_sweep_times": {
-      "algeria": 1795795358.9311852,
-      "france": 1795795361.429738
+      "algeria": 1795795544.086784,
+      "france": 1795795546.2422743
     },
     "last_deal_post_times": {
-      "algeria": 1795794810.5715628
+      "algeria": 1795795544.1202776
     }
   },
   "last_coin_reminder_time": 1795648937.9274871,
@@ -36724,7 +36744,7 @@
     "1005008060391372": "bnddeals",
     "1005010209911111": "bnddeals",
     "1005008295555234": "lodydeals",
-    "1005008645323478": "aniscoupons",
+    "1005008645323478": "zedstoreonline",
     "1005008636930795": "aniscoupons",
     "1005006260870758": "aniscoupons",
     "1005009759580502": "bnddeals",
@@ -37889,7 +37909,7 @@
     "1MORE SonoFlow Pro HQ51": "lodydeals",
     "Ulanzi ST-06S Vertical Shooting": "lodydeals",
     "ميكروفون MAONO DGM20W لاسلكي للألعاب": "zedstoreonline",
-    "CUSU 512GB External SSD Drive": "aniscoupons",
+    "CUSU 512GB External SSD Drive": "zedstoreonline",
     "Netac M.2 NVME 250GB": "aniscoupons",
     "EPOMAKER X AULA F87 Pro": "aniscoupons",
     "SIX PCIe 4.0 7350MB/s  1TB": "lodydeals",
@@ -41507,6 +41527,11 @@
         "channel": "lodydeals",
         "ts": 1795778484.9708445,
         "price": 40.7
+      },
+      {
+        "channel": "zedstoreonline",
+        "ts": 1795795530.9440777,
+        "price": 41.8
       }
     ],
     "1005003156756854": [
@@ -41730,6 +41755,13 @@
         "channel": "aniscoupons",
         "ts": 1795794804.7761273,
         "price": 29.9
+      }
+    ],
+    "1005013583987856": [
+      {
+        "channel": "aniscoupons",
+        "ts": 1795795538.7208245,
+        "price": 22.59
       }
     ]
   },
