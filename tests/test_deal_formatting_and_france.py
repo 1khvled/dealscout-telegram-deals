@@ -1382,9 +1382,23 @@ async def test_first_run_prober_catches_all_today_deals_fifo_and_region_dedup():
     assert dup_es_again is True
 
     # 1.5 PayPal price label ("Prix réduit via PayPal") must NOT trigger false "Baisse de Prix" alert
-    from app.aliexpress.parser import detect_price_drop_deal
+    from app.aliexpress.parser import detect_price_drop_deal, detect_deal_type
     assert detect_price_drop_deal("✔️ Prix réduit via PayPal : 271€") is False
     assert detect_price_drop_deal("Baisse de prix importante !") is True
+
+    # 1.6 Tablets ("Pad") and European explicit direct-link deals must use "item" (direct), NEVER "coin" (coin-index)
+    assert detect_deal_type(
+        "✔️HONOR Pad 10, Versión EU, Pantalla de 12.1 Pulgadas 120Hz 2.5K\n🪙 Réductions par article\n➡️ Lien direct : https://s.click.aliexpress.com/e/_c3Vf7Gaz",
+        "https://www.aliexpress.com/item/1005010735394749.html?sourceType=620&channel=coin",
+    ) == "item"
+    assert detect_deal_type(
+        "✔️Cafetera HiBREW 20 Bar Inox\n🪙 Réductions par article\n➡️ Lien direct : https://s.click.aliexpress.com/e/_c4Os9sS5",
+        "https://www.aliexpress.com/item/1005009530726381.html?sourceType=620&channel=coin",
+    ) == "item"
+    assert detect_deal_type(
+        "Large Gaming Mouse Pad RGB 800x300",
+        "https://www.aliexpress.com/item/100500123456.html",
+    ) == "coin"
 
     # 2. Initial first-run probe (last_seen_id=None) captures ALL fresh posts (> 6 posts back) in ascending FIFO order
     now_dt = datetime.now(timezone.utc)
