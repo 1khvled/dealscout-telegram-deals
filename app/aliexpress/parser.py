@@ -1538,6 +1538,31 @@ def detect_deal_type(raw_text: str, url: str = "") -> str:
     return "coin"
 
 
+def detect_source_deal_type_from_url(final_url: Optional[str], raw_text: str = "") -> str:
+    """
+    Preserves the exact AliExpress destination mode used by the source channel's resolved URL
+    instead of guessing from product title keywords:
+      - BundleDeals2 / sourceType=562 -> "bundle"
+      - superdeal / sourceType=561    -> "super"
+      - m.aliexpress.com/p/coin-index -> "coin" (coin-index hub)
+      - /item/{id}.html?sourceType=620|channel=coin -> "coin_item"
+      - Plain /item/{id}.html (no coin/bundle/super params) -> "item" (direct / رابط مباشر)
+      - Unresolved / empty URL -> falls back to detect_deal_type(raw_text, final_url)
+    """
+    u = (final_url or "").lower()
+    if any(k in u for k in ("bundledeals", "300000512", "sourcetype=562", "channel=bundle")):
+        return "bundle"
+    if "superdeal" in u or "sourcetype=561" in u:
+        return "super"
+    if "coin-index" in u:
+        return "coin"
+    if "sourcetype=620" in u or "channel=coin" in u:
+        return "coin_item"
+    if "/item/" in u and "aliexpress." in u:
+        return "item"
+    return detect_deal_type(raw_text, final_url or "")
+
+
 def detect_restock_deal(text: str) -> bool:
     """
     Detects if an incoming Telegram deal post is an urgent Restock / Return announcement.

@@ -398,11 +398,10 @@ async def publish_extracted_deal_to_france(
             logger.info(f"[FRANCE ROUTER] Category filtered: {reject_reason}")
             return False
 
-    # Affiliate link
-    deal_type = getattr(extracted, 'deal_type', None) or detect_deal_type(
-        raw_text,
-        f"{extracted.original_url} {getattr(extracted, 'final_url', '') or ''} {extracted.canonical_url}"
-    )
+    # Affiliate link: follow the exact destination mode (coin, coin_item, item, bundle, super) from source's resolved URL
+    from app.aliexpress.parser import detect_source_deal_type_from_url
+    resolved_src_url = getattr(extracted, 'final_url', None) or extracted.original_url or extracted.canonical_url
+    deal_type = detect_source_deal_type_from_url(resolved_src_url, raw_text)
     aff_link = await affiliate_service.create_affiliate_link(
         product_url=extracted.canonical_url,
         product_id=extracted.product_id if not extracted.is_coupon_list else None,
@@ -974,11 +973,10 @@ async def collect_and_post_france_deals(force: bool = False, force_tajmi3at: boo
                         print(f"  [NO OFFICIAL PHOTO] Image fetch incomplete for {extracted.product_id}. Leaving for retry.")
                         continue
 
-                # 8. Build France affiliate URL
-                deal_type = getattr(extracted, 'deal_type', None) or detect_deal_type(
-                    raw_text,
-                    f"{extracted.original_url} {getattr(extracted, 'final_url', '') or ''} {extracted.canonical_url}"
-                )
+                # 8. Build France affiliate URL matching exact original deal mode (coin vs coin_item vs direct item vs bundle)
+                from app.aliexpress.parser import detect_source_deal_type_from_url
+                resolved_src_url = getattr(extracted, 'final_url', None) or extracted.original_url or extracted.canonical_url
+                deal_type = detect_source_deal_type_from_url(resolved_src_url, raw_text)
                 aff_link = await affiliate_service.create_affiliate_link(
                     product_url=extracted.canonical_url,
                     product_id=extracted.product_id if not extracted.is_coupon_list else None,

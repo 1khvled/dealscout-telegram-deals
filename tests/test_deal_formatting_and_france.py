@@ -1434,3 +1434,24 @@ async def test_first_run_prober_catches_all_today_deals_fifo_and_region_dedup():
     assert all(f"firascopon:{old}" in stale for old in (107, 108, 109))
 
 
+@pytest.mark.asyncio
+async def test_source_faithful_deal_routing_coin_vs_direct():
+    from app.aliexpress.affiliate import DirectAffiliateProvider
+    from app.aliexpress.parser import detect_source_deal_type_from_url
+
+    prov = DirectAffiliateProvider(tracking_id="dzkhvled16")
+    assert detect_source_deal_type_from_url("https://m.aliexpress.com/p/coin-index/index.html?productIds=1005010392221837") == "coin"
+    assert detect_source_deal_type_from_url("https://www.aliexpress.com/item/1005010735394749.html?sourceType=620&channel=coin") == "coin_item"
+    assert detect_source_deal_type_from_url("https://www.aliexpress.com/item/1005012650111489.html?srcSns=sns_Copy") == "item"
+    assert detect_source_deal_type_from_url("https://www.aliexpress.com/ssr/300000512/BundleDeals2?productIds=100500123") == "bundle"
+    assert detect_source_deal_type_from_url("https://www.aliexpress.com/item/100500123.html?sourceType=561&channel=superdeal") == "super"
+
+    u_coin_item = await prov.generate_link("https://www.aliexpress.com/item/1005010735394749.html", "1005010735394749", deal_type="coin_item")
+    assert "aliexpress.com/item/1005010735394749.html?sourceType=620&channel=coin" in u_coin_item
+    u_direct = await prov.generate_link("https://www.aliexpress.com/item/1005012650111489.html", "1005012650111489", deal_type="item")
+    assert "aliexpress.com/item/1005012650111489.html?aff_fcid=" in u_direct
+    u_coin_hub = await prov.generate_link("https://www.aliexpress.com/item/1005010392221837.html", "1005010392221837", deal_type="coin")
+    assert "coin-index" in u_coin_hub
+
+
+

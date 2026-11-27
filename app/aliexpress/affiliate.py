@@ -39,6 +39,8 @@ class DirectAffiliateProvider(AffiliateProvider):
                 return f"https://www.aliexpress.com/ssr/300000512/BundleDeals2?disableNav=YES&pha_manifest=ssr&_immersiveMode=true&productIds={pid}&aff_fcid={self.tracking_id}"
             elif deal_type == "super":
                 return f"https://www.aliexpress.com/item/{pid}.html?sourceType=561&channel=superdeal&aff_fcid={self.tracking_id}"
+            elif deal_type == "coin_item":
+                return f"https://www.aliexpress.com/item/{pid}.html?sourceType=620&channel=coin&aff_fcid={self.tracking_id}"
             elif deal_type == "item":
                 return f"https://www.aliexpress.com/item/{pid}.html?aff_fcid={self.tracking_id}"
             else:
@@ -111,6 +113,8 @@ class PortalsApiAffiliateProvider(AffiliateProvider):
                 target_url = f"https://www.aliexpress.com/ssr/300000512/BundleDeals2?disableNav=YES&pha_manifest=ssr&_immersiveMode=true&productIds={pid}"
             elif deal_type == "super":
                 target_url = f"https://www.aliexpress.com/item/{pid}.html?sourceType=561&channel=superdeal"
+            elif deal_type == "coin_item":
+                target_url = f"https://www.aliexpress.com/item/{pid}.html?sourceType=620&channel=coin"
             elif deal_type == "item":
                 target_url = f"https://www.aliexpress.com/item/{pid}.html"
             else:
