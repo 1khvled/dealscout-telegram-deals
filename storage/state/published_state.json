@@ -1618,7 +1618,7 @@
     "1005013372330447": 1793707119.4932482,
     "1005012305564176": 1793707135.2600253,
     "1005012483329501": 1793898360.7512894,
-    "1005010044163415": 1794438972.1864517,
+    "1005010044163415": 1795818721.3205683,
     "1005012099740266": 1795290151.521564,
     "1005010462111234": 1793707161.4322476,
     "1005006026842392": 1793707779.0330126,
@@ -4300,7 +4300,7 @@
     "OPPO K15 12/256GB": 1795186207.2341003,
     "Lenovo Legion Y70 2026 Gamin(12/512GB)": 1795768434.4875724,
     "KINGSTON DATA TRAVELER USB3.2 (128G)": 1794438803.0185766,
-    "Essager Mini 30W Type C Charger PD": 1794438972.1864517,
+    "Essager Mini 30W Type C Charger PD": 1795818721.3205683,
     "X96Q TV BOX 2/16GB": 1794599454.461018,
     "Kingston DataTraveler Exodia S USB Flash (128g)": 1794439539.8661358,
     "FIFINE K688W USB XLR MIC": 1794439743.6258593,
@@ -4643,7 +4643,6 @@
     "OnePlus ACE 6 12/256": 1795817442.1410594
   },
   "published_post_keys": [
-    "aniscoupons:35001",
     "lodydeals:46560",
     "zedstoreonline:40247",
     "zedstoreonline:40248",
@@ -5642,11 +5641,12 @@
     "aniscoupons:35827",
     "aniscoupons:35828",
     "zedstoreonline:40822",
-    "zedstoreonline:40823"
+    "zedstoreonline:40823",
+    "zedstoreonline:40825"
   ],
   "last_disclaimer_time": 1795735529.6558404,
   "last_calendar_time": 1795782506.7435975,
-  "last_run_time": 1795818169.6174827,
+  "last_run_time": 1795818721.3205683,
   "monitored_channels": {
     "ecksdeal": {
       "last_message_id": 6156,
@@ -5673,8 +5673,8 @@
       "last_check_time": 1793599663.3444748
     },
     "zedstoreonline": {
-      "last_message_id": 40824,
-      "last_check_time": 1795818536.183347
+      "last_message_id": 40825,
+      "last_check_time": 1795818723.4538465
     },
     "aniscoupons": {
       "last_message_id": 35830,
@@ -36761,6 +36761,16 @@
       "price": 20.2,
       "timestamp": 1795818169.6174827,
       "status": "ACTIVE"
+    },
+    "zedstoreonline:40825": {
+      "channel_msg_id": 3984,
+      "product_id": "1005010044163415",
+      "title": "Essager Mini 30W Type C Charger PD",
+      "channel": "zedstoreonline",
+      "source_msg_id": 40825,
+      "price": 2.7,
+      "timestamp": 1795818721.3205683,
+      "status": "ACTIVE"
     }
   },
   "schedule_config": {
@@ -36769,17 +36779,17 @@
     "current_interval_minutes": 5,
     "is_paused": false,
     "night_mode_enabled": true,
-    "last_deal_post_time": 1795818173.6176596,
+    "last_deal_post_time": 1795818725.6288853,
     "night_start_hour_dz": 0,
     "night_end_hour_dz": 8,
     "night_pause_enabled": true,
-    "last_sweep_time": 1795818542.4864566,
+    "last_sweep_time": 1795818729.961948,
     "last_sweep_times": {
-      "algeria": 1795818537.8711176,
-      "france": 1795818542.4864566
+      "algeria": 1795818725.5697174,
+      "france": 1795818729.961948
     },
     "last_deal_post_times": {
-      "algeria": 1795818173.6176596
+      "algeria": 1795818725.6288853
     }
   },
   "last_coin_reminder_time": 1795648937.9274871,
@@ -41769,11 +41779,6 @@
     "1005008708333999": [
       {
         "channel": "aniscoupons",
-        "ts": 1795775402.4673264,
-        "price": 138.7
-      },
-      {
-        "channel": "aniscoupons",
         "ts": 1795786000.3576283,
         "price": 138.7
       },
@@ -42464,6 +42469,13 @@
         "channel": "lodydeals",
         "ts": 1795815234.0090988,
         "price": 7.85
+      }
+    ],
+    "1005010044163415": [
+      {
+        "channel": "zedstoreonline",
+        "ts": 1795818718.9467354,
+        "price": 2.7
       }
     ]
   },
