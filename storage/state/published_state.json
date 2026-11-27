@@ -1845,7 +1845,7 @@
     "COUPONS_d400dc9b": 1794935379.010957,
     "1005011551172448": 1794936842.146349,
     "1005013401121405": 1795812098.2787094,
-    "1005003624789670": 1794996764.6923764,
+    "1005003624789670": 1795812667.0298257,
     "1005008644346729": 1795256894.3631735,
     "1005008723396190": 1795072599.5014904,
     "1005011729105677": 1795103808.7530327,
@@ -4425,7 +4425,7 @@
     "معالج Ryzen 7 5600XT": 1794936833.9811888,
     "معالج بكرت شاشة مدمج Ryzen 5 3400G": 1794936842.146349,
     "QY6 0082 Printhead for Canon IP7210 IP7250 IP7280 MG5420 MG5460": 1795812098.2787094,
-    "Print Head QY6 0089 for Canon TS5060 TS5080 TS6020 TS6080 TS6120": 1794996764.6923764,
+    "Print Head QY6 0089 for Canon TS5060 TS5080 TS6020 TS6080 TS6120": 1795812667.0298257,
     "HONOR X9D 12/256GB": 1795004960.4540246,
     "HyperX Cloud Earbuds 2 II": 1795011758.367623,
     "تخزين CUSU K5 SATA Portable USB SSD": 1795022264.1116176,
@@ -4629,7 +4629,6 @@
     "نقاط راهم نادرين أكثر من بطاطا وزيت كاش واحد عندو": 1795811369.389761
   },
   "published_post_keys": [
-    "aniscoupons:34987",
     "aniscoupons:34988",
     "aniscoupons:34989",
     "aniscoupons:34990",
@@ -5628,11 +5627,12 @@
     "aniscoupons:35815",
     "ecksdeal:6155",
     "aniscoupons:35818",
-    "aniscoupons:35819"
+    "aniscoupons:35819",
+    "aniscoupons:35820"
   ],
   "last_disclaimer_time": 1795735529.6558404,
   "last_calendar_time": 1795782506.7435975,
-  "last_run_time": 1795812098.2787094,
+  "last_run_time": 1795812667.0298257,
   "monitored_channels": {
     "ecksdeal": {
       "last_message_id": 6155,
@@ -5663,8 +5663,8 @@
       "last_check_time": 1795812278.3709168
     },
     "aniscoupons": {
-      "last_message_id": 35819,
-      "last_check_time": 1795812100.376391
+      "last_message_id": 35820,
+      "last_check_time": 1795812669.1601014
     },
     "bnddeals": {
       "last_message_id": 51449,
@@ -6405,7 +6405,7 @@
     "1005013565686677": 12.03,
     "1005011551172448": 58.29,
     "1005013401121405": 16.11,
-    "1005003624789670": 18.33,
+    "1005003624789670": 16.19,
     "1005008644346729": 115.9,
     "1005008723396190": 9.2,
     "1005011729105677": 13.7,
@@ -36585,6 +36585,16 @@
       "price": 16.11,
       "timestamp": 1795812098.2787094,
       "status": "ACTIVE"
+    },
+    "aniscoupons:35820": {
+      "channel_msg_id": 3968,
+      "product_id": "1005003624789670",
+      "title": "Print Head QY6 0089 for Canon TS5060 TS5080 TS6020 TS6080 TS6120",
+      "channel": "aniscoupons",
+      "source_msg_id": 35820,
+      "price": 16.19,
+      "timestamp": 1795812667.0298257,
+      "status": "ACTIVE"
     }
   },
   "schedule_config": {
@@ -36593,17 +36603,17 @@
     "current_interval_minutes": 5,
     "is_paused": false,
     "night_mode_enabled": true,
-    "last_deal_post_time": 1795812101.465137,
+    "last_deal_post_time": 1795812670.5961518,
     "night_start_hour_dz": 0,
     "night_end_hour_dz": 8,
     "night_pause_enabled": true,
-    "last_sweep_time": 1795812476.8582199,
+    "last_sweep_time": 1795812676.859093,
     "last_sweep_times": {
-      "algeria": 1795812470.711769,
-      "france": 1795812476.8582199
+      "algeria": 1795812670.5359876,
+      "france": 1795812676.859093
     },
     "last_deal_post_times": {
-      "algeria": 1795812101.465137
+      "algeria": 1795812670.5961518
     }
   },
   "last_coin_reminder_time": 1795648937.9274871,
@@ -42660,6 +42670,13 @@
         "channel": "aniscoupons",
         "ts": 1795812095.8435814,
         "price": 16.11
+      }
+    ],
+    "1005003624789670": [
+      {
+        "channel": "aniscoupons",
+        "ts": 1795812664.0320587,
+        "price": 16.19
       }
     ]
   },
