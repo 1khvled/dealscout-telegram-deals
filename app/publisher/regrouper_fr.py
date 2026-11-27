@@ -24,7 +24,7 @@ FRANCE_STATE_FILE = Path(settings.BASE_DIR) / "storage" / "state" / "france_publ
 
 CATEGORIES_CONFIG_FR = {
     "smartphones": {
-        "header": "📱 <b>Sélection des Meilleurs Smartphones du Jour 🇫🇷🔥</b>",
+        "header": "📱 <b>Sélection des Meilleurs Smartphones du Jour 🇫🇷🇪🇸🇮🇹 🔥</b>",
         "keywords": [
             "phone", "phones", "smartphone", "smartphones", "poco", "redmi",
             "realme", "honor", "samsung", "infinix", "oppo", "vivo", "iphone",
@@ -36,7 +36,7 @@ CATEGORIES_CONFIG_FR = {
         ]
     },
     "gaming": {
-        "header": "🎮 <b>Sélection Matériel Gaming & Périphériques 🇫🇷🔥</b>",
+        "header": "🎮 <b>Sélection Matériel Gaming & Périphériques 🇫🇷🇪🇸🇮🇹 🔥</b>",
         "keywords": [
             "mouse", "mice", "keyboard", "keyboards", "gamepad", "controller",
             "gaming", "gamer", "attack shark", "ajazz", "aula", "vgn", "scyrox",
@@ -47,7 +47,7 @@ CATEGORIES_CONFIG_FR = {
         "negative_keywords": ["keycap", "switch"]
     },
     "audio": {
-        "header": "🎧 <b>Sélection Écouteurs & Audio du Jour 🇫🇷🔥</b>",
+        "header": "🎧 <b>Sélection Écouteurs & Audio du Jour 🇫🇷🇪🇸🇮🇹 🔥</b>",
         "keywords": [
             "headset", "headphone", "headphones", "earbuds", "earbud", "earphone",
             "earphones", "tws", "speaker", "soundbar", "soundcore", "qcy", "anc",
@@ -56,10 +56,12 @@ CATEGORIES_CONFIG_FR = {
         "negative_keywords": ["case", "cover", "cable"]
     },
     "tech": {
-        "header": "⚡ <b>Sélection High-Tech & Gadgets du Jour 🇫🇷🔥</b>",
+        "header": "⚡ <b>Sélection High-Tech & Gadgets du Jour 🇫🇷🇪🇸🇮🇹 🔥</b>",
         "keywords": [
             "camera", "dji", "osmo", "gimbal", "drone", "tablet", "pad", "ipad",
-            "scooter", "trottinette", "charger", "gan", "powerbank", "ssd", "nvme",
+            "scooter", "trottinette", "patinete", "monopattino", "kukirin", "iscooter",
+            "tineco", "roborock", "dreame", "cafetera", "hibrew",
+            "charger", "gan", "powerbank", "ssd", "nvme",
             "ram", "watch", "smartwatch"
         ],
         "negative_keywords": []
@@ -307,6 +309,7 @@ async def get_recent_france_published_deals(max_age_hours: float = 24.0) -> List
             "price_eur": price_eur,
             "timestamp": ts,
             "category": category,
+            "region": info.get("region"),
             "channel_url": f"https://t.me/{target_clean}/{msg_id_int}"
         }
 
@@ -397,11 +400,12 @@ def format_france_deal_line(item: Dict[str, Any], channel_username: str = "franc
     badge = NUMBER_BADGES[index - 1] if 1 <= index <= len(NUMBER_BADGES) else f"{index}️⃣"
     clean_ch = channel_username.replace("@", "")
     post_url = item.get("channel_url") or f"https://t.me/{clean_ch}/{item['channel_msg_id']}"
-    return f"{badge} 🌐 <a href=\"{post_url}\"><b>{title}</b></a> ▫️ {price_str}"
+    region_flag = {"france": "🇫🇷", "spain": "🇪🇸", "italy": "🇮🇹"}.get(str(item.get("region") or "").lower(), "🌐")
+    return f"{badge} {region_flag} <a href=\"{post_url}\"><b>{title}</b></a> ▫️ {price_str}"
 
 def build_france_category_bulletin(category_name: str, items: List[Dict[str, Any]], channel_username: str = "francedealsdz") -> Tuple[str, List[Dict[str, Any]]]:
     cat_config = CATEGORIES_CONFIG_FR.get(category_name, {
-        "header": f"📦 <b>Sélection {category_name} du Jour 🇫🇷🔥</b>"
+        "header": f"📦 <b>Sélection {category_name} du Jour 🇫🇷🇪🇸🇮🇹 🔥</b>"
     })
     clean_ch = channel_username.replace("@", "")
 
@@ -442,7 +446,7 @@ def format_france_bulletin(category_name: str, items: List[Dict[str, Any]], chan
 def build_france_master_roundup(deals: List[Dict[str, Any]], channel_username: str) -> Tuple[str, List[Dict[str, Any]]]:
     clean_ch = channel_username.replace("@", "")
     header_lines = [
-        "🌙 <b>Récapitulatif des Meilleurs Bons Plans du Jour 🇫🇷🔥</b>",
+        "🌙 <b>Récapitulatif des Meilleurs Bons Plans du Jour 🇫🇷🇪🇸🇮🇹 🔥</b>",
         "",
         "👈 <b>Cliquez sur le nom du produit pour accéder à l'offre ⚪️</b>",
         ""

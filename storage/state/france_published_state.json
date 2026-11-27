@@ -754,6 +754,18 @@
     "aniscoupons": {
       "last_message_id": 32995,
       "last_check_time": 1792329076.858411
+    },
+    "expressfr24": {
+      "last_message_id": 6157,
+      "last_check_time": 1795802127.420033
+    },
+    "firascopon": {
+      "last_message_id": 1693,
+      "last_check_time": 1795802142.3372939
+    },
+    "italiadz": {
+      "last_message_id": 60,
+      "last_check_time": 1795802146.802115
     }
   },
   "last_run_time": 1795802142.5184007,
@@ -998,7 +1010,15 @@
     "francecp:547",
     "francecp:574",
     "francecp:608",
-    "francecp:610"
+    "francecp:610",
+    "firascopon:1688",
+    "firascopon:1689",
+    "italiadz:55",
+    "italiadz:56",
+    "italiadz:57",
+    "italiadz:58",
+    "italiadz:59",
+    "italiadz:60"
   ],
   "last_france_roundup_time": 1795638718.124075
 }

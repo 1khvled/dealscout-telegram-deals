@@ -308,7 +308,7 @@ def build_promo_starting_alert(
                     ],
                     [
                         {"text": "🪙 بوت تخفيض العملات", "url": "https://t.me/Alilo07BOT"},
-                        {"text": "🇫🇷 قناة عروض فرنسا", "url": "https://t.me/francedealsdz"}
+                        {"text": "🇫🇷🇪🇸🇮🇹 قناة فرنسا وأوروبا", "url": "https://t.me/francedealsdz"}
                     ]
                 ]
             }
@@ -394,7 +394,7 @@ def build_promo_launch_alert(promo: PromoEvent, start_hour_str: str = "08:00") -
                     ],
                     [
                         {"text": "🪙 بوت تخفيض العملات", "url": "https://t.me/Alilo07BOT"},
-                        {"text": "🇫🇷 قناة عروض فرنسا", "url": "https://t.me/francedealsdz"}
+                        {"text": "🇫🇷🇪🇸🇮🇹 قناة فرنسا وأوروبا", "url": "https://t.me/francedealsdz"}
                     ]
                 ]
             }

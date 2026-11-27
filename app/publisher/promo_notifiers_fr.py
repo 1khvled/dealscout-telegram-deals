@@ -77,9 +77,9 @@ def build_france_promo_starting_alert(promo: PromoEvent, start_hour_paris: str =
 
     if coupon_lines:
         lines = [
-            f"🚨 <b>CODES PROMO | {promo.name_fr or promo.name} ! 🇫🇷</b>",
+            f"🚨 <b>CODES PROMO | {promo.name_fr or promo.name} ! 🇫🇷🇪🇸🇮🇹</b>",
             f"Du <b>{promo.start_date.strftime('%d')} au {promo.end_date.strftime('%d %B %Y')}</b> 🛍️",
-            f"⏰ Actifs dès demain à <b>{start_hour_paris} (Paris) / 08h00 (DZ)</b>",
+            f"⏰ Actifs dès demain à <b>{start_hour_paris} (Paris/Madrid/Rome) / 08h00 (DZ)</b>",
             "",
             *coupon_lines,
             "",
@@ -93,13 +93,13 @@ def build_france_promo_starting_alert(promo: PromoEvent, start_hour_paris: str =
             "",
             "🪙 Bot réduction pièces : @Alilo07BOT",
             "━━━━━━━━━━━━━━━━━",
-            "📢 <b>Canal :</b> @francedealsdz"
+            "📢 <b>Canal France & Europe :</b> @francedealsdz"
         ]
     else:
         lines = [
-            f"🚨 <b>PROCHAINEMENT | {promo.name_fr or promo.name} ! 🇫🇷</b>",
+            f"🚨 <b>PROCHAINEMENT | {promo.name_fr or promo.name} ! 🇫🇷🇪🇸🇮🇹</b>",
             f"Du <b>{promo.start_date.strftime('%d')} au {promo.end_date.strftime('%d %B %Y')}</b> 🛍️",
-            f"⏰ Lancement prévu dès demain à <b>{start_hour_paris} (Paris) / 08h00 (DZ)</b>",
+            f"⏰ Lancement prévu dès demain à <b>{start_hour_paris} (Paris/Madrid/Rome) / 08h00 (DZ)</b>",
             "",
             "💡 <b>Offres & Réductions :</b>",
             "Remises immédiates avec pièces AliExpress 🪙 et coupons vendeurs dédiés !",
@@ -107,7 +107,7 @@ def build_france_promo_starting_alert(promo: PromoEvent, start_hour_paris: str =
             "",
             "🪙 Bot réduction pièces : @Alilo07BOT",
             "━━━━━━━━━━━━━━━━━",
-            "📢 <b>Canal :</b> @francedealsdz"
+            "📢 <b>Canal France & Europe :</b> @francedealsdz"
         ]
 
     text = "\n".join(lines)
@@ -126,7 +126,7 @@ def build_france_promo_launch_alert(promo: PromoEvent, start_hour_paris: str = "
 
     if coupon_lines:
         lines = [
-            f"🚀 <b>C'EST PARTI ! Lancement officiel : {promo.name_fr or promo.name} ! 🇫🇷🛍️</b>",
+            f"🚀 <b>C'EST PARTI ! Lancement officiel : {promo.name_fr or promo.name} ! 🇫🇷🇪🇸🇮🇹🛍️</b>",
             f"⏰ <b>Les codes promo viennent d'être activés dès maintenant ({start_hour_paris}) :</b>",
             "Appliquez-les immédiatement sur vos commandes avant épuisement des quotas !",
             "",
@@ -139,11 +139,11 @@ def build_france_promo_launch_alert(promo: PromoEvent, start_hour_paris: str = "
             "",
             "🪙 Bot réduction pièces : @Alilo07BOT",
             "━━━━━━━━━━━━━━━━━",
-            "📢 <b>Canal :</b> @francedealsdz"
+            "📢 <b>Canal France & Europe :</b> @francedealsdz"
         ]
     else:
         lines = [
-            f"🚀 <b>C'EST PARTI ! Lancement officiel : {promo.name_fr or promo.name} ! 🇫🇷🛍️</b>",
+            f"🚀 <b>C'EST PARTI ! Lancement officiel : {promo.name_fr or promo.name} ! 🇫🇷🇪🇸🇮🇹🛍️</b>",
             f"⏰ <b>Les offres sont actives dès maintenant ({start_hour_paris}) :</b>",
             "Profitez des remises pièces et des coupons vendeurs disponibles sur les sélections !",
             "",
@@ -152,16 +152,16 @@ def build_france_promo_launch_alert(promo: PromoEvent, start_hour_paris: str = "
             "",
             "🪙 Bot réduction pièces : @Alilo07BOT",
             "━━━━━━━━━━━━━━━━━",
-            "📢 <b>Canal :</b> @francedealsdz"
+            "📢 <b>Canal France & Europe :</b> @francedealsdz"
         ]
     return "\n".join(lines), {}
 
 def build_france_promo_ending_alert(promo: PromoEvent, end_hour_paris: str = "08:59") -> Tuple[str, Dict[str, Any]]:
     """
-    Builds the ending notifier post for France channel.
+    Builds the ending notifier post for France & Europe channel.
     """
     lines = [
-        f"<blockquote>⚠️ <b>Dernières 24 Heures | Fin des soldes et codes promo demain à {end_hour_paris} ! 🇫🇷</b></blockquote>",
+        f"<blockquote>⚠️ <b>Dernières 24 Heures | Fin des soldes et codes promo demain à {end_hour_paris} ! 🇫🇷🇪🇸🇮🇹</b></blockquote>",
         "",
         f"📌 <b>Événement en cours :</b> {promo.name_fr or promo.name}",
         "",
@@ -171,15 +171,15 @@ def build_france_promo_ending_alert(promo: PromoEvent, end_hour_paris: str = "08
         "💳 <b>Astuce Pro Réservation de prix :</b>",
         "Vous pouvez valider votre commande dès maintenant en choisissant un moyen de paiement en attente ou temporairement bloqué pour figer le tarif réduit et finaliser le paiement plus tard !",
         "━━━━━━━━━━━━━━━━━",
-        "📢 <b>Canal officiel de bons plans :</b> @francedealsdz",
-        "🔍 <i>#AliExpressFrance #CodesPromo #BonsPlans #AliExpress</i>"
+        "📢 <b>Canal officiel France & Europe :</b> @francedealsdz",
+        "🔍 <i>#AliExpressFrance #AliExpressEurope #CodesPromo #BonsPlans</i>"
     ]
 
     text = "\n".join(lines)
     reply_markup = {
         "inline_keyboard": [
             [
-                {"text": "🛒 Dernières affaires AliExpress France", "url": "https://s.click.aliexpress.com/e/_c2QPADRL"}
+                {"text": "🛒 Dernières affaires France & Europe", "url": "https://s.click.aliexpress.com/e/_c2QPADRL"}
             ],
             [
                 {"text": "📢 Rejoindre @francedealsdz", "url": "https://t.me/francedealsdz"}

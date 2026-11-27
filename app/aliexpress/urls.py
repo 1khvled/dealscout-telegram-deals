@@ -156,6 +156,7 @@ def normalize_aliexpress_url(url: str, product_id: Optional[str] = None) -> str:
 COMPETITOR_CHANNELS = [
     "ecksdeal", "lodydeals", "zedstoreonline", "aniscoupons", "pcgamingpart",
     "bnddeals", "megaprix", "megaphonna", "coupon4dz", "francecp", "alifrdrop",
+    "expressfr24", "firascopon", "italiadz",
     "couponsglobal", "anishays", "ecks", "esk"
 ]
 

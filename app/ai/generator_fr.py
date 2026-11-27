@@ -5,10 +5,11 @@ from typing import Optional, List, Dict
 from app.config.settings import settings
 from app.utils.logger import logger
 
+
 class FranceDealCaptionGenerator:
     """
     Generates authentic, high-converting French deal and coupon captions
-    for AliExpress France shoppers and the @francedealsdz channel.
+    for AliExpress France & Europe (France, Spain, Italy) shoppers and the @francedealsdz channel.
     """
 
     def _select_smart_hook(
@@ -18,7 +19,8 @@ class FranceDealCaptionGenerator:
         has_points_discount: bool,
         has_coupon: bool,
         is_price_drop: bool = False,
-        is_restock: bool = False
+        is_restock: bool = False,
+        region: str = "france",
     ) -> str:
         h = int(hashlib.md5(title.encode()).hexdigest(), 16)
         t_lower = title.lower()
@@ -41,7 +43,7 @@ class FranceDealCaptionGenerator:
             ]
             return price_drop_hooks[h % len(price_drop_hooks)]
 
-        # 2. Categories
+        # 3. Categories
         is_gaming = any(k in t_lower for k in [
             "mouse", "keyboard", "headset", "controller", "gamepad", "gaming", "gamer",
             "attack shark", "ajazz", "aula", "vgn", "rgb", "joystick", "switch", "keycap"
@@ -75,8 +77,14 @@ class FranceDealCaptionGenerator:
                 else "⚡ <b>Offre exceptionnelle sur la Tech 🔥</b>"
             )
 
+        region_lead = {
+            "spain": "⚡ <b>Super Bon Plan AliExpress Espagne & Europe ! 🇪🇸🔥</b>",
+            "italy": "⚡ <b>Super Bon Plan AliExpress Italie & Europe ! 🇮🇹🔥</b>",
+            "europe": "⚡ <b>Super Bon Plan AliExpress France & Europe ! 🇫🇷🇪🇸🇮🇹</b>",
+        }.get(region, "⚡ <b>Super Bon Plan AliExpress France & Europe ! 🇫🇷🔥</b>")
+
         candidates = [
-            "⚡ <b>Super Bon Plan AliExpress France ! 🔥</b>",
+            region_lead,
             "🔥 <b>Excellente affaire à saisir rapidement !</b>",
             "💥 <b>Grosse promotion disponible dès maintenant 🔥</b>",
             "🎯 <b>Offre spéciale à prix réduit ⚡</b>"
@@ -90,7 +98,7 @@ class FranceDealCaptionGenerator:
         promo_name: Optional[str] = None
     ) -> str:
         """
-        Builds French coupon bulletin format for multi-coupon lists.
+        Builds French & Europe coupon bulletin format for multi-coupon lists.
         Dynamically detects active promo and enforces strict <= 1024 char limit for Telegram captions.
         """
         if not promo_name or promo_name == "Party Ready Sale":
@@ -128,7 +136,7 @@ class FranceDealCaptionGenerator:
             f"{affiliate_url}",
             "",
             "🪙 <i>Bot réduction pièces (Coins) : @Alilo07BOT</i>",
-            "📢 <i>Canal de bons plans : @francedealsdz</i>"
+            "📢 <i>Canal France & Europe : @francedealsdz</i>"
         ])
 
         caption = "\n".join(lines)
@@ -139,21 +147,29 @@ class FranceDealCaptionGenerator:
     def format_event_campaign(
         self,
         raw_text: str,
-        affiliate_url: str
+        affiliate_url: str,
+        region: str = "europe",
     ) -> str:
         """
-        Formats AliExpress official event / warm-up announcements in French.
+        Formats AliExpress official event / warm-up announcements in French for France & Europe.
         """
+        from app.aliexpress.urls import strip_competitor_elements
         clean_lines = []
         for line in raw_text.splitlines():
-            line_str = line.strip()
+            line_str = strip_competitor_elements(line.strip())
             if not line_str or "http://" in line_str or "https://" in line_str or "t.me/" in line_str:
                 continue
             clean_lines.append(line_str)
 
         main_content = "\n".join(clean_lines).strip()
         if not main_content:
-            main_content = "✨ <b>Promotions exclusives et codes de réduction AliExpress France !</b>"
+            main_content = "✨ <b>Promotions exclusives et codes de réduction AliExpress France & Europe !</b>"
+
+        delivery_note = {
+            "france": "🚚 <i>Livraison directe en France métropolitaine 🇫🇷</i>",
+            "spain": "🚚 <i>Offre AliExpress Espagne & Europe 🇪🇸</i>",
+            "italy": "🚚 <i>Offre AliExpress Italie & Europe 🇮🇹</i>",
+        }.get(region, "🚚 <i>Livraison France & Europe 🇫🇷🇪🇸🇮🇹</i>")
 
         lines = [
             f"🎉 <b>{main_content}</b>",
@@ -161,8 +177,8 @@ class FranceDealCaptionGenerator:
             "🔗 <b>Lien d'accès et activation des offres ⬇️</b>",
             f"{affiliate_url}",
             "",
-            "🚚 <i>Livraison directe en France métropolitaine 🇫🇷</i>",
-            "📢 <i>Canal officiel : @francedealsdz</i>"
+            delivery_note,
+            "📢 <i>Canal France & Europe : @francedealsdz</i>"
         ]
         return "\n".join(lines)
 
@@ -179,8 +195,18 @@ class FranceDealCaptionGenerator:
         is_restock: bool = False,
         deal_type: str = "coin",
         country_info: Optional[str] = None,
-        raw_text: Optional[str] = None
+        raw_text: Optional[str] = None,
+        region: Optional[str] = None,
+        channel_username: str = "",
     ) -> str:
+        from app.aliexpress.parser import detect_europe_region, extract_paypal_eur_price
+
+        resolved_region = region or detect_europe_region(
+            raw_text or "",
+            channel_username=channel_username,
+            coupon_code=coupon_code or "",
+            country_info=country_info,
+        )
         lines = []
 
         # 1. Smart French Hook in blockquote
@@ -203,7 +229,8 @@ class FranceDealCaptionGenerator:
                 has_points_discount=has_points_discount,
                 has_coupon=bool(coupon_code or seller_coupon),
                 is_price_drop=is_price_drop,
-                is_restock=is_restock
+                is_restock=is_restock,
+                region=resolved_region,
             )
         clean_hook = re.sub(r'</?b>', '', hook).strip()
         lines.append(f"<blockquote>🔥 <b>{clean_hook}</b></blockquote>")
@@ -218,8 +245,14 @@ class FranceDealCaptionGenerator:
         elif is_price_drop:
             lines.append("<blockquote>📉 <b>Baisse de Prix :</b> Nouveau prix réduit, encore moins cher qu'auparavant ! 🔥</blockquote>")
 
-        # 3. Shipping / Location note in blockquote
-        lines.append("<blockquote>🚚 <b>Livraison :</b> France métropolitaine 🇫🇷</blockquote>")
+        # 3. Shipping / Region note in blockquote
+        region_delivery = {
+            "france": "<blockquote>🚚 <b>Livraison :</b> France métropolitaine 🇫🇷</blockquote>",
+            "spain": "<blockquote>🚚 <b>Région / Livraison :</b> Espagne 🇪🇸 (Europe)</blockquote>",
+            "italy": "<blockquote>🚚 <b>Région / Livraison :</b> Italie 🇮🇹 (Europe)</blockquote>",
+            "europe": "<blockquote>🚚 <b>Livraison :</b> France & Europe 🇫🇷🇪🇸🇮🇹</blockquote>",
+        }
+        lines.append(region_delivery.get(resolved_region, region_delivery["europe"]))
 
         # 3.5 French retail comparison quote if mentioned in source
         if raw_text:
@@ -237,10 +270,16 @@ class FranceDealCaptionGenerator:
         lines.append(f"✅ <b>{safe_title}</b>")
         lines.append("")
 
-        # Price
+        # Price (preserving optional PayPal promo tier when quoted)
+        paypal_eur, is_paypal_only = extract_paypal_eur_price(raw_text or "") if raw_text else (None, False)
         if eur_price and eur_price > 0:
             usd_str = f" (${usd_price:.2f})" if usd_price and usd_price > 0 else ""
-            lines.append(f"💰 <b>Prix :</b> <b>{eur_price:.2f}€</b>{usd_str} 🔥")
+            if is_paypal_only:
+                lines.append(f"💰 <b>Prix (via PayPal) :</b> <b>{eur_price:.2f}€</b>{usd_str} 🔥")
+            else:
+                lines.append(f"💰 <b>Prix :</b> <b>{eur_price:.2f}€</b>{usd_str} 🔥")
+                if paypal_eur and paypal_eur < eur_price:
+                    lines.append(f"💳 <b>Prix avec PayPal :</b> <b>{paypal_eur:.2f}€</b> ⚡")
         elif usd_price and usd_price > 0:
             approx_eur = usd_price * (settings.EUR_USD_RATE or 0.92)
             lines.append(f"💰 <b>Prix :</b> <b>{approx_eur:.2f}€</b> (${usd_price:.2f}) 🔥")
@@ -249,11 +288,11 @@ class FranceDealCaptionGenerator:
 
         if seller_coupon and str(seller_coupon).strip() not in {"0", "0$", "$0", "0€", "None", ""}:
             s_clean = str(seller_coupon).strip()
-            # In France, convert dollar coupon markers to EUR
-            s_clean = re.sub(r'[\$USDusd\s]', '', s_clean)
-            if s_clean and not s_clean.endswith('€'):
+            # In France & Europe, convert dollar coupon markers to EUR
+            s_clean = re.sub(r'[\$USDusd€EUR\s]', '', s_clean)
+            if s_clean:
                 s_clean = f"{s_clean}€"
-            lines.append(f"🌷 <b>Coupon vendeur :</b> <code>{html.escape(s_clean)}</code>")
+                lines.append(f"🌷 <b>Coupon vendeur :</b> <code>{html.escape(s_clean)}</code>")
 
         if coupon_code:
             lines.append(f"🏷️ <b>Code promo :</b> <code>{html.escape(coupon_code)}</code>")
@@ -289,7 +328,9 @@ class FranceDealCaptionGenerator:
         is_restock: bool = False,
         deal_type: str = "coin",
         country_info: Optional[str] = None,
-        raw_text: Optional[str] = None
+        raw_text: Optional[str] = None,
+        region: Optional[str] = None,
+        channel_username: str = "",
     ) -> str:
         if not is_restock and raw_text:
             from app.aliexpress.parser import detect_restock_deal
@@ -303,7 +344,14 @@ class FranceDealCaptionGenerator:
             return self.format_coupon_list(coupon_list, affiliate_url)
 
         if (not eur_price or eur_price <= 0) and (not usd_price or usd_price <= 0) and raw_text and any(k in raw_text.lower() for k in ["code", "promo", "coupon", "reduction", "party ready", "choice day"]):
-            return self.format_event_campaign(raw_text, affiliate_url)
+            from app.aliexpress.parser import detect_europe_region
+            resolved_reg = region or detect_europe_region(
+                raw_text or "",
+                channel_username=channel_username,
+                coupon_code=coupon_code or "",
+                country_info=country_info,
+            )
+            return self.format_event_campaign(raw_text, affiliate_url, region=resolved_reg)
 
         clean_title = title.strip() if title else "Produit sélectionné sur AliExpress"
         eur_val = eur_price or (round(usd_price * (settings.EUR_USD_RATE or 0.92), 2) if usd_price else 0.0)
@@ -321,8 +369,11 @@ class FranceDealCaptionGenerator:
             is_restock=is_restock,
             deal_type=deal_type,
             country_info=country_info,
-            raw_text=raw_text
+            raw_text=raw_text,
+            region=region,
+            channel_username=channel_username,
         )
+
 
 france_caption_generator = FranceDealCaptionGenerator()
 
@@ -332,11 +383,12 @@ def format_alifrdrop_caption_1to1(raw_text: str, affiliate_url: str, coupon_code
     Copies AliFRDrop deal format 1:1, replacing competitor link and bot with ours,
     wrapping promo codes in <code> tags for tap-to-copy, and replacing any Arabic slang with French hook.
     """
+    from app.aliexpress.urls import strip_competitor_elements
     clean_lines = []
     lines = raw_text.splitlines()
 
     for line in lines:
-        l = line.strip()
+        l = strip_competitor_elements(line.strip())
         if not l:
             clean_lines.append("")
             continue
@@ -352,16 +404,15 @@ def format_alifrdrop_caption_1to1(raw_text: str, affiliate_url: str, coupon_code
             continue
 
         # Replace competitor bot with @Alilo07BOT
-        if any(b in l.lower() for b in ["@lodycouponsbot", "lodycouponsbot", "@lodydeals", "@aniscoupons", "@zedstore"]):
+        if any(b in l.lower() for b in ["@lodycouponsbot", "lodycouponsbot", "@lodydeals", "@aniscoupons", "@zedstore", "@aliscouteubot", "aliscouteubot"]):
             clean_lines.append("🤖 Utilisez le bot avant d'acheter : @Alilo07BOT")
             continue
 
         # Wrap promo codes in <code>...</code> if line is Code
-        if re.search(r"(?:code|code\s+promo|coupon)\s*:", l, re.I):
+        if re.search(r"(?:code|code\s+promo|coupon|cup[oó]n|codice)\s*:", l, re.I):
             prefix_match = re.match(r"^([^:]+:\s*)(.*)$", l)
             if prefix_match:
                 prefix, codes_str = prefix_match.group(1), prefix_match.group(2)
-                # Split multiple codes by / or space
                 parts = [p.strip() for p in re.split(r"([/\s]+)", codes_str) if p]
                 formatted_parts = []
                 for p in parts:

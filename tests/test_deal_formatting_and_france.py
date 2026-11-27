@@ -1176,3 +1176,168 @@ def test_select_tajmi3at_banner_path_prefers_phones_banner_for_phone_roundups():
 
     p5 = select_tajmi3at_banner_path("أفضل عروض الهواتف\n⚡ iPhone 16\n⚡ OnePlus 13")
     assert p5.name == "tajmi3at_phones_banner.jpg"
+
+
+def test_universal_europe_sources_country_and_coupon_parsing():
+    from app.aliexpress.parser import (
+        detect_europe_region,
+        extract_clean_title,
+        extract_country_instruction,
+        extract_multi_coupons,
+        extract_paypal_eur_price,
+        extract_prices,
+        extract_seller_coupon,
+        is_allowed_category,
+        is_france_deal,
+    )
+    from scripts.post_france_deals import FRANCE_SOURCE_CHANNELS, is_strictly_france_compatible_deal
+
+    for src in ("expressfr24", "firascopon", "italiadz", "FranceCP", "PromoZoneFR", "AliFRDrop"):
+        assert src in FRANCE_SOURCE_CHANNELS
+
+    # Kukirin must NEVER false-match "uk" in country instruction
+    italiadz_58 = (
+        "✅👨‍⚖️ عرض خرافي........\n\n"
+        "✅ Scooter électrique Kukirin M4 Max pour adultes, batterie 48V 18.2Ah.\n"
+        "🎟️ Coupon :40€ ITFB40 / ITFB20\n"
+        "💰 Prix PayPal : 323.66€\n"
+        "🔗 Lien direct : https://s.click.aliexpress.com/e/_c3qb4e6l"
+    )
+    assert extract_country_instruction(italiadz_58) == "إيطاليا 🇮🇹"
+    assert detect_europe_region(italiadz_58, channel_username="italiadz", coupon_code="ITFB40") == "italy"
+    assert "Scooter électrique Kukirin M4 Max" in (extract_clean_title(italiadz_58) or "")
+    assert is_allowed_category("Scooter électrique Kukirin M4 Max", italiadz_58, channel_username="italiadz")[0] is True
+    ok_it, _ = is_strictly_france_compatible_deal(italiadz_58, channel_username="italiadz")
+    assert ok_it is True
+
+    # Spanish firascopon post: avoid bogus "CUP" coupon from "Cupón" and extract clean title
+    firas_795 = (
+        "✅Excelente oferta!!🔥\n\n"
+        "✔️Official XIAOMI 15T smartphone 5G with 6.83'' display, 5500mAh battery 12/256GB\n"
+        "🌟Descuentos por pieza\n"
+        "🎫 Cupón : ESCD45\n"
+        "💶 Precio : 326€\n"
+        "🔗Enlace directo : https://s.click.aliexpress.com/e/_c4mloonP\n"
+        "🤖Utiliza el bot antes de comprar: @AliScoutEUbot"
+    )
+    coupons = extract_multi_coupons(firas_795)["coupons"]
+    assert coupons == ["ESCD45"]
+    assert extract_prices(firas_795)[1] == 326.0
+    assert "XIAOMI 15T" in (extract_clean_title(firas_795) or "")
+    assert detect_europe_region(firas_795, channel_username="firascopon", coupon_code="ESCD45") == "spain"
+    assert is_france_deal(firas_795) is True
+
+    # French expressfr24 dual price + Coupon boutique
+    exp_6153 = (
+        "✅ Aspirateur balai 2-en-1 Tineco Floor One S9 Master\n"
+        "🎟️ Coupon :FRBF40\n"
+        "🎟️ Coupon boutique  40 €\n"
+        "💰 Prix : 249 €\n"
+        "💸Paypal  229€\n"
+        "🔗 Lien direct : https://s.click.aliexpress.com/e/_c3YlugjR"
+    )
+    assert extract_seller_coupon(exp_6153) == "40 €"
+    pp_val, pp_only = extract_paypal_eur_price(exp_6153)
+    assert pp_val == 229.0 and pp_only is False
+    assert detect_europe_region(exp_6153, channel_username="expressfr24", coupon_code="FRBF40") == "france"
+
+    # Guardrail: Algerian USD country-switch post mentioning Spain must NOT hijack @DzAliexpress0 deals
+    dz_spain_trick = "غير البلد لإسبانيا 🇪🇸\n✅ ماوس قيمنق هبال\n💰 السعر : 12.50$"
+    assert is_france_deal(dz_spain_trick) is False
+
+
+@pytest.mark.asyncio
+async def test_universal_france_and_europe_captions_and_direct_probe():
+    from app.ai.generator_fr import france_caption_generator, format_alifrdrop_caption_1to1
+    from app.aliexpress.urls import check_competitor_contamination
+    from scripts.post_france_deals import find_channel_max_id, probe_direct_channel_posts
+
+    # 1. Spain deal caption + region label
+    cap_es = await france_caption_generator.generate(
+        title="XIAOMI 15T 5G 12/256GB",
+        eur_price=326.0,
+        usd_price=354.35,
+        affiliate_url="https://s.click.aliexpress.com/e/_cOUR",
+        coupon_code="ESCD45",
+        channel_username="firascopon",
+        raw_text="🎫 Cupón : ESCD45\n💶 Precio : 326€\n🤖 @AliScoutEUbot",
+    )
+    assert "Espagne 🇪🇸" in cap_es
+    assert "<code>ESCD45</code>" in cap_es
+    assert "@francedealsdz" in cap_es
+    assert "AliScoutEUbot" not in cap_es
+    assert not check_competitor_contamination(cap_es, "https://s.click.aliexpress.com/e/_cOUR")[0]
+
+    # 2. Italy PayPal-only deal caption
+    cap_it = await france_caption_generator.generate(
+        title="iScooter i10Pro 48V 15Ah",
+        eur_price=227.0,
+        usd_price=246.74,
+        affiliate_url="https://s.click.aliexpress.com/e/_cOUR2",
+        coupon_code="ITBF40",
+        channel_username="italiadz",
+        raw_text="🎟️ Coupon:ITBF40\n💰 Prix PayPal : 227€",
+    )
+    assert "Italie 🇮🇹" in cap_it
+    assert "Prix (via PayPal)" in cap_it
+    assert "<code>ITBF40</code>" in cap_it
+
+    # 3. France dual normal + PayPal price + Coupon boutique
+    cap_fr = await france_caption_generator.generate(
+        title="Tineco Floor One S9 Master",
+        eur_price=249.0,
+        usd_price=270.65,
+        affiliate_url="https://s.click.aliexpress.com/e/_cOUR3",
+        coupon_code="FRBF40",
+        seller_coupon="40 €",
+        channel_username="expressfr24",
+        raw_text="💰 Prix : 249 €\n💸Paypal 229€",
+    )
+    assert "France métropolitaine 🇫🇷" in cap_fr
+    assert "249.00€" in cap_fr
+    assert "Prix avec PayPal :</b> <b>229.00€</b>" in cap_fr
+    assert "<code>40€</code>" in cap_fr
+
+    # 4. 1:1 formatter scrubs new EU competitor handles/bots
+    clean_1to1 = format_alifrdrop_caption_1to1(
+        "🔥 Deal\nCode : FRBF40\nLien : https://s.click.aliexpress.com/e/_x\n🤖 @AliScoutEUbot @firascopon",
+        "https://s.click.aliexpress.com/e/_our1",
+    )
+    assert not check_competitor_contamination(clean_1to1, "https://s.click.aliexpress.com/e/_our1")[0]
+
+    # 5. Universal direct prober survives deleted-ID gaps (like firascopon/800) & enforces embed timestamp freshness
+    from datetime import datetime, timezone, timedelta
+
+    now_iso = (datetime.now(timezone.utc) - timedelta(hours=1)).strftime("%Y-%m-%dT%H:%M:%S+00:00")
+    old_iso = (datetime.now(timezone.utc) - timedelta(hours=48)).strftime("%Y-%m-%dT%H:%M:%S+00:00")
+
+    class FakeResp:
+        def __init__(self, status_code, text):
+            self.status_code = status_code
+            self.text = text
+
+    class FakeClient:
+        async def get(self, url):
+            if "?embed=1" in url:
+                dt = now_iso if "/120?" in url else old_iso
+                return FakeResp(200, f'<html><time datetime="{dt}"></time></html>')
+            m_id = url.rsplit("/", 1)[-1]
+            if m_id.isdigit():
+                pid = int(m_id)
+                # Posts 1..120 exist except deleted #100 (binary-search boundary) and #119
+                if 1 <= pid <= 120 and pid not in (100, 119):
+                    return FakeResp(
+                        200,
+                        f'<div data-telegram-post="firascopon/{pid}"></div>'
+                        f'<meta property="og:description" content="✔️Deal {pid} 🇪🇸 200€ https://s.click.aliexpress.com/e/_a">',
+                    )
+            return FakeResp(200, "<html></html>")
+
+    fc = FakeClient()
+    mx = await find_channel_max_id(fc, "firascopon")
+    assert mx == 120
+    items, got_max, stale = await probe_direct_channel_posts(fc, "firascopon", 117, set(), max_age_hours=14.0)
+    assert got_max == 120
+    assert [it["msg_id"] for it in items] == [120]
+    assert "firascopon:118" in stale
+

@@ -42,10 +42,10 @@ BUTTONS_DZ = [
     [{"text": "🪙 بوت تخفيض العملات (@Alilo07BOT)", "url": "https://t.me/Alilo07BOT"}]
 ]
 
-# --- FRENCH CAMPAIGN: For @francedealsdz (France & Diaspora Audience) ---
-POST_WEBSITE_PROMO_FR = """<blockquote>🌐 <b>Lancement de notre Plateforme Web DealScout DZ ! 🇫🇷⚡</b></blockquote>
+# --- FRENCH & EUROPE CAMPAIGN: For @francedealsdz (France, Spain, Italy & Diaspora) ---
+POST_WEBSITE_PROMO_FR = """<blockquote>🌐 <b>Lancement de notre Plateforme Web DealScout DZ ! 🇫🇷🇪🇸🇮🇹</b></blockquote>
 
-Retrouvez tous les meilleurs bons plans et codes promos AliExpress sur une plateforme rapide et moderne :
+Retrouvez tous les meilleurs bons plans et codes promos AliExpress (France & Europe) sur une plateforme rapide et moderne :
 
 ✨ <b>Fonctionnalités clés :</b>
 ▫️ 💶 <b>Double devise :</b> Prix en Euros (€) et Dinars (DZD).
@@ -57,7 +57,7 @@ Retrouvez tous les meilleurs bons plans et codes promos AliExpress sur une plate
 🔗 <b>Accédez au site dès maintenant ⤵️</b>
 https://dealscoutgreen.vercel.app/
 ━━━━━━━━━━━━━━━━━
-📢 <b>Canal France :</b> @francedealsdz"""
+📢 <b>Canal France & Europe :</b> @francedealsdz"""
 
 BUTTONS_FR = [
     [{"text": "🌐 Découvrir le site DealScout DZ", "url": "https://dealscoutgreen.vercel.app/"}],

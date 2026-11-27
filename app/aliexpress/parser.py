@@ -19,7 +19,7 @@ EUR_PRICE_PATTERNS = [
 
 COUPON_PATTERNS = [
     re.compile(
-        r'(?:code\s*promo|code\s*de\s*r[ée]duction|code\s*r[ée]duction|bon\s*de\s*r[ée]duction|(?:ال)?كوبون(?:\s*الخصم|\s*التخفيض)?|(?:ال)?كود(?:\s*الخصم|\s*التخفيض)?|(?:ال)?قسيمة|coupon|code|promo)\s*'
+        r'(?:code\s*promo|code\s*de\s*r[ée]duction|code\s*r[ée]duction|bon\s*de\s*r[ée]duction|cup[oó]n|c[oó]digo(?:\s*(?:promo|promocional|descuento|de\s*descuento))?|codice(?:\s*(?:sconto|promo))?|(?:ال)?كوبون(?:\s*الخصم|\s*التخفيض)?|(?:ال)?كود(?:\s*الخصم|\s*التخفيض)?|(?:ال)?قسيمة|coupon|code|promo)\s*'
         r'(?:[-–]?\s*[$€]?[0-9]+(?:[\.,][0-9]+)?[^\S\r\n]*(?:/[^\S\r\n]*[$€]?[0-9]+(?:[\.,][0-9]+)?)?[^\S\r\n]*(?:€|eur|euro|euros|دولار|dollar|\$)?)?'
         r'[\s:：\-=ـ_•*~|()✅🔥👉✔️⏺🙏🎟️🎫💵💰🎁📌⚡💥🤐\r\n]*'
         r'(?:استخدمه|استخدم|استعمله|استعمل|انسخه|بكود|code|avec\s*le\s*code|utilisez\s*le\s*code)?'
@@ -29,22 +29,23 @@ COUPON_PATTERNS = [
         re.IGNORECASE
     ),
     re.compile(
-        r'(?:استخدم\s+كود|استعمل\s+كود|كود\s+الخصم|كود\s+التخفيض|كود\s+الشراء|كوبون\s+الخصم|كوبون\s+التخفيض|كوبون\s+خاص|(?:ال)?كود\s*[:：]|(?:ال)?كوبون\s*[:：]|code\s*promo|code\s*de\s*r[ée]duction|code\s*r[ée]duction|bon\s*de\s*r[ée]duction|utilisez\s*(?:le\s*)?code|avec\s*(?:le\s*)?code)\s*[:：\-=ـ_•*~|\s]*(?:<code>|\*\*|`)*([A-Za-z0-9_-]{3,24})',
+        r'(?:استخدم\s+كود|استعمل\s+كود|كود\s+الخصم|كود\s+التخفيض|كود\s+الشراء|كوبون\s+الخصم|كوبون\s+التخفيض|كوبون\s+خاص|(?:ال)?كود\s*[:：]|(?:ال)?كوبون\s*[:：]|code\s*promo|code\s*de\s*r[ée]duction|code\s*r[ée]duction|bon\s*de\s*r[ée]duction|cup[oó]n|codice\s*(?:sconto|promo)|utilisez\s*(?:le\s*)?code|avec\s*(?:le\s*)?code)\s*[:：\-=ـ_•*~|\s]*(?:<code>|\*\*|`)*([A-Za-z0-9_-]{3,24})',
         re.IGNORECASE
     ),
     re.compile(
-        r'[🏷️🎟️🎫👊]\s*(?:كوبون|كود|code|coupon|promo)?\s*[:：\-\s\d\$/€\r\n]*(?:<code>|\*\*|`)*([A-Za-z0-9_-]{3,24})',
+        r'[🏷️🎟️🎫👊]\s*(?:كوبون|كود|code|coupon|cup[oó]n|codice|promo)?\s*[:：\-\s\d\$/€\r\n]*(?:<code>|\*\*|`)*([A-Za-z0-9_-]{3,24})',
         re.IGNORECASE
     ),
     re.compile(
-        r'(?:كود|كوبون|قسيمة|code|coupon|promo|خصم|تخفيض)[^\n]{0,60}?(?:<code>|`)([A-Za-z0-9_-]{3,24})(?:</code>|`)',
+        r'(?:كود|كوبون|قسيمة|code|coupon|cup[oó]n|codice|promo|خصم|تخفيض)[^\n]{0,60}?(?:<code>|`)([A-Za-z0-9_-]{3,24})(?:</code>|`)',
         re.IGNORECASE
     ),
 ]
 
 SELLER_COUPON_PATTERNS = [
-    re.compile(r'(?:حصل\s*|احجز\s*)?(?:(?:ال)?قسيمة|(?:ال)?كوبون|(?:ال)?كود)\s*(?:البائع|المتجر|خاصة\s*بالمتجر|store\s*coupon|seller\s*coupon|vendeur)[\s:：\-=ـ_•*~|()✅🔥👉✔️🌷🙏\+💵💰🎁\r\n]*[$€]?\s*([0-9]+(?:[\.,][0-9]+)?(?:\s*(?:دولار|dollar|€|eur|\$))?|[A-Za-z0-9_\-]{3,25})', re.IGNORECASE),
-    re.compile(r'🌷\s*(?:(?:ال)?قسيمـ?ة\s*(?:البـ?ائع|المتجر)?|(?:كوبون|كود)\s*(?:المتجر|البائع)|coupon\s*vendeur|store\s*coupon)\s*[:：]?\s*(?:<code>|\*\*|`)*([0-9]+(?:[\.,][0-9]+)?\$?|[A-Za-z0-9_\-]{3,25})', re.IGNORECASE),
+    re.compile(r'(?:حصل\s*|احجز\s*)?(?:(?:ال)?قسيمة|(?:ال)?كوبون|(?:ال)?كود)\s*(?:البائع|المتجر|خاصة\s*بالمتجر|store\s*coupon|seller\s*coupon|vendeur|boutique)[\s:：\-=ـ_•*~|()✅🔥👉✔️🌷🙏\+💵💰🎁\r\n]*[$€]?\s*([0-9]+(?:[\.,][0-9]+)?(?:\s*(?:دولار|dollar|€|eur|\$))?|[A-Za-z0-9_\-]{3,25})', re.IGNORECASE),
+    re.compile(r'(?:coupon|cup[oó]n|codice)\s*(?:de\s*)?(?:vendeur|boutique|tienda|negozio|store|seller)[\s:：\-=ـ_•*~|()✅🔥👉✔️🌷🙏\+💵💰🎁\r\n]*[$€]?\s*([0-9]+(?:[\.,][0-9]+)?(?:\s*(?:€|eur|\$))?|[A-Za-z0-9_\-]{3,25})', re.IGNORECASE),
+    re.compile(r'🌷\s*(?:(?:ال)?قسيمـ?ة\s*(?:البـ?ائع|المتجر)?|(?:كوبون|كود)\s*(?:المتجر|البائع)|coupon\s*(?:vendeur|boutique)|store\s*coupon)\s*[:：]?\s*(?:<code>|\*\*|`)*([0-9]+(?:[\.,][0-9]+)?\s*[\$€]?|[A-Za-z0-9_\-]{3,25})', re.IGNORECASE),
 ]
 
 
@@ -159,6 +160,9 @@ ALLOWED_CATEGORY_KEYWORDS_EN = [
     "mini pc", "laptop", "notebook", "chromebook", "macbook", "pc", "computer", "desktop",
     # Generic tech & Smart Home Gadgets
     "wireless", "bluetooth", "rechargeable", "scale", "smart scale", "electronic scale",
+    # European lifestyle, mobility & smart appliances
+    "scooter", "electric scooter", "kick scooter", "kukirin", "iscooter", "trottinette", "patinete", "monopattino",
+    "tineco", "roborock", "dreame", "aspirateur", "vacuum", "air fryer", "cafetera", "espresso", "hibrew",
 ]
 
 ALLOWED_CATEGORY_KEYWORDS_AR = [
@@ -191,6 +195,7 @@ def is_allowed_category(title: str, text: str, channel_username: str = "") -> Tu
     monitored_tech_channels = {
         "pcgamingpart", "bnddeals", "zedstoreonline", "aniscoupons", "ecksdeal",
         "lodydeals", "megaprix", "megaphonna", "coupon4dz", "francecp", "alifrdrop",
+        "expressfr24", "firascopon", "italiadz",
         "couponsglobal"
     }
     # Curated channels are specialized tech/deal channels curated by the user
@@ -463,9 +468,9 @@ def extract_prices(text: str) -> Tuple[Optional[float], Optional[float]]:
             r'[\s:：\-–=ـ•*~|]*[\$💲€]?\s*([0-9]+(?:[\.,][0-9]{1,2})?)\s*([\$💲€]|usd|eur|euro|euros|دولار|دج|د\.ج|da|dzd)?',
             re.IGNORECASE
         ),
-        # French final / discount prices: 'Prix final : 15.50€' or 'Prix après réduction : 15.50€' or 'À seulement 15.50€'
+        # French/Spanish/Italian final / discount prices: 'Prix final : 15.50€', 'Precio : 326€', 'Prix réduit via PayPal : 271€'
         re.compile(
-            r'(?:prix\s*final|prix\s*apr[èe]s\s*(?:r[ée]duction|code|coupon)|prix\s*avec\s*code|prix\s*r[ée]duit|[àa]\s*seulement|seulement)'
+            r'(?:prix\s*final|prix\s*apr[èe]s\s*(?:r[ée]duction|code|coupon)|prix\s*avec\s*code|prix\s*r[ée]duit(?:\s*via\s*paypal)?|precio\s*final|precio\s*rebajado|prezzo\s*finale|[àa]\s*seulement|seulement)'
             r'[\s:：\-–=ـ•*~|]*[\$💲€]?\s*([0-9]+(?:[\.,][0-9]{1,2})?)\s*([\$💲€]|usd|eur|euro|euros|دج|da|dzd)?',
             re.IGNORECASE
         ),
@@ -492,10 +497,10 @@ def extract_prices(text: str) -> Tuple[Optional[float], Optional[float]]:
             r'[\s:：\-–=ـ•*~|]*[\$💲€]?\s*([0-9]+(?:[\.,][0-9]{1,2})?)\s*([\$💲€]|usd|eur|euro|euros|دولار|دج|د\.ج|da|dzd)?',
             re.IGNORECASE
         ),
-        # Standard 'السعر : 0.60$' or 'سعر: 0.60$' or 'Prix : 15€' or 'Price: 15$' or 'بسعر 0.60$'
+        # Standard 'السعر : 0.60$' or 'Prix : 15€' or 'Precio : 45€' or 'Prezzo : 45€' or 'Price: 15$' or 'بسعر 0.60$'
         re.compile(
             r'(?<!كان\s)(?<!كان\sب)(?<!كان\sبـ)(?<!كانت\s)(?<!كانت\sب)(?<!كانت\sبـ)(?<!بدل\s)(?<!بدل\sب)(?<!بدل\sبـ)(?<!عوض\s)(?<!من\s)'
-            r'(?:ا+لسعر|ا+لسعــــر|\bسعر|\bprix|\bprice|\bبسعر)'
+            r'(?:ا+لسعر|ا+لسعــــر|\bسعر|\bprix(?:\s*paypal)?|\bprecio(?:\s*paypal)?|\bprezzo(?:\s*paypal)?|\bprice|\bبسعر)'
             r'(?!\s*(?:القديم|السابق|قبل|الأصلي|الاصلي|العادي|بدون))'
             r'[\s:：\-–=ـ•*~|]*[\$💲€]?\s*([0-9]+(?:[\.,][0-9]{1,2})?)\s*([\$💲€]|usd|eur|euro|euros|دولار|دج|د\.ج|da|dzd)?',
             re.IGNORECASE
@@ -567,6 +572,46 @@ def extract_prices(text: str) -> Tuple[Optional[float], Optional[float]]:
     return None, None
 
 
+def extract_paypal_eur_price(text: str) -> Tuple[Optional[float], bool]:
+    """
+    Extracts an explicit PayPal EUR price if quoted in European deal posts
+    (e.g. '💸 Prix Paypal 181€', '✔️ Prix réduit via PayPal : 271€', 'Precio PayPal : 193€').
+    Returns (paypal_eur, is_paypal_only) where is_paypal_only is True when no separate
+    non-PayPal standard price line exists alongside it.
+    """
+    if not text:
+        return None, False
+
+    clean = re.sub(r'[\u200e\u200f\u200b\u200c\u200d\u0640]', '', text)
+    m_pp = re.search(
+        r'(?:prix\s*(?:r[ée]duit\s*)?(?:via\s*)?|precio\s*(?:via\s*)?|prezzo\s*(?:via\s*)?)?paypal'
+        r'[\s:：\-–=ـ•*~|]*€?\s*([0-9]+(?:[\.,][0-9]{1,2})?)\s*(?:€|eur|euros?)?',
+        clean,
+        re.IGNORECASE,
+    )
+    if not m_pp:
+        return None, False
+
+    try:
+        pp_val = float(m_pp.group(1).replace(",", "."))
+    except ValueError:
+        return None, False
+
+    if not (0.5 <= pp_val <= 50000):
+        return None, False
+
+    has_non_paypal_price = False
+    for line in clean.splitlines():
+        ll = line.lower().strip()
+        if not ll or "paypal" in ll:
+            continue
+        if re.search(r'(?:prix|precio|prezzo|price|السعر)\s*[:：\-]?\s*[0-9]', ll) and re.search(r'€|eur', ll):
+            has_non_paypal_price = True
+            break
+
+    return pp_val, not has_non_paypal_price
+
+
 def is_competitor_branded_code(code: str) -> bool:
     """Checks if a coupon code contains a competitor channel's brand/name (e.g. ANIS, BND, ZED, LODY, ECKS)."""
     if not code:
@@ -586,6 +631,9 @@ BLACKLIST_COUPONS = {
     "t.me", "dzgamingcoinbot", "channel", "click", "s.click",
     "dzaliexpress0", "francedealsdz", "france", "canada", "algerie", "livraison",
     "promo", "promos", "reduction", "reductions", "remise", "code", "codes", "coupon", "coupons",
+    "cup", "cupon", "cupones", "codigo", "codigos", "descuento", "descuentos",
+    "codice", "codici", "sconto", "sconti", "cod", "paypal", "eur", "euro", "euros", "tva",
+    "boutique", "tienda", "negozio",
     "seller", "store", "vendeur", "boutique", "magasin", "shop", "online",
     "choice", "plus", "super", "deal", "deals", "price", "prix", "order",
     "camera", "battery", "android", "snapdragon", "display", "screen",
@@ -780,7 +828,9 @@ def extract_multi_coupons(raw_text: str, title: Optional[str] = None) -> Dict[st
         r'(?:ال)?قسيمة\s*(?:أخرى|اخرى|إضافية|اضافية|خاصة|البائع|المتجر|الخصم|التخفيض)?|'
         r'(?:ال)?قسيمـ?ة|'
         r'\bcode(?:\s*promo)?(?:\s*[-–]?\s*[$€]?[0-9]+(?:[\.,][0-9]+)?[$€]?)?|code\s*de\s*r[ée]duction|code\s*r[ée]duction|bon\s*de\s*r[ée]duction|'
-        r'coupon\s*vendeur|store\s*coupon|seller\s*coupon|utilisez\s*(?:le\s*)?code|avec\s*(?:le\s*)?code|'
+        r'cup[oó]n(?:\s*(?:de\s*)?(?:descuento|tienda))?|c[oó]digo(?:\s*(?:promo|promocional|de\s*descuento))?|'
+        r'codice(?:\s*(?:sconto|promo))?|'
+        r'coupon\s*(?:vendeur|boutique)|store\s*coupon|seller\s*coupon|utilisez\s*(?:le\s*)?code|avec\s*(?:le\s*)?code|'
         r'promo\s*code|\bcoupon\b'
         r')'
         r'|'
@@ -859,7 +909,7 @@ def extract_multi_coupons(raw_text: str, title: Optional[str] = None) -> Dict[st
             continue
 
         # Check if line is a pure coupon code line (already extracted)
-        if re.match(r'^(?:🎟️|🎫|•|\-|\*)?\s*(?:(?:ال)?كوبون|(?:ال)?كود|code\s*promo|(?:ال)?قسيمة|code|coupon)\b', line, re.IGNORECASE):
+        if re.match(r'^(?:🎟️|🎫|•|\-|\*)?\s*(?:(?:ال)?كوبون|(?:ال)?كود|code\s*promo|(?:ال)?قسيمة|code|coupon|cup[oó]n|codice)\b', line, re.IGNORECASE):
             continue
         if re.match(r'^(?:🎟️|🎫)\s*[$€]?[0-9]+', line):
             continue
@@ -944,13 +994,14 @@ def extract_seller_coupon(text: str) -> Optional[str]:
         m = pattern.search(norm)
         if m:
             code = m.group(1).strip()
-            # If purely numerical or dollar amount, ensure it is at least $1.00
+            has_eur = "€" in (m.group(0) or "") or "eur" in (m.group(0) or "").lower()
+            # If purely numerical or dollar/euro amount, ensure it is at least 1.00
             num_clean = re.sub(r'[^\d\.]', '', code)
             try:
                 if num_clean and float(num_clean) < 1.0:
                     continue  # Ignore trivial sub-dollar coupons like 0.9$
-                if num_clean and not code.endswith('$'):
-                    code = f"{num_clean}$"
+                if num_clean and not code.endswith(('$', '€')):
+                    code = f"{num_clean}{'€' if has_eur else '$'}"
             except ValueError:
                 pass
             if not is_competitor_branded_code(code):
@@ -1075,13 +1126,23 @@ def extract_country_instruction(text: str, url: str = "", title: str = "") -> Op
     if "🇫🇷" in flag_pairs or any(k in combined for k in [
         "فرنسا", "france", "shiptocountry=fr", "country=fr",
         "european", "version européenne", "version europeenne", "livraison france",
-        "francecp", "alifrdrop"
-    ]) or re.search(r'\bfr(?:prd|ld|cd)?[0-9]{1,4}\b', combined):
+        "francecp", "alifrdrop", "expressfr24"
+    ]) or re.search(r'\b(?:11frbf|frbf|frprd|frld|frcd|cdfr|frfw|fwfr|sunfr|aefr|dsfr|frd11|frd|frwo|fr)[0-9]{1,4}\b', combined):
         return "فرنسا 🇫🇷"
 
     # 5. Spain detection
-    if "🇪🇸" in flag_pairs or any(k in combined for k in ["إسبانيا", "اسبانيا", "spain", "espana", "españa", "shiptocountry=es"]):
+    if "🇪🇸" in flag_pairs or any(k in combined for k in [
+        "إسبانيا", "اسبانيا", "spain", "espagne", "espana", "españa",
+        "shiptocountry=es", "country=es", "firascopon"
+    ]) or re.search(r'\b(?:esbf|escd|esfr|dses|cdes|aees|sses|bfes|esd11|esd)[0-9]{1,4}\b', combined):
         return "إسبانيا 🇪🇸"
+
+    # 5.2 Italy detection
+    if "🇮🇹" in flag_pairs or any(k in combined for k in [
+        "إيطاليا", "ايطاليا", "italy", "italia", "italie",
+        "shiptocountry=it", "country=it", "italiadz"
+    ]) or re.search(r'\b(?:itbf|itfb|itcd|cdit|aeit|ssit|bfit|dsit|itd11|itd|11it)[0-9]{1,4}\b', combined):
+        return "إيطاليا 🇮🇹"
 
     # 5.5 Australia detection
     if "🇦🇺" in flag_pairs or any(k in combined for k in ["استراليا", "أستراليا", "australia", "shiptocountry=au"]) or re.search(r'\baud\b', combined):
@@ -1091,8 +1152,8 @@ def extract_country_instruction(text: str, url: str = "", title: str = "") -> Op
     if "🇺🇦" in flag_pairs or any(k in combined for k in ["أوكرانيا", "اوكرانيا", "ukraine", "shiptocountry=ua"]) or re.search(r'\buah\b', combined):
         return "أوكرانيا 🇺🇦"
 
-    # 5.7 United Kingdom detection
-    if "🇬🇧" in flag_pairs or any(k in combined for k in ["بريطانيا", "المملكة المتحدة", "united kingdom", "uk", "shiptocountry=gb", "shiptocountry=uk"]) or re.search(r'\bgbp\b', combined):
+    # 5.7 United Kingdom detection (use word boundary for 'uk' so 'Kukirin' never false-matches!)
+    if "🇬🇧" in flag_pairs or any(k in combined for k in ["بريطانيا", "المملكة المتحدة", "united kingdom", "shiptocountry=gb", "shiptocountry=uk"]) or re.search(r'\b(?:uk|gbp)\b', combined):
         return "المملكة المتحدة 🇬🇧"
 
     # 5.8 Brazil detection
@@ -1132,7 +1193,12 @@ def extract_clean_title(text: str) -> Optional[str]:
         "يوم 1 نوفمبر", "نهار التخفيضات", "تسخينات", "تسخينات 11.11", "سعر أرض", "سعر ارض",
         "متوسط سعره", "سعره حالياً", "سعره حاليا", "سعرو حالياً", "سعرو حاليا", "في البلاد",
         "السوق الجزائرية", "السوق الجزائري", "عليه طلب", "أستخدمها شخصيا", "استخدمها شخصيا", "للتسجيل من", "السماعات المفقودة", "الاكثر طلبا", "الأكثر طلباً", "الاكثر طلباً",
-        "سارع بحجز", "سارع بالحجز", "احجزه من هنا", "انسخ الكود", "دخلو في المنتج", "بصحتك", "دخله في المنتج"
+        "سارع بحجز", "سارع بالحجز", "احجزه من هنا", "انسخ الكود", "دخلو في المنتج", "بصحتك", "دخله في المنتج",
+        "excelente oferta", "excelente precio", "descuentos por pieza", "descuentos por artículo",
+        "descuentos por articulo", "oferta flash", "enlace directo", "utiliza el bot",
+        "réductions par article", "réductions par pièce", "réductions par pièces", "offre flash",
+        "رابط المتجر", "عرض خرافي", "مزال العرض مستمر", "عودة خصم", "عودة دفع",
+        "s'il vous plaît", "prix réduit via paypal"
     ]
 
     # Normalize tatweel and remove multiple exclamation/fire emojis
@@ -1248,11 +1314,63 @@ def extract_clean_title(text: str) -> Optional[str]:
     return None
 
 
+def detect_europe_region(
+    text: str = "",
+    channel_username: str = "",
+    url: str = "",
+    coupon_code: str = "",
+    country_info: Optional[str] = None,
+) -> str:
+    """
+    Classifies a European deal into its specific target country ('france', 'spain', 'italy')
+    or generic 'europe' for @francedealsdz (France & Europe).
+    Priority: explicit promo-code prefix -> explicit flags/country wording -> source channel -> 'europe'.
+    """
+    combined = re.sub(r'[\u0640]', '', f"{text or ''} {url or ''} {coupon_code or ''} {country_info or ''}").lower()
+    flag_pairs = set(re.findall(r'[\U0001F1E6-\U0001F1FF]{2}', f"{text or ''} {country_info or ''}"))
+    clean_ch = (channel_username or "").replace("@", "").lower()
+
+    # 1. Country-specific AliExpress promo code prefixes (strongest signal: ES* only works in ES, IT* in IT, FR* in FR)
+    if re.search(r'\b(?:esbf|escd|esfr|dses|cdes|aees|sses|bfes|esd11|esd)\d{1,4}\b', combined):
+        return "spain"
+    if re.search(r'\b(?:itbf|itfb|itcd|cdit|aeit|ssit|bfit|dsit|itd11|itd|11it)\d{1,4}\b', combined):
+        return "italy"
+    if re.search(r'\b(?:11frbf|frbf|frprd|frld|frcd|cdfr|frfw|fwfr|sunfr|aefr|dsfr|frd11|frd|frwo)\d{1,4}\b', combined):
+        return "france"
+
+    # 2. Explicit flags / country strings / shipping URL params
+    has_spain = ("🇪🇸" in flag_pairs) or any(
+        k in combined for k in ["إسبانيا", "اسبانيا", "espagne", "espana", "españa", "spain", "shiptocountry=es", "country=es"]
+    )
+    has_italy = ("🇮🇹" in flag_pairs) or any(
+        k in combined for k in ["إيطاليا", "ايطاليا", "italie", "italia", "italy", "shiptocountry=it", "country=it"]
+    )
+    has_france = ("🇫🇷" in flag_pairs) or any(
+        k in combined for k in ["فرنسا", "france", "shiptocountry=fr", "country=fr", "france métropolitaine", "livraison france"]
+    )
+
+    matched_countries = [c for c, flag in (("france", has_france), ("spain", has_spain), ("italy", has_italy)) if flag]
+    if len(matched_countries) == 1:
+        return matched_countries[0]
+    if len(matched_countries) > 1:
+        return "europe"
+
+    # 3. Source channel fallback
+    if clean_ch == "firascopon":
+        return "spain"
+    if clean_ch == "italiadz":
+        return "italy"
+    if clean_ch in {"expressfr24", "francecp", "promozonefr", "alifrdrop"}:
+        return "france"
+
+    return "europe"
+
+
 def is_france_deal(text: str, url: str = "", country_info: Optional[str] = None) -> bool:
     """
-    Detects if a deal or coupon is specifically intended for France/Europe and NOT Algeria.
-    Prevents French offers from ever leaking into Algerian channel @DzAliexpress0,
-    and prevents non-French Arabic deals from leaking into France channel @francedealsdz.
+    Detects if a deal or coupon is specifically intended for France/Europe (France, Spain, Italy)
+    and NOT Algeria. Prevents European offers from leaking into @DzAliexpress0,
+    and prevents Algerian USD/DZD deals from leaking into @francedealsdz.
     """
     combined = f"{text or ''} {url or ''}".lower()
 
@@ -1282,32 +1400,46 @@ def is_france_deal(text: str, url: str = "", country_info: Optional[str] = None)
         "نحو فرنسا", "لفرنسا", "إلى فرنسا", "الى فرنسا", "في فرنسا",
         "البلد فرنسا", "البلد : فرنسا", "بلد فرنسا",
         "كودات فرنسا", "كوبونات فرنسا", "كوبون فرنسا", "كود فرنسا", "كوبون فرنسي", "كوبونات فرنسية",
-        "فرنسا 🇫🇷", "france 🇫🇷"
+        "فرنسا 🇫🇷", "france 🇫🇷",
+        "عروض إسبانيا", "عروض اسبانيا", "خاص بإسبانيا", "خاص باسبانيا",
+        "شحن لإسبانيا", "شحن لاسبانيا", "توصيل لإسبانيا", "توصيل لاسبانيا",
+        "عروض إيطاليا", "عروض ايطاليا", "خاص بإيطاليا", "خاص بايطاليا",
+        "شحن لإيطاليا", "شحن لايطاليا", "توصيل لإيطاليا", "توصيل لايطاليا",
     ]
     if any(k in combined for k in explicit_arabic_france_markers):
         return True
 
-    # If post mentions France and currency is Euro, it's definitely a France deal
-    if any(f in combined for f in ["فرنسا", "france", "🇫🇷"]) and any(e in combined for e in ["€", "اورو", "أورو", "eur", "euro"]):
+    # If post mentions France, Spain, or Italy and currency is Euro (without USD $ Algerian trick markers)
+    has_euro = any(e in combined for e in ["€", "اورو", "أورو", "eur", "euro"])
+    has_usd_or_switch = ("$" in combined) or any(sw in combined for sw in ["غير البلد", "ضع البلد", "خلي البلد", "حول البلد", "بلد الحساب"])
+    if any(f in combined for f in ["فرنسا", "france", "🇫🇷"]) and has_euro:
+        return True
+    if any(f in combined for f in ["إسبانيا", "اسبانيا", "spain", "espagne", "espana", "españa", "🇪🇸", "إيطاليا", "ايطاليا", "italy", "italia", "italie", "🇮🇹"]) and has_euro and not has_usd_or_switch:
         return True
 
-    # Native French phrasing
-    native_french_markers = [
+    # Native French / Spanish / Italian EU phrasing
+    native_euro_markers = [
         "livraison france", "vers la france", "pour la france", "france seulement",
         "codes promo france", "livraison : france", "livraison en france",
-        "livré en france", "livraison gratuite en france", "bon plan france", "prix constaté"
+        "livré en france", "livraison gratuite en france", "bon plan france", "prix constaté",
+        "expressfr24", "firascopon", "italiadz",
+        "excelente oferta", "utiliza el bot antes de comprar",
     ]
-    if any(k in combined for k in native_french_markers):
+    if any(k in combined for k in native_euro_markers):
         return True
 
-    # French promo codes (e.g. FRPRD12, FRLD30, CDFR25, FWFR11, SUNFR30, SUNFR20, FR20)
+    # European promo codes (FR*, ES*, IT*)
+    if re.search(r'\b(?:11frbf|frbf|frprd|frld|frcd|cdfr|frfw|fwfr|sunfr|aefr|dsfr|frd11)\d{1,4}\b', combined, re.IGNORECASE):
+        return True
+    if re.search(r'\b(?:esbf|escd|esfr|dses|cdes|aees|sses|bfes|esd11|esd|itbf|itfb|itcd|cdit|aeit|ssit|bfit|dsit|itd11|itd|11it)\d{1,4}\b', combined, re.IGNORECASE):
+        if has_euro or not has_usd_or_switch:
+            return True
     if re.search(r'\b(?:[A-Za-z]{0,4}FR|FR[A-Za-z]{0,4})\d{1,3}\b', combined, re.IGNORECASE):
-        # Ensure it's not a false positive with standard words
-        if any(euro in combined for euro in ["€", "eur", "اورو", "أورو", "france", "فرنسا"]) or re.search(r'\b(?:frprd|frld|frcd|cdfr|frfw|fwfr|sunfr)\d{1,3}\b', combined, re.IGNORECASE):
+        if any(euro in combined for euro in ["€", "eur", "اورو", "أورو", "france", "فرنسا"]):
             return True
 
-    # Explicit URL shipping parameters for France
-    if "shiptocountry=fr" in combined or "country=fr" in combined:
+    # Explicit URL shipping parameters for FR / ES / IT
+    if any(p in combined for p in ["shiptocountry=fr", "country=fr", "shiptocountry=es", "country=es", "shiptocountry=it", "country=it"]):
         return True
 
     return False

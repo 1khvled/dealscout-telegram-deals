@@ -60,33 +60,33 @@ FRANCE_CROSS_VARIANTS: List[Dict[str, Any]] = [
         "id": "caba_euro_orders",
         "title": "Caba & Euro Card Shoppers",
         "text": (
-            "<blockquote>📦 <b>تشري من فرنسا ولا تبعث كابة؟</b></blockquote>\n\n"
-            "كاين تخفيضات وكوبونات في AliExpress تمشي غير في فرنسا وأوروبا ببطاقة أورو، "
+            "<blockquote>📦 <b>تشري من فرنسا أو أوروبا ولا تبعث كابة؟</b></blockquote>\n\n"
+            "كاين تخفيضات وكوبونات في AliExpress تمشي في فرنسا، إسبانيا وإيطاليا ببطاقة أورو، "
             "وبأسعار هايلة مقارنة بالسوق 🇪🇺\n\n"
             "تابع قناتنا المخصصة لصفقات فرنسا وأوروبا:\n"
             "👈 <b>@francedealsdz</b>"
         ),
-        "button_text": "📦 دخول قناة فرنسا (@francedealsdz)"
+        "button_text": "📦 دخول قناة فرنسا وأوروبا (@francedealsdz)"
     },
     {
         "id": "secret_euro_codes",
         "title": "Secret European Warehouses & Fast Shipping",
         "text": (
             "<blockquote>⚡ <b>ميزة الشراء من مستودعات فرنسا وأوروبا</b></blockquote>\n\n"
-            "في فرنسا وأوروبا، الطلبية توصل خلال <b>3 إلى 5 أيام بدون جمارك</b>، "
+            "في فرنسا، إسبانيا وإيطاليا، الطلبية توصل خلال <b>3 إلى 5 أيام بدون جمارك</b>، "
             "ومع الكوبونات الأوروبية يوصل التخفيض حتى <b>80€</b> 💶\n\n"
-            "إذا عندك شخص مقيم في فرنسا أو تشري من أوروبا، تابع قناتنا الخاصة:\n"
+            "إذا عندك شخص مقيم في أوروبا أو تشري من تما، تابع قناتنا الخاصة:\n"
             "👈 <b>@francedealsdz</b>"
         ),
-        "button_text": "💶 تصفح عروض فرنسا (@francedealsdz)"
+        "button_text": "💶 عروض فرنسا وأوروبا (@francedealsdz)"
     },
     {
         "id": "quiet_night_reminder",
         "title": "Late Night Diaspora Reminder",
         "text": (
-            "<blockquote>🌙 <b>لجاليتنا في فرنسا وأوروبا</b></blockquote>\n\n"
+            "<blockquote>🌙 <b>لجاليتنا في فرنسا وأوروبا 🇫🇷🇪🇸🇮🇹</b></blockquote>\n\n"
             "باش ما تراطو حتى عرض ولا كوبون أوروبي في AliExpress، "
-            "تابعوا قناتنا الخاصة بصفقات فرنسا لحظة بلحظة:\n"
+            "تابعوا قناتنا الخاصة بصفقات فرنسا وأوروبا لحظة بلحظة:\n"
             "👈 <b>@francedealsdz</b>"
         ),
         "button_text": "✨ الانضمام إلى @francedealsdz"

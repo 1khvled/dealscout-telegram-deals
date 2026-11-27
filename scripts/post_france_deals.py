@@ -54,21 +54,34 @@ def get_bot_token() -> str:
         or ""
     )
 
-# Dedicated, strictly verified French/European AliExpress channels
-# NEVER include Algerian or Arabic channels here (their coins, coupons, and links do not work in France).
-# French deals dropped by Algerian channels are auto-routed by the France router in post_recent_deals.py!
+# Dedicated, strictly verified French & European AliExpress channels (France, Spain, Italy)
+# NEVER include Algerian or Arabic channels here (their coins, coupons, and links do not work in Europe).
+# European deals dropped by Algerian channels are auto-routed by the France & Europe router in post_recent_deals.py!
 FRANCE_SOURCE_CHANNELS = [
-    "AliFRDrop",
+    "expressfr24",
+    "firascopon",
+    "italiadz",
     "FranceCP",
-    "PromoZoneFR"
+    "PromoZoneFR",
+    "AliFRDrop",
 ]
+
+VERIFIED_EURO_SOURCE_CHANNELS = {
+    "expressfr24",
+    "firascopon",
+    "italiadz",
+    "alifrdrop",
+    "francecp",
+    "promozonefr",
+}
 
 def is_strictly_france_compatible_deal(raw_text: str, channel_username: str = "") -> Tuple[bool, str]:
     """
-    Validates that a deal is strictly genuine and compatible with France / Europe.
-    - Verified French channels (@AliFRDrop, @FranceCP, @PromoZoneFR) are accepted.
-    - Arabic/Algerian channels are accepted ONLY if they explicitly dropped a France deal
-      (e.g. they typed 'عروض ففرنسا', 'عروض فرنسا', 'خاص بفرنسا', French promo code, etc.).
+    Validates that a deal is strictly genuine and compatible with France & Europe
+    (France 🇫🇷, Spain 🇪🇸, Italy 🇮🇹).
+    - Verified European channels (@expressfr24, @firascopon, @italiadz, @FranceCP, @PromoZoneFR, @AliFRDrop) are accepted.
+    - Arabic/Algerian channels are accepted ONLY if they explicitly dropped a France/Europe deal
+      (e.g. 'عروض ففرنسا', 'عروض إسبانيا', 'عروض إيطاليا', French/ES/IT promo codes with Euro).
     - Any deal containing domestic Algerian indicators (DZD, BaridiMob, 58 ولاية) is strictly rejected.
     """
     lower_text = (raw_text or "").lower()
@@ -83,17 +96,16 @@ def is_strictly_france_compatible_deal(raw_text: str, channel_username: str = ""
 
     clean_ch = channel_username.replace("@", "").lower()
 
-    # 2. Verified French channels are native French sources
-    verified_french_channels = {"alifrdrop", "francecp", "promozonefr"}
-    if clean_ch in verified_french_channels:
-        return True, "Verified French source channel"
+    # 2. Verified French & European channels are native EU sources
+    if clean_ch in VERIFIED_EURO_SOURCE_CHANNELS:
+        return True, "Verified France & Europe source channel"
 
-    # 3. Check for explicit French drop indicators from other channels (e.g. 'عروض ففرنسا')
+    # 3. Check for explicit France/Europe drop indicators from other channels (e.g. 'عروض ففرنسا')
     from app.aliexpress.parser import is_france_deal
     if is_france_deal(raw_text):
         return True, "Explicit French drop detected ('عروض ففرنسا')"
 
-    # 4. Known Algerian/Arabic channels without explicit French marker are rejected
+    # 4. Known Algerian/Arabic channels without explicit Europe marker are rejected
     algerian_channels = {
         "megaphonna", "lodydeals", "zedstoreonline", "bnddeals",
         "ecksdeal", "aniscoupons", "coupon4dz", "couponsglobal"
@@ -101,7 +113,7 @@ def is_strictly_france_compatible_deal(raw_text: str, channel_username: str = ""
     if clean_ch in algerian_channels:
         return False, f"Channel @{channel_username} is an Algerian source without explicit France markers ('عروض ففرنسا')"
 
-    return True, "Valid France deal"
+    return True, "Valid France & Europe deal"
 
 
 
@@ -188,7 +200,8 @@ def record_france_deal_published(
     title: str,
     price_eur: Optional[float],
     channel_msg_id: Optional[int],
-    post_key: Optional[str] = None
+    post_key: Optional[str] = None,
+    region: Optional[str] = None,
 ):
     now = datetime.now(timezone.utc).timestamp()
     if post_key:
@@ -198,12 +211,15 @@ def record_france_deal_published(
         pid = str(product_id).strip()
         state.setdefault("published_product_ids", []).append(pid)
         state["published_product_ids"] = list(dict.fromkeys(state["published_product_ids"]))[-1000:]
-        state.setdefault("published_deals_history", {})[pid] = {
+        entry = {
             "timestamp": now,
             "title": title,
             "price_eur": price_eur,
-            "channel_msg_id": channel_msg_id
+            "channel_msg_id": channel_msg_id,
         }
+        if region:
+            entry["region"] = region
+        state.setdefault("published_deals_history", {})[pid] = entry
     state["last_deal_post_time"] = now
 
 def save_france_state(state: Dict):
@@ -380,7 +396,15 @@ async def publish_extracted_deal_to_france(
         deal_type=deal_type
     )
 
-    # Caption
+    # Region & Caption
+    from app.aliexpress.parser import detect_europe_region
+    region = detect_europe_region(
+        raw_text,
+        channel_username=channel_username,
+        url=f"{extracted.original_url} {extracted.canonical_url}",
+        coupon_code=extracted.coupon_code or "",
+        country_info=getattr(extracted, 'country_info', None),
+    )
     caption = await france_caption_generator.generate(
         title=extracted.title or "AliExpress Deal",
         eur_price=extracted.current_price_eur,
@@ -394,7 +418,9 @@ async def publish_extracted_deal_to_france(
         is_restock=is_restock,
         deal_type=deal_type,
         country_info=getattr(extracted, 'country_info', None),
-        raw_text=raw_text
+        raw_text=raw_text,
+        region=region,
+        channel_username=channel_username,
     )
 
     # Image preparation
@@ -444,7 +470,8 @@ async def publish_extracted_deal_to_france(
             title=extracted.title or "Deal",
             price_eur=extracted.current_price_eur,
             channel_msg_id=channel_msg_id,
-            post_key=post_key
+            post_key=post_key,
+            region=region,
         )
         save_france_state(state)
         print(f"  [FRANCE ROUTED PUBLISHED] Msg #{channel_msg_id}: {extracted.title}")
@@ -464,99 +491,165 @@ async def publish_extracted_deal_to_france(
         logger.warning(f"[FRANCE ROUTER] Publish to {TARGET_FRANCE_CHANNEL} failed: {err}")
         return False
 
-async def find_alifrdrop_max_id(client: httpx.AsyncClient) -> int:
-    """Finds current max ID in AliFRDrop via quick exponential search + binary search."""
-    low = 100
-    high = 200
-    while True:
-        try:
-            r = await client.get(f"https://t.me/AliFRDrop/{high}")
-            if r.status_code == 200 and f'data-telegram-post="alifrdrop/{high}"' in r.text.lower():
-                low = high
-                high *= 2
-            else:
-                break
-        except Exception:
+async def _probe_post_exists(client: httpx.AsyncClient, clean_ch: str, pid: int) -> Optional[httpx.Response]:
+    """Fetches a single t.me/{ch}/{pid} post page and returns Response when post exists."""
+    if pid < 1:
+        return None
+    try:
+        r = await client.get(f"https://t.me/{clean_ch}/{pid}")
+        if r.status_code == 200 and f'data-telegram-post="{clean_ch}/{pid}"' in r.text.lower():
+            return r
+    except Exception:
+        pass
+    return None
+
+
+async def _find_existing_near(client: httpx.AsyncClient, clean_ch: str, base_id: int) -> Optional[Tuple[int, httpx.Response]]:
+    """Checks base_id plus small forward offsets so deleted messages never terminate max-ID discovery early."""
+    for offset in (0, 1, 2, 5):
+        cand_id = base_id + offset
+        if cand_id < 1:
+            continue
+        r = await _probe_post_exists(client, clean_ch, cand_id)
+        if r is not None:
+            return cand_id, r
+    return None
+
+
+async def _fetch_embed_post_datetime(client: httpx.AsyncClient, clean_ch: str, pid: int) -> Optional[datetime]:
+    """Reads the real post timestamp from t.me/{ch}/{pid}?embed=1 (<time datetime=...>)."""
+    try:
+        r_emb = await client.get(f"https://t.me/{clean_ch}/{pid}?embed=1")
+        if r_emb.status_code == 200:
+            soup_e = BeautifulSoup(r_emb.text, "html.parser")
+            time_el = soup_e.find("time")
+            if time_el and time_el.get("datetime"):
+                return datetime.fromisoformat(time_el["datetime"].replace("Z", "+00:00"))
+    except Exception:
+        pass
+    return None
+
+
+async def find_channel_max_id(client: httpx.AsyncClient, channel_username: str) -> int:
+    """Universally finds current max post ID for any /s/-redirected Telegram channel via exponential + binary search."""
+    clean_ch = channel_username.lower().lstrip("@")
+    low = 0
+    high = 50
+    while high <= 200000:
+        hit = await _find_existing_near(client, clean_ch, high)
+        if hit is not None:
+            low = hit[0]
+            high *= 2
+        else:
             break
 
     best = low
-    l, h = low, high
+    l, h = max(1, low), high
     while l <= h:
         mid = (l + h) // 2
-        try:
-            r = await client.get(f"https://t.me/AliFRDrop/{mid}")
-            if r.status_code == 200 and f'data-telegram-post="alifrdrop/{mid}"' in r.text.lower():
-                best = mid
-                l = mid + 1
-            else:
-                h = mid - 1
-        except Exception:
+        hit = await _find_existing_near(client, clean_ch, mid)
+        if hit is not None:
+            best = max(best, hit[0])
+            l = max(mid + 1, hit[0] + 1)
+        else:
             h = mid - 1
+    # Check a small forward tail beyond best in case of a deleted-message gap
+    misses = 0
+    cur = best + 1
+    while misses < 5 and cur <= best + 15:
+        if await _probe_post_exists(client, clean_ch, cur) is not None:
+            best = cur
+            misses = 0
+        else:
+            misses += 1
+        cur += 1
     return best
+
+
+async def probe_direct_channel_posts(
+    client: httpx.AsyncClient,
+    channel_username: str,
+    last_seen_id: Optional[int],
+    published_keys: Set[str],
+    handled_keys: Optional[Set[str]] = None,
+    max_age_hours: float = 14.0,
+) -> Tuple[List[Dict[str, Any]], int, List[str]]:
+    """
+    Universally probes https://t.me/{channel}/{id} when Telegram's /s/{channel} preview
+    redirects or hides messages (e.g. expressfr24, firascopon, italiadz, AliFRDrop).
+    Extracts og:description, og:image, and real embed timestamp for accurate freshness checks.
+    Returns (candidates, max_id, stale_handled_keys).
+    """
+    clean_ch = channel_username.lower().lstrip("@")
+    handled = handled_keys or set()
+    found_candidates: List[Dict[str, Any]] = []
+    stale_keys: List[str] = []
+    max_id = last_seen_id or 0
+    now_utc = datetime.now(timezone.utc)
+
+    async def _collect_pid(pid: int, resp: httpx.Response):
+        key = f"{clean_ch}:{pid}"
+        if key in published_keys or key in handled:
+            return
+        soup_p = BeautifulSoup(resp.text, "html.parser")
+        desc_m = soup_p.find("meta", property="og:description")
+        img_m = soup_p.find("meta", property="og:image")
+        if not desc_m or not desc_m.get("content"):
+            return
+        msg_dt = await _fetch_embed_post_datetime(client, clean_ch, pid)
+        if msg_dt is not None:
+            age_h = (now_utc - msg_dt).total_seconds() / 3600.0
+            if age_h > max_age_hours:
+                stale_keys.append(key)
+                return
+        found_candidates.append({
+            "msg_id": pid,
+            "raw_text": desc_m["content"],
+            "source_photo_url": img_m["content"] if img_m else None,
+            "msg_dt": msg_dt or now_utc,
+        })
+
+    if last_seen_id is None:
+        current_max = await find_channel_max_id(client, clean_ch)
+        max_id = current_max
+        probe_start = max(1, current_max - 5)
+        for pid in range(probe_start, current_max + 1):
+            pr = await _probe_post_exists(client, clean_ch, pid)
+            if pr is not None:
+                await _collect_pid(pid, pr)
+    else:
+        consecutive_misses = 0
+        cur_pid = last_seen_id + 1
+        while consecutive_misses < 5 and cur_pid <= last_seen_id + 25:
+            pr = await _probe_post_exists(client, clean_ch, cur_pid)
+            if pr is not None:
+                consecutive_misses = 0
+                max_id = max(max_id, cur_pid)
+                await _collect_pid(cur_pid, pr)
+            else:
+                consecutive_misses += 1
+            cur_pid += 1
+
+    return found_candidates, max_id, stale_keys
+
+
+async def find_alifrdrop_max_id(client: httpx.AsyncClient) -> int:
+    """Backward-compatible wrapper for find_channel_max_id(..., 'alifrdrop')."""
+    return await find_channel_max_id(client, "alifrdrop")
+
 
 async def probe_alifrdrop_direct_posts(
     client: httpx.AsyncClient,
     last_seen_id: Optional[int],
     published_keys: Set[str]
 ) -> Tuple[List[Dict[str, Any]], int]:
-    """
-    Directly probes https://t.me/AliFRDrop/{id} because Telegram's web preview
-    redirects /s/AliFRDrop. Extracts og:description and og:image from post metadata.
-    """
-    found_candidates = []
-    max_id = last_seen_id or 0
-
-    if last_seen_id is None:
-        current_max = await find_alifrdrop_max_id(client)
-        max_id = current_max
-        probe_start = max(1, current_max - 5)
-        for pid in range(probe_start, current_max + 1):
-            try:
-                pr = await client.get(f"https://t.me/AliFRDrop/{pid}")
-                if pr.status_code == 200 and f'data-telegram-post="alifrdrop/{pid}"' in pr.text.lower():
-                    soup_p = BeautifulSoup(pr.text, "html.parser")
-                    desc_m = soup_p.find("meta", property="og:description")
-                    img_m = soup_p.find("meta", property="og:image")
-                    if desc_m and desc_m.get("content"):
-                        found_candidates.append({
-                            "msg_id": pid,
-                            "raw_text": desc_m["content"],
-                            "source_photo_url": img_m["content"] if img_m else None,
-                            "msg_dt": datetime.now(timezone.utc)
-                        })
-            except Exception:
-                pass
-        found_candidates = [it for it in found_candidates if f"alifrdrop:{it['msg_id']}" not in published_keys]
-    else:
-        consecutive_misses = 0
-        cur_pid = last_seen_id + 1
-        while consecutive_misses < 3 and cur_pid <= last_seen_id + 25:
-            try:
-                pr = await client.get(f"https://t.me/AliFRDrop/{cur_pid}")
-                if pr.status_code == 200 and f'data-telegram-post="alifrdrop/{cur_pid}"' in pr.text.lower():
-                    consecutive_misses = 0
-                    max_id = max(max_id, cur_pid)
-                    soup_p = BeautifulSoup(pr.text, "html.parser")
-                    desc_m = soup_p.find("meta", property="og:description")
-                    img_m = soup_p.find("meta", property="og:image")
-                    if desc_m and desc_m.get("content") and f"alifrdrop:{cur_pid}" not in published_keys:
-                        found_candidates.append({
-                            "msg_id": cur_pid,
-                            "raw_text": desc_m["content"],
-                            "source_photo_url": img_m["content"] if img_m else None,
-                            "msg_dt": datetime.now(timezone.utc)
-                        })
-                else:
-                    consecutive_misses += 1
-            except Exception:
-                consecutive_misses += 1
-            cur_pid += 1
-
-    return found_candidates, max_id
+    """Backward-compatible wrapper for probe_direct_channel_posts(..., 'alifrdrop', ...)."""
+    items, max_id, _ = await probe_direct_channel_posts(client, "alifrdrop", last_seen_id, published_keys)
+    return items, max_id
 
 async def collect_and_post_france_deals(force: bool = False, force_tajmi3at: bool = False) -> int:
     print("=" * 70)
-    print("ALIEXPRESS FRANCE DEALS PUBLISHER (STRICT QUALITY & FRESHNESS)")
+    print("ALIEXPRESS FRANCE & EUROPE DEALS PUBLISHER (FR / ES / IT)")
     print(f"Target Channel: {TARGET_FRANCE_CHANNEL}")
     print(f"Source Channels: {', '.join(FRANCE_SOURCE_CHANNELS)}")
     print("=" * 70)
@@ -609,9 +702,9 @@ async def collect_and_post_france_deals(force: bool = False, force_tajmi3at: boo
     }
 
     published_count = 0
-    # Pacing limits matching main bot: 3 deals per channel, max 4 per run
-    MAX_DEALS_PER_RUN = 4
-    MAX_DEALS_PER_CHANNEL = 3
+    # Balanced pacing across FR / ES / IT sources: 2 deals per channel, up to 6 per run
+    MAX_DEALS_PER_RUN = 6
+    MAX_DEALS_PER_CHANNEL = 2
 
     async with httpx.AsyncClient(headers=headers, timeout=20.0, follow_redirects=True) as client:
         for ch in FRANCE_SOURCE_CHANNELS:
@@ -648,17 +741,23 @@ async def collect_and_post_france_deals(force: bool = False, force_tajmi3at: boo
             to_process_items = []
             max_age_hours = 14.0
 
-            if not block_items and clean_ch == "alifrdrop":
-                print(f"  [@{ch}] Web preview redirected. Probing direct post metadata...")
+            if not block_items:
+                print(f"  [@{ch}] Web preview redirected/empty. Probing direct post metadata...")
                 last_seen_id = monitored.get(clean_ch, {}).get("last_message_id")
-                probed_items, current_max_id = await probe_alifrdrop_direct_posts(client, last_seen_id, published_keys)
-                if current_max_id > (last_seen_id or 0):
+                handled_keys = set(state.get("handled_post_keys", []))
+                probed_items, current_max_id, stale_keys = await probe_direct_channel_posts(
+                    client, clean_ch, last_seen_id, published_keys, handled_keys=handled_keys, max_age_hours=max_age_hours
+                )
+                if stale_keys:
+                    state.setdefault("handled_post_keys", []).extend(stale_keys)
+                    state["handled_post_keys"] = list(dict.fromkeys(state["handled_post_keys"]))[-1500:]
+                if current_max_id > (last_seen_id or 0) and (last_seen_id is None or not probed_items):
                     monitored.setdefault(clean_ch, {})["last_message_id"] = current_max_id
                     monitored[clean_ch]["last_check_time"] = time.time()
                     state["monitored_channels"] = monitored
-                    save_france_state(state)
+                save_france_state(state)
                 to_process_items = probed_items[-MAX_DEALS_PER_CHANNEL:]
-                print(f"  [@{ch}] Selected {len(to_process_items)} candidate(s) to process (max ID #{current_max_id})")
+                print(f"  [@{ch}] Selected {len(to_process_items)} fresh candidate(s) to process (max ID #{current_max_id})")
             elif block_items:
                 current_max_id = max(b_id for b_id, _ in block_items)
                 last_seen_id = monitored.get(clean_ch, {}).get("last_message_id")
@@ -866,26 +965,36 @@ async def collect_and_post_france_deals(force: bool = False, force_tajmi3at: boo
                     deal_type=deal_type
                 )
 
-                # 9. Generate French caption
+                # 9. Generate French & Europe caption (region-aware for FR / ES / IT)
+                from app.aliexpress.parser import detect_europe_region
+                region = detect_europe_region(
+                    raw_text,
+                    channel_username=clean_ch,
+                    url=f"{extracted.original_url} {extracted.canonical_url}",
+                    coupon_code=extracted.coupon_code or "",
+                    country_info=getattr(extracted, 'country_info', None),
+                )
                 if clean_ch == "alifrdrop":
                     from app.ai.generator_fr import format_alifrdrop_caption_1to1
                     caption = format_alifrdrop_caption_1to1(raw_text, aff_link, extracted.coupon_code)
                 else:
                     caption = await france_caption_generator.generate(
-                    title=extracted.title or "AliExpress Deal",
-                    eur_price=extracted.current_price_eur,
-                    usd_price=extracted.current_price,
-                    affiliate_url=aff_link,
-                    coupon_code=extracted.coupon_code,
-                    seller_coupon=extracted.seller_coupon,
-                    has_points_discount=extracted.has_points_discount,
-                    coupon_list=extracted.coupon_list if extracted.is_coupon_list else None,
-                    is_price_drop=is_price_drop,
-                    is_restock=is_restock,
-                    deal_type=deal_type,
-                    country_info=getattr(extracted, 'country_info', None),
-                    raw_text=raw_text
-                )
+                        title=extracted.title or "AliExpress Deal",
+                        eur_price=extracted.current_price_eur,
+                        usd_price=extracted.current_price,
+                        affiliate_url=aff_link,
+                        coupon_code=extracted.coupon_code,
+                        seller_coupon=extracted.seller_coupon,
+                        has_points_discount=extracted.has_points_discount,
+                        coupon_list=extracted.coupon_list if extracted.is_coupon_list else None,
+                        is_price_drop=is_price_drop,
+                        is_restock=is_restock,
+                        deal_type=deal_type,
+                        country_info=getattr(extracted, 'country_info', None),
+                        raw_text=raw_text,
+                        region=region,
+                        channel_username=clean_ch,
+                    )
 
                 # 10. Prepare image
                 local_img_file = None
@@ -941,7 +1050,8 @@ async def collect_and_post_france_deals(force: bool = False, force_tajmi3at: boo
                         title=extracted.title or "Deal",
                         price_eur=extracted.current_price_eur,
                         channel_msg_id=channel_msg_id,
-                        post_key=post_key
+                        post_key=post_key,
+                        region=region,
                     )
                     if extracted.is_coupon_list:
                         from app.publisher.state_tracker import record_coupon_bulletin_published
