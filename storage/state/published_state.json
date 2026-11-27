@@ -1776,7 +1776,7 @@
     "1005013485724377": 1795770820.4616446,
     "1005012783197164": 1794606646.2896297,
     "1005012993724126": 1794515920.3397443,
-    "1005012726037568": 1795808592.9813356,
+    "1005012726037568": 1795813581.6281943,
     "1005011940143389": 1795291139.3742876,
     "1005010374799328": 1794524370.7043138,
     "1005010487219975": 1794524381.8060858,
@@ -4326,7 +4326,7 @@
     "Portable Magnetic Phone": 1795291139.3742876,
     "QCY T13 ENC Earphone": 1794524375.306614,
     "Retro Bronze Embossed": 1794524381.8060858,
-    "تخزين Kootion X12 Sata SSD": 1795714404.1422307,
+    "تخزين Kootion X12 Sata SSD": 1795813581.6281943,
     "XUNYOU-LINK 4G Modem": 1794562333.914511,
     "HOCO W40 Bluetooth 5.3 Wireless Headphone Music Headset 40mm Drivers": 1794563997.9172754,
     "HOCO E201 ENC Calling": 1794568023.9427352,
@@ -4629,7 +4629,6 @@
     "نقاط راهم نادرين أكثر من بطاطا وزيت كاش واحد عندو": 1795811369.389761
   },
   "published_post_keys": [
-    "aniscoupons:34989",
     "aniscoupons:34990",
     "aniscoupons:34991",
     "aniscoupons:34992",
@@ -5628,15 +5627,16 @@
     "aniscoupons:35818",
     "aniscoupons:35819",
     "aniscoupons:35820",
-    "aniscoupons:35822"
+    "aniscoupons:35822",
+    "ecksdeal:6156"
   ],
   "last_disclaimer_time": 1795735529.6558404,
   "last_calendar_time": 1795782506.7435975,
-  "last_run_time": 1795813387.1989696,
+  "last_run_time": 1795813581.6281943,
   "monitored_channels": {
     "ecksdeal": {
-      "last_message_id": 6155,
-      "last_check_time": 1795810995.868494
+      "last_message_id": 6156,
+      "last_check_time": 1795813583.7609448
     },
     "lodydeals": {
       "last_message_id": 46983,
@@ -6338,7 +6338,7 @@
     "1005013485724377": 11.5,
     "1005012783197164": 36.46,
     "1005012993724126": 15.6,
-    "1005012726037568": 6.5,
+    "1005012726037568": 6.54,
     "1005011940143389": 3.89,
     "1005010374799328": 10.49,
     "1005010487219975": 5.49,
@@ -36605,6 +36605,16 @@
       "price": 21.5,
       "timestamp": 1795813387.1989696,
       "status": "ACTIVE"
+    },
+    "ecksdeal:6156": {
+      "channel_msg_id": 3970,
+      "product_id": "1005012726037568",
+      "title": "تخزين Kootion X12 Sata SSD",
+      "channel": "ecksdeal",
+      "source_msg_id": 6156,
+      "price": 6.54,
+      "timestamp": 1795813581.6281943,
+      "status": "ACTIVE"
     }
   },
   "schedule_config": {
@@ -36613,17 +36623,17 @@
     "current_interval_minutes": 5,
     "is_paused": false,
     "night_mode_enabled": true,
-    "last_deal_post_time": 1795813390.5927737,
+    "last_deal_post_time": 1795813586.5619788,
     "night_start_hour_dz": 0,
     "night_end_hour_dz": 8,
     "night_pause_enabled": true,
-    "last_sweep_time": 1795813398.1335664,
+    "last_sweep_time": 1795813593.0138803,
     "last_sweep_times": {
-      "algeria": 1795813390.5345042,
-      "france": 1795813398.1335664
+      "algeria": 1795813586.521179,
+      "france": 1795813593.0138803
     },
     "last_deal_post_times": {
-      "algeria": 1795813390.5927737
+      "algeria": 1795813586.5619788
     }
   },
   "last_coin_reminder_time": 1795648937.9274871,
@@ -37411,7 +37421,7 @@
     "1005013485724377": "aniscoupons",
     "1005012783197164": "lodydeals",
     "1005012993724126": "aniscoupons",
-    "1005012726037568": "zedstoreonline",
+    "1005012726037568": "ecksdeal",
     "1005011940143389": "lodydeals",
     "1005010374799328": "lodydeals",
     "1005010487219975": "lodydeals",
@@ -41350,11 +41360,6 @@
     "1005010788149535": [
       {
         "channel": "lodydeals",
-        "ts": 1795770221.4329813,
-        "price": 356.59
-      },
-      {
-        "channel": "lodydeals",
         "ts": 1795770407.959612,
         "price": 356.59
       },
@@ -41479,11 +41484,6 @@
     "1005012406142215": [
       {
         "channel": "zedstoreonline",
-        "ts": 1795770226.664712,
-        "price": 356.0
-      },
-      {
-        "channel": "zedstoreonline",
         "ts": 1795770413.3077316,
         "price": 356.0
       },
@@ -41601,11 +41601,6 @@
     "1005010575865619": [
       {
         "channel": "aniscoupons",
-        "ts": 1795770231.0943742,
-        "price": 363.4
-      },
-      {
-        "channel": "aniscoupons",
         "ts": 1795770418.0118406,
         "price": 363.4
       },
@@ -41661,11 +41656,6 @@
       }
     ],
     "1005013438245033": [
-      {
-        "channel": "bnddeals",
-        "ts": 1795770235.4678643,
-        "price": 413.0
-      },
       {
         "channel": "bnddeals",
         "ts": 1795770422.9998388,
@@ -41789,6 +41779,11 @@
         "channel": "zedstoreonline",
         "ts": 1795811367.3359966,
         "price": 6.5
+      },
+      {
+        "channel": "ecksdeal",
+        "ts": 1795813578.6903973,
+        "price": 6.54
       }
     ],
     "1005012285327063": [
@@ -42649,7 +42644,7 @@
     ]
   },
   "hot_repost_timestamps": {
-    "1005012726037568": 1795083794.6937497,
+    "1005012726037568": 1795813581.67044,
     "1005008708333999": 1794613227.9043555,
     "1005011557016158": 1795772107.4954236,
     "1005010210432531": 1795082866.566105,
