@@ -1432,7 +1432,7 @@
     "1005010384976635": 1793448786.1863484,
     "1005012341203600": 1793448820.6517296,
     "1005011825891016": 1794130143.129755,
-    "1005013277965369": 1795543961.436148,
+    "1005013277965369": 1795790588.6953661,
     "1005010749192036": 1793467039.5413008,
     "1005011851389082": 1793467058.6031225,
     "1005013104807077": 1793467066.6592104,
@@ -1756,7 +1756,7 @@
     "1005011936109841": 1794475842.5666552,
     "1005012333024137": 1794649534.468107,
     "1005007822635375": 1794852953.5188413,
-    "1005001849536579": 1795521712.1644876,
+    "1005001849536579": 1795790594.8681092,
     "1005006967391791": 1794476797.164376,
     "1005013288890301": 1794477157.5349603,
     "1005013089015192": 1795185813.1399975,
@@ -3556,7 +3556,7 @@
     "HOCO E91 Smart Airtag GPS Positioning Pet Anti-Lost": 1792017769.7299333,
     "Smart Body Fat Scale Accurate": 1792017774.247927,
     "ماوس ألعاب سلكي خفيف الوزن من GameSir GM500 مزود بمستشعر بصري يصل إلى 12000 DPI": 1792025644.3094199,
-    "Anker Nano 3 Pro 45W GaN + Cable": 1795543961.436148,
+    "Anker Nano 3 Pro 45W GaN + Cable": 1795790588.6953661,
     "محبوبة الجماهير controller🎮": 1792025664.1703467,
     "EasySMX X05 Pro Wireless Gamepad": 1795465795.9142118,
     "MACHENIKE G5Pro Max SE Gaming Controller": 1792032611.9670143,
@@ -4185,7 +4185,7 @@
     "طابعة D2 Mini محمولة لطباعة الصور والملصقات والبطاقات على الورق": 1794223934.5228841,
     "قفازات سبايدرمان للأطفال مع 15 سهماً للعب والتسلية": 1794224474.0767472,
     "طابعة حرارية محمولة بحجم الجيب لطباعة النصوص والصور والملصقات": 1794224654.527678,
-    "MAONO PM360TR Condenser Microphone XLR Podcast Microphone": 1794575748.1745248,
+    "MAONO PM360TR Condenser Microphone XLR Podcast Microphone": 1795790594.8681092,
     "لوووووووووووووووز": 1794226314.627466,
     "شاحنة ألعاب صغيرة بالتحكم عن بُعد": 1794227594.9699965,
     "Mortal T1+ 2/16GB Wifi 4K": 1795088190.1400514,
@@ -4577,8 +4577,6 @@
     "TCL alcatel 1023": 1795782882.6064954
   },
   "published_post_keys": [
-    "aniscoupons:34942",
-    "lodydeals:46522",
     "zedstoreonline:40199",
     "aniscoupons:34943",
     "zedstoreonline:40203",
@@ -5576,11 +5574,13 @@
     "zedstoreonline:40784",
     "aniscoupons:35756",
     "zedstoreonline:40785",
-    "aniscoupons:35757"
+    "aniscoupons:35757",
+    "zedstoreonline:40786",
+    "aniscoupons:35758"
   ],
   "last_disclaimer_time": 1795735529.6558404,
   "last_calendar_time": 1795782506.7435975,
-  "last_run_time": 1795790225.3636506,
+  "last_run_time": 1795790594.8681092,
   "monitored_channels": {
     "ecksdeal": {
       "last_message_id": 6149,
@@ -5607,12 +5607,12 @@
       "last_check_time": 1793599663.3444748
     },
     "zedstoreonline": {
-      "last_message_id": 40785,
-      "last_check_time": 1795790220.939653
+      "last_message_id": 40786,
+      "last_check_time": 1795790590.824621
     },
     "aniscoupons": {
-      "last_message_id": 35757,
-      "last_check_time": 1795790227.443992
+      "last_message_id": 35758,
+      "last_check_time": 1795790596.9906938
     },
     "bnddeals": {
       "last_message_id": 51425,
@@ -35879,6 +35879,26 @@
       "price": 289.79,
       "timestamp": 1795790225.3636506,
       "status": "ACTIVE"
+    },
+    "zedstoreonline:40786": {
+      "channel_msg_id": 3902,
+      "product_id": "1005013277965369",
+      "title": "Anker Nano 3 Pro 45W GaN + Cable",
+      "channel": "zedstoreonline",
+      "source_msg_id": 40786,
+      "price": 23.7,
+      "timestamp": 1795790588.6953661,
+      "status": "ACTIVE"
+    },
+    "aniscoupons:35758": {
+      "channel_msg_id": 3903,
+      "product_id": "1005001849536579",
+      "title": "MAONO PM360TR Condenser Microphone XLR Podcast Microphone",
+      "channel": "aniscoupons",
+      "source_msg_id": 35758,
+      "price": 21.5,
+      "timestamp": 1795790594.8681092,
+      "status": "ACTIVE"
     }
   },
   "schedule_config": {
@@ -35887,17 +35907,17 @@
     "current_interval_minutes": 5,
     "is_paused": false,
     "night_mode_enabled": true,
-    "last_deal_post_time": 1795790228.6986697,
+    "last_deal_post_time": 1795790598.43319,
     "night_start_hour_dz": 0,
     "night_end_hour_dz": 8,
     "night_pause_enabled": true,
-    "last_sweep_time": 1795790399.6322076,
+    "last_sweep_time": 1795790600.4747212,
     "last_sweep_times": {
-      "algeria": 1795790397.5214224,
-      "france": 1795790399.6322076
+      "algeria": 1795790598.3765483,
+      "france": 1795790600.4747212
     },
     "last_deal_post_times": {
-      "algeria": 1795790228.6986697
+      "algeria": 1795790598.43319
     }
   },
   "last_coin_reminder_time": 1795648937.9274871,
@@ -36674,7 +36694,7 @@
     "1005012650636759": "lodydeals",
     "1005011936109841": "lodydeals",
     "1005012333024137": "aniscoupons",
-    "1005001849536579": "zedstoreonline",
+    "1005001849536579": "aniscoupons",
     "1005006967391791": "zedstoreonline",
     "1005013288890301": "zedstoreonline",
     "1005013089015192": "aniscoupons",
@@ -41503,6 +41523,20 @@
         "channel": "zedstoreonline",
         "ts": 1795790216.0754306,
         "price": 115.9
+      }
+    ],
+    "1005013277965369": [
+      {
+        "channel": "zedstoreonline",
+        "ts": 1795790586.2247326,
+        "price": 23.7
+      }
+    ],
+    "1005001849536579": [
+      {
+        "channel": "aniscoupons",
+        "ts": 1795790592.8046458,
+        "price": 21.5
       }
     ]
   },
