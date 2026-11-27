@@ -1911,7 +1911,7 @@
     "1005012927159948": 1795521185.434005,
     "1005012971094543": 1795521192.0364006,
     "1005012987957842": 1795521197.5917315,
-    "1005012172859239": 1795601892.3750827,
+    "1005012172859239": 1795791876.582097,
     "1005006648408257": 1795521718.768218,
     "1005005543641427": 1795601124.2950418,
     "COUPONBULLETIN_zedstoreonline_40618": 1795521740.997882,
@@ -4530,7 +4530,7 @@
     "سماعات SOUNDPEATS C30": 1795558896.5588944,
     "OPPO Enco Buds 3": 1795786182.5869348,
     "realme P4  8/256": 1795601155.086321,
-    "ATTACK SHARK V6": 1795601892.3750827,
+    "ATTACK SHARK V6": 1795791876.582097,
     "Outdoor Camping Hammock": 1795603012.8186684,
     "HOMEFISH Vertical Mouse": 1795603024.1222618,
     "2.4G 300Mbps WiFi Repeater": 1795603029.6819038,
@@ -4579,7 +4579,6 @@
     "الmouse لوووووووووووز🖱️": 1795791688.6423583
   },
   "published_post_keys": [
-    "zedstoreonline:40204",
     "zedstoreonline:40205",
     "aniscoupons:34946",
     "zedstoreonline:40206",
@@ -5578,11 +5577,12 @@
     "zedstoreonline:40787",
     "zedstoreonline:40788",
     "zedstoreonline:40789",
-    "bnddeals:51426"
+    "bnddeals:51426",
+    "zedstoreonline:40790"
   ],
   "last_disclaimer_time": 1795735529.6558404,
   "last_calendar_time": 1795782506.7435975,
-  "last_run_time": 1795791688.6423583,
+  "last_run_time": 1795791876.582097,
   "monitored_channels": {
     "ecksdeal": {
       "last_message_id": 6149,
@@ -5609,8 +5609,8 @@
       "last_check_time": 1793599663.3444748
     },
     "zedstoreonline": {
-      "last_message_id": 40789,
-      "last_check_time": 1795791503.0911608
+      "last_message_id": 40790,
+      "last_check_time": 1795791878.6859925
     },
     "aniscoupons": {
       "last_message_id": 35759,
@@ -35941,6 +35941,16 @@
       "price": 13.64,
       "timestamp": 1795791688.6423583,
       "status": "ACTIVE"
+    },
+    "zedstoreonline:40790": {
+      "channel_msg_id": 3908,
+      "product_id": "1005012172859239",
+      "title": "ATTACK SHARK V6",
+      "channel": "zedstoreonline",
+      "source_msg_id": 40790,
+      "price": 22.1,
+      "timestamp": 1795791876.582097,
+      "status": "ACTIVE"
     }
   },
   "schedule_config": {
@@ -35949,17 +35959,17 @@
     "current_interval_minutes": 5,
     "is_paused": false,
     "night_mode_enabled": true,
-    "last_deal_post_time": 1795791690.8610637,
+    "last_deal_post_time": 1795791880.5677717,
     "night_start_hour_dz": 0,
     "night_end_hour_dz": 8,
     "night_pause_enabled": true,
-    "last_sweep_time": 1795791692.9130976,
+    "last_sweep_time": 1795791882.9934406,
     "last_sweep_times": {
-      "algeria": 1795791690.8108883,
-      "france": 1795791692.9130976
+      "algeria": 1795791880.5246246,
+      "france": 1795791882.9934406
     },
     "last_deal_post_times": {
-      "algeria": 1795791690.8610637
+      "algeria": 1795791880.5677717
     }
   },
   "last_coin_reminder_time": 1795648937.9274871,
@@ -41608,6 +41618,13 @@
         "channel": "bnddeals",
         "ts": 1795791686.3898993,
         "price": 13.64
+      }
+    ],
+    "1005012172859239": [
+      {
+        "channel": "zedstoreonline",
+        "ts": 1795791873.9150708,
+        "price": 22.1
       }
     ]
   },
