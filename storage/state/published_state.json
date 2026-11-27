@@ -1923,7 +1923,7 @@
     "1005006995294624": 1795527391.8790212,
     "1005012899783721": 1795782882.6064954,
     "1005013423776757": 1795603012.8186684,
-    "1005012383444183": 1795710915.2604535,
+    "1005012383444183": 1795786182.5869348,
     "1005013519635614": 1795546736.9831076,
     "33061115247": 1795547454.3449724,
     "1005012374298987": 1795725779.0574965,
@@ -4527,7 +4527,7 @@
     "Godox C01 Kit 2 Microphone Lavalier": 1795553355.383983,
     "CMF Buds Neo 12.4 mm Titanium‑coated Driver": 1795718888.2253578,
     "سماعات SOUNDPEATS C30": 1795558896.5588944,
-    "OPPO Enco Buds 3": 1795693872.7808363,
+    "OPPO Enco Buds 3": 1795786182.5869348,
     "realme P4  8/256": 1795601155.086321,
     "ATTACK SHARK V6": 1795601892.3750827,
     "Outdoor Camping Hammock": 1795603012.8186684,
@@ -4577,7 +4577,6 @@
     "TCL alcatel 1023": 1795782882.6064954
   },
   "published_post_keys": [
-    "lodydeals:46519",
     "aniscoupons:34935",
     "aniscoupons:34936",
     "zedstoreonline:40192",
@@ -5576,19 +5575,20 @@
     "lodydeals:46954",
     "lodydeals:46955",
     "aniscoupons:35748",
-    "ecksdeal:6149"
+    "ecksdeal:6149",
+    "zedstoreonline:40781"
   ],
   "last_disclaimer_time": 1795735529.6558404,
   "last_calendar_time": 1795782506.7435975,
-  "last_run_time": 1795785995.6120148,
+  "last_run_time": 1795786182.5869348,
   "monitored_channels": {
     "ecksdeal": {
       "last_message_id": 6149,
       "last_check_time": 1795785997.6745925
     },
     "lodydeals": {
-      "last_message_id": 46961,
-      "last_check_time": 1795785037.0105236
+      "last_message_id": 46962,
+      "last_check_time": 1795786176.5724094
     },
     "test_channel": {
       "last_message_id": 1793967703,
@@ -5607,8 +5607,8 @@
       "last_check_time": 1793599663.3444748
     },
     "zedstoreonline": {
-      "last_message_id": 40780,
-      "last_check_time": 1795785636.9387984
+      "last_message_id": 40781,
+      "last_check_time": 1795786184.713257
     },
     "aniscoupons": {
       "last_message_id": 35750,
@@ -6433,7 +6433,7 @@
     "1005006995294624": 12.87,
     "1005012899783721": 6.85,
     "1005013423776757": 3.52,
-    "1005012383444183": 22.35,
+    "1005012383444183": 22.3,
     "1005013519635614": 273.26,
     "33061115247": 10.09,
     "1005012374298987": 26.6,
@@ -35819,6 +35819,16 @@
       "price": 74.6,
       "timestamp": 1795785995.6120148,
       "status": "ACTIVE"
+    },
+    "zedstoreonline:40781": {
+      "channel_msg_id": 3895,
+      "product_id": "1005012383444183",
+      "title": "OPPO Enco Buds 3",
+      "channel": "zedstoreonline",
+      "source_msg_id": 40781,
+      "price": 22.3,
+      "timestamp": 1795786182.5869348,
+      "status": "ACTIVE"
     }
   },
   "schedule_config": {
@@ -35827,17 +35837,17 @@
     "current_interval_minutes": 5,
     "is_paused": false,
     "night_mode_enabled": true,
-    "last_deal_post_time": 1795786001.0170603,
+    "last_deal_post_time": 1795786186.9565794,
     "night_start_hour_dz": 0,
     "night_end_hour_dz": 8,
     "night_pause_enabled": true,
-    "last_sweep_time": 1795786003.3624566,
+    "last_sweep_time": 1795786189.62588,
     "last_sweep_times": {
-      "algeria": 1795786000.9892879,
-      "france": 1795786003.3624566
+      "algeria": 1795786186.900957,
+      "france": 1795786189.62588
     },
     "last_deal_post_times": {
-      "algeria": 1795786001.0170603
+      "algeria": 1795786186.9565794
     }
   },
   "last_coin_reminder_time": 1795648937.9274871,
@@ -36777,7 +36787,7 @@
     "1005006995294624": "ecksdeal",
     "1005012899783721": "lodydeals",
     "1005013423776757": "lodydeals",
-    "1005012383444183": "aniscoupons",
+    "1005012383444183": "zedstoreonline",
     "1005013519635614": "aniscoupons",
     "33061115247": "lodydeals",
     "1005012374298987": "zedstoreonline",
@@ -41405,6 +41415,13 @@
         "channel": "zedstoreonline",
         "ts": 1795785636.7640557,
         "price": 119.5
+      }
+    ],
+    "1005012383444183": [
+      {
+        "channel": "zedstoreonline",
+        "ts": 1795786180.0059674,
+        "price": 22.3
       }
     ]
   },
