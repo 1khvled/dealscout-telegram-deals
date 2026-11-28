@@ -1972,7 +1972,7 @@
     "1005010099024201": 1795862535.9189916,
     "1005009566266039": 1795714790.201703,
     "TAJMI3AT_lodydeals_46917": 1795714990.9149463,
-    "1005013097951450": 1795792055.4432795,
+    "1005013097951450": 1795873328.918287,
     "1005008413359329": 1795717019.2725039,
     "1005013406777246": 1795863045.5741706,
     "TAJMI3AT_lodydeals_46922": 1795723341.8747523,
@@ -4638,7 +4638,7 @@
     "ال KOOTION SSD 256GB ب 15.56": 1795768399.4567664,
     "ليكيب أفضل عروض هذه التخفيضات": 1795773003.57561,
     "Honor WIN Turbo 2 12/256": 1795776529.3127697,
-    "16.8V Cordless Drill Driver Rechargeable Electric Screwdriver": 1795776652.4223523,
+    "16.8V Cordless Drill Driver Rechargeable Electric Screwdriver": 1795873328.918287,
     "أفضل عروض الهواتف بكوبون 66$": 1795779486.0734122,
     "IPhone 14 Pro Max 6/128GB": 1795779586.365553,
     "TCL alcatel 1023": 1795782882.6064954,
@@ -4677,7 +4677,6 @@
     "Anker Nano Charger, 65W": 1795872037.5797396
   },
   "published_post_keys": [
-    "aniscoupons:35083",
     "aniscoupons:35096",
     "ecksdeal:6070",
     "ecksdeal:6074",
@@ -5676,11 +5675,12 @@
     "zedstoreonline:40860",
     "aniscoupons:35897",
     "zedstoreonline:40861",
-    "aniscoupons:35898"
+    "aniscoupons:35898",
+    "aniscoupons:35899"
   ],
   "last_disclaimer_time": 1795735529.6558404,
   "last_calendar_time": 1795782506.7435975,
-  "last_run_time": 1795872972.487995,
+  "last_run_time": 1795873328.918287,
   "monitored_channels": {
     "ecksdeal": {
       "last_message_id": 6173,
@@ -5707,12 +5707,12 @@
       "last_check_time": 1793599663.3444748
     },
     "zedstoreonline": {
-      "last_message_id": 40863,
-      "last_check_time": 1795872966.024414
+      "last_message_id": 40864,
+      "last_check_time": 1795873325.2583048
     },
     "aniscoupons": {
-      "last_message_id": 35898,
-      "last_check_time": 1795872974.6215844
+      "last_message_id": 35899,
+      "last_check_time": 1795873331.0089667
     },
     "bnddeals": {
       "last_message_id": 51451,
@@ -37641,6 +37641,16 @@
       "price": 362.0,
       "timestamp": 1795872972.487995,
       "status": "ACTIVE"
+    },
+    "aniscoupons:35899": {
+      "channel_msg_id": 4089,
+      "product_id": "1005013097951450",
+      "title": "16.8V Cordless Drill Driver Rechargeable Electric Screwdriver",
+      "channel": "aniscoupons",
+      "source_msg_id": 35899,
+      "price": 17.5,
+      "timestamp": 1795873328.918287,
+      "status": "ACTIVE"
     }
   },
   "schedule_config": {
@@ -37649,17 +37659,17 @@
     "current_interval_minutes": 5,
     "is_paused": false,
     "night_mode_enabled": true,
-    "last_deal_post_time": 1795872975.984041,
+    "last_deal_post_time": 1795873331.8848293,
     "night_start_hour_dz": 0,
     "night_end_hour_dz": 8,
     "night_pause_enabled": true,
-    "last_sweep_time": 1795873147.7484848,
+    "last_sweep_time": 1795873339.89435,
     "last_sweep_times": {
-      "algeria": 1795873138.5248656,
-      "france": 1795873147.7484848
+      "algeria": 1795873331.845634,
+      "france": 1795873339.89435
     },
     "last_deal_post_times": {
-      "algeria": 1795872975.984041
+      "algeria": 1795873331.8848293
     }
   },
   "last_coin_reminder_time": 1795828812.983117,
@@ -38631,7 +38641,7 @@
     "1005010099024201": "zedstoreonline",
     "1005009566266039": "zedstoreonline",
     "TAJMI3AT_lodydeals_46917": "lodydeals",
-    "1005013097951450": "zedstoreonline",
+    "1005013097951450": "aniscoupons",
     "1005008413359329": "ecksdeal",
     "1005013406777246": "ecksdeal",
     "TAJMI3AT_lodydeals_46922": "lodydeals",
@@ -40803,7 +40813,6 @@
   "published_deals_history": {},
   "settings": {},
   "handled_post_keys": [
-    "zedstoreonline:40281",
     "zedstoreonline:40283",
     "zedstoreonline:40284",
     "zedstoreonline:40285",
@@ -41802,7 +41811,8 @@
     "zedstoreonline:40858",
     "zedstoreonline:40859",
     "zedstoreonline:40862",
-    "zedstoreonline:40863"
+    "zedstoreonline:40863",
+    "zedstoreonline:40864"
   ],
   "last_france_cross_promo_time": 1795757211.9224837,
   "next_france_cross_promo_interval_seconds": 197705,
@@ -42577,6 +42587,11 @@
         "channel": "aniscoupons",
         "ts": 1795863256.1247773,
         "price": 79.6
+      },
+      {
+        "channel": "zedstoreonline",
+        "ts": 1795873325.108436,
+        "price": 79.6
       }
     ],
     "1005013406777246": [
@@ -43043,6 +43058,13 @@
         "channel": "zedstoreonline",
         "ts": 1795872590.8330967,
         "price": 98.3
+      }
+    ],
+    "1005013097951450": [
+      {
+        "channel": "aniscoupons",
+        "ts": 1795873326.8030689,
+        "price": 17.5
       }
     ]
   },
