@@ -1757,7 +1757,7 @@
     "1005012639349629": 1794579990.5893576,
     "1005010153422760": 1794487260.3295033,
     "1005012809141747": 1795725764.1692784,
-    "1005012912160949": 1795768434.4875724,
+    "1005012912160949": 1795872411.0429587,
     "1005012167744546": 1794437860.4294534,
     "1005009582538267": 1794439531.0399334,
     "1005005471311412": 1794475858.8069391,
@@ -4319,7 +4319,7 @@
     "HONOR X80 PRO MAX": 1795688036.8050838,
     "DJI Osmo mobile": 1794487260.3295033,
     "OPPO K15 12/256GB": 1795186207.2341003,
-    "Lenovo Legion Y70 2026 Gamin(12/512GB)": 1795768434.4875724,
+    "Lenovo Legion Y70 2026 Gamin(12/512GB)": 1795872411.0429587,
     "KINGSTON DATA TRAVELER USB3.2 (128G)": 1794438803.0185766,
     "Essager Mini 30W Type C Charger PD": 1795818721.3205683,
     "X96Q TV BOX 2/16GB": 1794599454.461018,
@@ -4675,7 +4675,6 @@
     "Anker Nano Charger, 65W": 1795872037.5797396
   },
   "published_post_keys": [
-    "aniscoupons:35086",
     "aniscoupons:35088",
     "aniscoupons:35089",
     "aniscoupons:35083",
@@ -5674,11 +5673,12 @@
     "ecksdeal:6172",
     "ecksdeal:6173",
     "aniscoupons:35896",
-    "zedstoreonline:40860"
+    "zedstoreonline:40860",
+    "aniscoupons:35897"
   ],
   "last_disclaimer_time": 1795735529.6558404,
   "last_calendar_time": 1795782506.7435975,
-  "last_run_time": 1795872037.5797396,
+  "last_run_time": 1795872411.0429587,
   "monitored_channels": {
     "ecksdeal": {
       "last_message_id": 6173,
@@ -5709,8 +5709,8 @@
       "last_check_time": 1795872039.7002568
     },
     "aniscoupons": {
-      "last_message_id": 35896,
-      "last_check_time": 1795871857.4305196
+      "last_message_id": 35897,
+      "last_check_time": 1795872413.171392
     },
     "bnddeals": {
       "last_message_id": 51451,
@@ -37608,6 +37608,16 @@
       "price": 19.9,
       "timestamp": 1795872037.5797396,
       "status": "ACTIVE"
+    },
+    "aniscoupons:35897": {
+      "channel_msg_id": 4086,
+      "product_id": "1005012912160949",
+      "title": "Lenovo Legion Y70 2026 Gamin(12/512GB)",
+      "channel": "aniscoupons",
+      "source_msg_id": 35897,
+      "price": 374.5,
+      "timestamp": 1795872411.0429587,
+      "status": "ACTIVE"
     }
   },
   "schedule_config": {
@@ -37616,17 +37626,17 @@
     "current_interval_minutes": 5,
     "is_paused": false,
     "night_mode_enabled": true,
-    "last_deal_post_time": 1795872041.3322694,
+    "last_deal_post_time": 1795872414.492041,
     "night_start_hour_dz": 0,
     "night_end_hour_dz": 8,
     "night_pause_enabled": true,
-    "last_sweep_time": 1795872231.1509604,
+    "last_sweep_time": 1795872424.7919905,
     "last_sweep_times": {
-      "algeria": 1795872221.3275006,
-      "france": 1795872231.1509604
+      "algeria": 1795872414.4343514,
+      "france": 1795872424.7919905
     },
     "last_deal_post_times": {
-      "algeria": 1795872041.3322694
+      "algeria": 1795872414.492041
     }
   },
   "last_coin_reminder_time": 1795828812.983117,
@@ -42995,6 +43005,13 @@
         "channel": "zedstoreonline",
         "ts": 1795872035.0910592,
         "price": 19.9
+      }
+    ],
+    "1005012912160949": [
+      {
+        "channel": "aniscoupons",
+        "ts": 1795872408.2516706,
+        "price": 374.5
       }
     ]
   },
