@@ -1610,7 +1610,7 @@
     "1005012533449539": 1795870211.7179306,
     "1005009178167326": 1793650772.8370051,
     "1005011742640729": 1794845615.4252245,
-    "1005013154935332": 1795640555.0898597,
+    "1005013154935332": 1795870571.7183485,
     "1005012774075728": 1793656103.0944026,
     "1005006783028347": 1794771190.3471751,
     "1005007010104970": 1793656134.827825,
@@ -4078,7 +4078,7 @@
     "كيبورد ميكانيكي لاسلكي فخم  EPOMAKER x Aproz TH108 Wireless": 1795870211.7179306,
     "كيبورد مغناطيسي فخم Epomaker HE68 Lite Magnetic 8K": 1793650772.8370051,
     "كيبورد مغناطيسي لاسلكي فخم Epomaker HE108 Wireless Magnetic 8K": 1794845615.4252245,
-    "ماوسباد زجاجي Epomaker GP1 Tempered Glass": 1795640555.0898597,
+    "ماوسباد زجاجي Epomaker GP1 Tempered Glass": 1795870571.7183485,
     "TCL Alcatel 3023": 1793656103.0944026,
     "Toocki PD Cable 100W": 1793656107.995781,
     "Toocki 60W Car Charger": 1793656112.890115,
@@ -4673,7 +4673,6 @@
     "RYZEN 5 5600Xt": 1795869290.2564855
   },
   "published_post_keys": [
-    "aniscoupons:35077",
     "aniscoupons:35081",
     "aniscoupons:35084",
     "aniscoupons:35086",
@@ -5672,15 +5671,16 @@
     "aniscoupons:35892",
     "aniscoupons:35893",
     "ecksdeal:6171",
-    "ecksdeal:6172"
+    "ecksdeal:6172",
+    "ecksdeal:6173"
   ],
   "last_disclaimer_time": 1795735529.6558404,
   "last_calendar_time": 1795782506.7435975,
-  "last_run_time": 1795870388.0078516,
+  "last_run_time": 1795870571.7183485,
   "monitored_channels": {
     "ecksdeal": {
-      "last_message_id": 6172,
-      "last_check_time": 1795870390.1236093
+      "last_message_id": 6173,
+      "last_check_time": 1795870573.8115184
     },
     "lodydeals": {
       "last_message_id": 47018,
@@ -6224,7 +6224,7 @@
     "1005012533449539": 38.11,
     "1005009178167326": 36.96,
     "1005011742640729": 75.8,
-    "1005013154935332": 32.41,
+    "1005013154935332": 30.4,
     "1005012774075728": 6.81,
     "1005006783028347": 2.7,
     "1005007010104970": 6.81,
@@ -37576,6 +37576,16 @@
       "price": 33.47,
       "timestamp": 1795870388.0078516,
       "status": "ACTIVE"
+    },
+    "ecksdeal:6173": {
+      "channel_msg_id": 4083,
+      "product_id": "1005013154935332",
+      "title": "ماوسباد زجاجي Epomaker GP1 Tempered Glass",
+      "channel": "ecksdeal",
+      "source_msg_id": 6173,
+      "price": 30.4,
+      "timestamp": 1795870571.7183485,
+      "status": "ACTIVE"
     }
   },
   "schedule_config": {
@@ -37584,17 +37594,17 @@
     "current_interval_minutes": 5,
     "is_paused": false,
     "night_mode_enabled": true,
-    "last_deal_post_time": 1795870392.351053,
+    "last_deal_post_time": 1795870575.885541,
     "night_start_hour_dz": 0,
     "night_end_hour_dz": 8,
     "night_pause_enabled": true,
-    "last_sweep_time": 1795870401.067464,
+    "last_sweep_time": 1795870586.8078058,
     "last_sweep_times": {
-      "algeria": 1795870392.2899165,
-      "france": 1795870401.067464
+      "algeria": 1795870575.845392,
+      "france": 1795870586.8078058
     },
     "last_deal_post_times": {
-      "algeria": 1795870392.351053
+      "algeria": 1795870575.885541
     }
   },
   "last_coin_reminder_time": 1795828812.983117,
@@ -42921,6 +42931,13 @@
         "channel": "ecksdeal",
         "ts": 1795870385.5536933,
         "price": 33.47
+      }
+    ],
+    "1005013154935332": [
+      {
+        "channel": "ecksdeal",
+        "ts": 1795870569.0867116,
+        "price": 30.4
       }
     ]
   },
