@@ -1412,7 +1412,7 @@
     "1005013224329670": 1793380335.1434295,
     "1005010039614599": 1795688028.1630735,
     "1005004828097942": 1793380362.9885337,
-    "1005006495503659": 1795809885.8334615,
+    "1005006495503659": 1795867635.8255944,
     "1005013205488777": 1793380404.996831,
     "1005011961308530": 1793380460.5377874,
     "1005012994490034": 1793441317.3934674,
@@ -3776,7 +3776,7 @@
     "IQOO 15T": 1793380343.534803,
     "Soundcore by Anker Life Q30": 1793380356.1638675,
     "FIFINE AM8 USB/XLR Dynamic Microphone": 1795863266.3727748,
-    "MAONO DGM20 USB Gaming Microphone": 1794577027.4515839,
+    "MAONO DGM20 USB Gaming Microphone": 1795867635.8255944,
     "MAONO PD100W USB Wireless Dynamic Microphone Cardioid Mic 50m Range": 1793380404.996831,
     "CUSU RAM DDR4 RGB 8x2 3200Mhz": 1793380414.784201,
     "جديد ال": 1793380452.8087006,
@@ -4671,7 +4671,6 @@
     "Soundcore by Anker Space One": 1795867086.0074983
   },
   "published_post_keys": [
-    "aniscoupons:35068",
     "aniscoupons:35069",
     "aniscoupons:35070",
     "aniscoupons:35071",
@@ -5670,11 +5669,12 @@
     "aniscoupons:35883",
     "aniscoupons:35884",
     "aniscoupons:35886",
-    "aniscoupons:35887"
+    "aniscoupons:35887",
+    "aniscoupons:35888"
   ],
   "last_disclaimer_time": 1795735529.6558404,
   "last_calendar_time": 1795782506.7435975,
-  "last_run_time": 1795867266.6649873,
+  "last_run_time": 1795867635.8255944,
   "monitored_channels": {
     "ecksdeal": {
       "last_message_id": 6168,
@@ -5705,8 +5705,8 @@
       "last_check_time": 1795867082.1510978
     },
     "aniscoupons": {
-      "last_message_id": 35887,
-      "last_check_time": 1795867268.7920911
+      "last_message_id": 35888,
+      "last_check_time": 1795867637.9565494
     },
     "bnddeals": {
       "last_message_id": 51451,
@@ -6041,7 +6041,7 @@
     "1005013224329670": 21.1,
     "1005010039614599": 42.2,
     "1005004828097942": 58.4,
-    "1005006495503659": 27.41,
+    "1005006495503659": 28.4,
     "1005013205488777": 57.3,
     "1005011961308530": 313.7,
     "1005012994490034": 458.0,
@@ -37494,6 +37494,16 @@
       "price": 30.77,
       "timestamp": 1795867266.6649873,
       "status": "ACTIVE"
+    },
+    "aniscoupons:35888": {
+      "channel_msg_id": 4075,
+      "product_id": "1005006495503659",
+      "title": "MAONO DGM20 USB Gaming Microphone",
+      "channel": "aniscoupons",
+      "source_msg_id": 35888,
+      "price": 28.4,
+      "timestamp": 1795867635.8255944,
+      "status": "ACTIVE"
     }
   },
   "schedule_config": {
@@ -37502,17 +37512,17 @@
     "current_interval_minutes": 5,
     "is_paused": false,
     "night_mode_enabled": true,
-    "last_deal_post_time": 1795867270.0199492,
+    "last_deal_post_time": 1795867639.1979237,
     "night_start_hour_dz": 0,
     "night_end_hour_dz": 8,
     "night_pause_enabled": true,
-    "last_sweep_time": 1795867459.7568896,
+    "last_sweep_time": 1795867647.4096043,
     "last_sweep_times": {
-      "algeria": 1795867448.83307,
-      "france": 1795867459.7568896
+      "algeria": 1795867639.1389105,
+      "france": 1795867647.4096043
     },
     "last_deal_post_times": {
-      "algeria": 1795867270.0199492
+      "algeria": 1795867639.1979237
     }
   },
   "last_coin_reminder_time": 1795828812.983117,
@@ -37941,7 +37951,7 @@
     "1005013224329670": "zedstoreonline",
     "1005010039614599": "zedstoreonline",
     "1005004828097942": "aniscoupons",
-    "1005006495503659": "ecksdeal",
+    "1005006495503659": "aniscoupons",
     "1005013205488777": "aniscoupons",
     "1005011961308530": "megaphonna",
     "1005012994490034": "zedstoreonline",
@@ -42777,6 +42787,13 @@
         "channel": "aniscoupons",
         "ts": 1795867264.3309307,
         "price": 30.77
+      }
+    ],
+    "1005006495503659": [
+      {
+        "channel": "aniscoupons",
+        "ts": 1795867633.507208,
+        "price": 28.4
       }
     ]
   },
