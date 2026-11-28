@@ -1049,7 +1049,7 @@
     "9998883531": 1790943531.551938,
     "1005010111014453": 1790943633.9774187,
     "1005009828161174": 1791031550.2120771,
-    "1005009281115306": 1795806386.7187529,
+    "1005009281115306": 1795866353.4462957,
     "1005011797801269": 1791203753.790013,
     "1005007168829266": 1795081619.0346873,
     "1005012406142215": 1795823674.3432262,
@@ -3396,7 +3396,7 @@
     "سماعات اذن فخمة  Moondrop Chu 3 IEM": 1795864338.4983184,
     "4G LTE Wireless USB 150Mbps": 1794057675.8729835,
     "Curren 8455 Men's Quartz": 1790943640.1460688,
-    "ATTACK SHARK X11SE": 1795806386.7187529,
+    "ATTACK SHARK X11SE": 1795866353.4462957,
     "CMF Watch 3 Pro AMOLED": 1795771340.3515534,
     "Redmi Note 17 5G   6/256": 1790943667.90417,
     "Baseus USB Type C Charger 20W": 1791102355.4991398,
@@ -4669,7 +4669,6 @@
     "لاتنسى تحويل دولة التطبيق الى كندا": 1795863974.7843153
   },
   "published_post_keys": [
-    "aniscoupons:35061",
     "aniscoupons:35062",
     "aniscoupons:35064",
     "aniscoupons:35068",
@@ -5668,11 +5667,12 @@
     "aniscoupons:35880",
     "aniscoupons:35881",
     "aniscoupons:35882",
-    "aniscoupons:35883"
+    "aniscoupons:35883",
+    "aniscoupons:35884"
   ],
   "last_disclaimer_time": 1795735529.6558404,
   "last_calendar_time": 1795782506.7435975,
-  "last_run_time": 1795866169.1154215,
+  "last_run_time": 1795866353.4462957,
   "monitored_channels": {
     "ecksdeal": {
       "last_message_id": 6168,
@@ -5703,8 +5703,8 @@
       "last_check_time": 1795863429.3074756
     },
     "aniscoupons": {
-      "last_message_id": 35883,
-      "last_check_time": 1795866171.218893
+      "last_message_id": 35884,
+      "last_check_time": 1795866355.5271533
     },
     "bnddeals": {
       "last_message_id": 51451,
@@ -5762,7 +5762,7 @@
     "1005012968221708": 20.2,
     "1005010111014453": 6.09,
     "1005009828161174": 7.62,
-    "1005009281115306": 11.75,
+    "1005009281115306": 13.64,
     "1005011797801269": 55.78,
     "1005007168829266": 16.5,
     "1005012406142215": 356.0,
@@ -37462,6 +37462,16 @@
       "price": 230.3,
       "timestamp": 1795866169.1154215,
       "status": "ACTIVE"
+    },
+    "aniscoupons:35884": {
+      "channel_msg_id": 4072,
+      "product_id": "1005009281115306",
+      "title": "ATTACK SHARK X11SE",
+      "channel": "aniscoupons",
+      "source_msg_id": 35884,
+      "price": 13.64,
+      "timestamp": 1795866353.4462957,
+      "status": "ACTIVE"
     }
   },
   "schedule_config": {
@@ -37470,17 +37480,17 @@
     "current_interval_minutes": 5,
     "is_paused": false,
     "night_mode_enabled": true,
-    "last_deal_post_time": 1795866172.5024142,
+    "last_deal_post_time": 1795866356.3218644,
     "night_start_hour_dz": 0,
     "night_end_hour_dz": 8,
     "night_pause_enabled": true,
-    "last_sweep_time": 1795866183.2212884,
+    "last_sweep_time": 1795866366.5797944,
     "last_sweep_times": {
-      "algeria": 1795866172.4245372,
-      "france": 1795866183.2212884
+      "algeria": 1795866356.2834957,
+      "france": 1795866366.5797944
     },
     "last_deal_post_times": {
-      "algeria": 1795866172.5024142
+      "algeria": 1795866356.3218644
     }
   },
   "last_coin_reminder_time": 1795828812.983117,
@@ -37511,7 +37521,7 @@
     "9998883531": "test_channel",
     "1005010111014453": "lodydeals",
     "1005009828161174": "couponsglobal",
-    "1005009281115306": "lodydeals",
+    "1005009281115306": "aniscoupons",
     "1005011797801269": "couponsglobal",
     "1005012973772517": "lodydeals",
     "1005007168829266": "bnddeals",
@@ -38512,7 +38522,7 @@
     "سماعات اذن فخمة  Moondrop Chu 3 IEM": "ecksdeal",
     "4G LTE Wireless USB 150Mbps": "lodydeals",
     "Curren 8455 Men's Quartz": "lodydeals",
-    "ATTACK SHARK X11SE": "lodydeals",
+    "ATTACK SHARK X11SE": "aniscoupons",
     "CMF Watch 3 Pro AMOLED": "lodydeals",
     "Redmi Note 17 5G   6/256": "zedstoreonline",
     "Baseus USB Type C Charger 20W": "aniscoupons",
@@ -42720,6 +42730,13 @@
         "channel": "aniscoupons",
         "ts": 1795866166.0913641,
         "price": 230.3
+      }
+    ],
+    "1005009281115306": [
+      {
+        "channel": "aniscoupons",
+        "ts": 1795866350.7981572,
+        "price": 13.64
       }
     ]
   },
