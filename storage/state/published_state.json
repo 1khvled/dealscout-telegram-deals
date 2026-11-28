@@ -1832,7 +1832,7 @@
     "1005010239860751": 1794689616.7178488,
     "1005009278862695": 1795535124.479775,
     "1005013005786079": 1795771379.9658713,
-    "1005008627811107": 1794694594.377669,
+    "1005008627811107": 1795863778.4593413,
     "1005012892577195": 1794732862.0085351,
     "1005012594430190": 1795690585.1949098,
     "1005010044062473": 1794741950.275824,
@@ -4416,7 +4416,7 @@
     "مقبس SONOFF ذكي بقوة 16A يتيح تشغيل وإيقاف الأجهزة الكهربائية عن": 1794689616.7178488,
     "Anker Soundcore P30i ANC": 1795249198.9372864,
     "Anker 735 GaN 3 Port 65W": 1795022632.7994065,
-    "سماعات الاذن  TANGZU WAN'ER S.G 2 IEM": 1794694594.377669,
+    "سماعات الاذن  TANGZU WAN'ER S.G 2 IEM": 1795863778.4593413,
     "Kootion X15 M.2 SSD 256GB": 1795521699.517949,
     "Ajazz  AJ179 V2 PAW3311": 1794732848.3286283,
     "Backpack With Rod Holder": 1794732862.0085351,
@@ -4667,7 +4667,6 @@
     "سماعات الاذن  TANGZU WAN'ER S.G IEM": 1795863420.683032
   },
   "published_post_keys": [
-    "zedstoreonline:40299",
     "zedstoreonline:40301",
     "aniscoupons:35049",
     "aniscoupons:35050",
@@ -5666,19 +5665,20 @@
     "aniscoupons:35874",
     "aniscoupons:35865",
     "aniscoupons:35866",
-    "aniscoupons:35873"
+    "aniscoupons:35873",
+    "ecksdeal:6162"
   ],
   "last_disclaimer_time": 1795735529.6558404,
   "last_calendar_time": 1795782506.7435975,
-  "last_run_time": 1795863618.2339473,
+  "last_run_time": 1795863778.4593413,
   "monitored_channels": {
     "ecksdeal": {
-      "last_message_id": 6161,
-      "last_check_time": 1795863594.5244558
+      "last_message_id": 6162,
+      "last_check_time": 1795863780.5540617
     },
     "lodydeals": {
-      "last_message_id": 47013,
-      "last_check_time": 1795863231.3270214
+      "last_message_id": 47014,
+      "last_check_time": 1795863774.2788215
     },
     "test_channel": {
       "last_message_id": 1793967703,
@@ -5701,8 +5701,8 @@
       "last_check_time": 1795863429.3074756
     },
     "aniscoupons": {
-      "last_message_id": 35874,
-      "last_check_time": 1795863618.2339473
+      "last_message_id": 35875,
+      "last_check_time": 1795863783.023953
     },
     "bnddeals": {
       "last_message_id": 51451,
@@ -6424,7 +6424,7 @@
     "1005010239860751": 4.8,
     "1005009278862695": 32.9,
     "1005013005786079": 18.29,
-    "1005008627811107": 10.5,
+    "1005008627811107": 8.52,
     "1005012892577195": 16.27,
     "1005012594430190": 3.0,
     "1005010044062473": 3.27,
@@ -37350,6 +37350,16 @@
       "price": 50.7,
       "timestamp": 1795863618.2339473,
       "status": "ACTIVE"
+    },
+    "ecksdeal:6162": {
+      "channel_msg_id": 4061,
+      "product_id": "1005008627811107",
+      "title": "سماعات الاذن  TANGZU WAN'ER S.G 2 IEM",
+      "channel": "ecksdeal",
+      "source_msg_id": 6162,
+      "price": 8.52,
+      "timestamp": 1795863778.4593413,
+      "status": "ACTIVE"
     }
   },
   "schedule_config": {
@@ -37358,17 +37368,17 @@
     "current_interval_minutes": 5,
     "is_paused": false,
     "night_mode_enabled": true,
-    "last_deal_post_time": 1795863621.331208,
+    "last_deal_post_time": 1795863783.6956663,
     "night_start_hour_dz": 0,
     "night_end_hour_dz": 8,
     "night_pause_enabled": true,
-    "last_sweep_time": 1795863640.7187417,
+    "last_sweep_time": 1795863793.4514618,
     "last_sweep_times": {
-      "algeria": 1795863621.2885427,
-      "france": 1795863640.7187417
+      "algeria": 1795863783.656766,
+      "france": 1795863793.4514618
     },
     "last_deal_post_times": {
-      "algeria": 1795863621.331208
+      "algeria": 1795863783.6956663
     }
   },
   "last_coin_reminder_time": 1795828812.983117,
@@ -40507,7 +40517,6 @@
   "published_deals_history": {},
   "settings": {},
   "handled_post_keys": [
-    "lodydeals:46572",
     "lodydeals:46575",
     "lodydeals:46576",
     "lodydeals:46577",
@@ -41506,7 +41515,8 @@
     "aniscoupons:35867",
     "aniscoupons:35868",
     "aniscoupons:35872",
-    "ecksdeal:6161"
+    "ecksdeal:6161",
+    "aniscoupons:35875"
   ],
   "last_france_cross_promo_time": 1795757211.9224837,
   "next_france_cross_promo_interval_seconds": 197705,
@@ -42306,6 +42316,11 @@
         "channel": "zedstoreonline",
         "ts": 1795863054.1928098,
         "price": 177.0
+      },
+      {
+        "channel": "aniscoupons",
+        "ts": 1795863782.8808675,
+        "price": 177.8
       }
     ],
     "1005012274502051": [
@@ -42532,6 +42547,13 @@
         "channel": "aniscoupons",
         "ts": 1795863615.8349912,
         "price": 50.7
+      }
+    ],
+    "1005008627811107": [
+      {
+        "channel": "ecksdeal",
+        "ts": 1795863776.2807896,
+        "price": 8.52
       }
     ]
   },
