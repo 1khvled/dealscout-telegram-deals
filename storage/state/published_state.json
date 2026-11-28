@@ -1513,7 +1513,7 @@
     "1005012345939726": 1793656202.4239671,
     "1005010722422210": 1794997865.6657422,
     "1005012582348584": 1795799215.7546494,
-    "1005012529582418": 1795352881.214854,
+    "1005012529582418": 1795863974.7843153,
     "1005008605565544": 1793543812.9442995,
     "1005009508910625": 1793543817.982839,
     "1005010114569881": 1793543824.1762173,
@@ -1637,7 +1637,7 @@
     "1005008429979494": 1793741666.9686077,
     "1005004795387201": 1793742770.1634803,
     "1005010702983351": 1794998780.0409262,
-    "1005008366962319": 1795816329.4585314,
+    "1005008366962319": 1795863981.914286,
     "1005005058037424": 1793779907.9964287,
     "1005012946895000": 1793793714.105913,
     "1005012150344482": 1795806213.269179,
@@ -3334,7 +3334,8 @@
     "Honor Win Turbo 12/256",
     "يد تحكم لاسلكية مع شاحن GameSir G7 PRO 8K Aimlabs Edition",
     "Lenovo Xiaoxin Pro 13  8/256",
-    "سماعات الاذن  TANGZU WAN'ER S.G IEM"
+    "سماعات الاذن  TANGZU WAN'ER S.G IEM",
+    "لاتنسى تحويل دولة التطبيق الى كندا"
   ],
   "published_title_timestamps": {
     "Xiaomi Redmi Note 17 5G Global Version": 1790857823.0117362,
@@ -4297,7 +4298,7 @@
     "Vivo X300  12/256GB": 1794394604.3664222,
     "CMF Buds 2a Bluetooth 5.4 Up to 31H of playback 12.4mm Driver 42dB ANC 4HD": 1794396619.5833008,
     "Electronic Body Scale": 1794400568.4819298,
-    "Kootiion X15 M.2 SSD NVMe 256GB": 1795816329.4585314,
+    "Kootiion X15 M.2 SSD NVMe 256GB": 1795863981.914286,
     "SoundPEATS C30 Hybrid ANC -52dB": 1794407013.7230165,
     "Somnambulist SSD 120GB": 1794524556.2538168,
     "Lexar ARES PRO NVMe SSD PCle5.0x4 M.2 1TB": 1794492627.75024,
@@ -4664,11 +4665,10 @@
     "Honor Win Turbo 12/256": 1795823674.3432262,
     "يد تحكم لاسلكية مع شاحن GameSir G7 PRO 8K Aimlabs Edition": 1795862509.0719414,
     "Lenovo Xiaoxin Pro 13  8/256": 1795863081.6204703,
-    "سماعات الاذن  TANGZU WAN'ER S.G IEM": 1795863420.683032
+    "سماعات الاذن  TANGZU WAN'ER S.G IEM": 1795863420.683032,
+    "لاتنسى تحويل دولة التطبيق الى كندا": 1795863974.7843153
   },
   "published_post_keys": [
-    "zedstoreonline:40301",
-    "aniscoupons:35049",
     "aniscoupons:35050",
     "aniscoupons:35052",
     "aniscoupons:35053",
@@ -5666,15 +5666,17 @@
     "aniscoupons:35865",
     "aniscoupons:35866",
     "aniscoupons:35873",
-    "ecksdeal:6162"
+    "ecksdeal:6162",
+    "ecksdeal:6164",
+    "aniscoupons:35876"
   ],
   "last_disclaimer_time": 1795735529.6558404,
   "last_calendar_time": 1795782506.7435975,
-  "last_run_time": 1795863778.4593413,
+  "last_run_time": 1795863981.914286,
   "monitored_channels": {
     "ecksdeal": {
-      "last_message_id": 6162,
-      "last_check_time": 1795863780.5540617
+      "last_message_id": 6164,
+      "last_check_time": 1795863976.9044406
     },
     "lodydeals": {
       "last_message_id": 47014,
@@ -5701,8 +5703,8 @@
       "last_check_time": 1795863429.3074756
     },
     "aniscoupons": {
-      "last_message_id": 35875,
-      "last_check_time": 1795863783.023953
+      "last_message_id": 35876,
+      "last_check_time": 1795863984.031259
     },
     "bnddeals": {
       "last_message_id": 51451,
@@ -37360,6 +37362,26 @@
       "price": 8.52,
       "timestamp": 1795863778.4593413,
       "status": "ACTIVE"
+    },
+    "ecksdeal:6164": {
+      "channel_msg_id": 4062,
+      "product_id": "1005012529582418",
+      "title": "لاتنسى تحويل دولة التطبيق الى كندا",
+      "channel": "ecksdeal",
+      "source_msg_id": 6164,
+      "price": 12.6,
+      "timestamp": 1795863974.7843153,
+      "status": "ACTIVE"
+    },
+    "aniscoupons:35876": {
+      "channel_msg_id": 4063,
+      "product_id": "1005008366962319",
+      "title": "Kootiion X15 M.2 SSD NVMe 256GB",
+      "channel": "aniscoupons",
+      "source_msg_id": 35876,
+      "price": 30.0,
+      "timestamp": 1795863981.914286,
+      "status": "ACTIVE"
     }
   },
   "schedule_config": {
@@ -37368,17 +37390,17 @@
     "current_interval_minutes": 5,
     "is_paused": false,
     "night_mode_enabled": true,
-    "last_deal_post_time": 1795863783.6956663,
+    "last_deal_post_time": 1795863985.2791703,
     "night_start_hour_dz": 0,
     "night_end_hour_dz": 8,
     "night_pause_enabled": true,
-    "last_sweep_time": 1795863793.4514618,
+    "last_sweep_time": 1795863994.7903876,
     "last_sweep_times": {
-      "algeria": 1795863783.656766,
-      "france": 1795863793.4514618
+      "algeria": 1795863985.2263687,
+      "france": 1795863994.7903876
     },
     "last_deal_post_times": {
-      "algeria": 1795863783.6956663
+      "algeria": 1795863985.2791703
     }
   },
   "last_coin_reminder_time": 1795828812.983117,
@@ -39719,7 +39741,8 @@
     "يد تحكم لاسلكية مع شاحن GameSir G7 PRO 8K Aimlabs Edition": "ecksdeal",
     "Attack Shark X5": "zedstoreonline",
     "Lenovo Xiaoxin Pro 13  8/256": "zedstoreonline",
-    "سماعات الاذن  TANGZU WAN'ER S.G IEM": "ecksdeal"
+    "سماعات الاذن  TANGZU WAN'ER S.G IEM": "ecksdeal",
+    "لاتنسى تحويل دولة التطبيق الى كندا": "ecksdeal"
   },
   "religious_reminders_history": {
     "mock_rem": "2026-10-02",
@@ -40517,7 +40540,6 @@
   "published_deals_history": {},
   "settings": {},
   "handled_post_keys": [
-    "lodydeals:46575",
     "lodydeals:46576",
     "lodydeals:46577",
     "lodydeals:46578",
@@ -41516,7 +41538,8 @@
     "aniscoupons:35868",
     "aniscoupons:35872",
     "ecksdeal:6161",
-    "aniscoupons:35875"
+    "aniscoupons:35875",
+    "ecksdeal:6163"
   ],
   "last_france_cross_promo_time": 1795757211.9224837,
   "next_france_cross_promo_interval_seconds": 197705,
@@ -42554,6 +42577,20 @@
         "channel": "ecksdeal",
         "ts": 1795863776.2807896,
         "price": 8.52
+      }
+    ],
+    "1005012529582418": [
+      {
+        "channel": "ecksdeal",
+        "ts": 1795863972.2139156,
+        "price": 12.6
+      }
+    ],
+    "1005008366962319": [
+      {
+        "channel": "aniscoupons",
+        "ts": 1795863979.4083047,
+        "price": 30.0
       }
     ]
   },
