@@ -1442,7 +1442,7 @@
     "1005008356663932": 1793707052.9762022,
     "1005010074161953": 1793543659.5887568,
     "1005010498953493": 1795864883.7060971,
-    "1005010535660141": 1795022632.7994065,
+    "1005010535660141": 1795872037.5797396,
     "1005010472570391": 1793571013.3288968,
     "1005012864293264": 1793570287.0210865,
     "1005010384976635": 1793448786.1863484,
@@ -3337,7 +3337,8 @@
     "سماعات الاذن  TANGZU WAN'ER S.G IEM",
     "لاتنسى تحويل دولة التطبيق الى كندا",
     "Soundcore by Anker Space One",
-    "RYZEN 5 5600Xt"
+    "RYZEN 5 5600Xt",
+    "Anker Nano Charger, 65W"
   ],
   "published_title_timestamps": {
     "Xiaomi Redmi Note 17 5G Global Version": 1790857823.0117362,
@@ -4670,10 +4671,10 @@
     "سماعات الاذن  TANGZU WAN'ER S.G IEM": 1795863420.683032,
     "لاتنسى تحويل دولة التطبيق الى كندا": 1795863974.7843153,
     "Soundcore by Anker Space One": 1795867086.0074983,
-    "RYZEN 5 5600Xt": 1795869290.2564855
+    "RYZEN 5 5600Xt": 1795869290.2564855,
+    "Anker Nano Charger, 65W": 1795872037.5797396
   },
   "published_post_keys": [
-    "aniscoupons:35084",
     "aniscoupons:35086",
     "aniscoupons:35088",
     "aniscoupons:35089",
@@ -5672,11 +5673,12 @@
     "ecksdeal:6171",
     "ecksdeal:6172",
     "ecksdeal:6173",
-    "aniscoupons:35896"
+    "aniscoupons:35896",
+    "zedstoreonline:40860"
   ],
   "last_disclaimer_time": 1795735529.6558404,
   "last_calendar_time": 1795782506.7435975,
-  "last_run_time": 1795871855.328107,
+  "last_run_time": 1795872037.5797396,
   "monitored_channels": {
     "ecksdeal": {
       "last_message_id": 6173,
@@ -5703,8 +5705,8 @@
       "last_check_time": 1793599663.3444748
     },
     "zedstoreonline": {
-      "last_message_id": 40859,
-      "last_check_time": 1795871851.5149367
+      "last_message_id": 40860,
+      "last_check_time": 1795872039.7002568
     },
     "aniscoupons": {
       "last_message_id": 35896,
@@ -6073,7 +6075,7 @@
     "1005008356663932": 355.5,
     "1005010074161953": 130.08,
     "1005010498953493": 51.15,
-    "1005010535660141": 20.89,
+    "1005010535660141": 19.9,
     "1005010472570391": 25.77,
     "1005012864293264": 28.96,
     "1005010384976635": 30.55,
@@ -37596,6 +37598,16 @@
       "price": 20.3,
       "timestamp": 1795871855.328107,
       "status": "ACTIVE"
+    },
+    "zedstoreonline:40860": {
+      "channel_msg_id": 4085,
+      "product_id": "1005010535660141",
+      "title": "Anker Nano Charger, 65W",
+      "channel": "zedstoreonline",
+      "source_msg_id": 40860,
+      "price": 19.9,
+      "timestamp": 1795872037.5797396,
+      "status": "ACTIVE"
     }
   },
   "schedule_config": {
@@ -37604,17 +37616,17 @@
     "current_interval_minutes": 5,
     "is_paused": false,
     "night_mode_enabled": true,
-    "last_deal_post_time": 1795871858.426759,
+    "last_deal_post_time": 1795872041.3322694,
     "night_start_hour_dz": 0,
     "night_end_hour_dz": 8,
     "night_pause_enabled": true,
-    "last_sweep_time": 1795871866.4443948,
+    "last_sweep_time": 1795872050.1211529,
     "last_sweep_times": {
-      "algeria": 1795871858.3815293,
-      "france": 1795871866.4443948
+      "algeria": 1795872041.2789938,
+      "france": 1795872050.1211529
     },
     "last_deal_post_times": {
-      "algeria": 1795871858.426759
+      "algeria": 1795872041.3322694
     }
   },
   "last_coin_reminder_time": 1795828812.983117,
@@ -38074,7 +38086,7 @@
     "1005008356663932": "lodydeals",
     "1005010074161953": "lodydeals",
     "1005010498953493": "aniscoupons",
-    "1005010535660141": "lodydeals",
+    "1005010535660141": "zedstoreonline",
     "1005010472570391": "lodydeals",
     "1005012864293264": "lodydeals",
     "1005010384976635": "bnddeals",
@@ -39958,7 +39970,8 @@
     "سماعات الاذن  TANGZU WAN'ER S.G IEM": "ecksdeal",
     "لاتنسى تحويل دولة التطبيق الى كندا": "ecksdeal",
     "Soundcore by Anker Space One": "aniscoupons",
-    "RYZEN 5 5600Xt": "aniscoupons"
+    "RYZEN 5 5600Xt": "aniscoupons",
+    "Anker Nano Charger, 65W": "zedstoreonline"
   },
   "religious_reminders_history": {
     "mock_rem": "2026-10-02",
@@ -42975,6 +42988,13 @@
         "channel": "aniscoupons",
         "ts": 1795871853.1394658,
         "price": 20.3
+      }
+    ],
+    "1005010535660141": [
+      {
+        "channel": "zedstoreonline",
+        "ts": 1795872035.0910592,
+        "price": 19.9
       }
     ]
   },
