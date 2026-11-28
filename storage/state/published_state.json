@@ -1143,7 +1143,7 @@
     "1005010536089199": 1795864699.9261065,
     "1005012385221205": 1791102050.1835058,
     "1005012743092233": 1791104461.903693,
-    "1005007805497968": 1795806391.8729615,
+    "1005007805497968": 1795865610.8522449,
     "1005007345108759": 1793542577.5838556,
     "1005007394197021": 1792103174.5720932,
     "1005013290515237": 1791110751.0808105,
@@ -3804,7 +3804,7 @@
     "GIGABYTE B550M AORUS ELITE Motherboard": 1793399464.4760919,
     "Redmi Pad 2  4/64": 1793399472.4016223,
     "MSI MAG X670E TOMAHAWK Motherboard": 1793399494.1323898,
-    "GameSir Nova Lite": 1795789860.7986147,
+    "GameSir Nova Lite": 1795865610.8522449,
     "QCY Crossky C50i Open": 1793399525.3383162,
     "Magcubic HY350MAX": 1793399534.209787,
     "BLACKVIEW OSCAL TANK1": 1793399542.6698716,
@@ -4669,7 +4669,6 @@
     "لاتنسى تحويل دولة التطبيق الى كندا": 1795863974.7843153
   },
   "published_post_keys": [
-    "aniscoupons:35057",
     "aniscoupons:35059",
     "aniscoupons:35060",
     "aniscoupons:35061",
@@ -5668,11 +5667,12 @@
     "aniscoupons:35877",
     "aniscoupons:35878",
     "aniscoupons:35879",
-    "aniscoupons:35880"
+    "aniscoupons:35880",
+    "aniscoupons:35881"
   ],
   "last_disclaimer_time": 1795735529.6558404,
   "last_calendar_time": 1795782506.7435975,
-  "last_run_time": 1795865251.506595,
+  "last_run_time": 1795865610.8522449,
   "monitored_channels": {
     "ecksdeal": {
       "last_message_id": 6168,
@@ -5703,8 +5703,8 @@
       "last_check_time": 1795863429.3074756
     },
     "aniscoupons": {
-      "last_message_id": 35880,
-      "last_check_time": 1795865253.6347675
+      "last_message_id": 35881,
+      "last_check_time": 1795865612.9298286
     },
     "bnddeals": {
       "last_message_id": 51451,
@@ -5847,7 +5847,7 @@
     "1005012385221205": 13.27,
     "1005013223462188": 13.5,
     "1005012743092233": 24.37,
-    "1005007805497968": 21.08,
+    "1005007805497968": 19.0,
     "1005007345108759": 19.47,
     "1005007394197021": 14.88,
     "1005012571601398": 273.5,
@@ -37432,6 +37432,16 @@
       "price": 177.9,
       "timestamp": 1795865251.506595,
       "status": "ACTIVE"
+    },
+    "aniscoupons:35881": {
+      "channel_msg_id": 4069,
+      "product_id": "1005007805497968",
+      "title": "GameSir Nova Lite",
+      "channel": "aniscoupons",
+      "source_msg_id": 35881,
+      "price": 19.0,
+      "timestamp": 1795865610.8522449,
+      "status": "ACTIVE"
     }
   },
   "schedule_config": {
@@ -37440,17 +37450,17 @@
     "current_interval_minutes": 5,
     "is_paused": false,
     "night_mode_enabled": true,
-    "last_deal_post_time": 1795865254.8149867,
+    "last_deal_post_time": 1795865613.7888012,
     "night_start_hour_dz": 0,
     "night_end_hour_dz": 8,
     "night_pause_enabled": true,
-    "last_sweep_time": 1795865447.824784,
+    "last_sweep_time": 1795865621.389075,
     "last_sweep_times": {
-      "algeria": 1795865435.7011538,
-      "france": 1795865447.824784
+      "algeria": 1795865613.7536812,
+      "france": 1795865621.389075
     },
     "last_deal_post_times": {
-      "algeria": 1795865254.8149867
+      "algeria": 1795865613.7888012
     }
   },
   "last_coin_reminder_time": 1795828812.983117,
@@ -37599,7 +37609,7 @@
     "1005005217734986": "pcgamingpart",
     "1005007961216287": "lodydeals",
     "1005012743092233": "pcgamingpart",
-    "1005007805497968": "lodydeals",
+    "1005007805497968": "aniscoupons",
     "1005007345108759": "ecksdeal",
     "1005007394028808": "zedstoreonline",
     "1005007394197021": "lodydeals",
@@ -38934,7 +38944,7 @@
     "GIGABYTE B550M AORUS ELITE Motherboard": "zedstoreonline",
     "Redmi Pad 2  4/64": "zedstoreonline",
     "MSI MAG X670E TOMAHAWK Motherboard": "zedstoreonline",
-    "GameSir Nova Lite": "zedstoreonline",
+    "GameSir Nova Lite": "aniscoupons",
     "QCY Crossky C50i Open": "aniscoupons",
     "Magcubic HY350MAX": "aniscoupons",
     "BLACKVIEW OSCAL TANK1": "aniscoupons",
@@ -42669,6 +42679,13 @@
         "channel": "aniscoupons",
         "ts": 1795865249.1298082,
         "price": 177.9
+      }
+    ],
+    "1005007805497968": [
+      {
+        "channel": "aniscoupons",
+        "ts": 1795865608.5158384,
+        "price": 19.0
       }
     ]
   },
