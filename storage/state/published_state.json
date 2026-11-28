@@ -1500,7 +1500,7 @@
     "1005009916209766": 1794167239.3538153,
     "1005012537594921": 1793542611.8880281,
     "1005009963377960": 1794312953.1830955,
-    "1005012790844974": 1795641837.6292286,
+    "1005012790844974": 1795870388.0078516,
     "1005010354926803": 1793542626.5536122,
     "1005009621100138": 1793542634.9331498,
     "1005004905380908": 1795863420.683032,
@@ -3919,7 +3919,7 @@
     "كيبورد ميكانيكي Ajazz NK61 Red Switch": 1793542607.3688066,
     "كيبورد ميكانيكي لاسلكي فخم بشاشة Aula F75 Max Wireless": 1793542611.8880281,
     "كيبورد مغناطيسي AULA Win68 HE 8K Magnetic Switch": 1795526475.8421245,
-    "سماعات لاسلكية Epomaker GX1 Wireless": 1795641837.6292286,
+    "سماعات لاسلكية Epomaker GX1 Wireless": 1795870388.0078516,
     "سماعات لاسلكية Aula G7 7.1 Wireless": 1793542626.5536122,
     "كيبورد مغناطيسي AULA Hero68 HE 8K Magnetic Switch": 1793542634.9331498,
     "سماعات الاذن  TANGZU WAN'ER S.G  IEM": 1793542639.2483642,
@@ -4673,7 +4673,6 @@
     "RYZEN 5 5600Xt": 1795869290.2564855
   },
   "published_post_keys": [
-    "aniscoupons:35076",
     "aniscoupons:35077",
     "aniscoupons:35081",
     "aniscoupons:35084",
@@ -5672,15 +5671,16 @@
     "aniscoupons:35891",
     "aniscoupons:35892",
     "aniscoupons:35893",
-    "ecksdeal:6171"
+    "ecksdeal:6171",
+    "ecksdeal:6172"
   ],
   "last_disclaimer_time": 1795735529.6558404,
   "last_calendar_time": 1795782506.7435975,
-  "last_run_time": 1795870211.7179306,
+  "last_run_time": 1795870388.0078516,
   "monitored_channels": {
     "ecksdeal": {
-      "last_message_id": 6171,
-      "last_check_time": 1795870213.8102276
+      "last_message_id": 6172,
+      "last_check_time": 1795870390.1236093
     },
     "lodydeals": {
       "last_message_id": 47018,
@@ -6125,7 +6125,7 @@
     "1005009916209766": 27.14,
     "1005012537594921": 45.74,
     "1005009963377960": 22.2,
-    "1005012790844974": 35.46,
+    "1005012790844974": 33.47,
     "1005010354926803": 19.11,
     "1005009621100138": 35.76,
     "1005004905380908": 7.6,
@@ -37566,6 +37566,16 @@
       "price": 38.11,
       "timestamp": 1795870211.7179306,
       "status": "ACTIVE"
+    },
+    "ecksdeal:6172": {
+      "channel_msg_id": 4082,
+      "product_id": "1005012790844974",
+      "title": "سماعات لاسلكية Epomaker GX1 Wireless",
+      "channel": "ecksdeal",
+      "source_msg_id": 6172,
+      "price": 33.47,
+      "timestamp": 1795870388.0078516,
+      "status": "ACTIVE"
     }
   },
   "schedule_config": {
@@ -37574,17 +37584,17 @@
     "current_interval_minutes": 5,
     "is_paused": false,
     "night_mode_enabled": true,
-    "last_deal_post_time": 1795870216.2713785,
+    "last_deal_post_time": 1795870392.351053,
     "night_start_hour_dz": 0,
     "night_end_hour_dz": 8,
     "night_pause_enabled": true,
-    "last_sweep_time": 1795870228.2019315,
+    "last_sweep_time": 1795870401.067464,
     "last_sweep_times": {
-      "algeria": 1795870216.23203,
-      "france": 1795870228.2019315
+      "algeria": 1795870392.2899165,
+      "france": 1795870401.067464
     },
     "last_deal_post_times": {
-      "algeria": 1795870216.2713785
+      "algeria": 1795870392.351053
     }
   },
   "last_coin_reminder_time": 1795828812.983117,
@@ -42904,6 +42914,13 @@
         "channel": "ecksdeal",
         "ts": 1795870208.5853667,
         "price": 38.11
+      }
+    ],
+    "1005012790844974": [
+      {
+        "channel": "ecksdeal",
+        "ts": 1795870385.5536933,
+        "price": 33.47
       }
     ]
   },
