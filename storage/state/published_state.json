@@ -994,7 +994,8 @@
     "1005010572861466",
     "1005011568295224",
     "1005012181403436",
-    "1005013103653711"
+    "1005013103653711",
+    "1005012522970773"
   ],
   "published_product_timestamps": {
     "1005012973772517": 1794500732.7845657,
@@ -2009,7 +2010,8 @@
     "1005010572861466": 1795819829.0642247,
     "1005011568295224": 1795820013.4851985,
     "1005012181403436": 1795862509.0719414,
-    "1005013103653711": 1795862514.8848965
+    "1005013103653711": 1795862514.8848965,
+    "1005012522970773": 1795872972.487995
   },
   "published_titles": [
     "Wireless WiFi Repeater 300Mbps WiFi Extender Amplifier Booster Router",
@@ -4210,7 +4212,7 @@
     "مبرد الهاتف MEMO CX10": 1794126663.880001,
     "KOOTION SATA SSD 480GB": 1795471879.4752672,
     "راوتر Vodafone 4G محمول": 1794128872.1451216,
-    "OnePlus ACE 6T": 1794484334.0264623,
+    "OnePlus ACE 6T": 1795872972.487995,
     "Essager Mini 20W Type C Charger PD": 1794129971.1690388,
     "Xiaomi Redmi Note 17 5G Global Version (6/256GB)": 1794742106.1234784,
     "OnePlus Ace 6 12/256GB": 1795776490.6380856,
@@ -4675,7 +4677,6 @@
     "Anker Nano Charger, 65W": 1795872037.5797396
   },
   "published_post_keys": [
-    "aniscoupons:35089",
     "aniscoupons:35083",
     "aniscoupons:35096",
     "ecksdeal:6070",
@@ -5674,11 +5675,12 @@
     "aniscoupons:35896",
     "zedstoreonline:40860",
     "aniscoupons:35897",
-    "zedstoreonline:40861"
+    "zedstoreonline:40861",
+    "aniscoupons:35898"
   ],
   "last_disclaimer_time": 1795735529.6558404,
   "last_calendar_time": 1795782506.7435975,
-  "last_run_time": 1795872593.5177972,
+  "last_run_time": 1795872972.487995,
   "monitored_channels": {
     "ecksdeal": {
       "last_message_id": 6173,
@@ -5705,12 +5707,12 @@
       "last_check_time": 1793599663.3444748
     },
     "zedstoreonline": {
-      "last_message_id": 40862,
-      "last_check_time": 1795872775.3427289
+      "last_message_id": 40863,
+      "last_check_time": 1795872966.024414
     },
     "aniscoupons": {
-      "last_message_id": 35897,
-      "last_check_time": 1795872413.171392
+      "last_message_id": 35898,
+      "last_check_time": 1795872974.6215844
     },
     "bnddeals": {
       "last_message_id": 51451,
@@ -6573,7 +6575,8 @@
     "1005010572861466": 19.9,
     "1005011568295224": 16.1,
     "1005012181403436": 100.0,
-    "1005013103653711": 80.0
+    "1005013103653711": 80.0,
+    "1005012522970773": 362.0
   },
   "channel_published_deals": {
     "aniscoupons:32590": {
@@ -37628,6 +37631,16 @@
       "price": 98.3,
       "timestamp": 1795872593.5177972,
       "status": "ACTIVE"
+    },
+    "aniscoupons:35898": {
+      "channel_msg_id": 4088,
+      "product_id": "1005012522970773",
+      "title": "OnePlus ACE 6T",
+      "channel": "aniscoupons",
+      "source_msg_id": 35898,
+      "price": 362.0,
+      "timestamp": 1795872972.487995,
+      "status": "ACTIVE"
     }
   },
   "schedule_config": {
@@ -37636,17 +37649,17 @@
     "current_interval_minutes": 5,
     "is_paused": false,
     "night_mode_enabled": true,
-    "last_deal_post_time": 1795872597.3900752,
+    "last_deal_post_time": 1795872975.984041,
     "night_start_hour_dz": 0,
     "night_end_hour_dz": 8,
     "night_pause_enabled": true,
-    "last_sweep_time": 1795872785.964037,
+    "last_sweep_time": 1795872986.4894083,
     "last_sweep_times": {
-      "algeria": 1795872777.3825972,
-      "france": 1795872785.964037
+      "algeria": 1795872975.9246933,
+      "france": 1795872986.4894083
     },
     "last_deal_post_times": {
-      "algeria": 1795872597.3900752
+      "algeria": 1795872975.984041
     }
   },
   "last_coin_reminder_time": 1795828812.983117,
@@ -38654,7 +38667,8 @@
     "1005010572861466": "zedstoreonline",
     "1005011568295224": "zedstoreonline",
     "1005012181403436": "ecksdeal",
-    "1005013103653711": "ecksdeal"
+    "1005013103653711": "ecksdeal",
+    "1005012522970773": "aniscoupons"
   },
   "published_title_channels": {
     "Test Wrench Set": "test_channel",
@@ -40789,7 +40803,6 @@
   "published_deals_history": {},
   "settings": {},
   "handled_post_keys": [
-    "zedstoreonline:40280",
     "zedstoreonline:40281",
     "zedstoreonline:40283",
     "zedstoreonline:40284",
@@ -41788,7 +41801,8 @@
     "zedstoreonline:40857",
     "zedstoreonline:40858",
     "zedstoreonline:40859",
-    "zedstoreonline:40862"
+    "zedstoreonline:40862",
+    "zedstoreonline:40863"
   ],
   "last_france_cross_promo_time": 1795757211.9224837,
   "next_france_cross_promo_interval_seconds": 197705,
