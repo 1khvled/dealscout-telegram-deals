@@ -1370,7 +1370,7 @@
     "1005010266487244": 1795249027.928314,
     "1005010207075594": 1793299454.8390412,
     "1005013351519067": 1793448628.3734028,
-    "1005012484784752": 1795801429.7015054,
+    "1005012484784752": 1795869290.2564855,
     "1005013222140851": 1794732855.3959744,
     "1005013438245033": 1794996403.594225,
     "1005008986635164": 1793314892.9200466,
@@ -3336,7 +3336,8 @@
     "Lenovo Xiaoxin Pro 13  8/256",
     "سماعات الاذن  TANGZU WAN'ER S.G IEM",
     "لاتنسى تحويل دولة التطبيق الى كندا",
-    "Soundcore by Anker Space One"
+    "Soundcore by Anker Space One",
+    "RYZEN 5 5600Xt"
   ],
   "published_title_timestamps": {
     "Xiaomi Redmi Note 17 5G Global Version": 1790857823.0117362,
@@ -4668,10 +4669,10 @@
     "Lenovo Xiaoxin Pro 13  8/256": 1795863081.6204703,
     "سماعات الاذن  TANGZU WAN'ER S.G IEM": 1795863420.683032,
     "لاتنسى تحويل دولة التطبيق الى كندا": 1795863974.7843153,
-    "Soundcore by Anker Space One": 1795867086.0074983
+    "Soundcore by Anker Space One": 1795867086.0074983,
+    "RYZEN 5 5600Xt": 1795869290.2564855
   },
   "published_post_keys": [
-    "aniscoupons:35074",
     "aniscoupons:35075",
     "aniscoupons:35076",
     "aniscoupons:35077",
@@ -5670,11 +5671,12 @@
     "aniscoupons:35889",
     "aniscoupons:35890",
     "aniscoupons:35891",
-    "aniscoupons:35892"
+    "aniscoupons:35892",
+    "aniscoupons:35893"
   ],
   "last_disclaimer_time": 1795735529.6558404,
   "last_calendar_time": 1795782506.7435975,
-  "last_run_time": 1795868922.0552015,
+  "last_run_time": 1795869290.2564855,
   "monitored_channels": {
     "ecksdeal": {
       "last_message_id": 6169,
@@ -5705,8 +5707,8 @@
       "last_check_time": 1795867082.1510978
     },
     "aniscoupons": {
-      "last_message_id": 35892,
-      "last_check_time": 1795868924.1851852
+      "last_message_id": 35893,
+      "last_check_time": 1795869292.3870919
     },
     "bnddeals": {
       "last_message_id": 51451,
@@ -5999,7 +6001,7 @@
     "1005011638526553": 407.54,
     "1005010207075594": 424.0,
     "1005013351519067": 202.9,
-    "1005012484784752": 99.7,
+    "1005012484784752": 99.79,
     "1005013222140851": 74.53,
     "1005010355409000": 494.2,
     "1005013438245033": 409.36,
@@ -37544,6 +37546,16 @@
       "price": 43.24,
       "timestamp": 1795868922.0552015,
       "status": "ACTIVE"
+    },
+    "aniscoupons:35893": {
+      "channel_msg_id": 4080,
+      "product_id": "1005012484784752",
+      "title": "RYZEN 5 5600Xt",
+      "channel": "aniscoupons",
+      "source_msg_id": 35893,
+      "price": 99.79,
+      "timestamp": 1795869290.2564855,
+      "status": "ACTIVE"
     }
   },
   "schedule_config": {
@@ -37552,17 +37564,17 @@
     "current_interval_minutes": 5,
     "is_paused": false,
     "night_mode_enabled": true,
-    "last_deal_post_time": 1795868925.326242,
+    "last_deal_post_time": 1795869293.5785007,
     "night_start_hour_dz": 0,
     "night_end_hour_dz": 8,
     "night_pause_enabled": true,
-    "last_sweep_time": 1795869111.5522382,
+    "last_sweep_time": 1795869302.19455,
     "last_sweep_times": {
-      "algeria": 1795869103.0513425,
-      "france": 1795869111.5522382
+      "algeria": 1795869293.5198247,
+      "france": 1795869302.19455
     },
     "last_deal_post_times": {
-      "algeria": 1795868925.326242
+      "algeria": 1795869293.5785007
     }
   },
   "last_coin_reminder_time": 1795828812.983117,
@@ -37949,7 +37961,7 @@
     "1005011638526553": "lodydeals",
     "1005010207075594": "aniscoupons",
     "1005013351519067": "aniscoupons",
-    "1005012484784752": "lodydeals",
+    "1005012484784752": "aniscoupons",
     "1005013222140851": "lodydeals",
     "1005010355409000": "aniscoupons",
     "1005013438245033": "aniscoupons",
@@ -39905,7 +39917,8 @@
     "Lenovo Xiaoxin Pro 13  8/256": "zedstoreonline",
     "سماعات الاذن  TANGZU WAN'ER S.G IEM": "ecksdeal",
     "لاتنسى تحويل دولة التطبيق الى كندا": "ecksdeal",
-    "Soundcore by Anker Space One": "aniscoupons"
+    "Soundcore by Anker Space One": "aniscoupons",
+    "RYZEN 5 5600Xt": "aniscoupons"
   },
   "religious_reminders_history": {
     "mock_rem": "2026-10-02",
@@ -42862,6 +42875,13 @@
         "channel": "aniscoupons",
         "ts": 1795868919.8229005,
         "price": 43.24
+      }
+    ],
+    "1005012484784752": [
+      {
+        "channel": "aniscoupons",
+        "ts": 1795869287.8715053,
+        "price": 99.79
       }
     ]
   },
