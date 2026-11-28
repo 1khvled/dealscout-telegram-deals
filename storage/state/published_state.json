@@ -1579,7 +1579,7 @@
     "1005009064526142": 1793613380.753295,
     "1005010009130696": 1793613403.4444478,
     "1005013465751932": 1793613440.9413722,
-    "1005011778223630": 1793613478.3592212,
+    "1005011778223630": 1795872593.5177972,
     "1005009231510301": 1795863112.709904,
     "1005011625723042": 1793613515.3490868,
     "1005006280695304": 1793613524.8970137,
@@ -4039,7 +4039,7 @@
     "HONOR 600 8/256": 1793613430.959157,
     "realme Pad 3 5G 8/256": 1793613460.6520321,
     "Xiaomi Redmi 17 Smartphone 128G 256G ROM 120Hz 6.9\" Display 50MP 45W Turbo": 1793613465.8475375,
-    "AMD Ryzen 5 7500F": 1793613478.3592212,
+    "AMD Ryzen 5 7500F": 1795872593.5177972,
     "AMD Ryzen R9 9900X": 1793613486.2912338,
     "Lenovo Xiaoxin Pad Pro GT  8/256": 1795862535.9189916,
     "China Version Xiaomi WiFi Router Amplifier Pro": 1793613515.3490868,
@@ -4675,7 +4675,6 @@
     "Anker Nano Charger, 65W": 1795872037.5797396
   },
   "published_post_keys": [
-    "aniscoupons:35088",
     "aniscoupons:35089",
     "aniscoupons:35083",
     "aniscoupons:35096",
@@ -5674,11 +5673,12 @@
     "ecksdeal:6173",
     "aniscoupons:35896",
     "zedstoreonline:40860",
-    "aniscoupons:35897"
+    "aniscoupons:35897",
+    "zedstoreonline:40861"
   ],
   "last_disclaimer_time": 1795735529.6558404,
   "last_calendar_time": 1795782506.7435975,
-  "last_run_time": 1795872411.0429587,
+  "last_run_time": 1795872593.5177972,
   "monitored_channels": {
     "ecksdeal": {
       "last_message_id": 6173,
@@ -5705,8 +5705,8 @@
       "last_check_time": 1793599663.3444748
     },
     "zedstoreonline": {
-      "last_message_id": 40860,
-      "last_check_time": 1795872039.7002568
+      "last_message_id": 40861,
+      "last_check_time": 1795872595.6362202
     },
     "aniscoupons": {
       "last_message_id": 35897,
@@ -6207,7 +6207,7 @@
     "1005009064526142": 123.9,
     "1005010009130696": 656.0,
     "1005013465751932": 527.0,
-    "1005011778223630": 106.0,
+    "1005011778223630": 98.3,
     "1005009231510301": 262.7,
     "1005011625723042": 7.59,
     "1005006280695304": 5.7,
@@ -37618,6 +37618,16 @@
       "price": 374.5,
       "timestamp": 1795872411.0429587,
       "status": "ACTIVE"
+    },
+    "zedstoreonline:40861": {
+      "channel_msg_id": 4087,
+      "product_id": "1005011778223630",
+      "title": "AMD Ryzen 5 7500F",
+      "channel": "zedstoreonline",
+      "source_msg_id": 40861,
+      "price": 98.3,
+      "timestamp": 1795872593.5177972,
+      "status": "ACTIVE"
     }
   },
   "schedule_config": {
@@ -37626,17 +37636,17 @@
     "current_interval_minutes": 5,
     "is_paused": false,
     "night_mode_enabled": true,
-    "last_deal_post_time": 1795872414.492041,
+    "last_deal_post_time": 1795872597.3900752,
     "night_start_hour_dz": 0,
     "night_end_hour_dz": 8,
     "night_pause_enabled": true,
-    "last_sweep_time": 1795872424.7919905,
+    "last_sweep_time": 1795872606.7197912,
     "last_sweep_times": {
-      "algeria": 1795872414.4343514,
-      "france": 1795872424.7919905
+      "algeria": 1795872597.3383715,
+      "france": 1795872606.7197912
     },
     "last_deal_post_times": {
-      "algeria": 1795872414.492041
+      "algeria": 1795872597.3900752
     }
   },
   "last_coin_reminder_time": 1795828812.983117,
@@ -43012,6 +43022,13 @@
         "channel": "aniscoupons",
         "ts": 1795872408.2516706,
         "price": 374.5
+      }
+    ],
+    "1005011778223630": [
+      {
+        "channel": "zedstoreonline",
+        "ts": 1795872590.8330967,
+        "price": 98.3
       }
     ]
   },
