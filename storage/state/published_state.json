@@ -1600,7 +1600,7 @@
     "1005012171521680": 1794246148.3838613,
     "1005010758512904": 1793613961.7877593,
     "1005012871436251": 1793707168.1519766,
-    "1005010385663278": 1793616557.8235445,
+    "1005010385663278": 1795867086.0074983,
     "1005009504965110": 1795265573.5780053,
     "1005008913425060": 1794936466.9727015,
     "1005013359761139": 1793649073.112849,
@@ -3335,7 +3335,8 @@
     "يد تحكم لاسلكية مع شاحن GameSir G7 PRO 8K Aimlabs Edition",
     "Lenovo Xiaoxin Pro 13  8/256",
     "سماعات الاذن  TANGZU WAN'ER S.G IEM",
-    "لاتنسى تحويل دولة التطبيق الى كندا"
+    "لاتنسى تحويل دولة التطبيق الى كندا",
+    "Soundcore by Anker Space One"
   ],
   "published_title_timestamps": {
     "Xiaomi Redmi Note 17 5G Global Version": 1790857823.0117362,
@@ -4666,10 +4667,10 @@
     "يد تحكم لاسلكية مع شاحن GameSir G7 PRO 8K Aimlabs Edition": 1795862509.0719414,
     "Lenovo Xiaoxin Pro 13  8/256": 1795863081.6204703,
     "سماعات الاذن  TANGZU WAN'ER S.G IEM": 1795863420.683032,
-    "لاتنسى تحويل دولة التطبيق الى كندا": 1795863974.7843153
+    "لاتنسى تحويل دولة التطبيق الى كندا": 1795863974.7843153,
+    "Soundcore by Anker Space One": 1795867086.0074983
   },
   "published_post_keys": [
-    "aniscoupons:35062",
     "aniscoupons:35064",
     "aniscoupons:35068",
     "aniscoupons:35069",
@@ -5668,11 +5669,12 @@
     "aniscoupons:35881",
     "aniscoupons:35882",
     "aniscoupons:35883",
-    "aniscoupons:35884"
+    "aniscoupons:35884",
+    "aniscoupons:35886"
   ],
   "last_disclaimer_time": 1795735529.6558404,
   "last_calendar_time": 1795782506.7435975,
-  "last_run_time": 1795866353.4462957,
+  "last_run_time": 1795867086.0074983,
   "monitored_channels": {
     "ecksdeal": {
       "last_message_id": 6168,
@@ -5699,12 +5701,12 @@
       "last_check_time": 1793599663.3444748
     },
     "zedstoreonline": {
-      "last_message_id": 40855,
-      "last_check_time": 1795863429.3074756
+      "last_message_id": 40856,
+      "last_check_time": 1795867082.1510978
     },
     "aniscoupons": {
-      "last_message_id": 35885,
-      "last_check_time": 1795866714.253397
+      "last_message_id": 35886,
+      "last_check_time": 1795867088.1123183
     },
     "bnddeals": {
       "last_message_id": 51451,
@@ -6211,7 +6213,7 @@
     "1005010706590867": 16.1,
     "1005012648097890": 430.0,
     "1005012871436251": 200.96,
-    "1005010385663278": 58.55,
+    "1005010385663278": 54.55,
     "1005009504965110": 99.5,
     "1005008913425060": 59.1,
     "1005013359761139": 75.6,
@@ -37472,6 +37474,16 @@
       "price": 13.64,
       "timestamp": 1795866353.4462957,
       "status": "ACTIVE"
+    },
+    "aniscoupons:35886": {
+      "channel_msg_id": 4073,
+      "product_id": "1005010385663278",
+      "title": "Soundcore by Anker Space One",
+      "channel": "aniscoupons",
+      "source_msg_id": 35886,
+      "price": 54.55,
+      "timestamp": 1795867086.0074983,
+      "status": "ACTIVE"
     }
   },
   "schedule_config": {
@@ -37480,17 +37492,17 @@
     "current_interval_minutes": 5,
     "is_paused": false,
     "night_mode_enabled": true,
-    "last_deal_post_time": 1795866356.3218644,
+    "last_deal_post_time": 1795867089.0961463,
     "night_start_hour_dz": 0,
     "night_end_hour_dz": 8,
     "night_pause_enabled": true,
-    "last_sweep_time": 1795866910.6134841,
+    "last_sweep_time": 1795867098.2212288,
     "last_sweep_times": {
-      "algeria": 1795866900.5228534,
-      "france": 1795866910.6134841
+      "algeria": 1795867089.0490685,
+      "france": 1795867098.2212288
     },
     "last_deal_post_times": {
-      "algeria": 1795866356.3218644
+      "algeria": 1795867089.0961463
     }
   },
   "last_coin_reminder_time": 1795828812.983117,
@@ -37806,7 +37818,7 @@
     "1005006678195057": "couponsglobal",
     "1005012150344482": "bnddeals",
     "1005012545304504": "lodydeals",
-    "1005010385663278": "lodydeals",
+    "1005010385663278": "aniscoupons",
     "1005012398164621": "megaphonna",
     "9998883879": "test_channel",
     "9998884227": "test_channel",
@@ -39832,7 +39844,8 @@
     "Attack Shark X5": "zedstoreonline",
     "Lenovo Xiaoxin Pro 13  8/256": "zedstoreonline",
     "سماعات الاذن  TANGZU WAN'ER S.G IEM": "ecksdeal",
-    "لاتنسى تحويل دولة التطبيق الى كندا": "ecksdeal"
+    "لاتنسى تحويل دولة التطبيق الى كندا": "ecksdeal",
+    "Soundcore by Anker Space One": "aniscoupons"
   },
   "religious_reminders_history": {
     "mock_rem": "2026-10-02",
@@ -40630,7 +40643,6 @@
   "published_deals_history": {},
   "settings": {},
   "handled_post_keys": [
-    "lodydeals:46580",
     "lodydeals:46582",
     "lodydeals:46583",
     "lodydeals:46584",
@@ -41629,7 +41641,8 @@
     "ecksdeal:6165",
     "ecksdeal:6167",
     "ecksdeal:6168",
-    "aniscoupons:35885"
+    "aniscoupons:35885",
+    "zedstoreonline:40856"
   ],
   "last_france_cross_promo_time": 1795757211.9224837,
   "next_france_cross_promo_interval_seconds": 197705,
@@ -42225,13 +42238,6 @@
         "price": 9.7
       }
     ],
-    "1005012406142215": [
-      {
-        "channel": "zedstoreonline",
-        "ts": 1795823672.3872025,
-        "price": 356.0
-      }
-    ],
     "1005012925301774": [
       {
         "channel": "zedstoreonline",
@@ -42742,6 +42748,18 @@
         "channel": "aniscoupons",
         "ts": 1795866350.7981572,
         "price": 13.64
+      },
+      {
+        "channel": "zedstoreonline",
+        "ts": 1795867081.9760256,
+        "price": 11.7
+      }
+    ],
+    "1005010385663278": [
+      {
+        "channel": "aniscoupons",
+        "ts": 1795867083.8402417,
+        "price": 54.55
       }
     ]
   },
