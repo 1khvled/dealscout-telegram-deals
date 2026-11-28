@@ -1796,7 +1796,7 @@
     "1005011887425776": 1794733838.2777092,
     "1005012547730772": 1795017869.777643,
     "1005012840419521": 1794591008.1982286,
-    "1005010218815499": 1795810993.7904139,
+    "1005010218815499": 1795865805.108902,
     "1005011897409757": 1794593403.339319,
     "1005013203288194": 1795725757.071366,
     "1005010305059795": 1795805824.6749244,
@@ -4381,7 +4381,7 @@
     "Kodak K133 USB 3.1 Flash Drive 256GB": 1794614891.9797184,
     "SOYO AMD B550M Gaming": 1795271082.5291889,
     "Delux M400 PAW3311 24000DPI 1Khz 500mAh Wireless": 1794649518.026784,
-    "Delux M800mini Wireless Gaming Mouse": 1794845442.6108298,
+    "Delux M800mini Wireless Gaming Mouse": 1795865805.108902,
     "ASROCK X570M PRO4 Motherboard": 1794660431.126332,
     "Ulanzi A100 Wireless Lavalier Mic": 1794664656.5838907,
     "سماعات لاسلكية Binnune BW06 Wireless": 1794666000.5453608,
@@ -4669,7 +4669,6 @@
     "لاتنسى تحويل دولة التطبيق الى كندا": 1795863974.7843153
   },
   "published_post_keys": [
-    "aniscoupons:35059",
     "aniscoupons:35060",
     "aniscoupons:35061",
     "aniscoupons:35062",
@@ -5668,11 +5667,12 @@
     "aniscoupons:35878",
     "aniscoupons:35879",
     "aniscoupons:35880",
-    "aniscoupons:35881"
+    "aniscoupons:35881",
+    "aniscoupons:35882"
   ],
   "last_disclaimer_time": 1795735529.6558404,
   "last_calendar_time": 1795782506.7435975,
-  "last_run_time": 1795865610.8522449,
+  "last_run_time": 1795865805.108902,
   "monitored_channels": {
     "ecksdeal": {
       "last_message_id": 6168,
@@ -5703,8 +5703,8 @@
       "last_check_time": 1795863429.3074756
     },
     "aniscoupons": {
-      "last_message_id": 35881,
-      "last_check_time": 1795865612.9298286
+      "last_message_id": 35882,
+      "last_check_time": 1795865807.2118316
     },
     "bnddeals": {
       "last_message_id": 51451,
@@ -6390,7 +6390,7 @@
     "1005011887425776": 20.48,
     "1005012547730772": 273.5,
     "1005012840419521": 31.63,
-    "1005010218815499": 12.92,
+    "1005010218815499": 12.94,
     "1005011897409757": 7.07,
     "1005013203288194": 346.22,
     "1005010305059795": 27.59,
@@ -37442,6 +37442,16 @@
       "price": 19.0,
       "timestamp": 1795865610.8522449,
       "status": "ACTIVE"
+    },
+    "aniscoupons:35882": {
+      "channel_msg_id": 4070,
+      "product_id": "1005010218815499",
+      "title": "Delux M800mini Wireless Gaming Mouse",
+      "channel": "aniscoupons",
+      "source_msg_id": 35882,
+      "price": 12.94,
+      "timestamp": 1795865805.108902,
+      "status": "ACTIVE"
     }
   },
   "schedule_config": {
@@ -37450,17 +37460,17 @@
     "current_interval_minutes": 5,
     "is_paused": false,
     "night_mode_enabled": true,
-    "last_deal_post_time": 1795865613.7888012,
+    "last_deal_post_time": 1795865808.378366,
     "night_start_hour_dz": 0,
     "night_end_hour_dz": 8,
     "night_pause_enabled": true,
-    "last_sweep_time": 1795865621.389075,
+    "last_sweep_time": 1795865819.0827992,
     "last_sweep_times": {
-      "algeria": 1795865613.7536812,
-      "france": 1795865621.389075
+      "algeria": 1795865808.3326774,
+      "france": 1795865819.0827992
     },
     "last_deal_post_times": {
-      "algeria": 1795865613.7888012
+      "algeria": 1795865808.378366
     }
   },
   "last_coin_reminder_time": 1795828812.983117,
@@ -38260,7 +38270,7 @@
     "1005011887425776": "aniscoupons",
     "1005012547730772": "aniscoupons",
     "1005012840419521": "ecksdeal",
-    "1005010218815499": "ecksdeal",
+    "1005010218815499": "aniscoupons",
     "1005011897409757": "lodydeals",
     "1005013203288194": "lodydeals",
     "1005010305059795": "aniscoupons",
@@ -42686,6 +42696,13 @@
         "channel": "aniscoupons",
         "ts": 1795865608.5158384,
         "price": 19.0
+      }
+    ],
+    "1005010218815499": [
+      {
+        "channel": "aniscoupons",
+        "ts": 1795865802.4955387,
+        "price": 12.94
       }
     ]
   },
