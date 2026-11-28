@@ -1441,7 +1441,7 @@
     "1005010033441204": 1795863128.051537,
     "1005008356663932": 1793707052.9762022,
     "1005010074161953": 1793543659.5887568,
-    "1005010498953493": 1795631548.7472386,
+    "1005010498953493": 1795864883.7060971,
     "1005010535660141": 1795022632.7994065,
     "1005010472570391": 1793571013.3288968,
     "1005012864293264": 1793570287.0210865,
@@ -3829,7 +3829,7 @@
     "OPPO A7 Pro Max CN": 1795862633.9242306,
     "Poco Pad X1 512GB": 1794990167.2493267,
     "Redmi Pad 2 9.7\"": 1793448729.1572442,
-    "Anker 100W Max USB C Charger 3-Port": 1794948087.9126022,
+    "Anker 100W Max USB C Charger 3-Port": 1795864883.7060971,
     "Anker Laptop Charger, 140W Max 4-Port GaN": 1793448745.105644,
     "Anker Nano Charger, Ultra-Fast 70W Output 3-Port": 1793448757.527367,
     "Anker Space A40 Adaptive": 1793448762.165183,
@@ -4669,7 +4669,6 @@
     "لاتنسى تحويل دولة التطبيق الى كندا": 1795863974.7843153
   },
   "published_post_keys": [
-    "aniscoupons:35055",
     "aniscoupons:35056",
     "aniscoupons:35057",
     "aniscoupons:35059",
@@ -5668,19 +5667,20 @@
     "aniscoupons:35876",
     "ecksdeal:6166",
     "aniscoupons:35877",
-    "aniscoupons:35878"
+    "aniscoupons:35878",
+    "aniscoupons:35879"
   ],
   "last_disclaimer_time": 1795735529.6558404,
   "last_calendar_time": 1795782506.7435975,
-  "last_run_time": 1795864699.9261065,
+  "last_run_time": 1795864883.7060971,
   "monitored_channels": {
     "ecksdeal": {
       "last_message_id": 6168,
       "last_check_time": 1795864695.4561608
     },
     "lodydeals": {
-      "last_message_id": 47015,
-      "last_check_time": 1795864331.6406753
+      "last_message_id": 47016,
+      "last_check_time": 1795864877.2403896
     },
     "test_channel": {
       "last_message_id": 1793967703,
@@ -5703,8 +5703,8 @@
       "last_check_time": 1795863429.3074756
     },
     "aniscoupons": {
-      "last_message_id": 35878,
-      "last_check_time": 1795864702.0085359
+      "last_message_id": 35879,
+      "last_check_time": 1795864885.820913
     },
     "bnddeals": {
       "last_message_id": 51451,
@@ -6068,7 +6068,7 @@
     "1005010033441204": 14.6,
     "1005008356663932": 355.5,
     "1005010074161953": 130.08,
-    "1005010498953493": 51.11,
+    "1005010498953493": 51.15,
     "1005010535660141": 20.89,
     "1005010472570391": 25.77,
     "1005012864293264": 28.96,
@@ -37412,6 +37412,16 @@
       "price": 33.64,
       "timestamp": 1795864699.9261065,
       "status": "ACTIVE"
+    },
+    "aniscoupons:35879": {
+      "channel_msg_id": 4067,
+      "product_id": "1005010498953493",
+      "title": "Anker 100W Max USB C Charger 3-Port",
+      "channel": "aniscoupons",
+      "source_msg_id": 35879,
+      "price": 51.15,
+      "timestamp": 1795864883.7060971,
+      "status": "ACTIVE"
     }
   },
   "schedule_config": {
@@ -37420,17 +37430,17 @@
     "current_interval_minutes": 5,
     "is_paused": false,
     "night_mode_enabled": true,
-    "last_deal_post_time": 1795864702.7804537,
+    "last_deal_post_time": 1795864886.7663531,
     "night_start_hour_dz": 0,
     "night_end_hour_dz": 8,
     "night_pause_enabled": true,
-    "last_sweep_time": 1795864711.4232728,
+    "last_sweep_time": 1795864895.1885495,
     "last_sweep_times": {
-      "algeria": 1795864702.744749,
-      "france": 1795864711.4232728
+      "algeria": 1795864886.7153516,
+      "france": 1795864895.1885495
     },
     "last_deal_post_times": {
-      "algeria": 1795864702.7804537
+      "algeria": 1795864886.7663531
     }
   },
   "last_coin_reminder_time": 1795828812.983117,
@@ -37889,7 +37899,7 @@
     "1005010033441204": "aniscoupons",
     "1005008356663932": "lodydeals",
     "1005010074161953": "lodydeals",
-    "1005010498953493": "lodydeals",
+    "1005010498953493": "aniscoupons",
     "1005010535660141": "lodydeals",
     "1005010472570391": "lodydeals",
     "1005012864293264": "lodydeals",
@@ -42642,6 +42652,13 @@
         "channel": "aniscoupons",
         "ts": 1795864697.6813478,
         "price": 33.64
+      }
+    ],
+    "1005010498953493": [
+      {
+        "channel": "aniscoupons",
+        "ts": 1795864881.3646357,
+        "price": 51.15
       }
     ]
   },
