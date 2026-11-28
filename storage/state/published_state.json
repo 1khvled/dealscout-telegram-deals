@@ -1485,7 +1485,7 @@
     "9998881955": 1793541955.4874578,
     "9998882236": 1793542236.891774,
     "1005012401488201": 1793542360.268408,
-    "1005012135177627": 1795080686.538359,
+    "1005012135177627": 1795865251.506595,
     "1005013455514231": 1793542445.2859337,
     "1005009578274758": 1793542479.8362749,
     "1005010413332383": 1795864349.3519306,
@@ -4370,7 +4370,7 @@
     "ماوس لاسلكي Delux M800 Mini Series": 1795810993.7904139,
     "Lexar V400 USB3.0 64GB": 1794593403.339319,
     "HAYLOU S40 ANC Wireless": 1795616138.7414243,
-    "CUSU Memory DDR5 (16GB) 6000MHz": 1795080686.538359,
+    "CUSU Memory DDR5 (16GB) 6000MHz": 1795865251.506595,
     "Realme 15 Pro (12/512GB)": 1794998227.2322433,
     "MAONO T1 Plus Dual-Capsule Wireless Lavalier Microphone Lapel Microphone": 1794599278.9506347,
     "Blackview OSCAL PILOT 5  8/256": 1794604060.7762444,
@@ -4669,7 +4669,6 @@
     "لاتنسى تحويل دولة التطبيق الى كندا": 1795863974.7843153
   },
   "published_post_keys": [
-    "aniscoupons:35056",
     "aniscoupons:35057",
     "aniscoupons:35059",
     "aniscoupons:35060",
@@ -5668,11 +5667,12 @@
     "ecksdeal:6166",
     "aniscoupons:35877",
     "aniscoupons:35878",
-    "aniscoupons:35879"
+    "aniscoupons:35879",
+    "aniscoupons:35880"
   ],
   "last_disclaimer_time": 1795735529.6558404,
   "last_calendar_time": 1795782506.7435975,
-  "last_run_time": 1795864883.7060971,
+  "last_run_time": 1795865251.506595,
   "monitored_channels": {
     "ecksdeal": {
       "last_message_id": 6168,
@@ -5703,8 +5703,8 @@
       "last_check_time": 1795863429.3074756
     },
     "aniscoupons": {
-      "last_message_id": 35879,
-      "last_check_time": 1795864885.820913
+      "last_message_id": 35880,
+      "last_check_time": 1795865253.6347675
     },
     "bnddeals": {
       "last_message_id": 51451,
@@ -37422,6 +37422,16 @@
       "price": 51.15,
       "timestamp": 1795864883.7060971,
       "status": "ACTIVE"
+    },
+    "aniscoupons:35880": {
+      "channel_msg_id": 4068,
+      "product_id": "1005012135177627",
+      "title": "CUSU Memory DDR5 (16GB) 6000MHz",
+      "channel": "aniscoupons",
+      "source_msg_id": 35880,
+      "price": 177.9,
+      "timestamp": 1795865251.506595,
+      "status": "ACTIVE"
     }
   },
   "schedule_config": {
@@ -37430,17 +37440,17 @@
     "current_interval_minutes": 5,
     "is_paused": false,
     "night_mode_enabled": true,
-    "last_deal_post_time": 1795864886.7663531,
+    "last_deal_post_time": 1795865254.8149867,
     "night_start_hour_dz": 0,
     "night_end_hour_dz": 8,
     "night_pause_enabled": true,
-    "last_sweep_time": 1795865072.1632128,
+    "last_sweep_time": 1795865263.7855291,
     "last_sweep_times": {
-      "algeria": 1795865061.8903449,
-      "france": 1795865072.1632128
+      "algeria": 1795865254.7590947,
+      "france": 1795865263.7855291
     },
     "last_deal_post_times": {
-      "algeria": 1795864886.7663531
+      "algeria": 1795865254.8149867
     }
   },
   "last_coin_reminder_time": 1795828812.983117,
@@ -42182,13 +42192,6 @@
         "price": 356.0
       }
     ],
-    "1005010572861466": [
-      {
-        "channel": "aniscoupons",
-        "ts": 1795821838.8188987,
-        "price": 19.9
-      }
-    ],
     "1005012925301774": [
       {
         "channel": "zedstoreonline",
@@ -42659,6 +42662,13 @@
         "channel": "aniscoupons",
         "ts": 1795864881.3646357,
         "price": 51.15
+      }
+    ],
+    "1005012135177627": [
+      {
+        "channel": "aniscoupons",
+        "ts": 1795865249.1298082,
+        "price": 177.9
       }
     ]
   },
