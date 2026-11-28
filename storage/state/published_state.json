@@ -1866,7 +1866,7 @@
     "1005013270397194": 1795521901.9867668,
     "1005013611971758": 1795097142.4984226,
     "1005013614035166": 1795097149.7422955,
-    "1005012047232780": 1795521950.475793,
+    "1005012047232780": 1795863602.0019739,
     "1005013474374644": 1795098824.3191414,
     "1005013304766961": 1795521933.931988,
     "1005013268493740": 1795101781.0547688,
@@ -1908,8 +1908,8 @@
     "1005009649241196": 1795290145.0386395,
     "1005007097015654": 1795290732.7583535,
     "1005007805749110": 1795290738.086464,
-    "1005009319376059": 1795725749.4645073,
-    "1005011974295002": 1795521942.374168,
+    "1005009319376059": 1795863618.2339473,
+    "1005011974295002": 1795863609.9368694,
     "1005010063967666": 1795863122.882956,
     "1005009873824892": 1795346646.0617936,
     "1005008248024782": 1795353977.3759387,
@@ -4477,8 +4477,8 @@
     "VIVO X500 PRO MAX": 1795096787.4537058,
     "iPhone 15 Pro Max 256GB": 1795097142.4984226,
     "iPhone 16 Pro  256GB": 1795097149.7422955,
-    "Oppo Find X9 Ultra": 1795377867.284167,
-    "VIVO X300 Ultra": 1795098824.3191414,
+    "Oppo Find X9 Ultra": 1795863602.0019739,
+    "VIVO X300 Ultra": 1795863609.9368694,
     "HONOR MAGIC 9 Pro Max": 1795182132.0040085,
     "Oppo Find X10 Pro max": 1795101781.0547688,
     "Honor Magic 8 Pro Air": 1795102336.0045958,
@@ -4527,7 +4527,7 @@
     "Electric Lint Remover": 1795290732.7583535,
     "500mL Water Bottle": 1795290738.086464,
     "WALRAM 2.5  sata 480GB": 1795294136.0974371,
-    "WALRAM  M.2 NVMe SSD 512GB": 1795601195.4363291,
+    "WALRAM  M.2 NVMe SSD 512GB": 1795863618.2339473,
     "VIVO X300 Ultra 12/256": 1795521942.374168,
     "Lenovo Legion Y900 11 Tablet CN Version": 1795337128.5106091,
     "WALRAM 2.5  sata 480GB": 1795381363.7169378,
@@ -4667,9 +4667,6 @@
     "سماعات الاذن  TANGZU WAN'ER S.G IEM": 1795863420.683032
   },
   "published_post_keys": [
-    "zedstoreonline:40291",
-    "zedstoreonline:40294",
-    "zedstoreonline:40298",
     "zedstoreonline:40299",
     "zedstoreonline:40301",
     "aniscoupons:35049",
@@ -5666,15 +5663,18 @@
     "aniscoupons:35869",
     "aniscoupons:35870",
     "aniscoupons:35871",
-    "aniscoupons:35874"
+    "aniscoupons:35874",
+    "aniscoupons:35865",
+    "aniscoupons:35866",
+    "aniscoupons:35873"
   ],
   "last_disclaimer_time": 1795735529.6558404,
   "last_calendar_time": 1795782506.7435975,
-  "last_run_time": 1795863465.6979449,
+  "last_run_time": 1795863618.2339473,
   "monitored_channels": {
     "ecksdeal": {
-      "last_message_id": 6160,
-      "last_check_time": 1795863422.7744818
+      "last_message_id": 6161,
+      "last_check_time": 1795863594.5244558
     },
     "lodydeals": {
       "last_message_id": 47013,
@@ -5702,7 +5702,7 @@
     },
     "aniscoupons": {
       "last_message_id": 35874,
-      "last_check_time": 1795863467.7909417
+      "last_check_time": 1795863618.2339473
     },
     "bnddeals": {
       "last_message_id": 51451,
@@ -6456,7 +6456,7 @@
     "1005013270397194": 920.0,
     "1005013611971758": 871.08,
     "1005013614035166": 973.93,
-    "1005012047232780": 885.7,
+    "1005012047232780": 885.78,
     "1005013474374644": 925.3,
     "1005013304766961": 897.0,
     "1005013268493740": 893.9,
@@ -6495,8 +6495,8 @@
     "1005009649241196": 3.29,
     "1005007097015654": 5.69,
     "1005007805749110": 4.09,
-    "1005009319376059": 45.0,
-    "1005011974295002": 876.6,
+    "1005009319376059": 50.7,
+    "1005011974295002": 877.6,
     "1005010063967666": 111.9,
     "1005009873824892": 211.5,
     "1005008248024782": 13.47,
@@ -37320,6 +37320,36 @@
       "price": 11.5,
       "timestamp": 1795863465.6979449,
       "status": "ACTIVE"
+    },
+    "aniscoupons:35865": {
+      "channel_msg_id": 4058,
+      "product_id": "1005012047232780",
+      "title": "Oppo Find X9 Ultra",
+      "channel": "aniscoupons",
+      "source_msg_id": 35865,
+      "price": 885.78,
+      "timestamp": 1795863602.0019739,
+      "status": "ACTIVE"
+    },
+    "aniscoupons:35866": {
+      "channel_msg_id": 4059,
+      "product_id": "1005011974295002",
+      "title": "VIVO X300 Ultra",
+      "channel": "aniscoupons",
+      "source_msg_id": 35866,
+      "price": 877.6,
+      "timestamp": 1795863609.9368694,
+      "status": "ACTIVE"
+    },
+    "aniscoupons:35873": {
+      "channel_msg_id": 4060,
+      "product_id": "1005009319376059",
+      "title": "WALRAM  M.2 NVMe SSD 512GB",
+      "channel": "aniscoupons",
+      "source_msg_id": 35873,
+      "price": 50.7,
+      "timestamp": 1795863618.2339473,
+      "status": "ACTIVE"
     }
   },
   "schedule_config": {
@@ -37328,17 +37358,17 @@
     "current_interval_minutes": 5,
     "is_paused": false,
     "night_mode_enabled": true,
-    "last_deal_post_time": 1795863468.9446158,
+    "last_deal_post_time": 1795863621.331208,
     "night_start_hour_dz": 0,
     "night_end_hour_dz": 8,
     "night_pause_enabled": true,
-    "last_sweep_time": 1795863484.5426314,
+    "last_sweep_time": 1795863640.7187417,
     "last_sweep_times": {
-      "algeria": 1795863468.902566,
-      "france": 1795863484.5426314
+      "algeria": 1795863621.2885427,
+      "france": 1795863640.7187417
     },
     "last_deal_post_times": {
-      "algeria": 1795863468.9446158
+      "algeria": 1795863621.331208
     }
   },
   "last_coin_reminder_time": 1795828812.983117,
@@ -38207,7 +38237,7 @@
     "1005013270397194": "zedstoreonline",
     "1005013611971758": "lodydeals",
     "1005013614035166": "lodydeals",
-    "1005012047232780": "zedstoreonline",
+    "1005012047232780": "aniscoupons",
     "1005013474374644": "aniscoupons",
     "1005013304766961": "zedstoreonline",
     "1005013268493740": "aniscoupons",
@@ -38247,8 +38277,8 @@
     "1005009649241196": "lodydeals",
     "1005007097015654": "lodydeals",
     "1005007805749110": "lodydeals",
-    "1005009319376059": "lodydeals",
-    "1005011974295002": "zedstoreonline",
+    "1005009319376059": "aniscoupons",
+    "1005011974295002": "aniscoupons",
     "1005010063967666": "aniscoupons",
     "1005009873824892": "bnddeals",
     "1005008248024782": "ecksdeal",
@@ -40477,7 +40507,6 @@
   "published_deals_history": {},
   "settings": {},
   "handled_post_keys": [
-    "zedstoreonline:40276",
     "lodydeals:46572",
     "lodydeals:46575",
     "lodydeals:46576",
@@ -41476,7 +41505,8 @@
     "aniscoupons:35861",
     "aniscoupons:35867",
     "aniscoupons:35868",
-    "aniscoupons:35872"
+    "aniscoupons:35872",
+    "ecksdeal:6161"
   ],
   "last_france_cross_promo_time": 1795757211.9224837,
   "next_france_cross_promo_interval_seconds": 197705,
@@ -42481,6 +42511,27 @@
         "channel": "aniscoupons",
         "ts": 1795863462.8511128,
         "price": 11.5
+      }
+    ],
+    "1005012047232780": [
+      {
+        "channel": "aniscoupons",
+        "ts": 1795863599.535125,
+        "price": 885.78
+      }
+    ],
+    "1005011974295002": [
+      {
+        "channel": "aniscoupons",
+        "ts": 1795863607.5053155,
+        "price": 877.6
+      }
+    ],
+    "1005009319376059": [
+      {
+        "channel": "aniscoupons",
+        "ts": 1795863615.8349912,
+        "price": 50.7
       }
     ]
   },
