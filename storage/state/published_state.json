@@ -1402,11 +1402,11 @@
     "1005007375332966": 1793467173.1692383,
     "1005012543970886": 1793467209.762414,
     "1005013222073946": 1794492985.70064,
-    "1005010485068924": 1795687655.9011335,
+    "1005010485068924": 1795863236.566932,
     "1005013245248248": 1793467100.7719579,
     "1005011790544318": 1793448745.105644,
     "1005010266614743": 1793380310.000534,
-    "1005006990064696": 1795372537.0212965,
+    "1005006990064696": 1795863243.5164561,
     "1005013254642366": 1793995361.9589899,
     "1005012725188908": 1793467076.3852122,
     "1005013224329670": 1793380335.1434295,
@@ -1492,7 +1492,7 @@
     "1005011550075220": 1794847073.6855137,
     "1005009806856302": 1794779736.0691626,
     "1005009980316035": 1793542552.2730343,
-    "1005005905462505": 1795601143.9181204,
+    "1005005905462505": 1795863266.3727748,
     "1005008248133489": 1794475825.54016,
     "1005008684239370": 1795809702.6702113,
     "1005011583202464": 1795810080.2769432,
@@ -1682,7 +1682,7 @@
     "1005007038130594": 1795291550.8320675,
     "1005008248187128": 1794057675.8729835,
     "1005013053381984": 1795184587.079662,
-    "1005008060391372": 1795521330.5345721,
+    "1005008060391372": 1795863272.6153924,
     "1005010209911111": 1794068056.674266,
     "1005008295555234": 1794073127.8664527,
     "1005008645323478": 1795863069.6718287,
@@ -1749,7 +1749,7 @@
     "1005010179192246": 1794486542.3386803,
     "1005010457635845": 1794393509.614562,
     "1005012921754472": 1794485983.772945,
-    "1005013399086495": 1795521997.8103201,
+    "1005013399086495": 1795863286.9074082,
     "1005006257950849": 1794420680.672656,
     "1005013391950901": 1794420685.287832,
     "1005007477084001": 1794420689.8352551,
@@ -1900,7 +1900,7 @@
     "COUPONS_67c5d85c": 1795768421.328644,
     "COUPONS_Black Friday & Cyber Monday": 1795768421.328644,
     "1005013612885095": 1795282393.4390564,
-    "1005009120961416": 1795687712.9032266,
+    "1005009120961416": 1795863260.1610794,
     "1005006460821282": 1795808969.6852784,
     "1005007038424043": 1795283249.1787498,
     "1005010439285778": 1795290129.2736075,
@@ -1918,7 +1918,7 @@
     "1005007893508418": 1795381174.309368,
     "1005004433755802": 1795382836.9089916,
     "1005013572353302": 1795862607.36914,
-    "1005012172081619": 1795813948.5309904,
+    "1005012172081619": 1795863252.839756,
     "1005007869625249": 1795794071.5091987,
     "1005013572273568": 1795633212.2650673,
     "COUPONBULLETIN_lodydeals_46823": 1795474088.8029113,
@@ -1929,7 +1929,7 @@
     "1005012987957842": 1795801463.054808,
     "1005012172859239": 1795818169.6174827,
     "1005006648408257": 1795521718.768218,
-    "1005005543641427": 1795601124.2950418,
+    "1005005543641427": 1795863278.4639022,
     "COUPONBULLETIN_zedstoreonline_40618": 1795521740.997882,
     "1005013266074956": 1795521910.0091946,
     "1005013281520484": 1795521926.0889337,
@@ -3762,7 +3762,7 @@
     "TicWatch Pro 5 Wear OS Smartwatch – 100+ Sports Modes, NFC & 5ATM Waterproof (Refurbished)": 1793380279.4675684,
     "Black Shark Neo2 Smartwatch – 2.01\" HD Display, Bluetooth Calling & IP68": 1793380284.94034,
     "HONOR CHOICE Watch 2i – 1.85\" AMOLED Smartwatch with Bluetooth Calling": 1793613395.2932215,
-    "Soundcore P30i by Anker Noise Cancelling": 1795687655.9011335,
+    "Soundcore P30i by Anker Noise Cancelling": 1795863236.566932,
     "HONOR Watch X5i – 1.97\" AMOLED Smartwatch, Bluetooth Calling 21-Day Battery": 1793467100.7719579,
     "Anker 140W Max GaN Charger – 4-Port USB-C with Smart Display": 1793380304.2066164,
     "Anker Prime 200W GaN Charging Station – 6-Port USB-C Desktop Charger": 1793380310.000534,
@@ -3772,7 +3772,7 @@
     "Anker 45W Smart Display USB-C Fast Charger – PD Quick Charge": 1793380335.1434295,
     "IQOO 15T": 1793380343.534803,
     "Soundcore by Anker Life Q30": 1793380356.1638675,
-    "FIFINE AM8 USB/XLR Dynamic Microphone": 1795601143.9181204,
+    "FIFINE AM8 USB/XLR Dynamic Microphone": 1795863266.3727748,
     "MAONO DGM20 USB Gaming Microphone": 1794577027.4515839,
     "MAONO PD100W USB Wireless Dynamic Microphone Cardioid Mic 50m Range": 1793380404.996831,
     "CUSU RAM DDR4 RGB 8x2 3200Mhz": 1793380414.784201,
@@ -4147,7 +4147,7 @@
     "Redmi Note 17 Pro Max": 1793966798.7696738,
     "CUSU SSD 512GB 1TB 2.5 Inch SATA SATA3 2TB 4TB Hard Drive SSD 240GB 256GB": 1795337450.3762672,
     "Fifine Gaming Headset H9W": 1795003471.3645086,
-    "Fifine Gaming Headset H6": 1795003476.8317716,
+    "Fifine Gaming Headset H6": 1795863272.6153924,
     "HyperX Cloud 3 III Wired Gaming Headset": 1794998780.0409262,
     "KOOTION SSD SATA": 1795259822.787355,
     "ال mouse  الشهيرة رجعت🖱️": 1793966875.5755405,
@@ -4303,7 +4303,7 @@
     "Realme P4 Power 8/256GB": 1795790225.3636506,
     "ASROCK X570M PRO4 MOTHERBOARD": 1794562340.4789197,
     "EASYSMX X05 PRO Controller": 1795799582.844073,
-    "ONEPLUS 16 12/256GB": 1795521997.8103201,
+    "ONEPLUS 16 12/256GB": 1795863286.9074082,
     "Fifine H9 USB Gaming Headset": 1795601351.5019817,
     "Honor 600 5G Global 8/256GB": 1794993460.3042686,
     "Baseus GoTrip VA1 Wireless Air Pump": 1794420675.7412696,
@@ -4433,7 +4433,7 @@
     "Netac NVMe 3500MB/S 500GB": 1794771008.638466,
     "SMAILWOLF L80": 1794998044.6375778,
     "GIGABYTE B550M K Motherboard": 1795008458.7584739,
-    "UGREEN GaN 100W": 1795372537.0212965,
+    "UGREEN GaN 100W": 1795863243.5164561,
     "realme P4 Power 8/256GB": 1795862553.1112862,
     "HONGTOP H20PRO TV Box 2/16GB": 1794845239.5606787,
     "Xiaomi Redmi Note 17 5G Global Version 6/256GB": 1794914021.5924346,
@@ -4517,7 +4517,7 @@
     "GIGABYTE B550M K AM4 Motherboard": 1795265573.5780053,
     "KingSpec DDR4 16GB 3200Mhz": 1795546166.1725361,
     "ماوس لاسلكي Aula Kunlun L5 Magnetic": 1795282393.4390564,
-    "ASROCK B850M STEEL LEGEND": 1795687712.9032266,
+    "ASROCK B850M STEEL LEGEND": 1795863260.1610794,
     "لوووووووووووووووووووز": 1795282419.1354063,
     "Men's Watch Business": 1795290129.2736075,
     "LAXASFIT Men Watch": 1795290139.8130522,
@@ -4548,7 +4548,7 @@
     "WALRAM 2.5  sata 512GB": 1795863101.088403,
     "Zeblaze Btalk 4 Pro": 1795446097.3435004,
     "HONOR Earbuds X10 Play": 1795862607.36914,
-    "OPPO Enco Buds3 Pro True Wireless Earbuds": 1795813948.5309904,
+    "OPPO Enco Buds3 Pro True Wireless Earbuds": 1795863252.839756,
     "Zeblaze Btalk 4 Pro Voice Calling Amoled": 1795463758.3094215,
     "CUSU RAM DDR4 3200MHz 16GB": 1795794071.5091987,
     "BOYA Mini 2 Wireless Lavalier Microphone": 1795466729.299068,
@@ -4565,7 +4565,7 @@
     "POCO Pad X1 8/512": 1795521251.4780498,
     "Fifine H6 Dynamic RGB Gaming": 1795521330.5345721,
     "ميكسر صوت احترافي FIFINE AmpliGame SC3W مع 4 قنوات ومدخل XLR": 1795521718.768218,
-    "FIFINE H3 Gaming Headset": 1795601124.2950418,
+    "FIFINE H3 Gaming Headset": 1795863278.4639022,
     "🔥": 1795785843.9353843,
     "vivo x500 pro max 12/256": 1795521901.9867668,
     "HUAWEI Pura 90s Pro 12/256": 1795521917.9575388,
@@ -4665,14 +4665,6 @@
     "Lenovo Xiaoxin Pro 13  8/256": 1795863081.6204703
   },
   "published_post_keys": [
-    "aniscoupons:35034",
-    "aniscoupons:35035",
-    "aniscoupons:35039",
-    "aniscoupons:35040",
-    "aniscoupons:35041",
-    "aniscoupons:35044",
-    "aniscoupons:35048",
-    "lodydeals:46596",
     "lodydeals:46597",
     "lodydeals:46598",
     "ecksdeal:6069",
@@ -5664,19 +5656,27 @@
     "aniscoupons:35847",
     "aniscoupons:35853",
     "aniscoupons:35854",
-    "bnddeals:51451"
+    "bnddeals:51451",
+    "zedstoreonline:40854",
+    "aniscoupons:35855",
+    "aniscoupons:35857",
+    "aniscoupons:35859",
+    "aniscoupons:35860",
+    "aniscoupons:35862",
+    "aniscoupons:35863",
+    "aniscoupons:35864"
   ],
   "last_disclaimer_time": 1795735529.6558404,
   "last_calendar_time": 1795782506.7435975,
-  "last_run_time": 1795863133.9824452,
+  "last_run_time": 1795863286.9074082,
   "monitored_channels": {
     "ecksdeal": {
       "last_message_id": 6159,
       "last_check_time": 1795863047.6490793
     },
     "lodydeals": {
-      "last_message_id": 47010,
-      "last_check_time": 1795863041.5243397
+      "last_message_id": 47013,
+      "last_check_time": 1795863231.3270214
     },
     "test_channel": {
       "last_message_id": 1793967703,
@@ -5695,12 +5695,12 @@
       "last_check_time": 1793599663.3444748
     },
     "zedstoreonline": {
-      "last_message_id": 40853,
-      "last_check_time": 1795863092.9483445
+      "last_message_id": 40854,
+      "last_check_time": 1795863238.702792
     },
     "aniscoupons": {
-      "last_message_id": 35854,
-      "last_check_time": 1795863130.1211762
+      "last_message_id": 35864,
+      "last_check_time": 1795863289.0224428
     },
     "bnddeals": {
       "last_message_id": 51451,
@@ -6109,7 +6109,7 @@
     "1005011550075220": 124.53,
     "1005009806856302": 16.6,
     "1005009980316035": 25.85,
-    "1005005905462505": 49.4,
+    "1005005905462505": 48.4,
     "1005008248133489": 15.61,
     "1005008684239370": 7.47,
     "1005011583202464": 57.09,
@@ -6259,7 +6259,7 @@
     "1005008636930795": 31.5,
     "1005013083645836": 304.4,
     "1005008703989845": 41.8,
-    "1005008060391372": 27.7,
+    "1005008060391372": 30.9,
     "1005012593794312": 241.5,
     "1005008357913212": 34.8,
     "1005012254132930": 12.4,
@@ -6513,7 +6513,7 @@
     "1005012987957842": 279.22,
     "1005012172859239": 20.2,
     "1005006648408257": 39.8,
-    "1005005543641427": 25.8,
+    "1005005543641427": 29.0,
     "1005013266074956": 888.0,
     "1005013281520484": 694.3,
     "1005007035077896": 8.4,
@@ -37178,6 +37178,86 @@
       "price": 115.6,
       "timestamp": 1795863133.9824452,
       "status": "ACTIVE"
+    },
+    "zedstoreonline:40854": {
+      "channel_msg_id": 4044,
+      "product_id": "1005010485068924",
+      "title": "Soundcore P30i by Anker Noise Cancelling",
+      "channel": "zedstoreonline",
+      "source_msg_id": 40854,
+      "price": 21.4,
+      "timestamp": 1795863236.566932,
+      "status": "ACTIVE"
+    },
+    "aniscoupons:35855": {
+      "channel_msg_id": 4045,
+      "product_id": "1005006990064696",
+      "title": "UGREEN GaN 100W",
+      "channel": "aniscoupons",
+      "source_msg_id": 35855,
+      "price": 42.1,
+      "timestamp": 1795863243.5164561,
+      "status": "ACTIVE"
+    },
+    "aniscoupons:35857": {
+      "channel_msg_id": 4046,
+      "product_id": "1005012172081619",
+      "title": "OPPO Enco Buds3 Pro True Wireless Earbuds",
+      "channel": "aniscoupons",
+      "source_msg_id": 35857,
+      "price": 22.49,
+      "timestamp": 1795863252.839756,
+      "status": "ACTIVE"
+    },
+    "aniscoupons:35859": {
+      "channel_msg_id": 4047,
+      "product_id": "1005009120961416",
+      "title": "ASROCK B850M STEEL LEGEND",
+      "channel": "aniscoupons",
+      "source_msg_id": 35859,
+      "price": 212.0,
+      "timestamp": 1795863260.1610794,
+      "status": "ACTIVE"
+    },
+    "aniscoupons:35860": {
+      "channel_msg_id": 4048,
+      "product_id": "1005005905462505",
+      "title": "FIFINE AM8 USB/XLR Dynamic Microphone",
+      "channel": "aniscoupons",
+      "source_msg_id": 35860,
+      "price": 48.4,
+      "timestamp": 1795863266.3727748,
+      "status": "ACTIVE"
+    },
+    "aniscoupons:35862": {
+      "channel_msg_id": 4049,
+      "product_id": "1005008060391372",
+      "title": "Fifine Gaming Headset H6",
+      "channel": "aniscoupons",
+      "source_msg_id": 35862,
+      "price": 30.9,
+      "timestamp": 1795863272.6153924,
+      "status": "ACTIVE"
+    },
+    "aniscoupons:35863": {
+      "channel_msg_id": 4050,
+      "product_id": "1005005543641427",
+      "title": "FIFINE H3 Gaming Headset",
+      "channel": "aniscoupons",
+      "source_msg_id": 35863,
+      "price": 29.0,
+      "timestamp": 1795863278.4639022,
+      "status": "ACTIVE"
+    },
+    "aniscoupons:35864": {
+      "channel_msg_id": 4051,
+      "product_id": "1005013399086495",
+      "title": "ONEPLUS 16 12/256GB",
+      "channel": "aniscoupons",
+      "source_msg_id": 35864,
+      "price": 791.0,
+      "timestamp": 1795863286.9074082,
+      "status": "ACTIVE"
     }
   },
   "schedule_config": {
@@ -37186,17 +37266,17 @@
     "current_interval_minutes": 5,
     "is_paused": false,
     "night_mode_enabled": true,
-    "last_deal_post_time": 1795863136.114049,
+    "last_deal_post_time": 1795863290.2270477,
     "night_start_hour_dz": 0,
     "night_end_hour_dz": 8,
     "night_pause_enabled": true,
-    "last_sweep_time": 1795863149.569469,
+    "last_sweep_time": 1795863312.9744282,
     "last_sweep_times": {
-      "algeria": 1795863136.0852513,
-      "france": 1795863149.569469
+      "algeria": 1795863290.176662,
+      "france": 1795863312.9744282
     },
     "last_deal_post_times": {
-      "algeria": 1795863136.114049
+      "algeria": 1795863290.2270477
     }
   },
   "last_coin_reminder_time": 1795828812.983117,
@@ -37707,7 +37787,7 @@
     "1005011550075220": "ecksdeal",
     "1005009806856302": "aniscoupons",
     "1005009980316035": "ecksdeal",
-    "1005005905462505": "zedstoreonline",
+    "1005005905462505": "aniscoupons",
     "1005008248133489": "lodydeals",
     "1005008684239370": "ecksdeal",
     "1005011583202464": "ecksdeal",
@@ -37884,7 +37964,7 @@
     "1005007038130594": "lodydeals",
     "1005008248187128": "lodydeals",
     "1005013053381984": "aniscoupons",
-    "1005008060391372": "bnddeals",
+    "1005008060391372": "aniscoupons",
     "1005010209911111": "bnddeals",
     "1005008295555234": "lodydeals",
     "1005008645323478": "zedstoreonline",
@@ -38126,7 +38206,7 @@
     "1005012987957842": "lodydeals",
     "1005012172859239": "zedstoreonline",
     "1005006648408257": "zedstoreonline",
-    "1005005543641427": "zedstoreonline",
+    "1005005543641427": "aniscoupons",
     "COUPONBULLETIN_zedstoreonline_40618": "zedstoreonline",
     "1005013266074956": "zedstoreonline",
     "1005013281520484": "zedstoreonline",
@@ -38649,7 +38729,7 @@
     "Anker 45W Smart Display USB-C Fast Charger – PD Quick Charge": "zedstoreonline",
     "IQOO 15T": "aniscoupons",
     "Soundcore by Anker Life Q30": "aniscoupons",
-    "FIFINE AM8 USB/XLR Dynamic Microphone": "zedstoreonline",
+    "FIFINE AM8 USB/XLR Dynamic Microphone": "aniscoupons",
     "MAONO DGM20 USB Gaming Microphone": "aniscoupons",
     "MAONO PD100W USB Wireless Dynamic Microphone Cardioid Mic 50m Range": "aniscoupons",
     "CUSU RAM DDR4 RGB 8x2 3200Mhz": "bnddeals",
@@ -39437,7 +39517,7 @@
     "POCO Pad X1 8/512": "zedstoreonline",
     "Fifine H6 Dynamic RGB Gaming": "bnddeals",
     "ميكسر صوت احترافي FIFINE AmpliGame SC3W مع 4 قنوات ومدخل XLR": "zedstoreonline",
-    "FIFINE H3 Gaming Headset": "zedstoreonline",
+    "FIFINE H3 Gaming Headset": "aniscoupons",
     "🔥": "aniscoupons",
     "vivo x500 pro max 12/256": "zedstoreonline",
     "HUAWEI Pura 90s Pro 12/256": "zedstoreonline",
@@ -40334,9 +40414,6 @@
   "published_deals_history": {},
   "settings": {},
   "handled_post_keys": [
-    "aniscoupons:35024",
-    "zedstoreonline:40270",
-    "aniscoupons:35026",
     "aniscoupons:35032",
     "zedstoreonline:40274",
     "zedstoreonline:40275",
@@ -41333,7 +41410,10 @@
     "aniscoupons:35849",
     "aniscoupons:35850",
     "aniscoupons:35851",
-    "aniscoupons:35852"
+    "aniscoupons:35852",
+    "aniscoupons:35856",
+    "aniscoupons:35858",
+    "aniscoupons:35861"
   ],
   "last_france_cross_promo_time": 1795757211.9224837,
   "next_france_cross_promo_interval_seconds": 197705,
@@ -42102,6 +42182,11 @@
         "channel": "bnddeals",
         "ts": 1795862638.205594,
         "price": 79.0
+      },
+      {
+        "channel": "aniscoupons",
+        "ts": 1795863256.1247773,
+        "price": 79.6
       }
     ],
     "1005013406777246": [
@@ -42116,6 +42201,11 @@
         "channel": "zedstoreonline",
         "ts": 1795863049.2305517,
         "price": 35.9
+      },
+      {
+        "channel": "aniscoupons",
+        "ts": 1795863269.0423274,
+        "price": 37.5
       }
     ],
     "1005008518280704": [
@@ -42173,6 +42263,11 @@
         "channel": "zedstoreonline",
         "ts": 1795863088.5689633,
         "price": 119.5
+      },
+      {
+        "channel": "aniscoupons",
+        "ts": 1795863249.0685005,
+        "price": 119.5
       }
     ],
     "1005009313079431": [
@@ -42215,6 +42310,62 @@
         "channel": "bnddeals",
         "ts": 1795863131.526432,
         "price": 115.6
+      }
+    ],
+    "1005010485068924": [
+      {
+        "channel": "zedstoreonline",
+        "ts": 1795863233.798657,
+        "price": 21.4
+      }
+    ],
+    "1005006990064696": [
+      {
+        "channel": "aniscoupons",
+        "ts": 1795863240.8563564,
+        "price": 42.1
+      }
+    ],
+    "1005012172081619": [
+      {
+        "channel": "aniscoupons",
+        "ts": 1795863249.8445172,
+        "price": 22.49
+      }
+    ],
+    "1005009120961416": [
+      {
+        "channel": "aniscoupons",
+        "ts": 1795863257.345674,
+        "price": 212.0
+      }
+    ],
+    "1005005905462505": [
+      {
+        "channel": "aniscoupons",
+        "ts": 1795863263.156648,
+        "price": 48.4
+      }
+    ],
+    "1005008060391372": [
+      {
+        "channel": "aniscoupons",
+        "ts": 1795863269.9338396,
+        "price": 30.9
+      }
+    ],
+    "1005005543641427": [
+      {
+        "channel": "aniscoupons",
+        "ts": 1795863275.6017697,
+        "price": 29.0
+      }
+    ],
+    "1005013399086495": [
+      {
+        "channel": "aniscoupons",
+        "ts": 1795863284.2186337,
+        "price": 791.0
       }
     ]
   },
