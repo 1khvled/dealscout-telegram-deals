@@ -1140,7 +1140,7 @@
     "1005009497821240": 1791117948.6585228,
     "1005011925142821": 1794563445.89714,
     "9998883864": 1791063864.5866926,
-    "1005010536089199": 1795180451.4710355,
+    "1005010536089199": 1795864699.9261065,
     "1005012385221205": 1791102050.1835058,
     "1005012743092233": 1791104461.903693,
     "1005007805497968": 1795806391.8729615,
@@ -4265,7 +4265,7 @@
     "Bicycle Pump 80 PSI": 1794263702.59817,
     "Portable Hair Clipper": 1795364091.7842977,
     "Inphic PG1 RGB Wired Gaming Mouse": 1794742126.4762356,
-    "Anker Q20i Hybrid Active": 1794999336.5179884,
+    "Anker Q20i Hybrid Active": 1795864699.9261065,
     "CUSU CV3500Q 2TB M.2": 1794305012.9961731,
     "MACHENIKE G5Pro Max SE With Charging Dock": 1794999150.7012253,
     "Xiaoxin Pad Pro GT (8/256)": 1795863112.709904,
@@ -4669,7 +4669,6 @@
     "لاتنسى تحويل دولة التطبيق الى كندا": 1795863974.7843153
   },
   "published_post_keys": [
-    "aniscoupons:35053",
     "aniscoupons:35055",
     "aniscoupons:35056",
     "aniscoupons:35057",
@@ -5668,15 +5667,16 @@
     "ecksdeal:6164",
     "aniscoupons:35876",
     "ecksdeal:6166",
-    "aniscoupons:35877"
+    "aniscoupons:35877",
+    "aniscoupons:35878"
   ],
   "last_disclaimer_time": 1795735529.6558404,
   "last_calendar_time": 1795782506.7435975,
-  "last_run_time": 1795864349.3519306,
+  "last_run_time": 1795864699.9261065,
   "monitored_channels": {
     "ecksdeal": {
-      "last_message_id": 6167,
-      "last_check_time": 1795864513.2208622
+      "last_message_id": 6168,
+      "last_check_time": 1795864695.4561608
     },
     "lodydeals": {
       "last_message_id": 47015,
@@ -5703,8 +5703,8 @@
       "last_check_time": 1795863429.3074756
     },
     "aniscoupons": {
-      "last_message_id": 35877,
-      "last_check_time": 1795864351.485166
+      "last_message_id": 35878,
+      "last_check_time": 1795864702.0085359
     },
     "bnddeals": {
       "last_message_id": 51451,
@@ -5843,7 +5843,7 @@
     "1005010266413614": 276.0,
     "1005009497821240": 24.73,
     "1005011925142821": 258.5,
-    "1005010536089199": 33.6,
+    "1005010536089199": 33.64,
     "1005012385221205": 13.27,
     "1005013223462188": 13.5,
     "1005012743092233": 24.37,
@@ -37402,6 +37402,16 @@
       "price": 338.2,
       "timestamp": 1795864349.3519306,
       "status": "ACTIVE"
+    },
+    "aniscoupons:35878": {
+      "channel_msg_id": 4066,
+      "product_id": "1005010536089199",
+      "title": "Anker Q20i Hybrid Active",
+      "channel": "aniscoupons",
+      "source_msg_id": 35878,
+      "price": 33.64,
+      "timestamp": 1795864699.9261065,
+      "status": "ACTIVE"
     }
   },
   "schedule_config": {
@@ -37410,17 +37420,17 @@
     "current_interval_minutes": 5,
     "is_paused": false,
     "night_mode_enabled": true,
-    "last_deal_post_time": 1795864353.059851,
+    "last_deal_post_time": 1795864702.7804537,
     "night_start_hour_dz": 0,
     "night_end_hour_dz": 8,
     "night_pause_enabled": true,
-    "last_sweep_time": 1795864524.5928714,
+    "last_sweep_time": 1795864711.4232728,
     "last_sweep_times": {
-      "algeria": 1795864515.9729207,
-      "france": 1795864524.5928714
+      "algeria": 1795864702.744749,
+      "france": 1795864711.4232728
     },
     "last_deal_post_times": {
-      "algeria": 1795864353.059851
+      "algeria": 1795864702.7804537
     }
   },
   "last_coin_reminder_time": 1795828812.983117,
@@ -37563,7 +37573,7 @@
     "1005009497821240": "lodydeals",
     "1005011925142821": "aniscoupons",
     "9998883864": "test_channel",
-    "1005010536089199": "bnddeals",
+    "1005010536089199": "aniscoupons",
     "1005012385221205": "aniscoupons",
     "1005013223462188": "pcgamingpart",
     "1005005217734986": "pcgamingpart",
@@ -40560,7 +40570,6 @@
   "published_deals_history": {},
   "settings": {},
   "handled_post_keys": [
-    "lodydeals:46578",
     "lodydeals:46579",
     "lodydeals:46580",
     "lodydeals:46582",
@@ -41559,7 +41568,8 @@
     "aniscoupons:35875",
     "ecksdeal:6163",
     "ecksdeal:6165",
-    "ecksdeal:6167"
+    "ecksdeal:6167",
+    "ecksdeal:6168"
   ],
   "last_france_cross_promo_time": 1795757211.9224837,
   "next_france_cross_promo_interval_seconds": 197705,
@@ -42625,6 +42635,13 @@
         "channel": "aniscoupons",
         "ts": 1795864346.5183582,
         "price": 338.2
+      }
+    ],
+    "1005010536089199": [
+      {
+        "channel": "aniscoupons",
+        "ts": 1795864697.6813478,
+        "price": 33.64
       }
     ]
   },
