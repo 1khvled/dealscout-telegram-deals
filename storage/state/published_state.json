@@ -1738,7 +1738,7 @@
     "COUPONS_949f0159": 1794309459.0725908,
     "1005008046071240": 1794436007.5288515,
     "1005012083833079": 1794432872.6767933,
-    "1005012292809645": 1795087819.176533,
+    "1005012292809645": 1795868005.579076,
     "1005007495712340": 1794475814.3090613,
     "1005009104334975": 1795806397.1514552,
     "1005012474727998": 1794320674.833981,
@@ -4273,7 +4273,7 @@
     "Attack Shark X11": 1794852963.8236506,
     "Mic USB Microphone with RGB Modes Professional Condenser Mic for": 1794436007.5288515,
     "MAONO PD100W USB Wireless Dynamic": 1794432872.6767933,
-    "MAONO Wave T1 Mini Pro": 1795087819.176533,
+    "MAONO Wave T1 Mini Pro": 1795868005.579076,
     "FIFINE M9 Wireless Lavalier Microphone": 1794424903.9490352,
     "AULA WIN68 HE Gaming Mechanical Keyboard": 1794312953.1830955,
     "CMF Buds 2a ANC -42dB  السعر: 11.7": 1794312964.1163073,
@@ -4671,7 +4671,6 @@
     "Soundcore by Anker Space One": 1795867086.0074983
   },
   "published_post_keys": [
-    "aniscoupons:35069",
     "aniscoupons:35070",
     "aniscoupons:35071",
     "aniscoupons:35072",
@@ -5670,11 +5669,12 @@
     "aniscoupons:35884",
     "aniscoupons:35886",
     "aniscoupons:35887",
-    "aniscoupons:35888"
+    "aniscoupons:35888",
+    "aniscoupons:35889"
   ],
   "last_disclaimer_time": 1795735529.6558404,
   "last_calendar_time": 1795782506.7435975,
-  "last_run_time": 1795867635.8255944,
+  "last_run_time": 1795868005.579076,
   "monitored_channels": {
     "ecksdeal": {
       "last_message_id": 6168,
@@ -5705,8 +5705,8 @@
       "last_check_time": 1795867082.1510978
     },
     "aniscoupons": {
-      "last_message_id": 35888,
-      "last_check_time": 1795867637.9565494
+      "last_message_id": 35889,
+      "last_check_time": 1795868007.705621
     },
     "bnddeals": {
       "last_message_id": 51451,
@@ -6338,7 +6338,7 @@
     "1005010706691647": 14.07,
     "1005008046071240": 46.77,
     "1005012083833079": 57.9,
-    "1005012292809645": 37.52,
+    "1005012292809645": 37.57,
     "1005007495712340": 53.24,
     "1005009104334975": 8.7,
     "1005012474727998": 14.9,
@@ -37504,6 +37504,16 @@
       "price": 28.4,
       "timestamp": 1795867635.8255944,
       "status": "ACTIVE"
+    },
+    "aniscoupons:35889": {
+      "channel_msg_id": 4076,
+      "product_id": "1005012292809645",
+      "title": "MAONO Wave T1 Mini Pro",
+      "channel": "aniscoupons",
+      "source_msg_id": 35889,
+      "price": 37.57,
+      "timestamp": 1795868005.579076,
+      "status": "ACTIVE"
     }
   },
   "schedule_config": {
@@ -37512,17 +37522,17 @@
     "current_interval_minutes": 5,
     "is_paused": false,
     "night_mode_enabled": true,
-    "last_deal_post_time": 1795867639.1979237,
+    "last_deal_post_time": 1795868008.9443483,
     "night_start_hour_dz": 0,
     "night_end_hour_dz": 8,
     "night_pause_enabled": true,
-    "last_sweep_time": 1795867824.1726093,
+    "last_sweep_time": 1795868018.9113338,
     "last_sweep_times": {
-      "algeria": 1795867813.9369876,
-      "france": 1795867824.1726093
+      "algeria": 1795868008.887171,
+      "france": 1795868018.9113338
     },
     "last_deal_post_times": {
-      "algeria": 1795867639.1979237
+      "algeria": 1795868008.9443483
     }
   },
   "last_coin_reminder_time": 1795828812.983117,
@@ -38266,7 +38276,7 @@
     "COUPONS_949f01595a98": "bnddeals",
     "1005008046071240": "aniscoupons",
     "1005012083833079": "aniscoupons",
-    "1005012292809645": "lodydeals",
+    "1005012292809645": "aniscoupons",
     "1005007495712340": "lodydeals",
     "1005009104334975": "lodydeals",
     "1005012474727998": "zedstoreonline",
@@ -39469,7 +39479,7 @@
     "Attack Shark X11": "aniscoupons",
     "Mic USB Microphone with RGB Modes Professional Condenser Mic for": "aniscoupons",
     "MAONO PD100W USB Wireless Dynamic": "aniscoupons",
-    "MAONO Wave T1 Mini Pro": "lodydeals",
+    "MAONO Wave T1 Mini Pro": "aniscoupons",
     "FIFINE M9 Wireless Lavalier Microphone": "aniscoupons",
     "AULA WIN68 HE Gaming Mechanical Keyboard": "zedstoreonline",
     "CMF Buds 2a ANC -42dB  السعر: 11.7": "bnddeals",
@@ -42794,6 +42804,13 @@
         "channel": "aniscoupons",
         "ts": 1795867633.507208,
         "price": 28.4
+      }
+    ],
+    "1005012292809645": [
+      {
+        "channel": "aniscoupons",
+        "ts": 1795868002.7304697,
+        "price": 37.57
       }
     ]
   },
