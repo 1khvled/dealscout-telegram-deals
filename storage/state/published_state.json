@@ -1410,7 +1410,7 @@
     "1005013254642366": 1793995361.9589899,
     "1005012725188908": 1793467076.3852122,
     "1005013224329670": 1793380335.1434295,
-    "1005010039614599": 1795688028.1630735,
+    "1005010039614599": 1795868922.0552015,
     "1005004828097942": 1793380362.9885337,
     "1005006495503659": 1795867635.8255944,
     "1005013205488777": 1793380404.996831,
@@ -3774,7 +3774,7 @@
     "UGREEN 150W Car Charger – Dual Retractable Cables, 3 USB-C + 1 USB-A": 1793467076.3852122,
     "Anker 45W Smart Display USB-C Fast Charger – PD Quick Charge": 1793380335.1434295,
     "IQOO 15T": 1793380343.534803,
-    "Soundcore by Anker Life Q30": 1793380356.1638675,
+    "Soundcore by Anker Life Q30": 1795868922.0552015,
     "FIFINE AM8 USB/XLR Dynamic Microphone": 1795863266.3727748,
     "MAONO DGM20 USB Gaming Microphone": 1795867635.8255944,
     "MAONO PD100W USB Wireless Dynamic Microphone Cardioid Mic 50m Range": 1793380404.996831,
@@ -4671,7 +4671,6 @@
     "Soundcore by Anker Space One": 1795867086.0074983
   },
   "published_post_keys": [
-    "aniscoupons:35072",
     "aniscoupons:35074",
     "aniscoupons:35075",
     "aniscoupons:35076",
@@ -5670,11 +5669,12 @@
     "aniscoupons:35888",
     "aniscoupons:35889",
     "aniscoupons:35890",
-    "aniscoupons:35891"
+    "aniscoupons:35891",
+    "aniscoupons:35892"
   ],
   "last_disclaimer_time": 1795735529.6558404,
   "last_calendar_time": 1795782506.7435975,
-  "last_run_time": 1795868655.3809178,
+  "last_run_time": 1795868922.0552015,
   "monitored_channels": {
     "ecksdeal": {
       "last_message_id": 6168,
@@ -5705,8 +5705,8 @@
       "last_check_time": 1795867082.1510978
     },
     "aniscoupons": {
-      "last_message_id": 35891,
-      "last_check_time": 1795868657.5117917
+      "last_message_id": 35892,
+      "last_check_time": 1795868924.1851852
     },
     "bnddeals": {
       "last_message_id": 51451,
@@ -6039,7 +6039,7 @@
     "1005013254642366": 23.5,
     "1005012725188908": 35.4,
     "1005013224329670": 21.1,
-    "1005010039614599": 42.2,
+    "1005010039614599": 43.24,
     "1005004828097942": 58.4,
     "1005006495503659": 28.4,
     "1005013205488777": 57.3,
@@ -37534,6 +37534,16 @@
       "price": 240.7,
       "timestamp": 1795868655.3809178,
       "status": "ACTIVE"
+    },
+    "aniscoupons:35892": {
+      "channel_msg_id": 4079,
+      "product_id": "1005010039614599",
+      "title": "Soundcore by Anker Life Q30",
+      "channel": "aniscoupons",
+      "source_msg_id": 35892,
+      "price": 43.24,
+      "timestamp": 1795868922.0552015,
+      "status": "ACTIVE"
     }
   },
   "schedule_config": {
@@ -37542,17 +37552,17 @@
     "current_interval_minutes": 5,
     "is_paused": false,
     "night_mode_enabled": true,
-    "last_deal_post_time": 1795868658.640728,
+    "last_deal_post_time": 1795868925.326242,
     "night_start_hour_dz": 0,
     "night_end_hour_dz": 8,
     "night_pause_enabled": true,
-    "last_sweep_time": 1795868750.5822272,
+    "last_sweep_time": 1795868935.6314652,
     "last_sweep_times": {
-      "algeria": 1795868738.431221,
-      "france": 1795868750.5822272
+      "algeria": 1795868925.268587,
+      "france": 1795868935.6314652
     },
     "last_deal_post_times": {
-      "algeria": 1795868658.640728
+      "algeria": 1795868925.326242
     }
   },
   "last_coin_reminder_time": 1795828812.983117,
@@ -37979,7 +37989,7 @@
     "1005013254642366": "zedstoreonline",
     "1005012725188908": "zedstoreonline",
     "1005013224329670": "zedstoreonline",
-    "1005010039614599": "zedstoreonline",
+    "1005010039614599": "aniscoupons",
     "1005004828097942": "aniscoupons",
     "1005006495503659": "aniscoupons",
     "1005013205488777": "aniscoupons",
@@ -42845,6 +42855,13 @@
         "channel": "aniscoupons",
         "ts": 1795868652.9573522,
         "price": 240.7
+      }
+    ],
+    "1005010039614599": [
+      {
+        "channel": "aniscoupons",
+        "ts": 1795868919.8229005,
+        "price": 43.24
       }
     ]
   },
